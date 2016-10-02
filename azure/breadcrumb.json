@@ -1,0 +1,26 @@
+[{  
+        "toc_title":"Docs",
+        "href":"/",
+        "level":1,
+        "children":[{  
+                "href":"/azure/",
+                "homepage":"/azure/",
+                "toc_title":"Azure PowerShell Reference",
+                "level":2,
+                "children":[{
+                        "href":"/azure/azureps-cmdlets-docs/",
+                        "homepage":"/azure/azureps-cmdlets-docs/",
+                        "toc_title":"Azure PowerShell",
+                        "level":3
+                    },
+                    {
+                        "href":"/azure/Azure AD Cmdlets/",
+                        "homepage":"/azure/Azure AD Cmdlets/",
+                        "toc_title":"Azure AD",
+                        "level":3
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -3,7 +3,7 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md","**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -16,7 +16,8 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "breadcrumb.json"
         ],
         "exclude": [
           "**/obj/**",
@@ -27,7 +28,12 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+        "breadcrumb_path": "/azure/breadcrumb.json",
+        "ms.prod": "powershell",
+        "ms.service": "Azure PowerShell",
+        "ms.technology": "Azure PowerShell"
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "powershell"

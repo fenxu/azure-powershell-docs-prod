@@ -5,21 +5,6 @@
   "docsets_to_publish": [
     {
       "docset_name": "azureps-cmdlets-docs",
-      "build_source_folder": "azureps-cmdlets-docs",
-      "build_output_subfolder": "powershell",
-      "locale": "en-us",
-      "version": 0,
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "docset_name": "azure",
       "build_source_folder": "azure",
       "build_output_subfolder": "powershell",
       "locale": "en-us",
@@ -28,10 +13,11 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "AzureCli": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "customized_template_paths": ["azurecli/azurecli"]
     }
   ],
   "notification_subscribers": [],
@@ -43,6 +29,14 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
+    }
+  ],
+  "dependent_packages": [
+    {
+      "path_to_root": "azurecli",
+      "id": "opbuild.templates.azurecli",
+      "version": "latest",
+      "nuget_feed": "https://www.myget.org/F/op/api/v2"
     }
   ]
 }

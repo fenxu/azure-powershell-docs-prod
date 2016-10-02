@@ -1,0 +1,55 @@
+- name: AzureAD
+  items:
+    - name: v1.0
+      href: ../AzureAD/v1.0/AzureAD.md
+      items:
+        - name: Disable-MsolDevice
+          href: ../AzureAD/v1.0/Disable-MsolDevice.md
+        - name: Enable-MsolDevice
+          href: ../AzureAD/v1.0/Enable-MsolDevice.md
+        - name: Get-MsolAllSettings
+          href: ../AzureAD/v1.0/Get-MsolAllSettings.md
+        - name: Get-MsolAllSettingTemplate
+          href: ../AzureAD/v1.0/Get-MsolAllSettingTemplate.md
+        - name: Get-MsolDevice
+          href: ../AzureAD/v1.0/Get-MsolDevice.md
+        - name: Get-MsolDeviceRegistrationServicePolicy
+          href: ../AzureAD/v1.0/Get-MsolDeviceRegistrationServicePolicy.md
+        - name: Get-MsolDirSyncConfiguration
+          href: ../AzureAD/v1.0/Get-MsolDirSyncConfiguration.md
+        - name: Get-MsolDirSyncFeatures
+          href: ../AzureAD/v1.0/Get-MsolDirSyncFeatures.md
+        - name: Get-MsolDirSyncProvisioningError
+          href: ../AzureAD/v1.0/Get-MsolDirSyncProvisioningError.md
+        - name: Get-MsolHasObjectsWithDirSyncProvisioningErrors
+          href: ../AzureAD/v1.0/Get-MsolHasObjectsWithDirSyncProvisioningErrors.md
+        - name: Get-MsolSettings
+          href: ../AzureAD/v1.0/Get-MsolSettings.md
+        - name: Get-MsolSettingTemplate
+          href: ../AzureAD/v1.0/Get-MsolSettingTemplate.md
+        - name: Get-MsolUserByStrongAuthentication
+          href: ../AzureAD/v1.0/Get-MsolUserByStrongAuthentication.md
+        - name: MamlModule
+          href: ../AzureAD/v1.0/MamlModule.md
+        - name: New-MsolSettings
+          href: ../AzureAD/v1.0/New-MsolSettings.md
+        - name: New-MsolWellKnownGroup
+          href: ../AzureAD/v1.0/New-MsolWellKnownGroup.md
+        - name: Remove-MsolApplicationPassword
+          href: ../AzureAD/v1.0/Remove-MsolApplicationPassword.md
+        - name: Remove-MsolDevice
+          href: ../AzureAD/v1.0/Remove-MsolDevice.md
+        - name: Remove-MsolForeignGroupFromRole
+          href: ../AzureAD/v1.0/Remove-MsolForeignGroupFromRole.md
+        - name: Remove-MsolSettings
+          href: ../AzureAD/v1.0/Remove-MsolSettings.md
+        - name: Reset-MsolStrongAuthenticationMethodByUpn
+          href: ../AzureAD/v1.0/Reset-MsolStrongAuthenticationMethodByUpn.md
+        - name: Set-MsolDeviceRegistrationServicePolicy
+          href: ../AzureAD/v1.0/Set-MsolDeviceRegistrationServicePolicy.md
+        - name: Set-MsolDirSyncConfiguration
+          href: ../AzureAD/v1.0/Set-MsolDirSyncConfiguration.md
+        - name: Set-MsolDirSyncFeature
+          href: ../AzureAD/v1.0/Set-MsolDirSyncFeature.md
+        - name: Set-MsolSettings
+          href: ../AzureAD/v1.0/Set-MsolSettings.md
