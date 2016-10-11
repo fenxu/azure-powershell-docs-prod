@@ -2,12 +2,12 @@
 external help file: RMAzure_Apimanagement.xml
 online version: e067ded3-a2e3-4d53-8628-0ebbafa62721
 schema: 2.0.0
-updated_at: 10/11/2016 5:41 AM
+updated_at: 10/11/2016 6:44 AM
 ms.date: 10/11/2016
 ms.topic: reference
-source_repo: 
-source_branch: 
-gitcommit: 
+source_repo: https://github.com/azure/azure-docs-powershell
+source_branch: master
+gitcommit: https://github.com/azure/azure-docs-powershell/blob/1457b00e4be43f52e047ac6fd4ed87f3565c5548/azureps-cmdlets-docs/Resource%20Manager/API%20Management%20Cmdlets/v1.0/Update-AzureRmApiManagementDeployment.md
 ---
 
 # Update-AzureRmApiManagementDeployment

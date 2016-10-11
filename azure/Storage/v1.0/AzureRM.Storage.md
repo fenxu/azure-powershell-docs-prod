@@ -4,12 +4,12 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 10/11/2016 5:41 AM
+updated_at: 10/11/2016 6:44 AM
 ms.date: 10/11/2016
 ms.topic: conceptual
-source_repo: 
-source_branch: 
-gitcommit: 
+source_repo: https://github.com/azure/azure-docs-powershell
+source_branch: master
+gitcommit: https://github.com/azure/azure-docs-powershell/blob/d76a6b059167b430e9ca2cceee5c96a9017d4316/azureps-cmdlets-docs/Storage/v1.0/AzureRM.Storage.md
 ---
 
 # AzureRM.Storage Module

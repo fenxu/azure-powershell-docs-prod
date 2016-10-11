@@ -2,12 +2,12 @@
 external help file: RMAzure_Automation.xml
 online version: 73a4a9ba-477c-41e6-9193-2be97182e07d
 schema: 2.0.0
-updated_at: 10/11/2016 5:41 AM
+updated_at: 10/11/2016 6:44 AM
 ms.date: 10/11/2016
 ms.topic: reference
-source_repo: 
-source_branch: 
-gitcommit: 
+source_repo: https://github.com/azure/azure-docs-powershell
+source_branch: master
+gitcommit: https://github.com/azure/azure-docs-powershell/blob/1457b00e4be43f52e047ac6fd4ed87f3565c5548/azureps-cmdlets-docs/Resource%20Manager/Automation%20Cmdlets/v0.9.8/Remove-AzureRMAutomationSchedule.md
 ---
 
 # Remove-AzureRMAutomationSchedule
