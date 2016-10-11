@@ -1,3 +1,373 @@
+- name: Active Directory
+  items:
+    - name: v1.0
+      href: ../Active Directory/v1.0/AzureRM.API Management.md
+      items:
+        - name: Add-AzureRmApiManagementRegion
+          href: ../Active Directory/v1.0/Add-AzureRmApiManagementRegion.md
+    - name: v2.0
+      href: ../Active Directory/v2.0/AzureRM.API Management.md
+      items:
+        - name: Add-AzureRmApiManagementRegion
+          href: ../Active Directory/v2.0/Add-AzureRmApiManagementRegion.md
+- name: Resource Manager
+  items:
+    - name: API Management Cmdlets
+      items:
+        - name: v0.9.8
+          href: ../Resource Manager/API Management Cmdlets/v0.9.8/AzureRM.API Management.md
+          items:
+            - name: Add-AzureRmApiManagementRegion
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Add-AzureRmApiManagementRegion.md
+            - name: Backup-AzureRmApiManagement
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Backup-AzureRmApiManagement.md
+            - name: Get-AzureRmApiManagement
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Get-AzureRmApiManagement.md
+            - name: Get-AzureRmApiManagementSsoToken
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Get-AzureRmApiManagementSsoToken.md
+            - name: Import-AzureRmApiManagementHostnameCertificate
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Import-AzureRmApiManagementHostnameCertificate.md
+            - name: New-AzureRmApiManagement
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/New-AzureRmApiManagement.md
+            - name: New-AzureRmApiManagementHostnameConfiguration
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/New-AzureRmApiManagementHostnameConfiguration.md
+            - name: New-AzureRmApiManagementVirtualNetwork
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/New-AzureRmApiManagementVirtualNetwork.md
+            - name: Remove-AzureRmApiManagement
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Remove-AzureRmApiManagement.md
+            - name: Remove-AzureRmApiManagementRegion
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Remove-AzureRmApiManagementRegion.md
+            - name: Restore-AzureRmApiManagement
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Restore-AzureRmApiManagement.md
+            - name: Set-AzureRmApiManagementHostnames
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Set-AzureRmApiManagementHostnames.md
+            - name: Set-AzureRmApiManagementVirtualNetworks
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Set-AzureRmApiManagementVirtualNetworks.md
+            - name: Update-AzureRmApiManagementDeployment
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Update-AzureRmApiManagementDeployment.md
+            - name: Update-AzureRmApiManagementRegion
+              href: ../Resource Manager/API Management Cmdlets/v0.9.8/Update-AzureRmApiManagementRegion.md
+        - name: v1.0
+          href: ../Resource Manager/API Management Cmdlets/v1.0/AzureRM.API Management.md
+          items:
+            - name: Add-AzureRmApiManagementRegion
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Add-AzureRmApiManagementRegion.md
+            - name: Backup-AzureRmApiManagement
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Backup-AzureRmApiManagement.md
+            - name: Get-AzureRmApiManagement
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Get-AzureRmApiManagement.md
+            - name: Get-AzureRmApiManagementSsoToken
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Get-AzureRmApiManagementSsoToken.md
+            - name: Import-AzureRmApiManagementHostnameCertificate
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Import-AzureRmApiManagementHostnameCertificate.md
+            - name: New-AzureRmApiManagement
+              href: ../Resource Manager/API Management Cmdlets/v1.0/New-AzureRmApiManagement.md
+            - name: New-AzureRmApiManagementHostnameConfiguration
+              href: ../Resource Manager/API Management Cmdlets/v1.0/New-AzureRmApiManagementHostnameConfiguration.md
+            - name: New-AzureRmApiManagementVirtualNetwork
+              href: ../Resource Manager/API Management Cmdlets/v1.0/New-AzureRmApiManagementVirtualNetwork.md
+            - name: Remove-AzureRmApiManagement
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Remove-AzureRmApiManagement.md
+            - name: Remove-AzureRmApiManagementRegion
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Remove-AzureRmApiManagementRegion.md
+            - name: Restore-AzureRmApiManagement
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Restore-AzureRmApiManagement.md
+            - name: Set-AzureRmApiManagementHostnames
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Set-AzureRmApiManagementHostnames.md
+            - name: Set-AzureRmApiManagementVirtualNetworks
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Set-AzureRmApiManagementVirtualNetworks.md
+            - name: Update-AzureRmApiManagementDeployment
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Update-AzureRmApiManagementDeployment.md
+            - name: Update-AzureRmApiManagementRegion
+              href: ../Resource Manager/API Management Cmdlets/v1.0/Update-AzureRmApiManagementRegion.md
+    - name: Automation Cmdlets
+      items:
+        - name: v0.9.8
+          href: ../Resource Manager/Automation Cmdlets/v0.9.8/AzureRM.Automation.md
+          items:
+            - name: Export-AzureRmAutomationDscConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Export-AzureRmAutomationDscConfiguration.md
+            - name: Export-AzureRmAutomationDscNodeReportContent
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Export-AzureRmAutomationDscNodeReportContent.md
+            - name: Export-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Export-AzureRMAutomationRunbook.md
+            - name: Get-AzureRmAutomationAccount
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRmAutomationAccount.md
+            - name: Get-AzureRMAutomationCertificate
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRMAutomationCertificate.md
+            - name: Get-AzureRMAutomationConnection
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRMAutomationConnection.md
+            - name: Get-AzureRMAutomationCredential
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRMAutomationCredential.md
+            - name: Get-AzureRmAutomationDscCompilationJob
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRmAutomationDscCompilationJob.md
+            - name: Get-AzureRmAutomationDscCompilationJobOutput
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRmAutomationDscCompilationJobOutput.md
+            - name: Get-AzureRmAutomationDscConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRmAutomationDscConfiguration.md
+            - name: Get-AzureRmAutomationDscNode
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRmAutomationDscNode.md
+            - name: Get-AzureRmAutomationDscNodeConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRmAutomationDscNodeConfiguration.md
+            - name: Get-AzureRmAutomationDscNodeReport
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRmAutomationDscNodeReport.md
+            - name: Get-AzureRmAutomationDscOnboardingMetaconfig
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRmAutomationDscOnboardingMetaconfig.md
+            - name: Get-AzureRMAutomationHybridWorkerGroup
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRMAutomationHybridWorkerGroup.md
+            - name: Get-AzureRMAutomationJob
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRMAutomationJob.md
+            - name: Get-AzureRMAutomationJobOutput
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRMAutomationJobOutput.md
+            - name: Get-AzureRmAutomationJobOutputRecord
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRmAutomationJobOutputRecord.md
+            - name: Get-AzureRmAutomationModule
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRmAutomationModule.md
+            - name: Get-AzureRmAutomationRegistrationInfo
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRmAutomationRegistrationInfo.md
+            - name: Get-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRMAutomationRunbook.md
+            - name: Get-AzureRMAutomationSchedule
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRMAutomationSchedule.md
+            - name: Get-AzureRMAutomationScheduledRunbook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRMAutomationScheduledRunbook.md
+            - name: Get-AzureRMAutomationVariable
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRMAutomationVariable.md
+            - name: Get-AzureRMAutomationWebhook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Get-AzureRMAutomationWebhook.md
+            - name: Import-AzureRmAutomationDscConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Import-AzureRmAutomationDscConfiguration.md
+            - name: Import-AzureRmAutomationDscNodeConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Import-AzureRmAutomationDscNodeConfiguration.md
+            - name: Import-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Import-AzureRMAutomationRunbook.md
+            - name: New-AzureRmAutomationAccount
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/New-AzureRmAutomationAccount.md
+            - name: New-AzureRMAutomationCertificate
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/New-AzureRMAutomationCertificate.md
+            - name: New-AzureRMAutomationConnection
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/New-AzureRMAutomationConnection.md
+            - name: New-AzureRMAutomationCredential
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/New-AzureRMAutomationCredential.md
+            - name: New-AzureRmAutomationKey
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/New-AzureRmAutomationKey.md
+            - name: New-AzureRmAutomationModule
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/New-AzureRmAutomationModule.md
+            - name: New-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/New-AzureRMAutomationRunbook.md
+            - name: New-AzureRMAutomationSchedule
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/New-AzureRMAutomationSchedule.md
+            - name: New-AzureRMAutomationVariable
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/New-AzureRMAutomationVariable.md
+            - name: New-AzureRMAutomationWebhook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/New-AzureRMAutomationWebhook.md
+            - name: Publish-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Publish-AzureRMAutomationRunbook.md
+            - name: Register-AzureRmAutomationDscNode
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Register-AzureRmAutomationDscNode.md
+            - name: Register-AzureRMAutomationScheduledRunbook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Register-AzureRMAutomationScheduledRunbook.md
+            - name: Remove-AzureRmAutomationAccount
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRmAutomationAccount.md
+            - name: Remove-AzureRMAutomationCertificate
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRMAutomationCertificate.md
+            - name: Remove-AzureRMAutomationConnection
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRMAutomationConnection.md
+            - name: Remove-AzureRmAutomationConnectionType
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRmAutomationConnectionType.md
+            - name: Remove-AzureRMAutomationCredential
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRMAutomationCredential.md
+            - name: Remove-AzureRmAutomationDscConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRmAutomationDscConfiguration.md
+            - name: Remove-AzureRmAutomationDscNodeConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRmAutomationDscNodeConfiguration.md
+            - name: Remove-AzureRmAutomationModule
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRmAutomationModule.md
+            - name: Remove-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRMAutomationRunbook.md
+            - name: Remove-AzureRMAutomationSchedule
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRMAutomationSchedule.md
+            - name: Remove-AzureRMAutomationVariable
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRMAutomationVariable.md
+            - name: Remove-AzureRMAutomationWebhook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Remove-AzureRMAutomationWebhook.md
+            - name: Resume-AzureRMAutomationJob
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Resume-AzureRMAutomationJob.md
+            - name: Set-AzureRmAutomationAccount
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Set-AzureRmAutomationAccount.md
+            - name: Set-AzureRMAutomationCertificate
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Set-AzureRMAutomationCertificate.md
+            - name: Set-AzureRMAutomationConnectionFieldValue
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Set-AzureRMAutomationConnectionFieldValue.md
+            - name: Set-AzureRMAutomationCredential
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Set-AzureRMAutomationCredential.md
+            - name: Set-AzureRmAutomationDscNode
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Set-AzureRmAutomationDscNode.md
+            - name: Set-AzureRmAutomationModule
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Set-AzureRmAutomationModule.md
+            - name: Set-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Set-AzureRMAutomationRunbook.md
+            - name: Set-AzureRMAutomationSchedule
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Set-AzureRMAutomationSchedule.md
+            - name: Set-AzureRMAutomationVariable
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Set-AzureRMAutomationVariable.md
+            - name: Set-AzureRMAutomationWebhook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Set-AzureRMAutomationWebhook.md
+            - name: Start-AzureRmAutomationDscCompilationJob
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Start-AzureRmAutomationDscCompilationJob.md
+            - name: Start-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Start-AzureRMAutomationRunbook.md
+            - name: Stop-AzureRMAutomationJob
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Stop-AzureRMAutomationJob.md
+            - name: Suspend-AzureRMAutomationJob
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Suspend-AzureRMAutomationJob.md
+            - name: Unregister-AzureRmAutomationDscNode
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Unregister-AzureRmAutomationDscNode.md
+            - name: Unregister-AzureRMAutomationScheduledRunbook
+              href: ../Resource Manager/Automation Cmdlets/v0.9.8/Unregister-AzureRMAutomationScheduledRunbook.md
+        - name: v1.0
+          href: ../Resource Manager/Automation Cmdlets/v1.0/AzureRM.Automation.md
+          items:
+            - name: Export-AzureRmAutomationDscConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Export-AzureRmAutomationDscConfiguration.md
+            - name: Export-AzureRmAutomationDscNodeReportContent
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Export-AzureRmAutomationDscNodeReportContent.md
+            - name: Export-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Export-AzureRMAutomationRunbook.md
+            - name: Get-AzureRmAutomationAccount
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRmAutomationAccount.md
+            - name: Get-AzureRMAutomationCertificate
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRMAutomationCertificate.md
+            - name: Get-AzureRMAutomationConnection
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRMAutomationConnection.md
+            - name: Get-AzureRMAutomationCredential
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRMAutomationCredential.md
+            - name: Get-AzureRmAutomationDscCompilationJob
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRmAutomationDscCompilationJob.md
+            - name: Get-AzureRmAutomationDscCompilationJobOutput
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRmAutomationDscCompilationJobOutput.md
+            - name: Get-AzureRmAutomationDscConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRmAutomationDscConfiguration.md
+            - name: Get-AzureRmAutomationDscNode
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRmAutomationDscNode.md
+            - name: Get-AzureRmAutomationDscNodeConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRmAutomationDscNodeConfiguration.md
+            - name: Get-AzureRmAutomationDscNodeReport
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRmAutomationDscNodeReport.md
+            - name: Get-AzureRmAutomationDscOnboardingMetaconfig
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRmAutomationDscOnboardingMetaconfig.md
+            - name: Get-AzureRMAutomationHybridWorkerGroup
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRMAutomationHybridWorkerGroup.md
+            - name: Get-AzureRMAutomationJob
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRMAutomationJob.md
+            - name: Get-AzureRMAutomationJobOutput
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRMAutomationJobOutput.md
+            - name: Get-AzureRmAutomationJobOutputRecord
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRmAutomationJobOutputRecord.md
+            - name: Get-AzureRmAutomationModule
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRmAutomationModule.md
+            - name: Get-AzureRmAutomationRegistrationInfo
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRmAutomationRegistrationInfo.md
+            - name: Get-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRMAutomationRunbook.md
+            - name: Get-AzureRMAutomationSchedule
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRMAutomationSchedule.md
+            - name: Get-AzureRMAutomationScheduledRunbook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRMAutomationScheduledRunbook.md
+            - name: Get-AzureRMAutomationVariable
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRMAutomationVariable.md
+            - name: Get-AzureRMAutomationWebhook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Get-AzureRMAutomationWebhook.md
+            - name: Import-AzureRmAutomationDscConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Import-AzureRmAutomationDscConfiguration.md
+            - name: Import-AzureRmAutomationDscNodeConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Import-AzureRmAutomationDscNodeConfiguration.md
+            - name: Import-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Import-AzureRMAutomationRunbook.md
+            - name: New-AzureRmAutomationAccount
+              href: ../Resource Manager/Automation Cmdlets/v1.0/New-AzureRmAutomationAccount.md
+            - name: New-AzureRMAutomationCertificate
+              href: ../Resource Manager/Automation Cmdlets/v1.0/New-AzureRMAutomationCertificate.md
+            - name: New-AzureRMAutomationConnection
+              href: ../Resource Manager/Automation Cmdlets/v1.0/New-AzureRMAutomationConnection.md
+            - name: New-AzureRMAutomationCredential
+              href: ../Resource Manager/Automation Cmdlets/v1.0/New-AzureRMAutomationCredential.md
+            - name: New-AzureRmAutomationKey
+              href: ../Resource Manager/Automation Cmdlets/v1.0/New-AzureRmAutomationKey.md
+            - name: New-AzureRmAutomationModule
+              href: ../Resource Manager/Automation Cmdlets/v1.0/New-AzureRmAutomationModule.md
+            - name: New-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/New-AzureRMAutomationRunbook.md
+            - name: New-AzureRMAutomationSchedule
+              href: ../Resource Manager/Automation Cmdlets/v1.0/New-AzureRMAutomationSchedule.md
+            - name: New-AzureRMAutomationVariable
+              href: ../Resource Manager/Automation Cmdlets/v1.0/New-AzureRMAutomationVariable.md
+            - name: New-AzureRMAutomationWebhook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/New-AzureRMAutomationWebhook.md
+            - name: Publish-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Publish-AzureRMAutomationRunbook.md
+            - name: Register-AzureRmAutomationDscNode
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Register-AzureRmAutomationDscNode.md
+            - name: Register-AzureRMAutomationScheduledRunbook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Register-AzureRMAutomationScheduledRunbook.md
+            - name: Remove-AzureRmAutomationAccount
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRmAutomationAccount.md
+            - name: Remove-AzureRMAutomationCertificate
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRMAutomationCertificate.md
+            - name: Remove-AzureRMAutomationConnection
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRMAutomationConnection.md
+            - name: Remove-AzureRmAutomationConnectionType
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRmAutomationConnectionType.md
+            - name: Remove-AzureRMAutomationCredential
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRMAutomationCredential.md
+            - name: Remove-AzureRmAutomationDscConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRmAutomationDscConfiguration.md
+            - name: Remove-AzureRmAutomationDscNodeConfiguration
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRmAutomationDscNodeConfiguration.md
+            - name: Remove-AzureRmAutomationModule
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRmAutomationModule.md
+            - name: Remove-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRMAutomationRunbook.md
+            - name: Remove-AzureRMAutomationSchedule
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRMAutomationSchedule.md
+            - name: Remove-AzureRMAutomationVariable
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRMAutomationVariable.md
+            - name: Remove-AzureRMAutomationWebhook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Remove-AzureRMAutomationWebhook.md
+            - name: Resume-AzureRMAutomationJob
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Resume-AzureRMAutomationJob.md
+            - name: Set-AzureRmAutomationAccount
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Set-AzureRmAutomationAccount.md
+            - name: Set-AzureRMAutomationCertificate
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Set-AzureRMAutomationCertificate.md
+            - name: Set-AzureRMAutomationConnectionFieldValue
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Set-AzureRMAutomationConnectionFieldValue.md
+            - name: Set-AzureRMAutomationCredential
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Set-AzureRMAutomationCredential.md
+            - name: Set-AzureRmAutomationDscNode
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Set-AzureRmAutomationDscNode.md
+            - name: Set-AzureRmAutomationModule
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Set-AzureRmAutomationModule.md
+            - name: Set-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Set-AzureRMAutomationRunbook.md
+            - name: Set-AzureRMAutomationSchedule
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Set-AzureRMAutomationSchedule.md
+            - name: Set-AzureRMAutomationVariable
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Set-AzureRMAutomationVariable.md
+            - name: Set-AzureRMAutomationWebhook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Set-AzureRMAutomationWebhook.md
+            - name: Start-AzureRmAutomationDscCompilationJob
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Start-AzureRmAutomationDscCompilationJob.md
+            - name: Start-AzureRMAutomationRunbook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Start-AzureRMAutomationRunbook.md
+            - name: Stop-AzureRMAutomationJob
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Stop-AzureRMAutomationJob.md
+            - name: Suspend-AzureRMAutomationJob
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Suspend-AzureRMAutomationJob.md
+            - name: Unregister-AzureRmAutomationDscNode
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Unregister-AzureRmAutomationDscNode.md
+            - name: Unregister-AzureRMAutomationScheduledRunbook
+              href: ../Resource Manager/Automation Cmdlets/v1.0/Unregister-AzureRMAutomationScheduledRunbook.md
 - name: Service Management
   items:
     - name: Antimalware Cmdlets

@@ -4,12 +4,12 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 9/30/2016 8:43 AM
-ms.date: 9/30/2016
+updated_at: 10/11/2016 5:41 AM
+ms.date: 10/11/2016
 ms.topic: conceptual
-source_repo: https://github.com/SummerSun/azure-docs-powershell-int
-source_branch: master
-gitcommit: https://github.com/SummerSun/azure-docs-powershell-int/blob/8903b0f1daa01932ac5fa167f377736de2df6709/azureps-cmdlets-docs/Service%20Management/Compute%20Cmdlets/v1.0/Azure.Compute.md
+source_repo: 
+source_branch: 
+gitcommit: 
 ---
 
 # Azure.Compute Module

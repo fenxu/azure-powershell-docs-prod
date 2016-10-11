@@ -2,12 +2,12 @@
 external help file: RMAzure_Automation.xml
 online version: 19472f94-5827-4878-a17a-d7bb10932861
 schema: 2.0.0
-updated_at: 9/30/2016 8:43 AM
-ms.date: 9/30/2016
+updated_at: 10/11/2016 5:41 AM
+ms.date: 10/11/2016
 ms.topic: reference
-source_repo: https://github.com/SummerSun/azure-docs-powershell-int
-source_branch: master
-gitcommit: https://github.com/SummerSun/azure-docs-powershell-int/blob/8903b0f1daa01932ac5fa167f377736de2df6709/azureps-cmdlets-docs/Resource%20Manager/Automation%20Cmdlets/v1.0/Set-AzureRmAutomationDscNode.md
+source_repo: 
+source_branch: 
+gitcommit: 
 ---
 
 # Set-AzureRmAutomationDscNode

@@ -2,12 +2,12 @@
 external help file: RMAzure_Automation.xml
 online version: a6dc9902-ad99-47f9-8212-d3d96146b180
 schema: 2.0.0
-updated_at: 9/30/2016 8:43 AM
-ms.date: 9/30/2016
+updated_at: 10/11/2016 5:41 AM
+ms.date: 10/11/2016
 ms.topic: reference
-source_repo: https://github.com/SummerSun/azure-docs-powershell-int
-source_branch: master
-gitcommit: https://github.com/SummerSun/azure-docs-powershell-int/blob/8903b0f1daa01932ac5fa167f377736de2df6709/azureps-cmdlets-docs/Resource%20Manager/Automation%20Cmdlets/v1.0/New-AzureRMAutomationVariable.md
+source_repo: 
+source_branch: 
+gitcommit: 
 ---
 
 # New-AzureRMAutomationVariable
