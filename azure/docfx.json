@@ -29,10 +29,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-        "breadcrumb_path": "/powershell/breadcrumb.json",
-        "ms.prod": "powershell",
-        "ms.service": "Azure PowerShell",
-        "ms.technology": "Azure PowerShell"
+        "breadcrumb_path": "/powershell/breadcrumb.json"
     },
     "fileMetadata": {},
     "template": [],
