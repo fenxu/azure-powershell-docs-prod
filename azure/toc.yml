@@ -4,3 +4,5 @@
   tocHref: Azure AD Cmdlets/toc.yml
 - name: ElasticDB
   tocHref: ElasticDB/toc.yml
+- name: ServiceFabric
+  tocHref: ServiceFabric/toc.yml

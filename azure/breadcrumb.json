@@ -26,6 +26,12 @@
                                               "toc_title":  "ElasticDB",
                                               "href":  "/powershell/ElasticDB/",
                                               "level":  3
+                                          },
+                                          {
+                                              "homepage":  "/powershell/ServiceFabric/",
+                                              "toc_title":  "ServiceFabric",
+                                              "href":  "/powershell/ServiceFabric/",
+                                              "level":  3
                                           }
                                       ]
                      }
