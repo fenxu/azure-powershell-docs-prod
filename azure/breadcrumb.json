@@ -32,6 +32,12 @@
                                               "toc_title":  "ServiceFabric",
                                               "href":  "/powershell/ServiceFabric/",
                                               "level":  3
+                                          },
+                                          {
+                                              "homepage":  "/powershell/Service-Fabric-cmdlets/",
+                                              "toc_title":  "Service-Fabric-cmdlets",
+                                              "href":  "/powershell/Service-Fabric-cmdlets/",
+                                              "level":  3
                                           }
                                       ]
                      }
