@@ -3,4 +3,4 @@
 - name: Azure AD
   tocHref: Azure AD Cmdlets/toc.yml
 - name: ElasticDB
-  tocHref: ElasticDB\toc.yml
+  tocHref: ElasticDB/toc.yml
