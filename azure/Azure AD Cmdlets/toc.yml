@@ -1,55 +1,352 @@
-- name: AzureAD
+- name: AzureADPreview
   items:
-    - name: v1.0
-      href: ../AzureAD/v1.0/AzureAD.md
+    - name: v1.0.0
+      href: ../AzureADPreview/v1.0.0/AzureActiveDirectory.md
       items:
         - name: Disable-MsolDevice
-          href: ../AzureAD/v1.0/Disable-MsolDevice.md
+          href: ../AzureADPreview/v1.0.0/Disable-MsolDevice.md
         - name: Enable-MsolDevice
-          href: ../AzureAD/v1.0/Enable-MsolDevice.md
+          href: ../AzureADPreview/v1.0.0/Enable-MsolDevice.md
         - name: Get-MsolAllSettings
-          href: ../AzureAD/v1.0/Get-MsolAllSettings.md
+          href: ../AzureADPreview/v1.0.0/Get-MsolAllSettings.md
         - name: Get-MsolAllSettingTemplate
-          href: ../AzureAD/v1.0/Get-MsolAllSettingTemplate.md
+          href: ../AzureADPreview/v1.0.0/Get-MsolAllSettingTemplate.md
         - name: Get-MsolDevice
-          href: ../AzureAD/v1.0/Get-MsolDevice.md
+          href: ../AzureADPreview/v1.0.0/Get-MsolDevice.md
         - name: Get-MsolDeviceRegistrationServicePolicy
-          href: ../AzureAD/v1.0/Get-MsolDeviceRegistrationServicePolicy.md
+          href: ../AzureADPreview/v1.0.0/Get-MsolDeviceRegistrationServicePolicy.md
         - name: Get-MsolDirSyncConfiguration
-          href: ../AzureAD/v1.0/Get-MsolDirSyncConfiguration.md
+          href: ../AzureADPreview/v1.0.0/Get-MsolDirSyncConfiguration.md
         - name: Get-MsolDirSyncFeatures
-          href: ../AzureAD/v1.0/Get-MsolDirSyncFeatures.md
+          href: ../AzureADPreview/v1.0.0/Get-MsolDirSyncFeatures.md
         - name: Get-MsolDirSyncProvisioningError
-          href: ../AzureAD/v1.0/Get-MsolDirSyncProvisioningError.md
+          href: ../AzureADPreview/v1.0.0/Get-MsolDirSyncProvisioningError.md
         - name: Get-MsolHasObjectsWithDirSyncProvisioningErrors
-          href: ../AzureAD/v1.0/Get-MsolHasObjectsWithDirSyncProvisioningErrors.md
+          href: ../AzureADPreview/v1.0.0/Get-MsolHasObjectsWithDirSyncProvisioningErrors.md
         - name: Get-MsolSettings
-          href: ../AzureAD/v1.0/Get-MsolSettings.md
+          href: ../AzureADPreview/v1.0.0/Get-MsolSettings.md
         - name: Get-MsolSettingTemplate
-          href: ../AzureAD/v1.0/Get-MsolSettingTemplate.md
+          href: ../AzureADPreview/v1.0.0/Get-MsolSettingTemplate.md
         - name: Get-MsolUserByStrongAuthentication
-          href: ../AzureAD/v1.0/Get-MsolUserByStrongAuthentication.md
-        - name: MamlModule
-          href: ../AzureAD/v1.0/MamlModule.md
+          href: ../AzureADPreview/v1.0.0/Get-MsolUserByStrongAuthentication.md
         - name: New-MsolSettings
-          href: ../AzureAD/v1.0/New-MsolSettings.md
+          href: ../AzureADPreview/v1.0.0/New-MsolSettings.md
         - name: New-MsolWellKnownGroup
-          href: ../AzureAD/v1.0/New-MsolWellKnownGroup.md
+          href: ../AzureADPreview/v1.0.0/New-MsolWellKnownGroup.md
         - name: Remove-MsolApplicationPassword
-          href: ../AzureAD/v1.0/Remove-MsolApplicationPassword.md
+          href: ../AzureADPreview/v1.0.0/Remove-MsolApplicationPassword.md
         - name: Remove-MsolDevice
-          href: ../AzureAD/v1.0/Remove-MsolDevice.md
+          href: ../AzureADPreview/v1.0.0/Remove-MsolDevice.md
         - name: Remove-MsolForeignGroupFromRole
-          href: ../AzureAD/v1.0/Remove-MsolForeignGroupFromRole.md
+          href: ../AzureADPreview/v1.0.0/Remove-MsolForeignGroupFromRole.md
         - name: Remove-MsolSettings
-          href: ../AzureAD/v1.0/Remove-MsolSettings.md
+          href: ../AzureADPreview/v1.0.0/Remove-MsolSettings.md
         - name: Reset-MsolStrongAuthenticationMethodByUpn
-          href: ../AzureAD/v1.0/Reset-MsolStrongAuthenticationMethodByUpn.md
+          href: ../AzureADPreview/v1.0.0/Reset-MsolStrongAuthenticationMethodByUpn.md
         - name: Set-MsolDeviceRegistrationServicePolicy
-          href: ../AzureAD/v1.0/Set-MsolDeviceRegistrationServicePolicy.md
+          href: ../AzureADPreview/v1.0.0/Set-MsolDeviceRegistrationServicePolicy.md
         - name: Set-MsolDirSyncConfiguration
-          href: ../AzureAD/v1.0/Set-MsolDirSyncConfiguration.md
+          href: ../AzureADPreview/v1.0.0/Set-MsolDirSyncConfiguration.md
         - name: Set-MsolDirSyncFeature
-          href: ../AzureAD/v1.0/Set-MsolDirSyncFeature.md
+          href: ../AzureADPreview/v1.0.0/Set-MsolDirSyncFeature.md
         - name: Set-MsolSettings
-          href: ../AzureAD/v1.0/Set-MsolSettings.md
+          href: ../AzureADPreview/v1.0.0/Set-MsolSettings.md
+    - name: v2.0.0
+      href: ../AzureADPreview/v2.0.0/AzureActiveDirectory.md
+      items:
+        - name: Add-AzureADAdministrativeUnitMember
+          href: ../AzureADPreview/v2.0.0/Add-AzureADAdministrativeUnitMember.md
+        - name: Add-AzureADApplicationOwner
+          href: ../AzureADPreview/v2.0.0/Add-AzureADApplicationOwner.md
+        - name: Add-AzureADApplicationPolicy
+          href: ../AzureADPreview/v2.0.0/Add-AzureADApplicationPolicy.md
+        - name: Add-AzureADDeviceRegisteredOwner
+          href: ../AzureADPreview/v2.0.0/Add-AzureADDeviceRegisteredOwner.md
+        - name: Add-AzureADDeviceRegisteredUser
+          href: ../AzureADPreview/v2.0.0/Add-AzureADDeviceRegisteredUser.md
+        - name: Add-AzureADDirectoryRoleMember
+          href: ../AzureADPreview/v2.0.0/Add-AzureADDirectoryRoleMember.md
+        - name: Add-AzureADGroupMember
+          href: ../AzureADPreview/v2.0.0/Add-AzureADGroupMember.md
+        - name: Add-AzureADGroupOwner
+          href: ../AzureADPreview/v2.0.0/Add-AzureADGroupOwner.md
+        - name: Add-AzureADScopedRoleMembership
+          href: ../AzureADPreview/v2.0.0/Add-AzureADScopedRoleMembership.md
+        - name: Add-AzureADServicePrincipalOwner
+          href: ../AzureADPreview/v2.0.0/Add-AzureADServicePrincipalOwner.md
+        - name: Add-AzureADServicePrincipalPolicy
+          href: ../AzureADPreview/v2.0.0/Add-AzureADServicePrincipalPolicy.md
+        - name: Confirm-AzureADDomain
+          href: ../AzureADPreview/v2.0.0/Confirm-AzureADDomain.md
+        - name: Connect-AzureAD
+          href: ../AzureADPreview/v2.0.0/Connect-AzureAD.md
+        - name: Disconnect-AzureAD
+          href: ../AzureADPreview/v2.0.0/Disconnect-AzureAD.md
+        - name: Enable-AzureADDirectoryRole
+          href: ../AzureADPreview/v2.0.0/Enable-AzureADDirectoryRole.md
+        - name: Get-AzureADAdministrativeUnit
+          href: ../AzureADPreview/v2.0.0/Get-AzureADAdministrativeUnit.md
+        - name: Get-AzureADAdministrativeUnitMember
+          href: ../AzureADPreview/v2.0.0/Get-AzureADAdministrativeUnitMember.md
+        - name: Get-AzureADApplication
+          href: ../AzureADPreview/v2.0.0/Get-AzureADApplication.md
+        - name: Get-AzureADApplicationExtensionProperty
+          href: ../AzureADPreview/v2.0.0/Get-AzureADApplicationExtensionProperty.md
+        - name: Get-AzureADApplicationKeyCredential
+          href: ../AzureADPreview/v2.0.0/Get-AzureADApplicationKeyCredential.md
+        - name: Get-AzureADApplicationOwner
+          href: ../AzureADPreview/v2.0.0/Get-AzureADApplicationOwner.md
+        - name: Get-AzureADApplicationPasswordCredential
+          href: ../AzureADPreview/v2.0.0/Get-AzureADApplicationPasswordCredential.md
+        - name: Get-AzureADApplicationPolicy
+          href: ../AzureADPreview/v2.0.0/Get-AzureADApplicationPolicy.md
+        - name: Get-AzureADContact
+          href: ../AzureADPreview/v2.0.0/Get-AzureADContact.md
+        - name: Get-AzureADContactDirectReport
+          href: ../AzureADPreview/v2.0.0/Get-AzureADContactDirectReport.md
+        - name: Get-AzureADContactManager
+          href: ../AzureADPreview/v2.0.0/Get-AzureADContactManager.md
+        - name: Get-AzureADContactMembership
+          href: ../AzureADPreview/v2.0.0/Get-AzureADContactMembership.md
+        - name: Get-AzureADContract
+          href: ../AzureADPreview/v2.0.0/Get-AzureADContract.md
+        - name: Get-AzureADDevice
+          href: ../AzureADPreview/v2.0.0/Get-AzureADDevice.md
+        - name: Get-AzureADDeviceRegisteredOwner
+          href: ../AzureADPreview/v2.0.0/Get-AzureADDeviceRegisteredOwner.md
+        - name: Get-AzureADDeviceRegisteredUser
+          href: ../AzureADPreview/v2.0.0/Get-AzureADDeviceRegisteredUser.md
+        - name: Get-AzureADDirectoryRole
+          href: ../AzureADPreview/v2.0.0/Get-AzureADDirectoryRole.md
+        - name: Get-AzureADDirectoryRoleMember
+          href: ../AzureADPreview/v2.0.0/Get-AzureADDirectoryRoleMember.md
+        - name: Get-AzureADDirectoryRoleTemplate
+          href: ../AzureADPreview/v2.0.0/Get-AzureADDirectoryRoleTemplate.md
+        - name: Get-AzureADDirectorySetting
+          href: ../AzureADPreview/v2.0.0/Get-AzureADDirectorySetting.md
+        - name: Get-AzureADDirectorySettingTemplate
+          href: ../AzureADPreview/v2.0.0/Get-AzureADDirectorySettingTemplate.md
+        - name: Get-AzureADDomain
+          href: ../AzureADPreview/v2.0.0/Get-AzureADDomain.md
+        - name: Get-AzureADGroup
+          href: ../AzureADPreview/v2.0.0/Get-AzureADGroup.md
+        - name: Get-AzureADGroupAppRoleAssignment
+          href: ../AzureADPreview/v2.0.0/Get-AzureADGroupAppRoleAssignment.md
+        - name: Get-AzureADGroupMember
+          href: ../AzureADPreview/v2.0.0/Get-AzureADGroupMember.md
+        - name: Get-AzureADGroupOwner
+          href: ../AzureADPreview/v2.0.0/Get-AzureADGroupOwner.md
+        - name: Get-AzureADOAuth2PermissionGrant
+          href: ../AzureADPreview/v2.0.0/Get-AzureADOAuth2PermissionGrant.md
+        - name: Get-AzureADObjectSetting
+          href: ../AzureADPreview/v2.0.0/Get-AzureADObjectSetting.md
+        - name: Get-AzureADPolicy
+          href: ../AzureADPreview/v2.0.0/Get-AzureADPolicy.md
+        - name: Get-AzureADPolicyAppliedObject
+          href: ../AzureADPreview/v2.0.0/Get-AzureADPolicyAppliedObject.md
+        - name: Get-AzureADScopedRoleMembership
+          href: ../AzureADPreview/v2.0.0/Get-AzureADScopedRoleMembership.md
+        - name: Get-AzureADServiceAppRoleAssignment
+          href: ../AzureADPreview/v2.0.0/Get-AzureADServiceAppRoleAssignment.md
+        - name: Get-AzureADServiceConfigurationRecord
+          href: ../AzureADPreview/v2.0.0/Get-AzureADServiceConfigurationRecord.md
+        - name: Get-AzureADServicePrincipal
+          href: ../AzureADPreview/v2.0.0/Get-AzureADServicePrincipal.md
+        - name: Get-AzureADServicePrincipalCreatedObject
+          href: ../AzureADPreview/v2.0.0/Get-AzureADServicePrincipalCreatedObject.md
+        - name: Get-AzureADServicePrincipalKeyCredential
+          href: ../AzureADPreview/v2.0.0/Get-AzureADServicePrincipalKeyCredential.md
+        - name: Get-AzureADServicePrincipalMembership
+          href: ../AzureADPreview/v2.0.0/Get-AzureADServicePrincipalMembership.md
+        - name: Get-AzureADServicePrincipalOAuth2PermissionGrant
+          href: ../AzureADPreview/v2.0.0/Get-AzureADServicePrincipalOAuth2PermissionGrant.md
+        - name: Get-AzureADServicePrincipalOwnedObject
+          href: ../AzureADPreview/v2.0.0/Get-AzureADServicePrincipalOwnedObject.md
+        - name: Get-AzureADServicePrincipalOwner
+          href: ../AzureADPreview/v2.0.0/Get-AzureADServicePrincipalOwner.md
+        - name: Get-AzureADServicePrincipalPasswordCredential
+          href: ../AzureADPreview/v2.0.0/Get-AzureADServicePrincipalPasswordCredential.md
+        - name: Get-AzureADServicePrincipalPolicy
+          href: ../AzureADPreview/v2.0.0/Get-AzureADServicePrincipalPolicy.md
+        - name: Get-AzureADSubscribedSku
+          href: ../AzureADPreview/v2.0.0/Get-AzureADSubscribedSku.md
+        - name: Get-AzureADTenantDetail
+          href: ../AzureADPreview/v2.0.0/Get-AzureADTenantDetail.md
+        - name: Get-AzureADTrustedCertificateAuthority
+          href: ../AzureADPreview/v2.0.0/Get-AzureADTrustedCertificateAuthority.md
+        - name: Get-AzureADUser
+          href: ../AzureADPreview/v2.0.0/Get-AzureADUser.md
+        - name: Get-AzureADUserAppRoleAssignment
+          href: ../AzureADPreview/v2.0.0/Get-AzureADUserAppRoleAssignment.md
+        - name: Get-AzureADUserCreatedObject
+          href: ../AzureADPreview/v2.0.0/Get-AzureADUserCreatedObject.md
+        - name: Get-AzureADUserDirectReport
+          href: ../AzureADPreview/v2.0.0/Get-AzureADUserDirectReport.md
+        - name: Get-AzureADUserExtension
+          href: ../AzureADPreview/v2.0.0/Get-AzureADUserExtension.md
+        - name: Get-AzureADUserManager
+          href: ../AzureADPreview/v2.0.0/Get-AzureADUserManager.md
+        - name: Get-AzureADUserMembership
+          href: ../AzureADPreview/v2.0.0/Get-AzureADUserMembership.md
+        - name: Get-AzureADUserOAuth2PermissionGrant
+          href: ../AzureADPreview/v2.0.0/Get-AzureADUserOAuth2PermissionGrant.md
+        - name: Get-AzureADUserOwnedDevice
+          href: ../AzureADPreview/v2.0.0/Get-AzureADUserOwnedDevice.md
+        - name: Get-AzureADUserOwnedObject
+          href: ../AzureADPreview/v2.0.0/Get-AzureADUserOwnedObject.md
+        - name: Get-AzureADUserRegisteredDevice
+          href: ../AzureADPreview/v2.0.0/Get-AzureADUserRegisteredDevice.md
+        - name: Get-AzureADVerificationDnsRecord
+          href: ../AzureADPreview/v2.0.0/Get-AzureADVerificationDnsRecord.md
+        - name: New-AzureADAdministrativeUnit
+          href: ../AzureADPreview/v2.0.0/New-AzureADAdministrativeUnit.md
+        - name: New-AzureADApplication
+          href: ../AzureADPreview/v2.0.0/New-AzureADApplication.md
+        - name: New-AzureADApplicationExtensionProperty
+          href: ../AzureADPreview/v2.0.0/New-AzureADApplicationExtensionProperty.md
+        - name: New-AzureADApplicationKeyCredential
+          href: ../AzureADPreview/v2.0.0/New-AzureADApplicationKeyCredential.md
+        - name: New-AzureADApplicationPasswordCredential
+          href: ../AzureADPreview/v2.0.0/New-AzureADApplicationPasswordCredential.md
+        - name: New-AzureADDevice
+          href: ../AzureADPreview/v2.0.0/New-AzureADDevice.md
+        - name: New-AzureADDirectorySetting
+          href: ../AzureADPreview/v2.0.0/New-AzureADDirectorySetting.md
+        - name: New-AzureADDomain
+          href: ../AzureADPreview/v2.0.0/New-AzureADDomain.md
+        - name: New-AzureADGroup
+          href: ../AzureADPreview/v2.0.0/New-AzureADGroup.md
+        - name: New-AzureADGroupAppRoleAssignment
+          href: ../AzureADPreview/v2.0.0/New-AzureADGroupAppRoleAssignment.md
+        - name: New-AzureADObjectSetting
+          href: ../AzureADPreview/v2.0.0/New-AzureADObjectSetting.md
+        - name: New-AzureADPolicy
+          href: ../AzureADPreview/v2.0.0/New-AzureADPolicy.md
+        - name: New-AzureADServiceAppRoleAssignment
+          href: ../AzureADPreview/v2.0.0/New-AzureADServiceAppRoleAssignment.md
+        - name: New-AzureADServicePrincipal
+          href: ../AzureADPreview/v2.0.0/New-AzureADServicePrincipal.md
+        - name: New-AzureADServicePrincipalKeyCredential
+          href: ../AzureADPreview/v2.0.0/New-AzureADServicePrincipalKeyCredential.md
+        - name: New-AzureADServicePrincipalPasswordCredential
+          href: ../AzureADPreview/v2.0.0/New-AzureADServicePrincipalPasswordCredential.md
+        - name: New-AzureADTrustedCertificateAuthority
+          href: ../AzureADPreview/v2.0.0/New-AzureADTrustedCertificateAuthority.md
+        - name: New-AzureADUser
+          href: ../AzureADPreview/v2.0.0/New-AzureADUser.md
+        - name: New-AzureADUserAppRoleAssignment
+          href: ../AzureADPreview/v2.0.0/New-AzureADUserAppRoleAssignment.md
+        - name: Remove-AzureADAdministrativeUnit
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADAdministrativeUnit.md
+        - name: Remove-AzureADAdministrativeUnitMember
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADAdministrativeUnitMember.md
+        - name: Remove-AzureADApplication
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADApplication.md
+        - name: Remove-AzureADApplicationExtensionProperty
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADApplicationExtensionProperty.md
+        - name: Remove-AzureADApplicationKeyCredential
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADApplicationKeyCredential.md
+        - name: Remove-AzureADApplicationOwner
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADApplicationOwner.md
+        - name: Remove-AzureADApplicationPasswordCredential
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADApplicationPasswordCredential.md
+        - name: Remove-AzureADApplicationPolicy
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADApplicationPolicy.md
+        - name: Remove-AzureADContact
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADContact.md
+        - name: Remove-AzureADContactManager
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADContactManager.md
+        - name: Remove-AzureADDevice
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADDevice.md
+        - name: Remove-AzureADDeviceRegisteredOwner
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADDeviceRegisteredOwner.md
+        - name: Remove-AzureADDeviceRegisteredUser
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADDeviceRegisteredUser.md
+        - name: Remove-AzureADDirectoryRoleMember
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADDirectoryRoleMember.md
+        - name: Remove-AzureADDirectorySetting
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADDirectorySetting.md
+        - name: Remove-AzureADDomain
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADDomain.md
+        - name: Remove-AzureADGroup
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADGroup.md
+        - name: Remove-AzureADGroupAppRoleAssignment
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADGroupAppRoleAssignment.md
+        - name: Remove-AzureADGroupMember
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADGroupMember.md
+        - name: Remove-AzureADGroupOwner
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADGroupOwner.md
+        - name: Remove-AzureADOAuth2PermissionGrant
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADOAuth2PermissionGrant.md
+        - name: Remove-AzureADObjectSetting
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADObjectSetting.md
+        - name: Remove-AzureADPolicy
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADPolicy.md
+        - name: Remove-AzureADScopedRoleMembership
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADScopedRoleMembership.md
+        - name: Remove-AzureADServiceAppRoleAssignment
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADServiceAppRoleAssignment.md
+        - name: Remove-AzureADServicePrincipal
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADServicePrincipal.md
+        - name: Remove-AzureADServicePrincipalKeyCredential
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADServicePrincipalKeyCredential.md
+        - name: Remove-AzureADServicePrincipalOwner
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADServicePrincipalOwner.md
+        - name: Remove-AzureADServicePrincipalPasswordCredential
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADServicePrincipalPasswordCredential.md
+        - name: Remove-AzureADServicePrincipalPolicy
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADServicePrincipalPolicy.md
+        - name: Remove-AzureADTrustedCertificateAuthority
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADTrustedCertificateAuthority.md
+        - name: Remove-AzureADUser
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADUser.md
+        - name: Remove-AzureADUserAppRoleAssignment
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADUserAppRoleAssignment.md
+        - name: Remove-AzureADUserExtension
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADUserExtension.md
+        - name: Remove-AzureADUserManager
+          href: ../AzureADPreview/v2.0.0/Remove-AzureADUserManager.md
+        - name: Select-AzureADGroupIdsContactIsMemberOf
+          href: ../AzureADPreview/v2.0.0/Select-AzureADGroupIdsContactIsMemberOf.md
+        - name: Select-AzureADGroupIdsGroupIsMemberOf
+          href: ../AzureADPreview/v2.0.0/Select-AzureADGroupIdsGroupIsMemberOf.md
+        - name: Select-AzureADGroupIdsServicePrincipalIsMemberOf
+          href: ../AzureADPreview/v2.0.0/Select-AzureADGroupIdsServicePrincipalIsMemberOf.md
+        - name: Select-AzureADGroupIdsUserIsMemberOf
+          href: ../AzureADPreview/v2.0.0/Select-AzureADGroupIdsUserIsMemberOf.md
+        - name: Set-AzureADAdministrativeUnit
+          href: ../AzureADPreview/v2.0.0/Set-AzureADAdministrativeUnit.md
+        - name: Set-AzureADApplication
+          href: ../AzureADPreview/v2.0.0/Set-AzureADApplication.md
+        - name: Set-AzureADContact
+          href: ../AzureADPreview/v2.0.0/Set-AzureADContact.md
+        - name: Set-AzureADContactManager
+          href: ../AzureADPreview/v2.0.0/Set-AzureADContactManager.md
+        - name: Set-AzureADDevice
+          href: ../AzureADPreview/v2.0.0/Set-AzureADDevice.md
+        - name: Set-AzureADDirectorySetting
+          href: ../AzureADPreview/v2.0.0/Set-AzureADDirectorySetting.md
+        - name: Set-AzureADDomain
+          href: ../AzureADPreview/v2.0.0/Set-AzureADDomain.md
+        - name: Set-AzureADGroup
+          href: ../AzureADPreview/v2.0.0/Set-AzureADGroup.md
+        - name: Set-AzureADObjectSetting
+          href: ../AzureADPreview/v2.0.0/Set-AzureADObjectSetting.md
+        - name: Set-AzureADPolicy
+          href: ../AzureADPreview/v2.0.0/Set-AzureADPolicy.md
+        - name: Set-AzureADServicePrincipal
+          href: ../AzureADPreview/v2.0.0/Set-AzureADServicePrincipal.md
+        - name: Set-AzureADTrustedCertificateAuthority
+          href: ../AzureADPreview/v2.0.0/Set-AzureADTrustedCertificateAuthority.md
+        - name: Set-AzureADUser
+          href: ../AzureADPreview/v2.0.0/Set-AzureADUser.md
+        - name: Set-AzureADUserExtension
+          href: ../AzureADPreview/v2.0.0/Set-AzureADUserExtension.md
+        - name: Set-AzureADUserLicense
+          href: ../AzureADPreview/v2.0.0/Set-AzureADUserLicense.md
+        - name: Set-AzureADUserManager
+          href: ../AzureADPreview/v2.0.0/Set-AzureADUserManager.md
+        - name: Set-AzureADUserPassword
+          href: ../AzureADPreview/v2.0.0/Set-AzureADUserPassword.md
+        - name: Update-AzureADSignedInUserPassword
+          href: ../AzureADPreview/v2.0.0/Update-AzureADSignedInUserPassword.md
