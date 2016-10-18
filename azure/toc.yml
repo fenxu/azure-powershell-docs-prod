@@ -2,3 +2,5 @@
   tocHref: azureps-cmdlets-docs/toc.yml
 - name: Azure AD
   tocHref: Azure AD Cmdlets/toc.yml
+- name: ElasticDB
+  tocHref: ElasticDB\toc.yml
