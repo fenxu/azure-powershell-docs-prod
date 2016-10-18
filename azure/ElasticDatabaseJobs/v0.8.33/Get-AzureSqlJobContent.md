@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\New-AzureSqlJobContent.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: 59C3B502-9CBE-4F84-88AE-7954B486A0DD
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobContent.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -34,7 +35,7 @@ Get-AzureSqlJobContent -ContentName <String[]> [[-AzureSqlJobConnection] <AzureS
 ```
 
 ## DESCRIPTION
-The Get-AzureSqlJobContent cmdlet gets one or multiple content containers that can be run or applied across entities within a job target.
+The **Get-AzureSqlJobContent** cmdlet gets one or multiple content containers that can be run or applied across entities within a job target.
 
 Content contains one or multiple versioned definitions.
 You can get versioned definitions by using the Get-AzureSqlJobContentDefinition cmdlet.
@@ -108,15 +109,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobContent]()
+[New-AzureSqlJobContent](.\New-AzureSqlJobContent.md)
 
-[Get-AzureSqlJobContentDefinition]()
+[Get-AzureSqlJobContentDefinition](.\Get-AzureSqlJobContentDefinition.md)
 
-[Set-AzureSqlJobContentDefinition]()
+[Set-AzureSqlJobContentDefinition](.\Set-AzureSqlJobContentDefinition.md)
 
-[New-AzureSqlJobConnection]()
+[New-AzureSqlJobConnection](.\New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection]()
+[Use-AzureSqlJobConnection](.\Use-AzureSqlJobConnection.md)
 
-[Elastic Database Jobs]()
+[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+
 

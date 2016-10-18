@@ -7,8 +7,6 @@
           href: ../ElasticDatabaseJobs/v0.8.33/Add-AzureSqlJobChildTarget.md
         - name: Get-AzureSqlJob
           href: ../ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md
-        - name: Get-AzureSqlJobChildTarget
-          href: ../ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobChildTarget.md
         - name: Get-AzureSqlJobContent
           href: ../ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobContent.md
         - name: Get-AzureSqlJobContentDefinition

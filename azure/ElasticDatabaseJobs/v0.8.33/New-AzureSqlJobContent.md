@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\Get-AzureSqlJobContent.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: FCAA0791-9557-4CDE-A2D5-AE9B174003ED
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobContent.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -35,7 +36,7 @@ New-AzureSqlJobContent -ContentName <String> -DacpacUri <Uri>
 ```
 
 ## DESCRIPTION
-The New-AzureSqlJobContent cmdlet creates content that can be run or applied across entities within a job target. 
+The **New-AzureSqlJobContent** cmdlet creates content that can be run or applied across entities within a job target. 
 Content can be created in the form of T-SQL scripts or DACPAC URIs.
 
 ## EXAMPLES
@@ -149,7 +150,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobContent]()
+[Get-AzureSqlJobContent](.\Get-AzureSqlJobContent.md)
 
-[Elastic Database Jobs]()
+[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+
 

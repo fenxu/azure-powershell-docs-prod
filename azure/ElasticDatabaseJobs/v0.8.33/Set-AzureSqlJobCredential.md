@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\Get-AzureSqlJobCredential.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: 2123018B-F7F8-42CE-82AD-30BFA0B52EE5
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -35,7 +36,7 @@ Set-AzureSqlJobCredential -CredentialName <String> [-UserName <String>] [-Passwo
 ```
 
 ## DESCRIPTION
-The Set-AzureJobCredential cmdlet updates the username or password within an existing credential.
+The **Set-AzureJobCredential** cmdlet updates the username or password within an existing credential.
 
 ## EXAMPLES
 
@@ -69,7 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-Specifies the PSCredential object containing the username and password.
+Specifies the **PSCredential** object containing the username and password.
 
 ```yaml
 Type: PSCredential
@@ -139,9 +140,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobCredential]()
+[Get-AzureSqlJobCredential](.\Get-AzureSqlJobCredential.md)
 
-[New-AzureSqlJobCredential]()
+[New-AzureSqlJobCredential](.\New-AzureSqlJobCredential.md)
 
-[Elastic Database Jobs]()
+[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+
 

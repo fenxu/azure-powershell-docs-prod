@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\New-AzureSqlJobTarget.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: BB0DF9FF-1EAC-46AD-B964-878BE2C22287
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTarget.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -71,7 +72,7 @@ Get-AzureSqlJobTarget -ParentCustomCollectionName <String> [[-AzureSqlJobConnect
 ```
 
 ## DESCRIPTION
-The Get-AzureSqlJobTarget cmdlet gets one or multiple containers of databases that can be used as a target for job execution.
+The **Get-AzureSqlJobTarget** cmdlet gets one or multiple containers of databases that can be used as a target for job execution.
 
 There are multiple supported types of targets, namely custom collection targets, database targets, and Elastic Scale shard map targets. 
 Each target type can be retrieved through the different parameter sets within this cmdlet.
@@ -191,7 +192,7 @@ Accept wildcard characters: False
 
 ### -ParentCustomCollectionName
 Specifies the name of the parent custom collection name to retrieve targets. 
-This cmdlet gets all child targets of the specified custom ¢â‚¬Â¦
+This cmdlet gets all child targets of the specified customâ€¦
 
 ```yaml
 Type: String
@@ -322,13 +323,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobTarget]()
+[New-AzureSqlJobTarget](.\New-AzureSqlJobTarget.md)
 
-[Set-AzureSqlJobTarget]()
+[Set-AzureSqlJobTarget](.\Set-AzureSqlJobTarget.md)
 
-[New-AzureSqlJobConnection]()
+[New-AzureSqlJobConnection](.\New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection]()
+[Use-AzureSqlJobConnection](.\Use-AzureSqlJobConnection.md)
 
-[Elastic Database Jobs]()
+[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+
 

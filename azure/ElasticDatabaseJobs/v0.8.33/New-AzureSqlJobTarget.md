@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\Get-AzureSqlJobTarget.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: B19A0CEE-F7C4-4B8D-9C61-EBC67FC81139
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -48,7 +49,7 @@ New-AzureSqlJobTarget -CustomCollectionName <String> [[-AzureSqlJobConnection] <
 ```
 
 ## DESCRIPTION
-The New-AzureSqlJobTarget cmdlet creates a set of databases that can be used as a target for jobs. 
+The **New-AzureSqlJobTarget** cmdlet creates a set of databases that can be used as a target for jobs. 
 Targets can be created in the form of either custom collections, Elastic Scale shard maps or databases.
 
 ## EXAMPLES
@@ -261,9 +262,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobTarget]()
+[Get-AzureSqlJobTarget](.\Get-AzureSqlJobTarget.md)
 
-[Set-AzureSqlJobTarget]()
+[Set-AzureSqlJobTarget](.\Set-AzureSqlJobTarget.md)
 
-[Add-AzureSqlJobChildTarget]()
+[Add-AzureSqlJobChildTarget](.\Add-AzureSqlJobChildTarget.md)
+
 

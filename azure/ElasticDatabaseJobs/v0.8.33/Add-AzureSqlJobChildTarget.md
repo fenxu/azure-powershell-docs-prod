@@ -1,14 +1,15 @@
 ---
-external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-help.xml
-online version: 
+external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
+online version: .\Remove-AzureSqlJobChildTarget.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: 62655A15-5FF6-4172-A050-2DC0081C12D9
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Add-AzureSqlJobChildTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/Add-AzureSqlJobChildTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Add-AzureSqlJobChildTarget.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -36,7 +37,7 @@ Add-AzureSqlJobChildTarget [-Exclude] -CustomCollectionName <String> -ServerName
 ```
 
 ## DESCRIPTION
-The Add-AzureSqlJobChildTarget cmdlet associates a target to a custom collection target.
+The **Add-AzureSqlJobChildTarget** cmdlet associates a target to a custom collection target.
 Jobs that are run targeting custom collections are expanded to target all targets associated within the custom collection at the time this cmdlet is run.
 
 ## EXAMPLES
@@ -177,7 +178,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureSqlJobChildTarget]()
+[Remove-AzureSqlJobChildTarget](.\Remove-AzureSqlJobChildTarget.md)
 
-[Elastic Database Jobs]()
+[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+
 

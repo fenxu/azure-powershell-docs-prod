@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\Set-AzureSqlJobContentDefinition.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: CC57C3D8-784E-4885-A65D-CA59EFF78E35
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobContentDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobContentDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobContentDefinition.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -41,7 +42,7 @@ Get-AzureSqlJobContentDefinition -ContentName <String[]> -Version <Int32>
 ```
 
 ## DESCRIPTION
-The Get-AzureSqlJobContentDefinition cmdlet gets one or multiple content definitions that are run or applied across entities within a job target.
+The **Get-AzureSqlJobContentDefinition** cmdlet gets one or multiple content definitions that are run or applied across entities within a job target.
 
 The definition includes either the T-SQL script for T-SQL content or the DACPAC URI for DACPAC content.
 
@@ -142,7 +143,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureSqlJobContentDefinition]()
+[Set-AzureSqlJobContentDefinition](.\Set-AzureSqlJobContentDefinition.md)
 
-[Elastic Database Jobs]()
+[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+
 

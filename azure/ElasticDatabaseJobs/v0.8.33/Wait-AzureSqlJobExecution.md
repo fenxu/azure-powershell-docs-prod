@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\Get-AzureSqlJobExecution.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: 2882003C-8B0B-4007-8A40-D19BB6731CE2
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -41,7 +42,7 @@ Wait-AzureSqlJobExecution [-TimeoutSeconds <Int32>] -JobName <String[]>
 ```
 
 ## DESCRIPTION
-The Wait-AzureSqlJobExecution cmdlet waits for the provided job execution to complete.
+The **Wait-AzureSqlJobExecution** cmdlet waits for the provided job execution to complete.
 
 ## EXAMPLES
 
@@ -165,11 +166,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobExecution]()
+[Get-AzureSqlJobExecution](.\Get-AzureSqlJobExecution.md)
 
-[Start-AzureSqlJobExecution]()
+[Start-AzureSqlJobExecution](.\Start-AzureSqlJobExecution.md)
 
-[Stop-AzureSqlJobExecution]()
+[Stop-AzureSqlJobExecution](.\Stop-AzureSqlJobExecution.md)
 
-[Elastic Database Jobs]()
+[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+
 

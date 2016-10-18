@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\Use-AzureSqlJobConnection.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: 3B81E55B-8CA2-42A1-92E1-231C3BA04A06
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -35,9 +36,9 @@ New-AzureSqlJobConnection -ServerName <String> -DatabaseName <String> [-LiteralS
 ```
 
 ## DESCRIPTION
-The New-AzureSqlJobConnection cmdlet creates a connection to an Elastic Database jobs database.
+The **New-AzureSqlJobConnection** cmdlet creates a connection to an Elastic Database jobs database.
 
-Different elastic database jobs use the object that this cmdlet creates within the AzureSqlDatabaseJobConnection optional parameter. 
+Different elastic database jobs use the object that this cmdlet creates within the *AzureSqlDatabaseJobConnection* optional parameter. 
 Alternatively, you can use the Use-AzureSqlJobConnection cmdlet to set the job connection within the Azure PowerShell session context and avoid having to pass the connection as a parameter to subsequent elastic database job cmdlet invocations.
 
 ## EXAMPLES
@@ -67,7 +68,7 @@ This cmdlet prompts you for credentials.
 ## PARAMETERS
 
 ### -Credential
-Specifies the PSCredential containing the username and password for the elastic database job control database connections.
+Specifies the **PSCredential** containing the username and password for the elastic database job control database connections.
 
 ```yaml
 Type: PSCredential
@@ -168,7 +169,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Use-AzureSqlJobConnection]()
+[Use-AzureSqlJobConnection](.\Use-AzureSqlJobConnection.md)
 
-[Elastic Database Jobs]()
+[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+
 

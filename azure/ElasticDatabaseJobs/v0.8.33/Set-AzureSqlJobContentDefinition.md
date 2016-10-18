@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\Get-AzureSqlJobContentDefinition.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: 9B39643C-534D-47B4-A05F-562BA7088483
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -35,7 +36,7 @@ Set-AzureSqlJobContentDefinition -ContentName <String> -DacpacUri <Uri> [-Commen
 ```
 
 ## DESCRIPTION
-The Set-AzureSqlJobContentDefinition cmdlet updates the Transact-SQL (T-SQL) script or DACPAC URI definition of content.
+The **Set-AzureSqlJobContentDefinition** cmdlet updates the Transact-SQL (T-SQL) script or DACPAC URI definition of content.
 
 ## EXAMPLES
 
@@ -142,9 +143,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobContentDefinition]()
+[Get-AzureSqlJobContentDefinition](.\Get-AzureSqlJobContentDefinition.md)
 
-[New-AzureSqlJobConnection]()
+[New-AzureSqlJobConnection](.\New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection]()
+[Use-AzureSqlJobConnection](.\Use-AzureSqlJobConnection.md)
+
 

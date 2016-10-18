@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\New-AzureSqlJobCredential.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: 43FAC986-8E46-47B5-9BDD-21C65C5DE7E5
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobCredential.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -34,7 +35,7 @@ Get-AzureSqlJobCredential -CredentialName <String[]> [[-AzureSqlJobConnection] <
 ```
 
 ## DESCRIPTION
-The Get-AzureSqlJobCredential cmdlet gets one or multiple database credentials to use when connecting to databases for execution of jobs.
+The **Get-AzureSqlJobCredential** cmdlet gets one or multiple database credentials to use when connecting to databases for execution of jobs.
 Passwords are encrypted prior to transmission within creation and are not returned through get requests.
 
 ## EXAMPLES
@@ -105,7 +106,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobCredential]()
+[New-AzureSqlJobCredential](.\New-AzureSqlJobCredential.md)
 
-[Set-AzureSqlJobCredential]()
+[Set-AzureSqlJobCredential](.\Set-AzureSqlJobCredential.md)
+
 

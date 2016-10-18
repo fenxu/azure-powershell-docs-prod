@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\Get-AzureSqlJobTarget.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: AA3F0D08-ADFD-407E-9359-6F3EEB131286
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTarget.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -36,7 +37,7 @@ Set-AzureSqlJobTarget -ShardMapManagerServerName <String> -ShardMapManagerDataba
 ```
 
 ## DESCRIPTION
-The Set-AzureSqlJobTarget cmdlet updates a job target definition. 
+The **Set-AzureSqlJobTarget** cmdlet updates a job target definition. 
 This currently enables a specified shard map target to have its credentials updated.
 
 ## EXAMPLES
@@ -198,9 +199,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobTarget]()
+[Get-AzureSqlJobTarget](.\Get-AzureSqlJobTarget.md)
 
-[New-AzureSqlJobTarget]()
+[New-AzureSqlJobTarget](.\New-AzureSqlJobTarget.md)
 
-[Elastic Database Jobs]()
+[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+
 

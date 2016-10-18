@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\Add-AzureSqlJobChildTarget.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: FDE662A9-C4CF-449A-887B-F0905F5D80E0
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJobChildTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJobChildTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJobChildTarget.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -35,7 +36,7 @@ Remove-AzureSqlJobChildTarget -CustomCollectionName <String> -ServerName <String
 ```
 
 ## DESCRIPTION
-The Remove-AzureSqlJobChildTarget cmdlet removes a child target from another target. 
+The **Remove-AzureSqlJobChildTarget** cmdlet removes a child target from another target. 
 This cmdlet removes the child target from a custom collection, but it does not delete the target.
 
 ## EXAMPLES
@@ -152,11 +153,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureSqlJobChildTarget]()
+[Add-AzureSqlJobChildTarget](.\Add-AzureSqlJobChildTarget.md)
 
-[New-AzureSqlJobConnection]()
+[New-AzureSqlJobConnection](.\New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection]()
+[Use-AzureSqlJobConnection](.\Use-AzureSqlJobConnection.md)
 
-[Elastic Database Jobs]()
+[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+
 

@@ -1,14 +1,15 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version: .\Start-AzureSqlJobExecution.md
 schema: 2.0.0
-updated_at: 10/18/2016 6:38 AM
+ms.assetid: 2F400DA8-52CF-4D84-8AFA-EB2FEFE7DC3E
+updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0499f7a103ac6ce909eab6e4e8e3f759b6f634fe/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: AzureAD
+ms.service: active-directory
 ms.technology: Azure Powershell
 author: visual-studio-china
 keywords: powershell, cmdlet
@@ -36,7 +37,7 @@ Get-AzureSqlJobExecution -JobExecutionId <Guid[]> [-IncludeChildren]
 ```
 
 ## DESCRIPTION
-The Get-AzureSqlJobExecution cmdlet gets one or multiple job execution containers.
+The **Get-AzureSqlJobExecution** cmdlet gets one or multiple job execution containers.
 Each job execution container contains task executions performed to fulfill execution of a job.
 
 ## EXAMPLES
@@ -327,9 +328,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureSqlJobExecution]()
+[Start-AzureSqlJobExecution](.\Start-AzureSqlJobExecution.md)
 
-[Stop-AzureSqlJobExecution]()
+[Stop-AzureSqlJobExecution](.\Stop-AzureSqlJobExecution.md)
 
-[Wait-AzureSqlJobExecution]()
+[Wait-AzureSqlJobExecution](.\Wait-AzureSqlJobExecution.md)
+
 
