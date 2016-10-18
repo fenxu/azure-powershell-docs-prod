@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: AC37BE9E-4243-4A85-BC4F-19A56B4FE00B
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricServiceManifest.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricServiceManifest.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricServiceManifest.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricServiceManifest
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the Service Fabric service type manifest.
 
 ## SYNTAX
 
@@ -28,21 +29,24 @@ Get-ServiceFabricServiceManifest [-ApplicationTypeName] <String> [-ApplicationTy
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricServiceManifest** cmdlet gets the Service Fabric service type manifest.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the service manifest
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricServiceManifest -ApplicationTypeName "PersistentToDoListApp" -ApplicationTypeVersion "1.0" -ServiceManifestName "ServiceManifest.xml"
 ```
 
-{{ Add example description here }}
+The command gets version 1.0 of the PersistentToDoListApp application from the specified service manifest.
 
 ## PARAMETERS
 
 ### -ApplicationTypeName
-{{Fill ApplicationTypeName Description}}
+Specifies the name of a Service Fabric application type.
+The cmdlet gets the service manifest for the application type that you specify.
 
 ```yaml
 Type: String
@@ -57,7 +61,8 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationTypeVersion
-{{Fill ApplicationTypeVersion Description}}
+Specifies the version of a Service Fabric application type.
+The cmdlet gets the manifest the application type version that you specify.
 
 ```yaml
 Type: String
@@ -72,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceManifestName
-{{Fill ServiceManifestName Description}}
+Specifies the name of a Service Fabric service manifest.
 
 ```yaml
 Type: String
@@ -87,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -106,13 +111,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
+### String
+This cmdlet accepts the name of a Service Fabric application type, the version of an application type, or the name of a service manifest.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns the content of a Service Fabric service type manifest.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

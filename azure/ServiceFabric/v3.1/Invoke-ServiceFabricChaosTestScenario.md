@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Invoke-ServiceFabricFailoverTestScenario.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 9F010748-70B9-4E00-94C7-EBD0B2983C35
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricChaosTestScenario.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricChaosTestScenario.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricChaosTestScenario.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Invoke-ServiceFabricChaosTestScenario
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Invokes a test scenario to induce iterative failover and faults in a cluster.
 
 ## SYNTAX
 
@@ -29,21 +30,36 @@ Invoke-ServiceFabricChaosTestScenario [-TimeToRunMinute] <UInt32> [-MaxClusterSt
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Invoke-ServiceFabricChaosTestScenario** cmdlet starts a test scenario to induce iterative failover and faults in a Service Fabric cluster.
+The cmdlet validates the health and availability of all of the services in the cluster before starting the next iteration of failover and faults.
+Use the *MaxConcurrentFaults* parameter to specify the maximum number of concurrent faults for each iteration.
+
+If at any time a service is not healthy or is unavailable by the amount of time specified by the *MaxClusterStabilizationTimeout* parameter, the test fails with a FabricValidationException exception.
+
+The faults are induced in a manner such that the faults do not cause any service or data to become unavailable; however, the chaos test scenario assumes no outside faults are induced or any unexpected failures occur, in which case services or data may become unavailable.
+
+The **Invoke-ServiceFabricChaosTestScenario** cmdlet helps you to analyze your test or staging clusters to ensure that system faults do not result in loss of data availability or other unexpected service issues.
+
+Before using this cmdlet, connect to the Service Fabric cluster.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Run a chaos test
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>$TimeToRun = 60
+PS C:\> $MaxStabilizationTimeSecs = 180
+PS C:\> $ConcurrentFaults = 3
+PS C:\> $WaitTimeBetweenIterationsSec = 60
+PS C:\> Invoke-ServiceFabricChaosTestScenario -TimeToRunMinute $TimeToRun -MaxClusterStabilizationTimeoutSec $MaxStabilizationTimeSecs -MaxConcurrentFaults $ConcurrentFaults -EnableMoveReplicaFaults -WaitTimeBetweenIterationsSec $WaitTimeBetweenIterationsSec
 ```
 
-{{ Add example description here }}
+The first four commands store values in variables to use as parameters.
+The final command runs the chaos test for 60 minutes with a maximum stabilization time of 180 seconds and three maximum concurrent faults.
 
 ## PARAMETERS
 
 ### -EnableMoveReplicaFaults
-{{Fill EnableMoveReplicaFaults Description}}
+Indicates that this cmdlet enables move replica faults.
 
 ```yaml
 Type: SwitchParameter
@@ -58,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaxClusterStabilizationTimeoutSec
-{{Fill MaxClusterStabilizationTimeoutSec Description}}
+Specifies the maximum time-out period, in seconds, for a cluster to stabilize after a fault before failing the test.
 
 ```yaml
 Type: UInt32
@@ -73,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaxConcurrentFaults
-{{Fill MaxConcurrentFaults Description}}
+Specifies the maximum number of concurrent faults.
 
 ```yaml
 Type: UInt32
@@ -88,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeToRunMinute
-{{Fill TimeToRunMinute Description}}
+Specifies the total time, in minutes, for the scenario to run.
 
 ```yaml
 Type: UInt32
@@ -103,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -118,7 +134,8 @@ Accept wildcard characters: False
 ```
 
 ### -WaitTimeBetweenFaultsSec
-{{Fill WaitTimeBetweenFaultsSec Description}}
+Specifies the maximum wait time, in seconds, between consecutive faults.
+The larger the value the lower the concurrency.
 
 ```yaml
 Type: UInt32
@@ -133,7 +150,7 @@ Accept wildcard characters: False
 ```
 
 ### -WaitTimeBetweenIterationsSec
-{{Fill WaitTimeBetweenIterationsSec Description}}
+Specifies the wait time, in seconds, for the duration between iterations.
 
 ```yaml
 Type: UInt32
@@ -152,13 +169,21 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
+### UInt32
+Represents the time to run.
+
+### UInt32
+Represents the maximum stabilization time, in seconds, for the cluster.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **String** object that represents the final status of the test.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Invoke-ServiceFabricFailoverTestScenario](.\Invoke-ServiceFabricFailoverTestScenario.md)
+
 

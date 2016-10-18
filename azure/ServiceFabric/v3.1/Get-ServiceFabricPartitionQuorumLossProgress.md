@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Start-ServiceFabricPartitionQuorumLoss.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: A3614BE3-5C8A-419D-BAD4-01B1443248A9
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionQuorumLossProgress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionQuorumLossProgress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionQuorumLossProgress.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricPartitionQuorumLossProgress
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the progress of a quorum loss operation.
 
 ## SYNTAX
 
@@ -27,21 +28,27 @@ Get-ServiceFabricPartitionQuorumLossProgress -OperationId <Guid> [-TimeoutSec <I
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricPartitionQuorumLossProgress** cmdlet gets the progress of a quorum loss operation in Azure Service Fabric.
+Initiate a quorum loss operation by using the Start-ServiceFabricPartitionQuorumLoss cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Check progress of quorum loss operation
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricPartitionQuorumLossProgress -OperationId aeaceca9-320d-4f7b-84e8-3cc13c29a974
+  State Result
+  ----- ------
+Running
 ```
 
-{{ Add example description here }}
+This command checks the progress of a quorum loss operation that has the ID aeaceca9-320d-4f7b-84e8-3cc13c29a974.
+The operation is still running.
 
 ## PARAMETERS
 
 ### -OperationId
-{{Fill OperationId Description}}
+Specifies a unique identifier for the operation that this cmdlet checks.
+You assign this value when you run **Start-ServiceFabricPartitionQuorumLoss**.
 
 ```yaml
 Type: Guid
@@ -56,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -75,13 +82,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
 ## OUTPUTS
-
-### System.Object
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Start-ServiceFabricPartitionQuorumLoss](.\Start-ServiceFabricPartitionQuorumLoss.md)
+
 

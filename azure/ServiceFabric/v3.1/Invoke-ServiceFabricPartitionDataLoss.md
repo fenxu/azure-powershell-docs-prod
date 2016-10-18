@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Invoke-ServiceFabricPartitionQuorumLoss.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: D772E7FA-EA9A-494A-913F-584F9891F880
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricPartitionDataLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricPartitionDataLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricPartitionDataLoss.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Invoke-ServiceFabricPartitionDataLoss
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Invokes an action to induce data loss for a Service Fabric partition.
 
 ## SYNTAX
 
@@ -28,22 +29,16 @@ Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -PartitionId 
  [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNameRandomPartition
-```
-Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName <Uri> [-TimeoutSec <Int32>]
- [<CommonParameters>]
-```
-
 ### ServiceNamePartitionUniformedInt
 ```
 Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName <Uri>
  [-PartitionKindUniformInt64] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNamePartitionNamed
+### ServiceNameRandomPartition
 ```
-Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName <Uri> [-PartitionKindNamed]
- -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName <Uri> [-TimeoutSec <Int32>]
+ [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionSingleton
@@ -52,22 +47,48 @@ Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName 
  [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNamePartitionNamed
+```
+Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName <Uri> [-PartitionKindNamed]
+ -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Invoke-ServiceFabricPartitionDataLoss** cmdlet induces data loss in a specified Service Fabric partition to test the data recovery path for a service.
+Whether data loss actually occurs depends on the DataLossMode option specified (FullDataLoss or PartialDataLoss) when invoking the cmdlet and whether you have any client operations running while this operation performs.
+
+This action can only be performed for stateful services.
+
+Before using this cmdlet, connect to the Service Fabric cluster.
+
+Important note: This cmdlet should not be aborted while running.
+Aborting this cmdlet while it is running may leave state behind.
+If this cmdlet is aborted while running, Remove-ServiceFabricTestState should be invoked to remove state that may have been left behind.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Invoke full data loss on a named partition
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Invoke-ServiceFabricPartitionDataLoss -ServiceName fabric:/TestSvc -PartitionKindNamed -PartitionKey "Partition3" -DataLossMode FullDataLoss
 ```
 
-{{ Add example description here }}
+This command invokes full data loss for the specified service.
+
+### Example 2: Invoke full data loss on a UniformInt64 partition
+```
+PS C:\>Invoke-ServiceFabricPartitionDataLoss -ServiceName fabric:/TestSvc -PartitionKindUniformInt64 -PartitionKey "23" -DataLossMode FullDataLoss
+```
+
+This command invokes full data loss on a UniformInt64 partition.
 
 ## PARAMETERS
 
 ### -DataLossMode
-{{Fill DataLossMode Description}}
+Specifies the data loss mode for the operation.
+The acceptable values for this parameter are: 
+
+- PartialDataLoss
+- FullDataLoss
 
 ```yaml
 Type: DataLossMode
@@ -83,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of the partition on which to invoke the data loss.
 
 ```yaml
 Type: Guid
@@ -98,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKey
-{{Fill PartitionKey Description}}
+Specifies the key of the partition on which to invoke the test.
 
 ```yaml
 Type: String
@@ -113,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindNamed
-{{Fill PartitionKindNamed Description}}
+Indicates that this cmdlet invokes data loss on a named partition.
 
 ```yaml
 Type: SwitchParameter
@@ -128,7 +149,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindSingleton
-{{Fill PartitionKindSingleton Description}}
+Indicates that this cmdlet invokes data loss on a singleton partition.
 
 ```yaml
 Type: SwitchParameter
@@ -143,7 +164,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindUniformInt64
-{{Fill PartitionKindUniformInt64 Description}}
+Indicates that this cmdlet invokes data loss on a UniformInt64 partitioned service.
 
 ```yaml
 Type: SwitchParameter
@@ -158,7 +179,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the name of the service to test.
 
 ```yaml
 Type: Uri
@@ -173,7 +194,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -193,14 +214,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Guid
-System.Uri
-System.String
+Represents the ID of a Service Fabric partition.
+
+### System.Uri
+Represents the name of a Service Fabric service.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.Testability.InvokeDataLossResult** object that represents the operation result.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Invoke-ServiceFabricPartitionQuorumLoss](.\Invoke-ServiceFabricPartitionQuorumLoss.md)
+
 

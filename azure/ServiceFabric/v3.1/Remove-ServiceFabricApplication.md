@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 578CAE79-F1FF-470E-91B7-814D9DF0917B
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,31 +19,35 @@ manager: visual-studio-china
 # Remove-ServiceFabricApplication
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Removes a Service Fabric application.
 
 ## SYNTAX
 
 ```
-Remove-ServiceFabricApplication [-ApplicationName] <Uri> [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm]
- [<CommonParameters>]
+Remove-ServiceFabricApplication [-ApplicationName] <Uri> [-Force] [-ForceRemove] [-TimeoutSec <Int32>]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Remove-ServiceFabricApplication** cmdlet removes an application from Service Fabric.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Remove an application
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Remove-ServiceFabricApplication -ApplicationName fabric:/myapp/persistenttodolist -Force
 ```
 
-{{ Add example description here }}
+This command removes the application that has the specified URI.
+Because this command includes the **Force** parameter, the cmdlet does not prompt you for confirmation before it removes the application.
 
 ## PARAMETERS
 
 ### -ApplicationName
-{{Fill ApplicationName Description}}
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric application.
+The cmdlet removes the application that has the URI that you specify.
 
 ```yaml
 Type: Uri
@@ -57,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -66,13 +71,28 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ForceRemove
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -87,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -103,6 +123,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
+The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -112,7 +133,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -123,12 +144,23 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Uri
+This cmdlet accepts a URI that represents the name of a Service Fabric application.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns the status of the operation as a string.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Get-ServiceFabricApplication](.\Get-ServiceFabricApplication.md)
+
+[New-ServiceFabricApplication](.\New-ServiceFabricApplication.md)
+
 

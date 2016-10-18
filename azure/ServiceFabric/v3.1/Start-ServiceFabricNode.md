@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Disable-ServiceFabricNode.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 368529F1-EA7E-407B-93A7-352ED6D2048C
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Start-ServiceFabricNode
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Starts a Service Fabric node.
 
 ## SYNTAX
 
@@ -29,21 +30,53 @@ Start-ServiceFabricNode [-NodeName] <String> [[-NodeInstanceId] <BigInteger>] [[
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Start-ServiceFabricNode** cmdlet starts the node specified by the *NodeName* parameter that has been stopped using the Stop-ServiceFabricNode cmdlet, StopNodeAsync, or a representational state transfer (REST) equivalent.
+If the cmdlet succeeds, the intent is recorded but the node may not be immediately available.
+
+Use this cmdlet to test your service along the failover recovery paths.
+This cmdlet helps to test when nodes are added to the cluster to restore the state of persisted replicas, and helps to test load balancing when capacity is added to the system.
+
+If you specify the *NodeInstanceId* parameter, then you can only use this cmdlet to start a node with that instance ID.
+If you specify 0 for the *NodeInstanceId* parameter, it is ignored.
+
+The optional *IpAddressOrFQDN* and *ClusterConnectionPort* parameters must be used together.
+If you specify one, you must also specify the other.
+If you do not specify the *IpAddressOrFQDN* and *ClusterConnectionPort* parameters, the system performs an internal query to determine how to forward the command.
+If some system services are in quorum loss, the internal query will fail.
+In this case, be sure to specify the *IpAddressOrFQDN* and *ClusterConnectionPort* parameters.
+In general, you should not specify *IpAddressOrFQDN * or *ClusterConnectionPort*.
+You should use the **Start-ServiceFabricNode** cmdlet only on nodes that were stopped using the **Stop-ServiceFabricNode** cmdlet.
+
+Before using this cmdlet, connect to the Service Fabric cluster.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Start a node
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Start-ServiceFabricNode -NodeName "Node01" -CommandCompletionMode DoNotVerify
 ```
 
-{{ Add example description here }}
+This command starts the node named Node01 and does not wait for the start to complete.
+
+### Example 2: Start a node with a specific NodeInstanceId
+```
+PS C:\>Start-ServiceFabricNode -NodeName "Node02" -NodeInstanceId 1234 -CommandCompletionMode DoNotVerify
+```
+
+This command starts the node named Node02 with a NodeInstanceId value of 1234 and does not wait for the start to complete.
+
+### Example 3: Start a node and specify the IPAddressOrFQDN and ClusterConnectionPort parameters
+```
+PS C:\>Start-ServiceFabricNode -NodeName "Node03" -IpAddressOrFQDN 172.16.0.0 -ClusterConnectionPort 10555 -CommandCompletionMode DoNotVerify
+```
+
+This command starts the node named Node03, which has the IP address 172.16.0.0 and a cluster connection port of 10555.
+You can get the IP address and cluster connection port of a node by using the Get-ServiceFabricNode cmdlet.
 
 ## PARAMETERS
 
 ### -ClusterConnectionPort
-{{Fill ClusterConnectionPort Description}}
+Specifies the cluster connection port for the node to start.
 
 ```yaml
 Type: Int32
@@ -58,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -CommandCompletionMode
-{{Fill CommandCompletionMode Description}}
+Specifies whether the action waits for the restart to complete.
 
 ```yaml
 Type: CompletionMode
@@ -74,7 +107,8 @@ Accept wildcard characters: False
 ```
 
 ### -IpAddressOrFQDN
-{{Fill IpAddressOrFQDN Description}}
+Specifies the IP address or fully qualified domain name (FQDN) for the node to start.
+You can use the Get-ServiceFabricNode cmdlet to get the FQDN or IP address of a node.
 
 ```yaml
 Type: String
@@ -89,7 +123,8 @@ Accept wildcard characters: False
 ```
 
 ### -NodeInstanceId
-{{Fill NodeInstanceId Description}}
+Specifies a node instance ID.
+Unless you specify 0, the node instance ID that you specify is matched against the current node before the node is started.
 
 ```yaml
 Type: BigInteger
@@ -104,7 +139,8 @@ Accept wildcard characters: False
 ```
 
 ### -NodeName
-{{Fill NodeName Description}}
+Specifies the name of a Service Fabric node.
+The cmdlet starts the node that you specify.
 
 ```yaml
 Type: String
@@ -119,7 +155,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -138,15 +174,26 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Nullable`1[[System.Numerics.BigInteger, System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
-System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+### string
+Specifies the name of a Service Fabric node.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.Testability.StartNodeResult** object that represents the operation result.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Disable-ServiceFabricNode](.\Disable-ServiceFabricNode.md)
+
+[Enable-ServiceFabricNode](.\Enable-ServiceFabricNode.md)
+
+[Get-ServiceFabricNode](.\Get-ServiceFabricNode.md)
+
+[Restart-ServiceFabricNode](.\Restart-ServiceFabricNode.md)
+
+[Stop-ServiceFabricNode](.\Stop-ServiceFabricNode.md)
+
 

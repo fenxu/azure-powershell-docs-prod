@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 9C765157-6B48-4AC8-A4D5-C26C098CFC17
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricApplicationUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricApplicationUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricApplicationUpgrade.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Start-ServiceFabricApplicationUpgrade
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Upgrades a Service Fabric application.
 
 ## SYNTAX
 
@@ -51,21 +52,31 @@ Start-ServiceFabricApplicationUpgrade [-ApplicationName] <Uri> [-ApplicationType
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Start-ServiceFabricApplicationUpgrade** cmdlet upgrades a Service Fabric application.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Upgrade an application
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListServiceV2" -ImageStoreConnectionString "file:C:\ProgramData\ServiceFabric\ImageStore" 
+PS C:\> Register-ServiceFabricApplicationType -ApplicationPathInImageStore "PersistentToDoListServiceV2" 
+PS C:\> Start-ServiceFabricApplicationUpgrade -ApplicationName fabric:/myapp/persistenttodolist -ApplicationTypeVersion "2.0" -RestartProcess -UnMonitoredManual
 ```
 
-{{ Add example description here }}
+The first command uses the Copy-ServiceFabricApplicationPackage cmdlet to copy the updated application package to the image store.
+
+The second command uses the Register-ServiceFabricApplicationType cmdlet to register the updated application type.
+
+The final command upgrades the application.
+The command performs an unmonitored manual upgrade, which includes a restart of the server that hosts the application.
 
 ## PARAMETERS
 
 ### -ApplicationName
-{{Fill ApplicationName Description}}
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric application.
+The cmdlet upgrades the application that has the URI that you specify.
 
 ```yaml
 Type: Uri
@@ -80,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationParameter
-{{Fill ApplicationParameter Description}}
+Specifies the overrides for application parameters as name/value pairs.
 
 ```yaml
 Type: Hashtable
@@ -95,7 +106,8 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationTypeVersion
-{{Fill ApplicationTypeVersion Description}}
+Specifies the version of a Service Fabric application type.
+The cmdlet upgrades the application to the version that you specify.
 
 ```yaml
 Type: String
@@ -110,7 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -119,13 +131,13 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -ConsiderWarningAsError
-{{Fill ConsiderWarningAsError Description}}
+Indicates whether to treat a warning health event as an error event during health evaluation.
 
 ```yaml
 Type: Boolean
@@ -140,7 +152,12 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultServiceTypeHealthPolicy
-{{Fill DefaultServiceTypeHealthPolicy Description}}
+Specifies the health policy for the default service type to use for the monitored upgrade in the format MaxPercentUnhealthyPartitionsPerService,MaxPercentUnhealthyReplicasPerPartition,MaxPercentUnhealthyServices.
+For example, 5,10,15 indicates the following values: 
+
+- MaxPercentUnhealthyPartitionsPerService = 5
+- MaxPercentUnhealthyReplicasPerPartition = 10
+- MaxPercentUnhealthyServices = 15
 
 ```yaml
 Type: String
@@ -155,7 +172,11 @@ Accept wildcard characters: False
 ```
 
 ### -FailureAction
-{{Fill FailureAction Description}}
+Specifies the action to take if the monitored upgrade fails.
+The acceptable values for this parameter are:
+
+- Rollback
+- Manual
 
 ```yaml
 Type: UpgradeFailureAction
@@ -171,7 +192,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Indicates that this cmdlet skips the warning message and forces the upgrade.
 
 ```yaml
 Type: SwitchParameter
@@ -186,7 +207,7 @@ Accept wildcard characters: False
 ```
 
 ### -ForceRestart
-{{Fill ForceRestart Description}}
+Indicates that the service host restarts even if the upgrade is a configuration-only change.
 
 ```yaml
 Type: SwitchParameter
@@ -201,7 +222,7 @@ Accept wildcard characters: False
 ```
 
 ### -HealthCheckRetryTimeoutSec
-{{Fill HealthCheckRetryTimeoutSec Description}}
+Specifies the duration, in seconds, after which Service Fabric retries the health check if the previous health check fails.
 
 ```yaml
 Type: UInt32
@@ -216,7 +237,8 @@ Accept wildcard characters: False
 ```
 
 ### -HealthCheckStableDurationSec
-{{Fill HealthCheckStableDurationSec Description}}
+Specifies the duration, in seconds, that Service Fabric waits in order to verify that the application is stable before moving to the next upgrade domain or completing the upgrade.
+This wait duration prevents undetected changes of health right after the health check is performed.
 
 ```yaml
 Type: UInt32
@@ -231,7 +253,7 @@ Accept wildcard characters: False
 ```
 
 ### -HealthCheckWaitDurationSec
-{{Fill HealthCheckWaitDurationSec Description}}
+Specifies the duration, in seconds, that Service Fabric waits before it performs the initial health check after it finishes the upgrade on the upgrade domain.
 
 ```yaml
 Type: UInt32
@@ -246,7 +268,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaxPercentUnhealthyDeployedApplications
-{{Fill MaxPercentUnhealthyDeployedApplications Description}}
+Specifies the maximum percentage of the application instances deployed on the nodes in the cluster that have a health state of error before the application health state for the cluster is error.
 
 ```yaml
 Type: Byte
@@ -261,7 +283,10 @@ Accept wildcard characters: False
 ```
 
 ### -Monitored
-{{Fill Monitored Description}}
+Indicates that the upgrade mode is monitored.
+After the cmdlet finishes an upgrade for an upgrade domain, if the health of the upgrade domain and the cluster meet the health policies that you define, Service Fabric upgrades the next upgrade domain.
+If the upgrade domain or cluster fails to meet health policies, the upgrade fails and Service Fabric rolls back the upgrade for the upgrade domain or reverts to manual mode per the policy specified.
+This is the recommended mode for application upgrades in a production environment.
 
 ```yaml
 Type: SwitchParameter
@@ -276,7 +301,11 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicaQuorumTimeoutSec
-{{Fill ReplicaQuorumTimeoutSec Description}}
+Specifies the time-out period, in seconds, to check whether the replica set has quorum.
+After the time-out period, the upgrade proceeds.
+
+This parameter has been deprecated.
+Specify the **UpgradeReplicaSetCheckTimeoutSec** parameter instead.
 
 ```yaml
 Type: UInt32
@@ -291,7 +320,10 @@ Accept wildcard characters: False
 ```
 
 ### -RestartProcess
-{{Fill RestartProcess Description}}
+Indicates that the service host restarts as part of the upgrade.
+
+This parameter has been deprecated.
+Specify the **ForceRestart** parameter instead.
 
 ```yaml
 Type: SwitchParameter
@@ -306,7 +338,10 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceTypeHealthPolicyMap
-{{Fill ServiceTypeHealthPolicyMap Description}}
+Specifies the map of the health policy to use for different service types as a hash table in the following format: @ {"*ServiceTypeName*" : "MaxPercentUnhealthyPartitionsPerService,MaxPercentUnhealthyReplicasPerPartition,MaxPercentUnhealthyServices"}.
+For example: 
+
+@{ "ServiceTypeName01" = "5,10,5"; "ServiceTypeName02" = "5,5,5" }
 
 ```yaml
 Type: Hashtable
@@ -321,7 +356,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -336,7 +371,9 @@ Accept wildcard characters: False
 ```
 
 ### -UnmonitoredAuto
-{{Fill UnmonitoredAuto Description}}
+Indicates that the upgrade mode is unmonitored automatic.
+After Service Fabric upgrades an upgrade domain, Service Fabric upgrades the next upgrade domain irrespective of the application health state.
+This mode is not recommended for production, and is only useful during development of an application.
 
 ```yaml
 Type: SwitchParameter
@@ -351,7 +388,8 @@ Accept wildcard characters: False
 ```
 
 ### -UnmonitoredManual
-{{Fill UnmonitoredManual Description}}
+Indicates that the upgrade mode is unmonitored manual.
+After Service Fabric upgrades an upgrade domain, it waits for you to upgrade the next upgrade domain by using the Resume-ServiceFabricApplicationUpgrade cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -366,7 +404,8 @@ Accept wildcard characters: False
 ```
 
 ### -UpgradeDomainTimeoutSec
-{{Fill UpgradeDomainTimeoutSec Description}}
+Specifies the maximum time, in seconds, that Service Fabric takes to upgrade a single upgrade domain.
+After this period, the upgrade fails.
 
 ```yaml
 Type: UInt32
@@ -381,7 +420,7 @@ Accept wildcard characters: False
 ```
 
 ### -UpgradeReplicaSetCheckTimeoutSec
-{{Fill UpgradeReplicaSetCheckTimeoutSec Description}}
+Specifies the maximum time that Service Fabric waits for a service to reconfigure into a safe state, if not already in a safe state, before Service Fabric proceeds with the upgrade.
 
 ```yaml
 Type: UInt32
@@ -396,7 +435,8 @@ Accept wildcard characters: False
 ```
 
 ### -UpgradeTimeoutSec
-{{Fill UpgradeTimeoutSec Description}}
+Specifies the maximum time, in seconds, that Service Fabric takes for the entire upgrade.
+After this period, the upgrade fails.
 
 ```yaml
 Type: UInt32
@@ -412,6 +452,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
+The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -421,7 +462,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -432,12 +473,27 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.Description.ApplicationUpgradeDescription** for a Service Fabric application upgrade.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Get-ServiceFabricApplicationUpgrade](.\Get-ServiceFabricApplicationUpgrade.md)
+
+[Resume-ServiceFabricApplicationUpgrade](.\Resume-ServiceFabricApplicationUpgrade.md)
+
+[Copy-ServiceFabricApplicationPackage](.\Copy-ServiceFabricApplicationPackage.md)
+
+[Register-ServiceFabricApplicationType](.\Register-ServiceFabricApplicationType.md)
+
 

@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 57A27B58-D6EC-464F-97FA-63F5D0391954
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Add-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Add-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Add-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,32 +19,39 @@ manager: visual-studio-china
 # Add-ServiceFabricNode
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Adds a Service Fabric node to a cluster.
 
 ## SYNTAX
 
 ```
 Add-ServiceFabricNode [-NodeName] <String> -NodeType <String> -IpAddressOrFQDN <String> -UpgradeDomain <String>
- -FaultDomain <String> -FabricPackageSourcePath <String> -PreviewMode <Boolean> [-TimeoutSec <Int32>]
- [<CommonParameters>]
+ -FaultDomain <String> -FabricRuntimePackagePath <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Add-ServiceFabricNode** adds a Service Fabric node to a cluster.
+You must run this cmdlet on the computer that you want to add.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Add a node to a cluster
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Add-ServiceFabricNode -NodeName "N011" -NodeType "NodeType0" -IpAddressOrFQDN "10.10.100.100" -UpgradeDomain "ud5" -FaultDomain "fd:/dc5/r0" -FabricRuntimePackagePath "D:\deployanywhere\MicrosoftAzureServiceFabric.cab"
 ```
 
-{{ Add example description here }}
+This command adds the specified node to a cluster.
+
+### Example 2: Add a node to a cluster secured with a group-managed service account
+```
+PS C:\>Add-ServiceFabricNode -NodeName "N011" -NodeType "NodeType1" -IpAddressOrFQDN "mycluster.cloudapp.net:19000" -UpgradeDomain "UD5" -FaultDomain "fd:/dc5/r0" -FabricRuntimePackagePath ".\MicrosoftAzureServiceFabric.cab"
+```
+
+This command adds a node to a cluster secured with a group-managed account.
 
 ## PARAMETERS
 
-### -FabricPackageSourcePath
-{{Fill FabricPackageSourcePath Description}}
+### -FabricRuntimePackagePath
+Specifies the path of the .cab file.
 
 ```yaml
 Type: String
@@ -58,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -FaultDomain
-{{Fill FaultDomain Description}}
+Specifies the fault domain of the node.
 
 ```yaml
 Type: String
@@ -73,7 +81,7 @@ Accept wildcard characters: False
 ```
 
 ### -IpAddressOrFQDN
-{{Fill IpAddressOrFQDN Description}}
+Specifies the IP address or fully qualified domain name (FQDN) of the node.
 
 ```yaml
 Type: String
@@ -88,7 +96,7 @@ Accept wildcard characters: False
 ```
 
 ### -NodeName
-{{Fill NodeName Description}}
+Specifies the name of the node.
 
 ```yaml
 Type: String
@@ -103,7 +111,7 @@ Accept wildcard characters: False
 ```
 
 ### -NodeType
-{{Fill NodeType Description}}
+Specifies the type of node.
 
 ```yaml
 Type: String
@@ -117,23 +125,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PreviewMode
-{{Fill PreviewMode Description}}
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -148,7 +141,7 @@ Accept wildcard characters: False
 ```
 
 ### -UpgradeDomain
-{{Fill UpgradeDomain Description}}
+Specifies the upgrade domain for the node.
 
 ```yaml
 Type: String
@@ -167,13 +160,29 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
+### String
+This cmdlet accepts a string for the name of a Service Fabric node, node type, IP address of the machine to add, upgrade domain, fault domain, and Fabric package source path.
 
 ## OUTPUTS
-
-### System.Object
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Disable-ServiceFabricNode](.\Disable-ServiceFabricNode.md)
+
+[Enable-ServiceFabricNode](.\Enable-ServiceFabricNode.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Remove-ServiceFabricNode](.\Remove-ServiceFabricNode.md)
+
+[Restart-ServiceFabricNode](.\Restart-ServiceFabricNode.md)
+
+[Start-ServiceFabricNode](.\Start-ServiceFabricNode.md)
+
+[Stop-ServiceFabricNode](.\Stop-ServiceFabricNode.md)
+
 

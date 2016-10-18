@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: F6801F63-9A69-48E9-B2A2-64B8F2C5E8C8
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Update-ServiceFabricServiceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Update-ServiceFabricServiceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Update-ServiceFabricServiceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Update-ServiceFabricServiceGroup
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Updates a Service Fabric service group.
 
 ## SYNTAX
 
@@ -36,21 +37,30 @@ Update-ServiceFabricServiceGroup [-Stateful] [-ServiceName] <Uri> [-TargetReplic
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Update-ServiceFabricServiceGroup** cmdlet updates a Service Fabric service group.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Update a stateful service group
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Update-ServiceFabricServiceGroup -Stateful -ServiceName fabric:/myapp/test -MinReplicaSetSize 3 -TargetReplicaSetSize 5
 ```
 
-{{ Add example description here }}
+This command updates the minimum replica set size and the target replica set size of a running Fabric Service to three (3) and five (5).
+
+### Example 2: Update a stateless service group
+```
+PS C:\>Update-ServiceFabricServiceGroup -Stateless -ServiceName fabric:/myapp/test -InstanceCount -1
+```
+
+This command updates the instance count of a running Fabric Service to a value of negative one (-1).
 
 ## PARAMETERS
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -59,13 +69,13 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -80,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -InstanceCount
-{{Fill InstanceCount Description}}
+Specifies the number of instances for the stateless service.
 
 ```yaml
 Type: Int32
@@ -95,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -MinReplicaSetSize
-{{Fill MinReplicaSetSize Description}}
+Specifies the minimum replica set size for the Service Fabric stateful service.
 
 ```yaml
 Type: Int32
@@ -110,7 +120,9 @@ Accept wildcard characters: False
 ```
 
 ### -QuorumLossWaitDuration
-{{Fill QuorumLossWaitDuration Description}}
+Specifies the duration, as a **TimeSpan** object, that Service Fabric waits before it declares data loss for a service partition.
+To obtain a **TimeSpan** object, use the New-TimeSpanhttp://go.microsoft.com/fwlink/?LinkID=113360 cmdlet.
+For more information, type `Get-Help New-TimeSpan`.
 
 ```yaml
 Type: TimeSpan
@@ -125,7 +137,8 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicaRestartWaitDuration
-{{Fill ReplicaRestartWaitDuration Description}}
+Specifies the interval, as a **TimeSpan** object, that Service Fabric waits for the replica to restart before it fails over the replica.
+To obtain a **TimeSpan** object, use the **New-TimeSpan** cmdlet.
 
 ```yaml
 Type: TimeSpan
@@ -140,7 +153,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric service group.
 
 ```yaml
 Type: Uri
@@ -155,7 +168,7 @@ Accept wildcard characters: False
 ```
 
 ### -Stateful
-{{Fill Stateful Description}}
+Indicates that the service is a Service Fabric stateful service.
 
 ```yaml
 Type: SwitchParameter
@@ -170,7 +183,7 @@ Accept wildcard characters: False
 ```
 
 ### -Stateless
-{{Fill Stateless Description}}
+Indicates that the service is a Service Fabric stateless service.
 
 ```yaml
 Type: SwitchParameter
@@ -185,7 +198,7 @@ Accept wildcard characters: False
 ```
 
 ### -TargetReplicaSetSize
-{{Fill TargetReplicaSetSize Description}}
+Specifies the target replica set size for a Service Fabric stateful service.
 
 ```yaml
 Type: Int32
@@ -200,7 +213,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -216,6 +229,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
+The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -225,7 +239,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -236,12 +250,23 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns the status of the operation as a string.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[New-ServiceFabricServiceGroup](.\New-ServiceFabricServiceGroup.md)
+
+[Remove-ServiceFabricServiceGroup](.\Remove-ServiceFabricServiceGroup.md)
+
 

@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Test-ServiceFabricClusterConnection.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: AC68A4AD-F230-4E30-83F9-94B88A8A2A32
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricClusterConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricClusterConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricClusterConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricClusterConnection
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the current Service Fabric cluster connection.
 
 ## SYNTAX
 
@@ -27,21 +28,22 @@ Get-ServiceFabricClusterConnection [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricClusterConnection** cmdlet gets the current Service Fabric cluster connection with the parameters used to connect to the cluster, like connection endpoint, fabric client settings, and gateway information.
+To create a cluster connection, use the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the current cluster connection
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricClusterConnection
 ```
 
-{{ Add example description here }}
+This command gets the current Service Fabric cluster connection.
 
 ## PARAMETERS
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -61,12 +63,19 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.PowerShell.ClusterConnection** that represents the Service Fabric cluster connection information.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Test-ServiceFabricClusterConnection](.\Test-ServiceFabricClusterConnection.md)
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
 

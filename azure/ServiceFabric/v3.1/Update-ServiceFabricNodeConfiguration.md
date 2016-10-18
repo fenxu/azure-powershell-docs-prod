@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: BD9B8EBB-38BA-4EFB-A237-C6218E18369B
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Update-ServiceFabricNodeConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Update-ServiceFabricNodeConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Update-ServiceFabricNodeConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Update-ServiceFabricNodeConfiguration
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Updates a Service Fabric cluster configuration.
 
 ## SYNTAX
 
@@ -28,21 +29,27 @@ Update-ServiceFabricNodeConfiguration [-ClusterManifestPath] <String> [-Force] [
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Update-ServiceFabricNodeConfiguration** cmdlet updates a Service Fabric cluster configuration.
+This cmdlet is for disaster recovery only.
+Do not use it during normal operations.
+
+To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Update the service fabric node configuration for an existing cluster via cluster manifest
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Update-ServiceFabricNodeConfiguration -ClusterManifestPath c:\temp\clustermanifest.v2.xml
 ```
 
-{{ Add example description here }}
+This command updates the cluster manifest in order to update the set of service fabric nodes
 
 ## PARAMETERS
 
 ### -ClusterManifestPath
-{{Fill ClusterManifestPath Description}}
+Specifies the path of a Service Fabric cluster manifest.
+The cmdlet updates the cluster configuration based on the manifest that you specify.
 
 ```yaml
 Type: String
@@ -57,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -66,13 +73,13 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -88,6 +95,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
+The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -97,7 +105,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -108,12 +116,23 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns the status of the operation as a string.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[New-ServiceFabricNodeConfiguration](.\New-ServiceFabricNodeConfiguration.md)
+
+[Remove-ServiceFabricNodeConfiguration](.\Remove-ServiceFabricNodeConfiguration.md)
+
 

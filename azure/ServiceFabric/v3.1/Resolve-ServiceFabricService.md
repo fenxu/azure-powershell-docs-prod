@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: A315ECB3-FC8C-451B-85B0-C3C4887B78C9
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Resolve-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Resolve-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Resolve-ServiceFabricService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Resolve-ServiceFabricService
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Retrieves the replica or instance address of a Service Fabric service.
 
 ## SYNTAX
 
@@ -59,21 +60,23 @@ Resolve-ServiceFabricService [-PartitionKindNamed] [-ServiceName] <Uri> [-Partit
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Resolve-ServiceFabricService** cmdlet retrieves the replica or instance address of a Service Fabric service.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Resolve addresses
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Resolve-ServiceFabricService -PartitionKindUniformInt64 -ServiceName fabric:/myApp/myService -PartitionKey "0"
 ```
 
-{{ Add example description here }}
+This command retrieves the addresses of a uniform Int64 partition mapped to by partition key 0 in a service named fabric:/myApp/myService.
 
 ## PARAMETERS
 
 ### -ForceRefresh
-{{Fill ForceRefresh Description}}
+Indicates that the cmdlet forces the local cache of resolved addresses to refresh.
 
 ```yaml
 Type: SwitchParameter
@@ -88,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKey
-{{Fill PartitionKey Description}}
+Specifies the partition key for the Service Fabric service.
 
 ```yaml
 Type: String
@@ -103,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindNamed
-{{Fill PartitionKindNamed Description}}
+Indicates that the Service Fabric service is a named partition.
 
 ```yaml
 Type: SwitchParameter
@@ -118,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindSingleton
-{{Fill PartitionKindSingleton Description}}
+Indicates that the Service Fabric service is a singleton partition.
 
 ```yaml
 Type: SwitchParameter
@@ -133,7 +136,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindUniformInt64
-{{Fill PartitionKindUniformInt64 Description}}
+Indicates that the Service Fabric service is a UniformInt64 partition.
 
 ```yaml
 Type: SwitchParameter
@@ -148,7 +151,7 @@ Accept wildcard characters: False
 ```
 
 ### -PreviousResult
-{{Fill PreviousResult Description}}
+Specifies the previous resolve service partition results.
 
 ```yaml
 Type: ResolvedServicePartition
@@ -163,7 +166,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the URI of a Service Fabric service.
 
 ```yaml
 Type: Uri
@@ -178,7 +181,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -197,16 +200,28 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.Uri
-System.String
-System.Fabric.ResolvedServicePartition
-System.Management.Automation.SwitchParameter
+### System.Uri, String, System.Fabric.ResolvedServicePartition
+This cmdlet accepts a URI that represents the name of a Service Fabric service, or the partition key as a string, or a **System.Fabric.ResolvedServicePartition** object that represents a previous resolve service partition result.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.ResolvedServicePartition** object that represents the Service Fabric resolved service partition.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Get-ServiceFabricService](.\Get-ServiceFabricService.md)
+
+[New-ServiceFabricService](.\New-ServiceFabricService.md)
+
+[Remove-ServiceFabricService](.\Remove-ServiceFabricService.md)
+
+[Update-ServiceFabricService](.\Update-ServiceFabricService.md)
+
 

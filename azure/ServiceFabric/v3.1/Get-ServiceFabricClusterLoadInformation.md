@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 24B71C3E-C151-4967-8370-F23DCC9BB772
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricClusterLoadInformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricClusterLoadInformation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricClusterLoadInformation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricClusterLoadInformation
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the load reports of a Service Fabric cluster.
 
 ## SYNTAX
 
@@ -27,21 +28,24 @@ Get-ServiceFabricClusterLoadInformation [-TimeoutSec <Int32>] [<CommonParameters
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricClusterLoadInformation** cmdlet gets the detailed load information for each metric.
+The data is retrieved from the resource balancer.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the cluster load information
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricClusterLoadInformation
 ```
 
-{{ Add example description here }}
+This command gets a list of metrics load information and metadata about the last resource manager running.
 
 ## PARAMETERS
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -61,12 +65,19 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.Query.ClusterLoadInformation** object that represents the cluster load information.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

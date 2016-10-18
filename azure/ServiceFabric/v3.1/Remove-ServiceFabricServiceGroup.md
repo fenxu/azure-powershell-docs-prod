@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\New-ServiceFabricServiceGroup.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 85755368-FB2A-4164-B826-74E5A5A52328
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricServiceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricServiceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricServiceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Remove-ServiceFabricServiceGroup
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Removes a Service Fabric service group.
 
 ## SYNTAX
 
@@ -28,21 +29,26 @@ Remove-ServiceFabricServiceGroup [-ServiceName] <Uri> [-Force] [-TimeoutSec <Int
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Remove-ServiceFabricServiceGroup** cmdlet removes a Service Fabric service group.
+A service must be running before you can remove it.
+
+To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet and then the Get-ServiceFabricClusterConnection cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Remove a service group
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Remove-ServiceFabricServiceGroup -ServiceName fabric:/myapp/persistenttodolist/svc1 -Force
 ```
 
-{{ Add example description here }}
+This command removes the Service Fabric service group named fabric:/myapp/persistenttodolist/svc1.
+Because the command specifies the *Force* parameter, the cmdlet does not prompt you for confirmation.
 
 ## PARAMETERS
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -51,13 +57,13 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -72,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric service group.
 
 ```yaml
 Type: Uri
@@ -87,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -103,6 +109,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
+The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -112,7 +119,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -123,12 +130,19 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Uri
+This cmdlet accepts a URI that represents the name of a Service Fabric service group.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns the status of the operation as a string.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[New-ServiceFabricServiceGroup](.\New-ServiceFabricServiceGroup.md)
+
+[Update-ServiceFabricServiceGroup](.\Update-ServiceFabricServiceGroup.md)
+
 

@@ -1,0 +1,110 @@
+---
+external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
+online version: 7370ad41-fb09-4948-9bb7-8fd67b5e99e4
+schema: 2.0.0
+ms.assetid: 1D699B1C-8047-4106-ABFF-8CDF9FEF142C
+updated_at: 10/18/2016 11:23 PM
+ms.date: 10/18/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Test-ServiceFabricConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Test-ServiceFabricConfiguration.md
+ms.topic: reference
+ms.prod: powershell
+ms.service: service-fabric
+ms.technology: Azure Powershell
+author: visual-studio-china
+keywords: powershell, cmdlet
+manager: visual-studio-china
+---
+
+# Test-ServiceFabricConfiguration
+
+## SYNOPSIS
+Validates cluster configuration and tests whether deployment can succeed.
+
+## SYNTAX
+
+```
+Test-ServiceFabricConfiguration [-ClusterConfigurationFilePath] <String> [-FabricRuntimePackagePath <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+## DESCRIPTION
+The **Test-ServiceFabricConfiguration** cmdlet validates the cluster configuration and tests whether deployment can succeed for the target computers in the configuration from the controller.
+Specify the configuration file in JavaScript Object Notation (JSON) format.
+
+## EXAMPLES
+
+### Example 1: Validate deployment
+```
+PS C:\>Test-ServiceFabricConfiguration -ClusterConfigurationFilePath "D:\standalone\ClusterConfig.Unsecure.DevCluster.json"
+```
+
+This command validates that the cluster deploys from the current computer by using the specified configuration.
+
+### Example 2: Validate deployment and runtime CAB file
+```
+PS C:\>Test-ServiceFabricConfiguration -ClusterConfigurationFilePath "D:\standalone\ClusterConfig.Unsecure.DevCluster.json" -FabricRuntimePackagePath "D:\deployanywhere\MicrosoftAzureServiceFabric.cab"
+```
+
+This command validates that the cluster deploys from the current computer by using this configuration.
+The command also validates whether the runtime CAB can be used to deploy the cluster.
+
+## PARAMETERS
+
+### -ClusterConfigurationFilePath
+Specifies the path of the JSON cluster configuration file.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -FabricRuntimePackagePath
+Specifies the path of the Service Fabric runtime package CAB file.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TimeoutSec
+Specifies the time-out period, in seconds, for the operation.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
+## INPUTS
+
+## OUTPUTS
+
+## NOTES
+
+## RELATED LINKS
+
+

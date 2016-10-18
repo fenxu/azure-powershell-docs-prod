@@ -33,6 +33,12 @@
           href: ../ServiceFabric/v3.1/Get-ServiceFabricApplicationType.md
         - name: Get-ServiceFabricApplicationUpgrade
           href: ../ServiceFabric/v3.1/Get-ServiceFabricApplicationUpgrade.md
+        - name: Get-ServiceFabricChaosReport
+          href: ../ServiceFabric/v3.1/Get-ServiceFabricChaosReport.md
+        - name: Get-ServiceFabricClusterConfiguration
+          href: ../ServiceFabric/v3.1/Get-ServiceFabricClusterConfiguration.md
+        - name: Get-ServiceFabricClusterConfigurationUpgradeStatus
+          href: ../ServiceFabric/v3.1/Get-ServiceFabricClusterConfigurationUpgradeStatus.md
         - name: Get-ServiceFabricClusterConnection
           href: ../ServiceFabric/v3.1/Get-ServiceFabricClusterConnection.md
         - name: Get-ServiceFabricClusterHealth
@@ -71,8 +77,6 @@
           href: ../ServiceFabric/v3.1/Get-ServiceFabricNodeHealth.md
         - name: Get-ServiceFabricNodeLoadInformation
           href: ../ServiceFabric/v3.1/Get-ServiceFabricNodeLoadInformation.md
-        - name: Get-ServiceFabricPackageDebugParameters
-          href: ../ServiceFabric/v3.1/Get-ServiceFabricPackageDebugParameters.md
         - name: Get-ServiceFabricPartition
           href: ../ServiceFabric/v3.1/Get-ServiceFabricPartition.md
         - name: Get-ServiceFabricPartitionDataLossProgress
@@ -221,6 +225,10 @@
           href: ../ServiceFabric/v3.1/Start-ServiceFabricApplicationRollback.md
         - name: Start-ServiceFabricApplicationUpgrade
           href: ../ServiceFabric/v3.1/Start-ServiceFabricApplicationUpgrade.md
+        - name: Start-ServiceFabricChaos
+          href: ../ServiceFabric/v3.1/Start-ServiceFabricChaos.md
+        - name: Start-ServiceFabricClusterConfigurationUpgrade
+          href: ../ServiceFabric/v3.1/Start-ServiceFabricClusterConfigurationUpgrade.md
         - name: Start-ServiceFabricClusterRollback
           href: ../ServiceFabric/v3.1/Start-ServiceFabricClusterRollback.md
         - name: Start-ServiceFabricClusterUpgrade
@@ -235,6 +243,8 @@
           href: ../ServiceFabric/v3.1/Start-ServiceFabricPartitionRestart.md
         - name: Start-ServiceFabricRepairTask
           href: ../ServiceFabric/v3.1/Start-ServiceFabricRepairTask.md
+        - name: Stop-ServiceFabricChaos
+          href: ../ServiceFabric/v3.1/Stop-ServiceFabricChaos.md
         - name: Stop-ServiceFabricNode
           href: ../ServiceFabric/v3.1/Stop-ServiceFabricNode.md
         - name: Stop-ServiceFabricRepairTask
@@ -249,6 +259,8 @@
           href: ../ServiceFabric/v3.1/Test-ServiceFabricClusterConnection.md
         - name: Test-ServiceFabricClusterManifest
           href: ../ServiceFabric/v3.1/Test-ServiceFabricClusterManifest.md
+        - name: Test-ServiceFabricConfiguration
+          href: ../ServiceFabric/v3.1/Test-ServiceFabricConfiguration.md
         - name: Test-ServiceFabricService
           href: ../ServiceFabric/v3.1/Test-ServiceFabricService.md
         - name: Unregister-ServiceFabricApplicationType

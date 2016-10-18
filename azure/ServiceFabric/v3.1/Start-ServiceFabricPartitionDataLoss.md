@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Get-ServiceFabricPartitionDataLossProgress.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: F83D7B99-CFDC-4A95-A2C7-3CD33925FBAA
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricPartitionDataLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricPartitionDataLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricPartitionDataLoss.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Start-ServiceFabricPartitionDataLoss
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Starts to perform a data loss test on a partition.
 
 ## SYNTAX
 
@@ -28,22 +29,16 @@ Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLoss
  -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNameRandomPartition
-```
-Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLossMode> -ServiceName <Uri>
- [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### ServiceNamePartitionUniformedInt
 ```
 Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLossMode> -ServiceName <Uri>
  [-PartitionKindUniformInt64] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNamePartitionNamed
+### ServiceNameRandomPartition
 ```
 Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLossMode> -ServiceName <Uri>
- [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionSingleton
@@ -52,22 +47,46 @@ Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLoss
  [-PartitionKindSingleton] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNamePartitionNamed
+```
+Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLossMode> -ServiceName <Uri>
+ [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Start-ServiceFabricPartitionDataLoss** cmdlet initiates an operation to perform a data loss test on a stateful service partition in Azure Service Fabric.
+To run this cmdlet, **FaultAnalysisService** must be enabled.
+
+Run this cmdlet to perform a data loss test only for partitions for stateful services.
+Do not use this cmdlet to perform a data loss test for system services.
+
+You can check the progress of the operation by using the Get-ServiceFabricPartitionDataLossProgress cmdlet.
+
+Note: After you start **Start-ServiceFabricPartitionDataLoss**, you cannot reverse it.  Calling **Stop-ServiceFabricTestCommand** only stops execution and cleans up the internal system state; it does not restore data if the command has progressed far enough to cause data loss.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Start a data loss test for a service by partition ID
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Start-ServiceFabricPartitionDataLoss -OperationId d3f12b09-6a90-4745-a4fc-3f92149a7419 -DataLossMode FullDataLoss -PartitionId 67e2c139-ccf0-4562-9f2b-bf35e4c2abd4 -ServiceName "fabric:/ContosoApp/ContosoService"
 ```
 
-{{ Add example description here }}
+This command starts a data loss test command for all replicas of the service named fabric:/ContosoApp/ContosoService in the partition that has the ID 67e2c139-ccf0-4562-9f2b-bf35e4c2abd4.
+Specify a unique GUID for the *OperationId* parameter.
+You can use this ID to check the progress of the restart operation.
 
 ## PARAMETERS
 
 ### -DataLossMode
-{{Fill DataLossMode Description}}
+Specifies the data loss mode for the test command.
+The acceptable values for this parameter are:
+
+- PartialDataLoss.
+Only a quorum of replicas are removed.
+**OnDataLoss** is triggered for the partition, but actual data loss depends on presence of inflight replication.
+- FullDataLoss.
+All replicas are removed.
+All data is lost and **OnDataLoss** is triggered.
 
 ```yaml
 Type: DataLossMode
@@ -83,7 +102,9 @@ Accept wildcard characters: False
 ```
 
 ### -OperationId
-{{Fill OperationId Description}}
+Specifies a unique identifier for this operation.
+Specify a unique value.
+You can check the progress of the operation by using this ID and **Get-ServiceFabricPartitionDataLossProgress**.
 
 ```yaml
 Type: Guid
@@ -98,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of the Service Fabric partition for which this cmdlet starts a data loss test.
 
 ```yaml
 Type: Guid
@@ -113,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKey
-{{Fill PartitionKey Description}}
+Specifies the key of the Service Fabric partition for which this cmdlet starts a data loss test.
 
 ```yaml
 Type: String
@@ -128,7 +149,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindNamed
-{{Fill PartitionKindNamed Description}}
+Indicates that the Service Fabric partition for which this cmdlet starts a data loss test is a Named partition.
 
 ```yaml
 Type: SwitchParameter
@@ -143,7 +164,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindSingleton
-{{Fill PartitionKindSingleton Description}}
+Indicates that the Service Fabric partition for which this cmdlet starts a data loss test is a singleton partition.
 
 ```yaml
 Type: SwitchParameter
@@ -158,7 +179,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindUniformInt64
-{{Fill PartitionKindUniformInt64 Description}}
+Indicates that the Service Fabric partition for which this cmdlet starts a data loss test is a UniformInt64 partition.
 
 ```yaml
 Type: SwitchParameter
@@ -173,7 +194,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
 
 ```yaml
 Type: Uri
@@ -188,7 +209,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -207,15 +228,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.Guid
-System.Uri
-System.String
-
 ## OUTPUTS
-
-### System.Object
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricPartitionDataLossProgress](.\Get-ServiceFabricPartitionDataLossProgress.md)
+
+[Invoke-ServiceFabricPartitionDataLoss](.\Invoke-ServiceFabricPartitionDataLoss.md)
+
 

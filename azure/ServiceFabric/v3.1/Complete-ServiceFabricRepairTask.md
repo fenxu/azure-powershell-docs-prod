@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Approve-ServiceFabricRepairTask.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: FF0A85E2-0CAB-4762-B813-47C420DF9FB8
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Complete-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Complete-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Complete-ServiceFabricRepairTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Complete-ServiceFabricRepairTask
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Reports that a manual repair task is finished.
 
 ## SYNTAX
 
@@ -29,21 +30,39 @@ Complete-ServiceFabricRepairTask [-TaskId] <String> [[-Version] <Int64>] [-Resul
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Complete-ServiceFabricRepairTask** cmdlet reports that a manual Service Fabric repair task is finished.
+After you run this cmdlet, the repair task is no longer approved to be run.
+No additional repair work is started on the entities described by the repair task.
+If you are unsure of the status of the repair work, do not report completion of the repair task.
+Performing repair work after you run this cmdlet can result in availability or data loss.
+If subsequent repairs are needed, start a new repair task and wait for approval of that repair task.
+
+This cmdlet supports the Service Fabric platform.
+Do not run this cmdlet directly.
+
+This cmdlet requires that you connect to the cluster with credentials that are granted administrator access to the cluster.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Complete a manual repair task successfully
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Complete-ServiceFabricRepairTask -TaskId MyRepairTaskID
 ```
 
-{{ Add example description here }}
+This command marks the manual repair task that has the ID MyRepairTaskId as completed successfully.
+
+### Example 2: Complete a manual repair task with details
+```
+PS C:\>Complete-ServiceFabricRepairTask -TaskId MyRepairTaskID -ResultStatus Cancelled -ResultCode 42 -ResultDetails "Repair was no longer needed"
+```
+
+This command marks the manual repair task that has the ID MyRepairTaskId as cancelled and includes additional details.
 
 ## PARAMETERS
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -52,13 +71,13 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run even if the specified repair task does not appear to be a manual repair task.
 
 ```yaml
 Type: SwitchParameter
@@ -73,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResultCode
-{{Fill ResultCode Description}}
+Specifies a value that provides additional details about the result of the repair task.
 
 ```yaml
 Type: Int32
@@ -88,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResultDetails
-{{Fill ResultDetails Description}}
+Specifies a string that provide additional details about the result of the repair task.
 
 ```yaml
 Type: String
@@ -103,7 +122,21 @@ Accept wildcard characters: False
 ```
 
 ### -ResultStatus
-{{Fill ResultStatus Description}}
+Specifies a value that describes the overall result of the repair task.
+Valid values are:
+
+- Invalid.
+Do not specify this value.
+- Succeeded.
+The repair task succeeded.
+- Cancelled.
+The repair task was cancelled.
+- Interrupted.
+The repair task was interrupted.
+- Failed.
+The repair task failed.
+- Pending.
+Do not specify this value.
 
 ```yaml
 Type: RepairTaskResult
@@ -119,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -TaskId
-{{Fill TaskId Description}}
+Specifies the ID of the repair task to complete.
 
 ```yaml
 Type: String
@@ -134,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -149,7 +182,9 @@ Accept wildcard characters: False
 ```
 
 ### -Version
-{{Fill Version Description}}
+Specifies the current version of the repair task.
+The request can succeed only if the value that this parameter specifies matches the current value of the repair task.
+Specify a value of zero (0) to skip version check.
 
 ```yaml
 Type: Int64
@@ -165,6 +200,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
+The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -174,7 +210,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -184,14 +220,26 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Int64
+### System.Fabric.Repair.RepairTask
+This cmdlet accepts the repair task to complete.
 
 ## OUTPUTS
 
-### System.Object
+### None.
+This cmdlet does not generate any output.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Approve-ServiceFabricRepairTask](.\Approve-ServiceFabricRepairTask.md)
+
+[Get-ServiceFabricRepairTask](.\Get-ServiceFabricRepairTask.md)
+
+[Remove-ServiceFabricRepairTask](.\Remove-ServiceFabricRepairTask.md)
+
+[Start-ServiceFabricRepairTask](.\Start-ServiceFabricRepairTask.md)
+
+[Stop-ServiceFabricRepairTask](.\Stop-ServiceFabricRepairTask.md)
+
 

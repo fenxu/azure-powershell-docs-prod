@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 0A01F959-D065-4EEC-BA1C-28B623F49416
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricReplica.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricReplica
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets Service Fabric replicas.
 
 ## SYNTAX
 
@@ -28,21 +29,33 @@ Get-ServiceFabricReplica [-PartitionId] <Guid> [[-ReplicaOrInstanceId] <Int64>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricReplica** cmdlet gets Service Fabric replicas of a partition.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the replica for a partition
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>$CalculatorPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/calculator/svc1 
+PS C:\> Get-ServiceFabricReplica -PartitionId $CalculatorPartition01.PartitionId
 ```
 
-{{ Add example description here }}
+The first command uses the Get-ServiceFabricPartition cmdlet to get the partition for the specified service, and then stores it in the $CalculatorPartition01.
+
+The second command gets the Service Fabric replica by using the **PartitionId** property of the partition stored in $CalculatorPartition01.
+
+### Example 2: Get the partitioned replicas for a system service
+```
+PS C:\>Get-ServiceFabricPartition -ServiceName fabric:/System/FailoverManagerService | Get-ServiceFabricReplica
+```
+
+This command gets the list of partitions for the Failover Manager system service.
 
 ## PARAMETERS
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of a Service Fabric partition.
 
 ```yaml
 Type: Guid
@@ -57,7 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicaOrInstanceId
-{{Fill ReplicaOrInstanceId Description}}
+Specifies a Service Fabric service replica or instance ID.
 
 ```yaml
 Type: Int64
@@ -72,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicaStatusFilter
-{{Fill ReplicaStatusFilter Description}}
+Specifies the replica status filter as a **ServiceReplicaStatusFilter** object.
 
 ```yaml
 Type: ServiceReplicaStatusFilter
@@ -88,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -107,14 +120,22 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.Guid
-System.Int64
+### System.Guid, Int64
+This cmdlet accepts the ID of a Service Fabric partition, or a replica or instance ID.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a list of **System.Fabric.Query.Replica** objects.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Get-ServiceFabricPartition](.\Get-ServiceFabricPartition.md)
+
 

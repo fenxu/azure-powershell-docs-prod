@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Get-ServiceFabricPartition.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: A72F38C0-29A8-4933-B7DE-EE98B1F098EB
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionLoadInformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionLoadInformation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionLoadInformation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricPartitionLoadInformation
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the load reports for a Service Fabric partition.
 
 ## SYNTAX
 
@@ -27,21 +28,26 @@ Get-ServiceFabricPartitionLoadInformation [-PartitionId] <Guid> [-TimeoutSec <In
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricPartitionLoadInformation** cmdlet gets the load reports for a Service Fabric partition.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the reported load for a service partition
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>$ToDoPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1
+PS C:\> Get-ServiceFabricPartitionLoadInformation -PartitionId $ToDoPartition01.PartitionId
 ```
 
-{{ Add example description here }}
+The first command uses the Get-ServiceFabricPartition cmdlet to get the service partition object for the named service, and then stores the object in the $ToDoPartition01 variable.
+
+The second command specifies the **PartitionId** property of the object stored in $ToDoPartition01 to get the reported load of the partition.
 
 ## PARAMETERS
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of a Service Fabric partition.
 
 ```yaml
 Type: Guid
@@ -56,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -76,12 +82,21 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Guid
+This cmdlet accepts the ID of a Service Fabric partition.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.Query.PartitionLoadInformation** object for a Service Fabric partition.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricPartition](.\Get-ServiceFabricPartition.md)
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

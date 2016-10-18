@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Invoke-ServiceFabricPartitionDataLoss.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: C312AB4D-6C4F-404B-8335-A911EFFBD6E0
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricPartitionQuorumLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricPartitionQuorumLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricPartitionQuorumLoss.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Invoke-ServiceFabricPartitionQuorumLoss
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Invokes an action to induce quorum loss in a Service Fabric partition.
 
 ## SYNTAX
 
@@ -28,12 +29,6 @@ Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -Quorum
  -PartitionId <Guid> -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNameRandomPartition
-```
-Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -QuorumLossDurationInSeconds <Int32>
- -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### ServiceNamePartitionUniformedInt
 ```
 Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -QuorumLossDurationInSeconds <Int32>
@@ -41,10 +36,10 @@ Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -Quorum
  [<CommonParameters>]
 ```
 
-### ServiceNamePartitionNamed
+### ServiceNameRandomPartition
 ```
 Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -QuorumLossDurationInSeconds <Int32>
- -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+ -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionSingleton
@@ -53,22 +48,45 @@ Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -Quorum
  -ServiceName <Uri> [-PartitionKindSingleton] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNamePartitionNamed
+```
+Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -QuorumLossDurationInSeconds <Int32>
+ -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Invoke-ServiceFabricPartitionQuorumLoss** cmdlet induces quorum loss in a Service Fabric partition for a specified amount of time.
+
+You can run this cmdlet only with stateful services.
+
+Before using this cmdlet, connect to the Service Fabric cluster.
+
+Important note: This cmdlet should not be aborted while running.
+Aborting this cmdlet while it is running may leave state behind.
+If this cmdlet is aborted while running, Remove-ServiceFabricTestState should be invoked to remove state that may have been left behind.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Invoke full quorum loss on a named partition
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Invoke-ServiceFabricPartitionQuorumLoss -ServiceName fabric:/TestSvc -PartitionKindNamed -QuorumLossDurationInSeconds 10 -PartitionKey "Partition3" -QuorumLossMode FullQuorumLoss
 ```
 
-{{ Add example description here }}
+This command invokes full quorum loss for the specified service.
+
+### Example 2: Invoke partial quorum loss on a UniformInt64 partition
+```
+PS C:\>Invoke-ServiceFabricPartitionQuorumLoss -ServiceName fabric:/TestSvc -PartitionKindUniformInt64 -QuorumLossDurationInSeconds 10 -PartitionKey "23" -QuorumLossMode PartialQuorumLoss
+```
+
+This command invokes partial quorum loss on a UniformInt64 partition.
+
+This command invokes partial quorum loss on a UniformInt64 partition.
 
 ## PARAMETERS
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of the partition on which to invoke the quorum loss.
 
 ```yaml
 Type: Guid
@@ -83,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKey
-{{Fill PartitionKey Description}}
+Specifies the key of the partition on which to invoke the test.
 
 ```yaml
 Type: String
@@ -98,7 +116,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindNamed
-{{Fill PartitionKindNamed Description}}
+Indicates that this cmdlet invokes a quorum loss on a named partition.
 
 ```yaml
 Type: SwitchParameter
@@ -113,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindSingleton
-{{Fill PartitionKindSingleton Description}}
+Indicates that this cmdlet invokes a quorum loss on a singleton partition.
 
 ```yaml
 Type: SwitchParameter
@@ -128,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindUniformInt64
-{{Fill PartitionKindUniformInt64 Description}}
+Indicates that this cmdlet invokes a quorum loss for a UniformInt64 partitioned service.
 
 ```yaml
 Type: SwitchParameter
@@ -143,7 +161,7 @@ Accept wildcard characters: False
 ```
 
 ### -QuorumLossDurationInSeconds
-{{Fill QuorumLossDurationInSeconds Description}}
+Specifies the duration period, in seconds, for the quorum loss.
 
 ```yaml
 Type: Int32
@@ -158,7 +176,7 @@ Accept wildcard characters: False
 ```
 
 ### -QuorumLossMode
-{{Fill QuorumLossMode Description}}
+Specifies the quorum loss mode.
 
 ```yaml
 Type: QuorumLossMode
@@ -174,7 +192,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the name of the service to test.
 
 ```yaml
 Type: Uri
@@ -189,7 +207,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -209,14 +227,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Guid
-System.Uri
-System.String
+Represents the ID of a Service Fabric partition.
+
+### System.Uri
+Represents the name of a Service Fabric service.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.Testability.InvokeQuorumLossResult** object that represents the operation result.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Invoke-ServiceFabricPartitionDataLoss](.\Invoke-ServiceFabricPartitionDataLoss.md)
+
 

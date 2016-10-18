@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: 7370ad41-fb09-4948-9bb7-8fd67b5e99e4
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: DD60B18E-5ED7-41B6-B9D4-38BD726DCFF2
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricImageStoreContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricImageStoreContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricImageStoreContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricImageStoreContent
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets content from the image store.
 
 ## SYNTAX
 
@@ -36,21 +37,28 @@ Get-ServiceFabricImageStoreContent [-Path] [-RemoteRelativePath <String>] -Image
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricImageStoreContent** cmdlet gets content from the Service Fabric image store.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get image store content by application name/type
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricImageStoreContent -Application -ApplicationTypeName "CalcServiceApp" -ApplicationTypeVersion "2.0" -ImageStoreConnectionString "fabric:ImageStore"
 ```
 
-{{ Add example description here }}
+This command gets image store content that belongs to the application CalcServiceApp, type version 2.0.
+
+### Example 2: Get image store content by relative path
+```
+PS C:\>Get-ServiceFabricImageStoreContent -Path -RemoteRelativePath "Store\CalcServiceApp\apps" -ImageStoreConnectionString "fabric:ImageStore"
+```
+
+This command gets image store content for all application instances.
 
 ## PARAMETERS
 
 ### -Application
-{{Fill Application Description}}
+Indicates that image store content is searched by application type name and version.
 
 ```yaml
 Type: SwitchParameter
@@ -65,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationTypeName
-{{Fill ApplicationTypeName Description}}
+Specifies the name of a Service Fabric application type.
 
 ```yaml
 Type: String
@@ -80,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationTypeVersion
-{{Fill ApplicationTypeVersion Description}}
+Specifies the version of a Service Fabric application type version.
 
 ```yaml
 Type: String
@@ -95,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -ImageStoreConnectionString
-{{Fill ImageStoreConnectionString Description}}
+Specifies the connection string for the Service Fabric image store.
 
 ```yaml
 Type: String
@@ -110,7 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -Path
-{{Fill Path Description}}
+Indicates that image store content is searched by using the image store relative path.
 
 ```yaml
 Type: SwitchParameter
@@ -125,7 +133,7 @@ Accept wildcard characters: False
 ```
 
 ### -RemoteRelativePath
-Use empty string to get all locations
+Specifies the relative path to the image store root.
 
 ```yaml
 Type: String
@@ -140,7 +148,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -159,13 +167,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
+###  
+**Get-ServiceFabricStoreContent** accepts string instances of a Service Fabric application type; the version of an application type; or the image store relative path.
 
 ## OUTPUTS
 
-### System.Object
+###  
+**Get-ServiceFabricStoreContent** returns instances of the  **System.Fabric.Management.ImageStore.ImageStoreFile** object and/or the **System.Fabric.Management.ImageStore.ImageStoreFolder** object.
 
 ## NOTES
 
 ## RELATED LINKS
+
 

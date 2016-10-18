@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: FE8B509E-E427-43B4-920D-B6392449788A
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricEncryptSecret.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricEncryptSecret.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricEncryptSecret.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Invoke-ServiceFabricEncryptSecret
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Encrypts text in the cluster manifest by using a certificate.
 
 ## SYNTAX
 
@@ -28,21 +29,25 @@ Invoke-ServiceFabricEncryptSecret [-CertThumbPrint] <String> [-CertStoreLocation
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Invoke-ServiceFabricEncryptSecret** cmdlet encrypts text in the Service Fabric cluster manifest by using a certificate.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Encrypt plain text
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Invoke-ServiceFabricEncryptSecret -CertThumbPrint "22 5c 58 43 48 50 92 57 2c 22 32 26 ae 67 87 ba c2 f1 cf 24" -CertStoreLocation "MY" -Text "xstore:DefaultEndpointsProtocol=https;AccountName=servicefabricstorage;AccountKey=[StorageAccountKey];Container=clusterupgrade"
 ```
 
-{{ Add example description here }}
+This command encrypts the specified plain text.
+The command specifies the certificate thumbprint and store name.
 
 ## PARAMETERS
 
 ### -CertStoreLocation
-{{Fill CertStoreLocation Description}}
+Specifies the location of the certificate in the certificate store.
+The default location is MY.
 
 ```yaml
 Type: String
@@ -57,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -CertThumbPrint
-{{Fill CertThumbPrint Description}}
+Specifies the thumbprint of the certificate to use for encrypting.
 
 ```yaml
 Type: String
@@ -72,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -Text
-{{Fill Text Description}}
+Specifies the string to encrypt.
 
 ```yaml
 Type: String
@@ -92,12 +97,19 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns the encrypted secret as a **String**.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

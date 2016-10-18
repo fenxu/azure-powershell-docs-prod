@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Start-ServiceFabricClusterRollback.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 169F0E6F-8E42-41DD-B406-0A232E380A8D
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricApplicationRollback.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricApplicationRollback.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricApplicationRollback.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Start-ServiceFabricApplicationRollback
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Starts rolling back a Service Fabric application upgrade.
 
 ## SYNTAX
 
@@ -27,21 +28,26 @@ Start-ServiceFabricApplicationRollback [-ApplicationName] <Uri> [-TimeoutSec <In
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Start-ServiceFabricApplicationRollback** cmdlet manually starts rolling back a pending upgrade.
+If the command finishes successfully, then the cmdlet has registered the intent to roll back the upgrade with Service Fabric.
+To monitor the status of the rollback, use the Get-ServiceFabricApplicationUpgrade cmdlet.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Roll back an existing application upgrade
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Start-ServiceFabricApplicationRollback -ApplicationName fabric:/MyApp
 ```
 
-{{ Add example description here }}
+This command starts rolling back any existing application upgrade for fabric:/MyApp.
 
 ## PARAMETERS
 
 ### -ApplicationName
-{{Fill ApplicationName Description}}
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric application.
+The cmdlet rolls back the upgrade for the Service Fabric that this parameter specifies.
 
 ```yaml
 Type: Uri
@@ -56,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -76,12 +82,25 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
-### System.Object
+### None
+This cmdlet does not generate any output.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Start-ServiceFabricClusterRollback](.\Start-ServiceFabricClusterRollback.md)
+
+[Start-ServiceFabricApplicationUpgrade](.\Start-ServiceFabricApplicationUpgrade.md)
+
+[Get-ServiceFabricApplicationUpgrade](.\Get-ServiceFabricApplicationUpgrade.md)
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

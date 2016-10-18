@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Start-ServiceFabricApplicationRollback.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 72A574DF-96E9-4523-84C6-9D4E4161094D
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricClusterRollback.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricClusterRollback.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Start-ServiceFabricClusterRollback.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Start-ServiceFabricClusterRollback
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Starts rolling back a Service Fabric cluster upgrade.
 
 ## SYNTAX
 
@@ -27,21 +28,26 @@ Start-ServiceFabricClusterRollback [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Start-ServiceFabricClusterRollback** cmdlet manually start rolling back a pending Service Fabric upgrade.
+If the command finishes successfully, then the cmdlet has registered the intent to roll back the upgrade with Service Fabric.
+To check the status of the rollback, use the Get-ServiceFabricClusterUpgrade cmdlet.
+
+To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Roll back a cluster upgrade
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Start-ServiceFabricClusterRollback
 ```
 
-{{ Add example description here }}
+This command starts rolling back any existing cluster upgrade.
 
 ## PARAMETERS
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -61,12 +67,25 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
-### System.Object
+### None
+This cmdlet does not generate any output.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Start-ServiceFabricApplicationRollback](.\Start-ServiceFabricApplicationRollback.md)
+
+[Start-ServiceFabricClusterUpgrade](.\Start-ServiceFabricClusterUpgrade.md)
+
+[Get-ServiceFabricClusterUpgrade](.\Get-ServiceFabricClusterUpgrade.md)
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

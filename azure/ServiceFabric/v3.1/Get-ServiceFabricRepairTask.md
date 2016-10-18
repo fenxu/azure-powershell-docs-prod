@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Approve-ServiceFabricRepairTask.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 9443FC2A-D72B-45D3-B2A4-0350C7DDD458
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricRepairTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricRepairTask
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the repair tasks.
 
 ## SYNTAX
 
@@ -28,21 +29,47 @@ Get-ServiceFabricRepairTask [[-TaskId] <String>] [-State <RepairTaskStateFilter>
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricRepairTask** cmdlet gets the Service Fabric repair tasks.
+
+This cmdlet supports the Service Fabric platform.
+Do not run this cmdlet directly.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get all repair tasks
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricRepairTask
 ```
 
-{{ Add example description here }}
+This command returns all repair tasks in the system, regardless of state.
+
+### Example 2: Get active repair tasks
+```
+PS C:\>Get-ServiceFabricRepairTask -State Active
+```
+
+This command returns all repair tasks in the system which are not yet completed.
 
 ## PARAMETERS
 
 ### -State
-{{Fill State Description}}
+Specifies a bitwise combination of state filter values.
+The states determine which repair task states that this cmdlet gets.
+Valid states include the following: 
+
+- Default 
+- Created 
+- Claimed 
+- Preparing 
+- Approved 
+- Executing 
+- ReadyToExecute 
+- Restoring 
+- Active 
+- Completed 
+- All
 
 ```yaml
 Type: RepairTaskStateFilter
@@ -58,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -TaskId
-{{Fill TaskId Description}}
+Specifies a repair task ID prefix to match.
 
 ```yaml
 Type: String
@@ -73,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -92,13 +119,27 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
+### System.Fabric.Repair.RepairTask
+This cmdlet accepts a repair task ID.
+You can pipe results of the **Start-ServiceFabricRepairTask** to the current cmdlet.
 
 ## OUTPUTS
 
-### System.Object
+### System.Fabric.Repair.RepairTask
+Returns **System.Fabric.Repair.RepairTask** objects.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Approve-ServiceFabricRepairTask](.\Approve-ServiceFabricRepairTask.md)
+
+[Complete-ServiceFabricRepairTask](.\Complete-ServiceFabricRepairTask.md)
+
+[Remove-ServiceFabricRepairTask](.\Remove-ServiceFabricRepairTask.md)
+
+[Start-ServiceFabricRepairTask](.\Start-ServiceFabricRepairTask.md)
+
+[Stop-ServiceFabricRepairTask](.\Stop-ServiceFabricRepairTask.md)
+
 

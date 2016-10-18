@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: FBF3750F-5967-46CF-A6F0-AE01BDB56795
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricDeployedCodePackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricDeployedCodePackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricDeployedCodePackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricDeployedCodePackage
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the Service Fabric code packages deployed on a node.
 
 ## SYNTAX
 
@@ -28,21 +29,39 @@ Get-ServiceFabricDeployedCodePackage [-NodeName] <String> [-ApplicationName] <Ur
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricDeployedCodePackage** cmdlet gets the Service Fabric code package deployed on a specified node.
+You can specify a service manifest name or code package name.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get all deployed code packages
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricDeployedCodePackage -NodeName "Node01" -ApplicationName fabric:/MyApplication
 ```
 
-{{ Add example description here }}
+This command gets all deployed code packages for application fabric:/MyApplication on node Node01.
+
+### Example 2: Get all deployed code packages filtered by service manifest name
+```
+PS C:\>Get-ServiceFabricDeployedCodePackage -NodeName "Node01" -ApplicationName fabric:/MyApplication -ServiceManifestName "CalcServicePackage"
+```
+
+This command gets all deployed code packages for application fabric:/MyApplication on node Node01 for service manifest CalcServicePackage.
+
+### Example 3: Get specified deployed code package
+```
+PS C:\>Get-ServiceFabricDeployedCodePackage -NodeName "Node01" -ApplicationName fabric:/MyApplication -ServiceManifestName "CalcServicePackage" -CodePackageName "CalcCodePackage"
+```
+
+This command gets the deployed code package for application fabric:/MyApplication on node Node01 for service manifest CalcServicePackage and code package CalcCodePackage.
 
 ## PARAMETERS
 
 ### -ApplicationName
-{{Fill ApplicationName Description}}
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric application.
+The cmdlet gets the code package for the application that you specify.
 
 ```yaml
 Type: Uri
@@ -57,7 +76,9 @@ Accept wildcard characters: False
 ```
 
 ### -CodePackageName
-{{Fill CodePackageName Description}}
+Specifies the name of a Service Fabric code package.
+The cmdlet gets the code package that you specify.
+If you do not specify this parameter, this cmdlet returns all code packages that match the other specified parameters.
 
 ```yaml
 Type: String
@@ -72,7 +93,8 @@ Accept wildcard characters: False
 ```
 
 ### -NodeName
-{{Fill NodeName Description}}
+Specifies the name of a Service Fabric node.
+The cmdlet gets the code package deployed to the node that you specify.
 
 ```yaml
 Type: String
@@ -87,7 +109,9 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceManifestName
-{{Fill ServiceManifestName Description}}
+Specifies the name of a Service Fabric service manifest.
+The cmdlet gets the code package for the service manifest that you specify.
+If you do not specify this parameter, this cmdlet returns code packages for all service filters.
 
 ```yaml
 Type: String
@@ -102,7 +126,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -121,14 +145,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Uri
+### System.Uri, String
+This cmdlet accepts a URI that represents the name of the Service Fabric application, or a string that represents a Service Fabric node name where the code packages are deployed, or a string that represents filters for service manifest name or code package name.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns **DeployedCodePackage** object that represent deployed code packages.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

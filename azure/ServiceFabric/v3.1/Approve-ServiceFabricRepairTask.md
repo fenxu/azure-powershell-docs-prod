@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Complete-ServiceFabricRepairTask.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: EF6C08E7-6811-4F74-84FB-D4FCE4D6FAFD
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Approve-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Approve-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Approve-ServiceFabricRepairTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Approve-ServiceFabricRepairTask
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Forces approval of a repair task.
 
 ## SYNTAX
 
@@ -28,21 +29,31 @@ Approve-ServiceFabricRepairTask [-TaskId] <String> [[-Version] <Int64>] [-Force]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Approve-ServiceFabricRepairTask** cmdlet forces the approval of a Service Fabric repair task that is in the preparing state.
+Because this cmdlet bypasses safety checks, it may result in availability or data loss.
+Evaluate the potential impact of this operation before you use this cmdlet.
+
+This cmdlet supports the Service Fabric platform.
+Do not run this cmdlet directly.
+
+If you approve a repair task by force, then the **ForcedApproval** flag will be set on that task.
+
+This cmdlet requires that you connect to the cluster with credentials that are granted administrator access to the cluster.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Approve a repair task
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Approve-ServiceFabricRepairTask -TaskId "MyRepairTaskID"
 ```
 
-{{ Add example description here }}
+This command approves the repair task that has the ID MyRepairTaskId.
 
 ## PARAMETERS
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -51,13 +62,13 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -72,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -TaskId
-{{Fill TaskId Description}}
+Specifies the ID of the repair task to approve.
 
 ```yaml
 Type: String
@@ -87,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -102,7 +113,9 @@ Accept wildcard characters: False
 ```
 
 ### -Version
-{{Fill Version Description}}
+Specifies the current version of the repair task.
+The request can succeed only if the value that this parameter specifies matches the current value of the repair task.
+Specify a value of zero (0) to skip version check.
 
 ```yaml
 Type: Int64
@@ -118,6 +131,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
+The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -127,7 +141,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -137,14 +151,26 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Int64
+### System.Fabric.Repair.RepairTask
+This command accepts a repair task to approve.
 
 ## OUTPUTS
 
-### System.Object
+### None
+This cmdlet does not generate any output.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Complete-ServiceFabricRepairTask](.\Complete-ServiceFabricRepairTask.md)
+
+[Get-ServiceFabricRepairTask](.\Get-ServiceFabricRepairTask.md)
+
+[Remove-ServiceFabricRepairTask](.\Remove-ServiceFabricRepairTask.md)
+
+[Start-ServiceFabricRepairTask](.\Start-ServiceFabricRepairTask.md)
+
+[Stop-ServiceFabricRepairTask](.\Stop-ServiceFabricRepairTask.md)
+
 

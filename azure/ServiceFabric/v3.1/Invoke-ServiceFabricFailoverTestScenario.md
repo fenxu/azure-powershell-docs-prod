@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: 73384750-6f54-4b7d-ad7d-be53426132a4
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: BEA22E4F-87EE-48AC-9406-E8A05BB8A740
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricFailoverTestScenario.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricFailoverTestScenario.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricFailoverTestScenario.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Invoke-ServiceFabricFailoverTestScenario
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Invokes a test scenario to induce faults in a Service Fabric partition.
 
 ## SYNTAX
 
@@ -29,12 +30,6 @@ Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UIn
  [<CommonParameters>]
 ```
 
-### ServiceNameRandomPartition
-```
-Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
- [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### ServiceNamePartitionUniformedInt
 ```
 Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
@@ -42,11 +37,10 @@ Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UIn
  [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNamePartitionNamed
+### ServiceNameRandomPartition
 ```
 Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
- [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String>
- [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionSingleton
@@ -56,22 +50,44 @@ Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UIn
  [<CommonParameters>]
 ```
 
+### ServiceNamePartitionNamed
+```
+Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
+ [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String>
+ [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Invoke-ServiceFabricFailoverTestScenario** cmdlet starts a test scenario to induce faults in a Service Fabric partition.
+The test puts the partition through specific failover scenarios to ensure those paths are exercised.
+If you run a workload against a Service Fabric service while the cmdlet runs its tests, you increase the chance of discovering bugs in the service.
+
+The faults induced for the primary, secondary, and stateless instances are: 
+
+- RestartReplica (only persisted) 
+- RemoveReplica
+- ResartDeployedCodePackage
+- MovePrimary (only stateful)
+- MoveSecondary (only stateful)
+- RestartPartition (no data loss)
+
+Before using this cmdlet, connect to the Service Fabric cluster.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Run a failover test
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>$TimeToRun = 60
+PS C:\> $MaxStabilizationTimeSecs = 180
+PS C:\> $WaitTimeBetweenFaultsSec = 10
+PS C:\> $ServiceName = "fabric:/SampleApp/SampleService"
+PS C:\> Invoke-ServiceFabricFailoverTestScenario -TimeToRunMinute $TimeToRun -MaxServiceStabilizationTimeoutSec $MaxStabilizationTimeSecs -WaitTimeBetweenFaultsSec $WaitTimeBetweenFaultsSec -ServiceName $ServiceName -PartitionKindSingleton
 ```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -MaxServiceStabilizationTimeoutSec
-{{Fill MaxServiceStabilizationTimeoutSec Description}}
+Specifies the maximum time-out period, in seconds, for the service to stabilize before failing the test.
 
 ```yaml
 Type: UInt32
@@ -86,7 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of the partition to test.
 
 ```yaml
 Type: Guid
@@ -101,7 +117,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKey
-{{Fill PartitionKey Description}}
+Specifies the key of the partition on which to invoke the test.
 
 ```yaml
 Type: String
@@ -116,7 +132,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindNamed
-{{Fill PartitionKindNamed Description}}
+Indicates that this cmdlet tests a named partition.
 
 ```yaml
 Type: SwitchParameter
@@ -131,7 +147,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindSingleton
-{{Fill PartitionKindSingleton Description}}
+Indicates that this cmdlet tests a singleton partition.
 
 ```yaml
 Type: SwitchParameter
@@ -146,7 +162,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindUniformInt64
-{{Fill PartitionKindUniformInt64 Description}}
+Indicates that this cmdlet tests a UniformInt64 partitioned service.
 
 ```yaml
 Type: SwitchParameter
@@ -161,7 +177,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the name of the service to test.
 
 ```yaml
 Type: Uri
@@ -176,7 +192,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeToRunMinute
-{{Fill TimeToRunMinute Description}}
+Specifies the total time, in minutes, for the scenario to run.
 
 ```yaml
 Type: UInt32
@@ -191,7 +207,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -206,7 +222,8 @@ Accept wildcard characters: False
 ```
 
 ### -WaitTimeBetweenFaultsSec
-{{Fill WaitTimeBetweenFaultsSec Description}}
+Specifies the maximum wait time, in seconds, between consecutive faults.
+The larger the value the lower the concurrency.
 
 ```yaml
 Type: Int32
@@ -226,14 +243,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Guid
-System.Uri
-System.String
+Represents the ID of a Service Fabric partition.
+
+### System.Uri
+Represents the name of a Service Fabric service.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **String** object that represents the final status of the test run.
 
 ## NOTES
 
 ## RELATED LINKS
+
 

@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Get-ServiceFabricDeployedServicePackageHealth.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 9B02EBD3-595C-46EF-B5DE-4E65BA60129C
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Send-ServiceFabricDeployedServicePackageHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Send-ServiceFabricDeployedServicePackageHealthReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Send-ServiceFabricDeployedServicePackageHealthReport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Send-ServiceFabricDeployedServicePackageHealthReport
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Sends a health report on a Service Fabric deployed service package.
 
 ## SYNTAX
 
@@ -30,23 +31,51 @@ Send-ServiceFabricDeployedServicePackageHealthReport [-ApplicationName] <Uri> [-
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Send-ServiceFabricDeployedServicePackageHealthReport** cmdlet sends a health report on a Service Fabric deployed service package.
+
+The deployed service package must already exist in the health store.
+To check whether the service exists, use the Get-ServiceFabricDeployedServicePackageHealth cmdlet.
+Specify the application name, service package name, and node name.
+Alternatively, you can use the Get-ServiceFabricDeployedApplicationHealth cmdlet.
+Specify the application name and node name, and check the deployed service package health states section to find the service package.
+
+The cmdlet sends the report after an interval specified by the **HealthReportSendIntervalInSec** parameter of the Connect-ServiceFabricCluster cmdlet.
+The cluster connection must be kept alive during this time.
+The command is evaluated on the client without reference to running on the health store.
+The report may not be applied in health store even if the command returns success.
+For example, the health store may reject the report because of an invalid parameter, like a stale sequence number.
+
+To see whether the report was applied in the health store, use the **Get-ServiceFabricDeployedServicePackageHealth** cmdlet and check that the report appears in the **HealthEvents** section.
+
+To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet and then the Get-ServiceFabricClusterConnection cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Report Error health report with infinite TTL
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Send-ServiceFabricDeployedServicePackageHealthReport -ApplicationName fabric:/MyApplication -NodeName "Node01" -ServiceManifestName "MyServiceManifest"-HealthProperty "Memory" -HealthState Error -SourceId "MyWatchdog"
 ```
 
-{{ Add example description here }}
+This command sends a health report on a deployed service package for the application named fabric:/MyApplication on the node named Node01 for the service manifest named MyServiceManifest.
+The health report contains information about the health property **Memory** in an Error health state from the source MyWatchdog, with infinite TTL.
+The description is not given and the sequence number is set automatically.
+
+### Example 2: Report Warning valid for specifiedhealth report with set TTL and remove it when it expiresvalid for specified
+```
+PS C:\>Send-ServiceFabricDeployedServicePackageHealthReport -ApplicationName fabric:/MyApplication -ServiceManifestName MyServiceManifest -NodeName "Node01"-HealthProperty "CustomSetup" -HealthState Warning -SourceId MyWatchdog -RemoveWhenExpired -Description "The setup has completed with some warnings." -TimeToLiveSec 10
+```
+
+This command sends a health report on a deployed service package for the application named fabric:/MyApplication for the service manifest named MyServiceManifest on the node named Node01.
+The health report contains information about the health property **CustomSetup** in a Warning health state from the source MyWatchdog, with 10 seconds TTL.
+After the report expires, it is removed from the health store and will no longer impact health evaluation.
+This command also gives a description of the warning.
 
 ## PARAMETERS
 
 ### -ApplicationName
-Name of the concerned deployed Application.
-e.g.
-fabric:/myapps/calc
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric application.
+The cmdlet sends a health report for the application that has the URI that you specify.
 
 ```yaml
 Type: Uri
@@ -61,7 +90,10 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-{{Fill Description Description}}
+Specifies human readable information about the condition that triggered the report.
+The **SourceId**, **HealthProperty**, and **HealthState** parameters fully describe the report.
+
+The maximum string length for the description is 4096 characters.
 
 ```yaml
 Type: String
@@ -76,7 +108,9 @@ Accept wildcard characters: False
 ```
 
 ### -HealthProperty
-{{Fill HealthProperty Description}}
+Specifies the property of the report.
+Together with the **SourceId** parameter, this property uniquely identifies the report.
+The report overrides any previous reports with the same values for the **SourceId** and **HealthProperty** parameters on the same entity.
 
 ```yaml
 Type: String
@@ -91,8 +125,7 @@ Accept wildcard characters: False
 ```
 
 ### -HealthState
-Please use Ok(1), Warning(2), Error(3) etc.
-Hit tab key after parameter name (-HealthState) for details.
+Specifies a **HealthState** object that represents the reported health state.
 
 ```yaml
 Type: HealthState
@@ -108,7 +141,8 @@ Accept wildcard characters: False
 ```
 
 ### -NodeName
-Name of the concerned node where the application is deployed.
+Specifies the name of a Service Fabric node.
+The cmdlet sends a health report for a service package deployed on the node that you specify.
 
 ```yaml
 Type: String
@@ -123,7 +157,9 @@ Accept wildcard characters: False
 ```
 
 ### -RemoveWhenExpired
-{{Fill RemoveWhenExpired Description}}
+Indicates that the report is removed from the health store when it expires.
+If you do not specify this parameter, the entity is considered in Error state when the report time to live expires.
+The reports that are removed when expired can be used for conditions that are only valid for a period of time or for clearing reports from Health Store.
 
 ```yaml
 Type: SwitchParameter
@@ -138,7 +174,9 @@ Accept wildcard characters: False
 ```
 
 ### -SequenceNumber
-{{Fill SequenceNumber Description}}
+Specifies the sequence number associated with the health report.
+If you do not specify a value for this parameter, the sequence number is set automatically.
+If you specify a sequence number, that value must be higher than any previous sequence number set on the same **SourceId** and **HealthProperty**, or the report will be rejected due to staleness.
 
 ```yaml
 Type: Int64
@@ -153,7 +191,8 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceManifestName
-name of the ServiceManifest for the concerned service.
+Specifies the name of a Service Fabric service manifest.
+Together with *ApplicationName* and *NodeName*, this value uniquely identifies the deployed service package health entity.
 
 ```yaml
 Type: String
@@ -168,7 +207,7 @@ Accept wildcard characters: False
 ```
 
 ### -SourceId
-{{Fill SourceId Description}}
+Specifies the identifier of the source that triggered the report.
 
 ```yaml
 Type: String
@@ -183,7 +222,10 @@ Accept wildcard characters: False
 ```
 
 ### -TimeToLiveSec
-{{Fill TimeToLiveSec Description}}
+Specifies the Time to Live (TTL) of the report in seconds.
+When the TTL expires, the report is removed from the health store if the **RemoveWhenExpired** parameter is specified.
+Otherwise, the entity is evaluated at Error because of the expired report.
+The default value is Infinite.
 
 ```yaml
 Type: Int32
@@ -198,7 +240,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -217,18 +259,24 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.Uri
-System.String
-System.Fabric.Health.HealthState
-System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
-System.Management.Automation.SwitchParameter
-System.Nullable`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+### System.Uri, String, System.Fabric.HealthState
+This cmdlet accepts a URI that represents the name of a Service Fabric application, or the name of a Service Fabric node, or the name of a service manifest, or the source ID and health property as a string, or a **HealthState** value that represents the health state of the report.
 
 ## OUTPUTS
 
-### System.Object
+### None
+This cmdlet does not return any output.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricDeployedServicePackageHealth](.\Get-ServiceFabricDeployedServicePackageHealth.md)
+
+[Get-ServiceFabricDeployedApplicationHealth](.\Get-ServiceFabricDeployedApplicationHealth.md)
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

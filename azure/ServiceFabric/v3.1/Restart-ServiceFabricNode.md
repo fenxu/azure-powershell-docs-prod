@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Disable-ServiceFabricNode.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 31BD0C1D-F4E0-40B2-B902-06B660D633D9
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Restart-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Restart-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Restart-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Restart-ServiceFabricNode
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Restarts a Service Fabric node to simulate a cluster node failure.
 
 ## SYNTAX
 
@@ -154,21 +155,43 @@ Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabr
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Restart-ServiceFabricNode** cmdlet restarts a Service Fabric node by restarting the Fabric.exe process that hosts the node.
+This cmdlet simulates Service Fabric node failures in the cluster, which tests the failover recovery paths of your service.
+
+In addition to selecting a specific Service Fabric node, this cmdlet can accept a *ReplicaOrInstanceId* parameter to restart the primary replica.
+This simplifies tests on the primary host node by not having to determine which Service Fabricnode is the primary node before restarting that node.
+
+If you specify a non-zero value for the NodeInstanceId parameter, that ID is compared with the active node ID.
+If the IDs do not match, the process is not restarted and an error occurs.
+A stale message can cause this error.
+
+If you specify the *CreateFabricDump* parameter, this cmdlet causes the Fabric.exe process to crash on the specified node during restart.
+This crash creates a process dump for Fabric.exe.
+
+Before using this cmdlet, connect to the Service Fabric cluster.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Restart a node for a primary replica
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Restart-ServiceFabricNode -ReplicaKindPrimary -PartitionKindNamed -PartitionKey "Partition3" -CommandCompletionMode Verify
 ```
 
-{{ Add example description here }}
+This command restarts the specified node for a primary replica on the partition named Partition3.
+Because the *CommandCompletionMode* parameter is specified with a value of Verify, the command waits for the target node to restart before it completes.
+
+### Example 2: Restart a specified node
+```
+PS C:\>Restart-ServiceFabricNode -NodeName "Node01" -CommandCompletionMode DoNotVerify
+```
+
+This command restarts the node named Node01.
+Because the *CommandCompletionMode* parameter is specified with a value of DoNotVerify, the command does not wait for the node to restart before it completes.
 
 ## PARAMETERS
 
 ### -CommandCompletionMode
-{{Fill CommandCompletionMode Description}}
+Specifies whether the action waits for the restart to complete.
 
 ```yaml
 Type: CompletionMode
@@ -184,7 +207,7 @@ Accept wildcard characters: False
 ```
 
 ### -CreateFabricDump
-{{Fill CreateFabricDump Description}}
+Indicates that the Service Fabric node creates a process dump for Fabric.exe.
 
 ```yaml
 Type: SwitchParameter
@@ -199,7 +222,9 @@ Accept wildcard characters: False
 ```
 
 ### -NodeInstanceId
-{{Fill NodeInstanceId Description}}
+Specifies a node instance ID.
+Unless you specify 0, the node instance ID that you specify must match the currently running node.
+The *NodeInstanceId* is also available through the query APIs.
 
 ```yaml
 Type: BigInteger
@@ -214,7 +239,8 @@ Accept wildcard characters: False
 ```
 
 ### -NodeName
-{{Fill NodeName Description}}
+Specifies the name of a Service Fabric node.
+The cmdlet restarts the node that you specify.
 
 ```yaml
 Type: String
@@ -229,7 +255,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of the partition of node to restart.
 
 ```yaml
 Type: Guid
@@ -244,7 +270,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKey
-{{Fill PartitionKey Description}}
+Specifies the key of the partition for the node to restart.
 
 ```yaml
 Type: String
@@ -259,7 +285,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindNamed
-{{Fill PartitionKindNamed Description}}
+Indicates that this cmdlet restarts a node on a named partition.
 
 ```yaml
 Type: SwitchParameter
@@ -274,7 +300,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindSingleton
-{{Fill PartitionKindSingleton Description}}
+Indicates that this cmdlet restarts a node on a singleton partition.
 
 ```yaml
 Type: SwitchParameter
@@ -289,7 +315,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindUniformInt64
-{{Fill PartitionKindUniformInt64 Description}}
+Indicates that this cmdlet restarts a node on a UniformInt64 partition.
 
 ```yaml
 Type: SwitchParameter
@@ -304,7 +330,7 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicaKindPrimary
-{{Fill ReplicaKindPrimary Description}}
+Indicates that this cmdlet restarts the node for the primary replica.
 
 ```yaml
 Type: SwitchParameter
@@ -319,7 +345,7 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicaKindRandomSecondary
-{{Fill ReplicaKindRandomSecondary Description}}
+Indicates that this cmdlet restarts the node for a random secondary replica.
 
 ```yaml
 Type: SwitchParameter
@@ -334,7 +360,7 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicaOrInstanceId
-{{Fill ReplicaOrInstanceId Description}}
+Specifies a Service Fabric service replica or instance ID.
 
 ```yaml
 Type: Int64
@@ -349,7 +375,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the name of the service to restart.
 
 ```yaml
 Type: Uri
@@ -364,7 +390,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -383,17 +409,32 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Nullable`1[[System.Numerics.BigInteger, System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
-System.Guid
-System.Uri
-System.Nullable`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+### System.Uri
+Represents the name of a Service Fabric service.
+
+### System.Guid
+Represents the ID of a Service Fabric partition.
+
+### string
+Specifies the name of a Service Fabric node.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.Testability.RestartNodeResult** object that represents the operation result.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Disable-ServiceFabricNode](.\Disable-ServiceFabricNode.md)
+
+[Enable-ServiceFabricNode](.\Enable-ServiceFabricNode.md)
+
+[Get-ServiceFabricNode](.\Get-ServiceFabricNode.md)
+
+[Start-ServiceFabricNode](.\Start-ServiceFabricNode.md)
+
+[Stop-ServiceFabricNode](.\Stop-ServiceFabricNode.md)
+
 

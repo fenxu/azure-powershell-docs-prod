@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Start-ServiceFabricPartitionDataLoss.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 004C9EF9-80DE-4B23-AD63-652B7F4FF1A4
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionDataLossProgress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionDataLossProgress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionDataLossProgress.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricPartitionDataLossProgress
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the progress of a data loss operation.
 
 ## SYNTAX
 
@@ -27,21 +28,27 @@ Get-ServiceFabricPartitionDataLossProgress -OperationId <Guid> [-TimeoutSec <Int
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricPartitionDataLossProgress** cmdlet gets the progress of a data loss operation in Azure Service Fabric.
+Initiate a data loss operation by using the Start-ServiceFabricPartitionDataLoss cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Check progress of data loss operation
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricPartitionDataLossProgress -OperationId d3f12b09-6a90-4745-a4fc-3f92149a7419
+    State ProgressResult
+    ----- --------------
+Completed SelectedPartition: Service Name: fabric:/ContosoApp/PersistServ, Partition Id: 67e2c139-ccf0-4562-9f2b-bf35e4c2...
 ```
 
-{{ Add example description here }}
+This command checks the progress of a data loss operation that has the ID d3f12b09-6a90-4745-a4fc-3f92149a7419.
+The operation is completed.
 
 ## PARAMETERS
 
 ### -OperationId
-{{Fill OperationId Description}}
+Specifies a unique identifier for the operation that this cmdlet checks.
+You assign this value when you run **Start-ServiceFabricPartitionDataLoss**.
 
 ```yaml
 Type: Guid
@@ -56,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -75,13 +82,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
 ## OUTPUTS
-
-### System.Object
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Start-ServiceFabricPartitionDataLoss](.\Start-ServiceFabricPartitionDataLoss.md)
+
 

@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Approve-ServiceFabricRepairTask.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 2301BFD2-8C86-45C0-A801-CD8044A7970B
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Stop-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Stop-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Stop-ServiceFabricRepairTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Stop-ServiceFabricRepairTask
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Cancels a repair task.
 
 ## SYNTAX
 
@@ -27,21 +28,32 @@ Stop-ServiceFabricRepairTask [-TaskId] <String> [[-Version] <Int64>] [-TimeoutSe
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Stop-ServiceFabricRepairTask** cmdlet attempts to cancel a Service Fabric repair task.
+You can cancel only active repair tasks.
+If this cmdlet succeeds, the request for cancellation is recorded, but the repair task might still be active.
+Cancellation is best-effort.
+It requires cooperation of the repair executor once the task has been approved.
+After you request cancellation, you can monitor the repair task to wait for it to reach the completed state.
+
+This cmdlet supports the Service Fabric platform.
+Do not run this cmdlet directly.
+
+This cmdlet requires that you connect to the cluster with credentials that are granted administrator access to the cluster.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Cancel a repair task
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Stop-ServiceFabricRepairTask -TaskId "MyRepairTaskId"
 ```
 
-{{ Add example description here }}
+This command requests cancellation of the repair task that has the ID MyRepairTaskId.
 
 ## PARAMETERS
 
 ### -TaskId
-{{Fill TaskId Description}}
+Specifies the ID of the repair task to cancel.
 
 ```yaml
 Type: String
@@ -56,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -71,7 +83,9 @@ Accept wildcard characters: False
 ```
 
 ### -Version
-{{Fill Version Description}}
+Specifies the current version of the repair task.
+The request can succeed only if the value that this parameter specifies matches the current value of the repair task.
+Specify a value of zero (0) to skip version check.
 
 ```yaml
 Type: Int64
@@ -90,14 +104,26 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Int64
+### System.Fabric.Repair.RepairTask
+This cmdlet accepts a repair task to cancel.
 
 ## OUTPUTS
 
-### System.Object
+### None
+This cmdlet does not return any output.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Approve-ServiceFabricRepairTask](.\Approve-ServiceFabricRepairTask.md)
+
+[Complete-ServiceFabricRepairTask](.\Complete-ServiceFabricRepairTask.md)
+
+[Get-ServiceFabricRepairTask](.\Get-ServiceFabricRepairTask.md)
+
+[Remove-ServiceFabricRepairTask](.\Remove-ServiceFabricRepairTask.md)
+
+[Start-ServiceFabricRepairTask](.\Start-ServiceFabricRepairTask.md)
+
 

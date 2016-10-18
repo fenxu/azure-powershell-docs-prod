@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Invoke-ServiceFabricDecryptText.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 3DED0AB0-1412-4104-A9A6-94D496E4C054
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricEncryptText.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricEncryptText.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricEncryptText.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Invoke-ServiceFabricEncryptText
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Encrypts secrets to include in Service Fabric manifests or configurations.
 
 ## SYNTAX
 
@@ -35,21 +36,21 @@ Invoke-ServiceFabricEncryptText [-Text] <String> [-AlgorithmOid <String>] [-Cert
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Invoke-ServiceFabricEncryptText** cmdlet encrypts secrets to include in the Service Fabric cluster manifest, application manifest, or application configurations.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
-```
-PS C:\> {{ Add example code here }}
+### 1:
 ```
 
-{{ Add example description here }}
+```
 
 ## PARAMETERS
 
 ### -AlgorithmOid
-Cryptographic object identifier of encryption algorithm to use, for example, "2.16.840.1.101.3.4.1.42" is AES-256-CBC
+Specifies the object identifier of the algorithm for this cmdlet.
 
 ```yaml
 Type: String
@@ -64,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -CertFile
-Load encryption certificate from a file, supported format: DER encoded binary X509 (.CER)
+Indicates that this cmdlet uses the CertFile option.
 
 ```yaml
 Type: SwitchParameter
@@ -79,7 +80,7 @@ Accept wildcard characters: False
 ```
 
 ### -CertStore
-Load encryption certificate from certificate store
+Indicates that this cmdlet uses the CertStore option.
 
 ```yaml
 Type: SwitchParameter
@@ -94,7 +95,7 @@ Accept wildcard characters: False
 ```
 
 ### -CertThumbprint
-Thumbprint of encryption certificate
+Specifies the thumbprint of a certificate.
 
 ```yaml
 Type: String
@@ -109,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -Path
-Path of encryption certificate file
+Specifies a path of a .cert or .pfx file.
 
 ```yaml
 Type: String
@@ -124,7 +125,11 @@ Accept wildcard characters: False
 ```
 
 ### -StoreLocation
-Certificate store location, default to LocalMachine
+Specifies the location of a certificate store.
+Valid values are: 
+
+- CurrentUser
+- LocalMachine
 
 ```yaml
 Type: StoreLocation
@@ -140,7 +145,7 @@ Accept wildcard characters: False
 ```
 
 ### -StoreName
-Certificate store name, default to "My"
+Specifies the name of a certificate store.
 
 ```yaml
 Type: String
@@ -155,7 +160,7 @@ Accept wildcard characters: False
 ```
 
 ### -Text
-Text to encrypt
+Specifies the text for the cmdlet.
 
 ```yaml
 Type: String
@@ -170,7 +175,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -190,12 +195,21 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns encrypted text as a string.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Invoke-ServiceFabricDecryptText](.\Invoke-ServiceFabricDecryptText.md)
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

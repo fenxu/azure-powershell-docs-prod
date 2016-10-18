@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 51657577-F2A0-4D22-822C-3586F0A70B04
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Copy-ServiceFabricApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Copy-ServiceFabricApplicationPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Copy-ServiceFabricApplicationPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,31 +19,44 @@ manager: visual-studio-china
 # Copy-ServiceFabricApplicationPackage
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Copies a Service Fabric application package to the image store.
 
 ## SYNTAX
 
 ```
 Copy-ServiceFabricApplicationPackage [-ApplicationPackagePath] <String> [-ImageStoreConnectionString] <String>
- [[-ApplicationPackagePathInImageStore] <String>] [<CommonParameters>]
+ [[-ApplicationPackagePathInImageStore] <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Copy-ServiceFabricApplicationPackage** cmdlet copies a Service Fabric application package to the image store.
+
+After you copy the application package, use the Register-ServiceFabricApplicationType cmdlet to register the application type.
+
+To manage Service Fabric clusters, start Windows PowerShell by using the **Run as administrator** option.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Copy an application package
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListService" -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]"
 ```
 
-{{ Add example description here }}
+This command copies the application package in the specified path to the image store.
+
+### Example 2: Copy an application package to a specific directory in the image store
+```
+PS C:\>Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListService" -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]" -ApplicationPackagePathInImageStore "PersistentToDoListService_v2"
+```
+
+This command copies the application package in the specified path to the PersistentToDoListService_v2 directory in the image store.
 
 ## PARAMETERS
 
 ### -ApplicationPackagePath
-{{Fill ApplicationPackagePath Description}}
+Specifies the relative path of an application package.
+The cmdlet copies the package from the path that you specify.
 
 ```yaml
 Type: String
@@ -57,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationPackagePathInImageStore
-{{Fill ApplicationPackagePathInImageStore Description}}
+Specifies the relative path in the image store where the application package should be copied to.
 
 ```yaml
 Type: String
@@ -72,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -ImageStoreConnectionString
-{{Fill ImageStoreConnectionString Description}}
+Specifies the connection string for the Service Fabric image store.
 
 ```yaml
 Type: String
@@ -86,18 +100,45 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -TimeoutSec
+Specifies the timeout period in seconds, for the operation.
+The maximum timeout value in the image store service is 1800 seconds.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a message that includes the status of the copy operation.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Register-ServiceFabricApplicationType](.\Register-ServiceFabricApplicationType.md)
+
+[Remove-ServiceFabricApplicationPackage](.\Remove-ServiceFabricApplicationPackage.md)
+
 

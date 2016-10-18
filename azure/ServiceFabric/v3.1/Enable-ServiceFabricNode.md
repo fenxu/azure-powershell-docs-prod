@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 6DB4FBB9-B046-47D5-922C-12501D1F3403
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Enable-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Enable-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Enable-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Enable-ServiceFabricNode
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Enables a Service Fabric node.
 
 ## SYNTAX
 
@@ -27,21 +28,27 @@ Enable-ServiceFabricNode [-NodeName] <String> [-TimeoutSec <Int32>] [<CommonPara
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Enable-ServiceFabricNode** cmdlet enables a previously disabled Service Fabric node.
+Use this cmdlet after a node has been disabled and the administrative task completed.
+This cmdlet can also cancel an existing Disable-ServiceFabricNode command.
+
+To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Enable a node
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Enable-ServiceFabricNode -NodeName "DB.41"
 ```
 
-{{ Add example description here }}
+This command enables a node named DB.41.
 
 ## PARAMETERS
 
 ### -NodeName
-{{Fill NodeName Description}}
+Specifies the name of a Service Fabric node.
+The cmdlet enables the node that you specify.
 
 ```yaml
 Type: String
@@ -56,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -76,12 +83,23 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a message that includes the status of the operation.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Disable-ServiceFabricNode](.\Disable-ServiceFabricNode.md)
+
+[Get-ServiceFabricNode](.\Get-ServiceFabricNode.md)
+
 

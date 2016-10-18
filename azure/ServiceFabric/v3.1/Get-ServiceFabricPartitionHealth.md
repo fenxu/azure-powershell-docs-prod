@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 329D70B6-FABD-4BB4-AE54-2E177E8246B9
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionHealth.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricPartitionHealth.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricPartitionHealth
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the health of a Service Fabric partition.
 
 ## SYNTAX
 
@@ -30,21 +31,35 @@ Get-ServiceFabricPartitionHealth [-PartitionId] <Guid> [-ConsiderWarningAsError 
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricPartitionHealth** cmdlet gets the health of a Service Fabric partition.
+If you specify a partition that does not exist in the health store, this cmdlet returns an error.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the health events for of a service partition
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>$ToDoPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS 
+C:\> Get-ServiceFabricPartitionHealth -PartitionId $ToDoPartition01.PartitionId
 ```
 
-{{ Add example description here }}
+The first command uses the Get-ServiceFabricPartition cmdlet to get the singleton service partition object for the specified service, and then stores the object in the $ToDoPartition01 variable.
+
+The second command gets the health of the partition by using the **PartitionId** property of the object stored in $ToDoPartition01.
+
+### Example 2: Query the health of a service partition using custom health policy and return filters
+```
+PS C:\>Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS | Get-ServiceFabricPartitionHealth -ConsiderWarningAsError $True -EventsFilter Error
+```
+
+This command queries the health of the partitions of the specified service.
+It uses custom health policy and filter to return only Error events.
 
 ## PARAMETERS
 
 ### -ConsiderWarningAsError
-{{Fill ConsiderWarningAsError Description}}
+Indicates whether to treat a warning health report as error during health evaluation.
 
 ```yaml
 Type: Boolean
@@ -59,7 +74,11 @@ Accept wildcard characters: False
 ```
 
 ### -EventsFilter
-{{Fill EventsFilter Description}}
+Specifies the filter for the collection of **HealthEvent**s reported on the partition based on health state.
+The value can be obtained from members or bitwise operations on members of **HealthStateFilter**.
+Only events that match the filter are returned.
+All events are used to evaluate the partition's aggregated health state.
+If not specified, all entries are returned.
 
 ```yaml
 Type: HealthStateFilter
@@ -75,7 +94,8 @@ Accept wildcard characters: False
 ```
 
 ### -EventsHealthStateFilter
-{{Fill EventsHealthStateFilter Description}}
+This parameter has been deprecated.
+Specify the *EventsFilter* parameter instead.
 
 ```yaml
 Type: Int64
@@ -90,7 +110,8 @@ Accept wildcard characters: False
 ```
 
 ### -MaxPercentUnhealthyReplicasPerPartition
-{{Fill MaxPercentUnhealthyReplicasPerPartition Description}}
+Specifies the maximum tolerated percentage of unhealthy replicas in a partition.
+If there are more replicas with a health state error than tolerated, the health state of the partition is error.
 
 ```yaml
 Type: Byte
@@ -105,7 +126,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of a Service Fabric partition.
 
 ```yaml
 Type: Guid
@@ -120,7 +141,11 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicasFilter
-{{Fill ReplicasFilter Description}}
+Specifies the filter for **ReplicaHealthState** children based on health state.
+The value can be obtained from members or bitwise operations on members of **HealthStateFilter**.
+Only children that match the filter are returned.
+All children are used to evaluate the entity aggregated health state.
+If not specified, all entries are returned.
 
 ```yaml
 Type: HealthStateFilter
@@ -136,7 +161,8 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicasHealthStateFilter
-{{Fill ReplicasHealthStateFilter Description}}
+This parameter has been deprecated.
+Specify the *ReplicasFilter* parameter instead.
 
 ```yaml
 Type: Int64
@@ -151,7 +177,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -171,12 +197,21 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Guid
+This cmdlet accepts the ID of a Service Fabric partition.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.Health.PartitionHealth** object that represents the health of a Service Fabric partition.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Get-ServiceFabricPartition](.\Get-ServiceFabricPartition.md)
+
 

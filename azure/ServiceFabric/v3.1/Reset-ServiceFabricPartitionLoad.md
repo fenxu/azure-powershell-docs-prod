@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 79FE09C9-B829-4F2D-865E-CE4DE10B79A6
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Reset-ServiceFabricPartitionLoad.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Reset-ServiceFabricPartitionLoad.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Reset-ServiceFabricPartitionLoad.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Reset-ServiceFabricPartitionLoad
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Resets the current load of a Service Fabric partition.
 
 ## SYNTAX
 
@@ -27,21 +28,24 @@ Reset-ServiceFabricPartitionLoad [-PartitionId] <Guid> [-TimeoutSec <Int32>] [<C
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Reset-ServiceFabricPartitionLoad** cmdlet resets the current load of a Service Fabric partition to the default load for the service.
+Specify a partition by its unique ID.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Reset the load of a partition to its default
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Reset-ServiceFabricPartitionLoad -PartitionId 0de4596d-c44f-493e-a749-84a29a689524
 ```
 
-{{ Add example description here }}
+This command resets the load of partition 0de4596d-c44f-493e-a749-84a29a689524 to its default load.
 
 ## PARAMETERS
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of a Service Fabric partition.
 
 ```yaml
 Type: Guid
@@ -56,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -76,12 +80,21 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Guid
+This cmdlet accepts the ID of a Service Fabric partition.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns the status of the operation as a string.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Get-ServiceFabricPartitionLoadInformation](.\Get-ServiceFabricPartitionLoadInformation.md)
+
 

@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Get-ServiceFabricRegisteredClusterConfigVersion.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: D1A0F338-F89D-40F0-8C1A-AF5453E61092
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricRegisteredClusterCodeVersion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricRegisteredClusterCodeVersion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricRegisteredClusterCodeVersion.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricRegisteredClusterCodeVersion
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets all provisioned fabric code versions in a Service Fabric cluster.
 
 ## SYNTAX
 
@@ -28,21 +29,23 @@ Get-ServiceFabricRegisteredClusterCodeVersion [[-CodeVersion] <String>] [-Timeou
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricRegisteredClusterCodeVersion** cmdlet gets provisioned fabric code versions in a Service Fabric cluster.
+You can specify a particular code version to get.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
-```
-PS C:\> {{ Add example code here }}
+### 1:
 ```
 
-{{ Add example description here }}
+```
 
 ## PARAMETERS
 
 ### -CodeVersion
-{{Fill CodeVersion Description}}
+Specifies a code version.
+This cmdlet gets only the provisioned fabric code versions that match the code version that this parameter specifies.
 
 ```yaml
 Type: String
@@ -57,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -76,13 +79,22 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
+### String
+This cmdlet accepts the version of a Service Fabric cluster code as a string.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a list of **System.Fabric.Query.ProvisionedFabricCodeVersion** objects that represent registered cluster code versions.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricRegisteredClusterConfigVersion](.\Get-ServiceFabricRegisteredClusterConfigVersion.md)
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 9C9C001A-EED4-4D82-B98E-5CDB1C1CF314
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Resume-ServiceFabricApplicationUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Resume-ServiceFabricApplicationUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Resume-ServiceFabricApplicationUpgrade.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Resume-ServiceFabricApplicationUpgrade
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Resumes an unmonitored Service Fabric application upgrade.
 
 ## SYNTAX
 
@@ -28,21 +29,26 @@ Resume-ServiceFabricApplicationUpgrade [-ApplicationName] <Uri> [-UpgradeDomainN
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Resume-ServiceFabricApplicationUpgrade** cmdlet resumes an unmonitored manual Service Fabric application upgrade.
+Service Fabric upgrades one upgrade domain at a time.
+For unmonitored manual upgrades, after Service Fabric finishes an upgrade domain, it waits for you to use this cmdlet to proceed to the next upgrade domain.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Resume an upgrade
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Resume-ServiceFabricApplicationUpgrade -ApplicationName fabric:/myapp/persistenttodolist -UpgradeDomainName "MYUD02"
 ```
 
-{{ Add example description here }}
+This command starts the upgrade of the domain named MYUD02.
 
 ## PARAMETERS
 
 ### -ApplicationName
-{{Fill ApplicationName Description}}
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric application.
+The cmdlet resumes the upgrade for the application that has the URI that you specify.
 
 ```yaml
 Type: Uri
@@ -57,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -72,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -UpgradeDomainName
-{{Fill UpgradeDomainName Description}}
+Specifies the name of the next upgrade domain to upgrade.
 
 ```yaml
 Type: String
@@ -92,12 +98,23 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns the status of the operation as a string.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Get-ServiceFabricApplicationUpgrade](.\Get-ServiceFabricApplicationUpgrade.md)
+
+[Start-ServiceFabricApplicationUpgrade](.\Start-ServiceFabricApplicationUpgrade.md)
+
 

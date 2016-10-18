@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Get-ServiceFabricPartition.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: C6C8C091-9A47-4AB1-B10B-27D0D6D2F7AE
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Restart-ServiceFabricPartition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Restart-ServiceFabricPartition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Restart-ServiceFabricPartition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Restart-ServiceFabricPartition
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Restarts replicas of a Service Fabric partition to simulate a data center blackout or cluster blackout scenario.
 
 ## SYNTAX
 
@@ -28,22 +29,16 @@ Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -Par
  -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNameRandomPartition
-```
-Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
- [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### ServiceNamePartitionUniformedInt
 ```
 Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
  [-PartitionKindUniformInt64] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNamePartitionNamed
+### ServiceNameRandomPartition
 ```
 Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
- [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionSingleton
@@ -52,22 +47,43 @@ Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -Ser
  [-PartitionKindSingleton] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNamePartitionNamed
+```
+Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
+ [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Restart-ServiceFabricPartition** cmdlet simulates a data center blackout or cluster blackout scenario by restarting some or all of the replicas of a partition.
+For in-memory services, a restart would result in data loss.
+For persisted services that restart, no state data should be lost.
+
+Before using this cmdlet, connect to the Service Fabric cluster.
+
+Important note: This cmdlet should not be aborted while running.
+Aborting this cmdlet while it is running may leave state behind.
+If this cmdlet is aborted while running, Remove-ServiceFabricTestState should be invoked to remove state that may have been left behind.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Restart a partition
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Restart-ServiceFabricPartition -ServiceName fabric:/TestSvc -PartitionKindSingleton -RestartPartitionMode OnlyActiveSecondaries
 ```
 
-{{ Add example description here }}
+This command restarts the specified partition.
+
+### Example 2: Restart a partition for a specified partition key and partition kind
+```
+PS C:\>Restart-ServiceFabricPartition -ServiceName fabric:/TestSvc -PartitionKindUniformInt64 -PartitionKey "23" -RestartPartitionMode AllReplicasOrInstances
+```
+
+This command restarts the partition with partition key 23.
 
 ## PARAMETERS
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of the partition to restart.
 
 ```yaml
 Type: Guid
@@ -82,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKey
-{{Fill PartitionKey Description}}
+Specifies the key of the partition to restart.
 
 ```yaml
 Type: String
@@ -97,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindNamed
-{{Fill PartitionKindNamed Description}}
+Indicates that this cmdlet restarts a named partition.
 
 ```yaml
 Type: SwitchParameter
@@ -112,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindSingleton
-{{Fill PartitionKindSingleton Description}}
+Indicates that this cmdlet restarts a singleton partition.
 
 ```yaml
 Type: SwitchParameter
@@ -127,7 +143,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindUniformInt64
-{{Fill PartitionKindUniformInt64 Description}}
+Indicates that this cmdlet restarts a UniformInt64 partition.
 
 ```yaml
 Type: SwitchParameter
@@ -142,7 +158,7 @@ Accept wildcard characters: False
 ```
 
 ### -RestartPartitionMode
-{{Fill RestartPartitionMode Description}}
+Specifies whether to restart all replicas in the partition or only secondary partitions.
 
 ```yaml
 Type: RestartPartitionMode
@@ -158,7 +174,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the name of the service to restart.
 
 ```yaml
 Type: Uri
@@ -173,7 +189,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -192,15 +208,25 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### System.Uri
+Represents the name of a Service Fabric service.
+
 ### System.Guid
-System.Uri
-System.String
+Represents the ID of a Service Fabric partition.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.Testability.RestartPartitionResult** object that represents the operation result.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricPartition](.\Get-ServiceFabricPartition.md)
+
+[Repair-ServiceFabricPartition](.\Repair-ServiceFabricPartition.md)
+
+[Restart-ServiceFabricPartition](.\Restart-ServiceFabricPartition.md)
+
 

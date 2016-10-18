@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 7370ad41-fb09-4948-9bb7-8fd67b5e99e4
+online version: .\Get-ServiceFabricChaosReport.md
 schema: 2.0.0
-ms.assetid: B8FA0FAB-6ACB-4DA6-8A5B-AA871844DF77
+ms.assetid: EEE80FB0-7BFA-4C4C-AB20-8DB9F4F97E9B
 updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricNodeConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricNodeConfiguration.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Stop-ServiceFabricChaos.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Stop-ServiceFabricChaos.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -16,30 +16,29 @@ keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
 
-# Get-ServiceFabricNodeConfiguration
+# Stop-ServiceFabricChaos
 
 ## SYNOPSIS
-Gets the configuration of a Service Fabric node.
+Stops Chaos in the cluster.
 
 ## SYNTAX
 
 ```
-Get-ServiceFabricNodeConfiguration [-TimeoutSec <Int32>] [<CommonParameters>]
+Stop-ServiceFabricChaos [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricNodeConfiguration** cmdlet gets the configuration of a Service Fabric node.
-
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+The **Stop-ServiceFabricChaos** cmdlet stops Chaos in the cluster.
+For more information about Chaos in the Fault Analysis Service (FAS), see the Start-ServiceFabricChaos cmdlet.
 
 ## EXAMPLES
 
-### Example 1: Get node configuration
+### Example 1: Stop Chaos in the cluster
 ```
-PS C:\>Get-ServiceFabricNodeConfiguration
+PS C:\>Stop-ServiceFabricChaos
 ```
 
-This command returns the cluster manifest data corresponding to the node.
+This command stops chaos in the cluster.
 
 ## PARAMETERS
 
@@ -68,5 +67,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricChaosReport](.\Get-ServiceFabricChaosReport.md)
+
+[Start-ServiceFabricChaos](.\Start-ServiceFabricChaos.md)
 
 

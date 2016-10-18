@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Get-ServiceFabricTestCommandStatusList.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 97D767C4-EAD7-4D19-A085-2BD1F992C099
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Stop-ServiceFabricTestCommand.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Stop-ServiceFabricTestCommand.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Stop-ServiceFabricTestCommand.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Stop-ServiceFabricTestCommand
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Cancels a Service Fabric test command.
 
 ## SYNTAX
 
@@ -28,21 +29,35 @@ Stop-ServiceFabricTestCommand -OperationId <Guid> [-ForceCancel] [-Force] [-Time
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Stop-ServiceFabricTestCommand** cmdlet cancels an Azure Service Fabric test command.
+Specify the ID of the operation that you provided when you initiated the test command.
+To run this cmdlet, **FaultAnalysisService** must be enabled.
+
+If you do not specify the *Force* parameter, this cmdlet cancels the command and cleans up state information.
+The command closes with a state of RollingBack during cleanup.
+The final state of the command is Cancelled.
+
+Important Note: If *Force* is true, state may be left behind.
+Remove-ServiceFabricTestState should be invoked to remove state that may have been left behind.
+
+TestCommandProgressState.RollingBack indicates the system is cleaning up the internal system state caused by executing the command.
+It does not restore data if the test command was to cause data loss.
+For example, if you call Start-ServiceFabricPartitionDataLoss and then call this cmdlet, the system will only clean up its internal state from running the command.
+It will not restore the target partition's data if the command progressed far enough to cause data loss.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Cancel an operation
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Stop-ServiceFabricTestCommand -OperationId a268cc73-2e30-462b-b3df-3a0d30e5b330
 ```
 
-{{ Add example description here }}
+This command cancels an operation that has the *OperationId* a268cc73-2e30-462b-b3df-3a0d30e5b330.
 
 ## PARAMETERS
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -51,13 +66,20 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to be cancelled.
+The use of this parameter may leave state information behind.
+The final state of the command is ForceCancelled.
+
+You can specify *Force* only if the test command has a state of RollingBack.
+The command has that state only if you previously ran this cmdlet without *Force* specified, or if the test command rolls back due to a fatal error.
+
+We do not recommend specifying *Force* unless the command is not proceeding.
 
 ```yaml
 Type: SwitchParameter
@@ -72,7 +94,10 @@ Accept wildcard characters: False
 ```
 
 ### -ForceCancel
-{{Fill ForceCancel Description}}
+You can specify *Force* only if the test command has a state of RollingBack.
+The command has that state only if you previously ran this cmdlet without *Force* specified, or if the test command rolls back due to a fatal error.
+
+We do not recommend specifying *Force* unless the command is not proceeding.
 
 ```yaml
 Type: SwitchParameter
@@ -87,7 +112,8 @@ Accept wildcard characters: False
 ```
 
 ### -OperationId
-{{Fill OperationId Description}}
+Specifies a unique identifier for the command that this cmdlet cancels.
+You assign this value when you initiated the command.
 
 ```yaml
 Type: Guid
@@ -102,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -118,6 +144,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
+The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -127,7 +154,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -137,13 +164,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
 ## OUTPUTS
-
-### System.Object
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricTestCommandStatusList](.\Get-ServiceFabricTestCommandStatusList.md)
+
 

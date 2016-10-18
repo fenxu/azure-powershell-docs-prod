@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Invoke-ServiceFabricInfrastructureCommand.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: E09D6FED-175D-4511-9E66-717A6EB7F495
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricInfrastructureQuery.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricInfrastructureQuery.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Invoke-ServiceFabricInfrastructureQuery.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Invoke-ServiceFabricInfrastructureQuery
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Invokes a read-only query on an infrastructure service.
 
 ## SYNTAX
 
@@ -28,21 +29,28 @@ Invoke-ServiceFabricInfrastructureQuery [-Command] <String> [[-ServiceName] <Uri
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Invoke-ServiceFabricInfrastructureQuery** cmdlet invokes a read-only query on an infrastructure service.
+The infrastructure service accepts infrastructure-specific commands to allow you to interact directly with the underlying infrastructure by means of the Service Fabric API.
+To run this cmdlet, at least one instance of the infrastructure service must be enabled in the cluster configuration.
+Currently, this cmdlet is supported only on specially-configured Azure Cloud Services.
+
+This cmdlet supports the Service Fabric platform.
+Do not run this cmdlet directly.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
-```
-PS C:\> {{ Add example code here }}
+### 1:
 ```
 
-{{ Add example description here }}
+```
 
 ## PARAMETERS
 
 ### -Command
-{{Fill Command Description}}
+Specifies the infrastructure-specific command string to send to the infrastructure service.
+The format of supported commands depends on the infrastructure on which the cluster runs.
 
 ```yaml
 Type: String
@@ -57,7 +65,9 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the Uniform Resource Indentifier (URI) of a Service Fabric infrastructure service.
+This cmdlet sends the command to the service that this parameter specifies.
+The default value is fabric:/System/InfrastructureService.
 
 ```yaml
 Type: Uri
@@ -72,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -91,14 +101,22 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Uri
+###  
+This cmdlet accepts an object that contains a **ServiceName** property that identifies the infrastructure service instance to which to send a command.
 
 ## OUTPUTS
 
-### System.Object
+###  
+This cmdlet returns a value that depends on the value of the *Command* parameter, and is determined by the infrastructure.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Invoke-ServiceFabricInfrastructureCommand](.\Invoke-ServiceFabricInfrastructureCommand.md)
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

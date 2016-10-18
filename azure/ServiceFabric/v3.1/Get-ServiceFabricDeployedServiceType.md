@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 33F6BE97-3BE8-4DE7-BACD-F2B0FA09E313
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricDeployedServiceType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricDeployedServiceType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricDeployedServiceType.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricDeployedServiceType
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the Service Fabric service types deployed on a node.
 
 ## SYNTAX
 
@@ -35,21 +36,23 @@ Get-ServiceFabricDeployedServiceType [-NodeName] <String> [-Adhoc] [[-ServiceMan
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricDeployedServiceType** cmdlet gets the Service Fabric service types deployed on a specified node.
+You can specify which types to get by using parameters.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
-```
-PS C:\> {{ Add example code here }}
+### 1:
 ```
 
-{{ Add example description here }}
+```
 
 ## PARAMETERS
 
 ### -Adhoc
-{{Fill Adhoc Description}}
+Indicates that the service runs in ad hoc mode.
+In ad hoc mode, you manually activate the service host.
 
 ```yaml
 Type: SwitchParameter
@@ -64,7 +67,8 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationName
-{{Fill ApplicationName Description}}
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric application.
+The cmdlet gets the service types for the application that you specify.
 
 ```yaml
 Type: Uri
@@ -79,7 +83,8 @@ Accept wildcard characters: False
 ```
 
 ### -NodeName
-{{Fill NodeName Description}}
+Specifies the name of a Service Fabric node.
+The cmdlet gets service types deployed on the node that you specify.
 
 ```yaml
 Type: String
@@ -94,7 +99,8 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceManifestName
-{{Fill ServiceManifestName Description}}
+Specifies the name of a Service Fabric service manifest.
+The cmdlet gets the service types for the service manifest that you specify.
 
 ```yaml
 Type: String
@@ -109,7 +115,8 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceTypeName
-{{Fill ServiceTypeName Description}}
+Specifies the name of a Service Fabric service type.
+The cmdlet gets the service type that you specify.
 
 ```yaml
 Type: String
@@ -124,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -143,14 +150,22 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Uri
+### System.Uri, String
+This cmdlet accepts a URI that represents the name of a Service Fabric application, or a Service Fabric node name, or a service name, or a service type name.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns **System.Fabric.Query.DeployedServiceType** objects that represent the service types.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Get-ServiceFabricService](.\Get-ServiceFabricService.md)
+
 

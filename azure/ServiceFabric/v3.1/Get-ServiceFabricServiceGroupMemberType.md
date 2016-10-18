@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Get-ServiceFabricServiceGroupMember.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: F0140597-B5F1-4DA7-B5FC-CFA447FA6F5A
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricServiceGroupMemberType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricServiceGroupMemberType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricServiceGroupMemberType.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricServiceGroupMemberType
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets member types of Service Fabric service groups.
 
 ## SYNTAX
 
@@ -28,21 +29,24 @@ Get-ServiceFabricServiceGroupMemberType [-ApplicationTypeName] <String> [-Applic
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricServiceGroupMemberType** cmdlet gets member types of Service Fabric service groups.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get a service group member types
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricServiceGroupMemberType -ApplicationTypeName "CalcApp" -ApplicationTypeVersion "1.0"
 ```
 
-{{ Add example description here }}
+This command gets Service Fabric service group member types for the application type named CalcApp and application type version 1.0.
 
 ## PARAMETERS
 
 ### -ApplicationTypeName
-{{Fill ApplicationTypeName Description}}
+Specifies the name of a Service Fabric application type.
+The cmdlet gets types for the application type that this parameter specifies.
 
 ```yaml
 Type: String
@@ -57,7 +61,8 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationTypeVersion
-{{Fill ApplicationTypeVersion Description}}
+Specifies the version of a Service Fabric application type.
+The cmdlet gets types for the application version that this parameter specifies.
 
 ```yaml
 Type: String
@@ -72,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceGroupTypeName
-{{Fill ServiceGroupTypeName Description}}
+Specifies the name of a service group type.
 
 ```yaml
 Type: String
@@ -87,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -106,13 +111,22 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
+### String
+This cmdlet accepts the name of a Service Fabric application type, an application type version, or the name of a service group.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a list of **System.Fabric.Query.ServiceGroupMemberType** objects that represent Service Fabric service group member types.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricServiceGroupMember](.\Get-ServiceFabricServiceGroupMember.md)
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

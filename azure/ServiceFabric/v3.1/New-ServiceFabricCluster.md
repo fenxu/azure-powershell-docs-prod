@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 17029E25-66BE-422A-8965-04990FAB833C
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/New-ServiceFabricCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/New-ServiceFabricCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/New-ServiceFabricCluster.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,31 +19,39 @@ manager: visual-studio-china
 # New-ServiceFabricCluster
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Creates a Service Fabric cluster.
 
 ## SYNTAX
 
 ```
-New-ServiceFabricCluster [-ClusterConfigurationFilePath] <String> -FabricPackageSourcePath <String>
- [-RollbackOnFailure] [-TimeoutSec <Int32>] [<CommonParameters>]
+New-ServiceFabricCluster [-ClusterConfigurationFilePath] <String> -FabricRuntimePackagePath <String>
+ [-NoCleanupOnFailure] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **New-ServiceFabricCluster** cmdlet creates a Service Fabric cluster based on a configuration file in JavaScript Object Notation (JSON) format and a Service Fabric runtime package CAB file.
+The cmdlet orchestrates installations from the controller computer.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Create a cluster
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>New-ServiceFabricCluster -ClusterConfigurationFilePath "D:\standalone\ClusterConfig.Unsecure.DevCluster.json" -FabricRuntimePackagePath "D:\deployanywhere\MicrosoftAzureServiceFabric.cab"
 ```
 
-{{ Add example description here }}
+This command creates a cluster based on the input cluster configuration path and runtime CAB package.
+
+### Example 2: Create a cluster without clean up if failures are encountered
+```
+PS C:\>New-ServiceFabricCluster -ClusterConfigurationFilePath "D:\standalone\ClusterConfig.Unsecure.DevCluster.json" -FabricRuntimePackagePath "D:\deployanywhere\MicrosoftAzureServiceFabric.cab" -NoCleanupOnFailure
+```
+
+This command creates a cluster based on the input cluster configuration path and runtime CAB package, and for deployment failure, Fabric resources are not cleaned up on the target computers.
 
 ## PARAMETERS
 
 ### -ClusterConfigurationFilePath
-{{Fill ClusterConfigurationFilePath Description}}
+Specifies the path of the cluster configuration JSON file.
 
 ```yaml
 Type: String
@@ -56,8 +65,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FabricPackageSourcePath
-{{Fill FabricPackageSourcePath Description}}
+### -FabricRuntimePackagePath
+Specifies the path of the Service Fabric package CAB file.
 
 ```yaml
 Type: String
@@ -71,8 +80,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -RollbackOnFailure
-{{Fill RollbackOnFailure Description}}
+### -NoCleanupOnFailure
+Indicates that the system should retain Fabric data if the cluster cannot fully come up.
 
 ```yaml
 Type: SwitchParameter
@@ -87,7 +96,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -106,13 +115,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
 ## OUTPUTS
-
-### System.Object
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Remove-ServiceFabricCluster](.\Remove-ServiceFabricCluster.md)
+
 

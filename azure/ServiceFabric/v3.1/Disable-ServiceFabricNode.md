@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 27DE3E8D-897E-498F-A0EA-9BF60E5688B0
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Disable-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Disable-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Disable-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Disable-ServiceFabricNode
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Disables a Service Fabric node.
 
 ## SYNTAX
 
@@ -28,21 +29,31 @@ Disable-ServiceFabricNode [-NodeName] <String> [-Intent] <NodeDeactivationIntent
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Disable-ServiceFabricNode** cmdlet informs Service Fabric before an administrative action is taken on a node that may impact the replicas on the node.
+
+For example, before restarting a node, disabling the node with intent restart informs Service Fabric to gracefully close the replicas on the node.
+You must wait for the node to become disabled before restarting the node.
+Use the Get-ServiceFabricNode cmdlet to view the disabling status of the node.
+Service Fabric ensures that services stay available even if these replicas are closed.
+The node stays in the disabling state until it is safe to disable it without impacting service availability.
+After the restart has been completed, the node can be enabled using the Enable-ServiceFabricNode cmdlet, which informs Service Fabric that the node can now be used for placing replicas.
+
+To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Deactivate a node with intent restart
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Disable-ServiceFabricNode -NodeName "DB.41" -Intent Restart
 ```
 
-{{ Add example description here }}
+This command disables a node with node name DB.41 with intent restart.
 
 ## PARAMETERS
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -51,13 +62,13 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -72,7 +83,22 @@ Accept wildcard characters: False
 ```
 
 ### -Intent
-{{Fill Intent Description}}
+Specifies the intent for the disable node.
+The intent determines the action that Service Fabric takes for the node.
+The acceptable values for this parameter are:
+
+- Pause.
+No new replicas are placed on the node.
+Existing replicas continue to run.
+You might specify this setting to debug replicas that run on the node.
+- Restart.
+Existing replicas on the node are closed.
+Replicas are not moved to other node.
+You might specify this setting when a node restart is required for installing a patch.
+- RemoveData.
+Specifies that the data on the node is to be permanently lost.
+This cmdlet creates copies of the replicas that run on the node on other nodes to ensure high availability.
+You might specify this setting when the hard disk is being reimaged or this node is being removed from the cluster.
 
 ```yaml
 Type: NodeDeactivationIntent
@@ -88,7 +114,8 @@ Accept wildcard characters: False
 ```
 
 ### -NodeName
-{{Fill NodeName Description}}
+Specifies the name of a Service Fabric node.
+The cmdlet disables the node that you specify.
 
 ```yaml
 Type: String
@@ -103,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -119,6 +146,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
+The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -128,7 +156,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -139,12 +167,23 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a message that includes the status of the operation.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Enable-ServiceFabricNode](.\Enable-ServiceFabricNode.md)
+
+[Get-ServiceFabricNode](.\Get-ServiceFabricNode.md)
+
 

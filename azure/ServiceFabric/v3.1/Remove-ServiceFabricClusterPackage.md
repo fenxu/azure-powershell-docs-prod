@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: CF0A03A9-D1E2-446A-BCA2-80B1D620D586
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricClusterPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricClusterPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Remove-ServiceFabricClusterPackage
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Removes a Service Fabric cluster package from the image store.
 
 ## SYNTAX
 
@@ -44,21 +45,27 @@ Remove-ServiceFabricClusterPackage -CodePackagePathInImageStore <String>
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Remove-ServiceFabricClusterPackage** cmdlet removes a Service Fabric cluster package from the image store.
+Run this cmdlet after you register the package using the Register-ServiceFabricClusterPackage cmdlet.
+
+To manage Service Fabric clusters, start Windows PowerShell by using the **Run as administrator** option.
+Before you perform any operation on a Service Fabric cluster, first run the Connect-ServiceFabricCluster cmdlet to establish a connection to the cluster.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Remove a cluster package
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Remove-ServiceFabricClusterPackage -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]" -ClusterManifestPathInImageStore "ClusterManifest_123.xml" -CodePackagePathInImageStore "ServiceFabric.2.0.59.0.msi"
 ```
 
-{{ Add example description here }}
+This command removes the cluster package that has the specified image store path.
+The cmdlet does prompt you for confirmation before it removes the cluster package.
 
 ## PARAMETERS
 
 ### -ClusterManifestPathInImageStore
-{{Fill ClusterManifestPathInImageStore Description}}
+Specifies the relative path in the image store of the cluster manifest.
+The cmdlet removes the package from the path that this parameter specifies.
 
 ```yaml
 Type: String
@@ -85,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -Code
-{{Fill Code Description}}
+Indicates that the cmdlet deletes only the Service Fabric .msi file.
 
 ```yaml
 Type: SwitchParameter
@@ -100,7 +107,8 @@ Accept wildcard characters: False
 ```
 
 ### -CodePackagePathInImageStore
-{{Fill CodePackagePathInImageStore Description}}
+Specifies the relative path in the image store of the code package.
+The cmdlet removes the package from the path that this parameter specifies.
 
 ```yaml
 Type: String
@@ -127,7 +135,7 @@ Accept wildcard characters: False
 ```
 
 ### -Config
-{{Fill Config Description}}
+Indicates that this cmdlet deletes only the Service Fabric cluster manifest.
 
 ```yaml
 Type: SwitchParameter
@@ -142,7 +150,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -151,13 +159,13 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -ImageStoreConnectionString
-{{Fill ImageStoreConnectionString Description}}
+Specifies the connection string for the Service Fabric image store.
 
 ```yaml
 Type: String
@@ -172,7 +180,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -188,6 +196,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
+The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -197,7 +206,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -208,12 +217,23 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns the status of the operation as a string.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Copy-ServiceFabricClusterPackage](.\Copy-ServiceFabricClusterPackage.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Register-ServiceFabricClusterPackage](.\Register-ServiceFabricClusterPackage.md)
+
 

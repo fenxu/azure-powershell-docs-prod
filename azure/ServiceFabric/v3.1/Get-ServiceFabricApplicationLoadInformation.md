@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Get-ServiceFabricClusterLoadInformation.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 5960F91D-BFD2-4297-B7BE-5A325BCDEA0A
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricApplicationLoadInformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricApplicationLoadInformation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricApplicationLoadInformation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricApplicationLoadInformation
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets application capacity parameters and load information for a Service Fabric application.
 
 ## SYNTAX
 
@@ -28,21 +29,33 @@ Get-ServiceFabricApplicationLoadInformation [-ApplicationName] <String> [-Timeou
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricApplicationLoadInformation** cmdlet gets application capacity parameters and load information for a Service Fabric application.
+
+The output of **Get-ServiceFabricApplicationLoadInformation** contains the following information: 
+
+- Minimum Nodes: Minimum number of nodes specified for this application (from **Application Capacity** parameters). 
+- Maximum Nodes: Maximum number of nodes specified for this application (from **Application Capacity** parameters). 
+- Node Count: Number of nodes currently spanned by the application's child replicas. 
+- Application Load Metric Information: Load information for each metric defined in **Application Capacity** parameters. 
+For each metric that is defined, the output contains the following information: 
+- Metric Name: Name of the metric. 
+- Reservation Capacity: Cluster capacity that is reserved in the cluster for this application. 
+- Application Load: Total Load of this application's child replicas. 
+- Application Capacity: Maximum permitted value of Application Load.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get load information
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricApplicationLoadInformation -ApplicationName fabric:/MyApp
 ```
 
-{{ Add example description here }}
+This command gets load information for the application fabric://MyApp.
 
 ## PARAMETERS
 
 ### -ApplicationName
-{{Fill ApplicationName Description}}
+Specifies a Service Fabric application.
 
 ```yaml
 Type: String
@@ -57,7 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -76,13 +89,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-
 ## OUTPUTS
 
-### System.Object
+### System.Fabric.Query.ApplicationLoadInformation
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricClusterLoadInformation](.\Get-ServiceFabricClusterLoadInformation.md)
+
+[Get-ServiceFabricNodeLoadInformation](.\Get-ServiceFabricNodeLoadInformation.md)
+
+[Get-ServiceFabricPartitionLoadInformation](.\Get-ServiceFabricPartitionLoadInformation.md)
+
 

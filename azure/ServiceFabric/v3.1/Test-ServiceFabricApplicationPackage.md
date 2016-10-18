@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 81C3B5F4-6B48-47CB-AC09-3193F3F86E25
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Test-ServiceFabricApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Test-ServiceFabricApplicationPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Test-ServiceFabricApplicationPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Test-ServiceFabricApplicationPackage
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Validates a Service Fabric application package.
 
 ## SYNTAX
 
@@ -28,21 +29,25 @@ Test-ServiceFabricApplicationPackage [-ApplicationPackagePath] <String> [-Applic
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Test-ServiceFabricApplicationPackage** cmdlet validates a Service Fabric application package.
+After you validate a package, use the Copy-ServiceFabricApplicationPackage cmdlet to copy it to the image store.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Validate a package
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Test-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListService"
 ```
 
-{{ Add example description here }}
+This command validates the application package in the specified path.
 
 ## PARAMETERS
 
 ### -ApplicationPackagePath
-{{Fill ApplicationPackagePath Description}}
+Specifies the relative path of an application package.
+The cmdlet validates the package in the path that you specify.
 
 ```yaml
 Type: String
@@ -57,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationParameter
-{{Fill ApplicationParameter Description}}
+Specifies the overrides for application parameters as name/value pairs.
 
 ```yaml
 Type: Hashtable
@@ -72,7 +77,8 @@ Accept wildcard characters: False
 ```
 
 ### -ImageStoreConnectionString
-{{Fill ImageStoreConnectionString Description}}
+Specifies the connection string for the Service Fabric image store.
+If you specify this parameter, the cmdlet performs additional validations against previously deployed versions currently in the store.
 
 ```yaml
 Type: String
@@ -92,12 +98,23 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns $True if the Service Fabric application package is valid, or, if it is not valid, this cmdlet returns $False.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Copy-ServiceFabricApplicationPackage](.\Copy-ServiceFabricApplicationPackage.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Remove-ServiceFabricApplicationPackage](.\Remove-ServiceFabricApplicationPackage.md)
+
 

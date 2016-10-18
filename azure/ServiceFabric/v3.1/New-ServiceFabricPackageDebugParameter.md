@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 4672CC9C-CB43-402D-B5F4-E2760405ADEE
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/New-ServiceFabricPackageDebugParameter.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/New-ServiceFabricPackageDebugParameter.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/New-ServiceFabricPackageDebugParameter.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,32 +19,52 @@ manager: visual-studio-china
 # New-ServiceFabricPackageDebugParameter
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Adds debug parameters for a code package in a service package.
 
 ## SYNTAX
 
 ```
 New-ServiceFabricPackageDebugParameter [-CodePackageName] <String> [-ServiceManifestName] <String>
  [-EntryPointType <String>] -DebuggerExePath <String> [-DebuggerArguments <String>]
- [-EnvironmentBlock <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-CodePackageLinkFolder <String>] [-ConfigPackageLinkFolder <String>] [-DataPackageLinkFolder <String>]
+ [-LockFile <String>] [-WorkingFolder <String>] [-DebugParametersFile <String>] [-EnvironmentBlock <String>]
+ [-ConfigPackageName <String>] [-DataPackageName <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **New-ServiceFabricPackageDebugParameter** cmdlet adds debug parameters for a code package in a service package.
+The debug parameters provide a mechanism to specify information for debugger when Service Fabric launches code packages.
+
+To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
-```
-PS C:\> {{ Add example code here }}
+### 1:
 ```
 
-{{ Add example description here }}
+```
 
 ## PARAMETERS
 
+### -CodePackageLinkFolder
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -CodePackageName
-{{Fill CodePackageName Description}}
+Specifies the name of a Service Fabric code package.
+The cmdlet adds a debug parameter to the package that this parameter specifies.
 
 ```yaml
 Type: String
@@ -57,8 +78,83 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ConfigPackageLinkFolder
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ConfigPackageName
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -DataPackageLinkFolder
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -DataPackageName
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -DebugParametersFile
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -DebuggerArguments
-{{Fill DebuggerArguments Description}}
+Specifies a value for debugger arguments.
 
 ```yaml
 Type: String
@@ -73,7 +169,7 @@ Accept wildcard characters: False
 ```
 
 ### -DebuggerExePath
-{{Fill DebuggerExePath Description}}
+Specifies the path of the debugger .exe file.
 
 ```yaml
 Type: String
@@ -88,7 +184,7 @@ Accept wildcard characters: False
 ```
 
 ### -EntryPointType
-{{Fill EntryPointType Description}}
+Specifies the endpoint type.
 
 ```yaml
 Type: String
@@ -103,7 +199,22 @@ Accept wildcard characters: False
 ```
 
 ### -EnvironmentBlock
-{{Fill EnvironmentBlock Description}}
+Specifies the environment block.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -LockFile
+@{Text=}
 
 ```yaml
 Type: String
@@ -118,7 +229,8 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceManifestName
-{{Fill ServiceManifestName Description}}
+Specifies the name of a Service Fabric service manifest.
+The cmdlet adds a debug parameter for the service manifest that this cmdlet specifies.
 
 ```yaml
 Type: String
@@ -133,10 +245,25 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -WorkingFolder
+@{Text=}
+
+```yaml
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
@@ -153,12 +280,19 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns Service Fabric code package debug parameters.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

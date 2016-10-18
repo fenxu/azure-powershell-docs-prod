@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Add-ServiceFabricNode.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: F393B4C6-F574-42DE-BFE8-26D89D84D5F4
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Remove-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,45 +19,31 @@ manager: visual-studio-china
 # Remove-ServiceFabricNode
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Removes a Service Fabric node.
 
 ## SYNTAX
 
 ```
-Remove-ServiceFabricNode -PreviewMode <Boolean> [-TimeoutSec <Int32>] [<CommonParameters>]
+Remove-ServiceFabricNode [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Remove-ServiceFabricNode** cmdlet removes a Service Fabric node from a cluster.
+You must run this cmdlet from the computer that you want to remove.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Remove a node
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Remove-ServiceFabricNode
 ```
 
-{{ Add example description here }}
+This command removes the current computer from a cluster.
 
 ## PARAMETERS
 
-### -PreviewMode
-{{Fill PreviewMode Description}}
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -75,13 +62,24 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
 ## OUTPUTS
-
-### System.Object
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Add-ServiceFabricNode](.\Add-ServiceFabricNode.md)
+
+[Disable-ServiceFabricNode](.\Disable-ServiceFabricNode.md)
+
+[Enable-ServiceFabricNode](.\Enable-ServiceFabricNode.md)
+
+[Get-ServiceFabricNode](.\Get-ServiceFabricNode.md)
+
+[Restart-ServiceFabricNode](.\Restart-ServiceFabricNode.md)
+
+[Start-ServiceFabricNode](.\Start-ServiceFabricNode.md)
+
+[Stop-ServiceFabricNode](.\Stop-ServiceFabricNode.md)
+
 

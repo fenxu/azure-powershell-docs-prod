@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Move-ServiceFabricSecondaryReplica.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 22D597E5-47A6-483C-88C6-DDAC072424DE
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Move-ServiceFabricPrimaryReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Move-ServiceFabricPrimaryReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Move-ServiceFabricPrimaryReplica.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Move-ServiceFabricPrimaryReplica
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Moves the Service Fabric primary replica of a stateful service partition.
 
 ## SYNTAX
 
@@ -28,22 +29,16 @@ Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boole
  -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNameRandomPartition
-```
-Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boolean>] -ServiceName <Uri>
- [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### ServiceNamePartitionUniformedInt
 ```
 Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boolean>] -ServiceName <Uri>
  [-PartitionKindUniformInt64] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNamePartitionNamed
+### ServiceNameRandomPartition
 ```
 Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boolean>] -ServiceName <Uri>
- [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionSingleton
@@ -52,22 +47,52 @@ Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boole
  [-PartitionKindSingleton] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNamePartitionNamed
+```
+Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boolean>] -ServiceName <Uri>
+ [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Move-ServiceFabricPrimaryReplica** cmdlet moves the Service Fabric primary replica of a stateful service partition from the current primary node to a specified node.
+You can also perform this operation on system services.
+You cannot use this cmdlet for stateless services.
+
+The **Move-ServiceFabricPrimaryReplica** cmdlet moves the primary replica to a new Service Fabric node location after the command is accepted.
+However, the load balancer may move the primary replica again based on load balancer constraints or on the load balancer balancing algorithm.
+
+To use this cmdlet, you must be a member of the Administrators group.
+
+Before using this cmdlet, connect to the Service Fabric cluster.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Move the primary replica of a stateful service partition to a specified node
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Move-ServiceFabricPrimaryReplica -PartitionId 93838f53-f1d9-4b99-8492-b802ee807d03 -NodeName "N0050" -ServiceName fabric:/SampleApp/SampleService
 ```
 
-{{ Add example description here }}
+This command moves the primary replica of the specified stateful service partition to the node named N0050.
+
+### Example 2: Move the primary replica of a stateful service partition to a random node
+```
+PS C:\>Move-ServiceFabricPrimaryReplica -ServiceName fabric:/SampleApp/SampleService -PartitionId 93838f53-f1d9-4b99-8492-b802ee807d03
+```
+
+This command moves the primary replica of the specified stateful service partition to a random node because the *NodeName* parameter is not specified.
+
+### Example 3: Move the primary replica of a stateful service partition to a random node
+```
+PS C:\>Move-ServiceFabricPrimaryReplica -ServiceName fabric:/SampleApp1/PersistServ
+```
+
+This command moves the primary replica of the specified stateful service partition to a random node because the *NodeName* parameter is not specified.
+A random partition for the specified service is selected.
 
 ## PARAMETERS
 
 ### -IgnoreConstraints
-{{Fill IgnoreConstraints Description}}
+@{Text=}
 
 ```yaml
 Type: Boolean
@@ -82,7 +107,8 @@ Accept wildcard characters: False
 ```
 
 ### -NodeName
-{{Fill NodeName Description}}
+Specifies the name of a Service Fabric node.
+The cmdlet moves the primary replica to the node that you specify.
 
 ```yaml
 Type: String
@@ -97,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of the partition to move.
 
 ```yaml
 Type: Guid
@@ -112,7 +138,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKey
-{{Fill PartitionKey Description}}
+Specifies the key of the partition to move.
 
 ```yaml
 Type: String
@@ -127,7 +153,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindNamed
-{{Fill PartitionKindNamed Description}}
+Indicates that this cmdlet moves a named partition.
 
 ```yaml
 Type: SwitchParameter
@@ -142,7 +168,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindSingleton
-{{Fill PartitionKindSingleton Description}}
+Indicates that this cmdlet moves a singleton partition.
 
 ```yaml
 Type: SwitchParameter
@@ -157,7 +183,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionKindUniformInt64
-{{Fill PartitionKindUniformInt64 Description}}
+Indicates that this cmdlet moves a UniformInt64 partitioned service.
 
 ```yaml
 Type: SwitchParameter
@@ -172,7 +198,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the service name of the replica to move.
 
 ```yaml
 Type: Uri
@@ -187,7 +213,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -206,16 +232,24 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Boolean
-System.Guid
-System.Uri
+### System.Guid
+Represents the ID of a Service Fabric partition.
+
+### System.Uri
+Represents the name of a Service Fabric service.
+
+### string
+Specifies the name of a Service Fabric node.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.Testability.MovePrimaryResult** object that represents the operation result.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Move-ServiceFabricSecondaryReplica](.\Move-ServiceFabricSecondaryReplica.md)
+
 

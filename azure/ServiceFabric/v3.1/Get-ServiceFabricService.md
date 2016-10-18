@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 4275CC75-BDDD-4782-99C8-D3E775F07E61
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricService
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets a list of Service Fabric services.
 
 ## SYNTAX
 
@@ -34,21 +35,31 @@ Get-ServiceFabricService [-Adhoc] [[-ServiceName] <Uri>] [-TimeoutSec <Int32>] [
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricService** cmdlet gets a list of Service Fabric services.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the services created from an application
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricService -ApplicationName fabric:/myapp/persistenttodolist
 ```
 
-{{ Add example description here }}
+This command gets the Service Fabric services from the specified application.
+
+### Example 2: Get the system services running in a cluster
+```
+PS C:\>Get-ServiceFabricService -ApplicationName fabric:/System
+```
+
+This command gets the Service Fabric system services running in a cluster.
 
 ## PARAMETERS
 
 ### -Adhoc
-{{Fill Adhoc Description}}
+Indicates that the service runs in ad hoc mode.
+In ad hoc mode, you manually activate the service host.
 
 ```yaml
 Type: SwitchParameter
@@ -63,7 +74,8 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationName
-{{Fill ApplicationName Description}}
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric application.
+The cmdlet gets the services for the applications that you specify.
 
 ```yaml
 Type: Uri
@@ -78,7 +90,8 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the URI of a Service Fabric service.
+If you do not specify this parameter, this cmdlet gets all services of the specified application.
 
 ```yaml
 Type: Uri
@@ -93,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -113,12 +126,27 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Uri
+This cmdlet accept a URI that represents the name of a Service Fabric application or the name of a Service Fabric service.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a list of **System.Fabric.Query.Service** objects that represent Service Fabric services.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[New-ServiceFabricService](.\New-ServiceFabricService.md)
+
+[Remove-ServiceFabricService](.\Remove-ServiceFabricService.md)
+
+[Resolve-ServiceFabricService](.\Resolve-ServiceFabricService.md)
+
+[Update-ServiceFabricService](.\Update-ServiceFabricService.md)
+
 

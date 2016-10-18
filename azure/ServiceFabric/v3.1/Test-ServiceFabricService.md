@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Get-ServiceFabricService.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 0F403FD1-EA91-4040-BD9E-D289B59F0E01
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Test-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Test-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Test-ServiceFabricService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Test-ServiceFabricService
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Validates a Service Fabric service.
 
 ## SYNTAX
 
@@ -28,21 +29,26 @@ Test-ServiceFabricService [-ServiceName] <Uri> [-MaxStabilizationTimeoutSec] <In
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Test-ServiceFabricService** cmdlet validates the availability and health of all Service Fabric services within an application.
+This cmdlet verifies that the services are at the target replica set size and that the services are healthy.
+This cmdlet also validates that there are no InBuild replicas.
+Use this cmdlet to verify that your service is stable after inducing any fault into the system.
+
+Before using this cmdlet, connect to the Service Fabric cluster.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Test a service
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Test-WindowsFabricService -ServiceName fabric:/SvcName -MaxStabilizationTimeoutSec 240
 ```
 
-{{ Add example description here }}
+This command tests the specified service to make sure that it is stable within 240 seconds.
 
 ## PARAMETERS
 
 ### -MaxStabilizationTimeoutSec
-{{Fill MaxStabilizationTimeoutSec Description}}
+Specifies the maximum time-out period, in seconds, for the cluster to stabilize before failing the test.
 
 ```yaml
 Type: Int32
@@ -57,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies the name of the service to test.
 
 ```yaml
 Type: Uri
@@ -72,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -92,12 +98,25 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Uri
+Represents the name of a Service Fabric service.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **String** object that represents the status of validation.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricService](.\Get-ServiceFabricService.md)
+
+[New-ServiceFabricService](.\New-ServiceFabricService.md)
+
+[Remove-ServiceFabricService](.\Remove-ServiceFabricService.md)
+
+[Test-ServiceFabricService](.\Test-ServiceFabricService.md)
+
+[Update-ServiceFabricService](.\Update-ServiceFabricService.md)
+
 

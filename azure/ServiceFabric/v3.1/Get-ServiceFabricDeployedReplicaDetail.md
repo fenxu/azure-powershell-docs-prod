@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Get-ServiceFabricDeployedReplica.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: C8EDDC0C-C129-4D69-A269-A27B9FB5EB90
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricDeployedReplicaDetail.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricDeployedReplicaDetail.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Get-ServiceFabricDeployedReplicaDetail.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Get-ServiceFabricDeployedReplicaDetail
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets information about Service Fabric replicas from a host process.
 
 ## SYNTAX
 
@@ -28,21 +29,31 @@ Get-ServiceFabricDeployedReplicaDetail [-NodeName] <String> [-PartitionId] <Guid
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricDeployedReplicaDetail** cmdlet gets information about Service Fabric replicas from the host process in which they run.
+
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get Replica Detail for a replica running on a node
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-ServiceFabricDeployedReplicaDetail -NodeName "DB.41" -PartitionId 7B7D6D73-3D41-42A9-B7DF-B9D93A386BFF -ReplicaOrInstanceId 130705747836122602
 ```
 
-{{ Add example description here }}
+This command gets the replica detail for a replica running on a node from the service host process.
+
+### Example 2: Get Replica Detail for a replica running on a node including the replicator detail
+```
+PS C:\>Get-ServiceFabricDeployedReplicaDetail -NodeName "DB.41" -PartitionId 7B7D6D73-3D41-42A9-B7DF-B9D93A386BFF -ReplicaOrInstanceId 130705747836122602 -ReplicatorDetail
+```
+
+This command gets the replica detail for a replica running on a node from the service host process.
 
 ## PARAMETERS
 
 ### -NodeName
-{{Fill NodeName Description}}
+Specifies the name of a Service Fabric node.
+This cmdlet gets details about replicas that run in this node.
 
 ```yaml
 Type: String
@@ -57,7 +68,8 @@ Accept wildcard characters: False
 ```
 
 ### -PartitionId
-{{Fill PartitionId Description}}
+Specifies the ID of a Service Fabric partition.
+This parameter identifies the partition that has the replica or instance ID.
 
 ```yaml
 Type: Guid
@@ -72,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicaOrInstanceId
-{{Fill ReplicaOrInstanceId Description}}
+Specifies the Service Fabric service replica or instance ID for which to get information.
 
 ```yaml
 Type: Int64
@@ -87,7 +99,7 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicatorDetail
-{{Fill ReplicatorDetail Description}}
+Indicates that this cmdlet gets information from the Service Fabric Replicator.
 
 ```yaml
 Type: SwitchParameter
@@ -102,7 +114,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -121,15 +133,22 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Guid
-System.Int64
+### String, System.Guid, Int64
+This parameter accepts a string that represents a Service Fabric node name, or the GUID of a Service Fabric partition, or an integer replica or instance ID.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **DeployedServiceReplicaDetail** object that contains information about a Service Fabric replica.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricDeployedReplica](.\Get-ServiceFabricDeployedReplica.md)
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

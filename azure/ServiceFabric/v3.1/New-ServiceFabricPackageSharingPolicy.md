@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Copy-ServiceFabricServicePackageToNode.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 44A9AA7C-9D72-4B62-B53E-9A773EA1EED5
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/New-ServiceFabricPackageSharingPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/New-ServiceFabricPackageSharingPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/New-ServiceFabricPackageSharingPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # New-ServiceFabricPackageSharingPolicy
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Creates a package sharing policy.
 
 ## SYNTAX
 
@@ -47,21 +48,23 @@ New-ServiceFabricPackageSharingPolicy [[-PackageName] <String>] [-SharingScopeDa
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **New-ServiceFabricPackageSharingPolicy** cmdlet creates a package sharing policy.
+You can pass a **PackageSharingPolicy** object to the Copy-ServiceFabricServicePackageToNode cmdlet.
+
+To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
-```
-PS C:\> {{ Add example code here }}
+### 1:
 ```
 
-{{ Add example description here }}
+```
 
 ## PARAMETERS
 
 ### -PackageName
-{{Fill PackageName Description}}
+Specifies the name of the package that to share.
 
 ```yaml
 Type: String
@@ -76,7 +79,8 @@ Accept wildcard characters: False
 ```
 
 ### -SharingScopeAll
-{{Fill SharingScopeAll Description}}
+Indicates that this cmdlet uses **All** as the package sharing scope.
+The **All** scope shares all code, config, and data packages from the service manifest.
 
 ```yaml
 Type: SwitchParameter
@@ -91,7 +95,8 @@ Accept wildcard characters: False
 ```
 
 ### -SharingScopeCode
-{{Fill SharingScopeCode Description}}
+Indicates that this cmdlet uses **Code** as the package sharing scope.
+The **Code** scope shares all code packages from the service manifest.
 
 ```yaml
 Type: SwitchParameter
@@ -106,7 +111,8 @@ Accept wildcard characters: False
 ```
 
 ### -SharingScopeConfig
-{{Fill SharingScopeConfig Description}}
+Indicates that this cmdlet uses **Config** as the package sharing scope.
+The **Config** scope shares all config packages from the service manifest.
 
 ```yaml
 Type: SwitchParameter
@@ -121,7 +127,8 @@ Accept wildcard characters: False
 ```
 
 ### -SharingScopeData
-{{Fill SharingScopeData Description}}
+Indicates that this cmdlet uses **Data** as the package sharing scope.
+The **Data** scope shares all data packages from the service manifest.
 
 ```yaml
 Type: SwitchParameter
@@ -136,7 +143,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -156,12 +163,21 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a **System.Fabric.PackageSharingPolicy** object for a Service Fabric package.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Copy-ServiceFabricServicePackageToNode](.\Copy-ServiceFabricServicePackageToNode.md)
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
 

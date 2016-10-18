@@ -1,11 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version: .\Connect-ServiceFabricCluster.md
 schema: 2.0.0
-updated_at: 10/18/2016 3:14 PM
+ms.assetid: 298F2C12-F1BE-4341-B5A0-4C45CF45EB52
+updated_at: 10/18/2016 11:23 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/v3.1/Unregister-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/93811e1b392b99b3b32acb51bf4afbefcc6a139c/Service-Fabric-cmdlets/ServiceFabric/v3.1/Unregister-ServiceFabricClusterPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1c583c96910e336e02325104794c31c6626c552/Service-Fabric-cmdlets/ServiceFabric/v3.1/Unregister-ServiceFabricClusterPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -18,7 +19,7 @@ manager: visual-studio-china
 # Unregister-ServiceFabricClusterPackage
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Unregisters a Service Fabric cluster package.
 
 ## SYNTAX
 
@@ -41,21 +42,26 @@ Unregister-ServiceFabricClusterPackage [-Config] [-CodePackageVersion <String>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Unregister-ServiceFabricClusterPackage** cmdlet unregisters a Service Fabric cluster package.
+If you unregister a cluster package, the cmdlet removes the cluster package from the image store.
+
+To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Unregister a cluster package
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Unregister-ServiceFabricClusterPackage -ClusterManifestVersion "V2" -CodePackageVersion "2.0.59.0" -Force
 ```
 
-{{ Add example description here }}
+This command unregisters the cluster package.
+Because the command includes the *Force* parameter, the cmdlet does not prompt you for confirmation.
 
 ## PARAMETERS
 
 ### -ClusterManifestVersion
-{{Fill ClusterManifestVersion Description}}
+Specifies the version stored in a Service Fabric cluster manifest.
 
 ```yaml
 Type: String
@@ -82,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -Code
-{{Fill Code Description}}
+Indicates that the package includes only a Service Fabric .msi file.
 
 ```yaml
 Type: SwitchParameter
@@ -97,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -CodePackageVersion
-{{Fill CodePackageVersion Description}}
+Specifies the version of the Service Fabric .msi file.
 
 ```yaml
 Type: String
@@ -124,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -Config
-{{Fill Config Description}}
+Indicates that the package is a Service Fabric cluster manifest.
 
 ```yaml
 Type: SwitchParameter
@@ -139,7 +145,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -148,13 +154,13 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -169,7 +175,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
@@ -185,6 +191,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
+The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -194,7 +201,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -205,12 +212,23 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns the status of the operation as a string.
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+
+[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+
+[Copy-ServiceFabricClusterPackage](.\Copy-ServiceFabricClusterPackage.md)
+
+[Register-ServiceFabricClusterPackage](.\Register-ServiceFabricClusterPackage.md)
+
 
