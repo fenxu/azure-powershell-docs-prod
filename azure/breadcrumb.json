@@ -38,6 +38,12 @@
                                               "toc_title":  "Service-Fabric-cmdlets",
                                               "href":  "/powershell/Service-Fabric-cmdlets/",
                                               "level":  3
+                                          },
+                                          {
+                                              "homepage":  "/powershell/aip-cmdlets/",
+                                              "toc_title":  "aip-cmdlets",
+                                              "href":  "/powershell/aip-cmdlets/",
+                                              "level":  3
                                           }
                                       ]
                      }

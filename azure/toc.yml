@@ -6,3 +6,5 @@
   tocHref: ElasticDB/toc.yml
 - name: Service Fabric
   tocHref: Service-Fabric-cmdlets/toc.yml
+- name: aip-cmdlets
+  tocHref: aip-cmdlets/toc.yml
