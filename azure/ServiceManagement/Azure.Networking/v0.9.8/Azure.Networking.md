@@ -22,7 +22,7 @@ manager: visual-studio-china
 This topic displays help topics for the Azure Networking Cmdlets. 
 
 ## Azure.Networking Cmdlets
-### [Add-AzureApplicationGatewaySslCertificate](.\Add-AzureApplicationGatewaySslCertificate.md)
+### [Add-AzureApplicationGatewaySslCertificate](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Add-AzureApplicationGatewaySslCertificate.md)
 Adds an SSL certificate to an application gateway.
 
 
@@ -30,11 +30,11 @@ Adds an SSL certificate to an application gateway.
 Gets application gateway configuration.
 
 
-### [Get-AzureApplicationGatewaySslCertificate](.\Get-AzureApplicationGatewaySslCertificate.md)
+### [Get-AzureApplicationGatewaySslCertificate](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Get-AzureApplicationGatewaySslCertificate.md)
 Gets application gateway certificates.
 
 
-### [Get-AzureApplicationGateway](.\Get-AzureApplicationGateway.md)
+### [Get-AzureApplicationGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Get-AzureApplicationGateway.md)
 Gets an application gateway.
 
 
@@ -46,7 +46,7 @@ Gets the route applied in a virtual machine.
 Gets the status of IP forwarding.
 
 
-### [Get-AzureLocalNetworkGateway](.\Get-AzureLocalNetworkGateway.md)
+### [Get-AzureLocalNetworkGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Get-AzureLocalNetworkGateway.md)
 
 
 
@@ -62,11 +62,11 @@ Gets details for a network security group.
 Gets the network security group for a subnet.
 
 
-### [Get-AzureNetworkSecurityGroup](.\Get-AzureNetworkSecurityGroup.md)
+### [Get-AzureNetworkSecurityGroup](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Get-AzureNetworkSecurityGroup.md)
 Gets details for a network security group.
 
 
-### [Get-AzureRouteTable](.\Get-AzureRouteTable.md)
+### [Get-AzureRouteTable](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Get-AzureRouteTable.md)
 Gets a route table.
 
 
@@ -74,7 +74,7 @@ Gets a route table.
 Gets a route table for a subnet.
 
 
-### [Get-AzureVirtualNetworkGatewayConnection](.\Get-AzureVirtualNetworkGatewayConnection.md)
+### [Get-AzureVirtualNetworkGatewayConnection](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Get-AzureVirtualNetworkGatewayConnection.md)
 
 
 
@@ -90,7 +90,7 @@ Gets a route table for a subnet.
 
 
 
-### [Get-AzureVirtualNetworkGateway](.\Get-AzureVirtualNetworkGateway.md)
+### [Get-AzureVirtualNetworkGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Get-AzureVirtualNetworkGateway.md)
 
 
 
@@ -114,27 +114,27 @@ Gets the pre-shared key for the connection between a virtual network gateway and
 Gets the status of a virtual network gateway.
 
 
-### [New-AzureApplicationGateway](.\New-AzureApplicationGateway.md)
+### [New-AzureApplicationGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\New-AzureApplicationGateway.md)
 Creates an application gateway.
 
 
-### [New-AzureLocalNetworkGateway](.\New-AzureLocalNetworkGateway.md)
+### [New-AzureLocalNetworkGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\New-AzureLocalNetworkGateway.md)
 
 
 
-### [New-AzureNetworkSecurityGroup](.\New-AzureNetworkSecurityGroup.md)
+### [New-AzureNetworkSecurityGroup](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\New-AzureNetworkSecurityGroup.md)
 Creates an Azure network security group.
 
 
-### [New-AzureRouteTable](.\New-AzureRouteTable.md)
+### [New-AzureRouteTable](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\New-AzureRouteTable.md)
 Creates a route table.
 
 
-### [New-AzureVirtualNetworkGatewayConnection](.\New-AzureVirtualNetworkGatewayConnection.md)
+### [New-AzureVirtualNetworkGatewayConnection](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\New-AzureVirtualNetworkGatewayConnection.md)
 
 
 
-### [New-AzureVirtualNetworkGateway](.\New-AzureVirtualNetworkGateway.md)
+### [New-AzureVirtualNetworkGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\New-AzureVirtualNetworkGateway.md)
 
 
 
@@ -142,15 +142,15 @@ Creates a route table.
 Creates a VPN gateway in a virtual network.
 
 
-### [Remove-AzureApplicationGatewaySslCertificate](.\Remove-AzureApplicationGatewaySslCertificate.md)
+### [Remove-AzureApplicationGatewaySslCertificate](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Remove-AzureApplicationGatewaySslCertificate.md)
 Removes an SSL certificate from an application gateway.
 
 
-### [Remove-AzureApplicationGateway](.\Remove-AzureApplicationGateway.md)
+### [Remove-AzureApplicationGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Remove-AzureApplicationGateway.md)
 Removes an application gateway.
 
 
-### [Remove-AzureLocalNetworkGateway](.\Remove-AzureLocalNetworkGateway.md)
+### [Remove-AzureLocalNetworkGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Remove-AzureLocalNetworkGateway.md)
 
 
 
@@ -162,7 +162,7 @@ Removes a network security group.
 Dissociates a network security group from a subnet.
 
 
-### [Remove-AzureNetworkSecurityGroup](.\Remove-AzureNetworkSecurityGroup.md)
+### [Remove-AzureNetworkSecurityGroup](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Remove-AzureNetworkSecurityGroup.md)
 Deletes a network security group.
 
 
@@ -170,7 +170,7 @@ Deletes a network security group.
 Removes a network security rule from a network security group.
 
 
-### [Remove-AzureRouteTable](.\Remove-AzureRouteTable.md)
+### [Remove-AzureRouteTable](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Remove-AzureRouteTable.md)
 Removes a route table.
 
 
@@ -182,11 +182,11 @@ Removes a route from a route table.
 Removes a route table association from a subnet.
 
 
-### [Remove-AzureVirtualNetworkGatewayConnection](.\Remove-AzureVirtualNetworkGatewayConnection.md)
+### [Remove-AzureVirtualNetworkGatewayConnection](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Remove-AzureVirtualNetworkGatewayConnection.md)
 
 
 
-### [Remove-AzureVirtualNetworkGateway](.\Remove-AzureVirtualNetworkGateway.md)
+### [Remove-AzureVirtualNetworkGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Remove-AzureVirtualNetworkGateway.md)
 
 
 
@@ -210,7 +210,7 @@ Deletes a VPN gateway.
 
 
 
-### [Reset-AzureVirtualNetworkGateway](.\Reset-AzureVirtualNetworkGateway.md)
+### [Reset-AzureVirtualNetworkGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Reset-AzureVirtualNetworkGateway.md)
 
 
 
@@ -278,7 +278,7 @@ Sets the pre-shared key for the connection between an Azure VPN gateway and a lo
 Enables or disables a VPN gateway for an Azure virtual network.
 
 
-### [Start-AzureApplicationGateway](.\Start-AzureApplicationGateway.md)
+### [Start-AzureApplicationGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Start-AzureApplicationGateway.md)
 Starts an application gateway.
 
 
@@ -290,7 +290,7 @@ Starts an application gateway.
 Starts gateway diagnostics for a VPN gateway.
 
 
-### [Stop-AzureApplicationGateway](.\Stop-AzureApplicationGateway.md)
+### [Stop-AzureApplicationGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Stop-AzureApplicationGateway.md)
 Stops an application gateway.
 
 

@@ -333,10 +333,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMExtension](.\Get-AzureVMExtension.md)
+[Get-AzureVMExtension](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Get-AzureVMExtension.md)
 
-[Remove-AzureVMExtension](.\Remove-AzureVMExtension.md)
+[Remove-AzureVMExtension](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Remove-AzureVMExtension.md)
 
-[Get-AzureVM](.\Get-AzureVM.md)
+[Get-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Get-AzureVM.md)
 
 

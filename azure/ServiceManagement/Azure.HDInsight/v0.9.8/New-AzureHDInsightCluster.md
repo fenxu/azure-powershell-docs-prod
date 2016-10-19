@@ -511,18 +511,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureHDInsightMetastore](.\Add-AzureHDInsightMetastore.md)
+[Add-AzureHDInsightMetastore](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Add-AzureHDInsightMetastore.md)
 
-[Add-AzureHDInsightStorage](.\Add-AzureHDInsightStorage.md)
+[Add-AzureHDInsightStorage](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Add-AzureHDInsightStorage.md)
 
-[Get-AzureHDInsightCluster](.\Get-AzureHDInsightCluster.md)
+[Get-AzureHDInsightCluster](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Get-AzureHDInsightCluster.md)
 
-[New-AzureHDInsightClusterConfig](.\New-AzureHDInsightClusterConfig.md)
+[New-AzureHDInsightClusterConfig](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\New-AzureHDInsightClusterConfig.md)
 
-[Remove-AzureHDInsightCluster](.\Remove-AzureHDInsightCluster.md)
+[Remove-AzureHDInsightCluster](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Remove-AzureHDInsightCluster.md)
 
-[Set-AzureHDInsightDefaultStorage](.\Set-AzureHDInsightDefaultStorage.md)
+[Set-AzureHDInsightDefaultStorage](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Set-AzureHDInsightDefaultStorage.md)
 
-[Use-AzureHDInsightCluster](.\Use-AzureHDInsightCluster.md)
+[Use-AzureHDInsightCluster](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Use-AzureHDInsightCluster.md)
 
 

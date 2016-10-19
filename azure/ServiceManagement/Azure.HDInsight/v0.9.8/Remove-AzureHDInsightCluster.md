@@ -171,10 +171,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureHDInsightCluster](.\Get-AzureHDInsightCluster.md)
+[Get-AzureHDInsightCluster](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Get-AzureHDInsightCluster.md)
 
-[New-AzureHDInsightCluster](.\New-AzureHDInsightCluster.md)
+[New-AzureHDInsightCluster](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\New-AzureHDInsightCluster.md)
 
-[Use-AzureHDInsightCluster](.\Use-AzureHDInsightCluster.md)
+[Use-AzureHDInsightCluster](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Use-AzureHDInsightCluster.md)
 
 

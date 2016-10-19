@@ -222,14 +222,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureHDInsightJob](.\Get-AzureHDInsightJob.md)
+[Get-AzureHDInsightJob](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Get-AzureHDInsightJob.md)
 
-[Get-AzureHDInsightJobOutput](.\Get-AzureHDInsightJobOutput.md)
+[Get-AzureHDInsightJobOutput](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Get-AzureHDInsightJobOutput.md)
 
-[New-AzureHDInsightMapReduceJobDefinition](.\New-AzureHDInsightMapReduceJobDefinition.md)
+[New-AzureHDInsightMapReduceJobDefinition](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\New-AzureHDInsightMapReduceJobDefinition.md)
 
-[Stop-AzureHDInsightJob](.\Stop-AzureHDInsightJob.md)
+[Stop-AzureHDInsightJob](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Stop-AzureHDInsightJob.md)
 
-[Wait-AzureHDInsightJob](.\Wait-AzureHDInsightJob.md)
+[Wait-AzureHDInsightJob](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Wait-AzureHDInsightJob.md)
 
 

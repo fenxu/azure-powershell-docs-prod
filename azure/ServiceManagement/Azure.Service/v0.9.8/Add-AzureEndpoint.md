@@ -454,12 +454,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AzureEndpoint](.\Get-AzureEndpoint.md)
 
-[Get-AzureVM](.\Get-AzureVM.md)
+[Get-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Get-AzureVM.md)
 
 [Remove-AzureEndpoint](.\Remove-AzureEndpoint.md)
 
 [Set-AzureEndpoint](.\Set-AzureEndpoint.md)
 
-[Update-AzureVM](.\Update-AzureVM.md)
+[Update-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Update-AzureVM.md)
 
 
