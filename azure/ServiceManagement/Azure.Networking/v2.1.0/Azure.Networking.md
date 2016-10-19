@@ -54,7 +54,7 @@ Gets a local network gateway.
 Gets a network security group for a virtual machine, network adapter, or PaaS role.
 
 
-### [Get-AzureNetworkSecurityGroupConfig](..\..\..\Azure.Compute\v2.0\CmdletMDs\Get-AzureNetworkSecurityGroupConfig.md)
+### [Get-AzureNetworkSecurityGroupConfig](..\..\Azure.Compute\v2.1.0\Get-AzureNetworkSecurityGroupConfig.md)
 Gets details for a network security group.
 
 
