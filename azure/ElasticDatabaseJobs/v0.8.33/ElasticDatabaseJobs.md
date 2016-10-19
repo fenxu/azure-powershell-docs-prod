@@ -7,7 +7,7 @@ Locale: en-US
 ms.assetid: E1AF2634-2E0A-4B64-925C-A0895168F939
 updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/Tim20161019/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
 ms.topic: conceptual
 ms.prod: powershell

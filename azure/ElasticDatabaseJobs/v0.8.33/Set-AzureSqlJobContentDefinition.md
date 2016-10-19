@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 9B39643C-534D-47B4-A05F-562BA7088483
 updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/Tim20161019/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md
 ms.topic: reference
 ms.prod: powershell

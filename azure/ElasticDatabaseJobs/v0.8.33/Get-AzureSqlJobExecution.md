@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 2F400DA8-52CF-4D84-8AFA-EB2FEFE7DC3E
 updated_at: 10/18/2016 11:20 PM
 ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/Tim20161019/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md
 ms.topic: reference
 ms.prod: powershell
