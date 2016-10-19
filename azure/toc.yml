@@ -8,3 +8,5 @@
   tocHref: Service-Fabric-cmdlets/toc.yml
 - name: aip-cmdlets
   tocHref: aip-cmdlets/toc.yml
+- name: Azure Information Protection
+  tocHref: Azure Information Protection/toc.yml

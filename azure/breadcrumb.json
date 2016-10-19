@@ -44,6 +44,12 @@
                                               "toc_title":  "aip-cmdlets",
                                               "href":  "/powershell/aip-cmdlets/",
                                               "level":  3
+                                          },
+                                          {
+                                              "homepage":  "/powershell/Azure Information Protection/",
+                                              "toc_title":  "Azure Information Protection",
+                                              "href":  "/powershell/Azure Information Protection/",
+                                              "level":  3
                                           }
                                       ]
                      }
