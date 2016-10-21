@@ -3,8 +3,6 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version: .\Get-MsolSettingTemplate.md
 schema: 2.0.0
 ms.assetid: 0F14F9F7-1780-4CB2-9362-415A361463BE
-updated_at: 10/18/2016 11:19 PM
-ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolAllSettingTemplate.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b9713ade33b7e737581e4e9ec64604b63e6c9d76/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolAllSettingTemplate.md
 ms.topic: reference

@@ -3,8 +3,6 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version: 58f7425a-3f73-4caf-851d-972214e870ac
 schema: 2.0.0
 ms.assetid: 174960FD-00BB-461F-B8C9-DDA519E24F00
-updated_at: 10/18/2016 11:19 PM
-ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolDirSyncConfiguration.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b9713ade33b7e737581e4e9ec64604b63e6c9d76/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolDirSyncConfiguration.md
 ms.topic: reference

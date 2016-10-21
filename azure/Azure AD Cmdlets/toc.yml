@@ -1,56 +1,5 @@
 - name: AzureADPreview
   items:
-    - name: v1.0.0
-      href: ../AzureADPreview/v1.0.0/AzureActiveDirectory.md
-      items:
-        - name: Disable-MsolDevice
-          href: ../AzureADPreview/v1.0.0/Disable-MsolDevice.md
-        - name: Enable-MsolDevice
-          href: ../AzureADPreview/v1.0.0/Enable-MsolDevice.md
-        - name: Get-MsolAllSettings
-          href: ../AzureADPreview/v1.0.0/Get-MsolAllSettings.md
-        - name: Get-MsolAllSettingTemplate
-          href: ../AzureADPreview/v1.0.0/Get-MsolAllSettingTemplate.md
-        - name: Get-MsolDevice
-          href: ../AzureADPreview/v1.0.0/Get-MsolDevice.md
-        - name: Get-MsolDeviceRegistrationServicePolicy
-          href: ../AzureADPreview/v1.0.0/Get-MsolDeviceRegistrationServicePolicy.md
-        - name: Get-MsolDirSyncConfiguration
-          href: ../AzureADPreview/v1.0.0/Get-MsolDirSyncConfiguration.md
-        - name: Get-MsolDirSyncFeatures
-          href: ../AzureADPreview/v1.0.0/Get-MsolDirSyncFeatures.md
-        - name: Get-MsolDirSyncProvisioningError
-          href: ../AzureADPreview/v1.0.0/Get-MsolDirSyncProvisioningError.md
-        - name: Get-MsolHasObjectsWithDirSyncProvisioningErrors
-          href: ../AzureADPreview/v1.0.0/Get-MsolHasObjectsWithDirSyncProvisioningErrors.md
-        - name: Get-MsolSettings
-          href: ../AzureADPreview/v1.0.0/Get-MsolSettings.md
-        - name: Get-MsolSettingTemplate
-          href: ../AzureADPreview/v1.0.0/Get-MsolSettingTemplate.md
-        - name: Get-MsolUserByStrongAuthentication
-          href: ../AzureADPreview/v1.0.0/Get-MsolUserByStrongAuthentication.md
-        - name: New-MsolSettings
-          href: ../AzureADPreview/v1.0.0/New-MsolSettings.md
-        - name: New-MsolWellKnownGroup
-          href: ../AzureADPreview/v1.0.0/New-MsolWellKnownGroup.md
-        - name: Remove-MsolApplicationPassword
-          href: ../AzureADPreview/v1.0.0/Remove-MsolApplicationPassword.md
-        - name: Remove-MsolDevice
-          href: ../AzureADPreview/v1.0.0/Remove-MsolDevice.md
-        - name: Remove-MsolForeignGroupFromRole
-          href: ../AzureADPreview/v1.0.0/Remove-MsolForeignGroupFromRole.md
-        - name: Remove-MsolSettings
-          href: ../AzureADPreview/v1.0.0/Remove-MsolSettings.md
-        - name: Reset-MsolStrongAuthenticationMethodByUpn
-          href: ../AzureADPreview/v1.0.0/Reset-MsolStrongAuthenticationMethodByUpn.md
-        - name: Set-MsolDeviceRegistrationServicePolicy
-          href: ../AzureADPreview/v1.0.0/Set-MsolDeviceRegistrationServicePolicy.md
-        - name: Set-MsolDirSyncConfiguration
-          href: ../AzureADPreview/v1.0.0/Set-MsolDirSyncConfiguration.md
-        - name: Set-MsolDirSyncFeature
-          href: ../AzureADPreview/v1.0.0/Set-MsolDirSyncFeature.md
-        - name: Set-MsolSettings
-          href: ../AzureADPreview/v1.0.0/Set-MsolSettings.md
     - name: v2.0.0
       href: ../AzureADPreview/v2.0.0/AzureActiveDirectory.md
       items:
@@ -350,3 +299,54 @@
           href: ../AzureADPreview/v2.0.0/Set-AzureADUserPassword.md
         - name: Update-AzureADSignedInUserPassword
           href: ../AzureADPreview/v2.0.0/Update-AzureADSignedInUserPassword.md
+    - name: v1.0.0
+      href: ../AzureADPreview/v1.0.0/AzureActiveDirectory.md
+      items:
+        - name: Disable-MsolDevice
+          href: ../AzureADPreview/v1.0.0/Disable-MsolDevice.md
+        - name: Enable-MsolDevice
+          href: ../AzureADPreview/v1.0.0/Enable-MsolDevice.md
+        - name: Get-MsolAllSettings
+          href: ../AzureADPreview/v1.0.0/Get-MsolAllSettings.md
+        - name: Get-MsolAllSettingTemplate
+          href: ../AzureADPreview/v1.0.0/Get-MsolAllSettingTemplate.md
+        - name: Get-MsolDevice
+          href: ../AzureADPreview/v1.0.0/Get-MsolDevice.md
+        - name: Get-MsolDeviceRegistrationServicePolicy
+          href: ../AzureADPreview/v1.0.0/Get-MsolDeviceRegistrationServicePolicy.md
+        - name: Get-MsolDirSyncConfiguration
+          href: ../AzureADPreview/v1.0.0/Get-MsolDirSyncConfiguration.md
+        - name: Get-MsolDirSyncFeatures
+          href: ../AzureADPreview/v1.0.0/Get-MsolDirSyncFeatures.md
+        - name: Get-MsolDirSyncProvisioningError
+          href: ../AzureADPreview/v1.0.0/Get-MsolDirSyncProvisioningError.md
+        - name: Get-MsolHasObjectsWithDirSyncProvisioningErrors
+          href: ../AzureADPreview/v1.0.0/Get-MsolHasObjectsWithDirSyncProvisioningErrors.md
+        - name: Get-MsolSettings
+          href: ../AzureADPreview/v1.0.0/Get-MsolSettings.md
+        - name: Get-MsolSettingTemplate
+          href: ../AzureADPreview/v1.0.0/Get-MsolSettingTemplate.md
+        - name: Get-MsolUserByStrongAuthentication
+          href: ../AzureADPreview/v1.0.0/Get-MsolUserByStrongAuthentication.md
+        - name: New-MsolSettings
+          href: ../AzureADPreview/v1.0.0/New-MsolSettings.md
+        - name: New-MsolWellKnownGroup
+          href: ../AzureADPreview/v1.0.0/New-MsolWellKnownGroup.md
+        - name: Remove-MsolApplicationPassword
+          href: ../AzureADPreview/v1.0.0/Remove-MsolApplicationPassword.md
+        - name: Remove-MsolDevice
+          href: ../AzureADPreview/v1.0.0/Remove-MsolDevice.md
+        - name: Remove-MsolForeignGroupFromRole
+          href: ../AzureADPreview/v1.0.0/Remove-MsolForeignGroupFromRole.md
+        - name: Remove-MsolSettings
+          href: ../AzureADPreview/v1.0.0/Remove-MsolSettings.md
+        - name: Reset-MsolStrongAuthenticationMethodByUpn
+          href: ../AzureADPreview/v1.0.0/Reset-MsolStrongAuthenticationMethodByUpn.md
+        - name: Set-MsolDeviceRegistrationServicePolicy
+          href: ../AzureADPreview/v1.0.0/Set-MsolDeviceRegistrationServicePolicy.md
+        - name: Set-MsolDirSyncConfiguration
+          href: ../AzureADPreview/v1.0.0/Set-MsolDirSyncConfiguration.md
+        - name: Set-MsolDirSyncFeature
+          href: ../AzureADPreview/v1.0.0/Set-MsolDirSyncFeature.md
+        - name: Set-MsolSettings
+          href: ../AzureADPreview/v1.0.0/Set-MsolSettings.md

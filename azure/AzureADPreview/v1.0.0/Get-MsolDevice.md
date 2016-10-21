@@ -3,8 +3,6 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version: .\Disable-MsolDevice.md
 schema: 2.0.0
 ms.assetid: B11640A7-18C4-475A-B6BE-D16957C4F58C
-updated_at: 10/18/2016 11:19 PM
-ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolDevice.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b9713ade33b7e737581e4e9ec64604b63e6c9d76/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolDevice.md
 ms.topic: reference

@@ -5,8 +5,6 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: BB86A603-6CD9-4299-89B8-30A2B4A011A0
-updated_at: 10/18/2016 11:19 PM
-ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/AzureActiveDirectory.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b9713ade33b7e737581e4e9ec64604b63e6c9d76/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/AzureActiveDirectory.md
 ms.topic: conceptual
