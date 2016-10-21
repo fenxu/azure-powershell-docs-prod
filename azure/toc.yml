@@ -1,6 +1,6 @@
 - name: Azure Powershell
   tocHref: azureps-cmdlets-docs/toc.yml
-- name: Azure AD
+- name: Azure AD Cmdlets
   tocHref: Azure AD Cmdlets/toc.yml
 - name: ElasticDB
   tocHref: ElasticDB/toc.yml
