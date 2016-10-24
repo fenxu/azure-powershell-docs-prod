@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: .\Get-MsolSettings.md
+online version: ./Get-MsolSettings.md
 schema: 2.0.0
 ms.assetid: 2FE0B98E-77B0-4122-A5D0-3ED553F83B36
-updated_at: 10/18/2016 11:19 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 10:53 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/New-MsolSettings.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b9713ade33b7e737581e4e9ec64604b63e6c9d76/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/New-MsolSettings.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5a502af83411e7fc832acecdefac6642e3a152a6/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/New-MsolSettings.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -140,10 +140,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-MsolSettings](.\Get-MsolSettings.md)
+[Get-MsolSettings](./Get-MsolSettings.md)
 
-[Remove-MsolSettings](.\Remove-MsolSettings.md)
+[Remove-MsolSettings](./Remove-MsolSettings.md)
 
-[Set-MsolSettings](.\Set-MsolSettings.md)
+[Set-MsolSettings](./Set-MsolSettings.md)
 
 

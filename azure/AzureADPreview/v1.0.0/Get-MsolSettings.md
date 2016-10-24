@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: .\Get-MsolAllSettings.md
+online version: ./Get-MsolAllSettings.md
 schema: 2.0.0
 ms.assetid: 22A5D63B-5386-4137-965F-E5CF5696DDE5
-updated_at: 10/18/2016 11:19 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 10:53 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolSettings.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b9713ade33b7e737581e4e9ec64604b63e6c9d76/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolSettings.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5a502af83411e7fc832acecdefac6642e3a152a6/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolSettings.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -142,10 +142,10 @@ This value should be used when updating setting.
 
 ## RELATED LINKS
 
-[Get-MsolAllSettings](.\Get-MsolAllSettings.md)
+[Get-MsolAllSettings](./Get-MsolAllSettings.md)
 
-[Get-MsolSettingTemplate](.\Get-MsolSettingTemplate.md)
+[Get-MsolSettingTemplate](./Get-MsolSettingTemplate.md)
 
-[Get-MsolAllSettingTemplate](.\Get-MsolAllSettingTemplate.md)
+[Get-MsolAllSettingTemplate](./Get-MsolAllSettingTemplate.md)
 
 

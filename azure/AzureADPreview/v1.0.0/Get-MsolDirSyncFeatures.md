@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: .\Get-MsolDirSyncConfiguration.md
+online version: ./Get-MsolDirSyncConfiguration.md
 schema: 2.0.0
 ms.assetid: F2ED75F9-4313-418D-8B3A-EED1DE39B9DB
-updated_at: 10/18/2016 11:19 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 10:53 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolDirSyncFeatures.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b9713ade33b7e737581e4e9ec64604b63e6c9d76/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolDirSyncFeatures.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5a502af83411e7fc832acecdefac6642e3a152a6/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolDirSyncFeatures.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -105,8 +105,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-MsolDirSyncConfiguration](.\Get-MsolDirSyncConfiguration.md)
+[Get-MsolDirSyncConfiguration](./Get-MsolDirSyncConfiguration.md)
 
-[Get-MsolDirSyncProvisioningError](.\Get-MsolDirSyncProvisioningError.md)
+[Get-MsolDirSyncProvisioningError](./Get-MsolDirSyncProvisioningError.md)
 
 

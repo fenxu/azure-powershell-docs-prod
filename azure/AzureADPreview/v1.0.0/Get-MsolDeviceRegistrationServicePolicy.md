@@ -1,10 +1,10 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: .\Set-MsolDeviceRegistrationServicePolicy.md
+online version: ./Set-MsolDeviceRegistrationServicePolicy.md
 schema: 2.0.0
 ms.assetid: 65F06302-DB2D-4507-86B9-752471F47030
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolDeviceRegistrationServicePolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b9713ade33b7e737581e4e9ec64604b63e6c9d76/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolDeviceRegistrationServicePolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5a502af83411e7fc832acecdefac6642e3a152a6/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolDeviceRegistrationServicePolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -61,6 +61,6 @@ If the value is selected, the allowed users are specified in the value of the ot
 
 ## RELATED LINKS
 
-[Set-MsolDeviceRegistrationServicePolicy](.\Set-MsolDeviceRegistrationServicePolicy.md)
+[Set-MsolDeviceRegistrationServicePolicy](./Set-MsolDeviceRegistrationServicePolicy.md)
 
 
