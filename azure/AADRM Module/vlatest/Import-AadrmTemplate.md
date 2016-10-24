@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400628
 schema: 2.0.0
 ms.assetid: 86B51085-E23E-4A2E-A512-9098C908F3AD
-updated_at: 10/19/2016 7:10 PM
-ms.date: 10/19/2016
+updated_at: 10/24/2016 10:52 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM%20Module/vlatest/Import-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c584db022c82c9f9aca042c591590162f9d96d2b/Azure%20Information%20Protection/AADRM%20Module/vlatest/Import-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5e6ef5e3f1d6768f64c5d14aab4fd3e58b8fa0c3/Azure%20Information%20Protection/AADRM%20Module/vlatest/Import-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -80,12 +80,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AadrmTemplate](.\Add-AadrmTemplate.md)
+[Add-AadrmTemplate](./Add-AadrmTemplate.md)
 
-[Export-AadrmTemplate](.\Export-AadrmTemplate.md)
+[Export-AadrmTemplate](./Export-AadrmTemplate.md)
 
-[Get-AadrmTemplate](.\Get-AadrmTemplate.md)
+[Get-AadrmTemplate](./Get-AadrmTemplate.md)
 
-[Remove-AadrmTemplate](.\Remove-AadrmTemplate.md)
+[Remove-AadrmTemplate](./Remove-AadrmTemplate.md)
 
 

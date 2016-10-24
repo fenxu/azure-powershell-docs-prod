@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400616
 schema: 2.0.0
 ms.assetid: 2EEF1510-4A63-4D3D-A707-541FC294DA33
-updated_at: 10/19/2016 7:10 PM
-ms.date: 10/19/2016
+updated_at: 10/24/2016 10:52 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM%20Module/vlatest/Get-AadrmUsageLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c584db022c82c9f9aca042c591590162f9d96d2b/Azure%20Information%20Protection/AADRM%20Module/vlatest/Get-AadrmUsageLog.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5e6ef5e3f1d6768f64c5d14aab4fd3e58b8fa0c3/Azure%20Information%20Protection/AADRM%20Module/vlatest/Get-AadrmUsageLog.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -112,6 +112,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AadrmUsageLogLastCounterValue](.\Get-AadrmUsageLogLastCounterValue.md)
+[Get-AadrmUsageLogLastCounterValue](./Get-AadrmUsageLogLastCounterValue.md)
 
 

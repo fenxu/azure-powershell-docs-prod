@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=722838
 schema: 2.0.0
 ms.assetid: 23E946A0-E6FC-4F8C-8F3B-352AD48CE426
-updated_at: 10/19/2016 7:10 PM
-ms.date: 10/19/2016
+updated_at: 10/24/2016 10:52 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM%20Module/vlatest/Set-AadrmSuperUserGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c584db022c82c9f9aca042c591590162f9d96d2b/Azure%20Information%20Protection/AADRM%20Module/vlatest/Set-AadrmSuperUserGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5e6ef5e3f1d6768f64c5d14aab4fd3e58b8fa0c3/Azure%20Information%20Protection/AADRM%20Module/vlatest/Set-AadrmSuperUserGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -78,10 +78,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AadrmSuperUser](.\Add-AadrmSuperUser.md)
+[Add-AadrmSuperUser](./Add-AadrmSuperUser.md)
 
-[Clear-AadrmSuperUserGroup](.\Clear-AadrmSuperUserGroup.md)
+[Clear-AadrmSuperUserGroup](./Clear-AadrmSuperUserGroup.md)
 
-[Get-AadrmSuperUserGroup](.\Get-AadrmSuperUserGroup.md)
+[Get-AadrmSuperUserGroup](./Get-AadrmSuperUserGroup.md)
 
 
