@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: .\Get-ServiceFabricService.md
+online version: ./Get-ServiceFabricService.md
 schema: 2.0.0
 ms.assetid: 0F403FD1-EA91-4040-BD9E-D289B59F0E01
-updated_at: 10/24/2016 5:47 PM
+updated_at: 10/24/2016 10:54 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9f1d8af76684a984727546ed80c60dff01969382/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -109,14 +109,14 @@ This cmdlet returns a **String** object that represents the status of validation
 
 ## RELATED LINKS
 
-[Get-ServiceFabricService](.\Get-ServiceFabricService.md)
+[Get-ServiceFabricService](./Get-ServiceFabricService.md)
 
-[New-ServiceFabricService](.\New-ServiceFabricService.md)
+[New-ServiceFabricService](./New-ServiceFabricService.md)
 
-[Remove-ServiceFabricService](.\Remove-ServiceFabricService.md)
+[Remove-ServiceFabricService](./Remove-ServiceFabricService.md)
 
-[Test-ServiceFabricService](.\Test-ServiceFabricService.md)
+[Test-ServiceFabricService](./Test-ServiceFabricService.md)
 
-[Update-ServiceFabricService](.\Update-ServiceFabricService.md)
+[Update-ServiceFabricService](./Update-ServiceFabricService.md)
 
 

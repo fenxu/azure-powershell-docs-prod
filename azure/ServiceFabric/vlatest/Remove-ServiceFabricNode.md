@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: .\Add-ServiceFabricNode.md
+online version: ./Add-ServiceFabricNode.md
 schema: 2.0.0
 ms.assetid: F393B4C6-F574-42DE-BFE8-26D89D84D5F4
-updated_at: 10/24/2016 5:47 PM
+updated_at: 10/24/2016 10:54 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9f1d8af76684a984727546ed80c60dff01969382/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -68,18 +68,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-ServiceFabricNode](.\Add-ServiceFabricNode.md)
+[Add-ServiceFabricNode](./Add-ServiceFabricNode.md)
 
-[Disable-ServiceFabricNode](.\Disable-ServiceFabricNode.md)
+[Disable-ServiceFabricNode](./Disable-ServiceFabricNode.md)
 
-[Enable-ServiceFabricNode](.\Enable-ServiceFabricNode.md)
+[Enable-ServiceFabricNode](./Enable-ServiceFabricNode.md)
 
-[Get-ServiceFabricNode](.\Get-ServiceFabricNode.md)
+[Get-ServiceFabricNode](./Get-ServiceFabricNode.md)
 
-[Restart-ServiceFabricNode](.\Restart-ServiceFabricNode.md)
+[Restart-ServiceFabricNode](./Restart-ServiceFabricNode.md)
 
-[Start-ServiceFabricNode](.\Start-ServiceFabricNode.md)
+[Start-ServiceFabricNode](./Start-ServiceFabricNode.md)
 
-[Stop-ServiceFabricNode](.\Stop-ServiceFabricNode.md)
+[Stop-ServiceFabricNode](./Stop-ServiceFabricNode.md)
 
 

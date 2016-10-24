@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: .\Get-ServiceFabricService.md
+online version: ./Get-ServiceFabricService.md
 schema: 2.0.0
 ms.assetid: A7669F75-A5B3-4574-8444-CD15A04DF0EE
-updated_at: 10/24/2016 5:47 PM
+updated_at: 10/24/2016 10:54 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceDescription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9f1d8af76684a984727546ed80c60dff01969382/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceDescription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceDescription.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -91,10 +91,10 @@ This cmdlet returns **System.Fabric.Description.ServiceDescription** object for 
 
 ## RELATED LINKS
 
-[Get-ServiceFabricService](.\Get-ServiceFabricService.md)
+[Get-ServiceFabricService](./Get-ServiceFabricService.md)
 
-[Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
 
 

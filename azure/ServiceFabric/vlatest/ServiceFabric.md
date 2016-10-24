@@ -5,10 +5,10 @@ Download Help Link: http://go.microsoft.com/fwlink/?LinkID=521412
 Help Version: 2.0.14.0
 Locale: en-US
 ms.assetid: 8FE06792-E775-4575-8C55-12A66ED66383
-updated_at: 10/24/2016 5:47 PM
+updated_at: 10/24/2016 10:54 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9f1d8af76684a984727546ed80c60dff01969382/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: service-fabric
@@ -23,555 +23,555 @@ manager: visual-studio-china
 {{Manually Enter Description Here}}
 
 ## ServiceFabric Cmdlets
-### [Add-ServiceFabricNode](.\Add-ServiceFabricNode.md)
+### [Add-ServiceFabricNode](./Add-ServiceFabricNode.md)
 Adds a Service Fabric node to a cluster.
 
 
-### [Approve-ServiceFabricRepairTask](.\Approve-ServiceFabricRepairTask.md)
+### [Approve-ServiceFabricRepairTask](./Approve-ServiceFabricRepairTask.md)
 Forces approval of a repair task.
 
 
-### [Complete-ServiceFabricRepairTask](.\Complete-ServiceFabricRepairTask.md)
+### [Complete-ServiceFabricRepairTask](./Complete-ServiceFabricRepairTask.md)
 Reports that a manual repair task is finished.
 
 
-### [Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md)
+### [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
 Creates a connection to a Service Fabric cluster.
 
 
-### [Copy-ServiceFabricApplicationPackage](.\Copy-ServiceFabricApplicationPackage.md)
+### [Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md)
 Copies a Service Fabric application package to the image store.
 
 
-### [Copy-ServiceFabricClusterPackage](.\Copy-ServiceFabricClusterPackage.md)
+### [Copy-ServiceFabricClusterPackage](./Copy-ServiceFabricClusterPackage.md)
 Copies a Service Fabric cluster package to the image store.
 
 
-### [Copy-ServiceFabricServicePackageToNode](.\Copy-ServiceFabricServicePackageToNode.md)
+### [Copy-ServiceFabricServicePackageToNode](./Copy-ServiceFabricServicePackageToNode.md)
 Copies a service package to a target node.
 
 
-### [Disable-ServiceFabricNode](.\Disable-ServiceFabricNode.md)
+### [Disable-ServiceFabricNode](./Disable-ServiceFabricNode.md)
 Disables a Service Fabric node.
 
 
-### [Enable-ServiceFabricNode](.\Enable-ServiceFabricNode.md)
+### [Enable-ServiceFabricNode](./Enable-ServiceFabricNode.md)
 Enables a Service Fabric node.
 
 
-### [Get-ServiceFabricApplicationHealth](.\Get-ServiceFabricApplicationHealth.md)
+### [Get-ServiceFabricApplicationHealth](./Get-ServiceFabricApplicationHealth.md)
 Gets the health of a Service Fabric application.
 
 
-### [Get-ServiceFabricApplicationLoadInformation](.\Get-ServiceFabricApplicationLoadInformation.md)
+### [Get-ServiceFabricApplicationLoadInformation](./Get-ServiceFabricApplicationLoadInformation.md)
 Gets application capacity parameters and load information for a Service Fabric application.
 
 
-### [Get-ServiceFabricApplicationManifest](.\Get-ServiceFabricApplicationManifest.md)
+### [Get-ServiceFabricApplicationManifest](./Get-ServiceFabricApplicationManifest.md)
 Gets the manifest for a Service Fabric application type.
 
 
-### [Get-ServiceFabricApplicationType](.\Get-ServiceFabricApplicationType.md)
+### [Get-ServiceFabricApplicationType](./Get-ServiceFabricApplicationType.md)
 Gets the Service Fabric application types registered on the Service Fabric cluster.
 
 
-### [Get-ServiceFabricApplicationUpgrade](.\Get-ServiceFabricApplicationUpgrade.md)
+### [Get-ServiceFabricApplicationUpgrade](./Get-ServiceFabricApplicationUpgrade.md)
 Gets the status of a Service Fabric application upgrade.
 
 
-### [Get-ServiceFabricApplication](.\Get-ServiceFabricApplication.md)
+### [Get-ServiceFabricApplication](./Get-ServiceFabricApplication.md)
 Gets the Service Fabric applications in the Service Fabric cluster.
 
 
-### [Get-ServiceFabricChaosReport](.\Get-ServiceFabricChaosReport.md)
+### [Get-ServiceFabricChaosReport](./Get-ServiceFabricChaosReport.md)
 Gets a report of Chaos results.
 
 
-### [Get-ServiceFabricClusterConfigurationUpgradeStatus](.\Get-ServiceFabricClusterConfigurationUpgradeStatus.md)
+### [Get-ServiceFabricClusterConfigurationUpgradeStatus](./Get-ServiceFabricClusterConfigurationUpgradeStatus.md)
 Gets configuration upgrade status.
 
 
-### [Get-ServiceFabricClusterConfiguration](.\Get-ServiceFabricClusterConfiguration.md)
+### [Get-ServiceFabricClusterConfiguration](./Get-ServiceFabricClusterConfiguration.md)
 Retrieves the latest JSON cluster configuration.
 
 
-### [Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md)
+### [Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
 Gets the current Service Fabric cluster connection.
 
 
-### [Get-ServiceFabricClusterHealthChunk](.\Get-ServiceFabricClusterHealthChunk.md)
+### [Get-ServiceFabricClusterHealthChunk](./Get-ServiceFabricClusterHealthChunk.md)
 Gets health information for a Service Fabric cluster and its children.
 
 
-### [Get-ServiceFabricClusterHealth](.\Get-ServiceFabricClusterHealth.md)
+### [Get-ServiceFabricClusterHealth](./Get-ServiceFabricClusterHealth.md)
 Gets health information for a Service Fabric cluster.
 
 
-### [Get-ServiceFabricClusterLoadInformation](.\Get-ServiceFabricClusterLoadInformation.md)
+### [Get-ServiceFabricClusterLoadInformation](./Get-ServiceFabricClusterLoadInformation.md)
 Gets the load reports of a Service Fabric cluster.
 
 
-### [Get-ServiceFabricClusterManifest](.\Get-ServiceFabricClusterManifest.md)
+### [Get-ServiceFabricClusterManifest](./Get-ServiceFabricClusterManifest.md)
 Gets the Service Fabric cluster manifest.
 
 
-### [Get-ServiceFabricClusterUpgrade](.\Get-ServiceFabricClusterUpgrade.md)
+### [Get-ServiceFabricClusterUpgrade](./Get-ServiceFabricClusterUpgrade.md)
 Gets the status of a Service Fabric cluster upgrade.
 
 
-### [Get-ServiceFabricDeployedApplicationHealth](.\Get-ServiceFabricDeployedApplicationHealth.md)
+### [Get-ServiceFabricDeployedApplicationHealth](./Get-ServiceFabricDeployedApplicationHealth.md)
 Gets the health of a Service Fabric application on a node.
 
 
-### [Get-ServiceFabricDeployedApplication](.\Get-ServiceFabricDeployedApplication.md)
+### [Get-ServiceFabricDeployedApplication](./Get-ServiceFabricDeployedApplication.md)
 Gets a Service Fabric application on a node.
 
 
-### [Get-ServiceFabricDeployedCodePackage](.\Get-ServiceFabricDeployedCodePackage.md)
+### [Get-ServiceFabricDeployedCodePackage](./Get-ServiceFabricDeployedCodePackage.md)
 Gets the Service Fabric code packages deployed on a node.
 
 
-### [Get-ServiceFabricDeployedReplicaDetail](.\Get-ServiceFabricDeployedReplicaDetail.md)
+### [Get-ServiceFabricDeployedReplicaDetail](./Get-ServiceFabricDeployedReplicaDetail.md)
 Gets information about Service Fabric replicas from a host process.
 
 
-### [Get-ServiceFabricDeployedReplica](.\Get-ServiceFabricDeployedReplica.md)
+### [Get-ServiceFabricDeployedReplica](./Get-ServiceFabricDeployedReplica.md)
 Gets a Service Fabric replica on a node.
 
 
-### [Get-ServiceFabricDeployedServicePackageHealth](.\Get-ServiceFabricDeployedServicePackageHealth.md)
+### [Get-ServiceFabricDeployedServicePackageHealth](./Get-ServiceFabricDeployedServicePackageHealth.md)
 Gets the health of a Service Fabric service package.
 
 
-### [Get-ServiceFabricDeployedServicePackage](.\Get-ServiceFabricDeployedServicePackage.md)
+### [Get-ServiceFabricDeployedServicePackage](./Get-ServiceFabricDeployedServicePackage.md)
 Gets the Service Fabric service packages on a node.
 
 
-### [Get-ServiceFabricDeployedServiceType](.\Get-ServiceFabricDeployedServiceType.md)
+### [Get-ServiceFabricDeployedServiceType](./Get-ServiceFabricDeployedServiceType.md)
 Gets the Service Fabric service types deployed on a node.
 
 
-### [Get-ServiceFabricImageStoreContent](.\Get-ServiceFabricImageStoreContent.md)
+### [Get-ServiceFabricImageStoreContent](./Get-ServiceFabricImageStoreContent.md)
 Gets content from the image store.
 
 
-### [Get-ServiceFabricNodeConfiguration](.\Get-ServiceFabricNodeConfiguration.md)
+### [Get-ServiceFabricNodeConfiguration](./Get-ServiceFabricNodeConfiguration.md)
 Gets the configuration of a Service Fabric node.
 
 
-### [Get-ServiceFabricNodeHealth](.\Get-ServiceFabricNodeHealth.md)
+### [Get-ServiceFabricNodeHealth](./Get-ServiceFabricNodeHealth.md)
 Gets the health state of a Service Fabric node.
 
 
-### [Get-ServiceFabricNodeLoadInformation](.\Get-ServiceFabricNodeLoadInformation.md)
+### [Get-ServiceFabricNodeLoadInformation](./Get-ServiceFabricNodeLoadInformation.md)
 Returns detailed metrics load information for a Service Fabric node.
 
 
-### [Get-ServiceFabricNode](.\Get-ServiceFabricNode.md)
+### [Get-ServiceFabricNode](./Get-ServiceFabricNode.md)
 Gets information about the Service Fabric nodes in a cluster.
 
 
-### [Get-ServiceFabricPartitionDataLossProgress](.\Get-ServiceFabricPartitionDataLossProgress.md)
+### [Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress.md)
 Gets the progress of a data loss operation.
 
 
-### [Get-ServiceFabricPartitionHealth](.\Get-ServiceFabricPartitionHealth.md)
+### [Get-ServiceFabricPartitionHealth](./Get-ServiceFabricPartitionHealth.md)
 Gets the health of a Service Fabric partition.
 
 
-### [Get-ServiceFabricPartitionLoadInformation](.\Get-ServiceFabricPartitionLoadInformation.md)
+### [Get-ServiceFabricPartitionLoadInformation](./Get-ServiceFabricPartitionLoadInformation.md)
 Gets the load reports for a Service Fabric partition.
 
 
-### [Get-ServiceFabricPartitionQuorumLossProgress](.\Get-ServiceFabricPartitionQuorumLossProgress.md)
+### [Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress.md)
 Gets the progress of a quorum loss operation.
 
 
-### [Get-ServiceFabricPartitionRestartProgress](.\Get-ServiceFabricPartitionRestartProgress.md)
+### [Get-ServiceFabricPartitionRestartProgress](./Get-ServiceFabricPartitionRestartProgress.md)
 Gets the progress of a partition restart.
 
 
-### [Get-ServiceFabricPartition](.\Get-ServiceFabricPartition.md)
+### [Get-ServiceFabricPartition](./Get-ServiceFabricPartition.md)
 Gets Service Fabric partitions.
 
 
-### [Get-ServiceFabricRegisteredClusterCodeVersion](.\Get-ServiceFabricRegisteredClusterCodeVersion.md)
+### [Get-ServiceFabricRegisteredClusterCodeVersion](./Get-ServiceFabricRegisteredClusterCodeVersion.md)
 Gets all provisioned fabric code versions in a Service Fabric cluster.
 
 
-### [Get-ServiceFabricRegisteredClusterConfigVersion](.\Get-ServiceFabricRegisteredClusterConfigVersion.md)
+### [Get-ServiceFabricRegisteredClusterConfigVersion](./Get-ServiceFabricRegisteredClusterConfigVersion.md)
 Gets provisioned fabric config versions in a Service Fabric cluster.
 
 
-### [Get-ServiceFabricRepairTask](.\Get-ServiceFabricRepairTask.md)
+### [Get-ServiceFabricRepairTask](./Get-ServiceFabricRepairTask.md)
 Gets the repair tasks.
 
 
-### [Get-ServiceFabricReplicaHealth](.\Get-ServiceFabricReplicaHealth.md)
+### [Get-ServiceFabricReplicaHealth](./Get-ServiceFabricReplicaHealth.md)
 Gets the health of a Service Fabric replica.
 
 
-### [Get-ServiceFabricReplicaLoadInformation](.\Get-ServiceFabricReplicaLoadInformation.md)
+### [Get-ServiceFabricReplicaLoadInformation](./Get-ServiceFabricReplicaLoadInformation.md)
 Returns detailed metrics load information for a Service Fabric replica.
 
 
-### [Get-ServiceFabricReplica](.\Get-ServiceFabricReplica.md)
+### [Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md)
 Gets Service Fabric replicas.
 
 
-### [Get-ServiceFabricServiceDescription](.\Get-ServiceFabricServiceDescription.md)
+### [Get-ServiceFabricServiceDescription](./Get-ServiceFabricServiceDescription.md)
 Gets the Service Fabric service description of a service that is running.
 
 
-### [Get-ServiceFabricServiceGroupDescription](.\Get-ServiceFabricServiceGroupDescription.md)
+### [Get-ServiceFabricServiceGroupDescription](./Get-ServiceFabricServiceGroupDescription.md)
 Gets a Service Fabric service group description.
 
 
-### [Get-ServiceFabricServiceGroupMemberType](.\Get-ServiceFabricServiceGroupMemberType.md)
+### [Get-ServiceFabricServiceGroupMemberType](./Get-ServiceFabricServiceGroupMemberType.md)
 Gets member types of Service Fabric service groups.
 
 
-### [Get-ServiceFabricServiceGroupMember](.\Get-ServiceFabricServiceGroupMember.md)
+### [Get-ServiceFabricServiceGroupMember](./Get-ServiceFabricServiceGroupMember.md)
 Gets members of service groups.
 
 
-### [Get-ServiceFabricServiceHealth](.\Get-ServiceFabricServiceHealth.md)
+### [Get-ServiceFabricServiceHealth](./Get-ServiceFabricServiceHealth.md)
 Gets the health of a Service Fabric service.
 
 
-### [Get-ServiceFabricServiceManifest](.\Get-ServiceFabricServiceManifest.md)
+### [Get-ServiceFabricServiceManifest](./Get-ServiceFabricServiceManifest.md)
 Gets the Service Fabric service type manifest.
 
 
-### [Get-ServiceFabricServiceType](.\Get-ServiceFabricServiceType.md)
+### [Get-ServiceFabricServiceType](./Get-ServiceFabricServiceType.md)
 Gets Service Fabric service types.
 
 
-### [Get-ServiceFabricService](.\Get-ServiceFabricService.md)
+### [Get-ServiceFabricService](./Get-ServiceFabricService.md)
 Gets a list of Service Fabric services.
 
 
-### [Get-ServiceFabricTestCommandStatusList](.\Get-ServiceFabricTestCommandStatusList.md)
+### [Get-ServiceFabricTestCommandStatusList](./Get-ServiceFabricTestCommandStatusList.md)
 Gets test commands.
 
 
-### [Invoke-ServiceFabricChaosTestScenario](.\Invoke-ServiceFabricChaosTestScenario.md)
+### [Invoke-ServiceFabricChaosTestScenario](./Invoke-ServiceFabricChaosTestScenario.md)
 Invokes a test scenario to induce iterative failover and faults in a cluster.
 
 
-### [Invoke-ServiceFabricDecryptText](.\Invoke-ServiceFabricDecryptText.md)
+### [Invoke-ServiceFabricDecryptText](./Invoke-ServiceFabricDecryptText.md)
 Decrypts text for verification.
 
 
-### [Invoke-ServiceFabricEncryptSecret](.\Invoke-ServiceFabricEncryptSecret.md)
+### [Invoke-ServiceFabricEncryptSecret](./Invoke-ServiceFabricEncryptSecret.md)
 Encrypts text in the cluster manifest by using a certificate.
 
 
-### [Invoke-ServiceFabricEncryptText](.\Invoke-ServiceFabricEncryptText.md)
+### [Invoke-ServiceFabricEncryptText](./Invoke-ServiceFabricEncryptText.md)
 Encrypts secrets to include in Service Fabric manifests or configurations.
 
 
-### [Invoke-ServiceFabricFailoverTestScenario](.\Invoke-ServiceFabricFailoverTestScenario.md)
+### [Invoke-ServiceFabricFailoverTestScenario](./Invoke-ServiceFabricFailoverTestScenario.md)
 Invokes a test scenario to induce faults in a Service Fabric partition.
 
 
-### [Invoke-ServiceFabricInfrastructureCommand](.\Invoke-ServiceFabricInfrastructureCommand.md)
+### [Invoke-ServiceFabricInfrastructureCommand](./Invoke-ServiceFabricInfrastructureCommand.md)
 Invokes an administrative command on an infrastructure service.
 
 
-### [Invoke-ServiceFabricInfrastructureQuery](.\Invoke-ServiceFabricInfrastructureQuery.md)
+### [Invoke-ServiceFabricInfrastructureQuery](./Invoke-ServiceFabricInfrastructureQuery.md)
 Invokes a read-only query on an infrastructure service.
 
 
-### [Invoke-ServiceFabricPartitionDataLoss](.\Invoke-ServiceFabricPartitionDataLoss.md)
+### [Invoke-ServiceFabricPartitionDataLoss](./Invoke-ServiceFabricPartitionDataLoss.md)
 Invokes an action to induce data loss for a Service Fabric partition.
 
 
-### [Invoke-ServiceFabricPartitionQuorumLoss](.\Invoke-ServiceFabricPartitionQuorumLoss.md)
+### [Invoke-ServiceFabricPartitionQuorumLoss](./Invoke-ServiceFabricPartitionQuorumLoss.md)
 Invokes an action to induce quorum loss in a Service Fabric partition.
 
 
-### [Move-ServiceFabricPrimaryReplica](.\Move-ServiceFabricPrimaryReplica.md)
+### [Move-ServiceFabricPrimaryReplica](./Move-ServiceFabricPrimaryReplica.md)
 Moves the Service Fabric primary replica of a stateful service partition.
 
 
-### [Move-ServiceFabricSecondaryReplica](.\Move-ServiceFabricSecondaryReplica.md)
+### [Move-ServiceFabricSecondaryReplica](./Move-ServiceFabricSecondaryReplica.md)
 Moves the Service Fabric secondary replica of a stateful service.
 
 
-### [New-ServiceFabricApplication](.\New-ServiceFabricApplication.md)
+### [New-ServiceFabricApplication](./New-ServiceFabricApplication.md)
 Creates a Service Fabric application.
 
 
-### [New-ServiceFabricCluster](.\New-ServiceFabricCluster.md)
+### [New-ServiceFabricCluster](./New-ServiceFabricCluster.md)
 Creates a Service Fabric cluster.
 
 
-### [New-ServiceFabricNodeConfiguration](.\New-ServiceFabricNodeConfiguration.md)
+### [New-ServiceFabricNodeConfiguration](./New-ServiceFabricNodeConfiguration.md)
 Configures a node to join a Service Fabric cluster.
 
 
-### [New-ServiceFabricPackageDebugParameter](.\New-ServiceFabricPackageDebugParameter.md)
+### [New-ServiceFabricPackageDebugParameter](./New-ServiceFabricPackageDebugParameter.md)
 Adds debug parameters for a code package in a service package.
 
 
-### [New-ServiceFabricPackageSharingPolicy](.\New-ServiceFabricPackageSharingPolicy.md)
+### [New-ServiceFabricPackageSharingPolicy](./New-ServiceFabricPackageSharingPolicy.md)
 Creates a package sharing policy.
 
 
-### [New-ServiceFabricServiceFromTemplate](.\New-ServiceFabricServiceFromTemplate.md)
+### [New-ServiceFabricServiceFromTemplate](./New-ServiceFabricServiceFromTemplate.md)
 Creates a Service Fabric service from the service template defined in the application manifest.
 
 
-### [New-ServiceFabricServiceGroupFromTemplate](.\New-ServiceFabricServiceGroupFromTemplate.md)
+### [New-ServiceFabricServiceGroupFromTemplate](./New-ServiceFabricServiceGroupFromTemplate.md)
 Creates a Service Fabric service group from a service template.
 
 
-### [New-ServiceFabricServiceGroup](.\New-ServiceFabricServiceGroup.md)
+### [New-ServiceFabricServiceGroup](./New-ServiceFabricServiceGroup.md)
 Creates a Service Fabric service group.
 
 
-### [New-ServiceFabricService](.\New-ServiceFabricService.md)
+### [New-ServiceFabricService](./New-ServiceFabricService.md)
 Creates a Service Fabric service.
 
 
-### [Register-ServiceFabricApplicationType](.\Register-ServiceFabricApplicationType.md)
+### [Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType.md)
 Registers a Service Fabric application type.
 
 
-### [Register-ServiceFabricClusterPackage](.\Register-ServiceFabricClusterPackage.md)
+### [Register-ServiceFabricClusterPackage](./Register-ServiceFabricClusterPackage.md)
 Registers a Service Fabric cluster package.
 
 
-### [Remove-ServiceFabricApplicationPackage](.\Remove-ServiceFabricApplicationPackage.md)
+### [Remove-ServiceFabricApplicationPackage](./Remove-ServiceFabricApplicationPackage.md)
 Removes a Service Fabric application package from the image store.
 
 
-### [Remove-ServiceFabricApplication](.\Remove-ServiceFabricApplication.md)
+### [Remove-ServiceFabricApplication](./Remove-ServiceFabricApplication.md)
 Removes a Service Fabric application.
 
 
-### [Remove-ServiceFabricClusterPackage](.\Remove-ServiceFabricClusterPackage.md)
+### [Remove-ServiceFabricClusterPackage](./Remove-ServiceFabricClusterPackage.md)
 Removes a Service Fabric cluster package from the image store.
 
 
-### [Remove-ServiceFabricCluster](.\Remove-ServiceFabricCluster.md)
+### [Remove-ServiceFabricCluster](./Remove-ServiceFabricCluster.md)
 Removes a Service Fabric cluster.
 
 
-### [Remove-ServiceFabricNodeConfiguration](.\Remove-ServiceFabricNodeConfiguration.md)
+### [Remove-ServiceFabricNodeConfiguration](./Remove-ServiceFabricNodeConfiguration.md)
 Removes information related to a configured node.
 
 
-### [Remove-ServiceFabricNodeState](.\Remove-ServiceFabricNodeState.md)
+### [Remove-ServiceFabricNodeState](./Remove-ServiceFabricNodeState.md)
 Notifies Service Fabric that the state on a node has been removed by an external mechanism.
 
 
-### [Remove-ServiceFabricNode](.\Remove-ServiceFabricNode.md)
+### [Remove-ServiceFabricNode](./Remove-ServiceFabricNode.md)
 Removes a Service Fabric node.
 
 
-### [Remove-ServiceFabricRepairTask](.\Remove-ServiceFabricRepairTask.md)
+### [Remove-ServiceFabricRepairTask](./Remove-ServiceFabricRepairTask.md)
 Deletes a completed repair task.
 
 
-### [Remove-ServiceFabricReplica](.\Remove-ServiceFabricReplica.md)
+### [Remove-ServiceFabricReplica](./Remove-ServiceFabricReplica.md)
 Removes a replica from a cluster to simulate a replica failure.
 
 
-### [Remove-ServiceFabricServiceGroup](.\Remove-ServiceFabricServiceGroup.md)
+### [Remove-ServiceFabricServiceGroup](./Remove-ServiceFabricServiceGroup.md)
 Removes a Service Fabric service group.
 
 
-### [Remove-ServiceFabricService](.\Remove-ServiceFabricService.md)
+### [Remove-ServiceFabricService](./Remove-ServiceFabricService.md)
 Removes an existing Service Fabric service.
 
 
-### [Remove-ServiceFabricTestState](.\Remove-ServiceFabricTestState.md)
+### [Remove-ServiceFabricTestState](./Remove-ServiceFabricTestState.md)
 Removes all test state data from a Service Fabric cluster.
 
 
-### [Repair-ServiceFabricPartition](.\Repair-ServiceFabricPartition.md)
+### [Repair-ServiceFabricPartition](./Repair-ServiceFabricPartition.md)
 Brings a partition out of quorum loss.
 
 
-### [Reset-ServiceFabricPartitionLoad](.\Reset-ServiceFabricPartitionLoad.md)
+### [Reset-ServiceFabricPartitionLoad](./Reset-ServiceFabricPartitionLoad.md)
 Resets the current load of a Service Fabric partition.
 
 
-### [Resolve-ServiceFabricService](.\Resolve-ServiceFabricService.md)
+### [Resolve-ServiceFabricService](./Resolve-ServiceFabricService.md)
 Retrieves the replica or instance address of a Service Fabric service.
 
 
-### [Restart-ServiceFabricDeployedCodePackage](.\Restart-ServiceFabricDeployedCodePackage.md)
+### [Restart-ServiceFabricDeployedCodePackage](./Restart-ServiceFabricDeployedCodePackage.md)
 Restarts a code package deployed on a node in a cluster to simulate a process failure.
 
 
-### [Restart-ServiceFabricNode](.\Restart-ServiceFabricNode.md)
+### [Restart-ServiceFabricNode](./Restart-ServiceFabricNode.md)
 Restarts a Service Fabric node to simulate a cluster node failure.
 
 
-### [Restart-ServiceFabricPartition](.\Restart-ServiceFabricPartition.md)
+### [Restart-ServiceFabricPartition](./Restart-ServiceFabricPartition.md)
 Restarts replicas of a Service Fabric partition to simulate a data center blackout or cluster blackout scenario.
 
 
-### [Restart-ServiceFabricReplica](.\Restart-ServiceFabricReplica.md)
+### [Restart-ServiceFabricReplica](./Restart-ServiceFabricReplica.md)
 Restarts a Service Fabric replica.
 
 
-### [Resume-ServiceFabricApplicationUpgrade](.\Resume-ServiceFabricApplicationUpgrade.md)
+### [Resume-ServiceFabricApplicationUpgrade](./Resume-ServiceFabricApplicationUpgrade.md)
 Resumes an unmonitored Service Fabric application upgrade.
 
 
-### [Resume-ServiceFabricClusterUpgrade](.\Resume-ServiceFabricClusterUpgrade.md)
+### [Resume-ServiceFabricClusterUpgrade](./Resume-ServiceFabricClusterUpgrade.md)
 Resumes an unmonitored Service Fabric cluster upgrade.
 
 
-### [Send-ServiceFabricApplicationHealthReport](.\Send-ServiceFabricApplicationHealthReport.md)
+### [Send-ServiceFabricApplicationHealthReport](./Send-ServiceFabricApplicationHealthReport.md)
 Sends a health report on a Service Fabric application.
 
 
-### [Send-ServiceFabricClusterHealthReport](.\Send-ServiceFabricClusterHealthReport.md)
+### [Send-ServiceFabricClusterHealthReport](./Send-ServiceFabricClusterHealthReport.md)
 Sends a health report on a Service Fabric cluster.
 
 
-### [Send-ServiceFabricDeployedApplicationHealthReport](.\Send-ServiceFabricDeployedApplicationHealthReport.md)
+### [Send-ServiceFabricDeployedApplicationHealthReport](./Send-ServiceFabricDeployedApplicationHealthReport.md)
 Sends a health report on a Service Fabric application deployed on a node.
 
 
-### [Send-ServiceFabricDeployedServicePackageHealthReport](.\Send-ServiceFabricDeployedServicePackageHealthReport.md)
+### [Send-ServiceFabricDeployedServicePackageHealthReport](./Send-ServiceFabricDeployedServicePackageHealthReport.md)
 Sends a health report on a Service Fabric deployed service package.
 
 
-### [Send-ServiceFabricNodeHealthReport](.\Send-ServiceFabricNodeHealthReport.md)
+### [Send-ServiceFabricNodeHealthReport](./Send-ServiceFabricNodeHealthReport.md)
 Sends a health report on a Service Fabric node.
 
 
-### [Send-ServiceFabricPartitionHealthReport](.\Send-ServiceFabricPartitionHealthReport.md)
+### [Send-ServiceFabricPartitionHealthReport](./Send-ServiceFabricPartitionHealthReport.md)
 Sends a health report on a Service Fabric service partition.
 
 
-### [Send-ServiceFabricReplicaHealthReport](.\Send-ServiceFabricReplicaHealthReport.md)
+### [Send-ServiceFabricReplicaHealthReport](./Send-ServiceFabricReplicaHealthReport.md)
 Sends a health report on a Service Fabric replica.
 
 
-### [Send-ServiceFabricServiceHealthReport](.\Send-ServiceFabricServiceHealthReport.md)
+### [Send-ServiceFabricServiceHealthReport](./Send-ServiceFabricServiceHealthReport.md)
 Sends a health report on a Service Fabric service.
 
 
-### [Start-ServiceFabricApplicationRollback](.\Start-ServiceFabricApplicationRollback.md)
+### [Start-ServiceFabricApplicationRollback](./Start-ServiceFabricApplicationRollback.md)
 Starts rolling back a Service Fabric application upgrade.
 
 
-### [Start-ServiceFabricApplicationUpgrade](.\Start-ServiceFabricApplicationUpgrade.md)
+### [Start-ServiceFabricApplicationUpgrade](./Start-ServiceFabricApplicationUpgrade.md)
 Upgrades a Service Fabric application.
 
 
-### [Start-ServiceFabricChaos](.\Start-ServiceFabricChaos.md)
+### [Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md)
 Starts Chaos in the cluster as part of FAS.
 
 
-### [Start-ServiceFabricClusterConfigurationUpgrade](.\Start-ServiceFabricClusterConfigurationUpgrade.md)
+### [Start-ServiceFabricClusterConfigurationUpgrade](./Start-ServiceFabricClusterConfigurationUpgrade.md)
 Upgrades a cluster configuration.
 
 
-### [Start-ServiceFabricClusterRollback](.\Start-ServiceFabricClusterRollback.md)
+### [Start-ServiceFabricClusterRollback](./Start-ServiceFabricClusterRollback.md)
 Starts rolling back a Service Fabric cluster upgrade.
 
 
-### [Start-ServiceFabricClusterUpgrade](.\Start-ServiceFabricClusterUpgrade.md)
+### [Start-ServiceFabricClusterUpgrade](./Start-ServiceFabricClusterUpgrade.md)
 Upgrades a Service Fabric cluster.
 
 
-### [Start-ServiceFabricNode](.\Start-ServiceFabricNode.md)
+### [Start-ServiceFabricNode](./Start-ServiceFabricNode.md)
 Starts a Service Fabric node.
 
 
-### [Start-ServiceFabricPartitionDataLoss](.\Start-ServiceFabricPartitionDataLoss.md)
+### [Start-ServiceFabricPartitionDataLoss](./Start-ServiceFabricPartitionDataLoss.md)
 Starts to perform a data loss test on a partition.
 
 
-### [Start-ServiceFabricPartitionQuorumLoss](.\Start-ServiceFabricPartitionQuorumLoss.md)
+### [Start-ServiceFabricPartitionQuorumLoss](./Start-ServiceFabricPartitionQuorumLoss.md)
 Initiates an operation to put a partition into quorum loss.
 
 
-### [Start-ServiceFabricPartitionRestart](.\Start-ServiceFabricPartitionRestart.md)
+### [Start-ServiceFabricPartitionRestart](./Start-ServiceFabricPartitionRestart.md)
 Initiates the restart of a stateful service partition.
 
 
-### [Start-ServiceFabricRepairTask](.\Start-ServiceFabricRepairTask.md)
+### [Start-ServiceFabricRepairTask](./Start-ServiceFabricRepairTask.md)
 Creates a repair task.
 
 
-### [Stop-ServiceFabricChaos](.\Stop-ServiceFabricChaos.md)
+### [Stop-ServiceFabricChaos](./Stop-ServiceFabricChaos.md)
 Stops Chaos in the cluster.
 
 
-### [Stop-ServiceFabricNode](.\Stop-ServiceFabricNode.md)
+### [Stop-ServiceFabricNode](./Stop-ServiceFabricNode.md)
 Stops a Service Fabric node.
 
 
-### [Stop-ServiceFabricRepairTask](.\Stop-ServiceFabricRepairTask.md)
+### [Stop-ServiceFabricRepairTask](./Stop-ServiceFabricRepairTask.md)
 Cancels a repair task.
 
 
-### [Stop-ServiceFabricTestCommand](.\Stop-ServiceFabricTestCommand.md)
+### [Stop-ServiceFabricTestCommand](./Stop-ServiceFabricTestCommand.md)
 Cancels a Service Fabric test command.
 
 
-### [Test-ServiceFabricApplicationPackage](.\Test-ServiceFabricApplicationPackage.md)
+### [Test-ServiceFabricApplicationPackage](./Test-ServiceFabricApplicationPackage.md)
 Validates a Service Fabric application package.
 
 
-### [Test-ServiceFabricApplication](.\Test-ServiceFabricApplication.md)
+### [Test-ServiceFabricApplication](./Test-ServiceFabricApplication.md)
 Validates a Service Fabric application.
 
 
-### [Test-ServiceFabricClusterConnection](.\Test-ServiceFabricClusterConnection.md)
+### [Test-ServiceFabricClusterConnection](./Test-ServiceFabricClusterConnection.md)
 Validates the current connection to a Service Fabric cluster.
 
 
-### [Test-ServiceFabricClusterManifest](.\Test-ServiceFabricClusterManifest.md)
+### [Test-ServiceFabricClusterManifest](./Test-ServiceFabricClusterManifest.md)
 Validates a Service Fabric cluster manifest.
 
 
-### [Test-ServiceFabricConfiguration](.\Test-ServiceFabricConfiguration.md)
+### [Test-ServiceFabricConfiguration](./Test-ServiceFabricConfiguration.md)
 Validates cluster configuration and tests whether deployment can succeed.
 
 
-### [Test-ServiceFabricService](.\Test-ServiceFabricService.md)
+### [Test-ServiceFabricService](./Test-ServiceFabricService.md)
 Validates a Service Fabric service.
 
 
-### [Unregister-ServiceFabricApplicationType](.\Unregister-ServiceFabricApplicationType.md)
+### [Unregister-ServiceFabricApplicationType](./Unregister-ServiceFabricApplicationType.md)
 Unregisters a Service Fabric application type.
 
 
-### [Unregister-ServiceFabricClusterPackage](.\Unregister-ServiceFabricClusterPackage.md)
+### [Unregister-ServiceFabricClusterPackage](./Unregister-ServiceFabricClusterPackage.md)
 Unregisters a Service Fabric cluster package.
 
 
-### [Update-ServiceFabricApplicationUpgrade](.\Update-ServiceFabricApplicationUpgrade.md)
+### [Update-ServiceFabricApplicationUpgrade](./Update-ServiceFabricApplicationUpgrade.md)
 Modifies the upgrade description of an active Application upgrade.
 
 
-### [Update-ServiceFabricApplication](.\Update-ServiceFabricApplication.md)
+### [Update-ServiceFabricApplication](./Update-ServiceFabricApplication.md)
 Updates or removes application capacity.
 
 
-### [Update-ServiceFabricClusterUpgrade](.\Update-ServiceFabricClusterUpgrade.md)
+### [Update-ServiceFabricClusterUpgrade](./Update-ServiceFabricClusterUpgrade.md)
 Modifies the upgrade description of an active Cluster upgrade.
 
 
-### [Update-ServiceFabricNodeConfiguration](.\Update-ServiceFabricNodeConfiguration.md)
+### [Update-ServiceFabricNodeConfiguration](./Update-ServiceFabricNodeConfiguration.md)
 Updates a Service Fabric cluster configuration.
 
 
-### [Update-ServiceFabricServiceGroup](.\Update-ServiceFabricServiceGroup.md)
+### [Update-ServiceFabricServiceGroup](./Update-ServiceFabricServiceGroup.md)
 Updates a Service Fabric service group.
 
 
-### [Update-ServiceFabricService](.\Update-ServiceFabricService.md)
+### [Update-ServiceFabricService](./Update-ServiceFabricService.md)
 Updates a Service Fabric service.
 
 

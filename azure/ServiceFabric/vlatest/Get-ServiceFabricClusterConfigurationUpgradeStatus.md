@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: .\Get-ServiceFabricClusterConfiguration.md
+online version: ./Get-ServiceFabricClusterConfiguration.md
 schema: 2.0.0
 ms.assetid: F39A8721-65AC-449E-A0F6-4C9AA22E9029
-updated_at: 10/24/2016 5:47 PM
+updated_at: 10/24/2016 10:54 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfigurationUpgradeStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9f1d8af76684a984727546ed80c60dff01969382/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfigurationUpgradeStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfigurationUpgradeStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -67,8 +67,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ServiceFabricClusterConfiguration](.\Get-ServiceFabricClusterConfiguration.md)
+[Get-ServiceFabricClusterConfiguration](./Get-ServiceFabricClusterConfiguration.md)
 
-[Start-ServiceFabricClusterConfigurationUpgrade](.\Start-ServiceFabricClusterConfigurationUpgrade.md)
+[Start-ServiceFabricClusterConfigurationUpgrade](./Start-ServiceFabricClusterConfigurationUpgrade.md)
 
 

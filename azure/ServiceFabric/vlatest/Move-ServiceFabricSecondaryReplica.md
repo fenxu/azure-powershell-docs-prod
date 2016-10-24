@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: .\Move-ServiceFabricPrimaryReplica.md
+online version: ./Move-ServiceFabricPrimaryReplica.md
 schema: 2.0.0
 ms.assetid: DBE2A1B4-438C-4E66-9D50-2DBC6333338C
-updated_at: 10/24/2016 5:47 PM
+updated_at: 10/24/2016 10:54 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9f1d8af76684a984727546ed80c60dff01969382/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -258,6 +258,6 @@ This cmdlet returns a **System.Fabric.Testability.MoveSecondaryResult** object t
 
 ## RELATED LINKS
 
-[Move-ServiceFabricPrimaryReplica](.\Move-ServiceFabricPrimaryReplica.md)
+[Move-ServiceFabricPrimaryReplica](./Move-ServiceFabricPrimaryReplica.md)
 
 

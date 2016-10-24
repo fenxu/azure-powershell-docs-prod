@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: .\Approve-ServiceFabricRepairTask.md
+online version: ./Approve-ServiceFabricRepairTask.md
 schema: 2.0.0
 ms.assetid: 239A882B-8E31-4404-AB35-2A39D8ABC600
-updated_at: 10/24/2016 5:47 PM
+updated_at: 10/24/2016 10:54 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9f1d8af76684a984727546ed80c60dff01969382/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -235,14 +235,14 @@ This cmdlet returns an object that contains the **TaskID** and **Version** of th
 
 ## RELATED LINKS
 
-[Approve-ServiceFabricRepairTask](.\Approve-ServiceFabricRepairTask.md)
+[Approve-ServiceFabricRepairTask](./Approve-ServiceFabricRepairTask.md)
 
-[Complete-ServiceFabricRepairTask](.\Complete-ServiceFabricRepairTask.md)
+[Complete-ServiceFabricRepairTask](./Complete-ServiceFabricRepairTask.md)
 
-[Get-ServiceFabricRepairTask](.\Get-ServiceFabricRepairTask.md)
+[Get-ServiceFabricRepairTask](./Get-ServiceFabricRepairTask.md)
 
-[Remove-ServiceFabricRepairTask](.\Remove-ServiceFabricRepairTask.md)
+[Remove-ServiceFabricRepairTask](./Remove-ServiceFabricRepairTask.md)
 
-[Stop-ServiceFabricRepairTask](.\Stop-ServiceFabricRepairTask.md)
+[Stop-ServiceFabricRepairTask](./Stop-ServiceFabricRepairTask.md)
 
 
