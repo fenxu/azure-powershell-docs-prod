@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: .\Get-AzureSqlJobTarget.md
+online version: ./Get-AzureSqlJobTarget.md
 schema: 2.0.0
 ms.assetid: B19A0CEE-F7C4-4B8D-9C61-EBC67FC81139
-updated_at: 10/18/2016 11:20 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/Tim20161019/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
+updated_at: 10/24/2016 10:53 PM
+ms.date: 10/24/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -262,10 +262,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobTarget](.\Get-AzureSqlJobTarget.md)
+[Get-AzureSqlJobTarget](./Get-AzureSqlJobTarget.md)
 
-[Set-AzureSqlJobTarget](.\Set-AzureSqlJobTarget.md)
+[Set-AzureSqlJobTarget](./Set-AzureSqlJobTarget.md)
 
-[Add-AzureSqlJobChildTarget](.\Add-AzureSqlJobChildTarget.md)
+[Add-AzureSqlJobChildTarget](./Add-AzureSqlJobChildTarget.md)
 
 

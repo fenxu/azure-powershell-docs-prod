@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: .\Get-AzureSqlJobContent.md
+online version: ./Get-AzureSqlJobContent.md
 schema: 2.0.0
 ms.assetid: FCAA0791-9557-4CDE-A2D5-AE9B174003ED
-updated_at: 10/18/2016 11:20 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/Tim20161019/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobContent.md
+updated_at: 10/24/2016 10:53 PM
+ms.date: 10/24/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -150,8 +150,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobContent](.\Get-AzureSqlJobContent.md)
+[Get-AzureSqlJobContent](./Get-AzureSqlJobContent.md)
 
-[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
 
 

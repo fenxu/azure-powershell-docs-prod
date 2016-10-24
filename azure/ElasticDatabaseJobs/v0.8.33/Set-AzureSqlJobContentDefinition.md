@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: .\Get-AzureSqlJobContentDefinition.md
+online version: ./Get-AzureSqlJobContentDefinition.md
 schema: 2.0.0
 ms.assetid: 9B39643C-534D-47B4-A05F-562BA7088483
-updated_at: 10/18/2016 11:20 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/Tim20161019/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md
+updated_at: 10/24/2016 10:53 PM
+ms.date: 10/24/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -143,10 +143,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobContentDefinition](.\Get-AzureSqlJobContentDefinition.md)
+[Get-AzureSqlJobContentDefinition](./Get-AzureSqlJobContentDefinition.md)
 
-[New-AzureSqlJobConnection](.\New-AzureSqlJobConnection.md)
+[New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection](.\Use-AzureSqlJobConnection.md)
+[Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md)
 
 

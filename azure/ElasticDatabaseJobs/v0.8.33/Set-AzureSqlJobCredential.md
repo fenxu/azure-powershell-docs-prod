@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: .\Get-AzureSqlJobCredential.md
+online version: ./Get-AzureSqlJobCredential.md
 schema: 2.0.0
 ms.assetid: 2123018B-F7F8-42CE-82AD-30BFA0B52EE5
-updated_at: 10/18/2016 11:20 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/Tim20161019/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/0fe493efd878af69f5c126f60486b37fd0cb60b6/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
+updated_at: 10/24/2016 10:53 PM
+ms.date: 10/24/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -140,10 +140,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobCredential](.\Get-AzureSqlJobCredential.md)
+[Get-AzureSqlJobCredential](./Get-AzureSqlJobCredential.md)
 
-[New-AzureSqlJobCredential](.\New-AzureSqlJobCredential.md)
+[New-AzureSqlJobCredential](./New-AzureSqlJobCredential.md)
 
-[Azure Elastic Database Jobs Cmdlets](.\ElasticDatabaseJobs.md)
+[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
 
 
