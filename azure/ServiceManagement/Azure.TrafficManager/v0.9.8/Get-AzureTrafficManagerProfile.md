@@ -13,7 +13,6 @@ ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
 keywords: powershell, cmdlet
-manager: visual-studio-china
 ---
 
 # Get-AzureTrafficManagerProfile
