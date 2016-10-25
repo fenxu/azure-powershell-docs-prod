@@ -3,6 +3,8 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: .\Backup-AzureApiManagement.md
 schema: 2.0.0
 ms.assetid: ACBDA593-929B-4D8A-B082-6518467E37CD
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagement.md
 ms.topic: reference

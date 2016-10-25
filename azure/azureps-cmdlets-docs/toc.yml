@@ -6235,7 +6235,7 @@
         - name: v2.2.0
           href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/AzureRM.RedisCache.md
           items:
-            - name: Resources
+            - name: AzureRM.Resources
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/AzureRM.Resources.md
             - name: Export-AzureRmRedisCache
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Export-AzureRmRedisCache.md

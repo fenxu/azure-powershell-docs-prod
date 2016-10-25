@@ -3,6 +3,8 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: .\Remove-AzureApiManagementRegion.md
 schema: 2.0.0
 ms.assetid: 00238612-5A56-43D6-B96D-E9EB4957CFDA
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Add-AzureApiManagementRegion.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Add-AzureApiManagementRegion.md
 ms.topic: reference
