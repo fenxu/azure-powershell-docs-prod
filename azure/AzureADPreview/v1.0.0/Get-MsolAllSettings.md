@@ -3,6 +3,8 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version: ./Get-MsolSettings.md
 schema: 2.0.0
 ms.assetid: 4955285A-6FE5-46E2-AFFC-8B1798AE8F2A
+updated_at: 10/24/2016 10:53 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolAllSettings.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5a502af83411e7fc832acecdefac6642e3a152a6/Azure%20AD%20Cmdlets/AzureADPreview/v1.0.0/Get-MsolAllSettings.md
 ms.topic: reference
