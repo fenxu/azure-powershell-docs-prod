@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: d0939f83-1b01-4780-aeff-625a0546abd3
 schema: 2.0.0
 ms.assetid: 2A8611B1-0977-43E0-BAB0-1B3FA28455A8
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryProtectionContainerMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryProtectionContainerMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryProtectionContainerMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -121,8 +121,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryProtectionContainerMapping](.\Get-AzureRmSiteRecoveryProtectionContainerMapping.md)
+[Get-AzureRmSiteRecoveryProtectionContainerMapping](./Get-AzureRmSiteRecoveryProtectionContainerMapping.md)
 
-[Remove-AzureRmSiteRecoveryProtectionContainerMapping](.\Remove-AzureRmSiteRecoveryProtectionContainerMapping.md)
+[Remove-AzureRmSiteRecoveryProtectionContainerMapping](./Remove-AzureRmSiteRecoveryProtectionContainerMapping.md)
 
 

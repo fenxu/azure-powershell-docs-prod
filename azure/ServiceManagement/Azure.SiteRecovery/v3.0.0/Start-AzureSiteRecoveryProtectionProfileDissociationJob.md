@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: b5c9cee5-7d1e-4b3d-a097-84a0fbeec9fc
 schema: 2.0.0
 ms.assetid: 3F193CFA-56E7-4AC5-BCE9-4C84809C3DE1
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Start-AzureSiteRecoveryProtectionProfileDissociationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Start-AzureSiteRecoveryProtectionProfileDissociationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Start-AzureSiteRecoveryProtectionProfileDissociationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -142,10 +142,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureSiteRecoveryProtectionProfileAssociationJob](.\Start-AzureSiteRecoveryProtectionProfileAssociationJob.md)
+[Start-AzureSiteRecoveryProtectionProfileAssociationJob](./Start-AzureSiteRecoveryProtectionProfileAssociationJob.md)
 
-[Get-AzureSiteRecoveryProtectionContainer](.\Get-AzureSiteRecoveryProtectionContainer.md)
+[Get-AzureSiteRecoveryProtectionContainer](./Get-AzureSiteRecoveryProtectionContainer.md)
 
-[New-AzureSiteRecoveryProtectionProfileObject](.\New-AzureSiteRecoveryProtectionProfileObject.md)
+[New-AzureSiteRecoveryProtectionProfileObject](./New-AzureSiteRecoveryProtectionProfileObject.md)
 
 

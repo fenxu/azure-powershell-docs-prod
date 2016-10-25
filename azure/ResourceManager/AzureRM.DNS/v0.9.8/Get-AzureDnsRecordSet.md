@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 online version: .\New-AzureDnsRecordSet.md
 schema: 2.0.0
 ms.assetid: CDE8ECB1-A416-406D-8177-5ECE3AAA020A
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/Get-AzureDnsRecordSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/Get-AzureDnsRecordSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/Get-AzureDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -219,10 +219,10 @@ There will be at most one **RecordSet** returned if the *Name* and *RecordType* 
 
 ## RELATED LINKS
 
-[New-AzureDnsRecordSet](.\New-AzureDnsRecordSet.md)
+[New-AzureDnsRecordSet](./New-AzureDnsRecordSet.md)
 
-[Remove-AzureDnsRecordSet](.\Remove-AzureDnsRecordSet.md)
+[Remove-AzureDnsRecordSet](./Remove-AzureDnsRecordSet.md)
 
-[Set-AzureDnsRecordSet](.\Set-AzureDnsRecordSet.md)
+[Set-AzureDnsRecordSet](./Set-AzureDnsRecordSet.md)
 
 

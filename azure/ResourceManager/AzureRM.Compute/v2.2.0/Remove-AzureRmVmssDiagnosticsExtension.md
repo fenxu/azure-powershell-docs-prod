@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: a57c061c-3eef-4057-af93-009b80755d74
 schema: 2.0.0
 ms.assetid: D4CD8835-9B4A-41FF-A6B2-A444991EB1D2
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVmssDiagnosticsExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVmssDiagnosticsExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVmssDiagnosticsExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -118,10 +118,10 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Add-AzureRmVmssDiagnosticsExtension](.\Add-AzureRmVmssDiagnosticsExtension.md)
+[Add-AzureRmVmssDiagnosticsExtension](./Add-AzureRmVmssDiagnosticsExtension.md)
 
-[Remove-AzureRmVMDiagnosticsExtension](.\Remove-AzureRmVMDiagnosticsExtension.md)
+[Remove-AzureRmVMDiagnosticsExtension](./Remove-AzureRmVMDiagnosticsExtension.md)
 
-[Remove-AzureRmVmssExtension](.\Remove-AzureRmVmssExtension.md)
+[Remove-AzureRmVmssExtension](./Remove-AzureRmVmssExtension.md)
 
 

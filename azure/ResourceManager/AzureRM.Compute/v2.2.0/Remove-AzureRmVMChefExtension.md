@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: da7891af-cf50-4b36-a665-d3085612c4ad
 schema: 2.0.0
 ms.assetid: A9B5F881-1B0E-46CB-B55F-4E46FA8B3256
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMChefExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMChefExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMChefExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -174,8 +174,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMChefExtension](.\Get-AzureRmVMChefExtension.md)
+[Get-AzureRmVMChefExtension](./Get-AzureRmVMChefExtension.md)
 
-[Set-AzureRmVMChefExtension](.\Set-AzureRmVMChefExtension.md)
+[Set-AzureRmVMChefExtension](./Set-AzureRmVMChefExtension.md)
 
 

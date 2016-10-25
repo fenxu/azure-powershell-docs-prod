@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 9842700f-76e6-4c66-8694-8b00e11c435b
 schema: 2.0.0
 ms.assetid: DB18688F-188C-49CE-AD9D-8D4BC1F09AF7
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/New-AzureDns.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/New-AzureDns.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/New-AzureDns.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -86,14 +86,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureDns](.\Add-AzureDns.md)
+[Add-AzureDns](./Add-AzureDns.md)
 
-[Get-AzureDns](.\Get-AzureDns.md)
+[Get-AzureDns](./Get-AzureDns.md)
 
-[New-AzureVM](.\New-AzureVM.md)
+[New-AzureVM](./New-AzureVM.md)
 
-[Remove-AzureDns](.\Remove-AzureDns.md)
+[Remove-AzureDns](./Remove-AzureDns.md)
 
-[Set-AzureDns](.\Set-AzureDns.md)
+[Set-AzureDns](./Set-AzureDns.md)
 
 

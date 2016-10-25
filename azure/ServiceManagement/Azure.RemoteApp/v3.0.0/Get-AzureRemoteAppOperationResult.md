@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: e5e8587a-704c-48cb-9c08-452d5d0cfaeb
 schema: 2.0.0
 ms.assetid: 4B214D92-3377-42A6-8A79-E3FC85E79206
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppOperationResult.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppOperationResult.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppOperationResult.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -87,10 +87,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disconnect-AzureRemoteAppSession](.\Disconnect-AzureRemoteAppSession.md)
+[Disconnect-AzureRemoteAppSession](./Disconnect-AzureRemoteAppSession.md)
 
-[Set-AzureRemoteAppWorkspace](.\Set-AzureRemoteAppWorkspace.md)
+[Set-AzureRemoteAppWorkspace](./Set-AzureRemoteAppWorkspace.md)
 
-[Update-AzureRemoteAppCollection](.\Update-AzureRemoteAppCollection.md)
+[Update-AzureRemoteAppCollection](./Update-AzureRemoteAppCollection.md)
 
 

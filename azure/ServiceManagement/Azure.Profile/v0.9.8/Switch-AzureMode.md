@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=394398
 schema: 2.0.0
 ms.assetid: 0CB742C6-F301-409B-A34C-A793EDA6F308
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Switch-AzureMode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Switch-AzureMode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Switch-AzureMode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -157,6 +157,6 @@ This cmdlet does not generate any output.
 
 [Azure Service Management Cmdlets](http://go.microsoft.com/fwlink/?LinkID=396348)
 
-[Azure Profile Cmdlets](.\Azure.Profile.md)
+[Azure Profile Cmdlets](./Azure.Profile.md)
 
 

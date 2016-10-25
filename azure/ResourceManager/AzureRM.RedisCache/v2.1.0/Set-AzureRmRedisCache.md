@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E9EDD82A-102E-4DC1-ADC1-11F65479884C
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Set-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Set-AzureRmRedisCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Set-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -287,10 +287,10 @@ Returns all attributes of a Redis Cache, including primary and secondary access 
 
 ## RELATED LINKS
 
-[Get-AzureRmRedisCache](.\Get-AzureRmRedisCache.md)
+[Get-AzureRmRedisCache](./Get-AzureRmRedisCache.md)
 
-[New-AzureRmRedisCache](.\New-AzureRmRedisCache.md)
+[New-AzureRmRedisCache](./New-AzureRmRedisCache.md)
 
-[Remove-AzureRmRedisCache](.\Remove-AzureRmRedisCache.md)
+[Remove-AzureRmRedisCache](./Remove-AzureRmRedisCache.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.TrafficManager.dll-Help.xml
 online version: c6e4f727-ac36-4165-9298-bf51aba716dd
 schema: 2.0.0
 ms.assetid: 7FEEB5EF-3937-420B-9FB1-AA1EB0B42237
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Remove-AzureRmTrafficManagerEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Remove-AzureRmTrafficManagerEndpoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Remove-AzureRmTrafficManagerEndpoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -197,14 +197,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmTrafficManagerEndpoint](.\Get-AzureRmTrafficManagerEndpoint.md)
+[Get-AzureRmTrafficManagerEndpoint](./Get-AzureRmTrafficManagerEndpoint.md)
 
-[Get-AzureRmTrafficManagerProfile](.\Get-AzureRmTrafficManagerProfile.md)
+[Get-AzureRmTrafficManagerProfile](./Get-AzureRmTrafficManagerProfile.md)
 
-[New-AzureRmTrafficManagerEndpoint](.\New-AzureRmTrafficManagerEndpoint.md)
+[New-AzureRmTrafficManagerEndpoint](./New-AzureRmTrafficManagerEndpoint.md)
 
-[Remove-AzureRmTrafficManagerEndpointConfig](.\Remove-AzureRmTrafficManagerEndpointConfig.md)
+[Remove-AzureRmTrafficManagerEndpointConfig](./Remove-AzureRmTrafficManagerEndpointConfig.md)
 
-[Set-AzureRmTrafficManagerProfile](.\Set-AzureRmTrafficManagerProfile.md)
+[Set-AzureRmTrafficManagerProfile](./Set-AzureRmTrafficManagerProfile.md)
 
 

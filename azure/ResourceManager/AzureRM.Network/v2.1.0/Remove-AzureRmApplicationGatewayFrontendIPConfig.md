@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: .\Add-AzureRmApplicationGatewayFrontendIPConfig.md
 schema: 2.0.0
 ms.assetid: C9975C73-AA56-4BE4-8DE0-2F63597AB52E
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmApplicationGatewayFrontendIPConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmApplicationGatewayFrontendIPConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmApplicationGatewayFrontendIPConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -118,12 +118,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApplicationGatewayFrontendIPConfig](.\Add-AzureRmApplicationGatewayFrontendIPConfig.md)
+[Add-AzureRmApplicationGatewayFrontendIPConfig](./Add-AzureRmApplicationGatewayFrontendIPConfig.md)
 
-[Get-AzureRmApplicationGatewayFrontendIPConfig](.\Get-AzureRmApplicationGatewayFrontendIPConfig.md)
+[Get-AzureRmApplicationGatewayFrontendIPConfig](./Get-AzureRmApplicationGatewayFrontendIPConfig.md)
 
-[New-AzureRmApplicationGatewayFrontendIPConfig](.\New-AzureRmApplicationGatewayFrontendIPConfig.md)
+[New-AzureRmApplicationGatewayFrontendIPConfig](./New-AzureRmApplicationGatewayFrontendIPConfig.md)
 
-[Set-AzureRmApplicationGatewayFrontendIPConfig](.\Set-AzureRmApplicationGatewayFrontendIPConfig.md)
+[Set-AzureRmApplicationGatewayFrontendIPConfig](./Set-AzureRmApplicationGatewayFrontendIPConfig.md)
 
 

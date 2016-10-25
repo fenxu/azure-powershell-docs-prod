@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Get-AzureRemoteAppSession.md
 schema: 2.0.0
 ms.assetid: E5E8587A-704C-48CB-9C08-452D5D0CFAEB
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Disconnect-AzureRemoteAppSession.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Disconnect-AzureRemoteAppSession.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Disconnect-AzureRemoteAppSession.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -99,10 +99,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppSession](.\Get-AzureRemoteAppSession.md)
+[Get-AzureRemoteAppSession](./Get-AzureRemoteAppSession.md)
 
-[Invoke-AzureRemoteAppSessionLogoff](.\Invoke-AzureRemoteAppSessionLogoff.md)
+[Invoke-AzureRemoteAppSessionLogoff](./Invoke-AzureRemoteAppSessionLogoff.md)
 
-[Send-AzureRemoteAppSessionMessage](.\Send-AzureRemoteAppSessionMessage.md)
+[Send-AzureRemoteAppSessionMessage](./Send-AzureRemoteAppSessionMessage.md)
 
 

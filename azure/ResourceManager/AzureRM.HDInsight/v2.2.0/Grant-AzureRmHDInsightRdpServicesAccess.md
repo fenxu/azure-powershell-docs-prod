@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version: 1ceaaac5-5108-4adb-a6f6-e6e493f62fce
 schema: 2.0.0
 ms.assetid: 6D55D5C4-9B5E-4D3C-9713-DFC107F1803B
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Grant-AzureRmHDInsightRdpServicesAccess.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Grant-AzureRmHDInsightRdpServicesAccess.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Grant-AzureRmHDInsightRdpServicesAccess.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -121,6 +121,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Revoke-AzureRmHDInsightRdpServicesAccess](.\Revoke-AzureRmHDInsightRdpServicesAccess.md)
+[Revoke-AzureRmHDInsightRdpServicesAccess](./Revoke-AzureRmHDInsightRdpServicesAccess.md)
 
 

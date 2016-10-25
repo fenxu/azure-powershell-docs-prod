@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.MachineLearning.dll-Help.xml
 online version: .\Export-AzureRmMlWebService.md
 schema: 2.0.0
 ms.assetid: 88A324F0-6B2F-49DF-BB56-CF941A6291F8
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/New-AzureRmMlWebService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/New-AzureRmMlWebService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/New-AzureRmMlWebService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -227,14 +227,14 @@ This description does not contain sensitive properties.
 
 ## RELATED LINKS
 
-[Export-AzureRmMlWebService](.\Export-AzureRmMlWebService.md)
+[Export-AzureRmMlWebService](./Export-AzureRmMlWebService.md)
 
-[Get-AzureRmMlWebService](.\Get-AzureRmMlWebService.md)
+[Get-AzureRmMlWebService](./Get-AzureRmMlWebService.md)
 
-[Import-AzureRmMlWebService](.\Import-AzureRmMlWebService.md)
+[Import-AzureRmMlWebService](./Import-AzureRmMlWebService.md)
 
-[Remove-AzureRmMlWebService](.\Remove-AzureRmMlWebService.md)
+[Remove-AzureRmMlWebService](./Remove-AzureRmMlWebService.md)
 
-[Update-AzureRmMlWebService](.\Update-AzureRmMlWebService.md)
+[Update-AzureRmMlWebService](./Update-AzureRmMlWebService.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
 online version: 91e9385c-e861-4ba7-9bc9-66cef5385cec
 schema: 2.0.0
 ms.assetid: A61000E7-77E4-4441-B167-6DD304FBA932
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAutoShutdownPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAutoShutdownPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAutoShutdownPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -169,6 +169,6 @@ This cmdlet returns the schedule which specifies when the virtual machines in th
 
 ## RELATED LINKS
 
-[Get-AzureRmDtlAutoShutdownPolicy](.\Get-AzureRmDtlAutoShutdownPolicy.md)
+[Get-AzureRmDtlAutoShutdownPolicy](./Get-AzureRmDtlAutoShutdownPolicy.md)
 
 

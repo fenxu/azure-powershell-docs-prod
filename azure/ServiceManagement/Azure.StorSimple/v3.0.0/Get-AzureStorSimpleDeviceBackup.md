@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: e0b53f06-6dc2-4916-b7b2-d8aa199dd12b
 schema: 2.0.0
 ms.assetid: F0F9E6A2-A8A0-4AE2-9590-06D05DBB7DBF
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleDeviceBackup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleDeviceBackup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleDeviceBackup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -387,10 +387,10 @@ This cmdlet returns a list of **Backup** objects.
 
 ## RELATED LINKS
 
-[Remove-AzureStorSimpleDeviceBackup](.\Remove-AzureStorSimpleDeviceBackup.md)
+[Remove-AzureStorSimpleDeviceBackup](./Remove-AzureStorSimpleDeviceBackup.md)
 
-[Get-AzureStorSimpleDeviceBackupPolicy](.\Get-AzureStorSimpleDeviceBackupPolicy.md)
+[Get-AzureStorSimpleDeviceBackupPolicy](./Get-AzureStorSimpleDeviceBackupPolicy.md)
 
-[Get-AzureStorSimpleDeviceVolume](.\Get-AzureStorSimpleDeviceVolume.md)
+[Get-AzureStorSimpleDeviceVolume](./Get-AzureStorSimpleDeviceVolume.md)
 
 

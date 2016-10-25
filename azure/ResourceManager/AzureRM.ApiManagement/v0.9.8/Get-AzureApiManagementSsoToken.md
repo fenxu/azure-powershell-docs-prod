@@ -4,7 +4,7 @@ online version: .\Get-AzureApiManagement.md
 schema: 2.0.0
 ms.assetid: B1521824-51CA-4DA3-B30C-17257434349E
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagementSsoToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagementSsoToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagementSsoToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -97,6 +97,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureApiManagement](.\Get-AzureApiManagement.md)
+[Get-AzureApiManagement](./Get-AzureApiManagement.md)
 
 

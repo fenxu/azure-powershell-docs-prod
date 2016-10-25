@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 68c13eb3-b86b-4eb2-b885-2a2ab6c7cc2f
 schema: 2.0.0
 ms.assetid: 9F77E3D1-EAE1-4ED2-A16E-C593BDD1C907
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRMVMSqlServerExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRMVMSqlServerExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRMVMSqlServerExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -215,16 +215,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVM](.\Get-AzureRmVM.md)
+[Get-AzureRmVM](./Get-AzureRmVM.md)
 
-[Get-AzureRmVMSqlServerExtension](.\Get-AzureRMVMSqlServerExtension.md)
+[Get-AzureRmVMSqlServerExtension](./Get-AzureRMVMSqlServerExtension.md)
 
-[New-AzureVMSqlServerAutoPatchingConfig](.\New-AzureVMSqlServerAutoPatchingConfig.md)
+[New-AzureVMSqlServerAutoPatchingConfig](./New-AzureVMSqlServerAutoPatchingConfig.md)
 
-[New-AzureVMSqlServerAutoBackupConfig](.\New-AzureVMSqlServerAutoBackupConfig.md)
+[New-AzureVMSqlServerAutoBackupConfig](./New-AzureVMSqlServerAutoBackupConfig.md)
 
-[Remove-AzureRmVMSqlServerExtension](.\Remove-AzureRMVMSqlServerExtension.md)
+[Remove-AzureRmVMSqlServerExtension](./Remove-AzureRMVMSqlServerExtension.md)
 
-[Update-AzureRmVM](.\Update-AzureRmVM.md)
+[Update-AzureRmVM](./Update-AzureRmVM.md)
 
 

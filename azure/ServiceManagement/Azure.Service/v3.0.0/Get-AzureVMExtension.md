@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: cc91f28e-c470-48de-a190-4f7597e30456
 schema: 2.0.0
 ms.assetid: 1EDCA374-BDDE-47B0-A048-98966B56F981
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureVMExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureVMExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureVMExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -151,8 +151,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureVMExtension](.\Remove-AzureVMExtension.md)
+[Remove-AzureVMExtension](./Remove-AzureVMExtension.md)
 
-[Set-AzureVMExtension](.\Set-AzureVMExtension.md)
+[Set-AzureVMExtension](./Set-AzureVMExtension.md)
 
 

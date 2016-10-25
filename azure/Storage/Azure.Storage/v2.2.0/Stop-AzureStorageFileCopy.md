@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageFile.md
 schema: 2.0.0
 ms.assetid: ABC5A8CB-1151-4D5C-9230-D5C3A44F5A4C
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Stop-AzureStorageFileCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Stop-AzureStorageFileCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Stop-AzureStorageFileCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -229,12 +229,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageFile](.\Get-AzureStorageFile.md)
+[Get-AzureStorageFile](./Get-AzureStorageFile.md)
 
-[Get-AzureStorageFileCopyState](.\Get-AzureStorageFileCopyState.md)
+[Get-AzureStorageFileCopyState](./Get-AzureStorageFileCopyState.md)
 
-[New-AzureStorageContext](.\New-AzureStorageContext.md)
+[New-AzureStorageContext](./New-AzureStorageContext.md)
 
-[Start-AzureStorageFileCopy](.\Start-AzureStorageFileCopy.md)
+[Start-AzureStorageFileCopy](./Start-AzureStorageFileCopy.md)
 
 

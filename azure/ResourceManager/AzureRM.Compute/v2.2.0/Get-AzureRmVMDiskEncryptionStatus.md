@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: cedf99e4-8f39-468b-8cc3-eee1fae80ffe
 schema: 2.0.0
 ms.assetid: 48AC3BA1-94D3-4D0C-8BCB-0A9E178A2A3C
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMDiskEncryptionStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMDiskEncryptionStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMDiskEncryptionStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -100,8 +100,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureRmVMDiskEncryptionExtension](.\Remove-AzureRmVMDiskEncryptionExtension.md)
+[Remove-AzureRmVMDiskEncryptionExtension](./Remove-AzureRmVMDiskEncryptionExtension.md)
 
-[Set-AzureRmVMDiskEncryptionExtension](.\Set-AzureRmVMDiskEncryptionExtension.md)
+[Set-AzureRmVMDiskEncryptionExtension](./Set-AzureRmVMDiskEncryptionExtension.md)
 
 

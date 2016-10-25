@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
 online version: 50ff317e-6bb0-4322-b883-7f1b031719b0
 schema: 2.0.0
 ms.assetid: 496B4F69-7C80-482F-BC54-F1FAD7531ABB
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Remove-AzureRmDataFactory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Remove-AzureRmDataFactory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Remove-AzureRmDataFactory.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -160,8 +160,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmDataFactory](.\Get-AzureRmDataFactory.md)
+[Get-AzureRmDataFactory](./Get-AzureRmDataFactory.md)
 
-[New-AzureRmDataFactory](.\New-AzureRmDataFactory.md)
+[New-AzureRmDataFactory](./New-AzureRmDataFactory.md)
 
 

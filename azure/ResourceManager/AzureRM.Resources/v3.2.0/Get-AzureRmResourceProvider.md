@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: 41e98978-3cff-42c6-aa7c-1a35d609d92a
 schema: 2.0.0
 ms.assetid: FD23E93B-063A-4DA5-9E86-2C57C092E98B
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmResourceProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmResourceProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmResourceProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -133,8 +133,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Register-AzureRmResourceProvider](.\Register-AzureRmResourceProvider.md)
+[Register-AzureRmResourceProvider](./Register-AzureRmResourceProvider.md)
 
-[Unregister-AzureRmResourceProvider](.\Unregister-AzureRmResourceProvider.md)
+[Unregister-AzureRmResourceProvider](./Unregister-AzureRmResourceProvider.md)
 
 

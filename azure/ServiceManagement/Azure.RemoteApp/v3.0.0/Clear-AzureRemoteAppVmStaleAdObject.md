@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: 5e93cd6f-3d69-4443-ba94-e34d00f59c5b
 schema: 2.0.0
 ms.assetid: 8228CC98-3C2C-4392-825F-D91BA8136672
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Clear-AzureRemoteAppVmStaleAdObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Clear-AzureRemoteAppVmStaleAdObject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Clear-AzureRemoteAppVmStaleAdObject.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -141,6 +141,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppVmStaleAdObject](.\Get-AzureRemoteAppVmStaleAdObject.md)
+[Get-AzureRemoteAppVmStaleAdObject](./Get-AzureRemoteAppVmStaleAdObject.md)
 
 

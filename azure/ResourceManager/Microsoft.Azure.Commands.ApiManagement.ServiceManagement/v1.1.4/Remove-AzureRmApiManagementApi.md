@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: .\Export-AzureRmApiManagementApi.md
 schema: 2.0.0
 ms.assetid: F23D9274-63B9-4654-897B-6E84757774D2
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementApi.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementApi.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementApi.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -176,14 +176,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmApiManagementApi](.\Export-AzureRmApiManagementApi.md)
+[Export-AzureRmApiManagementApi](./Export-AzureRmApiManagementApi.md)
 
-[Get-AzureRmApiManagementApi](.\Get-AzureRmApiManagementApi.md)
+[Get-AzureRmApiManagementApi](./Get-AzureRmApiManagementApi.md)
 
-[Import-AzureRmApiManagementApi](.\Import-AzureRmApiManagementApi.md)
+[Import-AzureRmApiManagementApi](./Import-AzureRmApiManagementApi.md)
 
-[New-AzureRmApiManagementApi](.\New-AzureRmApiManagementApi.md)
+[New-AzureRmApiManagementApi](./New-AzureRmApiManagementApi.md)
 
-[Set-AzureRmApiManagementApi](.\Set-AzureRmApiManagementApi.md)
+[Set-AzureRmApiManagementApi](./Set-AzureRmApiManagementApi.md)
 
 

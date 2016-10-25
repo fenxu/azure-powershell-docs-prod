@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: e0d7bd26-4911-4fd7-af91-0447200c628f
 schema: 2.0.0
 ms.assetid: 27620652-2F92-449B-87FD-EE329C8AA033
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureWalkUpgradeDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureWalkUpgradeDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureWalkUpgradeDomain.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -122,6 +122,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureDeployment](.\Set-AzureDeployment.md)
+[Set-AzureDeployment](./Set-AzureDeployment.md)
 
 

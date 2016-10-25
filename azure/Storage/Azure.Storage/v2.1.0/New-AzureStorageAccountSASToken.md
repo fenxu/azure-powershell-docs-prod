@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\New-AzureStorageBlobSASToken.md
 schema: 2.0.0
 ms.assetid: 2F605015-A769-44A1-BFEA-D6AC16C8EA65
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageAccountSASToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageAccountSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageAccountSASToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -238,16 +238,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureStorageBlobSASToken](.\New-AzureStorageBlobSASToken.md)
+[New-AzureStorageBlobSASToken](./New-AzureStorageBlobSASToken.md)
 
-[New-AzureStorageContainerSASToken](.\New-AzureStorageContainerSASToken.md)
+[New-AzureStorageContainerSASToken](./New-AzureStorageContainerSASToken.md)
 
-[New-AzureStorageFileSASToken](.\New-AzureStorageFileSASToken.md)
+[New-AzureStorageFileSASToken](./New-AzureStorageFileSASToken.md)
 
-[New-AzureStorageQueueSASToken](.\New-AzureStorageQueueSASToken.md)
+[New-AzureStorageQueueSASToken](./New-AzureStorageQueueSASToken.md)
 
-[New-AzureStorageShareSASToken](.\New-AzureStorageShareSASToken.md)
+[New-AzureStorageShareSASToken](./New-AzureStorageShareSASToken.md)
 
-[New-AzureStorageTableSASToken](.\New-AzureStorageTableSASToken.md)
+[New-AzureStorageTableSASToken](./New-AzureStorageTableSASToken.md)
 
 

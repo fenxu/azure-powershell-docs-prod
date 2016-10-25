@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: df927ec1-aa02-4bea-a617-3fe0b59b88d7
 schema: 2.0.0
 ms.assetid: 79E039C7-AC28-4DE8-A9A3-6CAABF94D873
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Send-AzureRemoteAppSessionMessage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Send-AzureRemoteAppSessionMessage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Send-AzureRemoteAppSessionMessage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -114,10 +114,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRemoteAppUser](.\Add-AzureRemoteAppUser.md)
+[Add-AzureRemoteAppUser](./Add-AzureRemoteAppUser.md)
 
-[Get-AzureRemoteAppSession](.\Get-AzureRemoteAppSession.md)
+[Get-AzureRemoteAppSession](./Get-AzureRemoteAppSession.md)
 
-[Get-AzureRemoteAppUser](.\Get-AzureRemoteAppUser.md)
+[Get-AzureRemoteAppUser](./Get-AzureRemoteAppUser.md)
 
 

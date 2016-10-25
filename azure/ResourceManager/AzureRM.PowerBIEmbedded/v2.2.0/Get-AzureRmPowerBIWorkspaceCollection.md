@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Management.PowerBIEmbedded.dll-Help
 online version: c8d0e86a-8da7-46f5-b1cc-3da650e1a90c
 schema: 2.0.0
 ms.assetid: C16ED456-25D3-4780-BBF1-81563CCE839E
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v2.2.0/Get-AzureRmPowerBIWorkspaceCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v2.2.0/Get-AzureRmPowerBIWorkspaceCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v2.2.0/Get-AzureRmPowerBIWorkspaceCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -108,8 +108,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmPowerBIWorkspaceCollection](.\New-AzureRmPowerBIWorkspaceCollection.md)
+[New-AzureRmPowerBIWorkspaceCollection](./New-AzureRmPowerBIWorkspaceCollection.md)
 
-[Remove-AzureRmPowerBIWorkspaceCollection](.\Remove-AzureRmPowerBIWorkspaceCollection.md)
+[Remove-AzureRmPowerBIWorkspaceCollection](./Remove-AzureRmPowerBIWorkspaceCollection.md)
 
 

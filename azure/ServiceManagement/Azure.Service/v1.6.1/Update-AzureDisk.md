@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Add-AzureDisk.md
 schema: 2.0.0
 ms.assetid: 69874C98-EBA5-4242-9288-B9FA5164AAE7
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Update-AzureDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Update-AzureDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Update-AzureDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -165,10 +165,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureDisk](.\Add-AzureDisk.md)
+[Add-AzureDisk](./Add-AzureDisk.md)
 
-[Get-AzureDisk](.\Get-AzureDisk.md)
+[Get-AzureDisk](./Get-AzureDisk.md)
 
-[Remove-AzureDisk](.\Remove-AzureDisk.md)
+[Remove-AzureDisk](./Remove-AzureDisk.md)
 
 

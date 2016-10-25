@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 2bd700db-bd56-43c6-9708-aaafb07489fd
 schema: 2.0.0
 ms.assetid: E5FF563F-050C-46B6-9AE4-0899B76B5FF3
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Test-AzureRmVMAEMExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Test-AzureRmVMAEMExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Test-AzureRmVMAEMExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -133,10 +133,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMAEMExtension](.\Get-AzureRmVMAEMExtension.md)
+[Get-AzureRmVMAEMExtension](./Get-AzureRmVMAEMExtension.md)
 
-[Remove-AzureRmVMAEMExtension](.\Remove-AzureRmVMAEMExtension.md)
+[Remove-AzureRmVMAEMExtension](./Remove-AzureRmVMAEMExtension.md)
 
-[Set-AzureRmVMAEMExtension](.\Set-AzureRmVMAEMExtension.md)
+[Set-AzureRmVMAEMExtension](./Set-AzureRmVMAEMExtension.md)
 
 

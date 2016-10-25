@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: df9bef0f-21b4-4e81-8cba-148446b6eb7b
 schema: 2.0.0
 ms.assetid: 3F210B47-D93A-47E6-927B-AA45FCD6F92D
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVpnClientRevokedCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVpnClientRevokedCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVpnClientRevokedCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -106,10 +106,10 @@ This cmdlet creates new instances of the **Microsoft.Azure.Commands.Network.Mode
 
 ## RELATED LINKS
 
-[Add-AzureRmVpnClientRevokedCertificate](.\Add-AzureRmVpnClientRevokedCertificate.md)
+[Add-AzureRmVpnClientRevokedCertificate](./Add-AzureRmVpnClientRevokedCertificate.md)
 
-[Get-AzureRmVpnClientRevokedCertificate](.\Get-AzureRmVpnClientRevokedCertificate.md)
+[Get-AzureRmVpnClientRevokedCertificate](./Get-AzureRmVpnClientRevokedCertificate.md)
 
-[Remove-AzureRmVpnClientRevokedCertificate](.\Remove-AzureRmVpnClientRevokedCertificate.md)
+[Remove-AzureRmVpnClientRevokedCertificate](./Remove-AzureRmVpnClientRevokedCertificate.md)
 
 

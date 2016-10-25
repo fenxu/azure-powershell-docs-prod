@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version: ee1bd54f-4bdd-4032-8bae-e2355565267f
 schema: 2.0.0
 ms.assetid: 3819D202-5D7D-4E2D-B378-119378131276
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Invoke-AzureRmHDInsightHiveJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Invoke-AzureRmHDInsightHiveJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Invoke-AzureRmHDInsightHiveJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -251,6 +251,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Use-AzureRmHDInsightCluster](.\Use-AzureRmHDInsightCluster.md)
+[Use-AzureRmHDInsightCluster](./Use-AzureRmHDInsightCluster.md)
 
 

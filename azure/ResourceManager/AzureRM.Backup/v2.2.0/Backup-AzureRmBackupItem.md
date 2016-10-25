@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: c780e589-b26f-4f4c-8d68-d4378ef3c2b6
 schema: 2.0.0
 ms.assetid: 4BF442B5-9959-433F-AC73-BBA03AEFE93B
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Backup-AzureRmBackupItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Backup-AzureRmBackupItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Backup-AzureRmBackupItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -87,10 +87,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupItem](.\Get-AzureRmBackupItem.md)
+[Get-AzureRmBackupItem](./Get-AzureRmBackupItem.md)
 
-[Get-AzureRmBackupVault](.\Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
 
-[Restore-AzureRmBackupItem](.\Restore-AzureRmBackupItem.md)
+[Restore-AzureRmBackupItem](./Restore-AzureRmBackupItem.md)
 
 

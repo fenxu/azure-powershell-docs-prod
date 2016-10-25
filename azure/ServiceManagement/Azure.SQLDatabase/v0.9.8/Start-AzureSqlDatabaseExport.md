@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: .\Get-AzureSqlDatabaseImportExportStatus.md
 schema: 2.0.0
 ms.assetid: 1BDF45A0-59F4-4FF2-9838-580419B9D594
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Start-AzureSqlDatabaseExport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Start-AzureSqlDatabaseExport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Start-AzureSqlDatabaseExport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -175,8 +175,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlDatabaseImportExportStatus](.\Get-AzureSqlDatabaseImportExportStatus.md)
+[Get-AzureSqlDatabaseImportExportStatus](./Get-AzureSqlDatabaseImportExportStatus.md)
 
-[Start-AzureSqlDatabaseImport](.\Start-AzureSqlDatabaseImport.md)
+[Start-AzureSqlDatabaseImport](./Start-AzureSqlDatabaseImport.md)
 
 

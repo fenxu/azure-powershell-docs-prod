@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 6f7c6611-5c56-4f1d-ab98-cdd92d88821c
 schema: 2.0.0
 ms.assetid: 9B261CD8-5209-4C14-A6F8-97D61B641642
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -134,10 +134,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmApiManagementCertificate](.\Get-AzureRmApiManagementCertificate.md)
+[Get-AzureRmApiManagementCertificate](./Get-AzureRmApiManagementCertificate.md)
 
-[New-AzureRmApiManagementCertificate](.\New-AzureRmApiManagementCertificate.md)
+[New-AzureRmApiManagementCertificate](./New-AzureRmApiManagementCertificate.md)
 
-[Set-AzureRmApiManagementCertificate](.\Set-AzureRmApiManagementCertificate.md)
+[Set-AzureRmApiManagementCertificate](./Set-AzureRmApiManagementCertificate.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 3b1fc41a-fa8c-4f70-bd33-a5f7914c9da0
 schema: 2.0.0
 ms.assetid: F0BDB0EE-1F26-450D-9C68-34C79CE8F778
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementUserFromGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementUserFromGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementUserFromGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -114,8 +114,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApiManagementUserToGroup](.\Add-AzureRmApiManagementUserToGroup.md)
+[Add-AzureRmApiManagementUserToGroup](./Add-AzureRmApiManagementUserToGroup.md)
 
-[Get-AzureRmApiManagementUser](.\Get-AzureRmApiManagementUser.md)
+[Get-AzureRmApiManagementUser](./Get-AzureRmApiManagementUser.md)
 
 

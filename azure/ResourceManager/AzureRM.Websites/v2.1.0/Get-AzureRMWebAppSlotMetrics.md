@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\Get-AzureRmAppServicePlanMetrics.md
 schema: 2.0.0
 ms.assetid: 083BFB0B-FB9C-4566-B161-DC3EC24BDADD
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRMWebAppSlotMetrics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRMWebAppSlotMetrics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRMWebAppSlotMetrics.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -203,10 +203,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRMAppServicePlanMetrics](.\Get-AzureRmAppServicePlanMetrics.md)
+[Get-AzureRMAppServicePlanMetrics](./Get-AzureRmAppServicePlanMetrics.md)
 
-[Get-AzureRmWebApp](.\Get-AzureRmWebApp.md)
+[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)
 
-[Get-AzureRMWebAppSlot](.\Get-AzureRMWebAppSlot.md)
+[Get-AzureRMWebAppSlot](./Get-AzureRMWebAppSlot.md)
 
 

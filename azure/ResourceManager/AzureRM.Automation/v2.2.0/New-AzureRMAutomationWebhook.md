@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 048bf33a-0bc1-4433-92e0-bd906f6edb8d
 schema: 2.0.0
 ms.assetid: CCA289E3-4C75-48AF-9F25-F99B0C6965C4
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationWebhook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationWebhook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationWebhook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -226,10 +226,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationWebhook](.\Get-AzureRMAutomationWebhook.md)
+[Get-AzureRmAutomationWebhook](./Get-AzureRMAutomationWebhook.md)
 
-[Remove-AzureRmAutomationWebhook](.\Remove-AzureRMAutomationWebhook.md)
+[Remove-AzureRmAutomationWebhook](./Remove-AzureRMAutomationWebhook.md)
 
-[Set-AzureRmAutomationWebhook](.\Set-AzureRMAutomationWebhook.md)
+[Set-AzureRmAutomationWebhook](./Set-AzureRMAutomationWebhook.md)
 
 

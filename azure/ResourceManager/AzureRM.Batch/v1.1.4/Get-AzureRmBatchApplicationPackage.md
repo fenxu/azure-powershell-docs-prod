@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: .\Get-AzureRmBatchApplication.md
 schema: 2.0.0
 ms.assetid: 06DCC819-7D1F-4F65-98F0-10F744D5F8B1
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchApplicationPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchApplicationPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -120,16 +120,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBatchApplication](.\Get-AzureRmBatchApplication.md)
+[Get-AzureRmBatchApplication](./Get-AzureRmBatchApplication.md)
 
-[New-AzureRmBatchApplication](.\New-AzureRmBatchApplication.md)
+[New-AzureRmBatchApplication](./New-AzureRmBatchApplication.md)
 
-[New-AzureRmBatchApplicationPackage](.\New-AzureRmBatchApplicationPackage.md)
+[New-AzureRmBatchApplicationPackage](./New-AzureRmBatchApplicationPackage.md)
 
-[Remove-AzureRmBatchApplication](.\Remove-AzureRmBatchApplication.md)
+[Remove-AzureRmBatchApplication](./Remove-AzureRmBatchApplication.md)
 
-[Remove-AzureRmBatchApplicationPackage](.\Remove-AzureRmBatchApplicationPackage.md)
+[Remove-AzureRmBatchApplicationPackage](./Remove-AzureRmBatchApplicationPackage.md)
 
-[Set-AzureRmBatchApplication](.\Set-AzureRmBatchApplication.md)
+[Set-AzureRmBatchApplication](./Set-AzureRmBatchApplication.md)
 
 

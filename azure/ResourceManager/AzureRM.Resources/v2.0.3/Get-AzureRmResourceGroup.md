@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: .\New-AzureRmResourceGroup.md
 schema: 2.0.0
 ms.assetid: 6282A378-C6F0-4A8E-BF68-DD5F68412205
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -153,10 +153,10 @@ This cmdlet returns resource groups.
 
 ## RELATED LINKS
 
-[New-AzureRmResourceGroup](.\New-AzureRmResourceGroup.md)
+[New-AzureRmResourceGroup](./New-AzureRmResourceGroup.md)
 
-[Remove-AzureRmResourceGroup](.\Remove-AzureRmResourceGroup.md)
+[Remove-AzureRmResourceGroup](./Remove-AzureRmResourceGroup.md)
 
-[Set-AzureRmResourceGroup](.\Set-AzureRmResourceGroup.md)
+[Set-AzureRmResourceGroup](./Set-AzureRmResourceGroup.md)
 
 

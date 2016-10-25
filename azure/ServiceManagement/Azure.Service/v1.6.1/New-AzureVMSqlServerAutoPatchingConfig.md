@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Set-AzureVMSqlServerExtension.md
 schema: 2.0.0
 ms.assetid: 317BD083-023B-407E-B718-7A3A55773368
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVMSqlServerAutoPatchingConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVMSqlServerAutoPatchingConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVMSqlServerAutoPatchingConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -183,10 +183,10 @@ This cmdlet returns object contains settings for automated patching.
 
 ## RELATED LINKS
 
-[Set-AzureVMSqlServerExtension](.\Set-AzureVMSqlServerExtension.md)
+[Set-AzureVMSqlServerExtension](./Set-AzureVMSqlServerExtension.md)
 
-[Remove-AzureVMSqlServerExtension](.\Remove-AzureVMSqlServerExtension.md)
+[Remove-AzureVMSqlServerExtension](./Remove-AzureVMSqlServerExtension.md)
 
-[Set-AzureVMSqlServerExtension](.\Set-AzureVMSqlServerExtension.md)
+[Set-AzureVMSqlServerExtension](./Set-AzureVMSqlServerExtension.md)
 
 

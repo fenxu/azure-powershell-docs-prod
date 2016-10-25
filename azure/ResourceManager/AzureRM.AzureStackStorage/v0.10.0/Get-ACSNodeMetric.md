@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
 online version: .\Get-ACSNode.md
 schema: 2.0.0
 ms.assetid: 19933AA5-E3AC-450C-A5FC-4BB5D6FE41E2
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSNodeMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSNodeMetric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSNodeMetric.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -295,8 +295,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ACSNode](.\Get-ACSNode.md)
+[Get-ACSNode](./Get-ACSNode.md)
 
-[Get-ACSNodeMetricDefinition](.\Get-ACSNodeMetricDefinition.md)
+[Get-ACSNodeMetricDefinition](./Get-ACSNodeMetricDefinition.md)
 
 

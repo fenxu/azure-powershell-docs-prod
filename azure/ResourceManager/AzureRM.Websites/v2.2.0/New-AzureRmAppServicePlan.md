@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: 472d30e3-a03c-4bde-b0fa-0c582ab8d88f
 schema: 2.0.0
 ms.assetid: EED66FD1-9CA7-428B-8E15-235B817D2F3C
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/New-AzureRmAppServicePlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/New-AzureRmAppServicePlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/New-AzureRmAppServicePlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -198,10 +198,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAppServicePlan](.\Get-AzureRmAppServicePlan.md)
+[Get-AzureRmAppServicePlan](./Get-AzureRmAppServicePlan.md)
 
-[Remove-AzureRmAppServicePlan](.\Remove-AzureRmAppServicePlan.md)
+[Remove-AzureRmAppServicePlan](./Remove-AzureRmAppServicePlan.md)
 
-[Set-AzureRmAppServicePlan](.\Set-AzureRmAppServicePlan.md)
+[Set-AzureRmAppServicePlan](./Set-AzureRmAppServicePlan.md)
 
 

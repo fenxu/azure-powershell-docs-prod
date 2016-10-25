@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
 online version: a394cfef-2a76-425a-8e8f-43e3db789720
 schema: 2.0.0
 ms.assetid: C985E534-03ED-4370-BBCD-1E918563A65D
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Get-AzureRmDtlVMsPerUserPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Get-AzureRmDtlVMsPerUserPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Get-AzureRmDtlVMsPerUserPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -84,6 +84,6 @@ This cmdlet returns the policy that specifies the maximum number of virtual mach
 
 ## RELATED LINKS
 
-[Set-AzureRmDtlVMsPerUserPolicy](.\Set-AzureRmDtlVMsPerUserPolicy.md)
+[Set-AzureRmDtlVMsPerUserPolicy](./Set-AzureRmDtlVMsPerUserPolicy.md)
 
 

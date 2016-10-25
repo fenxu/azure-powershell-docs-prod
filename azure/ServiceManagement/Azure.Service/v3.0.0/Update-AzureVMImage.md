@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 8f7662e3-5d0b-4637-a57b-11ab9934bf86
 schema: 2.0.0
 ms.assetid: 60D778EA-3451-4EE0-9452-ECC37600473F
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Update-AzureVMImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Update-AzureVMImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Update-AzureVMImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -286,18 +286,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureVMImage](.\Add-AzureVMImage.md)
+[Add-AzureVMImage](./Add-AzureVMImage.md)
 
-[Get-AzureVMImage](.\Get-AzureVMImage.md)
+[Get-AzureVMImage](./Get-AzureVMImage.md)
 
-[Remove-AzureVMImage](.\Remove-AzureVMImage.md)
+[Remove-AzureVMImage](./Remove-AzureVMImage.md)
 
-[Save-AzureVMImage](.\Save-AzureVMImage.md)
+[Save-AzureVMImage](./Save-AzureVMImage.md)
 
-[New-AzureVMImageDiskConfigSet](.\New-AzureVMImageDiskConfigSet.md)
+[New-AzureVMImageDiskConfigSet](./New-AzureVMImageDiskConfigSet.md)
 
-[Set-AzureVMImageOSDiskConfig](.\Set-AzureVMImageOSDiskConfig.md)
+[Set-AzureVMImageOSDiskConfig](./Set-AzureVMImageOSDiskConfig.md)
 
-[Set-AzureVMImageDataDiskConfig](.\Set-AzureVMImageDataDiskConfig.md)
+[Set-AzureVMImageDataDiskConfig](./Set-AzureVMImageDataDiskConfig.md)
 
 

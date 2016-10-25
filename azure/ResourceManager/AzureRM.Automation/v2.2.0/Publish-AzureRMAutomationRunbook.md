@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 614eee0d-f18e-4843-bed6-6cf43db59f75
 schema: 2.0.0
 ms.assetid: 68A3D64A-280B-4285-B588-72C7A8C25942
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Publish-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Publish-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Publish-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -97,20 +97,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmAutomationRunbook](.\Export-AzureRMAutomationRunbook.md)
+[Export-AzureRmAutomationRunbook](./Export-AzureRMAutomationRunbook.md)
 
-[Get-AzureRmAutomationRunbook](.\Get-AzureRMAutomationRunbook.md)
+[Get-AzureRmAutomationRunbook](./Get-AzureRMAutomationRunbook.md)
 
-[Import-AzureRmAutomationRunbook](.\Import-AzureRMAutomationRunbook.md)
+[Import-AzureRmAutomationRunbook](./Import-AzureRMAutomationRunbook.md)
 
-[New-AzureRmAutomationRunbook](.\New-AzureRMAutomationRunbook.md)
+[New-AzureRmAutomationRunbook](./New-AzureRMAutomationRunbook.md)
 
-[New-AzureRmAutomationRunbook](.\New-AzureRMAutomationRunbook.md)
+[New-AzureRmAutomationRunbook](./New-AzureRMAutomationRunbook.md)
 
-[Remove-AzureRmAutomationRunbook](.\Remove-AzureRMAutomationRunbook.md)
+[Remove-AzureRmAutomationRunbook](./Remove-AzureRMAutomationRunbook.md)
 
-[Set-AzureRmAutomationRunbook](.\Set-AzureRMAutomationRunbook.md)
+[Set-AzureRmAutomationRunbook](./Set-AzureRMAutomationRunbook.md)
 
-[Start-AzureRmAutomationRunbook](.\Start-AzureRMAutomationRunbook.md)
+[Start-AzureRmAutomationRunbook](./Start-AzureRMAutomationRunbook.md)
 
 

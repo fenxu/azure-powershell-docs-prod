@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: c9ec226d-3a4f-49d1-9b9f-df9d57bdfa43
 schema: 2.0.0
 ms.assetid: 3CE8492B-FB2E-43EB-A4F0-770A33E5A19E
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationRegistrationInfo.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationRegistrationInfo.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationRegistrationInfo.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -83,10 +83,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationAccount](.\Get-AzureRmAutomationAccount.md)
+[Get-AzureRmAutomationAccount](./Get-AzureRmAutomationAccount.md)
 
-[Get-AzureRmAutomationDscNode](.\Get-AzureRmAutomationDscNode.md)
+[Get-AzureRmAutomationDscNode](./Get-AzureRmAutomationDscNode.md)
 
-[New-AzureRmAutomationKey](.\New-AzureRmAutomationKey.md)
+[New-AzureRmAutomationKey](./New-AzureRmAutomationKey.md)
 
 

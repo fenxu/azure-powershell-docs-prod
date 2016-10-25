@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Media.dll-Help.xml
 online version: d06ed808-4566-4b75-bc18-f730f5be16a2
 schema: 2.0.0
 ms.assetid: 166CD1DC-7B68-45CC-B960-42A6352019D5
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/New-AzureRmMediaServiceStorageConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/New-AzureRmMediaServiceStorageConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/New-AzureRmMediaServiceStorageConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -121,6 +121,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Sync-AzureRmMediaServiceStorageKeys](.\Sync-AzureRmMediaServiceStorageKeys.md)
+[Sync-AzureRmMediaServiceStorageKeys](./Sync-AzureRmMediaServiceStorageKeys.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=397627
 schema: 2.0.0
 ms.assetid: 67E87B84-A4F4-4FB7-A8C9-1CE602C53204
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -198,10 +198,10 @@ Otherwise, it does not return any output.
 
 ## RELATED LINKS
 
-[Get-AzureSubscription](.\Get-AzureSubscription.md)
+[Get-AzureSubscription](./Get-AzureSubscription.md)
 
-[Select-AzureSubscription](.\Select-AzureSubscription.md)
+[Select-AzureSubscription](./Select-AzureSubscription.md)
 
-[Set-AzureSubscription](.\Set-AzureSubscription.md)
+[Set-AzureSubscription](./Set-AzureSubscription.md)
 
 

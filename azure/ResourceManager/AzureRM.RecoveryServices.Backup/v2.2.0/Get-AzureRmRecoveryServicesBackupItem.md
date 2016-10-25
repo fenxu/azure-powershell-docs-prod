@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xm
 online version: 8cca2582-9489-4f8d-b39a-63b17176bfd1
 schema: 2.0.0
 ms.assetid: 0B4106D1-90BD-4FC3-B5CA-D97278B119C3
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.2.0/Get-AzureRmRecoveryServicesBackupItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.2.0/Get-AzureRmRecoveryServicesBackupItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.2.0/Get-AzureRmRecoveryServicesBackupItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -186,12 +186,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Backup-AzureRmRecoveryServicesBackupItem](.\Backup-AzureRmRecoveryServicesBackupItem.md)
+[Backup-AzureRmRecoveryServicesBackupItem](./Backup-AzureRmRecoveryServicesBackupItem.md)
 
-[Disable-AzureRmRecoveryServicesBackupProtection](.\Disable-AzureRmRecoveryServicesBackupProtection.md)
+[Disable-AzureRmRecoveryServicesBackupProtection](./Disable-AzureRmRecoveryServicesBackupProtection.md)
 
-[Get-AzureRmRecoveryServicesBackupRecoveryPoint](.\Get-AzureRmRecoveryServicesBackupRecoveryPoint.md)
+[Get-AzureRmRecoveryServicesBackupRecoveryPoint](./Get-AzureRmRecoveryServicesBackupRecoveryPoint.md)
 
-[Restore-AzureRmRecoveryServicesBackupItem](.\Restore-AzureRmRecoveryServicesBackupItem.md)
+[Restore-AzureRmRecoveryServicesBackupItem](./Restore-AzureRmRecoveryServicesBackupItem.md)
 
 

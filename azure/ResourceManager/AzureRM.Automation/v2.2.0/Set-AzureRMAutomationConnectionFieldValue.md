@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 7fed73b4-73cf-4642-8e10-167ea6158372
 schema: 2.0.0
 ms.assetid: 16CBE4ED-037E-48ED-815E-4DB87894B10B
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationConnectionFieldValue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationConnectionFieldValue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationConnectionFieldValue.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -127,6 +127,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAutomationConnection](.\New-AzureRMAutomationConnection.md)
+[New-AzureRmAutomationConnection](./New-AzureRMAutomationConnection.md)
 
 

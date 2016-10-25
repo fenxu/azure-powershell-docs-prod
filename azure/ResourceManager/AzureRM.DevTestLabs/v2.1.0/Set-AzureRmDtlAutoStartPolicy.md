@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
 online version: .\Get-AzureRmDtlAutoStartPolicy.md
 schema: 2.0.0
 ms.assetid: 37C19EB7-0CF8-4D50-8437-31CB6FBDBC07
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.1.0/Set-AzureRmDtlAutoStartPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.1.0/Set-AzureRmDtlAutoStartPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.1.0/Set-AzureRmDtlAutoStartPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -214,6 +214,6 @@ This cmdlet returns the schedule that specifies when the virtual machines of the
 
 ## RELATED LINKS
 
-[Get-AzureRmDtlAutoStartPolicy](.\Get-AzureRmDtlAutoStartPolicy.md)
+[Get-AzureRmDtlAutoStartPolicy](./Get-AzureRmDtlAutoStartPolicy.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: fd23e93b-063a-4da5-9e86-2c57c092e98b
 schema: 2.0.0
 ms.assetid: 41E98978-3CFF-42C6-AA7C-1A35D609D92A
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Register-AzureRmResourceProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Register-AzureRmResourceProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Register-AzureRmResourceProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -128,8 +128,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmResourceProvider](.\Get-AzureRmResourceProvider.md)
+[Get-AzureRmResourceProvider](./Get-AzureRmResourceProvider.md)
 
-[Unregister-AzureRmResourceProvider](.\Unregister-AzureRmResourceProvider.md)
+[Unregister-AzureRmResourceProvider](./Unregister-AzureRmResourceProvider.md)
 
 

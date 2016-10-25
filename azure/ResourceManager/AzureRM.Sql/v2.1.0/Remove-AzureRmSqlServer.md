@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: .\Get-AzureRmSqlServer.md
 schema: 2.0.0
 ms.assetid: 0BD7D98F-2D43-4FD2-8F1E-6A5169E69C42
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.1.0/Remove-AzureRmSqlServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.1.0/Remove-AzureRmSqlServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.1.0/Remove-AzureRmSqlServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -168,12 +168,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlServer](.\Get-AzureRmSqlServer.md)
+[Get-AzureRmSqlServer](./Get-AzureRmSqlServer.md)
 
-[New-AzureRmSqlServer](.\New-AzureRmSqlServer.md)
+[New-AzureRmSqlServer](./New-AzureRmSqlServer.md)
 
-[Set-AzureRmSqlServer](.\Set-AzureRmSqlServer.md)
+[Set-AzureRmSqlServer](./Set-AzureRmSqlServer.md)
 
-[Azure SQL Database Cmdlets](.\AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
 
 

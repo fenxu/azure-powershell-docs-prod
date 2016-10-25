@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version: 5b830040-15aa-4d82-b60e-cae00458010b
 schema: 2.0.0
 ms.assetid: E56CB6EC-1965-46CC-9ED9-FE130E7EBB83
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Get-AzureRmLogicApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Get-AzureRmLogicApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Get-AzureRmLogicApp.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -124,12 +124,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmLogicApp](.\New-AzureRmLogicApp.md)
+[New-AzureRmLogicApp](./New-AzureRmLogicApp.md)
 
-[Remove-AzureRmLogicApp](.\Remove-AzureRmLogicApp.md)
+[Remove-AzureRmLogicApp](./Remove-AzureRmLogicApp.md)
 
-[Set-AzureRmLogicApp](.\Set-AzureRmLogicApp.md)
+[Set-AzureRmLogicApp](./Set-AzureRmLogicApp.md)
 
-[Start-AzureRmLogicApp](.\Start-AzureRmLogicApp.md)
+[Start-AzureRmLogicApp](./Start-AzureRmLogicApp.md)
 
 

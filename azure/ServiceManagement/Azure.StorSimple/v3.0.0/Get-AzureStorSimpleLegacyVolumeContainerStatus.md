@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: f2cdd40f-c85b-4522-9271-048d3ae03474
 schema: 2.0.0
 ms.assetid: D2F47D8A-3029-4BD4-8FBF-D5A25618ACF5
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleLegacyVolumeContainerStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleLegacyVolumeContainerStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleLegacyVolumeContainerStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -144,8 +144,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Confirm-AzureStorSimpleLegacyVolumeContainerStatus](.\Confirm-AzureStorSimpleLegacyVolumeContainerStatus.md)
+[Confirm-AzureStorSimpleLegacyVolumeContainerStatus](./Confirm-AzureStorSimpleLegacyVolumeContainerStatus.md)
 
-[Get-AzureStorSimpleLegacyVolumeContainerConfirmStatus](.\Get-AzureStorSimpleLegacyVolumeContainerConfirmStatus.md)
+[Get-AzureStorSimpleLegacyVolumeContainerConfirmStatus](./Get-AzureStorSimpleLegacyVolumeContainerConfirmStatus.md)
 
 

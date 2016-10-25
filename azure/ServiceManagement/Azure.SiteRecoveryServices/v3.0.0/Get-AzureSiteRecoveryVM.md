@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 9c39c263-6f1c-4ad9-94fb-688a64f0efa1
 schema: 2.0.0
 ms.assetid: FBDAD14F-B7A7-4AE4-82CC-6541FB1C628C
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -189,6 +189,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureSiteRecoveryVM](.\Set-AzureSiteRecoveryVM.md)
+[Set-AzureSiteRecoveryVM](./Set-AzureSiteRecoveryVM.md)
 
 

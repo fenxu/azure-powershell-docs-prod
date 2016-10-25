@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 81f0c92d-5fd4-48d9-b063-b7406e578463
 schema: 2.0.0
 ms.assetid: 12E991FE-45C2-48C6-AF0F-738D93021E5C
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVNetGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVNetGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVNetGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -82,14 +82,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureVNetGateway](.\New-AzureVNetGateway.md)
+[New-AzureVNetGateway](./New-AzureVNetGateway.md)
 
-[Remove-AzureVNetGateway](.\Remove-AzureVNetGateway.md)
+[Remove-AzureVNetGateway](./Remove-AzureVNetGateway.md)
 
-[Reset-AzureVNetGateway](.\Reset-AzureVNetGateway.md)
+[Reset-AzureVNetGateway](./Reset-AzureVNetGateway.md)
 
-[Resize-AzureVNetGateway](.\Resize-AzureVNetGateway.md)
+[Resize-AzureVNetGateway](./Resize-AzureVNetGateway.md)
 
-[Set-AzureVNetGatewayKey](.\Set-AzureVNetGatewayKey.md)
+[Set-AzureVNetGatewayKey](./Set-AzureVNetGatewayKey.md)
 
 

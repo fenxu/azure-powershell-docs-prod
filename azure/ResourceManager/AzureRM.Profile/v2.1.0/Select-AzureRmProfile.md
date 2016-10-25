@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
 online version: .\Get-AzureRmContext.md
 schema: 2.0.0
 ms.assetid: F69EA38D-9914-454E-9B45-9262B7413042
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Select-AzureRmProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Select-AzureRmProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Select-AzureRmProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -88,8 +88,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmContext](.\Get-AzureRmContext.md)
+[Get-AzureRmContext](./Get-AzureRmContext.md)
 
-[Save-AzureRmProfile](.\Save-AzureRmProfile.md)
+[Save-AzureRmProfile](./Save-AzureRmProfile.md)
 
 

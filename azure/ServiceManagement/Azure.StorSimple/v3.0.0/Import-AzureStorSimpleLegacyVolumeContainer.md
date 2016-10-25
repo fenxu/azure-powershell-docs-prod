@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: d2f47d8a-3029-4bd4-8fbf-d5a25618acf5
 schema: 2.0.0
 ms.assetid: F278742E-C74D-44B9-A5DB-0BE13254F82E
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Import-AzureStorSimpleLegacyVolumeContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Import-AzureStorSimpleLegacyVolumeContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Import-AzureStorSimpleLegacyVolumeContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -165,8 +165,8 @@ This command returns the status of the migration import volume container job if 
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleLegacyVolumeContainerStatus](.\Get-AzureStorSimpleLegacyVolumeContainerStatus.md)
+[Get-AzureStorSimpleLegacyVolumeContainerStatus](./Get-AzureStorSimpleLegacyVolumeContainerStatus.md)
 
-[Import-AzureStorSimpleLegacyApplianceConfig](.\Import-AzureStorSimpleLegacyApplianceConfig.md)
+[Import-AzureStorSimpleLegacyApplianceConfig](./Import-AzureStorSimpleLegacyApplianceConfig.md)
 
 

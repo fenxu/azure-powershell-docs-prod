@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 online version: .\Get-AzureRmOperationalInsightsSavedSearchResults.md
 schema: 2.0.0
 ms.assetid: F5FD9F19-5387-42E9-ADE1-CF21E8EA1232
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Get-AzureRmOperationalInsightsSearchResults.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Get-AzureRmOperationalInsightsSearchResults.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Get-AzureRmOperationalInsightsSearchResults.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -259,6 +259,6 @@ The **PSSearchGetSearchResultsResponse** object includes a Value property that i
 
 ## RELATED LINKS
 
-[Get-AzureRmOperationalInsightsSavedSearchResults](.\Get-AzureRmOperationalInsightsSavedSearchResults.md)
+[Get-AzureRmOperationalInsightsSavedSearchResults](./Get-AzureRmOperationalInsightsSavedSearchResults.md)
 
 

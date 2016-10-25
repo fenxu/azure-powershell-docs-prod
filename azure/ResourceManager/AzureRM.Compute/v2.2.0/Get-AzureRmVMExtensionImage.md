@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 96828771-1e43-4f85-8a58-ea68e2d0f90a
 schema: 2.0.0
 ms.assetid: 4C206A95-E72A-4B30-84B0-2328287AD73F
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMExtensionImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMExtensionImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMExtensionImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -130,10 +130,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMExtensionImageType](.\Get-AzureRmVMExtensionImageType.md)
+[Get-AzureRmVMExtensionImageType](./Get-AzureRmVMExtensionImageType.md)
 
-[Get-AzureRmVMImage](.\Get-AzureRmVMImage.md)
+[Get-AzureRmVMImage](./Get-AzureRmVMImage.md)
 
-[Get-AzureRmVMImagePublisher](.\Get-AzureRmVMImagePublisher.md)
+[Get-AzureRmVMImagePublisher](./Get-AzureRmVMImagePublisher.md)
 
 

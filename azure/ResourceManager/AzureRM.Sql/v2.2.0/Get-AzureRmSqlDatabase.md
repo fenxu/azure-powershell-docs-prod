@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: b7abfc85-364d-4c94-bd4b-6902189bde0f
 schema: 2.0.0
 ms.assetid: 4F1BE5F2-3886-49C0-A557-537C42EFF7AA
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -196,16 +196,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmSqlDatabase](.\New-AzureRmSqlDatabase.md)
+[New-AzureRmSqlDatabase](./New-AzureRmSqlDatabase.md)
 
-[Remove-AzureRmSqlDatabase](.\Remove-AzureRmSqlDatabase.md)
+[Remove-AzureRmSqlDatabase](./Remove-AzureRmSqlDatabase.md)
 
-[Resume-AzureRmSqlDatabase](.\Resume-AzureRmSqlDatabase.md)
+[Resume-AzureRmSqlDatabase](./Resume-AzureRmSqlDatabase.md)
 
-[Set-AzureRmSqlDatabase](.\Set-AzureRmSqlDatabase.md)
+[Set-AzureRmSqlDatabase](./Set-AzureRmSqlDatabase.md)
 
-[Suspend-AzureRmSqlDatabase](.\Suspend-AzureRmSqlDatabase.md)
+[Suspend-AzureRmSqlDatabase](./Suspend-AzureRmSqlDatabase.md)
 
-[Azure SQL Database Cmdlets](.\AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
 
 

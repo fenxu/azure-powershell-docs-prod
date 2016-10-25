@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
 online version: 0a51a3cb-16af-4569-ac87-40c96124cfe9
 schema: 2.0.0
 ms.assetid: 04C63DBC-0EE7-4574-BA83-0DF024C5E5F6
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Resume-AzureRmDataFactoryPipeline.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Resume-AzureRmDataFactoryPipeline.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Resume-AzureRmDataFactoryPipeline.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -164,14 +164,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmDataFactoryPipeline](.\Get-AzureRmDataFactoryPipeline.md)
+[Get-AzureRmDataFactoryPipeline](./Get-AzureRmDataFactoryPipeline.md)
 
-[New-AzureRmDataFactoryPipeline](.\New-AzureRmDataFactoryPipeline.md)
+[New-AzureRmDataFactoryPipeline](./New-AzureRmDataFactoryPipeline.md)
 
-[Remove-AzureRmDataFactoryPipeline](.\Remove-AzureRmDataFactoryPipeline.md)
+[Remove-AzureRmDataFactoryPipeline](./Remove-AzureRmDataFactoryPipeline.md)
 
-[Set-AzureRmDataFactoryPipelineActivePeriod](.\Set-AzureRmDataFactoryPipelineActivePeriod.md)
+[Set-AzureRmDataFactoryPipelineActivePeriod](./Set-AzureRmDataFactoryPipelineActivePeriod.md)
 
-[Suspend-AzureRmDataFactoryPipeline](.\Suspend-AzureRmDataFactoryPipeline.md)
+[Suspend-AzureRmDataFactoryPipeline](./Suspend-AzureRmDataFactoryPipeline.md)
 
 

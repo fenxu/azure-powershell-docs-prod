@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 online version: b117bb77-d3d6-4ee9-9a41-f41e67ea7654
 schema: 2.0.0
 ms.assetid: 8A98AF2A-F22A-4A08-8D2C-142D964BBF9C
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Enable-AzureRmOperationalInsightsLinuxPerformanceCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Enable-AzureRmOperationalInsightsLinuxPerformanceCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Enable-AzureRmOperationalInsightsLinuxPerformanceCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -151,6 +151,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureRmOperationalInsightsLinuxPerformanceCollection](.\Disable-AzureRmOperationalInsightsLinuxPerformanceCollection.md)
+[Disable-AzureRmOperationalInsightsLinuxPerformanceCollection](./Disable-AzureRmOperationalInsightsLinuxPerformanceCollection.md)
 
 

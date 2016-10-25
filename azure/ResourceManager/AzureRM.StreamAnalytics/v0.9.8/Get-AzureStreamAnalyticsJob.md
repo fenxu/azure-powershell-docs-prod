@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
 online version: .\New-AzureStreamAnalyticsJob.md
 schema: 2.0.0
 ms.assetid: 75C00E53-CAA4-4686-A7C7-472B8F618B44
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Get-AzureStreamAnalyticsJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Get-AzureStreamAnalyticsJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Get-AzureStreamAnalyticsJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -152,12 +152,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureStreamAnalyticsJob](.\New-AzureStreamAnalyticsJob.md)
+[New-AzureStreamAnalyticsJob](./New-AzureStreamAnalyticsJob.md)
 
-[Remove-AzureStreamAnalyticsJob](.\Remove-AzureStreamAnalyticsJob.md)
+[Remove-AzureStreamAnalyticsJob](./Remove-AzureStreamAnalyticsJob.md)
 
-[Start-AzureStreamAnalyticsJob](.\Start-AzureStreamAnalyticsJob.md)
+[Start-AzureStreamAnalyticsJob](./Start-AzureStreamAnalyticsJob.md)
 
-[Stop-AzureStreamAnalyticsJob](.\Stop-AzureStreamAnalyticsJob.md)
+[Stop-AzureStreamAnalyticsJob](./Stop-AzureStreamAnalyticsJob.md)
 
 

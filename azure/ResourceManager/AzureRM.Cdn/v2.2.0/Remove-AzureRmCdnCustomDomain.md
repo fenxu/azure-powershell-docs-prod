@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
 online version: b694a78c-9262-422b-b3c0-73fca0da26b0
 schema: 2.0.0
 ms.assetid: AB9FBB55-14B4-4936-BE36-32CFE642D595
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Remove-AzureRmCdnCustomDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Remove-AzureRmCdnCustomDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Remove-AzureRmCdnCustomDomain.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -181,10 +181,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmCdnCustomDomain](.\Get-AzureRmCdnCustomDomain.md)
+[Get-AzureRmCdnCustomDomain](./Get-AzureRmCdnCustomDomain.md)
 
-[New-AzureRmCdnCustomDomain](.\New-AzureRmCdnCustomDomain.md)
+[New-AzureRmCdnCustomDomain](./New-AzureRmCdnCustomDomain.md)
 
-[Test-AzureRmCdnCustomDomain](.\Test-AzureRmCdnCustomDomain.md)
+[Test-AzureRmCdnCustomDomain](./Test-AzureRmCdnCustomDomain.md)
 
 

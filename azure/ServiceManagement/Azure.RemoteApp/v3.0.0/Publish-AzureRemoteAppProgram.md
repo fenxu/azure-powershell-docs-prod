@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: b8b2c7bc-86eb-4f3b-9a70-107ff56ae78c
 schema: 2.0.0
 ms.assetid: BCF1D6F3-D07A-4DF1-9A05-26FC64946B93
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Publish-AzureRemoteAppProgram.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Publish-AzureRemoteAppProgram.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Publish-AzureRemoteAppProgram.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -153,8 +153,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppProgram](.\Get-AzureRemoteAppProgram.md)
+[Get-AzureRemoteAppProgram](./Get-AzureRemoteAppProgram.md)
 
-[Unpublish-AzureRemoteAppProgram](.\Unpublish-AzureRemoteAppProgram.md)
+[Unpublish-AzureRemoteAppProgram](./Unpublish-AzureRemoteAppProgram.md)
 
 

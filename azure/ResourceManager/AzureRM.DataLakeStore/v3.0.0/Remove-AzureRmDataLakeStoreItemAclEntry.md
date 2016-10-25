@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 online version: b6c8a446-f83a-43b9-acac-9b185e6db962
 schema: 2.0.0
 ms.assetid: 8C4D3F64-A5EC-4E5A-8BD9-68086BAA8294
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.0.0/Remove-AzureRmDataLakeStoreItemAclEntry.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.0.0/Remove-AzureRmDataLakeStoreItemAclEntry.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.0.0/Remove-AzureRmDataLakeStoreItemAclEntry.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -188,6 +188,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmDataLakeStoreItemAclEntry](.\Set-AzureRmDataLakeStoreItemAclEntry.md)
+[Set-AzureRmDataLakeStoreItemAclEntry](./Set-AzureRmDataLakeStoreItemAclEntry.md)
 
 

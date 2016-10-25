@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageServiceMetricsProperty.md
 schema: 2.0.0
 ms.assetid: AE9762AA-8104-4BB4-A3E5-EC3B3CE748A5
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageServiceMetricsProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageServiceMetricsProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageServiceMetricsProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -195,8 +195,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageServiceMetricsProperty](.\Get-AzureStorageServiceMetricsProperty.md)
+[Get-AzureStorageServiceMetricsProperty](./Get-AzureStorageServiceMetricsProperty.md)
 
-[New-AzureStorageContext](.\New-AzureStorageContext.md)
+[New-AzureStorageContext](./New-AzureStorageContext.md)
 
 

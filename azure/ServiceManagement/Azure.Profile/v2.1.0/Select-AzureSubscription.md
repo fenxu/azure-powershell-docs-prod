@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=397628
 schema: 2.0.0
 ms.assetid: 3F21DAF8-995D-4DA4-BB2F-CED48DC39772
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Select-AzureSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Select-AzureSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Select-AzureSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -243,10 +243,10 @@ By default, it does not generate any output.
 
 ## RELATED LINKS
 
-[Get-AzureSubscription](.\Get-AzureSubscription.md)
+[Get-AzureSubscription](./Get-AzureSubscription.md)
 
-[Remove-AzureSubscription](.\Remove-AzureSubscription.md)
+[Remove-AzureSubscription](./Remove-AzureSubscription.md)
 
-[Set-AzureSubscription](.\Set-AzureSubscription.md)
+[Set-AzureSubscription](./Set-AzureSubscription.md)
 
 

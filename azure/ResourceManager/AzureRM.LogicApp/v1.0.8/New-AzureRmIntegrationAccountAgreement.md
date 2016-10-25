@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version: .\Get-AzureRmIntegrationAccountAgreement.md
 schema: 2.0.0
 ms.assetid: AC158C83-1D72-4B0A-8BD5-4998E018F456
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/New-AzureRmIntegrationAccountAgreement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/New-AzureRmIntegrationAccountAgreement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/New-AzureRmIntegrationAccountAgreement.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -315,10 +315,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmIntegrationAccountAgreement](.\Get-AzureRmIntegrationAccountAgreement.md)
+[Get-AzureRmIntegrationAccountAgreement](./Get-AzureRmIntegrationAccountAgreement.md)
 
-[Remove-AzureRmIntegrationAccountAgreement](.\Remove-AzureRmIntegrationAccountAgreement.md)
+[Remove-AzureRmIntegrationAccountAgreement](./Remove-AzureRmIntegrationAccountAgreement.md)
 
-[Set-AzureRmIntegrationAccountAgreement](.\Set-AzureRmIntegrationAccountAgreement.md)
+[Set-AzureRmIntegrationAccountAgreement](./Set-AzureRmIntegrationAccountAgreement.md)
 
 

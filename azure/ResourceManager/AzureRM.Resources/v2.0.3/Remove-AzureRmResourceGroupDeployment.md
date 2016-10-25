@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: .\Get-AzureRmResourceGroupDeployment.md
 schema: 2.0.0
 ms.assetid: D06217F8-48CC-4F15-BA7C-20C3489C7F64
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceGroupDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceGroupDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -178,12 +178,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmResourceGroupDeployment](.\Get-AzureRmResourceGroupDeployment.md)
+[Get-AzureRmResourceGroupDeployment](./Get-AzureRmResourceGroupDeployment.md)
 
-[New-AzureRmResourceGroupDeployment](.\New-AzureRmResourceGroupDeployment.md)
+[New-AzureRmResourceGroupDeployment](./New-AzureRmResourceGroupDeployment.md)
 
-[Stop-AzureRmResourceGroupDeployment](.\Stop-AzureRmResourceGroupDeployment.md)
+[Stop-AzureRmResourceGroupDeployment](./Stop-AzureRmResourceGroupDeployment.md)
 
-[Test-AzureRmResourceGroupDeployment](.\Test-AzureRmResourceGroupDeployment.md)
+[Test-AzureRmResourceGroupDeployment](./Test-AzureRmResourceGroupDeployment.md)
 
 

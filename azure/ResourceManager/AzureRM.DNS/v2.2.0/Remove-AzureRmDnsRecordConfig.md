@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 online version: 204fd229-256b-4db4-829d-3324f9b176f0
 schema: 2.0.0
 ms.assetid: 5DCDAF54-B9F3-4622-B58E-CCA597BA048C
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Remove-AzureRmDnsRecordConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Remove-AzureRmDnsRecordConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Remove-AzureRmDnsRecordConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -412,10 +412,10 @@ This cmdlet returns the modified **RecordSet** object.
 
 ## RELATED LINKS
 
-[Add-AzureRmDnsRecordConfig](.\Add-AzureRmDnsRecordConfig.md)
+[Add-AzureRmDnsRecordConfig](./Add-AzureRmDnsRecordConfig.md)
 
-[Get-AzureRmDnsRecordSet](.\Get-AzureRmDnsRecordSet.md)
+[Get-AzureRmDnsRecordSet](./Get-AzureRmDnsRecordSet.md)
 
-[Set-AzureRmDnsRecordSet](.\Set-AzureRmDnsRecordSet.md)
+[Set-AzureRmDnsRecordSet](./Set-AzureRmDnsRecordSet.md)
 
 

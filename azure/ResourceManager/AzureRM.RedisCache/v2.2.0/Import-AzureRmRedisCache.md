@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 710C4ACF-4480-4D45-A4A1-76AA19BDB65F
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Import-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Import-AzureRmRedisCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Import-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -183,14 +183,14 @@ You can pipe input to this cmdlet by property name, but not by value.
 
 ## RELATED LINKS
 
-[Export-AzureRmRedisCache](.\Export-AzureRmRedisCache.md)
+[Export-AzureRmRedisCache](./Export-AzureRmRedisCache.md)
 
-[New-AzureRmRedisCache](.\New-AzureRmRedisCache.md)
+[New-AzureRmRedisCache](./New-AzureRmRedisCache.md)
 
-[Remove-AzureRmRedisCache](.\Remove-AzureRmRedisCache.md)
+[Remove-AzureRmRedisCache](./Remove-AzureRmRedisCache.md)
 
-[Reset-AzureRmRedisCache](.\Reset-AzureRmRedisCache.md)
+[Reset-AzureRmRedisCache](./Reset-AzureRmRedisCache.md)
 
-[Set-AzureRmRedisCache](.\Set-AzureRmRedisCache.md)
+[Set-AzureRmRedisCache](./Set-AzureRmRedisCache.md)
 
 

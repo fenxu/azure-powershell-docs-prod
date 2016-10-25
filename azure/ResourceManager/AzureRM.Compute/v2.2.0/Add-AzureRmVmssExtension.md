@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: a55a15fc-ab17-416c-845d-0ee31700c7ff
 schema: 2.0.0
 ms.assetid: 7E6BD8E4-1C1E-451C-BA94-95202213474F
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVmssExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVmssExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVmssExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -200,14 +200,14 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Remove-AzureRmVmssExtension](.\Remove-AzureRmVmssExtension.md)
+[Remove-AzureRmVmssExtension](./Remove-AzureRmVmssExtension.md)
 
-[Get-AzureRmVMImagePublisher](.\Get-AzureRmVMImagePublisher.md)
+[Get-AzureRmVMImagePublisher](./Get-AzureRmVMImagePublisher.md)
 
-[Get-AzureRmVMExtensionImageType](.\Get-AzureRmVMExtensionImageType.md)
+[Get-AzureRmVMExtensionImageType](./Get-AzureRmVMExtensionImageType.md)
 
-[Get-AzureRmVMExtensionImage](.\Get-AzureRmVMExtensionImage.md)
+[Get-AzureRmVMExtensionImage](./Get-AzureRmVMExtensionImage.md)
 
-[New-AzureRmVmssConfig](.\New-AzureRmVmssConfig.md)
+[New-AzureRmVmssConfig](./New-AzureRmVmssConfig.md)
 
 

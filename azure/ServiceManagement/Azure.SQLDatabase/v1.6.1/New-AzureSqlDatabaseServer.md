@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: https://azure.microsoft.com/en-us/services/sql-database/
 schema: 2.0.0
 ms.assetid: 959C7C5D-BDE0-4F5B-9E5B-6D2F11FE6391
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -193,10 +193,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Operations for Azure SQL Databases](https://msdn.microsoft.com/en-us/library/azure/dn505719.aspx)
 
-[Get-AzureSqlDatabaseServer](.\Get-AzureSqlDatabaseServer.md)
+[Get-AzureSqlDatabaseServer](./Get-AzureSqlDatabaseServer.md)
 
-[Remove-AzureSqlDatabaseServer](.\Remove-AzureSqlDatabaseServer.md)
+[Remove-AzureSqlDatabaseServer](./Remove-AzureSqlDatabaseServer.md)
 
-[Set-AzureSqlDatabaseServer](.\Set-AzureSqlDatabaseServer.md)
+[Set-AzureSqlDatabaseServer](./Set-AzureSqlDatabaseServer.md)
 
 

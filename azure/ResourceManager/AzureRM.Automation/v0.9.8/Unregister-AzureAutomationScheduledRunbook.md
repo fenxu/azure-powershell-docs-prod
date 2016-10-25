@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Get-AzureAutomationScheduledRunbook.md
 schema: 2.0.0
 ms.assetid: 9050047A-99D4-4CFC-95B2-07A42C20D1D5
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Unregister-AzureAutomationScheduledRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Unregister-AzureAutomationScheduledRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Unregister-AzureAutomationScheduledRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -166,8 +166,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationScheduledRunbook](.\Get-AzureAutomationScheduledRunbook.md)
+[Get-AzureAutomationScheduledRunbook](./Get-AzureAutomationScheduledRunbook.md)
 
-[Register-AzureAutomationScheduledRunbook](.\Register-AzureAutomationScheduledRunbook.md)
+[Register-AzureAutomationScheduledRunbook](./Register-AzureAutomationScheduledRunbook.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: .\Stop-AzureWebsite.md
 schema: 2.0.0
 ms.assetid: 74916563-0EE6-4ED1-87C5-99625DC36B11
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Stop-AzureWebsiteJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Stop-AzureWebsiteJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Stop-AzureWebsiteJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -129,14 +129,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Stop-AzureWebsite](.\Stop-AzureWebsite.md)
+[Stop-AzureWebsite](./Stop-AzureWebsite.md)
 
-[Get-AzureWebsiteJob](.\Get-AzureWebsiteJob.md)
+[Get-AzureWebsiteJob](./Get-AzureWebsiteJob.md)
 
-[New-AzureWebsiteJob](.\New-AzureWebsiteJob.md)
+[New-AzureWebsiteJob](./New-AzureWebsiteJob.md)
 
-[Remove-AzureWebsiteJob](.\Remove-AzureWebsiteJob.md)
+[Remove-AzureWebsiteJob](./Remove-AzureWebsiteJob.md)
 
-[Start-AzureWebsiteJob](.\Start-AzureWebsiteJob.md)
+[Start-AzureWebsiteJob](./Start-AzureWebsiteJob.md)
 
 

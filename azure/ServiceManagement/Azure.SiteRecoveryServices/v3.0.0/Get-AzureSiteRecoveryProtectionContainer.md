@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: ccb0c92f-0240-43c7-a061-eaad6953ae4a
 schema: 2.0.0
 ms.assetid: 0292D567-DC64-45CB-9CA1-73D5EDECA5D7
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryProtectionContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryProtectionContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryProtectionContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -119,6 +119,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Azure Site Recovery Services Cmdlets](.\Azure.SiteRecoveryServices.md)
+[Azure Site Recovery Services Cmdlets](./Azure.SiteRecoveryServices.md)
 
 

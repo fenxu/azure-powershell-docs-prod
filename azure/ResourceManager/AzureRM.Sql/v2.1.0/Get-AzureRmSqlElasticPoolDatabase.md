@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: .\Get-AzureRmSqlElasticPool.md
 schema: 2.0.0
 ms.assetid: FF902401-AC84-447E-AAD9-D8C50D08B1F1
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlElasticPoolDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlElasticPoolDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlElasticPoolDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -179,16 +179,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlElasticPool](.\Get-AzureRmSqlElasticPool.md)
+[Get-AzureRmSqlElasticPool](./Get-AzureRmSqlElasticPool.md)
 
-[Get-AzureRmSqlElasticPoolActivity](.\Get-AzureRmSqlElasticPoolActivity.md)
+[Get-AzureRmSqlElasticPoolActivity](./Get-AzureRmSqlElasticPoolActivity.md)
 
-[New-AzureRmSqlElasticPool](.\New-AzureRmSqlElasticPool.md)
+[New-AzureRmSqlElasticPool](./New-AzureRmSqlElasticPool.md)
 
-[Remove-AzureRmSqlElasticPool](.\Remove-AzureRmSqlElasticPool.md)
+[Remove-AzureRmSqlElasticPool](./Remove-AzureRmSqlElasticPool.md)
 
-[Set-AzureRmSqlElasticPool](.\Set-AzureRmSqlElasticPool.md)
+[Set-AzureRmSqlElasticPool](./Set-AzureRmSqlElasticPool.md)
 
-[Azure SQL Database Cmdlets](.\AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
 
 

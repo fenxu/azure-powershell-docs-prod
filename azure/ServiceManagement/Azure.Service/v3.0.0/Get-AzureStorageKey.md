@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 6e190d23-9704-4bdf-8595-7f5946eb3d72
 schema: 2.0.0
 ms.assetid: 23023ECA-E637-4DC5-8130-606DE5CD6542
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureStorageKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureStorageKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureStorageKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -91,14 +91,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageAccount](.\Get-AzureStorageAccount.md)
+[Get-AzureStorageAccount](./Get-AzureStorageAccount.md)
 
-[New-AzureStorageAccount](.\New-AzureStorageAccount.md)
+[New-AzureStorageAccount](./New-AzureStorageAccount.md)
 
-[New-AzureStorageKey](.\New-AzureStorageKey.md)
+[New-AzureStorageKey](./New-AzureStorageKey.md)
 
-[Remove-AzureStorageAccount](.\Remove-AzureStorageAccount.md)
+[Remove-AzureStorageAccount](./Remove-AzureStorageAccount.md)
 
-[Set-AzureStorageAccount](.\Set-AzureStorageAccount.md)
+[Set-AzureStorageAccount](./Set-AzureStorageAccount.md)
 
 

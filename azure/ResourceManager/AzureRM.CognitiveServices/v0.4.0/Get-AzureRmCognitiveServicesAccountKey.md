@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Management.CognitiveServices.dll-He
 online version: 1e78f31c-c3cc-4970-a7de-02433b366c69
 schema: 2.0.0
 ms.assetid: 35F33DDA-691E-4D12-A585-D9525DD0B721
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.0/Get-AzureRmCognitiveServicesAccountKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.0/Get-AzureRmCognitiveServicesAccountKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.0/Get-AzureRmCognitiveServicesAccountKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -86,6 +86,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmCognitiveServicesAccountKey](.\New-AzureRmCognitiveServicesAccountKey.md)
+[New-AzureRmCognitiveServicesAccountKey](./New-AzureRmCognitiveServicesAccountKey.md)
 
 

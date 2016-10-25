@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
 online version: 8350c2ef-e464-45f0-8d73-529d254fb031
 schema: 2.0.0
 ms.assetid: 8350C2EF-E464-45F0-8D73-529D254FB031
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/New-AzureRmDataFactoryEncryptValue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/New-AzureRmDataFactoryEncryptValue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/New-AzureRmDataFactoryEncryptValue.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -313,6 +313,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmDataFactoryEncryptValue](.\New-AzureRmDataFactoryEncryptValue.md)
+[New-AzureRmDataFactoryEncryptValue](./New-AzureRmDataFactoryEncryptValue.md)
 
 

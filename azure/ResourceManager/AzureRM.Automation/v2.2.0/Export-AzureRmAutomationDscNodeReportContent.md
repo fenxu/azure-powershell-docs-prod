@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 0bfb6a70-3a4a-4e58-a0b9-e41eb52a90ef
 schema: 2.0.0
 ms.assetid: 0BFB6A70-3A4A-4E58-A0B9-E41EB52A90EF
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Export-AzureRmAutomationDscNodeReportContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Export-AzureRmAutomationDscNodeReportContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Export-AzureRmAutomationDscNodeReportContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -177,10 +177,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmAutomationDscNodeReportContent](.\Export-AzureRmAutomationDscNodeReportContent.md)
+[Export-AzureRmAutomationDscNodeReportContent](./Export-AzureRmAutomationDscNodeReportContent.md)
 
-[Get-AzureRmAutomationDscNode](.\Get-AzureRmAutomationDscNode.md)
+[Get-AzureRmAutomationDscNode](./Get-AzureRmAutomationDscNode.md)
 
-[Get-AzureRmAutomationDscNodeReport](.\Get-AzureRmAutomationDscNodeReport.md)
+[Get-AzureRmAutomationDscNodeReport](./Get-AzureRmAutomationDscNodeReport.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version: .\Get-AzureRmLogicAppRunAction.md
 schema: 2.0.0
 ms.assetid: 15439DBC-C039-41E5-BCD4-D0600B19A711
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmLogicAppRunHistory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmLogicAppRunHistory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmLogicAppRunHistory.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -176,10 +176,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmLogicAppRunAction](.\Get-AzureRmLogicAppRunAction.md)
+[Get-AzureRmLogicAppRunAction](./Get-AzureRmLogicAppRunAction.md)
 
-[Start-AzureRmLogicApp](.\Start-AzureRmLogicApp.md)
+[Start-AzureRmLogicApp](./Start-AzureRmLogicApp.md)
 
-[Stop-AzureRmLogicAppRun](.\Stop-AzureRmLogicAppRun.md)
+[Stop-AzureRmLogicAppRun](./Stop-AzureRmLogicAppRun.md)
 
 

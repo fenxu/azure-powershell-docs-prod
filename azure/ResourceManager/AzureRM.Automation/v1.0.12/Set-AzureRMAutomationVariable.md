@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Get-AzureRMAutomationVariable.md
 schema: 2.0.0
 ms.assetid: 3BC5445E-7884-4DAB-B00D-3BDFED9F05C5
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRMAutomationVariable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRMAutomationVariable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRMAutomationVariable.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -154,10 +154,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationVariable](.\Get-AzureRMAutomationVariable.md)
+[Get-AzureRmAutomationVariable](./Get-AzureRMAutomationVariable.md)
 
-[New-AzureRmAutomationVariable](.\New-AzureRMAutomationVariable.md)
+[New-AzureRmAutomationVariable](./New-AzureRMAutomationVariable.md)
 
-[Remove-AzureRmAutomationVariable](.\Remove-AzureRMAutomationVariable.md)
+[Remove-AzureRmAutomationVariable](./Remove-AzureRMAutomationVariable.md)
 
 

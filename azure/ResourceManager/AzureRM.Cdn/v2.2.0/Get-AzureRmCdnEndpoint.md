@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
 online version: 9ad628ed-bc70-4984-9f20-24ea08069857
 schema: 2.0.0
 ms.assetid: 9D5E11BF-1D9D-4E4E-9256-8B19BBA68464
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Get-AzureRmCdnEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Get-AzureRmCdnEndpoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Get-AzureRmCdnEndpoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -121,14 +121,14 @@ This cmdlet returns an endpoint object.
 
 ## RELATED LINKS
 
-[New-AzureRmCdnEndpoint](.\New-AzureRmCdnEndpoint.md)
+[New-AzureRmCdnEndpoint](./New-AzureRmCdnEndpoint.md)
 
-[Remove-AzureRmCdnEndpoint](.\Remove-AzureRmCdnEndpoint.md)
+[Remove-AzureRmCdnEndpoint](./Remove-AzureRmCdnEndpoint.md)
 
-[Set-AzureRmCdnEndpoint](.\Set-AzureRmCdnEndpoint.md)
+[Set-AzureRmCdnEndpoint](./Set-AzureRmCdnEndpoint.md)
 
-[Start-AzureRmCdnEndpoint](.\Start-AzureRmCdnEndpoint.md)
+[Start-AzureRmCdnEndpoint](./Start-AzureRmCdnEndpoint.md)
 
-[Stop-AzureRmCdnEndpoint](.\Stop-AzureRmCdnEndpoint.md)
+[Stop-AzureRmCdnEndpoint](./Stop-AzureRmCdnEndpoint.md)
 
 

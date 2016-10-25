@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
 online version: b077c7b4-e0b1-4060-8d9f-a628ae04fbe9
 schema: 2.0.0
 ms.assetid: 40F0E3CF-4A4A-4AFF-AC37-E7599C20A3F2
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/New-AzureRmDataFactoryGatewayKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/New-AzureRmDataFactoryGatewayKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/New-AzureRmDataFactoryGatewayKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -129,6 +129,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmDataFactoryGateway](.\New-AzureRmDataFactoryGateway.md)
+[New-AzureRmDataFactoryGateway](./New-AzureRmDataFactoryGateway.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 0C2A5092-DB45-4CE7-B39B-D1E499B4A867
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsite.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -164,14 +164,14 @@ When you use the **Name** parameter, **Get-AzureWebsite** returns a **SiteWithCo
 
 ## RELATED LINKS
 
-[New-AzureWebsite](.\New-AzureWebsite.md)
+[New-AzureWebsite](./New-AzureWebsite.md)
 
-[Remove-AzureWebsite](.\Remove-AzureWebsite.md)
+[Remove-AzureWebsite](./Remove-AzureWebsite.md)
 
-[Start-AzureWebsite](.\Start-AzureWebsite.md)
+[Start-AzureWebsite](./Start-AzureWebsite.md)
 
-[Stop-AzureWebsite](.\Stop-AzureWebsite.md)
+[Stop-AzureWebsite](./Stop-AzureWebsite.md)
 
-[Show-AzureWebsite](.\Show-AzureWebsite.md)
+[Show-AzureWebsite](./Show-AzureWebsite.md)
 
 

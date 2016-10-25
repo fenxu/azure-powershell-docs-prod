@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Remove-AzureNetworkSecurityGroupConfig.md
 schema: 2.0.0
 ms.assetid: 091667E5-A68C-4155-BD33-ED92CF3934A7
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureNetworkSecurityGroupConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureNetworkSecurityGroupConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureNetworkSecurityGroupConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -119,6 +119,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureNetworkSecurityGroupConfig](.\Remove-AzureNetworkSecurityGroupConfig.md)
+[Remove-AzureNetworkSecurityGroupConfig](./Remove-AzureNetworkSecurityGroupConfig.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: ad84b9ee-19ba-4e0f-8b96-0b0ea374885c
 schema: 2.0.0
 ms.assetid: E7D50CA3-1316-4F9F-BAEC-FED95AA24322
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Move-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Move-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Move-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -180,14 +180,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Find-AzureRmResource](.\Find-AzureRmResource.md)
+[Find-AzureRmResource](./Find-AzureRmResource.md)
 
-[Get-AzureRmResource](.\Get-AzureRmResource.md)
+[Get-AzureRmResource](./Get-AzureRmResource.md)
 
-[New-AzureRmResource](.\New-AzureRmResource.md)
+[New-AzureRmResource](./New-AzureRmResource.md)
 
-[Remove-AzureRmResource](.\Remove-AzureRmResource.md)
+[Remove-AzureRmResource](./Remove-AzureRmResource.md)
 
-[Set-AzureRmResource](.\Set-AzureRmResource.md)
+[Set-AzureRmResource](./Set-AzureRmResource.md)
 
 

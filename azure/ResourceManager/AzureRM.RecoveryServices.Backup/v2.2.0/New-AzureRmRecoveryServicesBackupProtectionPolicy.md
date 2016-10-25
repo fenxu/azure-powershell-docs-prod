@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xm
 online version: 10b88fc1-b29c-4c2b-8348-c1b5c1419d14
 schema: 2.0.0
 ms.assetid: ABB9DED5-A932-4949-8CD1-6835B607FA67
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.2.0/New-AzureRmRecoveryServicesBackupProtectionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.2.0/New-AzureRmRecoveryServicesBackupProtectionPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.2.0/New-AzureRmRecoveryServicesBackupProtectionPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -165,16 +165,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureRmRecoveryServicesBackupProtection](.\Enable-AzureRmRecoveryServicesBackupProtection.md)
+[Enable-AzureRmRecoveryServicesBackupProtection](./Enable-AzureRmRecoveryServicesBackupProtection.md)
 
-[Get-AzureRmRecoveryServicesBackupProtectionPolicy](.\Get-AzureRmRecoveryServicesBackupProtectionPolicy.md)
+[Get-AzureRmRecoveryServicesBackupProtectionPolicy](./Get-AzureRmRecoveryServicesBackupProtectionPolicy.md)
 
-[Get-AzureRmRecoveryServicesBackupRetentionPolicyObject](.\Get-AzureRmRecoveryServicesBackupRetentionPolicyObject.md)
+[Get-AzureRmRecoveryServicesBackupRetentionPolicyObject](./Get-AzureRmRecoveryServicesBackupRetentionPolicyObject.md)
 
-[Get-AzureRmRecoveryServicesBackupSchedulePolicyObject](.\Get-AzureRmRecoveryServicesBackupSchedulePolicyObject.md)
+[Get-AzureRmRecoveryServicesBackupSchedulePolicyObject](./Get-AzureRmRecoveryServicesBackupSchedulePolicyObject.md)
 
-[Remove-AzureRmRecoveryServicesBackupProtectionPolicy](.\Remove-AzureRmRecoveryServicesBackupProtectionPolicy.md)
+[Remove-AzureRmRecoveryServicesBackupProtectionPolicy](./Remove-AzureRmRecoveryServicesBackupProtectionPolicy.md)
 
-[Set-AzureRmRecoveryServicesBackupProtectionPolicy](.\Set-AzureRmRecoveryServicesBackupProtectionPolicy.md)
+[Set-AzureRmRecoveryServicesBackupProtectionPolicy](./Set-AzureRmRecoveryServicesBackupProtectionPolicy.md)
 
 

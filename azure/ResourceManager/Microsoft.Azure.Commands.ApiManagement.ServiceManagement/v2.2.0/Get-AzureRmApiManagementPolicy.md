@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 466afb8c-c272-4a4f-8e13-a4dbd6ee3a85
 schema: 2.0.0
 ms.assetid: 7BCEB0EF-1A09-4CED-9F34-CE3AB03181A7
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -237,8 +237,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureRmApiManagementPolicy](.\Remove-AzureRmApiManagementPolicy.md)
+[Remove-AzureRmApiManagementPolicy](./Remove-AzureRmApiManagementPolicy.md)
 
-[Set-AzureRmApiManagementPolicy](.\Set-AzureRmApiManagementPolicy.md)
+[Set-AzureRmApiManagementPolicy](./Set-AzureRmApiManagementPolicy.md)
 
 

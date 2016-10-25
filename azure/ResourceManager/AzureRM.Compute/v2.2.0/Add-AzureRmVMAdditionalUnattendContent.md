@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: ca32a23b-631a-4c8c-a045-719e7feef2cc
 schema: 2.0.0
 ms.assetid: C4F0EE47-E31F-4474-8E5D-0EF8DABB3433
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVMAdditionalUnattendContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVMAdditionalUnattendContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVMAdditionalUnattendContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -127,10 +127,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAvailabilitySet](.\Get-AzureRmAvailabilitySet.md)
+[Get-AzureRmAvailabilitySet](./Get-AzureRmAvailabilitySet.md)
 
-[Set-AzureRmVMOperatingSystem](.\Set-AzureRmVMOperatingSystem.md)
+[Set-AzureRmVMOperatingSystem](./Set-AzureRmVMOperatingSystem.md)
 
-[New-AzureRmVMConfig](.\New-AzureRmVMConfig.md)
+[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)
 
 

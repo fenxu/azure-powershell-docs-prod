@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 online version: .\New-AzureAutomationVariable.md
 schema: 2.0.0
 ms.assetid: C606DCB3-DB9B-4229-9B5E-5712A23E872C
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Get-AzureAutomationVariable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Get-AzureAutomationVariable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Get-AzureAutomationVariable.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -110,10 +110,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureAutomationVariable](.\New-AzureAutomationVariable.md)
+[New-AzureAutomationVariable](./New-AzureAutomationVariable.md)
 
-[Remove-AzureAutomationVariable](.\Remove-AzureAutomationVariable.md)
+[Remove-AzureAutomationVariable](./Remove-AzureAutomationVariable.md)
 
-[Set-AzureAutomationVariable](.\Set-AzureAutomationVariable.md)
+[Set-AzureAutomationVariable](./Set-AzureAutomationVariable.md)
 
 

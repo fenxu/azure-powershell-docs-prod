@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: a957d7c7-30cf-4505-93b0-a4c013a4406c
 schema: 2.0.0
 ms.assetid: B8EF3FCC-D7FB-45C0-85B8-9C1CADAB80FF
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/New-AzureRMWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/New-AzureRMWebAppSlot.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/New-AzureRMWebAppSlot.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -200,20 +200,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRMWebAppSlot](.\Get-AzureRMWebAppSlot.md)
+[Get-AzureRMWebAppSlot](./Get-AzureRMWebAppSlot.md)
 
-[Remove-AzureRMWebAppSlot](.\Remove-AzureRMWebAppSlot.md)
+[Remove-AzureRMWebAppSlot](./Remove-AzureRMWebAppSlot.md)
 
-[Restart-AzureRMWebAppSlot](.\Restart-AzureRMWebAppSlot.md)
+[Restart-AzureRMWebAppSlot](./Restart-AzureRMWebAppSlot.md)
 
-[Set-AzureRMWebAppSlot](.\Set-AzureRMWebAppSlot.md)
+[Set-AzureRMWebAppSlot](./Set-AzureRMWebAppSlot.md)
 
-[Start-AzureRMWebAppSlot](.\Start-AzureRMWebAppSlot.md)
+[Start-AzureRMWebAppSlot](./Start-AzureRMWebAppSlot.md)
 
-[Stop-AzureRMWebAppSlot](.\Stop-AzureRMWebAppSlot.md)
+[Stop-AzureRMWebAppSlot](./Stop-AzureRMWebAppSlot.md)
 
-[Get-AzureRmAppServicePlan](.\Get-AzureRmAppServicePlan.md)
+[Get-AzureRmAppServicePlan](./Get-AzureRmAppServicePlan.md)
 
-[Get-AzureRmWebApp](.\Get-AzureRmWebApp.md)
+[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 online version: c31ceacf-025c-4568-a813-1a6e57a7dd23
 schema: 2.0.0
 ms.assetid: 86F49E8B-272D-4786-BCC5-B1C64354F36B
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Set-AzureRmOperationalInsightsDataSource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Set-AzureRmOperationalInsightsDataSource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Set-AzureRmOperationalInsightsDataSource.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -66,8 +66,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmOperationalInsightsDataSource](.\Get-AzureRmOperationalInsightsDataSource.md)
+[Get-AzureRmOperationalInsightsDataSource](./Get-AzureRmOperationalInsightsDataSource.md)
 
-[Remove-AzureRmOperationalInsightsDataSource](.\Remove-AzureRmOperationalInsightsDataSource.md)
+[Remove-AzureRmOperationalInsightsDataSource](./Remove-AzureRmOperationalInsightsDataSource.md)
 
 

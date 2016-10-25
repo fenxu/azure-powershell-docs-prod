@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
 online version: .\Publish-AzureRmCdnEndpointContent.md
 schema: 2.0.0
 ms.assetid: C101398F-75B3-44D9-B07A-38405B748EA7
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Unpublish-AzureRmCdnEndpointContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Unpublish-AzureRmCdnEndpointContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Unpublish-AzureRmCdnEndpointContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -213,6 +213,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Publish-AzureRmCdnEndpointContent](.\Publish-AzureRmCdnEndpointContent.md)
+[Publish-AzureRmCdnEndpointContent](./Publish-AzureRmCdnEndpointContent.md)
 
 

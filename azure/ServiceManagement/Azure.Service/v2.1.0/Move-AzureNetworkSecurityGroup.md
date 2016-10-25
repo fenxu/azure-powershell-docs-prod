@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Move-AzureReservedIP.md
 schema: 2.0.0
 ms.assetid: 51C57DD6-3A1A-438C-89CF-997A46CB4808
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Move-AzureNetworkSecurityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Move-AzureNetworkSecurityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Move-AzureNetworkSecurityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -227,14 +227,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Move-AzureReservedIP](.\Move-AzureReservedIP.md)
+[Move-AzureReservedIP](./Move-AzureReservedIP.md)
 
-[Move-AzureRouteTable](.\Move-AzureRouteTable.md)
+[Move-AzureRouteTable](./Move-AzureRouteTable.md)
 
-[Move-AzureService](.\Move-AzureService.md)
+[Move-AzureService](./Move-AzureService.md)
 
-[Move-AzureStorageAccount](.\Move-AzureStorageAccount.md)
+[Move-AzureStorageAccount](./Move-AzureStorageAccount.md)
 
-[Move-AzureVirtualNetwork](.\Move-AzureVirtualNetwork.md)
+[Move-AzureVirtualNetwork](./Move-AzureVirtualNetwork.md)
 
 

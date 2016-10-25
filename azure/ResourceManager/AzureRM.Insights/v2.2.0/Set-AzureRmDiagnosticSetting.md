@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Insights.dll-Help.xml
 online version: fac35fbb-fa37-4cbe-8cdf-61c91ca7a39e
 schema: 2.0.0
 ms.assetid: 67810F79-AD11-491E-9D70-F3F3DA2E79D1
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Set-AzureRmDiagnosticSetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Set-AzureRmDiagnosticSetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Set-AzureRmDiagnosticSetting.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -219,6 +219,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmDiagnosticSetting](.\Get-AzureRmDiagnosticSetting.md)
+[Get-AzureRmDiagnosticSetting](./Get-AzureRmDiagnosticSetting.md)
 
 

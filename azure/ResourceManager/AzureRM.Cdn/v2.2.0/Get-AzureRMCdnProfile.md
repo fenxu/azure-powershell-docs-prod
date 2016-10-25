@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
 online version: 64b16ef7-7572-4d48-a290-074b6ea330aa
 schema: 2.0.0
 ms.assetid: 998C068D-4164-46D1-AF3F-B4E66C38ACF4
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Get-AzureRMCdnProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Get-AzureRMCdnProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Get-AzureRMCdnProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -83,10 +83,10 @@ This cmdlet returns a profile object.
 
 ## RELATED LINKS
 
-[New-AzureRmCdnProfile](.\New-AzureRmCdnProfile.md)
+[New-AzureRmCdnProfile](./New-AzureRmCdnProfile.md)
 
-[Remove-AzureRmCdnProfile](.\Remove-AzureRmCdnProfile.md)
+[Remove-AzureRmCdnProfile](./Remove-AzureRmCdnProfile.md)
 
-[Set-AzureRmCdnProfile](.\Set-AzureRmCdnProfile.md)
+[Set-AzureRmCdnProfile](./Set-AzureRmCdnProfile.md)
 
 

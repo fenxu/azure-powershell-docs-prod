@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: 9efdf497-01a4-42db-8807-f4f0099c2656
 schema: 2.0.0
 ms.assetid: 73FF9678-AA1F-4D0B-B2EA-09A26A7A9B21
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Set-AzureBatchPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Set-AzureBatchPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Set-AzureBatchPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -93,14 +93,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureBatchPool](.\Get-AzureBatchPool.md)
+[Get-AzureBatchPool](./Get-AzureBatchPool.md)
 
-[Get-AzureRmBatchAccountKeys](.\Get-AzureRmBatchAccountKeys.md)
+[Get-AzureRmBatchAccountKeys](./Get-AzureRmBatchAccountKeys.md)
 
-[New-AzureBatchPool](.\New-AzureBatchPool.md)
+[New-AzureBatchPool](./New-AzureBatchPool.md)
 
-[Remove-AzureBatchPool](.\Remove-AzureBatchPool.md)
+[Remove-AzureBatchPool](./Remove-AzureBatchPool.md)
 
-[Azure Batch Cmdlets](.\AzureRM.Batch.md)
+[Azure Batch Cmdlets](./AzureRM.Batch.md)
 
 

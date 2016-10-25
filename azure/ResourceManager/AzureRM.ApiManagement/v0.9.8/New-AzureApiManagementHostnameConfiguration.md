@@ -4,7 +4,7 @@ online version: .\Import-AzureApiManagementHostnameCertificate.md
 schema: 2.0.0
 ms.assetid: 8E456155-0399-4049-A832-A5A1D64C6FA0
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/New-AzureApiManagementHostnameConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/New-AzureApiManagementHostnameConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/New-AzureApiManagementHostnameConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -99,8 +99,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Import-AzureApiManagementHostnameCertificate](.\Import-AzureApiManagementHostnameCertificate.md)
+[Import-AzureApiManagementHostnameCertificate](./Import-AzureApiManagementHostnameCertificate.md)
 
-[Set-AzureApiManagementHostnames](.\Set-AzureApiManagementHostnames.md)
+[Set-AzureApiManagementHostnames](./Set-AzureApiManagementHostnames.md)
 
 

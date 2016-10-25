@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: f5c53916-358d-43ef-813a-2c07aca69fd3
 schema: 2.0.0
 ms.assetid: 2744DAFD-39E5-4FD0-8C22-5686EC198C77
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Enable-AzureBatchJobSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Enable-AzureBatchJobSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Enable-AzureBatchJobSchedule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -85,18 +85,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureBatchJobSchedule](.\Disable-AzureBatchJobSchedule.md)
+[Disable-AzureBatchJobSchedule](./Disable-AzureBatchJobSchedule.md)
 
-[Get-AzureRmBatchAccountKeys](.\Get-AzureRmBatchAccountKeys.md)
+[Get-AzureRmBatchAccountKeys](./Get-AzureRmBatchAccountKeys.md)
 
-[Get-AzureBatchJobSchedule](.\Get-AzureBatchJobSchedule.md)
+[Get-AzureBatchJobSchedule](./Get-AzureBatchJobSchedule.md)
 
-[New-AzureBatchJobSchedule](.\New-AzureBatchJobSchedule.md)
+[New-AzureBatchJobSchedule](./New-AzureBatchJobSchedule.md)
 
-[Remove-AzureBatchJobSchedule](.\Remove-AzureBatchJobSchedule.md)
+[Remove-AzureBatchJobSchedule](./Remove-AzureBatchJobSchedule.md)
 
-[Stop-AzureBatchJobSchedule](.\Stop-AzureBatchJobSchedule.md)
+[Stop-AzureBatchJobSchedule](./Stop-AzureBatchJobSchedule.md)
 
-[Azure Batch Cmdlets](.\AzureRM.Batch.md)
+[Azure Batch Cmdlets](./AzureRM.Batch.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version: 1946ef4f-5cea-49f4-8778-c02a926bd4ff
 schema: 2.0.0
 ms.assetid: 4A4D56D6-32BA-42F1-8B02-60AD08F0D3F9
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Remove-AzureRmIntegrationAccountPartner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Remove-AzureRmIntegrationAccountPartner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Remove-AzureRmIntegrationAccountPartner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -151,10 +151,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmIntegrationAccountPartner](.\Get-AzureRmIntegrationAccountPartner.md)
+[Get-AzureRmIntegrationAccountPartner](./Get-AzureRmIntegrationAccountPartner.md)
 
-[New-AzureRmIntegrationAccountPartner](.\New-AzureRmIntegrationAccountPartner.md)
+[New-AzureRmIntegrationAccountPartner](./New-AzureRmIntegrationAccountPartner.md)
 
-[Set-AzureRmIntegrationAccountPartner](.\Set-AzureRmIntegrationAccountPartner.md)
+[Set-AzureRmIntegrationAccountPartner](./Set-AzureRmIntegrationAccountPartner.md)
 
 

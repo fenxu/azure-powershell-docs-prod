@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: .\Get-AzureRmBackupContainer.md
 schema: 2.0.0
 ms.assetid: F5F98D01-86C1-4BDC-A72F-D9C8EFAA6414
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.1.0/Unregister-AzureRmBackupContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.1.0/Unregister-AzureRmBackupContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.1.0/Unregister-AzureRmBackupContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -145,10 +145,10 @@ This cmdlet returns $Null if the container type is Windows Server.
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupContainer](.\Get-AzureRmBackupContainer.md)
+[Get-AzureRmBackupContainer](./Get-AzureRmBackupContainer.md)
 
-[Get-AzureRmBackupVault](.\Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
 
-[Register-AzureRmBackupContainer](.\Register-AzureRmBackupContainer.md)
+[Register-AzureRmBackupContainer](./Register-AzureRmBackupContainer.md)
 
 

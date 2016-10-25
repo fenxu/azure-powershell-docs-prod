@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 online version: b5a63f24-76b7-440c-8d5a-6362849afc20
 schema: 2.0.0
 ms.assetid: E00896E4-38EC-40A4-AD6A-694BC1A9FE2C
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Remove-AzureRmDnsZone.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Remove-AzureRmDnsZone.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Remove-AzureRmDnsZone.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -212,10 +212,10 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Get-AzureRmDnsZone](.\Get-AzureRmDnsZone.md)
+[Get-AzureRmDnsZone](./Get-AzureRmDnsZone.md)
 
-[New-AzureRmDnsZone](.\New-AzureRmDnsZone.md)
+[New-AzureRmDnsZone](./New-AzureRmDnsZone.md)
 
-[Set-AzureRmDnsZone](.\Set-AzureRmDnsZone.md)
+[Set-AzureRmDnsZone](./Set-AzureRmDnsZone.md)
 
 

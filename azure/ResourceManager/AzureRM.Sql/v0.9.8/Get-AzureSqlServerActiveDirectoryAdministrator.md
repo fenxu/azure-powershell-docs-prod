@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: .\Remove-AzureSqlServerActiveDirectoryAdministrator.md
 schema: 2.0.0
 ms.assetid: 76A7344B-D8AE-4F41-9ACC-FA71E7FF7C90
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlServerActiveDirectoryAdministrator.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlServerActiveDirectoryAdministrator.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlServerActiveDirectoryAdministrator.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -108,8 +108,8 @@ Microsoft.Azure.Commands.Sql.ServerActiveDirectoryAdministrator.Model.AzureSqlSe
 
 ## RELATED LINKS
 
-[Remove-AzureSqlServerActiveDirectoryAdministrator](.\Remove-AzureSqlServerActiveDirectoryAdministrator.md)
+[Remove-AzureSqlServerActiveDirectoryAdministrator](./Remove-AzureSqlServerActiveDirectoryAdministrator.md)
 
-[Set-AzureSqlServerActiveDirectoryAdministrator](.\Set-AzureSqlServerActiveDirectoryAdministrator.md)
+[Set-AzureSqlServerActiveDirectoryAdministrator](./Set-AzureSqlServerActiveDirectoryAdministrator.md)
 
 

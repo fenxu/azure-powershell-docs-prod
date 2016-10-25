@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
 online version: d5202b22-4dd3-446b-9208-7f04ece3c398
 schema: 2.0.0
 ms.assetid: 751287EF-97BF-492B-8EE0-7D9C0D60B33E
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/Get-AzureRmEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/Get-AzureRmEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/Get-AzureRmEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -65,10 +65,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmEnvironment](.\Add-AzureRmEnvironment.md)
+[Add-AzureRmEnvironment](./Add-AzureRmEnvironment.md)
 
-[Remove-AzureRmEnvironment](.\Remove-AzureRmEnvironment.md)
+[Remove-AzureRmEnvironment](./Remove-AzureRmEnvironment.md)
 
-[Set-AzureRmEnvironment](.\Set-AzureRmEnvironment.md)
+[Set-AzureRmEnvironment](./Set-AzureRmEnvironment.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 7e2d3105-ae14-40c6-a715-57d63c178cde
 schema: 2.0.0
 ms.assetid: 4316D596-2954-42E8-905F-840853DAB7D5
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -168,10 +168,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationCertificate](.\Get-AzureRMAutomationCertificate.md)
+[Get-AzureRmAutomationCertificate](./Get-AzureRMAutomationCertificate.md)
 
-[Remove-AzureRmAutomationCertificate](.\Remove-AzureRMAutomationCertificate.md)
+[Remove-AzureRmAutomationCertificate](./Remove-AzureRMAutomationCertificate.md)
 
-[Set-AzureRmAutomationCertificate](.\Set-AzureRMAutomationCertificate.md)
+[Set-AzureRmAutomationCertificate](./Set-AzureRMAutomationCertificate.md)
 
 

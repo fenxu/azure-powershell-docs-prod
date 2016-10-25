@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: d175417c-d3e6-4a59-896d-9abccac8de27
 schema: 2.0.0
 ms.assetid: 5DF104B4-68E6-4677-9A83-D1EEC943436E
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmVirtualNetworkPeering.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmVirtualNetworkPeering.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmVirtualNetworkPeering.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -129,10 +129,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmVirtualNetworkPeering](.\Add-AzureRmVirtualNetworkPeering.md)
+[Add-AzureRmVirtualNetworkPeering](./Add-AzureRmVirtualNetworkPeering.md)
 
-[Get-AzureRmVirtualNetworkPeering](.\Get-AzureRmVirtualNetworkPeering.md)
+[Get-AzureRmVirtualNetworkPeering](./Get-AzureRmVirtualNetworkPeering.md)
 
-[Remove-AzureRmVirtualNetworkPeering](.\Remove-AzureRmVirtualNetworkPeering.md)
+[Remove-AzureRmVirtualNetworkPeering](./Remove-AzureRmVirtualNetworkPeering.md)
 
 

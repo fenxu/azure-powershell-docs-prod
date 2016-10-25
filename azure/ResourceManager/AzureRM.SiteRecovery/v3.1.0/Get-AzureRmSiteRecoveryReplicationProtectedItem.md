@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 79d2b0ac-b489-441b-b39a-b86a9cac1e81
 schema: 2.0.0
 ms.assetid: 25883B96-1479-4AD1-80B3-667B596A7394
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryReplicationProtectedItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryReplicationProtectedItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryReplicationProtectedItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -131,10 +131,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmSiteRecoveryReplicationProtectedItem](.\New-AzureRmSiteRecoveryReplicationProtectedItem.md)
+[New-AzureRmSiteRecoveryReplicationProtectedItem](./New-AzureRmSiteRecoveryReplicationProtectedItem.md)
 
-[Remove-AzureRmSiteRecoveryReplicationProtectedItem](.\Remove-AzureRmSiteRecoveryReplicationProtectedItem.md)
+[Remove-AzureRmSiteRecoveryReplicationProtectedItem](./Remove-AzureRmSiteRecoveryReplicationProtectedItem.md)
 
-[Set-AzureRmSiteRecoveryReplicationProtectedItem](.\Set-AzureRmSiteRecoveryReplicationProtectedItem.md)
+[Set-AzureRmSiteRecoveryReplicationProtectedItem](./Set-AzureRmSiteRecoveryReplicationProtectedItem.md)
 
 

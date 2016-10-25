@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
 online version: 546171cd-77ce-4752-861f-2ab5f88b13ca
 schema: 2.0.0
 ms.assetid: 6B0466C4-A412-4D74-92FD-C4C0391F4F38
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAllowedVMSizesPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAllowedVMSizesPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAllowedVMSizesPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -169,6 +169,6 @@ This cmdlet returns the policy that specifies the list of virtual machine sizes 
 
 ## RELATED LINKS
 
-[Get-AzureRmDtlAllowedVMSizesPolicy](.\Get-AzureRmDtlAllowedVMSizesPolicy.md)
+[Get-AzureRmDtlAllowedVMSizesPolicy](./Get-AzureRmDtlAllowedVMSizesPolicy.md)
 
 

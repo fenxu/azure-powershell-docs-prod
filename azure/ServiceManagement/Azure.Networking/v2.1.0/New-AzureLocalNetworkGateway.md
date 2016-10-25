@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\Get-AzureLocalNetworkGateway.md
 schema: 2.0.0
 ms.assetid: 292B4AA0-82B7-42DF-9A1B-E6A4F3B4A953
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/New-AzureLocalNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/New-AzureLocalNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/New-AzureLocalNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -156,10 +156,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureLocalNetworkGateway](.\Get-AzureLocalNetworkGateway.md)
+[Get-AzureLocalNetworkGateway](./Get-AzureLocalNetworkGateway.md)
 
-[Remove-AzureLocalNetworkGateway](.\Remove-AzureLocalNetworkGateway.md)
+[Remove-AzureLocalNetworkGateway](./Remove-AzureLocalNetworkGateway.md)
 
-[Reset-AzureLocalNetworkGateway](.\Reset-AzureLocalNetworkGateway.md)
+[Reset-AzureLocalNetworkGateway](./Reset-AzureLocalNetworkGateway.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 5f408e88-f3aa-4dd1-9617-f2d8f8cbc20c
 schema: 2.0.0
 ms.assetid: C9EA47DC-6A43-489F-94DF-F94588B1AD55
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureEndpoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureEndpoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -260,16 +260,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureEndpoint](.\Add-AzureEndpoint.md)
+[Add-AzureEndpoint](./Add-AzureEndpoint.md)
 
-[Add-AzureVirtualIP](.\Add-AzureVirtualIP.md)
+[Add-AzureVirtualIP](./Add-AzureVirtualIP.md)
 
-[Get-AzureEndpoint](.\Get-AzureEndpoint.md)
+[Get-AzureEndpoint](./Get-AzureEndpoint.md)
 
-[Get-AzureVM](.\Get-AzureVM.md)
+[Get-AzureVM](./Get-AzureVM.md)
 
-[Remove-AzureEndpoint](.\Remove-AzureEndpoint.md)
+[Remove-AzureEndpoint](./Remove-AzureEndpoint.md)
 
-[Update-AzureVM](.\Update-AzureVM.md)
+[Update-AzureVM](./Update-AzureVM.md)
 
 

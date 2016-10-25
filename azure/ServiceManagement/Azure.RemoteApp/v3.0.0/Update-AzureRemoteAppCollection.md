@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: c9ee0b8c-96eb-4f1a-84cf-5f7056167aeb
 schema: 2.0.0
 ms.assetid: 34DAF2EA-0710-4295-A0E4-27B0E785282B
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Update-AzureRemoteAppCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Update-AzureRemoteAppCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Update-AzureRemoteAppCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -163,10 +163,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppCollection](.\Get-AzureRemoteAppCollection.md)
+[Get-AzureRemoteAppCollection](./Get-AzureRemoteAppCollection.md)
 
-[New-AzureRemoteAppCollection](.\New-AzureRemoteAppCollection.md)
+[New-AzureRemoteAppCollection](./New-AzureRemoteAppCollection.md)
 
-[Set-AzureRemoteAppCollection](.\Set-AzureRemoteAppCollection.md)
+[Set-AzureRemoteAppCollection](./Set-AzureRemoteAppCollection.md)
 
 

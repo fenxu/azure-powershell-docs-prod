@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: .\Add-AzureApplicationGatewayHttpListener.md
 schema: 2.0.0
 ms.assetid: 55975A88-009A-4369-A770-2A51343F9D1C
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayHttpListener.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayHttpListener.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayHttpListener.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -217,12 +217,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureApplicationGatewayHttpListener](.\Add-AzureApplicationGatewayHttpListener.md)
+[Add-AzureApplicationGatewayHttpListener](./Add-AzureApplicationGatewayHttpListener.md)
 
-[Get-AzureApplicationGatewayHttpListener](.\Get-AzureApplicationGatewayHttpListener.md)
+[Get-AzureApplicationGatewayHttpListener](./Get-AzureApplicationGatewayHttpListener.md)
 
-[Remove-AzureApplicationGatewayHttpListener](.\Remove-AzureApplicationGatewayHttpListener.md)
+[Remove-AzureApplicationGatewayHttpListener](./Remove-AzureApplicationGatewayHttpListener.md)
 
-[Set-AzureApplicationGatewayHttpListener](.\Set-AzureApplicationGatewayHttpListener.md)
+[Set-AzureApplicationGatewayHttpListener](./Set-AzureApplicationGatewayHttpListener.md)
 
 

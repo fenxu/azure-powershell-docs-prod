@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 03d80a68-8443-42e0-87bc-5d0e22ac3a57
 schema: 2.0.0
 ms.assetid: E41C8823-9E6A-4535-B90C-0E2DE7634C47
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -205,12 +205,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationJobOutput](.\Get-AzureRMAutomationJobOutput.md)
+[Get-AzureRmAutomationJobOutput](./Get-AzureRMAutomationJobOutput.md)
 
-[Resume-AzureRmAutomationJob](.\Resume-AzureRMAutomationJob.md)
+[Resume-AzureRmAutomationJob](./Resume-AzureRMAutomationJob.md)
 
-[Stop-AzureRmAutomationJob](.\Stop-AzureRMAutomationJob.md)
+[Stop-AzureRmAutomationJob](./Stop-AzureRMAutomationJob.md)
 
-[Suspend-AzureRmAutomationJob](.\Suspend-AzureRMAutomationJob.md)
+[Suspend-AzureRmAutomationJob](./Suspend-AzureRMAutomationJob.md)
 
 

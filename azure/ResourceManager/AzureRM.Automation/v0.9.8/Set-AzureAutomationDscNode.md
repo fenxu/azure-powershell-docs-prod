@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Get-AzureAutomationDscNode.md
 schema: 2.0.0
 ms.assetid: 1191D3FB-81A9-4B79-910E-9256B4D152B0
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Set-AzureAutomationDscNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Set-AzureAutomationDscNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Set-AzureAutomationDscNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -141,10 +141,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationDscNode](.\Get-AzureAutomationDscNode.md)
+[Get-AzureAutomationDscNode](./Get-AzureAutomationDscNode.md)
 
-[Register-AzureAutomationDscNode](.\Register-AzureAutomationDscNode.md)
+[Register-AzureAutomationDscNode](./Register-AzureAutomationDscNode.md)
 
-[Unregister-AzureAutomationDscNode](.\Unregister-AzureAutomationDscNode.md)
+[Unregister-AzureAutomationDscNode](./Unregister-AzureAutomationDscNode.md)
 
 

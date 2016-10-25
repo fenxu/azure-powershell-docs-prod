@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
 online version: 8918c8e8-9324-4928-b5f8-bfc9119b6c92
 schema: 2.0.0
 ms.assetid: B694A78C-9262-422B-B3C0-73FCA0DA26B0
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Get-AzureRmCdnCustomDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Get-AzureRmCdnCustomDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Get-AzureRmCdnCustomDomain.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -136,8 +136,8 @@ This cmdlet returns a custom domain object.
 
 ## RELATED LINKS
 
-[New-AzureRmCdnCustomDomain](.\New-AzureRmCdnCustomDomain.md)
+[New-AzureRmCdnCustomDomain](./New-AzureRmCdnCustomDomain.md)
 
-[Remove-AzureRmCdnCustomDomain](.\Remove-AzureRmCdnCustomDomain.md)
+[Remove-AzureRmCdnCustomDomain](./Remove-AzureRmCdnCustomDomain.md)
 
 

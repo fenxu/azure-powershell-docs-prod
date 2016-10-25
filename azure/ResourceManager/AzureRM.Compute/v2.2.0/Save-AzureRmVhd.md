@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 2c84ce79-e1e4-4558-a3b6-fc133760b1b9
 schema: 2.0.0
 ms.assetid: 805D14A1-4A19-41AC-8EDB-B3AE46F4BDC7
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Save-AzureRmVhd.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Save-AzureRmVhd.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Save-AzureRmVhd.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -180,6 +180,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmVhd](.\Add-AzureRMVhd.md)
+[Add-AzureRmVhd](./Add-AzureRMVhd.md)
 
 

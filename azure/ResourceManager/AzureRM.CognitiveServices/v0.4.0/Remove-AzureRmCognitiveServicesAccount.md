@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Management.CognitiveServices.dll-He
 online version: 30956a48-eae8-41c4-a309-7ccae10611d0
 schema: 2.0.0
 ms.assetid: 105816E2-3972-4A75-9826-DC7887CFCF1A
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.0/Remove-AzureRmCognitiveServicesAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.0/Remove-AzureRmCognitiveServicesAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.0/Remove-AzureRmCognitiveServicesAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -128,10 +128,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmCognitiveServicesAccount](.\Get-AzureRmCognitiveServicesAccount.md)
+[Get-AzureRmCognitiveServicesAccount](./Get-AzureRmCognitiveServicesAccount.md)
 
-[New-AzureRmCognitiveServicesAccount](.\New-AzureRmCognitiveServicesAccount.md)
+[New-AzureRmCognitiveServicesAccount](./New-AzureRmCognitiveServicesAccount.md)
 
-[Set-AzureRmCognitiveServicesAccount](.\Set-AzureRmCognitiveServicesAccount.md)
+[Set-AzureRmCognitiveServicesAccount](./Set-AzureRmCognitiveServicesAccount.md)
 
 

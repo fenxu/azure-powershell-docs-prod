@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
 online version: eb9e969e-680b-4dda-98e8-7732ed396f56
 schema: 2.0.0
 ms.assetid: 3E0927A7-EBB9-4463-826E-9B6A3F52E0C9
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/Disable-AzureRmDataCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/Disable-AzureRmDataCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/Disable-AzureRmDataCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -90,6 +90,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureRmDataCollection](.\Enable-AzureRmDataCollection.md)
+[Enable-AzureRmDataCollection](./Enable-AzureRmDataCollection.md)
 
 

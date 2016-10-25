@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: .\Start-AzureStorSimpleDeviceFailoverJob.md
 schema: 2.0.0
 ms.assetid: A8BA0CBC-E126-4B0A-BF3C-DB992A2696C4
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleFailoverVolumeContainers.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleFailoverVolumeContainers.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleFailoverVolumeContainers.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -117,8 +117,8 @@ This cmdlet returns a list of **VolumeContainer** groups.
 
 ## RELATED LINKS
 
-[Start-AzureStorSimpleDeviceFailoverJob](.\Start-AzureStorSimpleDeviceFailoverJob.md)
+[Start-AzureStorSimpleDeviceFailoverJob](./Start-AzureStorSimpleDeviceFailoverJob.md)
 
-[Get-AzureStorSimpleDeviceVolumeContainer](.\Get-AzureStorSimpleDeviceVolumeContainer.md)
+[Get-AzureStorSimpleDeviceVolumeContainer](./Get-AzureStorSimpleDeviceVolumeContainer.md)
 
 

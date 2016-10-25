@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 80347c22-24ef-4d0b-abae-6919c007a942
 schema: 2.0.0
 ms.assetid: 0F0E1D2A-AEE8-41A5-8B9A-E58298BD1625
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMAccessExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMAccessExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMAccessExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -144,10 +144,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMAccessExtension](.\Get-AzureRmVMAccessExtension.md)
+[Get-AzureRmVMAccessExtension](./Get-AzureRmVMAccessExtension.md)
 
-[Set-AzureRmVMAccessExtension](.\Set-AzureRmVMAccessExtension.md)
+[Set-AzureRmVMAccessExtension](./Set-AzureRmVMAccessExtension.md)
 
-[Remove-AzureRmVMExtension](.\Remove-AzureRmVMExtension.md)
+[Remove-AzureRmVMExtension](./Remove-AzureRmVMExtension.md)
 
 

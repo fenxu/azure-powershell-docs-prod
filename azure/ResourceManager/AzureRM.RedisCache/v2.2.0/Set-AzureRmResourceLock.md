@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: 53814377-b49d-4dbc-94f1-7ca1ee7931a3
 schema: 2.0.0
 ms.assetid: 9E8D7778-0F55-44B6-B1D8-9483E93F9652
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmResourceLock.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmResourceLock.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmResourceLock.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -316,10 +316,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmResourceLock](.\Get-AzureRmResourceLock.md)
+[Get-AzureRmResourceLock](./Get-AzureRmResourceLock.md)
 
-[New-AzureRmResourceLock](.\New-AzureRmResourceLock.md)
+[New-AzureRmResourceLock](./New-AzureRmResourceLock.md)
 
-[Remove-AzureRmResourceLock](.\Remove-AzureRmResourceLock.md)
+[Remove-AzureRmResourceLock](./Remove-AzureRmResourceLock.md)
 
 

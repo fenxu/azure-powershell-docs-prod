@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Insights.dll-Help.xml
 online version: 094f70ff-ffaf-47cc-9faf-86d4cbd63540
 schema: 2.0.0
 ms.assetid: 05024625-5AF1-44BF-9CAD-21ED0854FF25
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Add-AzureRmMetricAlertRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Add-AzureRmMetricAlertRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Add-AzureRmMetricAlertRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -270,18 +270,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmLogAlertRule](.\Add-AzureRmLogAlertRule.md)
+[Add-AzureRmLogAlertRule](./Add-AzureRmLogAlertRule.md)
 
-[Add-AzureRmWebtestAlertRule](.\Add-AzureRmWebtestAlertRule.md)
+[Add-AzureRmWebtestAlertRule](./Add-AzureRmWebtestAlertRule.md)
 
-[Get-AzureRmAlertHistory](.\Get-AzureRmAlertHistory.md)
+[Get-AzureRmAlertHistory](./Get-AzureRmAlertHistory.md)
 
-[Get-AzureRmAlertRule](.\Get-AzureRmAlertRule.md)
+[Get-AzureRmAlertRule](./Get-AzureRmAlertRule.md)
 
-[New-AzureRmAlertRuleEmail](.\New-AzureRmAlertRuleEmail.md)
+[New-AzureRmAlertRuleEmail](./New-AzureRmAlertRuleEmail.md)
 
-[New-AzureRmAlertRuleWebhook](.\New-AzureRmAlertRuleWebhook.md)
+[New-AzureRmAlertRuleWebhook](./New-AzureRmAlertRuleWebhook.md)
 
-[Remove-AzureRmAlertRule](.\Remove-AzureRmAlertRule.md)
+[Remove-AzureRmAlertRule](./Remove-AzureRmAlertRule.md)
 
 

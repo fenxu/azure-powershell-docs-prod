@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Insights.dll-Help.xml
 online version: 7b6e8604-1bf0-4256-a37f-889743fe9fcd
 schema: 2.0.0
 ms.assetid: 613BAB51-8E24-4236-89BB-3618EFF642BB
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Get-AzureRmMetricDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Get-AzureRmMetricDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Get-AzureRmMetricDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -196,6 +196,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmMetric](.\Get-AzureRmMetric.md)
+[Get-AzureRmMetric](./Get-AzureRmMetric.md)
 
 

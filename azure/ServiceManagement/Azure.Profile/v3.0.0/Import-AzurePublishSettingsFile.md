@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=397624
 schema: 2.0.0
 ms.assetid: 69DBFA51-E29F-430E-A02D-FCCE02CE0694
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Import-AzurePublishSettingsFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Import-AzurePublishSettingsFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Import-AzurePublishSettingsFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -129,8 +129,8 @@ This cmdlet does not generate any output.
 
 [How to Install and Configure Azure PowerShell](http://azure.microsoft.com/documentation/articles/install-configure-powershell/)
 
-[Add-AzureAccount](.\Add-AzureAccount.md)
+[Add-AzureAccount](./Add-AzureAccount.md)
 
-[Get-AzurePublishSettingsFile](.\Get-AzurePublishSettingsFile.md)
+[Get-AzurePublishSettingsFile](./Get-AzurePublishSettingsFile.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 9a69e3bc-91e7-4b87-aaa5-078847962c2b
 schema: 2.0.0
 ms.assetid: 42C12303-DEC7-403B-AE81-FA41B0A90F27
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMCustomScriptExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMCustomScriptExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMCustomScriptExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -143,8 +143,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMCustomScriptExtension](.\Get-AzureRmVMCustomScriptExtension.md)
+[Get-AzureRmVMCustomScriptExtension](./Get-AzureRmVMCustomScriptExtension.md)
 
-[Set-AzureRmVMCustomScriptExtension](.\Set-AzureRmVMCustomScriptExtension.md)
+[Set-AzureRmVMCustomScriptExtension](./Set-AzureRmVMCustomScriptExtension.md)
 
 

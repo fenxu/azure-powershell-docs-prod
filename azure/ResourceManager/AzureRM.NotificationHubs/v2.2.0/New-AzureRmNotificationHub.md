@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.NotificationHubs.dll-Help.xml
 online version: adb0ccd0-4fcf-463f-b0f8-b78dd1fe440e
 schema: 2.0.0
 ms.assetid: 8DDCE5B2-E8EB-48C6-8ACE-9DA062E10303
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.2.0/New-AzureRmNotificationHub.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.2.0/New-AzureRmNotificationHub.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.2.0/New-AzureRmNotificationHub.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -140,10 +140,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmNotificationHub](.\Get-AzureRmNotificationHub.md)
+[Get-AzureRmNotificationHub](./Get-AzureRmNotificationHub.md)
 
-[Remove-AzureRmNotificationHub](.\Remove-AzureRmNotificationHub.md)
+[Remove-AzureRmNotificationHub](./Remove-AzureRmNotificationHub.md)
 
-[Set-AzureRmNotificationHub](.\Set-AzureRmNotificationHub.md)
+[Set-AzureRmNotificationHub](./Set-AzureRmNotificationHub.md)
 
 

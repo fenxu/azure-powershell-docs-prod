@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 3cb862d2-c316-4135-a59a-65441f00ad96
 schema: 2.0.0
 ms.assetid: 045041BF-855D-47A2-9D18-9D4BBB0525EA
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureNetworkSecurityRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureNetworkSecurityRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureNetworkSecurityRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -235,6 +235,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureNetworkSecurityRule](.\Remove-AzureNetworkSecurityRule.md)
+[Remove-AzureNetworkSecurityRule](./Remove-AzureNetworkSecurityRule.md)
 
 

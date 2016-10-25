@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Set-AzureRmVmssOsProfile.md
 schema: 2.0.0
 ms.assetid: 44E1BF12-677D-4FFB-BD6F-B0BCA2934A97
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -286,14 +286,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmVmssOsProfile](.\Set-AzureRmVmssOsProfile.md)
+[Set-AzureRmVmssOsProfile](./Set-AzureRmVmssOsProfile.md)
 
-[Set-AzureRmVmssStorageProfile](.\Set-AzureRmVmssStorageProfile.md)
+[Set-AzureRmVmssStorageProfile](./Set-AzureRmVmssStorageProfile.md)
 
-[Add-AzureRmVmssNetworkInterfaceConfiguration](.\Add-AzureRmVmssNetworkInterfaceConfiguration.md)
+[Add-AzureRmVmssNetworkInterfaceConfiguration](./Add-AzureRmVmssNetworkInterfaceConfiguration.md)
 
-[Add-AzureRmVmssExtension](.\Add-AzureRmVmssExtension.md)
+[Add-AzureRmVmssExtension](./Add-AzureRmVmssExtension.md)
 
-[New-AzureRmVmss](.\New-AzureRmVmss.md)
+[New-AzureRmVmss](./New-AzureRmVmss.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 online version: .\Disable-AzureRmOperationalInsightsLinuxCustomLogCollection.md
 schema: 2.0.0
 ms.assetid: ACCEBC33-7E1F-4E56-9D2F-6530BDCB38A3
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/New-AzureRmOperationalInsightsCustomLogDataSource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/New-AzureRmOperationalInsightsCustomLogDataSource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/New-AzureRmOperationalInsightsCustomLogDataSource.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -212,8 +212,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureRmOperationalInsightsLinuxCustomLogCollection](.\Disable-AzureRmOperationalInsightsLinuxCustomLogCollection.md)
+[Disable-AzureRmOperationalInsightsLinuxCustomLogCollection](./Disable-AzureRmOperationalInsightsLinuxCustomLogCollection.md)
 
-[Enable-AzureRmOperationalInsightsLinuxCustomLogCollection](.\Enable-AzureRmOperationalInsightsLinuxCustomLogCollection.md)
+[Enable-AzureRmOperationalInsightsLinuxCustomLogCollection](./Enable-AzureRmOperationalInsightsLinuxCustomLogCollection.md)
 
 

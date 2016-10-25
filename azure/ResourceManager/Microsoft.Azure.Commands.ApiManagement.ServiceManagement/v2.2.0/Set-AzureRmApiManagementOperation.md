@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: d5eb9afa-b56c-45e2-838b-4555ed1ef8f8
 schema: 2.0.0
 ms.assetid: 67EE6EFB-3297-4D21-A6EC-B03F5FE82F84
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementOperation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementOperation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -226,10 +226,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmApiManagementOperation](.\Get-AzureRmApiManagementOperation.md)
+[Get-AzureRmApiManagementOperation](./Get-AzureRmApiManagementOperation.md)
 
-[New-AzureRmApiManagementOperation](.\New-AzureRmApiManagementOperation.md)
+[New-AzureRmApiManagementOperation](./New-AzureRmApiManagementOperation.md)
 
-[Remove-AzureRmApiManagementOperation](.\Remove-AzureRmApiManagementOperation.md)
+[Remove-AzureRmApiManagementOperation](./Remove-AzureRmApiManagementOperation.md)
 
 

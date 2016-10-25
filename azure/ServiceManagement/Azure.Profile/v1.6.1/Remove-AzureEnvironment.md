@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=397626
 schema: 2.0.0
 ms.assetid: DB99D6BA-4FD9-491E-BF7E-4511B3EAAD12
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Remove-AzureEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Remove-AzureEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Remove-AzureEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -119,10 +119,10 @@ Otherwise, it does not return any output.
 
 ## RELATED LINKS
 
-[Add-AzureEnvironment](.\Add-AzureEnvironment.md)
+[Add-AzureEnvironment](./Add-AzureEnvironment.md)
 
-[Get-AzureEnvironment](.\Get-AzureEnvironment.md)
+[Get-AzureEnvironment](./Get-AzureEnvironment.md)
 
-[Set-AzureEnvironment](.\Set-AzureEnvironment.md)
+[Set-AzureEnvironment](./Set-AzureEnvironment.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: 1369bdbf-25bc-496a-9dcd-4aec7c5f4bf4
 schema: 2.0.0
 ms.assetid: 2BED9484-E720-4876-A9E8-8EA6078481A5
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Move-AzureRmExpressRouteCircuit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Move-AzureRmExpressRouteCircuit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Move-AzureRmExpressRouteCircuit.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -171,12 +171,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmExpressRouteCircuit](.\Get-AzureRmExpressRouteCircuit.md)
+[Get-AzureRmExpressRouteCircuit](./Get-AzureRmExpressRouteCircuit.md)
 
-[New-AzureRmExpressRouteCircuit](.\New-AzureRmExpressRouteCircuit.md)
+[New-AzureRmExpressRouteCircuit](./New-AzureRmExpressRouteCircuit.md)
 
-[Remove-AzureRmExpressRouteCircuit](.\Remove-AzureRmExpressRouteCircuit.md)
+[Remove-AzureRmExpressRouteCircuit](./Remove-AzureRmExpressRouteCircuit.md)
 
-[Set-AzureRmExpressRouteCircuit](.\Set-AzureRmExpressRouteCircuit.md)
+[Set-AzureRmExpressRouteCircuit](./Set-AzureRmExpressRouteCircuit.md)
 
 

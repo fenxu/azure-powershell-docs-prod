@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: a917fae8-e750-4257-88e6-1bf965f1997c
 schema: 2.0.0
 ms.assetid: 61AE2C22-3B73-4290-9375-1D89DA7B0398
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMBGInfoExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMBGInfoExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMBGInfoExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -83,8 +83,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMBGInfoExtension](.\Get-AzureVMBGInfoExtension.md)
+[Get-AzureVMBGInfoExtension](./Get-AzureVMBGInfoExtension.md)
 
-[Set-AzureVMBGInfoExtension](.\Set-AzureVMBGInfoExtension.md)
+[Set-AzureVMBGInfoExtension](./Set-AzureVMBGInfoExtension.md)
 
 

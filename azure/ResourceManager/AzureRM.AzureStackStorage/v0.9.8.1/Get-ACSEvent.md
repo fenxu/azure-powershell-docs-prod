@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
 online version: .\Get-ACSEventQuery.md
 schema: 2.0.0
 ms.assetid: 25D0C4A3-49EE-4A56-955F-C0A21A5BE0CB
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEvent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEvent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEvent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -310,8 +310,8 @@ Output from Get-ACSFarm can be piped to this cmdlet's input.
 
 ## RELATED LINKS
 
-[Get-ACSEventQuery](.\Get-ACSEventQuery.md)
+[Get-ACSEventQuery](./Get-ACSEventQuery.md)
 
-[Get-ACSFarm](.\Get-ACSFarm.md)
+[Get-ACSFarm](./Get-ACSFarm.md)
 
 

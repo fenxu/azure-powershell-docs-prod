@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 567f02ab-e4d0-4987-910f-f15fc275c386
 schema: 2.0.0
 ms.assetid: B80C3488-C1FE-4AA3-B76A-32A471B2D74B
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServerRecommendedAction.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServerRecommendedAction.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServerRecommendedAction.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -238,12 +238,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlServerAdvisor](.\Get-AzureRmSqlServerAdvisor.md)
+[Get-AzureRmSqlServerAdvisor](./Get-AzureRmSqlServerAdvisor.md)
 
-[Set-AzureRmSqlServerRecommendedActionState](.\Set-AzureRmSqlServerRecommendedActionState.md)
+[Set-AzureRmSqlServerRecommendedActionState](./Set-AzureRmSqlServerRecommendedActionState.md)
 
-[Get-AzureRmSqlElasticPoolRecommendedAction](.\Get-AzureRmSqlElasticPoolRecommendedAction.md)
+[Get-AzureRmSqlElasticPoolRecommendedAction](./Get-AzureRmSqlElasticPoolRecommendedAction.md)
 
-[Get-AzureRmSqlDatabaseRecommendedAction](.\Get-AzureRmSqlDatabaseRecommendedAction.md)
+[Get-AzureRmSqlDatabaseRecommendedAction](./Get-AzureRmSqlDatabaseRecommendedAction.md)
 
 

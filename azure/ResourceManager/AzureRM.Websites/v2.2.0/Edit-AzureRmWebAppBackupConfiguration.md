@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: 99ff397a-fe39-4d8b-89c3-8345a9d3d5c6
 schema: 2.0.0
 ms.assetid: DDD2BB43-AA5A-4754-BF6A-3B96260AA1B7
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Edit-AzureRmWebAppBackupConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Edit-AzureRmWebAppBackupConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Edit-AzureRmWebAppBackupConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -224,6 +224,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmWebAppBackupConfiguration](.\Get-AzureRmWebAppBackupConfiguration.md)
+[Get-AzureRmWebAppBackupConfiguration](./Get-AzureRmWebAppBackupConfiguration.md)
 
 

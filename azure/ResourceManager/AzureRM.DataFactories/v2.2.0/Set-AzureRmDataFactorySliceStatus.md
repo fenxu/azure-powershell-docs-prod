@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
 online version: 3fda22f3-7e30-47f2-8244-ab4e80fd0e24
 schema: 2.0.0
 ms.assetid: 1B6814DF-8670-48CD-B8B2-55EAB5201D56
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Set-AzureRmDataFactorySliceStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Set-AzureRmDataFactorySliceStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Set-AzureRmDataFactorySliceStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -221,6 +221,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmDataFactorySlice](.\Get-AzureRmDataFactorySlice.md)
+[Get-AzureRmDataFactorySlice](./Get-AzureRmDataFactorySlice.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=397619
 schema: 2.0.0
 ms.assetid: 358FBB41-479C-4232-B31A-A9C2289E2D31
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Add-AzureEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Add-AzureEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Add-AzureEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -363,10 +363,10 @@ You can pipe input to this cmdlet by property name, but not by value.
 
 ## RELATED LINKS
 
-[Get-AzureEnvironment](.\Get-AzureEnvironment.md)
+[Get-AzureEnvironment](./Get-AzureEnvironment.md)
 
-[Remove-AzureEnvironment](.\Remove-AzureEnvironment.md)
+[Remove-AzureEnvironment](./Remove-AzureEnvironment.md)
 
-[Set-AzureEnvironment](.\Set-AzureEnvironment.md)
+[Set-AzureEnvironment](./Set-AzureEnvironment.md)
 
 

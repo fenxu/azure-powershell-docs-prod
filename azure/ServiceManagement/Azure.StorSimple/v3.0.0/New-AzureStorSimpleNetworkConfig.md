@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: e28d1083-6219-41a2-afa5-e26f5b50988a
 schema: 2.0.0
 ms.assetid: 46CBE8E9-F33B-4377-AEB8-C668F553EEE5
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/New-AzureStorSimpleNetworkConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/New-AzureStorSimpleNetworkConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/New-AzureStorSimpleNetworkConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -308,8 +308,8 @@ This cmdlet returns a NetworkConfig object that contains the following propertie
 
 ## RELATED LINKS
 
-[Set-AzureStorSimpleDevice](.\Set-AzureStorSimpleDevice.md)
+[Set-AzureStorSimpleDevice](./Set-AzureStorSimpleDevice.md)
 
-[Get-AzureStorSimpleDevice](.\Get-AzureStorSimpleDevice.md)
+[Get-AzureStorSimpleDevice](./Get-AzureStorSimpleDevice.md)
 
 

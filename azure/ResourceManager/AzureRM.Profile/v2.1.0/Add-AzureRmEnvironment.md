@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
 online version: .\Get-AzureRmEnvironment.md
 schema: 2.0.0
 ms.assetid: D5202B22-4DD3-446B-9208-7F04ECE3C398
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Add-AzureRmEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Add-AzureRmEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Add-AzureRmEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -380,10 +380,10 @@ This cmdlet returns the set of endpoints and metadata that are required to commu
 
 ## RELATED LINKS
 
-[Get-AzureRmEnvironment](.\Get-AzureRmEnvironment.md)
+[Get-AzureRmEnvironment](./Get-AzureRmEnvironment.md)
 
-[Remove-AzureRmEnvironment](.\Remove-AzureRmEnvironment.md)
+[Remove-AzureRmEnvironment](./Remove-AzureRmEnvironment.md)
 
-[Set-AzureRmEnvironment](.\Set-AzureRmEnvironment.md)
+[Set-AzureRmEnvironment](./Set-AzureRmEnvironment.md)
 
 

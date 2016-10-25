@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version: 9fe67a35-a2be-4d39-8421-5d018f6d7e9e
 schema: 2.0.0
 ms.assetid: 929A1E7D-0455-4FB4-A8C6-4B6F463AF2C5
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/New-AzureRmIntegrationAccountCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/New-AzureRmIntegrationAccountCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/New-AzureRmIntegrationAccountCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -228,10 +228,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmIntegrationAccountCertificate](.\Get-AzureRmIntegrationAccountCertificate.md)
+[Get-AzureRmIntegrationAccountCertificate](./Get-AzureRmIntegrationAccountCertificate.md)
 
-[Remove-AzureRmIntegrationAccountCertificate](.\Remove-AzureRmIntegrationAccountCertificate.md)
+[Remove-AzureRmIntegrationAccountCertificate](./Remove-AzureRmIntegrationAccountCertificate.md)
 
-[Set-AzureRmIntegrationAccountCertificate](.\Set-AzureRmIntegrationAccountCertificate.md)
+[Set-AzureRmIntegrationAccountCertificate](./Set-AzureRmIntegrationAccountCertificate.md)
 
 

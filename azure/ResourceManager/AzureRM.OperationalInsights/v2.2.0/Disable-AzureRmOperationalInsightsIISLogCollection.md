@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 online version: 1015988a-3846-4193-b56a-bc3afc12c74b
 schema: 2.0.0
 ms.assetid: DB857F20-E607-403B-83C0-CA99DE140B6F
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Disable-AzureRmOperationalInsightsIISLogCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Disable-AzureRmOperationalInsightsIISLogCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Disable-AzureRmOperationalInsightsIISLogCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -151,6 +151,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureRmOperationalInsightsIISLogCollection](.\Enable-AzureRmOperationalInsightsIISLogCollection.md)
+[Enable-AzureRmOperationalInsightsIISLogCollection](./Enable-AzureRmOperationalInsightsIISLogCollection.md)
 
 

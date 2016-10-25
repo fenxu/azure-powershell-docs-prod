@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Media.dll-Help.xml
 online version: 22c5b284-7ca2-4e0e-bc25-1ca4b0cb6113
 schema: 2.0.0
 ms.assetid: B91309D7-C68F-4995-B673-480DFCA80D61
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/Get-AzureRmMediaServiceNameAvailability.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/Get-AzureRmMediaServiceNameAvailability.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/Get-AzureRmMediaServiceNameAvailability.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -69,12 +69,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmMediaService](.\Get-AzureRmMediaService.md)
+[Get-AzureRmMediaService](./Get-AzureRmMediaService.md)
 
-[New-AzureRmMediaService](.\New-AzureRmMediaService.md)
+[New-AzureRmMediaService](./New-AzureRmMediaService.md)
 
-[Remove-AzureRmMediaService](.\Remove-AzureRmMediaService.md)
+[Remove-AzureRmMediaService](./Remove-AzureRmMediaService.md)
 
-[Set-AzureRmMediaService](.\Set-AzureRmMediaService.md)
+[Set-AzureRmMediaService](./Set-AzureRmMediaService.md)
 
 

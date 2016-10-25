@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 9c88dc0e-618a-4ffa-8e73-8c75783c6fc8
 schema: 2.0.0
 ms.assetid: DFE2AC6E-8CEC-40BE-B72A-9E5C33749900
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Update-AzureRmSiteRecoveryServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Update-AzureRmSiteRecoveryServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Update-AzureRmSiteRecoveryServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -65,8 +65,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryServer](.\Get-AzureRmSiteRecoveryServer.md)
+[Get-AzureRmSiteRecoveryServer](./Get-AzureRmSiteRecoveryServer.md)
 
-[Remove-AzureRmSiteRecoveryServer](.\Remove-AzureRmSiteRecoveryServer.md)
+[Remove-AzureRmSiteRecoveryServer](./Remove-AzureRmSiteRecoveryServer.md)
 
 

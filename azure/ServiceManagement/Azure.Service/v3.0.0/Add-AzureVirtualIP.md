@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 5f408e88-f3aa-4dd1-9617-f2d8f8cbc20c
 schema: 2.0.0
 ms.assetid: 35A98651-FD40-4615-BEB4-A9B32F7D09F6
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Add-AzureVirtualIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Add-AzureVirtualIP.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Add-AzureVirtualIP.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -110,8 +110,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureEndpoint](.\Add-AzureEndpoint.md)
+[Add-AzureEndpoint](./Add-AzureEndpoint.md)
 
-[Remove-AzureVirtualIP](.\Remove-AzureVirtualIP.md)
+[Remove-AzureVirtualIP](./Remove-AzureVirtualIP.md)
 
 

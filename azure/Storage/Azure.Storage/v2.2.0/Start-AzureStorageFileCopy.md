@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageBlob.md
 schema: 2.0.0
 ms.assetid: 66445D9F-72A9-44E3-9F1B-72EC0888357A
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Start-AzureStorageFileCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Start-AzureStorageFileCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Start-AzureStorageFileCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -445,16 +445,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageBlob](.\Get-AzureStorageBlob.md)
+[Get-AzureStorageBlob](./Get-AzureStorageBlob.md)
 
-[Get-AzureStorageContainer](.\Get-AzureStorageContainer.md)
+[Get-AzureStorageContainer](./Get-AzureStorageContainer.md)
 
-[Get-AzureStorageFile](.\Get-AzureStorageFile.md)
+[Get-AzureStorageFile](./Get-AzureStorageFile.md)
 
-[Get-AzureStorageShare](.\Get-AzureStorageShare.md)
+[Get-AzureStorageShare](./Get-AzureStorageShare.md)
 
-[Get-AzureStorageFileCopyState](.\Get-AzureStorageFileCopyState.md)
+[Get-AzureStorageFileCopyState](./Get-AzureStorageFileCopyState.md)
 
-[Stop-AzureStorageFileCopy](.\Stop-AzureStorageFileCopy.md)
+[Stop-AzureStorageFileCopy](./Stop-AzureStorageFileCopy.md)
 
 

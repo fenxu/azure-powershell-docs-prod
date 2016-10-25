@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: a1e88520-c77d-4853-ae4f-74c2627ad1ca
 schema: 2.0.0
 ms.assetid: 15C59114-E52D-4C23-9CE7-AB7A68A111E6
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmLoadBalancerFrontendIpConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmLoadBalancerFrontendIpConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmLoadBalancerFrontendIpConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -165,14 +165,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmLoadBalancerFrontendIpConfig](.\Add-AzureRmLoadBalancerFrontendIpConfig.md)
+[Add-AzureRmLoadBalancerFrontendIpConfig](./Add-AzureRmLoadBalancerFrontendIpConfig.md)
 
-[Get-AzureRmLoadBalancerFrontendIpConfig](.\Get-AzureRmLoadBalancerFrontendIpConfig.md)
+[Get-AzureRmLoadBalancerFrontendIpConfig](./Get-AzureRmLoadBalancerFrontendIpConfig.md)
 
-[New-AzureRmPublicIpAddress](.\New-AzureRmPublicIpAddress.md)
+[New-AzureRmPublicIpAddress](./New-AzureRmPublicIpAddress.md)
 
-[Remove-AzureRmLoadBalancerFrontendIpConfig](.\Remove-AzureRmLoadBalancerFrontendIpConfig.md)
+[Remove-AzureRmLoadBalancerFrontendIpConfig](./Remove-AzureRmLoadBalancerFrontendIpConfig.md)
 
-[Set-AzureRmLoadBalancerFrontendIpConfig](.\Set-AzureRmLoadBalancerFrontendIpConfig.md)
+[Set-AzureRmLoadBalancerFrontendIpConfig](./Set-AzureRmLoadBalancerFrontendIpConfig.md)
 
 

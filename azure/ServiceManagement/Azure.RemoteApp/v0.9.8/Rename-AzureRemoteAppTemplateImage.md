@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Get-AzureRemoteAppTemplateImage.md
 schema: 2.0.0
 ms.assetid: 654C490B-1C87-4920-B525-C12DB1152AB1
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v0.9.8/Rename-AzureRemoteAppTemplateImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v0.9.8/Rename-AzureRemoteAppTemplateImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v0.9.8/Rename-AzureRemoteAppTemplateImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -99,10 +99,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppTemplateImage](.\Get-AzureRemoteAppTemplateImage.md)
+[Get-AzureRemoteAppTemplateImage](./Get-AzureRemoteAppTemplateImage.md)
 
-[New-AzureRemoteAppTemplateImage](.\New-AzureRemoteAppTemplateImage.md)
+[New-AzureRemoteAppTemplateImage](./New-AzureRemoteAppTemplateImage.md)
 
-[Remove-AzureRemoteAppTemplateImage](.\Remove-AzureRemoteAppTemplateImage.md)
+[Remove-AzureRemoteAppTemplateImage](./Remove-AzureRemoteAppTemplateImage.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 12ba6084-72bf-4e85-b059-ba4a20b0be41
 schema: 2.0.0
 ms.assetid: D73A02F6-CDDF-4B21-A841-17117CAB6D40
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -110,14 +110,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureDeploymentEvent](.\Get-AzureDeploymentEvent.md)
+[Get-AzureDeploymentEvent](./Get-AzureDeploymentEvent.md)
 
-[Move-AzureDeployment](.\Move-AzureDeployment.md)
+[Move-AzureDeployment](./Move-AzureDeployment.md)
 
-[New-AzureDeployment](.\New-AzureDeployment.md)
+[New-AzureDeployment](./New-AzureDeployment.md)
 
-[Remove-AzureDeployment](.\Remove-AzureDeployment.md)
+[Remove-AzureDeployment](./Remove-AzureDeployment.md)
 
-[Set-AzureDeployment](.\Set-AzureDeployment.md)
+[Set-AzureDeployment](./Set-AzureDeployment.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version: .\New-AzureHDInsightCluster.md
 schema: 2.0.0
 ms.assetid: D2FD22D3-9365-46E5-AC6F-FCEAB817C81B
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/Set-AzureHDInsightDefaultStorage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/Set-AzureHDInsightDefaultStorage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/Set-AzureHDInsightDefaultStorage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -142,12 +142,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureHDInsightCluster](.\New-AzureHDInsightCluster.md)
+[New-AzureHDInsightCluster](./New-AzureHDInsightCluster.md)
 
-[New-AzureHDInsightClusterConfig](.\New-AzureHDInsightClusterConfig.md)
+[New-AzureHDInsightClusterConfig](./New-AzureHDInsightClusterConfig.md)
 
-[Set-AzureHDInsightDefaultStorage](.\Set-AzureHDInsightDefaultStorage.md)
+[Set-AzureHDInsightDefaultStorage](./Set-AzureHDInsightDefaultStorage.md)
 
-[Azure HDInsight Cmdlets](.\AzureRM.HDInsight.md)
+[Azure HDInsight Cmdlets](./AzureRM.HDInsight.md)
 
 

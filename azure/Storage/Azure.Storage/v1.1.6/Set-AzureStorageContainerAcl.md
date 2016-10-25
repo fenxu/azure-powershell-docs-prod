@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageContainer.md
 schema: 2.0.0
 ms.assetid: 20680AF5-8145-4EAB-94D3-D710A62A062B
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Set-AzureStorageContainerAcl.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Set-AzureStorageContainerAcl.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Set-AzureStorageContainerAcl.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -234,10 +234,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageContainer](.\Get-AzureStorageContainer.md)
+[Get-AzureStorageContainer](./Get-AzureStorageContainer.md)
 
-[New-AzureStorageContainer](.\New-AzureStorageContainer.md)
+[New-AzureStorageContainer](./New-AzureStorageContainer.md)
 
-[Remove-AzureStorageContainer](.\Remove-AzureStorageContainer.md)
+[Remove-AzureStorageContainer](./Remove-AzureStorageContainer.md)
 
 

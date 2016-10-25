@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=397905
 schema: 2.0.0
 ms.assetid: FD56B2FC-6EAA-4857-89CD-7066CDAC85A5
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/Get-AzureAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/Get-AzureAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/Get-AzureAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -109,14 +109,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureAutomationRunbook](.\New-AzureAutomationRunbook.md)
+[New-AzureAutomationRunbook](./New-AzureAutomationRunbook.md)
 
-[Publish-AzureAutomationRunbook](.\Publish-AzureAutomationRunbook.md)
+[Publish-AzureAutomationRunbook](./Publish-AzureAutomationRunbook.md)
 
-[Remove-AzureAutomationRunbook](.\Remove-AzureAutomationRunbook.md)
+[Remove-AzureAutomationRunbook](./Remove-AzureAutomationRunbook.md)
 
-[Set-AzureAutomationRunbook](.\Set-AzureAutomationRunbook.md)
+[Set-AzureAutomationRunbook](./Set-AzureAutomationRunbook.md)
 
-[Start-AzureAutomationRunbook](.\Start-AzureAutomationRunbook.md)
+[Start-AzureAutomationRunbook](./Start-AzureAutomationRunbook.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: .\Get-AzureVirtualNetwork.md
 schema: 2.0.0
 ms.assetid: 71894181-2DE7-4D32-B0EF-C0AC08EF6970
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureVirtualNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureVirtualNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureVirtualNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -127,10 +127,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVirtualNetwork](.\Get-AzureVirtualNetwork.md)
+[Get-AzureVirtualNetwork](./Get-AzureVirtualNetwork.md)
 
-[New-AzureVirtualNetwork](.\New-AzureVirtualNetwork.md)
+[New-AzureVirtualNetwork](./New-AzureVirtualNetwork.md)
 
-[Set-AzureVirtualNetwork](.\Set-AzureVirtualNetwork.md)
+[Set-AzureVirtualNetwork](./Set-AzureVirtualNetwork.md)
 
 

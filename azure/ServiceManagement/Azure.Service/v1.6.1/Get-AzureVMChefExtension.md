@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Remove-AzureVMChefExtension.md
 schema: 2.0.0
 ms.assetid: A607EBCA-104F-4B40-AE56-7339AD63EA2E
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMChefExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMChefExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMChefExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -113,10 +113,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureVMChefExtension](.\Remove-AzureVMChefExtension.md)
+[Remove-AzureVMChefExtension](./Remove-AzureVMChefExtension.md)
 
-[Set-AzureVMChefExtension](.\Set-AzureVMChefExtension.md)
+[Set-AzureVMChefExtension](./Set-AzureVMChefExtension.md)
 
-[Azure Service Cmdlets](.\Azure.Service.md)
+[Azure Service Cmdlets](./Azure.Service.md)
 
 

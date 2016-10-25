@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: https://azure.microsoft.com/en-us/services/sql-database/
 schema: 2.0.0
 ms.assetid: D33FA8F2-7A96-4459-B135-01B4688F39FA
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRecovery.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRecovery.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRecovery.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -188,8 +188,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Operations for Azure SQL Databases](https://msdn.microsoft.com/en-us/library/azure/dn505719.aspx)
 
-[Get-AzureSqlRecoverableDatabase](.\Get-AzureSqlRecoverableDatabase.md)
+[Get-AzureSqlRecoverableDatabase](./Get-AzureSqlRecoverableDatabase.md)
 
-[Start-AzureSqlDatabaseRestore](.\Start-AzureSqlDatabaseRestore.md)
+[Start-AzureSqlDatabaseRestore](./Start-AzureSqlDatabaseRestore.md)
 
 

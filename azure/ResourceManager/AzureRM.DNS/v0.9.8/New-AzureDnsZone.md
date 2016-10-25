@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 online version: http://azure.microsoft.com/en-us/documentation/articles/azure-preview-portal-using-tags/
 schema: 2.0.0
 ms.assetid: 15C1904E-7AF9-4836-9E96-C4F0F156E00F
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/New-AzureDnsZone.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/New-AzureDnsZone.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/New-AzureDnsZone.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -124,10 +124,10 @@ This cmdlet returns an object that represents the new DNS zone.
 
 [Using tags to organize your Azure resources](http://azure.microsoft.com/en-us/documentation/articles/azure-preview-portal-using-tags/)
 
-[Get-AzureDnsZone](.\Get-AzureDnsZone.md)
+[Get-AzureDnsZone](./Get-AzureDnsZone.md)
 
-[New-AzureDnsRecordSet](.\New-AzureDnsRecordSet.md)
+[New-AzureDnsRecordSet](./New-AzureDnsRecordSet.md)
 
-[Remove-AzureDnsZone](.\Remove-AzureDnsZone.md)
+[Remove-AzureDnsZone](./Remove-AzureDnsZone.md)
 
 

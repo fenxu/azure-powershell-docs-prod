@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: d7b03598-b1b7-448b-b336-b65cb4243bd1
 schema: 2.0.0
 ms.assetid: 862E2299-7FC1-4050-AF6E-1140B47DEA16
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Start-AzureSiteRecoveryCommitFailoverJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Start-AzureSiteRecoveryCommitFailoverJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Start-AzureSiteRecoveryCommitFailoverJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -214,14 +214,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureSiteRecoveryPlannedFailoverJob](.\Start-AzureSiteRecoveryPlannedFailoverJob.md)
+[Start-AzureSiteRecoveryPlannedFailoverJob](./Start-AzureSiteRecoveryPlannedFailoverJob.md)
 
-[Start-AzureSiteRecoveryUnplannedFailoverJob](.\Start-AzureSiteRecoveryUnplannedFailoverJob.md)
+[Start-AzureSiteRecoveryUnplannedFailoverJob](./Start-AzureSiteRecoveryUnplannedFailoverJob.md)
 
-[Get-AzureSiteRecoveryJob](.\Get-AzureSiteRecoveryJob.md)
+[Get-AzureSiteRecoveryJob](./Get-AzureSiteRecoveryJob.md)
 
-[Get-AzureSiteRecoveryProtectionContainer](.\Get-AzureSiteRecoveryProtectionContainer.md)
+[Get-AzureSiteRecoveryProtectionContainer](./Get-AzureSiteRecoveryProtectionContainer.md)
 
-[Get-AzureSiteRecoveryProtectionEntity](.\Get-AzureSiteRecoveryProtectionEntity.md)
+[Get-AzureSiteRecoveryProtectionEntity](./Get-AzureSiteRecoveryProtectionEntity.md)
 
 

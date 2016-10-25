@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Add-AzureRmVMAdditionalUnattendContent.md
 schema: 2.0.0
 ms.assetid: 9D55E256-553B-4DA0-B802-E5EC189724EB
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVmssOsProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVmssOsProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVmssOsProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -295,14 +295,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmVMAdditionalUnattendContent](.\Add-AzureRmVMAdditionalUnattendContent.md)
+[Add-AzureRmVMAdditionalUnattendContent](./Add-AzureRmVMAdditionalUnattendContent.md)
 
-[Add-AzureRmVmssWinRMListener](.\Add-AzureRmVmssWinRMListener.md)
+[Add-AzureRmVmssWinRMListener](./Add-AzureRmVmssWinRMListener.md)
 
-[Add-AzureRmVMSshPublicKey](.\Add-AzureRmVMSshPublicKey.md)
+[Add-AzureRmVMSshPublicKey](./Add-AzureRmVMSshPublicKey.md)
 
-[Add-AzureRmVmssSecret](.\Add-AzureRmVmssSecret.md)
+[Add-AzureRmVmssSecret](./Add-AzureRmVmssSecret.md)
 
-[New-AzureRmVmssConfig](.\New-AzureRmVmssConfig.md)
+[New-AzureRmVmssConfig](./New-AzureRmVmssConfig.md)
 
 

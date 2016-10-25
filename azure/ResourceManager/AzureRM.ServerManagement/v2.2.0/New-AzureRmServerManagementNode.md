@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
 online version: 9123bd8a-e7dc-4905-9eea-df7654ab76bf
 schema: 2.0.0
 ms.assetid: D39A7FA6-63AA-4C7E-A33D-4DF868A79EB7
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.2.0/New-AzureRmServerManagementNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.2.0/New-AzureRmServerManagementNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.2.0/New-AzureRmServerManagementNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -183,8 +183,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmServerManagementNode](.\Get-AzureRmServerManagementNode.md)
+[Get-AzureRmServerManagementNode](./Get-AzureRmServerManagementNode.md)
 
-[Remove-AzureRmServerManagementNode](.\Remove-AzureRmServerManagementNode.md)
+[Remove-AzureRmServerManagementNode](./Remove-AzureRmServerManagementNode.md)
 
 

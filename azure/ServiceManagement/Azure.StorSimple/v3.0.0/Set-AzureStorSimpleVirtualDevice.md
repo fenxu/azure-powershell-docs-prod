@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 07592c94-7e40-4c22-a1f0-0ab130ae1907
 schema: 2.0.0
 ms.assetid: 63F83F15-57EC-4B27-A9E1-FC7490FC73FA
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Set-AzureStorSimpleVirtualDevice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Set-AzureStorSimpleVirtualDevice.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Set-AzureStorSimpleVirtualDevice.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -202,8 +202,8 @@ This cmdlet returns updated device details for the virtual device.
 
 ## RELATED LINKS
 
-[New-AzureStorSimpleVirtualDevice](.\New-AzureStorSimpleVirtualDevice.md)
+[New-AzureStorSimpleVirtualDevice](./New-AzureStorSimpleVirtualDevice.md)
 
-[Set-AzureStorSimpleDevice](.\Set-AzureStorSimpleDevice.md)
+[Set-AzureStorSimpleDevice](./Set-AzureStorSimpleDevice.md)
 
 

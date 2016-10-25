@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
 online version: .\Enable-ACSNode.md
 schema: 2.0.0
 ms.assetid: 01ABD0AC-5D2F-4F1B-9482-3EFCC674DD43
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -187,10 +187,10 @@ Output from Get-ACSFarm can be piped to this cmdlet.
 
 ## RELATED LINKS
 
-[Enable-ACSNode](.\Enable-ACSNode.md)
+[Enable-ACSNode](./Enable-ACSNode.md)
 
-[Disable-ACSNode](.\Disable-ACSNode.md)
+[Disable-ACSNode](./Disable-ACSNode.md)
 
-[Get-ACSFarm](.\Get-ACSFarm.md)
+[Get-ACSFarm](./Get-ACSFarm.md)
 
 

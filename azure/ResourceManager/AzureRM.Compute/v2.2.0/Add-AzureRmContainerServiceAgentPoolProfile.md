@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: cc2df8e8-ccd9-4b8e-accc-7bc4ceb65477
 schema: 2.0.0
 ms.assetid: A358089D-B045-4A4C-AE82-3827CFDC53F4
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmContainerServiceAgentPoolProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmContainerServiceAgentPoolProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmContainerServiceAgentPoolProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -132,8 +132,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmContainerServiceConfig](.\New-AzureRmContainerServiceConfig.md)
+[New-AzureRmContainerServiceConfig](./New-AzureRmContainerServiceConfig.md)
 
-[Remove-AzureRmContainerServiceAgentPoolProfile](.\Remove-AzureRmContainerServiceAgentPoolProfile.md)
+[Remove-AzureRmContainerServiceAgentPoolProfile](./Remove-AzureRmContainerServiceAgentPoolProfile.md)
 
 

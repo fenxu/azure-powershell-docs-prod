@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 online version: 3a46bcd5-ad81-411a-92aa-7788ebd2473e
 schema: 2.0.0
 ms.assetid: 55476204-8793-4342-B7F9-DD881DAC9BEA
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Remove-AzureRmOperationalInsightsStorageInsight.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Remove-AzureRmOperationalInsightsStorageInsight.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Remove-AzureRmOperationalInsightsStorageInsight.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -177,8 +177,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Azure Operational Insights Cmdlets](.\AzureRM.OperationalInsights.md)
+[Azure Operational Insights Cmdlets](./AzureRM.OperationalInsights.md)
 
-[Get-AzureRmOperationalInsightsWorkspace](.\Get-AzureRmOperationalInsightsWorkspace.md)
+[Get-AzureRmOperationalInsightsWorkspace](./Get-AzureRmOperationalInsightsWorkspace.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
 online version: .\Get-ACSTableService.md
 schema: 2.0.0
 ms.assetid: 69ECB134-874E-4AB2-BF16-0C69E526A83E
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetric.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -275,8 +275,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ACSTableService](.\Get-ACSTableService.md)
+[Get-ACSTableService](./Get-ACSTableService.md)
 
-[Get-ACSTableServiceMetricDefinition](.\Get-ACSTableServiceMetricDefinition.md)
+[Get-ACSTableServiceMetricDefinition](./Get-ACSTableServiceMetricDefinition.md)
 
 

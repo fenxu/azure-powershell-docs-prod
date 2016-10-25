@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Add-AzureVMImage.md
 schema: 2.0.0
 ms.assetid: 8EE758B9-020A-4F37-9D31-925FCD7F7A56
-updated_at: 10/19/2016 10:11 PM
-ms.date: 10/19/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Get-AzureVMImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Get-AzureVMImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Get-AzureVMImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -101,12 +101,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureVMImage](.\Add-AzureVMImage.md)
+[Add-AzureVMImage](./Add-AzureVMImage.md)
 
-[Remove-AzureVMImage](.\Remove-AzureVMImage.md)
+[Remove-AzureVMImage](./Remove-AzureVMImage.md)
 
-[Save-AzureVMImage](.\Save-AzureVMImage.md)
+[Save-AzureVMImage](./Save-AzureVMImage.md)
 
-[Update-AzureVMImage](.\Update-AzureVMImage.md)
+[Update-AzureVMImage](./Update-AzureVMImage.md)
 
 

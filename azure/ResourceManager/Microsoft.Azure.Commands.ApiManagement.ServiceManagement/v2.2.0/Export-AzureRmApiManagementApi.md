@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: b80389b9-e143-4e24-a222-e95f691da2e9
 schema: 2.0.0
 ms.assetid: 2BA76B02-B786-4A77-86E0-E7D4191120B5
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Export-AzureRmApiManagementApi.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Export-AzureRmApiManagementApi.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Export-AzureRmApiManagementApi.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -187,14 +187,14 @@ This cmdlet returns the exported API content as a string.
 
 ## RELATED LINKS
 
-[Get-AzureRmApiManagementApi](.\Get-AzureRmApiManagementApi.md)
+[Get-AzureRmApiManagementApi](./Get-AzureRmApiManagementApi.md)
 
-[Import-AzureRmApiManagementApi](.\Import-AzureRmApiManagementApi.md)
+[Import-AzureRmApiManagementApi](./Import-AzureRmApiManagementApi.md)
 
-[New-AzureRmApiManagementApi](.\New-AzureRmApiManagementApi.md)
+[New-AzureRmApiManagementApi](./New-AzureRmApiManagementApi.md)
 
-[Remove-AzureRmApiManagementApi](.\Remove-AzureRmApiManagementApi.md)
+[Remove-AzureRmApiManagementApi](./Remove-AzureRmApiManagementApi.md)
 
-[Set-AzureRmApiManagementApi](.\Set-AzureRmApiManagementApi.md)
+[Set-AzureRmApiManagementApi](./Set-AzureRmApiManagementApi.md)
 
 

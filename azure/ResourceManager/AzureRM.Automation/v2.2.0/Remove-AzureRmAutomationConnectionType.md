@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 76dc3b3d-2dd3-49ad-a28c-afbfc754e020
 schema: 2.0.0
 ms.assetid: A1885066-461C-4D7E-86EE-DBFE783A8B92
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationConnectionType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationConnectionType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationConnectionType.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -149,6 +149,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureRmAutomationConnection](.\Remove-AzureRMAutomationConnection.md)
+[Remove-AzureRmAutomationConnection](./Remove-AzureRMAutomationConnection.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 online version: 1e2daae8-eb5b-490f-ab29-28b588d1141b
 schema: 2.0.0
 ms.assetid: 5007BAF3-B84B-44CF-9DCD-12F0F712D9BD
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.0.0/Get-AzureRmDataLakeStoreAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.0.0/Get-AzureRmDataLakeStoreAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.0.0/Get-AzureRmDataLakeStoreAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -105,12 +105,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmDataLakeStoreAccount](.\New-AzureRmDataLakeStoreAccount.md)
+[New-AzureRmDataLakeStoreAccount](./New-AzureRmDataLakeStoreAccount.md)
 
-[Remove-AzureRmDataLakeStoreAccount](.\Remove-AzureRmDataLakeStoreAccount.md)
+[Remove-AzureRmDataLakeStoreAccount](./Remove-AzureRmDataLakeStoreAccount.md)
 
-[Set-AzureRmDataLakeStoreAccount](.\Set-AzureRmDataLakeStoreAccount.md)
+[Set-AzureRmDataLakeStoreAccount](./Set-AzureRmDataLakeStoreAccount.md)
 
-[Test-AzureRmDataLakeStoreAccount](.\Test-AzureRmDataLakeStoreAccount.md)
+[Test-AzureRmDataLakeStoreAccount](./Test-AzureRmDataLakeStoreAccount.md)
 
 

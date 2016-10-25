@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\New-AzureRMAutomationCredential.md
 schema: 2.0.0
 ms.assetid: EA09D4B6-FF25-4B91-B957-328222844689
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Get-AzureRMAutomationCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Get-AzureRMAutomationCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Get-AzureRMAutomationCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -117,10 +117,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAutomationCredential](.\New-AzureRMAutomationCredential.md)
+[New-AzureRmAutomationCredential](./New-AzureRMAutomationCredential.md)
 
-[Remove-AzureRmAutomationCredential](.\Remove-AzureRMAutomationCredential.md)
+[Remove-AzureRmAutomationCredential](./Remove-AzureRMAutomationCredential.md)
 
-[Set-AzureRmAutomationCredential](.\Set-AzureRMAutomationCredential.md)
+[Set-AzureRmAutomationCredential](./Set-AzureRMAutomationCredential.md)
 
 

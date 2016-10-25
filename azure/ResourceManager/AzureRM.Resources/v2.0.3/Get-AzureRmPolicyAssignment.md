@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: .\New-AzureRmPolicyAssignment.md
 schema: 2.0.0
 ms.assetid: 011574C2-C1A3-4EE6-8BC5-FCDD10E0E5D5
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmPolicyAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmPolicyAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -199,10 +199,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmPolicyAssignment](.\New-AzureRmPolicyAssignment.md)
+[New-AzureRmPolicyAssignment](./New-AzureRmPolicyAssignment.md)
 
-[Remove-AzureRmPolicyAssignment](.\Remove-AzureRmPolicyAssignment.md)
+[Remove-AzureRmPolicyAssignment](./Remove-AzureRmPolicyAssignment.md)
 
-[Set-AzureRmPolicyAssignment](.\Set-AzureRmPolicyAssignment.md)
+[Set-AzureRmPolicyAssignment](./Set-AzureRmPolicyAssignment.md)
 
 

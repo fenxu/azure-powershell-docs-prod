@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 7cd94e7e-dd05-4050-ac3c-16915ef6a0b3
 schema: 2.0.0
 ms.assetid: E816D63D-4462-4C55-98A1-100415933D58
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMCustomScriptExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMCustomScriptExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMCustomScriptExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -328,10 +328,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMCustomScriptExtension](.\Get-AzureVMCustomScriptExtension.md)
+[Get-AzureVMCustomScriptExtension](./Get-AzureVMCustomScriptExtension.md)
 
-[Remove-AzureVMCustomScriptExtension](.\Remove-AzureVMCustomScriptExtension.md)
+[Remove-AzureVMCustomScriptExtension](./Remove-AzureVMCustomScriptExtension.md)
 
-[Get-AzureVM](.\Get-AzureVM.md)
+[Get-AzureVM](./Get-AzureVM.md)
 
 

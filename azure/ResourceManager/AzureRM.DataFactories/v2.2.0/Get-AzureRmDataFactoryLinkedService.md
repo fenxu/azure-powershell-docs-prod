@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
 online version: 54ad7384-6724-49e6-a0a5-58b352cb4f91
 schema: 2.0.0
 ms.assetid: ED29001F-47C2-4D30-B6D3-87E0362362CF
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Get-AzureRmDataFactoryLinkedService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Get-AzureRmDataFactoryLinkedService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Get-AzureRmDataFactoryLinkedService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -150,8 +150,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmDataFactoryLinkedService](.\New-AzureRmDataFactoryLinkedService.md)
+[New-AzureRmDataFactoryLinkedService](./New-AzureRmDataFactoryLinkedService.md)
 
-[Remove-AzureRmDataFactoryLinkedService](.\Remove-AzureRmDataFactoryLinkedService.md)
+[Remove-AzureRmDataFactoryLinkedService](./Remove-AzureRmDataFactoryLinkedService.md)
 
 

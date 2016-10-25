@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 68b3e4a9-7aff-4274-bd8c-0f664cb6e65d
 schema: 2.0.0
 ms.assetid: 321EBEE2-03A9-44D1-9A37-A88C033AB2A2
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-AzureServiceProject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-AzureServiceProject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-AzureServiceProject.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -141,10 +141,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureServiceProject](.\New-AzureServiceProject.md)
+[New-AzureServiceProject](./New-AzureServiceProject.md)
 
-[Publish-AzureServiceProject](.\Publish-AzureServiceProject.md)
+[Publish-AzureServiceProject](./Publish-AzureServiceProject.md)
 
-[Set-AzureServiceProjectRole](.\Set-AzureServiceProjectRole.md)
+[Set-AzureServiceProjectRole](./Set-AzureServiceProjectRole.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServices.dll-Help.xml
 online version: .\Get-AzureSiteRecoveryNetworkMapping.md
 schema: 2.0.0
 ms.assetid: 41FB380E-9434-467A-84D4-1E0BCFE70590
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/New-AzureSiteRecoveryNetworkMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/New-AzureSiteRecoveryNetworkMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/New-AzureSiteRecoveryNetworkMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -174,12 +174,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSiteRecoveryNetworkMapping](.\Get-AzureSiteRecoveryNetworkMapping.md)
+[Get-AzureSiteRecoveryNetworkMapping](./Get-AzureSiteRecoveryNetworkMapping.md)
 
-[Remove-AzureSiteRecoveryNetworkMapping](.\Remove-AzureSiteRecoveryNetworkMapping.md)
+[Remove-AzureSiteRecoveryNetworkMapping](./Remove-AzureSiteRecoveryNetworkMapping.md)
 
-[Get-AzureSiteRecoveryServer](.\Get-AzureSiteRecoveryServer.md)
+[Get-AzureSiteRecoveryServer](./Get-AzureSiteRecoveryServer.md)
 
-[Get-AzureSiteRecoveryNetwork](.\Get-AzureSiteRecoveryNetwork.md)
+[Get-AzureSiteRecoveryNetwork](./Get-AzureSiteRecoveryNetwork.md)
 
 

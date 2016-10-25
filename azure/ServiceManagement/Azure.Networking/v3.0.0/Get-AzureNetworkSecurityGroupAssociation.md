@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 507ecee8-06d8-49e3-bfdd-cf3c2a2e7de5
 schema: 2.0.0
 ms.assetid: 8B2D071B-E879-418C-A187-2B5FC295502A
-updated_at: 10/24/2016 11:18 PM
+updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureNetworkSecurityGroupAssociation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureNetworkSecurityGroupAssociation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureNetworkSecurityGroupAssociation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -230,8 +230,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureNetworkSecurityGroupAssociation](.\Remove-AzureNetworkSecurityGroupAssociation.md)
+[Remove-AzureNetworkSecurityGroupAssociation](./Remove-AzureNetworkSecurityGroupAssociation.md)
 
-[Set-AzureNetworkSecurityGroupAssociation](.\Set-AzureNetworkSecurityGroupAssociation.md)
+[Set-AzureNetworkSecurityGroupAssociation](./Set-AzureNetworkSecurityGroupAssociation.md)
 
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 online version: .\Get-AzureRmDataLakeStoreItem.md
 schema: 2.0.0
 ms.assetid: 91A4F5C8-2902-451B-8A25-115C8B5AD551
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/24/2016 11:55 PM
+ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Remove-AzureRmDataLakeStoreItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Remove-AzureRmDataLakeStoreItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Remove-AzureRmDataLakeStoreItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -206,16 +206,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmDataLakeStoreItem](.\Get-AzureRmDataLakeStoreItem.md)
+[Get-AzureRmDataLakeStoreItem](./Get-AzureRmDataLakeStoreItem.md)
 
-[Export-AzureRmDataLakeStoreItem](.\Export-AzureRmDataLakeStoreItem.md)
+[Export-AzureRmDataLakeStoreItem](./Export-AzureRmDataLakeStoreItem.md)
 
-[Import-AzureRmDataLakeStoreItem](.\Import-AzureRmDataLakeStoreItem.md)
+[Import-AzureRmDataLakeStoreItem](./Import-AzureRmDataLakeStoreItem.md)
 
-[Join-AzureRmDataLakeStoreItem](.\Join-AzureRmDataLakeStoreItem.md)
+[Join-AzureRmDataLakeStoreItem](./Join-AzureRmDataLakeStoreItem.md)
 
-[New-AzureRmDataLakeStoreItem](.\New-AzureRmDataLakeStoreItem.md)
+[New-AzureRmDataLakeStoreItem](./New-AzureRmDataLakeStoreItem.md)
 
-[Test-AzureRmDataLakeStoreItem](.\Test-AzureRmDataLakeStoreItem.md)
+[Test-AzureRmDataLakeStoreItem](./Test-AzureRmDataLakeStoreItem.md)
 
 
