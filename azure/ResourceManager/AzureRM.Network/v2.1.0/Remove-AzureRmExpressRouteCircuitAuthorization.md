@@ -12,7 +12,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: PowerShellHelpPub
 ---
 
 # Remove-AzureRmExpressRouteCircuitAuthorization

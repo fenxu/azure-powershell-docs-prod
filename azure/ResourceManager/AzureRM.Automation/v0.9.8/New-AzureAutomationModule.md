@@ -11,7 +11,7 @@ ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
-author: visual-studio-china
+author: PowerShellHelpPub
 keywords: powershell, cmdlet
 ---
 

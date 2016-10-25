@@ -12,9 +12,9 @@ ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
-author: visual-studio-china
+author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: PowerShellHelpPub
 ---
 
 # AzureRM.OperationalInsights Module
