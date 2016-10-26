@@ -12,6 +12,7 @@ ms.prod: powershell
 ms.service: Azure PowerShell
 ms.technology: Azure PowerShell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
