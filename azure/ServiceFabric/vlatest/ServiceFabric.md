@@ -14,7 +14,7 @@ ms.prod: powershell
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
