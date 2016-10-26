@@ -11,8 +11,9 @@ ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: PowerShellHelpPub
+manager: visual-studio-china
 ---
 
 # Get-AzureRmNotificationHubListKeys

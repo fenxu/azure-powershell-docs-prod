@@ -12,7 +12,8 @@ ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
-author: PowerShellHelpPub
+author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 ---
 
