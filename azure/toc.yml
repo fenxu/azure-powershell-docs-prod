@@ -1,10 +1,10 @@
-- name: Azure Powershell
+- name: Azure PowerShell
   tocHref: azureps-cmdlets-docs/toc.yml
-- name: Azure AD Cmdlets
+- name: Azure AD PowerShell
   tocHref: Azure AD Cmdlets/toc.yml
-- name: ElasticDB
+- name: ElasticDB PowerShell
   tocHref: ElasticDB/toc.yml
-- name: Service Fabric
+- name: Service Fabric PowerShell
   tocHref: Service-Fabric-cmdlets/toc.yml
-- name: Azure Information Protection
+- name: Azure Information Protection PowerShell
   tocHref: Azure Information Protection/toc.yml
