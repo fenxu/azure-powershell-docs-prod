@@ -5,10 +5,10 @@ Download Help Link: http://go.microsoft.com/fwlink/?LinkID=521412
 Help Version: 2.0.14.0
 Locale: en-US
 ms.assetid: 8FE06792-E775-4575-8C55-12A66ED66383
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
+updated_at: 10/27/2016 8:28 PM
+ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/94abcedca651c052e3f6ead1ecc434e012f1c1c4/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: service-fabric
@@ -21,7 +21,7 @@ manager: visual-studio-china
 
 # ServiceFabric Module
 ## Description
-{{Manually Enter Description Here}}
+This topic displays help topics for the Azure Service Fabric Cmdlets.
 
 ## ServiceFabric Cmdlets
 ### [Add-ServiceFabricNode](./Add-ServiceFabricNode.md)
