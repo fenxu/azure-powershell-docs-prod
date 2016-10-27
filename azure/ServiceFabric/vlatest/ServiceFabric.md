@@ -5,10 +5,10 @@ Download Help Link: http://go.microsoft.com/fwlink/?LinkID=521412
 Help Version: 2.0.14.0
 Locale: en-US
 ms.assetid: 8FE06792-E775-4575-8C55-12A66ED66383
-updated_at: 10/27/2016 8:28 PM
+updated_at: 10/27/2016 10:52 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/94abcedca651c052e3f6ead1ecc434e012f1c1c4/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/483c3b1a57f43eb5b5c41c0052db248342480999/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: service-fabric
@@ -22,6 +22,39 @@ manager: visual-studio-china
 # ServiceFabric Module
 ## Description
 This topic displays help topics for the Azure Service Fabric Cmdlets.
+
+Service Fabric is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and addresses the significant challenges in developing and managing cloud applications.
+By using Service Fabric, developers and administrators can avoid solving complex infrastructure problems and focus instead on implementing mission-critical, demanding workloads knowing that they are scalable, reliable, and manageable.
+Service Fabric represents the next-generation middleware platform for building and managing these enterprise-class, Tier-1 cloud-scale applications.
+
+With Azure Service Fabric, you can do the following:
+
+* Simplify microservice-based application development and lifecycle management
+* Deliver low-latency performance and efficiency at massive scale
+* Proven platform used by Azure and other Microsoft services
+* Run in Azure, on-premises, or in other clouds
+
+For more information, see [Overview of Service Fabric](https://azure.microsoft.com/en-us/documentation/articles/service-fabric-overview/).
+
+
+## About Windows PowerShell
+
+Windows PowerShell is a task-based command-line shell and scripting language designed for system administration.
+Unlike most shells, which accept and return text, Windows PowerShell is built on top of the .NET Framework, and accepts and returns .NET Framework objects.
+
+Windows PowerShell introduces the concept of a cmdlet (pronounced "command-let"), a simple, single-function command-line tool built into the shell.
+Cmdlets have the following naming convention: a verb and noun separated by a dash (-), such as **Get-Help**, **Get-Process**, and **Start-Service**.
+Windows PowerShell includes more than one hundred basic core cmdlets.
+
+For more information about, or for the syntax of, any of the cmdlets, use the `Get-Help <cmdlet name>` command, where `<cmdlet name>` is the name of the cmdlet that you want to research.
+For more detailed information, you can run any of the following commands:
+
+* `Get-Help <cmdlet name> -Detailed`
+* `Get-Help <cmdlet name> -Examples`
+* `Get-Help <cmdlet name> -Full`
+
+For more information about Windows PowerShell, see the [Getting Started with Windows PowerShell](https://msdn.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell).
+
 
 ## ServiceFabric Cmdlets
 ### [Add-ServiceFabricNode](./Add-ServiceFabricNode.md)
@@ -574,6 +607,3 @@ Updates a Service Fabric service group.
 
 ### [Update-ServiceFabricService](./Update-ServiceFabricService.md)
 Updates a Service Fabric service.
-
-
-
