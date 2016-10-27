@@ -5,10 +5,10 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 7D9D9507-ADE5-45BD-97F8-0CCCDA3D3B58
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
+updated_at: 10/27/2016 8:29 PM
+ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureADPreview/v2.0.0/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5a502af83411e7fc832acecdefac6642e3a152a6/Azure%20AD%20Cmdlets/AzureADPreview/v2.0.0/AzureActiveDirectory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/eee0ecfbe225a7e3978908d5b94a1aefb24e1770/Azure%20AD%20Cmdlets/AzureADPreview/v2.0.0/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -21,7 +21,7 @@ manager: visual-studio-china
 
 # AzureActiveDirectory Module
 ## Description
-{{Manually Enter Description Here}}
+You can use the Azure Active Directory PowerShell Module Version 2.0 for Azure AD administrative tasks such as user management, domain management and for configuring single sign-on. These topics are related to using the version of Azure Active Directory released to preview June 30, 2016. The cmdlets listed here are different than the MSOL cmdlets which are part of Azure Active Directory Version 1.0.
 
 ## AzureActiveDirectory Cmdlets
 ### [Add-AzureADAdministrativeUnitMember](./Add-AzureADAdministrativeUnitMember.md)
