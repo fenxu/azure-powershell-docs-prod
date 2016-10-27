@@ -4,10 +4,10 @@ Module Guid: Batch_Cmdlets_D48CF693-4125-4D2D-879
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 4.0.0.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/27/2016 9:26 PM
+ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/AzureRM.Batch.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/AzureRM.Batch.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/AzureRM.Batch.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 
 # AzureRM.Batch Module
 ## Description
-{{Manually Enter Description Here}}
+The Azure Batch cmdlets in the Azure module enable you to manage Microsoft Azure Batch services in Azure PowerShell.
 
 ## AzureRM.Batch Cmdlets
 ### [Disable-AzureBatchAutoScale](./Disable-AzureBatchAutoScale.md)

@@ -4,10 +4,10 @@ Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 4.0.0.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/27/2016 9:26 PM
+ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/AzureRM.KeyVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/AzureRM.KeyVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/AzureRM.KeyVault.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 
 # AzureRM.KeyVault Module
 ## Description
-{{Manually Enter Description Here}}
+This topic displays help topics for the Azure Key Vault Cmdlets.
 
 ## AzureRM.KeyVault Cmdlets
 ### [Add-AzureKeyVaultCertificateContact](./Add-AzureKeyVaultCertificateContact.md)
