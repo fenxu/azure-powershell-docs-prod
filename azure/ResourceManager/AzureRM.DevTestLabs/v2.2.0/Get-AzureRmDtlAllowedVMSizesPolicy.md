@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
 online version: 6b0466c4-a412-4d74-92fd-c4c0391f4f38
 schema: 2.0.0
 ms.assetid: 546171CD-77CE-4752-861F-2AB5F88B13CA
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Get-AzureRmDtlAllowedVMSizesPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Get-AzureRmDtlAllowedVMSizesPolicy.md
+updated_at: 10/28/2016 9:50 PM
+ms.date: 10/28/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/Get-AzureRmDtlAllowedVMSizesPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e478754b524d17a2f53132d5818d405e48d9369c/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/Get-AzureRmDtlAllowedVMSizesPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

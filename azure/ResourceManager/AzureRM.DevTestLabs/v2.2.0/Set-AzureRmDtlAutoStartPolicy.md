@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
-online version: c985e534-03ed-4370-bbcd-1e918563a65d
+online version: f2a66a2d-b93d-491d-8990-a8cdd48b57bb
 schema: 2.0.0
-ms.assetid: A394CFEF-2A76-425A-8E8F-43E3DB789720
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlVMsPerUserPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlVMsPerUserPolicy.md
+ms.assetid: 37C19EB7-0CF8-4D50-8437-31CB6FBDBC07
+updated_at: 10/28/2016 9:50 PM
+ms.date: 10/28/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlAutoStartPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e478754b524d17a2f53132d5818d405e48d9369c/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlAutoStartPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -17,27 +17,27 @@ keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
 
-# Set-AzureRmDtlVMsPerUserPolicy
+# Set-AzureRmDtlAutoStartPolicy
 
 ## SYNOPSIS
-Sets the virtual machines per user policy of a lab in DevTest Labs.
+Sets the auto start policy of a lab in DevTest Labs.
 
 ## SYNTAX
 
 ### Enable (Default)
 ```
-Set-AzureRmDtlVMsPerUserPolicy [[-MaxVMs] <Int32>] [-Enable] [-LabName] <String> [-ResourceGroupName] <String>
- [-WhatIf] [-Confirm] [<CommonParameters>]
+Set-AzureRmDtlAutoStartPolicy [[-Time] <DateTime>] [[-Days] <DayOfWeek[]>] [-Enable] [-LabName] <String>
+ [-ResourceGroupName] <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Disable
 ```
-Set-AzureRmDtlVMsPerUserPolicy [[-MaxVMs] <Int32>] [-Disable] [-LabName] <String> [-ResourceGroupName] <String>
- [-WhatIf] [-Confirm] [<CommonParameters>]
+Set-AzureRmDtlAutoStartPolicy [[-Time] <DateTime>] [[-Days] <DayOfWeek[]>] [-Disable] [-LabName] <String>
+ [-ResourceGroupName] <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmDtlVMsPerUserPolicy** cmdlet sets the virtual machines per user policy of a lab, which sets the maximum number of virtual machines allowed per user.
+The **Set-AzureRmDtlAutoStartPolicy** cmdlet sets the auto start policy of a lab, which allows lab virtual machines to be scheduled for automatic start.
 The cmdlet uses the specified resource group and name of the lab to set the policy.
 
 ## EXAMPLES
@@ -49,11 +49,11 @@ The cmdlet uses the specified resource group and name of the lab to set the poli
 
 ## PARAMETERS
 
-### -MaxVMs
-Specifies the maximum number of virtual machines that can be created in the lab.
+### -Time
+Specifies the time when the virtual machines of the lab must be started.
 
 ```yaml
-Type: Int32
+Type: DateTime
 Parameter Sets: (All)
 Aliases: 
 
@@ -64,8 +64,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -Days
+Specifies, as an array, the days of the week for when the virtual machines of the lab must be started.
+
+```yaml
+Type: DayOfWeek[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 5
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Enable
-Indicates that this cmdlet enables the policy for the lab.
+Indicates that this cmdlet enables the policy for the virtual machines in the lab.
 
 ```yaml
 Type: SwitchParameter
@@ -80,7 +95,7 @@ Accept wildcard characters: False
 ```
 
 ### -LabName
-Specifies the name of the lab for which this cmdlet sets the virtual machines per user policy.
+Specifies the name of the lab for which this cmdlet sets the automatic start policy.
 
 ```yaml
 Type: String
@@ -110,7 +125,7 @@ Accept wildcard characters: False
 ```
 
 ### -Disable
-Indicates that this cmdlet disables the policy for the lab.
+Indicates that this cmdlet disables the policy for the virtual machines in the lab.
 
 ```yaml
 Type: SwitchParameter
@@ -163,13 +178,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## OUTPUTS
 
-### Microsoft.Azure.Commands.DevTestLabs.Models.PSPolicy
-This cmdlet returns the policy that specifies the maximum number of virtual machines that can be created by a user in the lab.
+### Microsoft.Azure.Commands.DevTestLabs.Models.PSSchedule
+This cmdlet returns the schedule that specifies when the virtual machines of the lab must be started.
 
 ## NOTES
 
 ## RELATED LINKS
 
-[Get-AzureRmDtlVMsPerUserPolicy](./Get-AzureRmDtlVMsPerUserPolicy.md)
+[Get-AzureRmDtlAutoStartPolicy](./Get-AzureRmDtlAutoStartPolicy.md)
 
 

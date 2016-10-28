@@ -2924,52 +2924,29 @@
               href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.12/Test-AzureRmDataLakeStoreItem.md
     - name: AzureRM.DevTestLabs
       items:
-        - name: 2.2.0
-          href: ../ResourceManager/AzureRM.DevTestLabs/2.2.0/AzureRM.DevTestLabs.md
+        - name: v2.2.0
+          href: ../ResourceManager/AzureRM.DevTestLabs/v2.2.0/AzureRM.DevTestLabs.md
           items:
             - name: Get-AzureRmDtlAllowedVMSizesPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/2.2.0/Get-AzureRmDtlAllowedVMSizesPolicy.md
+              href: ../ResourceManager/AzureRM.DevTestLabs/v2.2.0/Get-AzureRmDtlAllowedVMSizesPolicy.md
             - name: Get-AzureRmDtlAutoShutdownPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/2.2.0/Get-AzureRmDtlAutoShutdownPolicy.md
+              href: ../ResourceManager/AzureRM.DevTestLabs/v2.2.0/Get-AzureRmDtlAutoShutdownPolicy.md
             - name: Get-AzureRmDtlAutoStartPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/2.2.0/Get-AzureRmDtlAutoStartPolicy.md
+              href: ../ResourceManager/AzureRM.DevTestLabs/v2.2.0/Get-AzureRmDtlAutoStartPolicy.md
             - name: Get-AzureRmDtlVMsPerLabPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/2.2.0/Get-AzureRmDtlVMsPerLabPolicy.md
+              href: ../ResourceManager/AzureRM.DevTestLabs/v2.2.0/Get-AzureRmDtlVMsPerLabPolicy.md
             - name: Get-AzureRmDtlVMsPerUserPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/2.2.0/Get-AzureRmDtlVMsPerUserPolicy.md
+              href: ../ResourceManager/AzureRM.DevTestLabs/v2.2.0/Get-AzureRmDtlVMsPerUserPolicy.md
             - name: Set-AzureRmDtlAllowedVMSizesPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAllowedVMSizesPolicy.md
+              href: ../ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlAllowedVMSizesPolicy.md
             - name: Set-AzureRmDtlAutoShutdownPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAutoShutdownPolicy.md
+              href: ../ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlAutoShutdownPolicy.md
             - name: Set-AzureRmDtlAutoStartPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAutoStartPolicy.md
+              href: ../ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlAutoStartPolicy.md
             - name: Set-AzureRmDtlVMsPerLabPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlVMsPerLabPolicy.md
+              href: ../ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlVMsPerLabPolicy.md
             - name: Set-AzureRmDtlVMsPerUserPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlVMsPerUserPolicy.md
-        - name: v1.0.3
-          href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/AzureRM.DevTestLabs.md
-          items:
-            - name: Get-AzureRmDtlAllowedVMSizesPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Get-AzureRmDtlAllowedVMSizesPolicy.md
-            - name: Get-AzureRmDtlAutoShutdownPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Get-AzureRmDtlAutoShutdownPolicy.md
-            - name: Get-AzureRmDtlAutoStartPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Get-AzureRmDtlAutoStartPolicy.md
-            - name: Get-AzureRmDtlVMsPerLabPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Get-AzureRmDtlVMsPerLabPolicy.md
-            - name: Get-AzureRmDtlVMsPerUserPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Get-AzureRmDtlVMsPerUserPolicy.md
-            - name: Set-AzureRmDtlAllowedVMSizesPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlAllowedVMSizesPolicy.md
-            - name: Set-AzureRmDtlAutoShutdownPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlAutoShutdownPolicy.md
-            - name: Set-AzureRmDtlAutoStartPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlAutoStartPolicy.md
-            - name: Set-AzureRmDtlVMsPerLabPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlVMsPerLabPolicy.md
-            - name: Set-AzureRmDtlVMsPerUserPolicy
-              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlVMsPerUserPolicy.md
+              href: ../ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlVMsPerUserPolicy.md
         - name: v2.1.0
           href: ../ResourceManager/AzureRM.DevTestLabs/v2.1.0/AzureRM.DevTestLabs.md
           items:
@@ -2993,6 +2970,29 @@
               href: ../ResourceManager/AzureRM.DevTestLabs/v2.1.0/Set-AzureRmDtlVMsPerLabPolicy.md
             - name: Set-AzureRmDtlVMsPerUserPolicy
               href: ../ResourceManager/AzureRM.DevTestLabs/v2.1.0/Set-AzureRmDtlVMsPerUserPolicy.md
+        - name: v1.0.3
+          href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/AzureRM.DevTestLabs.md
+          items:
+            - name: Get-AzureRmDtlAllowedVMSizesPolicy
+              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Get-AzureRmDtlAllowedVMSizesPolicy.md
+            - name: Get-AzureRmDtlAutoShutdownPolicy
+              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Get-AzureRmDtlAutoShutdownPolicy.md
+            - name: Get-AzureRmDtlAutoStartPolicy
+              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Get-AzureRmDtlAutoStartPolicy.md
+            - name: Get-AzureRmDtlVMsPerLabPolicy
+              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Get-AzureRmDtlVMsPerLabPolicy.md
+            - name: Get-AzureRmDtlVMsPerUserPolicy
+              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Get-AzureRmDtlVMsPerUserPolicy.md
+            - name: Set-AzureRmDtlAllowedVMSizesPolicy
+              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlAllowedVMSizesPolicy.md
+            - name: Set-AzureRmDtlAutoShutdownPolicy
+              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlAutoShutdownPolicy.md
+            - name: Set-AzureRmDtlAutoStartPolicy
+              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlAutoStartPolicy.md
+            - name: Set-AzureRmDtlVMsPerLabPolicy
+              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlVMsPerLabPolicy.md
+            - name: Set-AzureRmDtlVMsPerUserPolicy
+              href: ../ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlVMsPerUserPolicy.md
     - name: AzureRM.DNS
       items:
         - name: v2.2.0
@@ -6235,52 +6235,16 @@
         - name: v2.2.0
           href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/AzureRM.RedisCache.md
           items:
-            - name: AzureRM.Resources
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/AzureRM.Resources.md
             - name: Export-AzureRmRedisCache
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Export-AzureRmRedisCache.md
-            - name: Export-AzureRmResourceGroup
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Export-AzureRmResourceGroup.md
-            - name: Find-AzureRmResource
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Find-AzureRmResource.md
-            - name: Find-AzureRmResourceGroup
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Find-AzureRmResourceGroup.md
-            - name: Get-AzureRmLocation
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmLocation.md
-            - name: Get-AzureRmPolicyAssignment
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmPolicyAssignment.md
-            - name: Get-AzureRmPolicyDefinition
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmPolicyDefinition.md
-            - name: Get-AzureRmProviderFeature
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmProviderFeature.md
             - name: Get-AzureRmRedisCache
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmRedisCache.md
             - name: Get-AzureRmRedisCacheKey
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmRedisCacheKey.md
             - name: Get-AzureRmRedisCachePatchSchedule
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmRedisCachePatchSchedule.md
-            - name: Get-AzureRmResource
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmResource.md
-            - name: Get-AzureRmResourceGroup
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmResourceGroup.md
-            - name: Get-AzureRmResourceGroupDeployment
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmResourceGroupDeployment.md
-            - name: Get-AzureRmResourceGroupDeploymentOperation
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmResourceGroupDeploymentOperation.md
-            - name: Get-AzureRmResourceLock
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmResourceLock.md
-            - name: Get-AzureRmResourceProvider
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmResourceProvider.md
             - name: Import-AzureRmRedisCache
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Import-AzureRmRedisCache.md
-            - name: Invoke-AzureRmResourceAction
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Invoke-AzureRmResourceAction.md
-            - name: Move-AzureRmResource
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Move-AzureRmResource.md
-            - name: New-AzureRmPolicyAssignment
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmPolicyAssignment.md
-            - name: New-AzureRmPolicyDefinition
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmPolicyDefinition.md
             - name: New-AzureRmRedisCache
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmRedisCache.md
             - name: New-AzureRmRedisCacheKey
@@ -6289,60 +6253,18 @@
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmRedisCachePatchSchedule.md
             - name: New-AzureRmRedisCacheScheduleEntry
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmRedisCacheScheduleEntry.md
-            - name: New-AzureRmResource
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmResource.md
-            - name: New-AzureRmResourceGroup
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmResourceGroup.md
-            - name: New-AzureRmResourceGroupDeployment
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmResourceGroupDeployment.md
-            - name: New-AzureRmResourceLock
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmResourceLock.md
-            - name: Register-AzureRmProviderFeature
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Register-AzureRmProviderFeature.md
-            - name: Register-AzureRmResourceProvider
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Register-AzureRmResourceProvider.md
-            - name: Remove-AzureRmPolicyAssignment
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Remove-AzureRmPolicyAssignment.md
-            - name: Remove-AzureRmPolicyDefinition
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Remove-AzureRmPolicyDefinition.md
             - name: Remove-AzureRmRedisCache
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Remove-AzureRmRedisCache.md
             - name: Remove-AzureRmRedisCacheDiagnostics
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Remove-AzureRmRedisCacheDiagnostics.md
             - name: Remove-AzureRmRedisCachePatchSchedule
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Remove-AzureRmRedisCachePatchSchedule.md
-            - name: Remove-AzureRmResource
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Remove-AzureRmResource.md
-            - name: Remove-AzureRmResourceGroup
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Remove-AzureRmResourceGroup.md
-            - name: Remove-AzureRmResourceGroupDeployment
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Remove-AzureRmResourceGroupDeployment.md
-            - name: Remove-AzureRmResourceLock
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Remove-AzureRmResourceLock.md
             - name: Reset-AzureRmRedisCache
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Reset-AzureRmRedisCache.md
-            - name: Save-AzureRmResourceGroupDeploymentTemplate
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Save-AzureRmResourceGroupDeploymentTemplate.md
-            - name: Set-AzureRmPolicyAssignment
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmPolicyAssignment.md
-            - name: Set-AzureRmPolicyDefinition
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmPolicyDefinition.md
             - name: Set-AzureRmRedisCache
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmRedisCache.md
             - name: Set-AzureRmRedisCacheDiagnostics
               href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmRedisCacheDiagnostics.md
-            - name: Set-AzureRmResource
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmResource.md
-            - name: Set-AzureRmResourceGroup
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmResourceGroup.md
-            - name: Set-AzureRmResourceLock
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmResourceLock.md
-            - name: Stop-AzureRmResourceGroupDeployment
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Stop-AzureRmResourceGroupDeployment.md
-            - name: Test-AzureRmResourceGroupDeployment
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Test-AzureRmResourceGroupDeployment.md
-            - name: Unregister-AzureRmResourceProvider
-              href: ../ResourceManager/AzureRM.RedisCache/v2.2.0/Unregister-AzureRmResourceProvider.md
         - name: v2.1.0
           href: ../ResourceManager/AzureRM.RedisCache/v2.1.0/AzureRM.RedisCache.md
           items:

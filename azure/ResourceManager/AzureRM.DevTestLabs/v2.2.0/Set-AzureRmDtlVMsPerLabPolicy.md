@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
-online version: 546171cd-77ce-4752-861f-2ab5f88b13ca
+online version: 96ea83cf-8660-44b7-afa3-179feae1b1ca
 schema: 2.0.0
-ms.assetid: 6B0466C4-A412-4D74-92FD-C4C0391F4F38
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAllowedVMSizesPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAllowedVMSizesPolicy.md
+ms.assetid: 4CF4C0C5-2E12-455C-9582-02C3CB29D85C
+updated_at: 10/28/2016 9:50 PM
+ms.date: 10/28/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlVMsPerLabPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e478754b524d17a2f53132d5818d405e48d9369c/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlVMsPerLabPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -17,27 +17,27 @@ keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
 
-# Set-AzureRmDtlAllowedVMSizesPolicy
+# Set-AzureRmDtlVMsPerLabPolicy
 
 ## SYNOPSIS
-Sets the allowed virtual machine sizes policy of a lab in DevTest Labs.
+Sets the virtual machines per lab policy of a lab in DevTest Labs.
 
 ## SYNTAX
 
 ### Enable (Default)
 ```
-Set-AzureRmDtlAllowedVMSizesPolicy [[-VmSizes] <String[]>] [-Enable] [-LabName] <String>
- [-ResourceGroupName] <String> [-WhatIf] [-Confirm] [<CommonParameters>]
+Set-AzureRmDtlVMsPerLabPolicy [[-MaxVMs] <Int32>] [-Enable] [-LabName] <String> [-ResourceGroupName] <String>
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Disable
 ```
-Set-AzureRmDtlAllowedVMSizesPolicy [[-VmSizes] <String[]>] [-Disable] [-LabName] <String>
- [-ResourceGroupName] <String> [-WhatIf] [-Confirm] [<CommonParameters>]
+Set-AzureRmDtlVMsPerLabPolicy [[-MaxVMs] <Int32>] [-Disable] [-LabName] <String> [-ResourceGroupName] <String>
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmDtlAllowedVMSizesPolicy** cmdlet sets the allowed virtual machine sizes policy, which specifies a list of virtual machine sizes allowed in a lab.
+The **Set-AzureRmDtlVMsPerLabPolicy** cmdlet sets the virtual machines per lab policy of a lab, which sets the total number of virtual machines allowed in a lab.
 The cmdlet uses the specified resource group and name of the lab to set the policy.
 
 ## EXAMPLES
@@ -49,11 +49,11 @@ The cmdlet uses the specified resource group and name of the lab to set the poli
 
 ## PARAMETERS
 
-### -VmSizes
-Specifies, as a string array, the list of virtual machine sizes allowed in the lab.
+### -MaxVMs
+Specifies the maximum number of virtual machines that can be created in the lab.
 
 ```yaml
-Type: String[]
+Type: Int32
 Parameter Sets: (All)
 Aliases: 
 
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -Enable
-Indicates that this cmdlet enables the policy.
+Indicates that this cmdlet enables the policy of the lab.
 
 ```yaml
 Type: SwitchParameter
@@ -80,7 +80,7 @@ Accept wildcard characters: False
 ```
 
 ### -LabName
-Specifies the name of the lab for which this cmdlet sets the virtual machine sizes policy.
+Specifies the name of the lab for which this cmdlet sets the virtual machines per lab policy.
 
 ```yaml
 Type: String
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -Disable
-Indicates that this cmdlet disables the policy.
+Indicates that this cmdlet disables the policy of the lab.
 
 ```yaml
 Type: SwitchParameter
@@ -164,12 +164,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### Microsoft.Azure.Commands.DevTestLabs.Models.PSPolicy
-This cmdlet returns the policy that specifies the list of virtual machine sizes allowed in the lab.
+This cmdlet returns the policy that specifies the maximum number of virtual machines that can be created in the lab.
 
 ## NOTES
 
 ## RELATED LINKS
 
-[Get-AzureRmDtlAllowedVMSizesPolicy](./Get-AzureRmDtlAllowedVMSizesPolicy.md)
+[Get-AzureRmDtlVMsPerLabPolicy](./Get-AzureRmDtlVMsPerLabPolicy.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
-online version: f2a66a2d-b93d-491d-8990-a8cdd48b57bb
+online version: 91e9385c-e861-4ba7-9bc9-66cef5385cec
 schema: 2.0.0
-ms.assetid: 37C19EB7-0CF8-4D50-8437-31CB6FBDBC07
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAutoStartPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/2.2.0/Set-AzureRmDtlAutoStartPolicy.md
+ms.assetid: A61000E7-77E4-4441-B167-6DD304FBA932
+updated_at: 10/28/2016 9:50 PM
+ms.date: 10/28/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlAutoShutdownPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e478754b524d17a2f53132d5818d405e48d9369c/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlAutoShutdownPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -17,27 +17,27 @@ keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
 
-# Set-AzureRmDtlAutoStartPolicy
+# Set-AzureRmDtlAutoShutdownPolicy
 
 ## SYNOPSIS
-Sets the auto start policy of a lab in DevTest Labs.
+Sets the auto shutdown policy of a lab DevTest Labs.
 
 ## SYNTAX
 
 ### Enable (Default)
 ```
-Set-AzureRmDtlAutoStartPolicy [[-Time] <DateTime>] [[-Days] <DayOfWeek[]>] [-Enable] [-LabName] <String>
+Set-AzureRmDtlAutoShutdownPolicy [[-Time] <DateTime>] [-Enable] [-LabName] <String>
  [-ResourceGroupName] <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Disable
 ```
-Set-AzureRmDtlAutoStartPolicy [[-Time] <DateTime>] [[-Days] <DayOfWeek[]>] [-Disable] [-LabName] <String>
+Set-AzureRmDtlAutoShutdownPolicy [[-Time] <DateTime>] [-Disable] [-LabName] <String>
  [-ResourceGroupName] <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmDtlAutoStartPolicy** cmdlet sets the auto start policy of a lab, which allows lab virtual machines to be scheduled for automatic start.
+The **Set-AzureRmDtlAutoShutdownPolicy** cmdlet sets the auto shutdown policy of a lab, which automatically shuts down all the virtual machines in the lab at a specified time of the day.
 The cmdlet uses the specified resource group and name of the lab to set the policy.
 
 ## EXAMPLES
@@ -50,7 +50,7 @@ The cmdlet uses the specified resource group and name of the lab to set the poli
 ## PARAMETERS
 
 ### -Time
-Specifies the time when the virtual machines of the lab must be started.
+Specifies the time, as a **DateTime** object, for when the virtual machines in the lab must shut down.
 
 ```yaml
 Type: DateTime
@@ -64,23 +64,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Days
-Specifies, as an array, the days of the week for when the virtual machines of the lab must be started.
-
-```yaml
-Type: DayOfWeek[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 5
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -Enable
-Indicates that this cmdlet enables the policy for the virtual machines in the lab.
+Indicates that the cmdlet enables the policy in the lab.
 
 ```yaml
 Type: SwitchParameter
@@ -95,7 +80,7 @@ Accept wildcard characters: False
 ```
 
 ### -LabName
-Specifies the name of the lab for which this cmdlet sets the automatic start policy.
+Specifies the name of the lab for which this cmdlet sets the auto shutdown policy.
 
 ```yaml
 Type: String
@@ -125,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -Disable
-Indicates that this cmdlet disables the policy for the virtual machines in the lab.
+Indicates that the cmdlet disables the policy in the lab.
 
 ```yaml
 Type: SwitchParameter
@@ -179,12 +164,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### Microsoft.Azure.Commands.DevTestLabs.Models.PSSchedule
-This cmdlet returns the schedule that specifies when the virtual machines of the lab must be started.
+This cmdlet returns the schedule which specifies when the virtual machines in the lab must shut down.
 
 ## NOTES
 
 ## RELATED LINKS
 
-[Get-AzureRmDtlAutoStartPolicy](./Get-AzureRmDtlAutoStartPolicy.md)
+[Get-AzureRmDtlAutoShutdownPolicy](./Get-AzureRmDtlAutoShutdownPolicy.md)
 
 
