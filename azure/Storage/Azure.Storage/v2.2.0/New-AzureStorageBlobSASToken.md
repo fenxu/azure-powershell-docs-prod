@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageBlob.md
 schema: 2.0.0
 ms.assetid: F08D2DE2-A276-439C-B9A8-EE187A8C334E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/28/2016 8:57 PM
+ms.date: 10/28/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/New-AzureStorageBlobSASToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/New-AzureStorageBlobSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1a363b27962232b93fa0c55f46990223338473a1/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/New-AzureStorageBlobSASToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -83,7 +83,7 @@ Specifies the storage container name.
 ```yaml
 Type: String
 Parameter Sets: BlobNameWithPermission, BlobNameWithPolicy
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -98,7 +98,7 @@ Specifies the storage blob name.
 ```yaml
 Type: String
 Parameter Sets: BlobNameWithPermission, BlobNameWithPolicy
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -113,7 +113,7 @@ Specifies the permissions for a storage blob.
 ```yaml
 Type: String
 Parameter Sets: BlobNameWithPermission, BlobPipelineWithPermission
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -123,12 +123,17 @@ Accept wildcard characters: False
 ```
 
 ### -Protocol
-@{Text=}
+Specifies the protocol permitted for a request.
+The acceptable values for this parameter are:
+* HttpsOnly
+* HttpsOrHttp
+
+The default value is HttpsOrHttp.
 
 ```yaml
 Type: SharedAccessProtocol
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -138,12 +143,13 @@ Accept wildcard characters: False
 ```
 
 ### -IPAddressOrRange
-@{Text=}
+Specifies the IP address or range of IP addresses from which to accept requests, such as 168.1.5.65 or 168.1.5.60-168.1.5.70.
+The range is inclusive.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -158,7 +164,7 @@ Specifies the time at which the shared access signature becomes valid.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -173,7 +179,7 @@ Specifies when the shared access signature expires.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -188,7 +194,7 @@ Indicates that this cmdlet return the full blob URI and the shared access signat
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -203,7 +209,7 @@ Specifies the storage context.
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -214,7 +220,7 @@ Accept wildcard characters: False
 
 ### -CloudBlob
 Specifies the **CloudBlob** object.
-To obtain a **CloudBlob** object, use the Get-AzureStorageBlob cmdlet.
+To obtain a **CloudBlob** object, use the [Get-AzureStorageBlob](./Get-AzureStorageBlob.md) cmdlet.
 
 ```yaml
 Type: CloudBlob
@@ -234,7 +240,7 @@ Specifies an Azure Stored Access Policy.
 ```yaml
 Type: String
 Parameter Sets: BlobPipelineWithPolicy, BlobNameWithPolicy
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -272,5 +278,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureStorageBlob](./Get-AzureStorageBlob.md)
 
 [New-AzureStorageContainerSASToken](./New-AzureStorageContainerSASToken.md)
-
-

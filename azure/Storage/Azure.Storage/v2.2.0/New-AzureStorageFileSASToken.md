@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\New-AzureStorageContext.md
 schema: 2.0.0
 ms.assetid: 4FB064F5-94BC-4D8F-9EF6-2611F8AAB99C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/28/2016 8:57 PM
+ms.date: 10/28/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/New-AzureStorageFileSASToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/New-AzureStorageFileSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1a363b27962232b93fa0c55f46990223338473a1/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/New-AzureStorageFileSASToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -87,7 +87,7 @@ Specifies the name of the Storage share.
 ```yaml
 Type: String
 Parameter Sets: NameSasPermission, NameSasPolicy
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -102,7 +102,7 @@ Specifies the path of the file relative to a Storage share.
 ```yaml
 Type: String
 Parameter Sets: NameSasPermission, NameSasPolicy
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -117,7 +117,7 @@ Specifies the stored access policy for a file.
 ```yaml
 Type: String
 Parameter Sets: NameSasPolicy, FileSasPolicy
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -127,12 +127,17 @@ Accept wildcard characters: False
 ```
 
 ### -Protocol
-@{Text=}
+Specifies the protocol permitted for a request.
+The acceptable values for this parameter are:
+* HttpsOnly
+* HttpsOrHttp
+
+The default value is HttpsOrHttp.
 
 ```yaml
 Type: SharedAccessProtocol
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -142,12 +147,13 @@ Accept wildcard characters: False
 ```
 
 ### -IPAddressOrRange
-@{Text=}
+Specifies the IP address or range of IP addresses from which to accept requests, such as 168.1.5.65 or 168.1.5.60-168.1.5.70.
+The range is inclusive.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -162,7 +168,7 @@ Specifies the time at which the shared access signature becomes valid.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -177,7 +183,7 @@ Specifies the time at which the shared access signature becomes invalid.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -192,7 +198,7 @@ Indicates that this cmdlet return the full blob URI and the shared access signat
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -208,7 +214,7 @@ To obtain a context, use the New-AzureStorageContext cmdlet.
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: NameSasPermission, NameSasPolicy
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -223,7 +229,7 @@ Specifies the permissions for a Storage file.
 ```yaml
 Type: String
 Parameter Sets: NameSasPermission, FileSasPermission
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -239,7 +245,7 @@ You can create a cloud file or obtain one by using the Get-AzureStorageFile cmdl
 ```yaml
 Type: CloudFile
 Parameter Sets: FileSasPermission, FileSasPolicy
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -262,5 +268,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureStorageContext](./New-AzureStorageContext.md)
 
 [New-AzureStorageShareSASToken](./New-AzureStorageShareSASToken.md)
-
-
