@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageFile.md
 schema: 2.0.0
 ms.assetid: 7E23B9F6-5F66-49A3-BEB8-E2639C5234D7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/28/2016 9:32 PM
+ms.date: 10/28/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageFileContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageFileContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fb3c79eb3effd4c9e448c0dd4bc104a378251bc8/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageFileContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -274,7 +274,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet. 
 
 ```yaml
 Type: SwitchParameter

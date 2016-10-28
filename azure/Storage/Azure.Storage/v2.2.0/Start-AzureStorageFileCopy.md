@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageBlob.md
 schema: 2.0.0
 ms.assetid: 66445D9F-72A9-44E3-9F1B-72EC0888357A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/28/2016 9:32 PM
+ms.date: 10/28/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Start-AzureStorageFileCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Start-AzureStorageFileCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fb3c79eb3effd4c9e448c0dd4bc104a378251bc8/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Start-AzureStorageFileCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -125,7 +125,7 @@ Specifies the name of the source blob.
 ```yaml
 Type: String
 Parameter Sets: ContainerName, ContainerInstance
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -140,7 +140,7 @@ Specifies the name of the source container.
 ```yaml
 Type: String
 Parameter Sets: ContainerName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -155,7 +155,7 @@ Specifies the name of the destination share.
 ```yaml
 Type: String
 Parameter Sets: ContainerName, ContainerInstance, BlobInstanceFilePath, ShareInstance, ShareName, FileInstanceToFilePath, UriToFilePath
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -170,7 +170,7 @@ Specifies the path of the destination file relative to the destination share.
 ```yaml
 Type: String
 Parameter Sets: ContainerName, ContainerInstance, BlobInstanceFilePath, ShareInstance, ShareName, FileInstanceToFilePath, UriToFilePath
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -202,7 +202,7 @@ To obtain a context, use **New-AzureStorageContext**.
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: ContainerName, ContainerInstance, BlobInstanceFilePath, ShareInstance, ShareName, FileInstanceToFilePath, UriToFilePath
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -217,7 +217,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -232,7 +232,7 @@ Specifies the length of the time-out period for the server part of a request.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -249,7 +249,7 @@ If this cmdlet does not receive a successful response before the interval elapse
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -268,7 +268,7 @@ The default value is 10.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -279,7 +279,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -295,7 +294,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -316,7 +315,7 @@ You can create cloud blob container object or use the Get-AzureStorageContainer 
 ```yaml
 Type: CloudBlobContainer
 Parameter Sets: ContainerInstance
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -348,7 +347,7 @@ You can create a cloud file or obtain one by using the Get-AzureStorageFile cmdl
 ```yaml
 Type: CloudFile
 Parameter Sets: BlobInstanceFileInstance, FileInstanceToFileInstance, UriToFileInstance
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -363,7 +362,7 @@ Specifies the path of the source file relative to the source directory or source
 ```yaml
 Type: String
 Parameter Sets: ShareInstance, ShareName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -378,7 +377,7 @@ Specifies the name of the source share.
 ```yaml
 Type: String
 Parameter Sets: ShareName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -394,7 +393,7 @@ You can create a cloud file share or obtain one by using the Get-AzureStorageSha
 ```yaml
 Type: CloudFileShare
 Parameter Sets: ShareInstance
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -410,7 +409,7 @@ You can create a cloud file or obtain one by using **Get-AzureStorageFile**.
 ```yaml
 Type: CloudFile
 Parameter Sets: FileInstanceToFilePath, FileInstanceToFileInstance
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -426,7 +425,7 @@ If the source location requires a credential, you must provide one.
 ```yaml
 Type: String
 Parameter Sets: UriToFileInstance, UriToFilePath
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -457,5 +456,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureStorageFileCopyState](./Get-AzureStorageFileCopyState.md)
 
 [Stop-AzureStorageFileCopy](./Stop-AzureStorageFileCopy.md)
-
-
