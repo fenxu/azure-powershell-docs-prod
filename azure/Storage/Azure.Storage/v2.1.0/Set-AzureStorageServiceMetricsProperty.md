@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageServiceMetricsProperty.md
 schema: 2.0.0
 ms.assetid: AE9762AA-8104-4BB4-A3E5-EC3B3CE748A5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 3:41 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Set-AzureStorageServiceMetricsProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Set-AzureStorageServiceMetricsProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42256fef87c1ded108a960d99ba2ca101729fe57/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Set-AzureStorageServiceMetricsProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -52,7 +52,7 @@ Specifies the storage service type.
 This cmdlet modifies the metrics properties for the service type that this parameter specifies.
 The acceptable values for this parameter are:
 
-- Blob 
+- Blob
 - Table
 - Queue
 - File
@@ -62,7 +62,7 @@ The value of File is not currently supported.
 ```yaml
 Type: StorageServiceType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -79,7 +79,7 @@ The acceptable values for this parameter are: Hour and Minute.
 ```yaml
 Type: ServiceMetricsType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -95,7 +95,7 @@ The default value is 1.0.
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -110,7 +110,7 @@ Specifies the number of days that the Azure Storage service retains metrics info
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -130,7 +130,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: MetricsLevel
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -146,7 +146,7 @@ If you do not specify this parameter, this cmdlet does not return a value.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -162,7 +162,7 @@ To obtain a storage context, use the New-AzureStorageContext cmdlet.
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -172,7 +172,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -187,7 +194,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable. 
 
 ```yaml
 Type: String
@@ -230,5 +237,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureStorageServiceMetricsProperty](xref:Storage/Azure.Storage/v2.1.0/Get-AzureStorageServiceMetricsProperty.md)
 
 [New-AzureStorageContext](xref:Storage/Azure.Storage/v2.1.0/New-AzureStorageContext.md)
-
-

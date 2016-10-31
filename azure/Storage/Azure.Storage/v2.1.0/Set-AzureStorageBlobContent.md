@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageBlobContent.md
 schema: 2.0.0
 ms.assetid: C3D50900-70D6-44AF-B939-ABE86FCF89E6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 3:41 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Set-AzureStorageBlobContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Set-AzureStorageBlobContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42256fef87c1ded108a960d99ba2ca101729fe57/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Set-AzureStorageBlobContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -137,7 +137,7 @@ This cmdlet uploads a file to a blob in the container that this parameter specif
 ```yaml
 Type: String
 Parameter Sets: SendManual
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -153,7 +153,7 @@ This cmdlet uploads a file to the Azure Storage blob that this parameter specifi
 ```yaml
 Type: String
 Parameter Sets: SendManual, ContainerPipeline
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -174,7 +174,7 @@ The default value is Block.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -189,7 +189,7 @@ Specifies properties for the uploaded blob.
 ```yaml
 Type: Hashtable
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -204,7 +204,7 @@ Specifies metadata for the uploaded blob.
 ```yaml
 Type: Hashtable
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -219,7 +219,7 @@ Indicates that this cmdlet overwrites an existing blob without prompting you for
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -235,7 +235,7 @@ To obtain a storage context, use the New-AzureStorageContext cmdlet.
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -251,7 +251,7 @@ If the specified interval elapses before the service processes the request, the 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -268,7 +268,7 @@ If this cmdlet does not receive a successful response before the interval elapse
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -287,7 +287,7 @@ The default value is 10.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -297,7 +297,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -312,7 +319,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -350,7 +357,7 @@ To obtain a **CloudBlobContainer** object, use the Get-AzureStorageContainer cmd
 ```yaml
 Type: CloudBlobContainer
 Parameter Sets: ContainerPipeline
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -375,7 +382,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -391,7 +398,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -422,5 +428,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureStorageBlob](xref:Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlob.md)
 
 [Remove-AzureStorageBlob](xref:Storage/Azure.Storage/v2.1.0/Remove-AzureStorageBlob.md)
-
-

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageShareStoredAccessPolicy.md
 schema: 2.0.0
 ms.assetid: D5B956F0-92CA-4246-9860-DFA96F17ED8A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 3:41 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageShareStoredAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageShareStoredAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42256fef87c1ded108a960d99ba2ca101729fe57/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageShareStoredAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -61,12 +61,12 @@ Accept wildcard characters: False
 ```
 
 ### -Policy
-@{Text=}
+Specifies the Azure stored access policy.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -76,12 +76,12 @@ Accept wildcard characters: False
 ```
 
 ### -Permission
-@{Text=}
+Permissions in the Shared Access Policy to access the storage share or files under it.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -91,12 +91,12 @@ Accept wildcard characters: False
 ```
 
 ### -StartTime
-@{Text=}
+Specifies the time at which the stored access policy becomes valid.
 
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -106,12 +106,12 @@ Accept wildcard characters: False
 ```
 
 ### -ExpiryTime
-@{Text=}
+Specifies the time at which the stored access policy becomes invalid.
 
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -121,12 +121,13 @@ Accept wildcard characters: False
 ```
 
 ### -Context
-@{Text=}
+Specifies an Azure storage context.
+To obtain a storage context, use the [New-AzureStorageContext](./New-AzureStorageContext.md) cmdlet.
 
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -136,12 +137,13 @@ Accept wildcard characters: False
 ```
 
 ### -ServerTimeoutPerRequest
-@{Text=}
+Specifies the service side time-out interval, in seconds, for a request.
+If the specified interval elapses before the service processes the request, the storage service returns an error.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -151,12 +153,14 @@ Accept wildcard characters: False
 ```
 
 ### -ClientTimeoutPerRequest
-@{Text=}
+Specifies the client-side time-out interval, in seconds, for one service request.
+If the previous call fails in the specified interval, this cmdlet retries the request.
+If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -166,12 +170,16 @@ Accept wildcard characters: False
 ```
 
 ### -ConcurrentTaskCount
-@{Text=}
+Specifies the maximum concurrent network calls.
+You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
+The specified value is an absolute count and is not multiplied by the core count.
+This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
+The default value is 10.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -181,7 +189,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -196,7 +211,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -228,5 +243,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureStorageShareStoredAccessPolicy](xref:Storage/Azure.Storage/v2.1.0/Remove-AzureStorageShareStoredAccessPolicy.md)
 
 [Set-AzureStorageShareStoredAccessPolicy](xref:Storage/Azure.Storage/v2.1.0/Set-AzureStorageShareStoredAccessPolicy.md)
-
-

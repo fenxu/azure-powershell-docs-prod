@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageBlob.md
 schema: 2.0.0
 ms.assetid: 671AEEC8-B7F9-49C5-866F-DA84F189AB5B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 3:41 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageContext.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageContext.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42256fef87c1ded108a960d99ba2ca101729fe57/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageContext.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -123,7 +123,7 @@ The command gets the Azure Storage container for the local developer storage acc
 
 ### Example 6: Get multiple containers
 ```
-C:\PS>$Context01 = New-AzureStorageContext -Local 
+C:\PS>$Context01 = New-AzureStorageContext -Local
 PS C:\> $Context02 = New-AzureStorageContext -StorageAccountName "ContosoGeneral" -StorageAccountKey "< Storage Key for ContosoGeneral ends with == >"
 PS C:\> ($Context01, $Context02) | Get-AzureStorageContainer
 ```
@@ -173,7 +173,7 @@ This cmdlet creates a context for the account that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: AccountNameAndKey, SasToken, SasTokenWithAzureEnvironment, AccountNameAndKeyEnvironment, AnonymousAccount, AnonymousAccountEnvironment
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -189,7 +189,7 @@ This cmdlet creates a context for the key that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: AccountNameAndKey, AccountNameAndKeyEnvironment
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -210,7 +210,7 @@ The default value is HttpsOrHttp.
 ```yaml
 Type: String
 Parameter Sets: AccountNameAndKey, SasToken, AccountNameAndKeyEnvironment, AnonymousAccount, AnonymousAccountEnvironment
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -225,7 +225,7 @@ Specifies the endpoint for the Azure Storage context.
 ```yaml
 Type: String
 Parameter Sets: AccountNameAndKey, SasToken, AnonymousAccount
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -235,7 +235,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -250,7 +257,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable. 
 
 ```yaml
 Type: String
@@ -270,7 +277,7 @@ Specifies a Shared Access Signature (SAS) token for the context.
 ```yaml
 Type: String
 Parameter Sets: SasToken, SasTokenWithAzureEnvironment
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -314,7 +321,7 @@ Indicates that this cmdlet creates an Azure Storage context for anonymous logon.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: AnonymousAccount, AnonymousAccountEnvironment
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -329,7 +336,7 @@ Specifies a connection string for the Azure Storage context.
 ```yaml
 Type: String
 Parameter Sets: ConnectionString
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -344,7 +351,7 @@ Indicates that this cmdlet creates a context by using the local development stor
 ```yaml
 Type: SwitchParameter
 Parameter Sets: LocalDevelopment
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -384,5 +391,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureStorageBlob](xref:Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlob.md)
 
 [New-AzureStorageContainerSASToken](xref:Storage/Azure.Storage/v2.1.0/New-AzureStorageContainerSASToken.md)
-
-

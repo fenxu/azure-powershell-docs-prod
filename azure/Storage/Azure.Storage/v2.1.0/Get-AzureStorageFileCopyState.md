@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageFile.md
 schema: 2.0.0
 ms.assetid: 248556E1-291F-4D27-B2E1-E00CC895B3A9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 3:41 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageFileCopyState.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageFileCopyState.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42256fef87c1ded108a960d99ba2ca101729fe57/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageFileCopyState.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -59,7 +59,7 @@ Specifies the name of a share.
 ```yaml
 Type: String
 Parameter Sets: ShareName
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -74,7 +74,7 @@ Specifies the path of the file relative to an Azure Storage share.
 ```yaml
 Type: String
 Parameter Sets: ShareName
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -84,12 +84,13 @@ Accept wildcard characters: False
 ```
 
 ### -WaitForComplete
-@{Text=}
+Indicates that this cmdlet waits for the copy to finish.
+If you do not specify this parameter, this cmdlet returns a result immediately.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -99,12 +100,13 @@ Accept wildcard characters: False
 ```
 
 ### -Context
-@{Text=}
+Specifies an Azure storage context.
+To obtain a storage context, use the [New-AzureStorageContext](./New-AzureStorageContext.md) cmdlet.
 
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: ShareName
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -114,12 +116,14 @@ Accept wildcard characters: False
 ```
 
 ### -ServerTimeoutPerRequest
-@{Text=}
+Specifies the service side time-out interval, in seconds, for a request.
+If the specified interval elapses before the service processes the request, the storage service returns an error.
+
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -129,12 +133,14 @@ Accept wildcard characters: False
 ```
 
 ### -ClientTimeoutPerRequest
-@{Text=}
+Specifies the client-side time-out interval, in seconds, for one service request.
+If the previous call fails in the specified interval, this cmdlet retries the request.
+If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -144,12 +150,16 @@ Accept wildcard characters: False
 ```
 
 ### -ConcurrentTaskCount
-@{Text=}
+Specifies the maximum concurrent network calls.
+You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
+The specified value is an absolute count and is not multiplied by the core count.
+This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
+The default value is 10.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -159,7 +169,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -174,7 +191,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -195,7 +212,7 @@ You can create a cloud file or obtain one by using the Get-AzureStorageFile cmdl
 ```yaml
 Type: CloudFile
 Parameter Sets: File
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -222,5 +239,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Start-AzureStorageFileCopy](xref:Storage/Azure.Storage/v2.1.0/Start-AzureStorageFileCopy.md)
 
 [Stop-AzureStorageFileCopy](xref:Storage/Azure.Storage/v2.1.0/Stop-AzureStorageFileCopy.md)
-
-

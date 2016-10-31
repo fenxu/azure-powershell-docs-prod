@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Remove-AzureStorageDirectory.md
 schema: 2.0.0
 ms.assetid: CD2E0AA7-3259-4AA5-8494-C432063D34E7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 3:41 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Set-AzureStorageFileContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Set-AzureStorageFileContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42256fef87c1ded108a960d99ba2ca101729fe57/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Set-AzureStorageFileContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -55,7 +55,7 @@ The **Set-AzureStorageFileContent** cmdlet uploads the contents of a file to a f
 
 ### Example 1: Upload a file in the current folder
 ```
-PS C:\>Set-AzureStorageFileContent  ¢â‚¬"ShareName "ContosoShare06"  ¢â‚¬"Source "DataFile37"  ¢â‚¬"Path "ContosoWorkingFolder/CurrentDataFile"
+PS C:\>Set-AzureStorageFileContent  -ShareName "ContosoShare06"  -Source "DataFile37"  -Path "ContosoWorkingFolder/CurrentDataFile"
 ```
 
 This command uploads a file that is named DataFile37 in the current folder as a file that is named CurrentDataFile in the folder named ContosoWorkingFolder.
@@ -66,7 +66,7 @@ PS C:\>$CurrentFolder = (Get-Item .).FullName
 PS C:\> $Container = Get-AzureStorageShare -Name "ContosoShare06"
 PS C:\> Get-ChildItem -Recurse | Where-Object { $_.GetType().Name -eq "FileInfo"} | ForEach-Object {
     $path=$_.FullName.Substring($Currentfolder.Length+1).Replace("\","/")
-    Set-AzureStorageFileContent -Share $Container -Source $_.FullName -Path $path -Force 
+    Set-AzureStorageFileContent -Share $Container -Source $_.FullName -Path $path -Force
 }
 ```
 
@@ -91,7 +91,7 @@ This cmdlet uploads to a file in the file share this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: ShareName
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -101,7 +101,10 @@ Accept wildcard characters: False
 ```
 
 ### -Source
-@{Text=}
+Specifies the source file that this cmdlet uploads.
+If you specify a file that does not exist, this cmdlet returns an error.
+
+
 
 ```yaml
 Type: String
@@ -116,12 +119,12 @@ Accept wildcard characters: False
 ```
 
 ### -Path
-@{Text=}
+Specifies the path of a folder.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -131,12 +134,13 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-@{Text=}
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -146,12 +150,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-@{Text=}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -161,12 +165,13 @@ Accept wildcard characters: False
 ```
 
 ### -Context
-@{Text=}
+Specifies an Azure storage context.
+To obtain a storage context, use the [New-AzureStorageContext](./New-AzureStorageContext.md) cmdlet.
 
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: ShareName
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -176,12 +181,13 @@ Accept wildcard characters: False
 ```
 
 ### -ServerTimeoutPerRequest
-@{Text=}
+Specifies the service side time-out interval, in seconds, for a request.
+If the specified interval elapses before the service processes the request, the storage service returns an error.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -191,12 +197,14 @@ Accept wildcard characters: False
 ```
 
 ### -ClientTimeoutPerRequest
-@{Text=}
+Specifies the client-side time-out interval, in seconds, for one service request.
+If the previous call fails in the specified interval, this cmdlet retries the request.
+If this cmdlet does not receive a successful response before the interval elapses, this cmdlet returns an error.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -206,12 +214,16 @@ Accept wildcard characters: False
 ```
 
 ### -ConcurrentTaskCount
-@{Text=}
+Specifies the maximum concurrent network calls.
+You can use this parameter to limit the concurrency to throttle local CPU and bandwidth usage by specifying the maximum number of concurrent network calls.
+The specified value is an absolute count and is not multiplied by the core count.
+This parameter can help reduce network connection problems in low bandwidth environments, such as 100 kilobits per second.
+The default value is 10.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -221,7 +233,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -236,7 +255,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -252,7 +271,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -268,7 +286,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -292,7 +310,7 @@ If you specify this parameter, do not specify the *Context* parameter.
 ```yaml
 Type: CloudFileShare
 Parameter Sets: Share
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -310,7 +328,7 @@ You can also use the Get-AzureStorageFile cmdlet to obtain a directory.
 ```yaml
 Type: CloudFileDirectory
 Parameter Sets: Directory
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -350,5 +368,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureStorageDirectory](xref:Storage/Azure.Storage/v2.1.0/New-AzureStorageDirectory.md)
 
 [Get-AzureStorageFileContent](xref:Storage/Azure.Storage/v2.1.0/Get-AzureStorageFileContent.md)
-
-

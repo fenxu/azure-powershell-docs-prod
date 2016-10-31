@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageContainer.md
 schema: 2.0.0
 ms.assetid: F3DA4BF0-AA3A-4853-A362-E3FC479688D6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 3:41 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42256fef87c1ded108a960d99ba2ca101729fe57/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -77,10 +77,10 @@ The acceptable values for this parameter are:
 
 - Container.
 Provides full read access to a container and its blobs.
-Clients can enumerate blobs in the container through anonymous request, but cannot enumerate containers in the storage account. 
+Clients can enumerate blobs in the container through anonymous request, but cannot enumerate containers in the storage account.
 - Blob.
 Provides read access to blob data throughout a container through anonymous request, but does not provide access to container data.
-Clients cannot enumerate blobs in the container by using anonymous request. 
+Clients cannot enumerate blobs in the container by using anonymous request.
 - Off.
 Which restricts access to only the storage account owner.
 
@@ -102,7 +102,7 @@ Specifies a context for the new container.
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -118,7 +118,7 @@ If the specified interval elapses before the service processes the request, the 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -135,7 +135,7 @@ If this cmdlet does not receive a successful response before the interval elapse
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -154,7 +154,7 @@ The default value is 10.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -164,7 +164,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -179,7 +186,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable. 
 
 ```yaml
 Type: String
@@ -224,5 +231,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureStorageContainer](xref:Storage/Azure.Storage/v2.1.0/Remove-AzureStorageContainer.md)
 
 [Set-AzureStorageContainerAcl](xref:Storage/Azure.Storage/v2.1.0/Set-AzureStorageContainerAcl.md)
-
-

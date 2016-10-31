@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Set-AzureStorageBlobContent.md
 schema: 2.0.0
 ms.assetid: 15371EB7-DA6A-4B26-BBDA-B59A2EEEDB1D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 3:41 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlobContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlobContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42256fef87c1ded108a960d99ba2ca101729fe57/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlobContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -83,7 +83,7 @@ Specifies the name of the blob to be downloaded.
 ```yaml
 Type: String
 Parameter Sets: ReceiveManual, ContainerPipeline
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -98,7 +98,7 @@ Specifies the name of container that has the blob you want to download.
 ```yaml
 Type: String
 Parameter Sets: ReceiveManual
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -128,7 +128,7 @@ Specifies whether to check the Md5 sum for the downloaded file.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -143,7 +143,7 @@ Overwrites an existing file without confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -159,7 +159,7 @@ You can use the New-AzureStorageContext cmdlet to create a storage context.
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -175,7 +175,7 @@ If the specified interval elapses before the service processes the request, the 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -192,7 +192,7 @@ If this cmdlet does not receive a successful response before the interval elapse
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -213,7 +213,7 @@ The default value is 10.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -223,7 +223,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -238,7 +245,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -275,7 +282,7 @@ You can create it or use the Get-AzureStorageContainer cmdlet.
 ```yaml
 Type: CloudBlobContainer
 Parameter Sets: ContainerPipeline
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -300,7 +307,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -316,7 +323,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -350,5 +356,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureStorageBlob](xref:Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlob.md)
 
 [Remove-AzureStorageBlob](xref:Storage/Azure.Storage/v2.1.0/Remove-AzureStorageBlob.md)
-
-

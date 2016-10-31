@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\New-AzureStorageContainer.md
 schema: 2.0.0
 ms.assetid: 4880A1A4-C947-4310-8317-0A837B8ACB7F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 3:41 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42256fef87c1ded108a960d99ba2ca101729fe57/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -84,7 +84,7 @@ Specifies the maximum number of objects that this cmdlet returns.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -99,7 +99,7 @@ Specifies a continuation token for the blob list.
 ```yaml
 Type: BlobContinuationToken
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,7 +115,7 @@ To create it, you can use the New-AzureStorageContext cmdlet.
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -131,7 +131,7 @@ If the specified interval elapses before the service processes the request, the 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -148,7 +148,7 @@ If this cmdlet does not receive a successful response before the interval elapse
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -167,7 +167,7 @@ The default value is 10.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -177,7 +177,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -192,7 +199,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable. 
 
 ```yaml
 Type: String
@@ -213,7 +220,7 @@ You can use this to find all containers that start with the same string, such as
 ```yaml
 Type: String
 Parameter Sets: ContainerPrefix
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -253,5 +260,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureStorageContainer](xref:Storage/Azure.Storage/v2.1.0/Remove-AzureStorageContainer.md)
 
 [Set-AzureStorageContainerAcl](xref:Storage/Azure.Storage/v2.1.0/Set-AzureStorageContainerAcl.md)
-
-
