@@ -485,16 +485,16 @@ This cmdlet returns a **System.Fabric.Description.ApplicationUpgradeDescription*
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricApplicationUpgrade](./Get-ServiceFabricApplicationUpgrade.md)
+[Get-ServiceFabricApplicationUpgrade](xref:ServiceFabric/vlatest/Get-ServiceFabricApplicationUpgrade.md)
 
-[Resume-ServiceFabricApplicationUpgrade](./Resume-ServiceFabricApplicationUpgrade.md)
+[Resume-ServiceFabricApplicationUpgrade](xref:ServiceFabric/vlatest/Resume-ServiceFabricApplicationUpgrade.md)
 
-[Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md)
+[Copy-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md)
 
-[Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType.md)
+[Register-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md)
 
 

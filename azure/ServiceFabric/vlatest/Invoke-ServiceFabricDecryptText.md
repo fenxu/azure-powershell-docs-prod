@@ -110,10 +110,10 @@ This cmdlet returns decrypted text as a **String**.
 
 ## RELATED LINKS
 
-[Invoke-ServiceFabricEncryptText](./Invoke-ServiceFabricEncryptText.md)
+[Invoke-ServiceFabricEncryptText](xref:ServiceFabric/vlatest/Invoke-ServiceFabricEncryptText.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

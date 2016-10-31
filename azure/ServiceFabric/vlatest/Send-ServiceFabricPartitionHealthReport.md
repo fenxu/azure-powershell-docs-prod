@@ -231,12 +231,12 @@ This cmdlet does not return any output.
 
 ## RELATED LINKS
 
-[Get-ServiceFabricPartitionHealth](./Get-ServiceFabricPartitionHealth.md)
+[Get-ServiceFabricPartitionHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md)
 
-[Get-ServiceFabricServiceHealth](./Get-ServiceFabricServiceHealth.md)
+[Get-ServiceFabricServiceHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricServiceHealth.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

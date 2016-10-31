@@ -236,12 +236,12 @@ This cmdlet does not return any output.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricNode](./Get-ServiceFabricNode.md)
+[Get-ServiceFabricNode](xref:ServiceFabric/vlatest/Get-ServiceFabricNode.md)
 
-[Get-ServiceFabricNodeHealth](./Get-ServiceFabricNodeHealth.md)
+[Get-ServiceFabricNodeHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricNodeHealth.md)
 
 

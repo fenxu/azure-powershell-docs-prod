@@ -195,10 +195,10 @@ This cmdlet returns a **System.Fabric.Health.DeployedServicePackageHealth** obje
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricDeployedServicePackage](./Get-ServiceFabricDeployedServicePackage.md)
+[Get-ServiceFabricDeployedServicePackage](xref:ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackage.md)
 
 

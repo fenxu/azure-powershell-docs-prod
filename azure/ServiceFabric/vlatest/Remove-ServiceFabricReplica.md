@@ -405,6 +405,6 @@ This cmdlet returns a **System.Fabric.Testability.RemoveReplicaResult** object t
 
 ## RELATED LINKS
 
-[Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md)
+[Get-ServiceFabricReplica](xref:ServiceFabric/vlatest/Get-ServiceFabricReplica.md)
 
 

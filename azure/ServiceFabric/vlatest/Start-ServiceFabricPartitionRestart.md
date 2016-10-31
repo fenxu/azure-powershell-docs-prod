@@ -240,6 +240,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ServiceFabricPartitionRestartProgress](./Get-ServiceFabricPartitionRestartProgress.md)
+[Get-ServiceFabricPartitionRestartProgress](xref:ServiceFabric/vlatest/Get-ServiceFabricPartitionRestartProgress.md)
 
 

@@ -372,16 +372,16 @@ This cmdlet returns a **System.Fabric.Description.ApplicationUpgradeUpdateDescri
 
 ## RELATED LINKS
 
-[Get-ServiceFabricApplicationUpgrade](./Get-ServiceFabricApplicationUpgrade.md)
+[Get-ServiceFabricApplicationUpgrade](xref:ServiceFabric/vlatest/Get-ServiceFabricApplicationUpgrade.md)
 
-[Resume-ServiceFabricApplicationUpgrade](./Resume-ServiceFabricApplicationUpgrade.md)
+[Resume-ServiceFabricApplicationUpgrade](xref:ServiceFabric/vlatest/Resume-ServiceFabricApplicationUpgrade.md)
 
-[Start-ServiceFabricApplicationUpgrade](./Start-ServiceFabricApplicationUpgrade.md)
+[Start-ServiceFabricApplicationUpgrade](xref:ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Update-ServiceFabricClusterUpgrade](./Update-ServiceFabricClusterUpgrade.md)
+[Update-ServiceFabricClusterUpgrade](xref:ServiceFabric/vlatest/Update-ServiceFabricClusterUpgrade.md)
 
 

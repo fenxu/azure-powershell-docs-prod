@@ -94,8 +94,8 @@ This cmdlet returns a **System.Fabric.Query.NodeLoadInformation** that represent
 
 ## RELATED LINKS
 
-[Get-ServiceFabricNode](./Get-ServiceFabricNode.md)
+[Get-ServiceFabricNode](xref:ServiceFabric/vlatest/Get-ServiceFabricNode.md)
 
-[Get-ServiceFabricNodeHealth](./Get-ServiceFabricNodeHealth.md)
+[Get-ServiceFabricNodeHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricNodeHealth.md)
 
 

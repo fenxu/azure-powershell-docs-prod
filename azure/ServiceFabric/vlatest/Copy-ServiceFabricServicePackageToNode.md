@@ -158,10 +158,10 @@ This cmdlet returns a message that includes the status of the operation.
 
 ## RELATED LINKS
 
-[New-ServiceFabricPackageSharingPolicy](./New-ServiceFabricPackageSharingPolicy.md)
+[New-ServiceFabricPackageSharingPolicy](xref:ServiceFabric/vlatest/New-ServiceFabricPackageSharingPolicy.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

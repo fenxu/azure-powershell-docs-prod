@@ -94,12 +94,12 @@ This cmdlet returns the status of the operation as a string.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricClusterUpgrade](./Get-ServiceFabricClusterUpgrade.md)
+[Get-ServiceFabricClusterUpgrade](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterUpgrade.md)
 
-[Start-ServiceFabricClusterUpgrade](./Start-ServiceFabricClusterUpgrade.md)
+[Start-ServiceFabricClusterUpgrade](xref:ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md)
 
 

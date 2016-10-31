@@ -98,10 +98,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ServiceFabricClusterLoadInformation](./Get-ServiceFabricClusterLoadInformation.md)
+[Get-ServiceFabricClusterLoadInformation](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterLoadInformation.md)
 
-[Get-ServiceFabricNodeLoadInformation](./Get-ServiceFabricNodeLoadInformation.md)
+[Get-ServiceFabricNodeLoadInformation](xref:ServiceFabric/vlatest/Get-ServiceFabricNodeLoadInformation.md)
 
-[Get-ServiceFabricPartitionLoadInformation](./Get-ServiceFabricPartitionLoadInformation.md)
+[Get-ServiceFabricPartitionLoadInformation](xref:ServiceFabric/vlatest/Get-ServiceFabricPartitionLoadInformation.md)
 
 

@@ -259,6 +259,6 @@ This cmdlet returns a **System.Fabric.Testability.MoveSecondaryResult** object t
 
 ## RELATED LINKS
 
-[Move-ServiceFabricPrimaryReplica](./Move-ServiceFabricPrimaryReplica.md)
+[Move-ServiceFabricPrimaryReplica](xref:ServiceFabric/vlatest/Move-ServiceFabricPrimaryReplica.md)
 
 

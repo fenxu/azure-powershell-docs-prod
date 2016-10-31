@@ -160,16 +160,16 @@ This cmdlet returns the status of the operation as a string.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricApplicationType](./Get-ServiceFabricApplicationType.md)
+[Get-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md)
 
-[Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType.md)
+[Register-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md)
 
-[Remove-ServiceFabricService](./Remove-ServiceFabricService.md)
+[Remove-ServiceFabricService](xref:ServiceFabric/vlatest/Remove-ServiceFabricService.md)
 
-[Remove-ServiceFabricApplication](./Remove-ServiceFabricApplication.md)
+[Remove-ServiceFabricApplication](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplication.md)
 
 

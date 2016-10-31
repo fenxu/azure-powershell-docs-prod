@@ -138,16 +138,16 @@ This cmdlet returns a list of **System.Fabric.Query.Service** objects that repre
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[New-ServiceFabricService](./New-ServiceFabricService.md)
+[New-ServiceFabricService](xref:ServiceFabric/vlatest/New-ServiceFabricService.md)
 
-[Remove-ServiceFabricService](./Remove-ServiceFabricService.md)
+[Remove-ServiceFabricService](xref:ServiceFabric/vlatest/Remove-ServiceFabricService.md)
 
-[Resolve-ServiceFabricService](./Resolve-ServiceFabricService.md)
+[Resolve-ServiceFabricService](xref:ServiceFabric/vlatest/Resolve-ServiceFabricService.md)
 
-[Update-ServiceFabricService](./Update-ServiceFabricService.md)
+[Update-ServiceFabricService](xref:ServiceFabric/vlatest/Update-ServiceFabricService.md)
 
 

@@ -210,14 +210,14 @@ This cmdlet returns a **System.Fabric.Description.ApplicationDescription** objec
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricApplication](./Get-ServiceFabricApplication.md)
+[Get-ServiceFabricApplication](xref:ServiceFabric/vlatest/Get-ServiceFabricApplication.md)
 
-[Remove-ServiceFabricApplication](./Remove-ServiceFabricApplication.md)
+[Remove-ServiceFabricApplication](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplication.md)
 
-[Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType.md)
+[Register-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md)
 
 

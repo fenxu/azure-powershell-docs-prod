@@ -121,14 +121,14 @@ This cmdlet does not return any output.
 
 ## RELATED LINKS
 
-[Approve-ServiceFabricRepairTask](./Approve-ServiceFabricRepairTask.md)
+[Approve-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md)
 
-[Complete-ServiceFabricRepairTask](./Complete-ServiceFabricRepairTask.md)
+[Complete-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Complete-ServiceFabricRepairTask.md)
 
-[Get-ServiceFabricRepairTask](./Get-ServiceFabricRepairTask.md)
+[Get-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Get-ServiceFabricRepairTask.md)
 
-[Start-ServiceFabricRepairTask](./Start-ServiceFabricRepairTask.md)
+[Start-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md)
 
-[Stop-ServiceFabricRepairTask](./Stop-ServiceFabricRepairTask.md)
+[Stop-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Stop-ServiceFabricRepairTask.md)
 
 

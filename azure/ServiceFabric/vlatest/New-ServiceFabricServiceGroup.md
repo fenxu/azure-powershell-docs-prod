@@ -548,8 +548,8 @@ This cmdlet returns a **System.Fabric.Description.ServiceGroupDescription** obje
 
 ## RELATED LINKS
 
-[Remove-ServiceFabricServiceGroup](./Remove-ServiceFabricServiceGroup.md)
+[Remove-ServiceFabricServiceGroup](xref:ServiceFabric/vlatest/Remove-ServiceFabricServiceGroup.md)
 
-[Update-ServiceFabricServiceGroup](./Update-ServiceFabricServiceGroup.md)
+[Update-ServiceFabricServiceGroup](xref:ServiceFabric/vlatest/Update-ServiceFabricServiceGroup.md)
 
 

@@ -100,12 +100,12 @@ This cmdlet returns the **System.Fabric.Query.Application** objects that represe
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[New-ServiceFabricApplication](./New-ServiceFabricApplication.md)
+[New-ServiceFabricApplication](xref:ServiceFabric/vlatest/New-ServiceFabricApplication.md)
 
-[Remove-ServiceFabricApplication](./Remove-ServiceFabricApplication.md)
+[Remove-ServiceFabricApplication](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplication.md)
 
 

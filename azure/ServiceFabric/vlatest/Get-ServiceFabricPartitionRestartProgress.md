@@ -89,6 +89,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-ServiceFabricPartitionRestart](./Start-ServiceFabricPartitionRestart.md)
+[Start-ServiceFabricPartitionRestart](xref:ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md)
 
 

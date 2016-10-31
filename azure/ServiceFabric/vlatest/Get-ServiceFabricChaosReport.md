@@ -134,8 +134,8 @@ This cmdlet returns a **ChaosReport** object that represents the report for the 
 
 ## RELATED LINKS
 
-[Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md)
+[Start-ServiceFabricChaos](xref:ServiceFabric/vlatest/Start-ServiceFabricChaos.md)
 
-[Stop-ServiceFabricChaos](./Stop-ServiceFabricChaos.md)
+[Stop-ServiceFabricChaos](xref:ServiceFabric/vlatest/Stop-ServiceFabricChaos.md)
 
 

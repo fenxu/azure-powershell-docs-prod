@@ -79,14 +79,14 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Start-ServiceFabricApplicationRollback](./Start-ServiceFabricApplicationRollback.md)
+[Start-ServiceFabricApplicationRollback](xref:ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md)
 
-[Start-ServiceFabricClusterUpgrade](./Start-ServiceFabricClusterUpgrade.md)
+[Start-ServiceFabricClusterUpgrade](xref:ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md)
 
-[Get-ServiceFabricClusterUpgrade](./Get-ServiceFabricClusterUpgrade.md)
+[Get-ServiceFabricClusterUpgrade](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterUpgrade.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

@@ -251,8 +251,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress.md)
+[Get-ServiceFabricPartitionQuorumLossProgress](xref:ServiceFabric/vlatest/Get-ServiceFabricPartitionQuorumLossProgress.md)
 
-[Invoke-ServiceFabricPartitionQuorumLoss](./Invoke-ServiceFabricPartitionQuorumLoss.md)
+[Invoke-ServiceFabricPartitionQuorumLoss](xref:ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md)
 
 

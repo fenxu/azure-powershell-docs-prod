@@ -92,10 +92,10 @@ This cmdlet returns **System.Fabric.Description.ServiceDescription** object for 
 
 ## RELATED LINKS
 
-[Get-ServiceFabricService](./Get-ServiceFabricService.md)
+[Get-ServiceFabricService](xref:ServiceFabric/vlatest/Get-ServiceFabricService.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

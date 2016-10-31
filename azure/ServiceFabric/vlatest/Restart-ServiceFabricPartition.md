@@ -224,10 +224,10 @@ This cmdlet returns a **System.Fabric.Testability.RestartPartitionResult** objec
 
 ## RELATED LINKS
 
-[Get-ServiceFabricPartition](./Get-ServiceFabricPartition.md)
+[Get-ServiceFabricPartition](xref:ServiceFabric/vlatest/Get-ServiceFabricPartition.md)
 
-[Repair-ServiceFabricPartition](./Repair-ServiceFabricPartition.md)
+[Repair-ServiceFabricPartition](xref:ServiceFabric/vlatest/Repair-ServiceFabricPartition.md)
 
-[Restart-ServiceFabricPartition](./Restart-ServiceFabricPartition.md)
+[Restart-ServiceFabricPartition](xref:ServiceFabric/vlatest/Restart-ServiceFabricPartition.md)
 
 

@@ -146,10 +146,10 @@ This cmdlet returns a **DeployedServiceReplicaDetail** object that contains info
 
 ## RELATED LINKS
 
-[Get-ServiceFabricDeployedReplica](./Get-ServiceFabricDeployedReplica.md)
+[Get-ServiceFabricDeployedReplica](xref:ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

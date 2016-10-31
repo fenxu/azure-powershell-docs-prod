@@ -69,8 +69,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ServiceFabricChaosReport](./Get-ServiceFabricChaosReport.md)
+[Get-ServiceFabricChaosReport](xref:ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md)
 
-[Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md)
+[Start-ServiceFabricChaos](xref:ServiceFabric/vlatest/Start-ServiceFabricChaos.md)
 
 

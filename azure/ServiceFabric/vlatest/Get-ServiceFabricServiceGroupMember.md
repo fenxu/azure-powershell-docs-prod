@@ -130,12 +130,12 @@ This cmdlet returns a list of **System.Fabric.Query.ServiceGroupMember** objects
 
 ## RELATED LINKS
 
-[Get-ServiceFabricServiceGroupMemberType](./Get-ServiceFabricServiceGroupMemberType.md)
+[Get-ServiceFabricServiceGroupMemberType](xref:ServiceFabric/vlatest/Get-ServiceFabricServiceGroupMemberType.md)
 
-[New-ServiceFabricServiceGroup](./New-ServiceFabricServiceGroup.md)
+[New-ServiceFabricServiceGroup](xref:ServiceFabric/vlatest/New-ServiceFabricServiceGroup.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

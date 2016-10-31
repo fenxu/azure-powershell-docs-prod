@@ -229,6 +229,6 @@ This cmdlet returns a **System.Fabric.Testability.InvokeDataLossResult** object 
 
 ## RELATED LINKS
 
-[Invoke-ServiceFabricPartitionQuorumLoss](./Invoke-ServiceFabricPartitionQuorumLoss.md)
+[Invoke-ServiceFabricPartitionQuorumLoss](xref:ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md)
 
 

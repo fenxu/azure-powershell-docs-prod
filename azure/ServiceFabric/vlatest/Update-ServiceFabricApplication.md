@@ -210,12 +210,12 @@ None.
 
 ## RELATED LINKS
 
-[Get-ServiceFabricApplication](./Get-ServiceFabricApplication.md)
+[Get-ServiceFabricApplication](xref:ServiceFabric/vlatest/Get-ServiceFabricApplication.md)
 
-[New-ServiceFabricApplication](./New-ServiceFabricApplication.md)
+[New-ServiceFabricApplication](xref:ServiceFabric/vlatest/New-ServiceFabricApplication.md)
 
-[Remove-ServiceFabricApplication](./Remove-ServiceFabricApplication.md)
+[Remove-ServiceFabricApplication](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplication.md)
 
-[Test-ServiceFabricApplication](./Test-ServiceFabricApplication.md)
+[Test-ServiceFabricApplication](xref:ServiceFabric/vlatest/Test-ServiceFabricApplication.md)
 
 

@@ -230,8 +230,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ServiceFabricClusterConfiguration](./Get-ServiceFabricClusterConfiguration.md)
+[Get-ServiceFabricClusterConfiguration](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md)
 
-[Get-ServiceFabricClusterConfigurationUpgradeStatus](./Get-ServiceFabricClusterConfigurationUpgradeStatus.md)
+[Get-ServiceFabricClusterConfigurationUpgradeStatus](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConfigurationUpgradeStatus.md)
 
 

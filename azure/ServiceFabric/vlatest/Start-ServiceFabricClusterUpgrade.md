@@ -642,14 +642,14 @@ This cmdlet returns a **System.Fabric.Description.FabricUpgradeDescription** for
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricClusterUpgrade](./Get-ServiceFabricClusterUpgrade.md)
+[Get-ServiceFabricClusterUpgrade](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterUpgrade.md)
 
-[Resume-ServiceFabricClusterUpgrade](./Resume-ServiceFabricClusterUpgrade.md)
+[Resume-ServiceFabricClusterUpgrade](xref:ServiceFabric/vlatest/Resume-ServiceFabricClusterUpgrade.md)
 
-[Remove-ServiceFabricClusterPackage](./Remove-ServiceFabricClusterPackage.md)
+[Remove-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md)
 
 

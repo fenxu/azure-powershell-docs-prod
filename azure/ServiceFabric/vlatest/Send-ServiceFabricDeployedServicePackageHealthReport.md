@@ -272,12 +272,12 @@ This cmdlet does not return any output.
 
 ## RELATED LINKS
 
-[Get-ServiceFabricDeployedServicePackageHealth](./Get-ServiceFabricDeployedServicePackageHealth.md)
+[Get-ServiceFabricDeployedServicePackageHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackageHealth.md)
 
-[Get-ServiceFabricDeployedApplicationHealth](./Get-ServiceFabricDeployedApplicationHealth.md)
+[Get-ServiceFabricDeployedApplicationHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricDeployedApplicationHealth.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

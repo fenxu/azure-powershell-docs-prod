@@ -114,10 +114,10 @@ This cmdlet returns a value that depends on the value of the *Command* parameter
 
 ## RELATED LINKS
 
-[Invoke-ServiceFabricInfrastructureCommand](./Invoke-ServiceFabricInfrastructureCommand.md)
+[Invoke-ServiceFabricInfrastructureCommand](xref:ServiceFabric/vlatest/Invoke-ServiceFabricInfrastructureCommand.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

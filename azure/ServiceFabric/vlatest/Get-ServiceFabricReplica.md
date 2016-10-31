@@ -133,10 +133,10 @@ This cmdlet returns a list of **System.Fabric.Query.Replica** objects.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricPartition](./Get-ServiceFabricPartition.md)
+[Get-ServiceFabricPartition](xref:ServiceFabric/vlatest/Get-ServiceFabricPartition.md)
 
 

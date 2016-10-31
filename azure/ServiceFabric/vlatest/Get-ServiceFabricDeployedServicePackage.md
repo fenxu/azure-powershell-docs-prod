@@ -132,10 +132,10 @@ This cmdlet returns **DeployedServicePackage** objects that represent service pa
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricService](./Get-ServiceFabricService.md)
+[Get-ServiceFabricService](xref:ServiceFabric/vlatest/Get-ServiceFabricService.md)
 
 

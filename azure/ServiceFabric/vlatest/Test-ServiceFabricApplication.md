@@ -110,12 +110,12 @@ This cmdlet returns a **String** object that represents the status of the valida
 
 ## RELATED LINKS
 
-[Get-ServiceFabricApplication](./Get-ServiceFabricApplication.md)
+[Get-ServiceFabricApplication](xref:ServiceFabric/vlatest/Get-ServiceFabricApplication.md)
 
-[New-ServiceFabricApplication](./New-ServiceFabricApplication.md)
+[New-ServiceFabricApplication](xref:ServiceFabric/vlatest/New-ServiceFabricApplication.md)
 
-[Remove-ServiceFabricApplication](./Remove-ServiceFabricApplication.md)
+[Remove-ServiceFabricApplication](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplication.md)
 
-[Update-ServiceFabricApplication](./Update-ServiceFabricApplication.md)
+[Update-ServiceFabricApplication](xref:ServiceFabric/vlatest/Update-ServiceFabricApplication.md)
 
 

@@ -139,6 +139,6 @@ This cmdlet returns the status of the operation as a string.
 
 ## RELATED LINKS
 
-[New-ServiceFabricServiceGroup](./New-ServiceFabricServiceGroup.md)
+[New-ServiceFabricServiceGroup](xref:ServiceFabric/vlatest/New-ServiceFabricServiceGroup.md)
 
 

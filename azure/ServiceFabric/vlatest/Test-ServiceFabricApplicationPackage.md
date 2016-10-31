@@ -110,12 +110,12 @@ This cmdlet returns $True if the Service Fabric application package is valid, or
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md)
+[Copy-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Remove-ServiceFabricApplicationPackage](./Remove-ServiceFabricApplicationPackage.md)
+[Remove-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplicationPackage.md)
 
 

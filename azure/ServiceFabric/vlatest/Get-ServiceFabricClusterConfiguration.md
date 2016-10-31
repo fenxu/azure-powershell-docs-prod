@@ -70,10 +70,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConfigurationUpgradeStatus](./Get-ServiceFabricClusterConfigurationUpgradeStatus.md)
+[Get-ServiceFabricClusterConfigurationUpgradeStatus](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConfigurationUpgradeStatus.md)
 
-[Start-ServiceFabricClusterConfigurationUpgrade](./Start-ServiceFabricClusterConfigurationUpgrade.md)
+[Start-ServiceFabricClusterConfigurationUpgrade](xref:ServiceFabric/vlatest/Start-ServiceFabricClusterConfigurationUpgrade.md)
 
 

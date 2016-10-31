@@ -244,12 +244,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-Credential](http://go.microsoft.com/fwlink/?LinkID=293936)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Remove-ServiceFabricNodeConfiguration](./Remove-ServiceFabricNodeConfiguration.md)
+[Remove-ServiceFabricNodeConfiguration](xref:ServiceFabric/vlatest/Remove-ServiceFabricNodeConfiguration.md)
 
-[Update-ServiceFabricNodeConfiguration](./Update-ServiceFabricNodeConfiguration.md)
+[Update-ServiceFabricNodeConfiguration](xref:ServiceFabric/vlatest/Update-ServiceFabricNodeConfiguration.md)
 
 

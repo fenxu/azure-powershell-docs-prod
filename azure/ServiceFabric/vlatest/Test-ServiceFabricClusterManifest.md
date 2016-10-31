@@ -103,10 +103,10 @@ This cmdlet returns $True if the Service Fabric cluster manifest is valid, or, i
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricClusterManifest](./Get-ServiceFabricClusterManifest.md)
+[Get-ServiceFabricClusterManifest](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterManifest.md)
 
 

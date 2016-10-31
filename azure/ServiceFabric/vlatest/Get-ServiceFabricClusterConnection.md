@@ -75,8 +75,8 @@ This cmdlet returns a **System.Fabric.PowerShell.ClusterConnection** that repres
 
 ## RELATED LINKS
 
-[Test-ServiceFabricClusterConnection](./Test-ServiceFabricClusterConnection.md)
+[Test-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Test-ServiceFabricClusterConnection.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
 

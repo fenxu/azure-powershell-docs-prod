@@ -134,12 +134,12 @@ This cmdlet returns a message that includes the status of the copy operation.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType.md)
+[Register-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md)
 
-[Remove-ServiceFabricApplicationPackage](./Remove-ServiceFabricApplicationPackage.md)
+[Remove-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplicationPackage.md)
 
 

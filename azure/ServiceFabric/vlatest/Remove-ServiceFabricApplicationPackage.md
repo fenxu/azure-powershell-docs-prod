@@ -143,8 +143,8 @@ This cmdlet returns the status of the operation as a string.
 
 ## RELATED LINKS
 
-[Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md)
+[Copy-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md)
 
-[Test-ServiceFabricApplicationPackage](./Test-ServiceFabricApplicationPackage.md)
+[Test-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Test-ServiceFabricApplicationPackage.md)
 
 

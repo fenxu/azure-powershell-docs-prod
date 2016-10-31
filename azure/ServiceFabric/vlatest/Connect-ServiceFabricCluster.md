@@ -630,8 +630,8 @@ This cmdlet returns a **System.Fabric.Powershell.ClusterConnection** that repres
 
 ## RELATED LINKS
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Test-ServiceFabricClusterConnection](./Test-ServiceFabricClusterConnection.md)
+[Test-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Test-ServiceFabricClusterConnection.md)
 
 

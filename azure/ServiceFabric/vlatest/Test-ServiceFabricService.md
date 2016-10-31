@@ -110,14 +110,14 @@ This cmdlet returns a **String** object that represents the status of validation
 
 ## RELATED LINKS
 
-[Get-ServiceFabricService](./Get-ServiceFabricService.md)
+[Get-ServiceFabricService](xref:ServiceFabric/vlatest/Get-ServiceFabricService.md)
 
-[New-ServiceFabricService](./New-ServiceFabricService.md)
+[New-ServiceFabricService](xref:ServiceFabric/vlatest/New-ServiceFabricService.md)
 
-[Remove-ServiceFabricService](./Remove-ServiceFabricService.md)
+[Remove-ServiceFabricService](xref:ServiceFabric/vlatest/Remove-ServiceFabricService.md)
 
-[Test-ServiceFabricService](./Test-ServiceFabricService.md)
+[Test-ServiceFabricService](xref:ServiceFabric/vlatest/Test-ServiceFabricService.md)
 
-[Update-ServiceFabricService](./Update-ServiceFabricService.md)
+[Update-ServiceFabricService](xref:ServiceFabric/vlatest/Update-ServiceFabricService.md)
 
 

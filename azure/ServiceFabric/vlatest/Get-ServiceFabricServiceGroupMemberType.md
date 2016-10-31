@@ -124,10 +124,10 @@ This cmdlet returns a list of **System.Fabric.Query.ServiceGroupMemberType** obj
 
 ## RELATED LINKS
 
-[Get-ServiceFabricServiceGroupMember](./Get-ServiceFabricServiceGroupMember.md)
+[Get-ServiceFabricServiceGroupMember](xref:ServiceFabric/vlatest/Get-ServiceFabricServiceGroupMember.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

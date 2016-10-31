@@ -454,6 +454,6 @@ Specifies the name of the Service Fabric service node.
 
 ## RELATED LINKS
 
-[Get-ServiceFabricDeployedCodePackage](./Get-ServiceFabricDeployedCodePackage.md)
+[Get-ServiceFabricDeployedCodePackage](xref:ServiceFabric/vlatest/Get-ServiceFabricDeployedCodePackage.md)
 
 

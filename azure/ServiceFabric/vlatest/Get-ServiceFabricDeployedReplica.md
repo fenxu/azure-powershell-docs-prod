@@ -165,10 +165,10 @@ This cmdlet returns **DeployedServiceReplica** objects that represent replicas.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md)
+[Get-ServiceFabricReplica](xref:ServiceFabric/vlatest/Get-ServiceFabricReplica.md)
 
 

@@ -176,8 +176,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ServiceFabricChaosReport](./Get-ServiceFabricChaosReport.md)
+[Get-ServiceFabricChaosReport](xref:ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md)
 
-[Stop-ServiceFabricChaos](./Stop-ServiceFabricChaos.md)
+[Stop-ServiceFabricChaos](xref:ServiceFabric/vlatest/Stop-ServiceFabricChaos.md)
 
 

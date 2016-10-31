@@ -224,12 +224,12 @@ This cmdlet returns the status of the operation as a string.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Copy-ServiceFabricClusterPackage](./Copy-ServiceFabricClusterPackage.md)
+[Copy-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md)
 
-[Register-ServiceFabricClusterPackage](./Register-ServiceFabricClusterPackage.md)
+[Register-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md)
 
 

@@ -92,10 +92,10 @@ This cmdlet returns a list of **System.Fabric.Query.ProvisionedFabricCodeVersion
 
 ## RELATED LINKS
 
-[Get-ServiceFabricRegisteredClusterConfigVersion](./Get-ServiceFabricRegisteredClusterConfigVersion.md)
+[Get-ServiceFabricRegisteredClusterConfigVersion](xref:ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterConfigVersion.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

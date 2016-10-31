@@ -171,6 +171,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ServiceFabricTestCommandStatusList](./Get-ServiceFabricTestCommandStatusList.md)
+[Get-ServiceFabricTestCommandStatusList](xref:ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md)
 
 

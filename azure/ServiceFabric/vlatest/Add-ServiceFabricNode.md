@@ -170,20 +170,20 @@ This cmdlet accepts a string for the name of a Service Fabric node, node type, I
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Disable-ServiceFabricNode](./Disable-ServiceFabricNode.md)
+[Disable-ServiceFabricNode](xref:ServiceFabric/vlatest/Disable-ServiceFabricNode.md)
 
-[Enable-ServiceFabricNode](./Enable-ServiceFabricNode.md)
+[Enable-ServiceFabricNode](xref:ServiceFabric/vlatest/Enable-ServiceFabricNode.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Remove-ServiceFabricNode](./Remove-ServiceFabricNode.md)
+[Remove-ServiceFabricNode](xref:ServiceFabric/vlatest/Remove-ServiceFabricNode.md)
 
-[Restart-ServiceFabricNode](./Restart-ServiceFabricNode.md)
+[Restart-ServiceFabricNode](xref:ServiceFabric/vlatest/Restart-ServiceFabricNode.md)
 
-[Start-ServiceFabricNode](./Start-ServiceFabricNode.md)
+[Start-ServiceFabricNode](xref:ServiceFabric/vlatest/Start-ServiceFabricNode.md)
 
-[Stop-ServiceFabricNode](./Stop-ServiceFabricNode.md)
+[Stop-ServiceFabricNode](xref:ServiceFabric/vlatest/Stop-ServiceFabricNode.md)
 
 

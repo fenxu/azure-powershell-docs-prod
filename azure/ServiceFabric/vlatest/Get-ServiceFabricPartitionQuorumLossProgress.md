@@ -89,6 +89,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-ServiceFabricPartitionQuorumLoss](./Start-ServiceFabricPartitionQuorumLoss.md)
+[Start-ServiceFabricPartitionQuorumLoss](xref:ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md)
 
 

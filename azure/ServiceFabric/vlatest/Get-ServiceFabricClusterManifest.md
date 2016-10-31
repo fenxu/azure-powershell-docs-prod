@@ -76,10 +76,10 @@ This cmdlet returns a string that represents the cluster manifest.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Test-ServiceFabricClusterManifest](./Test-ServiceFabricClusterManifest.md)
+[Test-ServiceFabricClusterManifest](xref:ServiceFabric/vlatest/Test-ServiceFabricClusterManifest.md)
 
 

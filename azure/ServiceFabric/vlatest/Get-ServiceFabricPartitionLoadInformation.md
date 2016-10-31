@@ -94,10 +94,10 @@ This cmdlet returns a **System.Fabric.Query.PartitionLoadInformation** object fo
 
 ## RELATED LINKS
 
-[Get-ServiceFabricPartition](./Get-ServiceFabricPartition.md)
+[Get-ServiceFabricPartition](xref:ServiceFabric/vlatest/Get-ServiceFabricPartition.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

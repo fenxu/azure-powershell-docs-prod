@@ -91,10 +91,10 @@ This cmdlet returns a **System.Fabric.Description.ServiceGroupDescription** obje
 
 ## RELATED LINKS
 
-[New-ServiceFabricServiceGroup](./New-ServiceFabricServiceGroup.md)
+[New-ServiceFabricServiceGroup](xref:ServiceFabric/vlatest/New-ServiceFabricServiceGroup.md)
 
-[Remove-ServiceFabricServiceGroup](./Remove-ServiceFabricServiceGroup.md)
+[Remove-ServiceFabricServiceGroup](xref:ServiceFabric/vlatest/Remove-ServiceFabricServiceGroup.md)
 
-[Update-ServiceFabricServiceGroup](./Update-ServiceFabricServiceGroup.md)
+[Update-ServiceFabricServiceGroup](xref:ServiceFabric/vlatest/Update-ServiceFabricServiceGroup.md)
 
 

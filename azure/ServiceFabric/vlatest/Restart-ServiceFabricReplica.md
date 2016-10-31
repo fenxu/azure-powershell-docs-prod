@@ -385,8 +385,8 @@ Specifies the name of a Service Fabric node.
 
 ## RELATED LINKS
 
-[Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md)
+[Get-ServiceFabricReplica](xref:ServiceFabric/vlatest/Get-ServiceFabricReplica.md)
 
-[Remove-ServiceFabricReplica](./Remove-ServiceFabricReplica.md)
+[Remove-ServiceFabricReplica](xref:ServiceFabric/vlatest/Remove-ServiceFabricReplica.md)
 
 

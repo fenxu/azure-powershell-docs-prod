@@ -185,6 +185,6 @@ This cmdlet returns a **String** object that represents the final status of the 
 
 ## RELATED LINKS
 
-[Invoke-ServiceFabricFailoverTestScenario](./Invoke-ServiceFabricFailoverTestScenario.md)
+[Invoke-ServiceFabricFailoverTestScenario](xref:ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md)
 
 

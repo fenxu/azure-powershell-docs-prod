@@ -230,10 +230,10 @@ This cmdlet does not return any output.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricServiceHealth](./Get-ServiceFabricServiceHealth.md)
+[Get-ServiceFabricServiceHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricServiceHealth.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 

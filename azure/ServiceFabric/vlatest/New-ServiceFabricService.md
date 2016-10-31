@@ -570,16 +570,16 @@ This cmdlet returns a **System.Fabric.Description.ServiceDescription** object fo
 
 [New-TimeSpan](http://go.microsoft.com/fwlink/?LinkID=113360)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricService](./Get-ServiceFabricService.md)
+[Get-ServiceFabricService](xref:ServiceFabric/vlatest/Get-ServiceFabricService.md)
 
-[Remove-ServiceFabricService](./Remove-ServiceFabricService.md)
+[Remove-ServiceFabricService](xref:ServiceFabric/vlatest/Remove-ServiceFabricService.md)
 
-[Resolve-ServiceFabricService](./Resolve-ServiceFabricService.md)
+[Resolve-ServiceFabricService](xref:ServiceFabric/vlatest/Resolve-ServiceFabricService.md)
 
-[Update-ServiceFabricService](./Update-ServiceFabricService.md)
+[Update-ServiceFabricService](xref:ServiceFabric/vlatest/Update-ServiceFabricService.md)
 
 

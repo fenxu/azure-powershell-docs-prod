@@ -235,14 +235,14 @@ This cmdlet returns a message that includes the status of the operation.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Register-ServiceFabricClusterPackage](./Register-ServiceFabricClusterPackage.md)
+[Register-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md)
 
-[Remove-ServiceFabricClusterPackage](./Remove-ServiceFabricClusterPackage.md)
+[Remove-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md)
 
-[Unregister-ServiceFabricClusterPackage](./Unregister-ServiceFabricClusterPackage.md)
+[Unregister-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md)
 
 

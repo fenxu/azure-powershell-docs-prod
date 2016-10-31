@@ -79,6 +79,6 @@ This cmdlet returns a **String** object that represents the final status of the 
 
 ## RELATED LINKS
 
-[Test-ServiceFabricApplication](./Test-ServiceFabricApplication.md)
+[Test-ServiceFabricApplication](xref:ServiceFabric/vlatest/Test-ServiceFabricApplication.md)
 
 

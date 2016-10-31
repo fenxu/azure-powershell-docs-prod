@@ -100,12 +100,12 @@ This cmdlet returns **System.Fabric.Query.ApplicationType** objects that represe
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType.md)
+[Register-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md)
 
-[Unregister-ServiceFabricApplicationType](./Unregister-ServiceFabricApplicationType.md)
+[Unregister-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Unregister-ServiceFabricApplicationType.md)
 
 

@@ -101,8 +101,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[New-ServiceFabricCluster](./New-ServiceFabricCluster.md)
+[New-ServiceFabricCluster](xref:ServiceFabric/vlatest/New-ServiceFabricCluster.md)
 
 

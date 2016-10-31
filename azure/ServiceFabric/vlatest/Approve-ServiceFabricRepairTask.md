@@ -164,14 +164,14 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Complete-ServiceFabricRepairTask](./Complete-ServiceFabricRepairTask.md)
+[Complete-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Complete-ServiceFabricRepairTask.md)
 
-[Get-ServiceFabricRepairTask](./Get-ServiceFabricRepairTask.md)
+[Get-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Get-ServiceFabricRepairTask.md)
 
-[Remove-ServiceFabricRepairTask](./Remove-ServiceFabricRepairTask.md)
+[Remove-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Remove-ServiceFabricRepairTask.md)
 
-[Start-ServiceFabricRepairTask](./Start-ServiceFabricRepairTask.md)
+[Start-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md)
 
-[Stop-ServiceFabricRepairTask](./Stop-ServiceFabricRepairTask.md)
+[Stop-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Stop-ServiceFabricRepairTask.md)
 
 

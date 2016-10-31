@@ -144,14 +144,14 @@ This cmdlet returns a **System.Fabric.Testability.StopNode** object that represe
 
 ## RELATED LINKS
 
-[Disable-ServiceFabricNode](./Disable-ServiceFabricNode.md)
+[Disable-ServiceFabricNode](xref:ServiceFabric/vlatest/Disable-ServiceFabricNode.md)
 
-[Enable-ServiceFabricNode](./Enable-ServiceFabricNode.md)
+[Enable-ServiceFabricNode](xref:ServiceFabric/vlatest/Enable-ServiceFabricNode.md)
 
-[Get-ServiceFabricNode](./Get-ServiceFabricNode.md)
+[Get-ServiceFabricNode](xref:ServiceFabric/vlatest/Get-ServiceFabricNode.md)
 
-[Restart-ServiceFabricNode](./Restart-ServiceFabricNode.md)
+[Restart-ServiceFabricNode](xref:ServiceFabric/vlatest/Restart-ServiceFabricNode.md)
 
-[Start-ServiceFabricNode](./Start-ServiceFabricNode.md)
+[Start-ServiceFabricNode](xref:ServiceFabric/vlatest/Start-ServiceFabricNode.md)
 
 

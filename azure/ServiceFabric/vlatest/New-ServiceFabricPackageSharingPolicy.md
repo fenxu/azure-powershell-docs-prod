@@ -175,10 +175,10 @@ This cmdlet returns a **System.Fabric.PackageSharingPolicy** object for a Servic
 
 ## RELATED LINKS
 
-[Copy-ServiceFabricServicePackageToNode](./Copy-ServiceFabricServicePackageToNode.md)
+[Copy-ServiceFabricServicePackageToNode](xref:ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 
