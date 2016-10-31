@@ -113,12 +113,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AadrmSuperUserFeature](./Enable-AadrmSuperUserFeature.md)
+[Enable-AadrmSuperUserFeature](xref:AADRM Module/vlatest/Enable-AadrmSuperUserFeature.md)
 
-[Get-AadrmSuperUser](./Get-AadrmSuperUser.md)
+[Get-AadrmSuperUser](xref:AADRM Module/vlatest/Get-AadrmSuperUser.md)
 
-[Remove-AadrmSuperUser](./Remove-AadrmSuperUser.md)
+[Remove-AadrmSuperUser](xref:AADRM Module/vlatest/Remove-AadrmSuperUser.md)
 
-[Set-AadrmSuperUserGroup](./Set-AadrmSuperUserGroup.md)
+[Set-AadrmSuperUserGroup](xref:AADRM Module/vlatest/Set-AadrmSuperUserGroup.md)
 
 

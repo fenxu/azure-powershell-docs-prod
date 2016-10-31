@@ -331,14 +331,14 @@ The rights are specified as a list of **Rights Definition** objects that contain
 
 ## RELATED LINKS
 
-[Export-AadrmTemplate](./Export-AadrmTemplate.md)
+[Export-AadrmTemplate](xref:AADRM Module/vlatest/Export-AadrmTemplate.md)
 
-[Get-AadrmTemplate](./Get-AadrmTemplate.md)
+[Get-AadrmTemplate](xref:AADRM Module/vlatest/Get-AadrmTemplate.md)
 
-[Import-AadrmTemplate](./Import-AadrmTemplate.md)
+[Import-AadrmTemplate](xref:AADRM Module/vlatest/Import-AadrmTemplate.md)
 
-[New-AadrmRightsDefinition](./New-AadrmRightsDefinition.md)
+[New-AadrmRightsDefinition](xref:AADRM Module/vlatest/New-AadrmRightsDefinition.md)
 
-[Remove-AadrmTemplate](./Remove-AadrmTemplate.md)
+[Remove-AadrmTemplate](xref:AADRM Module/vlatest/Remove-AadrmTemplate.md)
 
 

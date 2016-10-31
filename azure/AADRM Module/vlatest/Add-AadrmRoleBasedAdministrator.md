@@ -159,8 +159,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AadrmRoleBasedAdministrator](./Get-AadrmRoleBasedAdministrator.md)
+[Get-AadrmRoleBasedAdministrator](xref:AADRM Module/vlatest/Get-AadrmRoleBasedAdministrator.md)
 
-[Remove-AadrmRoleBasedAdministrator](./Remove-AadrmRoleBasedAdministrator.md)
+[Remove-AadrmRoleBasedAdministrator](xref:AADRM Module/vlatest/Remove-AadrmRoleBasedAdministrator.md)
 
 

@@ -134,8 +134,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AadrmTemplate](./Add-AadrmTemplate.md)
+[Add-AadrmTemplate](xref:AADRM Module/vlatest/Add-AadrmTemplate.md)
 
-[Set-AadrmTemplateProperty](./Set-AadrmTemplateProperty.md)
+[Set-AadrmTemplateProperty](xref:AADRM Module/vlatest/Set-AadrmTemplateProperty.md)
 
 

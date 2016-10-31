@@ -60,16 +60,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Clear-AadrmSuperUserGroup](./Clear-AadrmSuperUserGroup.md)
+[Clear-AadrmSuperUserGroup](xref:AADRM Module/vlatest/Clear-AadrmSuperUserGroup.md)
 
-[Enable-AadrmSuperUserFeature](./Enable-AadrmSuperUserFeature.md)
+[Enable-AadrmSuperUserFeature](xref:AADRM Module/vlatest/Enable-AadrmSuperUserFeature.md)
 
-[Get-AadrmSuperUserFeature](./Get-AadrmSuperUserFeature.md)
+[Get-AadrmSuperUserFeature](xref:AADRM Module/vlatest/Get-AadrmSuperUserFeature.md)
 
-[Get-AadrmSuperUser](./Get-AadrmSuperUser.md)
+[Get-AadrmSuperUser](xref:AADRM Module/vlatest/Get-AadrmSuperUser.md)
 
-[Get-AadrmSuperUserGroup](./Get-AadrmSuperUserGroup.md)
+[Get-AadrmSuperUserGroup](xref:AADRM Module/vlatest/Get-AadrmSuperUserGroup.md)
 
-[Remove-AadrmSuperUser](./Remove-AadrmSuperUser.md)
+[Remove-AadrmSuperUser](xref:AADRM Module/vlatest/Remove-AadrmSuperUser.md)
 
 

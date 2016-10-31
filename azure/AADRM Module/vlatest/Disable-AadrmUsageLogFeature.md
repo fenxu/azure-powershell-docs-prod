@@ -60,8 +60,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AadrmUsageLogFeature](./Enable-AadrmUsageLogFeature.md)
+[Enable-AadrmUsageLogFeature](xref:AADRM Module/vlatest/Enable-AadrmUsageLogFeature.md)
 
-[Get-AadrmUsageLogFeature](./Get-AadrmUsageLogFeature.md)
+[Get-AadrmUsageLogFeature](xref:AADRM Module/vlatest/Get-AadrmUsageLogFeature.md)
 
 

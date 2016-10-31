@@ -320,8 +320,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AadrmTemplate](./Get-AadrmTemplate.md)
+[Get-AadrmTemplate](xref:AADRM Module/vlatest/Get-AadrmTemplate.md)
 
-[Get-AadrmTemplateProperty](./Get-AadrmTemplateProperty.md)
+[Get-AadrmTemplateProperty](xref:AADRM Module/vlatest/Get-AadrmTemplateProperty.md)
 
 

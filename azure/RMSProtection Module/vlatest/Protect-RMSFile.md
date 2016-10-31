@@ -305,12 +305,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-RMSTemplate](./Get-RMSTemplate.md)
+[Get-RMSTemplate](xref:RMSProtection Module/vlatest/Get-RMSTemplate.md)
 
-[Get-RMSFileStatus](./Get-RMSFileStatus.md)
+[Get-RMSFileStatus](xref:RMSProtection Module/vlatest/Get-RMSFileStatus.md)
 
-[New-RMSProtectionLicense](./New-RMSProtectionLicense.md)
+[New-RMSProtectionLicense](xref:RMSProtection Module/vlatest/New-RMSProtectionLicense.md)
 
-[Unprotect-RMSFile](./Unprotect-RMSFile.md)
+[Unprotect-RMSFile](xref:RMSProtection Module/vlatest/Unprotect-RMSFile.md)
 
 

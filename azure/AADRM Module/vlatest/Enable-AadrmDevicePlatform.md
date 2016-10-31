@@ -206,8 +206,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AadrmDevicePlatform](./Disable-AadrmDevicePlatform.md)
+[Disable-AadrmDevicePlatform](xref:AADRM Module/vlatest/Disable-AadrmDevicePlatform.md)
 
-[Get-AadrmDevicePlatform](./Get-AadrmDevicePlatform.md)
+[Get-AadrmDevicePlatform](xref:AADRM Module/vlatest/Get-AadrmDevicePlatform.md)
 
 

@@ -237,6 +237,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Protect-RMSFile](./Protect-RMSFile.md)
+[Protect-RMSFile](xref:RMSProtection Module/vlatest/Protect-RMSFile.md)
 
 

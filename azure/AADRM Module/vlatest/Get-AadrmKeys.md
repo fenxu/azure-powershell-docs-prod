@@ -68,8 +68,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AadrmKey](./Add-AadrmKey.md)
+[Add-AadrmKey](xref:AADRM Module/vlatest/Add-AadrmKey.md)
 
-[Import-AadrmTpd](./Import-AadrmTpd.md)
+[Import-AadrmTpd](xref:AADRM Module/vlatest/Import-AadrmTpd.md)
 
 

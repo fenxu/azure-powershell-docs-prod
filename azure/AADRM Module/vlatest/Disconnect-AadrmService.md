@@ -54,6 +54,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Connect-AadrmService](./Connect-AadrmService.md)
+[Connect-AadrmService](xref:AADRM Module/vlatest/Connect-AadrmService.md)
 
 

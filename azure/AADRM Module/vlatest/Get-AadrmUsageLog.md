@@ -113,6 +113,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AadrmUsageLogLastCounterValue](./Get-AadrmUsageLogLastCounterValue.md)
+[Get-AadrmUsageLogLastCounterValue](xref:AADRM Module/vlatest/Get-AadrmUsageLogLastCounterValue.md)
 
 

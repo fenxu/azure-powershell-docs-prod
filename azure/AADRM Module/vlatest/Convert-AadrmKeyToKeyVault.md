@@ -147,8 +147,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AadrmKeys](./Get-AadrmKeys.md)
+[Get-AadrmKeys](xref:AADRM Module/vlatest/Get-AadrmKeys.md)
 
-[Use-AadrmKeyVaultKey](./Use-AadrmKeyVaultKey.md)
+[Use-AadrmKeyVaultKey](xref:AADRM Module/vlatest/Use-AadrmKeyVaultKey.md)
 
 

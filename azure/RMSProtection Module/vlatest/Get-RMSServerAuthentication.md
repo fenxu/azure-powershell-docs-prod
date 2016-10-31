@@ -64,6 +64,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-RMSServerAuthentication](./Set-RMSServerAuthentication.md)
+[Set-RMSServerAuthentication](xref:RMSProtection Module/vlatest/Set-RMSServerAuthentication.md)
 
 

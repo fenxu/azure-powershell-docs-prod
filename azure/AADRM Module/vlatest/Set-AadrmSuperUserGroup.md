@@ -79,10 +79,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AadrmSuperUser](./Add-AadrmSuperUser.md)
+[Add-AadrmSuperUser](xref:AADRM Module/vlatest/Add-AadrmSuperUser.md)
 
-[Clear-AadrmSuperUserGroup](./Clear-AadrmSuperUserGroup.md)
+[Clear-AadrmSuperUserGroup](xref:AADRM Module/vlatest/Clear-AadrmSuperUserGroup.md)
 
-[Get-AadrmSuperUserGroup](./Get-AadrmSuperUserGroup.md)
+[Get-AadrmSuperUserGroup](xref:AADRM Module/vlatest/Get-AadrmSuperUserGroup.md)
 
 

@@ -108,8 +108,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AadrmDocumentTrackingFeature](./Disable-AadrmDocumentTrackingFeature.md)
+[Disable-AadrmDocumentTrackingFeature](xref:AADRM Module/vlatest/Disable-AadrmDocumentTrackingFeature.md)
 
-[Get-AadrmDocumentTrackingFeature](./Get-AadrmDocumentTrackingFeature.md)
+[Get-AadrmDocumentTrackingFeature](xref:AADRM Module/vlatest/Get-AadrmDocumentTrackingFeature.md)
 
 

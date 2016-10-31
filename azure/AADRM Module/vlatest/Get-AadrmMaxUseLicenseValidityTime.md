@@ -55,6 +55,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AadrmMaxUseLicenseValidityTime](./Set-AadrmMaxUseLicenseValidityTime.md)
+[Set-AadrmMaxUseLicenseValidityTime](xref:AADRM Module/vlatest/Set-AadrmMaxUseLicenseValidityTime.md)
 
 

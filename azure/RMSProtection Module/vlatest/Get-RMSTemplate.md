@@ -163,8 +163,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-RMSServer](./Get-RMSServer.md)
+[Get-RMSServer](xref:RMSProtection Module/vlatest/Get-RMSServer.md)
 
-[Protect-RMSFile](./Protect-RMSFile.md)
+[Protect-RMSFile](xref:RMSProtection Module/vlatest/Protect-RMSFile.md)
 
 

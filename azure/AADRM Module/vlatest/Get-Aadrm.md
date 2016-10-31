@@ -54,8 +54,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-Aadrm](./Disable-Aadrm.md)
+[Disable-Aadrm](xref:AADRM Module/vlatest/Disable-Aadrm.md)
 
-[Enable-Aadrm](./Enable-Aadrm.md)
+[Enable-Aadrm](xref:AADRM Module/vlatest/Enable-Aadrm.md)
 
 

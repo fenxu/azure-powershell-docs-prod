@@ -60,10 +60,10 @@ If no super user group exists, an empty **String** is returned.
 
 ## RELATED LINKS
 
-[Add-AadrmSuperUser](./Add-AadrmSuperUser.md)
+[Add-AadrmSuperUser](xref:AADRM Module/vlatest/Add-AadrmSuperUser.md)
 
-[Clear-AadrmSuperUserGroup](./Clear-AadrmSuperUserGroup.md)
+[Clear-AadrmSuperUserGroup](xref:AADRM Module/vlatest/Clear-AadrmSuperUserGroup.md)
 
-[Set-AadrmSuperUserGroup](./Set-AadrmSuperUserGroup.md)
+[Set-AadrmSuperUserGroup](xref:AADRM Module/vlatest/Set-AadrmSuperUserGroup.md)
 
 
