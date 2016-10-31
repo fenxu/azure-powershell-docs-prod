@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.Tags
-Module Guid: ResourceManager/AzureRM.Tags/v2.1.0/AzureRM.Tags.md
+Module Guid: 59713673-194f-418a-b1f2-ac60db82edf9
 Download Help Link: None
 Help Version: 3.0.0.0
 Locale: en-US
@@ -8,6 +8,7 @@ updated_at: 10/27/2016 9:26 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.1.0/AzureRM.Tags.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.1.0/AzureRM.Tags.md
+uid: ResourceManager/AzureRM.Tags/v2.1.0/AzureRM.Tags.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

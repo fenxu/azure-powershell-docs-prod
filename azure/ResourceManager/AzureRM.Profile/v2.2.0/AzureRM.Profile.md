@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.Profile
-Module Guid: ResourceManager/AzureRM.Profile/v2.2.0/AzureRM.Profile.md
+Module Guid: 342714fc-4009-4863-8afb-a9067e3db04b
 Download Help Link: None
 Help Version: 4.0.0.0
 Locale: en-US
@@ -8,6 +8,7 @@ updated_at: 10/27/2016 9:26 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/AzureRM.Profile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/AzureRM.Profile.md
+uid: ResourceManager/AzureRM.Profile/v2.2.0/AzureRM.Profile.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

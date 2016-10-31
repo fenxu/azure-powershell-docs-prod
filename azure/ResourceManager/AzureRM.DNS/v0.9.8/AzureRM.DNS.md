@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.DNS
-Module Guid: ResourceManager/AzureRM.DNS/v0.9.8/AzureRM.DNS.md
+Module Guid: DNS_Cmdlets_D48CF693-4125-4D2D-8790-
 Download Help Link: http://go.microsoft.com/fwlink/?LinkId=280237
 Help Version: 2.0.2.0
 Locale: en-US
@@ -8,6 +8,7 @@ updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/AzureRM.DNS.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/AzureRM.DNS.md
+uid: ResourceManager/AzureRM.DNS/v0.9.8/AzureRM.DNS.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

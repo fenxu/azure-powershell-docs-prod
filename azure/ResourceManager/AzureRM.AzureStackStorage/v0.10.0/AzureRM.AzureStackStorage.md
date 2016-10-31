@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.AzureStackStorage
-Module Guid: ResourceManager/AzureRM.AzureStackStorage/v0.10.0/AzureRM.AzureStackStorage.md
+Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
@@ -8,6 +8,7 @@ updated_at: 10/27/2016 9:26 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/AzureRM.AzureStackStorage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/AzureRM.AzureStackStorage.md
+uid: ResourceManager/AzureRM.AzureStackStorage/v0.10.0/AzureRM.AzureStackStorage.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

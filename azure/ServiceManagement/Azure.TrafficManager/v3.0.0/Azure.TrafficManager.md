@@ -1,6 +1,6 @@
 ---
 Module Name: Azure.TrafficManager
-Module Guid: ServiceManagement/Azure.TrafficManager/v3.0.0/Azure.TrafficManager.md
+Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
@@ -8,6 +8,7 @@ updated_at: 10/27/2016 9:26 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Azure.TrafficManager.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Azure.TrafficManager.md
+uid: ServiceManagement/Azure.TrafficManager/v3.0.0/Azure.TrafficManager.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
@@ -15,6 +16,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Azure.TrafficManager Module

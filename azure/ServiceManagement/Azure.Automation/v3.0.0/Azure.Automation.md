@@ -1,6 +1,6 @@
 ---
 Module Name: Azure.Automation
-Module Guid: ServiceManagement/Azure.Automation/v3.0.0/Azure.Automation.md
+Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
@@ -8,6 +8,7 @@ updated_at: 10/27/2016 9:26 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Azure.Automation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Azure.Automation.md
+uid: ServiceManagement/Azure.Automation/v3.0.0/Azure.Automation.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.Batch
-Module Guid: ResourceManager/AzureRM.Batch/v0.9.8/AzureRM.Batch.md
+Module Guid: Batch_Cmdlets_D48CF693-4125-4D2D-879
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 2.0.2.0
 Locale: en-US
@@ -8,6 +8,7 @@ updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v0.9.8/AzureRM.Batch.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v0.9.8/AzureRM.Batch.md
+uid: ResourceManager/AzureRM.Batch/v0.9.8/AzureRM.Batch.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

@@ -1,6 +1,6 @@
 ---
 Module Name: Azure.Networking
-Module Guid: ServiceManagement/Azure.Networking/v3.0.0/Azure.Networking.md
+Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 4.0.0.0
 Locale: en-US
@@ -8,6 +8,7 @@ updated_at: 10/27/2016 9:26 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Azure.Networking.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Azure.Networking.md
+uid: ServiceManagement/Azure.Networking/v3.0.0/Azure.Networking.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

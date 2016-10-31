@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.LogicApp
-Module Guid: ResourceManager/AzureRM.LogicApp/v1.0.8/AzureRM.LogicApp.md
+Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
@@ -8,6 +8,7 @@ updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/AzureRM.LogicApp.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/AzureRM.LogicApp.md
+uid: ResourceManager/AzureRM.LogicApp/v1.0.8/AzureRM.LogicApp.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

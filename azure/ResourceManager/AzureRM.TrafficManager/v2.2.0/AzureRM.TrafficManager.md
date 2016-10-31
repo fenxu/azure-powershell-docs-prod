@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.TrafficManager
-Module Guid: ResourceManager/AzureRM.TrafficManager/v2.2.0/AzureRM.TrafficManager.md
+Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
 Download Help Link: http://go.microsoft.com/fwlink/?LinkId=280237
 Help Version: 4.0.0.0
 Locale: en-US
@@ -8,6 +8,7 @@ updated_at: 10/27/2016 9:26 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/AzureRM.TrafficManager.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/AzureRM.TrafficManager.md
+uid: ResourceManager/AzureRM.TrafficManager/v2.2.0/AzureRM.TrafficManager.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
@@ -15,6 +16,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # AzureRM.TrafficManager Module

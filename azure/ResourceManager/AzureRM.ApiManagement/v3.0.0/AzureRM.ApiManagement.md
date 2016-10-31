@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.ApiManagement
-Module Guid: ResourceManager/AzureRM.ApiManagement/v3.0.0/AzureRM.ApiManagement.md
+Module Guid: f875725d-8ce4-423f-a6af-ea880bc63f13
 Download Help Link: None
 Help Version: 4.0.0.0
 Locale: en-US
@@ -8,6 +8,7 @@ updated_at: 10/26/2016 4:45 AM
 ms.date: 10/26/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/AzureRM.ApiManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7c3dcd719a8b286e2a6d1bdbffbc58e2986bf9ac/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/AzureRM.ApiManagement.md
+uid: ResourceManager/AzureRM.ApiManagement/v3.0.0/AzureRM.ApiManagement.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
