@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C2254A89-1700-4321-99FD-529E481705A3
-updated_at: 10/27/2016 11:46 PM
-ms.date: 10/27/2016
+updated_at: 10/31/2016 10:05 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADAdministrativeUnitMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a76928b576fb6d6dd5270c579171107be1494a14/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADAdministrativeUnitMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a0cde64b51fdfa7eb22573970c278a0040185865/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADAdministrativeUnitMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Add-AzureADAdministrativeUnitMember
 
 ## SYNOPSIS
-Add an administrativeUnit member
+The **Add-AzureADAdministrativeUnitMember** cmdlet adds an administrativeUnit member.
 
 ## SYNTAX
 
