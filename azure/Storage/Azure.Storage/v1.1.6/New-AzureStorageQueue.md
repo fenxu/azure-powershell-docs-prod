@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageQueue.md
 schema: 2.0.0
 ms.assetid: 4B1216B7-40C6-418B-806E-63302D8BA4A1
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 6:30 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageQueue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageQueue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3495bfe56dd8fafec55b33cf4547ab820e372d9d/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageQueue.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ New-AzureStorageQueue [-Name] <String> [-Context <AzureStorageContext>] [-Inform
 ```
 
 ## DESCRIPTION
-The **New-AzureStorageQueue** cmdlet creates a storage queue in azure_2.
+The **New-AzureStorageQueue** cmdlet creates a storage queue in Azure.
 
 ## EXAMPLES
 
@@ -67,13 +67,13 @@ Accept wildcard characters: False
 ```
 
 ### -Context
-Specifies the azure_2 storage context.
+Specifies the Azure storage context.
 You can create it by using the New-AzureStorageContext cmdlet.
 
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -83,7 +83,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -98,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable. 
 
 ```yaml
 Type: String
@@ -141,5 +148,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureStorageQueue](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageQueue.md)
 
 [Remove-AzureStorageQueue](xref:Storage/Azure.Storage/v1.1.6/Remove-AzureStorageQueue.md)
-
-

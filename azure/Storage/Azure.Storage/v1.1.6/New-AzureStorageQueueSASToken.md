@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: 671aeec8-b7f9-49c5-866f-da84f189ab5b
 schema: 2.0.0
 ms.assetid: 6CAE6E32-2800-4C20-88AE-D40271476628
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/31/2016 6:30 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageQueueSASToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageQueueSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3495bfe56dd8fafec55b33cf4547ab820e372d9d/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageQueueSASToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureStorageQueueSASToken
 
 ## SYNOPSIS
-Generates a shared access signature token for an azure_2 storage queue.
+Generates a shared access signature token for an Azure storage queue.
 
 ## SYNTAX
 
@@ -41,7 +41,7 @@ New-AzureStorageQueueSASToken [-Name] <String> [-Permission <String>] [-Protocol
 ```
 
 ## DESCRIPTION
-The **New-AzureStorageQueueSASToken** cmdlet generates shared access signature token for an azure_2 storage queue.
+The **New-AzureStorageQueueSASToken** cmdlet generates shared access signature token for an Azure storage queue.
 
 ## EXAMPLES
 
@@ -55,7 +55,7 @@ This example generates a queue SAS token with full permission.
 ## PARAMETERS
 
 ### -Name
-Specifies an azure_2 storage queue name.
+Specifies an Azure storage queue name.
 
 ```yaml
 Type: String
@@ -70,12 +70,12 @@ Accept wildcard characters: False
 ```
 
 ### -Policy
-Specifies an azure_2 stored access policy.
+Specifies an Azure stored access policy.
 
 ```yaml
 Type: String
 Parameter Sets: SasPolicy
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -85,12 +85,18 @@ Accept wildcard characters: False
 ```
 
 ### -Protocol
-@{Text=}
+Specifies the protocol permitted for a request.
+The acceptable values for this parameter are:
+* HttpsOnly
+* HttpsOrHttp
+
+The default value is HttpsOrHttp.
+
 
 ```yaml
 Type: SharedAccessProtocol
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -100,12 +106,14 @@ Accept wildcard characters: False
 ```
 
 ### -IPAddressOrRange
-@{Text=}
+Specifies the IP address or range of IP addresses from which to accept requests, such as 168.1.5.65 or 168.1.5.60-168.1.5.70.
+The range is inclusive.
+
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -120,7 +128,7 @@ Specifies when the shared access signature becomes valid.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -135,7 +143,7 @@ Specifies when the shared access signature is no longer valid.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -150,7 +158,7 @@ Indicates that this cmdlet return the full blob URI and the shared access signat
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -160,13 +168,13 @@ Accept wildcard characters: False
 ```
 
 ### -Context
-Specifies the azure_2 storage context.
+Specifies the Azure storage context.
 You can create it by New-AzureStorageContext cmdlet.
 
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -176,7 +184,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -191,7 +206,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -211,7 +226,7 @@ Specifies permissions for a storage queue.
 ```yaml
 Type: String
 Parameter Sets: SasPermission
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -245,5 +260,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

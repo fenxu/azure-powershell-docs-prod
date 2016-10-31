@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\New-AzureStorageTableStoredAccessPolicy.md
 schema: 2.0.0
 ms.assetid: A1536004-87A3-48A2-AD18-BF3FE95908C9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 6:30 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageTableStoredAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageTableStoredAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3495bfe56dd8fafec55b33cf4547ab820e372d9d/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageTableStoredAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureStorageTableStoredAccessPolicy
 
 ## SYNOPSIS
-Gets the stored access policy or policies for an azure_2 storage table.
+Gets the stored access policy or policies for an Azure storage table.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Get-AzureStorageTableStoredAccessPolicy [-Table] <String> [[-Policy] <String>] [
 ```
 
 ## DESCRIPTION
-The **Get-AzureStorageTableStoredAccessPolicy** cmdlet lists the stored access policy or policies for an azure_2 storage table.
+The **Get-AzureStorageTableStoredAccessPolicy** cmdlet lists the stored access policy or policies for an Azure storage table.
 
 ## EXAMPLES
 
@@ -52,7 +52,7 @@ This command gets all access policies in the table named Table02.
 ## PARAMETERS
 
 ### -Table
-Specifies the azure_2 storage table name.
+Specifies the Azure storage table name.
 
 ```yaml
 Type: String
@@ -72,7 +72,7 @@ Specifies a stored access policy, which includes the permissions for this Shared
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -82,13 +82,13 @@ Accept wildcard characters: False
 ```
 
 ### -Context
-Specifies the azure_2 storage context.
+Specifies the Azure storage context.
 To obtain a storage context, use the New-AzureStorageContext cmdlet.
 
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -98,7 +98,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -113,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable. 
 
 ```yaml
 Type: String
@@ -160,5 +167,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-AzureStorageTableStoredAccessPolicy](xref:Storage/Azure.Storage/v1.1.6/Set-AzureStorageTableStoredAccessPolicy.md)
 
 [New-AzureStorageContext](xref:Storage/Azure.Storage/v1.1.6/New-AzureStorageContext.md)
-
-

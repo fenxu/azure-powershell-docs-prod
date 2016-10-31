@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageBlobContent.md
 schema: 2.0.0
 ms.assetid: C3D50900-70D6-44AF-B939-ABE86FCF89E6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 6:30 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Set-AzureStorageBlobContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Set-AzureStorageBlobContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3495bfe56dd8fafec55b33cf4547ab820e372d9d/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Set-AzureStorageBlobContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureStorageBlobContent
 
 ## SYNOPSIS
-Uploads a local file to an azure_2 Storage blob.
+Uploads a local file to an Azure Storage blob.
 
 ## SYNTAX
 
@@ -52,7 +52,7 @@ Set-AzureStorageBlobContent [-File] <String> -CloudBlob <CloudBlob> [-BlobType <
 ```
 
 ## DESCRIPTION
-The **Set-AzureStorageBlobContent** cmdlet uploads a local file to an azure_2 Storage blob.
+The **Set-AzureStorageBlobContent** cmdlet uploads a local file to an Azure Storage blob.
 
 ## EXAMPLES
 
@@ -137,7 +137,7 @@ This cmdlet uploads a file to a blob in the container that this parameter specif
 ```yaml
 Type: String
 Parameter Sets: SendManual
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -148,12 +148,12 @@ Accept wildcard characters: False
 
 ### -Blob
 Specifies the name of a blob.
-This cmdlet uploads a file to the azure_2 Storage blob that this parameter specifies.
+This cmdlet uploads a file to the Azure Storage blob that this parameter specifies.
 
 ```yaml
 Type: String
 Parameter Sets: SendManual, ContainerPipeline
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -174,7 +174,7 @@ The default value is Block.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -189,7 +189,7 @@ Specifies properties for the uploaded blob.
 ```yaml
 Type: Hashtable
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -204,7 +204,7 @@ Specifies metadata for the uploaded blob.
 ```yaml
 Type: Hashtable
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -219,7 +219,7 @@ Indicates that this cmdlet overwrites an existing blob without prompting you for
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -229,13 +229,13 @@ Accept wildcard characters: False
 ```
 
 ### -Context
-Specifies an azure_2 storage context.
+Specifies an Azure storage context.
 To obtain a storage context, use the New-AzureStorageContext cmdlet.
 
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -251,7 +251,7 @@ If the specified interval elapses before the service processes the request, the 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -268,7 +268,7 @@ If this cmdlet does not receive a successful response before the interval elapse
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -287,7 +287,7 @@ The default value is 10.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -297,7 +297,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -312,7 +319,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable. 
 
 ```yaml
 Type: String
@@ -343,14 +350,14 @@ Accept wildcard characters: False
 ```
 
 ### -CloudBlobContainer
-Specifies a **CloudBlobContainer** object from the azure_2 Storage Client library.
+Specifies a **CloudBlobContainer** object from the Azure Storage Client library.
 This cmdlet uploads content to a blob in the container that this parameter specifies.
 To obtain a **CloudBlobContainer** object, use the Get-AzureStorageContainer cmdlet.
 
 ```yaml
 Type: CloudBlobContainer
 Parameter Sets: ContainerPipeline
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -375,7 +382,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -390,7 +397,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -420,5 +428,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureStorageBlob](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageBlob.md)
 
 [Remove-AzureStorageBlob](xref:Storage/Azure.Storage/v1.1.6/Remove-AzureStorageBlob.md)
-
-

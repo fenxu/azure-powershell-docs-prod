@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\New-AzureStorageContext.md
 schema: 2.0.0
 ms.assetid: 02217F39-6C93-401B-8801-52FDD38BA751
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 6:30 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageServiceLoggingProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageServiceLoggingProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3495bfe56dd8fafec55b33cf4547ab820e372d9d/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageServiceLoggingProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureStorageServiceLoggingProperty
 
 ## SYNOPSIS
-Gets logging properties for azure_2 Storage services.
+Gets logging properties for Azure Storage services.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Get-AzureStorageServiceLoggingProperty [-ServiceType] <StorageServiceType> [-Con
 ```
 
 ## DESCRIPTION
-The **Get-AzureStorageServiceLoggingProperty** cmdlet gets logging properties for azure_2 Storage services.
+The **Get-AzureStorageServiceLoggingProperty** cmdlet gets logging properties for Azure Storage services.
 
 ## EXAMPLES
 
@@ -49,7 +49,7 @@ Specifies the storage service type.
 This cmdlet gets the logging properties for the service type that this parameter specifies.
 psdx_paramvalues
 
-- Blob 
+- Blob
 - Table
 - Queue
 - File
@@ -59,7 +59,7 @@ The value of File is not currently supported.
 ```yaml
 Type: StorageServiceType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -69,13 +69,13 @@ Accept wildcard characters: False
 ```
 
 ### -Context
-Specifies an azure_2 storage context.
+Specifies an Azure storage context.
 To obtain a storage context, use the New-AzureStorageContext cmdlet.
 
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -85,7 +85,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -100,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable. 
 
 ```yaml
 Type: String
@@ -143,5 +150,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureStorageContext](xref:Storage/Azure.Storage/v1.1.6/New-AzureStorageContext.md)
 
 [Set-AzureStorageServiceLoggingProperty](xref:Storage/Azure.Storage/v1.1.6/Set-AzureStorageServiceLoggingProperty.md)
-
-

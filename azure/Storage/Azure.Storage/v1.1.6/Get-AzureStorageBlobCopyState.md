@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Start-AzureStorageBlobCopy.md
 schema: 2.0.0
 ms.assetid: 5EAD5288-78E9-4EBB-904E-5E86EA88DA93
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 6:30 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageBlobCopyState.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageBlobCopyState.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3495bfe56dd8fafec55b33cf4547ab820e372d9d/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageBlobCopyState.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -49,7 +49,7 @@ Get-AzureStorageBlobCopyState -CloudBlobContainer <CloudBlobContainer> [-Blob] <
 ```
 
 ## DESCRIPTION
-The **Get-AzureStorageBlobCopyState** cmdlet gets the copy status of an azure_2 Storage blob.
+The **Get-AzureStorageBlobCopyState** cmdlet gets the copy status of an Azure Storage blob.
 
 ## EXAMPLES
 
@@ -80,12 +80,12 @@ The **Get-AzureStorageContainer** cmdlet gets the copy status for the blob named
 
 ### -Blob
 Specifies the name of a blob.
-This cmdlet gets the state of the blob copy operation for the azure_2 Storage blob that this parameter specifies.
+This cmdlet gets the state of the blob copy operation for the Azure Storage blob that this parameter specifies.
 
 ```yaml
 Type: String
 Parameter Sets: NamePipeline, ContainerPipeline
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -101,7 +101,7 @@ This cmdlet gets the copy status for a blob in the container that this parameter
 ```yaml
 Type: String
 Parameter Sets: NamePipeline
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -117,7 +117,7 @@ If you do not specify this parameter, this cmdlet returns a result immediately.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -127,13 +127,13 @@ Accept wildcard characters: False
 ```
 
 ### -Context
-Specifies an azure_2 storage context.
+Specifies an Azure storage context.
 To obtain a storage context, use the New-AzureStorageContext cmdlet.
 
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -149,7 +149,7 @@ If the specified interval elapses before the service processes the request, the 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -166,7 +166,7 @@ If this cmdlet does not receive a successful response before the interval elapse
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -185,7 +185,7 @@ The default value is 10.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -195,7 +195,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -210,7 +217,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable. 
 
 ```yaml
 Type: String
@@ -225,7 +232,7 @@ Accept wildcard characters: False
 ```
 
 ### -CloudBlob
-Specifies a **CloudBlob** object from azure_2 Storage Client library.
+Specifies a **CloudBlob** object from Azure Storage Client library.
 To obtain a **CloudBlob** object, use the Get-AzureStorageBlob cmdlet.
 
 ```yaml
@@ -241,14 +248,14 @@ Accept wildcard characters: False
 ```
 
 ### -CloudBlobContainer
-Specifies a **CloudBlobContainer** object from the azure_2 Storage Client library.
+Specifies a **CloudBlobContainer** object from the Azure Storage Client library.
 This cmdlet gets the copy status of a blob in the container that this parameter specifies.
 To obtain a **CloudBlobContainer** object, use the Get-AzureStorageContainer cmdlet.
 
 ```yaml
 Type: CloudBlobContainer
 Parameter Sets: ContainerPipeline
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -288,5 +295,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Start-AzureStorageBlobCopy](xref:Storage/Azure.Storage/v1.1.6/Start-AzureStorageBlobCopy.md)
 
 [Stop-AzureStorageBlobCopy](xref:Storage/Azure.Storage/v1.1.6/Stop-AzureStorageBlobCopy.md)
-
-
