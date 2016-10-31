@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.UsageAggregates
-Module Guid: e43e47c8-8bff-4013-b003-ded1741f403a
+Module Guid: ResourceManager/AzureRM.UsageAggregates/v2.1.0/AzureRM.UsageAggregates.md
 Download Help Link: None
 Help Version: 3.0.0.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

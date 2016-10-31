@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.Insights
-Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+Module Guid: ResourceManager/AzureRM.Insights/v2.1.0/AzureRM.Insights.md
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

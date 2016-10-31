@@ -1,6 +1,6 @@
 ---
 Module Name: Azure.Service
-Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
+Module Guid: ServiceManagement/Azure.Service/v3.0.0/Azure.Service.md
 Download Help Link: None
 Help Version: 4.0.0.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

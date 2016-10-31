@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.Network
-Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
+Module Guid: ResourceManager/AzureRM.Network/v0.9.8/AzureRM.Network.md
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 2.0.2.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

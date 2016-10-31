@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.DNS
-Module Guid: DNS_D48CF693-4125-4D2D-8790-1514F44C
+Module Guid: ResourceManager/AzureRM.DNS/v1.0.12/AzureRM.DNS.md
 Download Help Link: http://go.microsoft.com/fwlink/?LinkId=280237
 Help Version: 2.0.3.1
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

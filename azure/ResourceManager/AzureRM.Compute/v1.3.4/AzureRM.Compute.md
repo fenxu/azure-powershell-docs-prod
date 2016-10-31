@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.Compute
-Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
+Module Guid: ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 2.0.8.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

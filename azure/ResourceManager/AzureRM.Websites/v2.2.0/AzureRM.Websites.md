@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.Websites
-Module Guid: cc69c625-e961-43f4-8b50-0061eba6e4b6
+Module Guid: ResourceManager/AzureRM.Websites/v2.2.0/AzureRM.Websites.md
 Download Help Link: None
 Help Version: 4.0.0.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

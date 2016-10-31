@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.DataLakeAnalytics
-Module Guid: eca73aa1-a68f-4ceb-9775-70759316a57b
+Module Guid: ResourceManager/AzureRM.DataLakeAnalytics/v2.1.0/AzureRM.DataLakeAnalytics.md
 Download Help Link: None
 Help Version: 2.0.6.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

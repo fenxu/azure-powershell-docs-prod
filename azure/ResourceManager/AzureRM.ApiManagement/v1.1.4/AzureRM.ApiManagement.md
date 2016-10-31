@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.ApiManagement
-Module Guid: f875725d-8ce4-423f-a6af-ea880bc63f13
+Module Guid: ResourceManager/AzureRM.ApiManagement/v1.1.4/AzureRM.ApiManagement.md
 Download Help Link: None
 Help Version: 2.0.4.1
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

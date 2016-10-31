@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.TrafficManager
-Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
+Module Guid: ResourceManager/AzureRM.TrafficManager/v1.0/AzureRM.TrafficManager.md
 Download Help Link: http://go.microsoft.com/fwlink/?LinkId=280237
 Help Version: 2.0.3.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 ---
 

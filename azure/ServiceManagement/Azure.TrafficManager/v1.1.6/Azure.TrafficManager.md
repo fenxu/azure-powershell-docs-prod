@@ -1,6 +1,6 @@
 ---
 Module Name: Azure.TrafficManager
-Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+Module Guid: ServiceManagement/Azure.TrafficManager/v1.1.6/Azure.TrafficManager.md
 Download Help Link: Please enter FwLink manually
 Help Version: 1.0.0.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 ---
 

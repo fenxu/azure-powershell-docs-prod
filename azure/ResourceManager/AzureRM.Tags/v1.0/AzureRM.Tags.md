@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.Tags
-Module Guid: 59713673-194f-418a-b1f2-ac60db82edf9
+Module Guid: ResourceManager/AzureRM.Tags/v1.0/AzureRM.Tags.md
 Download Help Link: None
 Help Version: 2.0.3.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

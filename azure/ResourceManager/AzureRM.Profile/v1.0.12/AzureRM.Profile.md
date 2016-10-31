@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.Profile
-Module Guid: 342714fc-4009-4863-8afb-a9067e3db04b
+Module Guid: ResourceManager/AzureRM.Profile/v1.0.12/AzureRM.Profile.md
 Download Help Link: None
 Help Version: 2.0.4.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

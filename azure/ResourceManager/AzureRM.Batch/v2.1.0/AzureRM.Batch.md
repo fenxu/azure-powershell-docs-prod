@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.Batch
-Module Guid: Batch_Cmdlets_D48CF693-4125-4D2D-879
+Module Guid: ResourceManager/AzureRM.Batch/v2.1.0/AzureRM.Batch.md
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 3.0.0.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---

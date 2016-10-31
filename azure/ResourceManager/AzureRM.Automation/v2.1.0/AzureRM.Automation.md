@@ -1,6 +1,6 @@
 ---
 Module Name: AzureRM.Automation
-Module Guid: bcea1c70-a32b-48c3-a05c-323e1c02f4d3
+Module Guid: ResourceManager/AzureRM.Automation/v2.1.0/AzureRM.Automation.md
 Download Help Link: None_Azure
 Help Version: 3.0.0.0
 Locale: en-US
@@ -13,7 +13,7 @@ ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: visual-studio-china
-ms.author: 
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
