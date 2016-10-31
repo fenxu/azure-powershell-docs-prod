@@ -170,10 +170,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobExecutionPolicy](./Get-AzureSqlJobExecutionPolicy.md)
+[Get-AzureSqlJobExecutionPolicy](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecutionPolicy.md)
 
-[Set-AzureSqlJobExecutionPolicy](./Set-AzureSqlJobExecutionPolicy.md)
+[Set-AzureSqlJobExecutionPolicy](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobExecutionPolicy.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
 
 

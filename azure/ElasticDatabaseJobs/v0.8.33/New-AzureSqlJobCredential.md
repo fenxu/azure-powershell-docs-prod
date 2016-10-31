@@ -122,14 +122,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobCredential](./Get-AzureSqlJobCredential.md)
+[Get-AzureSqlJobCredential](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobCredential.md)
 
-[Set-AzureSqlJobCredential](./Set-AzureSqlJobCredential.md)
+[Set-AzureSqlJobCredential](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md)
 
-[New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md)
+[New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md)
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
 
 

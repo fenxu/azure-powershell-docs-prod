@@ -324,14 +324,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobTarget](./New-AzureSqlJobTarget.md)
+[New-AzureSqlJobTarget](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md)
 
-[Set-AzureSqlJobTarget](./Set-AzureSqlJobTarget.md)
+[Set-AzureSqlJobTarget](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTarget.md)
 
-[New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md)
+[New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md)
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
 
 

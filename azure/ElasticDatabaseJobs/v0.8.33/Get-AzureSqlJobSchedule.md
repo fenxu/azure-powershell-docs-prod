@@ -131,10 +131,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobSchedule](./New-AzureSqlJobSchedule.md)
+[New-AzureSqlJobSchedule](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobSchedule.md)
 
-[Set-AzureSqlJobSchedule](./Set-AzureSqlJobSchedule.md)
+[Set-AzureSqlJobSchedule](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobSchedule.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
 
 

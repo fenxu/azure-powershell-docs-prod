@@ -263,10 +263,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobTarget](./Get-AzureSqlJobTarget.md)
+[Get-AzureSqlJobTarget](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTarget.md)
 
-[Set-AzureSqlJobTarget](./Set-AzureSqlJobTarget.md)
+[Set-AzureSqlJobTarget](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTarget.md)
 
-[Add-AzureSqlJobChildTarget](./Add-AzureSqlJobChildTarget.md)
+[Add-AzureSqlJobChildTarget](xref:ElasticDatabaseJobs/v0.8.33/Add-AzureSqlJobChildTarget.md)
 
 

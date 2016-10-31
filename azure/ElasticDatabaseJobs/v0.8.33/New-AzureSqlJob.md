@@ -290,10 +290,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJob](./Get-AzureSqlJob.md)
+[Get-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md)
 
-[Remove-AzureSqlJob](./Remove-AzureSqlJob.md)
+[Remove-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md)
 
-[Set-AzureSqlJob](./Set-AzureSqlJob.md)
+[Set-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJob.md)
 
 

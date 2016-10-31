@@ -110,16 +110,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobContent](./New-AzureSqlJobContent.md)
+[New-AzureSqlJobContent](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobContent.md)
 
-[Get-AzureSqlJobContentDefinition](./Get-AzureSqlJobContentDefinition.md)
+[Get-AzureSqlJobContentDefinition](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobContentDefinition.md)
 
-[Set-AzureSqlJobContentDefinition](./Set-AzureSqlJobContentDefinition.md)
+[Set-AzureSqlJobContentDefinition](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md)
 
-[New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md)
+[New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md)
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
 
 

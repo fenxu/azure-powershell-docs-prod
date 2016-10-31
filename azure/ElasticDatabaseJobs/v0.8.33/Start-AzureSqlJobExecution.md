@@ -100,12 +100,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobExecution](./Get-AzureSqlJobExecution.md)
+[Get-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md)
 
-[Stop-AzureSqlJobExecution](./Stop-AzureSqlJobExecution.md)
+[Stop-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Stop-AzureSqlJobExecution.md)
 
-[Wait-AzureSqlJobExecution](./Wait-AzureSqlJobExecution.md)
+[Wait-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
 
 

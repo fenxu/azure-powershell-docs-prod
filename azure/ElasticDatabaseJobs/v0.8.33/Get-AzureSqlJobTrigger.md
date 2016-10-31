@@ -131,12 +131,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobTrigger](./New-AzureSqlJobTrigger.md)
+[New-AzureSqlJobTrigger](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTrigger.md)
 
-[Remove-AzureSqlJobTrigger](./Remove-AzureSqlJobTrigger.md)
+[Remove-AzureSqlJobTrigger](xref:ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJobTrigger.md)
 
-[Set-AzureSqlJobTrigger](./Set-AzureSqlJobTrigger.md)
+[Set-AzureSqlJobTrigger](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTrigger.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
 
 

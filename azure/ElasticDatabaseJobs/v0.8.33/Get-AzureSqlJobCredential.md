@@ -107,8 +107,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobCredential](./New-AzureSqlJobCredential.md)
+[New-AzureSqlJobCredential](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobCredential.md)
 
-[Set-AzureSqlJobCredential](./Set-AzureSqlJobCredential.md)
+[Set-AzureSqlJobCredential](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md)
 
 

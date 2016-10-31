@@ -105,14 +105,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobTrigger](./Get-AzureSqlJobTrigger.md)
+[Get-AzureSqlJobTrigger](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTrigger.md)
 
-[Remove-AzureSqlJobTrigger](./Remove-AzureSqlJobTrigger.md)
+[Remove-AzureSqlJobTrigger](xref:ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJobTrigger.md)
 
-[Set-AzureSqlJobTrigger](./Set-AzureSqlJobTrigger.md)
+[Set-AzureSqlJobTrigger](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTrigger.md)
 
-[New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md)
+[New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md)
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
 
 

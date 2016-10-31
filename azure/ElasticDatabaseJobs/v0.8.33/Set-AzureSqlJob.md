@@ -286,12 +286,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJob](./Get-AzureSqlJob.md)
+[Get-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md)
 
-[New-AzureSqlJob](./New-AzureSqlJob.md)
+[New-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md)
 
-[Remove-AzureSqlJob](./Remove-AzureSqlJob.md)
+[Remove-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
 
 

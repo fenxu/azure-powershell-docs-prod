@@ -329,10 +329,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureSqlJobExecution](./Start-AzureSqlJobExecution.md)
+[Start-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Start-AzureSqlJobExecution.md)
 
-[Stop-AzureSqlJobExecution](./Stop-AzureSqlJobExecution.md)
+[Stop-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Stop-AzureSqlJobExecution.md)
 
-[Wait-AzureSqlJobExecution](./Wait-AzureSqlJobExecution.md)
+[Wait-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md)
 
 

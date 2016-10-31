@@ -144,8 +144,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureSqlJobContentDefinition](./Set-AzureSqlJobContentDefinition.md)
+[Set-AzureSqlJobContentDefinition](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobContentDefinition.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
 
 
