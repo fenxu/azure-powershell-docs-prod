@@ -118,6 +118,10 @@
     - name: vlatest
       href: ../RMSProtection Module/vlatest/RightsProtection.md
       items:
+        - name: about_RMSProtection_ADRMS
+          href: ../RMSProtection Module/vlatest/about_RMSProtection_ADRMS.md
+        - name: about_RMSProtection_AzureRMS
+          href: ../RMSProtection Module/vlatest/about_RMSProtection_AzureRMS.md
         - name: Clear-RMSAuthentication
           href: ../RMSProtection Module/vlatest/Clear-RMSAuthentication.md
         - name: Get-RMSFileStatus

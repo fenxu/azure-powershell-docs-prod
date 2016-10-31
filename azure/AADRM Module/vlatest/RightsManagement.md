@@ -9,6 +9,7 @@ updated_at: 10/27/2016 8:29 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM%20Module/vlatest/RightsManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/023107fc6ffcfa818be74eac613a70eca88a6329/Azure%20Information%20Protection/AADRM%20Module/vlatest/RightsManagement.md
+uid: AADRM Module/vlatest/RightsManagement.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: rights-management
