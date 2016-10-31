@@ -9,6 +9,7 @@ updated_at: 10/27/2016 11:46 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a76928b576fb6d6dd5270c579171107be1494a14/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
+uid: MSOnline/v1/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: Azure PowerShell
