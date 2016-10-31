@@ -1,5 +1,4 @@
 - name: AzureAD
-  href: ../AzureAD/index.md
   items:
     - name: v2
       href: ../AzureAD/v2/AzureActiveDirectory.md
