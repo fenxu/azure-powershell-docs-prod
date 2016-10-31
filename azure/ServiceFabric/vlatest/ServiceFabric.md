@@ -9,6 +9,7 @@ updated_at: 10/27/2016 10:52 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/483c3b1a57f43eb5b5c41c0052db248342480999/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
+uid: ServiceFabric/vlatest/ServiceFabric.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: service-fabric
