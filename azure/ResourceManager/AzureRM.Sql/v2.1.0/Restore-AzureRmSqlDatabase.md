@@ -374,10 +374,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Recover an Azure SQL Database from a user error](http://go.microsoft.com/fwlink/?LinkId=746944)
 
-[Get-AzureRmSqlDatabase](./Get-AzureRmSqlDatabase.md)
+[Get-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlDatabase.md)
 
-[Get-AzureRMSqlDatabaseGeoBackup](./Get-AzureRMSqlDatabaseGeoBackup.md)
+[Get-AzureRMSqlDatabaseGeoBackup](xref:ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRMSqlDatabaseGeoBackup.md)
 
-[Get-AzureRMSqlDeletedDatabaseBackup](./Get-AzureRMSqlDeletedDatabaseBackup.md)
+[Get-AzureRMSqlDeletedDatabaseBackup](xref:ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRMSqlDeletedDatabaseBackup.md)
 
 

@@ -301,6 +301,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureVMDscExtension](./Set-AzureVMDscExtension.md)
+[Set-AzureVMDscExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMDscExtension.md)
 
 

@@ -218,8 +218,8 @@ Output from Get-ACSFarm and Get-ACSManagementService can be piped to this cmdlet
 
 ## RELATED LINKS
 
-[Get-ACSManagementService](./Get-ACSManagementService.md)
+[Get-ACSManagementService](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSManagementService.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
 

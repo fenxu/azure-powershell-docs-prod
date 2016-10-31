@@ -89,14 +89,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureNodeWebRole](./Add-AzureNodeWebRole.md)
+[Add-AzureNodeWebRole](xref:ServiceManagement/Azure.Compute/v3.0.0/Add-AzureNodeWebRole.md)
 
-[Add-AzureNodeWorkerRole](./Add-AzureNodeWorkerRole.md)
+[Add-AzureNodeWorkerRole](xref:ServiceManagement/Azure.Compute/v3.0.0/Add-AzureNodeWorkerRole.md)
 
-[Publish-AzureServiceProject](./Publish-AzureServiceProject.md)
+[Publish-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureServiceProject.md)
 
-[Set-AzureServiceProject](./Set-AzureServiceProject.md)
+[Set-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v3.0.0/Set-AzureServiceProject.md)
 
-[Set-AzureServiceProjectRole](./Set-AzureServiceProjectRole.md)
+[Set-AzureServiceProjectRole](xref:ServiceManagement/Azure.Compute/v3.0.0/Set-AzureServiceProjectRole.md)
 
 

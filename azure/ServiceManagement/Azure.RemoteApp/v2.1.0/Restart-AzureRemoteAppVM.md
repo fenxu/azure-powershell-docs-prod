@@ -165,6 +165,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppVM](./Get-AzureRemoteAppVM.md)
+[Get-AzureRemoteAppVM](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/Get-AzureRemoteAppVM.md)
 
 

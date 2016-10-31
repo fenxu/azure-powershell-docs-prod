@@ -161,8 +161,8 @@ Output from cmdlet Get-ACSFarm can be piped to the input for this cmdlet.
 
 ## RELATED LINKS
 
-[Set-ACSBlobService](./Set-ACSBlobService.md)
+[Set-ACSBlobService](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSBlobService.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarm.md)
 
 

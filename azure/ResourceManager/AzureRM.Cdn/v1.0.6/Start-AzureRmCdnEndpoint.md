@@ -164,14 +164,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmCdnEndpoint](./Get-AzureRmCdnEndpoint.md)
+[Get-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Get-AzureRmCdnEndpoint.md)
 
-[New-AzureRmCdnEndpoint](./New-AzureRmCdnEndpoint.md)
+[New-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v1.0.6/New-AzureRmCdnEndpoint.md)
 
-[Remove-AzureRmCdnEndpoint](./Remove-AzureRmCdnEndpoint.md)
+[Remove-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Remove-AzureRmCdnEndpoint.md)
 
-[Set-AzureRmCdnEndpoint](./Set-AzureRmCdnEndpoint.md)
+[Set-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Set-AzureRmCdnEndpoint.md)
 
-[Stop-AzureRmCdnEndpoint](./Stop-AzureRmCdnEndpoint.md)
+[Stop-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Stop-AzureRmCdnEndpoint.md)
 
 

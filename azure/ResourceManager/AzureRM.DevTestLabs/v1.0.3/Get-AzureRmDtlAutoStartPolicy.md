@@ -116,6 +116,6 @@ This cmdlet returns the schedule that specifies when the lab's virtual machines 
 
 ## RELATED LINKS
 
-[Set-AzureRmDtlAutoStartPolicy](./Set-AzureRmDtlAutoStartPolicy.md)
+[Set-AzureRmDtlAutoStartPolicy](xref:ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlAutoStartPolicy.md)
 
 

@@ -163,8 +163,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureSqlDatabaseExport](./Start-AzureSqlDatabaseExport.md)
+[Start-AzureSqlDatabaseExport](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/Start-AzureSqlDatabaseExport.md)
 
-[Start-AzureSqlDatabaseImport](./Start-AzureSqlDatabaseImport.md)
+[Start-AzureSqlDatabaseImport](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/Start-AzureSqlDatabaseImport.md)
 
 

@@ -148,6 +148,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureKeyVaultCertificateOrganizationDetails](./New-AzureKeyVaultCertificateOrganizationDetails.md)
+[New-AzureKeyVaultCertificateOrganizationDetails](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/New-AzureKeyVaultCertificateOrganizationDetails.md)
 
 

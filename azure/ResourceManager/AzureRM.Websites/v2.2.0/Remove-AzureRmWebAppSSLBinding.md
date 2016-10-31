@@ -236,12 +236,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmWebAppSSLBinding](./Get-AzureRmWebAppSSLBinding.md)
+[Get-AzureRmWebAppSSLBinding](xref:ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRmWebAppSSLBinding.md)
 
-[New-AzureRmWebAppSSLBinding](./New-AzureRmWebAppSSLBinding.md)
+[New-AzureRmWebAppSSLBinding](xref:ResourceManager/AzureRM.Websites/v2.2.0/New-AzureRmWebAppSSLBinding.md)
 
-[Get-AzureRMWebAppSlot](./Get-AzureRMWebAppSlot.md)
+[Get-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRMWebAppSlot.md)
 
-[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)
+[Get-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRmWebApp.md)
 
 

@@ -127,12 +127,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApplicationGatewayHttpListener](./Add-AzureRmApplicationGatewayHttpListener.md)
+[Add-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmApplicationGatewayHttpListener.md)
 
-[New-AzureRmApplicationGatewayHttpListener](./New-AzureRmApplicationGatewayHttpListener.md)
+[New-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayHttpListener.md)
 
-[Remove-AzureRmApplicationGatewayHttpListener](./Remove-AzureRmApplicationGatewayHttpListener.md)
+[Remove-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmApplicationGatewayHttpListener.md)
 
-[Set-AzureRmApplicationGatewayHttpListener](./Set-AzureRmApplicationGatewayHttpListener.md)
+[Set-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmApplicationGatewayHttpListener.md)
 
 

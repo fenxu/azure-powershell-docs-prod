@@ -139,8 +139,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Publish-AzureRemoteAppProgram](./Publish-AzureRemoteAppProgram.md)
+[Publish-AzureRemoteAppProgram](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Publish-AzureRemoteAppProgram.md)
 
-[Unpublish-AzureRemoteAppProgram](./Unpublish-AzureRemoteAppProgram.md)
+[Unpublish-AzureRemoteAppProgram](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Unpublish-AzureRemoteAppProgram.md)
 
 

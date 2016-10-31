@@ -175,12 +175,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSiteRecoveryNetworkMapping](./Get-AzureSiteRecoveryNetworkMapping.md)
+[Get-AzureSiteRecoveryNetworkMapping](xref:ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryNetworkMapping.md)
 
-[Remove-AzureSiteRecoveryNetworkMapping](./Remove-AzureSiteRecoveryNetworkMapping.md)
+[Remove-AzureSiteRecoveryNetworkMapping](xref:ServiceManagement/Azure.SiteRecovery/v3.0.0/Remove-AzureSiteRecoveryNetworkMapping.md)
 
-[Get-AzureSiteRecoveryServer](./Get-AzureSiteRecoveryServer.md)
+[Get-AzureSiteRecoveryServer](xref:ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryServer.md)
 
-[Get-AzureSiteRecoveryNetwork](./Get-AzureSiteRecoveryNetwork.md)
+[Get-AzureSiteRecoveryNetwork](xref:ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryNetwork.md)
 
 

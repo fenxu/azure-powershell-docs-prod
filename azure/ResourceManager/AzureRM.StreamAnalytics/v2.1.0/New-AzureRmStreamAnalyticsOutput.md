@@ -192,10 +192,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmStreamAnalyticsOutput](./Get-AzureRmStreamAnalyticsOutput.md)
+[Get-AzureRmStreamAnalyticsOutput](xref:ResourceManager/AzureRM.StreamAnalytics/v2.1.0/Get-AzureRmStreamAnalyticsOutput.md)
 
-[Remove-AzureRmStreamAnalyticsOutput](./Remove-AzureRmStreamAnalyticsOutput.md)
+[Remove-AzureRmStreamAnalyticsOutput](xref:ResourceManager/AzureRM.StreamAnalytics/v2.1.0/Remove-AzureRmStreamAnalyticsOutput.md)
 
-[Test-AzureRmStreamAnalyticsOutput](./Test-AzureRmStreamAnalyticsOutput.md)
+[Test-AzureRmStreamAnalyticsOutput](xref:ResourceManager/AzureRM.StreamAnalytics/v2.1.0/Test-AzureRmStreamAnalyticsOutput.md)
 
 

@@ -249,8 +249,8 @@ Output from Get-ACSStorageAccount can be piped to this cmdlet's input.
 
 ## RELATED LINKS
 
-[Get-ACSStorageAccount](./Get-ACSStorageAccount.md)
+[Get-ACSStorageAccount](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSStorageAccount.md)
 
-[Undo-ACSStorageAccountDeletion](./Undo-ACSStorageAccountDeletion.md)
+[Undo-ACSStorageAccountDeletion](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Undo-ACSStorageAccountDeletion.md)
 
 

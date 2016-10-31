@@ -67,6 +67,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Azure RemoteApp Cmdlets](./Azure.RemoteApp.md)
+[Azure RemoteApp Cmdlets](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/Azure.RemoteApp.md)
 
 

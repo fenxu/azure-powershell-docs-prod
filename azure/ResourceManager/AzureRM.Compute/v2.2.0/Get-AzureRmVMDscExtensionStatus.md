@@ -100,6 +100,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmVMDscExtension](./Set-AzureRmVMDscExtension.md)
+[Set-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMDscExtension.md)
 
 

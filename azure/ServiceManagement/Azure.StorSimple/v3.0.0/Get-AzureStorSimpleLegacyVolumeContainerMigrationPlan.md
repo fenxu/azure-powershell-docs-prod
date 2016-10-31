@@ -143,6 +143,6 @@ This cmdlet returns a **MigrationPlanMsg** object that contains the status of th
 
 ## RELATED LINKS
 
-[Start-AzureStorSimpleLegacyVolumeContainerMigrationPlan](./Start-AzureStorSimpleLegacyVolumeContainerMigrationPlan.md)
+[Start-AzureStorSimpleLegacyVolumeContainerMigrationPlan](xref:ServiceManagement/Azure.StorSimple/v3.0.0/Start-AzureStorSimpleLegacyVolumeContainerMigrationPlan.md)
 
 

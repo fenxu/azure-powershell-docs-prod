@@ -240,8 +240,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMAccessExtension](./Get-AzureVMAccessExtension.md)
+[Get-AzureVMAccessExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMAccessExtension.md)
 
-[Remove-AzureVMAccessExtension](./Remove-AzureVMAccessExtension.md)
+[Remove-AzureVMAccessExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVMAccessExtension.md)
 
 

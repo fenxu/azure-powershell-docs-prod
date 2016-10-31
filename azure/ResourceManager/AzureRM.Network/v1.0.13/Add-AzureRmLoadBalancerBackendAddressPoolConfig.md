@@ -114,14 +114,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmLoadBalancer](./Get-AzureRmLoadBalancer.md)
+[Get-AzureRmLoadBalancer](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmLoadBalancer.md)
 
-[Get-AzureRmNetworkInterface](./Get-AzureRmNetworkInterface.md)
+[Get-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmNetworkInterface.md)
 
-[Get-AzureRmLoadBalancerBackendAddressPoolConfig](./Get-AzureRmLoadBalancerBackendAddressPoolConfig.md)
+[Get-AzureRmLoadBalancerBackendAddressPoolConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmLoadBalancerBackendAddressPoolConfig.md)
 
-[New-AzureRmLoadBalancerBackendAddressPoolConfig](./New-AzureRmLoadBalancerBackendAddressPoolConfig.md)
+[New-AzureRmLoadBalancerBackendAddressPoolConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmLoadBalancerBackendAddressPoolConfig.md)
 
-[Remove-AzureRmLoadBalancerBackendAddressPoolConfig](./Remove-AzureRmLoadBalancerBackendAddressPoolConfig.md)
+[Remove-AzureRmLoadBalancerBackendAddressPoolConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmLoadBalancerBackendAddressPoolConfig.md)
 
 

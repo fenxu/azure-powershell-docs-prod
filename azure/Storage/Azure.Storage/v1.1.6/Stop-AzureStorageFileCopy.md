@@ -260,12 +260,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageFile](./Get-AzureStorageFile.md)
+[Get-AzureStorageFile](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageFile.md)
 
-[Get-AzureStorageFileCopyState](./Get-AzureStorageFileCopyState.md)
+[Get-AzureStorageFileCopyState](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageFileCopyState.md)
 
-[New-AzureStorageContext](./New-AzureStorageContext.md)
+[New-AzureStorageContext](xref:Storage/Azure.Storage/v1.1.6/New-AzureStorageContext.md)
 
-[Start-AzureStorageFileCopy](./Start-AzureStorageFileCopy.md)
+[Start-AzureStorageFileCopy](xref:Storage/Azure.Storage/v1.1.6/Start-AzureStorageFileCopy.md)
 
 

@@ -119,8 +119,8 @@ This cmdlet returns a list of **VolumeContainer** groups.
 
 ## RELATED LINKS
 
-[Start-AzureStorSimpleDeviceFailoverJob](./Start-AzureStorSimpleDeviceFailoverJob.md)
+[Start-AzureStorSimpleDeviceFailoverJob](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Start-AzureStorSimpleDeviceFailoverJob.md)
 
-[Get-AzureStorSimpleDeviceVolumeContainer](./Get-AzureStorSimpleDeviceVolumeContainer.md)
+[Get-AzureStorSimpleDeviceVolumeContainer](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleDeviceVolumeContainer.md)
 
 

@@ -91,6 +91,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppWorkspace](./Get-AzureRemoteAppWorkspace.md)
+[Get-AzureRemoteAppWorkspace](xref:ServiceManagement/Azure.RemoteApp/v0.9.8/Get-AzureRemoteAppWorkspace.md)
 
 

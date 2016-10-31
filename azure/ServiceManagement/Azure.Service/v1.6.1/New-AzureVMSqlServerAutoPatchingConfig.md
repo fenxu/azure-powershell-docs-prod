@@ -184,10 +184,10 @@ This cmdlet returns object contains settings for automated patching.
 
 ## RELATED LINKS
 
-[Set-AzureVMSqlServerExtension](./Set-AzureVMSqlServerExtension.md)
+[Set-AzureVMSqlServerExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMSqlServerExtension.md)
 
-[Remove-AzureVMSqlServerExtension](./Remove-AzureVMSqlServerExtension.md)
+[Remove-AzureVMSqlServerExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVMSqlServerExtension.md)
 
-[Set-AzureVMSqlServerExtension](./Set-AzureVMSqlServerExtension.md)
+[Set-AzureVMSqlServerExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMSqlServerExtension.md)
 
 

@@ -158,10 +158,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRole](./Get-AzureRole.md)
+[Get-AzureRole](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureRole.md)
 
-[Get-AzureService](./Get-AzureService.md)
+[Get-AzureService](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureService.md)
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVM.md)
 
 

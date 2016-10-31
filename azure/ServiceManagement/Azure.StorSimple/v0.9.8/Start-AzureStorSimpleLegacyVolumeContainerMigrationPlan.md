@@ -139,6 +139,6 @@ This cmdlet returns the status of the migration plan job if it has been successf
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleLegacyVolumeContainerMigrationPlan](./Get-AzureStorSimpleLegacyVolumeContainerMigrationPlan.md)
+[Get-AzureStorSimpleLegacyVolumeContainerMigrationPlan](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleLegacyVolumeContainerMigrationPlan.md)
 
 

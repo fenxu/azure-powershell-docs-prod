@@ -158,12 +158,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmHDInsightJob](./Get-AzureRmHDInsightJob.md)
+[Get-AzureRmHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightJob.md)
 
-[New-AzureRmHDInsightHiveJobDefinition](./New-AzureRmHDInsightHiveJobDefinition.md)
+[New-AzureRmHDInsightHiveJobDefinition](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightHiveJobDefinition.md)
 
-[Stop-AzureRmHDInsightJob](./Stop-AzureRmHDInsightJob.md)
+[Stop-AzureRmHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/Stop-AzureRmHDInsightJob.md)
 
-[Wait-AzureRmHDInsightJob](./Wait-AzureRmHDInsightJob.md)
+[Wait-AzureRmHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/Wait-AzureRmHDInsightJob.md)
 
 

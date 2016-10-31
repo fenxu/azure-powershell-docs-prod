@@ -318,18 +318,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureVMImage](./Add-AzureVMImage.md)
+[Add-AzureVMImage](xref:ServiceManagement/Azure.Service/v2.1.0/Add-AzureVMImage.md)
 
-[Get-AzureVMImage](./Get-AzureVMImage.md)
+[Get-AzureVMImage](xref:ServiceManagement/Azure.Service/v2.1.0/Get-AzureVMImage.md)
 
-[Remove-AzureVMImage](./Remove-AzureVMImage.md)
+[Remove-AzureVMImage](xref:ServiceManagement/Azure.Service/v2.1.0/Remove-AzureVMImage.md)
 
-[Save-AzureVMImage](./Save-AzureVMImage.md)
+[Save-AzureVMImage](xref:ServiceManagement/Azure.Service/v2.1.0/Save-AzureVMImage.md)
 
-[New-AzureVMImageDiskConfigSet](./New-AzureVMImageDiskConfigSet.md)
+[New-AzureVMImageDiskConfigSet](xref:ServiceManagement/Azure.Service/v2.1.0/New-AzureVMImageDiskConfigSet.md)
 
-[Set-AzureVMImageOSDiskConfig](./Set-AzureVMImageOSDiskConfig.md)
+[Set-AzureVMImageOSDiskConfig](xref:ServiceManagement/Azure.Service/v2.1.0/Set-AzureVMImageOSDiskConfig.md)
 
-[Set-AzureVMImageDataDiskConfig](./Set-AzureVMImageDataDiskConfig.md)
+[Set-AzureVMImageDataDiskConfig](xref:ServiceManagement/Azure.Service/v2.1.0/Set-AzureVMImageDataDiskConfig.md)
 
 

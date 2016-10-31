@@ -138,6 +138,6 @@ This cmdlet returns a URL.
 
 ## RELATED LINKS
 
-[Get-AzureRMCdnProfile](./Get-AzureRMCdnProfile.md)
+[Get-AzureRMCdnProfile](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Get-AzureRMCdnProfile.md)
 
 

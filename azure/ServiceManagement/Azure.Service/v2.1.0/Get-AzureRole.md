@@ -185,6 +185,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRole](./Set-AzureRole.md)
+[Set-AzureRole](xref:ServiceManagement/Azure.Service/v2.1.0/Set-AzureRole.md)
 
 

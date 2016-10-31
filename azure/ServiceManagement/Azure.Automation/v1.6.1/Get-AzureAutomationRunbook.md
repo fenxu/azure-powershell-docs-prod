@@ -110,14 +110,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureAutomationRunbook](./New-AzureAutomationRunbook.md)
+[New-AzureAutomationRunbook](xref:ServiceManagement/Azure.Automation/v1.6.1/New-AzureAutomationRunbook.md)
 
-[Publish-AzureAutomationRunbook](./Publish-AzureAutomationRunbook.md)
+[Publish-AzureAutomationRunbook](xref:ServiceManagement/Azure.Automation/v1.6.1/Publish-AzureAutomationRunbook.md)
 
-[Remove-AzureAutomationRunbook](./Remove-AzureAutomationRunbook.md)
+[Remove-AzureAutomationRunbook](xref:ServiceManagement/Azure.Automation/v1.6.1/Remove-AzureAutomationRunbook.md)
 
-[Set-AzureAutomationRunbook](./Set-AzureAutomationRunbook.md)
+[Set-AzureAutomationRunbook](xref:ServiceManagement/Azure.Automation/v1.6.1/Set-AzureAutomationRunbook.md)
 
-[Start-AzureAutomationRunbook](./Start-AzureAutomationRunbook.md)
+[Start-AzureAutomationRunbook](xref:ServiceManagement/Azure.Automation/v1.6.1/Start-AzureAutomationRunbook.md)
 
 

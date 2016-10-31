@@ -243,8 +243,8 @@ Output from Get-ACSFarm can be piped to this cmdlet.
 
 ## RELATED LINKS
 
-[Get-ACSEvent](./Get-ACSEvent.md)
+[Get-ACSEvent](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSEvent.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
 

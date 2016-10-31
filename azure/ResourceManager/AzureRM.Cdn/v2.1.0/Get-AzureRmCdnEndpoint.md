@@ -153,14 +153,14 @@ This cmdlet returns an endpoint object.
 
 ## RELATED LINKS
 
-[New-AzureRmCdnEndpoint](./New-AzureRmCdnEndpoint.md)
+[New-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v2.1.0/New-AzureRmCdnEndpoint.md)
 
-[Remove-AzureRmCdnEndpoint](./Remove-AzureRmCdnEndpoint.md)
+[Remove-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v2.1.0/Remove-AzureRmCdnEndpoint.md)
 
-[Set-AzureRmCdnEndpoint](./Set-AzureRmCdnEndpoint.md)
+[Set-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v2.1.0/Set-AzureRmCdnEndpoint.md)
 
-[Start-AzureRmCdnEndpoint](./Start-AzureRmCdnEndpoint.md)
+[Start-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v2.1.0/Start-AzureRmCdnEndpoint.md)
 
-[Stop-AzureRmCdnEndpoint](./Stop-AzureRmCdnEndpoint.md)
+[Stop-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v2.1.0/Stop-AzureRmCdnEndpoint.md)
 
 

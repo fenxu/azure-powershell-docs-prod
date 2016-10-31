@@ -133,6 +133,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationRunbookDefinition](./Get-AzureAutomationRunbookDefinition.md)
+[Get-AzureAutomationRunbookDefinition](xref:ServiceManagement/Azure.Automation/v0.9.8/Get-AzureAutomationRunbookDefinition.md)
 
 

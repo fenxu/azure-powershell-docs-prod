@@ -106,6 +106,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureRmRedisCacheDiagnostics](./Remove-AzureRmRedisCacheDiagnostics.md)
+[Remove-AzureRmRedisCacheDiagnostics](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Remove-AzureRmRedisCacheDiagnostics.md)
 
 

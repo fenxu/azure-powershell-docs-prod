@@ -181,6 +181,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureRmLogicApp](./Start-AzureRmLogicApp.md)
+[Start-AzureRmLogicApp](xref:ResourceManager/AzureRM.LogicApp/v1.0.8/Start-AzureRmLogicApp.md)
 
 

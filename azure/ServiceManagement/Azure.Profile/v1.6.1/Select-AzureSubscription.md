@@ -243,10 +243,10 @@ By default, it does not generate any output.
 
 ## RELATED LINKS
 
-[Get-AzureSubscription](./Get-AzureSubscription.md)
+[Get-AzureSubscription](xref:ServiceManagement/Azure.Profile/v1.6.1/Get-AzureSubscription.md)
 
-[Remove-AzureSubscription](./Remove-AzureSubscription.md)
+[Remove-AzureSubscription](xref:ServiceManagement/Azure.Profile/v1.6.1/Remove-AzureSubscription.md)
 
-[Set-AzureSubscription](./Set-AzureSubscription.md)
+[Set-AzureSubscription](xref:ServiceManagement/Azure.Profile/v1.6.1/Set-AzureSubscription.md)
 
 

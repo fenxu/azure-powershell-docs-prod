@@ -147,8 +147,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureKeyVaultCertificateOperation](./Get-AzureKeyVaultCertificateOperation.md)
+[Get-AzureKeyVaultCertificateOperation](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultCertificateOperation.md)
 
-[Stop-AzureKeyVaultCertificateOperation](./Stop-AzureKeyVaultCertificateOperation.md)
+[Stop-AzureKeyVaultCertificateOperation](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Stop-AzureKeyVaultCertificateOperation.md)
 
 

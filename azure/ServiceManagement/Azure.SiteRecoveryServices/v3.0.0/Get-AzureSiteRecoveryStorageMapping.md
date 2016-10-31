@@ -114,10 +114,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSiteRecoveryServer](./Get-AzureSiteRecoveryServer.md)
+[Get-AzureSiteRecoveryServer](xref:ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryServer.md)
 
-[New-AzureSiteRecoveryStorageMapping](./New-AzureSiteRecoveryStorageMapping.md)
+[New-AzureSiteRecoveryStorageMapping](xref:ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/New-AzureSiteRecoveryStorageMapping.md)
 
-[Remove-AzureSiteRecoveryStorageMapping](./Remove-AzureSiteRecoveryStorageMapping.md)
+[Remove-AzureSiteRecoveryStorageMapping](xref:ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Remove-AzureSiteRecoveryStorageMapping.md)
 
 

@@ -86,6 +86,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureVNetGatewayDefaultSite](./Set-AzureVNetGatewayDefaultSite.md)
+[Set-AzureVNetGatewayDefaultSite](xref:ServiceManagement/Azure.Networking/v2.1.0/Set-AzureVNetGatewayDefaultSite.md)
 
 

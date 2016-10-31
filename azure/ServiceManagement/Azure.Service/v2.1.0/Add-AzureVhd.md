@@ -203,6 +203,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Save-AzureVhd](./Save-AzureVhd.md)
+[Save-AzureVhd](xref:ServiceManagement/Azure.Service/v2.1.0/Save-AzureVhd.md)
 
 

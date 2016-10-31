@@ -137,10 +137,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVM](./Get-AzureRmVM.md)
+[Get-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVM.md)
 
-[Remove-AzureRmVMSqlServerExtension](./Remove-AzureRMVMSqlServerExtension.md)
+[Remove-AzureRmVMSqlServerExtension](xref:ResourceManager/AzureRM.Compute/v2.1.0/Remove-AzureRMVMSqlServerExtension.md)
 
-[Set-AzureRmVMSqlServerExtension](./Set-AzureRMVMSqlServerExtension.md)
+[Set-AzureRmVMSqlServerExtension](xref:ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRMVMSqlServerExtension.md)
 
 

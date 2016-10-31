@@ -71,8 +71,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureVM](./Export-AzureVM.md)
+[Export-AzureVM](xref:ServiceManagement/Azure.Service/v3.0.0/Export-AzureVM.md)
 
-[New-AzureVM](./New-AzureVM.md)
+[New-AzureVM](xref:ServiceManagement/Azure.Service/v3.0.0/New-AzureVM.md)
 
 

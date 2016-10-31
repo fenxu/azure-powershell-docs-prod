@@ -139,8 +139,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureWorkerRole](./Add-AzureWorkerRole.md)
+[Add-AzureWorkerRole](xref:ServiceManagement/Azure.Compute/v1.6.1/Add-AzureWorkerRole.md)
 
-[New-AzureRoleTemplate](./New-AzureRoleTemplate.md)
+[New-AzureRoleTemplate](xref:ServiceManagement/Azure.Compute/v1.6.1/New-AzureRoleTemplate.md)
 
 

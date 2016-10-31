@@ -97,12 +97,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmPublicIpAddress](./Get-AzureRmPublicIpAddress.md)
+[Get-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmPublicIpAddress.md)
 
-[Get-AzureRmPublicIpAddress](./Get-AzureRmPublicIpAddress.md)
+[Get-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmPublicIpAddress.md)
 
-[New-AzureRmPublicIpAddress](./New-AzureRmPublicIpAddress.md)
+[New-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmPublicIpAddress.md)
 
-[Remove-AzureRmPublicIpAddress](./Remove-AzureRmPublicIpAddress.md)
+[Remove-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmPublicIpAddress.md)
 
 

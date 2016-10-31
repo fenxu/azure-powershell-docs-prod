@@ -180,10 +180,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRMCdnProfile](./Get-AzureRMCdnProfile.md)
+[Get-AzureRMCdnProfile](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Get-AzureRMCdnProfile.md)
 
-[New-AzureRmCdnProfile](./New-AzureRmCdnProfile.md)
+[New-AzureRmCdnProfile](xref:ResourceManager/AzureRM.Cdn/v1.0.6/New-AzureRmCdnProfile.md)
 
-[Set-AzureRmCdnProfile](./Set-AzureRmCdnProfile.md)
+[Set-AzureRmCdnProfile](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Set-AzureRmCdnProfile.md)
 
 

@@ -126,14 +126,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVNetGateway](./Get-AzureVNetGateway.md)
+[Get-AzureVNetGateway](xref:ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVNetGateway.md)
 
-[Remove-AzureVNetGateway](./Remove-AzureVNetGateway.md)
+[Remove-AzureVNetGateway](xref:ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureVNetGateway.md)
 
-[Reset-AzureVNetGateway](./Reset-AzureVNetGateway.md)
+[Reset-AzureVNetGateway](xref:ServiceManagement/Azure.Networking/v3.0.0/Reset-AzureVNetGateway.md)
 
-[Resize-AzureVNetGateway](./Resize-AzureVNetGateway.md)
+[Resize-AzureVNetGateway](xref:ServiceManagement/Azure.Networking/v3.0.0/Resize-AzureVNetGateway.md)
 
-[Set-AzureVNetGatewayKey](./Set-AzureVNetGatewayKey.md)
+[Set-AzureVNetGatewayKey](xref:ServiceManagement/Azure.Networking/v3.0.0/Set-AzureVNetGatewayKey.md)
 
 

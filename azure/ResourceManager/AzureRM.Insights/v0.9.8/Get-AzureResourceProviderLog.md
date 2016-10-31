@@ -190,12 +190,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSubscriptionIdLog](./Get-AzureSubscriptionIdLog.md)
+[Get-AzureSubscriptionIdLog](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureSubscriptionIdLog.md)
 
-[Get-AzureCorrelationIdLog](./Get-AzureCorrelationIdLog.md)
+[Get-AzureCorrelationIdLog](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureCorrelationIdLog.md)
 
-[Get-AzureResourceGroupLog](./Get-AzureResourceGroupLog.md)
+[Get-AzureResourceGroupLog](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureResourceGroupLog.md)
 
-[Get-AzureResourceLog](./Get-AzureResourceLog.md)
+[Get-AzureResourceLog](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureResourceLog.md)
 
 

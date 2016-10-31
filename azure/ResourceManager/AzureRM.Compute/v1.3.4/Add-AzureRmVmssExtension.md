@@ -231,14 +231,14 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Remove-AzureRmVmssExtension](./Remove-AzureRmVmssExtension.md)
+[Remove-AzureRmVmssExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVmssExtension.md)
 
-[Get-AzureRmVMImagePublisher](./Get-AzureRmVMImagePublisher.md)
+[Get-AzureRmVMImagePublisher](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMImagePublisher.md)
 
-[Get-AzureRmVMExtensionImageType](./Get-AzureRmVMExtensionImageType.md)
+[Get-AzureRmVMExtensionImageType](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImageType.md)
 
-[Get-AzureRmVMExtensionImage](./Get-AzureRmVMExtensionImage.md)
+[Get-AzureRmVMExtensionImage](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImage.md)
 
-[New-AzureRmVmssConfig](./New-AzureRmVmssConfig.md)
+[New-AzureRmVmssConfig](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssConfig.md)
 
 

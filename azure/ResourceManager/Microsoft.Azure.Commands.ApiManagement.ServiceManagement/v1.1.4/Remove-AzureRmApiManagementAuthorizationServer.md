@@ -174,10 +174,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmApiManagementAuthorizationServer](./Get-AzureRmApiManagementAuthorizationServer.md)
+[Get-AzureRmApiManagementAuthorizationServer](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementAuthorizationServer.md)
 
-[New-AzureRmApiManagementAuthorizationServer](./New-AzureRmApiManagementAuthorizationServer.md)
+[New-AzureRmApiManagementAuthorizationServer](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementAuthorizationServer.md)
 
-[Set-AzureRmApiManagementAuthorizationServer](./Set-AzureRmApiManagementAuthorizationServer.md)
+[Set-AzureRmApiManagementAuthorizationServer](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementAuthorizationServer.md)
 
 

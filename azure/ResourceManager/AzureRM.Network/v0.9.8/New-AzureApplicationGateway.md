@@ -334,24 +334,24 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureApplicationGatewayBackendAddressPool](./New-AzureApplicationGatewayBackendAddressPool.md)
+[New-AzureApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayBackendAddressPool.md)
 
-[New-AzureApplicationGatewayBackendHttpSettings](./New-AzureApplicationGatewayBackendHttpSettings.md)
+[New-AzureApplicationGatewayBackendHttpSettings](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayBackendHttpSettings.md)
 
-[New-AzureApplicationGatewayFrontendIPConfig](./New-AzureApplicationGatewayFrontendIPConfig.md)
+[New-AzureApplicationGatewayFrontendIPConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayFrontendIPConfig.md)
 
-[New-AzureApplicationGatewayFrontendPort](./New-AzureApplicationGatewayFrontendPort.md)
+[New-AzureApplicationGatewayFrontendPort](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayFrontendPort.md)
 
-[New-AzureApplicationGatewayHttpListener](./New-AzureApplicationGatewayHttpListener.md)
+[New-AzureApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayHttpListener.md)
 
-[New-AzureApplicationGatewayIPConfiguration](./New-AzureApplicationGatewayIPConfiguration.md)
+[New-AzureApplicationGatewayIPConfiguration](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayIPConfiguration.md)
 
-[New-AzureApplicationGatewayRequestRoutingRule](./New-AzureApplicationGatewayRequestRoutingRule.md)
+[New-AzureApplicationGatewayRequestRoutingRule](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayRequestRoutingRule.md)
 
-[New-AzureApplicationGatewaySku](./New-AzureApplicationGatewaySku.md)
+[New-AzureApplicationGatewaySku](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySku.md)
 
-[New-AzureVirtualNetwork](./New-AzureVirtualNetwork.md)
+[New-AzureVirtualNetwork](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetwork.md)
 
-[New-AzureVirtualNetworkSubnetConfig](./New-AzureVirtualNetworkSubnetConfig.md)
+[New-AzureVirtualNetworkSubnetConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkSubnetConfig.md)
 
 

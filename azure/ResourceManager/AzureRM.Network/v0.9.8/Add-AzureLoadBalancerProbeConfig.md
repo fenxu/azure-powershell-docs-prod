@@ -178,14 +178,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureLoadBalancerProbeConfig](./Get-AzureLoadBalancerProbeConfig.md)
+[Get-AzureLoadBalancerProbeConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerProbeConfig.md)
 
-[New-AzureLoadBalancerProbeConfig](./New-AzureLoadBalancerProbeConfig.md)
+[New-AzureLoadBalancerProbeConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerProbeConfig.md)
 
-[Remove-AzureLoadBalancerProbeConfig](./Remove-AzureLoadBalancerProbeConfig.md)
+[Remove-AzureLoadBalancerProbeConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerProbeConfig.md)
 
-[Set-AzureLoadBalancer](./Set-AzureLoadBalancer.md)
+[Set-AzureLoadBalancer](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancer.md)
 
-[Set-AzureLoadBalancerProbeConfig](./Set-AzureLoadBalancerProbeConfig.md)
+[Set-AzureLoadBalancerProbeConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancerProbeConfig.md)
 
 

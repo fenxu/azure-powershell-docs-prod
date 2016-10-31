@@ -115,6 +115,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys](./Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys.md)
+[Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys](xref:ResourceManager/AzureRM.PowerBIEmbedded/v2.1.0/Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys.md)
 
 

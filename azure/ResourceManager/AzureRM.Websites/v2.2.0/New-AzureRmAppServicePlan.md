@@ -199,10 +199,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAppServicePlan](./Get-AzureRmAppServicePlan.md)
+[Get-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRmAppServicePlan.md)
 
-[Remove-AzureRmAppServicePlan](./Remove-AzureRmAppServicePlan.md)
+[Remove-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/v2.2.0/Remove-AzureRmAppServicePlan.md)
 
-[Set-AzureRmAppServicePlan](./Set-AzureRmAppServicePlan.md)
+[Set-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/v2.2.0/Set-AzureRmAppServicePlan.md)
 
 

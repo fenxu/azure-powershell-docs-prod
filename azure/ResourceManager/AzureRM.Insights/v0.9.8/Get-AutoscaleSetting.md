@@ -123,10 +123,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AutoscaleSetting](./Add-AutoscaleSetting.md)
+[Add-AutoscaleSetting](xref:ResourceManager/AzureRM.Insights/v0.9.8/Add-AutoscaleSetting.md)
 
-[Get-AutoscaleHistory](./Get-AutoscaleHistory.md)
+[Get-AutoscaleHistory](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AutoscaleHistory.md)
 
-[Remove-AutoscaleSetting](./Remove-AutoscaleSetting.md)
+[Remove-AutoscaleSetting](xref:ResourceManager/AzureRM.Insights/v0.9.8/Remove-AutoscaleSetting.md)
 
 

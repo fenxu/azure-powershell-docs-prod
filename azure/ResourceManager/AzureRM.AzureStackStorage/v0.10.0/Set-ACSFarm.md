@@ -269,8 +269,8 @@ Output from Get-ACSFarm can be piped to this cmdlet's input.
 
 ## RELATED LINKS
 
-[Add-ACSFarm](./Add-ACSFarm.md)
+[Add-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Add-ACSFarm.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
 

@@ -108,6 +108,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureOSDisk](./Get-AzureOSDisk.md)
+[Get-AzureOSDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureOSDisk.md)
 
 

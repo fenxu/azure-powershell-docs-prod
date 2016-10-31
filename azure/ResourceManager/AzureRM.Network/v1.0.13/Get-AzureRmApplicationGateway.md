@@ -132,6 +132,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Stop-AzureRmApplicationGateway](./Stop-AzureRmApplicationGateway.md)
+[Stop-AzureRmApplicationGateway](xref:ResourceManager/AzureRM.Network/v1.0.13/Stop-AzureRmApplicationGateway.md)
 
 

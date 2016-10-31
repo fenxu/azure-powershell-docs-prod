@@ -135,6 +135,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureSBNamespace](./Remove-AzureSBNamespace.md)
+[Remove-AzureSBNamespace](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-AzureSBNamespace.md)
 
 

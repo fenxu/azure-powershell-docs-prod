@@ -283,6 +283,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmLogicApp](./Get-AzureRmLogicApp.md)
+[Get-AzureRmLogicApp](xref:ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicApp.md)
 
 

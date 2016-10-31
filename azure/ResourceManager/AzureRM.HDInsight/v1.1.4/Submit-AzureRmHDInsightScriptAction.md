@@ -213,6 +213,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmHDInsightScriptAction](./Add-AzureRmHDInsightScriptAction.md)
+[Add-AzureRmHDInsightScriptAction](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightScriptAction.md)
 
 

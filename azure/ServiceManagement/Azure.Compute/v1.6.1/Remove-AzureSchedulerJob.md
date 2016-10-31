@@ -145,6 +145,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSchedulerJob](./Get-AzureSchedulerJob.md)
+[Get-AzureSchedulerJob](xref:ServiceManagement/Azure.Compute/v1.6.1/Get-AzureSchedulerJob.md)
 
 

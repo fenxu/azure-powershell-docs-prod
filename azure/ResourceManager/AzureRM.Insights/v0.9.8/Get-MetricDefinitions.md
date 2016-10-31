@@ -217,6 +217,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-Metrics](./Get-Metrics.md)
+[Get-Metrics](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-Metrics.md)
 
 

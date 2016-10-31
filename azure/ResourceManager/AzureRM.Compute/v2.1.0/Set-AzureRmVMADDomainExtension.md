@@ -275,6 +275,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMADDomainExtension](./Get-AzureRmVMADDomainExtension.md)
+[Get-AzureRmVMADDomainExtension](xref:ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVMADDomainExtension.md)
 
 

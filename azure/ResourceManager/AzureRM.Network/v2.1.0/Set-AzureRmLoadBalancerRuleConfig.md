@@ -317,14 +317,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmLoadBalancerRuleConfig](./Add-AzureRmLoadBalancerRuleConfig.md)
+[Add-AzureRmLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmLoadBalancerRuleConfig.md)
 
-[Add-AzureRmLoadBalancerRuleConfig](./Add-AzureRmLoadBalancerRuleConfig.md)
+[Add-AzureRmLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmLoadBalancerRuleConfig.md)
 
-[Get-AzureRmLoadBalancerRuleConfig](./Get-AzureRmLoadBalancerRuleConfig.md)
+[Get-AzureRmLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmLoadBalancerRuleConfig.md)
 
-[New-AzureRmLoadBalancerRuleConfig](./New-AzureRmLoadBalancerRuleConfig.md)
+[New-AzureRmLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmLoadBalancerRuleConfig.md)
 
-[Remove-AzureRmLoadBalancerRuleConfig](./Remove-AzureRmLoadBalancerRuleConfig.md)
+[Remove-AzureRmLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmLoadBalancerRuleConfig.md)
 
 

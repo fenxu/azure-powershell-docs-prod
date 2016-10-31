@@ -132,8 +132,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVM.md)
 
-[Remove-AzureAvailabilitySet](./Remove-AzureAvailabilitySet.md)
+[Remove-AzureAvailabilitySet](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureAvailabilitySet.md)
 
 

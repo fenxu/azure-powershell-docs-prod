@@ -401,8 +401,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageFile](./Get-AzureStorageFile.md)
+[Get-AzureStorageFile](xref:Storage/Azure.Storage/v2.1.0/Get-AzureStorageFile.md)
 
-[Set-AzureStorageFileContent](./Set-AzureStorageFileContent.md)
+[Set-AzureStorageFileContent](xref:Storage/Azure.Storage/v2.1.0/Set-AzureStorageFileContent.md)
 
 

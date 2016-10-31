@@ -267,8 +267,8 @@ Output from Get-ACSFarm and Get-ACSBlobService can be piped to this cmdlet's inp
 
 ## RELATED LINKS
 
-[Get-ACSBlobService](./Get-ACSBlobService.md)
+[Get-ACSBlobService](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSBlobService.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
 

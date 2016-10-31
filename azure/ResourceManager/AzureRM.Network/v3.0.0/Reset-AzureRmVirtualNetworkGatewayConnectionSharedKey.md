@@ -134,8 +134,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVirtualNetworkGatewayConnectionSharedKey](./Get-AzureRmVirtualNetworkGatewayConnectionSharedKey.md)
+[Get-AzureRmVirtualNetworkGatewayConnectionSharedKey](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmVirtualNetworkGatewayConnectionSharedKey.md)
 
-[Set-AzureRmVirtualNetworkGatewayConnectionSharedKey](./Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md)
+[Set-AzureRmVirtualNetworkGatewayConnectionSharedKey](xref:ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md)
 
 

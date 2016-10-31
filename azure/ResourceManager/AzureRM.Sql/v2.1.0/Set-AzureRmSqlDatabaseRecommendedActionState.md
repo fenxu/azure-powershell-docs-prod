@@ -220,24 +220,24 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlServerAdvisor](./Get-AzureRmSqlServerAdvisor.md)
+[Get-AzureRmSqlServerAdvisor](xref:ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlServerAdvisor.md)
 
-[Get-AzureRmSqlElasticPoolAdvisor](./Get-AzureRmSqlElasticPoolAdvisor.md)
+[Get-AzureRmSqlElasticPoolAdvisor](xref:ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlElasticPoolAdvisor.md)
 
-[Get-AzureRmSqlServerRecommendedAction](./Get-AzureRmSqlServerRecommendedAction.md)
+[Get-AzureRmSqlServerRecommendedAction](xref:ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlServerRecommendedAction.md)
 
-[Get-AzureRmSqlElasticPoolRecommendedAction](./Get-AzureRmSqlElasticPoolRecommendedAction.md)
+[Get-AzureRmSqlElasticPoolRecommendedAction](xref:ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlElasticPoolRecommendedAction.md)
 
-[Set-AzureRmSqlElasticPoolRecommendedActionState](./Set-AzureRmSqlElasticPoolRecommendedActionState.md)
+[Set-AzureRmSqlElasticPoolRecommendedActionState](xref:ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlElasticPoolRecommendedActionState.md)
 
-[Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus](./Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus.md)
+[Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus](xref:ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus.md)
 
-[Set-AzureRmSqlElasticPoolRecommendedActionState](./Set-AzureRmSqlElasticPoolRecommendedActionState.md)
+[Set-AzureRmSqlElasticPoolRecommendedActionState](xref:ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlElasticPoolRecommendedActionState.md)
 
-[Set-AzureRmSqlServerRecommendedActionState](./Set-AzureRmSqlServerRecommendedActionState.md)
+[Set-AzureRmSqlServerRecommendedActionState](xref:ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlServerRecommendedActionState.md)
 
-[Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus](./Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus.md)
+[Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus](xref:ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus.md)
 
-[Set-AzureRmSqlServerAdvisorAutoExecuteStatus](./Set-AzureRmSqlServerAdvisorAutoExecuteStatus.md)
+[Set-AzureRmSqlServerAdvisorAutoExecuteStatus](xref:ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlServerAdvisorAutoExecuteStatus.md)
 
 

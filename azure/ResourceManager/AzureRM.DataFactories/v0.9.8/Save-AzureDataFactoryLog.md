@@ -196,16 +196,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureDataFactoryRun](./Get-AzureDataFactoryRun.md)
+[Get-AzureDataFactoryRun](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryRun.md)
 
-[Get-AzureDataFactoryPipeline](./Get-AzureDataFactoryPipeline.md)
+[Get-AzureDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryPipeline.md)
 
-[New-AzureDataFactoryPipeline](./New-AzureDataFactoryPipeline.md)
+[New-AzureDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/New-AzureDataFactoryPipeline.md)
 
-[Remove-AzureDataFactoryPipeline](./Remove-AzureDataFactoryPipeline.md)
+[Remove-AzureDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Remove-AzureDataFactoryPipeline.md)
 
-[Set-AzureDataFactoryPipelineActivePeriod](./Set-AzureDataFactoryPipelineActivePeriod.md)
+[Set-AzureDataFactoryPipelineActivePeriod](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Set-AzureDataFactoryPipelineActivePeriod.md)
 
-[Suspend-AzureDataFactoryPipeline](./Suspend-AzureDataFactoryPipeline.md)
+[Suspend-AzureDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Suspend-AzureDataFactoryPipeline.md)
 
 

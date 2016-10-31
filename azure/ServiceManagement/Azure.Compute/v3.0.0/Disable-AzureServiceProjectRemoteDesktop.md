@@ -87,6 +87,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureServiceProjectRemoteDesktop](./Enable-AzureServiceProjectRemoteDesktop.md)
+[Enable-AzureServiceProjectRemoteDesktop](xref:ServiceManagement/Azure.Compute/v3.0.0/Enable-AzureServiceProjectRemoteDesktop.md)
 
 

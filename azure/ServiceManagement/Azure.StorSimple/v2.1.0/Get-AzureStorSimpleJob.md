@@ -287,6 +287,6 @@ This cmdlet returns a list of job details objects, or, if you specify the *Insta
 
 ## RELATED LINKS
 
-[Stop-AzureStorSimpleJob](./Stop-AzureStorSimpleJob.md)
+[Stop-AzureStorSimpleJob](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Stop-AzureStorSimpleJob.md)
 
 

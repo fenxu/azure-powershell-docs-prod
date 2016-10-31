@@ -327,8 +327,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureSiteRecoveryProtectionProfileAssociationJob](./Start-AzureSiteRecoveryProtectionProfileAssociationJob.md)
+[Start-AzureSiteRecoveryProtectionProfileAssociationJob](xref:ServiceManagement/Azure.SiteRecovery/v1.6.1/Start-AzureSiteRecoveryProtectionProfileAssociationJob.md)
 
-[Start-AzureSiteRecoveryProtectionProfileDissociationJob](./Start-AzureSiteRecoveryProtectionProfileDissociationJob.md)
+[Start-AzureSiteRecoveryProtectionProfileDissociationJob](xref:ServiceManagement/Azure.SiteRecovery/v1.6.1/Start-AzureSiteRecoveryProtectionProfileDissociationJob.md)
 
 

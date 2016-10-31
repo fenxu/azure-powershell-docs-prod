@@ -345,8 +345,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureServiceDiagnosticsExtension](./Get-AzureServiceDiagnosticsExtension.md)
+[Get-AzureServiceDiagnosticsExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureServiceDiagnosticsExtension.md)
 
-[Remove-AzureServiceDiagnosticsExtension](./Remove-AzureServiceDiagnosticsExtension.md)
+[Remove-AzureServiceDiagnosticsExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureServiceDiagnosticsExtension.md)
 
 

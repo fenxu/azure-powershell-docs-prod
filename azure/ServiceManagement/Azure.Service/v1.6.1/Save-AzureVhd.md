@@ -200,6 +200,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureVhd](./Add-AzureVhd.md)
+[Add-AzureVhd](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureVhd.md)
 
 

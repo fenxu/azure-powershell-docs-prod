@@ -146,6 +146,6 @@ This cmdlet returns an iSCSI connection object that contains the following prope
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleAccessControlRecord](./Get-AzureStorSimpleAccessControlRecord.md)
+[Get-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleAccessControlRecord.md)
 
 

@@ -168,8 +168,8 @@ Otherwise, it does not return any output.
 
 ## RELATED LINKS
 
-[Add-AzureAccount](./Add-AzureAccount.md)
+[Add-AzureAccount](xref:ServiceManagement/Azure.Profile/v1.6.1/Add-AzureAccount.md)
 
-[Get-AzureAccount](./Get-AzureAccount.md)
+[Get-AzureAccount](xref:ServiceManagement/Azure.Profile/v1.6.1/Get-AzureAccount.md)
 
 

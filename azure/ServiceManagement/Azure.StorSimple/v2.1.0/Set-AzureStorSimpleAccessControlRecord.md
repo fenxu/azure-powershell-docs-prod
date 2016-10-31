@@ -157,10 +157,10 @@ If you do not specify that parameter, it returns a **TaskResponse** object.
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleAccessControlRecord](./Get-AzureStorSimpleAccessControlRecord.md)
+[Get-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleAccessControlRecord.md)
 
-[New-AzureStorSimpleAccessControlRecord](./New-AzureStorSimpleAccessControlRecord.md)
+[New-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleAccessControlRecord.md)
 
-[Remove-AzureStorSimpleAccessControlRecord](./Remove-AzureStorSimpleAccessControlRecord.md)
+[Remove-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Remove-AzureStorSimpleAccessControlRecord.md)
 
 

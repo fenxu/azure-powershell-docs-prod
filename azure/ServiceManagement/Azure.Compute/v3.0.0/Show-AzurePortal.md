@@ -118,6 +118,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Show-AzureWebsite](./Show-AzureWebsite.md)
+[Show-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Show-AzureWebsite.md)
 
 

@@ -99,10 +99,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureReservedIP](./Get-AzureReservedIP.md)
+[Get-AzureReservedIP](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureReservedIP.md)
 
-[New-AzureReservedIP](./New-AzureReservedIP.md)
+[New-AzureReservedIP](xref:ServiceManagement/Azure.Service/v0.9.8/New-AzureReservedIP.md)
 
-[Set-AzureReservedIPAssociation](./Set-AzureReservedIPAssociation.md)
+[Set-AzureReservedIPAssociation](xref:ServiceManagement/Azure.Service/v0.9.8/Set-AzureReservedIPAssociation.md)
 
 

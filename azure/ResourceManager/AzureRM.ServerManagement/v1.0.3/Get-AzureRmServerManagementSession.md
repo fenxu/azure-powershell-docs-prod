@@ -183,6 +183,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Azure Server Management Cmdlets](./AzureRM.ServerManagement.md)
+[Azure Server Management Cmdlets](xref:ResourceManager/AzureRM.ServerManagement/v1.0.3/AzureRM.ServerManagement.md)
 
 

@@ -231,8 +231,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureNetworkSecurityGroupAssociation](./Remove-AzureNetworkSecurityGroupAssociation.md)
+[Remove-AzureNetworkSecurityGroupAssociation](xref:ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureNetworkSecurityGroupAssociation.md)
 
-[Set-AzureNetworkSecurityGroupAssociation](./Set-AzureNetworkSecurityGroupAssociation.md)
+[Set-AzureNetworkSecurityGroupAssociation](xref:ServiceManagement/Azure.Networking/v3.0.0/Set-AzureNetworkSecurityGroupAssociation.md)
 
 

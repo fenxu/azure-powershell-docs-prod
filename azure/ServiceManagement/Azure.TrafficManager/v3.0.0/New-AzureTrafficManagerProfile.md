@@ -220,14 +220,14 @@ This cmdlet generates a Traffic Manager profile object.
 
 ## RELATED LINKS
 
-[Disable-AzureTrafficManagerProfile](./Disable-AzureTrafficManagerProfile.md)
+[Disable-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Disable-AzureTrafficManagerProfile.md)
 
-[Enable-AzureTrafficManagerProfile](./Enable-AzureTrafficManagerProfile.md)
+[Enable-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Enable-AzureTrafficManagerProfile.md)
 
-[Get-AzureTrafficManagerProfile](./Get-AzureTrafficManagerProfile.md)
+[Get-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Get-AzureTrafficManagerProfile.md)
 
-[Remove-AzureTrafficManagerProfile](./Remove-AzureTrafficManagerProfile.md)
+[Remove-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Remove-AzureTrafficManagerProfile.md)
 
-[Set-AzureTrafficManagerProfile](./Set-AzureTrafficManagerProfile.md)
+[Set-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Set-AzureTrafficManagerProfile.md)
 
 

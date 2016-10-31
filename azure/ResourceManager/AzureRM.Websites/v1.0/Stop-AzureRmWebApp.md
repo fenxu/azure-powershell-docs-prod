@@ -104,14 +104,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)
+[Get-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebApp.md)
 
-[New-AzureRmWebApp](./New-AzureRmWebApp.md)
+[New-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v1.0/New-AzureRmWebApp.md)
 
-[Remove-AzureRmWebApp](./Remove-AzureRmWebApp.md)
+[Remove-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v1.0/Remove-AzureRmWebApp.md)
 
-[Restart-AzureRmWebApp](./Restart-AzureRmWebApp.md)
+[Restart-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v1.0/Restart-AzureRmWebApp.md)
 
-[Start-AzureRmWebApp](./Start-AzureRmWebApp.md)
+[Start-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v1.0/Start-AzureRmWebApp.md)
 
 

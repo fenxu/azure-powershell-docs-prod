@@ -147,10 +147,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmDataLakeStoreItemAclEntry](./Get-AzureRmDataLakeStoreItemAclEntry.md)
+[Get-AzureRmDataLakeStoreItemAclEntry](xref:ResourceManager/AzureRM.DataLakeStore/v3.0.0/Get-AzureRmDataLakeStoreItemAclEntry.md)
 
-[Set-AzureRmDataLakeStoreItemAcl](./Set-AzureRmDataLakeStoreItemAcl.md)
+[Set-AzureRmDataLakeStoreItemAcl](xref:ResourceManager/AzureRM.DataLakeStore/v3.0.0/Set-AzureRmDataLakeStoreItemAcl.md)
 
-[Set-AzureRmDataLakeStoreItemAclEntry](./Set-AzureRmDataLakeStoreItemAclEntry.md)
+[Set-AzureRmDataLakeStoreItemAclEntry](xref:ResourceManager/AzureRM.DataLakeStore/v3.0.0/Set-AzureRmDataLakeStoreItemAclEntry.md)
 
 

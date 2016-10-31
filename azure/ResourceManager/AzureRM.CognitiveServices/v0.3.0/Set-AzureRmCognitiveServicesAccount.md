@@ -198,10 +198,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmCognitiveServicesAccount](./Get-AzureRmCognitiveServicesAccount.md)
+[Get-AzureRmCognitiveServicesAccount](xref:ResourceManager/AzureRM.CognitiveServices/v0.3.0/Get-AzureRmCognitiveServicesAccount.md)
 
-[New-AzureRmCognitiveServicesAccount](./New-AzureRmCognitiveServicesAccount.md)
+[New-AzureRmCognitiveServicesAccount](xref:ResourceManager/AzureRM.CognitiveServices/v0.3.0/New-AzureRmCognitiveServicesAccount.md)
 
-[Remove-AzureRmCognitiveServicesAccount](./Remove-AzureRmCognitiveServicesAccount.md)
+[Remove-AzureRmCognitiveServicesAccount](xref:ResourceManager/AzureRM.CognitiveServices/v0.3.0/Remove-AzureRmCognitiveServicesAccount.md)
 
 

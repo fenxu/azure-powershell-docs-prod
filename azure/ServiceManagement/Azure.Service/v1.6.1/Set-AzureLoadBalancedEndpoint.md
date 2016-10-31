@@ -404,8 +404,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureVirtualIP](./Add-AzureVirtualIP.md)
+[Add-AzureVirtualIP](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureVirtualIP.md)
 
-[Set-AzureInternalLoadBalancer](./Set-AzureInternalLoadBalancer.md)
+[Set-AzureInternalLoadBalancer](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureInternalLoadBalancer.md)
 
 

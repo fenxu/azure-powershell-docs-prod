@@ -117,8 +117,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRemoteAppUser](./Add-AzureRemoteAppUser.md)
+[Add-AzureRemoteAppUser](xref:ServiceManagement/Azure.RemoteApp/v0.9.8/Add-AzureRemoteAppUser.md)
 
-[Get-AzureRemoteAppUser](./Get-AzureRemoteAppUser.md)
+[Get-AzureRemoteAppUser](xref:ServiceManagement/Azure.RemoteApp/v0.9.8/Get-AzureRemoteAppUser.md)
 
 

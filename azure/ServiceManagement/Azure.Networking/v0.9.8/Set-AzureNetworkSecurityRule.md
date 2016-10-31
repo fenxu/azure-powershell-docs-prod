@@ -237,6 +237,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureNetworkSecurityRule](./Remove-AzureNetworkSecurityRule.md)
+[Remove-AzureNetworkSecurityRule](xref:ServiceManagement/Azure.Networking/v0.9.8/Remove-AzureNetworkSecurityRule.md)
 
 

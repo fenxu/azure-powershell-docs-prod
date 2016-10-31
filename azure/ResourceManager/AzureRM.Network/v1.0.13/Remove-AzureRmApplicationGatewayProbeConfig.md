@@ -116,12 +116,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Remove a probe from an existing application gateway](https://azure.microsoft.com/en-us/documentation/articles/application-gateway-create-probe-ps/#remove-a-probe-from-an-existing-application-gateway)
 
-[Add-AzureRmApplicationGatewayProbeConfig](./Add-AzureRmApplicationGatewayProbeConfig.md)
+[Add-AzureRmApplicationGatewayProbeConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayProbeConfig.md)
 
-[Get-AzureRmApplicationGatewayProbeConfig](./Get-AzureRmApplicationGatewayProbeConfig.md)
+[Get-AzureRmApplicationGatewayProbeConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmApplicationGatewayProbeConfig.md)
 
-[New-AzureRmApplicationGatewayProbeConfig](./New-AzureRmApplicationGatewayProbeConfig.md)
+[New-AzureRmApplicationGatewayProbeConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmApplicationGatewayProbeConfig.md)
 
-[Set-AzureRmApplicationGatewayProbeConfig](./Set-AzureRmApplicationGatewayProbeConfig.md)
+[Set-AzureRmApplicationGatewayProbeConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmApplicationGatewayProbeConfig.md)
 
 

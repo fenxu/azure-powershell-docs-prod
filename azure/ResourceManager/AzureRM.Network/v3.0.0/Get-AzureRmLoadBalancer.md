@@ -130,10 +130,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmLoadBalancer](./New-AzureRmLoadBalancer.md)
+[New-AzureRmLoadBalancer](xref:ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmLoadBalancer.md)
 
-[Remove-AzureRmLoadBalancer](./Remove-AzureRmLoadBalancer.md)
+[Remove-AzureRmLoadBalancer](xref:ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmLoadBalancer.md)
 
-[Set-AzureRmLoadBalancer](./Set-AzureRmLoadBalancer.md)
+[Set-AzureRmLoadBalancer](xref:ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmLoadBalancer.md)
 
 

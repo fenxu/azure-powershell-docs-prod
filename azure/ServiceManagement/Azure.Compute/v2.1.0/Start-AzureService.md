@@ -117,10 +117,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Publish-AzureServiceProject](./Publish-AzureServiceProject.md)
+[Publish-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v2.1.0/Publish-AzureServiceProject.md)
 
-[Remove-AzureService](./Remove-AzureService.md)
+[Remove-AzureService](xref:ServiceManagement/Azure.Compute/v2.1.0/Remove-AzureService.md)
 
-[Stop-AzureService](./Stop-AzureService.md)
+[Stop-AzureService](xref:ServiceManagement/Azure.Compute/v2.1.0/Stop-AzureService.md)
 
 

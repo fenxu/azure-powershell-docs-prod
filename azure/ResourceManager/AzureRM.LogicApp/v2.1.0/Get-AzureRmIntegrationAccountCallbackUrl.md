@@ -140,6 +140,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmLogicAppTriggerCallbackUrl](./Get-AzureRmLogicAppTriggerCallbackUrl.md)
+[Get-AzureRmLogicAppTriggerCallbackUrl](xref:ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppTriggerCallbackUrl.md)
 
 

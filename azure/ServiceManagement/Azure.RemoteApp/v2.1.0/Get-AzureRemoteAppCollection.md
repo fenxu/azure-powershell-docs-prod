@@ -99,12 +99,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRemoteAppCollection](./New-AzureRemoteAppCollection.md)
+[New-AzureRemoteAppCollection](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/New-AzureRemoteAppCollection.md)
 
-[Remove-AzureRemoteAppCollection](./Remove-AzureRemoteAppCollection.md)
+[Remove-AzureRemoteAppCollection](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/Remove-AzureRemoteAppCollection.md)
 
-[Set-AzureRemoteAppCollection](./Set-AzureRemoteAppCollection.md)
+[Set-AzureRemoteAppCollection](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/Set-AzureRemoteAppCollection.md)
 
-[Update-AzureRemoteAppCollection](./Update-AzureRemoteAppCollection.md)
+[Update-AzureRemoteAppCollection](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/Update-AzureRemoteAppCollection.md)
 
 

@@ -276,8 +276,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ACSBlobService](./Get-ACSBlobService.md)
+[Get-ACSBlobService](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSBlobService.md)
 
-[Get-ACSBlobServiceMetricDefinition](./Get-ACSBlobServiceMetricDefinition.md)
+[Get-ACSBlobServiceMetricDefinition](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSBlobServiceMetricDefinition.md)
 
 

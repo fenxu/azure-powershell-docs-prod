@@ -101,8 +101,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureServiceADDomainExtension](./Remove-AzureServiceADDomainExtension.md)
+[Remove-AzureServiceADDomainExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Remove-AzureServiceADDomainExtension.md)
 
-[Set-AzureServiceADDomainExtension](./Set-AzureServiceADDomainExtension.md)
+[Set-AzureServiceADDomainExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Set-AzureServiceADDomainExtension.md)
 
 

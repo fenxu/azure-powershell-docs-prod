@@ -180,10 +180,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureApiManagementRegion](./Remove-AzureApiManagementRegion.md)
+[Remove-AzureApiManagementRegion](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Remove-AzureApiManagementRegion.md)
 
-[Update-AzureApiManagementRegion](./Update-AzureApiManagementRegion.md)
+[Update-AzureApiManagementRegion](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Update-AzureApiManagementRegion.md)
 
-[Update-AzureApiManagementDeployment](./Update-AzureApiManagementDeployment.md)
+[Update-AzureApiManagementDeployment](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Update-AzureApiManagementDeployment.md)
 
 

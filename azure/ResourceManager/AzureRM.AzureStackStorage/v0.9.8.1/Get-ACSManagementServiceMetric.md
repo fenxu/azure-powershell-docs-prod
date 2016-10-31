@@ -276,8 +276,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ACSManagementService](./Get-ACSManagementService.md)
+[Get-ACSManagementService](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSManagementService.md)
 
-[Get-ACSManagementServiceMetricDefinition](./Get-ACSManagementServiceMetricDefinition.md)
+[Get-ACSManagementServiceMetricDefinition](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSManagementServiceMetricDefinition.md)
 
 

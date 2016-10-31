@@ -143,6 +143,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Azure Operational Insights Cmdlets](./AzureRM.OperationalInsights.md)
+[Azure Operational Insights Cmdlets](xref:ResourceManager/AzureRM.OperationalInsights/v2.1.0/AzureRM.OperationalInsights.md)
 
 

@@ -147,10 +147,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmVpnClientRootCertificate](./Add-AzureRmVpnClientRootCertificate.md)
+[Add-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmVpnClientRootCertificate.md)
 
-[New-AzureRmVpnClientRootCertificate](./New-AzureRmVpnClientRootCertificate.md)
+[New-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmVpnClientRootCertificate.md)
 
-[Remove-AzureRmVpnClientRootCertificate](./Remove-AzureRmVpnClientRootCertificate.md)
+[Remove-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmVpnClientRootCertificate.md)
 
 

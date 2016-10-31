@@ -245,10 +245,10 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Get-AzureDnsRecordSet](./Get-AzureDnsRecordSet.md)
+[Get-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/Get-AzureDnsRecordSet.md)
 
-[New-AzureDnsRecordSet](./New-AzureDnsRecordSet.md)
+[New-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/New-AzureDnsRecordSet.md)
 
-[Set-AzureDnsRecordSet](./Set-AzureDnsRecordSet.md)
+[Set-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/Set-AzureDnsRecordSet.md)
 
 

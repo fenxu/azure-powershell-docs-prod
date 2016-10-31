@@ -100,16 +100,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Show-AzurePortal](./Show-AzurePortal.md)
+[Show-AzurePortal](xref:ServiceManagement/Azure.Compute/v3.0.0/Show-AzurePortal.md)
 
-[Get-AzureWebsite](./Get-AzureWebsite.md)
+[Get-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsite.md)
 
-[New-AzureWebsite](./New-AzureWebsite.md)
+[New-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/New-AzureWebsite.md)
 
-[Remove-AzureWebsite](./Remove-AzureWebsite.md)
+[Remove-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-AzureWebsite.md)
 
-[Restart-AzureWebsite](./Restart-AzureWebsite.md)
+[Restart-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Restart-AzureWebsite.md)
 
-[Set-AzureWebsite](./Set-AzureWebsite.md)
+[Set-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Set-AzureWebsite.md)
 
 

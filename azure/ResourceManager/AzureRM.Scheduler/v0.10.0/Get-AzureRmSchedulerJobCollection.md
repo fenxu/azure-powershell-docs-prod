@@ -111,13 +111,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureRmSchedulerJobCollection](./Disable-AzureRmSchedulerJobCollection.md)
+[Disable-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/Disable-AzureRmSchedulerJobCollection.md)
 
-[Enable-AzureRmSchedulerJobCollection](./Enable-AzureRmSchedulerJobCollection.md)
+[Enable-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/Enable-AzureRmSchedulerJobCollection.md)
 
-[New-AzureRmSchedulerJobCollection](./New-AzureRmSchedulerJobCollection.md)
+[New-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerJobCollection.md)
 
-[Remove-AzureRmSchedulerJobCollection](./Remove-AzureRmSchedulerJobCollection.md)
+[Remove-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/Remove-AzureRmSchedulerJobCollection.md)
 
-[Set-AzureRmSchedulerJobCollection](./Set-AzureRmSchedulerJobCollection.md)
+[Set-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/Set-AzureRmSchedulerJobCollection.md)
 

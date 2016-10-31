@@ -282,18 +282,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureBatchComputeNode](./Get-AzureBatchComputeNode.md)
+[Get-AzureBatchComputeNode](xref:ResourceManager/AzureRM.Batch/v2.1.0/Get-AzureBatchComputeNode.md)
 
-[Get-AzureBatchNodeFile](./Get-AzureBatchNodeFile.md)
+[Get-AzureBatchNodeFile](xref:ResourceManager/AzureRM.Batch/v2.1.0/Get-AzureBatchNodeFile.md)
 
-[Get-AzureBatchNodeFileContent](./Get-AzureBatchNodeFileContent.md)
+[Get-AzureBatchNodeFileContent](xref:ResourceManager/AzureRM.Batch/v2.1.0/Get-AzureBatchNodeFileContent.md)
 
-[Get-AzureBatchPool](./Get-AzureBatchPool.md)
+[Get-AzureBatchPool](xref:ResourceManager/AzureRM.Batch/v2.1.0/Get-AzureBatchPool.md)
 
-[Reset-AzureBatchComputeNode](./Reset-AzureBatchComputeNode.md)
+[Reset-AzureBatchComputeNode](xref:ResourceManager/AzureRM.Batch/v2.1.0/Reset-AzureBatchComputeNode.md)
 
-[Restart-AzureBatchComputeNode](./Restart-AzureBatchComputeNode.md)
+[Restart-AzureBatchComputeNode](xref:ResourceManager/AzureRM.Batch/v2.1.0/Restart-AzureBatchComputeNode.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v2.1.0/AzureRM.Batch.md)
 
 

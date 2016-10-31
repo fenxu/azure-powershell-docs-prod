@@ -102,8 +102,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmServerManagementNode](./New-AzureRmServerManagementNode.md)
+[New-AzureRmServerManagementNode](xref:ResourceManager/AzureRM.ServerManagement/v2.2.0/New-AzureRmServerManagementNode.md)
 
-[Remove-AzureRmServerManagementNode](./Remove-AzureRmServerManagementNode.md)
+[Remove-AzureRmServerManagementNode](xref:ResourceManager/AzureRM.ServerManagement/v2.2.0/Remove-AzureRmServerManagementNode.md)
 
 

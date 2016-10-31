@@ -174,16 +174,16 @@ The cmdlet returns resource group deployments.
 
 ## RELATED LINKS
 
-[Get-AzureRmResourceGroup](./Get-AzureRmResourceGroup.md)
+[Get-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmResourceGroup.md)
 
-[New-AzureRmResourceGroup](./New-AzureRmResourceGroup.md)
+[New-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroup.md)
 
-[New-AzureRmResourceGroupDeployment](./New-AzureRmResourceGroupDeployment.md)
+[New-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroupDeployment.md)
 
-[Remove-AzureRmResourceGroupDeployment](./Remove-AzureRmResourceGroupDeployment.md)
+[Remove-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.2.0/Remove-AzureRmResourceGroupDeployment.md)
 
-[Stop-AzureRmResourceGroupDeployment](./Stop-AzureRmResourceGroupDeployment.md)
+[Stop-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.2.0/Stop-AzureRmResourceGroupDeployment.md)
 
-[Test-AzureRmResourceGroupDeployment](./Test-AzureRmResourceGroupDeployment.md)
+[Test-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.2.0/Test-AzureRmResourceGroupDeployment.md)
 
 

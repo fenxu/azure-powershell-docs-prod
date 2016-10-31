@@ -140,8 +140,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmPowerBIWorkspaceCollection](./New-AzureRmPowerBIWorkspaceCollection.md)
+[New-AzureRmPowerBIWorkspaceCollection](xref:ResourceManager/AzureRM.PowerBIEmbedded/v1.0.1/New-AzureRmPowerBIWorkspaceCollection.md)
 
-[Remove-AzureRmPowerBIWorkspaceCollection](./Remove-AzureRmPowerBIWorkspaceCollection.md)
+[Remove-AzureRmPowerBIWorkspaceCollection](xref:ResourceManager/AzureRM.PowerBIEmbedded/v1.0.1/Remove-AzureRmPowerBIWorkspaceCollection.md)
 
 

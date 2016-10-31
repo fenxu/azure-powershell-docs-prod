@@ -119,10 +119,10 @@ If the zone name is not specified, an array of zone objects is returned.
 
 ## RELATED LINKS
 
-[New-AzureRmDnsZone](./New-AzureRmDnsZone.md)
+[New-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v1.0.12/New-AzureRmDnsZone.md)
 
-[Remove-AzureRmDnsZone](./Remove-AzureRmDnsZone.md)
+[Remove-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v1.0.12/Remove-AzureRmDnsZone.md)
 
-[Set-AzureRmDnsZone](./Set-AzureRmDnsZone.md)
+[Set-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v1.0.12/Set-AzureRmDnsZone.md)
 
 

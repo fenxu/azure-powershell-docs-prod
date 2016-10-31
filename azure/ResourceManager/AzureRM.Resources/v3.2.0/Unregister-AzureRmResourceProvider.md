@@ -129,8 +129,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmResourceProvider](./Get-AzureRmResourceProvider.md)
+[Get-AzureRmResourceProvider](xref:ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmResourceProvider.md)
 
-[Register-AzureRmResourceProvider](./Register-AzureRmResourceProvider.md)
+[Register-AzureRmResourceProvider](xref:ResourceManager/AzureRM.Resources/v3.2.0/Register-AzureRmResourceProvider.md)
 
 

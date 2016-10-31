@@ -170,8 +170,8 @@ Output from Get-ACSFarm can be piped to this cmdlet.
 
 ## RELATED LINKS
 
-[Get-ACSShareMetric](./Get-ACSShareMetric.md)
+[Get-ACSShareMetric](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShareMetric.md)
 
-[Get-ACSShareMetricDefinition](./Get-ACSShareMetricDefinition.md)
+[Get-ACSShareMetricDefinition](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShareMetricDefinition.md)
 
 

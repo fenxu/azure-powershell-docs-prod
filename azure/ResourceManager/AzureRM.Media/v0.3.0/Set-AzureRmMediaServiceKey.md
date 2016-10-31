@@ -139,6 +139,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmMediaServiceKeys](./Get-AzureRmMediaServiceKeys.md)
+[Get-AzureRmMediaServiceKeys](xref:ResourceManager/AzureRM.Media/v0.3.0/Get-AzureRmMediaServiceKeys.md)
 
 

@@ -161,9 +161,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmMediaService](./Get-AzureRmMediaService.md)
+[Get-AzureRmMediaService](xref:ResourceManager/AzureRM.Media/v0.2.0/Get-AzureRmMediaService.md)
 
-[New-AzureRmMediaService](./New-AzureRmMediaService.md)
+[New-AzureRmMediaService](xref:ResourceManager/AzureRM.Media/v0.2.0/New-AzureRmMediaService.md)
 
-[Set-AzureRmMediaService](./Set-AzureRmMediaService.md)
+[Set-AzureRmMediaService](xref:ResourceManager/AzureRM.Media/v0.2.0/Set-AzureRmMediaService.md)
 

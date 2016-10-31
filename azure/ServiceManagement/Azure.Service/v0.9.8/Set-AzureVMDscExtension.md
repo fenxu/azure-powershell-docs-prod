@@ -350,14 +350,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMDscExtension](./Get-AzureVMDscExtension.md)
+[Get-AzureVMDscExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureVMDscExtension.md)
 
-[Remove-AzureVMDscExtension](./Remove-AzureVMDscExtension.md)
+[Remove-AzureVMDscExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMDscExtension.md)
 
-[Remove-AzureVMDscExtension](./Remove-AzureVMDscExtension.md)
+[Remove-AzureVMDscExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMDscExtension.md)
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureVM.md)
 
-[Publish-AzureVMDscConfiguration](./Publish-AzureVMDscConfiguration.md)
+[Publish-AzureVMDscConfiguration](xref:ServiceManagement/Azure.Service/v0.9.8/Publish-AzureVMDscConfiguration.md)
 
 

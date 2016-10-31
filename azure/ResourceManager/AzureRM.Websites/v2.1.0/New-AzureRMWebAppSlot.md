@@ -201,20 +201,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRMWebAppSlot](./Get-AzureRMWebAppSlot.md)
+[Get-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRMWebAppSlot.md)
 
-[Remove-AzureRMWebAppSlot](./Remove-AzureRMWebAppSlot.md)
+[Remove-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.1.0/Remove-AzureRMWebAppSlot.md)
 
-[Restart-AzureRMWebAppSlot](./Restart-AzureRMWebAppSlot.md)
+[Restart-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.1.0/Restart-AzureRMWebAppSlot.md)
 
-[Set-AzureRMWebAppSlot](./Set-AzureRMWebAppSlot.md)
+[Set-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.1.0/Set-AzureRMWebAppSlot.md)
 
-[Start-AzureRMWebAppSlot](./Start-AzureRMWebAppSlot.md)
+[Start-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.1.0/Start-AzureRMWebAppSlot.md)
 
-[Stop-AzureRMWebAppSlot](./Stop-AzureRMWebAppSlot.md)
+[Stop-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.1.0/Stop-AzureRMWebAppSlot.md)
 
-[Get-AzureRmAppServicePlan](./Get-AzureRmAppServicePlan.md)
+[Get-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRmAppServicePlan.md)
 
-[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)
+[Get-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRmWebApp.md)
 
 

@@ -135,8 +135,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupJob](./Get-AzureRmBackupJob.md)
+[Get-AzureRmBackupJob](xref:ResourceManager/AzureRM.Backup/v2.1.0/Get-AzureRmBackupJob.md)
 
-[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v2.1.0/Get-AzureRmBackupVault.md)
 
 

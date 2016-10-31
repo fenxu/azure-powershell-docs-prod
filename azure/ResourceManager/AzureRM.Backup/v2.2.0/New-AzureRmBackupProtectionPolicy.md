@@ -245,16 +245,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureRmBackupProtection](./Enable-AzureRmBackupProtection.md)
+[Enable-AzureRmBackupProtection](xref:ResourceManager/AzureRM.Backup/v2.2.0/Enable-AzureRmBackupProtection.md)
 
-[Get-AzureRmBackupProtectionPolicy](./Get-AzureRmBackupProtectionPolicy.md)
+[Get-AzureRmBackupProtectionPolicy](xref:ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupProtectionPolicy.md)
 
-[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupVault.md)
 
-[New-AzureRmBackupRetentionPolicyObject](./New-AzureRmBackupRetentionPolicyObject.md)
+[New-AzureRmBackupRetentionPolicyObject](xref:ResourceManager/AzureRM.Backup/v2.2.0/New-AzureRmBackupRetentionPolicyObject.md)
 
-[Remove-AzureRmBackupProtectionPolicy](./Remove-AzureRmBackupProtectionPolicy.md)
+[Remove-AzureRmBackupProtectionPolicy](xref:ResourceManager/AzureRM.Backup/v2.2.0/Remove-AzureRmBackupProtectionPolicy.md)
 
-[Set-AzureRmBackupProtectionPolicy](./Set-AzureRmBackupProtectionPolicy.md)
+[Set-AzureRmBackupProtectionPolicy](xref:ResourceManager/AzureRM.Backup/v2.2.0/Set-AzureRmBackupProtectionPolicy.md)
 
 

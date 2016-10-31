@@ -185,8 +185,8 @@ This cmdlet returns a **CloudType** object, which contains the following fields:
 
 ## RELATED LINKS
 
-[New-AzureStorSimpleStorageAccountCredential](./New-AzureStorSimpleStorageAccountCredential.md)
+[New-AzureStorSimpleStorageAccountCredential](xref:ServiceManagement/Azure.StorSimple/v3.0.0/New-AzureStorSimpleStorageAccountCredential.md)
 
-[New-AzureStorSimpleDeviceVolumeContainer](./New-AzureStorSimpleDeviceVolumeContainer.md)
+[New-AzureStorSimpleDeviceVolumeContainer](xref:ServiceManagement/Azure.StorSimple/v3.0.0/New-AzureStorSimpleDeviceVolumeContainer.md)
 
 

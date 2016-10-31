@@ -184,12 +184,12 @@ If you do not specify that parameter, it returns a **TaskResponse** object.
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleAccessControlRecord](./Get-AzureStorSimpleAccessControlRecord.md)
+[Get-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleAccessControlRecord.md)
 
-[New-AzureStorSimpleAccessControlRecord](./New-AzureStorSimpleAccessControlRecord.md)
+[New-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v0.9.8/New-AzureStorSimpleAccessControlRecord.md)
 
-[Set-AzureStorSimpleAccessControlRecord](./Set-AzureStorSimpleAccessControlRecord.md)
+[Set-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Set-AzureStorSimpleAccessControlRecord.md)
 
-[Get-AzureStorSimpleJob](./Get-AzureStorSimpleJob.md)
+[Get-AzureStorSimpleJob](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleJob.md)
 
 

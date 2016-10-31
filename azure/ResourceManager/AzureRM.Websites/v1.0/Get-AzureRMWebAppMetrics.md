@@ -187,6 +187,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmWebAppCertificate](./Get-AzureRmWebAppCertificate.md)
+[Get-AzureRmWebAppCertificate](xref:ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebAppCertificate.md)
 
 

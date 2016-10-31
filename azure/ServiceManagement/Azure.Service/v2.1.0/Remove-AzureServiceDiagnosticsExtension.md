@@ -178,8 +178,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureServiceDiagnosticsExtension](./Get-AzureServiceDiagnosticsExtension.md)
+[Get-AzureServiceDiagnosticsExtension](xref:ServiceManagement/Azure.Service/v2.1.0/Get-AzureServiceDiagnosticsExtension.md)
 
-[Set-AzureServiceDiagnosticsExtension](./Set-AzureServiceDiagnosticsExtension.md)
+[Set-AzureServiceDiagnosticsExtension](xref:ServiceManagement/Azure.Service/v2.1.0/Set-AzureServiceDiagnosticsExtension.md)
 
 

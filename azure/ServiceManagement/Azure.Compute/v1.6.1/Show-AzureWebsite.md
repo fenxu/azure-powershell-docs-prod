@@ -98,6 +98,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Show-AzurePortal](./Show-AzurePortal.md)
+[Show-AzurePortal](xref:ServiceManagement/Azure.Compute/v1.6.1/Show-AzurePortal.md)
 
 

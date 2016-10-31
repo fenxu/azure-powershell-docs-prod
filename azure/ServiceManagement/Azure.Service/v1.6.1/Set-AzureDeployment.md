@@ -344,16 +344,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureDeployment](./Get-AzureDeployment.md)
+[Get-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureDeployment.md)
 
-[Get-AzureDeploymentEvent](./Get-AzureDeploymentEvent.md)
+[Get-AzureDeploymentEvent](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureDeploymentEvent.md)
 
-[Move-AzureDeployment](./Move-AzureDeployment.md)
+[Move-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/Move-AzureDeployment.md)
 
-[New-AzureDeployment](./New-AzureDeployment.md)
+[New-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureDeployment.md)
 
-[Remove-AzureDeployment](./Remove-AzureDeployment.md)
+[Remove-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureDeployment.md)
 
-[Set-AzureWalkUpgradeDomain](./Set-AzureWalkUpgradeDomain.md)
+[Set-AzureWalkUpgradeDomain](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureWalkUpgradeDomain.md)
 
 

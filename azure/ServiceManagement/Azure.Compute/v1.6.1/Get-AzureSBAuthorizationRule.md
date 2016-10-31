@@ -173,10 +173,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSBAuthorizationRule](./New-AzureSBAuthorizationRule.md)
+[New-AzureSBAuthorizationRule](xref:ServiceManagement/Azure.Compute/v1.6.1/New-AzureSBAuthorizationRule.md)
 
-[Remove-AzureSBAuthorizationRule](./Remove-AzureSBAuthorizationRule.md)
+[Remove-AzureSBAuthorizationRule](xref:ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureSBAuthorizationRule.md)
 
-[Set-AzureSBAuthorizationRule](./Set-AzureSBAuthorizationRule.md)
+[Set-AzureSBAuthorizationRule](xref:ServiceManagement/Azure.Compute/v1.6.1/Set-AzureSBAuthorizationRule.md)
 
 

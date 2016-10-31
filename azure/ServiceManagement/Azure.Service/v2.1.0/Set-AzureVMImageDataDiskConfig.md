@@ -178,8 +178,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureVMImageDataDiskConfig](./Remove-AzureVMImageDataDiskConfig.md)
+[Remove-AzureVMImageDataDiskConfig](xref:ServiceManagement/Azure.Service/v2.1.0/Remove-AzureVMImageDataDiskConfig.md)
 
-[Azure Service Cmdlets](./Azure.Service.md)
+[Azure Service Cmdlets](xref:ServiceManagement/Azure.Service/v2.1.0/Azure.Service.md)
 
 

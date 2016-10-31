@@ -162,10 +162,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmStorageAccount](./Get-AzureRmStorageAccount.md)
+[Get-AzureRmStorageAccount](xref:ResourceManager/AzureRM.Storage/v2.1.0/Get-AzureRmStorageAccount.md)
 
-[New-AzureRmStorageAccount](./New-AzureRmStorageAccount.md)
+[New-AzureRmStorageAccount](xref:ResourceManager/AzureRM.Storage/v2.1.0/New-AzureRmStorageAccount.md)
 
-[Set-AzureRmStorageAccount](./Set-AzureRmStorageAccount.md)
+[Set-AzureRmStorageAccount](xref:ResourceManager/AzureRM.Storage/v2.1.0/Set-AzureRmStorageAccount.md)
 
 

@@ -152,18 +152,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureVM](./New-AzureVM.md)
+[New-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md)
 
-[New-AzureVMConfig](./New-AzureVMConfig.md)
+[New-AzureVMConfig](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVMConfig.md)
 
-[Remove-AzureVM](./Remove-AzureVM.md)
+[Remove-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVM.md)
 
-[Restart-AzureVM](./Restart-AzureVM.md)
+[Restart-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Restart-AzureVM.md)
 
-[Start-AzureVM](./Start-AzureVM.md)
+[Start-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Start-AzureVM.md)
 
-[Stop-AzureVM](./Stop-AzureVM.md)
+[Stop-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Stop-AzureVM.md)
 
-[Update-AzureVM](./Update-AzureVM.md)
+[Update-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Update-AzureVM.md)
 
 

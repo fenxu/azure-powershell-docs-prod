@@ -184,10 +184,10 @@ A **StorageAccountCredentialResponse** contains the following properties:
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleStorageAccountCredential](./Get-AzureStorSimpleStorageAccountCredential.md)
+[Get-AzureStorSimpleStorageAccountCredential](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleStorageAccountCredential.md)
 
-[New-AzureStorSimpleStorageAccountCredential](./New-AzureStorSimpleStorageAccountCredential.md)
+[New-AzureStorSimpleStorageAccountCredential](xref:ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleStorageAccountCredential.md)
 
-[Remove-AzureStorSimpleStorageAccountCredential](./Remove-AzureStorSimpleStorageAccountCredential.md)
+[Remove-AzureStorSimpleStorageAccountCredential](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Remove-AzureStorSimpleStorageAccountCredential.md)
 
 

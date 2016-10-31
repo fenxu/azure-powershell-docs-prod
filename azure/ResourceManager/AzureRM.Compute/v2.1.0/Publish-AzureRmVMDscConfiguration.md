@@ -279,10 +279,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMDscExtension](./Get-AzureRmVMDscExtension.md)
+[Get-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVMDscExtension.md)
 
-[Remove-AzureRmVMDscExtension](./Remove-AzureRmVMDscExtension.md)
+[Remove-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v2.1.0/Remove-AzureRmVMDscExtension.md)
 
-[Set-AzureRmVMDscExtension](./Set-AzureRmVMDscExtension.md)
+[Set-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVMDscExtension.md)
 
 

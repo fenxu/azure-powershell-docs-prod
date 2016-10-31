@@ -81,10 +81,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureNetworkInterface](./Get-AzureNetworkInterface.md)
+[Get-AzureNetworkInterface](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureNetworkInterface.md)
 
-[New-AzureNetworkInterface](./New-AzureNetworkInterface.md)
+[New-AzureNetworkInterface](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureNetworkInterface.md)
 
-[Remove-AzureNetworkInterface](./Remove-AzureNetworkInterface.md)
+[Remove-AzureNetworkInterface](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureNetworkInterface.md)
 
 

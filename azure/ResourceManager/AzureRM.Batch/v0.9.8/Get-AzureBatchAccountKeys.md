@@ -99,8 +99,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureBatchAccountKey](./New-AzureBatchAccountKey.md)
+[New-AzureBatchAccountKey](xref:ResourceManager/AzureRM.Batch/v0.9.8/New-AzureBatchAccountKey.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v0.9.8/AzureRM.Batch.md)
 
 

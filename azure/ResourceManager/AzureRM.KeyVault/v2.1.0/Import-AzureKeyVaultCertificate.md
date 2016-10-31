@@ -247,6 +247,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureKeyVaultCertificate](./Remove-AzureKeyVaultCertificate.md)
+[Remove-AzureKeyVaultCertificate](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Remove-AzureKeyVaultCertificate.md)
 
 

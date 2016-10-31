@@ -112,10 +112,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmNotificationHub](./Get-AzureRmNotificationHub.md)
+[Get-AzureRmNotificationHub](xref:ResourceManager/AzureRM.NotificationHubs/v2.2.0/Get-AzureRmNotificationHub.md)
 
-[New-AzureRmNotificationHub](./New-AzureRmNotificationHub.md)
+[New-AzureRmNotificationHub](xref:ResourceManager/AzureRM.NotificationHubs/v2.2.0/New-AzureRmNotificationHub.md)
 
-[Set-AzureRmNotificationHub](./Set-AzureRmNotificationHub.md)
+[Set-AzureRmNotificationHub](xref:ResourceManager/AzureRM.NotificationHubs/v2.2.0/Set-AzureRmNotificationHub.md)
 
 

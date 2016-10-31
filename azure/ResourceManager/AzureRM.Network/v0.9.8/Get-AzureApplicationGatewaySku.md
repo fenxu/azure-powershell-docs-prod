@@ -90,8 +90,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureApplicationGatewaySku](./New-AzureApplicationGatewaySku.md)
+[New-AzureApplicationGatewaySku](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySku.md)
 
-[Set-AzureApplicationGatewaySku](./Set-AzureApplicationGatewaySku.md)
+[Set-AzureApplicationGatewaySku](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewaySku.md)
 
 

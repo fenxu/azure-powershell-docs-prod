@@ -184,8 +184,8 @@ If you do not specify that parameter, it returns a **TaskResponse** object.
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleJob](./Get-AzureStorSimpleJob.md)
+[Get-AzureStorSimpleJob](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleJob.md)
 
-[Start-AzureStorSimpleDeviceBackupJob](./Start-AzureStorSimpleDeviceBackupJob.md)
+[Start-AzureStorSimpleDeviceBackupJob](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Start-AzureStorSimpleDeviceBackupJob.md)
 
 

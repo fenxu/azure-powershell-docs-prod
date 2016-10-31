@@ -383,8 +383,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageBlobContent](./Get-AzureStorageBlobContent.md)
+[Get-AzureStorageBlobContent](xref:Storage/Azure.Storage/v2.2.0/Get-AzureStorageBlobContent.md)
 
-[Get-AzureStorageBlob](./Get-AzureStorageBlob.md)
+[Get-AzureStorageBlob](xref:Storage/Azure.Storage/v2.2.0/Get-AzureStorageBlob.md)
 
-[Remove-AzureStorageBlob](./Remove-AzureStorageBlob.md)
+[Remove-AzureStorageBlob](xref:Storage/Azure.Storage/v2.2.0/Remove-AzureStorageBlob.md)

@@ -120,6 +120,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Azure Site Recovery Services Cmdlets](./Azure.SiteRecoveryServices.md)
+[Azure Site Recovery Services Cmdlets](xref:ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Azure.SiteRecoveryServices.md)
 
 

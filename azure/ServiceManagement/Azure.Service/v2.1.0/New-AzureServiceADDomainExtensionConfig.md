@@ -364,8 +364,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureServiceADDomainExtension](./Get-AzureServiceADDomainExtension.md)
+[Get-AzureServiceADDomainExtension](xref:ServiceManagement/Azure.Service/v2.1.0/Get-AzureServiceADDomainExtension.md)
 
-[Set-AzureServiceADDomainExtension](./Set-AzureServiceADDomainExtension.md)
+[Set-AzureServiceADDomainExtension](xref:ServiceManagement/Azure.Service/v2.1.0/Set-AzureServiceADDomainExtension.md)
 
 

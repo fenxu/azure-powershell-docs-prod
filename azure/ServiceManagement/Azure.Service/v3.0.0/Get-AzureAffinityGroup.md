@@ -89,10 +89,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureAffinityGroup](./New-AzureAffinityGroup.md)
+[New-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v3.0.0/New-AzureAffinityGroup.md)
 
-[Remove-AzureAffinityGroup](./Remove-AzureAffinityGroup.md)
+[Remove-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v3.0.0/Remove-AzureAffinityGroup.md)
 
-[Set-AzureAffinityGroup](./Set-AzureAffinityGroup.md)
+[Set-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v3.0.0/Set-AzureAffinityGroup.md)
 
 

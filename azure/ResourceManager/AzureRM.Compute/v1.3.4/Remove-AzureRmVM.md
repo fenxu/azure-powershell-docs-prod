@@ -182,16 +182,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVM](./Get-AzureRmVM.md)
+[Get-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVM.md)
 
-[New-AzureRmVM](./New-AzureRmVM.md)
+[New-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVM.md)
 
-[Restart-AzureRmVM](./Restart-AzureRmVM.md)
+[Restart-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Restart-AzureRmVM.md)
 
-[Start-AzureRmVM](./Start-AzureRmVM.md)
+[Start-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Start-AzureRmVM.md)
 
-[Stop-AzureRmVM](./Stop-AzureRmVM.md)
+[Stop-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Stop-AzureRmVM.md)
 
-[Update-AzureRmVM](./Update-AzureRmVM.md)
+[Update-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Update-AzureRmVM.md)
 
 

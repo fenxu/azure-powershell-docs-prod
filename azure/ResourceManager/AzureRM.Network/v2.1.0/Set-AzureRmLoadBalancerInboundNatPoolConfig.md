@@ -195,12 +195,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmLoadBalancerInboundNatPoolConfig](./Add-AzureRmLoadBalancerInboundNatPoolConfig.md)
+[Add-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmLoadBalancerInboundNatPoolConfig.md)
 
-[Get-AzureRmLoadBalancerInboundNatPoolConfig](./Get-AzureRmLoadBalancerInboundNatPoolConfig.md)
+[Get-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmLoadBalancerInboundNatPoolConfig.md)
 
-[New-AzureRmLoadBalancerInboundNatPoolConfig](./New-AzureRmLoadBalancerInboundNatPoolConfig.md)
+[New-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmLoadBalancerInboundNatPoolConfig.md)
 
-[Remove-AzureRmLoadBalancerInboundNatPoolConfig](./Remove-AzureRmLoadBalancerInboundNatPoolConfig.md)
+[Remove-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmLoadBalancerInboundNatPoolConfig.md)
 
 

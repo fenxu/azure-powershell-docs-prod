@@ -91,8 +91,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupJob](./Get-AzureRmBackupJob.md)
+[Get-AzureRmBackupJob](xref:ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupJob.md)
 
-[Stop-AzureRmBackupJob](./Stop-AzureRmBackupJob.md)
+[Stop-AzureRmBackupJob](xref:ResourceManager/AzureRM.Backup/v2.2.0/Stop-AzureRmBackupJob.md)
 
 

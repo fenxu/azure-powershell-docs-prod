@@ -144,6 +144,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSBNamespace](./New-AzureSBNamespace.md)
+[New-AzureSBNamespace](xref:ServiceManagement/Azure.Compute/v1.6.1/New-AzureSBNamespace.md)
 
 

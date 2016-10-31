@@ -268,14 +268,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageFileContent](./Get-AzureStorageFileContent.md)
+[Get-AzureStorageFileContent](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageFileContent.md)
 
-[New-AzureStorageDirectory](./New-AzureStorageDirectory.md)
+[New-AzureStorageDirectory](xref:Storage/Azure.Storage/v1.1.6/New-AzureStorageDirectory.md)
 
-[Remove-AzureStorageDirectory](./Remove-AzureStorageDirectory.md)
+[Remove-AzureStorageDirectory](xref:Storage/Azure.Storage/v1.1.6/Remove-AzureStorageDirectory.md)
 
-[Remove-AzureStorageFile](./Remove-AzureStorageFile.md)
+[Remove-AzureStorageFile](xref:Storage/Azure.Storage/v1.1.6/Remove-AzureStorageFile.md)
 
-[Set-AzureStorageFileContent](./Set-AzureStorageFileContent.md)
+[Set-AzureStorageFileContent](xref:Storage/Azure.Storage/v1.1.6/Set-AzureStorageFileContent.md)
 
 

@@ -114,8 +114,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMAccessExtension](./Get-AzureVMAccessExtension.md)
+[Get-AzureVMAccessExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMAccessExtension.md)
 
-[Set-AzureVMAccessExtension](./Set-AzureVMAccessExtension.md)
+[Set-AzureVMAccessExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMAccessExtension.md)
 
 

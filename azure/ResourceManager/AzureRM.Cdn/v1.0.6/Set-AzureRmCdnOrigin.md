@@ -97,6 +97,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmCdnOrigin](./Get-AzureRmCdnOrigin.md)
+[Get-AzureRmCdnOrigin](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Get-AzureRmCdnOrigin.md)
 
 

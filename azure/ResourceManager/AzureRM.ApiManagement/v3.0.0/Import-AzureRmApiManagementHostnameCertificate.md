@@ -152,8 +152,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmApiManagementHostnameConfiguration](./New-AzureRmApiManagementHostnameConfiguration.md)
+[New-AzureRmApiManagementHostnameConfiguration](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementHostnameConfiguration.md)
 
-[Set-AzureRmApiManagementHostnames](./Set-AzureRmApiManagementHostnames.md)
+[Set-AzureRmApiManagementHostnames](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementHostnames.md)
 
 

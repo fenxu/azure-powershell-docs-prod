@@ -117,8 +117,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmVmssNetworkInterfaceConfiguration](./Add-AzureRmVmssNetworkInterfaceConfiguration.md)
+[Add-AzureRmVmssNetworkInterfaceConfiguration](xref:ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVmssNetworkInterfaceConfiguration.md)
 
-[Get-AzureRmVmss](./Get-AzureRmVmss.md)
+[Get-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVmss.md)
 
 

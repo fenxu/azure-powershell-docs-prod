@@ -84,6 +84,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Restart-AzureRemoteAppVM](./Restart-AzureRemoteAppVM.md)
+[Restart-AzureRemoteAppVM](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Restart-AzureRemoteAppVM.md)
 
 

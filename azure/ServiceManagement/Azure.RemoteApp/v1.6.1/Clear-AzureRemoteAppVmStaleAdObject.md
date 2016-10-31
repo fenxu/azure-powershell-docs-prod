@@ -139,6 +139,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppVmStaleAdObject](./Get-AzureRemoteAppVmStaleAdObject.md)
+[Get-AzureRemoteAppVmStaleAdObject](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVmStaleAdObject.md)
 
 

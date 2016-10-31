@@ -114,8 +114,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMPuppetExtension](./Get-AzureVMPuppetExtension.md)
+[Get-AzureVMPuppetExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMPuppetExtension.md)
 
-[Set-AzureVMPuppetExtension](./Set-AzureVMPuppetExtension.md)
+[Set-AzureVMPuppetExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMPuppetExtension.md)
 
 

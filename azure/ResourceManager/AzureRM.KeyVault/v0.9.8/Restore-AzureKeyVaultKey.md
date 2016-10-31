@@ -107,12 +107,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureKeyVaultKey](./Add-AzureKeyVaultKey.md)
+[Add-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v0.9.8/Add-AzureKeyVaultKey.md)
 
-[Backup-AzureKeyVaultKey](./Backup-AzureKeyVaultKey.md)
+[Backup-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v0.9.8/Backup-AzureKeyVaultKey.md)
 
-[Get-AzureKeyVaultKey](./Get-AzureKeyVaultKey.md)
+[Get-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v0.9.8/Get-AzureKeyVaultKey.md)
 
-[Remove-AzureKeyVaultKey](./Remove-AzureKeyVaultKey.md)
+[Remove-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v0.9.8/Remove-AzureKeyVaultKey.md)
 
 

@@ -153,8 +153,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureDataFactoryDataset](./Get-AzureDataFactoryDataset.md)
+[Get-AzureDataFactoryDataset](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryDataset.md)
 
-[New-AzureDataFactoryDataset](./New-AzureDataFactoryDataset.md)
+[New-AzureDataFactoryDataset](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/New-AzureDataFactoryDataset.md)
 
 

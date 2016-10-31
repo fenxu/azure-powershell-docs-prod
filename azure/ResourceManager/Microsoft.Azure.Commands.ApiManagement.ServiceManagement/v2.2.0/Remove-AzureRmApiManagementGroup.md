@@ -133,10 +133,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmApiManagementGroup](./Get-AzureRmApiManagementGroup.md)
+[Get-AzureRmApiManagementGroup](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementGroup.md)
 
-[New-AzureRmApiManagementGroup](./New-AzureRmApiManagementGroup.md)
+[New-AzureRmApiManagementGroup](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementGroup.md)
 
-[Set-AzureRmApiManagementGroup](./Set-AzureRmApiManagementGroup.md)
+[Set-AzureRmApiManagementGroup](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementGroup.md)
 
 

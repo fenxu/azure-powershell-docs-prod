@@ -90,8 +90,8 @@ This cmdlet returns a **ResourceContext** object.
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleResource](./Get-AzureStorSimpleResource.md)
+[Get-AzureStorSimpleResource](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleResource.md)
 
-[Select-AzureStorSimpleResource](./Select-AzureStorSimpleResource.md)
+[Select-AzureStorSimpleResource](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Select-AzureStorSimpleResource.md)
 
 

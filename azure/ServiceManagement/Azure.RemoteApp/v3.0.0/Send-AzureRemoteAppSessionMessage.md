@@ -115,10 +115,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRemoteAppUser](./Add-AzureRemoteAppUser.md)
+[Add-AzureRemoteAppUser](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Add-AzureRemoteAppUser.md)
 
-[Get-AzureRemoteAppSession](./Get-AzureRemoteAppSession.md)
+[Get-AzureRemoteAppSession](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppSession.md)
 
-[Get-AzureRemoteAppUser](./Get-AzureRemoteAppUser.md)
+[Get-AzureRemoteAppUser](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppUser.md)
 
 

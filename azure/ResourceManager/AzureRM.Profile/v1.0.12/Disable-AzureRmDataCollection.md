@@ -89,6 +89,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureRmDataCollection](./Enable-AzureRmDataCollection.md)
+[Enable-AzureRmDataCollection](xref:ResourceManager/AzureRM.Profile/v1.0.12/Enable-AzureRmDataCollection.md)
 
 

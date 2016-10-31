@@ -200,10 +200,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmPolicyAssignment](./New-AzureRmPolicyAssignment.md)
+[New-AzureRmPolicyAssignment](xref:ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmPolicyAssignment.md)
 
-[Remove-AzureRmPolicyAssignment](./Remove-AzureRmPolicyAssignment.md)
+[Remove-AzureRmPolicyAssignment](xref:ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmPolicyAssignment.md)
 
-[Set-AzureRmPolicyAssignment](./Set-AzureRmPolicyAssignment.md)
+[Set-AzureRmPolicyAssignment](xref:ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmPolicyAssignment.md)
 
 

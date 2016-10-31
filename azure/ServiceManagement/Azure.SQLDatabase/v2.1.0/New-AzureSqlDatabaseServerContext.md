@@ -242,14 +242,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Azure SQL Database Cmdlets](./Azure.SQLDatabase.md)
+[Azure SQL Database Cmdlets](xref:ServiceManagement/Azure.SQLDatabase/v2.1.0/Azure.SQLDatabase.md)
 
-[Get-AzureSqlDatabase](./Get-AzureSqlDatabase.md)
+[Get-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v2.1.0/Get-AzureSqlDatabase.md)
 
-[New-AzureSqlDatabase](./New-AzureSqlDatabase.md)
+[New-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v2.1.0/New-AzureSqlDatabase.md)
 
-[Remove-AzureSqlDatabase](./Remove-AzureSqlDatabase.md)
+[Remove-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v2.1.0/Remove-AzureSqlDatabase.md)
 
-[Set-AzureSqlDatabase](./Set-AzureSqlDatabase.md)
+[Set-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v2.1.0/Set-AzureSqlDatabase.md)
 
 

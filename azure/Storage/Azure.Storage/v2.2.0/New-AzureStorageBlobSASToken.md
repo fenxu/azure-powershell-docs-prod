@@ -275,6 +275,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageBlob](./Get-AzureStorageBlob.md)
+[Get-AzureStorageBlob](xref:Storage/Azure.Storage/v2.2.0/Get-AzureStorageBlob.md)
 
-[New-AzureStorageContainerSASToken](./New-AzureStorageContainerSASToken.md)
+[New-AzureStorageContainerSASToken](xref:Storage/Azure.Storage/v2.2.0/New-AzureStorageContainerSASToken.md)

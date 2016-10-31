@@ -176,10 +176,10 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Get-AzureDnsZone](./Get-AzureDnsZone.md)
+[Get-AzureDnsZone](xref:ResourceManager/AzureRM.DNS/v0.9.8/Get-AzureDnsZone.md)
 
-[New-AzureDnsZone](./New-AzureDnsZone.md)
+[New-AzureDnsZone](xref:ResourceManager/AzureRM.DNS/v0.9.8/New-AzureDnsZone.md)
 
-[Set-AzureDnsZone](./Set-AzureDnsZone.md)
+[Set-AzureDnsZone](xref:ResourceManager/AzureRM.DNS/v0.9.8/Set-AzureDnsZone.md)
 
 

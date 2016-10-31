@@ -178,10 +178,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmAutomationDscNodeReportContent](./Export-AzureRmAutomationDscNodeReportContent.md)
+[Export-AzureRmAutomationDscNodeReportContent](xref:ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscNodeReportContent.md)
 
-[Get-AzureRmAutomationDscNode](./Get-AzureRmAutomationDscNode.md)
+[Get-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscNode.md)
 
-[Get-AzureRmAutomationDscNodeReport](./Get-AzureRmAutomationDscNodeReport.md)
+[Get-AzureRmAutomationDscNodeReport](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscNodeReport.md)
 
 

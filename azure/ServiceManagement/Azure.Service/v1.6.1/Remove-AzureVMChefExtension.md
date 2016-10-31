@@ -114,10 +114,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMChefExtension](./Get-AzureVMChefExtension.md)
+[Get-AzureVMChefExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMChefExtension.md)
 
-[Set-AzureVMChefExtension](./Set-AzureVMChefExtension.md)
+[Set-AzureVMChefExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMChefExtension.md)
 
-[Azure Service Cmdlets](./Azure.Service.md)
+[Azure Service Cmdlets](xref:ServiceManagement/Azure.Service/v1.6.1/Azure.Service.md)
 
 

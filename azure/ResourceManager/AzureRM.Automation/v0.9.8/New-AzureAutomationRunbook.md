@@ -194,18 +194,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureAutomationRunbook](./Export-AzureAutomationRunbook.md)
+[Export-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Export-AzureAutomationRunbook.md)
 
-[Get-AzureAutomationRunbook](./Get-AzureAutomationRunbook.md)
+[Get-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationRunbook.md)
 
-[Import-AzureAutomationRunbook](./Import-AzureAutomationRunbook.md)
+[Import-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationRunbook.md)
 
-[Publish-AzureAutomationRunbook](./Publish-AzureAutomationRunbook.md)
+[Publish-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Publish-AzureAutomationRunbook.md)
 
-[Remove-AzureAutomationRunbook](./Remove-AzureAutomationRunbook.md)
+[Remove-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Remove-AzureAutomationRunbook.md)
 
-[Set-AzureAutomationRunbook](./Set-AzureAutomationRunbook.md)
+[Set-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Set-AzureAutomationRunbook.md)
 
-[Start-AzureAutomationRunbook](./Start-AzureAutomationRunbook.md)
+[Start-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Start-AzureAutomationRunbook.md)
 
 

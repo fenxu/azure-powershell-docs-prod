@@ -182,6 +182,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmVMBootDiagnostics](./Set-AzureRmVMBootDiagnostics.md)
+[Set-AzureRmVMBootDiagnostics](xref:ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMBootDiagnostics.md)
 
 

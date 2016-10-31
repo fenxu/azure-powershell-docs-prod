@@ -210,16 +210,16 @@ This cmdlet returns a **BackupPolicy** object that contains the new schedules an
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleDeviceBackupPolicy](./Get-AzureStorSimpleDeviceBackupPolicy.md)
+[Get-AzureStorSimpleDeviceBackupPolicy](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleDeviceBackupPolicy.md)
 
-[Get-AzureStorSimpleDeviceVolume](./Get-AzureStorSimpleDeviceVolume.md)
+[Get-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleDeviceVolume.md)
 
-[Get-AzureStorSimpleDeviceVolumeContainer](./Get-AzureStorSimpleDeviceVolumeContainer.md)
+[Get-AzureStorSimpleDeviceVolumeContainer](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleDeviceVolumeContainer.md)
 
-[Remove-AzureStorSimpleDeviceBackupPolicy](./Remove-AzureStorSimpleDeviceBackupPolicy.md)
+[Remove-AzureStorSimpleDeviceBackupPolicy](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Remove-AzureStorSimpleDeviceBackupPolicy.md)
 
-[Set-AzureStorSimpleDeviceBackupPolicy](./Set-AzureStorSimpleDeviceBackupPolicy.md)
+[Set-AzureStorSimpleDeviceBackupPolicy](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleDeviceBackupPolicy.md)
 
-[New-AzureStorSimpleDeviceBackupScheduleAddConfig](./New-AzureStorSimpleDeviceBackupScheduleAddConfig.md)
+[New-AzureStorSimpleDeviceBackupScheduleAddConfig](xref:ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleDeviceBackupScheduleAddConfig.md)
 
 

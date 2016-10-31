@@ -105,8 +105,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-WAPackCloudService](./Get-WAPackCloudService.md)
+[Get-WAPackCloudService](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-WAPackCloudService.md)
 
-[Remove-WAPackCloudService](./Remove-WAPackCloudService.md)
+[Remove-WAPackCloudService](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackCloudService.md)
 
 

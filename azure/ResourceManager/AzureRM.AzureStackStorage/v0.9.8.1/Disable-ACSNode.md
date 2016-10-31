@@ -199,10 +199,10 @@ Properties in the output from cmdlets Get-ACSFarm and Get-ACSNode can be piped t
 
 ## RELATED LINKS
 
-[Enable-ACSNode](./Enable-ACSNode.md)
+[Enable-ACSNode](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Enable-ACSNode.md)
 
-[Get-ACSNode](./Get-ACSNode.md)
+[Get-ACSNode](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNode.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarm.md)
 
 

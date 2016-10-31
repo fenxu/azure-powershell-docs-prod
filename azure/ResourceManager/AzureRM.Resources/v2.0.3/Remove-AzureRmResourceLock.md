@@ -311,10 +311,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmResourceLock](./Get-AzureRmResourceLock.md)
+[Get-AzureRmResourceLock](xref:ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceLock.md)
 
-[New-AzureRmResourceLock](./New-AzureRmResourceLock.md)
+[New-AzureRmResourceLock](xref:ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResourceLock.md)
 
-[Set-AzureRmResourceLock](./Set-AzureRmResourceLock.md)
+[Set-AzureRmResourceLock](xref:ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmResourceLock.md)
 
 

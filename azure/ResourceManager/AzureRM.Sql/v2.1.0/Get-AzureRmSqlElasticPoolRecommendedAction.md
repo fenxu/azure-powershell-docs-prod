@@ -257,12 +257,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlDatabaseRecommendedAction](./Get-AzureRmSqlDatabaseRecommendedAction.md)
+[Get-AzureRmSqlDatabaseRecommendedAction](xref:ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlDatabaseRecommendedAction.md)
 
-[Get-AzureRmSqlElasticPoolAdvisor](./Get-AzureRmSqlElasticPoolAdvisor.md)
+[Get-AzureRmSqlElasticPoolAdvisor](xref:ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlElasticPoolAdvisor.md)
 
-[Get-AzureRmSqlServerRecommendedAction](./Get-AzureRmSqlServerRecommendedAction.md)
+[Get-AzureRmSqlServerRecommendedAction](xref:ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlServerRecommendedAction.md)
 
-[Set-AzureRmSqlElasticPoolRecommendedActionState](./Set-AzureRmSqlElasticPoolRecommendedActionState.md)
+[Set-AzureRmSqlElasticPoolRecommendedActionState](xref:ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlElasticPoolRecommendedActionState.md)
 
 

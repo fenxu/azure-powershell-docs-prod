@@ -435,6 +435,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureSchedulerStorageQueueJob](./Set-AzureSchedulerStorageQueueJob.md)
+[Set-AzureSchedulerStorageQueueJob](xref:ServiceManagement/Azure.Compute/v3.0.0/Set-AzureSchedulerStorageQueueJob.md)
 
 

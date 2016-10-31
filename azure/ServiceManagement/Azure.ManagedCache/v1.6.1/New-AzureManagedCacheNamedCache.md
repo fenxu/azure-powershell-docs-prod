@@ -199,10 +199,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureManagedCacheNamedCache](./Get-AzureManagedCacheNamedCache.md)
+[Get-AzureManagedCacheNamedCache](xref:ServiceManagement/Azure.ManagedCache/v1.6.1/Get-AzureManagedCacheNamedCache.md)
 
-[Remove-AzureManagedCacheNamedCache](./Remove-AzureManagedCacheNamedCache.md)
+[Remove-AzureManagedCacheNamedCache](xref:ServiceManagement/Azure.ManagedCache/v1.6.1/Remove-AzureManagedCacheNamedCache.md)
 
-[Set-AzureManagedCacheNamedCache](./Set-AzureManagedCacheNamedCache.md)
+[Set-AzureManagedCacheNamedCache](xref:ServiceManagement/Azure.ManagedCache/v1.6.1/Set-AzureManagedCacheNamedCache.md)
 
 

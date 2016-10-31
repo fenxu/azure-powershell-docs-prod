@@ -84,8 +84,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureVMBGInfoExtension](./Remove-AzureVMBGInfoExtension.md)
+[Remove-AzureVMBGInfoExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMBGInfoExtension.md)
 
-[Set-AzureVMBGInfoExtension](./Set-AzureVMBGInfoExtension.md)
+[Set-AzureVMBGInfoExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMBGInfoExtension.md)
 
 

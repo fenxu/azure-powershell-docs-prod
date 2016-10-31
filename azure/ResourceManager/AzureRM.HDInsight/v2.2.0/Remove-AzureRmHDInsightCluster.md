@@ -86,8 +86,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmHDInsightCluster](./Get-AzureRmHDInsightCluster.md)
+[Get-AzureRmHDInsightCluster](xref:ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightCluster.md)
 
-[Use-AzureRmHDInsightCluster](./Use-AzureRmHDInsightCluster.md)
+[Use-AzureRmHDInsightCluster](xref:ResourceManager/AzureRM.HDInsight/v2.2.0/Use-AzureRmHDInsightCluster.md)
 
 

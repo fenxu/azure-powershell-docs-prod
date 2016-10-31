@@ -160,10 +160,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureKeyVaultCertificate](./Add-AzureKeyVaultCertificate.md)
+[Add-AzureKeyVaultCertificate](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Add-AzureKeyVaultCertificate.md)
 
-[Get-AzureKeyVaultCertificate](./Get-AzureKeyVaultCertificate.md)
+[Get-AzureKeyVaultCertificate](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultCertificate.md)
 
-[Import-AzureKeyVaultCertificate](./Import-AzureKeyVaultCertificate.md)
+[Import-AzureKeyVaultCertificate](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Import-AzureKeyVaultCertificate.md)
 
 

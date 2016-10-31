@@ -81,6 +81,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAlertRuleWebhook](./New-AzureRmAlertRuleWebhook.md)
+[New-AzureRmAlertRuleWebhook](xref:ResourceManager/AzureRM.Insights/v2.2.0/New-AzureRmAlertRuleWebhook.md)
 
 

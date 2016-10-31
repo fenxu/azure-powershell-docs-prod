@@ -169,8 +169,8 @@ This cmdlet returns a custom domain object.
 
 ## RELATED LINKS
 
-[New-AzureRmCdnCustomDomain](./New-AzureRmCdnCustomDomain.md)
+[New-AzureRmCdnCustomDomain](xref:ResourceManager/AzureRM.Cdn/v2.1.0/New-AzureRmCdnCustomDomain.md)
 
-[Remove-AzureRmCdnCustomDomain](./Remove-AzureRmCdnCustomDomain.md)
+[Remove-AzureRmCdnCustomDomain](xref:ResourceManager/AzureRM.Cdn/v2.1.0/Remove-AzureRmCdnCustomDomain.md)
 
 

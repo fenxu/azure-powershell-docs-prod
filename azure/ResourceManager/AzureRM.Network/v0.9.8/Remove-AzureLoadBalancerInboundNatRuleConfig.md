@@ -97,12 +97,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureLoadBalancerInboundNatRuleConfig](./Add-AzureLoadBalancerInboundNatRuleConfig.md)
+[Add-AzureLoadBalancerInboundNatRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerInboundNatRuleConfig.md)
 
-[Get-AzureLoadBalancerInboundNatRuleConfig](./Get-AzureLoadBalancerInboundNatRuleConfig.md)
+[Get-AzureLoadBalancerInboundNatRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerInboundNatRuleConfig.md)
 
-[New-AzureLoadBalancerInboundNatRuleConfig](./New-AzureLoadBalancerInboundNatRuleConfig.md)
+[New-AzureLoadBalancerInboundNatRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerInboundNatRuleConfig.md)
 
-[Set-AzureLoadBalancerInboundNatRuleConfig](./Set-AzureLoadBalancerInboundNatRuleConfig.md)
+[Set-AzureLoadBalancerInboundNatRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancerInboundNatRuleConfig.md)
 
 

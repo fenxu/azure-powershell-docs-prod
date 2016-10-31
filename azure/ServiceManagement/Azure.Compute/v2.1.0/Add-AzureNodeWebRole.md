@@ -111,8 +111,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureNodeWorkerRole](./Add-AzureNodeWorkerRole.md)
+[Add-AzureNodeWorkerRole](xref:ServiceManagement/Azure.Compute/v2.1.0/Add-AzureNodeWorkerRole.md)
 
-[New-AzureServiceProject](./New-AzureServiceProject.md)
+[New-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v2.1.0/New-AzureServiceProject.md)
 
 

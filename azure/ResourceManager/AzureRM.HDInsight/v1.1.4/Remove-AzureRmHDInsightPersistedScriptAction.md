@@ -133,8 +133,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmHDInsightPersistedScriptAction](./Get-AzureRmHDInsightPersistedScriptAction.md)
+[Get-AzureRmHDInsightPersistedScriptAction](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightPersistedScriptAction.md)
 
-[Set-AzureRmHDInsightPersistedScriptAction](./Set-AzureRmHDInsightPersistedScriptAction.md)
+[Set-AzureRmHDInsightPersistedScriptAction](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/Set-AzureRmHDInsightPersistedScriptAction.md)
 
 

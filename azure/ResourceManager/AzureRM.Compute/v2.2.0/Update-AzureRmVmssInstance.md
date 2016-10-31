@@ -135,6 +135,6 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Update-AzureRmVmss](./Update-AzureRmVmss.md)
+[Update-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.2.0/Update-AzureRmVmss.md)
 
 

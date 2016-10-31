@@ -200,6 +200,6 @@ You can pipe a list of volume container groups to this cmdlet.
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleFailoverVolumeContainers](./Get-AzureStorSimpleFailoverVolumeContainers.md)
+[Get-AzureStorSimpleFailoverVolumeContainers](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleFailoverVolumeContainers.md)
 
 

@@ -167,6 +167,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVNetGatewayIPsecParameters](./Get-AzureVNetGatewayIPsecParameters.md)
+[Get-AzureVNetGatewayIPsecParameters](xref:ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVNetGatewayIPsecParameters.md)
 
 

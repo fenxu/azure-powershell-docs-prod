@@ -202,6 +202,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Save-AzureRmApiManagementTenantGitConfiguration](./Save-AzureRmApiManagementTenantGitConfiguration.md)
+[Save-AzureRmApiManagementTenantGitConfiguration](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Save-AzureRmApiManagementTenantGitConfiguration.md)
 
 

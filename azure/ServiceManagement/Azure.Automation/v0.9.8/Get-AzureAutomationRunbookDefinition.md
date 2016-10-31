@@ -116,6 +116,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureAutomationRunbookDefinition](./Set-AzureAutomationRunbookDefinition.md)
+[Set-AzureAutomationRunbookDefinition](xref:ServiceManagement/Azure.Automation/v0.9.8/Set-AzureAutomationRunbookDefinition.md)
 
 

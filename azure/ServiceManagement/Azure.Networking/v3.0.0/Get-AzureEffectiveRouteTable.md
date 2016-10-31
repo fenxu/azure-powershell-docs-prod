@@ -180,14 +180,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRouteTable](./Get-AzureRouteTable.md)
+[Get-AzureRouteTable](xref:ServiceManagement/Azure.Networking/v3.0.0/Get-AzureRouteTable.md)
 
-[New-AzureRouteTable](./New-AzureRouteTable.md)
+[New-AzureRouteTable](xref:ServiceManagement/Azure.Networking/v3.0.0/New-AzureRouteTable.md)
 
-[Remove-AzureRouteTable](./Remove-AzureRouteTable.md)
+[Remove-AzureRouteTable](xref:ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureRouteTable.md)
 
-[Remove-AzureSubnetRouteTable](./Remove-AzureSubnetRouteTable.md)
+[Remove-AzureSubnetRouteTable](xref:ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureSubnetRouteTable.md)
 
-[Set-AzureSubnetRouteTable](./Set-AzureSubnetRouteTable.md)
+[Set-AzureSubnetRouteTable](xref:ServiceManagement/Azure.Networking/v3.0.0/Set-AzureSubnetRouteTable.md)
 
 

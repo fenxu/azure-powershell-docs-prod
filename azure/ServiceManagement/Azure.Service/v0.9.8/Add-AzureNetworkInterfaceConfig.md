@@ -143,10 +143,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureNetworkInterfaceConfig](./Get-AzureNetworkInterfaceConfig.md)
+[Get-AzureNetworkInterfaceConfig](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureNetworkInterfaceConfig.md)
 
-[Remove-AzureNetworkInterfaceConfig](./Remove-AzureNetworkInterfaceConfig.md)
+[Remove-AzureNetworkInterfaceConfig](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureNetworkInterfaceConfig.md)
 
-[Set-AzureNetworkInterfaceConfig](./Set-AzureNetworkInterfaceConfig.md)
+[Set-AzureNetworkInterfaceConfig](xref:ServiceManagement/Azure.Service/v0.9.8/Set-AzureNetworkInterfaceConfig.md)
 
 

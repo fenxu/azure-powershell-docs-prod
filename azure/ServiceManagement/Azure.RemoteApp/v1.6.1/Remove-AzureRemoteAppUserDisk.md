@@ -129,6 +129,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Copy-AzureRemoteAppUserDisk](./Copy-AzureRemoteAppUserDisk.md)
+[Copy-AzureRemoteAppUserDisk](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Copy-AzureRemoteAppUserDisk.md)
 
 

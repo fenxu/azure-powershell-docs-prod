@@ -225,6 +225,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmHDInsightClusterConfig](./New-AzureRmHDInsightClusterConfig.md)
+[New-AzureRmHDInsightClusterConfig](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightClusterConfig.md)
 
 

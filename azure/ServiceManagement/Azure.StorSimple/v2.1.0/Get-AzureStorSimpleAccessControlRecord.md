@@ -126,10 +126,10 @@ An **AccessControlRecord** object contains the following fields:
 
 ## RELATED LINKS
 
-[New-AzureStorSimpleAccessControlRecord](./New-AzureStorSimpleAccessControlRecord.md)
+[New-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleAccessControlRecord.md)
 
-[Remove-AzureStorSimpleAccessControlRecord](./Remove-AzureStorSimpleAccessControlRecord.md)
+[Remove-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Remove-AzureStorSimpleAccessControlRecord.md)
 
-[Set-AzureStorSimpleAccessControlRecord](./Set-AzureStorSimpleAccessControlRecord.md)
+[Set-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Set-AzureStorSimpleAccessControlRecord.md)
 
 

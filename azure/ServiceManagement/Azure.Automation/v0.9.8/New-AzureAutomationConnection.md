@@ -148,10 +148,10 @@ Microsoft.Azure.Commands.Automation.Model.Connection
 
 ## RELATED LINKS
 
-[Get-AzureAutomationConnection](./Get-AzureAutomationConnection.md)
+[Get-AzureAutomationConnection](xref:ServiceManagement/Azure.Automation/v0.9.8/Get-AzureAutomationConnection.md)
 
-[Remove-AzureAutomationConnection](./Remove-AzureAutomationConnection.md)
+[Remove-AzureAutomationConnection](xref:ServiceManagement/Azure.Automation/v0.9.8/Remove-AzureAutomationConnection.md)
 
-[Set-AzureAutomationConnectionFieldValue](./Set-AzureAutomationConnectionFieldValue.md)
+[Set-AzureAutomationConnectionFieldValue](xref:ServiceManagement/Azure.Automation/v0.9.8/Set-AzureAutomationConnectionFieldValue.md)
 
 

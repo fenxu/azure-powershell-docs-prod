@@ -90,10 +90,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBatchAccountKeys](./Get-AzureRmBatchAccountKeys.md)
+[Get-AzureRmBatchAccountKeys](xref:ResourceManager/AzureRM.Batch/v2.1.0/Get-AzureRmBatchAccountKeys.md)
 
-[Get-AzureBatchPoolStatistics](./Get-AzureBatchPoolStatistics.md)
+[Get-AzureBatchPoolStatistics](xref:ResourceManager/AzureRM.Batch/v2.1.0/Get-AzureBatchPoolStatistics.md)
 
-[Get-AzureBatchPoolUsageMetrics](./Get-AzureBatchPoolUsageMetrics.md)
+[Get-AzureBatchPoolUsageMetrics](xref:ResourceManager/AzureRM.Batch/v2.1.0/Get-AzureBatchPoolUsageMetrics.md)
 
 

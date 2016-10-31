@@ -266,8 +266,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ACSRoleInstance](./Get-ACSRoleInstance.md)
+[Get-ACSRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstance.md)
 
-[Get-ACSRoleInstanceMetric](./Get-ACSRoleInstanceMetric.md)
+[Get-ACSRoleInstanceMetric](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstanceMetric.md)
 
 

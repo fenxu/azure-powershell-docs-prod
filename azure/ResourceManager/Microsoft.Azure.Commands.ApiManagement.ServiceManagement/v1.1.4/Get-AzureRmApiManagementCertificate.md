@@ -161,10 +161,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmApiManagementCertificate](./New-AzureRmApiManagementCertificate.md)
+[New-AzureRmApiManagementCertificate](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementCertificate.md)
 
-[Remove-AzureRmApiManagementCertificate](./Remove-AzureRmApiManagementCertificate.md)
+[Remove-AzureRmApiManagementCertificate](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementCertificate.md)
 
-[Set-AzureRmApiManagementCertificate](./Set-AzureRmApiManagementCertificate.md)
+[Set-AzureRmApiManagementCertificate](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementCertificate.md)
 
 

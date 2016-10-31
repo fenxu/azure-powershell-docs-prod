@@ -185,6 +185,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureDeployment](./Get-AzureDeployment.md)
+[Get-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureDeployment.md)
 
 

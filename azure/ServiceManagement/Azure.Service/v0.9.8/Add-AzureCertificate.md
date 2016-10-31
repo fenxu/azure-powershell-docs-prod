@@ -139,10 +139,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureCertificate](./Get-AzureCertificate.md)
+[Get-AzureCertificate](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureCertificate.md)
 
-[New-AzureCertificateSetting](./New-AzureCertificateSetting.md)
+[New-AzureCertificateSetting](xref:ServiceManagement/Azure.Service/v0.9.8/New-AzureCertificateSetting.md)
 
-[Remove-AzureCertificate](./Remove-AzureCertificate.md)
+[Remove-AzureCertificate](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureCertificate.md)
 
 

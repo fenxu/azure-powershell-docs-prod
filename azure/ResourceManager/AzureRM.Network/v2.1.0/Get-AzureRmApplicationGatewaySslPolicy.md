@@ -102,8 +102,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmApplicationGatewaySslPolicy](./New-AzureRmApplicationGatewaySslPolicy.md)
+[New-AzureRmApplicationGatewaySslPolicy](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewaySslPolicy.md)
 
-[Set-AzureRmApplicationGatewaySslPolicy](./Set-AzureRmApplicationGatewaySslPolicy.md)
+[Set-AzureRmApplicationGatewaySslPolicy](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmApplicationGatewaySslPolicy.md)
 
 

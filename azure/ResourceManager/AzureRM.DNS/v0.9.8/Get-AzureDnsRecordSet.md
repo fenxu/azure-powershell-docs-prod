@@ -220,10 +220,10 @@ There will be at most one **RecordSet** returned if the *Name* and *RecordType* 
 
 ## RELATED LINKS
 
-[New-AzureDnsRecordSet](./New-AzureDnsRecordSet.md)
+[New-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/New-AzureDnsRecordSet.md)
 
-[Remove-AzureDnsRecordSet](./Remove-AzureDnsRecordSet.md)
+[Remove-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/Remove-AzureDnsRecordSet.md)
 
-[Set-AzureDnsRecordSet](./Set-AzureDnsRecordSet.md)
+[Set-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/Set-AzureDnsRecordSet.md)
 
 

@@ -285,14 +285,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureDataDisk](./Get-AzureDataDisk.md)
+[Get-AzureDataDisk](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureDataDisk.md)
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureVM.md)
 
-[Remove-AzureDataDisk](./Remove-AzureDataDisk.md)
+[Remove-AzureDataDisk](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureDataDisk.md)
 
-[Set-AzureDataDisk](./Set-AzureDataDisk.md)
+[Set-AzureDataDisk](xref:ServiceManagement/Azure.Service/v0.9.8/Set-AzureDataDisk.md)
 
-[Update-AzureVM](./Update-AzureVM.md)
+[Update-AzureVM](xref:ServiceManagement/Azure.Service/v0.9.8/Update-AzureVM.md)
 
 

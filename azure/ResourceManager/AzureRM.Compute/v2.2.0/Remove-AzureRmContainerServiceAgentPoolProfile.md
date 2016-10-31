@@ -88,8 +88,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmContainerServiceAgentPoolProfile](./Add-AzureRmContainerServiceAgentPoolProfile.md)
+[Add-AzureRmContainerServiceAgentPoolProfile](xref:ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmContainerServiceAgentPoolProfile.md)
 
-[Get-AzureRmContainerService](./Get-AzureRmContainerService.md)
+[Get-AzureRmContainerService](xref:ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmContainerService.md)
 
 

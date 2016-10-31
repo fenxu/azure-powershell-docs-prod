@@ -304,8 +304,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureServiceExtension](./Get-AzureServiceExtension.md)
+[Get-AzureServiceExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureServiceExtension.md)
 
-[Remove-AzureServiceExtension](./Remove-AzureServiceExtension.md)
+[Remove-AzureServiceExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureServiceExtension.md)
 
 

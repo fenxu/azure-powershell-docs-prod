@@ -201,16 +201,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureLoadBalancerFrontendIpConfig](./Get-AzureLoadBalancerFrontendIpConfig.md)
+[Get-AzureLoadBalancerFrontendIpConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerFrontendIpConfig.md)
 
-[Get-AzureVirtualNetwork](./Get-AzureVirtualNetwork.md)
+[Get-AzureVirtualNetwork](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureVirtualNetwork.md)
 
-[Get-AzureVirtualNetworkSubnetConfig](./Get-AzureVirtualNetworkSubnetConfig.md)
+[Get-AzureVirtualNetworkSubnetConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureVirtualNetworkSubnetConfig.md)
 
-[New-AzureLoadBalancerFrontendIpConfig](./New-AzureLoadBalancerFrontendIpConfig.md)
+[New-AzureLoadBalancerFrontendIpConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerFrontendIpConfig.md)
 
-[Remove-AzureLoadBalancerFrontendIpConfig](./Remove-AzureLoadBalancerFrontendIpConfig.md)
+[Remove-AzureLoadBalancerFrontendIpConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerFrontendIpConfig.md)
 
-[Set-AzureLoadBalancerFrontendIpConfig](./Set-AzureLoadBalancerFrontendIpConfig.md)
+[Set-AzureLoadBalancerFrontendIpConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancerFrontendIpConfig.md)
 
 

@@ -158,10 +158,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmPublicIpAddress](./New-AzureRmPublicIpAddress.md)
+[New-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmPublicIpAddress.md)
 
-[Remove-AzureRmPublicIpAddress](./Remove-AzureRmPublicIpAddress.md)
+[Remove-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmPublicIpAddress.md)
 
-[Set-AzureRmPublicIpAddress](./Set-AzureRmPublicIpAddress.md)
+[Set-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmPublicIpAddress.md)
 
 

@@ -206,12 +206,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationJobOutput](./Get-AzureRMAutomationJobOutput.md)
+[Get-AzureRmAutomationJobOutput](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationJobOutput.md)
 
-[Resume-AzureRmAutomationJob](./Resume-AzureRMAutomationJob.md)
+[Resume-AzureRmAutomationJob](xref:ResourceManager/AzureRM.Automation/v2.2.0/Resume-AzureRMAutomationJob.md)
 
-[Stop-AzureRmAutomationJob](./Stop-AzureRMAutomationJob.md)
+[Stop-AzureRmAutomationJob](xref:ResourceManager/AzureRM.Automation/v2.2.0/Stop-AzureRMAutomationJob.md)
 
-[Suspend-AzureRmAutomationJob](./Suspend-AzureRMAutomationJob.md)
+[Suspend-AzureRmAutomationJob](xref:ResourceManager/AzureRM.Automation/v2.2.0/Suspend-AzureRMAutomationJob.md)
 
 

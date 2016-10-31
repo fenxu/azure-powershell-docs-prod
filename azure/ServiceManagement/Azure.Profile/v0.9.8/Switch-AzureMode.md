@@ -158,6 +158,6 @@ This cmdlet does not generate any output.
 
 [Azure Service Management Cmdlets](http://go.microsoft.com/fwlink/?LinkID=396348)
 
-[Azure Profile Cmdlets](./Azure.Profile.md)
+[Azure Profile Cmdlets](xref:ServiceManagement/Azure.Profile/v0.9.8/Azure.Profile.md)
 
 

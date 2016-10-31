@@ -154,8 +154,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureDeployment](./Set-AzureDeployment.md)
+[Set-AzureDeployment](xref:ServiceManagement/Azure.Service/v2.1.0/Set-AzureDeployment.md)
 
-[Azure Service Cmdlets](./Azure.Service.md)
+[Azure Service Cmdlets](xref:ServiceManagement/Azure.Service/v2.1.0/Azure.Service.md)
 
 

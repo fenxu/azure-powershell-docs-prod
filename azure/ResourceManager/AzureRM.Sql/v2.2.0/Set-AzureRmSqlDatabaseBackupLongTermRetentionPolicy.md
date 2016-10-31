@@ -160,6 +160,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy](./Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy.md)
+[Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy](xref:ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy.md)
 
 

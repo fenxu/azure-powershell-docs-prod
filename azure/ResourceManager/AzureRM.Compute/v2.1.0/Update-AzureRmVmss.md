@@ -133,18 +133,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVmss](./Get-AzureRmVmss.md)
+[Get-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVmss.md)
 
-[New-AzureRmVmss](./New-AzureRmVmss.md)
+[New-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmVmss.md)
 
-[Remove-AzureRmVmss](./Remove-AzureRmVmss.md)
+[Remove-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.1.0/Remove-AzureRmVmss.md)
 
-[Restart-AzureRmVmss](./Restart-AzureRmVmss.md)
+[Restart-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.1.0/Restart-AzureRmVmss.md)
 
-[Set-AzureRmVmss](./Set-AzureRmVmss.md)
+[Set-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVmss.md)
 
-[Start-AzureRmVmss](./Start-AzureRmVmss.md)
+[Start-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.1.0/Start-AzureRmVmss.md)
 
-[Stop-AzureRmVmss](./Stop-AzureRmVmss.md)
+[Stop-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.1.0/Stop-AzureRmVmss.md)
 
 

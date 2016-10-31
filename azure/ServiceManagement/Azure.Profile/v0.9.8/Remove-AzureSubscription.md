@@ -199,10 +199,10 @@ Otherwise, it does not return any output.
 
 ## RELATED LINKS
 
-[Get-AzureSubscription](./Get-AzureSubscription.md)
+[Get-AzureSubscription](xref:ServiceManagement/Azure.Profile/v0.9.8/Get-AzureSubscription.md)
 
-[Select-AzureSubscription](./Select-AzureSubscription.md)
+[Select-AzureSubscription](xref:ServiceManagement/Azure.Profile/v0.9.8/Select-AzureSubscription.md)
 
-[Set-AzureSubscription](./Set-AzureSubscription.md)
+[Set-AzureSubscription](xref:ServiceManagement/Azure.Profile/v0.9.8/Set-AzureSubscription.md)
 
 

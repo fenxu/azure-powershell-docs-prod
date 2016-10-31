@@ -100,8 +100,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Reset-AzureRmServerManagementGatewayProfile](./Reset-AzureRmServerManagementGatewayProfile.md)
+[Reset-AzureRmServerManagementGatewayProfile](xref:ResourceManager/AzureRM.ServerManagement/v1.0.3/Reset-AzureRmServerManagementGatewayProfile.md)
 
-[Save-AzureRmServerManagementGatewayProfile](./Save-AzureRmServerManagementGatewayProfile.md)
+[Save-AzureRmServerManagementGatewayProfile](xref:ResourceManager/AzureRM.ServerManagement/v1.0.3/Save-AzureRmServerManagementGatewayProfile.md)
 
 

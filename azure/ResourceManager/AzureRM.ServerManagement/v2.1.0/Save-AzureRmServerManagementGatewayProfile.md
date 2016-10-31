@@ -152,8 +152,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Install-AzureRmServerManagementGatewayProfile](./Install-AzureRmServerManagementGatewayProfile.md)
+[Install-AzureRmServerManagementGatewayProfile](xref:ResourceManager/AzureRM.ServerManagement/v2.1.0/Install-AzureRmServerManagementGatewayProfile.md)
 
-[Reset-AzureRmServerManagementGatewayProfile](./Reset-AzureRmServerManagementGatewayProfile.md)
+[Reset-AzureRmServerManagementGatewayProfile](xref:ResourceManager/AzureRM.ServerManagement/v2.1.0/Reset-AzureRmServerManagementGatewayProfile.md)
 
 

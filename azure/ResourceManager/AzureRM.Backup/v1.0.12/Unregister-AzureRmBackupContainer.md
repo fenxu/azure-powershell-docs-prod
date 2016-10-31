@@ -143,10 +143,10 @@ This cmdlet returns $Null if the container type is Windows Server.
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupContainer](./Get-AzureRmBackupContainer.md)
+[Get-AzureRmBackupContainer](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupContainer.md)
 
-[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupVault.md)
 
-[Register-AzureRmBackupContainer](./Register-AzureRmBackupContainer.md)
+[Register-AzureRmBackupContainer](xref:ResourceManager/AzureRM.Backup/v1.0.12/Register-AzureRmBackupContainer.md)
 
 

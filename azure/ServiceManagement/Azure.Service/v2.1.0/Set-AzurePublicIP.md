@@ -197,16 +197,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzurePublicIP](./Get-AzurePublicIP.md)
+[Get-AzurePublicIP](xref:ServiceManagement/Azure.Service/v2.1.0/Get-AzurePublicIP.md)
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v2.1.0/Get-AzureVM.md)
 
-[New-AzureVM](./New-AzureVM.md)
+[New-AzureVM](xref:ServiceManagement/Azure.Service/v2.1.0/New-AzureVM.md)
 
-[New-AzureVMConfig](./New-AzureVMConfig.md)
+[New-AzureVMConfig](xref:ServiceManagement/Azure.Service/v2.1.0/New-AzureVMConfig.md)
 
-[Remove-AzurePublicIP](./Remove-AzurePublicIP.md)
+[Remove-AzurePublicIP](xref:ServiceManagement/Azure.Service/v2.1.0/Remove-AzurePublicIP.md)
 
-[Update-AzureVM](./Update-AzureVM.md)
+[Update-AzureVM](xref:ServiceManagement/Azure.Service/v2.1.0/Update-AzureVM.md)
 
 

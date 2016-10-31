@@ -112,6 +112,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmVMADDomainExtension](./Set-AzureRmVMADDomainExtension.md)
+[Set-AzureRmVMADDomainExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMADDomainExtension.md)
 
 

@@ -132,8 +132,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureKeyVaultCertificateContact](./Add-AzureKeyVaultCertificateContact.md)
+[Add-AzureKeyVaultCertificateContact](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Add-AzureKeyVaultCertificateContact.md)
 
-[Get-AzureKeyVaultCertificateContact](./Get-AzureKeyVaultCertificateContact.md)
+[Get-AzureKeyVaultCertificateContact](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultCertificateContact.md)
 
 

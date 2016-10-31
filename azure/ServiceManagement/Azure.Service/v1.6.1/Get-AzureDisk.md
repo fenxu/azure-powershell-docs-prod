@@ -133,10 +133,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureDisk](./Add-AzureDisk.md)
+[Add-AzureDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureDisk.md)
 
-[Remove-AzureDisk](./Remove-AzureDisk.md)
+[Remove-AzureDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureDisk.md)
 
-[Update-AzureDisk](./Update-AzureDisk.md)
+[Update-AzureDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Update-AzureDisk.md)
 
 

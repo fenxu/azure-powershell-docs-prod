@@ -413,10 +413,10 @@ This cmdlet returns the modified **RecordSet** object.
 
 ## RELATED LINKS
 
-[Add-AzureRmDnsRecordConfig](./Add-AzureRmDnsRecordConfig.md)
+[Add-AzureRmDnsRecordConfig](xref:ResourceManager/AzureRM.DNS/v2.2.0/Add-AzureRmDnsRecordConfig.md)
 
-[Get-AzureRmDnsRecordSet](./Get-AzureRmDnsRecordSet.md)
+[Get-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.2.0/Get-AzureRmDnsRecordSet.md)
 
-[Set-AzureRmDnsRecordSet](./Set-AzureRmDnsRecordSet.md)
+[Set-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.2.0/Set-AzureRmDnsRecordSet.md)
 
 

@@ -169,6 +169,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureRmHDInsightJob](./Start-AzureRmHDInsightJob.md)
+[Start-AzureRmHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/Start-AzureRmHDInsightJob.md)
 
 

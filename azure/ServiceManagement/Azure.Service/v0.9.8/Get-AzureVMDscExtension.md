@@ -87,10 +87,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureVMDscExtension](./Remove-AzureVMDscExtension.md)
+[Remove-AzureVMDscExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMDscExtension.md)
 
-[Set-AzureVMDscExtension](./Set-AzureVMDscExtension.md)
+[Set-AzureVMDscExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Set-AzureVMDscExtension.md)
 
-[Get-AzureVMDscExtensionStatus](./Get-AzureVMDscExtensionStatus.md)
+[Get-AzureVMDscExtensionStatus](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureVMDscExtensionStatus.md)
 
 

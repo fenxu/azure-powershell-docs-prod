@@ -220,16 +220,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureLoadBalancer](./Get-AzureLoadBalancer.md)
+[Get-AzureLoadBalancer](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancer.md)
 
-[Get-AzureLoadBalancerInboundNatRuleConfig](./Get-AzureLoadBalancerInboundNatRuleConfig.md)
+[Get-AzureLoadBalancerInboundNatRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerInboundNatRuleConfig.md)
 
-[New-AzureLoadBalancerInboundNatRuleConfig](./New-AzureLoadBalancerInboundNatRuleConfig.md)
+[New-AzureLoadBalancerInboundNatRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerInboundNatRuleConfig.md)
 
-[Remove-AzureLoadBalancerInboundNatRuleConfig](./Remove-AzureLoadBalancerInboundNatRuleConfig.md)
+[Remove-AzureLoadBalancerInboundNatRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerInboundNatRuleConfig.md)
 
-[Set-AzureLoadBalancer](./Set-AzureLoadBalancer.md)
+[Set-AzureLoadBalancer](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancer.md)
 
-[Set-AzureLoadBalancerInboundNatRuleConfig](./Set-AzureLoadBalancerInboundNatRuleConfig.md)
+[Set-AzureLoadBalancerInboundNatRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancerInboundNatRuleConfig.md)
 
 

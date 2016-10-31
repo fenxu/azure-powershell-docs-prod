@@ -98,8 +98,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-WAPackCloudService](./New-WAPackCloudService.md)
+[New-WAPackCloudService](xref:ServiceManagement/Azure.Compute/v3.0.0/New-WAPackCloudService.md)
 
-[Remove-WAPackCloudService](./Remove-WAPackCloudService.md)
+[Remove-WAPackCloudService](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackCloudService.md)
 
 

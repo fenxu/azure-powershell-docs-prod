@@ -149,6 +149,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Recover an Azure SQL Database from an outage](http://go.microsoft.com/fwlink/?LinkId=746882)
 
-[Restore-AzureRmSqlDatabase](./Restore-AzureRmSqlDatabase.md)
+[Restore-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v2.2.0/Restore-AzureRmSqlDatabase.md)
 
 

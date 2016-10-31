@@ -239,16 +239,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureStorageBlobSASToken](./New-AzureStorageBlobSASToken.md)
+[New-AzureStorageBlobSASToken](xref:Storage/Azure.Storage/v2.1.0/New-AzureStorageBlobSASToken.md)
 
-[New-AzureStorageContainerSASToken](./New-AzureStorageContainerSASToken.md)
+[New-AzureStorageContainerSASToken](xref:Storage/Azure.Storage/v2.1.0/New-AzureStorageContainerSASToken.md)
 
-[New-AzureStorageFileSASToken](./New-AzureStorageFileSASToken.md)
+[New-AzureStorageFileSASToken](xref:Storage/Azure.Storage/v2.1.0/New-AzureStorageFileSASToken.md)
 
-[New-AzureStorageQueueSASToken](./New-AzureStorageQueueSASToken.md)
+[New-AzureStorageQueueSASToken](xref:Storage/Azure.Storage/v2.1.0/New-AzureStorageQueueSASToken.md)
 
-[New-AzureStorageShareSASToken](./New-AzureStorageShareSASToken.md)
+[New-AzureStorageShareSASToken](xref:Storage/Azure.Storage/v2.1.0/New-AzureStorageShareSASToken.md)
 
-[New-AzureStorageTableSASToken](./New-AzureStorageTableSASToken.md)
+[New-AzureStorageTableSASToken](xref:Storage/Azure.Storage/v2.1.0/New-AzureStorageTableSASToken.md)
 
 

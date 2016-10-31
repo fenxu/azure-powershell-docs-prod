@@ -87,14 +87,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureApplicationGateway](./Get-AzureApplicationGateway.md)
+[Get-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v1.6.1/Get-AzureApplicationGateway.md)
 
-[New-AzureApplicationGateway](./New-AzureApplicationGateway.md)
+[New-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v1.6.1/New-AzureApplicationGateway.md)
 
-[Start-AzureApplicationGateway](./Start-AzureApplicationGateway.md)
+[Start-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v1.6.1/Start-AzureApplicationGateway.md)
 
-[Stop-AzureApplicationGateway](./Stop-AzureApplicationGateway.md)
+[Stop-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v1.6.1/Stop-AzureApplicationGateway.md)
 
-[Update-AzureApplicationGateway](./Update-AzureApplicationGateway.md)
+[Update-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v1.6.1/Update-AzureApplicationGateway.md)
 
 

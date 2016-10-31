@@ -240,8 +240,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Azure Operational Insights Cmdlets](./AzureRM.OperationalInsights.md)
+[Azure Operational Insights Cmdlets](xref:ResourceManager/AzureRM.OperationalInsights/v1.0.12/AzureRM.OperationalInsights.md)
 
-[Get-AzureRmOperationalInsightsLinkTargets](./Get-AzureRmOperationalInsightsLinkTargets.md)
+[Get-AzureRmOperationalInsightsLinkTargets](xref:ResourceManager/AzureRM.OperationalInsights/v1.0.12/Get-AzureRmOperationalInsightsLinkTargets.md)
 
 

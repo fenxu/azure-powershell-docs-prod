@@ -149,8 +149,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmApiManagementUser](./Get-AzureRmApiManagementUser.md)
+[Get-AzureRmApiManagementUser](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementUser.md)
 
-[Remove-AzureRmApiManagementUserFromGroup](./Remove-AzureRmApiManagementUserFromGroup.md)
+[Remove-AzureRmApiManagementUserFromGroup](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementUserFromGroup.md)
 
 

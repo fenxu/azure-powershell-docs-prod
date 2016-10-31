@@ -153,6 +153,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureApplicationGatewayConfig](./Get-AzureApplicationGatewayConfig.md)
+[Get-AzureApplicationGatewayConfig](xref:ServiceManagement/Azure.Networking/v0.9.8/Get-AzureApplicationGatewayConfig.md)
 
 

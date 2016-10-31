@@ -290,8 +290,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-MetricDefinitions](./Get-MetricDefinitions.md)
+[Get-MetricDefinitions](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-MetricDefinitions.md)
 
-[Format-MetricsAsTable](./Format-MetricsAsTable.md)
+[Format-MetricsAsTable](xref:ResourceManager/AzureRM.Insights/v0.9.8/Format-MetricsAsTable.md)
 
 

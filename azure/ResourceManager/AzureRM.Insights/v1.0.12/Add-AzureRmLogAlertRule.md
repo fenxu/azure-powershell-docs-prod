@@ -258,14 +258,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmMetricAlertRule](./Add-AzureRmMetricAlertRule.md)
+[Add-AzureRmMetricAlertRule](xref:ResourceManager/AzureRM.Insights/v1.0.12/Add-AzureRmMetricAlertRule.md)
 
-[Add-AzureRmWebtestAlertRule](./Add-AzureRmWebtestAlertRule.md)
+[Add-AzureRmWebtestAlertRule](xref:ResourceManager/AzureRM.Insights/v1.0.12/Add-AzureRmWebtestAlertRule.md)
 
-[Get-AzureRmAlertHistory](./Get-AzureRmAlertHistory.md)
+[Get-AzureRmAlertHistory](xref:ResourceManager/AzureRM.Insights/v1.0.12/Get-AzureRmAlertHistory.md)
 
-[New-AzureRmAlertRuleEmail](./New-AzureRmAlertRuleEmail.md)
+[New-AzureRmAlertRuleEmail](xref:ResourceManager/AzureRM.Insights/v1.0.12/New-AzureRmAlertRuleEmail.md)
 
-[New-AzureRmAlertRuleWebhook](./New-AzureRmAlertRuleWebhook.md)
+[New-AzureRmAlertRuleWebhook](xref:ResourceManager/AzureRM.Insights/v1.0.12/New-AzureRmAlertRuleWebhook.md)
 
 

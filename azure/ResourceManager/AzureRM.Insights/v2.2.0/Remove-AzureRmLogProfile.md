@@ -66,8 +66,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmLogProfile](./Add-AzureRmLogProfile.md)
+[Add-AzureRmLogProfile](xref:ResourceManager/AzureRM.Insights/v2.2.0/Add-AzureRmLogProfile.md)
 
-[Get-AzureRmLogProfile](./Get-AzureRmLogProfile.md)
+[Get-AzureRmLogProfile](xref:ResourceManager/AzureRM.Insights/v2.2.0/Get-AzureRmLogProfile.md)
 
 

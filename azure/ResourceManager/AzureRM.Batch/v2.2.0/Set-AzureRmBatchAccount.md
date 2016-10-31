@@ -140,12 +140,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBatchAccount](./Get-AzureRmBatchAccount.md)
+[Get-AzureRmBatchAccount](xref:ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureRmBatchAccount.md)
 
-[New-AzureRmBatchAccount](./New-AzureRmBatchAccount.md)
+[New-AzureRmBatchAccount](xref:ResourceManager/AzureRM.Batch/v2.2.0/New-AzureRmBatchAccount.md)
 
-[Remove-AzureRmBatchAccount](./Remove-AzureRmBatchAccount.md)
+[Remove-AzureRmBatchAccount](xref:ResourceManager/AzureRM.Batch/v2.2.0/Remove-AzureRmBatchAccount.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v2.2.0/AzureRM.Batch.md)
 
 

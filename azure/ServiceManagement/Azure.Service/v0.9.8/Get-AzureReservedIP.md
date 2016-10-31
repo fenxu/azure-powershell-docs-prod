@@ -91,8 +91,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureReservedIP](./New-AzureReservedIP.md)
+[New-AzureReservedIP](xref:ServiceManagement/Azure.Service/v0.9.8/New-AzureReservedIP.md)
 
-[Remove-AzureReservedIP](./Remove-AzureReservedIP.md)
+[Remove-AzureReservedIP](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureReservedIP.md)
 
 

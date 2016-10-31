@@ -97,6 +97,6 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Add-AzureRmVmssSecret](./Add-AzureRmVmssSecret.md)
+[Add-AzureRmVmssSecret](xref:ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVmssSecret.md)
 
 

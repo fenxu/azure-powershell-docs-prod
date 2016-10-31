@@ -153,8 +153,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Restore-AzureWebsiteDeployment](./Restore-AzureWebsiteDeployment.md)
+[Restore-AzureWebsiteDeployment](xref:ServiceManagement/Azure.Compute/v1.6.1/Restore-AzureWebsiteDeployment.md)
 
-[Save-AzureWebsiteLog](./Save-AzureWebsiteLog.md)
+[Save-AzureWebsiteLog](xref:ServiceManagement/Azure.Compute/v1.6.1/Save-AzureWebsiteLog.md)
 
 

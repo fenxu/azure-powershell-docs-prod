@@ -158,8 +158,8 @@ This cmdlet returns object contains settings for automated patching.
 
 ## RELATED LINKS
 
-[New-AzureVMSqlServerAutoBackupConfig](./New-AzureVMSqlServerAutoBackupConfig.md)
+[New-AzureVMSqlServerAutoBackupConfig](xref:ResourceManager/AzureRM.Compute/v2.2.0/New-AzureVMSqlServerAutoBackupConfig.md)
 
-[Set-AzureRmVMSqlServerExtension](./Set-AzureRMVMSqlServerExtension.md)
+[Set-AzureRmVMSqlServerExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRMVMSqlServerExtension.md)
 
 

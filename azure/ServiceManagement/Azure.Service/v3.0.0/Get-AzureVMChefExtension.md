@@ -84,8 +84,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureVMChefExtension](./Remove-AzureVMChefExtension.md)
+[Remove-AzureVMChefExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMChefExtension.md)
 
-[Set-AzureVMChefExtension](./Set-AzureVMChefExtension.md)
+[Set-AzureVMChefExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMChefExtension.md)
 
 

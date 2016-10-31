@@ -103,10 +103,10 @@ You can modify this object, and then apply changes to Traffic Manager by using *
 
 ## RELATED LINKS
 
-[New-AzureTrafficManagerProfile](./New-AzureTrafficManagerProfile.md)
+[New-AzureTrafficManagerProfile](xref:ResourceManager/AzureRM.TrafficManager/v0.9.8/New-AzureTrafficManagerProfile.md)
 
-[Remove-AzureTrafficManagerProfile](./Remove-AzureTrafficManagerProfile.md)
+[Remove-AzureTrafficManagerProfile](xref:ResourceManager/AzureRM.TrafficManager/v0.9.8/Remove-AzureTrafficManagerProfile.md)
 
-[Set-AzureTrafficManagerProfile](./Set-AzureTrafficManagerProfile.md)
+[Set-AzureTrafficManagerProfile](xref:ResourceManager/AzureRM.TrafficManager/v0.9.8/Set-AzureTrafficManagerProfile.md)
 
 

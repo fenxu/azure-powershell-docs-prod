@@ -156,10 +156,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmVpnClientRevokedCertificate](./Add-AzureRmVpnClientRevokedCertificate.md)
+[Add-AzureRmVpnClientRevokedCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmVpnClientRevokedCertificate.md)
 
-[Get-AzureRmVpnClientRevokedCertificate](./Get-AzureRmVpnClientRevokedCertificate.md)
+[Get-AzureRmVpnClientRevokedCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmVpnClientRevokedCertificate.md)
 
-[New-AzureRmVpnClientRevokedCertificate](./New-AzureRmVpnClientRevokedCertificate.md)
+[New-AzureRmVpnClientRevokedCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmVpnClientRevokedCertificate.md)
 
 

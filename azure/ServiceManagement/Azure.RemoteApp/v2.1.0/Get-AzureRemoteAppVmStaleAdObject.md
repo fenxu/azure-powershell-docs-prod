@@ -105,6 +105,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Clear-AzureRemoteAppVmStaleAdObject](./Clear-AzureRemoteAppVmStaleAdObject.md)
+[Clear-AzureRemoteAppVmStaleAdObject](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/Clear-AzureRemoteAppVmStaleAdObject.md)
 
 

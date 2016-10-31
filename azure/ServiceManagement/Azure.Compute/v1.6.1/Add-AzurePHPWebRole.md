@@ -110,8 +110,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzurePHPWorkerRole](./Add-AzurePHPWorkerRole.md)
+[Add-AzurePHPWorkerRole](xref:ServiceManagement/Azure.Compute/v1.6.1/Add-AzurePHPWorkerRole.md)
 
-[New-AzureServiceProject](./New-AzureServiceProject.md)
+[New-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v1.6.1/New-AzureServiceProject.md)
 
 

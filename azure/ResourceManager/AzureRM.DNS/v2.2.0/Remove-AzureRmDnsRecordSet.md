@@ -302,10 +302,10 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Get-AzureRmDnsRecordSet](./Get-AzureRmDnsRecordSet.md)
+[Get-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.2.0/Get-AzureRmDnsRecordSet.md)
 
-[New-AzureRmDnsRecordSet](./New-AzureRmDnsRecordSet.md)
+[New-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.2.0/New-AzureRmDnsRecordSet.md)
 
-[Set-AzureRmDnsRecordSet](./Set-AzureRmDnsRecordSet.md)
+[Set-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.2.0/Set-AzureRmDnsRecordSet.md)
 
 

@@ -207,14 +207,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmDataFactoryPipeline](./Get-AzureRmDataFactoryPipeline.md)
+[Get-AzureRmDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v2.2.0/Get-AzureRmDataFactoryPipeline.md)
 
-[Remove-AzureRmDataFactoryPipeline](./Remove-AzureRmDataFactoryPipeline.md)
+[Remove-AzureRmDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v2.2.0/Remove-AzureRmDataFactoryPipeline.md)
 
-[Resume-AzureRmDataFactoryPipeline](./Resume-AzureRmDataFactoryPipeline.md)
+[Resume-AzureRmDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v2.2.0/Resume-AzureRmDataFactoryPipeline.md)
 
-[Set-AzureRmDataFactoryPipelineActivePeriod](./Set-AzureRmDataFactoryPipelineActivePeriod.md)
+[Set-AzureRmDataFactoryPipelineActivePeriod](xref:ResourceManager/AzureRM.DataFactories/v2.2.0/Set-AzureRmDataFactoryPipelineActivePeriod.md)
 
-[Suspend-AzureRmDataFactoryPipeline](./Suspend-AzureRmDataFactoryPipeline.md)
+[Suspend-AzureRmDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v2.2.0/Suspend-AzureRmDataFactoryPipeline.md)
 
 

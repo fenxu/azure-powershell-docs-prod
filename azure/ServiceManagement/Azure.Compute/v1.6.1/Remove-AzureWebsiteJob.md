@@ -145,14 +145,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureWebsite](./Remove-AzureWebsite.md)
+[Remove-AzureWebsite](xref:ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureWebsite.md)
 
-[Get-AzureWebsiteJob](./Get-AzureWebsiteJob.md)
+[Get-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsiteJob.md)
 
-[New-AzureWebsiteJob](./New-AzureWebsiteJob.md)
+[New-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v1.6.1/New-AzureWebsiteJob.md)
 
-[Start-AzureWebsiteJob](./Start-AzureWebsiteJob.md)
+[Start-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v1.6.1/Start-AzureWebsiteJob.md)
 
-[Stop-AzureWebsiteJob](./Stop-AzureWebsiteJob.md)
+[Stop-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v1.6.1/Stop-AzureWebsiteJob.md)
 
 

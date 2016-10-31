@@ -166,16 +166,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Backup-AzureRmBackupItem](./Backup-AzureRmBackupItem.md)
+[Backup-AzureRmBackupItem](xref:ResourceManager/AzureRM.Backup/v2.2.0/Backup-AzureRmBackupItem.md)
 
-[Disable-AzureRmBackupProtection](./Disable-AzureRmBackupProtection.md)
+[Disable-AzureRmBackupProtection](xref:ResourceManager/AzureRM.Backup/v2.2.0/Disable-AzureRmBackupProtection.md)
 
-[Enable-AzureRmBackupProtection](./Enable-AzureRmBackupProtection.md)
+[Enable-AzureRmBackupProtection](xref:ResourceManager/AzureRM.Backup/v2.2.0/Enable-AzureRmBackupProtection.md)
 
-[Get-AzureRmBackupContainer](./Get-AzureRmBackupContainer.md)
+[Get-AzureRmBackupContainer](xref:ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupContainer.md)
 
-[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupVault.md)
 
-[Restore-AzureRmBackupItem](./Restore-AzureRmBackupItem.md)
+[Restore-AzureRmBackupItem](xref:ResourceManager/AzureRM.Backup/v2.2.0/Restore-AzureRmBackupItem.md)
 
 

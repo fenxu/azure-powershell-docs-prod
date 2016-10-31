@@ -121,14 +121,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmNetworkSecurityRuleConfig](./Add-AzureRmNetworkSecurityRuleConfig.md)
+[Add-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmNetworkSecurityRuleConfig.md)
 
-[Get-AzureRmNetworkSecurityRuleConfig](./Get-AzureRmNetworkSecurityRuleConfig.md)
+[Get-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmNetworkSecurityRuleConfig.md)
 
-[New-AzureRmNetworkSecurityGroup](./New-AzureRmNetworkSecurityGroup.md)
+[New-AzureRmNetworkSecurityGroup](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmNetworkSecurityGroup.md)
 
-[New-AzureRmNetworkSecurityRuleConfig](./New-AzureRmNetworkSecurityRuleConfig.md)
+[New-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmNetworkSecurityRuleConfig.md)
 
-[Set-AzureRmNetworkSecurityRuleConfig](./Set-AzureRmNetworkSecurityRuleConfig.md)
+[Set-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmNetworkSecurityRuleConfig.md)
 
 

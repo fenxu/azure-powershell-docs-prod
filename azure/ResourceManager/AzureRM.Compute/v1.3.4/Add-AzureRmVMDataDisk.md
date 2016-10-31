@@ -292,10 +292,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureRmVMDataDisk](./Remove-AzureRmVMDataDisk.md)
+[Remove-AzureRmVMDataDisk](xref:ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVMDataDisk.md)
 
-[Get-AzureRmVM](./Get-AzureRmVM.md)
+[Get-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVM.md)
 
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)
+[New-AzureRmVMConfig](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVMConfig.md)
 
 

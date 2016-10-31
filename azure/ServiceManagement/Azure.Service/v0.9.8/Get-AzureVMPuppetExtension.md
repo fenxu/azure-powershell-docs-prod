@@ -84,8 +84,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureVMPuppetExtension](./Remove-AzureVMPuppetExtension.md)
+[Remove-AzureVMPuppetExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMPuppetExtension.md)
 
-[Set-AzureVMPuppetExtension](./Set-AzureVMPuppetExtension.md)
+[Set-AzureVMPuppetExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Set-AzureVMPuppetExtension.md)
 
 

@@ -218,16 +218,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmResourceProvider](./Get-AzureRmResourceProvider.md)
+[Get-AzureRmResourceProvider](xref:ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmResourceProvider.md)
 
-[Get-AzureRmResourceGroup](./Get-AzureRmResourceGroup.md)
+[Get-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmResourceGroup.md)
 
-[New-AzureRmResource](./New-AzureRmResource.md)
+[New-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResource.md)
 
-[New-AzureRmResourceGroupDeployment](./New-AzureRmResourceGroupDeployment.md)
+[New-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroupDeployment.md)
 
-[Remove-AzureRmResourceGroup](./Remove-AzureRmResourceGroup.md)
+[Remove-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.2.0/Remove-AzureRmResourceGroup.md)
 
-[Set-AzureRmResourceGroup](./Set-AzureRmResourceGroup.md)
+[Set-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.2.0/Set-AzureRmResourceGroup.md)
 
 

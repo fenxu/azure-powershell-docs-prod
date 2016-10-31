@@ -671,10 +671,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmHDInsightScriptAction](./Add-AzureRmHDInsightScriptAction.md)
+[Add-AzureRmHDInsightScriptAction](xref:ResourceManager/AzureRM.HDInsight/v2.1.0/Add-AzureRmHDInsightScriptAction.md)
 
-[Add-AzureRmHDInsightStorage](./Add-AzureRmHDInsightStorage.md)
+[Add-AzureRmHDInsightStorage](xref:ResourceManager/AzureRM.HDInsight/v2.1.0/Add-AzureRmHDInsightStorage.md)
 
-[New-AzureRmHDInsightClusterConfig](./New-AzureRmHDInsightClusterConfig.md)
+[New-AzureRmHDInsightClusterConfig](xref:ResourceManager/AzureRM.HDInsight/v2.1.0/New-AzureRmHDInsightClusterConfig.md)
 
 

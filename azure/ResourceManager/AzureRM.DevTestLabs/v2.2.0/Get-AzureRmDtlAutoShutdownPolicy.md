@@ -85,6 +85,6 @@ This cmdlet returns the schedule which specifies when the lab's virtual machines
 
 ## RELATED LINKS
 
-[Set-AzureRmDtlAutoShutdownPolicy](./Set-AzureRmDtlAutoShutdownPolicy.md)
+[Set-AzureRmDtlAutoShutdownPolicy](xref:ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlAutoShutdownPolicy.md)
 
 

@@ -227,12 +227,12 @@ Output from Get-ACSFarm and Get-ACSRoleInstance can be piped to this cmdlet's in
 
 ## RELATED LINKS
 
-[Get-ACSRoleInstance](./Get-ACSRoleInstance.md)
+[Get-ACSRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstance.md)
 
-[Update-ACSRoleInstance](./Update-ACSRoleInstance.md)
+[Update-ACSRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Update-ACSRoleInstance.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
-[Get-ACSRoleInstance](./Get-ACSRoleInstance.md)
+[Get-ACSRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstance.md)
 
 

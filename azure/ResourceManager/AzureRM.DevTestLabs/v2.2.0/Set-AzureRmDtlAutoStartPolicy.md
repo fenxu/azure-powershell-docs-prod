@@ -185,6 +185,6 @@ This cmdlet returns the schedule that specifies when the virtual machines of the
 
 ## RELATED LINKS
 
-[Get-AzureRmDtlAutoStartPolicy](./Get-AzureRmDtlAutoStartPolicy.md)
+[Get-AzureRmDtlAutoStartPolicy](xref:ResourceManager/AzureRM.DevTestLabs/v2.2.0/Get-AzureRmDtlAutoStartPolicy.md)
 
 

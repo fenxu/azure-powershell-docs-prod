@@ -161,10 +161,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmVirtualNetworkPeering](./Add-AzureRmVirtualNetworkPeering.md)
+[Add-AzureRmVirtualNetworkPeering](xref:ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmVirtualNetworkPeering.md)
 
-[Get-AzureRmVirtualNetworkPeering](./Get-AzureRmVirtualNetworkPeering.md)
+[Get-AzureRmVirtualNetworkPeering](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmVirtualNetworkPeering.md)
 
-[Remove-AzureRmVirtualNetworkPeering](./Remove-AzureRmVirtualNetworkPeering.md)
+[Remove-AzureRmVirtualNetworkPeering](xref:ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVirtualNetworkPeering.md)
 
 

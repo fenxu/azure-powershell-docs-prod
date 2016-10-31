@@ -222,14 +222,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlServer](./Get-AzureRmSqlServer.md)
+[Get-AzureRmSqlServer](xref:ResourceManager/AzureRM.Sql/v2.1.0/Get-AzureRmSqlServer.md)
 
-[Remove-AzureRmSqlServer](./Remove-AzureRmSqlServer.md)
+[Remove-AzureRmSqlServer](xref:ResourceManager/AzureRM.Sql/v2.1.0/Remove-AzureRmSqlServer.md)
 
-[Set-AzureRmSqlServer](./Set-AzureRmSqlServer.md)
+[Set-AzureRmSqlServer](xref:ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlServer.md)
 
-[New-AzureRmSqlServerFirewallRule](./New-AzureRmSqlServerFirewallRule.md)
+[New-AzureRmSqlServerFirewallRule](xref:ResourceManager/AzureRM.Sql/v2.1.0/New-AzureRmSqlServerFirewallRule.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v2.1.0/AzureRM.Sql.md)
 
 

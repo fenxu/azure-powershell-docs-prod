@@ -186,10 +186,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSchedulerJobCollection](./Get-AzureSchedulerJobCollection.md)
+[Get-AzureSchedulerJobCollection](xref:ServiceManagement/Azure.Compute/v2.1.0/Get-AzureSchedulerJobCollection.md)
 
-[Remove-AzureSchedulerJobCollection](./Remove-AzureSchedulerJobCollection.md)
+[Remove-AzureSchedulerJobCollection](xref:ServiceManagement/Azure.Compute/v2.1.0/Remove-AzureSchedulerJobCollection.md)
 
-[Set-AzureSchedulerJobCollection](./Set-AzureSchedulerJobCollection.md)
+[Set-AzureSchedulerJobCollection](xref:ServiceManagement/Azure.Compute/v2.1.0/Set-AzureSchedulerJobCollection.md)
 
 

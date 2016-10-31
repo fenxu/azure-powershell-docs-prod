@@ -175,10 +175,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmLoadBalancer](./Get-AzureRmLoadBalancer.md)
+[Get-AzureRmLoadBalancer](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmLoadBalancer.md)
 
-[New-AzureRmLoadBalancer](./New-AzureRmLoadBalancer.md)
+[New-AzureRmLoadBalancer](xref:ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmLoadBalancer.md)
 
-[Set-AzureRmLoadBalancer](./Set-AzureRmLoadBalancer.md)
+[Set-AzureRmLoadBalancer](xref:ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmLoadBalancer.md)
 
 

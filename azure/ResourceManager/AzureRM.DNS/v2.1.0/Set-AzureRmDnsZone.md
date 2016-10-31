@@ -207,10 +207,10 @@ If you specify *Confirm:$False*, the cmdlet does not prompt you for confirmation
 
 ## RELATED LINKS
 
-[Get-AzureRmDnsZone](./Get-AzureRmDnsZone.md)
+[Get-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.1.0/Get-AzureRmDnsZone.md)
 
-[New-AzureRmDnsZone](./New-AzureRmDnsZone.md)
+[New-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.1.0/New-AzureRmDnsZone.md)
 
-[Remove-AzureRmDnsZone](./Remove-AzureRmDnsZone.md)
+[Remove-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.1.0/Remove-AzureRmDnsZone.md)
 
 

@@ -220,8 +220,8 @@ Output from Get-ACSFarm and Get-ACSTableService can be piped to this cmdlet's in
 
 ## RELATED LINKS
 
-[Get-ACSTableService](./Get-ACSTableService.md)
+[Get-ACSTableService](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSTableService.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
 

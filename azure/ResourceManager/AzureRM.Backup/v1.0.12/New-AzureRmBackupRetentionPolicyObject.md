@@ -323,8 +323,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureRmBackupProtection](./Enable-AzureRmBackupProtection.md)
+[Enable-AzureRmBackupProtection](xref:ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupProtection.md)
 
-[New-AzureRmBackupProtectionPolicy](./New-AzureRmBackupProtectionPolicy.md)
+[New-AzureRmBackupProtectionPolicy](xref:ResourceManager/AzureRM.Backup/v1.0.12/New-AzureRmBackupProtectionPolicy.md)
 
 

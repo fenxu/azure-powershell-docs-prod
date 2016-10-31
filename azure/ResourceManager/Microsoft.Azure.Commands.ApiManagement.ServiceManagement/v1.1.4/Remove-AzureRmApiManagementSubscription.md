@@ -177,10 +177,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmApiManagementSubscription](./Get-AzureRmApiManagementSubscription.md)
+[Get-AzureRmApiManagementSubscription](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementSubscription.md)
 
-[New-AzureRmApiManagementSubscription](./New-AzureRmApiManagementSubscription.md)
+[New-AzureRmApiManagementSubscription](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementSubscription.md)
 
-[Set-AzureRmApiManagementSubscription](./Set-AzureRmApiManagementSubscription.md)
+[Set-AzureRmApiManagementSubscription](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementSubscription.md)
 
 

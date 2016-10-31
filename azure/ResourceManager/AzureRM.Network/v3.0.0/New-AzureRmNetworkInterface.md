@@ -503,10 +503,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmNetworkInterface](./Get-AzureRmNetworkInterface.md)
+[Get-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmNetworkInterface.md)
 
-[Remove-AzureRmNetworkInterface](./Remove-AzureRmNetworkInterface.md)
+[Remove-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmNetworkInterface.md)
 
-[Set-AzureRmNetworkInterface](./Set-AzureRmNetworkInterface.md)
+[Set-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmNetworkInterface.md)
 
 

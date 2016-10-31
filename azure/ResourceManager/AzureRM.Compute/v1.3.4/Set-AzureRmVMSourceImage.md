@@ -173,16 +173,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAvailabilitySet](./Get-AzureRmAvailabilitySet.md)
+[Get-AzureRmAvailabilitySet](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmAvailabilitySet.md)
 
-[Get-AzureRmVMImage](./Get-AzureRmVMImage.md)
+[Get-AzureRmVMImage](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMImage.md)
 
-[Get-AzureRmVMImageOffer](./Get-AzureRmVMImageOffer.md)
+[Get-AzureRmVMImageOffer](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMImageOffer.md)
 
-[Get-AzureRmVMImagePublisher](./Get-AzureRmVMImagePublisher.md)
+[Get-AzureRmVMImagePublisher](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMImagePublisher.md)
 
-[Get-AzureRmVMImageSku](./Get-AzureRmVMImageSku.md)
+[Get-AzureRmVMImageSku](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMImageSku.md)
 
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)
+[New-AzureRmVMConfig](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVMConfig.md)
 
 

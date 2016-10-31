@@ -373,14 +373,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Find-AzureRmResource](./Find-AzureRmResource.md)
+[Find-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v2.0.3/Find-AzureRmResource.md)
 
-[Move-AzureRmResource](./Move-AzureRmResource.md)
+[Move-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v2.0.3/Move-AzureRmResource.md)
 
-[New-AzureRmResource](./New-AzureRmResource.md)
+[New-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResource.md)
 
-[Remove-AzureRmResource](./Remove-AzureRmResource.md)
+[Remove-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResource.md)
 
-[Set-AzureRmResource](./Set-AzureRmResource.md)
+[Set-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmResource.md)
 
 

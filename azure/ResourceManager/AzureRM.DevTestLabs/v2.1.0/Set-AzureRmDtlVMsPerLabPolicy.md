@@ -200,6 +200,6 @@ This cmdlet returns the policy that specifies the maximum number of virtual mach
 
 ## RELATED LINKS
 
-[Get-AzureRmDtlVMsPerLabPolicy](./Get-AzureRmDtlVMsPerLabPolicy.md)
+[Get-AzureRmDtlVMsPerLabPolicy](xref:ResourceManager/AzureRM.DevTestLabs/v2.1.0/Get-AzureRmDtlVMsPerLabPolicy.md)
 
 

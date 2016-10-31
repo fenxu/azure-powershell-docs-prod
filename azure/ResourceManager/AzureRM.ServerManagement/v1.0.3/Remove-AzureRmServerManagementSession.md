@@ -164,8 +164,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmServerManagementSession](./Get-AzureRmServerManagementSession.md)
+[Get-AzureRmServerManagementSession](xref:ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementSession.md)
 
-[New-AzureRmServerManagementSession](./New-AzureRmServerManagementSession.md)
+[New-AzureRmServerManagementSession](xref:ResourceManager/AzureRM.ServerManagement/v1.0.3/New-AzureRmServerManagementSession.md)
 
 

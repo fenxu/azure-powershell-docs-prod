@@ -303,16 +303,16 @@ This cmdlet returns a **TaskStatusInfo** object, if you specify the *WaitForComp
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleDeviceVolume](./Get-AzureStorSimpleDeviceVolume.md)
+[Get-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleDeviceVolume.md)
 
-[Remove-AzureStorSimpleDeviceVolume](./Remove-AzureStorSimpleDeviceVolume.md)
+[Remove-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Remove-AzureStorSimpleDeviceVolume.md)
 
-[Set-AzureStorSimpleDeviceVolume](./Set-AzureStorSimpleDeviceVolume.md)
+[Set-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleDeviceVolume.md)
 
-[Get-AzureStorSimpleAccessControlRecord](./Get-AzureStorSimpleAccessControlRecord.md)
+[Get-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleAccessControlRecord.md)
 
-[Get-AzureStorSimpleDeviceVolumeContainer](./Get-AzureStorSimpleDeviceVolumeContainer.md)
+[Get-AzureStorSimpleDeviceVolumeContainer](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleDeviceVolumeContainer.md)
 
-[Get-AzureStorSimpleJob](./Get-AzureStorSimpleJob.md)
+[Get-AzureStorSimpleJob](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleJob.md)
 
 

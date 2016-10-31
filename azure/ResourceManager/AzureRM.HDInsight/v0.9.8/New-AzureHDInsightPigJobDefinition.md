@@ -161,8 +161,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Use Pig with Hadoop on HDInsight](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-use-pig/)
 
-[Start-AzureHDInsightJob](./Start-AzureHDInsightJob.md)
+[Start-AzureHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v0.9.8/Start-AzureHDInsightJob.md)
 
-[Azure HDInsight Cmdlets](./AzureRM.HDInsight.md)
+[Azure HDInsight Cmdlets](xref:ResourceManager/AzureRM.HDInsight/v0.9.8/AzureRM.HDInsight.md)
 
 

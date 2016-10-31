@@ -484,16 +484,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageBlob](./Get-AzureStorageBlob.md)
+[Get-AzureStorageBlob](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageBlob.md)
 
-[Get-AzureStorageContainer](./Get-AzureStorageContainer.md)
+[Get-AzureStorageContainer](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageContainer.md)
 
-[Get-AzureStorageFile](./Get-AzureStorageFile.md)
+[Get-AzureStorageFile](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageFile.md)
 
-[Get-AzureStorageShare](./Get-AzureStorageShare.md)
+[Get-AzureStorageShare](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageShare.md)
 
-[Get-AzureStorageFileCopyState](./Get-AzureStorageFileCopyState.md)
+[Get-AzureStorageFileCopyState](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageFileCopyState.md)
 
-[Stop-AzureStorageFileCopy](./Stop-AzureStorageFileCopy.md)
+[Stop-AzureStorageFileCopy](xref:Storage/Azure.Storage/v1.1.6/Stop-AzureStorageFileCopy.md)
 
 

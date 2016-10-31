@@ -246,6 +246,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureIPForwarding](./Get-AzureIPForwarding.md)
+[Get-AzureIPForwarding](xref:ServiceManagement/Azure.Networking/v3.0.0/Get-AzureIPForwarding.md)
 
 

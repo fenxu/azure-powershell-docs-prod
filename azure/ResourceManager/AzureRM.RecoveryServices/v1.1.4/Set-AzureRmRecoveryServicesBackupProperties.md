@@ -88,8 +88,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmRecoveryServicesBackupProperties](./Get-AzureRmRecoveryServicesBackupProperties.md)
+[Get-AzureRmRecoveryServicesBackupProperties](xref:ResourceManager/AzureRM.RecoveryServices/v1.1.4/Get-AzureRmRecoveryServicesBackupProperties.md)
 
-[Get-AzureRmRecoveryServicesVault](./Get-AzureRmRecoveryServicesVault.md)
+[Get-AzureRmRecoveryServicesVault](xref:ResourceManager/AzureRM.RecoveryServices/v1.1.4/Get-AzureRmRecoveryServicesVault.md)
 
 

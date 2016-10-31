@@ -109,8 +109,8 @@ Microsoft.Azure.Commands.Sql.ServerActiveDirectoryAdministrator.Model.AzureSqlSe
 
 ## RELATED LINKS
 
-[Remove-AzureSqlServerActiveDirectoryAdministrator](./Remove-AzureSqlServerActiveDirectoryAdministrator.md)
+[Remove-AzureSqlServerActiveDirectoryAdministrator](xref:ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlServerActiveDirectoryAdministrator.md)
 
-[Set-AzureSqlServerActiveDirectoryAdministrator](./Set-AzureSqlServerActiveDirectoryAdministrator.md)
+[Set-AzureSqlServerActiveDirectoryAdministrator](xref:ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlServerActiveDirectoryAdministrator.md)
 
 

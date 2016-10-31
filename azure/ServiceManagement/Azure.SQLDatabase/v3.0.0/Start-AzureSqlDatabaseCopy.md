@@ -322,10 +322,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Start Database Copy](https://msdn.microsoft.com/en-us/library/azure/dn509576.aspx)
 
-[Azure SQL Database Cmdlets](./Azure.SQLDatabase.md)
+[Azure SQL Database Cmdlets](xref:ServiceManagement/Azure.SQLDatabase/v3.0.0/Azure.SQLDatabase.md)
 
-[Get-AzureSqlDatabaseCopy](./Get-AzureSqlDatabaseCopy.md)
+[Get-AzureSqlDatabaseCopy](xref:ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseCopy.md)
 
-[Stop-AzureSqlDatabaseCopy](./Stop-AzureSqlDatabaseCopy.md)
+[Stop-AzureSqlDatabaseCopy](xref:ServiceManagement/Azure.SQLDatabase/v3.0.0/Stop-AzureSqlDatabaseCopy.md)
 
 

@@ -147,10 +147,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmStorageAccount](./New-AzureRmStorageAccount.md)
+[New-AzureRmStorageAccount](xref:ResourceManager/AzureRM.Storage/v2.1.0/New-AzureRmStorageAccount.md)
 
-[Remove-AzureRmStorageAccount](./Remove-AzureRmStorageAccount.md)
+[Remove-AzureRmStorageAccount](xref:ResourceManager/AzureRM.Storage/v2.1.0/Remove-AzureRmStorageAccount.md)
 
-[Set-AzureRmStorageAccount](./Set-AzureRmStorageAccount.md)
+[Set-AzureRmStorageAccount](xref:ResourceManager/AzureRM.Storage/v2.1.0/Set-AzureRmStorageAccount.md)
 
 

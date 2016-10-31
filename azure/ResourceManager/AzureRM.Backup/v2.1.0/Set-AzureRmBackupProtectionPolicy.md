@@ -200,6 +200,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmBackupProtectionPolicy](./New-AzureRmBackupProtectionPolicy.md)
+[New-AzureRmBackupProtectionPolicy](xref:ResourceManager/AzureRM.Backup/v2.1.0/New-AzureRmBackupProtectionPolicy.md)
 
 

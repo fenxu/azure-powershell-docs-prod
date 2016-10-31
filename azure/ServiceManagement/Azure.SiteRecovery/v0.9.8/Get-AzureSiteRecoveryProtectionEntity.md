@@ -193,8 +193,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureSiteRecoveryProtectionEntity](./Set-AzureSiteRecoveryProtectionEntity.md)
+[Set-AzureSiteRecoveryProtectionEntity](xref:ServiceManagement/Azure.SiteRecovery/v0.9.8/Set-AzureSiteRecoveryProtectionEntity.md)
 
-[Get-AzureSiteRecoveryProtectionContainer](./Get-AzureSiteRecoveryProtectionContainer.md)
+[Get-AzureSiteRecoveryProtectionContainer](xref:ServiceManagement/Azure.SiteRecovery/v0.9.8/Get-AzureSiteRecoveryProtectionContainer.md)
 
 

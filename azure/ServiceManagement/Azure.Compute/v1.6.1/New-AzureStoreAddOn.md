@@ -153,10 +153,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStoreAddOn](./Get-AzureStoreAddOn.md)
+[Get-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v1.6.1/Get-AzureStoreAddOn.md)
 
-[Remove-AzureStoreAddOn](./Remove-AzureStoreAddOn.md)
+[Remove-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureStoreAddOn.md)
 
-[Set-AzureStoreAddOn](./Set-AzureStoreAddOn.md)
+[Set-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v1.6.1/Set-AzureStoreAddOn.md)
 
 

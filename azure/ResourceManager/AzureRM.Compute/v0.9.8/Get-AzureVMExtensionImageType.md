@@ -103,6 +103,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMExtensionImage](./Get-AzureVMExtensionImage.md)
+[Get-AzureVMExtensionImage](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMExtensionImage.md)
 
 

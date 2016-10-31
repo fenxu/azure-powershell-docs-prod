@@ -388,10 +388,10 @@ This cmdlet returns a list of **Backup** objects.
 
 ## RELATED LINKS
 
-[Remove-AzureStorSimpleDeviceBackup](./Remove-AzureStorSimpleDeviceBackup.md)
+[Remove-AzureStorSimpleDeviceBackup](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Remove-AzureStorSimpleDeviceBackup.md)
 
-[Get-AzureStorSimpleDeviceBackupPolicy](./Get-AzureStorSimpleDeviceBackupPolicy.md)
+[Get-AzureStorSimpleDeviceBackupPolicy](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleDeviceBackupPolicy.md)
 
-[Get-AzureStorSimpleDeviceVolume](./Get-AzureStorSimpleDeviceVolume.md)
+[Get-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleDeviceVolume.md)
 
 

@@ -164,12 +164,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureProvisioningConfig](./Add-AzureProvisioningConfig.md)
+[Add-AzureProvisioningConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureProvisioningConfig.md)
 
-[New-AzureVMConfig](./New-AzureVMConfig.md)
+[New-AzureVMConfig](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVMConfig.md)
 
-[New-AzureVM](./New-AzureVM.md)
+[New-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md)
 
-[New-AzureQuickVM](./New-AzureQuickVM.md)
+[New-AzureQuickVM](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureQuickVM.md)
 
 

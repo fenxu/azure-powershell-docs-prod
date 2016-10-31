@@ -334,8 +334,8 @@ You can pipe **Snapshot** objects or a list of **AccessControlRecord** objects t
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleDeviceBackup](./Get-AzureStorSimpleDeviceBackup.md)
+[Get-AzureStorSimpleDeviceBackup](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleDeviceBackup.md)
 
-[Get-AzureStorSimpleAccessControlRecord](./Get-AzureStorSimpleAccessControlRecord.md)
+[Get-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleAccessControlRecord.md)
 
 

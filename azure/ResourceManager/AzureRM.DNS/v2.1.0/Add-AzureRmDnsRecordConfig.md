@@ -399,10 +399,10 @@ In addition, the object passed in is modified directly.
 
 ## RELATED LINKS
 
-[Get-AzureRmDnsRecordSet](./Get-AzureRmDnsRecordSet.md)
+[Get-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.1.0/Get-AzureRmDnsRecordSet.md)
 
-[Remove-AzureRmDnsRecordConfig](./Remove-AzureRmDnsRecordConfig.md)
+[Remove-AzureRmDnsRecordConfig](xref:ResourceManager/AzureRM.DNS/v2.1.0/Remove-AzureRmDnsRecordConfig.md)
 
-[Set-AzureRmDnsRecordSet](./Set-AzureRmDnsRecordSet.md)
+[Set-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.1.0/Set-AzureRmDnsRecordSet.md)
 
 

@@ -526,6 +526,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSchedulerHttpJob](./New-AzureSchedulerHttpJob.md)
+[New-AzureSchedulerHttpJob](xref:ServiceManagement/Azure.Compute/v3.0.0/New-AzureSchedulerHttpJob.md)
 
 

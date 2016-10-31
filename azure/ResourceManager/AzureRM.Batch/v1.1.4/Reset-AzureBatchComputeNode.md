@@ -146,10 +146,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureBatchComputeNode](./Get-AzureBatchComputeNode.md)
+[Get-AzureBatchComputeNode](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchComputeNode.md)
 
-[Restart-AzureBatchComputeNode](./Restart-AzureBatchComputeNode.md)
+[Restart-AzureBatchComputeNode](xref:ResourceManager/AzureRM.Batch/v1.1.4/Restart-AzureBatchComputeNode.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v1.1.4/AzureRM.Batch.md)
 
 

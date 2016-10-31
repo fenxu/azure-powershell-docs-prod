@@ -101,14 +101,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmApplicationGateway](./Get-AzureRmApplicationGateway.md)
+[Get-AzureRmApplicationGateway](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmApplicationGateway.md)
 
-[New-AzureRmApplicationGateway](./New-AzureRmApplicationGateway.md)
+[New-AzureRmApplicationGateway](xref:ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmApplicationGateway.md)
 
-[Remove-AzureRmApplicationGateway](./Remove-AzureRmApplicationGateway.md)
+[Remove-AzureRmApplicationGateway](xref:ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmApplicationGateway.md)
 
-[Set-AzureRmApplicationGateway](./Set-AzureRmApplicationGateway.md)
+[Set-AzureRmApplicationGateway](xref:ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmApplicationGateway.md)
 
-[Start-AzureRmApplicationGateway](./Start-AzureRmApplicationGateway.md)
+[Start-AzureRmApplicationGateway](xref:ResourceManager/AzureRM.Network/v1.0.13/Start-AzureRmApplicationGateway.md)
 
 

@@ -119,12 +119,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApplicationGatewayRequestRoutingRule](./Add-AzureRmApplicationGatewayRequestRoutingRule.md)
+[Add-AzureRmApplicationGatewayRequestRoutingRule](xref:ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmApplicationGatewayRequestRoutingRule.md)
 
-[Get-AzureRmApplicationGatewayRequestRoutingRule](./Get-AzureRmApplicationGatewayRequestRoutingRule.md)
+[Get-AzureRmApplicationGatewayRequestRoutingRule](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmApplicationGatewayRequestRoutingRule.md)
 
-[New-AzureRmApplicationGatewayRequestRoutingRule](./New-AzureRmApplicationGatewayRequestRoutingRule.md)
+[New-AzureRmApplicationGatewayRequestRoutingRule](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayRequestRoutingRule.md)
 
-[Set-AzureRmApplicationGatewayRequestRoutingRule](./Set-AzureRmApplicationGatewayRequestRoutingRule.md)
+[Set-AzureRmApplicationGatewayRequestRoutingRule](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmApplicationGatewayRequestRoutingRule.md)
 
 

@@ -156,8 +156,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmApplicationGatewaySslPolicy](./Get-AzureRmApplicationGatewaySslPolicy.md)
+[Get-AzureRmApplicationGatewaySslPolicy](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmApplicationGatewaySslPolicy.md)
 
-[New-AzureRmApplicationGatewaySslPolicy](./New-AzureRmApplicationGatewaySslPolicy.md)
+[New-AzureRmApplicationGatewaySslPolicy](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewaySslPolicy.md)
 
 

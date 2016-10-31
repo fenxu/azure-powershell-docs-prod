@@ -168,10 +168,10 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md)
 
-[New-AzureRmSqlDatabaseSecondary](./New-AzureRmSqlDatabaseSecondary.md)
+[New-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlDatabaseSecondary.md)
 
-[Set-AzureRmSqlDatabaseSecondary](./Set-AzureRmSqlDatabaseSecondary.md)
+[Set-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlDatabaseSecondary.md)
 
 

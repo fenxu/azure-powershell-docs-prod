@@ -105,10 +105,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v3.0.0/Get-AzureVM.md)
 
-[Remove-AzurePublicIP](./Remove-AzurePublicIP.md)
+[Remove-AzurePublicIP](xref:ServiceManagement/Azure.Service/v3.0.0/Remove-AzurePublicIP.md)
 
-[Set-AzurePublicIP](./Set-AzurePublicIP.md)
+[Set-AzurePublicIP](xref:ServiceManagement/Azure.Service/v3.0.0/Set-AzurePublicIP.md)
 
 

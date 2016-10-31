@@ -172,8 +172,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMBGInfoExtension](./Get-AzureVMBGInfoExtension.md)
+[Get-AzureVMBGInfoExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureVMBGInfoExtension.md)
 
-[Remove-AzureVMBGInfoExtension](./Remove-AzureVMBGInfoExtension.md)
+[Remove-AzureVMBGInfoExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMBGInfoExtension.md)
 
 

@@ -216,12 +216,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApplicationGatewayProbeConfig](./Add-AzureRmApplicationGatewayProbeConfig.md)
+[Add-AzureRmApplicationGatewayProbeConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmApplicationGatewayProbeConfig.md)
 
-[Get-AzureRmApplicationGatewayProbeConfig](./Get-AzureRmApplicationGatewayProbeConfig.md)
+[Get-AzureRmApplicationGatewayProbeConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmApplicationGatewayProbeConfig.md)
 
-[New-AzureRmApplicationGatewayProbeConfig](./New-AzureRmApplicationGatewayProbeConfig.md)
+[New-AzureRmApplicationGatewayProbeConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayProbeConfig.md)
 
-[Remove-AzureRmApplicationGatewayProbeConfig](./Remove-AzureRmApplicationGatewayProbeConfig.md)
+[Remove-AzureRmApplicationGatewayProbeConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmApplicationGatewayProbeConfig.md)
 
 

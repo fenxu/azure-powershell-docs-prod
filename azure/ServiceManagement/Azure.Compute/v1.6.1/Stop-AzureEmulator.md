@@ -84,6 +84,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureEmulator](./Start-AzureEmulator.md)
+[Start-AzureEmulator](xref:ServiceManagement/Azure.Compute/v1.6.1/Start-AzureEmulator.md)
 
 

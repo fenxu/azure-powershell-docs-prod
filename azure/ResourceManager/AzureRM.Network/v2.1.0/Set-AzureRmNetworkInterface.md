@@ -112,12 +112,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmNetworkInterface](./Get-AzureRmNetworkInterface.md)
+[Get-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmNetworkInterface.md)
 
-[Get-AzureRmNetworkInterface](./Get-AzureRmNetworkInterface.md)
+[Get-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmNetworkInterface.md)
 
-[New-AzureRmNetworkInterface](./New-AzureRmNetworkInterface.md)
+[New-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmNetworkInterface.md)
 
-[Remove-AzureRmNetworkInterface](./Remove-AzureRmNetworkInterface.md)
+[Remove-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmNetworkInterface.md)
 
 

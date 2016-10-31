@@ -146,10 +146,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationSchedule](./Get-AzureAutomationSchedule.md)
+[Get-AzureAutomationSchedule](xref:ServiceManagement/Azure.Automation/v1.6.1/Get-AzureAutomationSchedule.md)
 
-[New-AzureAutomationSchedule](./New-AzureAutomationSchedule.md)
+[New-AzureAutomationSchedule](xref:ServiceManagement/Azure.Automation/v1.6.1/New-AzureAutomationSchedule.md)
 
-[Set-AzureAutomationSchedule](./Set-AzureAutomationSchedule.md)
+[Set-AzureAutomationSchedule](xref:ServiceManagement/Azure.Automation/v1.6.1/Set-AzureAutomationSchedule.md)
 
 

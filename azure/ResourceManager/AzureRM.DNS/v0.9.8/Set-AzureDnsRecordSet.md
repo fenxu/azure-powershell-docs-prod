@@ -129,10 +129,10 @@ This cmdlet returns an object that represents the updated **RecordSet**.
 
 ## RELATED LINKS
 
-[Get-AzureDnsRecordSet](./Get-AzureDnsRecordSet.md)
+[Get-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/Get-AzureDnsRecordSet.md)
 
-[New-AzureDnsRecordSet](./New-AzureDnsRecordSet.md)
+[New-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/New-AzureDnsRecordSet.md)
 
-[Remove-AzureDnsRecordSet](./Remove-AzureDnsRecordSet.md)
+[Remove-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/Remove-AzureDnsRecordSet.md)
 
 

@@ -150,6 +150,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmApiManagementVirtualNetworks](./Set-AzureRmApiManagementVirtualNetworks.md)
+[Set-AzureRmApiManagementVirtualNetworks](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementVirtualNetworks.md)
 
 

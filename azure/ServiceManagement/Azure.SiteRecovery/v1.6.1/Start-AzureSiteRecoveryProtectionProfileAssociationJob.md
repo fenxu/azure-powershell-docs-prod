@@ -145,10 +145,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureSiteRecoveryProtectionProfileDissociationJob](./Start-AzureSiteRecoveryProtectionProfileDissociationJob.md)
+[Start-AzureSiteRecoveryProtectionProfileDissociationJob](xref:ServiceManagement/Azure.SiteRecovery/v1.6.1/Start-AzureSiteRecoveryProtectionProfileDissociationJob.md)
 
-[Get-AzureSiteRecoveryProtectionContainer](./Get-AzureSiteRecoveryProtectionContainer.md)
+[Get-AzureSiteRecoveryProtectionContainer](xref:ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryProtectionContainer.md)
 
-[New-AzureSiteRecoveryProtectionProfileObject](./New-AzureSiteRecoveryProtectionProfileObject.md)
+[New-AzureSiteRecoveryProtectionProfileObject](xref:ServiceManagement/Azure.SiteRecovery/v1.6.1/New-AzureSiteRecoveryProtectionProfileObject.md)
 
 

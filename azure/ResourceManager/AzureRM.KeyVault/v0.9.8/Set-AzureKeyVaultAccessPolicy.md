@@ -343,6 +343,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureKeyVaultAccessPolicy](./Remove-AzureKeyVaultAccessPolicy.md)
+[Remove-AzureKeyVaultAccessPolicy](xref:ResourceManager/AzureRM.KeyVault/v0.9.8/Remove-AzureKeyVaultAccessPolicy.md)
 
 

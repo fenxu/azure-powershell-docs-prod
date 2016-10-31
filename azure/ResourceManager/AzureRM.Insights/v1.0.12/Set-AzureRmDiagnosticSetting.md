@@ -236,6 +236,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmDiagnosticSetting](./Get-AzureRmDiagnosticSetting.md)
+[Get-AzureRmDiagnosticSetting](xref:ResourceManager/AzureRM.Insights/v1.0.12/Get-AzureRmDiagnosticSetting.md)
 
 

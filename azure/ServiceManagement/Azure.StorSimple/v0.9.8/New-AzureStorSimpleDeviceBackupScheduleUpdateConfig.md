@@ -204,8 +204,8 @@ This cmdlet returns a **BackupScheduleUpdateRequest** object that contains infor
 
 ## RELATED LINKS
 
-[New-AzureStorSimpleDeviceBackupScheduleAddConfig](./New-AzureStorSimpleDeviceBackupScheduleAddConfig.md)
+[New-AzureStorSimpleDeviceBackupScheduleAddConfig](xref:ServiceManagement/Azure.StorSimple/v0.9.8/New-AzureStorSimpleDeviceBackupScheduleAddConfig.md)
 
-[Set-AzureStorSimpleDeviceBackupPolicy](./Set-AzureStorSimpleDeviceBackupPolicy.md)
+[Set-AzureStorSimpleDeviceBackupPolicy](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Set-AzureStorSimpleDeviceBackupPolicy.md)
 
 

@@ -159,10 +159,10 @@ Returns $True if no exception occurs.
 
 ## RELATED LINKS
 
-[Get-AzureRmRedisCache](./Get-AzureRmRedisCache.md)
+[Get-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Get-AzureRmRedisCache.md)
 
-[New-AzureRmRedisCache](./New-AzureRmRedisCache.md)
+[New-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/New-AzureRmRedisCache.md)
 
-[Set-AzureRmRedisCache](./Set-AzureRmRedisCache.md)
+[Set-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Set-AzureRmRedisCache.md)
 
 

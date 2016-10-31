@@ -98,10 +98,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationAccount](./Get-AzureAutomationAccount.md)
+[Get-AzureAutomationAccount](xref:ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationAccount.md)
 
-[Get-AzureAutomationDscNode](./Get-AzureAutomationDscNode.md)
+[Get-AzureAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscNode.md)
 
-[New-AzureAutomationKey](./New-AzureAutomationKey.md)
+[New-AzureAutomationKey](xref:ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationKey.md)
 
 

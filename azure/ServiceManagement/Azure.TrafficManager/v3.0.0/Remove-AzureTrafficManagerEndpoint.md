@@ -122,12 +122,12 @@ This cmdlet generates a Traffic Manager profile object, which contains informati
 
 ## RELATED LINKS
 
-[Add-AzureTrafficManagerEndpoint](./Add-AzureTrafficManagerEndpoint.md)
+[Add-AzureTrafficManagerEndpoint](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Add-AzureTrafficManagerEndpoint.md)
 
-[Set-AzureTrafficManagerEndpoint](./Set-AzureTrafficManagerEndpoint.md)
+[Set-AzureTrafficManagerEndpoint](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Set-AzureTrafficManagerEndpoint.md)
 
-[Get-AzureTrafficManagerProfile](./Get-AzureTrafficManagerProfile.md)
+[Get-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Get-AzureTrafficManagerProfile.md)
 
-[Set-AzureTrafficManagerProfile](./Set-AzureTrafficManagerProfile.md)
+[Set-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Set-AzureTrafficManagerProfile.md)
 
 

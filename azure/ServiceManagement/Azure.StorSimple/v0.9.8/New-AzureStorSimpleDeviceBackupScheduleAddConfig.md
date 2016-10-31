@@ -188,8 +188,8 @@ Use a **BackupScheduleBase** to construct new backup policy.
 
 ## RELATED LINKS
 
-[New-AzureStorSimpleDeviceBackupScheduleUpdateConfig](./New-AzureStorSimpleDeviceBackupScheduleUpdateConfig.md)
+[New-AzureStorSimpleDeviceBackupScheduleUpdateConfig](xref:ServiceManagement/Azure.StorSimple/v0.9.8/New-AzureStorSimpleDeviceBackupScheduleUpdateConfig.md)
 
-[New-AzureStorSimpleDeviceBackupPolicy](./New-AzureStorSimpleDeviceBackupPolicy.md)
+[New-AzureStorSimpleDeviceBackupPolicy](xref:ServiceManagement/Azure.StorSimple/v0.9.8/New-AzureStorSimpleDeviceBackupPolicy.md)
 
 

@@ -220,10 +220,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Restart-AzureSiteRecoveryJob](./Restart-AzureSiteRecoveryJob.md)
+[Restart-AzureSiteRecoveryJob](xref:ServiceManagement/Azure.SiteRecovery/v3.0.0/Restart-AzureSiteRecoveryJob.md)
 
-[Resume-AzureSiteRecoveryJob](./Resume-AzureSiteRecoveryJob.md)
+[Resume-AzureSiteRecoveryJob](xref:ServiceManagement/Azure.SiteRecovery/v3.0.0/Resume-AzureSiteRecoveryJob.md)
 
-[Stop-AzureSiteRecoveryJob](./Stop-AzureSiteRecoveryJob.md)
+[Stop-AzureSiteRecoveryJob](xref:ServiceManagement/Azure.SiteRecovery/v3.0.0/Stop-AzureSiteRecoveryJob.md)
 
 

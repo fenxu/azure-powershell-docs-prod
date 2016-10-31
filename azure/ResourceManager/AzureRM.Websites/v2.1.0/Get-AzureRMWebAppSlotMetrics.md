@@ -204,10 +204,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRMAppServicePlanMetrics](./Get-AzureRmAppServicePlanMetrics.md)
+[Get-AzureRMAppServicePlanMetrics](xref:ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRmAppServicePlanMetrics.md)
 
-[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)
+[Get-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRmWebApp.md)
 
-[Get-AzureRMWebAppSlot](./Get-AzureRMWebAppSlot.md)
+[Get-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRMWebAppSlot.md)
 
 

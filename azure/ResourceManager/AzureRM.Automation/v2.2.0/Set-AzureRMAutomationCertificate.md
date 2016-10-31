@@ -168,10 +168,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationCertificate](./Get-AzureRMAutomationCertificate.md)
+[Get-AzureRmAutomationCertificate](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationCertificate.md)
 
-[New-AzureRmAutomationCertificate](./New-AzureRMAutomationCertificate.md)
+[New-AzureRmAutomationCertificate](xref:ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationCertificate.md)
 
-[Remove-AzureRmAutomationCertificate](./Remove-AzureRMAutomationCertificate.md)
+[Remove-AzureRmAutomationCertificate](xref:ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRMAutomationCertificate.md)
 
 

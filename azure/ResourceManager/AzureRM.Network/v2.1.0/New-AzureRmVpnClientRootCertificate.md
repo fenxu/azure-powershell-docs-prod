@@ -152,10 +152,10 @@ This cmdlet creates new instances of the **Microsoft.Azure.Commands.Network.Mode
 
 ## RELATED LINKS
 
-[Add-AzureRmVpnClientRootCertificate](./Add-AzureRmVpnClientRootCertificate.md)
+[Add-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmVpnClientRootCertificate.md)
 
-[Get-AzureRmVpnClientRootCertificate](./Get-AzureRmVpnClientRootCertificate.md)
+[Get-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmVpnClientRootCertificate.md)
 
-[Remove-AzureRmVpnClientRootCertificate](./Remove-AzureRmVpnClientRootCertificate.md)
+[Remove-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmVpnClientRootCertificate.md)
 
 

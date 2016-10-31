@@ -134,12 +134,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzurePublicIP](./Get-AzurePublicIP.md)
+[Get-AzurePublicIP](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzurePublicIP.md)
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVM.md)
 
-[Set-AzurePublicIP](./Set-AzurePublicIP.md)
+[Set-AzurePublicIP](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzurePublicIP.md)
 
-[Update-AzureVM](./Update-AzureVM.md)
+[Update-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Update-AzureVM.md)
 
 

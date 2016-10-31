@@ -170,16 +170,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAvailabilitySet](./Get-AzureAvailabilitySet.md)
+[Get-AzureAvailabilitySet](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureAvailabilitySet.md)
 
-[New-AzureVMConfig](./New-AzureVMConfig.md)
+[New-AzureVMConfig](xref:ResourceManager/AzureRM.Compute/v0.9.8/New-AzureVMConfig.md)
 
-[Get-AzureVMImagePublisher](./Get-AzureVMImagePublisher.md)
+[Get-AzureVMImagePublisher](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMImagePublisher.md)
 
-[Get-AzureVMImageOffer](./Get-AzureVMImageOffer.md)
+[Get-AzureVMImageOffer](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMImageOffer.md)
 
-[Get-AzureVMImageSku](./Get-AzureVMImageSku.md)
+[Get-AzureVMImageSku](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMImageSku.md)
 
-[Get-AzureVMImage](./Get-AzureVMImage.md)
+[Get-AzureVMImage](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMImage.md)
 
 

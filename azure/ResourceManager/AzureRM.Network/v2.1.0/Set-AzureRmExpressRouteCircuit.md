@@ -97,12 +97,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmExpressRouteCircuit](./Get-AzureRmExpressRouteCircuit.md)
+[Get-AzureRmExpressRouteCircuit](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmExpressRouteCircuit.md)
 
-[Move-AzureRmExpressRouteCircuit](./Move-AzureRmExpressRouteCircuit.md)
+[Move-AzureRmExpressRouteCircuit](xref:ResourceManager/AzureRM.Network/v2.1.0/Move-AzureRmExpressRouteCircuit.md)
 
-[New-AzureRmExpressRouteCircuit](./New-AzureRmExpressRouteCircuit.md)
+[New-AzureRmExpressRouteCircuit](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmExpressRouteCircuit.md)
 
-[Remove-AzureRmExpressRouteCircuit](./Remove-AzureRmExpressRouteCircuit.md)
+[Remove-AzureRmExpressRouteCircuit](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmExpressRouteCircuit.md)
 
 

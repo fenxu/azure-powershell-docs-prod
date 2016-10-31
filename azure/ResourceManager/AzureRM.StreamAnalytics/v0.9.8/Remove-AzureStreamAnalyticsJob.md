@@ -133,12 +133,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStreamAnalyticsJob](./Get-AzureStreamAnalyticsJob.md)
+[Get-AzureStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Get-AzureStreamAnalyticsJob.md)
 
-[New-AzureStreamAnalyticsJob](./New-AzureStreamAnalyticsJob.md)
+[New-AzureStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v0.9.8/New-AzureStreamAnalyticsJob.md)
 
-[Start-AzureStreamAnalyticsJob](./Start-AzureStreamAnalyticsJob.md)
+[Start-AzureStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Start-AzureStreamAnalyticsJob.md)
 
-[Stop-AzureStreamAnalyticsJob](./Stop-AzureStreamAnalyticsJob.md)
+[Stop-AzureStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Stop-AzureStreamAnalyticsJob.md)
 
 

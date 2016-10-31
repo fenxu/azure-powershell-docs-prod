@@ -366,10 +366,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationSchedule](./Get-AzureRMAutomationSchedule.md)
+[Get-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationSchedule.md)
 
-[Remove-AzureRmAutomationSchedule](./Remove-AzureRMAutomationSchedule.md)
+[Remove-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v1.0.12/Remove-AzureRMAutomationSchedule.md)
 
-[Set-AzureRmAutomationSchedule](./Set-AzureRMAutomationSchedule.md)
+[Set-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRMAutomationSchedule.md)
 
 

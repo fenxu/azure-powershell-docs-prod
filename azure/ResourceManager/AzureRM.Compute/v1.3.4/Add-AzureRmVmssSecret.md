@@ -147,8 +147,8 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[New-AzureRmVmssVaultCertificateConfig](./New-AzureRmVmssVaultCertificateConfig.md)
+[New-AzureRmVmssVaultCertificateConfig](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssVaultCertificateConfig.md)
 
-[New-AzureRmVmssConfig](./New-AzureRmVmssConfig.md)
+[New-AzureRmVmssConfig](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssConfig.md)
 
 

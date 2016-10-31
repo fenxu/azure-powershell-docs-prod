@@ -102,6 +102,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRemoteAppVNet](./Set-AzureRemoteAppVNet.md)
+[Set-AzureRemoteAppVNet](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/Set-AzureRemoteAppVNet.md)
 
 

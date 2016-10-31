@@ -369,12 +369,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Backup-AzureKeyVaultKey](./Backup-AzureKeyVaultKey.md)
+[Backup-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Backup-AzureKeyVaultKey.md)
 
-[Get-AzureKeyVaultKey](./Get-AzureKeyVaultKey.md)
+[Get-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Get-AzureKeyVaultKey.md)
 
-[Remove-AzureKeyVaultKey](./Remove-AzureKeyVaultKey.md)
+[Remove-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Remove-AzureKeyVaultKey.md)
 
-[Set-AzureKeyVaultKeyAttribute](./Set-AzureKeyVaultKeyAttribute.md)
+[Set-AzureKeyVaultKeyAttribute](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureKeyVaultKeyAttribute.md)
 
 

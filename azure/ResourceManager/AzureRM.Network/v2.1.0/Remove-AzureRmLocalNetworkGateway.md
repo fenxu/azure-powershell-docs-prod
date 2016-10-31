@@ -176,10 +176,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmLocalNetworkGateway](./Get-AzureRmLocalNetworkGateway.md)
+[Get-AzureRmLocalNetworkGateway](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmLocalNetworkGateway.md)
 
-[New-AzureRmLocalNetworkGateway](./New-AzureRmLocalNetworkGateway.md)
+[New-AzureRmLocalNetworkGateway](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmLocalNetworkGateway.md)
 
-[Set-AzureRmLocalNetworkGateway](./Set-AzureRmLocalNetworkGateway.md)
+[Set-AzureRmLocalNetworkGateway](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmLocalNetworkGateway.md)
 
 

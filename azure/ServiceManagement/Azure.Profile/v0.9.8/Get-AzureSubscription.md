@@ -212,14 +212,14 @@ You can pipe input to the **SubscriptionName** property by name, but not by valu
 
 ## RELATED LINKS
 
-[Add-AzureAccount](./Add-AzureAccount.md)
+[Add-AzureAccount](xref:ServiceManagement/Azure.Profile/v0.9.8/Add-AzureAccount.md)
 
-[Get-AzurePublishSettingsFile](./Get-AzurePublishSettingsFile.md)
+[Get-AzurePublishSettingsFile](xref:ServiceManagement/Azure.Profile/v0.9.8/Get-AzurePublishSettingsFile.md)
 
-[Import-AzurePublishSettingsFile](./Import-AzurePublishSettingsFile.md)
+[Import-AzurePublishSettingsFile](xref:ServiceManagement/Azure.Profile/v0.9.8/Import-AzurePublishSettingsFile.md)
 
-[Remove-AzureSubscription](./Remove-AzureSubscription.md)
+[Remove-AzureSubscription](xref:ServiceManagement/Azure.Profile/v0.9.8/Remove-AzureSubscription.md)
 
-[Set-AzureSubscription](./Set-AzureSubscription.md)
+[Set-AzureSubscription](xref:ServiceManagement/Azure.Profile/v0.9.8/Set-AzureSubscription.md)
 
 

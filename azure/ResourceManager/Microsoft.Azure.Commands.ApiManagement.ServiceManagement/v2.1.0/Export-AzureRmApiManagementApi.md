@@ -220,14 +220,14 @@ This cmdlet returns the exported API content as a string.
 
 ## RELATED LINKS
 
-[Get-AzureRmApiManagementApi](./Get-AzureRmApiManagementApi.md)
+[Get-AzureRmApiManagementApi](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementApi.md)
 
-[Import-AzureRmApiManagementApi](./Import-AzureRmApiManagementApi.md)
+[Import-AzureRmApiManagementApi](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Import-AzureRmApiManagementApi.md)
 
-[New-AzureRmApiManagementApi](./New-AzureRmApiManagementApi.md)
+[New-AzureRmApiManagementApi](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementApi.md)
 
-[Remove-AzureRmApiManagementApi](./Remove-AzureRmApiManagementApi.md)
+[Remove-AzureRmApiManagementApi](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementApi.md)
 
-[Set-AzureRmApiManagementApi](./Set-AzureRmApiManagementApi.md)
+[Set-AzureRmApiManagementApi](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementApi.md)
 
 

@@ -268,6 +268,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmMetricDefinition](./Get-AzureRmMetricDefinition.md)
+[Get-AzureRmMetricDefinition](xref:ResourceManager/AzureRM.Insights/v1.0.12/Get-AzureRmMetricDefinition.md)
 
 

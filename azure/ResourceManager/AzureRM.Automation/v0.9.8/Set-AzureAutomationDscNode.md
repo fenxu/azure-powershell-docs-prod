@@ -142,10 +142,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationDscNode](./Get-AzureAutomationDscNode.md)
+[Get-AzureAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscNode.md)
 
-[Register-AzureAutomationDscNode](./Register-AzureAutomationDscNode.md)
+[Register-AzureAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v0.9.8/Register-AzureAutomationDscNode.md)
 
-[Unregister-AzureAutomationDscNode](./Unregister-AzureAutomationDscNode.md)
+[Unregister-AzureAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v0.9.8/Unregister-AzureAutomationDscNode.md)
 
 

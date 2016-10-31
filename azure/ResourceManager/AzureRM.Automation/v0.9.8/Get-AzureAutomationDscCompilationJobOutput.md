@@ -154,8 +154,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationDscCompilationJob](./Get-AzureAutomationDscCompilationJob.md)
+[Get-AzureAutomationDscCompilationJob](xref:ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscCompilationJob.md)
 
-[Start-AzureAutomationDscCompilationJob](./Start-AzureAutomationDscCompilationJob.md)
+[Start-AzureAutomationDscCompilationJob](xref:ResourceManager/AzureRM.Automation/v0.9.8/Start-AzureAutomationDscCompilationJob.md)
 
 

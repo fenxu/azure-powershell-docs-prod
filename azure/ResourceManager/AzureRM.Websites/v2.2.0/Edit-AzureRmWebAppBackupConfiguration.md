@@ -225,6 +225,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmWebAppBackupConfiguration](./Get-AzureRmWebAppBackupConfiguration.md)
+[Get-AzureRmWebAppBackupConfiguration](xref:ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRmWebAppBackupConfiguration.md)
 
 

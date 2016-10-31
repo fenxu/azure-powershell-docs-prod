@@ -179,8 +179,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureService](./Get-AzureService.md)
+[Get-AzureService](xref:ServiceManagement/Azure.Service/v3.0.0/Get-AzureService.md)
 
-[Set-AzureService](./Set-AzureService.md)
+[Set-AzureService](xref:ServiceManagement/Azure.Service/v3.0.0/Set-AzureService.md)
 
 

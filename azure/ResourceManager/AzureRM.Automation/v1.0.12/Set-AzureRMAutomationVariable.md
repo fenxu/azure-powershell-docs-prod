@@ -155,10 +155,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationVariable](./Get-AzureRMAutomationVariable.md)
+[Get-AzureRmAutomationVariable](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationVariable.md)
 
-[New-AzureRmAutomationVariable](./New-AzureRMAutomationVariable.md)
+[New-AzureRmAutomationVariable](xref:ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationVariable.md)
 
-[Remove-AzureRmAutomationVariable](./Remove-AzureRMAutomationVariable.md)
+[Remove-AzureRmAutomationVariable](xref:ResourceManager/AzureRM.Automation/v1.0.12/Remove-AzureRMAutomationVariable.md)
 
 

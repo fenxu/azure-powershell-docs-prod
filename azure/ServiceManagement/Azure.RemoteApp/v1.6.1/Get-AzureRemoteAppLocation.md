@@ -66,6 +66,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppPlan](./Get-AzureRemoteAppPlan.md)
+[Get-AzureRemoteAppPlan](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppPlan.md)
 
 

@@ -132,6 +132,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmApiManagementTenantAccess](./Get-AzureRmApiManagementTenantAccess.md)
+[Get-AzureRmApiManagementTenantAccess](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementTenantAccess.md)
 
 

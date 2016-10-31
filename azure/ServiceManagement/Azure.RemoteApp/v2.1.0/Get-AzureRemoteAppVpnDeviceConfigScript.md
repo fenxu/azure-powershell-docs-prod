@@ -132,6 +132,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppVpnDevice](./Get-AzureRemoteAppVpnDevice.md)
+[Get-AzureRemoteAppVpnDevice](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/Get-AzureRemoteAppVpnDevice.md)
 
 

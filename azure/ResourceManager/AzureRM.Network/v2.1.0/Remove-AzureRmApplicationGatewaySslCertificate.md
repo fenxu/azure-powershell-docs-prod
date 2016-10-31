@@ -119,12 +119,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApplicationGatewaySslCertificate](./Add-AzureRmApplicationGatewaySslCertificate.md)
+[Add-AzureRmApplicationGatewaySslCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmApplicationGatewaySslCertificate.md)
 
-[Get-AzureRmApplicationGatewaySslCertificate](./Get-AzureRmApplicationGatewaySslCertificate.md)
+[Get-AzureRmApplicationGatewaySslCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmApplicationGatewaySslCertificate.md)
 
-[New-AzureRmApplicationGatewaySslCertificate](./New-AzureRmApplicationGatewaySslCertificate.md)
+[New-AzureRmApplicationGatewaySslCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewaySslCertificate.md)
 
-[Set-AzureRmApplicationGatewaySslCertificate](./Set-AzureRmApplicationGatewaySslCertificate.md)
+[Set-AzureRmApplicationGatewaySslCertificate](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmApplicationGatewaySslCertificate.md)
 
 

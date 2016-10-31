@@ -660,10 +660,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureLocation](./Get-AzureLocation.md)
+[Get-AzureLocation](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureLocation.md)
 
-[Get-AzureVMImage](./Get-AzureVMImage.md)
+[Get-AzureVMImage](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureVMImage.md)
 
-[New-AzureDns](./New-AzureDns.md)
+[New-AzureDns](xref:ServiceManagement/Azure.Service/v0.9.8/New-AzureDns.md)
 
 

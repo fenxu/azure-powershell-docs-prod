@@ -221,10 +221,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AlertRule](./Add-AlertRule.md)
+[Add-AlertRule](xref:ResourceManager/AzureRM.Insights/v0.9.8/Add-AlertRule.md)
 
-[Remove-AlertRule](./Remove-AlertRule.md)
+[Remove-AlertRule](xref:ResourceManager/AzureRM.Insights/v0.9.8/Remove-AlertRule.md)
 
-[Get-AlertRule](./Get-AlertRule.md)
+[Get-AlertRule](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AlertRule.md)
 
 

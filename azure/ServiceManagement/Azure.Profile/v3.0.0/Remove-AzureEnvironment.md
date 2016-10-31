@@ -120,10 +120,10 @@ Otherwise, it does not return any output.
 
 ## RELATED LINKS
 
-[Add-AzureEnvironment](./Add-AzureEnvironment.md)
+[Add-AzureEnvironment](xref:ServiceManagement/Azure.Profile/v3.0.0/Add-AzureEnvironment.md)
 
-[Get-AzureEnvironment](./Get-AzureEnvironment.md)
+[Get-AzureEnvironment](xref:ServiceManagement/Azure.Profile/v3.0.0/Get-AzureEnvironment.md)
 
-[Set-AzureEnvironment](./Set-AzureEnvironment.md)
+[Set-AzureEnvironment](xref:ServiceManagement/Azure.Profile/v3.0.0/Set-AzureEnvironment.md)
 
 

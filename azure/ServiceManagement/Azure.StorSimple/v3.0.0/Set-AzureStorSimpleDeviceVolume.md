@@ -251,14 +251,14 @@ This cmdlet returns a **TaskStatusInfo** object, if you specify the *WaitForComp
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleDeviceVolume](./Get-AzureStorSimpleDeviceVolume.md)
+[Get-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleDeviceVolume.md)
 
-[New-AzureStorSimpleDeviceVolume](./New-AzureStorSimpleDeviceVolume.md)
+[New-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v3.0.0/New-AzureStorSimpleDeviceVolume.md)
 
-[Remove-AzureStorSimpleDeviceVolume](./Remove-AzureStorSimpleDeviceVolume.md)
+[Remove-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v3.0.0/Remove-AzureStorSimpleDeviceVolume.md)
 
-[Get-AzureStorSimpleAccessControlRecord](./Get-AzureStorSimpleAccessControlRecord.md)
+[Get-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleAccessControlRecord.md)
 
-[Get-AzureStorSimpleJob](./Get-AzureStorSimpleJob.md)
+[Get-AzureStorSimpleJob](xref:ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleJob.md)
 
 

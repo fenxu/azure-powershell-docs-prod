@@ -263,10 +263,10 @@ This cmdlet returns **ReplicationLink** objects.
 
 ## RELATED LINKS
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v2.1.0/AzureRM.Sql.md)
 
-[Remove-AzureRmSqlDatabaseSecondary](./Remove-AzureRmSqlDatabaseSecondary.md)
+[Remove-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/v2.1.0/Remove-AzureRmSqlDatabaseSecondary.md)
 
-[Set-AzureRmSqlDatabaseSecondary](./Set-AzureRmSqlDatabaseSecondary.md)
+[Set-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlDatabaseSecondary.md)
 
 

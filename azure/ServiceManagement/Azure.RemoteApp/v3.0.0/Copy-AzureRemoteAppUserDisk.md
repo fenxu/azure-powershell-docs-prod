@@ -131,6 +131,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureRemoteAppUserDisk](./Remove-AzureRemoteAppUserDisk.md)
+[Remove-AzureRemoteAppUserDisk](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Remove-AzureRemoteAppUserDisk.md)
 
 

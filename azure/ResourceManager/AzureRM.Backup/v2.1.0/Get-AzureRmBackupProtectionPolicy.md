@@ -114,12 +114,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v2.1.0/Get-AzureRmBackupVault.md)
 
-[Enable-AzureRmBackupProtection](./Enable-AzureRmBackupProtection.md)
+[Enable-AzureRmBackupProtection](xref:ResourceManager/AzureRM.Backup/v2.1.0/Enable-AzureRmBackupProtection.md)
 
-[New-AzureRmBackupProtectionPolicy](./New-AzureRmBackupProtectionPolicy.md)
+[New-AzureRmBackupProtectionPolicy](xref:ResourceManager/AzureRM.Backup/v2.1.0/New-AzureRmBackupProtectionPolicy.md)
 
-[Remove-AzureRmBackupProtectionPolicy](./Remove-AzureRmBackupProtectionPolicy.md)
+[Remove-AzureRmBackupProtectionPolicy](xref:ResourceManager/AzureRM.Backup/v2.1.0/Remove-AzureRmBackupProtectionPolicy.md)
 
 

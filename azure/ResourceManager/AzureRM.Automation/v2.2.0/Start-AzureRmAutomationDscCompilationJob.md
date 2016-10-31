@@ -133,8 +133,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationDscCompilationJob](./Get-AzureRmAutomationDscCompilationJob.md)
+[Get-AzureRmAutomationDscCompilationJob](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationDscCompilationJob.md)
 
-[Get-AzureRmAutomationDscCompilationJobOutput](./Get-AzureRmAutomationDscCompilationJobOutput.md)
+[Get-AzureRmAutomationDscCompilationJobOutput](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationDscCompilationJobOutput.md)
 
 

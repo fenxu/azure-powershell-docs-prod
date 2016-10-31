@@ -156,6 +156,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureReservedIPAssociation](./Remove-AzureReservedIPAssociation.md)
+[Remove-AzureReservedIPAssociation](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureReservedIPAssociation.md)
 
 

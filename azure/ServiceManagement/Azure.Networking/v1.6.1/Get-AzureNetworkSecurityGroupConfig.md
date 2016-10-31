@@ -98,8 +98,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureNetworkSecurityGroup](./New-AzureNetworkSecurityGroup.md)
+[New-AzureNetworkSecurityGroup](xref:ServiceManagement/Azure.Networking/v1.6.1/New-AzureNetworkSecurityGroup.md)
 
-[Remove-AzureNetworkSecurityGroup](./Remove-AzureNetworkSecurityGroup.md)
+[Remove-AzureNetworkSecurityGroup](xref:ServiceManagement/Azure.Networking/v1.6.1/Remove-AzureNetworkSecurityGroup.md)
 
 

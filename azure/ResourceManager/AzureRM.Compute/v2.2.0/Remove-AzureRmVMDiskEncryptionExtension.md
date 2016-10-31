@@ -158,8 +158,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMDiskEncryptionStatus](./Get-AzureRmVMDiskEncryptionStatus.md)
+[Get-AzureRmVMDiskEncryptionStatus](xref:ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMDiskEncryptionStatus.md)
 
-[Set-AzureRmVMDiskEncryptionExtension](./Set-AzureRmVMDiskEncryptionExtension.md)
+[Set-AzureRmVMDiskEncryptionExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMDiskEncryptionExtension.md)
 
 

@@ -487,10 +487,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AlertHistory](./Get-AlertHistory.md)
+[Get-AlertHistory](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AlertHistory.md)
 
-[Get-AlertRule](./Get-AlertRule.md)
+[Get-AlertRule](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AlertRule.md)
 
-[Remove-AlertRule](./Remove-AlertRule.md)
+[Remove-AlertRule](xref:ResourceManager/AzureRM.Insights/v0.9.8/Remove-AlertRule.md)
 
 

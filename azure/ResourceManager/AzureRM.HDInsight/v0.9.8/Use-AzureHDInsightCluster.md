@@ -120,10 +120,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureHDInsightHiveJobDefinition](./New-AzureHDInsightHiveJobDefinition.md)
+[New-AzureHDInsightHiveJobDefinition](xref:ResourceManager/AzureRM.HDInsight/v0.9.8/New-AzureHDInsightHiveJobDefinition.md)
 
-[Invoke-AzureHDInsightHiveJob](./Invoke-AzureHDInsightHiveJob.md)
+[Invoke-AzureHDInsightHiveJob](xref:ResourceManager/AzureRM.HDInsight/v0.9.8/Invoke-AzureHDInsightHiveJob.md)
 
-[Azure HDInsight Cmdlets](./AzureRM.HDInsight.md)
+[Azure HDInsight Cmdlets](xref:ResourceManager/AzureRM.HDInsight/v0.9.8/AzureRM.HDInsight.md)
 
 

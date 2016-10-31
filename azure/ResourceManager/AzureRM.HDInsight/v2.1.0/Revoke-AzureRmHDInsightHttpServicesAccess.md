@@ -115,6 +115,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Grant-AzureRmHDInsightHttpServicesAccess](./Grant-AzureRmHDInsightHttpServicesAccess.md)
+[Grant-AzureRmHDInsightHttpServicesAccess](xref:ResourceManager/AzureRM.HDInsight/v2.1.0/Grant-AzureRmHDInsightHttpServicesAccess.md)
 
 

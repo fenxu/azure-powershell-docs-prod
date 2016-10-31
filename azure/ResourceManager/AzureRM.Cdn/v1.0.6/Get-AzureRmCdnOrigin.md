@@ -146,6 +146,6 @@ This cmdlet returns an origin server object.
 
 ## RELATED LINKS
 
-[Set-AzureRmCdnOrigin](./Set-AzureRmCdnOrigin.md)
+[Set-AzureRmCdnOrigin](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Set-AzureRmCdnOrigin.md)
 
 

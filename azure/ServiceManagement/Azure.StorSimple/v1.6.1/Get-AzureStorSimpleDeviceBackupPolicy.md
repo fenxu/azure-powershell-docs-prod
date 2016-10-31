@@ -151,10 +151,10 @@ If you do not specify that parameter, it returns an **IList\<BackupPolicy\>** ob
 
 ## RELATED LINKS
 
-[New-AzureStorSimpleDeviceBackupPolicy](./New-AzureStorSimpleDeviceBackupPolicy.md)
+[New-AzureStorSimpleDeviceBackupPolicy](xref:ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleDeviceBackupPolicy.md)
 
-[Remove-AzureStorSimpleDeviceBackupPolicy](./Remove-AzureStorSimpleDeviceBackupPolicy.md)
+[Remove-AzureStorSimpleDeviceBackupPolicy](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Remove-AzureStorSimpleDeviceBackupPolicy.md)
 
-[Set-AzureStorSimpleDeviceBackupPolicy](./Set-AzureStorSimpleDeviceBackupPolicy.md)
+[Set-AzureStorSimpleDeviceBackupPolicy](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleDeviceBackupPolicy.md)
 
 

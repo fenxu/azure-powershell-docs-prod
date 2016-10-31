@@ -128,10 +128,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAvailabilitySet](./Get-AzureRmAvailabilitySet.md)
+[Get-AzureRmAvailabilitySet](xref:ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmAvailabilitySet.md)
 
-[Set-AzureRmVMOperatingSystem](./Set-AzureRmVMOperatingSystem.md)
+[Set-AzureRmVMOperatingSystem](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMOperatingSystem.md)
 
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)
+[New-AzureRmVMConfig](xref:ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmVMConfig.md)
 
 

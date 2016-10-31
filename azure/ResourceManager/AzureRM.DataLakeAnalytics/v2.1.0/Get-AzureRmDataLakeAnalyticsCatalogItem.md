@@ -151,6 +151,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Test-AzureRmDataLakeAnalyticsCatalogItem](./Test-AzureRmDataLakeAnalyticsCatalogItem.md)
+[Test-AzureRmDataLakeAnalyticsCatalogItem](xref:ResourceManager/AzureRM.DataLakeAnalytics/v2.1.0/Test-AzureRmDataLakeAnalyticsCatalogItem.md)
 
 

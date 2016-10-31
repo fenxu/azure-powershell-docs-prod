@@ -100,16 +100,16 @@ This cmdlet generates a Traffic Manager profile object or objects.
 
 ## RELATED LINKS
 
-[Add-AzureTrafficManagerEndpoint](./Add-AzureTrafficManagerEndpoint.md)
+[Add-AzureTrafficManagerEndpoint](xref:ServiceManagement/Azure.TrafficManager/v0.9.8/Add-AzureTrafficManagerEndpoint.md)
 
-[Disable-AzureTrafficManagerProfile](./Disable-AzureTrafficManagerProfile.md)
+[Disable-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v0.9.8/Disable-AzureTrafficManagerProfile.md)
 
-[Enable-AzureTrafficManagerProfile](./Enable-AzureTrafficManagerProfile.md)
+[Enable-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v0.9.8/Enable-AzureTrafficManagerProfile.md)
 
-[New-AzureTrafficManagerProfile](./New-AzureTrafficManagerProfile.md)
+[New-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v0.9.8/New-AzureTrafficManagerProfile.md)
 
-[Remove-AzureTrafficManagerProfile](./Remove-AzureTrafficManagerProfile.md)
+[Remove-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v0.9.8/Remove-AzureTrafficManagerProfile.md)
 
-[Set-AzureTrafficManagerProfile](./Set-AzureTrafficManagerProfile.md)
+[Set-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v0.9.8/Set-AzureTrafficManagerProfile.md)
 
 

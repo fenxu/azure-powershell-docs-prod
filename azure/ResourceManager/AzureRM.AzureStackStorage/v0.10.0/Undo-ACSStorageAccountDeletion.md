@@ -233,10 +233,10 @@ Output from Get-ACSFarm and Get-ACSStorageAccount can be piped to this cmdlet's 
 
 ## RELATED LINKS
 
-[Get-ACSStorageAccount](./Get-ACSStorageAccount.md)
+[Get-ACSStorageAccount](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSStorageAccount.md)
 
-[Sync-ACSStorageAccount](./Sync-ACSStorageAccount.md)
+[Sync-ACSStorageAccount](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Sync-ACSStorageAccount.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
 

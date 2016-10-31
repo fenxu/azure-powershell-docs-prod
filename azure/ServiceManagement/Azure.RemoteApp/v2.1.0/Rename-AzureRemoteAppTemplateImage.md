@@ -100,10 +100,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppTemplateImage](./Get-AzureRemoteAppTemplateImage.md)
+[Get-AzureRemoteAppTemplateImage](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/Get-AzureRemoteAppTemplateImage.md)
 
-[New-AzureRemoteAppTemplateImage](./New-AzureRemoteAppTemplateImage.md)
+[New-AzureRemoteAppTemplateImage](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/New-AzureRemoteAppTemplateImage.md)
 
-[Remove-AzureRemoteAppTemplateImage](./Remove-AzureRemoteAppTemplateImage.md)
+[Remove-AzureRemoteAppTemplateImage](xref:ServiceManagement/Azure.RemoteApp/v2.1.0/Remove-AzureRemoteAppTemplateImage.md)
 
 

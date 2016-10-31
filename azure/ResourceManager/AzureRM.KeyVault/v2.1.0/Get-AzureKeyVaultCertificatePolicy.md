@@ -101,8 +101,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureKeyVaultCertificatePolicy](./New-AzureKeyVaultCertificatePolicy.md)
+[New-AzureKeyVaultCertificatePolicy](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/New-AzureKeyVaultCertificatePolicy.md)
 
-[Set-AzureKeyVaultCertificatePolicy](./Set-AzureKeyVaultCertificatePolicy.md)
+[Set-AzureKeyVaultCertificatePolicy](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Set-AzureKeyVaultCertificatePolicy.md)
 
 

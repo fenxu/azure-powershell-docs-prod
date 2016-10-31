@@ -99,14 +99,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureLoadBalancer](./Get-AzureLoadBalancer.md)
+[Get-AzureLoadBalancer](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancer.md)
 
-[Get-AzureNetworkInterface](./Get-AzureNetworkInterface.md)
+[Get-AzureNetworkInterface](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureNetworkInterface.md)
 
-[Get-AzureLoadBalancerBackendAddressPoolConfig](./Get-AzureLoadBalancerBackendAddressPoolConfig.md)
+[Get-AzureLoadBalancerBackendAddressPoolConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerBackendAddressPoolConfig.md)
 
-[New-AzureLoadBalancerBackendAddressPoolConfig](./New-AzureLoadBalancerBackendAddressPoolConfig.md)
+[New-AzureLoadBalancerBackendAddressPoolConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerBackendAddressPoolConfig.md)
 
-[Remove-AzureLoadBalancerBackendAddressPoolConfig](./Remove-AzureLoadBalancerBackendAddressPoolConfig.md)
+[Remove-AzureLoadBalancerBackendAddressPoolConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerBackendAddressPoolConfig.md)
 
 

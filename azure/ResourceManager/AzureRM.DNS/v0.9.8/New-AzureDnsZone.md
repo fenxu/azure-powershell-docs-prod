@@ -125,10 +125,10 @@ This cmdlet returns an object that represents the new DNS zone.
 
 [Using tags to organize your Azure resources](http://azure.microsoft.com/en-us/documentation/articles/azure-preview-portal-using-tags/)
 
-[Get-AzureDnsZone](./Get-AzureDnsZone.md)
+[Get-AzureDnsZone](xref:ResourceManager/AzureRM.DNS/v0.9.8/Get-AzureDnsZone.md)
 
-[New-AzureDnsRecordSet](./New-AzureDnsRecordSet.md)
+[New-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/New-AzureDnsRecordSet.md)
 
-[Remove-AzureDnsZone](./Remove-AzureDnsZone.md)
+[Remove-AzureDnsZone](xref:ResourceManager/AzureRM.DNS/v0.9.8/Remove-AzureDnsZone.md)
 
 

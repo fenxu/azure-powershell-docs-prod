@@ -145,8 +145,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureNetworkSecurityGroupForSubnet](./Get-AzureNetworkSecurityGroupForSubnet.md)
+[Get-AzureNetworkSecurityGroupForSubnet](xref:ServiceManagement/Azure.Networking/v2.1.0/Get-AzureNetworkSecurityGroupForSubnet.md)
 
-[Set-AzureNetworkSecurityGroupToSubnet](./Set-AzureNetworkSecurityGroupToSubnet.md)
+[Set-AzureNetworkSecurityGroupToSubnet](xref:ServiceManagement/Azure.Networking/v2.1.0/Set-AzureNetworkSecurityGroupToSubnet.md)
 
 

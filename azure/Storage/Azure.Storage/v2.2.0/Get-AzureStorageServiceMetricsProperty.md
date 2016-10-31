@@ -126,8 +126,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureStorageContext](./New-AzureStorageContext.md)
+[New-AzureStorageContext](xref:Storage/Azure.Storage/v2.2.0/New-AzureStorageContext.md)
 
-[Set-AzureStorageServiceMetricsProperty](./Set-AzureStorageServiceMetricsProperty.md)
+[Set-AzureStorageServiceMetricsProperty](xref:Storage/Azure.Storage/v2.2.0/Set-AzureStorageServiceMetricsProperty.md)
 
 

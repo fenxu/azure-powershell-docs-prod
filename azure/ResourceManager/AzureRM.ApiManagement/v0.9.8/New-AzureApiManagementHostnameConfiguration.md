@@ -102,8 +102,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Import-AzureApiManagementHostnameCertificate](./Import-AzureApiManagementHostnameCertificate.md)
+[Import-AzureApiManagementHostnameCertificate](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Import-AzureApiManagementHostnameCertificate.md)
 
-[Set-AzureApiManagementHostnames](./Set-AzureApiManagementHostnames.md)
+[Set-AzureApiManagementHostnames](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Set-AzureApiManagementHostnames.md)
 
 

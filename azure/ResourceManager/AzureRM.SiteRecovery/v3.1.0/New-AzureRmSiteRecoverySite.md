@@ -66,8 +66,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoverySite](./Get-AzureRmSiteRecoverySite.md)
+[Get-AzureRmSiteRecoverySite](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoverySite.md)
 
-[Remove-AzureRmSiteRecoverySite](./Remove-AzureRmSiteRecoverySite.md)
+[Remove-AzureRmSiteRecoverySite](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoverySite.md)
 
 

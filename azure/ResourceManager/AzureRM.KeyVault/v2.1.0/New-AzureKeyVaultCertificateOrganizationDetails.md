@@ -122,6 +122,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureKeyVaultCertificateAdministratorDetails](./New-AzureKeyVaultCertificateAdministratorDetails.md)
+[New-AzureKeyVaultCertificateAdministratorDetails](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/New-AzureKeyVaultCertificateAdministratorDetails.md)
 
 

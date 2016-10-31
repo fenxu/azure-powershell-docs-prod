@@ -210,12 +210,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmSqlElasticPool](./New-AzureRmSqlElasticPool.md)
+[New-AzureRmSqlElasticPool](xref:ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlElasticPool.md)
 
-[Remove-AzureRmSqlElasticPool](./Remove-AzureRmSqlElasticPool.md)
+[Remove-AzureRmSqlElasticPool](xref:ResourceManager/AzureRM.Sql/v2.2.0/Remove-AzureRmSqlElasticPool.md)
 
-[Set-AzureRmSqlElasticPool](./Set-AzureRmSqlElasticPool.md)
+[Set-AzureRmSqlElasticPool](xref:ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlElasticPool.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md)
 
 

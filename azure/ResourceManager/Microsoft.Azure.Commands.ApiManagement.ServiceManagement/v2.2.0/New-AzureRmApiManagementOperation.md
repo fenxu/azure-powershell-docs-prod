@@ -241,10 +241,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmApiManagementOperation](./Get-AzureRmApiManagementOperation.md)
+[Get-AzureRmApiManagementOperation](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementOperation.md)
 
-[Remove-AzureRmApiManagementOperation](./Remove-AzureRmApiManagementOperation.md)
+[Remove-AzureRmApiManagementOperation](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementOperation.md)
 
-[Set-AzureRmApiManagementOperation](./Set-AzureRmApiManagementOperation.md)
+[Set-AzureRmApiManagementOperation](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementOperation.md)
 
 

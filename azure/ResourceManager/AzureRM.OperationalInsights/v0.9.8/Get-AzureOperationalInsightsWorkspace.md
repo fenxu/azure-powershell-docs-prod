@@ -103,10 +103,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureOperationalInsightsWorkspace](./New-AzureOperationalInsightsWorkspace.md)
+[New-AzureOperationalInsightsWorkspace](xref:ResourceManager/AzureRM.OperationalInsights/v0.9.8/New-AzureOperationalInsightsWorkspace.md)
 
-[Remove-AzureOperationalInsightsWorkspace](./Remove-AzureOperationalInsightsWorkspace.md)
+[Remove-AzureOperationalInsightsWorkspace](xref:ResourceManager/AzureRM.OperationalInsights/v0.9.8/Remove-AzureOperationalInsightsWorkspace.md)
 
-[Set-AzureOperationalInsightsWorkspace](./Set-AzureOperationalInsightsWorkspace.md)
+[Set-AzureOperationalInsightsWorkspace](xref:ResourceManager/AzureRM.OperationalInsights/v0.9.8/Set-AzureOperationalInsightsWorkspace.md)
 
 

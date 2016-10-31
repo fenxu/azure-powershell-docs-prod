@@ -142,10 +142,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureDisk](./Add-AzureDisk.md)
+[Add-AzureDisk](xref:ServiceManagement/Azure.Service/v2.1.0/Add-AzureDisk.md)
 
-[Get-AzureDisk](./Get-AzureDisk.md)
+[Get-AzureDisk](xref:ServiceManagement/Azure.Service/v2.1.0/Get-AzureDisk.md)
 
-[Update-AzureDisk](./Update-AzureDisk.md)
+[Update-AzureDisk](xref:ServiceManagement/Azure.Service/v2.1.0/Update-AzureDisk.md)
 
 

@@ -247,8 +247,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmDataFactoryPipeline](./New-AzureRmDataFactoryPipeline.md)
+[New-AzureRmDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v2.1.0/New-AzureRmDataFactoryPipeline.md)
 
-[Set-AzureRmDataFactorySliceStatus](./Set-AzureRmDataFactorySliceStatus.md)
+[Set-AzureRmDataFactorySliceStatus](xref:ResourceManager/AzureRM.DataFactories/v2.1.0/Set-AzureRmDataFactorySliceStatus.md)
 
 

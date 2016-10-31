@@ -202,10 +202,10 @@ Output from Get-ACSFarm and Get-ACSRoleInstance can be piped to this cmdlet's in
 
 ## RELATED LINKS
 
-[Stop-ACSBlobServerRoleInstance](./Stop-ACSBlobServerRoleInstance.md)
+[Stop-ACSBlobServerRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Stop-ACSBlobServerRoleInstance.md)
 
-[Get-ACSRoleInstance](./Get-ACSRoleInstance.md)
+[Get-ACSRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstance.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
 

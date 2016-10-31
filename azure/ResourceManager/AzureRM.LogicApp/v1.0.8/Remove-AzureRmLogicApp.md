@@ -167,12 +167,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmLogicApp](./Get-AzureRmLogicApp.md)
+[Get-AzureRmLogicApp](xref:ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmLogicApp.md)
 
-[New-AzureRmLogicApp](./New-AzureRmLogicApp.md)
+[New-AzureRmLogicApp](xref:ResourceManager/AzureRM.LogicApp/v1.0.8/New-AzureRmLogicApp.md)
 
-[Set-AzureRmLogicApp](./Set-AzureRmLogicApp.md)
+[Set-AzureRmLogicApp](xref:ResourceManager/AzureRM.LogicApp/v1.0.8/Set-AzureRmLogicApp.md)
 
-[Start-AzureRmLogicApp](./Start-AzureRmLogicApp.md)
+[Start-AzureRmLogicApp](xref:ResourceManager/AzureRM.LogicApp/v1.0.8/Start-AzureRmLogicApp.md)
 
 

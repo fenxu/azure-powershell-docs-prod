@@ -233,6 +233,6 @@ By default, **Get-AzureWebsiteMetric** returns an array of **MetricResponse** ob
 
 ## RELATED LINKS
 
-[Get-AzureWebsite](./Get-AzureWebsite.md)
+[Get-AzureWebsite](xref:ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsite.md)
 
 

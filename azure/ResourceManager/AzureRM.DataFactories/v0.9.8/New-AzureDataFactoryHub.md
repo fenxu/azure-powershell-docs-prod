@@ -173,8 +173,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureDataFactoryHub](./Get-AzureDataFactoryHub.md)
+[Get-AzureDataFactoryHub](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryHub.md)
 
-[Remove-AzureDataFactoryHub](./Remove-AzureDataFactoryHub.md)
+[Remove-AzureDataFactoryHub](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Remove-AzureDataFactoryHub.md)
 
 

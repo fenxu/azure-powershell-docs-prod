@@ -190,10 +190,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSBAuthorizationRule](./Get-AzureSBAuthorizationRule.md)
+[Get-AzureSBAuthorizationRule](xref:ServiceManagement/Azure.Compute/v1.6.1/Get-AzureSBAuthorizationRule.md)
 
-[Remove-AzureSBAuthorizationRule](./Remove-AzureSBAuthorizationRule.md)
+[Remove-AzureSBAuthorizationRule](xref:ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureSBAuthorizationRule.md)
 
-[Set-AzureSBAuthorizationRule](./Set-AzureSBAuthorizationRule.md)
+[Set-AzureSBAuthorizationRule](xref:ServiceManagement/Azure.Compute/v1.6.1/Set-AzureSBAuthorizationRule.md)
 
 

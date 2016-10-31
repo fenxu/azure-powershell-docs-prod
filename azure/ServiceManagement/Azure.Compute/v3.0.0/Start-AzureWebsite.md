@@ -117,14 +117,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureWebsite](./Get-AzureWebsite.md)
+[Get-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsite.md)
 
-[Restart-AzureWebsite](./Restart-AzureWebsite.md)
+[Restart-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Restart-AzureWebsite.md)
 
-[Set-AzureWebsite](./Set-AzureWebsite.md)
+[Set-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Set-AzureWebsite.md)
 
-[Show-AzureWebsite](./Show-AzureWebsite.md)
+[Show-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Show-AzureWebsite.md)
 
-[Stop-AzureWebsite](./Stop-AzureWebsite.md)
+[Stop-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Stop-AzureWebsite.md)
 
 

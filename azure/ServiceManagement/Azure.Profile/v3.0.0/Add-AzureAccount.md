@@ -194,14 +194,14 @@ This cmdlet does not return any output.
 
 ## RELATED LINKS
 
-[Add-AzureEnvironment](./Add-AzureEnvironment.md)
+[Add-AzureEnvironment](xref:ServiceManagement/Azure.Profile/v3.0.0/Add-AzureEnvironment.md)
 
-[Get-AzureEnvironment](./Get-AzureEnvironment.md)
+[Get-AzureEnvironment](xref:ServiceManagement/Azure.Profile/v3.0.0/Get-AzureEnvironment.md)
 
-[Import-AzurePublishSettingsFile](./Import-AzurePublishSettingsFile.md)
+[Import-AzurePublishSettingsFile](xref:ServiceManagement/Azure.Profile/v3.0.0/Import-AzurePublishSettingsFile.md)
 
-[Get-AzureAccount](./Get-AzureAccount.md)
+[Get-AzureAccount](xref:ServiceManagement/Azure.Profile/v3.0.0/Get-AzureAccount.md)
 
-[Remove-AzureAccount](./Remove-AzureAccount.md)
+[Remove-AzureAccount](xref:ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureAccount.md)
 
 

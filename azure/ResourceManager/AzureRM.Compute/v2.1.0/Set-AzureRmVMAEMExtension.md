@@ -150,10 +150,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMAEMExtension](./Get-AzureRmVMAEMExtension.md)
+[Get-AzureRmVMAEMExtension](xref:ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVMAEMExtension.md)
 
-[Remove-AzureRmVMAEMExtension](./Remove-AzureRmVMAEMExtension.md)
+[Remove-AzureRmVMAEMExtension](xref:ResourceManager/AzureRM.Compute/v2.1.0/Remove-AzureRmVMAEMExtension.md)
 
-[Test-AzureRmVMAEMExtension](./Test-AzureRmVMAEMExtension.md)
+[Test-AzureRmVMAEMExtension](xref:ResourceManager/AzureRM.Compute/v2.1.0/Test-AzureRmVMAEMExtension.md)
 
 

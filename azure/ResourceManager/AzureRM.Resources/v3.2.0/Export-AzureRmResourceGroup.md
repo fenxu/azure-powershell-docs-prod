@@ -196,6 +196,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Find-AzureRmResourceGroup](./Find-AzureRmResourceGroup.md)
+[Find-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.2.0/Find-AzureRmResourceGroup.md)
 
 

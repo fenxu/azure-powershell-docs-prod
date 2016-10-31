@@ -168,10 +168,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Restart-AzureRmSiteRecoveryJob](./Restart-AzureRmSiteRecoveryJob.md)
+[Restart-AzureRmSiteRecoveryJob](xref:ResourceManager/AzureRM.SiteRecovery/v2.1.0/Restart-AzureRmSiteRecoveryJob.md)
 
-[Resume-AzureRmSiteRecoveryJob](./Resume-AzureRmSiteRecoveryJob.md)
+[Resume-AzureRmSiteRecoveryJob](xref:ResourceManager/AzureRM.SiteRecovery/v2.1.0/Resume-AzureRmSiteRecoveryJob.md)
 
-[Stop-AzureRmSiteRecoveryJob](./Stop-AzureRmSiteRecoveryJob.md)
+[Stop-AzureRmSiteRecoveryJob](xref:ResourceManager/AzureRM.SiteRecovery/v2.1.0/Stop-AzureRmSiteRecoveryJob.md)
 
 

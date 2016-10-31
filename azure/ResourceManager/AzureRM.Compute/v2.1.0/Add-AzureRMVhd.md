@@ -173,6 +173,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Save-AzureRmVhd](./Save-AzureRmVhd.md)
+[Save-AzureRmVhd](xref:ResourceManager/AzureRM.Compute/v2.1.0/Save-AzureRmVhd.md)
 
 

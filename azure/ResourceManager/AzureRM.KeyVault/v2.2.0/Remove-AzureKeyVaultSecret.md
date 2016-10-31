@@ -163,8 +163,8 @@ This cmdlet returns a value only if you specify the *PassThru* parameter.
 
 ## RELATED LINKS
 
-[Get-AzureKeyVaultSecret](./Get-AzureKeyVaultSecret.md)
+[Get-AzureKeyVaultSecret](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Get-AzureKeyVaultSecret.md)
 
-[Set-AzureKeyVaultSecret](./Set-AzureKeyVaultSecret.md)
+[Set-AzureKeyVaultSecret](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultSecret.md)
 
 

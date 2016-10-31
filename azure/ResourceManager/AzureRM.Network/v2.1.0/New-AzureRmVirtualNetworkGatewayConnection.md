@@ -352,10 +352,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVirtualNetworkGatewayConnection](./Get-AzureRmVirtualNetworkGatewayConnection.md)
+[Get-AzureRmVirtualNetworkGatewayConnection](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmVirtualNetworkGatewayConnection.md)
 
-[Remove-AzureRmVirtualNetworkGatewayConnection](./Remove-AzureRmVirtualNetworkGatewayConnection.md)
+[Remove-AzureRmVirtualNetworkGatewayConnection](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmVirtualNetworkGatewayConnection.md)
 
-[Set-AzureRmVirtualNetworkGatewayConnection](./Set-AzureRmVirtualNetworkGatewayConnection.md)
+[Set-AzureRmVirtualNetworkGatewayConnection](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmVirtualNetworkGatewayConnection.md)
 
 

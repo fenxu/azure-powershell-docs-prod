@@ -158,6 +158,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureSchedulerJob](./Remove-AzureSchedulerJob.md)
+[Remove-AzureSchedulerJob](xref:ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureSchedulerJob.md)
 
 

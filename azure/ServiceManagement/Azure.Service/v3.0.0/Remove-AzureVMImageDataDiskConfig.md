@@ -110,6 +110,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureVMImageDataDiskConfig](./Set-AzureVMImageDataDiskConfig.md)
+[Set-AzureVMImageDataDiskConfig](xref:ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMImageDataDiskConfig.md)
 
 

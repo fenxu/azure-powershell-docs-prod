@@ -180,6 +180,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureIPForwarding](./Set-AzureIPForwarding.md)
+[Set-AzureIPForwarding](xref:ServiceManagement/Azure.Networking/v1.6.1/Set-AzureIPForwarding.md)
 
 

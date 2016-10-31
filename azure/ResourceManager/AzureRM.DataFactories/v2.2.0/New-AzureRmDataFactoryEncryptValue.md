@@ -314,6 +314,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmDataFactoryEncryptValue](./New-AzureRmDataFactoryEncryptValue.md)
+[New-AzureRmDataFactoryEncryptValue](xref:ResourceManager/AzureRM.DataFactories/v2.2.0/New-AzureRmDataFactoryEncryptValue.md)
 
 

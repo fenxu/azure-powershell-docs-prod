@@ -148,18 +148,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureCertificate](./Add-AzureCertificate.md)
+[Add-AzureCertificate](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureCertificate.md)
 
-[Add-AzureProvisioningConfig](./Add-AzureProvisioningConfig.md)
+[Add-AzureProvisioningConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureProvisioningConfig.md)
 
-[Get-AzureCertificate](./Get-AzureCertificate.md)
+[Get-AzureCertificate](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureCertificate.md)
 
-[Get-AzureVMImage](./Get-AzureVMImage.md)
+[Get-AzureVMImage](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMImage.md)
 
-[New-AzureQuickVM](./New-AzureQuickVM.md)
+[New-AzureQuickVM](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureQuickVM.md)
 
-[New-AzureVM](./New-AzureVM.md)
+[New-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md)
 
-[Remove-AzureCertificate](./Remove-AzureCertificate.md)
+[Remove-AzureCertificate](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureCertificate.md)
 
 

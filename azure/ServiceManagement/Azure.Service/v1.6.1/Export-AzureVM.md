@@ -146,6 +146,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Import-AzureVM](./Import-AzureVM.md)
+[Import-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Import-AzureVM.md)
 
 

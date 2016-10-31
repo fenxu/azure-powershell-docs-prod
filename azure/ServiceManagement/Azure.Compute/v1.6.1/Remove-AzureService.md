@@ -160,10 +160,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Publish-AzureServiceProject](./Publish-AzureServiceProject.md)
+[Publish-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v1.6.1/Publish-AzureServiceProject.md)
 
-[Stop-AzureService](./Stop-AzureService.md)
+[Stop-AzureService](xref:ServiceManagement/Azure.Compute/v1.6.1/Stop-AzureService.md)
 
-[Start-AzureService](./Start-AzureService.md)
+[Start-AzureService](xref:ServiceManagement/Azure.Compute/v1.6.1/Start-AzureService.md)
 
 

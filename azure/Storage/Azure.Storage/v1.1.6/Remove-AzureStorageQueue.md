@@ -199,8 +199,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageQueue](./Get-AzureStorageQueue.md)
+[Get-AzureStorageQueue](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageQueue.md)
 
-[New-AzureStorageQueue](./New-AzureStorageQueue.md)
+[New-AzureStorageQueue](xref:Storage/Azure.Storage/v1.1.6/New-AzureStorageQueue.md)
 
 

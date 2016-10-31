@@ -114,6 +114,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmEffectiveNetworkSecurityGroup](./Get-AzureRmEffectiveNetworkSecurityGroup.md)
+[Get-AzureRmEffectiveNetworkSecurityGroup](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmEffectiveNetworkSecurityGroup.md)
 
 

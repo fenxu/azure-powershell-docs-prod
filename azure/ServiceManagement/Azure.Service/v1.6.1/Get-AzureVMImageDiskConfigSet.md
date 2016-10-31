@@ -101,8 +101,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureVMImageDiskConfigSet](./New-AzureVMImageDiskConfigSet.md)
+[New-AzureVMImageDiskConfigSet](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVMImageDiskConfigSet.md)
 
-[Get-AzureVMImage](./Get-AzureVMImage.md)
+[Get-AzureVMImage](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMImage.md)
 
 

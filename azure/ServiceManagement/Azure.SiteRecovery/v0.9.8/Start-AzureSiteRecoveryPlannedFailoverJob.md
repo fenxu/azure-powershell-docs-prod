@@ -245,14 +245,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureSiteRecoveryCommitFailoverJob](./Start-AzureSiteRecoveryCommitFailoverJob.md)
+[Start-AzureSiteRecoveryCommitFailoverJob](xref:ServiceManagement/Azure.SiteRecovery/v0.9.8/Start-AzureSiteRecoveryCommitFailoverJob.md)
 
-[Start-AzureSiteRecoveryUnplannedFailoverJob](./Start-AzureSiteRecoveryUnplannedFailoverJob.md)
+[Start-AzureSiteRecoveryUnplannedFailoverJob](xref:ServiceManagement/Azure.SiteRecovery/v0.9.8/Start-AzureSiteRecoveryUnplannedFailoverJob.md)
 
-[Get-AzureSiteRecoveryJob](./Get-AzureSiteRecoveryJob.md)
+[Get-AzureSiteRecoveryJob](xref:ServiceManagement/Azure.SiteRecovery/v0.9.8/Get-AzureSiteRecoveryJob.md)
 
-[Get-AzureSiteRecoveryProtectionContainer](./Get-AzureSiteRecoveryProtectionContainer.md)
+[Get-AzureSiteRecoveryProtectionContainer](xref:ServiceManagement/Azure.SiteRecovery/v0.9.8/Get-AzureSiteRecoveryProtectionContainer.md)
 
-[Get-AzureSiteRecoveryProtectionEntity](./Get-AzureSiteRecoveryProtectionEntity.md)
+[Get-AzureSiteRecoveryProtectionEntity](xref:ServiceManagement/Azure.SiteRecovery/v0.9.8/Get-AzureSiteRecoveryProtectionEntity.md)
 
 

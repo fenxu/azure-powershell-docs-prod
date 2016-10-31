@@ -361,10 +361,10 @@ This cmdlet returns the modified **RecordSet** object.
 
 ## RELATED LINKS
 
-[Get-AzureDnsRecordSet](./Get-AzureDnsRecordSet.md)
+[Get-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/Get-AzureDnsRecordSet.md)
 
-[Remove-AzureDnsRecordConfig](./Remove-AzureDnsRecordConfig.md)
+[Remove-AzureDnsRecordConfig](xref:ResourceManager/AzureRM.DNS/v0.9.8/Remove-AzureDnsRecordConfig.md)
 
-[Set-AzureDnsRecordSet](./Set-AzureDnsRecordSet.md)
+[Set-AzureDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v0.9.8/Set-AzureDnsRecordSet.md)
 
 

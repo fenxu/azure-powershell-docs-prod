@@ -181,6 +181,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmVhd](./Add-AzureRMVhd.md)
+[Add-AzureRmVhd](xref:ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRMVhd.md)
 
 

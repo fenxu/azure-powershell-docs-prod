@@ -231,8 +231,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ACSNode](./Get-ACSNode.md)
+[Get-ACSNode](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNode.md)
 
-[Get-ACSNodeMetric](./Get-ACSNodeMetric.md)
+[Get-ACSNodeMetric](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNodeMetric.md)
 
 

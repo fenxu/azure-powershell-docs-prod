@@ -116,6 +116,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVNetGatewayKey](./Get-AzureVNetGatewayKey.md)
+[Get-AzureVNetGatewayKey](xref:ServiceManagement/Azure.Networking/v0.9.8/Get-AzureVNetGatewayKey.md)
 
 

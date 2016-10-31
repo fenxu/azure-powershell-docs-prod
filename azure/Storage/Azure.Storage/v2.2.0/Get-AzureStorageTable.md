@@ -139,8 +139,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureStorageTable](./New-AzureStorageTable.md)
+[New-AzureStorageTable](xref:Storage/Azure.Storage/v2.2.0/New-AzureStorageTable.md)
 
-[Remove-AzureStorageTable](./Remove-AzureStorageTable.md)
+[Remove-AzureStorageTable](xref:Storage/Azure.Storage/v2.2.0/Remove-AzureStorageTable.md)
 
 

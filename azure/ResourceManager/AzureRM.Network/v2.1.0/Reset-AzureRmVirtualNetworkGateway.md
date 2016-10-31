@@ -93,14 +93,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVirtualNetworkGateway](./Get-AzureRmVirtualNetworkGateway.md)
+[Get-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmVirtualNetworkGateway.md)
 
-[New-AzureRmVirtualNetworkGateway](./New-AzureRmVirtualNetworkGateway.md)
+[New-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmVirtualNetworkGateway.md)
 
-[Remove-AzureRmVirtualNetworkGateway](./Remove-AzureRmVirtualNetworkGateway.md)
+[Remove-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmVirtualNetworkGateway.md)
 
-[Resize-AzureRmVirtualNetworkGateway](./Resize-AzureRmVirtualNetworkGateway.md)
+[Resize-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v2.1.0/Resize-AzureRmVirtualNetworkGateway.md)
 
-[Set-AzureRmVirtualNetworkGateway](./Set-AzureRmVirtualNetworkGateway.md)
+[Set-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmVirtualNetworkGateway.md)
 
 

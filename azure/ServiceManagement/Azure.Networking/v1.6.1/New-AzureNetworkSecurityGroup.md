@@ -113,6 +113,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureNetworkSecurityGroup](./Get-AzureNetworkSecurityGroup.md)
+[Get-AzureNetworkSecurityGroup](xref:ServiceManagement/Azure.Networking/v1.6.1/Get-AzureNetworkSecurityGroup.md)
 
 

@@ -139,6 +139,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmContext](./Set-AzureRmContext.md)
+[Set-AzureRmContext](xref:ResourceManager/AzureRM.Profile/v2.2.0/Set-AzureRmContext.md)
 
 

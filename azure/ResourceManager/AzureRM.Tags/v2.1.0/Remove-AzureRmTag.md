@@ -165,8 +165,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmTag](./Get-AzureRmTag.md)
+[Get-AzureRmTag](xref:ResourceManager/AzureRM.Tags/v2.1.0/Get-AzureRmTag.md)
 
-[New-AzureRmTag](./New-AzureRmTag.md)
+[New-AzureRmTag](xref:ResourceManager/AzureRM.Tags/v2.1.0/New-AzureRmTag.md)
 
 

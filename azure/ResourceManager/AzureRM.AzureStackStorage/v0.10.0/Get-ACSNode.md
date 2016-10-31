@@ -188,10 +188,10 @@ Output from Get-ACSFarm can be piped to this cmdlet.
 
 ## RELATED LINKS
 
-[Enable-ACSNode](./Enable-ACSNode.md)
+[Enable-ACSNode](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Enable-ACSNode.md)
 
-[Disable-ACSNode](./Disable-ACSNode.md)
+[Disable-ACSNode](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Disable-ACSNode.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
 

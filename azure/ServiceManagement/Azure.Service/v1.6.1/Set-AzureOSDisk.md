@@ -184,16 +184,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureVMImage](./Add-AzureVMImage.md)
+[Add-AzureVMImage](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureVMImage.md)
 
-[Get-AzureOSDisk](./Get-AzureOSDisk.md)
+[Get-AzureOSDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureOSDisk.md)
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVM.md)
 
-[Get-AzureVMImage](./Get-AzureVMImage.md)
+[Get-AzureVMImage](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMImage.md)
 
-[Set-AzureDataDisk](./Set-AzureDataDisk.md)
+[Set-AzureDataDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureDataDisk.md)
 
-[Update-AzureVM](./Update-AzureVM.md)
+[Update-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Update-AzureVM.md)
 
 

@@ -321,8 +321,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMExtension](./Get-AzureRmVMExtension.md)
+[Get-AzureRmVMExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMExtension.md)
 
-[Remove-AzureRmVMExtension](./Remove-AzureRmVMExtension.md)
+[Remove-AzureRmVMExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMExtension.md)
 
 

@@ -260,14 +260,14 @@ By default, this cmdlet does not return any output.
 
 ## RELATED LINKS
 
-[Add-AzureAccount](./Add-AzureAccount.md)
+[Add-AzureAccount](xref:ServiceManagement/Azure.Profile/v0.9.8/Add-AzureAccount.md)
 
-[Get-AzureSubscription](./Get-AzureSubscription.md)
+[Get-AzureSubscription](xref:ServiceManagement/Azure.Profile/v0.9.8/Get-AzureSubscription.md)
 
-[Import-AzurePublishSettingsFile](./Import-AzurePublishSettingsFile.md)
+[Import-AzurePublishSettingsFile](xref:ServiceManagement/Azure.Profile/v0.9.8/Import-AzurePublishSettingsFile.md)
 
-[Remove-AzureSubscription](./Remove-AzureSubscription.md)
+[Remove-AzureSubscription](xref:ServiceManagement/Azure.Profile/v0.9.8/Remove-AzureSubscription.md)
 
-[Select-AzureSubscription](./Select-AzureSubscription.md)
+[Select-AzureSubscription](xref:ServiceManagement/Azure.Profile/v0.9.8/Select-AzureSubscription.md)
 
 

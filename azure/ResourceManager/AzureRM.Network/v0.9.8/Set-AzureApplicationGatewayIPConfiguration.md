@@ -156,12 +156,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureApplicationGatewayIPConfiguration](./Add-AzureApplicationGatewayIPConfiguration.md)
+[Add-AzureApplicationGatewayIPConfiguration](xref:ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewayIPConfiguration.md)
 
-[Get-AzureApplicationGatewayIPConfiguration](./Get-AzureApplicationGatewayIPConfiguration.md)
+[Get-AzureApplicationGatewayIPConfiguration](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayIPConfiguration.md)
 
-[New-AzureApplicationGatewayIPConfiguration](./New-AzureApplicationGatewayIPConfiguration.md)
+[New-AzureApplicationGatewayIPConfiguration](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayIPConfiguration.md)
 
-[Remove-AzureApplicationGatewayIPConfiguration](./Remove-AzureApplicationGatewayIPConfiguration.md)
+[Remove-AzureApplicationGatewayIPConfiguration](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewayIPConfiguration.md)
 
 

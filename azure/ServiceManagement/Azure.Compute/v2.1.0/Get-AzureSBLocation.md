@@ -71,6 +71,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSBNamespace](./Get-AzureSBNamespace.md)
+[Get-AzureSBNamespace](xref:ServiceManagement/Azure.Compute/v2.1.0/Get-AzureSBNamespace.md)
 
 

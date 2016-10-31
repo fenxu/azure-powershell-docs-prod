@@ -297,16 +297,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAclConfig](./Get-AzureAclConfig.md)
+[Get-AzureAclConfig](xref:ServiceManagement/Azure.Service/v2.1.0/Get-AzureAclConfig.md)
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v2.1.0/Get-AzureVM.md)
 
-[New-AzureAclConfig](./New-AzureAclConfig.md)
+[New-AzureAclConfig](xref:ServiceManagement/Azure.Service/v2.1.0/New-AzureAclConfig.md)
 
-[Remove-AzureAclConfig](./Remove-AzureAclConfig.md)
+[Remove-AzureAclConfig](xref:ServiceManagement/Azure.Service/v2.1.0/Remove-AzureAclConfig.md)
 
-[Set-AzureEndpoint](./Set-AzureEndpoint.md)
+[Set-AzureEndpoint](xref:ServiceManagement/Azure.Service/v2.1.0/Set-AzureEndpoint.md)
 
-[Update-AzureVM](./Update-AzureVM.md)
+[Update-AzureVM](xref:ServiceManagement/Azure.Service/v2.1.0/Update-AzureVM.md)
 
 

@@ -111,6 +111,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageKey](./Get-AzureStorageKey.md)
+[Get-AzureStorageKey](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureStorageKey.md)
 
 

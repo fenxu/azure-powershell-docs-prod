@@ -175,8 +175,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Register-AzureAutomationScheduledRunbook](./Register-AzureAutomationScheduledRunbook.md)
+[Register-AzureAutomationScheduledRunbook](xref:ServiceManagement/Azure.Automation/v2.1.0/Register-AzureAutomationScheduledRunbook.md)
 
-[Unregister-AzureAutomationScheduledRunbook](./Unregister-AzureAutomationScheduledRunbook.md)
+[Unregister-AzureAutomationScheduledRunbook](xref:ServiceManagement/Azure.Automation/v2.1.0/Unregister-AzureAutomationScheduledRunbook.md)
 
 

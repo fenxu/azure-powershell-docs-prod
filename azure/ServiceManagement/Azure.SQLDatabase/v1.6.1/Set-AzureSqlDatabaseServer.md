@@ -154,10 +154,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Operations for Azure SQL Databases](https://msdn.microsoft.com/en-us/library/azure/dn505719.aspx)
 
-[Get-AzureSqlDatabaseServer](./Get-AzureSqlDatabaseServer.md)
+[Get-AzureSqlDatabaseServer](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseServer.md)
 
-[New-AzureSqlDatabaseServer](./New-AzureSqlDatabaseServer.md)
+[New-AzureSqlDatabaseServer](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServer.md)
 
-[Remove-AzureSqlDatabaseServer](./Remove-AzureSqlDatabaseServer.md)
+[Remove-AzureSqlDatabaseServer](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/Remove-AzureSqlDatabaseServer.md)
 
 

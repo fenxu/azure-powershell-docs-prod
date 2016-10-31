@@ -171,10 +171,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Azure Cache](http://azure.microsoft.com/en-us/services/cache/)
 
-[Get-AzureManagedCache](./Get-AzureManagedCache.md)
+[Get-AzureManagedCache](xref:ServiceManagement/Azure.ManagedCache/v2.1.0/Get-AzureManagedCache.md)
 
-[New-AzureManagedCache](./New-AzureManagedCache.md)
+[New-AzureManagedCache](xref:ServiceManagement/Azure.ManagedCache/v2.1.0/New-AzureManagedCache.md)
 
-[Remove-AzureManagedCache](./Remove-AzureManagedCache.md)
+[Remove-AzureManagedCache](xref:ServiceManagement/Azure.ManagedCache/v2.1.0/Remove-AzureManagedCache.md)
 
 

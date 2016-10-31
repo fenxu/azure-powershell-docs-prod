@@ -161,8 +161,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureSqlDatabaseExecuteIndexRecommendation](./Start-AzureSqlDatabaseExecuteIndexRecommendation.md)
+[Start-AzureSqlDatabaseExecuteIndexRecommendation](xref:ResourceManager/AzureRM.Sql/v0.9.8/Start-AzureSqlDatabaseExecuteIndexRecommendation.md)
 
-[Stop-AzureSqlDatabaseExecuteIndexRecommendation](./Stop-AzureSqlDatabaseExecuteIndexRecommendation.md)
+[Stop-AzureSqlDatabaseExecuteIndexRecommendation](xref:ResourceManager/AzureRM.Sql/v0.9.8/Stop-AzureSqlDatabaseExecuteIndexRecommendation.md)
 
 

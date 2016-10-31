@@ -244,10 +244,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmDataFactorySliceStatus](./Set-AzureRmDataFactorySliceStatus.md)
+[Set-AzureRmDataFactorySliceStatus](xref:ResourceManager/AzureRM.DataFactories/v2.2.0/Set-AzureRmDataFactorySliceStatus.md)
 
-[Get-AzureRmDataFactoryRun](./Get-AzureRmDataFactoryRun.md)
+[Get-AzureRmDataFactoryRun](xref:ResourceManager/AzureRM.DataFactories/v2.2.0/Get-AzureRmDataFactoryRun.md)
 
-[Set-AzureRmDataFactoryPipelineActivePeriod](./Set-AzureRmDataFactoryPipelineActivePeriod.md)
+[Set-AzureRmDataFactoryPipelineActivePeriod](xref:ResourceManager/AzureRM.DataFactories/v2.2.0/Set-AzureRmDataFactoryPipelineActivePeriod.md)
 
 

@@ -143,16 +143,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmNotificationHubAuthorizationRules](./Get-AzureRmNotificationHubAuthorizationRules.md)
+[Get-AzureRmNotificationHubAuthorizationRules](xref:ResourceManager/AzureRM.NotificationHubs/v2.1.0/Get-AzureRmNotificationHubAuthorizationRules.md)
 
-[Get-AzureRmNotificationHubListKeys](./Get-AzureRmNotificationHubListKeys.md)
+[Get-AzureRmNotificationHubListKeys](xref:ResourceManager/AzureRM.NotificationHubs/v2.1.0/Get-AzureRmNotificationHubListKeys.md)
 
-[Get-AzureRmNotificationHubPNSCredentials](./Get-AzureRmNotificationHubPNSCredentials.md)
+[Get-AzureRmNotificationHubPNSCredentials](xref:ResourceManager/AzureRM.NotificationHubs/v2.1.0/Get-AzureRmNotificationHubPNSCredentials.md)
 
-[New-AzureRmNotificationHub](./New-AzureRmNotificationHub.md)
+[New-AzureRmNotificationHub](xref:ResourceManager/AzureRM.NotificationHubs/v2.1.0/New-AzureRmNotificationHub.md)
 
-[Remove-AzureRmNotificationHub](./Remove-AzureRmNotificationHub.md)
+[Remove-AzureRmNotificationHub](xref:ResourceManager/AzureRM.NotificationHubs/v2.1.0/Remove-AzureRmNotificationHub.md)
 
-[Set-AzureRmNotificationHub](./Set-AzureRmNotificationHub.md)
+[Set-AzureRmNotificationHub](xref:ResourceManager/AzureRM.NotificationHubs/v2.1.0/Set-AzureRmNotificationHub.md)
 
 

@@ -292,10 +292,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureBatchAccountKeys](./Get-AzureBatchAccountKeys.md)
+[Get-AzureBatchAccountKeys](xref:ResourceManager/AzureRM.Batch/v0.9.8/Get-AzureBatchAccountKeys.md)
 
-[Get-AzureBatchNodeFile](./Get-AzureBatchNodeFile.md)
+[Get-AzureBatchNodeFile](xref:ResourceManager/AzureRM.Batch/v0.9.8/Get-AzureBatchNodeFile.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v0.9.8/AzureRM.Batch.md)
 
 

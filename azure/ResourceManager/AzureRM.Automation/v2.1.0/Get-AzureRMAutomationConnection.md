@@ -146,8 +146,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAutomationConnection](./New-AzureRMAutomationConnection.md)
+[New-AzureRmAutomationConnection](xref:ResourceManager/AzureRM.Automation/v2.1.0/New-AzureRMAutomationConnection.md)
 
-[Remove-AzureRmAutomationConnection](./Remove-AzureRMAutomationConnection.md)
+[Remove-AzureRmAutomationConnection](xref:ResourceManager/AzureRM.Automation/v2.1.0/Remove-AzureRMAutomationConnection.md)
 
 

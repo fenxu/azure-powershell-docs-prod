@@ -108,12 +108,12 @@ This cmdlet does not return any output.
 
 ## RELATED LINKS
 
-[Add-AzureAccount](./Add-AzureAccount.md)
+[Add-AzureAccount](xref:ServiceManagement/Azure.Profile/v1.6.1/Add-AzureAccount.md)
 
-[Get-AzurePublishSettingsFile](./Get-AzurePublishSettingsFile.md)
+[Get-AzurePublishSettingsFile](xref:ServiceManagement/Azure.Profile/v1.6.1/Get-AzurePublishSettingsFile.md)
 
-[Import-AzurePublishSettingsFile](./Import-AzurePublishSettingsFile.md)
+[Import-AzurePublishSettingsFile](xref:ServiceManagement/Azure.Profile/v1.6.1/Import-AzurePublishSettingsFile.md)
 
-[Remove-AzureAccount](./Remove-AzureAccount.md)
+[Remove-AzureAccount](xref:ServiceManagement/Azure.Profile/v1.6.1/Remove-AzureAccount.md)
 
 

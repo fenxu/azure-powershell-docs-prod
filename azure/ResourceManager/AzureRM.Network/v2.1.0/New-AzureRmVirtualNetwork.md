@@ -238,10 +238,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVirtualNetwork](./Get-AzureRmVirtualNetwork.md)
+[Get-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmVirtualNetwork.md)
 
-[Remove-AzureRmVirtualNetwork](./Remove-AzureRmVirtualNetwork.md)
+[Remove-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmVirtualNetwork.md)
 
-[Set-AzureRmVirtualNetwork](./Set-AzureRmVirtualNetwork.md)
+[Set-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmVirtualNetwork.md)
 
 

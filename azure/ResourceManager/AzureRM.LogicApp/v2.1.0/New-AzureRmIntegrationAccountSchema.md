@@ -262,10 +262,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmIntegrationAccountSchema](./Get-AzureRmIntegrationAccountSchema.md)
+[Get-AzureRmIntegrationAccountSchema](xref:ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmIntegrationAccountSchema.md)
 
-[Remove-AzureRmIntegrationAccountSchema](./Remove-AzureRmIntegrationAccountSchema.md)
+[Remove-AzureRmIntegrationAccountSchema](xref:ResourceManager/AzureRM.LogicApp/v2.1.0/Remove-AzureRmIntegrationAccountSchema.md)
 
-[Set-AzureRmIntegrationAccountSchema](./Set-AzureRmIntegrationAccountSchema.md)
+[Set-AzureRmIntegrationAccountSchema](xref:ResourceManager/AzureRM.LogicApp/v2.1.0/Set-AzureRmIntegrationAccountSchema.md)
 
 

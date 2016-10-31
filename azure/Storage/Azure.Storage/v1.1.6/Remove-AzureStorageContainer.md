@@ -245,8 +245,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageContainer](./Get-AzureStorageContainer.md)
+[Get-AzureStorageContainer](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageContainer.md)
 
-[New-AzureStorageContainer](./New-AzureStorageContainer.md)
+[New-AzureStorageContainer](xref:Storage/Azure.Storage/v1.1.6/New-AzureStorageContainer.md)
 
 

@@ -100,10 +100,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationJob](./Get-AzureAutomationJob.md)
+[Get-AzureAutomationJob](xref:ServiceManagement/Azure.Automation/v2.1.0/Get-AzureAutomationJob.md)
 
-[Resume-AzureAutomationJob](./Resume-AzureAutomationJob.md)
+[Resume-AzureAutomationJob](xref:ServiceManagement/Azure.Automation/v2.1.0/Resume-AzureAutomationJob.md)
 
-[Suspend-AzureAutomationJob](./Suspend-AzureAutomationJob.md)
+[Suspend-AzureAutomationJob](xref:ServiceManagement/Azure.Automation/v2.1.0/Suspend-AzureAutomationJob.md)
 
 

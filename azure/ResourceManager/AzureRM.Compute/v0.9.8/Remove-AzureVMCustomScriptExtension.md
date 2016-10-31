@@ -128,8 +128,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMCustomScriptExtension](./Get-AzureVMCustomScriptExtension.md)
+[Get-AzureVMCustomScriptExtension](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMCustomScriptExtension.md)
 
-[Set-AzureVMCustomScriptExtension](./Set-AzureVMCustomScriptExtension.md)
+[Set-AzureVMCustomScriptExtension](xref:ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMCustomScriptExtension.md)
 
 

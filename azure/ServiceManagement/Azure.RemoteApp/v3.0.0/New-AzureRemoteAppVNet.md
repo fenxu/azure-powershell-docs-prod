@@ -189,12 +189,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppOperationResult](./Get-AzureRemoteAppOperationResult.md)
+[Get-AzureRemoteAppOperationResult](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppOperationResult.md)
 
-[Get-AzureRemoteAppVNet](./Get-AzureRemoteAppVNet.md)
+[Get-AzureRemoteAppVNet](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppVNet.md)
 
-[Remove-AzureRemoteAppVNet](./Remove-AzureRemoteAppVNet.md)
+[Remove-AzureRemoteAppVNet](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Remove-AzureRemoteAppVNet.md)
 
-[Set-AzureRemoteAppVNet](./Set-AzureRemoteAppVNet.md)
+[Set-AzureRemoteAppVNet](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Set-AzureRemoteAppVNet.md)
 
 

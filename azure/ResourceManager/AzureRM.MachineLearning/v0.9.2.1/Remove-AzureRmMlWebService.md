@@ -171,14 +171,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmMlWebService](./Export-AzureRmMlWebService.md)
+[Export-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Export-AzureRmMlWebService.md)
 
-[Get-AzureRmMlWebService](./Get-AzureRmMlWebService.md)
+[Get-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Get-AzureRmMlWebService.md)
 
-[Import-AzureRmMlWebService](./Import-AzureRmMlWebService.md)
+[Import-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Import-AzureRmMlWebService.md)
 
-[New-AzureRmMlWebService](./New-AzureRmMlWebService.md)
+[New-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.9.2.1/New-AzureRmMlWebService.md)
 
-[Update-AzureRmMlWebService](./Update-AzureRmMlWebService.md)
+[Update-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Update-AzureRmMlWebService.md)
 
 

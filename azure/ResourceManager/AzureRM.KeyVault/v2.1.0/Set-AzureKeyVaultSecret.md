@@ -245,8 +245,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureKeyVaultSecret](./Get-AzureKeyVaultSecret.md)
+[Get-AzureKeyVaultSecret](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultSecret.md)
 
-[Remove-AzureKeyVaultSecret](./Remove-AzureKeyVaultSecret.md)
+[Remove-AzureKeyVaultSecret](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Remove-AzureKeyVaultSecret.md)
 
 

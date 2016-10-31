@@ -167,6 +167,6 @@ This cmdlet returns the primary and secondary access key of a Redis Cache.
 
 ## RELATED LINKS
 
-[Get-AzureRmRedisCacheKey](./Get-AzureRmRedisCacheKey.md)
+[Get-AzureRmRedisCacheKey](xref:ResourceManager/AzureRM.RedisCache/v2.1.0/Get-AzureRmRedisCacheKey.md)
 
 

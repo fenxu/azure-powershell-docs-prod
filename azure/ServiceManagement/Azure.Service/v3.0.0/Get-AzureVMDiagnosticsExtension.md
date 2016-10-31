@@ -84,8 +84,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureVMDiagnosticsExtension](./Remove-AzureVMDiagnosticsExtension.md)
+[Remove-AzureVMDiagnosticsExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMDiagnosticsExtension.md)
 
-[Set-AzureVMDiagnosticsExtension](./Set-AzureVMDiagnosticsExtension.md)
+[Set-AzureVMDiagnosticsExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMDiagnosticsExtension.md)
 
 

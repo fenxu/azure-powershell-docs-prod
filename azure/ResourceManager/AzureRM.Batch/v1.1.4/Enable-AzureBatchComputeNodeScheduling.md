@@ -142,6 +142,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureBatchComputeNodeScheduling](./Disable-AzureBatchComputeNodeScheduling.md)
+[Disable-AzureBatchComputeNodeScheduling](xref:ResourceManager/AzureRM.Batch/v1.1.4/Disable-AzureBatchComputeNodeScheduling.md)
 
 

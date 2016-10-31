@@ -88,10 +88,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disconnect-AzureRemoteAppSession](./Disconnect-AzureRemoteAppSession.md)
+[Disconnect-AzureRemoteAppSession](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Disconnect-AzureRemoteAppSession.md)
 
-[Set-AzureRemoteAppWorkspace](./Set-AzureRemoteAppWorkspace.md)
+[Set-AzureRemoteAppWorkspace](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Set-AzureRemoteAppWorkspace.md)
 
-[Update-AzureRemoteAppCollection](./Update-AzureRemoteAppCollection.md)
+[Update-AzureRemoteAppCollection](xref:ServiceManagement/Azure.RemoteApp/v3.0.0/Update-AzureRemoteAppCollection.md)
 
 

@@ -332,12 +332,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmNetworkInterfaceIpConfig](./Get-AzureRmNetworkInterfaceIpConfig.md)
+[Get-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmNetworkInterfaceIpConfig.md)
 
-[New-AzureRmNetworkInterfaceIpConfig](./New-AzureRmNetworkInterfaceIpConfig.md)
+[New-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmNetworkInterfaceIpConfig.md)
 
-[Remove-AzureRmNetworkInterfaceIpConfig](./Remove-AzureRmNetworkInterfaceIpConfig.md)
+[Remove-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmNetworkInterfaceIpConfig.md)
 
-[Set-AzureRmNetworkInterfaceIpConfig](./Set-AzureRmNetworkInterfaceIpConfig.md)
+[Set-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmNetworkInterfaceIpConfig.md)
 
 

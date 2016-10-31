@@ -400,10 +400,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMDscExtension](./Get-AzureRmVMDscExtension.md)
+[Get-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMDscExtension.md)
 
-[Remove-AzureRmVMDscExtension](./Remove-AzureRmVMDscExtension.md)
+[Remove-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVMDscExtension.md)
 
-[Publish-AzureRmVMDscConfiguration](./Publish-AzureRmVMDscConfiguration.md)
+[Publish-AzureRmVMDscConfiguration](xref:ResourceManager/AzureRM.Compute/v1.3.4/Publish-AzureRmVMDscConfiguration.md)
 
 

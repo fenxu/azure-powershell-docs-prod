@@ -135,10 +135,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlDatabaseServer](./Get-AzureSqlDatabaseServer.md)
+[Get-AzureSqlDatabaseServer](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/Get-AzureSqlDatabaseServer.md)
 
-[New-AzureSqlDatabaseServer](./New-AzureSqlDatabaseServer.md)
+[New-AzureSqlDatabaseServer](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/New-AzureSqlDatabaseServer.md)
 
-[Set-AzureSqlDatabaseServer](./Set-AzureSqlDatabaseServer.md)
+[Set-AzureSqlDatabaseServer](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/Set-AzureSqlDatabaseServer.md)
 
 

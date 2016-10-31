@@ -316,10 +316,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlServerAuditingPolicy](./Get-AzureRmSqlServerAuditingPolicy.md)
+[Get-AzureRmSqlServerAuditingPolicy](xref:ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServerAuditingPolicy.md)
 
-[Use-AzureRmSqlServerAuditingPolicy](./Use-AzureRmSqlServerAuditingPolicy.md)
+[Use-AzureRmSqlServerAuditingPolicy](xref:ResourceManager/AzureRM.Sql/v2.2.0/Use-AzureRmSqlServerAuditingPolicy.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md)
 
 

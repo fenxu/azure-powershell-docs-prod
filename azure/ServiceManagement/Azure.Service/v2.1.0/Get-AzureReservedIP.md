@@ -122,8 +122,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureReservedIP](./New-AzureReservedIP.md)
+[New-AzureReservedIP](xref:ServiceManagement/Azure.Service/v2.1.0/New-AzureReservedIP.md)
 
-[Remove-AzureReservedIP](./Remove-AzureReservedIP.md)
+[Remove-AzureReservedIP](xref:ServiceManagement/Azure.Service/v2.1.0/Remove-AzureReservedIP.md)
 
 

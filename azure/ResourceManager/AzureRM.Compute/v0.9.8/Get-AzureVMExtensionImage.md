@@ -147,12 +147,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMExtensionImageType](./Get-AzureVMExtensionImageType.md)
+[Get-AzureVMExtensionImageType](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMExtensionImageType.md)
 
-[Get-AzureVMImage](./Get-AzureVMImage.md)
+[Get-AzureVMImage](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMImage.md)
 
-[Get-AzureVMImagePublisher](./Get-AzureVMImagePublisher.md)
+[Get-AzureVMImagePublisher](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMImagePublisher.md)
 
-[Get-AzureVMExtensionImageType](./Get-AzureVMExtensionImageType.md)
+[Get-AzureVMExtensionImageType](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMExtensionImageType.md)
 
 

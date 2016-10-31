@@ -112,6 +112,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVmssVM](./Get-AzureRmVmssVM.md)
+[Get-AzureRmVmssVM](xref:ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVmssVM.md)
 
 

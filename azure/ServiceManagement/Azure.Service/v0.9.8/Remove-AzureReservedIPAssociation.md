@@ -168,6 +168,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureReservedIPAssociation](./Set-AzureReservedIPAssociation.md)
+[Set-AzureReservedIPAssociation](xref:ServiceManagement/Azure.Service/v0.9.8/Set-AzureReservedIPAssociation.md)
 
 

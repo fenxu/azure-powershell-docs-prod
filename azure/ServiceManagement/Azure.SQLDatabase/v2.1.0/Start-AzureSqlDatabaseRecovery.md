@@ -189,8 +189,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Operations for Azure SQL Databases](https://msdn.microsoft.com/en-us/library/azure/dn505719.aspx)
 
-[Get-AzureSqlRecoverableDatabase](./Get-AzureSqlRecoverableDatabase.md)
+[Get-AzureSqlRecoverableDatabase](xref:ServiceManagement/Azure.SQLDatabase/v2.1.0/Get-AzureSqlRecoverableDatabase.md)
 
-[Start-AzureSqlDatabaseRestore](./Start-AzureSqlDatabaseRestore.md)
+[Start-AzureSqlDatabaseRestore](xref:ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRestore.md)
 
 

@@ -174,6 +174,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStreamAnalyticsTransformation](./Get-AzureStreamAnalyticsTransformation.md)
+[Get-AzureStreamAnalyticsTransformation](xref:ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Get-AzureStreamAnalyticsTransformation.md)
 
 

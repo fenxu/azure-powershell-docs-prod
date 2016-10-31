@@ -178,14 +178,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Move-AzureNetworkSecurityGroup](./Move-AzureNetworkSecurityGroup.md)
+[Move-AzureNetworkSecurityGroup](xref:ServiceManagement/Azure.Service/v3.0.0/Move-AzureNetworkSecurityGroup.md)
 
-[Move-AzureReservedIP](./Move-AzureReservedIP.md)
+[Move-AzureReservedIP](xref:ServiceManagement/Azure.Service/v3.0.0/Move-AzureReservedIP.md)
 
-[Move-AzureRouteTable](./Move-AzureRouteTable.md)
+[Move-AzureRouteTable](xref:ServiceManagement/Azure.Service/v3.0.0/Move-AzureRouteTable.md)
 
-[Move-AzureService](./Move-AzureService.md)
+[Move-AzureService](xref:ServiceManagement/Azure.Service/v3.0.0/Move-AzureService.md)
 
-[Move-AzureVirtualNetwork](./Move-AzureVirtualNetwork.md)
+[Move-AzureVirtualNetwork](xref:ServiceManagement/Azure.Service/v3.0.0/Move-AzureVirtualNetwork.md)
 
 

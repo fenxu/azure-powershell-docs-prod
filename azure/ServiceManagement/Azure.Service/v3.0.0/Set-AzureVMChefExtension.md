@@ -289,8 +289,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMChefExtension](./Get-AzureVMChefExtension.md)
+[Get-AzureVMChefExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Get-AzureVMChefExtension.md)
 
-[Remove-AzureVMChefExtension](./Remove-AzureVMChefExtension.md)
+[Remove-AzureVMChefExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMChefExtension.md)
 
 

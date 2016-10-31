@@ -101,8 +101,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureService](./New-AzureService.md)
+[New-AzureService](xref:ServiceManagement/Azure.Service/v0.9.8/New-AzureService.md)
 
-[Set-AzureService](./Set-AzureService.md)
+[Set-AzureService](xref:ServiceManagement/Azure.Service/v0.9.8/Set-AzureService.md)
 
 

@@ -172,20 +172,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-WAPackVM](./Get-WAPackVM.md)
+[Get-WAPackVM](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-WAPackVM.md)
 
-[New-WAPackVM](./New-WAPackVM.md)
+[New-WAPackVM](xref:ServiceManagement/Azure.Compute/v3.0.0/New-WAPackVM.md)
 
-[Restart-WAPackVM](./Restart-WAPackVM.md)
+[Restart-WAPackVM](xref:ServiceManagement/Azure.Compute/v3.0.0/Restart-WAPackVM.md)
 
-[Resume-WAPackVM](./Resume-WAPackVM.md)
+[Resume-WAPackVM](xref:ServiceManagement/Azure.Compute/v3.0.0/Resume-WAPackVM.md)
 
-[Set-WAPackVM](./Set-WAPackVM.md)
+[Set-WAPackVM](xref:ServiceManagement/Azure.Compute/v3.0.0/Set-WAPackVM.md)
 
-[Start-WAPackVM](./Start-WAPackVM.md)
+[Start-WAPackVM](xref:ServiceManagement/Azure.Compute/v3.0.0/Start-WAPackVM.md)
 
-[Stop-WAPackVM](./Stop-WAPackVM.md)
+[Stop-WAPackVM](xref:ServiceManagement/Azure.Compute/v3.0.0/Stop-WAPackVM.md)
 
-[Suspend-WAPackVM](./Suspend-WAPackVM.md)
+[Suspend-WAPackVM](xref:ServiceManagement/Azure.Compute/v3.0.0/Suspend-WAPackVM.md)
 
 

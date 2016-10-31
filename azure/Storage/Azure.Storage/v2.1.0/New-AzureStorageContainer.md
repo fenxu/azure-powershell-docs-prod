@@ -219,10 +219,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageContainer](./Get-AzureStorageContainer.md)
+[Get-AzureStorageContainer](xref:Storage/Azure.Storage/v2.1.0/Get-AzureStorageContainer.md)
 
-[Remove-AzureStorageContainer](./Remove-AzureStorageContainer.md)
+[Remove-AzureStorageContainer](xref:Storage/Azure.Storage/v2.1.0/Remove-AzureStorageContainer.md)
 
-[Set-AzureStorageContainerAcl](./Set-AzureStorageContainerAcl.md)
+[Set-AzureStorageContainerAcl](xref:Storage/Azure.Storage/v2.1.0/Set-AzureStorageContainerAcl.md)
 
 

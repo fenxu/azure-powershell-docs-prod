@@ -176,8 +176,8 @@ This cmdlet returns an array of **PSCORSRule** objects which represent the CORS 
 
 ## RELATED LINKS
 
-[Remove-AzureStorageCORSRule](./Remove-AzureStorageCORSRule.md)
+[Remove-AzureStorageCORSRule](xref:Storage/Azure.Storage/v1.1.6/Remove-AzureStorageCORSRule.md)
 
-[Set-AzureStorageCORSRule](./Set-AzureStorageCORSRule.md)
+[Set-AzureStorageCORSRule](xref:Storage/Azure.Storage/v1.1.6/Set-AzureStorageCORSRule.md)
 
 

@@ -132,8 +132,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMDscExtension](./Get-AzureRmVMDscExtension.md)
+[Get-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMDscExtension.md)
 
-[Set-AzureRmVMDscExtension](./Set-AzureRmVMDscExtension.md)
+[Set-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMDscExtension.md)
 
 

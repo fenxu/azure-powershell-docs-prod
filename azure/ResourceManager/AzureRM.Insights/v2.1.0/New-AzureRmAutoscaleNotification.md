@@ -121,6 +121,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAutoscaleWebhook](./New-AzureRmAutoscaleWebhook.md)
+[New-AzureRmAutoscaleWebhook](xref:ResourceManager/AzureRM.Insights/v2.1.0/New-AzureRmAutoscaleWebhook.md)
 
 

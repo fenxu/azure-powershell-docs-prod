@@ -136,6 +136,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmRedisCacheDiagnostics](./Set-AzureRmRedisCacheDiagnostics.md)
+[Set-AzureRmRedisCacheDiagnostics](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Set-AzureRmRedisCacheDiagnostics.md)
 
 

@@ -119,12 +119,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureApplicationGatewayFrontendIPConfig](./Add-AzureApplicationGatewayFrontendIPConfig.md)
+[Add-AzureApplicationGatewayFrontendIPConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewayFrontendIPConfig.md)
 
-[New-AzureApplicationGatewayFrontendIPConfig](./New-AzureApplicationGatewayFrontendIPConfig.md)
+[New-AzureApplicationGatewayFrontendIPConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayFrontendIPConfig.md)
 
-[Remove-AzureApplicationGatewayFrontendIPConfig](./Remove-AzureApplicationGatewayFrontendIPConfig.md)
+[Remove-AzureApplicationGatewayFrontendIPConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewayFrontendIPConfig.md)
 
-[Set-AzureApplicationGatewayFrontendIPConfig](./Set-AzureApplicationGatewayFrontendIPConfig.md)
+[Set-AzureApplicationGatewayFrontendIPConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayFrontendIPConfig.md)
 
 

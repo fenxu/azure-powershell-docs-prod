@@ -148,10 +148,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationModule](./Get-AzureAutomationModule.md)
+[Get-AzureAutomationModule](xref:ServiceManagement/Azure.Automation/v3.0.0/Get-AzureAutomationModule.md)
 
-[New-AzureAutomationModule](./New-AzureAutomationModule.md)
+[New-AzureAutomationModule](xref:ServiceManagement/Azure.Automation/v3.0.0/New-AzureAutomationModule.md)
 
-[Remove-AzureAutomationModule](./Remove-AzureAutomationModule.md)
+[Remove-AzureAutomationModule](xref:ServiceManagement/Azure.Automation/v3.0.0/Remove-AzureAutomationModule.md)
 
 

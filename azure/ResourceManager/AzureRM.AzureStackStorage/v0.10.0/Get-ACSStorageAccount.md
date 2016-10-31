@@ -244,10 +244,10 @@ Output from Get-ACSFarm can be piped to this cmdlet.
 
 ## RELATED LINKS
 
-[Sync-ACSStorageAccount](./Sync-ACSStorageAccount.md)
+[Sync-ACSStorageAccount](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Sync-ACSStorageAccount.md)
 
-[Undo-ACSStorageAccountDeletion](./Undo-ACSStorageAccountDeletion.md)
+[Undo-ACSStorageAccountDeletion](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Undo-ACSStorageAccountDeletion.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
 

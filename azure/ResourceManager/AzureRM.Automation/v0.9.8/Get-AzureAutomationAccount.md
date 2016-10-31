@@ -126,10 +126,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureAutomationAccount](./New-AzureAutomationAccount.md)
+[New-AzureAutomationAccount](xref:ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationAccount.md)
 
-[Remove-AzureAutomationAccount](./Remove-AzureAutomationAccount.md)
+[Remove-AzureAutomationAccount](xref:ResourceManager/AzureRM.Automation/v0.9.8/Remove-AzureAutomationAccount.md)
 
-[Set-AzureAutomationAccount](./Set-AzureAutomationAccount.md)
+[Set-AzureAutomationAccount](xref:ResourceManager/AzureRM.Automation/v0.9.8/Set-AzureAutomationAccount.md)
 
 

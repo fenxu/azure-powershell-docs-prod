@@ -106,8 +106,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureVM](./New-AzureVM.md)
+[New-AzureVM](xref:ServiceManagement/Azure.Service/v3.0.0/New-AzureVM.md)
 
-[New-AzureQuickVM](./New-AzureQuickVM.md)
+[New-AzureQuickVM](xref:ServiceManagement/Azure.Service/v3.0.0/New-AzureQuickVM.md)
 
 

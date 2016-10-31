@@ -180,6 +180,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmApplicationGateway](./Set-AzureRmApplicationGateway.md)
+[Set-AzureRmApplicationGateway](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmApplicationGateway.md)
 
 

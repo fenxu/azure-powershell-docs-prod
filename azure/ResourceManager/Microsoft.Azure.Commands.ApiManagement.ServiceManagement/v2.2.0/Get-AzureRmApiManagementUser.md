@@ -213,10 +213,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmApiManagementUser](./New-AzureRmApiManagementUser.md)
+[New-AzureRmApiManagementUser](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementUser.md)
 
-[Remove-AzureRmApiManagementUser](./Remove-AzureRmApiManagementUser.md)
+[Remove-AzureRmApiManagementUser](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementUser.md)
 
-[Set-AzureRmApiManagementUser](./Set-AzureRmApiManagementUser.md)
+[Set-AzureRmApiManagementUser](xref:ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementUser.md)
 
 

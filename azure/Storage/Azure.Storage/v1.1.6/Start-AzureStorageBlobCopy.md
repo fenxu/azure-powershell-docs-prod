@@ -580,8 +580,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageBlobCopyState](./Get-AzureStorageBlobCopyState.md)
+[Get-AzureStorageBlobCopyState](xref:Storage/Azure.Storage/v1.1.6/Get-AzureStorageBlobCopyState.md)
 
-[Stop-AzureStorageBlobCopy](./Stop-AzureStorageBlobCopy.md)
+[Stop-AzureStorageBlobCopy](xref:Storage/Azure.Storage/v1.1.6/Stop-AzureStorageBlobCopy.md)
 
 

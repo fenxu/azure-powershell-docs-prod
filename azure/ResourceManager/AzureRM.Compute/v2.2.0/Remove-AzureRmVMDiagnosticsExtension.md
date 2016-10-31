@@ -102,10 +102,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMDiagnosticsExtension](./Get-AzureRMVMDiagnosticsExtension.md)
+[Get-AzureRmVMDiagnosticsExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRMVMDiagnosticsExtension.md)
 
-[Set-AzureRmVMDiagnosticsExtension](./Set-AzureRMVMDiagnosticsExtension.md)
+[Set-AzureRmVMDiagnosticsExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRMVMDiagnosticsExtension.md)
 
-[Update-AzureRmVM](./Update-AzureRmVM.md)
+[Update-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v2.2.0/Update-AzureRmVM.md)
 
 

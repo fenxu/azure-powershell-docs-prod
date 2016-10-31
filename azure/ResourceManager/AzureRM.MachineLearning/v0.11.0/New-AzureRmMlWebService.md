@@ -230,14 +230,14 @@ This description does not contain sensitive properties.
 
 ## RELATED LINKS
 
-[Export-AzureRmMlWebService](./Export-AzureRmMlWebService.md)
+[Export-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.11.0/Export-AzureRmMlWebService.md)
 
-[Get-AzureRmMlWebService](./Get-AzureRmMlWebService.md)
+[Get-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.11.0/Get-AzureRmMlWebService.md)
 
-[Import-AzureRmMlWebService](./Import-AzureRmMlWebService.md)
+[Import-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.11.0/Import-AzureRmMlWebService.md)
 
-[Remove-AzureRmMlWebService](./Remove-AzureRmMlWebService.md)
+[Remove-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.11.0/Remove-AzureRmMlWebService.md)
 
-[Update-AzureRmMlWebService](./Update-AzureRmMlWebService.md)
+[Update-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.11.0/Update-AzureRmMlWebService.md)
 
 

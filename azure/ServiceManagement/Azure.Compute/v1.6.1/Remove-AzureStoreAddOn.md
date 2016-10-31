@@ -100,10 +100,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStoreAddOn](./Get-AzureStoreAddOn.md)
+[Get-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v1.6.1/Get-AzureStoreAddOn.md)
 
-[New-AzureStoreAddOn](./New-AzureStoreAddOn.md)
+[New-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v1.6.1/New-AzureStoreAddOn.md)
 
-[Set-AzureStoreAddOn](./Set-AzureStoreAddOn.md)
+[Set-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v1.6.1/Set-AzureStoreAddOn.md)
 
 

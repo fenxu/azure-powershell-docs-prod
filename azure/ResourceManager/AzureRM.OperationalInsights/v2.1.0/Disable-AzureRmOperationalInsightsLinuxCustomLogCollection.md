@@ -184,6 +184,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureRmOperationalInsightsLinuxCustomLogCollection](./Enable-AzureRmOperationalInsightsLinuxCustomLogCollection.md)
+[Enable-AzureRmOperationalInsightsLinuxCustomLogCollection](xref:ResourceManager/AzureRM.OperationalInsights/v2.1.0/Enable-AzureRmOperationalInsightsLinuxCustomLogCollection.md)
 
 

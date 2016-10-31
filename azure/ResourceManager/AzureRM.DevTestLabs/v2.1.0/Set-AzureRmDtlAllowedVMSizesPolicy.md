@@ -200,6 +200,6 @@ This cmdlet returns the policy that specifies the list of virtual machine sizes 
 
 ## RELATED LINKS
 
-[Get-AzureRmDtlAllowedVMSizesPolicy](./Get-AzureRmDtlAllowedVMSizesPolicy.md)
+[Get-AzureRmDtlAllowedVMSizesPolicy](xref:ResourceManager/AzureRM.DevTestLabs/v2.1.0/Get-AzureRmDtlAllowedVMSizesPolicy.md)
 
 

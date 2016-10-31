@@ -247,8 +247,8 @@ This cmdlet returns updated device details for the virtual device.
 
 ## RELATED LINKS
 
-[New-AzureStorSimpleNetworkConfig](./New-AzureStorSimpleNetworkConfig.md)
+[New-AzureStorSimpleNetworkConfig](xref:ServiceManagement/Azure.StorSimple/v3.0.0/New-AzureStorSimpleNetworkConfig.md)
 
-[Set-AzureStorSimpleVirtualDevice](./Set-AzureStorSimpleVirtualDevice.md)
+[Set-AzureStorSimpleVirtualDevice](xref:ServiceManagement/Azure.StorSimple/v3.0.0/Set-AzureStorSimpleVirtualDevice.md)
 
 

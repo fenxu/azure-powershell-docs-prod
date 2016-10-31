@@ -204,12 +204,12 @@ If you specify the *VolumeContainer*, this cmdlet returns an **IList\<VirtualDis
 
 ## RELATED LINKS
 
-[New-AzureStorSimpleDeviceVolume](./New-AzureStorSimpleDeviceVolume.md)
+[New-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleDeviceVolume.md)
 
-[Remove-AzureStorSimpleDeviceVolume](./Remove-AzureStorSimpleDeviceVolume.md)
+[Remove-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Remove-AzureStorSimpleDeviceVolume.md)
 
-[Set-AzureStorSimpleDeviceVolume](./Set-AzureStorSimpleDeviceVolume.md)
+[Set-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleDeviceVolume.md)
 
-[Get-AzureStorSimpleDeviceVolumeContainer](./Get-AzureStorSimpleDeviceVolumeContainer.md)
+[Get-AzureStorSimpleDeviceVolumeContainer](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleDeviceVolumeContainer.md)
 
 

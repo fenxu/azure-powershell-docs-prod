@@ -202,10 +202,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-WAPackVMRole](./Get-WAPackVMRole.md)
+[Get-WAPackVMRole](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-WAPackVMRole.md)
 
-[New-WAPackVMRole](./New-WAPackVMRole.md)
+[New-WAPackVMRole](xref:ServiceManagement/Azure.Compute/v3.0.0/New-WAPackVMRole.md)
 
-[Set-WAPackVMRole](./Set-WAPackVMRole.md)
+[Set-WAPackVMRole](xref:ServiceManagement/Azure.Compute/v3.0.0/Set-WAPackVMRole.md)
 
 

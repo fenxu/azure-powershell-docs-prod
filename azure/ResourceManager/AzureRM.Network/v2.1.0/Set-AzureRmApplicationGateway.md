@@ -99,6 +99,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureRmApplicationGateway](./Start-AzureRmApplicationGateway.md)
+[Start-AzureRmApplicationGateway](xref:ResourceManager/AzureRM.Network/v2.1.0/Start-AzureRmApplicationGateway.md)
 
 

@@ -118,6 +118,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmCognitiveServicesAccountKey](./New-AzureRmCognitiveServicesAccountKey.md)
+[New-AzureRmCognitiveServicesAccountKey](xref:ResourceManager/AzureRM.CognitiveServices/v0.3.0/New-AzureRmCognitiveServicesAccountKey.md)
 
 

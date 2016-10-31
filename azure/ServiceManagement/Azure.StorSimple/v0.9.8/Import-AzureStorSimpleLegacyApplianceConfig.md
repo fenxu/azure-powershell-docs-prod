@@ -140,6 +140,6 @@ The **LegacyApplianceConfiguration** object contains the following information: 
 
 ## RELATED LINKS
 
-[Import-AzureStorSimpleLegacyVolumeContainer](./Import-AzureStorSimpleLegacyVolumeContainer.md)
+[Import-AzureStorSimpleLegacyVolumeContainer](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Import-AzureStorSimpleLegacyVolumeContainer.md)
 
 

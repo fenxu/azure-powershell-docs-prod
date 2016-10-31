@@ -213,8 +213,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ACSTableService](./Get-ACSTableService.md)
+[Get-ACSTableService](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableService.md)
 
-[Get-ACSTableServiceMetric](./Get-ACSTableServiceMetric.md)
+[Get-ACSTableServiceMetric](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetric.md)
 
 

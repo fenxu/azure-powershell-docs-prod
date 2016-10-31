@@ -512,18 +512,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureHDInsightMetastore](./Add-AzureHDInsightMetastore.md)
+[Add-AzureHDInsightMetastore](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Add-AzureHDInsightMetastore.md)
 
-[Add-AzureHDInsightStorage](./Add-AzureHDInsightStorage.md)
+[Add-AzureHDInsightStorage](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Add-AzureHDInsightStorage.md)
 
-[Get-AzureHDInsightCluster](./Get-AzureHDInsightCluster.md)
+[Get-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Get-AzureHDInsightCluster.md)
 
-[New-AzureHDInsightClusterConfig](./New-AzureHDInsightClusterConfig.md)
+[New-AzureHDInsightClusterConfig](xref:ServiceManagement/Azure.HDInsight/v0.9.8/New-AzureHDInsightClusterConfig.md)
 
-[Remove-AzureHDInsightCluster](./Remove-AzureHDInsightCluster.md)
+[Remove-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Remove-AzureHDInsightCluster.md)
 
-[Set-AzureHDInsightDefaultStorage](./Set-AzureHDInsightDefaultStorage.md)
+[Set-AzureHDInsightDefaultStorage](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Set-AzureHDInsightDefaultStorage.md)
 
-[Use-AzureHDInsightCluster](./Use-AzureHDInsightCluster.md)
+[Use-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Use-AzureHDInsightCluster.md)
 
 

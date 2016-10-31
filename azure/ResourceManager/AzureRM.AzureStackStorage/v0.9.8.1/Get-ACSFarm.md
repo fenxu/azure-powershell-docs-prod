@@ -168,8 +168,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-ACSFarm](./Add-ACSFarm.md)
+[Add-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Add-ACSFarm.md)
 
-[Set-ACSFarm](./Set-ACSFarm.md)
+[Set-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSFarm.md)
 
 

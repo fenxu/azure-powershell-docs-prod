@@ -126,22 +126,22 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-WAPackVM](./Get-WAPackVM.md)
+[Get-WAPackVM](xref:ServiceManagement/Azure.Compute/v2.1.0/Get-WAPackVM.md)
 
-[New-WAPackVM](./New-WAPackVM.md)
+[New-WAPackVM](xref:ServiceManagement/Azure.Compute/v2.1.0/New-WAPackVM.md)
 
-[Remove-WAPackVM](./Remove-WAPackVM.md)
+[Remove-WAPackVM](xref:ServiceManagement/Azure.Compute/v2.1.0/Remove-WAPackVM.md)
 
-[Restart-WAPackVM](./Restart-WAPackVM.md)
+[Restart-WAPackVM](xref:ServiceManagement/Azure.Compute/v2.1.0/Restart-WAPackVM.md)
 
-[Resume-WAPackVM](./Resume-WAPackVM.md)
+[Resume-WAPackVM](xref:ServiceManagement/Azure.Compute/v2.1.0/Resume-WAPackVM.md)
 
-[Start-WAPackVM](./Start-WAPackVM.md)
+[Start-WAPackVM](xref:ServiceManagement/Azure.Compute/v2.1.0/Start-WAPackVM.md)
 
-[Stop-WAPackVM](./Stop-WAPackVM.md)
+[Stop-WAPackVM](xref:ServiceManagement/Azure.Compute/v2.1.0/Stop-WAPackVM.md)
 
-[Suspend-WAPackVM](./Suspend-WAPackVM.md)
+[Suspend-WAPackVM](xref:ServiceManagement/Azure.Compute/v2.1.0/Suspend-WAPackVM.md)
 
-[Get-WAPackVMSizeProfile](./Get-WAPackVMSizeProfile.md)
+[Get-WAPackVMSizeProfile](xref:ServiceManagement/Azure.Compute/v2.1.0/Get-WAPackVMSizeProfile.md)
 
 

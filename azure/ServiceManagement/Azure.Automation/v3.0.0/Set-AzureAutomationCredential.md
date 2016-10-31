@@ -137,10 +137,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationCredential](./Get-AzureAutomationCredential.md)
+[Get-AzureAutomationCredential](xref:ServiceManagement/Azure.Automation/v3.0.0/Get-AzureAutomationCredential.md)
 
-[New-AzureAutomationCredential](./New-AzureAutomationCredential.md)
+[New-AzureAutomationCredential](xref:ServiceManagement/Azure.Automation/v3.0.0/New-AzureAutomationCredential.md)
 
-[Remove-AzureAutomationCredential](./Remove-AzureAutomationCredential.md)
+[Remove-AzureAutomationCredential](xref:ServiceManagement/Azure.Automation/v3.0.0/Remove-AzureAutomationCredential.md)
 
 

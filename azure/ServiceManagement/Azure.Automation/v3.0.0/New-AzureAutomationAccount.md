@@ -102,8 +102,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationAccount](./Get-AzureAutomationAccount.md)
+[Get-AzureAutomationAccount](xref:ServiceManagement/Azure.Automation/v3.0.0/Get-AzureAutomationAccount.md)
 
-[Remove-AzureAutomationAccount](./Remove-AzureAutomationAccount.md)
+[Remove-AzureAutomationAccount](xref:ServiceManagement/Azure.Automation/v3.0.0/Remove-AzureAutomationAccount.md)
 
 

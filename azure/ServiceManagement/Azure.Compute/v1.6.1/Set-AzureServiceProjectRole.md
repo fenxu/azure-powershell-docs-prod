@@ -191,6 +191,6 @@ Specifies the size of the virtual machine.
 
 ## RELATED LINKS
 
-[Set-AzureServiceProject](./Set-AzureServiceProject.md)
+[Set-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v1.6.1/Set-AzureServiceProject.md)
 
 

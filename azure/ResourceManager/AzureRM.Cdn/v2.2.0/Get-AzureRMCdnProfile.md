@@ -84,10 +84,10 @@ This cmdlet returns a profile object.
 
 ## RELATED LINKS
 
-[New-AzureRmCdnProfile](./New-AzureRmCdnProfile.md)
+[New-AzureRmCdnProfile](xref:ResourceManager/AzureRM.Cdn/v2.2.0/New-AzureRmCdnProfile.md)
 
-[Remove-AzureRmCdnProfile](./Remove-AzureRmCdnProfile.md)
+[Remove-AzureRmCdnProfile](xref:ResourceManager/AzureRM.Cdn/v2.2.0/Remove-AzureRmCdnProfile.md)
 
-[Set-AzureRmCdnProfile](./Set-AzureRmCdnProfile.md)
+[Set-AzureRmCdnProfile](xref:ResourceManager/AzureRM.Cdn/v2.2.0/Set-AzureRmCdnProfile.md)
 
 

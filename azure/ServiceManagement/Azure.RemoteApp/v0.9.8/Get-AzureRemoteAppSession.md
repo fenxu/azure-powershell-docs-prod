@@ -101,10 +101,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disconnect-AzureRemoteAppSession](./Disconnect-AzureRemoteAppSession.md)
+[Disconnect-AzureRemoteAppSession](xref:ServiceManagement/Azure.RemoteApp/v0.9.8/Disconnect-AzureRemoteAppSession.md)
 
-[Invoke-AzureRemoteAppSessionLogoff](./Invoke-AzureRemoteAppSessionLogoff.md)
+[Invoke-AzureRemoteAppSessionLogoff](xref:ServiceManagement/Azure.RemoteApp/v0.9.8/Invoke-AzureRemoteAppSessionLogoff.md)
 
-[Send-AzureRemoteAppSessionMessage](./Send-AzureRemoteAppSessionMessage.md)
+[Send-AzureRemoteAppSessionMessage](xref:ServiceManagement/Azure.RemoteApp/v0.9.8/Send-AzureRemoteAppSessionMessage.md)
 
 

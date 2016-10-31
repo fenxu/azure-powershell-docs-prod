@@ -120,8 +120,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureService](./Remove-AzureService.md)
+[Remove-AzureService](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-AzureService.md)
 
-[Start-AzureService](./Start-AzureService.md)
+[Start-AzureService](xref:ServiceManagement/Azure.Compute/v3.0.0/Start-AzureService.md)
 
 

@@ -92,6 +92,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmStorageAccountKey](./New-AzureRmStorageAccountKey.md)
+[New-AzureRmStorageAccountKey](xref:ResourceManager/AzureRM.Storage/v2.2.0/New-AzureRmStorageAccountKey.md)
 
 

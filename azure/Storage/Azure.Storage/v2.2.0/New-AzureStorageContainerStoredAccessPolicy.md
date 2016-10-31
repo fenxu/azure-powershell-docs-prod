@@ -215,12 +215,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageContainerStoredAccessPolicy](./Get-AzureStorageContainerStoredAccessPolicy.md)
+[Get-AzureStorageContainerStoredAccessPolicy](xref:Storage/Azure.Storage/v2.2.0/Get-AzureStorageContainerStoredAccessPolicy.md)
 
-[New-AzureStorageContext](./New-AzureStorageContext.md)
+[New-AzureStorageContext](xref:Storage/Azure.Storage/v2.2.0/New-AzureStorageContext.md)
 
-[Remove-AzureStorageContainerStoredAccessPolicy](./Remove-AzureStorageContainerStoredAccessPolicy.md)
+[Remove-AzureStorageContainerStoredAccessPolicy](xref:Storage/Azure.Storage/v2.2.0/Remove-AzureStorageContainerStoredAccessPolicy.md)
 
-[Set-AzureStorageContainerStoredAccessPolicy](./Set-AzureStorageContainerStoredAccessPolicy.md)
+[Set-AzureStorageContainerStoredAccessPolicy](xref:Storage/Azure.Storage/v2.2.0/Set-AzureStorageContainerStoredAccessPolicy.md)
 
 

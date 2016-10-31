@@ -122,10 +122,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRouteTable](./New-AzureRouteTable.md)
+[New-AzureRouteTable](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureRouteTable.md)
 
-[Remove-AzureRouteTable](./Remove-AzureRouteTable.md)
+[Remove-AzureRouteTable](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureRouteTable.md)
 
-[Set-AzureRouteTable](./Set-AzureRouteTable.md)
+[Set-AzureRouteTable](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureRouteTable.md)
 
 

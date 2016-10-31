@@ -130,6 +130,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmDataLakeStoreItemOwner](./Set-AzureRmDataLakeStoreItemOwner.md)
+[Set-AzureRmDataLakeStoreItemOwner](xref:ResourceManager/AzureRM.DataLakeStore/v2.1.0/Set-AzureRmDataLakeStoreItemOwner.md)
 
 

@@ -127,12 +127,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureBatchPool](./Get-AzureBatchPool.md)
+[Get-AzureBatchPool](xref:ResourceManager/AzureRM.Batch/v0.9.8/Get-AzureBatchPool.md)
 
-[New-AzureBatchPool](./New-AzureBatchPool.md)
+[New-AzureBatchPool](xref:ResourceManager/AzureRM.Batch/v0.9.8/New-AzureBatchPool.md)
 
-[Get-AzureBatchAccountKeys](./Get-AzureBatchAccountKeys.md)
+[Get-AzureBatchAccountKeys](xref:ResourceManager/AzureRM.Batch/v0.9.8/Get-AzureBatchAccountKeys.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v0.9.8/AzureRM.Batch.md)
 
 

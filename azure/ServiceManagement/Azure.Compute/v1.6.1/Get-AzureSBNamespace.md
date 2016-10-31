@@ -85,6 +85,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSBLocation](./Get-AzureSBLocation.md)
+[Get-AzureSBLocation](xref:ServiceManagement/Azure.Compute/v1.6.1/Get-AzureSBLocation.md)
 
 

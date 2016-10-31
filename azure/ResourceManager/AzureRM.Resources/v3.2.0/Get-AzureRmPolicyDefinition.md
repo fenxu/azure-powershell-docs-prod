@@ -131,10 +131,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmPolicyDefinition](./New-AzureRmPolicyDefinition.md)
+[New-AzureRmPolicyDefinition](xref:ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmPolicyDefinition.md)
 
-[Remove-AzureRmPolicyDefinition](./Remove-AzureRmPolicyDefinition.md)
+[Remove-AzureRmPolicyDefinition](xref:ResourceManager/AzureRM.Resources/v3.2.0/Remove-AzureRmPolicyDefinition.md)
 
-[Set-AzureRmPolicyDefinition](./Set-AzureRmPolicyDefinition.md)
+[Set-AzureRmPolicyDefinition](xref:ResourceManager/AzureRM.Resources/v3.2.0/Set-AzureRmPolicyDefinition.md)
 
 

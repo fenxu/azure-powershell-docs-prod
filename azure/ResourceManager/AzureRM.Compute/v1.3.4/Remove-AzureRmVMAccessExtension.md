@@ -174,10 +174,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMAccessExtension](./Get-AzureRmVMAccessExtension.md)
+[Get-AzureRmVMAccessExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMAccessExtension.md)
 
-[Set-AzureRmVMAccessExtension](./Set-AzureRmVMAccessExtension.md)
+[Set-AzureRmVMAccessExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMAccessExtension.md)
 
-[Remove-AzureRmVMExtension](./Remove-AzureRmVMExtension.md)
+[Remove-AzureRmVMExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVMExtension.md)
 
 

@@ -141,8 +141,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmSqlDatabaseExport](./New-AzureRmSqlDatabaseExport.md)
+[New-AzureRmSqlDatabaseExport](xref:ResourceManager/AzureRM.Sql/v2.1.0/New-AzureRmSqlDatabaseExport.md)
 
-[New-AzureRmSqlDatabaseImport](./New-AzureRmSqlDatabaseImport.md)
+[New-AzureRmSqlDatabaseImport](xref:ResourceManager/AzureRM.Sql/v2.1.0/New-AzureRmSqlDatabaseImport.md)
 
 

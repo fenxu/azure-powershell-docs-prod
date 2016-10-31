@@ -132,10 +132,10 @@ If the zone name is not specified, an array of zone objects is returned.
 
 ## RELATED LINKS
 
-[New-AzureDnsZone](./New-AzureDnsZone.md)
+[New-AzureDnsZone](xref:ResourceManager/AzureRM.DNS/v0.9.8/New-AzureDnsZone.md)
 
-[Remove-AzureDnsZone](./Remove-AzureDnsZone.md)
+[Remove-AzureDnsZone](xref:ResourceManager/AzureRM.DNS/v0.9.8/Remove-AzureDnsZone.md)
 
-[Set-AzureDnsZone](./Set-AzureDnsZone.md)
+[Set-AzureDnsZone](xref:ResourceManager/AzureRM.DNS/v0.9.8/Set-AzureDnsZone.md)
 
 

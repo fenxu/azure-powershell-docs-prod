@@ -231,8 +231,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ACSShare](./Get-ACSShare.md)
+[Get-ACSShare](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShare.md)
 
-[Get-ACSShareMetric](./Get-ACSShareMetric.md)
+[Get-ACSShareMetric](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShareMetric.md)
 
 

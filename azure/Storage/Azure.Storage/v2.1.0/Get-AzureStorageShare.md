@@ -217,8 +217,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureStorageShare](./New-AzureStorageShare.md)
+[New-AzureStorageShare](xref:Storage/Azure.Storage/v2.1.0/New-AzureStorageShare.md)
 
-[Remove-AzureStorageShare](./Remove-AzureStorageShare.md)
+[Remove-AzureStorageShare](xref:Storage/Azure.Storage/v2.1.0/Remove-AzureStorageShare.md)
 
 

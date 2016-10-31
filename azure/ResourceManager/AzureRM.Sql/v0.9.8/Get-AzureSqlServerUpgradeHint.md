@@ -121,8 +121,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlDatabaseExpanded](./Get-AzureSqlDatabaseExpanded.md)
+[Get-AzureSqlDatabaseExpanded](xref:ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseExpanded.md)
 
-[Get-AzureSqlElasticPoolRecommendation](./Get-AzureSqlElasticPoolRecommendation.md)
+[Get-AzureSqlElasticPoolRecommendation](xref:ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlElasticPoolRecommendation.md)
 
 

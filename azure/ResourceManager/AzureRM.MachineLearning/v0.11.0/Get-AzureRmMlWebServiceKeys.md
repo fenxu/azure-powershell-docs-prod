@@ -131,8 +131,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Azure Machine Learning Cmdlets](./AzureRM.MachineLearning.md)
+[Azure Machine Learning Cmdlets](xref:ResourceManager/AzureRM.MachineLearning/v0.11.0/AzureRM.MachineLearning.md)
 
-[Get-AzureRmMlWebService](./Get-AzureRmMlWebService.md)
+[Get-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.11.0/Get-AzureRmMlWebService.md)
 
 

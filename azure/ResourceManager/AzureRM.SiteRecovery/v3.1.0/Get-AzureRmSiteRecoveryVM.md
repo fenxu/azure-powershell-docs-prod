@@ -120,6 +120,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmSiteRecoveryVM](./Set-AzureRmSiteRecoveryVM.md)
+[Set-AzureRmSiteRecoveryVM](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryVM.md)
 
 

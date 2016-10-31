@@ -135,8 +135,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-WAPackVM](./New-WAPackVM.md)
+[New-WAPackVM](xref:ServiceManagement/Azure.Compute/v3.0.0/New-WAPackVM.md)
 
-[Get-WAPackVMTemplate](./Get-WAPackVMTemplate.md)
+[Get-WAPackVMTemplate](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-WAPackVMTemplate.md)
 
 

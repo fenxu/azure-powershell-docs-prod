@@ -84,6 +84,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmEffectiveRouteTable](./Get-AzureRmEffectiveRouteTable.md)
+[Get-AzureRmEffectiveRouteTable](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmEffectiveRouteTable.md)
 
 

@@ -160,8 +160,8 @@ Output from Get-ACSFarm can be piped to this cmdlet.
 
 ## RELATED LINKS
 
-[Get-ACSTableServiceMetric](./Get-ACSTableServiceMetric.md)
+[Get-ACSTableServiceMetric](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetric.md)
 
-[Set-ACSTableService](./Set-ACSTableService.md)
+[Set-ACSTableService](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSTableService.md)
 
 

@@ -171,10 +171,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAffinityGroup](./Get-AzureAffinityGroup.md)
+[Get-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v2.1.0/Get-AzureAffinityGroup.md)
 
-[Remove-AzureAffinityGroup](./Remove-AzureAffinityGroup.md)
+[Remove-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v2.1.0/Remove-AzureAffinityGroup.md)
 
-[Set-AzureAffinityGroup](./Set-AzureAffinityGroup.md)
+[Set-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v2.1.0/Set-AzureAffinityGroup.md)
 
 

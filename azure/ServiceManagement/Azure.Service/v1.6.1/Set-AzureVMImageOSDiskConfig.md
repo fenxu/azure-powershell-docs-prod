@@ -189,6 +189,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureVMImageOSDiskConfig](./Remove-AzureVMImageOSDiskConfig.md)
+[Remove-AzureVMImageOSDiskConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVMImageOSDiskConfig.md)
 
 

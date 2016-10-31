@@ -112,8 +112,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStaticVNetIP](./Get-AzureStaticVNetIP.md)
+[Get-AzureStaticVNetIP](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureStaticVNetIP.md)
 
-[Set-AzureStaticVNetIP](./Set-AzureStaticVNetIP.md)
+[Set-AzureStaticVNetIP](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureStaticVNetIP.md)
 
 

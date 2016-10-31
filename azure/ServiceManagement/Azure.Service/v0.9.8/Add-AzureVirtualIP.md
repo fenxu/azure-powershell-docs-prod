@@ -159,8 +159,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureEndpoint](./Add-AzureEndpoint.md)
+[Add-AzureEndpoint](xref:ServiceManagement/Azure.Service/v0.9.8/Add-AzureEndpoint.md)
 
-[Remove-AzureVirtualIP](./Remove-AzureVirtualIP.md)
+[Remove-AzureVirtualIP](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVirtualIP.md)
 
 

@@ -119,14 +119,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureDeployment](./Get-AzureDeployment.md)
+[Get-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureDeployment.md)
 
-[Get-AzureDeploymentEvent](./Get-AzureDeploymentEvent.md)
+[Get-AzureDeploymentEvent](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureDeploymentEvent.md)
 
-[New-AzureDeployment](./New-AzureDeployment.md)
+[New-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureDeployment.md)
 
-[Remove-AzureDeployment](./Remove-AzureDeployment.md)
+[Remove-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureDeployment.md)
 
-[Set-AzureDeployment](./Set-AzureDeployment.md)
+[Set-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureDeployment.md)
 
 

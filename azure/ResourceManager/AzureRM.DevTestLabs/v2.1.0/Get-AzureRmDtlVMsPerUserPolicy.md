@@ -116,6 +116,6 @@ This cmdlet returns the policy that specifies the maximum number of virtual mach
 
 ## RELATED LINKS
 
-[Set-AzureRmDtlVMsPerUserPolicy](./Set-AzureRmDtlVMsPerUserPolicy.md)
+[Set-AzureRmDtlVMsPerUserPolicy](xref:ResourceManager/AzureRM.DevTestLabs/v2.1.0/Set-AzureRmDtlVMsPerUserPolicy.md)
 
 

@@ -57,6 +57,6 @@ This cmdlet returns the account, tenant, and subscription used by Resource Manag
 
 ## RELATED LINKS
 
-[Set-AzureRmContext](./Set-AzureRmContext.md)
+[Set-AzureRmContext](xref:ResourceManager/AzureRM.Profile/v2.1.0/Set-AzureRmContext.md)
 
 

@@ -158,10 +158,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmNetworkSecurityGroup](./New-AzureRmNetworkSecurityGroup.md)
+[New-AzureRmNetworkSecurityGroup](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmNetworkSecurityGroup.md)
 
-[Remove-AzureRmNetworkSecurityGroup](./Remove-AzureRmNetworkSecurityGroup.md)
+[Remove-AzureRmNetworkSecurityGroup](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmNetworkSecurityGroup.md)
 
-[Set-AzureRmNetworkSecurityGroup](./Set-AzureRmNetworkSecurityGroup.md)
+[Set-AzureRmNetworkSecurityGroup](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmNetworkSecurityGroup.md)
 
 

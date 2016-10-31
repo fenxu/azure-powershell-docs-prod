@@ -214,6 +214,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureKeyVaultCertificate](./Add-AzureKeyVaultCertificate.md)
+[Add-AzureKeyVaultCertificate](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Add-AzureKeyVaultCertificate.md)
 
 

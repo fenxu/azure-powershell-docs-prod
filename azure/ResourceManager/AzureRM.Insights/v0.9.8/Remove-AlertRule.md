@@ -103,10 +103,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AlertRule](./Add-AlertRule.md)
+[Add-AlertRule](xref:ResourceManager/AzureRM.Insights/v0.9.8/Add-AlertRule.md)
 
-[Get-AlertRule](./Get-AlertRule.md)
+[Get-AlertRule](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AlertRule.md)
 
-[Get-AlertHistory](./Get-AlertHistory.md)
+[Get-AlertHistory](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AlertHistory.md)
 
 

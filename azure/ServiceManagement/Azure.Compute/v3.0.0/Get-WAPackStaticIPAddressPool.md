@@ -120,8 +120,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-WAPackStaticIPAddressPool](./New-WAPackStaticIPAddressPool.md)
+[New-WAPackStaticIPAddressPool](xref:ServiceManagement/Azure.Compute/v3.0.0/New-WAPackStaticIPAddressPool.md)
 
-[Remove-WAPackStaticIPAddressPool](./Remove-WAPackStaticIPAddressPool.md)
+[Remove-WAPackStaticIPAddressPool](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackStaticIPAddressPool.md)
 
 

@@ -201,10 +201,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmLogicAppRunHistory](./Get-AzureRmLogicAppRunHistory.md)
+[Get-AzureRmLogicAppRunHistory](xref:ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmLogicAppRunHistory.md)
 
-[Get-AzureRmLogicAppTrigger](./Get-AzureRmLogicAppTrigger.md)
+[Get-AzureRmLogicAppTrigger](xref:ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmLogicAppTrigger.md)
 
-[Start-AzureRmLogicApp](./Start-AzureRmLogicApp.md)
+[Start-AzureRmLogicApp](xref:ResourceManager/AzureRM.LogicApp/v1.0.8/Start-AzureRmLogicApp.md)
 
 

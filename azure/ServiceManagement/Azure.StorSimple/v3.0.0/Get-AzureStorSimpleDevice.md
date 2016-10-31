@@ -263,8 +263,8 @@ If you do not specify that parameter, it returns an **IEnumerable\<DeviceInfo\>*
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleResourceContext](./Get-AzureStorSimpleResourceContext.md)
+[Get-AzureStorSimpleResourceContext](xref:ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleResourceContext.md)
 
-[Select-AzureStorSimpleResource](./Select-AzureStorSimpleResource.md)
+[Select-AzureStorSimpleResource](xref:ServiceManagement/Azure.StorSimple/v3.0.0/Select-AzureStorSimpleResource.md)
 
 

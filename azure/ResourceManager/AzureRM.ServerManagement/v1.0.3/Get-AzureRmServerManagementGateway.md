@@ -180,8 +180,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmServerManagementGateway](./New-AzureRmServerManagementGateway.md)
+[New-AzureRmServerManagementGateway](xref:ResourceManager/AzureRM.ServerManagement/v1.0.3/New-AzureRmServerManagementGateway.md)
 
-[Remove-AzureRmServerManagementGateway](./Remove-AzureRmServerManagementGateway.md)
+[Remove-AzureRmServerManagementGateway](xref:ResourceManager/AzureRM.ServerManagement/v1.0.3/Remove-AzureRmServerManagementGateway.md)
 
 

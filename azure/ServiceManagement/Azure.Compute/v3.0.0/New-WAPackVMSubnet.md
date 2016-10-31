@@ -118,10 +118,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-WAPackVMSubnet](./Get-WAPackVMSubnet.md)
+[Get-WAPackVMSubnet](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-WAPackVMSubnet.md)
 
-[Get-WAPackVNet](./Get-WAPackVNet.md)
+[Get-WAPackVNet](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-WAPackVNet.md)
 
-[Remove-WAPackVMSubnet](./Remove-WAPackVMSubnet.md)
+[Remove-WAPackVMSubnet](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackVMSubnet.md)
 
 

@@ -217,18 +217,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureBatchJobSchedule](./Disable-AzureBatchJobSchedule.md)
+[Disable-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v2.2.0/Disable-AzureBatchJobSchedule.md)
 
-[Enable-AzureBatchJobSchedule](./Enable-AzureBatchJobSchedule.md)
+[Enable-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v2.2.0/Enable-AzureBatchJobSchedule.md)
 
-[Get-AzureRmBatchAccountKeys](./Get-AzureRmBatchAccountKeys.md)
+[Get-AzureRmBatchAccountKeys](xref:ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureRmBatchAccountKeys.md)
 
-[New-AzureBatchJobSchedule](./New-AzureBatchJobSchedule.md)
+[New-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v2.2.0/New-AzureBatchJobSchedule.md)
 
-[Remove-AzureBatchJobSchedule](./Remove-AzureBatchJobSchedule.md)
+[Remove-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v2.2.0/Remove-AzureBatchJobSchedule.md)
 
-[Stop-AzureBatchJobSchedule](./Stop-AzureBatchJobSchedule.md)
+[Stop-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v2.2.0/Stop-AzureBatchJobSchedule.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v2.2.0/AzureRM.Batch.md)
 
 

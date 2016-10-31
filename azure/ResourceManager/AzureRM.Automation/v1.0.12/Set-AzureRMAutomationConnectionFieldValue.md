@@ -128,6 +128,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAutomationConnection](./New-AzureRMAutomationConnection.md)
+[New-AzureRmAutomationConnection](xref:ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationConnection.md)
 
 

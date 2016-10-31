@@ -183,12 +183,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureLoadBalancerFrontendIpConfig](./Add-AzureLoadBalancerFrontendIpConfig.md)
+[Add-AzureLoadBalancerFrontendIpConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerFrontendIpConfig.md)
 
-[Get-AzureLoadBalancerFrontendIpConfig](./Get-AzureLoadBalancerFrontendIpConfig.md)
+[Get-AzureLoadBalancerFrontendIpConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerFrontendIpConfig.md)
 
-[New-AzureLoadBalancerFrontendIpConfig](./New-AzureLoadBalancerFrontendIpConfig.md)
+[New-AzureLoadBalancerFrontendIpConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerFrontendIpConfig.md)
 
-[Remove-AzureLoadBalancerFrontendIpConfig](./Remove-AzureLoadBalancerFrontendIpConfig.md)
+[Remove-AzureLoadBalancerFrontendIpConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerFrontendIpConfig.md)
 
 
