@@ -176,10 +176,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-MsolSettings](./Get-MsolSettings.md)
+[Get-MsolSettings](xref:MSOnline/v1/Get-MsolSettings.md)
 
-[New-MsolSettings](./New-MsolSettings.md)
+[New-MsolSettings](xref:MSOnline/v1/New-MsolSettings.md)
 
-[Remove-MsolSettings](./Remove-MsolSettings.md)
+[Remove-MsolSettings](xref:MSOnline/v1/Remove-MsolSettings.md)
 
 

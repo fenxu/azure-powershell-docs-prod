@@ -145,10 +145,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-MsolDevice](./Enable-MsolDevice.md)
+[Enable-MsolDevice](xref:MSOnline/v1/Enable-MsolDevice.md)
 
-[Get-MsolDevice](./Get-MsolDevice.md)
+[Get-MsolDevice](xref:MSOnline/v1/Get-MsolDevice.md)
 
-[Remove-MsolDevice](./Remove-MsolDevice.md)
+[Remove-MsolDevice](xref:MSOnline/v1/Remove-MsolDevice.md)
 
 

@@ -98,8 +98,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-MsolSettings](./Get-MsolSettings.md)
+[Get-MsolSettings](xref:MSOnline/v1/Get-MsolSettings.md)
 
-[Get-MsolAllSettingTemplate](./Get-MsolAllSettingTemplate.md)
+[Get-MsolAllSettingTemplate](xref:MSOnline/v1/Get-MsolAllSettingTemplate.md)
 
 

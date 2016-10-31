@@ -148,10 +148,10 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Disable-MsolDevice](./Disable-MsolDevice.md)
+[Disable-MsolDevice](xref:MSOnline/v1/Disable-MsolDevice.md)
 
-[Get-MsolDevice](./Get-MsolDevice.md)
+[Get-MsolDevice](xref:MSOnline/v1/Get-MsolDevice.md)
 
-[Remove-MsolDevice](./Remove-MsolDevice.md)
+[Remove-MsolDevice](xref:MSOnline/v1/Remove-MsolDevice.md)
 
 

@@ -143,10 +143,10 @@ This value should be used when updating setting.
 
 ## RELATED LINKS
 
-[Get-MsolAllSettings](./Get-MsolAllSettings.md)
+[Get-MsolAllSettings](xref:MSOnline/v1/Get-MsolAllSettings.md)
 
-[Get-MsolSettingTemplate](./Get-MsolSettingTemplate.md)
+[Get-MsolSettingTemplate](xref:MSOnline/v1/Get-MsolSettingTemplate.md)
 
-[Get-MsolAllSettingTemplate](./Get-MsolAllSettingTemplate.md)
+[Get-MsolAllSettingTemplate](xref:MSOnline/v1/Get-MsolAllSettingTemplate.md)
 
 

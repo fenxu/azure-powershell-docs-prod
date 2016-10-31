@@ -106,8 +106,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-MsolDirSyncConfiguration](./Get-MsolDirSyncConfiguration.md)
+[Get-MsolDirSyncConfiguration](xref:MSOnline/v1/Get-MsolDirSyncConfiguration.md)
 
-[Get-MsolDirSyncProvisioningError](./Get-MsolDirSyncProvisioningError.md)
+[Get-MsolDirSyncProvisioningError](xref:MSOnline/v1/Get-MsolDirSyncProvisioningError.md)
 
 

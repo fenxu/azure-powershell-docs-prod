@@ -240,6 +240,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-MsolHasObjectsWithDirSyncProvisioningErrors](./Get-MsolHasObjectsWithDirSyncProvisioningErrors.md)
+[Get-MsolHasObjectsWithDirSyncProvisioningErrors](xref:MSOnline/v1/Get-MsolHasObjectsWithDirSyncProvisioningErrors.md)
 
 

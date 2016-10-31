@@ -135,10 +135,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-MsolAllSettings](./Get-MsolAllSettings.md)
+[Get-MsolAllSettings](xref:MSOnline/v1/Get-MsolAllSettings.md)
 
-[New-MsolSettings](./New-MsolSettings.md)
+[New-MsolSettings](xref:MSOnline/v1/New-MsolSettings.md)
 
-[Set-MsolSettings](./Set-MsolSettings.md)
+[Set-MsolSettings](xref:MSOnline/v1/Set-MsolSettings.md)
 
 

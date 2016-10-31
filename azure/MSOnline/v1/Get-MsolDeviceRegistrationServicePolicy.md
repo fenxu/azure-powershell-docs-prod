@@ -64,6 +64,6 @@ If the value is selected, the allowed users are specified in the value of the ot
 
 ## RELATED LINKS
 
-[Set-MsolDeviceRegistrationServicePolicy](./Set-MsolDeviceRegistrationServicePolicy.md)
+[Set-MsolDeviceRegistrationServicePolicy](xref:MSOnline/v1/Set-MsolDeviceRegistrationServicePolicy.md)
 
 

@@ -224,10 +224,10 @@ The value could be one of the following: Authenticated, Compliant, Managed.
 
 ## RELATED LINKS
 
-[Disable-MsolDevice](./Disable-MsolDevice.md)
+[Disable-MsolDevice](xref:MSOnline/v1/Disable-MsolDevice.md)
 
-[Enable-MsolDevice](./Enable-MsolDevice.md)
+[Enable-MsolDevice](xref:MSOnline/v1/Enable-MsolDevice.md)
 
-[Remove-MsolDevice](./Remove-MsolDevice.md)
+[Remove-MsolDevice](xref:MSOnline/v1/Remove-MsolDevice.md)
 
 

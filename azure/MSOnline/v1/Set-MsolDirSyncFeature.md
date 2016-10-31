@@ -126,6 +126,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-MsolDirSyncFeatures](./Get-MsolDirSyncFeatures.md)
+[Get-MsolDirSyncFeatures](xref:MSOnline/v1/Get-MsolDirSyncFeatures.md)
 
 

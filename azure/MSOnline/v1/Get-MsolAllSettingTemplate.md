@@ -62,10 +62,10 @@ This value should be used when updating setting.
 
 ## RELATED LINKS
 
-[Get-MsolSettingTemplate](./Get-MsolSettingTemplate.md)
+[Get-MsolSettingTemplate](xref:MSOnline/v1/Get-MsolSettingTemplate.md)
 
-[Get-MsolAllSettings](./Get-MsolAllSettings.md)
+[Get-MsolAllSettings](xref:MSOnline/v1/Get-MsolAllSettings.md)
 
-[Get-MsolSettings](./Get-MsolSettings.md)
+[Get-MsolSettings](xref:MSOnline/v1/Get-MsolSettings.md)
 
 
