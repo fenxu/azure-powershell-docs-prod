@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\New-AzureNetworkSecurityGroup.md
 schema: 2.0.0
 ms.assetid: EAEC785B-8E4B-42C2-B2EE-C0C84059247F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureNetworkSecurityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureNetworkSecurityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureNetworkSecurityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Get-AzureNetworkSecurityGroup [[-Name] <String>] [-Detailed] [-Profile <AzureSMP
 ```
 
 ## DESCRIPTION
-The **Get-AzureNetworkSecurityGroup** cmdlet returns details for an azure_2 network security group.
+The **Get-AzureNetworkSecurityGroup** cmdlet returns details for an Azure network security group.
 Specify the *Detailed* parameter to display the network security rules.
 
 ## EXAMPLES

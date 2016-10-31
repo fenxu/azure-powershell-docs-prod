@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version: .\Get-AzureRmHDInsightPersistedScriptAction.md
 schema: 2.0.0
 ms.assetid: 340D56E8-9EC8-4A31-852C-5A3F4DCD0A37
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Set-AzureRmHDInsightPersistedScriptAction.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Set-AzureRmHDInsightPersistedScriptAction.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Set-AzureRmHDInsightPersistedScriptAction.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -33,7 +33,7 @@ Set-AzureRmHDInsightPersistedScriptAction [-ClusterName] <String> [-ScriptExecut
 ## DESCRIPTION
 The **Set-AzureRmHDInsightPersistedScriptAction** cmdlet sets a previously executed script action to be a persisted script action.
 The specified script action must have previously succeeded.
-The script action will run each time the azure_2 HDInsight cluster is scaled up.
+The script action will run each time the Azure HDInsight cluster is scaled up.
 
 ## EXAMPLES
 
@@ -96,7 +96,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -111,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

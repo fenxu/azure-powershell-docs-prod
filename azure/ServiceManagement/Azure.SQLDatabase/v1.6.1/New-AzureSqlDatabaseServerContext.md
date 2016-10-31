@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 29e46b74-9254-47ea-9c41-dd77a9f3b2aa
 schema: 2.0.0
 ms.assetid: CECF783C-E36F-4807-AB8A-24940E653779
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServerContext.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServerContext.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServerContext.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -60,10 +60,10 @@ Use ssNoVersion authentication to create a connection context to a nextref_datab
 You can specify the nextref_database server by name, by the fully qualified name, or by URL.
 To obtain a credential, use the Get-Credential cmdlet that prompts you to specify the user name and password.
 
-Use the **New-AzureSqlDatabaseServerContext** cmdlet with certificate based authentication to create a connection context to the specified nextref_database server by using the specified azure_2 subscription data.
+Use the **New-AzureSqlDatabaseServerContext** cmdlet with certificate based authentication to create a connection context to the specified nextref_database server by using the specified Azure subscription data.
 You can specify nextref_database server by name or by the fully qualified name.
-You can specify the subscription data as a parameter or it can be retrieved from the current azure_2 subscription.
-Use the Select-AzureSubscriptionhttp://msdn.microsoft.com/library/windowsazure/jj152833.aspx cmdlet to select the current azure_2 subscription.
+You can specify the subscription data as a parameter or it can be retrieved from the current Azure subscription.
+Use the Select-AzureSubscriptionhttp://msdn.microsoft.com/library/windowsazure/jj152833.aspx cmdlet to select the current Azure subscription.
 
 ## EXAMPLES
 
@@ -147,7 +147,7 @@ Accept wildcard characters: False
 ```
 
 ### -UseSubscription
-Indicates that this cmdlet uses azure_2 subscription for creating the connection context.
+Indicates that this cmdlet uses Azure subscription for creating the connection context.
 
 ```yaml
 Type: SwitchParameter
@@ -162,7 +162,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionName
-Specifies the name of the azure_2 subscription that this cmdlet uses to create the connection context.
+Specifies the name of the Azure subscription that this cmdlet uses to create the connection context.
 If you do not specify a value for this parameter, the cmdlet uses the current subscription.
 Run the Select-AzureSubscription cmdlet to change the current subscription.
 

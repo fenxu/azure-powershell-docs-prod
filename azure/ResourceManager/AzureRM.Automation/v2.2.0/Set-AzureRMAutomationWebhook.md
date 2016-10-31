@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 048bf33a-0bc1-4433-92e0-bd906f6edb8d
 schema: 2.0.0
 ms.assetid: B2F5CD9E-5886-4CCC-89EA-9E66E5C67818
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationWebhook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationWebhook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationWebhook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Set-AzureRmAutomationWebhook [-Name] <String> [-IsEnabled] <Boolean> [[-Paramete
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmAutomationWebhook** cmdlet modifies a webhook for an azure_2 Automation runbook.
+The **Set-AzureRmAutomationWebhook** cmdlet modifies a webhook for an Azure Automation runbook.
 
 ## EXAMPLES
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: .\Get-AzureRmSiteRecoveryJob.md
 schema: 2.0.0
 ms.assetid: 8C2F1B76-4516-478F-AC85-007914CA83B4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryTestFailoverJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryTestFailoverJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryTestFailoverJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -65,7 +65,7 @@ Start-AzureRmSiteRecoveryTestFailoverJob -ProtectionEntity <ASRProtectionEntity>
 ```
 
 ## DESCRIPTION
-The **Start-AzureRmSiteRecoveryTestFailoverJob** cmdlet starts test failover of an azure_2 Site Recovery protection entity or recovery plan.
+The **Start-AzureRmSiteRecoveryTestFailoverJob** cmdlet starts test failover of an Azure Site Recovery protection entity or recovery plan.
 You can check whether the job succeeded by using the Get-AzureRmSiteRecoveryJob cmdlet.
 
 ## EXAMPLES
@@ -78,7 +78,7 @@ You can check whether the job succeeded by using the Get-AzureRmSiteRecoveryJob 
 ## PARAMETERS
 
 ### -AzureVMNetworkId
-Specifies the azure_2 virtual network ID.
+Specifies the Azure virtual network ID.
 
 ```yaml
 Type: String

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Add-AzureRMVhd.md
 schema: 2.0.0
 ms.assetid: 805D14A1-4A19-41AC-8EDB-B3AE46F4BDC7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Save-AzureRmVhd.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Save-AzureRmVhd.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Save-AzureRmVhd.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -140,7 +140,7 @@ Accept wildcard characters: False
 ```
 
 ### -SourceUri
-Specifies the Uniform Resource Identifier (URI) of the blob in `azure_2`.
+Specifies the Uniform Resource Identifier (URI) of the blob in `Azure`.
 
 ```yaml
 Type: Uri

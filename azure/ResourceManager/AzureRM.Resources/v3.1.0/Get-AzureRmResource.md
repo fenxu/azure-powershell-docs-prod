@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: .\Find-AzureRmResource.md
 schema: 2.0.0
 ms.assetid: 83F17468-B41D-4786-8E43-4CB403CEFACF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Get-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Get-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Get-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -93,7 +93,6 @@ This command gets a resource of the type microsoft.web/sites, named ContosoWebsi
 ## PARAMETERS
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -132,7 +131,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceType
-@{Text=}
 
 ```yaml
 Type: String
@@ -171,7 +169,6 @@ Accept wildcard characters: False
 ```
 
 ### -ApiVersion
-@{Text=}
 
 ```yaml
 Type: String
@@ -186,7 +183,6 @@ Accept wildcard characters: False
 ```
 
 ### -ExpandProperties
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -201,7 +197,6 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionResourceName
-@{Text=}
 
 ```yaml
 Type: String
@@ -216,7 +211,6 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionResourceType
-@{Text=}
 
 ```yaml
 Type: String
@@ -243,7 +237,6 @@ Accept wildcard characters: False
 ```
 
 ### -IsCollection
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -258,7 +251,6 @@ Accept wildcard characters: False
 ```
 
 ### -ODataQuery
-@{Text=}
 
 ```yaml
 Type: String
@@ -273,7 +265,6 @@ Accept wildcard characters: False
 ```
 
 ### -Pre
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -307,7 +298,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceName
-@{Text=}
 
 ```yaml
 Type: String
@@ -349,7 +339,6 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-@{Text=}
 
 ```yaml
 Type: Int32

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataLakeAnalytics.dll-Help.xml
 online version: .\Remove-AzureRmDataLakeAnalyticsDataSource.md
 schema: 2.0.0
 ms.assetid: 9D981DAD-6198-43B6-B06E-0056605D69BA
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Add-AzureRmDataLakeAnalyticsDataSource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Add-AzureRmDataLakeAnalyticsDataSource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Add-AzureRmDataLakeAnalyticsDataSource.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -39,7 +39,7 @@ Add-AzureRmDataLakeAnalyticsDataSource [-Account] <String> [-DataLakeStore] <Str
 ```
 
 ## DESCRIPTION
-The **AzureRmDataLackAnalyticsDataSource** cmdlet adds a data source to an azure_2 Data Lake Analytics account.
+The **AzureRmDataLackAnalyticsDataSource** cmdlet adds a data source to an Azure Data Lake Analytics account.
 
 ## EXAMPLES
 
@@ -68,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -DataLakeStore
-Specifies the name of the azure_2 Data Lake Store account to add.
+Specifies the name of the Azure Data Lake Store account to add.
 
 ```yaml
 Type: String
@@ -113,7 +113,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -128,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -143,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -Blob
-Specifies the name of the azure_2 Blob Storage account to add.
+Specifies the name of the Azure Blob Storage account to add.
 
 ```yaml
 Type: String
@@ -158,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -AccessKey
-Specifies the access key of the azure_2 Blob storage account to add.
+Specifies the access key of the Azure Blob storage account to add.
 
 ```yaml
 Type: String

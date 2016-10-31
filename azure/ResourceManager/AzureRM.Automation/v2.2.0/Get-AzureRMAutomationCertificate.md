@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 4316d596-2954-42e8-905f-840853dab7d5
 schema: 2.0.0
 ms.assetid: 7E2D3105-AE14-40C6-A715-57D63C178CDE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Get-AzureRmAutomationCertificate [-Name] <String> [-ResourceGroupName] <String>
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAutomationCertificate** cmdlet gets one or more azure_2 Automation certificates.
+The **Get-AzureRmAutomationCertificate** cmdlet gets one or more Azure Automation certificates.
 By default, this cmdlet gets all certificates.
 Specify the name of a certificate to get a specific certificate.
 

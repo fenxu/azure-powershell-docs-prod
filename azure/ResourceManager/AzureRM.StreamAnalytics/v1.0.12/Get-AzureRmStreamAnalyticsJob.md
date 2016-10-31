@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
 online version: .\New-AzureRmStreamAnalyticsJob.md
 schema: 2.0.0
 ms.assetid: 0A0A1917-9BD0-4554-AF32-AD564ADCD604
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -36,7 +36,7 @@ Get-AzureRmStreamAnalyticsJob [-NoExpand] [-PipelineVariable <String>] [<CommonP
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmStreamAnalyticsJob** cmdlet lists all Stream Analytics jobs defined in the azure_2 subscription or specified resource group or gets job information about a specific job within a resource group.
+The **Get-AzureRmStreamAnalyticsJob** cmdlet lists all Stream Analytics jobs defined in the Azure subscription or specified resource group or gets job information about a specific job within a resource group.
 
 ## EXAMPLES
 
@@ -45,7 +45,7 @@ The **Get-AzureRmStreamAnalyticsJob** cmdlet lists all Stream Analytics jobs def
 PS C:\>Get-AzureRmStreamAnalyticsJob
 ```
 
-This command returns information about all the Stream Analytics jobs in the azure_2 subscription.
+This command returns information about all the Stream Analytics jobs in the Azure subscription.
 
 ### EXAMPLE 2: Get information about all jobs in a resource group
 ```
@@ -64,7 +64,7 @@ This command returns information about the Stream Analytics job StreamingJob in 
 ## PARAMETERS
 
 ### -ResourceGroupName
-Specifies the name of the resource group to which the azure_2 Stream Analytics job belongs.
+Specifies the name of the resource group to which the Azure Stream Analytics job belongs.
 
 ```yaml
 Type: String
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the azure_2 Stream Analytics job to retrieve.
+Specifies the name of the Azure Stream Analytics job to retrieve.
 
 ```yaml
 Type: String
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -NoExpand
-Indicates the cmdlet will retrieve the azure_2 Stream Analytics job, but not return information on its inputs, outputs, and transformation.
+Indicates the cmdlet will retrieve the Azure Stream Analytics job, but not return information on its inputs, outputs, and transformation.
 
 ```yaml
 Type: SwitchParameter

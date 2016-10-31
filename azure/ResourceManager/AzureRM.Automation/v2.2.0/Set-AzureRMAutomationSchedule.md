@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 73a4a9ba-477c-41e6-9193-2be97182e07d
 schema: 2.0.0
 ms.assetid: 2D34DC26-EAD0-49F0-9E1A-9D4A81712616
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationSchedule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Set-AzureRmAutomationSchedule [-Name] <String> [-IsEnabled <Boolean>] [-Descript
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmAutomationSchedule** cmdlet modifies a schedule in azure_2 Automation.
+The **Set-AzureRmAutomationSchedule** cmdlet modifies a schedule in Azure Automation.
 
 ## EXAMPLES
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
 online version: 6b31902c-dfab-428f-ad65-c8936724df30
 schema: 2.0.0
 ms.assetid: 47B681EC-6C72-4C9F-B5CA-C419574C34F3
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsQuota.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsQuota.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsQuota.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -43,8 +43,8 @@ This command returns information about Streaming Unit quota and usage in the Wes
 ## PARAMETERS
 
 ### -Location
-Specifies the name of an azure_2 region or data center location for which to get Streaming Unit quota information.
-See http://azure.microsoft.com/en-us/regions/#serviceshttp://azure.microsoft.com/en-us/regions/#services for a list of supported azure_2 regions.
+Specifies the name of an Azure region or data center location for which to get Streaming Unit quota information.
+See http://azure.microsoft.com/en-us/regions/#serviceshttp://azure.microsoft.com/en-us/regions/#services for a list of supported Azure regions.
 
 ```yaml
 Type: String

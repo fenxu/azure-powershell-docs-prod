@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Get-AzureRemoteAppOperationResult.md
 schema: 2.0.0
 ms.assetid: 8576D0D9-588A-4E4F-9C94-31D140F34DDB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppVNet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppVNet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppVNet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureRemoteAppVNet
 
 ## SYNOPSIS
-Creates an azure_2 RemoteApp virtual network.
+Creates an Azure RemoteApp virtual network.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ New-AzureRemoteAppVNet -VNetName <String> -VirtualNetworkAddressSpace <String[]>
 ```
 
 ## DESCRIPTION
-The **New-AzureRemoteAppVNet** cmdlet creates an azure_2 RemoteApp virtual network.
+The **New-AzureRemoteAppVNet** cmdlet creates an Azure RemoteApp virtual network.
 
 ## EXAMPLES
 
@@ -132,7 +132,7 @@ Accept wildcard characters: False
 ```
 
 ### -VNetName
-Specifies the name of the azure_2 RemoteApp virtual network.
+Specifies the name of the Azure RemoteApp virtual network.
 
 ```yaml
 Type: String

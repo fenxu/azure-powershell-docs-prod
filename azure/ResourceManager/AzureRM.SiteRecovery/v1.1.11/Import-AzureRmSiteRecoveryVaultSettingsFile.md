@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: .\Get-AzureRmSiteRecoveryVaultSettingsFile.md
 schema: 2.0.0
 ms.assetid: 9FA74372-B84B-4D99-AFB3-E420927075B3
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Import-AzureRmSiteRecoveryVaultSettingsFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Import-AzureRmSiteRecoveryVaultSettingsFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Import-AzureRmSiteRecoveryVaultSettingsFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Import-AzureRmSiteRecoveryVaultSettingsFile [-Path] <String> [<CommonParameters>
 ```
 
 ## DESCRIPTION
-The **Import-AzureRmSiteRecoveryVaultSettingsFile** cmdlet imports an azure_2 Site Recovery vault settings file to set the vault context for subsequent Site Recovery operations in the current session.
+The **Import-AzureRmSiteRecoveryVaultSettingsFile** cmdlet imports an Azure Site Recovery vault settings file to set the vault context for subsequent Site Recovery operations in the current session.
 
 ## EXAMPLES
 

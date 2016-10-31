@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=824796
 schema: 2.0.0
 ms.assetid: 90BDAAAA-C9DE-4614-94FB-CA6BEE82D39B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Backup-AzureKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Backup-AzureKeyVaultKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Backup-AzureKeyVaultKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -38,7 +38,7 @@ Typical reasons to use this cmdlet are:
 
 - You want to escrow a copy of your key, so that you have an offline copy in case you accidentally delete your key in your key vault.
  
-- You created a key using Key Vault and now want to clone the key into a different azure_2 region, so that you can use it from all instances of your distributed application.
+- You created a key using Key Vault and now want to clone the key into a different Azure region, so that you can use it from all instances of your distributed application.
 Use the **Backup-AzureKeyVaultKey** cmdlet to retrieve the key in encrypted format and then use the Restore-AzureKeyVaultKey cmdlet and specify a key vault in the second region.
 
 ## EXAMPLES

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: .\Get-AzureRmBackupContainer.md
 schema: 2.0.0
 ms.assetid: 0B6F9E76-995E-4403-8F3F-80C67A698561
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Get-AzureRmBackupVault [[-ResourceGroupName] <String>] [[-Name] <String>] [<Comm
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmBackupVault** cmdlet gets azure_2 Backup vaults.
+The **Get-AzureRmBackupVault** cmdlet gets Azure Backup vaults.
 This cmdlet returns **AzureRmBackupVault** objects for use with other cmdlets.
 
 ## EXAMPLES
@@ -39,7 +39,7 @@ This cmdlet returns **AzureRmBackupVault** objects for use with other cmdlets.
 PS C:\>Get-AzureRmBackupVault
 ```
 
-This command gets all the azure_2 Backup vaults.
+This command gets all the Azure Backup vaults.
 
 ### Example 2: View all vaults created in West US
 ```
@@ -75,7 +75,7 @@ Minimum  :
 Property :
 ```
 
-This command gets all the azure_2 Backup vaults.
+This command gets all the Azure Backup vaults.
 The command passes them to **Where-Object**, which filters the results based on the **Storage** property.
 The command passes the ones that have a value of LocallyRedundant to the Measure-Object cmdlet, which counts the results.
 For more information, type `Get-Help Measure-Object`.
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of an azure_2 resource group in which this cmdlet gets a Backup vault.
+Specifies the name of an Azure resource group in which this cmdlet gets a Backup vault.
 
 ```yaml
 Type: String

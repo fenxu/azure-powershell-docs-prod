@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\New-AzureRmWebApp.md
 schema: 2.0.0
 ms.assetid: 50612BDC-6E73-47E4-A4DB-DE8CF804BB85
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebApp.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmWebApp
 
 ## SYNOPSIS
-Gets azure_2 Web Apps in the specified resource group.
+Gets Azure Web Apps in the specified resource group.
 
 ## SYNTAX
 
@@ -40,7 +40,7 @@ Get-AzureRmWebApp [-Location] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmWebApp** cmdlet gets information about azure_2 Web Apps in the specified resource group.
+The **Get-AzureRmWebApp** cmdlet gets information about Azure Web Apps in the specified resource group.
 
 ## EXAMPLES
 
@@ -54,7 +54,6 @@ This command gets the slot named Slot001 from the Web App named WebAppStandard t
 ## PARAMETERS
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -69,7 +68,6 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -84,7 +82,6 @@ Accept wildcard characters: False
 ```
 
 ### -AppServicePlan
-@{Text=}
 
 ```yaml
 Type: ServerFarmWithRichSku
@@ -99,7 +96,6 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-@{Text=}
 
 ```yaml
 Type: String

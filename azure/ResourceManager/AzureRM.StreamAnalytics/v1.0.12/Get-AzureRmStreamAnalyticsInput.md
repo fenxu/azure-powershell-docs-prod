@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
 online version: .\New-AzureRmStreamAnalyticsInput.md
 schema: 2.0.0
 ms.assetid: 67092496-B255-422E-89D3-6593B957ACB2
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsInput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsInput.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsInput.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -51,7 +51,7 @@ This command returns information about the input named EntryStream defined on th
 ## PARAMETERS
 
 ### -JobName
-Specifies the name of the azure_2 Stream Analytics job to which the azure_2 Stream Analytics input belongs.
+Specifies the name of the Azure Stream Analytics job to which the Azure Stream Analytics input belongs.
 
 ```yaml
 Type: String
@@ -66,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the azure_2 Stream Analytics input to retrieve.
+Specifies the name of the Azure Stream Analytics input to retrieve.
 
 ```yaml
 Type: String
@@ -81,7 +81,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group to which the azure_2 Stream Analytics input belongs.
+Specifies the name of the resource group to which the Azure Stream Analytics input belongs.
 
 ```yaml
 Type: String

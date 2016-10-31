@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: .\Disable-AzureBatchJobSchedule.md
 schema: 2.0.0
 ms.assetid: 86AABB03-9F00-4437-B8D4-7C26285C2A58
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJobSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJobSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJobSchedule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Get-AzureBatchJobSchedule [[-Id] <String>] [-Select <String>] [-Expand <String>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureBatchJobSchedule** cmdlet gets azure_2 Batch job schedules for the Batch account specified by the *BatchContext* parameter.
+The **Get-AzureBatchJobSchedule** cmdlet gets Azure Batch job schedules for the Batch account specified by the *BatchContext* parameter.
 Specify an ID to get a single job schedule.
 Specify the *Filter* parameter to get the job schedules that match an Open Data Protocol (OData) filter.
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\Get-AzureRmWebApp.md
 schema: 2.0.0
 ms.assetid: 2829ACB1-6BD7-48A6-8CD4-66FA277D82F3
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Set-AzureRMWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Set-AzureRMWebApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Set-AzureRMWebApp.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureRmWebApp
 
 ## SYNOPSIS
-Modifies an azure_2 Web App.
+Modifies an Azure Web App.
 
 ## SYNTAX
 
@@ -43,7 +43,7 @@ Set-AzureRmWebApp [[-Use32BitWorkerProcess] <Boolean>] [-AutoSwapSlotName <Strin
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmWebApp** cmdlet modifies an azure_2 Web App.
+The **Set-AzureRmWebApp** cmdlet modifies an Azure Web App.
 
 ## EXAMPLES
 
@@ -305,7 +305,6 @@ Accept wildcard characters: False
 ```
 
 ### -AutoSwapSlotName
-@{Text=}
 
 ```yaml
 Type: String

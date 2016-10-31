@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\Get-AzureRMWebAppSlot.md
 schema: 2.0.0
 ms.assetid: 949CC72C-4321-45BE-A3B5-49C108FE267B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Set-AzureRMWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Set-AzureRMWebAppSlot.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Set-AzureRMWebAppSlot.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureRmWebAppSlot
 
 ## SYNOPSIS
-Modifies an azure_2 Web App slot.
+Modifies an Azure Web App slot.
 
 ## SYNTAX
 
@@ -48,7 +48,7 @@ Set-AzureRmWebAppSlot [[-AppServicePlan] <String>] [[-DefaultDocuments] <String[
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmWebAppSlot** cmdlet modifies an azure_2 Web App slot.
+The **Set-AzureRmWebAppSlot** cmdlet modifies an Azure Web App slot.
 
 ## EXAMPLES
 
@@ -314,7 +314,6 @@ Accept wildcard characters: False
 ```
 
 ### -AutoSwapSlotName
-@{Text=}
 
 ```yaml
 Type: String

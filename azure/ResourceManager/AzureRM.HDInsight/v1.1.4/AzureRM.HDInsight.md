@@ -4,10 +4,10 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/AzureRM.HDInsight.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/AzureRM.HDInsight.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/AzureRM.HDInsight.md
 uid: ResourceManager/AzureRM.HDInsight/v1.1.4/AzureRM.HDInsight.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -41,11 +41,11 @@ Adds a script action to a cluster configuration object.
 
 
 ### [Add-AzureRmHDInsightStorage](./Add-AzureRmHDInsightStorage.md)
-Adds an azure_2 Storage key to a cluster configuration object.
+Adds an Azure Storage key to a cluster configuration object.
 
 
 ### [Get-AzureRmHDInsightCluster](./Get-AzureRmHDInsightCluster.md)
-Gets and lists all of the azure_2 HDInsight clusters associated with the current subscription or a specified resource group, or retrieves a specific cluster.
+Gets and lists all of the Azure HDInsight clusters associated with the current subscription or a specified resource group, or retrieves a specific cluster.
 
 
 ### [Get-AzureRmHDInsightJobOutput](./Get-AzureRmHDInsightJobOutput.md)
@@ -81,7 +81,7 @@ Submits a Hive query to an HDInsight cluster and retrieves query results in one 
 
 
 ### [New-AzureRmHDInsightClusterConfig](./New-AzureRmHDInsightClusterConfig.md)
-Creates a non-persisted cluster configuration object that describes an azure_2 HDInsight cluster configuration.
+Creates a non-persisted cluster configuration object that describes an Azure HDInsight cluster configuration.
 
 
 ### [New-AzureRmHDInsightHiveJobDefinition](./New-AzureRmHDInsightHiveJobDefinition.md)
@@ -141,7 +141,7 @@ Stops a specified running job on a cluster.
 
 
 ### [Submit-AzureRmHDInsightScriptAction](./Submit-AzureRmHDInsightScriptAction.md)
-Submits a new script action to an azure_2 HDInsight cluster.
+Submits a new script action to an Azure HDInsight cluster.
 
 
 ### [Use-AzureRmHDInsightCluster](./Use-AzureRmHDInsightCluster.md)

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 9F16D665-829E-46CC-893A-838F291B1717
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Invoke-AzureHDInsightHiveJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Invoke-AzureHDInsightHiveJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Invoke-AzureHDInsightHiveJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -88,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -File
-Specifies the Windows azure_2 Storage Blob (WASB) path to a file in azure_2 blob storage that contains the query to run.
+Specifies the Windows Azure Storage Blob (WASB) path to a file in Azure blob storage that contains the query to run.
 You can use this parameter instead of the *Query* parameter.
 
 ```yaml

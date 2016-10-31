@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Get-AzureRole.md
 schema: 2.0.0
 ms.assetid: 2513E6ED-EB16-40FD-9E2D-56B0E9C8375E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureRoleSize.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureRoleSize.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureRoleSize.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -83,7 +83,7 @@ This command gets role size information for the specified role size.
 PS C:\>Get-AzureService | Get-AzureVM | Get-AzureRoleSize
 ```
 
-This command gets role size information for all virtual machines in all of the azure_2 services.
+This command gets role size information for all virtual machines in all of the Azure services.
 
 ## PARAMETERS
 
@@ -118,7 +118,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -133,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

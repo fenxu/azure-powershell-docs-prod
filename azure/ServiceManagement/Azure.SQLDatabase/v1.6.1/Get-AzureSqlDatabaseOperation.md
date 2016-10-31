@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: http://msdn.microsoft.com/library/ee336279.aspx
 schema: 2.0.0
 ms.assetid: E8059E7D-76CB-4666-A6E7-1FFFC7F9C3BE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseOperation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseOperation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureSqlDatabaseOperation
 
 ## SYNOPSIS
-Gets the status of database operations on an azure_2 server.
+Gets the status of database operations on an Azure server.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ Get-AzureSqlDatabaseOperation [-ServerName] <String> [-Database <Database>] [-Da
 ```
 
 ## DESCRIPTION
-The **Get-AzureSqlDatabaseOperation** cmdlet gets the status of database operations on the specified azure_2 server.
+The **Get-AzureSqlDatabaseOperation** cmdlet gets the status of database operations on the specified Azure server.
 If you specify only the *ServerName* or *ConnectionContext* parameter, the cmdlet gets all the database operations for the server.
 If you also specify a database by using the *Database* or *DatabaseName* parameter, this cmdlet gets all the operations for the specified database.
 If you specify an operation GUID, and *ServerName* or *ConnectionContext*, the cmdlet gets a single database operation.

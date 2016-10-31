@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=397618
 schema: 2.0.0
 ms.assetid: 738FC867-1D2A-48D7-B61D-3FFD5887A896
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Add-AzureAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Add-AzureAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Add-AzureAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -76,7 +76,6 @@ This command uses the **SubscriptionDataFile** parameter to direct **Add-AzureAc
 ## PARAMETERS
 
 ### -Environment
-@{Text=}
 
 ```yaml
 Type: String
@@ -91,7 +90,6 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-@{Text=}
 
 ```yaml
 Type: PSCredential
@@ -118,7 +116,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureSMProfile
@@ -133,7 +130,6 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipal
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -148,7 +144,6 @@ Accept wildcard characters: False
 ```
 
 ### -Tenant
-@{Text=}
 
 ```yaml
 Type: String

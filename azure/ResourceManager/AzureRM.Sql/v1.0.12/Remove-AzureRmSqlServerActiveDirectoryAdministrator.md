@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: .\Get-AzureRmSqlServerActiveDirectoryAdministrator.md
 schema: 2.0.0
 ms.assetid: B13B9F46-C0BB-4565-95DB-211D5C5699C6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServerActiveDirectoryAdministrator.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServerActiveDirectoryAdministrator.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServerActiveDirectoryAdministrator.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureRmSqlServerActiveDirectoryAdministrator
 
 ## SYNOPSIS
-Removes an azure_2 AD administrator for SQL Server.
+Removes an Azure AD administrator for SQL Server.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Remove-AzureRmSqlServerActiveDirectoryAdministrator [-Force] [-ServerName] <Stri
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmSqlServerActiveDirectoryAdministrator** cmdlet removes an azure_2 Active Directory (azure_2 AD) administrator for azure_2ssNoVersion in the current subscription.
+The **Remove-AzureRmSqlServerActiveDirectoryAdministrator** cmdlet removes an Azure Active Directory (Azure AD) administrator for AzuressNoVersion in the current subscription.
 
 ## EXAMPLES
 
@@ -47,7 +47,7 @@ ResourceGroupName ServerName DisplayName ObjectId
 ResourceGroup01   Server01   DBAs        40b79501-b343-44ed-9ce7-da4c8cc7353b
 ```
 
-This command removes the azure_2 AD administrator for the server named Server01 associated with the resource group ResourceGroup01.
+This command removes the Azure AD administrator for the server named Server01 associated with the resource group ResourceGroup01.
 
 ## PARAMETERS
 
@@ -97,7 +97,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -112,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -127,7 +136,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -142,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter

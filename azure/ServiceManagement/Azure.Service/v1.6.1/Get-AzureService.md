@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\New-AzureService.md
 schema: 2.0.0
 ms.assetid: 897DAE20-FB00-4C04-A1BB-06723119B19A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Get-AzureService [[-ServiceName] <String>] [-Profile <AzureSMProfile>] [-Informa
 ```
 
 ## DESCRIPTION
-The **Get-AzureService** cmdlet returns a list object with all of the azure_2 cloud services associated with the current subscription.
+The **Get-AzureService** cmdlet returns a list object with all of the Azure cloud services associated with the current subscription.
 If you specify the *ServiceName* parameter, **Get-AzureService** returns information on only the matching service.
 
 ## EXAMPLES
@@ -40,7 +40,7 @@ If you specify the *ServiceName* parameter, **Get-AzureService** returns informa
 PS C:\>Get-AzureService
 ```
 
-This command returns an object that contains information about all of the azure_2 services associated with the current subscription.
+This command returns an object that contains information about all of the Azure services associated with the current subscription.
 
 ### Example 2: Get information about a specified service
 ```
@@ -89,7 +89,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -104,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

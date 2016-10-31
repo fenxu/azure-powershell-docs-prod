@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Get-AzureRemoteAppCollection.md
 schema: 2.0.0
 ms.assetid: E083A2AF-AE0F-41EB-886C-A007F8C9B8B6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureRemoteAppCollection
 
 ## SYNOPSIS
-Creates an azure_2 RemoteApp collection.
+Creates an Azure RemoteApp collection.
 
 ## SYNTAX
 
@@ -41,7 +41,7 @@ New-AzureRemoteAppCollection [-CollectionName] <String> [-ImageName] <String> [-
 ```
 
 ## DESCRIPTION
-The **New-AzureRemoteAppCollection** cmdlet creates an azure_2 RemoteApp collection.
+The **New-AzureRemoteAppCollection** cmdlet creates an Azure RemoteApp collection.
 
 ## EXAMPLES
 
@@ -50,7 +50,7 @@ The **New-AzureRemoteAppCollection** cmdlet creates an azure_2 RemoteApp collect
 PS C:\>New-AzureRemoteAppCollection -CollectionName "Contoso" -ImageName "Windows Server 2012 R2" -Plan Standard -Location "West US" -Description CloudOnly
 ```
 
-This command creates an azure_2 RemoteApp collection.
+This command creates an Azure RemoteApp collection.
 
 ### Example 2: Create a collection using credentials
 ```
@@ -58,12 +58,12 @@ PS C:\>$cred = Get-Credential corp.contoso.com\admin
 PS C:\> New-AzureRemoteAppCollection -CollectionName "ContosoHybrid" -ImageName "Windows Server 2012 R2" -Plan Standard -VNetName azureVNet -Domain Contoso.com -Credential $cred -Description Hybrid
 ```
 
-This command creates an azure_2 RemoteApp collection using a credential from the **Get-Credential** cmdlet.
+This command creates an Azure RemoteApp collection using a credential from the **Get-Credential** cmdlet.
 
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-Specifies the credentials of a service account that has permission to join the azure_2 RemoteApp servers to your domain.
+Specifies the credentials of a service account that has permission to join the Azure RemoteApp servers to your domain.
 To obtain a **Credential** object, use the Get-Credential cmdlet.
 
 ```yaml
@@ -155,7 +155,7 @@ Accept wildcard characters: False
 ```
 
 ### -ImageName
-Specifies the name of the azure_2 RemoteApp template image.
+Specifies the name of the Azure RemoteApp template image.
 
 ```yaml
 Type: String
@@ -170,7 +170,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the azure_2 region of the collection.
+Specifies the Azure region of the collection.
 
 ```yaml
 Type: String
@@ -202,7 +202,7 @@ Accept wildcard characters: False
 ```
 
 ### -Plan
-Specifies the plan for the azure_2 RemoteApp collection, which may define the usage limits.
+Specifies the plan for the Azure RemoteApp collection, which may define the usage limits.
 Use **Get-AzureRemoteAppPlan** to see the plans available.
 
 ```yaml
@@ -218,7 +218,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubnetName
-Specifies the name of the subnet in the virtual network to use to create the azure_2 RemoteApp collection.
+Specifies the name of the subnet in the virtual network to use to create the Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -233,7 +233,7 @@ Accept wildcard characters: False
 ```
 
 ### -VNetName
-Specifies the name of an azure_2 RemoteApp virtual network.
+Specifies the name of an Azure RemoteApp virtual network.
 
 ```yaml
 Type: String

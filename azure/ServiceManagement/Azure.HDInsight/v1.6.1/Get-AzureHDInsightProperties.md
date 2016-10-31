@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3C423081-DB0E-4681-9718-04BB7A67E20E
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Get-AzureHDInsightProperties.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Get-AzureHDInsightProperties.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Get-AzureHDInsightProperties.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -39,7 +39,7 @@ For information about how to use the new HDInsight to create a cluster, see Crea
 For information about how to submit jobs by using APS and other approaches, see Submit Hadoop jobs in HDInsighthttps://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/.
 For reference information about APS HDInsight, see Azure HDInsight Cmdletshttps://msdn.microsoft.com/en-us/library/mt438705.aspx.
 
-The **Get-AzureHDInsightProperties** cmdlet gets properties specific to an azure_2 HDInsight service, such as a list of available azure_2 regions, HDInsight cluster versions, and available compute capacity.
+The **Get-AzureHDInsightProperties** cmdlet gets properties specific to an Azure HDInsight service, such as a list of available Azure regions, HDInsight cluster versions, and available compute capacity.
 
 ## EXAMPLES
 
@@ -49,14 +49,14 @@ PS C:\>$SubName = Get-AzureSubscription -Current | %{ $_.SubscriptionName }
 PS C:\> Get-AzureHDInsightProperties -Subscription $SubName
 ```
 
-The first command gets the name of the current azure_2 subscription, and then stores it in the $SubName variable.
+The first command gets the name of the current Azure subscription, and then stores it in the $SubName variable.
 
 The second command gets the HDInsight properties for the subscription in $SubName.
 
 ## PARAMETERS
 
 ### -Certificate
-Specifies the management certificate for an azure_2 subscription.
+Specifies the management certificate for an Azure subscription.
 
 ```yaml
 Type: X509Certificate2
@@ -87,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -Endpoint
-Specifies the endpoint to use to connect to azure_2.
+Specifies the endpoint to use to connect to Azure.
 If you do not specify this parameter, this cmdlet uses the default endpoint.
 
 ```yaml
@@ -103,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -Locations
-Indicates that this cmdlet gets the list of azure_2 regions where the HDInsight service is available.
+Indicates that this cmdlet gets the list of Azure regions where the HDInsight service is available.
 
 ```yaml
 Type: SwitchParameter

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\Get-AzureVirtualNetworkGatewayConnection.md
 schema: 2.0.0
 ms.assetid: EAE0FBC7-93DA-4322-BC05-A38A7780813D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/New-AzureVirtualNetworkGatewayConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/New-AzureVirtualNetworkGatewayConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/New-AzureVirtualNetworkGatewayConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureVirtualNetworkGatewayConnection
 
 ## SYNOPSIS
-Creates an azure_2 virtual gateway network connection.
+Creates an Azure virtual gateway network connection.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ New-AzureVirtualNetworkGatewayConnection [-ConnectedEntityId] <String> [-Gateway
 ```
 
 ## DESCRIPTION
-The **New-AzureVirtualNetworkGatewayConnection** cmdlet creates an azure_2 virtual gateway network connection.
+The **New-AzureVirtualNetworkGatewayConnection** cmdlet creates an Azure virtual gateway network connection.
 
 ## EXAMPLES
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Get-AzureDataDisk.md
 schema: 2.0.0
 ms.assetid: E675A42A-4B6A-472D-A1EF-77D864048948
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Add-AzureDataDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Add-AzureDataDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Add-AzureDataDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,7 +46,7 @@ Add-AzureDataDisk [-ImportFrom] [-DiskLabel] <String> [-LUN] <Int32> -MediaLocat
 ```
 
 ## DESCRIPTION
-The **Add-AzureDataDisk** cmdlet adds a new or existing data disk to an azure_2 virtual machine object.
+The **Add-AzureDataDisk** cmdlet adds a new or existing data disk to an Azure virtual machine object.
 Use the *CreateNew* parameter to create a new data disk that has a specified size and label.
 Use the *Import* parameter to attach an existing disk from the image repository.
 Use the *ImportFrom* parameter to attach an existing disk from a blob in a storage account.
@@ -151,7 +151,7 @@ Accept wildcard characters: False
 ```
 
 ### -MediaLocation
-Specifies the location of the blob in an azure_2 storage account where this cmdlet stores the data disk.
+Specifies the location of the blob in an Azure storage account where this cmdlet stores the data disk.
 If you do not specify a location, the cmdlet stores the data disk in the vhds container in the default storage account for the current subscription.
 If a vhds container does not exist, the cmdlet creates a vhds container.
 
@@ -231,7 +231,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -246,7 +255,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

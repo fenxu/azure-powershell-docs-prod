@@ -4,10 +4,10 @@ Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 2.0.10.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/AzureRM.Network.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/AzureRM.Network.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/AzureRM.Network.md
 uid: ResourceManager/AzureRM.Network/v1.0.13/AzureRM.Network.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -340,7 +340,7 @@ Creates a SKU for an application gateway.
 
 
 ### [New-AzureRmApplicationGatewaySslCertificate](./New-AzureRmApplicationGatewaySslCertificate.md)
-Creates an SSL certificate for an azure_2 application gateway.
+Creates an SSL certificate for an Azure application gateway.
 
 ### [New-AzureRmApplicationGatewayUrlPathMapConfig](./New-AzureRmApplicationGatewayUrlPathMapConfig.md)
 Creates an array of URL path mappings to a backend server pool.
@@ -358,7 +358,7 @@ Creates an ExpressRoute circuit authorization.
 
 
 ### [New-AzureRmExpressRouteCircuit](./New-AzureRmExpressRouteCircuit.md)
-Creates an azure_2 express route circuit.
+Creates an Azure express route circuit.
 
 
 ### [New-AzureRmLoadBalancerBackendAddressPoolConfig](./New-AzureRmLoadBalancerBackendAddressPoolConfig.md)
@@ -689,7 +689,7 @@ Modifies a local network gateway.
 
 
 ### [Set-AzureRmNetworkInterfaceIpConfig](./Set-AzureRmNetworkInterfaceIpConfig.md)
-Sets the goal state for an azure_2 network interface IP configuration.
+Sets the goal state for an Azure network interface IP configuration.
 
 
 ### [Set-AzureRmNetworkInterface](./Set-AzureRmNetworkInterface.md)

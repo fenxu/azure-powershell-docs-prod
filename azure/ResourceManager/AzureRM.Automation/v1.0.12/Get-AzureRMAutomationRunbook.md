@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Export-AzureRMAutomationRunbook.md
 schema: 2.0.0
 ms.assetid: 71DA0434-5C0F-498F-91F2-F09117DFA7CA
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Get-AzureRmAutomationRunbook [-Name] <String> [-ResourceGroupName] <String> [-Au
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAutomationRunbook** cmdlet gets azure_2 Automation runbooks.
+The **Get-AzureRmAutomationRunbook** cmdlet gets Azure Automation runbooks.
 To get a specific runbook, specify its name.
 
 ## EXAMPLES
@@ -47,7 +47,7 @@ To get a specific runbook, specify its name.
 PS C:\>Get-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command gets all runbooks in the azure_2 Automation account named Contoso17.
+This command gets all runbooks in the Azure Automation account named Contoso17.
 
 ## PARAMETERS
 

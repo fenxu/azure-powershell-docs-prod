@@ -4,10 +4,10 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: 1.0.0.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Azure.SQLDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Azure.SQLDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Azure.SQLDatabase.md
 uid: ServiceManagement/Azure.SQLDatabase/v1.6.1/Azure.SQLDatabase.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -33,7 +33,7 @@ Gets the status of an import or export request.
 
 
 ### [Get-AzureSqlDatabaseOperation](./Get-AzureSqlDatabaseOperation.md)
-Gets the status of database operations on an azure_2 server.
+Gets the status of database operations on an Azure server.
 
 
 ### [Get-AzureSqlDatabaseServerFirewallRule](./Get-AzureSqlDatabaseServerFirewallRule.md)

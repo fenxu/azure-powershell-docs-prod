@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 34edfa3b-7ef9-4aab-bb17-5ea725a22ed4
 schema: 2.0.0
 ms.assetid: CFAC4E12-2A1F-4B2C-873B-F5A3F9C4A2CE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationScheduledRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationScheduledRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationScheduledRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -55,7 +55,7 @@ Get-AzureRmAutomationScheduledRunbook -ScheduleName <String> [-ResourceGroupName
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAutomationScheduledRunbook** cmdlet gets one or more azure_2 Automation runbooks and associated schedules.
+The **Get-AzureRmAutomationScheduledRunbook** cmdlet gets one or more Azure Automation runbooks and associated schedules.
 By default, this cmdlet gets all scheduled runbooks.
 Specify the name of a runbook or a schedule or both to see specific runbook schedules.
 
@@ -66,21 +66,21 @@ Specify the name of a runbook or a schedule or both to see specific runbook sche
 PS C:\>Get-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command gets all scheduled runbooks in the azure_2 Automation account named Contoso17.
+This command gets all scheduled runbooks in the Azure Automation account named Contoso17.
 
 ### Example 2: Get all schedules associated with a runbook
 ```
 PS C:\>Get-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01" -RunbookName "Runbk01"
 ```
 
-This command gets all scheduled runbooks for the runbook Runbk01 in the azure_2 Automation account named Contoso17.
+This command gets all scheduled runbooks for the runbook Runbk01 in the Azure Automation account named Contoso17.
 
 ### Example 3: Get all runbooks associated with a schedule
 ```
 PS C:\>Get-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01" -ScheduleName "Schedule01"
 ```
 
-This command gets all scheduled runbooks for the schedule Schedule01 in the azure_2 Automation account named Contoso17.
+This command gets all scheduled runbooks for the schedule Schedule01 in the Azure Automation account named Contoso17.
 
 ## PARAMETERS
 

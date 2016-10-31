@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\Get-AzureRmWebAppSSLBinding.md
 schema: 2.0.0
 ms.assetid: 8698B8DD-D99D-40D2-A61F-0688C8AC5C9B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebAppCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebAppCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebAppCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmWebAppCertificate
 
 ## SYNOPSIS
-Gets an azure_2 Web App certificate.
+Gets an Azure Web App certificate.
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Get-AzureRmWebAppCertificate [[-ResourceGroupName] <String>] [[-Thumbprint] <Str
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmWebAppCertificate** cmdlet gets information about azure_2 Web App certificates associated with a specified resource group.
+The **Get-AzureRmWebAppCertificate** cmdlet gets information about Azure Web App certificates associated with a specified resource group.
 If you know the certificate thumbprint you can also use this cmdlet to get information about a specified certificate.
 
 ## EXAMPLES

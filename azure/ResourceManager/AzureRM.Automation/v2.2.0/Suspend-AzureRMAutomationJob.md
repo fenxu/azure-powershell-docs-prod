@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: e41c8823-9e6a-4535-b90c-0e2de7634c47
 schema: 2.0.0
 ms.assetid: CF05770C-FC18-4A31-BEB9-4F8C1C39C285
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Suspend-AzureRMAutomationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Suspend-AzureRMAutomationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Suspend-AzureRMAutomationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Suspend-AzureRmAutomationJob [-Id] <Guid> [-ResourceGroupName] <String> [-Automa
 ```
 
 ## DESCRIPTION
-The **Suspend-AzureRmAutomationJob** cmdlet suspends an azure_2 Automation job.
+The **Suspend-AzureRmAutomationJob** cmdlet suspends an Azure Automation job.
 Specify a running Automation job.
 
 To resume a suspended job, use the Resume-AzureRmAutomationJob cmdlet.

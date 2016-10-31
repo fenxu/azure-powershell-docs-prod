@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 15469E2B-DDFA-48A8-8B96-4917744CFE9B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebHostingPlanMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebHostingPlanMetric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebHostingPlanMetric.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureWebHostingPlanMetric
 
 ## SYNOPSIS
-Gets metrics for azure_2 website hosting plans.
+Gets metrics for Azure website hosting plans.
 
 ## SYNTAX
 
@@ -33,7 +33,7 @@ Get-AzureWebHostingPlanMetric [-MetricNames <String[]>] [-StartDate <DateTime>] 
 ## DESCRIPTION
 powershell_prelim
 
-The **Get-AzureWebHostingPlanMetric** cmdlet gets metrics for azure_2 web hosting plans in a subscription.
+The **Get-AzureWebHostingPlanMetric** cmdlet gets metrics for Azure web hosting plans in a subscription.
 
 ## EXAMPLES
 

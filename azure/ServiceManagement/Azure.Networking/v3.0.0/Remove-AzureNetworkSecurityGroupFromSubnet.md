@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: dfd1141a-28f4-40f0-b25d-cafb1d19cd52
 schema: 2.0.0
 ms.assetid: 66AD8A8A-1097-4806-89E0-B31F6CC71C82
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureNetworkSecurityGroupFromSubnet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureNetworkSecurityGroupFromSubnet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureNetworkSecurityGroupFromSubnet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Remove-AzureNetworkSecurityGroupFromSubnet [-Name] <String> [-VirtualNetworkName
 ```
 
 ## DESCRIPTION
-The **Remove-AzureNetworkSecurityGroupFromSubnet** cmdlet dissociates an azure_2 network security group from a subnet.
+The **Remove-AzureNetworkSecurityGroupFromSubnet** cmdlet dissociates an Azure network security group from a subnet.
 
 ## EXAMPLES
 

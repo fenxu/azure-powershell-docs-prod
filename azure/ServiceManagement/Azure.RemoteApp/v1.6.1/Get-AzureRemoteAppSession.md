@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Disconnect-AzureRemoteAppSession.md
 schema: 2.0.0
 ms.assetid: A493994E-7E5C-4331-AD55-4C5233580FA2
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppSession.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppSession.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppSession.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppSession
 
 ## SYNOPSIS
-Lists all active and disconnected azure_2 RemoteApp sessions for a collection.
+Lists all active and disconnected Azure RemoteApp sessions for a collection.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureRemoteAppSession [-CollectionName] <String> [[-UserUpn] <String>] [-Pro
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppSession** cmdlet lists all active and disconnected azure_2 RemoteApp sessions for an azure_2 RemoteApp collection.
+The **Get-AzureRemoteAppSession** cmdlet lists all active and disconnected Azure RemoteApp sessions for an Azure RemoteApp collection.
 
 ## EXAMPLES
 
@@ -39,12 +39,12 @@ The **Get-AzureRemoteAppSession** cmdlet lists all active and disconnected azure
 PS C:\>Get-AzureRemoteAppSession -CollectionName "ContosoApps"
 ```
 
-This command lists all sessions in the azure_2 RemoteApp collection named ContosoApps.
+This command lists all sessions in the Azure RemoteApp collection named ContosoApps.
 
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserUpn
-Specifies the user Principal Name (UPN) of a user for which to get azure_2 RemoteApp sessions.
+Specifies the user Principal Name (UPN) of a user for which to get Azure RemoteApp sessions.
 For example, the UPN can be in the following format: PattiFuller@contoso.com.
 
 ```yaml

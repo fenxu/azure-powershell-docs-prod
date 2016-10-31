@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\Get-AzureRmWebAppBackupConfiguration.md
 schema: 2.0.0
 ms.assetid: DDD2BB43-AA5A-4754-BF6A-3B96260AA1B7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Edit-AzureRmWebAppBackupConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Edit-AzureRmWebAppBackupConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Edit-AzureRmWebAppBackupConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -50,7 +50,6 @@ Edit-AzureRmWebAppBackupConfiguration [-FrequencyInterval] <Int32> [-FrequencyUn
 ## PARAMETERS
 
 ### -FrequencyInterval
-@{Text=}
 
 ```yaml
 Type: Int32
@@ -65,7 +64,6 @@ Accept wildcard characters: False
 ```
 
 ### -FrequencyUnit
-@{Text=}
 
 ```yaml
 Type: String
@@ -80,7 +78,6 @@ Accept wildcard characters: False
 ```
 
 ### -RetentionPeriodInDays
-@{Text=}
 
 ```yaml
 Type: Int32
@@ -95,7 +92,6 @@ Accept wildcard characters: False
 ```
 
 ### -StartTime
-@{Text=}
 
 ```yaml
 Type: DateTime
@@ -110,7 +106,6 @@ Accept wildcard characters: False
 ```
 
 ### -KeepAtLeastOneBackup
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -125,7 +120,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -140,7 +134,6 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -155,7 +148,6 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-@{Text=}
 
 ```yaml
 Type: String
@@ -170,7 +162,6 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountUrl
-@{Text=}
 
 ```yaml
 Type: String
@@ -185,7 +176,6 @@ Accept wildcard characters: False
 ```
 
 ### -Databases
-@{Text=}
 
 ```yaml
 Type: DatabaseBackupSetting[]
@@ -200,7 +190,6 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-@{Text=}
 
 ```yaml
 Type: Site

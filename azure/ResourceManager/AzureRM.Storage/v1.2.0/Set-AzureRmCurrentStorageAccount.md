@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
 online version: .\Set-AzureRmStorageAccount.md
 schema: 2.0.0
 ms.assetid: E1AF915B-D5C9-4A24-9F7C-1A127F7D4903
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Set-AzureRmCurrentStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Set-AzureRmCurrentStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Set-AzureRmCurrentStorageAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Set-AzureRmCurrentStorageAccount -Context <AzureStorageContext> [-InformationAct
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmCurrentStorageAccount** cmdlet modifies the current azure_2 Storage account of the specified azure_2 subscription in azure_2 PowerShell.
+The **Set-AzureRmCurrentStorageAccount** cmdlet modifies the current Azure Storage account of the specified Azure subscription in Azure PowerShell.
 The current storage account is used as the default when you access Storage without specifying a Storage account name.
 
 ## EXAMPLES
@@ -82,7 +82,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -97,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: .\Get-AzureBatchTask.md
 schema: 2.0.0
 ms.assetid: 17C6284F-05D2-4CE1-8523-E293649344AF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Set-AzureBatchTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Set-AzureBatchTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Set-AzureBatchTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Set-AzureBatchTask [-Task] <PSCloudTask> -BatchContext <BatchAccountContext> [<C
 ```
 
 ## DESCRIPTION
-The **Set-AzureBatchTask** cmdlet updates the properties of a task in the azure_2 Batch service.
+The **Set-AzureBatchTask** cmdlet updates the properties of a task in the Azure Batch service.
 Use the Get-AzureBatchTask cmdlet to get a **PSCloudTask** object.
 Modify the properties of that object, and then use the current cmdlet to commit your changes to the Batch service.
 

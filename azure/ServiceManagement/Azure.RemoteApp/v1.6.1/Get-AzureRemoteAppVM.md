@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Restart-AzureRemoteAppVM.md
 schema: 2.0.0
 ms.assetid: C85588A2-15E3-4B6E-93B6-3B91DBE1A064
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppVM
 
 ## SYNOPSIS
-Gets the virtual machines in an azure_2 RemoteApp collection.
+Gets the virtual machines in an Azure RemoteApp collection.
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Get-AzureRemoteAppVM [-CollectionName] <String> [-Profile <AzureSMProfile>] [<Co
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppVM** cmdlet gets the virtual machines created under an azure_2 RemoteApp collection for session hosting.
+The **Get-AzureRemoteAppVM** cmdlet gets the virtual machines created under an Azure RemoteApp collection for session hosting.
 
 ## EXAMPLES
 
@@ -38,12 +38,12 @@ The **Get-AzureRemoteAppVM** cmdlet gets the virtual machines created under an a
 PS C:\>Get-AzureRemoteAppVM -CollectionName "Contoso"
 ```
 
-This command displays the virtual machines used for session hosting in an azure_2 RemoteApp collection named Contoso.
+This command displays the virtual machines used for session hosting in an Azure RemoteApp collection named Contoso.
 
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String

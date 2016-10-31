@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: cfac4e12-2a1f-4b2c-873b-f5a3f9c4a2ce
 schema: 2.0.0
 ms.assetid: 34EDFA3B-7EF9-4AAB-BB17-5EA725A22ED4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRMAutomationScheduledRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRMAutomationScheduledRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRMAutomationScheduledRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -38,7 +38,7 @@ Register-AzureRmAutomationScheduledRunbook -RunbookName <String> -ScheduleName <
 ```
 
 ## DESCRIPTION
-The **Register-AzureRmAutomationScheduledRunbook** cmdlet associates an azure_2 Automation runbook to a schedule.
+The **Register-AzureRmAutomationScheduledRunbook** cmdlet associates an Azure Automation runbook to a schedule.
 The runbook starts based on the schedule you specify using the *ScheduleName* parameter.
 
 ## EXAMPLES
@@ -48,7 +48,7 @@ The runbook starts based on the schedule you specify using the *ScheduleName* pa
 PS C:\>Register-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" -ScheduleName "Sched01" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command associates the runbook named Runbk01 with the schedule named Sched01 in the azure_2 Automation account named Contoso17.
+This command associates the runbook named Runbk01 with the schedule named Sched01 in the Azure Automation account named Contoso17.
 
 ## PARAMETERS
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: .\Get-AzureBatchCertificate.md
 schema: 2.0.0
 ms.assetid: 3A627306-BA51-4D22-8C30-202C20708A5C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ New-AzureBatchCertificate [-RawData] <Byte[]> [-Password <String>] -BatchContext
 ```
 
 ## DESCRIPTION
-The **New-AzureBatchCertificate** cmdlet adds a certificate to the specified azure_2 Batch account.
+The **New-AzureBatchCertificate** cmdlet adds a certificate to the specified Azure Batch account.
 
 ## EXAMPLES
 

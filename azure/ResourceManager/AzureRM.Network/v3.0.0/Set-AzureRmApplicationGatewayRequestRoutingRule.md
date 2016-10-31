@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: 025d280d-da5e-4c06-a555-3bc16854e071
 schema: 2.0.0
 ms.assetid: 8034A2F7-91D4-4FE5-80D3-EA2AEFB4F8CC
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayRequestRoutingRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayRequestRoutingRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayRequestRoutingRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -148,7 +148,6 @@ Accept wildcard characters: False
 ```
 
 ### -UrlPathMapId
-@{Text=}
 
 ```yaml
 Type: String
@@ -208,7 +207,6 @@ Accept wildcard characters: False
 ```
 
 ### -UrlPathMap
-@{Text=}
 
 ```yaml
 Type: PSApplicationGatewayUrlPathMap

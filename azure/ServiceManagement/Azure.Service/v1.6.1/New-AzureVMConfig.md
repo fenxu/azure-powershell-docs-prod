@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 2c5c7142-218d-46ac-8faf-54d0deb28f13
 schema: 2.0.0
 ms.assetid: 73C0373D-16F8-4179-ABED-38374432231B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVMConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVMConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVMConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureVMConfig
 
 ## SYNOPSIS
-Creates an azure_2 virtual machine configuration object.
+Creates an Azure virtual machine configuration object.
 
 ## SYNTAX
 
@@ -41,7 +41,7 @@ New-AzureVMConfig [-Name] <String> [-InstanceSize] <String> [[-HostCaching] <Str
 ```
 
 ## DESCRIPTION
-The **New-AzureVMConfig** cmdlet creates an azure_2  virtual machine configuration object.
+The **New-AzureVMConfig** cmdlet creates an Azure  virtual machine configuration object.
 You can use this object to perform a new deployment and add a new virtual machine to an existing deployment.
 
 ## EXAMPLES
@@ -188,7 +188,7 @@ Accept wildcard characters: False
 ```
 
 ### -MediaLocation
-Specifies the azure_2 storage location for the new virtual machine disk.
+Specifies the Azure storage location for the new virtual machine disk.
 
 ```yaml
 Type: String
@@ -269,7 +269,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -284,7 +293,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

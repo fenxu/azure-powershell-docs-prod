@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\New-AzureRmWebAppSSLBinding.md
 schema: 2.0.0
 ms.assetid: 23739724-4ACE-423E-B962-244A904005B7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebAppSSLBinding.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebAppSSLBinding.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebAppSSLBinding.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmWebAppSSLBinding
 
 ## SYNOPSIS
-Gets an azure_2 Web App certificate SSL binding.
+Gets an Azure Web App certificate SSL binding.
 
 ## SYNTAX
 
@@ -36,7 +36,7 @@ Get-AzureRmWebAppSSLBinding [[-Name] <String>] [-WebApp] <Site> [<CommonParamete
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmWebAppSSLBinding** cmdlet gets a Secure Sockets Layer (SSL) binding for an azure_2 Web App.
+The **Get-AzureRmWebAppSSLBinding** cmdlet gets a Secure Sockets Layer (SSL) binding for an Azure Web App.
 SSL bindings are used to associate a Web App with an uploaded certificate.
 Web Apps can be bound to multiple certificates.
 

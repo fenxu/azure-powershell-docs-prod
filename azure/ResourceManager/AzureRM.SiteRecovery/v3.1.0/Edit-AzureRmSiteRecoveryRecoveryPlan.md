@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 5da460af-2db1-4303-b9d9-c51fd9674e4b
 schema: 2.0.0
 ms.assetid: 200ECD6F-5A5E-499A-8EA9-F747197EBF03
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Edit-AzureRmSiteRecoveryRecoveryPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Edit-AzureRmSiteRecoveryRecoveryPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Edit-AzureRmSiteRecoveryRecoveryPlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -132,7 +132,6 @@ Accept wildcard characters: False
 ```
 
 ### -AddProtectedItems
-@{Text=}
 
 ```yaml
 Type: ASRReplicationProtectedItem[]
@@ -177,7 +176,6 @@ Accept wildcard characters: False
 ```
 
 ### -RemoveProtectedItems
-@{Text=}
 
 ```yaml
 Type: ASRReplicationProtectedItem[]

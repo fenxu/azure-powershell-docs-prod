@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Get-AzureVM.md
 schema: 2.0.0
 ms.assetid: 1A0A447E-194E-48DD-8617-233B49326695
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Start-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Start-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Start-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Start-AzureVM
 
 ## SYNOPSIS
-Starts an azure_2 virtual machine.
+Starts an Azure virtual machine.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ Start-AzureVM -VM <IPersistentVM[]> [-ServiceName] <String> [-Profile <AzureSMPr
 ```
 
 ## DESCRIPTION
-The **Start-AzureVM** cmdlet requests the start of an azure_2 virtual machine.
+The **Start-AzureVM** cmdlet requests the start of an Azure virtual machine.
 
 ## EXAMPLES
 
@@ -46,7 +46,7 @@ The **Start-AzureVM** cmdlet requests the start of an azure_2 virtual machine.
 PS C:\>Start-AzureVM -ServiceName "ContosoService03" -Name "VirtualMachine04"
 ```
 
-This command starts the virtual machine named VirtualMachine04 that runs in the azure_2 service named ContosoService03.
+This command starts the virtual machine named VirtualMachine04 that runs in the Azure service named ContosoService03.
 
 ### Example 2: Start a virtual machine by using a virtual machine object
 ```
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-Specifies the name of the azure_2 service that contains the virtual machine to start.
+Specifies the name of the Azure service that contains the virtual machine to start.
 
 ```yaml
 Type: String
@@ -103,7 +103,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -118,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

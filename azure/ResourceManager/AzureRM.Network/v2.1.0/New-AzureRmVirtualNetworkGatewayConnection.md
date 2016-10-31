@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: .\Get-AzureRmVirtualNetworkGatewayConnection.md
 schema: 2.0.0
 ms.assetid: 40CE0312-1D64-41EC-B9DD-5EA92AC9C996
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmVirtualNetworkGatewayConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmVirtualNetworkGatewayConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmVirtualNetworkGatewayConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -55,7 +55,6 @@ New-AzureRmVirtualNetworkGatewayConnection -Name <String> -ResourceGroupName <St
 ## PARAMETERS
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -70,7 +69,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -85,7 +83,6 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-@{Text=}
 
 ```yaml
 Type: String
@@ -100,7 +97,6 @@ Accept wildcard characters: False
 ```
 
 ### -AuthorizationKey
-@{Text=}
 
 ```yaml
 Type: String
@@ -115,7 +111,6 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualNetworkGateway1
-@{Text=}
 
 ```yaml
 Type: PSVirtualNetworkGateway
@@ -130,7 +125,6 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualNetworkGateway2
-@{Text=}
 
 ```yaml
 Type: PSVirtualNetworkGateway
@@ -145,7 +139,6 @@ Accept wildcard characters: False
 ```
 
 ### -LocalNetworkGateway2
-@{Text=}
 
 ```yaml
 Type: PSLocalNetworkGateway
@@ -160,7 +153,6 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionType
-@{Text=}
 
 ```yaml
 Type: String
@@ -175,7 +167,6 @@ Accept wildcard characters: False
 ```
 
 ### -RoutingWeight
-@{Text=}
 
 ```yaml
 Type: Int32
@@ -190,7 +181,6 @@ Accept wildcard characters: False
 ```
 
 ### -SharedKey
-@{Text=}
 
 ```yaml
 Type: String
@@ -205,7 +195,6 @@ Accept wildcard characters: False
 ```
 
 ### -Peer
-@{Text=}
 
 ```yaml
 Type: PSPeering
@@ -220,7 +209,6 @@ Accept wildcard characters: False
 ```
 
 ### -EnableBgp
-@{Text=}
 
 ```yaml
 Type: String
@@ -235,7 +223,6 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-@{Text=}
 
 ```yaml
 Type: Hashtable
@@ -250,7 +237,6 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -265,7 +251,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -280,7 +275,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -327,7 +322,6 @@ Accept wildcard characters: False
 ```
 
 ### -PeerId
-@{Text=}
 
 ```yaml
 Type: String

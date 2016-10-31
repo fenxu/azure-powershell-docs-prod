@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: .\Get-AzureRmBatchApplicationPackage.md
 schema: 2.0.0
 ms.assetid: DD8F898F-99BE-4B61-B4F6-1AE259D60DD9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Get-AzureRmBatchApplication [-AccountName] <String> [-ResourceGroupName] <String
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmBatchApplication** cmdlet gets information about an application in an azure_2 Batch account.
+The **Get-AzureRmBatchApplication** cmdlet gets information about an application in an Azure Batch account.
 
 ## EXAMPLES
 

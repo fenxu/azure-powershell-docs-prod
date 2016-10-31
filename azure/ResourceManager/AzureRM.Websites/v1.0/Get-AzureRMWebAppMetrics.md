@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\Get-AzureRmWebAppCertificate.md
 schema: 2.0.0
 ms.assetid: 40057F2A-D5A2-4A6E-B9D2-2AC41F224020
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRMWebAppMetrics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRMWebAppMetrics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRMWebAppMetrics.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmWebAppMetrics
 
 ## SYNOPSIS
-Gets azure_2 Web App metrics.
+Gets Azure Web App metrics.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ Get-AzureRmWebAppMetrics [-Metrics] <String[]> [-StartTime] <DateTime> [[-EndTim
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmWebAppMetrics** cmdlet gets azure_2 Web App metrics.
+The **Get-AzureRmWebAppMetrics** cmdlet gets Azure Web App metrics.
 
 ## EXAMPLES
 

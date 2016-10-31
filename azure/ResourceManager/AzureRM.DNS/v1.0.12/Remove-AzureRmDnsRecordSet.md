@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 online version: .\Get-AzureRmDnsRecordSet.md
 schema: 2.0.0
 ms.assetid: E44D0EC6-BB4F-4E0A-9193-3A398DAB4EB8
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v1.0.12/Remove-AzureRmDnsRecordSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v1.0.12/Remove-AzureRmDnsRecordSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v1.0.12/Remove-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -51,7 +51,7 @@ To identify a record set by name and type without using a **RecordSet** object, 
 
 You can use the *Confirm* parameter and $ConfirmPreference wps_2 variable to control whether the cmdlet prompts you for confirmation.
 
-When specifying the record set using a **RecordSet** object, the record set is not deleted if it has been changed in azure_2 DNS since the local **RecordSet** object was retrieved.
+When specifying the record set using a **RecordSet** object, the record set is not deleted if it has been changed in Azure DNS since the local **RecordSet** object was retrieved.
 This provides protection for concurrent changes.
 You can suppress this by using the *Overwrite* parameter, which deletes the record set regardless of concurrent changes.
 
@@ -121,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -Overwrite
-When specifying the record set using a **RecordSet** object, the record set is not deleted if it has been changed in azure_2 DNS since the local **RecordSet** object was retrieved.
+When specifying the record set using a **RecordSet** object, the record set is not deleted if it has been changed in Azure DNS since the local **RecordSet** object was retrieved.
 This provides protection for concurrent changes.
 This can be suppressed using the *Overwrite* parameter, which deletes the record set regardless of concurrent changes.
 
@@ -254,7 +254,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -269,7 +269,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

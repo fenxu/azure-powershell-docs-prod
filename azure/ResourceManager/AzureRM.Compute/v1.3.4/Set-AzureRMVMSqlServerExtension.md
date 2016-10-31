@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Get-AzureRmVM.md
 schema: 2.0.0
 ms.assetid: 9F77E3D1-EAE1-4ED2-A16E-C593BDD1C907
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureRmVMSqlServerExtension
 
 ## SYNOPSIS
-Sets the azure_2 SQL Server extension on a virtual machine.
+Sets the Azure SQL Server extension on a virtual machine.
 
 ## SYNTAX
 
@@ -33,7 +33,7 @@ Set-AzureRmVMSqlServerExtension [[-Version] <String>] [-ResourceGroupName] <Stri
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmVMSqlServerExtension** cmdlet sets the azure_2ssNoVersion extension on a virtual machine.
+The **Set-AzureRmVMSqlServerExtension** cmdlet sets the AzuressNoVersion extension on a virtual machine.
 
 ## EXAMPLES
 
@@ -177,7 +177,6 @@ Accept wildcard characters: False
 ```
 
 ### -KeyVaultCredentialSettings
-@{Text=}
 
 ```yaml
 Type: KeyVaultCredentialSettings
@@ -207,7 +206,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -222,7 +230,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

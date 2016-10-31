@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Get-AzureRemoteAppVNet.md
 schema: 2.0.0
 ms.assetid: ED191A06-0C1D-486E-91F3-3CB61AA470A6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppVNet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppVNet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppVNet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureRemoteAppVNet
 
 ## SYNOPSIS
-Deletes an azure_2 RemoteApp virtual network.
+Deletes an Azure RemoteApp virtual network.
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Remove-AzureRemoteAppVNet -VNetName <String> [-Profile <AzureSMProfile>] [<Commo
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRemoteAppVNet** cmdlet deletes an azure_2 RemoteApp virtual network.
+The **Remove-AzureRemoteAppVNet** cmdlet deletes an Azure RemoteApp virtual network.
 
 ## EXAMPLES
 
@@ -43,7 +43,7 @@ This command deletes the virtual network named ContosoVNet
 ## PARAMETERS
 
 ### -VNetName
-Specifies the name of the azure_2 RemoteApp virtual network to delete.
+Specifies the name of the Azure RemoteApp virtual network to delete.
 
 ```yaml
 Type: String

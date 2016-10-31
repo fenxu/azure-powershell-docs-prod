@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: .\Get-AzureRmBatchAccountKeys.md
 schema: 2.0.0
 ms.assetid: EA2BAE3B-DA8E-49AD-80EA-48C1BBC1633D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -51,7 +51,7 @@ New-AzureBatchPool [-Id] <String> -VirtualMachineSize <String> [-DisplayName <St
 ```
 
 ## DESCRIPTION
-The **New-AzureBatchPool** cmdlet creates a pool in the azure_2 Batch service under the account specified by the *BatchContext* parameter.
+The **New-AzureBatchPool** cmdlet creates a pool in the Azure Batch service under the account specified by the *BatchContext* parameter.
 
 ## EXAMPLES
 
@@ -75,7 +75,6 @@ The pool is configured to use small virtual machines imaged with the latest oper
 ## PARAMETERS
 
 ### -ApplicationPackageReferences
-@{Text=}
 
 ```yaml
 Type: PSApplicationPackageReference[]
@@ -153,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -CloudServiceConfiguration
-Specifies configuration settings for a pool based on the azure_2 cloud service platform.
+Specifies configuration settings for a pool based on the Azure cloud service platform.
 
 ```yaml
 Type: PSCloudServiceConfiguration
@@ -322,7 +321,7 @@ Accept wildcard characters: False
 
 ### -VirtualMachineSize
 Specifies the size of the virtual machines in the pool.
-For more information about virtual machine sizes, see Sizes for virtual machineshttps://azure.microsoft.com/en-us/documentation/articles/virtual-machines-size-specs/ (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-size-specs/) in the Microsoft azure_2 site.
+For more information about virtual machine sizes, see Sizes for virtual machineshttps://azure.microsoft.com/en-us/documentation/articles/virtual-machines-size-specs/ (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-size-specs/) in the Microsoft Azure site.
 
 ```yaml
 Type: String

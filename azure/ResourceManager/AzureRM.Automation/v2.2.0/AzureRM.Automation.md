@@ -4,10 +4,10 @@ Module Guid: bcea1c70-a32b-48c3-a05c-323e1c02f4d3
 Download Help Link: None_Azure
 Help Version: 4.0.0.0
 Locale: en-US
-updated_at: 10/27/2016 9:26 PM
-ms.date: 10/27/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/AzureRM.Automation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/AzureRM.Automation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/AzureRM.Automation.md
 uid: ResourceManager/AzureRM.Automation/v2.2.0/AzureRM.Automation.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -181,7 +181,7 @@ Publishes a runbook.
 
 
 ### [Register-AzureRmAutomationDscNode](./Register-AzureRmAutomationDscNode.md)
-Registers an azure_2 virtual machine as a DSC node for an Automation account.
+Registers an Azure virtual machine as a DSC node for an Automation account.
 
 
 ### [Register-AzureRMAutomationScheduledRunbook](./Register-AzureRMAutomationScheduledRunbook.md)

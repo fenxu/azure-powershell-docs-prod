@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B1E6378B-AFF9-4215-A950-FE491A6DC8D6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Export-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Export-AzureRmRedisCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Export-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Export-AzureRmRedisCache
 
 ## SYNOPSIS
-Exports data from azure_2 Redis Cache to a container.
+Exports data from Azure Redis Cache to a container.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Export-AzureRmRedisCache -ResourceGroupName <String> -Name <String> -Prefix <Str
 ```
 
 ## DESCRIPTION
-The **Export-AzureRmRedisCache** cmdlet exports data from azure_2 Redis Cache to a container.
+The **Export-AzureRmRedisCache** cmdlet exports data from Azure Redis Cache to a container.
 
 ## EXAMPLES
 
@@ -39,7 +39,7 @@ The **Export-AzureRmRedisCache** cmdlet exports data from azure_2 Redis Cache to
 PS C:\>Export-AzureRmRedisCache -ResourceGroupName "ResourceGroup13" -Name "RedisCache06" -Prefix "blobprefix" -Container "https://mystorageaccount.blob.core.windows.net/container18?sv=2015-04-05&sr=c&sig=HezZtBZ3DURmEGDduauE7pvETY4kqlPI8JCNa8ATmaw%3D&st=2016-05-27T00%3A00%3A00Z&se=2016-05-28T00%3A00%3A00Z&sp=rwdl"
 ```
 
-This command exports data from an azure_2 Redis Cache instance into the container that is specified by the SAS URL.
+This command exports data from an Azure Redis Cache instance into the container that is specified by the SAS URL.
 
 ## PARAMETERS
 

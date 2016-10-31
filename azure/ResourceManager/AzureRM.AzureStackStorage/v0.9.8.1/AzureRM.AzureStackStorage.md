@@ -4,10 +4,10 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 10/27/2016 9:26 PM
-ms.date: 10/27/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/AzureRM.AzureStackStorage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/AzureRM.AzureStackStorage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/AzureRM.AzureStackStorage.md
 uid: ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/AzureRM.AzureStackStorage.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -73,7 +73,7 @@ Gets the ACS Storage Farm, properties, and settings.
 
 
 ### [Get-ACSFault](./Get-ACSFault.md)
-Gets faults in the azure_2 Consistent Storage system.
+Gets faults in the Azure Consistent Storage system.
 
 
 ### [Get-ACSManagementServiceMetricDefinition](./Get-ACSManagementServiceMetricDefinition.md)
@@ -97,7 +97,7 @@ Gets metrics for a storage node.
 
 
 ### [Get-ACSNode](./Get-ACSNode.md)
-Gets a list of nodes in azure_2 Consistent Storage.
+Gets a list of nodes in Azure Consistent Storage.
 
 
 ### [Get-ACSRoleInstanceMetricDefinition](./Get-ACSRoleInstanceMetricDefinition.md)
@@ -121,7 +121,7 @@ Gets metrics for a storage share.
 
 
 ### [Get-ACSShare](./Get-ACSShare.md)
-Gets a list of SMB shares used in the azure_2 Consistent Storage system.
+Gets a list of SMB shares used in the Azure Consistent Storage system.
 
 
 ### [Get-ACSStorageAccount](./Get-ACSStorageAccount.md)
@@ -145,7 +145,7 @@ Resolves an ACS fault.
 
 
 ### [Restart-ACSRoleInstance](./Restart-ACSRoleInstance.md)
-Restarts a role instance in the azure_2 consistent storage system.
+Restarts a role instance in the Azure consistent storage system.
 
 
 ### [Set-ACSBlobService](./Set-ACSBlobService.md)

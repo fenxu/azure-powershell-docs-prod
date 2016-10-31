@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: .\Get-AzureRmResourceProvider.md
 schema: 2.0.0
 ms.assetid: 5CFBBAC0-3AC6-4CBB-BA87-A5DA7245A627
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureRmResourceGroup
 
 ## SYNOPSIS
-Creates an azure_2 resource group.
+Creates an Azure resource group.
 
 ## SYNTAX
 
@@ -30,14 +30,14 @@ New-AzureRmResourceGroup -Name <String> -Location <String> [-Tag <Hashtable[]>] 
 ```
 
 ## DESCRIPTION
-The **New-AzureRmResourceGroup** cmdlet creates an azure_2 resource group.
+The **New-AzureRmResourceGroup** cmdlet creates an Azure resource group.
 
 You can create a resource group by using just a name and location, and then use the New-AzureRmResource cmdlet to create resources to add to the resource group.
 
 To add a deployment to an existing resource group, use the New-AzureRmResourceGroupDeployment cmdlet.
 To add a resource to an existing resource group, use the **New-AzureRmResource** cmdlet.
-An azure_2 resource is a user-managed azure_2 entity, such as a database server, database, or website.
-An azure_2 resource group is a collection of azure_2 resources that are deployed as a unit.
+An Azure resource is a user-managed Azure entity, such as a database server, database, or website.
+An Azure resource group is a collection of Azure resources that are deployed as a unit.
 
 ## EXAMPLES
 
@@ -81,9 +81,9 @@ Accept wildcard characters: False
 
 ### -Location
 Specifies the location of the resource group.
-Specify an azure_2 data center location, such as West US or Southeast Asia.
+Specify an Azure data center location, such as West US or Southeast Asia.
 You can place a resource group in any location.
-The resource group does not have to be in the same location your azure_2 subscription or in the same location as its resources.
+The resource group does not have to be in the same location your Azure subscription or in the same location as its resources.
 
 To determine which location supports each resource type, use the Get-AzureRmResourceProvider cmdlet with the *ProviderNamespace* parameter.
 
@@ -158,7 +158,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -188,7 +188,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Get-AzureRemoteAppProgram.md
 schema: 2.0.0
 ms.assetid: BCF1D6F3-D07A-4DF1-9A05-26FC64946B93
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Publish-AzureRemoteAppProgram.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Publish-AzureRemoteAppProgram.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Publish-AzureRemoteAppProgram.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Publish-AzureRemoteAppProgram
 
 ## SYNOPSIS
-Publishes an azure_2 RemoteApp program.
+Publishes an Azure RemoteApp program.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ Publish-AzureRemoteAppProgram [-CollectionName] <String> [-FileVirtualPath] <Str
 ```
 
 ## DESCRIPTION
-The **Publish-AzureRemoteAppProgram** cmdlet publishes an azure_2 RemoteApp program, which makes it available to users of the azure_2 RemoteApp collection.
+The **Publish-AzureRemoteAppProgram** cmdlet publishes an Azure RemoteApp program, which makes it available to users of the Azure RemoteApp collection.
 
 ## EXAMPLES
 
@@ -52,7 +52,7 @@ The published app will have a display name of "Finance App".
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -82,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-Specifies the user-friendly display name of the azure_2 RemoteApp program.
+Specifies the user-friendly display name of the Azure RemoteApp program.
 Users see this as the name of the application.
 
 ```yaml

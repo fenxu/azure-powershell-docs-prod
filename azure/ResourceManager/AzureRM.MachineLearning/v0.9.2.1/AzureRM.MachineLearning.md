@@ -4,10 +4,10 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/AzureRM.MachineLearning.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/AzureRM.MachineLearning.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/AzureRM.MachineLearning.md
 uid: ResourceManager/AzureRM.MachineLearning/v0.9.2.1/AzureRM.MachineLearning.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -45,7 +45,7 @@ Creates a web service resource.
 
 
 ### [Remove-AzureRmMlWebService](./Remove-AzureRmMlWebService.md)
-Removes an azure_2 Machine Learning web service resource.
+Removes an Azure Machine Learning web service resource.
 
 
 ### [Update-AzureRmMlWebService](./Update-AzureRmMlWebService.md)

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.TrafficManager.dll-Help.xml
 online version: .\Add-AzureRmTrafficManagerEndpointConfig.md
 schema: 2.0.0
 ms.assetid: 2BA0AB11-0490-42F2-A852-A8D8AE4C2E7A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v1.0/New-AzureRmTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v1.0/New-AzureRmTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v1.0/New-AzureRmTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ New-AzureRmTrafficManagerProfile -Name <String> -ResourceGroupName <String> [-Pr
 ```
 
 ## DESCRIPTION
-The **New-AzureRmTrafficManagerProfile** cmdlet creates an azure_2 Traffic Manager profile.
+The **New-AzureRmTrafficManagerProfile** cmdlet creates an Azure Traffic Manager profile.
 Specify the *Name* parameter and required settings.
 This cmdlet returns a local object that represents the new profile.
 
@@ -47,7 +47,7 @@ Alternatively, you can add endpoints by using the New-AzureRmTrafficManagerEndpo
 PS C:\>New-AzureRmTrafficManagerProfile -Name "ContosoProfile" -ResourceGroupName "ResourceGroup11" -ProfileStatus Enabled -TrafficRoutingMethod Performance -RelativeDnsName "contosoapp" -TTL 30 -MonitorProtocol HTTP -MonitorPort 80 -MonitorPath "/default.aspx"
 ```
 
-This command creates an azure_2 Traffic Manager profile named ContosoProfile in resource group ResourceGroup11.
+This command creates an Azure Traffic Manager profile named ContosoProfile in resource group ResourceGroup11.
 The DNS FQDN is contosoapp.trafficmanager.net.
 
 ## PARAMETERS
@@ -122,7 +122,7 @@ Accept wildcard characters: False
 
 ### -RelativeDnsName
 Specifies the relative DNS name that this Traffic Manager profile provides.
-Traffic Manager combines this value and the DNS domain name that azure_2 Traffic Manager uses to form the fully qualified domain name (FQDN) of the profile.
+Traffic Manager combines this value and the DNS domain name that Azure Traffic Manager uses to form the fully qualified domain name (FQDN) of the profile.
 
 ```yaml
 Type: String

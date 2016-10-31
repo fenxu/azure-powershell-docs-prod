@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: .\Restart-AzureRmSiteRecoveryJob.md
 schema: 2.0.0
 ms.assetid: 874C0981-749B-4161-9AC2-AC445A72EBEB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -41,7 +41,7 @@ Get-AzureRmSiteRecoveryJob -Job <ASRJob> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSiteRecoveryJob** cmdlet gets azure_2 Site Recovery jobs.
+The **Get-AzureRmSiteRecoveryJob** cmdlet gets Azure Site Recovery jobs.
 You can use this cmdlet to view the operation information for the current Site Recovery vault.
 
 ## EXAMPLES

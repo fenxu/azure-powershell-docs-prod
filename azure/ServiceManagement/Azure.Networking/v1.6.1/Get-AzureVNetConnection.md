@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: acf3a543-1185-4fe7-9fa2-2fa5ea3b8ca2
 schema: 2.0.0
 ms.assetid: C3DA0104-9BFA-4FBF-A6C4-C3AE5C13D229
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureVNetConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureVNetConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureVNetConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureVNetConnection
 
 ## SYNOPSIS
-Gets connections to an azure_2 virtual network.
+Gets connections to an Azure virtual network.
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Get-AzureVNetConnection [-VNetName] <String> [-Profile <AzureSMProfile>] [<Commo
 ```
 
 ## DESCRIPTION
-The **Get-AzureVNetConnection** cmdlet returns an object that specifies all active virtual private network (VPN) connections to an azure_2 virtual network.
+The **Get-AzureVNetConnection** cmdlet returns an object that specifies all active virtual private network (VPN) connections to an Azure virtual network.
 VPN connections include cross premises site-to-site VPNs and virtual network to virtual network connections.
 
 ## EXAMPLES

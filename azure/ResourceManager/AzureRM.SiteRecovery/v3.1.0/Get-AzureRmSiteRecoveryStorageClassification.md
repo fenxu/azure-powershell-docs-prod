@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 953bc89d-100d-463c-9e1e-9832b7401e86
 schema: 2.0.0
 ms.assetid: D6C84C18-A8CF-4EF4-B46A-9E5DB90FF6E0
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryStorageClassification.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryStorageClassification.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryStorageClassification.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -92,7 +92,6 @@ Accept wildcard characters: False
 ```
 
 ### -Fabric
-@{Text=}
 
 ```yaml
 Type: ASRFabric
@@ -107,7 +106,6 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-@{Text=}
 
 ```yaml
 Type: ASRServer

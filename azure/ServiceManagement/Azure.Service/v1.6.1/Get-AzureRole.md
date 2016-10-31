@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Set-AzureRole.md
 schema: 2.0.0
 ms.assetid: CA7F8777-4356-4FF2-8CA4-C1CB43CAEBA7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRole
 
 ## SYNOPSIS
-Returns a list of roles in your Microsoft azure_2 service.
+Returns a list of roles in your Microsoft Azure service.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Get-AzureRole [-ServiceName] <String> [[-Slot] <String>] [[-RoleName] <String>] 
 ```
 
 ## DESCRIPTION
-The **Get-AzureRole** cmdlet returns a list object with details on the roles in your Microsoft azure_2 service.
+The **Get-AzureRole** cmdlet returns a list object with details on the roles in your Microsoft Azure service.
 If you specify the *RoleName* parameter, **Get-AzureRole** returns details on that role only.
 If you specify the *InstanceDetails* parameter, additional, instance-specific details are returned.
 
@@ -68,7 +68,7 @@ This command returns a table of the instance name, size, and status of all role 
 ## PARAMETERS
 
 ### -ServiceName
-Specifies the name of the azure_2 service.
+Specifies the name of the Azure service.
 
 ```yaml
 Type: String
@@ -83,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies the azure_2 deployment environment.
+Specifies the Azure deployment environment.
 psdx_paramvalues Production or Staging.
 
 ```yaml
@@ -144,7 +144,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -159,7 +168,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

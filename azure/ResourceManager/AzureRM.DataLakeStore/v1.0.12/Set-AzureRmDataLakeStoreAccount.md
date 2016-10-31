@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 online version: .\Get-AzureRmDataLakeStoreAccount.md
 schema: 2.0.0
 ms.assetid: EC369A1F-D3B5-4E18-A610-2C11EA487832
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Set-AzureRmDataLakeStoreAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Set-AzureRmDataLakeStoreAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Set-AzureRmDataLakeStoreAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultGroup
-Specifies the ID of an azure_2pn_Active_Directory group.
+Specifies the ID of an Azurepn_Active_Directory group.
 This group is the default group for files and folders that you create.
 
 ```yaml
@@ -77,7 +77,7 @@ Accept wildcard characters: False
 
 ### -Tags
 Specifies tags as key-value pairs.
-You can use tags to identify a Data Lake Store account from other azure_2 resources.
+You can use tags to identify a Data Lake Store account from other Azure resources.
 
 ```yaml
 Type: Hashtable[]
@@ -107,7 +107,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -122,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

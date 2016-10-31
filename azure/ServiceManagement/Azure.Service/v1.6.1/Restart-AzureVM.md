@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Get-AzureVM.md
 schema: 2.0.0
 ms.assetid: 247FAC9D-2E66-42D6-9D4A-87E96C08F6FA
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Restart-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Restart-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Restart-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Restart-AzureVM
 
 ## SYNOPSIS
-Restarts an azure_2 virtual machine.
+Restarts an Azure virtual machine.
 
 ## SYNTAX
 
@@ -55,7 +55,7 @@ Restart-AzureVM -VM <PersistentVM> [-Redeploy] [-ServiceName] <String> [-Profile
 ```
 
 ## DESCRIPTION
-The **Restart-AzureVM** cmdlet requests a restart of an azure_2 virtual machine.
+The **Restart-AzureVM** cmdlet requests a restart of an Azure virtual machine.
 
 ## EXAMPLES
 
@@ -64,7 +64,7 @@ The **Restart-AzureVM** cmdlet requests a restart of an azure_2 virtual machine.
 PS C:\>Restart-AzureVM -ServiceName "MyService01" -Name "MyVM"
 ```
 
-This command restarts the VirtualMachine27 virtual machine running in the azure_2 service named Service01.
+This command restarts the VirtualMachine27 virtual machine running in the Azure service named Service01.
 
 ### Example 2: Restart a virtual machine by using a virtual machine object
 ```
@@ -91,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-Specifies the name of the azure_2 service that contains the virtual machine to restart.
+Specifies the name of the Azure service that contains the virtual machine to restart.
 
 ```yaml
 Type: String
@@ -121,7 +121,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -136,7 +145,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

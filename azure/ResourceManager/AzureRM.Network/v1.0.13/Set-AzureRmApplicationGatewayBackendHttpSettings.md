@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: .\Add-AzureRmApplicationGatewayBackendHttpSettings.md
 schema: 2.0.0
 ms.assetid: 3CAD9D6F-6CF8-41DC-B760-D15719E52165
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmApplicationGatewayBackendHttpSettings.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmApplicationGatewayBackendHttpSettings.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmApplicationGatewayBackendHttpSettings.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -32,7 +32,7 @@ Set-AzureRmApplicationGatewayBackendHttpSettings -ApplicationGateway <PSApplicat
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmApplicationGatewayBackendHttpSettings** cmdlet updates the back-end Hypertext Transfer Protocol (HTTP) settings for an azure_2 application gateway.
+The **Set-AzureRmApplicationGatewayBackendHttpSettings** cmdlet updates the back-end Hypertext Transfer Protocol (HTTP) settings for an Azure application gateway.
 Back-end HTTP settings are applied to all back-end servers in a pool.
 
 ## EXAMPLES
@@ -173,7 +173,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -188,7 +197,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

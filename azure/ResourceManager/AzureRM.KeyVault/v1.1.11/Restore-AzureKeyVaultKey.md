@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=824805
 schema: 2.0.0
 ms.assetid: 9781A7D4-50B7-493A-9D4A-90ED291BD15A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Restore-AzureKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Restore-AzureKeyVaultKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Restore-AzureKeyVaultKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -35,8 +35,8 @@ If the key vault already has a key by the same name, this cmdlet fails instead o
 If the backup contains multiple versions of a key, all versions are restored.
 
 The key vault that you restore the key into can be different from the key vault that you backed up the key from.
-However, the key vault must use the same subscription and be in an azure_2 region in the same geography (for example, North America).
-See the Microsoft Azure Trust Centerhttps://azure.microsoft.com/support/trust-center/ (https://azure.microsoft.com/support/trust-center/) for the mapping of azure_2 regions to geographies.
+However, the key vault must use the same subscription and be in an Azure region in the same geography (for example, North America).
+See the Microsoft Azure Trust Centerhttps://azure.microsoft.com/support/trust-center/ (https://azure.microsoft.com/support/trust-center/) for the mapping of Azure regions to geographies.
 
 ## EXAMPLES
 

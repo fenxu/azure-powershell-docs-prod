@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Get-AzureVMSqlServerExtension.md
 schema: 2.0.0
 ms.assetid: 550DC212-1694-4027-B6E2-F680351F5F8C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMSqlServerExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMSqlServerExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMSqlServerExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureVMSqlServerExtension
 
 ## SYNOPSIS
-Sets the azure_2 SQL Server extension on a virtual machine.
+Sets the Azure SQL Server extension on a virtual machine.
 
 ## SYNTAX
 
@@ -47,7 +47,7 @@ Set-AzureVMSqlServerExtension [[-ReferenceName] <String>] [[-Version] <String>] 
 ```
 
 ## DESCRIPTION
-The **Set-AzureVMSqlServerExtension** cmdlet sets the azure_2 SQL Server extension on a virtual machine.
+The **Set-AzureVMSqlServerExtension** cmdlet sets the Azure SQL Server extension on a virtual machine.
 
 ## EXAMPLES
 
@@ -56,14 +56,14 @@ The **Set-AzureVMSqlServerExtension** cmdlet sets the azure_2 SQL Server extensi
 PS C:\>Get-AzureVM -ServiceName "ServiceName" -Name "VMName" | Set-AzureVMSqlServerExtension -AutoPatchingSettings $APS | Update-AzureVM
 ```
 
-This command sets auto-patching settings on an azure_2 virtual machine.
+This command sets auto-patching settings on an Azure virtual machine.
 
 ### Example 2: Set auto-backup settings on a virtual machine
 ```
 PS C:\>Get-AzureVM -ServiceName "ServiceName" -Name "VMName" | Set-AzureVMSqlServerExtension -AutoBackupSettings $ABS | Update-AzureVM
 ```
 
-This command sets auto-backup settings on azure_2 virtual machine.
+This command sets auto-backup settings on Azure virtual machine.
 
 ### Example 3: Disable an SQL Server extension on a virtual machine
 ```
@@ -142,7 +142,6 @@ Accept wildcard characters: False
 ```
 
 ### -KeyVaultCredentialSettings
-@{Text=}
 
 ```yaml
 Type: KeyVaultCredentialSettings
@@ -187,7 +186,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -202,7 +210,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

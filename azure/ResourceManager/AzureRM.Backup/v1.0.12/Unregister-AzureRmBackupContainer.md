@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: .\Get-AzureRmBackupContainer.md
 schema: 2.0.0
 ms.assetid: F5F98D01-86C1-4BDC-A72F-D9C8EFAA6414
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Unregister-AzureRmBackupContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Unregister-AzureRmBackupContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Unregister-AzureRmBackupContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Unregister-AzureRmBackupContainer [-Force] [-Container] <AzureRMBackupContainer>
 ```
 
 ## DESCRIPTION
-The **Unregister-AzureRmBackupContainer** cmdlet unregisters the Windows Server or azure_2 virtual machine from an azure_2 Backup vault.
+The **Unregister-AzureRmBackupContainer** cmdlet unregisters the Windows Server or Azure virtual machine from an Azure Backup vault.
 This cmdlet removes references to a container from the Backup vault.
 Before you can unregister a container, you must delete any protected data associated with that container.
 
@@ -52,21 +52,21 @@ The command stores that object in the $Vault variable.
 The second command gets a container that has the specified name in the vault in $Vault by using the Get-AzureRmBackupContainer cmdlet.
 The command stores that object in the $Container variable.
 
-The final command unregisters the specified Windows Server from the azure_2 Backup vault.
+The final command unregisters the specified Windows Server from the Azure Backup vault.
 
 ### Example 2: Unregister a Windows Server without confirmation
 ```
 PS C:\>Unregister-AzureRmBackupContainer -Container $Container[0] -Force
 ```
 
-This command unregisters the specified Windows Server from the azure_2 Backup vault, just as in the first example.
+This command unregisters the specified Windows Server from the Azure Backup vault, just as in the first example.
 This command specifies the *Force* parameter.
 Therefore, the command does not prompt you for confirmation.
 
 ## PARAMETERS
 
 ### -Container
-Specifies the Windows Server or azure_2 virtual machine that this cmdlet unregisters.
+Specifies the Windows Server or Azure virtual machine that this cmdlet unregisters.
 To obtain an **AzureRmBackupContainer**, use the Get-AzureRmBackupContainer cmdlet.
 
 ```yaml
@@ -97,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -112,7 +112,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

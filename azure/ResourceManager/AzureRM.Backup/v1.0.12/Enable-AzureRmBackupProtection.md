@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: .\Backup-AzureRmBackupItem.md
 schema: 2.0.0
 ms.assetid: CF8DF499-CC50-4DF0-AD77-9E6A47074456
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupProtection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupProtection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupProtection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Enable-AzureRmBackupProtection
 
 ## SYNOPSIS
-Associates an item with an azure_2 Backup protection policy.
+Associates an item with an Azure Backup protection policy.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Enable-AzureRmBackupProtection -Policy <AzureRMBackupProtectionPolicy>
 ```
 
 ## DESCRIPTION
-The **Enable-AzureRmBackupProtection** cmdlet associates an item with an azure_2 Backup protection policy.
+The **Enable-AzureRmBackupProtection** cmdlet associates an item with an Azure Backup protection policy.
 To enable a protection policy, you must first have an existing backup item and an existing policy.
 Both must belong to the same Backup vault.
 The backup schedule does the full initial copy for the item and the incremental copy for the subsequent backups.

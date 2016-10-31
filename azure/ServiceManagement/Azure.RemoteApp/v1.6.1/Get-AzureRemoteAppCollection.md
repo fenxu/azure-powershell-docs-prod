@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\New-AzureRemoteAppCollection.md
 schema: 2.0.0
 ms.assetid: C9EE0B8C-96EB-4F1A-84CF-5F7056167AEB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppCollection
 
 ## SYNOPSIS
-Retrieves information about an azure_2 RemoteApp collection.
+Retrieves information about an Azure RemoteApp collection.
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Get-AzureRemoteAppCollection [[-CollectionName] <String>] [-Profile <AzureSMProf
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppCollection** cmdlet retrieves information about azure_2 RemoteApp collections in Microsoft Azure.
+The **Get-AzureRemoteAppCollection** cmdlet retrieves information about Azure RemoteApp collections in Microsoft Azure.
 It returns an object with information on a specific collection, or if no collection is specified, for all the collections in the current subscription.
 
 ## EXAMPLES
@@ -39,26 +39,26 @@ It returns an object with information on a specific collection, or if no collect
 PS C:\>Get-AzureRemoteAppCollection
 ```
 
-This command returns a list of all azure_2 RemoteApp collections in the subscription.
+This command returns a list of all Azure RemoteApp collections in the subscription.
 
 ### Example 2: Get information about a specified collection
 ```
 PS C:\>Get-AzureRemoteAppCollection ContosoApps
 ```
 
-This command returns information about the azure_2 RemoteApp collection named ContosoApps.
+This command returns information about the Azure RemoteApp collection named ContosoApps.
 
 ### Example 3: Get a list of collections by using a wildcard
 ```
 PS C:\>Get-AzureRemoteAppCollection Finance*
 ```
 
-This command returns a list of all azure_2 RemoteApp collections matching Finance*.
+This command returns a list of all Azure RemoteApp collections matching Finance*.
 
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String

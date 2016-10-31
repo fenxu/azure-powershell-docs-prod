@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: .\Get-AzureRmSqlDatabase.md
 schema: 2.0.0
 ms.assetid: B083D3E9-A931-4793-8B34-3B4FB8D46663
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Suspend-AzureRmSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Suspend-AzureRmSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Suspend-AzureRmSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Suspend-AzureRmSqlDatabase [-ServerName] <String> -DatabaseName <String> [-Resou
 ```
 
 ## DESCRIPTION
-The **Suspend-AzureRmSqlDatabase** cmdlet suspends an azure_2 SQL Data Warehouse database.
+The **Suspend-AzureRmSqlDatabase** cmdlet suspends an Azure SQL Data Warehouse database.
 
 ## EXAMPLES
 
@@ -39,7 +39,7 @@ The **Suspend-AzureRmSqlDatabase** cmdlet suspends an azure_2 SQL Data Warehouse
 PS C:\>Suspend-AzureRmSqlDatabase -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -DatabaseName "Database01"
 ```
 
-This command suspends an active azure_2 SQL Data Warehouse database.
+This command suspends an active Azure SQL Data Warehouse database.
 
 ## PARAMETERS
 
@@ -89,7 +89,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -104,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -130,7 +139,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### Microsoft.Azure.Commands.Sql.Database.Model.AzureSqlDatabaseModel
 
 ## NOTES
-* The **Suspend-AzureRmSqlDatabase** cmdlet works only on azure_2 SQL Data Warehouse databases. This operation is not supported on ssSDS Basic, Standard and Premium editions.
+* The **Suspend-AzureRmSqlDatabase** cmdlet works only on Azure SQL Data Warehouse databases. This operation is not supported on ssSDS Basic, Standard and Premium editions.
 
 ## RELATED LINKS
 

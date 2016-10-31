@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Get-AzureRmAutomationAccount.md
 schema: 2.0.0
 ms.assetid: 2A126E99-39DD-4C00-B2A6-BF6495D64345
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Remove-AzureRmAutomationAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Remove-AzureRmAutomationAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Remove-AzureRmAutomationAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Remove-AzureRmAutomationAccount [-ResourceGroupName] <String> [-Name] <String> [
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmAutomationAccount** cmdlet removes an azure_2 Automation account from a resource group.
+The **Remove-AzureRmAutomationAccount** cmdlet removes an Azure Automation account from a resource group.
 
 For more information about Automation accounts, see the New-AzureRmAutomationAccount cmdlet.
 
@@ -91,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -106,7 +106,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

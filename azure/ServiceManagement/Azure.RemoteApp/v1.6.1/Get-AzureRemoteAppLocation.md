@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Get-AzureRemoteAppPlan.md
 schema: 2.0.0
 ms.assetid: ACAE2FE7-863C-4AC8-B61C-CDE1A79F2AC7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppLocation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppLocation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppLocation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppLocation
 
 ## SYNOPSIS
-Lists the locations that azure_2 RemoteApp supports.
+Lists the locations that Azure RemoteApp supports.
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Get-AzureRemoteAppLocation [-Profile <AzureSMProfile>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppLocation** cmdlet lists the locations that azure_2 RemoteApp supports.
+The **Get-AzureRemoteAppLocation** cmdlet lists the locations that Azure RemoteApp supports.
 
 ## EXAMPLES
 

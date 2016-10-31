@@ -4,10 +4,10 @@ Module Guid: f875725d-8ce4-423f-a6af-ea880bc63f13
 Download Help Link: None
 Help Version: 2.0.4.1
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/AzureRM.ApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/AzureRM.ApiManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/AzureRM.ApiManagement.md
 uid: ResourceManager/AzureRM.ApiManagement/v1.1.4/AzureRM.ApiManagement.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -65,7 +65,7 @@ Removes an API Management service.
 
 
 ### [Restore-AzureRmApiManagement](./Restore-AzureRmApiManagement.md)
-Restores an API Management Service from the specified azure_2 storage blob.
+Restores an API Management Service from the specified Azure storage blob.
 
 
 ### [Set-AzureRmApiManagementHostnames](./Set-AzureRmApiManagementHostnames.md)

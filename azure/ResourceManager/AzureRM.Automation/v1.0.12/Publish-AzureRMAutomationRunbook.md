@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Export-AzureRMAutomationRunbook.md
 schema: 2.0.0
 ms.assetid: 68A3D64A-280B-4285-B588-72C7A8C25942
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Publish-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Publish-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Publish-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Publish-AzureRmAutomationRunbook [-Name] <String> [-ResourceGroupName] <String>
 ```
 
 ## DESCRIPTION
-The **Publish-AzureRmAutomationRunbook** cmdlet publishes a runbook for use in the production environment of azure_2 Automation.
+The **Publish-AzureRmAutomationRunbook** cmdlet publishes a runbook for use in the production environment of Azure Automation.
 
 ## EXAMPLES
 
@@ -39,7 +39,7 @@ The **Publish-AzureRmAutomationRunbook** cmdlet publishes a runbook for use in t
 PS C:\>Publish-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command publishes the runbook named Runbk01 in the azure_2 Automation account named Contoso17.
+This command publishes the runbook named Runbk01 in the Azure Automation account named Contoso17.
 
 ## PARAMETERS
 

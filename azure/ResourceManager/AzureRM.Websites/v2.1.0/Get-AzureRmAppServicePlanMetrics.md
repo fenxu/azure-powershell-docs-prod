@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: 99ff397a-fe39-4d8b-89c3-8345a9d3d5c6
 schema: 2.0.0
 ms.assetid: 778C2150-A49D-4A6D-988C-8DD92DFE7371
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRmAppServicePlanMetrics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRmAppServicePlanMetrics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRmAppServicePlanMetrics.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -47,7 +47,6 @@ PS C:\>
 ## PARAMETERS
 
 ### -Metrics
-@{Text=}
 
 ```yaml
 Type: String[]
@@ -62,7 +61,6 @@ Accept wildcard characters: False
 ```
 
 ### -StartTime
-@{Text=}
 
 ```yaml
 Type: DateTime
@@ -77,7 +75,6 @@ Accept wildcard characters: False
 ```
 
 ### -EndTime
-@{Text=}
 
 ```yaml
 Type: DateTime
@@ -92,7 +89,6 @@ Accept wildcard characters: False
 ```
 
 ### -Granularity
-@{Text=}
 
 ```yaml
 Type: String
@@ -107,7 +103,6 @@ Accept wildcard characters: False
 ```
 
 ### -InstanceDetails
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -122,7 +117,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -137,7 +131,6 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -152,7 +145,6 @@ Accept wildcard characters: False
 ```
 
 ### -AppServicePlan
-@{Text=}
 
 ```yaml
 Type: ServerFarmWithRichSku

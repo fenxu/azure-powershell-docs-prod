@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 7fed73b4-73cf-4642-8e10-167ea6158372
 schema: 2.0.0
 ms.assetid: 16CBE4ED-037E-48ED-815E-4DB87894B10B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationConnectionFieldValue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationConnectionFieldValue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationConnectionFieldValue.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Set-AzureRmAutomationConnectionFieldValue [-Name] <String> -ConnectionFieldName 
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmAutomationConnectionFieldValue** cmdlet modifies the value of a field in a connection in azure_2 Automation.
+The **Set-AzureRmAutomationConnectionFieldValue** cmdlet modifies the value of a field in a connection in Azure Automation.
 
 ## EXAMPLES
 
@@ -39,7 +39,7 @@ The **Set-AzureRmAutomationConnectionFieldValue** cmdlet modifies the value of a
 PS C:\>Set-AzureRmAutomationConnectionFieldValue -Name "ContosoConnection" -ConnectionFieldName "SubscriptionID" -Value "b53ec456-3494-4847-8f2b-180901c51050" -ResourceGroupName "ResourceGroup01" -AutomationAccountName "AutomationAccount01"
 ```
 
-This command changes the subscription ID for the azure_2 connection named ContosoConnection in the Automation account named AutomationAccount01.
+This command changes the subscription ID for the Azure connection named ContosoConnection in the Automation account named AutomationAccount01.
 
 ## PARAMETERS
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: 769b07fa-624e-4962-b2f5-d46ffb51ab20
 schema: 2.0.0
 ms.assetid: A2A73198-5B00-43BC-8E57-1ED8BAE9B8ED
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmExpressRouteCircuitARPTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmExpressRouteCircuitARPTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmExpressRouteCircuitARPTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -40,7 +40,6 @@ PS C:\>
 ## PARAMETERS
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -55,7 +54,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -70,7 +68,6 @@ Accept wildcard characters: False
 ```
 
 ### -ExpressRouteCircuitName
-@{Text=}
 
 ```yaml
 Type: String
@@ -85,7 +82,6 @@ Accept wildcard characters: False
 ```
 
 ### -PeeringType
-@{Text=}
 
 ```yaml
 Type: String
@@ -100,7 +96,6 @@ Accept wildcard characters: False
 ```
 
 ### -DevicePath
-@{Text=}
 
 ```yaml
 Type: DevicePathEnum

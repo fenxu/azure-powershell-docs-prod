@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 online version: 8cdd0580-1174-4f34-849d-d0f18baff439
 schema: 2.0.0
 ms.assetid: B5A63F24-76B7-440C-8D5A-6362849AFC20
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Get-AzureRmDnsZone.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Get-AzureRmDnsZone.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Get-AzureRmDnsZone.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -61,7 +61,7 @@ This example gets all of the DNS zones in the specified resource group, and then
 PS C:\> $Zones = Get-AzureRmDnsZone
 ```
 
-This example gets all of the DNS zones in the current azure_2 subscription, and then stores them in the $Zones variable.
+This example gets all of the DNS zones in the current Azure subscription, and then stores them in the $Zones variable.
 
 ## PARAMETERS
 
@@ -69,7 +69,7 @@ This example gets all of the DNS zones in the current azure_2 subscription, and 
 Specifies the name of the DNS zone to get.
 
 If you do not specify a value for the *Name* parameter, this cmdlet gets all DNS zones in the specified resource group.
-If you also omit the *ResourceGroupName* parameter, this cmdlet gets all DNS zones in the current azure_2 subscription.
+If you also omit the *ResourceGroupName* parameter, this cmdlet gets all DNS zones in the current Azure subscription.
 
 ```yaml
 Type: String
@@ -87,7 +87,7 @@ Accept wildcard characters: False
 Specifies the name of the resource group that contains the DNS zone to get.
 
 If you do not specify the *ResourceGroupName*, then you mus also omit the *Name* parameter.
-In this case, this cmdlet gets all DNS zones in the current azure_2 subscription.
+In this case, this cmdlet gets all DNS zones in the current Azure subscription.
 
 ```yaml
 Type: String

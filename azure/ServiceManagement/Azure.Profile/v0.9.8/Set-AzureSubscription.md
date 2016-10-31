@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=397630
 schema: 2.0.0
 ms.assetid: D4D16509-63C7-4963-AFE8-35E04164ADAC
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Set-AzureSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Set-AzureSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Set-AzureSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -96,7 +96,6 @@ By default, Set-AzureSubscription uses the default subscription data file in you
 ## PARAMETERS
 
 ### -SubscriptionName
-@{Text=}
 
 ```yaml
 Type: String
@@ -111,7 +110,6 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-@{Text=}
 
 ```yaml
 Type: String
@@ -126,7 +124,6 @@ Accept wildcard characters: False
 ```
 
 ### -Certificate
-@{Text=}
 
 ```yaml
 Type: X509Certificate2
@@ -153,7 +150,6 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceEndpoint
-@{Text=}
 
 ```yaml
 Type: String
@@ -168,7 +164,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceManagerEndpoint
-@{Text=}
 
 ```yaml
 Type: String
@@ -183,7 +178,6 @@ Accept wildcard characters: False
 ```
 
 ### -CurrentStorageAccountName
-@{Text=}
 
 ```yaml
 Type: String
@@ -198,7 +192,6 @@ Accept wildcard characters: False
 ```
 
 ### -Environment
-@{Text=}
 
 ```yaml
 Type: String
@@ -213,7 +206,6 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -228,7 +220,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureProfile

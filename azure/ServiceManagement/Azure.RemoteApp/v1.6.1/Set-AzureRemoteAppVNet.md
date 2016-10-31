@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Get-AzureRemoteAppVNet.md
 schema: 2.0.0
 ms.assetid: 3D539C07-5407-4B31-BF14-949674EB64CE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Set-AzureRemoteAppVNet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Set-AzureRemoteAppVNet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Set-AzureRemoteAppVNet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureRemoteAppVNet
 
 ## SYNOPSIS
-Sets the properties of an azure_2 RemoteApp virtual network.
+Sets the properties of an Azure RemoteApp virtual network.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Set-AzureRemoteAppVNet -VNetName <String> [-VirtualNetworkAddressSpace <String[]
 ```
 
 ## DESCRIPTION
-The **Set-AzureRemoteAppVNet** cmdlet sets the properties of an azure_2 RemoteApp virtual network.
+The **Set-AzureRemoteAppVNet** cmdlet sets the properties of an Azure RemoteApp virtual network.
 
 ## EXAMPLES
 
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -VNetName
-Specifies the name of the azure_2 RemoteApp virtual network.
+Specifies the name of the Azure RemoteApp virtual network.
 
 ```yaml
 Type: String

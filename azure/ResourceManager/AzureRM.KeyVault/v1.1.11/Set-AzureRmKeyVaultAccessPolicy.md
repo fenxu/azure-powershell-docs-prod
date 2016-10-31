@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=824809
 schema: 2.0.0
 ms.assetid: 4C609936-843D-4BBD-8943-AD35784134E4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureRmKeyVaultAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureRmKeyVaultAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureRmKeyVaultAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -57,15 +57,15 @@ It does not modify the permissions that other users, applications, or security g
 
 If you are setting permissions for a security group, this operation affects only users in that security group.
 
-The following directories must all be the same azure_2 directory: 
-- The default directory of the azure_2 subscription in which the key vault resides. 
-- The azure_2 directory that contains the user or application group that you are granting permissions to.
+The following directories must all be the same Azure directory: 
+- The default directory of the Azure subscription in which the key vault resides. 
+- The Azure directory that contains the user or application group that you are granting permissions to.
 
 Examples of scenarios when these conditions are not met and this cmdlet will not work are: 
 
 - Authorizing a user from a different organization to manage your key vault.
 Each organization has its own directory. 
-- Your azure_2 account has multiple directories.
+- Your Azure account has multiple directories.
 If you register an application in a directory other than the default directory, you cannot authorize that application to use your key vault.
 The application must be in the default directory.
 
@@ -80,7 +80,7 @@ PS C:\> Set-AzureRmKeyVaultAccessPolicy -VaultName 'Contoso03Vault' -UserPrincip
 PS C:\> Set-AzureRmKeyVaultAccessPolicy -VaultName 'Contoso03Vault' -UserPrincipalName 'PattiFuller@contoso.com' -PermissionsToKeys @() -PassThru
 ```
 
-The first command grants permissions for a user in your azure_2 Active Directory, PattiFuller@contoso.com, to perform operations on keys and secrets with a key vault named Contoso03Vault.
+The first command grants permissions for a user in your Azure Active Directory, PattiFuller@contoso.com, to perform operations on keys and secrets with a key vault named Contoso03Vault.
 
 The second command modifies the permissions that were granted to PattiFuller@contoso.com in the first command, to now allow getting secrets in addition to setting and deleting them.
 The permissions to key operations remain unchanged after this command.
@@ -97,7 +97,7 @@ PS C:\>Set-AzureRmKeyVaultAccessPolicy -VaultName 'Contoso03Vault' -ServicePrinc
 
 This command grants permissions for an application for a key vault named Contoso03Vault.
 The *ServicePrincipalName* parameter specifies the application.
-The application must be registered in your azure_2 Active Directory.
+The application must be registered in your Azure Active Directory.
 The value of the *ServicePrincipalName* parameter must be either the service principal name of the application or the application ID GUID.
 This example specifies the service principal name http://payroll.contoso.com, and the command grants the application permissions to read and write secrets.
 
@@ -201,7 +201,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnabledForDiskEncryption
-Enables the azure_2 disk encryption service to get secrets and unwrap keys from this key vault.
+Enables the Azure disk encryption service to get secrets and unwrap keys from this key vault.
 
 ```yaml
 Type: SwitchParameter
@@ -216,7 +216,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnabledForTemplateDeployment
-Enables azure_2 Resource Manager to get secrets from this key vault when this key vault is referenced in a template deployment.
+Enables Azure Resource Manager to get secrets from this key vault when this key vault is referenced in a template deployment.
 
 ```yaml
 Type: SwitchParameter
@@ -231,7 +231,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-Specifies the object ID of the user or service principal in azure_2 Active Directory for which to grant permissions.
+Specifies the object ID of the user or service principal in Azure Active Directory for which to grant permissions.
 
 ```yaml
 Type: Guid
@@ -333,8 +333,8 @@ Accept wildcard characters: False
 
 ### -ServicePrincipalName
 Specifies the service principal name of the application to which to grant permissions.
-Specify the application ID, also known as client ID, registered for the application in azure_2pn_Active_Directory.
-The application with the service principal name that this parameter specifies must be registered in the azure_2 directory that contains your current subscription.
+Specify the application ID, also known as client ID, registered for the application in Azurepn_Active_Directory.
+The application with the service principal name that this parameter specifies must be registered in the Azure directory that contains your current subscription.
 
 ```yaml
 Type: String

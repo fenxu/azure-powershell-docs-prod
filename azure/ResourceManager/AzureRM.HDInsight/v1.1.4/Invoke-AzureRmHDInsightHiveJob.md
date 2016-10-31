@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version: .\Use-AzureRmHDInsightCluster.md
 schema: 2.0.0
 ms.assetid: 3819D202-5D7D-4E2D-B378-119378131276
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Invoke-AzureRmHDInsightHiveJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Invoke-AzureRmHDInsightHiveJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Invoke-AzureRmHDInsightHiveJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -32,7 +32,7 @@ Invoke-AzureRmHDInsightHiveJob [-Arguments <String[]>] [-Files <String[]>] [-Sta
 ```
 
 ## DESCRIPTION
-The **Invoke-AzureRmHDInsightHiveJob** cmdlet submits a Hive query to an azure_2 HDInsight cluster and retrieves query results in one operation.
+The **Invoke-AzureRmHDInsightHiveJob** cmdlet submits a Hive query to an Azure HDInsight cluster and retrieves query results in one operation.
 Use the Use-AzureRmHDInsightCluster cmdlet before calling **Invoke-AzureRmHDInsightHiveJob** to specify which cluster will be used for the query.
 
 ## EXAMPLES
@@ -132,7 +132,7 @@ Accept wildcard characters: False
 ```
 
 ### -File
-Specifies the path to a file in azure_2 Storage that contains the query to run.
+Specifies the path to a file in Azure Storage that contains the query to run.
 You can use this parameter instead of the *Query* parameter.
 
 ```yaml
@@ -197,7 +197,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultContainer
-Specifies the name of the default container in the default azure_2 Storage account that an HDInsight cluster uses.
+Specifies the name of the default container in the default Azure Storage account that an HDInsight cluster uses.
 
 ```yaml
 Type: String
@@ -242,7 +242,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -257,7 +266,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

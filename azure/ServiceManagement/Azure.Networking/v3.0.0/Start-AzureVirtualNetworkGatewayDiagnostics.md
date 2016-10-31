@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 25194b68-47af-4c09-8d41-a1fe4d50b626
 schema: 2.0.0
 ms.assetid: 12D6F28B-1D9D-47F3-AC54-21683D4C2F51
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Start-AzureVirtualNetworkGatewayDiagnostics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Start-AzureVirtualNetworkGatewayDiagnostics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Start-AzureVirtualNetworkGatewayDiagnostics.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -ContainerName
-Specifies the name of an azure_2 container.
+Specifies the name of an Azure container.
 This cmdlet stores results in the container that this parameter specifies.
 
 ```yaml
@@ -106,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageContext
-Specifies an azure_2 storage context.
+Specifies an Azure storage context.
 This cmdlet stores results by using the storage context that this parameter specifies.
 
 ```yaml

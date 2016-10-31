@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: .\Enable-AzureBatchJob.md
 schema: 2.0.0
 ms.assetid: 7836B925-0943-4D90-AE8F-80291B313EBB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Disable-AzureBatchJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Disable-AzureBatchJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Disable-AzureBatchJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Disable-AzureBatchJob [-Id] <String> [-DisableJobOption] <DisableJobOption> -Bat
 ```
 
 ## DESCRIPTION
-The **Disable-AzureBatchJob** cmdlet disables an azure_2 Batch job.
+The **Disable-AzureBatchJob** cmdlet disables an Azure Batch job.
 After you enable a job, new tasks can run.
 Disabled jobs do not run new tasks.
 You can enable a disabled job later.

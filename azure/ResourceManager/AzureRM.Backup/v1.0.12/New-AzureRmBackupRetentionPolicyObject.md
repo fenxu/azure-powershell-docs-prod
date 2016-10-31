@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: .\Enable-AzureRmBackupProtection.md
 schema: 2.0.0
 ms.assetid: 971FAAA3-A772-4DB6-BE59-76D950879197
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/New-AzureRmBackupRetentionPolicyObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/New-AzureRmBackupRetentionPolicyObject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/New-AzureRmBackupRetentionPolicyObject.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -61,7 +61,7 @@ New-AzureRmBackupRetentionPolicyObject [-YearlyRetentionInWeeklyFormat] -DaysOfW
 ```
 
 ## DESCRIPTION
-The **New-AzureRmBackupRetentionPolicyObject** cmdlet creates an azure_2 Backup retention policy.
+The **New-AzureRmBackupRetentionPolicyObject** cmdlet creates an Azure Backup retention policy.
 A retention policy defines how long Backup keeps a recovery point.
 The types of retention are the following: 
 

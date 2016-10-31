@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\Get-AzureRmAppServicePlan.md
 schema: 2.0.0
 ms.assetid: 6868B3FA-7A59-42BD-B90A-EB515A7AFB21
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebAppPublishingProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebAppPublishingProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRmWebAppPublishingProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmWebAppPublishingProfile
 
 ## SYNOPSIS
-Gets an azure_2 Web App publishing profile.
+Gets an Azure Web App publishing profile.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ Get-AzureRmWebAppPublishingProfile [-OutputFile] <String> [[-Format] <String>] [
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmWebAppPublishingProfile** cmdlet gets an azure_2 Web App publishing profile.
+The **Get-AzureRmWebAppPublishingProfile** cmdlet gets an Azure Web App publishing profile.
 
 ## EXAMPLES
 
@@ -49,7 +49,6 @@ The **Get-AzureRmWebAppPublishingProfile** cmdlet gets an azure_2 Web App publis
 ## PARAMETERS
 
 ### -OutputFile
-@{Text=}
 
 ```yaml
 Type: String
@@ -64,7 +63,6 @@ Accept wildcard characters: False
 ```
 
 ### -Format
-@{Text=}
 
 ```yaml
 Type: String
@@ -79,7 +77,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -94,7 +91,6 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -109,7 +105,6 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-@{Text=}
 
 ```yaml
 Type: Site

@@ -4,10 +4,10 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/AzureRM.Backup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/AzureRM.Backup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/AzureRM.Backup.md
 uid: ResourceManager/AzureRM.Backup/v1.0.12/AzureRM.Backup.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -37,7 +37,7 @@ Reregisters a server to connect to a Backup vault.
 
 
 ### [Enable-AzureRmBackupProtection](./Enable-AzureRmBackupProtection.md)
-Associates an item with an azure_2 Backup protection policy.
+Associates an item with an Azure Backup protection policy.
 
 
 ### [Get-AzureRmBackupContainer](./Get-AzureRmBackupContainer.md)

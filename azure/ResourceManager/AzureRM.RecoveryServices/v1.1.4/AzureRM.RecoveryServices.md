@@ -4,10 +4,10 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v1.1.4/AzureRM.RecoveryServices.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v1.1.4/AzureRM.RecoveryServices.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v1.1.4/AzureRM.RecoveryServices.md
 uid: ResourceManager/AzureRM.RecoveryServices/v1.1.4/AzureRM.RecoveryServices.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -29,7 +29,7 @@ Gets Backup properties.
 
 
 ### [Get-AzureRmRecoveryServicesVaultSettingsFile](./Get-AzureRmRecoveryServicesVaultSettingsFile.md)
-Gets the azure_2 Site Recovery vault settings file.
+Gets the Azure Site Recovery vault settings file.
 
 
 ### [Get-AzureRmRecoveryServicesVault](./Get-AzureRmRecoveryServicesVault.md)

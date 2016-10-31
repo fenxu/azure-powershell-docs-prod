@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F88255A8-3FD9-4980-9F31-85DCC9B83A6C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Save-AzureDataFactoryLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Save-AzureDataFactoryLog.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Save-AzureDataFactoryLog.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -77,7 +77,6 @@ Note that -DownloadLogs parameter is not specified.
 ## PARAMETERS
 
 ### -DataFactory
-@{Text=}
 
 ```yaml
 Type: PSDataFactory
@@ -171,7 +170,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureProfile

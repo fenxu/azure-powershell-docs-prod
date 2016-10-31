@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: https://azure.microsoft.com/en-us/services/sql-database/
 schema: 2.0.0
 ms.assetid: 8D214DCA-3BED-470D-B360-611805D28408
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -61,7 +61,7 @@ The **Set-AzureSqlDatabase** cmdlet sets properties for an ssSDS.
 You can specify the database by name, or pass an ssSDS object through the pipeline.
 You can specify the server by name, or pass an ssSDS server connection context.
 Create a connection context by running the New-AzureSqlDatabaseServerContext cmdlet.
-If you specify the server by name, the cmdlet uses the current azure_2 subscription information to authenticate the request.
+If you specify the server by name, the cmdlet uses the current Azure subscription information to authenticate the request.
 
 ## EXAMPLES
 
@@ -254,7 +254,6 @@ Accept wildcard characters: False
 ```
 
 ### -Sync
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -269,7 +268,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -284,7 +284,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter

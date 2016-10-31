@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: .\Resize-AzureRmVirtualNetworkGateway.md
 schema: 2.0.0
 ms.assetid: 1878C47D-5E01-4BE5-AD66-DE14B02083DF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmVpnClientPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmVpnClientPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmVpnClientPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -32,7 +32,7 @@ Get-AzureRmVpnClientPackage -ResourceGroupName <String> -VirtualNetworkGatewayNa
 
 ## DESCRIPTION
 The **Get-AzureRmVpnClientPackage** cmdlet gets information about the VPN client packages available from a virtual network gateway.
-Client packages contain configuration data that enable a client computer to make a VPN connection to an azure_2 virtual network; client computers must have the correct configuration package installed in order to make a VPN connection.
+Client packages contain configuration data that enable a client computer to make a VPN connection to an Azure virtual network; client computers must have the correct configuration package installed in order to make a VPN connection.
 Different configuration packages are available based on the client computer's version of Windows (for example, win7_client_secondref or winthreshold_client_2) and on the client computer's processor architecture (AMD64 or x86).
 You must specify the architecture type when running **Get-AzureRmVpnClientPackage**.
 
@@ -51,7 +51,7 @@ To get information about the x86 client packages, set the value of the *Processo
 ### -ResourceGroupName
 Specifies the name of the resource group that the virtual network gateway is assigned to.
 
-Resource groups categorize items to help simplify inventory management and general azure_2 administration.
+Resource groups categorize items to help simplify inventory management and general Azure administration.
 
 ```yaml
 Type: String
@@ -97,7 +97,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -112,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

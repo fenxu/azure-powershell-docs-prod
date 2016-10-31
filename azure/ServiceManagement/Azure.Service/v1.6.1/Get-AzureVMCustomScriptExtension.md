@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Remove-AzureVMCustomScriptExtension.md
 schema: 2.0.0
 ms.assetid: 7CD94E7E-DD05-4050-AC3C-16915EF6A0B3
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMCustomScriptExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMCustomScriptExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMCustomScriptExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureVMCustomScriptExtension
 
 ## SYNOPSIS
-Gets information from an azure_2 virtual machine custom script extension.
+Gets information from an Azure virtual machine custom script extension.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureVMCustomScriptExtension -VM <IPersistentVM> [-Profile <AzureSMProfile>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureVMCustomScriptExtension** cmdlet gets information from an azure_2 virtual machine custom script extension.
+The **Get-AzureVMCustomScriptExtension** cmdlet gets information from an Azure virtual machine custom script extension.
 
 ## EXAMPLES
 
@@ -39,7 +39,7 @@ The **Get-AzureVMCustomScriptExtension** cmdlet gets information from an azure_2
 PS C:\>Get-AzureVMCustomScriptExtension -VM $VM;
 ```
 
-This command gets an azure_2 virtual machine script extension stored in the variable $VM.
+This command gets an Azure virtual machine script extension stored in the variable $VM.
 
 ## PARAMETERS
 
@@ -74,7 +74,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -89,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: http://msdn.microsoft.com/library/ee336279.aspx
 schema: 2.0.0
 ms.assetid: 4B35563E-E3F0-46C1-B715-A73A395C9860
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseUsages.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseUsages.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseUsages.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Get-AzureSqlDatabaseUsages [-ServerName] <String> -DatabaseName <String> [-Profi
 ```
 
 ## DESCRIPTION
-The **Get-AzureSqlDatabaseUsages** cmdlet gets the current size and size limit of an azure_2 SQL Database.
+The **Get-AzureSqlDatabaseUsages** cmdlet gets the current size and size limit of an Azure SQL Database.
 
 ## EXAMPLES
 
@@ -44,7 +44,7 @@ This command gets the size and size limit information for the SQL Database named
 ## PARAMETERS
 
 ### -DatabaseName
-Specifies the name of the azure_2 SQL Database.
+Specifies the name of the Azure SQL Database.
 
 ```yaml
 Type: String
@@ -74,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of the server that hosts the azure_2 SQL Database.
+Specifies the name of the server that hosts the Azure SQL Database.
 
 ```yaml
 Type: String

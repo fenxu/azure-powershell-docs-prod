@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: .\Backup-AzureRmBackupItem.md
 schema: 2.0.0
 ms.assetid: 01A817FA-B5DF-44AE-98F9-8D31D7F0C3D4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Restore-AzureRmBackupItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Restore-AzureRmBackupItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Restore-AzureRmBackupItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Restore-AzureRmBackupItem [-StorageAccountName] <String> [-RecoveryPoint] <Azure
 ```
 
 ## DESCRIPTION
-The **Restore-AzureRmBackupItem** cmdlet restores the data and configuration for an azure_2 Backup item to a specified recovery point.
+The **Restore-AzureRmBackupItem** cmdlet restores the data and configuration for an Azure Backup item to a specified recovery point.
 This cmdlet starts the restore from the Backup vault to your account.
 
 The restore operation does not restore the full virtual machine.

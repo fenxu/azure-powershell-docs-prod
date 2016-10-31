@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Get-AzureRemoteAppVpnDevice.md
 schema: 2.0.0
 ms.assetid: 24893A50-F2FD-4B6A-81CC-B387B21105CD
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVpnDeviceConfigScript.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVpnDeviceConfigScript.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVpnDeviceConfigScript.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppVpnDeviceConfigScript
 
 ## SYNOPSIS
-Retrieves the configuration script for an azure_2 RemoteApp VPN device.
+Retrieves the configuration script for an Azure RemoteApp VPN device.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureRemoteAppVpnDeviceConfigScript [-VNetName] <String> [-Vendor] <String> 
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppVpnDeviceConfigScript** cmdlet retrieves the configuration script for an azure_2 RemoteApp virtual private network (VPN) device.
+The **Get-AzureRemoteAppVpnDeviceConfigScript** cmdlet retrieves the configuration script for an Azure RemoteApp virtual private network (VPN) device.
 
 ## EXAMPLES
 
@@ -91,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -VNetName
-Specifies the name of an azure_2 RemoteApp virtual network.
+Specifies the name of an Azure RemoteApp virtual network.
 
 ```yaml
 Type: String

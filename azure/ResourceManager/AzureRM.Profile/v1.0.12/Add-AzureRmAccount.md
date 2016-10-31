@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 8E0C633A-F157-4525-A1A8-327FA4BDD36D
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -65,7 +65,7 @@ Add-AzureRmAccount [-Environment <AzureEnvironment>] [-EnvironmentName <String>]
 ```
 
 ## DESCRIPTION
-The **Add-AzureRmAccount** cmdlet adds an authenticated azure_2 account to use for azure_2 Resource Manager cmdlet requests.
+The **Add-AzureRmAccount** cmdlet adds an authenticated Azure account to use for Azure Resource Manager cmdlet requests.
 
 You can use this authenticated account only with Resource Manager cmdlets.
 To add an authenticated account for use with Service Management cmdlets, use the Add-AzureAccount or the Import-AzurePublishSettingsFile cmdlet.
@@ -81,7 +81,7 @@ Subscription: xxxx-xxxx-xxxx-xxxx
 Tenant: xxxx-xxxx-xxxx-xxxx
 ```
 
-This command adds an azure_2 Resource Manager account.
+This command adds an Azure Resource Manager account.
 
 To run Resource Manager cmdlets by using this account, you must provide Microsoft account or organizational ID credentials at the prompt.
 If multi-factor authentication is enabled for your credentials, you must log on by using the interactive option or use service principal authentication.
@@ -332,7 +332,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -347,7 +347,7 @@ Accept wildcard characters: False
 ```
 
 ### -Environment
-Specifies the azure_2 environment.
+Specifies the Azure environment.
 Valid values are: AzureCloud and AzureChinaCloud.
 The default is AzureCloud.
 
@@ -391,7 +391,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

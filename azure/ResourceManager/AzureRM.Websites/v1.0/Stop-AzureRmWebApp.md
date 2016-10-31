@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\Get-AzureRmWebApp.md
 schema: 2.0.0
 ms.assetid: D6BB2078-E58F-400F-AB45-6757798E073E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Stop-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Stop-AzureRmWebApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Stop-AzureRmWebApp.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Stop-AzureRmWebApp
 
 ## SYNOPSIS
-Stops an azure_2 Web App.
+Stops an Azure Web App.
 
 ## SYNTAX
 
@@ -35,7 +35,7 @@ Stop-AzureRmWebApp [-WebApp] <Site> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Stop-AzureRmWebApp** cmdlet stops an azure_2 Web App.
+The **Stop-AzureRmWebApp** cmdlet stops an Azure Web App.
 
 ## EXAMPLES
 
@@ -44,12 +44,11 @@ The **Stop-AzureRmWebApp** cmdlet stops an azure_2 Web App.
 PS C:\>Stop-AzureRmWebApp -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp"
 ```
 
-This command stops the azure_2 Web App named ContosoWebApp that belongs to the resource group named Default-Web-WestUS.
+This command stops the Azure Web App named ContosoWebApp that belongs to the resource group named Default-Web-WestUS.
 
 ## PARAMETERS
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -64,7 +63,6 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -79,7 +77,6 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-@{Text=}
 
 ```yaml
 Type: Site

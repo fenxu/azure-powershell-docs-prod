@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: c4c541a5-61cd-41dc-a7fe-b938a7db3a28
 schema: 2.0.0
 ms.assetid: B518AB6E-F4B8-4FD5-98AE-A1D75BDB12A7
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseReplicationLink.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseReplicationLink.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseReplicationLink.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -40,7 +40,7 @@ Get-AzureRmSqlDatabaseReplicationLink [-DatabaseName] <String> -PartnerResourceG
 
 ## DESCRIPTION
 The **Get-AzureRMSqlDatabaseReplicationLink** cmdlet replaces the **Get-AzureSqlDatabaseCopy** cmdlet.
-It gets all geo-replication links between the specified ssSDS and a resource group or azure_2ssNoVersion.
+It gets all geo-replication links between the specified ssSDS and a resource group or AzuressNoVersion.
 
 ## EXAMPLES
 
@@ -97,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the azure_2 resource group for the database for which to retrieve links.
+Specifies the name of the Azure resource group for the database for which to retrieve links.
 
 ```yaml
 Type: String
@@ -112,7 +112,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -127,7 +136,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -142,7 +151,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartnerServerName
-Specifies the name of the azure_2 SQL Server for the partner.
+Specifies the name of the Azure SQL Server for the partner.
 
 ```yaml
 Type: String

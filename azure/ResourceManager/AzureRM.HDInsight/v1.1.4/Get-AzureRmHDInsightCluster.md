@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version: .\Remove-AzureRmHDInsightCluster.md
 schema: 2.0.0
 ms.assetid: BFC55A8F-C0EE-4FA3-A39E-45AEF4A582EE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightCluster.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmHDInsightCluster
 
 ## SYNOPSIS
-Gets and lists all of the azure_2 HDInsight clusters associated with the current subscription or a specified resource group, or retrieves a specific cluster.
+Gets and lists all of the Azure HDInsight clusters associated with the current subscription or a specified resource group, or retrieves a specific cluster.
 
 ## SYNTAX
 
@@ -30,17 +30,17 @@ Get-AzureRmHDInsightCluster [[-ResourceGroupName] <String>] [[-ClusterName] <Str
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmHDInsightCluster** cmdlet lists the azure_2 HDInsight service clusters for the current subscription.
+The **Get-AzureRmHDInsightCluster** cmdlet lists the Azure HDInsight service clusters for the current subscription.
 Use the *ClusterName* parameter to get details for a specific cluster.
 
 ## EXAMPLES
 
-### Example 1: List all azure_2 HDInsight clusters
+### Example 1: List all Azure HDInsight clusters
 ```
 PS C:\>Get-AzureRmHDInsightCluster
 ```
 
-This command lists all the azure_2 HDInsight clusters.
+This command lists all the Azure HDInsight clusters.
 
 ## PARAMETERS
 
@@ -75,7 +75,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -90,7 +99,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

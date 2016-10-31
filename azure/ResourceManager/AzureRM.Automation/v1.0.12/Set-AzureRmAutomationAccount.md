@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Get-AzureRmAutomationAccount.md
 schema: 2.0.0
 ms.assetid: 7E2254D6-C3C3-4EC5-8F7D-A3A2A6F24969
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Set-AzureRmAutomationAccount [-ResourceGroupName] <String> [-Name] <String> [-Pl
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmAutomationAccount** cmdlet modifies an azure_2 Automation account.
+The **Set-AzureRmAutomationAccount** cmdlet modifies an Azure Automation account.
 
 For more information about Automation accounts, see the New-AzureRmAutomationAccount cmdlet.
 

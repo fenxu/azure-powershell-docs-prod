@@ -4,10 +4,10 @@ Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 2.0.8.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
 uid: ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -29,7 +29,7 @@ Adds a container service agent pool profile.
 
 
 ### [Add-AzureRMVhd](./Add-AzureRMVhd.md)
-Uploads a virtual hard disk from an on-premises virtual machine to a blob in a cloud storage account in azure_2.
+Uploads a virtual hard disk from an on-premises virtual machine to a blob in a cloud storage account in Azure.
 
 
 ### [Add-AzureRmVMAdditionalUnattendContent](./Add-AzureRmVMAdditionalUnattendContent.md)
@@ -80,7 +80,7 @@ Disables encryption on an IaaS virtual machine.
 
 
 ### [Get-AzureRmAvailabilitySet](./Get-AzureRmAvailabilitySet.md)
-Gets azure_2 availability sets in a resource group.
+Gets Azure availability sets in a resource group.
 
 
 ### [Get-AzureRmContainerService](./Get-AzureRmContainerService.md)
@@ -127,11 +127,11 @@ Gets the settings of the DSC extension on a particular virtual machine.
 
 
 ### [Get-AzureRmVMExtensionImageType](./Get-AzureRmVMExtensionImageType.md)
-Gets the type of an azure_2 extension.
+Gets the type of an Azure extension.
 
 
 ### [Get-AzureRmVMExtensionImage](./Get-AzureRmVMExtensionImage.md)
-Gets all versions for an azure_2 extension.
+Gets all versions for an Azure extension.
 
 
 ### [Get-AzureRmVMExtension](./Get-AzureRmVMExtension.md)
@@ -183,7 +183,7 @@ Gets the properties of a virtual machine.
 
 
 ### [New-AzureRmAvailabilitySet](./New-AzureRmAvailabilitySet.md)
-Creates an azure_2 availability set.
+Creates an Azure availability set.
 
 
 ### [New-AzureRmContainerServiceConfig](./New-AzureRmContainerServiceConfig.md)
@@ -231,11 +231,11 @@ Creates a configuration object for automatic patching on a virtual machine.
 
 
 ### [Publish-AzureRmVMDscConfiguration](./Publish-AzureRmVMDscConfiguration.md)
-Uploads a DSC script to azure_2 blob storage.
+Uploads a DSC script to Azure blob storage.
 
 
 ### [Remove-AzureRmAvailabilitySet](./Remove-AzureRmAvailabilitySet.md)
-Removes an availability set from azure_2.
+Removes an availability set from Azure.
 
 
 ### [Remove-AzureRmContainerServiceAgentPoolProfile](./Remove-AzureRmContainerServiceAgentPoolProfile.md)
@@ -301,7 +301,7 @@ Removes the VMSS or a virtual machine that is within the VMSS.
 
 
 ### [Remove-AzureRmVM](./Remove-AzureRmVM.md)
-Removes a virtual machine from azure_2.
+Removes a virtual machine from Azure.
 
 
 ### [Restart-AzureRmVmss](./Restart-AzureRmVmss.md)
@@ -309,7 +309,7 @@ Restarts the VMSS or a virtual machine within the VMSS.
 
 
 ### [Restart-AzureRmVM](./Restart-AzureRmVM.md)
-Restarts an azure_2 virtual machine.
+Restarts an Azure virtual machine.
 
 
 ### [Save-AzureRmVhd](./Save-AzureRmVhd.md)
@@ -352,11 +352,11 @@ Modifies properties of a virtual machine data disk.
 
 
 ### [Set-AzureRMVMDiagnosticsExtension](./Set-AzureRMVMDiagnosticsExtension.md)
-Configures the azure_2 diagnostics extension on a virtual machine.
+Configures the Azure diagnostics extension on a virtual machine.
 
 
 ### [Set-AzureRmVMDiskEncryptionExtension](./Set-AzureRmVMDiskEncryptionExtension.md)
-Enables encryption on a running IaaS virtual machine in azure_2.
+Enables encryption on a running IaaS virtual machine in Azure.
 
 
 ### [Set-AzureRmVMDscExtension](./Set-AzureRmVMDscExtension.md)
@@ -384,7 +384,7 @@ Specifies the platform image for a virtual machine.
 
 
 ### [Set-AzureRMVMSqlServerExtension](./Set-AzureRMVMSqlServerExtension.md)
-Sets the azure_2 SQL Server extension on a virtual machine.
+Sets the Azure SQL Server extension on a virtual machine.
 
 
 ### [Set-AzureRmVmssOsProfile](./Set-AzureRmVmssOsProfile.md)
@@ -412,7 +412,7 @@ Starts the VMSS or a set of virtual machines within the VMSS.
 
 
 ### [Start-AzureRmVM](./Start-AzureRmVM.md)
-Starts an azure_2 virtual machine.
+Starts an Azure virtual machine.
 
 
 ### [Stop-AzureRmVmss](./Stop-AzureRmVmss.md)
@@ -420,7 +420,7 @@ Stops the VMSS or a set of virtual machines within the VMSS.
 
 
 ### [Stop-AzureRmVM](./Stop-AzureRmVM.md)
-Stops an azure_2 virtual machine.
+Stops an Azure virtual machine.
 
 
 ### [Test-AzureRmVMAEMExtension](./Test-AzureRmVMAEMExtension.md)
@@ -440,7 +440,7 @@ Updates the state of a VMSS.
 
 
 ### [Update-AzureRmVM](./Update-AzureRmVM.md)
-Updates the state of an azure_2 virtual machine.
+Updates the state of an Azure virtual machine.
 
 
 

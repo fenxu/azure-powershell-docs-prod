@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServices.ARM.dll-Help.xml
 online version: 6a2cbd8b-7aa2-4ab8-b5eb-69a32cfbd03d
 schema: 2.0.0
 ms.assetid: F4F4295B-A0D9-4C52-86C8-61BC3BD27579
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Remove-AzureRmRecoveryServicesVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Remove-AzureRmRecoveryServicesVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Remove-AzureRmRecoveryServicesVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -41,7 +41,7 @@ The **Remove-AzureRmRecoveryServicesVault** cmdlet deletes a Recovery Services v
 ## PARAMETERS
 
 ### -Vault
-Specifies an azure_2 Site Recovery vault object.
+Specifies an Azure Site Recovery vault object.
 
 ```yaml
 Type: ARSVault

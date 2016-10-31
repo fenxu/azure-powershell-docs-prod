@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\Get-AzureRmWebAppSSLBinding.md
 schema: 2.0.0
 ms.assetid: 117BB6D8-2F30-449B-8A25-ECC12ECE1EE7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/New-AzureRmWebAppSSLBinding.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/New-AzureRmWebAppSSLBinding.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/New-AzureRmWebAppSSLBinding.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureRmWebAppSSLBinding
 
 ## SYNOPSIS
-Creates an SSL certificate binding for an azure_2 Web App.
+Creates an SSL certificate binding for an Azure Web App.
 
 ## SYNTAX
 
@@ -50,16 +50,16 @@ New-AzureRmWebAppSSLBinding [-WebApp] <Site> [-Name] <String> [[-SslState] <SslS
 ```
 
 ## DESCRIPTION
-The **New-AzureRmWebAppSSLBinding** cmdlet creates a Secure Socket Layer (SSL) certificate binding for an azure_2 Web App.
+The **New-AzureRmWebAppSSLBinding** cmdlet creates a Secure Socket Layer (SSL) certificate binding for an Azure Web App.
 The cmdlet creates an SSL binding in two ways: 
 
 - You can bind a Web App to an existing certificate.
 - You can upload a new certificate and then bind the Web App to this new certificate.
 
-Regardless of which approach you use, the certificate and the Web App must be associated with the same azure_2 resource group.
+Regardless of which approach you use, the certificate and the Web App must be associated with the same Azure resource group.
 If you have a Web App in Resource Group A and you want to bind that Web App to a certificate in Resource Group B, the only way to do that is to upload a copy of the certificate to Resource Group A.
 
-If you upload a new certificate, keep in mind the following requirements for an azure_2 SSL certificate: 
+If you upload a new certificate, keep in mind the following requirements for an Azure SSL certificate: 
 
 - The certificate must contain a private key. 
 - The certificate must use the Personal Information Exchange (PFX) format. 
@@ -73,7 +73,7 @@ If you upload a new certificate, keep in mind the following requirements for an 
 PS C:\>New-AzureRmWebAppSSLBinding -ResourceGroupName "ContosoResourceGroup" -WebAppName "ContosoWebApp" -Thumbprint "E3A38EBA60CAA1C162785A2E1C44A15AD450199C3" -Name "www.contoso.com" -CertificatePassword "p@ssw0rd"
 ```
 
-This command binds an existing azure_2 certificate (a certificate with the Thumbprint E3A38EBA60CAA1C162785A2E1C44A15AD450199C3) to the web app named ContosoWebApp.
+This command binds an existing Azure certificate (a certificate with the Thumbprint E3A38EBA60CAA1C162785A2E1C44A15AD450199C3) to the web app named ContosoWebApp.
 
 ### Example 2: Upload a certificate and bind it to a Web App
 ```
@@ -81,9 +81,9 @@ PS C:\>New-AzureRmWebAppSSLBinding -ResourceGroupName "ContosoResourceGroup" -We
 ```
 
 Example 2 also binds the certificate E3A38EBA60CAA1C162785A2E1C44A15AD450199C3 to the Web App named ContosoWebApp.
-In this case, however, the certificate has not yet been uploaded to azure_2.
+In this case, however, the certificate has not yet been uploaded to Azure.
 Because of that, the *CertificateFilePath* parameter is used to specify the local copy of the certificate .PFX file.
-This certificate will be uploaded to azure_2 and then the new SSL bindings will be created.
+This certificate will be uploaded to Azure and then the new SSL bindings will be created.
 
 ## PARAMETERS
 
@@ -189,7 +189,7 @@ Accept wildcard characters: False
 ### -CertificateFilePath
 Specifies the file path for the certificate to be uploaded.
 
-The *CertificateFilePath* parameter is only required if the certificate has not yet been uploaded to azure_2.
+The *CertificateFilePath* parameter is only required if the certificate has not yet been uploaded to Azure.
 
 ```yaml
 Type: String

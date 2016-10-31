@@ -4,10 +4,10 @@ Module Guid: 342714fc-4009-4863-8afb-a9067e3db04b
 Download Help Link: None
 Help Version: 2.0.4.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/AzureRM.Profile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/AzureRM.Profile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/AzureRM.Profile.md
 uid: ResourceManager/AzureRM.Profile/v1.0.12/AzureRM.Profile.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -45,7 +45,7 @@ Gets the metadata used to authenticate Resource Manager requests.
 
 
 ### [Get-AzureRmEnvironment](./Get-AzureRmEnvironment.md)
-Gets endpoints and metadata for an instance of azure_2 services.
+Gets endpoints and metadata for an instance of Azure services.
 
 
 ### [Get-AzureRmSubscription](./Get-AzureRmSubscription.md)
@@ -57,7 +57,7 @@ Gets tenants that are authorized for the current user.
 
 
 ### [Remove-AzureRmEnvironment](./Remove-AzureRmEnvironment.md)
-Removes endpoints and metadata for connecting to an azure_2 instance.
+Removes endpoints and metadata for connecting to an Azure instance.
 
 
 ### [Save-AzureRmProfile](./Save-AzureRmProfile.md)
@@ -65,7 +65,7 @@ Saves the current authentication information for use in other PowerShell session
 
 
 ### [Select-AzureRmProfile](./Select-AzureRmProfile.md)
-Loads azure_2 authentication information from a file.
+Loads Azure authentication information from a file.
 
 
 ### [Set-AzureRmContext](./Set-AzureRmContext.md)
@@ -73,7 +73,7 @@ Sets the tenant, subscription, and environment for cmdlets to use in the current
 
 
 ### [Set-AzureRmEnvironment](./Set-AzureRmEnvironment.md)
-Sets properties for an azure_2 environment.
+Sets properties for an Azure environment.
 
 
 

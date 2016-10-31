@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.TrafficManager.dll-Help.xml
 online version: .\Enable-AzureRmTrafficManagerProfile.md
 schema: 2.0.0
 ms.assetid: 07CDF07F-D115-4450-AE3C-2915BA1E5B8D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v1.0/Disable-AzureRmTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v1.0/Disable-AzureRmTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v1.0/Disable-AzureRmTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Disable-AzureRmTrafficManagerProfile -TrafficManagerProfile <TrafficManagerProfi
 ```
 
 ## DESCRIPTION
-The **Disable-AzureRmTrafficManagerProfile** cmdlet disables an azure_2 Traffic Manager profile.
+The **Disable-AzureRmTrafficManagerProfile** cmdlet disables an Azure Traffic Manager profile.
 You can specify the profile object by using the pipeline or as a parameter value.
 Alternatively, you can specify the profile by using the *Name* and *ResourceGroupName* parameters.
 
@@ -65,7 +65,7 @@ Therefore, it does not prompt you for confirmation.
 ## PARAMETERS
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -142,7 +142,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

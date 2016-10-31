@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Set-AzureRemoteAppVNet.md
 schema: 2.0.0
 ms.assetid: 259E1176-0740-406E-948E-FD89693B563F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVNet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVNet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVNet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppVNet
 
 ## SYNOPSIS
-Retrieves information about azure_2 RemoteApp virtual networks in azure_2.
+Retrieves information about Azure RemoteApp virtual networks in Azure.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureRemoteAppVNet [[-VNetName] <String>] [-IncludeSharedKey] [-Profile <Azu
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppVNet** cmdlet retrieves information about azure_2 RemoteApp virtual networks in Microsoft Azure.
+The **Get-AzureRemoteAppVNet** cmdlet retrieves information about Azure RemoteApp virtual networks in Microsoft Azure.
 This cmdlet returns an object that contains information about a specified virtual network.
 If no virtual network is specified, this cmdlet returns information about all the virtual networks in the current subscription.
 
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -VNetName
-Specifies the name of the azure_2 RemoteApp virtual network.
+Specifies the name of the Azure RemoteApp virtual network.
 
 ```yaml
 Type: String

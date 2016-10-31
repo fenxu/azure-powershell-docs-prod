@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageServiceLoggingProperty.md
 schema: 2.0.0
 ms.assetid: 3981E765-B861-4024-A1D2-2C60590EBE0E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageServiceLoggingProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageServiceLoggingProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageServiceLoggingProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -157,7 +157,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-@{Text=}
+Stores the value of the current pipeline element as a variable, for any named command as it flows through the pipeline.
 
 ```yaml
 Type: String

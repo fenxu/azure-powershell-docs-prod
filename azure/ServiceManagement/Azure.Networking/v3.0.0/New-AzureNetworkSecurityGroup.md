@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: eaec785b-8e4b-42c2-b2ee-c0c84059247f
 schema: 2.0.0
 ms.assetid: 4B20F422-F5D6-403E-8744-2757C54EF0D4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/New-AzureNetworkSecurityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/New-AzureNetworkSecurityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/New-AzureNetworkSecurityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureNetworkSecurityGroup
 
 ## SYNOPSIS
-Creates an azure_2 network security group.
+Creates an Azure network security group.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ New-AzureNetworkSecurityGroup [-Name] <String> [-Location] <String> [[-Label] <S
 ```
 
 ## DESCRIPTION
-The **New-AzureNetworkSecurityGroup** cmdlet creates an azure_2 network security group in a location.
+The **New-AzureNetworkSecurityGroup** cmdlet creates an Azure network security group in a location.
 
 ## EXAMPLES
 
@@ -57,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the azure_2 location in which this cmdlet creates a network security group.
+Specifies the Azure location in which this cmdlet creates a network security group.
 To obtain valid locations, use the Get-AzureLocation cmdlet.
 
 ```yaml

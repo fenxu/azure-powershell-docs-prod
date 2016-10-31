@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 online version: 3a46bcd5-ad81-411a-92aa-7788ebd2473e
 schema: 2.0.0
 ms.assetid: CB977B0E-A518-431F-8AF4-A1664BD0CCB2
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/New-AzureRmOperationalInsightsComputerGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/New-AzureRmOperationalInsightsComputerGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/New-AzureRmOperationalInsightsComputerGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -44,7 +44,7 @@ The **New-AzureRmOperationalInsightsComputerGroup** cmdlet creates a computer gr
 ## PARAMETERS
 
 ### -ResourceGroupName
-Specifies the name of an azure_2 resource group.
+Specifies the name of an Azure resource group.
 The cmdlet creates computer group in this resource group.
 
 ```yaml
@@ -165,7 +165,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -180,7 +189,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -195,7 +204,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -210,7 +219,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

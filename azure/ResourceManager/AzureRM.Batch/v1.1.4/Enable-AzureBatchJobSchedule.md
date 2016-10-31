@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: .\Disable-AzureBatchJobSchedule.md
 schema: 2.0.0
 ms.assetid: 2744DAFD-39E5-4FD0-8C22-5686EC198C77
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchJobSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchJobSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchJobSchedule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Enable-AzureBatchJobSchedule [-Id] <String> -BatchContext <BatchAccountContext> 
 ```
 
 ## DESCRIPTION
-The **Enable-AzureBatchJobSchedule** cmdlet enables an azure_2 Batch job schedule.
+The **Enable-AzureBatchJobSchedule** cmdlet enables an Azure Batch job schedule.
 After you enable a job schedule, jobs can be created according to that schedule.
 
 ## EXAMPLES

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ManagedCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 647FD1BA-232F-4963-B61A-B9BBAA8BACE4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/New-AzureManagedCacheAccessKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/New-AzureManagedCacheAccessKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/New-AzureManagedCacheAccessKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureManagedCacheAccessKey
 
 ## SYNOPSIS
-Creates access keys for an azure_2 Cache.
+Creates access keys for an Azure Cache.
 
 ## SYNTAX
 
@@ -30,13 +30,13 @@ New-AzureManagedCacheAccessKey [-Name] <String> [[-KeyType] <String>] [-Profile 
 ```
 
 ## DESCRIPTION
-The **New-AzureManagedCacheAccessKey** cmdlet creates primary or secondary access keys for an azure_2 Cache.
-When you create an azure_2 Cache, it includes a set of access keys.
+The **New-AzureManagedCacheAccessKey** cmdlet creates primary or secondary access keys for an Azure Cache.
+When you create an Azure Cache, it includes a set of access keys.
 Use the Get-AzureManagedCacheAccessKey cmdlet to get the current access keys.
-You can use these keys to allow clients, such as web applications, to access to your azure_2 Cache.
-An azure_2 Cache is a secure, dedicated cache that provides extremely fast access to data.
+You can use these keys to allow clients, such as web applications, to access to your Azure Cache.
+An Azure Cache is a secure, dedicated cache that provides extremely fast access to data.
 This distributed, in-memory, scalable solution enables you to build highly scalable and responsive applications.
-For more information about azure_2 Cache, see Azure Cachehttp://azure.microsoft.com/en-us/services/cache/.
+For more information about Azure Cache, see Azure Cachehttp://azure.microsoft.com/en-us/services/cache/.
 
 ## EXAMPLES
 
@@ -45,26 +45,26 @@ For more information about azure_2 Cache, see Azure Cachehttp://azure.microsoft.
 PS C:\>New-AzureManagedCacheAccessKey -Name "ContosoCache"
 ```
 
-This command creates a new primary key for the azure_2 Cache named ContosoCache.
+This command creates a new primary key for the Azure Cache named ContosoCache.
 
 ### Example 2: Create a new secondary key
 ```
 PS C:\>New-AzureManagedCacheAccessKey -Name "ContosoCache" -KeyType Secondary
 ```
 
-This command creates a new secondary key for the azure_2 Cache named ContosoCache.
+This command creates a new secondary key for the Azure Cache named ContosoCache.
 
 ### Example 3: Create new access keys
 ```
 PS C:\>'Primary', 'Secondary' | ForEach-Object {New-AzureManagedCacheAccessKey -Name "ContosoCache" -KeyType $_}
 ```
 
-This command creates new primary and secondary keys for the azure_2 Cache named ContosoCache.
+This command creates new primary and secondary keys for the Azure Cache named ContosoCache.
 
 ## PARAMETERS
 
 ### -Name
-Specifies the name of azure_2 Cache access key to generate keys.
+Specifies the name of Azure Cache access key to generate keys.
 The parameter value is case-sensitive.
 Wildcard characters are not permitted.
 

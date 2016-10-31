@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Get-AzureRemoteAppCollection.md
 schema: 2.0.0
 ms.assetid: A4D1973B-0D96-459F-BC7C-88AA29FC65B2
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppStartMenuProgram.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppStartMenuProgram.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppStartMenuProgram.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppStartMenuProgram
 
 ## SYNOPSIS
-Lists the Start Menu programs in an azure_2 RemoteApp collection.
+Lists the Start Menu programs in an Azure RemoteApp collection.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureRemoteAppStartMenuProgram [-CollectionName] <String> [[-ProgramName] <S
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppStartMenuProgram** cmdlet lists the Start Menu programs in the template image that an azure_2 RemoteApp collection uses.
+The **Get-AzureRemoteAppStartMenuProgram** cmdlet lists the Start Menu programs in the template image that an Azure RemoteApp collection uses.
 
 ## EXAMPLES
 
@@ -44,7 +44,7 @@ This command returns the list of Start Menu programs for the ContosoApps collect
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String

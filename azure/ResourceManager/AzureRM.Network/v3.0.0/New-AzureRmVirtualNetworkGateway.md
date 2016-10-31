@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: b46d1efd-4e83-4298-8b67-40f54e1a7817
 schema: 2.0.0
 ms.assetid: 69D34F57-3641-4FCC-954A-D03505ECDE13
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,7 +46,6 @@ New-AzureRmVirtualNetworkGateway -Name <String> -ResourceGroupName <String> -Loc
 ## PARAMETERS
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -61,7 +60,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -76,7 +74,6 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-@{Text=}
 
 ```yaml
 Type: String
@@ -91,7 +88,6 @@ Accept wildcard characters: False
 ```
 
 ### -IpConfigurations
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSVirtualNetworkGatewayIpConfiguration]
@@ -106,7 +102,6 @@ Accept wildcard characters: False
 ```
 
 ### -GatewayType
-@{Text=}
 
 ```yaml
 Type: String
@@ -121,7 +116,6 @@ Accept wildcard characters: False
 ```
 
 ### -VpnType
-@{Text=}
 
 ```yaml
 Type: String
@@ -136,7 +130,6 @@ Accept wildcard characters: False
 ```
 
 ### -EnableBgp
-@{Text=}
 
 ```yaml
 Type: Boolean
@@ -166,7 +159,6 @@ Accept wildcard characters: False
 ```
 
 ### -GatewaySku
-@{Text=}
 
 ```yaml
 Type: String
@@ -181,7 +173,6 @@ Accept wildcard characters: False
 ```
 
 ### -GatewayDefaultSite
-@{Text=}
 
 ```yaml
 Type: PSLocalNetworkGateway
@@ -196,7 +187,6 @@ Accept wildcard characters: False
 ```
 
 ### -VpnClientAddressPool
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -211,7 +201,6 @@ Accept wildcard characters: False
 ```
 
 ### -VpnClientRootCertificates
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSVpnClientRootCertificate]
@@ -226,7 +215,6 @@ Accept wildcard characters: False
 ```
 
 ### -VpnClientRevokedCertificates
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSVpnClientRevokedCertificate]
@@ -241,7 +229,6 @@ Accept wildcard characters: False
 ```
 
 ### -Asn
-@{Text=}
 
 ```yaml
 Type: UInt32
@@ -256,7 +243,6 @@ Accept wildcard characters: False
 ```
 
 ### -PeerWeight
-@{Text=}
 
 ```yaml
 Type: Int32
@@ -271,7 +257,6 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-@{Text=}
 
 ```yaml
 Type: Hashtable

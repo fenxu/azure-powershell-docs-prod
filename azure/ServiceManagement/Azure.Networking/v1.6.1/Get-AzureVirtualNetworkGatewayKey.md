@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\Reset-AzureVirtualNetworkGatewayKey.md
 schema: 2.0.0
 ms.assetid: 48B9D59D-FF51-4F70-9A29-FD017A9A8383
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureVirtualNetworkGatewayKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureVirtualNetworkGatewayKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureVirtualNetworkGatewayKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureVirtualNetworkGatewayKey
 
 ## SYNOPSIS
-Gets the key for an azure_2 virtual network gateway.
+Gets the key for an Azure virtual network gateway.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureVirtualNetworkGatewayKey [-GatewayId] <String> [-ConnectedEntityId] <St
 ```
 
 ## DESCRIPTION
-The **Get-AzureVirtualNetworkGatewayKey** cmdlet gets the key for an azure_2 virtual network gateway.
+The **Get-AzureVirtualNetworkGatewayKey** cmdlet gets the key for an Azure virtual network gateway.
 
 ## EXAMPLES
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 5C18FE81-DCFA-4203-ABD7-D4FD1B055911
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Wait-AzureHDInsightJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Wait-AzureHDInsightJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Wait-AzureHDInsightJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -58,7 +58,7 @@ For information about how to use the new HDInsight to create a cluster, see Crea
 For information about how to submit jobs by using APS and other approaches, see Submit Hadoop jobs in HDInsighthttps://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/.
 For reference information about APS HDInsight, see Azure HDInsight Cmdletshttps://msdn.microsoft.com/en-us/library/mt438705.aspx.
 
-The **Wait-AzureHDInsightJob** cmdlet awaits the completion or failure of an azure_2 HDInsight job and displays the progress of the job.
+The **Wait-AzureHDInsightJob** cmdlet awaits the completion or failure of an Azure HDInsight job and displays the progress of the job.
 
 ## EXAMPLES
 
@@ -72,7 +72,7 @@ PS C:>\ $WordCountJob | Start-AzureHDInsightJob -Subscription $SubId -Cluster $C
     | Get-AzureHDInsightJobOutput -Cluster $ClusterName -Subscription $SubId -StandardError
 ```
 
-The first command gets the current azure_2 subscription ID, and then stores it in the $SubId variable.
+The first command gets the current Azure subscription ID, and then stores it in the $SubId variable.
 
 The second command gets the specified cluster, and then stores it in the $ClusterName variable.
 
@@ -119,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -Certificate
-Specifies the management certificate for an azure_2 subscription.
+Specifies the management certificate for an Azure subscription.
 
 ```yaml
 Type: X509Certificate2
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 ```
 
 ### -Endpoint
-Specifies the endpoint to use to connect to azure_2.
+Specifies the endpoint to use to connect to Azure.
 If you do not specify this parameter, this cmdlet uses the default endpoint.
 
 ```yaml
@@ -166,7 +166,7 @@ Accept wildcard characters: False
 ```
 
 ### -Job
-Specifies an azure_2 HDInsight job.
+Specifies an Azure HDInsight job.
 
 ```yaml
 Type: AzureHDInsightJob

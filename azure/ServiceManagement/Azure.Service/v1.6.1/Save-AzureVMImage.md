@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Add-AzureVMImage.md
 schema: 2.0.0
 ms.assetid: 06D538B7-C3ED-4735-98C3-44958140E8DE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Save-AzureVMImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Save-AzureVMImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Save-AzureVMImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Save-AzureVMImage
 
 ## SYNOPSIS
-Captures and saves the image of a stopped azure_2 virtual machine.
+Captures and saves the image of a stopped Azure virtual machine.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Save-AzureVMImage [-ServiceName] <String> [-Name] <String> [-ImageName] <String>
 ```
 
 ## DESCRIPTION
-The **Save-AzureVMImage** cmdlet captures and saves the image of a stopped azure_2 virtual machine.
+The **Save-AzureVMImage** cmdlet captures and saves the image of a stopped Azure virtual machine.
 For Windows virtual machines, run the Sysprep tool to prepare the image before it is captured.
 After the image is captured, the virtual machine is deleted.
 
@@ -47,7 +47,7 @@ This command captures an existing virtual machine and deletes it from the deploy
 ## PARAMETERS
 
 ### -ServiceName
-Specifies the name of the azure_2 service.
+Specifies the name of the Azure service.
 
 ```yaml
 Type: String
@@ -108,7 +108,7 @@ Accept wildcard characters: False
 
 ### -OSState
 Specifies the operation system state for the virtual machine image.
-Use this parameter if you intend to capture a virtual machine image to azure_2.
+Use this parameter if you intend to capture a virtual machine image to Azure.
 
 Valid values are:
 
@@ -143,7 +143,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -158,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

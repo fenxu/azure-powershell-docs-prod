@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
 online version: .\New-AzureRmServerManagementGateway.md
 schema: 2.0.0
 ms.assetid: 79F77158-D89A-46B4-8281-87E4D0A9C95A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -49,7 +49,7 @@ Get-AzureRmServerManagementGateway [-Gateway] <Gateway> [-InformationAction <Act
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmServerManagementGateway** cmdlet gets one or more azure_2 Server Management Gateways.
+The **Get-AzureRmServerManagementGateway** cmdlet gets one or more Azure Server Management Gateways.
 
 ## EXAMPLES
 
@@ -88,7 +88,16 @@ This command gets all instances of a Server Management Gateway named Gateway01 t
 ## PARAMETERS
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -103,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

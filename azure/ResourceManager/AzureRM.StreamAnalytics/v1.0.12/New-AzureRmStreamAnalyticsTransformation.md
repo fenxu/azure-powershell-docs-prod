@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
 online version: .\Get-AzureRmStreamAnalyticsTransformation.md
 schema: 2.0.0
 ms.assetid: B1D80512-AAE8-4061-8503-536A83E62DDA
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsTransformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsTransformation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsTransformation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -58,7 +58,7 @@ This command replaces the definition of StreamingJobTransform in the job Streami
 ## PARAMETERS
 
 ### -JobName
-Specifies the name of the azure_2 Stream Analytics job under which to create the azure_2 Stream Analytics transformation.
+Specifies the name of the Azure Stream Analytics job under which to create the Azure Stream Analytics transformation.
 
 ```yaml
 Type: String
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the azure_2 Stream Analytics transformation to create.
+Specifies the name of the Azure Stream Analytics transformation to create.
 
 ```yaml
 Type: String
@@ -88,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -File
-Specifies the path to a JSON file that contains the JSON representation of the azure_2 Stream Analytics transformation to create.
+Specifies the path to a JSON file that contains the JSON representation of the Azure Stream Analytics transformation to create.
 
 ```yaml
 Type: String
@@ -118,7 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group under which to create the azure_2 Stream Analytics transformation.
+Specifies the name of the resource group under which to create the Azure Stream Analytics transformation.
 
 ```yaml
 Type: String
@@ -148,7 +148,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -163,7 +163,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

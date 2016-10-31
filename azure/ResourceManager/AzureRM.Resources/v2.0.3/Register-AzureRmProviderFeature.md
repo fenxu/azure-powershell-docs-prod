@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: .\Get-AzureRmProviderFeature.md
 schema: 2.0.0
 ms.assetid: 1F2F7BD8-BA9E-4AFD-91CC-6AE4AB89C895
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Register-AzureRmProviderFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Register-AzureRmProviderFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Register-AzureRmProviderFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Register-AzureRmProviderFeature
 
 ## SYNOPSIS
-Registers an azure_2 provider feature in your account.
+Registers an Azure provider feature in your account.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Register-AzureRmProviderFeature -FeatureName <String> -ProviderNamespace <String
 ```
 
 ## DESCRIPTION
-The **Register-AzureRmProviderFeature** cmdlet registers an azure_2 provider feature in your account.
+The **Register-AzureRmProviderFeature** cmdlet registers an Azure provider feature in your account.
 
 ## EXAMPLES
 
@@ -72,7 +72,6 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -87,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -102,7 +101,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

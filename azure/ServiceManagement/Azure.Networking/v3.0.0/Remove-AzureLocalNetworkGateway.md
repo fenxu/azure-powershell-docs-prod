@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 1a219795-8f65-443e-ab5d-62b0dc2f8e11
 schema: 2.0.0
 ms.assetid: F6B82001-769A-4EDE-920E-CA848CAD41AE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureLocalNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureLocalNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureLocalNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureLocalNetworkGateway
 
 ## SYNOPSIS
-Removes an azure_2 local network gateway.
+Removes an Azure local network gateway.
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Remove-AzureLocalNetworkGateway [-GatewayId] <String> [-Profile <AzureSMProfile>
 ```
 
 ## DESCRIPTION
-The **Remove-AzureLocalNetworkGateway** cmdlet removes an azure_2 local network gateway.
+The **Remove-AzureLocalNetworkGateway** cmdlet removes an Azure local network gateway.
 
 ## EXAMPLES
 

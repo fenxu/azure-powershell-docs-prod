@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
 online version: 8918c8e8-9324-4928-b5f8-bfc9119b6c92
 schema: 2.0.0
 ms.assetid: 377606B6-127E-4C20-9590-B11E7E0F25A5
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Get-AzureRmCdnEndpointNameAvailability.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Get-AzureRmCdnEndpointNameAvailability.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Get-AzureRmCdnEndpointNameAvailability.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Get-AzureRmCdnEndpointNameAvailability -EndpointName <String> [-InformationActio
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmCdnEndpointNameAvailability** cmdlet gets availability status of the azure_2 Content Delivery Network (CDN) endpoint.
+The **Get-AzureRmCdnEndpointNameAvailability** cmdlet gets availability status of the Azure Content Delivery Network (CDN) endpoint.
 
 ## EXAMPLES
 
@@ -57,7 +57,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -72,7 +81,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

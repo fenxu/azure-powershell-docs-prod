@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: ea09d4b6-ff25-4b91-b957-328222844689
 schema: 2.0.0
 ms.assetid: 3AF84BAF-D40E-43EB-A709-6F7CAF657846
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRmAutomationKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRmAutomationKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRmAutomationKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ New-AzureRmAutomationKey [-KeyType] <String> [-ResourceGroupName] <String> [-Aut
 ```
 
 ## DESCRIPTION
-The **New-AzureRmAutomationKey** cmdlet regenerates registration keys for an azure_2 Automation account.
+The **New-AzureRmAutomationKey** cmdlet regenerates registration keys for an Azure Automation account.
 
 ## EXAMPLES
 
@@ -39,7 +39,7 @@ The **New-AzureRmAutomationKey** cmdlet regenerates registration keys for an azu
 PS C:\>New-AzureAutomationKey -KeyType Primary -ResourceGroup "ResourceGroup01" -AutomationAccountName "AutomationAccount01"
 ```
 
-This command regenerates the primary key for the azure_2 Automation account named AutomationAccount01 in the resource group named ResourceGroup01.
+This command regenerates the primary key for the Azure Automation account named AutomationAccount01 in the resource group named ResourceGroup01.
 
 ## PARAMETERS
 

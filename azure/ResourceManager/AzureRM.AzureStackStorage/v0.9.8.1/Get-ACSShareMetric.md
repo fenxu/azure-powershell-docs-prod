@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
 online version: .\Get-ACSShare.md
 schema: 2.0.0
 ms.assetid: E1CFB733-DA68-4910-8429-49AC4D318162
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShareMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShareMetric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShareMetric.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -180,7 +180,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-Specifies the azure_2 subscription ID.
+Specifies the Azure subscription ID.
 For example:
 
 `-SubscriptionID "81c87063-04a3-4abf-8e4c-736569bc1f60"`
@@ -237,7 +237,7 @@ For example:
 
 `-ResourceGroupName "ContosoResourceGroup"`
 
-Resource groups categorize items to help simplify inventory management and overall azure_2 administration.
+Resource groups categorize items to help simplify inventory management and overall Azure administration.
 
 ```yaml
 Type: String

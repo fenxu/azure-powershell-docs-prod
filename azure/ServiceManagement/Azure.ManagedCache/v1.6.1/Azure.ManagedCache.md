@@ -4,10 +4,10 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: 1.0.0.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/Azure.ManagedCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/Azure.ManagedCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/Azure.ManagedCache.md
 uid: ServiceManagement/Azure.ManagedCache/v1.6.1/Azure.ManagedCache.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -25,7 +25,7 @@ This section displays the online help files for the Azure Managed Cache cmdlets 
 
 ## Azure.ManagedCache Cmdlets
 ### [Get-AzureManagedCacheAccessKey](./Get-AzureManagedCacheAccessKey.md)
-Gets the access keys for an azure_2 Cache.
+Gets the access keys for an Azure Cache.
 
 
 ### [Get-AzureManagedCacheLocation](./Get-AzureManagedCacheLocation.md)
@@ -37,11 +37,11 @@ Gets a specific named cache or all named caches in a Managed Cache Service insta
 
 
 ### [Get-AzureManagedCache](./Get-AzureManagedCache.md)
-Gets the azure_2 Caches in your azure_2 account.
+Gets the Azure Caches in your Azure account.
 
 
 ### [New-AzureManagedCacheAccessKey](./New-AzureManagedCacheAccessKey.md)
-Creates access keys for an azure_2 Cache.
+Creates access keys for an Azure Cache.
 
 
 ### [New-AzureManagedCacheNamedCache](./New-AzureManagedCacheNamedCache.md)
@@ -49,7 +49,7 @@ Creates a named cache in the specified Managed Cache Service instance.
 
 
 ### [New-AzureManagedCache](./New-AzureManagedCache.md)
-Creates an azure_2 cache.
+Creates an Azure cache.
 
 
 ### [Remove-AzureManagedCacheNamedCache](./Remove-AzureManagedCacheNamedCache.md)
@@ -57,7 +57,7 @@ Removes a named cache from a Managed Cache Service instance.
 
 
 ### [Remove-AzureManagedCache](./Remove-AzureManagedCache.md)
-Removes an azure_2 Cache.
+Removes an Azure Cache.
 
 
 ### [Set-AzureManagedCacheNamedCache](./Set-AzureManagedCacheNamedCache.md)
@@ -65,7 +65,7 @@ Updates a named cache in the specified Managed Cache Service instance.
 
 
 ### [Set-AzureManagedCache](./Set-AzureManagedCache.md)
-Changes the properties of an azure_2 Cache.
+Changes the properties of an Azure Cache.
 
 
 

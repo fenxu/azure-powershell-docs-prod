@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version: .\New-AzureRmHDInsightClusterConfig.md
 schema: 2.0.0
 ms.assetid: C7C845DD-6353-49D7-8FC0-8C2F9EA2227D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightClusterIdentity.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightClusterIdentity.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightClusterIdentity.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -39,7 +39,7 @@ Add-AzureRmHDInsightClusterIdentity [-Config] <AzureHDInsightConfig> [-ObjectId]
 ```
 
 ## DESCRIPTION
-The **Add-AzureRmHDInsightClusterIdentity** cmdlet adds a cluster identity to the azure_2 HDInsight configuration object created by the New-AzureRmHDInsightClusterConfig cmdlet.
+The **Add-AzureRmHDInsightClusterIdentity** cmdlet adds a cluster identity to the Azure HDInsight configuration object created by the New-AzureRmHDInsightClusterConfig cmdlet.
 
 ## EXAMPLES
 
@@ -86,7 +86,7 @@ PS C:\> New-AzureRmHDInsightClusterConfig `
                 -DefaultStorageContainer $storageAccountContainer
 ```
 
-This command adds Cluster Identity info to the cluster named your-hadoop-001, allowing the cluster to access azure_2 Data Lake Store.
+This command adds Cluster Identity info to the cluster named your-hadoop-001, allowing the cluster to access Azure Data Lake Store.
 
 ## PARAMETERS
 
@@ -107,8 +107,8 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-Specifies the azure_2 AD object ID (a GUID) of the azure_2 AD Service Principal that represents the cluster.
-The cluster will use this when accessing azure_2 Data Lake Store.
+Specifies the Azure AD object ID (a GUID) of the Azure AD Service Principal that represents the cluster.
+The cluster will use this when accessing Azure Data Lake Store.
 
 ```yaml
 Type: Guid
@@ -124,7 +124,7 @@ Accept wildcard characters: False
 
 ### -CertificateFilePath
 Specifies the file path to the certificate that will be used to authenticate as the Service Principal.
-The cluster will use this when accessing azure_2 Data Lake Store.
+The cluster will use this when accessing Azure Data Lake Store.
 
 ```yaml
 Type: String
@@ -140,7 +140,7 @@ Accept wildcard characters: False
 
 ### -CertificatePassword
 Specifies the password for the certificate that will be used to authenticate as the Service Principal.
-The cluster will use this when accessing azure_2 Data Lake Store.
+The cluster will use this when accessing Azure Data Lake Store.
 
 ```yaml
 Type: String
@@ -170,7 +170,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -185,7 +194,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

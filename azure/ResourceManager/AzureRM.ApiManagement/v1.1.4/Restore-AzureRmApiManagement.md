@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: .\Backup-AzureRmApiManagement.md
 schema: 2.0.0
 ms.assetid: B0FF412D-269A-472F-8D79-9C0B9F0EBAC2
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Restore-AzureRmApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Restore-AzureRmApiManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Restore-AzureRmApiManagement.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Restore-AzureRmApiManagement
 
 ## SYNOPSIS
-Restores an API Management Service from the specified azure_2 storage blob.
+Restores an API Management Service from the specified Azure storage blob.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Restore-AzureRmApiManagement -ResourceGroupName <String> -Name <String> [-Storag
 ```
 
 ## DESCRIPTION
-The **Restore-AzureRmApiManagement** cmdlet restores an API Management Service from the specified backup residing in an azure_2storage blob.
+The **Restore-AzureRmApiManagement** cmdlet restores an API Management Service from the specified backup residing in an Azurestorage blob.
 
 ## EXAMPLES
 
@@ -40,7 +40,7 @@ The **Restore-AzureRmApiManagement** cmdlet restores an API Management Service f
 PS C:\>Restore-AzureRmApiManagement -ResourceGroupName "ContosoGroup" -Name "RestoredContosoApi" -StorageContext $StorageContext -SourceContainerName "ContosoBackups" -SourceBlobName "ContosoBackup.apimbackup"
 ```
 
-This command restores an API Management service from azure_2 storage blob.
+This command restores an API Management service from Azure storage blob.
 
 ## PARAMETERS
 
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -SourceContainerName
-Specifies the name of the azure_2 storage backup source container.
+Specifies the name of the Azure storage backup source container.
 
 ```yaml
 Type: String
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -SourceBlobName
-Specifies the name of the azure_2 storage backup source blob.
+Specifies the name of the Azure storage backup source blob.
 
 ```yaml
 Type: String
@@ -135,7 +135,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -150,7 +159,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

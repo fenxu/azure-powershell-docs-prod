@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 067b3a5e-1834-472b-a88b-3009fd6260a8
 schema: 2.0.0
 ms.assetid: 469D1444-025D-4302-834B-0CD5E6A0C628
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureQuickVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureQuickVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureQuickVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureQuickVM
 
 ## SYNOPSIS
-Configures and creates an azure_2 virtual machine.
+Configures and creates an Azure virtual machine.
 
 ## SYNTAX
 
@@ -48,9 +48,9 @@ New-AzureQuickVM [-Linux] -ServiceName <String> [-Name <String>] -ImageName <Str
 ```
 
 ## DESCRIPTION
-The **New-AzureQuickVM** cmdlet configures and creates an azure_2 virtual machine.
-This cmdlet can deploy a virtual machine into an existing azure_2 service.
-This cmdlet can alternatively create an azure_2 service that hosts the new virtual machine.
+The **New-AzureQuickVM** cmdlet configures and creates an Azure virtual machine.
+This cmdlet can deploy a virtual machine into an existing Azure service.
+This cmdlet can alternatively create an Azure service that hosts the new virtual machine.
 
 ## EXAMPLES
 
@@ -137,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-Specifies the name of a new or existing azure_2 service to which this cmdlet adds the new virtual machine.
+Specifies the name of a new or existing Azure service to which this cmdlet adds the new virtual machine.
 
 If you specify a new service, this cmdlets creates it.
 To create a new service, you must specify the *Location* or *AffinityGroup* parameter.
@@ -217,9 +217,9 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the azure_2 datacenter that hosts the virtual machine.
-If you specify this parameter, the cmdlet creates an azure_2 service in the specified location.
-Specify this parameter or the *AffinityGroup* parameter only if this cmdlet creates an azure_2 service for the virtual machine.
+Specifies the Azure datacenter that hosts the virtual machine.
+If you specify this parameter, the cmdlet creates an Azure service in the specified location.
+Specify this parameter or the *AffinityGroup* parameter only if this cmdlet creates an Azure service for the virtual machine.
 
 ```yaml
 Type: String
@@ -235,7 +235,7 @@ Accept wildcard characters: False
 
 ### -AffinityGroup
 Specifies the affinity group for the virtual machine.
-Specify this parameter or the *Location* parameter only if this cmdlet creates an azure_2 service for the virtual machine.
+Specify this parameter or the *Location* parameter only if this cmdlet creates an Azure service for the virtual machine.
 
 ```yaml
 Type: String
@@ -507,7 +507,7 @@ Accept wildcard characters: False
 ```
 
 ### -MediaLocation
-Specifies the azure_2 Storage location where this cmdlet creates the virtual machines disks.
+Specifies the Azure Storage location where this cmdlet creates the virtual machines disks.
 
 ```yaml
 Type: String
@@ -590,7 +590,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -605,7 +614,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

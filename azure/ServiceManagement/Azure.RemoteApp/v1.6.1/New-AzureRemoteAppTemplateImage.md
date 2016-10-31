@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Get-AzureRemoteAppTemplateImage.md
 schema: 2.0.0
 ms.assetid: 6EE01FED-908F-4FAA-BB57-38DE00238AEC
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppTemplateImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppTemplateImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppTemplateImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureRemoteAppTemplateImage
 
 ## SYNOPSIS
-Uploads or imports an azure_2 RemoteApp template image.
+Uploads or imports an Azure RemoteApp template image.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ New-AzureRemoteAppTemplateImage [-ImageName] <String> [-Location] <String> -Azur
 ```
 
 ## DESCRIPTION
-The **New-AzureRemoteAppTemplateImage** cmdlet uploads or imports an azure_2 RemoteApp template image.
+The **New-AzureRemoteAppTemplateImage** cmdlet uploads or imports an Azure RemoteApp template image.
 
 ## EXAMPLES
 
@@ -51,7 +51,7 @@ This command uploads C:\RemoteAppImages\ContosoApps.vhd to create a template ima
 ## PARAMETERS
 
 ### -ImageName
-Specifies the name of an azure_2 RemoteApp template image.
+Specifies the name of an Azure RemoteApp template image.
 
 ```yaml
 Type: String
@@ -66,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the azure_2 region of the template image.
+Specifies the Azure region of the template image.
 
 ```yaml
 Type: String
@@ -111,7 +111,7 @@ Accept wildcard characters: False
 ```
 
 ### -AzureVmImageName
-Specifies the name of an azure_2 virtual machine to use as a template image.
+Specifies the name of an Azure virtual machine to use as a template image.
 
 ```yaml
 Type: String

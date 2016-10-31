@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
 online version: .\Get-ACSBlobService.md
 schema: 2.0.0
 ms.assetid: 0839E9DA-DBAE-4857-A69D-0097709BACA5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSBlobService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSBlobService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSBlobService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -54,7 +54,7 @@ The final command configures the blob service settings from the farm name.
 ## PARAMETERS
 
 ### -FarmName
-Specifies the name of the azure_2 Consistent Storage (ACS) farm.
+Specifies the name of the Azure Consistent Storage (ACS) farm.
 
 ```yaml
 Type: String
@@ -129,7 +129,6 @@ Accept wildcard characters: False
 ```
 
 ### -BlobSvcStreamMapMinContainerOccupancyPercent
-@{Text=}
 
 ```yaml
 Type: Int32
@@ -220,7 +219,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -235,7 +235,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter

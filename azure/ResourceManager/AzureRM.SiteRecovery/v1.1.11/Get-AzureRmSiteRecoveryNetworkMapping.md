@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: .\New-AzureRmSiteRecoveryNetworkMapping.md
 schema: 2.0.0
 ms.assetid: AF3CACE3-632E-4901-8C2D-5B23C0F5C73E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryNetworkMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryNetworkMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryNetworkMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -41,7 +41,7 @@ Get-AzureRmSiteRecoveryNetworkMapping -PrimaryServer <ASRServer> [-Azure] [<Comm
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSiteRecoveryNetworkMapping** cmdlet gets information about azure_2 Site Recovery network mappings for the current Site Recovery vault.
+The **Get-AzureRmSiteRecoveryNetworkMapping** cmdlet gets information about Azure Site Recovery network mappings for the current Site Recovery vault.
 
 ## EXAMPLES
 
@@ -53,7 +53,7 @@ The **Get-AzureRmSiteRecoveryNetworkMapping** cmdlet gets information about azur
 ## PARAMETERS
 
 ### -Azure
-Indicates that the command gets a list of network mappings for networks on the primary server mapped to azure_2 virtual networks.
+Indicates that the command gets a list of network mappings for networks on the primary server mapped to Azure virtual networks.
 
 ```yaml
 Type: SwitchParameter
@@ -68,7 +68,6 @@ Accept wildcard characters: False
 ```
 
 ### -PrimaryServer
-@{Text=}
 
 ```yaml
 Type: ASRServer
@@ -83,7 +82,6 @@ Accept wildcard characters: False
 ```
 
 ### -RecoveryServer
-@{Text=}
 
 ```yaml
 Type: ASRServer

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: .\New-AzureStorSimpleStorageAccountCredential.md
 schema: 2.0.0
 ms.assetid: 9AB51E65-FC67-4E50-9338-91CA87607BE9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleInlineStorageAccountCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleInlineStorageAccountCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleInlineStorageAccountCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ New-AzureStorSimpleInlineStorageAccountCredential [-StorageAccountName] <String>
 ```
 
 ## DESCRIPTION
-The **New-AzureStorSimpleInlineStorageAccountCredential** cmdlet creates an inline azure_2 storage account credential object.
+The **New-AzureStorSimpleInlineStorageAccountCredential** cmdlet creates an inline Azure storage account credential object.
 This cmdlet creates a dummy credential object.
 You can use the **New-AzureStorSimpleDeviceVolumeContainer** cmdlet and the current cmdlet in the same command by using the wps_2 pipeline.
 The actual storage account credential object is created as part of creation of the volume container.

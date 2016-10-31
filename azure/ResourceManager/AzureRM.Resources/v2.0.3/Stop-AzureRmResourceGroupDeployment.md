@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: .\Get-AzureRmResourceGroupDeployment.md
 schema: 2.0.0
 ms.assetid: 5B17A003-5FB3-4070-85D0-270AC535739F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Stop-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Stop-AzureRmResourceGroupDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Stop-AzureRmResourceGroupDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,10 +37,10 @@ Stop-AzureRmResourceGroupDeployment -Id <String> [-Force] [-ApiVersion <String>]
 ```
 
 ## DESCRIPTION
-The **Stop-AzureRmResourceGroupDeployment** cmdlet cancels an azure_2 resource group deployment that has started but not completed.
+The **Stop-AzureRmResourceGroupDeployment** cmdlet cancels an Azure resource group deployment that has started but not completed.
 To stop a deployment, the deployment must have an incomplete provisioning state, such as Provisioning, and not a completed state, such as Provisioned or Failed.
 
-An azure_2 resource is a user-managed entity, such as a website, database, or database server.
+An Azure resource is a user-managed entity, such as a website, database, or database server.
 A resource group is a collection of resources that are deployed as a unit.
 To deploy a resource group, use the New-AzureRmResourceGroupDeployment cmdlet.
 
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -172,7 +172,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

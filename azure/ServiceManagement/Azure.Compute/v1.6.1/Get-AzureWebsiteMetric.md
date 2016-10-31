@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 9F92FDB6-B1AB-4A32-9248-D45ED5ACC617
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsiteMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsiteMetric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsiteMetric.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureWebsiteMetric
 
 ## SYNOPSIS
-Gets metrics for the azure_2 website in the current subscription.
+Gets metrics for the Azure website in the current subscription.
 
 ## SYNTAX
 
@@ -33,7 +33,7 @@ Get-AzureWebsiteMetric [-MetricNames <String[]>] [-StartDate <DateTime>] [-EndDa
 ## DESCRIPTION
 powershell_prelim
 
-The **Get-AzureWebsiteMetric** cmdlet gets metrics for the azure_2 website in the current subscription.
+The **Get-AzureWebsiteMetric** cmdlet gets metrics for the Azure website in the current subscription.
 
 ## EXAMPLES
 

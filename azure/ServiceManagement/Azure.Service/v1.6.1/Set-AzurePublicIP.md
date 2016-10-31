@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Get-AzurePublicIP.md
 schema: 2.0.0
 ms.assetid: 48C16755-B39B-4C63-9363-5C133E04BA31
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzurePublicIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzurePublicIP.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzurePublicIP.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzurePublicIP
 
 ## SYNOPSIS
-Adds a Public IP to an azure_2 virtual machine.
+Adds a Public IP to an Azure virtual machine.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Set-AzurePublicIP [-PublicIPName] <String> [[-IdleTimeoutInMinutes] <Int32>] [[-
 ```
 
 ## DESCRIPTION
-The **Set-AzurePublicIP** cmdlet adds a Public IP to an azure_2 virtual machine.
+The **Set-AzurePublicIP** cmdlet adds a Public IP to an Azure virtual machine.
 If you run this cmdlet for an existing virtual machine, update the virtual machine to implement your changes.
 You can specify a domain name label to create a corresponding DNS entry for the public IP.
 
@@ -154,7 +154,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -169,7 +178,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

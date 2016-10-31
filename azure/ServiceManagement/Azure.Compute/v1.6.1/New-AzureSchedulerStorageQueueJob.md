@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: .\Set-AzureSchedulerStorageQueueJob.md
 schema: 2.0.0
 ms.assetid: BB736406-8B48-4BDF-B67B-0C928E674C7D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureSchedulerStorageQueueJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureSchedulerStorageQueueJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureSchedulerStorageQueueJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -45,7 +45,7 @@ New-AzureSchedulerStorageQueueJob [-StorageQueueMessage <String>] [-Interval <In
 ## DESCRIPTION
 powershell_prelim
 
-The **New-AzureSchedulerStorageQueueJob** cmdlet creates a scheduler job that has an azure_2 Storage action.
+The **New-AzureSchedulerStorageQueueJob** cmdlet creates a scheduler job that has an Azure Storage action.
 
 ## EXAMPLES
 

@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
 online version: .\Get-ACSShareMetric.md
 schema: 2.0.0
 ms.assetid: E0F94422-293C-4FC9-A888-891A636422DF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShare.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShare.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShare.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-ACSShare
 
 ## SYNOPSIS
-Gets a list of SMB shares used in the azure_2 Consistent Storage system.
+Gets a list of SMB shares used in the Azure Consistent Storage system.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-ACSShare -FarmName <String> [-ShareName <String>] [[-SubscriptionId] <String
 ```
 
 ## DESCRIPTION
-The **Get-ACSShare** cmdlet gets list of Server Message Block (SMB) shares used in the azure_2 Consistent Storage (ACS) system.
+The **Get-ACSShare** cmdlet gets list of Server Message Block (SMB) shares used in the Azure Consistent Storage (ACS) system.
 
 ## EXAMPLES
 

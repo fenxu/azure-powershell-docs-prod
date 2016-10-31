@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Publish-AzureRemoteAppProgram.md
 schema: 2.0.0
 ms.assetid: B8B2C7BC-86EB-4F3B-9A70-107FF56AE78C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppProgram.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppProgram.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppProgram.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppProgram
 
 ## SYNOPSIS
-Retrieves the properties of one or more published azure_2 RemoteApp programs for a collection.
+Retrieves the properties of one or more published Azure RemoteApp programs for a collection.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ Get-AzureRemoteAppProgram [-CollectionName] <String> [[-Alias] <String>] [-Profi
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppProgram** cmdlet retrieves the properties of one or more published azure_2 RemoteApp programs for a collection.
+The **Get-AzureRemoteAppProgram** cmdlet retrieves the properties of one or more published Azure RemoteApp programs for a collection.
 
 ## EXAMPLES
 
@@ -62,8 +62,8 @@ Status               : Published
 VirtualPath          : %SYSTEMDRIVE%\Program Files (x86)\Contoso Finance\Finance.exe
 ```
 
-This command displays the properties of an azure_2 RemoteApp program.
-The program, named Finance App, is in the azure_2 RemoteApp collection named ContosoApps.
+This command displays the properties of an Azure RemoteApp program.
+The program, named Finance App, is in the Azure RemoteApp collection named ContosoApps.
 
 ## PARAMETERS
 
@@ -83,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String

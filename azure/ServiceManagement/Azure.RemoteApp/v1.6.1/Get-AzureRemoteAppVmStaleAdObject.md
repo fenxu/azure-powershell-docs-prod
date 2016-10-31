@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Clear-AzureRemoteAppVmStaleAdObject.md
 schema: 2.0.0
 ms.assetid: 5E93CD6F-3D69-4443-BA94-E34D00F59C5B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVmStaleAdObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVmStaleAdObject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVmStaleAdObject.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppVmStaleAdObject
 
 ## SYNOPSIS
-Gets objects in azure_2 Active Directory that are associated with azure_2 RemoteApp virtual machines that no longer exist.
+Gets objects in Azure Active Directory that are associated with Azure RemoteApp virtual machines that no longer exist.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureRemoteAppVmStaleAdObject [-CollectionName] <String> [[-Credential] <PSC
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppVmStaleAdObject** cmdlet gets objects in azure_2 Active Directory that are associated with azure_2 RemoteApp virtual machines that no longer exist.
+The **Get-AzureRemoteAppVmStaleAdObject** cmdlet gets objects in Azure Active Directory that are associated with Azure RemoteApp virtual machines that no longer exist.
 This cmdlet displays the name of each object that it gets.
 
 ## EXAMPLES
@@ -45,7 +45,7 @@ This second command gets the stale objects for the collection named Contoso.
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\Get-AzureRMWebAppSlot.md
 schema: 2.0.0
 ms.assetid: 4553A418-F355-4CF5-B28E-FA60F76D1B09
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Stop-AzureRMWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Stop-AzureRMWebAppSlot.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Stop-AzureRMWebAppSlot.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Stop-AzureRmWebAppSlot
 
 ## SYNOPSIS
-Stops an azure_2 Web App slot.
+Stops an Azure Web App slot.
 
 ## SYNTAX
 
@@ -35,7 +35,7 @@ Stop-AzureRmWebAppSlot [-WebApp] <Site> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Stop-AzureRmWebAppSlot** cmdlet stops an azure_2 Web App slot.
+The **Stop-AzureRmWebAppSlot** cmdlet stops an Azure Web App slot.
 
 ## EXAMPLES
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Start-AzureStorageBlobCopy.md
 schema: 2.0.0
 ms.assetid: 5EAD5288-78E9-4EBB-904E-5E86EA88DA93
-updated_at: 10/31/2016 3:41 PM
+updated_at: 10/31/2016 9:17 PM
 ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlobCopyState.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42256fef87c1ded108a960d99ba2ca101729fe57/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlobCopyState.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlobCopyState.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -265,7 +265,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-@{Text=}
+Stores the value of the current pipeline element as a variable, for any named command as it flows through the pipeline.
 
 ```yaml
 Type: String

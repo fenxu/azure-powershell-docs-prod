@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: 614eee0d-f18e-4843-bed6-6cf43db59f75
 schema: 2.0.0
 ms.assetid: C0DE19B6-68A5-46B0-8575-88F229FD2494
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ New-AzureRmAutomationRunbook [-Name] <String> [-Description <String>] [-Tags <ID
 ```
 
 ## DESCRIPTION
-The **New-AzureRmAutomationRunbook** cmdlet creates an empty azure_2 Automation runbook by using APS.
+The **New-AzureRmAutomationRunbook** cmdlet creates an empty Azure Automation runbook by using APS.
 Specify a name for the runbook.
 
 ## EXAMPLES
@@ -41,7 +41,7 @@ Specify a name for the runbook.
 PS C:\>New-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbook02" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command creates a runbook named Runbook02 in the azure_2 Automation account named Contoso17.
+This command creates a runbook named Runbook02 in the Azure Automation account named Contoso17.
 
 ## PARAMETERS
 

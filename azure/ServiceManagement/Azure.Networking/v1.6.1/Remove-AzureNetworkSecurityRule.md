@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\Set-AzureNetworkSecurityRule.md
 schema: 2.0.0
 ms.assetid: 3CB862D2-C316-4135-A59A-65441F00AD96
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Remove-AzureNetworkSecurityRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Remove-AzureNetworkSecurityRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Remove-AzureNetworkSecurityRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Remove-AzureNetworkSecurityRule [-Name] <String> [-Force] [-NetworkSecurityGroup
 ```
 
 ## DESCRIPTION
-The **Remove-AzureNetworkSecurityRule** cmdlet removes an azure_2 network security rule from a network security group.
+The **Remove-AzureNetworkSecurityRule** cmdlet removes an Azure network security rule from a network security group.
 
 ## EXAMPLES
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version: ddcd42e5-19b2-4027-b11c-99addf7b6d85
 schema: 2.0.0
 ms.assetid: BFC55A8F-C0EE-4FA3-A39E-45AEF4A582EE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightCluster.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,7 +34,7 @@ Use the *ClusterName* parameter to get details for a specific cluster.
 
 ## EXAMPLES
 
-### Example 1: List all azure_2 HDInsight clusters
+### Example 1: List all Azure HDInsight clusters
 ```
 PS C:\>Get-AzureRmHDInsightCluster
 ```

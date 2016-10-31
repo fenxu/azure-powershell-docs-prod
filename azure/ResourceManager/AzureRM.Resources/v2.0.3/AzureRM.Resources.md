@@ -4,10 +4,10 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/AzureRM.Resources.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/AzureRM.Resources.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/AzureRM.Resources.md
 uid: ResourceManager/AzureRM.Resources/v2.0.3/AzureRM.Resources.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -49,7 +49,7 @@ Gets policy definitions.
 
 
 ### [Get-AzureRmProviderFeature](./Get-AzureRmProviderFeature.md)
-Gets information about azure_2 provider features.
+Gets information about Azure provider features.
 
 
 ### [Get-AzureRmResourceGroupDeploymentOperation](./Get-AzureRmResourceGroupDeploymentOperation.md)
@@ -93,11 +93,11 @@ Creates a policy definition.
 
 
 ### [New-AzureRmResourceGroupDeployment](./New-AzureRmResourceGroupDeployment.md)
-Adds an azure_2 deployment to a resource group.
+Adds an Azure deployment to a resource group.
 
 
 ### [New-AzureRmResourceGroup](./New-AzureRmResourceGroup.md)
-Creates an azure_2 resource group.
+Creates an Azure resource group.
 
 
 ### [New-AzureRmResourceLock](./New-AzureRmResourceLock.md)
@@ -109,7 +109,7 @@ Creates a resource.
 
 
 ### [Register-AzureRmProviderFeature](./Register-AzureRmProviderFeature.md)
-Registers an azure_2 provider feature in your account.
+Registers an Azure provider feature in your account.
 
 
 ### [Register-AzureRmResourceProvider](./Register-AzureRmResourceProvider.md)

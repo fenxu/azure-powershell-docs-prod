@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: a6f623a1-2e69-4ea2-828b-ab63d285a009
 schema: 2.0.0
 ms.assetid: AA73524A-82DC-451E-843F-C88EEF9D73E5
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationHybridWorkerGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationHybridWorkerGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationHybridWorkerGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Get-AzureRMAutomationHybridWorkerGroup [[-Name] <String>] [-ResourceGroupName] <
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAutomationHybridWorkerGroup** cmdlet gets azure_2 Automation hybrid runbook worker groups.
+The **Get-AzureRmAutomationHybridWorkerGroup** cmdlet gets Azure Automation hybrid runbook worker groups.
 To get a specific group, specify its name.
 
 ## EXAMPLES

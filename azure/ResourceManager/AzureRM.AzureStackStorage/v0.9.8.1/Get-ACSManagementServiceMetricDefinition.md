@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
 online version: 28b6671a-1cd0-49f1-99ad-bdb64a36bb25
 schema: 2.0.0
 ms.assetid: 27A7CDE5-DB62-4003-86C7-056A831AB677
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSManagementServiceMetricDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSManagementServiceMetricDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSManagementServiceMetricDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -43,7 +43,6 @@ PS C:\>
 ## PARAMETERS
 
 ### -FarmName
-@{Text=}
 
 ```yaml
 Type: String
@@ -58,7 +57,6 @@ Accept wildcard characters: False
 ```
 
 ### -MetricNames
-@{Text=}
 
 ```yaml
 Type: String[]
@@ -73,7 +71,6 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-@{Text=}
 
 ```yaml
 Type: String
@@ -88,7 +85,6 @@ Accept wildcard characters: False
 ```
 
 ### -Token
-@{Text=}
 
 ```yaml
 Type: String
@@ -103,7 +99,6 @@ Accept wildcard characters: False
 ```
 
 ### -AdminUri
-@{Text=}
 
 ```yaml
 Type: Uri
@@ -118,7 +113,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -133,7 +127,6 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -148,7 +141,6 @@ Accept wildcard characters: False
 ```
 
 ### -DetailedOutput
-@{Text=}
 
 ```yaml
 Type: SwitchParameter

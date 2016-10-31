@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=824804
 schema: 2.0.0
 ms.assetid: E473BE2A-E916-48F9-A665-8A486F523415
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Remove-AzureRmKeyVaultAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Remove-AzureRmKeyVaultAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Remove-AzureRmKeyVaultAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -51,7 +51,7 @@ Remove-AzureRmKeyVaultAccessPolicy [-VaultName] <String> [[-ResourceGroupName] <
 
 ## DESCRIPTION
 The **Remove-AzureRmKeyVaultAccessPolicy** cmdlet removes all permissions for a user or application or for all users and applications from a key vault.
-Even if you remove all permissions, the owner of the azure_2 subscription that contains the key vault can add permissions to the key vault.
+Even if you remove all permissions, the owner of the Azure subscription that contains the key vault can add permissions to the key vault.
 
 Note that although specifying the resource group is optional for this cmdlet, you should do so for better performance.
 
@@ -70,7 +70,7 @@ PS C:\>Remove-AzureRmKeyVaultAccessPolicy -VaultName 'Contoso03Vault' -ServicePr
 ```
 
 This command removes all the permissions that an application has on the key vault named Contoso03Vault.
-This example identifies the application by using the service principal name registered in azure_2 Active Directory, http://payroll.contoso.com.
+This example identifies the application by using the service principal name registered in Azure Active Directory, http://payroll.contoso.com.
 
 ### Example 3: Remove permissions for an application by using its object ID
 ```
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnabledForDiskEncryption
-Enables the azure_2 disk encryption service to get secrets and unwrap keys from this key vault.
+Enables the Azure disk encryption service to get secrets and unwrap keys from this key vault.
 
 ```yaml
 Type: SwitchParameter
@@ -135,7 +135,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnabledForTemplateDeployment
-Enables azure_2 Resource Manager to get secrets from this key vault when this key vault is referenced in a template deployment.
+Enables Azure Resource Manager to get secrets from this key vault when this key vault is referenced in a template deployment.
 
 ```yaml
 Type: SwitchParameter
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-Specifies the object ID of the user or service principal in azure_2 Active Directory for which to remove permissions.
+Specifies the object ID of the user or service principal in Azure Active Directory for which to remove permissions.
 
 ```yaml
 Type: Guid
@@ -197,7 +197,7 @@ Accept wildcard characters: False
 
 ### -ServicePrincipalName
 Specifies the service principal name of the application whose permissions you want to remove.
-Specify the application ID, also known as client ID, registered for the application in azure_2 Active Directory.
+Specify the application ID, also known as client ID, registered for the application in Azure Active Directory.
 
 ```yaml
 Type: String

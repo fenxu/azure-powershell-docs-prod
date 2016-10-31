@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version: .\Reset-AzureRmWebAppSlotPublishingProfile.md
 schema: 2.0.0
 ms.assetid: 0898D244-E2AE-4DDB-8B21-049B166A9C7E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRMWebAppSlotPublishingProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRMWebAppSlotPublishingProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.0/Get-AzureRMWebAppSlotPublishingProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmWebAppSlotPublishingProfile
 
 ## SYNOPSIS
-Gets an azure_2 Web App slot publishing profile.
+Gets an Azure Web App slot publishing profile.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ Get-AzureRmWebAppSlotPublishingProfile [-OutputFile] <String> [[-Format] <String
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmWebAppSlotPublishingProfile** cmdlet gets an azure_2 Web App slot publishing profile.
+The **Get-AzureRmWebAppSlotPublishingProfile** cmdlet gets an Azure Web App slot publishing profile.
 
 ## EXAMPLES
 

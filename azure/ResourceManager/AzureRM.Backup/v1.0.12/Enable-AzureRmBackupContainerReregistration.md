@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: .\Get-AzureRmBackupContainer.md
 schema: 2.0.0
 ms.assetid: 56FE2E70-CB6C-4365-B037-B3AB3E6F3E96
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupContainerReregistration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupContainerReregistration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupContainerReregistration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Enable-AzureRmBackupContainerReregistration [-Container] <AzureRMBackupContainer
 ```
 
 ## DESCRIPTION
-The **Enable-AzureRmBackupContainerReregistration** cmdlet reregisters a server to connect to an azure_2 Backup vault and continue the Backup recovery point chain.
+The **Enable-AzureRmBackupContainerReregistration** cmdlet reregisters a server to connect to an Azure Backup vault and continue the Backup recovery point chain.
 
 If you destroy a server, all its cloud backup points remain in the Backup vault.
 If you create a replacement server and assign it the same fully qualified domain name, you can connect the server back to the same vault.

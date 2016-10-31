@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: .\Add-AzureRemoteAppUser.md
 schema: 2.0.0
 ms.assetid: 8369024F-4F2C-4153-B4B9-019EAFC05B4C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureRemoteAppUser
 
 ## SYNOPSIS
-Removes a user from an azure_2 RemoteApp collection.
+Removes a user from an Azure RemoteApp collection.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Remove-AzureRemoteAppUser [-CollectionName] <String> [-Type] <PrincipalProviderT
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRemoteAppUser** cmdlet removes a user from an azure_2 RemoteApp collection.
+The **Remove-AzureRemoteAppUser** cmdlet removes a user from an Azure RemoteApp collection.
 
 ## EXAMPLES
 
@@ -39,12 +39,12 @@ The **Remove-AzureRemoteAppUser** cmdlet removes a user from an azure_2 RemoteAp
 PS C:\>Remove-AzureRemoteAppUser -CollectionName "Contoso" -Type OrgId -UserUpn "PattiFuller@contoso.com"
 ```
 
-This command removes the azure_2 ActiveDirectory user PattiFuller@contoso.com from the Contoso collection.
+This command removes the Azure ActiveDirectory user PattiFuller@contoso.com from the Contoso collection.
 
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String

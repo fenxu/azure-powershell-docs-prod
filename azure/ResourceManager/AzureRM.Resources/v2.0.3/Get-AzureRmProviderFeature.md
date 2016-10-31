@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: .\Register-AzureRmProviderFeature.md
 schema: 2.0.0
 ms.assetid: 84F0E54B-294C-4FAD-A7D1-FC1B352B1337
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmProviderFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmProviderFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmProviderFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmProviderFeature
 
 ## SYNOPSIS
-Gets information about azure_2 provider features.
+Gets information about Azure provider features.
 
 ## SYNTAX
 
@@ -35,7 +35,7 @@ Get-AzureRmProviderFeature -ProviderNamespace <String> -FeatureName <String> [<C
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmProviderFeature** cmdlet gets the feature name, provider name, and registration status for azure_2 provider features.
+The **Get-AzureRmProviderFeature** cmdlet gets the feature name, provider name, and registration status for Azure provider features.
 
 ## EXAMPLES
 

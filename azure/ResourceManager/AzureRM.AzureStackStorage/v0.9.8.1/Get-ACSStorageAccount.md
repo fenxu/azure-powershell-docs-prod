@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
 online version: .\Sync-ACSStorageAccount.md
 schema: 2.0.0
 ms.assetid: 921ED1EF-72E5-43A8-80F5-7D4090813468
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSStorageAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -123,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -Detail
-Indicates that this cmdlet lists details about the azure_2 Consistent Storage (ACS) storage account.
+Indicates that this cmdlet lists details about the Azure Consistent Storage (ACS) storage account.
 
 ```yaml
 Type: SwitchParameter

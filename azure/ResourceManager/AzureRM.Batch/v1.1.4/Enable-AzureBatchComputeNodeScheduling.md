@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: .\Disable-AzureBatchComputeNodeScheduling.md
 schema: 2.0.0
 ms.assetid: 2C463937-AF16-4833-9484-F7B93A640674
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchComputeNodeScheduling.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchComputeNodeScheduling.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchComputeNodeScheduling.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -38,7 +38,7 @@ Enable-AzureBatchComputeNodeScheduling [[-ComputeNode] <PSComputeNode>] -BatchCo
 
 ## DESCRIPTION
 The **Enable-AzureBatchComputeNodeScheduling** cmdlet enables task scheduling on the specified compute node.
-A compute node is an azure_2 virtual machine dedicated to a specific application workload.
+A compute node is an Azure virtual machine dedicated to a specific application workload.
 
 ## EXAMPLES
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: .\Get-AzureRmBackupVault.md
 schema: 2.0.0
 ms.assetid: 842FB465-085D-41C6-86BC-9C57549DDE4B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Set-AzureRmBackupVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Set-AzureRmBackupVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Set-AzureRmBackupVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Set-AzureRmBackupVault [[-Storage] <AzureBackupVaultStorageType>] [-Vault] <Azur
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmBackupVault** cmdlet changes the storage type of an azure_2 Backup vault.
+The **Set-AzureRmBackupVault** cmdlet changes the storage type of an Azure Backup vault.
 You cannot modify other properties of a vault.
 
 ## EXAMPLES
@@ -40,7 +40,7 @@ You cannot modify other properties of a vault.
 PS C:\>Get-AzureRmBackupVault -Name "Vault03" | Set-AzureRmBackupVault -Storage LocallyRedundant
 ```
 
-This command gets the azure_2 Backup vault named Vault03 by using the **Get-AzureRmBackupVault** cmdlet.
+This command gets the Azure Backup vault named Vault03 by using the **Get-AzureRmBackupVault** cmdlet.
 The command passes that vault to the current cmdlet by using the pipeline operator.
 The current cmdlet changes the storage type to LocallyRedundant.
 

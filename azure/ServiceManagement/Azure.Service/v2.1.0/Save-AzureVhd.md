@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Add-AzureVhd.md
 schema: 2.0.0
 ms.assetid: 4E542B2F-A7A2-4B59-9E3C-504D62568053
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Save-AzureVhd.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Save-AzureVhd.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Save-AzureVhd.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -69,7 +69,7 @@ This command downloads a .vhd file and specifies the storage key.
 ## PARAMETERS
 
 ### -Source
-Specifies the Uniform Resource Identifier (URI) to the blob in `azure_2`.
+Specifies the Uniform Resource Identifier (URI) to the blob in `Azure`.
 
 ```yaml
 Type: Uri
@@ -161,7 +161,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -176,7 +185,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

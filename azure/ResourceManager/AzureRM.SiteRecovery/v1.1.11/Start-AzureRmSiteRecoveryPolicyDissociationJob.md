@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 2d551f2c-5dfe-42fc-bf3c-d34776c0892b
 schema: 2.0.0
 ms.assetid: B15516D0-40EB-4581-8C6A-8722D6F16834
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryPolicyDissociationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryPolicyDissociationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryPolicyDissociationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -38,7 +38,7 @@ Start-AzureRmSiteRecoveryPolicyDissociationJob -Policy <ASRPolicy>
 ```
 
 ## DESCRIPTION
-The **Start-AzureRmSiteRecoveryPolicyDissociationJob** cmdlet initiates a dissociation job on the replication policy associated with an azure_2 Site Recovery protection container.
+The **Start-AzureRmSiteRecoveryPolicyDissociationJob** cmdlet initiates a dissociation job on the replication policy associated with an Azure Site Recovery protection container.
 
 ## EXAMPLES
 
@@ -50,7 +50,7 @@ The **Start-AzureRmSiteRecoveryPolicyDissociationJob** cmdlet initiates a dissoc
 ## PARAMETERS
 
 ### -Policy
-Specifies an azure_2 Site Recovery policy object.
+Specifies an Azure Site Recovery policy object.
 
 ```yaml
 Type: ASRPolicy

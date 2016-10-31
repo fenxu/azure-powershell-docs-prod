@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 7C136900-5F0E-4B0C-8518-CF8954EBC3A7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Get-AzureRmRedisCacheKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Get-AzureRmRedisCacheKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Get-AzureRmRedisCacheKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Get-AzureRmRedisCacheKey -ResourceGroupName <String> -Name <String> [<CommonPara
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmRedisCacheKey** cmdlet gets the access keys for an azure_2 Redis Cache.
+The **Get-AzureRmRedisCacheKey** cmdlet gets the access keys for an Azure Redis Cache.
 
 ## EXAMPLES
 

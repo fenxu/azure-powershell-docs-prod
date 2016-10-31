@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Export-AzureRMAutomationRunbook.md
 schema: 2.0.0
 ms.assetid: 5C86545A-93DD-4B3C-96B2-FA6ED740448D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Start-AzureRmAutomationRunbook [-Name] <String> [-Parameters <IDictionary>] [-Ru
 ```
 
 ## DESCRIPTION
-The **Start-AzureRmAutomationRunbook** cmdlet starts an azure_2 Automation runbook job.
+The **Start-AzureRmAutomationRunbook** cmdlet starts an Azure Automation runbook job.
 Specify the ID or name of a runbook.
 
 ## EXAMPLES
@@ -52,7 +52,6 @@ This command starts a runbook job for the runbook named Runbk01 in the Azure Aut
 ## PARAMETERS
 
 ### -AutomationAccountName
-@{Text=}
 
 ```yaml
 Type: String
@@ -67,7 +66,6 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -82,7 +80,6 @@ Accept wildcard characters: False
 ```
 
 ### -Parameters
-@{Text=}
 
 ```yaml
 Type: IDictionary
@@ -97,7 +94,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -112,7 +108,6 @@ Accept wildcard characters: False
 ```
 
 ### -RunOn
-@{Text=}
 
 ```yaml
 Type: String
@@ -127,7 +122,6 @@ Accept wildcard characters: False
 ```
 
 ### -Wait
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -142,7 +136,6 @@ Accept wildcard characters: False
 ```
 
 ### -MaxWaitSeconds
-@{Text=}
 
 ```yaml
 Type: Int32

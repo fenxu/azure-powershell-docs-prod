@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: .\Import-AzureStorSimpleLegacyVolumeContainer.md
 schema: 2.0.0
 ms.assetid: F7A296C6-A3B7-453E-A8F6-D0AFDDF2D3B5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Import-AzureStorSimpleLegacyApplianceConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Import-AzureStorSimpleLegacyApplianceConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Import-AzureStorSimpleLegacyApplianceConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ Import-AzureStorSimpleLegacyApplianceConfig [-ConfigFilePath] <String> [-TargetD
 
 ## DESCRIPTION
 The **Import-AzureStorSimpleLegacyApplianceConfig** cmdlet imports the configuration file from the legacy appliance.
-That file contains information about volume containers, backup policies, and storage account credentials for the azure_2 StorSimple service.
+That file contains information about volume containers, backup policies, and storage account credentials for the Azure StorSimple service.
 This cmdlet returns the legacy appliance configuration metadata.
 
 ## EXAMPLES
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-Specifies an azure_2 profile.
+Specifies an Azure profile.
 
 ```yaml
 Type: AzureSMProfile

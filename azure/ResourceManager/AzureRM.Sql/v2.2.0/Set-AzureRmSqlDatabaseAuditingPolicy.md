@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 6b7fcdb4-8eec-4450-9081-57dde2bf9ed6
 schema: 2.0.0
 ms.assetid: 189488CC-0E60-4687-91E5-510771A0CB17
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlDatabaseAuditingPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlDatabaseAuditingPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlDatabaseAuditingPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -75,7 +75,6 @@ The command does not change the storage settings.
 ## PARAMETERS
 
 ### -AuditType
-@{Text=}
 
 ```yaml
 Type: AuditType
@@ -106,7 +105,6 @@ Accept wildcard characters: False
 ```
 
 ### -AuditActionGroup
-@{Text=}
 
 ```yaml
 Type: AuditActionGroups[]
@@ -121,7 +119,6 @@ Accept wildcard characters: False
 ```
 
 ### -AuditAction
-@{Text=}
 
 ```yaml
 Type: String[]

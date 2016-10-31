@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\Remove-AzureVNetGatewayDefaultSite.md
 schema: 2.0.0
 ms.assetid: C4790EB8-62C8-4A6C-A5DE-2BFCED985C71
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVNetGatewayDefaultSite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVNetGatewayDefaultSite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVNetGatewayDefaultSite.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ Set-AzureVNetGatewayDefaultSite [-VNetName] <String> [-DefaultSite] <String> [-P
 
 ## DESCRIPTION
 The **Set-AzureVNetGatewayDefaultSite** cmdlet sets the default route to the on-premises site for forced tunneling traffic.
-This command sets the route on an azure_2 virtual private network (VPN) gateway for a virtual network.
+This command sets the route on an Azure virtual private network (VPN) gateway for a virtual network.
 
 ## EXAMPLES
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Set-AzureVMDscExtension.md
 schema: 2.0.0
 ms.assetid: 8CA6F6D8-54E1-45D5-9EE5-EF4AA8F703D7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Publish-AzureVMDscConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Publish-AzureVMDscConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Publish-AzureVMDscConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Publish-AzureVMDscConfiguration
 
 ## SYNOPSIS
-Publishes a desired state configuration script to azure_2 blob storage.
+Publishes a desired state configuration script to Azure blob storage.
 
 ## SYNTAX
 
@@ -42,7 +42,7 @@ Publish-AzureVMDscConfiguration [-ConfigurationPath] <String> [-Force] [-Configu
 ```
 
 ## DESCRIPTION
-The **Publish-AzureVMDscConfiguration** cmdlet publishes a desired state configuration script to azure_2 blob storage, which later can be applied to azure_2 virtual machines using the Set-AzureVMDscExtension cmdlet.
+The **Publish-AzureVMDscConfiguration** cmdlet publishes a desired state configuration script to Azure blob storage, which later can be applied to Azure virtual machines using the Set-AzureVMDscExtension cmdlet.
 
 ## EXAMPLES
 
@@ -51,7 +51,7 @@ The **Publish-AzureVMDscConfiguration** cmdlet publishes a desired state configu
 PS C:\>Publish-AzureVMDscConfiguration .\MyConfiguration.ps1
 ```
 
-This command creates a .zip package for the given script and any dependent resource modules and uploads it to azure_2 storage.
+This command creates a .zip package for the given script and any dependent resource modules and uploads it to Azure storage.
 
 ### Example 2: Publish a state configuration script to a local file
 ```
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -ContainerName
-Specifies the name of the azure_2 storage container the configuration is uploaded to.
+Specifies the name of the Azure storage container the configuration is uploaded to.
 
 ```yaml
 Type: String
@@ -109,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageContext
-Specifies the azure_2 storage context that provides the security settings used to upload the configuration script to the container specified by the *ContainerName* parameter.
+Specifies the Azure storage context that provides the security settings used to upload the configuration script to the container specified by the *ContainerName* parameter.
 This context provides write access to the container.
 
 ```yaml
@@ -140,7 +140,6 @@ Accept wildcard characters: False
 ```
 
 ### -SkipDependencyDetection
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -155,7 +154,6 @@ Accept wildcard characters: False
 ```
 
 ### -ConfigurationDataPath
-@{Text=}
 
 ```yaml
 Type: String
@@ -170,7 +168,6 @@ Accept wildcard characters: False
 ```
 
 ### -AdditionalPath
-@{Text=}
 
 ```yaml
 Type: String[]
@@ -185,7 +182,6 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -215,7 +211,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -230,7 +235,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -245,7 +250,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -260,7 +266,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -276,7 +282,7 @@ Accept wildcard characters: False
 
 ### -ConfigurationArchivePath
 Specifies the path of a local .zip file that this cmdlet writes the configuration archive.
-The configuration script is not uploaded to azure_2 blob storage if you use this parameter.
+The configuration script is not uploaded to Azure blob storage if you use this parameter.
 
 ```yaml
 Type: String

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Get-AzureRMAutomationConnection.md
 schema: 2.0.0
 ms.assetid: 7FED73B4-73CF-4642-8E10-167EA6158372
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ New-AzureRmAutomationConnection [-Name] <String> [-ConnectionTypeName] <String>
 ```
 
 ## DESCRIPTION
-The **New-AzureRmAutomationConnection** cmdlet creates a connection in azure_2 Automation.
+The **New-AzureRmAutomationConnection** cmdlet creates a connection in Azure Automation.
 
 ## EXAMPLES
 
@@ -43,7 +43,7 @@ PS C:\> New-AzureRmAutomationConnection -Name "Connection12" -ConnectionTypeName
 
 The first command assigns a hash table of field values to the $FieldValue variable.
 
-The second command creates an azure_2 connection named Connection12 in the Automation account named AutomationAccount01.
+The second command creates an Azure connection named Connection12 in the Automation account named AutomationAccount01.
 The command uses the connection field values in $FieldValues.
 
 ## PARAMETERS

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: http://go.microsoft.com/FWLink/p/?LinkID=311701
 schema: 2.0.0
 ms.assetid: C364F751-3F48-4B69-9A7B-3EC48B255DC1
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Enable-AzureWebsiteApplicationDiagnostic.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Enable-AzureWebsiteApplicationDiagnostic.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Enable-AzureWebsiteApplicationDiagnostic.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -167,7 +167,6 @@ Accept wildcard characters: False
 ```
 
 ### -BlobStorage
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -198,7 +197,6 @@ Accept wildcard characters: False
 ```
 
 ### -StorageBlobContainerName
-@{Text=}
 
 ```yaml
 Type: String
@@ -213,7 +211,6 @@ Accept wildcard characters: False
 ```
 
 ### -StorageTableName
-@{Text=}
 
 ```yaml
 Type: String
@@ -228,7 +225,6 @@ Accept wildcard characters: False
 ```
 
 ### -TableStorage
-@{Text=}
 
 ```yaml
 Type: SwitchParameter

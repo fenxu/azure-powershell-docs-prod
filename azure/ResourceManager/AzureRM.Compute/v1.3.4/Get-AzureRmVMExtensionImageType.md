@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Get-AzureRmVMExtensionImage.md
 schema: 2.0.0
 ms.assetid: 96828771-1E43-4F85-8A58-EA68E2D0F90A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImageType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImageType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImageType.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmVMExtensionImageType
 
 ## SYNOPSIS
-Gets the type of an azure_2 extension.
+Gets the type of an Azure extension.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureRmVMExtensionImageType -Location <String> -PublisherName <String>
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmVMExtensionImageType** cmdlet gets the type of an azure_2 extension.
+The **Get-AzureRmVMExtensionImageType** cmdlet gets the type of an Azure extension.
 
 ## EXAMPLES
 
@@ -77,7 +77,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -92,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: .\Get-AzureRmResource.md
 schema: 2.0.0
 ms.assetid: F8BB065B-E6E9-49AE-A7AB-815068C40F23
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Set-AzureRmResourceGroup [-Tag] <Hashtable[]> [-Id] <String> [-ApiVersion <Strin
 
 ## DESCRIPTION
 The **Set-AzureRmResourceGroup** cmdlet modifies the properties of a resource group.
-You can use this cmdlet to add, change, or delete the azure_2 tags applied to a resource group.
+You can use this cmdlet to add, change, or delete the Azure tags applied to a resource group.
 Specify the *Name* parameter to identify the resource group and the *Tag* parameter to modify the tags.
 
 You cannot use this cmdlet to change the name of a resource group.

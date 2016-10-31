@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=397619
 schema: 2.0.0
 ms.assetid: 358FBB41-479C-4232-B31A-A9C2289E2D31
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Add-AzureEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Add-AzureEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Add-AzureEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -229,7 +229,6 @@ Accept wildcard characters: False
 ```
 
 ### -GraphEndpoint
-@{Text=}
 
 ```yaml
 Type: String
@@ -244,7 +243,6 @@ Accept wildcard characters: False
 ```
 
 ### -AzureKeyVaultDnsSuffix
-@{Text=}
 
 ```yaml
 Type: String
@@ -259,7 +257,6 @@ Accept wildcard characters: False
 ```
 
 ### -AzureKeyVaultServiceEndpointResourceId
-@{Text=}
 
 ```yaml
 Type: String
@@ -274,7 +271,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureSMProfile
@@ -289,7 +285,6 @@ Accept wildcard characters: False
 ```
 
 ### -AdTenant
-@{Text=}
 
 ```yaml
 Type: String
@@ -304,7 +299,6 @@ Accept wildcard characters: False
 ```
 
 ### -EnableAdfsAuthentication
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -319,7 +313,6 @@ Accept wildcard characters: False
 ```
 
 ### -SqlDatabaseDnsSuffix
-@{Text=}
 
 ```yaml
 Type: String
@@ -334,7 +327,6 @@ Accept wildcard characters: False
 ```
 
 ### -TrafficManagerDnsSuffix
-@{Text=}
 
 ```yaml
 Type: String

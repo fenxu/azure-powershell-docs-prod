@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 4fbb7795-a5d9-4632-8e02-8c533dd9c739
 schema: 2.0.0
 ms.assetid: CC828AF0-5A91-423C-8B14-2B9305AB4783
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureVNetGatewayKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureVNetGatewayKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureVNetGatewayKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureVNetGatewayKey
 
 ## SYNOPSIS
-Sets the pre-shared key for the connection between an azure_2 VPN gateway and a local network site.
+Sets the pre-shared key for the connection between an Azure VPN gateway and a local network site.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Set-AzureVNetGatewayKey [-VNetName] <String> [-LocalNetworkSiteName] <String> [-
 ```
 
 ## DESCRIPTION
-The **Set-AzureVNetGatewayKey** cmdlet sets the pre-shared key for the connection between an azure_2 virtual private network (VPN) gateway and an on-premises local network site.
+The **Set-AzureVNetGatewayKey** cmdlet sets the pre-shared key for the connection between an Azure virtual private network (VPN) gateway and an on-premises local network site.
 The key must be equal to the key configured on the gateway of the local network site.
 If the keys do not match, a connection cannot establish.
 

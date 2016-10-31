@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: .\Get-AzureRmBackupVault.md
 schema: 2.0.0
 ms.assetid: 1800F1EE-FE68-42EB-AB56-A8D464B84793
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Register-AzureRmBackupContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Register-AzureRmBackupContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Register-AzureRmBackupContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,10 +37,10 @@ Register-AzureRmBackupContainer -Name <String> -ResourceGroupName <String> [-Vau
 ```
 
 ## DESCRIPTION
-The **Register-AzureRmBackupContainer** cmdlet registers the container with an azure_2 Backup vault.
-To configure backup by using azure_2 Backup, first register your server or virtual machine with a Backup vault.
+The **Register-AzureRmBackupContainer** cmdlet registers the container with an Azure Backup vault.
+To configure backup by using Azure Backup, first register your server or virtual machine with a Backup vault.
 This cmdlet registers an infrastructure as a service (IaaS) virtual machine with the specified vault.
-The register operation associates the azure_2 virtual machine with the backup vault and tracks the virtual machine through the backup life cycle.
+The register operation associates the Azure virtual machine with the backup vault and tracks the virtual machine through the backup life cycle.
 
 ## EXAMPLES
 

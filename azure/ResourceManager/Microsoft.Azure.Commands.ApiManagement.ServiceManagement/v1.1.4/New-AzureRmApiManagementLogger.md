@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: .\Get-AzureRmApiManagementLogger.md
 schema: 2.0.0
 ms.assetid: 17D53F56-6E3B-491E-8776-5EBE109FBE3C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementLogger.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementLogger.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementLogger.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ New-AzureRmApiManagementLogger -Context <PsApiManagementContext> [-LoggerId <Str
 ```
 
 ## DESCRIPTION
-The **New-AzureRmApiManagementLogger** cmdlet creates an azure_2 API Management **Logger**.
+The **New-AzureRmApiManagementLogger** cmdlet creates an Azure API Management **Logger**.
 
 ## EXAMPLES
 
@@ -108,7 +108,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -123,7 +132,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -138,7 +147,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the entity name of an event hub from azure_2 classic portal.
+Specifies the entity name of an event hub from Azure classic portal.
 
 ```yaml
 Type: String
@@ -153,7 +162,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionString
-Specifies an azure_2 Event Hubs connection string that starts with the following: 
+Specifies an Azure Event Hubs connection string that starts with the following: 
 
 `Endpoint=endpoint and key from Azure classic portal`
 

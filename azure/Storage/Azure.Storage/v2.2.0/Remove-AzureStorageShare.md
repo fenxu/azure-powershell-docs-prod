@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageShare.md
 schema: 2.0.0
 ms.assetid: F9A0F4E1-3677-4786-BD84-D3645C61BACA
-updated_at: 10/28/2016 9:32 PM
-ms.date: 10/28/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Remove-AzureStorageShare.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fb3c79eb3effd4c9e448c0dd4bc104a378251bc8/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Remove-AzureStorageShare.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Remove-AzureStorageShare.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -217,7 +217,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-@{Text=}
+Stores the value of the current pipeline element as a variable, for any named command as it flows through the pipeline.
 
 ```yaml
 Type: String

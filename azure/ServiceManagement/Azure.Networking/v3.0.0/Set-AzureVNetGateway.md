@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 12e991fe-45c2-48c6-af0f-738d93021e5c
 schema: 2.0.0
 ms.assetid: E2145345-5413-4BA5-BDC5-7498213080C6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureVNetGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureVNetGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureVNetGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureVNetGateway
 
 ## SYNOPSIS
-Enables or disables a VPN gateway for an azure_2 virtual network.
+Enables or disables a VPN gateway for an Azure virtual network.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ Set-AzureVNetGateway [-Disconnect] [-VNetName] <String> [-LocalNetworkSiteName] 
 ```
 
 ## DESCRIPTION
-The **Set-AzureVNetGateway** cmdlet enables or disables a virtual private network (VPN) gateway for an azure_2 virtual network.
+The **Set-AzureVNetGateway** cmdlet enables or disables a virtual private network (VPN) gateway for an Azure virtual network.
 A virtual network gateway is a VPN endpoint for connecting to a virtual network.
 Specify the *Connect* or *Disconnect* parameter to enable or disable the VPN connection between an on-premises local network site and a virtual network.
 
@@ -48,14 +48,14 @@ Specify the *Connect* or *Disconnect* parameter to enable or disable the VPN con
 PS C:\>Set-AzureVNetGateway -Connect -VnetName "ContosoProdNet" -LocalNetworkSiteName "ContosoBranchOffice"
 ```
 
-This command enables the virtual network gateway between the azure_2 virtual network named ContosoProdNet and the VPN device for the local network site named ContosoBranchOffice.
+This command enables the virtual network gateway between the Azure virtual network named ContosoProdNet and the VPN device for the local network site named ContosoBranchOffice.
 
 ### Example 2: Disable a virtual network gateway for a virtual network
 ```
 PS C:\>Set-AzureVNetGateway -Disconnect -VnetName "ContosoProdNet" -LocalNetworkSiteName "ContosoBranchOffice"
 ```
 
-This command disables the virtual network gateway between the azure_2 virtual network named ContosoProdNet and the VPN device for the local network site named ContosoBranchOffice.
+This command disables the virtual network gateway between the Azure virtual network named ContosoProdNet and the VPN device for the local network site named ContosoBranchOffice.
 
 ## PARAMETERS
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Get-AzureInternalLoadBalancer.md
 schema: 2.0.0
 ms.assetid: CBDE7141-7332-4884-A0F9-2E5D3A4D76BD
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Add-AzureInternalLoadBalancer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Add-AzureInternalLoadBalancer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Add-AzureInternalLoadBalancer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Add-AzureInternalLoadBalancer
 
 ## SYNOPSIS
-Adds an internal load balancer to an azure_2 service.
+Adds an internal load balancer to an Azure service.
 
 ## SYNTAX
 
@@ -46,7 +46,7 @@ Add-AzureInternalLoadBalancer [-InternalLoadBalancerName] <String> [-ServiceName
 ```
 
 ## DESCRIPTION
-The **Add-AzureInternalLoadBalancer** cmdlet adds an internal load balancer configuration to an azure_2 service.
+The **Add-AzureInternalLoadBalancer** cmdlet adds an internal load balancer configuration to an Azure service.
 For a virtual network, you can specify a subnet or the IP address of the internal load balancer.
 
 ## EXAMPLES
@@ -122,7 +122,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -137,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

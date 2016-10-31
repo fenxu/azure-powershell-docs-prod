@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\Set-AzureApplicationGatewayConfig.md
 schema: 2.0.0
 ms.assetid: EA9FBECA-A09F-478C-BDDE-851A937419AD
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureApplicationGatewayConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureApplicationGatewayConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureApplicationGatewayConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Get-AzureApplicationGatewayConfig [-Name] <String> [-ExportToFile <String>] [-Pr
 ```
 
 ## DESCRIPTION
-The **Get-AzureApplicationGatewayConfig** cmdlet gets an azure_2 Application Gateway configuration context.
+The **Get-AzureApplicationGatewayConfig** cmdlet gets an Azure Application Gateway configuration context.
 A context includes both a configuration object and XML configuration.
 You can save the XML configuration to a file.
 

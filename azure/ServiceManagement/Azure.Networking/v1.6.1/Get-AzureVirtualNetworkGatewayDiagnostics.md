@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\Start-AzureVirtualNetworkGatewayDiagnostics.md
 schema: 2.0.0
 ms.assetid: 25194B68-47AF-4C09-8D41-A1FE4D50B626
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureVirtualNetworkGatewayDiagnostics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureVirtualNetworkGatewayDiagnostics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureVirtualNetworkGatewayDiagnostics.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureVirtualNetworkGatewayDiagnostics
 
 ## SYNOPSIS
-Gets the results of azure_2 virtual network gateway diagnostics.
+Gets the results of Azure virtual network gateway diagnostics.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureVirtualNetworkGatewayDiagnostics [-GatewayId] <String> [-Profile <Azure
 ```
 
 ## DESCRIPTION
-The **Get-AzureVirtualNetworkGatewayDiagnostics** cmdlet gets the results of azure_2 virtual network gateway diagnostics.
+The **Get-AzureVirtualNetworkGatewayDiagnostics** cmdlet gets the results of Azure virtual network gateway diagnostics.
 
 ## EXAMPLES
 

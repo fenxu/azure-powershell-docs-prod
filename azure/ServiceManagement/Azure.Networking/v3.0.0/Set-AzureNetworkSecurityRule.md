@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 3cb862d2-c316-4135-a59a-65441f00ad96
 schema: 2.0.0
 ms.assetid: 045041BF-855D-47A2-9D18-9D4BBB0525EA
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureNetworkSecurityRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureNetworkSecurityRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureNetworkSecurityRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -32,7 +32,7 @@ Set-AzureNetworkSecurityRule -Name <String> -Type <String> -Priority <Int32> -Ac
 ```
 
 ## DESCRIPTION
-The **Set-AzureNetworkSecurityRule** cmdlet adds or modifies an azure_2 network security rule in a network security group.
+The **Set-AzureNetworkSecurityRule** cmdlet adds or modifies an Azure network security rule in a network security group.
 
 ## EXAMPLES
 

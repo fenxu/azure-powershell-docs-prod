@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.TrafficManager.dll-Help.xml
 online version: .\Disable-AzureRmTrafficManagerEndpoint.md
 schema: 2.0.0
 ms.assetid: 3BF23105-1527-47FF-B4D6-5142D3AD3A0B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v1.0/New-AzureRmTrafficManagerEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v1.0/New-AzureRmTrafficManagerEndpoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v1.0/New-AzureRmTrafficManagerEndpoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ New-AzureRmTrafficManagerEndpoint -Name <String> -ProfileName <String> -Resource
 ```
 
 ## DESCRIPTION
-The **New-AzureRmTrafficManagerEndpoint** cmdlet creates an endpoint in an azure_2 Traffic Manager profile.
+The **New-AzureRmTrafficManagerEndpoint** cmdlet creates an endpoint in an Azure Traffic Manager profile.
 
 This cmdlet commits each new endpoint to the Traffic Manager service.
 To add multiple endpoints to a local Traffic Manager profile object and commit changes in a single operation, use the Add-AzureRmTrafficManagerEndpointConfig cmdlet.
@@ -50,8 +50,8 @@ This command creates an external endpoint named contoso in the profile named Con
 PS C:\>New-AzureRmTrafficManagerEndpoint -EndpointStatus Enabled -Name "contoso" -ProfileName "ContosoProfile" -ResourceGroupName "ResourceGroup11" -Type AzureEndpoints -Priority 1 -TargetResourceId "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/Default-Web-CentralUS/providers/Microsoft.Web/sites/contoso-web-app" -Weight 10
 ```
 
-This command creates an azure_2 endpoint named contoso in the profile named ContosoProfile in resource group ResouceGroup11.
-The azure_2 endpoint points to the azure_2 Web App whose azure_2 Resource Manager ID is given by the URI path in *TargetResourceId*.
+This command creates an Azure endpoint named contoso in the profile named ContosoProfile in resource group ResouceGroup11.
+The Azure endpoint points to the Azure Web App whose Azure Resource Manager ID is given by the URI path in *TargetResourceId*.
 The command does not specify the *EndpointLocation* parameter because the Web App resource supplies the location.
 
 ## PARAMETERS
@@ -61,8 +61,8 @@ Specifies the location of the endpoint to use in the Performance traffic-routing
 This parameter is only applicable to endpoints of the ExternalEndpoints or NestedEndpoints type.
 You must specify this parameter when the Performance traffic-routing method is used.
 
-Specify an azure_2 region name.
-For a full list of azure_2 regions, see Azure Regionshttp://azure.microsoft.com/regions/ (http://azure.microsoft.com/regions/).
+Specify an Azure region name.
+For a full list of Azure regions, see Azure Regionshttp://azure.microsoft.com/regions/ (http://azure.microsoft.com/regions/).
 
 ```yaml
 Type: String
@@ -99,8 +99,8 @@ Accept wildcard characters: False
 ```
 
 ### -MinChildEndpoints
-Specify an azure_2 region name.
-For a full list of azure_2 regions, see Azure Regionshttp://azure.microsoft.com/regions/ (http://azure.microsoft.com/regions/).
+Specify an Azure region name.
+For a full list of Azure regions, see Azure Regionshttp://azure.microsoft.com/regions/ (http://azure.microsoft.com/regions/).
 
 ```yaml
 Type: UInt32

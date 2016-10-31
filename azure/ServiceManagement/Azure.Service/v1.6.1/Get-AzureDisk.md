@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Add-AzureDisk.md
 schema: 2.0.0
 ms.assetid: 15539858-E60B-4155-BB5C-3E9EAE90CC63
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureDisk
 
 ## SYNOPSIS
-Gets information about disks in the azure_2 disk repository.
+Gets information about disks in the Azure disk repository.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureDisk [[-DiskName] <String>] [-Profile <AzureSMProfile>] [-InformationAc
 ```
 
 ## DESCRIPTION
-The **Get-AzureDisk** cmdlet gets information about the disks that are stored in the azure_2 disk repository for the current subscription.
+The **Get-AzureDisk** cmdlet gets information about the disks that are stored in the Azure disk repository for the current subscription.
 This cmdlet returns a list of information for all disks in the repository.
 To view information for a specific disk, specify the name of the disk.
 
@@ -93,7 +93,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -108,7 +117,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

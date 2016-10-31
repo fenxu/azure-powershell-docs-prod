@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 848333F0-4687-4E7C-A775-1C6F148AA111
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Disable-AzureServiceProjectRemoteDesktop.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Disable-AzureServiceProjectRemoteDesktop.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Disable-AzureServiceProjectRemoteDesktop.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -44,7 +44,6 @@ You must publish the service using the **Publish-AzureServiceProject** cmdlet af
 ## PARAMETERS
 
 ### -PassThru
-@{Text=}
 
 ```yaml
 Type: SwitchParameter

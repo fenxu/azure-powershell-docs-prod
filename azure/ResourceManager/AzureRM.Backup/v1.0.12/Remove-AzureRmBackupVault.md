@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: .\Get-AzureRmBackupVault.md
 schema: 2.0.0
 ms.assetid: EAE6DB41-9F9D-40C1-A5E9-212161C76EBF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Remove-AzureRmBackupVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Remove-AzureRmBackupVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Remove-AzureRmBackupVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Remove-AzureRmBackupVault [-Force] [-Vault] <AzureRMBackupVault> [-WhatIf] [-Con
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmBackupVault** cmdlet deletes an azure_2 Backup vault.
+The **Remove-AzureRmBackupVault** cmdlet deletes an Azure Backup vault.
 
 Before you can delete a Backup vault, it must be empty.
 Use the **Remove-AzureRmBackupContainer** cmdlet to remove infrastructure as a service (IaaS) virtual machine backup data from the vault.
@@ -42,7 +42,7 @@ Use the **Delete-RegisteredServer** cmdlet to remove other registered servers an
 PS C:\>Get-AzureRmBackupVault -Name "Vault03" | Remove-AzureRmBackupVault
 ```
 
-This command gets the azure_2 Backup vault named Vault03 by using the **Get-AzureRmBackupVault** cmdlet.
+This command gets the Azure Backup vault named Vault03 by using the **Get-AzureRmBackupVault** cmdlet.
 The command passes that vault to the current cmdlet by using the pipeline operator.
 The current cmdlet removes the vault.
 
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -80,7 +80,6 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -95,7 +94,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

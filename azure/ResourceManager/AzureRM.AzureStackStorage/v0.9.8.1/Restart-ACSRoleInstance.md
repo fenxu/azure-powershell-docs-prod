@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
 online version: .\Get-ACSRoleInstance.md
 schema: 2.0.0
 ms.assetid: B9682BCF-4777-457C-91C1-EF1257D83757
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Restart-ACSRoleInstance.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Restart-ACSRoleInstance.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Restart-ACSRoleInstance.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Restart-ACSRoleInstance
 
 ## SYNOPSIS
-Restarts a role instance in the azure_2 consistent storage system.
+Restarts a role instance in the Azure consistent storage system.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Restart-ACSRoleInstance [-FarmName] <String> [-RoleType] <RoleType> [-InstanceId
 ```
 
 ## DESCRIPTION
-The **Restart-ACSRoleInstance** cmdlet restarts a role instance in the azure_2 consistent storage (ACS) system.
+The **Restart-ACSRoleInstance** cmdlet restarts a role instance in the Azure consistent storage (ACS) system.
 
 ## EXAMPLES
 
@@ -46,7 +46,7 @@ PS C:\> Restart-ACSRoleInstance -SubscriptionId $SubscriptId -Token $Token -Admi
 ```
 
 This first command gets an ACS farm based on URL and resource group name and stores it in the variable named $Farm.
-The final command restarts a specific role instance in the azure_2 consistent storage system based on the ACS Farm.
+The final command restarts a specific role instance in the Azure consistent storage system based on the ACS Farm.
 
 ## PARAMETERS
 
@@ -182,7 +182,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -197,7 +198,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter

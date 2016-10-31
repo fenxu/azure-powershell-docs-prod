@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataLakeAnalytics.dll-Help.xml
 online version: .\Get-AzureRmDataLakeAnalyticsCatalogItem.md
 schema: 2.0.0
 ms.assetid: 006D22AF-7A2A-45A1-BD38-35E1B750A7E5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Test-AzureRmDataLakeAnalyticsCatalogItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Test-AzureRmDataLakeAnalyticsCatalogItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Test-AzureRmDataLakeAnalyticsCatalogItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ Test-AzureRmDataLakeAnalyticsCatalogItem [-Account] <String> [-ItemType] <Catalo
 ```
 
 ## DESCRIPTION
-The **Test-AzureRmDataLakeAnalyticsCatalogItem** cmdlet checks for the existence of an azure_2 Data Lake Analytics catalog item.
+The **Test-AzureRmDataLakeAnalyticsCatalogItem** cmdlet checks for the existence of an Azure Data Lake Analytics catalog item.
 
 ## EXAMPLES
 
@@ -105,7 +105,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -120,7 +129,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

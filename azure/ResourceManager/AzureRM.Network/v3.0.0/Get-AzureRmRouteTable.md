@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: 5bf95042-ccdb-466b-bb22-2e6ba52d2e3d
 schema: 2.0.0
 ms.assetid: 4D7D5E14-1F9F-4FF4-BBEC-B53A70FCBE84
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmRouteTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmRouteTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmRouteTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -125,7 +125,6 @@ Accept wildcard characters: False
 ```
 
 ### -ExpandResource
-@{Text=}
 
 ```yaml
 Type: String

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: .\Get-AzureStorageBlob.md
 schema: 2.0.0
 ms.assetid: F08D2DE2-A276-439C-B9A8-EE187A8C334E
-updated_at: 10/31/2016 6:30 PM
+updated_at: 10/31/2016 9:17 PM
 ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageBlobSASToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3495bfe56dd8fafec55b33cf4547ab820e372d9d/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageBlobSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageBlobSASToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -290,7 +290,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-@{Text=}
+Stores the value of the current pipeline element as a variable, for any named command as it flows through the pipeline.
 
 ```yaml
 Type: String
