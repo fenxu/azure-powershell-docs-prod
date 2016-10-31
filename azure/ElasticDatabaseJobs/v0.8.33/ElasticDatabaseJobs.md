@@ -9,6 +9,7 @@ updated_at: 10/27/2016 10:54 PM
 ms.date: 10/27/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/814492a0f709b7d627329f19e978a67923b91f1c/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
+uid: ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: active-directory
