@@ -1,13 +1,13 @@
 ---
 Module Name: Azure.Storage
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
-Download Help Link: Please enter FwLink manually
-Help Version: Please enter version of help manually (X.X.X.X) format
+Download Help Link: ./Azure.Storage.md
+Help Version: 
 Locale: en-US
-updated_at: 10/27/2016 9:26 PM
-ms.date: 10/27/2016
+updated_at: 10/31/2016 6:36 PM
+ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Azure.Storage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Azure.Storage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42f6fe9c6f5a6249c3a75584ae45b7cf87ba6e46/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Azure.Storage.md
 uid: Storage/Azure.Storage/v2.2.0/Azure.Storage.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -266,6 +266,3 @@ Stops a copy operation.
 
 ### [Stop-AzureStorageFileCopy](./Stop-AzureStorageFileCopy.md)
 Stops a copy operation to the specified destination file.
-
-
-
