@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Get-AzureRmAutomationDscCompilationJob.md
 schema: 2.0.0
 ms.assetid: D1D461AB-138F-42F2-8FAF-E651A8310B08
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 5:01 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRmAutomationDscCompilationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRmAutomationDscCompilationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75279ab36766bf1d1bdeb1e257c69290170d4109/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRmAutomationDscCompilationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ Start-AzureRmAutomationDscCompilationJob [-ConfigurationName] <String> [-Paramet
 ```
 
 ## DESCRIPTION
-The **Start-AzureRmAutomationDscCompilationJob** cmdlet compiles an APS Desired State Configuration (DSC) configuration in Azure Automation.
+The **Start-AzureRmAutomationDscCompilationJob** cmdlet compiles an Azure PowerShell Desired State Configuration (DSC) configuration in Azure Automation.
 
 ## EXAMPLES
 
@@ -54,7 +54,7 @@ Specifies the name of the Automation account that contains the DSC configuration
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -69,7 +69,7 @@ Specifies a dictionary of configuration data for DSC configuration.
 ```yaml
 Type: IDictionary
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -99,7 +99,7 @@ Specifies a dictionary of parameters that this cmdlet uses to compile the DSC co
 ```yaml
 Type: IDictionary
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -114,7 +114,7 @@ Specifies the name of a resource group in which this cmdlet compiles a configura
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -137,5 +137,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmAutomationDscCompilationJob](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscCompilationJob.md)
 
 [Get-AzureRmAutomationDscCompilationJobOutput](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscCompilationJobOutput.md)
-
-

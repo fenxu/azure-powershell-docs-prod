@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Export-AzureRmAutomationDscConfiguration.md
 schema: 2.0.0
 ms.assetid: 9E316628-0101-4DA8-8A9F-843F8442E52D
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 5:01 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Import-AzureRmAutomationDscConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Import-AzureRmAutomationDscConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75279ab36766bf1d1bdeb1e257c69290170d4109/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Import-AzureRmAutomationDscConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,8 +31,8 @@ Import-AzureRmAutomationDscConfiguration -SourcePath <String> [-Tags <IDictionar
 ```
 
 ## DESCRIPTION
-The **Import-AzureRmAutomationDscConfiguration** cmdlet imports an APS Desired State Configuration (DSC) configuration into Azure Automation.
-Specify the path of an APS script that contains a single DSC configuration.
+The **Import-AzureRmAutomationDscConfiguration** cmdlet imports an Azure PowerShell Desired State Configuration (DSC) configuration into Azure Automation.
+Specify the path of an Azure PowerShell script that contains a single DSC configuration.
 
 ## EXAMPLES
 

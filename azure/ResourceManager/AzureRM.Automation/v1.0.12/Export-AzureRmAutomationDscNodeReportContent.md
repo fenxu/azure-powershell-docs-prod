@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Export-AzureRmAutomationDscNodeReportContent.md
 schema: 2.0.0
 ms.assetid: 0BFB6A70-3A4A-4E58-A0B9-E41EB52A90EF
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 5:01 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscNodeReportContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscNodeReportContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75279ab36766bf1d1bdeb1e257c69290170d4109/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscNodeReportContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Export-AzureRmAutomationDscNodeReportContent -NodeId <Guid> -ReportId <Guid> [-O
 ```
 
 ## DESCRIPTION
-The **Export-AzureRmAutomationDscNodeReportContent** cmdlet exports the raw contents of an APS Desired State Configuration (DSC) report.
+The **Export-AzureRmAutomationDscNodeReportContent** cmdlet exports the raw contents of an Azure PowerShell Desired State Configuration (DSC) report.
 A DSC node sends a DSC report to Azure Automation.
 
 ## EXAMPLES

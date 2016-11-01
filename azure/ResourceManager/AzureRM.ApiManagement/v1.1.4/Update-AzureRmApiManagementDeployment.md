@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: .\Get-AzureRmApiManagement.md
 schema: 2.0.0
 ms.assetid: 166E3BD3-929D-4213-AEBC-411E2E8F50A2
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 5:01 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Update-AzureRmApiManagementDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Update-AzureRmApiManagementDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75279ab36766bf1d1bdeb1e257c69290170d4109/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Update-AzureRmApiManagementDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -69,7 +69,7 @@ Specifies the name of resource group under which API Management exists.
 ```yaml
 Type: String
 Parameter Sets: Specific API Management service
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -84,7 +84,7 @@ Specifies the name of API Management that this cmdlet updates.
 ```yaml
 Type: String
 Parameter Sets: Specific API Management service
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -96,7 +96,7 @@ Accept wildcard characters: False
 ### -Location
 Specifies the location of the master API Management deployment region.
 
-psdx_paramvalues
+The acceptable values for this parameter are:
 
 - North Central US
 - South Central US
@@ -117,7 +117,7 @@ psdx_paramvalues
 ```yaml
 Type: String
 Parameter Sets: Specific API Management service
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -129,7 +129,7 @@ Accept wildcard characters: False
 ### -Sku
 Specifies the tier of the master Azure API Management deployment region.
 
-psdx_paramvalues
+The acceptable values for this parameter are:
 
 - Developer
 - Standard
@@ -138,7 +138,7 @@ psdx_paramvalues
 ```yaml
 Type: PsApiManagementSku
 Parameter Sets: Specific API Management service
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -153,7 +153,7 @@ Specifies the SKU capacity of the master Azure API Management deployment region.
 ```yaml
 Type: Int32
 Parameter Sets: Specific API Management service
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -168,7 +168,7 @@ Specifies the Virtual Network configuration of the master Azure API Management d
 ```yaml
 Type: PsApiManagementVirtualNetwork
 Parameter Sets: Specific API Management service
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -183,7 +183,7 @@ Specifies additional deployment regions of Azure API Management.
 ```yaml
 Type: System.Collections.Generic.IList`1[Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagementRegion]
 Parameter Sets: Specific API Management service
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -193,12 +193,13 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-passthru
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -214,7 +215,7 @@ Use this parameter if the instance already has all the required changes.
 ```yaml
 Type: PsApiManagement
 Parameter Sets: Update from PsApiManagement instance
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -274,5 +275,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v1.1.4/Get-AzureRmApiManagement.md)
-
-
