@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 441B9A03-B06D-4B67-91F2-09CB78C11330
-updated_at: 10/27/2016 11:46 PM
-ms.date: 10/27/2016
+updated_at: 11/1/2016 11:00 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a76928b576fb6d6dd5270c579171107be1494a14/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -72,7 +72,18 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}```yaml
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
 Type: ActionPreference
 Parameter Sets: (All)
 Aliases: infa
@@ -85,7 +96,9 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}```yaml
+Specifies an information variable.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv
