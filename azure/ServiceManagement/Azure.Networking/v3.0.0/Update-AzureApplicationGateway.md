@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 75505bf1-69c2-4502-a161-f06527c20d34
 schema: 2.0.0
 ms.assetid: 0079028F-32BD-4F37-AA6A-C578E7AC8D79
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 8:11 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Update-AzureApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Update-AzureApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/76d389e6f4656b8cb2f1cc90ba2be7be7f3ff754/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Update-AzureApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -77,7 +77,7 @@ Specifies the name of the application gateway that this cmdlet updates.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -95,7 +95,7 @@ To stop the application gateway, use **Stop-AzureApplicationGateway**.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -113,7 +113,7 @@ To stop the application gateway, use the Stop-AzureApplicationGateway cmdlet.
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -128,7 +128,7 @@ Specifies the number of instances that this cmdlet assigns to the application ga
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -139,16 +139,16 @@ Accept wildcard characters: False
 
 ### -GatewaySize
 Specifies the size that this cmdlet assigns to the application gateway.
-Valid values are: 
+Valid values are:
 
-- Small 
+- Small
 - Medium
 - Large
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -163,7 +163,7 @@ Specifies a description that this cmdlet assigns to the application gateway.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -173,12 +173,14 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies the Azure profile from which this cmdlet reads.
+If you do not specify a profile, this cmdlet reads from the local default profile.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -211,5 +213,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Start-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v3.0.0/Start-AzureApplicationGateway.md)
 
 [Stop-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v3.0.0/Stop-AzureApplicationGateway.md)
-
-

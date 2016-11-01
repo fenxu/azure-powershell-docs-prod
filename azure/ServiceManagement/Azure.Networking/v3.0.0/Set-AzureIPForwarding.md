@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 08303a86-a014-4f8a-b3fc-d4931701bf72
 schema: 2.0.0
 ms.assetid: 4E888699-D5C0-458A-9AA9-945AA2181BA5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 8:11 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureIPForwarding.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureIPForwarding.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/76d389e6f4656b8cb2f1cc90ba2be7be7f3ff754/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureIPForwarding.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -81,7 +81,7 @@ Indicates that this cmdlet disables IP forwarding.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: DisableIaaSIPForwardingParamSet, DisableSlotIPForwardingParamSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -96,7 +96,7 @@ Indicates that this cmdlet enables IP forwarding.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: EnableIaaSIPForwardingParamSet, EnableSlotIPForwardingParamSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -111,7 +111,7 @@ Specifies the name of the network adapter on which this cmdlet sets IP forwardin
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -121,12 +121,13 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-passthru
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -151,12 +152,14 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies the Azure profile from which this cmdlet reads.
+If you do not specify a profile, this cmdlet reads from the local default profile.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -171,7 +174,7 @@ Specifies the name of a PaaS role on which this cmdlet sets IP forwarding.
 ```yaml
 Type: String
 Parameter Sets: EnableSlotIPForwardingParamSet, DisableSlotIPForwardingParamSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -187,7 +190,7 @@ The PaaS role belongs to the service that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -199,17 +202,17 @@ Accept wildcard characters: False
 ### -Slot
 Specifies a PaaS slot.
 The PaaS role for which this cmdlet sets forwarding has the slot that this parameter specifies.
-Valid values are: 
+Valid values are:
 
 - Production
-- Staging 
+- Staging
 
 The default value is Production.
 
 ```yaml
 Type: String
 Parameter Sets: EnableSlotIPForwardingParamSet, DisableSlotIPForwardingParamSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -224,7 +227,7 @@ Specifies the virtual machine object on which this cmdlet sets IP forwarding.
 ```yaml
 Type: PersistentVMRoleContext
 Parameter Sets: EnableIaaSIPForwardingParamSet, DisableIaaSIPForwardingParamSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -247,5 +250,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureIPForwarding](xref:ServiceManagement/Azure.Networking/v3.0.0/Get-AzureIPForwarding.md)
-
-

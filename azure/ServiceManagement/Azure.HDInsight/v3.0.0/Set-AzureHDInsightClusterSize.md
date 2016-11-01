@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 5BD9DDDF-5712-4D7E-9E1C-A4B52FC3313F
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 8:11 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Set-AzureHDInsightClusterSize.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Set-AzureHDInsightClusterSize.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/76d389e6f4656b8cb2f1cc90ba2be7be7f3ff754/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Set-AzureHDInsightClusterSize.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -55,15 +55,6 @@ The **Set-AzureHDInsightClusterSize** cmdlet sets the number of data nodes for a
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
-
-### 2:
-```
-
-```
 
 ## PARAMETERS
 
@@ -88,7 +79,7 @@ Specifies the cluster to resize.
 ```yaml
 Type: AzureHDInsightCluster
 Parameter Sets: Set cluster size in nodes with cluster from pipeline.
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -103,7 +94,7 @@ Specifies the number of data nodes to create for a cluster.
 ```yaml
 Type: Int32
 Parameter Sets: Set cluster size in nodes with cluster from pipeline.
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -115,7 +106,7 @@ Accept wildcard characters: False
 ```yaml
 Type: Int32
 Parameter Sets: Set cluster size in nodes with name.
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -131,7 +122,7 @@ If you do not specify this parameter, this cmdlet uses the default endpoint.
 ```yaml
 Type: Uri
 Parameter Sets: Cluster By Name (with Specific Subscription Credential)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -146,7 +137,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Set cluster size in nodes with cluster from pipeline., Set cluster size in nodes with name.
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -161,7 +152,7 @@ Indicates whether Secure Sockets Layer (SSL) errors are ignored.
 ```yaml
 Type: Boolean
 Parameter Sets: Cluster By Name (with Specific Subscription Credential)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -204,7 +195,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -239,5 +230,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-
