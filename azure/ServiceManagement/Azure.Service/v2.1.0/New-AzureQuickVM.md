@@ -700,7 +700,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureLocation](xref:ServiceManagement/Azure.Service/v2.1.0/Azure.Compute/v2.1.0/Get-AzureLocation.md)
+[Get-AzureLocation](xref:ServiceManagement/Azure.Compute/v2.1.0/Get-AzureLocation.md)
 
 [Get-AzureVMImage](xref:ServiceManagement/Azure.Service/v2.1.0/Get-AzureVMImage.md)
 
