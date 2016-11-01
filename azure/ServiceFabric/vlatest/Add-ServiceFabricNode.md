@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Connect-ServiceFabricCluster.md
+online version: 
 schema: 2.0.0
 ms.assetid: 57A27B58-D6EC-464F-97FA-63F5D0391954
-updated_at: 10/31/2016 10:01 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 10:25 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Add-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a8becb6ce92dc79bf16ae6260a52cd79578fb3de/Service-Fabric-cmdlets/ServiceFabric/vlatest/Add-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Add-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Get-ServiceFabricClusterConnection.md
+online version: 
 schema: 2.0.0
 ms.assetid: 7370AD41-FB09-4948-9BB7-8FD67B5E99E4
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 10:25 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric

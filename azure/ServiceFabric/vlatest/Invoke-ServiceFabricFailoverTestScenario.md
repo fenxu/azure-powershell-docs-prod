@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 73384750-6f54-4b7d-ad7d-be53426132a4
+online version: 
 schema: 2.0.0
 ms.assetid: BEA22E4F-87EE-48AC-9406-E8A05BB8A740
-updated_at: 10/24/2016 5:47 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 10:25 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9f1d8af76684a984727546ed80c60dff01969382/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
