@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 4955285a-6fe5-46e2-affc-8b1798ae8f2a
+online version: 
 schema: 2.0.0
 ms.assetid: 4A83B1B7-7B08-4983-9E41-BD873F8DB2F8
-updated_at: 10/27/2016 11:46 PM
-ms.date: 10/27/2016
+updated_at: 11/1/2016 10:25 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolSettingTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a76928b576fb6d6dd5270c579171107be1494a14/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolSettingTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6600f52fb9e8494968164be77a39809bf8320873/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolSettingTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
