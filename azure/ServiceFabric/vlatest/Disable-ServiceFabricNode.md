@@ -3,10 +3,10 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version: ./Connect-ServiceFabricCluster.md
 schema: 2.0.0
 ms.assetid: 27DE3E8D-897E-498F-A0EA-9BF60E5688B0
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 6:28 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Disable-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Disable-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/7a4d7b8cbfcaf1c12d5a363aacf8f718c4501d2f/Service-Fabric-cmdlets/ServiceFabric/vlatest/Disable-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -99,7 +99,11 @@ You might specify this setting when a node restart is required for installing a 
 - RemoveData.
 Specifies that the data on the node is to be permanently lost.
 This cmdlet creates copies of the replicas that run on the node on other nodes to ensure high availability.
-You might specify this setting when the hard disk is being reimaged or this node is being removed from the cluster.
+You might specify this setting when the hard disk is being reimaged.
+- RemoveNode. 
+Specifies that the data on the node is to be permanently lost. 
+This cmdlet creates copies of the replicas that run on the node on other nodes to ensure high availability. 
+You might specify this setting when the node is being removed from the cluster.
 
 ```yaml
 Type: NodeDeactivationIntent
