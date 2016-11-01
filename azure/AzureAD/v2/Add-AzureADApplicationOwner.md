@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 27EA6A45-9227-4E87-AC85-0A6C4B2AE620
-updated_at: 11/1/2016 10:26 PM
+updated_at: 11/1/2016 11:56 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8d3cbe9fb93fc9fe5540cb187dc7c4763b275d20/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0cd1b44c2ce4babd9bb33ad798cfd016e5360c9f/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationOwner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -117,6 +117,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Get-AzureADApplicationOwner](.\Get-AzureADApplicationOwner)<br>
+[Get-AzureADApplicationOwner](.\Get-AzureADApplicationOwner)
+
 [Remove-AzureADApplicationOwner](.\Remove-AzureADApplicationOwner)
 
