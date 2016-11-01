@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 1E76B8D2-A7DF-49EE-8E22-6BFEE24A8B7F
-updated_at: 10/27/2016 11:46 PM
-ms.date: 10/27/2016
+updated_at: 11/1/2016 10:35 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a76928b576fb6d6dd5270c579171107be1494a14/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/06a48a34e20a0fd0141d1bcedb4bf9b565fadb3c/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Add-AzureADApplicationPolicy
 
 ## SYNOPSIS
-
+Adds an application policy.
 ## SYNTAX
 
 ```
@@ -29,18 +29,18 @@ Add-AzureADApplicationPolicy -ObjectId <String> -RefObjectId <String> [-Informat
 ```
 
 ## DESCRIPTION
-
+The **Add-AzureADApplicationPolicy** cmdlet adds an Azure Active Directory application policy.
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Add an applicaton policy
 ```
 PS C:\>Add-AzureADApplicationPolicy -ObjectId <object id of application> -RefObjectId <object id of policy>
 ```
-
+This command adds an application policy.
 ## PARAMETERS
 
 ### -ObjectId
-The object Id of the Application
+Specifies the ID of the application.
 
 ```yaml
 Type: String
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -RefObjectId
-The object Id of the Policy
+Specifies the ID of the policy.
 
 ```yaml
 Type: String
@@ -70,7 +70,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}```yaml
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
+
+```yaml
 Type: ActionPreference
 Parameter Sets: (All)
 Aliases: infa
@@ -83,7 +92,8 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}```yaml
+Specifies a variable in which to store an information event message.
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv
@@ -105,5 +115,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
+[Get-AzureADApplicationPolicy](.\Get-AzureADApplicationPolicy)<br>
+[Remove-AzureADApplicationPolicy](.\Remove-AzureADApplicationPolicy)
 
