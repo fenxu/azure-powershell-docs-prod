@@ -6,7 +6,7 @@ ms.assetid: 27EA6A45-9227-4E87-AC85-0A6C4B2AE620
 updated_at: 11/1/2016 10:26 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/91a39eeee6aab7d49997566de9e5935ae05bfa10/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8d3cbe9fb93fc9fe5540cb187dc7c4763b275d20/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationOwner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,7 +30,7 @@ Add-AzureADApplicationOwner -ObjectId <String> -RefObjectId <String> [-Informati
 ```
 
 ## DESCRIPTION
-The Add-AzureADApplicationOwner cmdlet adds an owner to an Azure Active Directory application.
+The **Add-AzureADApplicationOwner** cmdlet adds an owner to an Azure Active Directory application.
 
 ## EXAMPLES
 
