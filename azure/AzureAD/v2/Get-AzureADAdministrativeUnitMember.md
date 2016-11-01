@@ -1,8 +1,20 @@
-a---
+---
 external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C05871A7-998C-48AC-BCEB-4CD916E86767
+updated_at: 11/1/2016 9:20 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnitMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/138d49aba059778fb83413e20c38e59b8a640001/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnitMember.md
+ms.topic: reference
+ms.prod: powershell
+ms.service: Azure PowerShell
+ms.technology: Azure PowerShell
+author: visual-studio-china
+ms.author: PowerShellHelpPub
+keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureADAdministrativeUnitMember
