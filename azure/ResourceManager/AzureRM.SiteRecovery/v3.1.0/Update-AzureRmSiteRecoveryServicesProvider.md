@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 77fe5864-b5c5-46f4-857d-458cd9502539
 schema: 2.0.0
 ms.assetid: 1510BDEC-B0F2-4F87-9B3C-4DB6F38684B2
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Update-AzureRmSiteRecoveryServicesProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Update-AzureRmSiteRecoveryServicesProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Update-AzureRmSiteRecoveryServicesProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,10 +34,6 @@ You can use this cmdlet to trigger a refresh of the information received from th
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -47,7 +43,7 @@ Specifies the Azure Site Recovery Services Provider object.
 ```yaml
 Type: ASRRecoveryServicesProvider
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -70,5 +66,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmSiteRecoveryServicesProvider](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryServicesProvider.md)
 
 [Remove-AzureRmSiteRecoveryServicesProvider](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryServicesProvider.md)
-
-

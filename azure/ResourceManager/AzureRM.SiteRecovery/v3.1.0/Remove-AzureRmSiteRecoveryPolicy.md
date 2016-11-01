@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: b7db9ad2-8757-4064-a03c-a691b43a30c6
 schema: 2.0.0
 ms.assetid: DE860404-DCEC-4D73-B2DD-10B58ECDAAD4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -33,10 +33,6 @@ The **Remove-AzureRMSiteRecoveryPolicy** cmdlet removes an Azure Site Recovery r
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -46,7 +42,7 @@ Specifies the Site Recovery policy object.
 ```yaml
 Type: ASRPolicy
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -69,5 +65,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmSiteRecoveryPolicy](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryPolicy.md)
 
 [New-AzureRmSiteRecoveryPolicy](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryPolicy.md)
-
-

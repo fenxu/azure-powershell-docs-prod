@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=829535
 schema: 2.0.0
 ms.assetid: 1AEBFB18-3FA4-4703-AC2F-645A40A6A4B6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:35 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificateOrganizationDetails.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificateOrganizationDetails.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a50990d8de58d1a4c9665d2dc2bdcc0dba337afe/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificateOrganizationDetails.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -53,7 +53,7 @@ Specifies the certificate organization administrators.
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.KeyVault.Models.KeyVaultCertificateAdministratorDetails]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -68,7 +68,7 @@ Specifies the identifier for the organization.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -94,7 +94,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -123,5 +122,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [New-AzureKeyVaultCertificateAdministratorDetails](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificateAdministratorDetails.md)
-
-

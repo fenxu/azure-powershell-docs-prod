@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: a2fad07b-980d-4043-9011-2a4ccc5c8784
 schema: 2.0.0
 ms.assetid: 9FA74372-B84B-4D99-AFB3-E420927075B3
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Import-AzureRmSiteRecoveryVaultSettingsFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Import-AzureRmSiteRecoveryVaultSettingsFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Import-AzureRmSiteRecoveryVaultSettingsFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -33,10 +33,6 @@ The **Import-AzureRmSiteRecoveryVaultSettingsFile** cmdlet imports an Azure Site
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -47,7 +43,7 @@ This file can be downloaded from the Site Recovery vault portal and stored local
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -68,5 +64,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmSiteRecoveryVaultSettingsFile](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryVaultSettingsFile.md)
-
-

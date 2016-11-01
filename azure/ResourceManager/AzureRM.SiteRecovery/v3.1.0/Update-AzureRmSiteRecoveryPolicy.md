@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 874c0981-749b-4161-9ac2-ac445a72ebeb
 schema: 2.0.0
 ms.assetid: 24DFACAB-5FE9-4A19-B622-AB12ABF409EC
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Update-AzureRmSiteRecoveryPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Update-AzureRmSiteRecoveryPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Update-AzureRmSiteRecoveryPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -35,10 +35,7 @@ Update-AzureRmSiteRecoveryPolicy -Policy <ASRPolicy> [-ReplicationMethod <String
 
 ## EXAMPLES
 
-### 1:
-```
-PS C:\>
-```
+
 
 ## PARAMETERS
 
@@ -46,7 +43,7 @@ PS C:\>
 ```yaml
 Type: ASRPolicy
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -59,7 +56,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -72,7 +69,7 @@ Accept wildcard characters: False
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -85,7 +82,7 @@ Accept wildcard characters: False
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -98,7 +95,7 @@ Accept wildcard characters: False
 ```yaml
 Type: TimeSpan
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,7 +108,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -124,7 +121,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -137,7 +134,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -150,7 +147,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -163,7 +160,7 @@ Accept wildcard characters: False
 ```yaml
 Type: UInt16
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -176,7 +173,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -189,7 +186,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -208,5 +205,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

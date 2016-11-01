@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 2d551f2c-5dfe-42fc-bf3c-d34776c0892b
 schema: 2.0.0
 ms.assetid: 7962D734-1C67-4085-91FC-6A9C9D99AD8B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -35,10 +35,6 @@ The **Set-AzureRmSiteRecoveryVM** cmdlet sets the recovery-side protection optio
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -48,7 +44,7 @@ Specifies the Site Recovery virtual machine object.
 ```yaml
 Type: ASRVirtualMachine
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -63,7 +59,7 @@ Specifies the name of the target virtual machine.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -78,7 +74,7 @@ Specifies the target virtual machine size.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -93,7 +89,7 @@ Specifies the primary network adapter card.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -108,7 +104,7 @@ Specifies the recovery network ID.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -123,7 +119,7 @@ Specifies the Azure virtual network subnet name with which to attach the primary
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -138,7 +134,7 @@ Specifies the static IP address that is assigned to primary network adapter cont
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -157,7 +153,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -178,5 +174,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmSiteRecoveryVM](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryVM.md)
-
-

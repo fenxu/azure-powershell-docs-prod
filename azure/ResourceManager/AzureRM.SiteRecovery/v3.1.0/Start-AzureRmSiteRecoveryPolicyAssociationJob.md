@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 2cd9e814-4020-4ca5-ab45-855f15c1d3eb
 schema: 2.0.0
 ms.assetid: 86674808-E6F2-4DD7-884C-90C324D799A4
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -42,10 +42,6 @@ The **Start-AzureRmSiteRecoveryPolicyAssociationJob** cmdlet initiates an associ
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -55,7 +51,7 @@ Specifies the Site Recovery policy object.
 ```yaml
 Type: ASRPolicy
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -70,7 +66,7 @@ Specifies the primary protection container on which to apply the protection prof
 ```yaml
 Type: ASRProtectionContainer
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -85,7 +81,7 @@ Specifies the recovery protection container on which to apply the protection pro
 ```yaml
 Type: ASRProtectionContainer
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -104,5 +100,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

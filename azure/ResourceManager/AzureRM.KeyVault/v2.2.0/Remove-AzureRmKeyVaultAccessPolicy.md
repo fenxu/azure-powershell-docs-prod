@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=829545
 schema: 2.0.0
 ms.assetid: E473BE2A-E916-48F9-A665-8A486F523415
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:35 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureRmKeyVaultAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureRmKeyVaultAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a50990d8de58d1a4c9665d2dc2bdcc0dba337afe/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureRmKeyVaultAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -95,7 +95,7 @@ For future use.
 ```yaml
 Type: Guid
 Parameter Sets: ByObjectId
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -110,7 +110,7 @@ Enables the Microsoft.Compute resource provider to retrieve secrets from this ke
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ForVault
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -125,7 +125,7 @@ Enables the Azure disk encryption service to get secrets and unwrap keys from th
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ForVault
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -140,7 +140,7 @@ Enables Azure Resource Manager to get secrets from this key vault when this key 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ForVault
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -155,7 +155,7 @@ Specifies the object ID of the user or service principal in Azure Active Directo
 ```yaml
 Type: Guid
 Parameter Sets: ByObjectId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -171,7 +171,7 @@ By default, this cmdlet does not generate any output.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -187,7 +187,7 @@ If not specified, this cmdlet searches for the key vault in the current subscrip
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -234,7 +234,7 @@ This cmdlet removes permissions for the key vault that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -244,7 +244,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -260,7 +260,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -289,5 +288,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Set-AzureRmKeyVaultAccessPolicy](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureRmKeyVaultAccessPolicy.md)
-
-

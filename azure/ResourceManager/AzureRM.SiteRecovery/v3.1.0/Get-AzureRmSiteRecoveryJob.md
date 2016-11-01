@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 6f52a501-e5a0-4f8d-8b2d-29ce303c7f98
 schema: 2.0.0
 ms.assetid: 874C0981-749B-4161-9AC2-AC445A72EBEB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,10 +46,6 @@ You can use this cmdlet to view the operation information for the current Site R
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -60,7 +56,7 @@ This cmdlet gets all jobs that started after the specified time.
 ```yaml
 Type: DateTime
 Parameter Sets: ByParam
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -78,7 +74,7 @@ For more information, type `Get-Help Get-Date`.
 ```yaml
 Type: DateTime
 Parameter Sets: ByParam
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -93,7 +89,7 @@ Specifies the ID of the object targeted by the job.
 ```yaml
 Type: String
 Parameter Sets: ByParam
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -118,7 +114,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: String
 Parameter Sets: ByParam
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -133,7 +129,7 @@ Specifies a unique name that identifies the job.
 ```yaml
 Type: String
 Parameter Sets: ByName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -148,7 +144,7 @@ Specifies the Site Recovery job.
 ```yaml
 Type: ASRJob
 Parameter Sets: ByObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -173,5 +169,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Resume-AzureRmSiteRecoveryJob](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Resume-AzureRmSiteRecoveryJob.md)
 
 [Stop-AzureRmSiteRecoveryJob](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Stop-AzureRmSiteRecoveryJob.md)
-
-

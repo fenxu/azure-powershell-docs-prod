@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 6e6be720-a9e4-4ad3-8504-605d0093068e
 schema: 2.0.0
 ms.assetid: 00FF760F-D831-4061-8CC3-7B3A7F376A35
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoverySite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoverySite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoverySite.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -44,10 +44,6 @@ The **Get-AzureRmSiteRecoverySite** cmdlet gets the Hyper-V sites in the Azure S
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -57,7 +53,7 @@ Specifies the name of the site.
 ```yaml
 Type: String
 Parameter Sets: ByName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -72,7 +68,7 @@ Specifies the friendly name of the site.
 ```yaml
 Type: String
 Parameter Sets: ByFriendlyName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -95,5 +91,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmSiteRecoverySite](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoverySite.md)
 
 [Remove-AzureRmSiteRecoverySite](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoverySite.md)
-
-

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 00ff760f-d831-4061-8cc3-7b3a7f376a35
 schema: 2.0.0
 ms.assetid: 6E6BE720-A9E4-4AD3-8504-605D0093068E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoverySite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoverySite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoverySite.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -33,10 +33,6 @@ The **New-AzureRmSiteRecoverySite** cmdlet creates an Azure Site Recovery site i
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -46,7 +42,7 @@ Specifies the name of the site.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -69,5 +65,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmSiteRecoverySite](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoverySite.md)
 
 [Remove-AzureRmSiteRecoverySite](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoverySite.md)
-
-

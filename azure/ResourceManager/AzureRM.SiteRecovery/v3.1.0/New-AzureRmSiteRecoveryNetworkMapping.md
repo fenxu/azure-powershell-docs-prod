@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: af3cace3-632e-4901-8c2d-5b23c0f5c73e
 schema: 2.0.0
 ms.assetid: A1FE5285-5354-4E56-AED6-5E0446B07FA2
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryNetworkMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryNetworkMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryNetworkMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -41,10 +41,6 @@ The **New-AzureRMSiteRecoveryNetworkMapping** cmdlet creates a mapping between t
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -53,7 +49,7 @@ The **New-AzureRMSiteRecoveryNetworkMapping** cmdlet creates a mapping between t
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -68,7 +64,7 @@ Specifies the primary network object.
 ```yaml
 Type: ASRNetwork
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -83,7 +79,7 @@ Specifies the Azure virtual network ID.
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -98,7 +94,7 @@ Specifies the recovery network object.
 ```yaml
 Type: ASRNetwork
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -121,5 +117,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmSiteRecoveryNetworkMapping](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryNetworkMapping.md)
 
 [Remove-AzureRmSiteRecoveryNetworkMapping](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryNetworkMapping.md)
-
-

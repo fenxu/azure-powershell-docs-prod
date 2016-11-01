@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=829519
 schema: 2.0.0
 ms.assetid: 8DD9BE3A-58CB-46F9-81CA-A5198FD60F57
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:35 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Add-AzureKeyVaultCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Add-AzureKeyVaultCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a50990d8de58d1a4c9665d2dc2bdcc0dba337afe/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Add-AzureKeyVaultCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -48,7 +48,7 @@ CertificateSigningRequest : MIICpjCCAY4CAQAwFjEUMBIGA1UEAxMLY29udG9zby5jb20wggEi
                             xPDA6MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwCQYDVR0TBAIwADANBgkqhkiG9w0BAQsFAAOCAQEAIHhsDJV37PKi8hor5eQf7+Tct1preIvSwqV0NF6Uo7O6
                             YnC9Py7Wp7CHfKzuqeptUk2Tsu7B5dHB+o9Ypeeqw8fWhTN0GFGRKO7WjZQlDqL+lRNcjlFSaP022oIP0kmvVhBcmZqRQlALXccAaxEclFA/3y/aNj2gwWeKpH/pwAkZ39zMEzpQCaRfnQk7e3l4MV8cf
                             eC2HPYdRWkXxAeDcNPxBuVmKy49AzYvly+APNVDU3v66gxl3fIKrGRsKi2Cp/nO5rBxG2h8t+0Za4l/HJ7ZWR9wKbd/xg7JhdZZFVBxMHYzw8KQ0ys13x8HY+PXU92Y7yD3uC2Rcj+zbAf+Kg==
-ErrorCode                 : 
+ErrorCode                 :
 ErrorMessage              : PS C:\>Get-AzureKeyVaultCertificateOperation -VaultName "ContosoKV01" -Name "TestCert01"
 Status                    : completed
 CancellationRequested     : False
@@ -58,29 +58,29 @@ CertificateSigningRequest : MIICpjCCAY4CAQAwFjEUMBIGA1UEAxMLY29udG9zby5jb20wggEi
                             xPDA6MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwCQYDVR0TBAIwADANBgkqhkiG9w0BAQsFAAOCAQEAIHhsDJV37PKi8hor5eQf7+Tct1preIvSwqV0NF6Uo7O6
                             YnC9Py7Wp7CHfKzuqeptUk2Tsu7B5dHB+o9Ypeeqw8fWhTN0GFGRKO7WjZQlDqL+lRNcjlFSaP022oIP0kmvVhBcmZqRQlALXccAaxEclFA/3y/aNj2gwWeKpH/pwAkZ39zMEzpQCaRfnQk7e3l4MV8cf
                             eC2HPYdRWkXxAeDcNPxBuVmKy49AzYvly+APNVDU3v66gxl3fIKrGRsKi2Cp/nO5rBxG2h8t+0Za4l/HJ7ZWR9wKbd/xg7JhdZZFVBxMHYzw8KQ0ys13x8HY+PXU92Y7yD3uC2Rcj+zbAf+Kg==
-ErrorCode                 : 
+ErrorCode                 :
 ErrorMessage              : PS C:\>Get-AzureKeyVaultCertificate -VaultName "ContosoKV01" -Name "TestCert01"
 Name        : testCert01
-Certificate : [Subject] 
+Certificate : [Subject]
                 CN=contoso.com
 
-              [Issuer] 
+              [Issuer]
                 CN=contoso.com
 
-              [Serial Number] 
+              [Serial Number]
                 05979C5A2F0741D5A3B6F97673E8A118
 
-              [Not Before] 
+              [Not Before]
                 2/8/2016 3:11:45 PM
 
-              [Not After] 
+              [Not After]
                 8/8/2016 4:21:45 PM
 
-              [Thumbprint] 
+              [Thumbprint]
                 3E9B6848AD1834284157D68B060F748037F663C8
 
 Thumbprint  : 3E9B6848AD1834284157D68B060F748037F663C8
-Tags        : 
+Tags        :
 Enabled     : True
 Created     : 2/8/2016 11:21:45 PM
 Updated     : 2/8/2016 11:21:45 PM
@@ -102,7 +102,7 @@ Specifies a **KeyVaultCertificatePolicy** object.
 ```yaml
 Type: KeyVaultCertificatePolicy
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -132,7 +132,7 @@ Specifies the name of a key vault.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -142,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -173,7 +173,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -204,5 +203,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Import-AzureKeyVaultCertificate](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Import-AzureKeyVaultCertificate.md)
 
 [Remove-AzureKeyVaultCertificate](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultCertificate.md)
-
-

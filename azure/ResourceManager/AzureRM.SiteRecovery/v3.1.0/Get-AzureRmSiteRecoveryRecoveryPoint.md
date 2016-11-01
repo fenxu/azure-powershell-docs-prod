@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 200ecd6f-5a5e-499a-8ea9-f747197ebf03
 schema: 2.0.0
 ms.assetid: 8619CA67-D5A6-4C1F-89D5-4A3987C82A04
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryRecoveryPoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryRecoveryPoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryRecoveryPoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -41,10 +41,6 @@ The **Get-AzureRmSiteRecoveryRecoveryPoint** cmdlet gets the list of available r
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -54,7 +50,7 @@ Specifies the Azure Site Recovery Replication Protected Item object.
 ```yaml
 Type: ASRReplicationProtectedItem
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -69,7 +65,7 @@ Specifies the name of the recovery point this cmdlet gets.
 ```yaml
 Type: String
 Parameter Sets: ByObjectWithName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -100,5 +96,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmSiteRecoveryRecoveryPlan](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryRecoveryPlan.md)
 
 [Update-AzureRmSiteRecoveryRecoveryPlan](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Update-AzureRmSiteRecoveryRecoveryPlan.md)
-
-

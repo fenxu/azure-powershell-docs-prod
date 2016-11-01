@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 874c0981-749b-4161-9ac2-ac445a72ebeb
 schema: 2.0.0
 ms.assetid: 8C2F1B76-4516-478F-AC85-007914CA83B4
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryTestFailoverJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryTestFailoverJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryTestFailoverJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -91,10 +91,6 @@ You can check whether the job succeeded by using the Get-AzureRmSiteRecoveryJob 
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -104,7 +100,7 @@ Specifies the Site Recovery protection entity object.
 ```yaml
 Type: ASRProtectionEntity
 Parameter Sets: ByPEObject, ByPEObjectWithVMNetwork, ByPEObjectWithAzureVMNetworkId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -123,7 +119,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -138,7 +134,7 @@ Specifies the primary certificate file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -153,7 +149,7 @@ Specifies the secondary certificate file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -168,7 +164,7 @@ Specifies a recovery plan object.
 ```yaml
 Type: ASRRecoveryPlan
 Parameter Sets: ByRPObject, ByRPObjectWithVMNetwork, ByRPObjectWithAzureVMNetworkId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -183,7 +179,7 @@ Specifies the Site Recovery virtual machine network.
 ```yaml
 Type: ASRNetwork
 Parameter Sets: ByRPObjectWithVMNetwork, ByPEObjectWithVMNetwork, ByRPIObjectWithVMNetwork
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -198,7 +194,7 @@ Specifies the Azure virtual network ID.
 ```yaml
 Type: String
 Parameter Sets: ByRPObjectWithAzureVMNetworkId, ByPEObjectWithAzureVMNetworkId, ByRPIObjectWithAzureVMNetworkId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -212,7 +208,7 @@ Accept wildcard characters: False
 ```yaml
 Type: ASRReplicationProtectedItem
 Parameter Sets: ByRPIObjectWithAzureVMNetworkId, ByRPIObject, ByRPIObjectWithVMNetwork
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -233,5 +229,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmSiteRecoveryJob](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryJob.md)
-
-

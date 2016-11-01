@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: a1fe5285-5354-4e56-aed6-5e0446b07fa2
 schema: 2.0.0
 ms.assetid: AF3CACE3-632E-4901-8C2D-5B23C0F5C73E
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryNetworkMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryNetworkMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryNetworkMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -56,10 +56,6 @@ The **Get-AzureRmSiteRecoveryNetworkMapping** cmdlet gets information about Azur
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -68,7 +64,7 @@ The **Get-AzureRmSiteRecoveryNetworkMapping** cmdlet gets information about Azur
 ```yaml
 Type: ASRFabric
 Parameter Sets: EnterpriseToEnterprise, EnterpriseToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -83,7 +79,7 @@ Indicates that the command gets a list of network mappings for networks on the p
 ```yaml
 Type: SwitchParameter
 Parameter Sets: EnterpriseToAzure, EnterpriseToAzureLegacy
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -97,7 +93,7 @@ Accept wildcard characters: False
 ```yaml
 Type: ASRFabric
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -111,7 +107,7 @@ Accept wildcard characters: False
 ```yaml
 Type: ASRServer
 Parameter Sets: EnterpriseToAzureLegacy, EnterpriseToEnterpriseLegacy
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -125,7 +121,7 @@ Accept wildcard characters: False
 ```yaml
 Type: ASRServer
 Parameter Sets: EnterpriseToEnterpriseLegacy
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -148,5 +144,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmSiteRecoveryNetworkMapping](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryNetworkMapping.md)
 
 [Remove-AzureRmSiteRecoveryNetworkMapping](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryNetworkMapping.md)
-
-

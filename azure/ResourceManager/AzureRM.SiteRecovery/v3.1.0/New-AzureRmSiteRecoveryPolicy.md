@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: b7db9ad2-8757-4064-a03c-a691b43a30c6
 schema: 2.0.0
 ms.assetid: 4CCE9AA8-4EFA-4399-B814-480A09E26F77
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,10 +46,6 @@ The replication policy is used to specify replication settings such as the repli
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -59,7 +55,7 @@ Specifies a friendly name which identifies the Site Recovery replication policy.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -70,7 +66,7 @@ Accept wildcard characters: False
 
 ### -ReplicationProvider
 Specifies the replication provider.
-Valid values are: 
+Valid values are:
 
 - HyperVReplica2012R2
 - HyperVReplica2012
@@ -79,7 +75,7 @@ Valid values are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -90,7 +86,7 @@ Accept wildcard characters: False
 
 ### -ReplicationFrequencyInSeconds
 Specifies the replication frequency interval in seconds.
-Valid values are: 
+Valid values are:
 
 - 30
 - 300
@@ -99,7 +95,7 @@ Valid values are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -114,7 +110,7 @@ Specifies the number of hours to retain recovery points.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -129,7 +125,7 @@ Specifies the frequency of the application consistent snapshot in hours.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -145,7 +141,7 @@ It must be no later than 24-hours from the start of the job.
 ```yaml
 Type: TimeSpan
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -160,7 +156,7 @@ Specifies the Azure storage account ID of the replication target.
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToAzure
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -174,7 +170,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToAzure
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -185,7 +181,7 @@ Accept wildcard characters: False
 
 ### -ReplicationMethod
 Specifies the replication method.
-Valid values are: 
+Valid values are:
 
 - Online
 - Offline
@@ -193,7 +189,7 @@ Valid values are:
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -207,7 +203,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -222,7 +218,7 @@ Specifies the port used for replication.
 ```yaml
 Type: UInt16
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -233,7 +229,7 @@ Accept wildcard characters: False
 
 ### -Authentication
 Specifies the type of authentication used.
-Valid values are: 
+Valid values are:
 
 - Certificate
 -  Kerberos
@@ -241,7 +237,7 @@ Valid values are:
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -255,7 +251,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -278,5 +274,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmSiteRecoveryPolicy](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryPolicy.md)
 
 [Remove-AzureRmSiteRecoveryPolicy](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryPolicy.md)
-
-

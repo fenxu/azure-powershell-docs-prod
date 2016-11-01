@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: a1fe5285-5354-4e56-aed6-5e0446b07fa2
 schema: 2.0.0
 ms.assetid: 41F239D5-F201-495A-B68A-5A22228C9018
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -64,10 +64,6 @@ The **Get-AzureRmSiteRecoveryNetwork** cmdlet gets information about Azure Site 
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -76,7 +72,7 @@ The **Get-AzureRmSiteRecoveryNetwork** cmdlet gets information about Azure Site 
 ```yaml
 Type: ASRServer
 Parameter Sets: ByFriendlyNameLegacy, ByNameLegacy, ByServerObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -91,7 +87,7 @@ Specifies the name of the virtual machine network.
 ```yaml
 Type: String
 Parameter Sets: ByNameLegacy
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -103,7 +99,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: ByName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -118,7 +114,7 @@ Specifies the friendly name of the virtual machine network.
 ```yaml
 Type: String
 Parameter Sets: ByFriendlyNameLegacy
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -130,7 +126,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: ByFriendlyName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -144,7 +140,7 @@ Accept wildcard characters: False
 ```yaml
 Type: ASRFabric
 Parameter Sets: ByFriendlyName, ByName, ByFabricObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -163,5 +159,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 4cce9aa8-4efa-4399-b814-480a09e26f77
 schema: 2.0.0
 ms.assetid: B7DB9AD2-8757-4064-A03C-A691B43A30C6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 9:57 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50b226c3bc01309b65b424d0cf5725cefea50561/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -44,10 +44,6 @@ The **Get-AzureRmSiteRecoveryPolicy** cmdlet gets the list of configured Azure S
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -57,7 +53,7 @@ Specifies the name of the Site Recovery replication policy.
 ```yaml
 Type: String
 Parameter Sets: ByName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -72,7 +68,7 @@ Specifies the friendly name of the Site Recovery replication policy.
 ```yaml
 Type: String
 Parameter Sets: ByFriendlyName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -95,5 +91,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmSiteRecoveryPolicy](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryPolicy.md)
 
 [Remove-AzureRmSiteRecoveryPolicy](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryPolicy.md)
-
-
