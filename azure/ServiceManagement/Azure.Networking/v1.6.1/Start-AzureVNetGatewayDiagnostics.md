@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\Get-AzureVNetGatewayDiagnostics.md
 schema: 2.0.0
 ms.assetid: DC5D95FA-D713-430F-8DD1-525C0401FBE6
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 8:54 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Start-AzureVNetGatewayDiagnostics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Start-AzureVNetGatewayDiagnostics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/52685e6d246396611d0a7cb1781c171e33e2a4ff/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Start-AzureVNetGatewayDiagnostics.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,10 +37,6 @@ If you run this cmdlet while a gateway diagnostics session is running, this cmdl
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -50,7 +46,7 @@ Specifies the virtual network that contains a virtual network gateway for which 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -65,7 +61,7 @@ Specifies the capture duration in seconds.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -81,7 +77,7 @@ This cmdlet stores results in the container that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -97,7 +93,7 @@ This cmdlet stores results by using the storage context that this parameter spec
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -107,12 +103,13 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies the Azure profile from which this cmdlet reads.
+If you do not specify a profile, this cmdlet reads from the local default profile.
 
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -135,5 +132,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureVNetGatewayDiagnostics](xref:ServiceManagement/Azure.Networking/v1.6.1/Get-AzureVNetGatewayDiagnostics.md)
 
 [Stop-AzureVNetGatewayDiagnostics](xref:ServiceManagement/Azure.Networking/v1.6.1/Stop-AzureVNetGatewayDiagnostics.md)
-
-

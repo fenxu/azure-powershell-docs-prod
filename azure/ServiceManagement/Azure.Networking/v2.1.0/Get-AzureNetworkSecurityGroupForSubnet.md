@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\Remove-AzureNetworkSecurityGroupFromSubnet.md
 schema: 2.0.0
 ms.assetid: DFD1141A-28F4-40F0-B25D-CAFB1D19CD52
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 8:54 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureNetworkSecurityGroupForSubnet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureNetworkSecurityGroupForSubnet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/52685e6d246396611d0a7cb1781c171e33e2a4ff/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureNetworkSecurityGroupForSubnet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,10 +34,7 @@ The **Get-AzureNetworkSecurityGroupForSubnet** cmdlet gets the network security 
 
 ## EXAMPLES
 
-### 1:
-```
 
-```
 
 ## PARAMETERS
 
@@ -48,7 +45,7 @@ This cmdlet gets a network security group for a subnet in the virtual network th
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -63,7 +60,7 @@ Specifies the name of a subnet for which this cmdlet gets a network security gro
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -78,7 +75,7 @@ Indicates that this cmdlet displays the network security rules.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -94,7 +91,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -117,5 +114,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureNetworkSecurityGroupFromSubnet](xref:ServiceManagement/Azure.Networking/v2.1.0/Remove-AzureNetworkSecurityGroupFromSubnet.md)
 
 [Set-AzureNetworkSecurityGroupToSubnet](xref:ServiceManagement/Azure.Networking/v2.1.0/Set-AzureNetworkSecurityGroupToSubnet.md)
-
-
