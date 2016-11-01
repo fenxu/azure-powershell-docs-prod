@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 770dd8c9-90cd-4c85-8b02-e5539f53ebf3
 schema: 2.0.0
 ms.assetid: 7E2862F8-BDA6-4DD7-852B-8D7DCDCA3D38
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 6:02 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/65066d955380e8d2130a784aa8d5778f7adf26f6/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
+
 The cmdlet is not run.
 
 ```yaml

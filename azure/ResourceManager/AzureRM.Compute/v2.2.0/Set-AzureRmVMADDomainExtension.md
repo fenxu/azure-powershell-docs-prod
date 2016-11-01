@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 6781eac4-211b-4f72-aff7-83cc294b7c9b
 schema: 2.0.0
 ms.assetid: 0EF71D82-ABAB-4A2B-B844-B613CD2527AC
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 6:02 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMADDomainExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMADDomainExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/65066d955380e8d2130a784aa8d5778f7adf26f6/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMADDomainExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,10 +37,6 @@ This extension lets your virtual machine join a domain.
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -52,7 +48,7 @@ For more information, type `Get-Help Get-Credential`.
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -67,7 +63,7 @@ Indicates that this cmdlet disables auto-upgrade of the minor version of the ext
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -82,7 +78,7 @@ Specifies the name of the domain.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -100,7 +96,7 @@ If forceUpdateTag is not changed, updates to public or protected settings are st
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,7 +111,7 @@ Specifies the join option.
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -130,7 +126,7 @@ Specifies the location of the virtual machine.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -162,7 +158,7 @@ The default value is the default OU for machine objects in the domain.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -177,7 +173,7 @@ Specifies the name of the resource group.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -193,7 +189,7 @@ A restart is often required to make the change effective.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -233,7 +229,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -249,7 +245,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
+
 The cmdlet is not run.
 
 ```yaml
@@ -276,5 +272,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmVMADDomainExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMADDomainExtension.md)
-
-

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 9a69e3bc-91e7-4b87-aaa5-078847962c2b
 schema: 2.0.0
 ms.assetid: 337F3CA7-9ACE-4222-ADF3-999B1F754EF2
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 6:02 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMCustomScriptExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMCustomScriptExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/65066d955380e8d2130a784aa8d5778f7adf26f6/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMCustomScriptExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -303,7 +303,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -319,7 +319,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
+
 The cmdlet is not run.
 
 ```yaml

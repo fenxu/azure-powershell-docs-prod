@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 7e6bd8e4-1c1e-451c-ba94-95202213474f
 schema: 2.0.0
 ms.assetid: A57C061C-3EEF-4057-AF93-009B80755D74
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 6:02 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVmssDiagnosticsExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVmssDiagnosticsExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/65066d955380e8d2130a784aa8d5778f7adf26f6/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVmssDiagnosticsExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -52,7 +52,7 @@ You can use the New-AzureRmVmssConfig cmdlet to create the object.
 ```yaml
 Type: VirtualMachineScaleSet
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -67,7 +67,7 @@ Specifies the path of the public configuration file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -82,7 +82,7 @@ Specifies the path of the private configuration file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -128,7 +128,7 @@ Indicates whether this cmdlet allows the Azure guest agent to automatically upda
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -143,7 +143,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -153,7 +153,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -169,7 +169,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
+
 The cmdlet is not run.
 
 ```yaml
@@ -203,5 +203,3 @@ This cmdlet does not generate any output.
 [Remove-AzureRmVmssDiagnosticsExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVmssDiagnosticsExtension.md)
 
 [Set-AzureRmVMDiagnosticsExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRMVMDiagnosticsExtension.md)
-
-

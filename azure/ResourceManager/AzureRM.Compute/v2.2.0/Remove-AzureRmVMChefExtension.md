@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: da7891af-cf50-4b36-a665-d3085612c4ad
 schema: 2.0.0
 ms.assetid: A9B5F881-1B0E-46CB-B55F-4E46FA8B3256
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 6:02 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMChefExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMChefExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/65066d955380e8d2130a784aa8d5778f7adf26f6/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMChefExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -41,14 +41,14 @@ The **Remove-AzureVMChefExtension** cmdlet removes the Chef extension from a vir
 
 ## EXAMPLES
 
-### Example 1: Remove a Cchef extension from a Windows virtual machineC
+### Example 1: Remove a Chef extension from a Windows virtual machine
 ```
 PS C:\>Remove-AzureRmVMChefExtension -ResourceGroupName "ResourceGroup001" -VMName "WindowsVM001" -Windows
 ```
 
 This command removes a Chef extension from a Windows based virtual machine named WindowsVM001 that belongs to the resource group named ResourceGroup001.
 
-### Example 2: Remove a Cchef extension from a Linux virtual machineC
+### Example 2: Remove a Chef extension from a Linux virtual machine
 ```
 PS C:\>Remove-AzureRmVMChefExtension -ResourceGroupName "ResourceGroup002" -VMName "LinuxVM001" -Linux
 ```
@@ -63,7 +63,7 @@ Indicates that this cmdlet targets a Linux virtual machine.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Linux
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -93,7 +93,7 @@ Specifies the name of the resource group that contains the virtual machine.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -123,7 +123,7 @@ Indicates that this cmdlet targets a Windows virtual machine.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Windows
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -133,7 +133,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -149,7 +149,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
+
 The cmdlet is not run.
 
 ```yaml
@@ -178,5 +178,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmVMChefExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMChefExtension.md)
 
 [Set-AzureRmVMChefExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMChefExtension.md)
-
-

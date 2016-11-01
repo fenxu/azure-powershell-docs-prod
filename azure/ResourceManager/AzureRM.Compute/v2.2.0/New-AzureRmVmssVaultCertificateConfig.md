@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 975161a1-b1b4-446a-b499-0ea209f02f78
 schema: 2.0.0
 ms.assetid: A052C39E-360C-4576-94C8-7EAD4D78CBEC
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 6:02 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmVmssVaultCertificateConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmVmssVaultCertificateConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/65066d955380e8d2130a784aa8d5778f7adf26f6/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmVmssVaultCertificateConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -51,7 +51,7 @@ This is only valid for Windows Virtual Machine Scale Sets.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -65,16 +65,18 @@ Specifies the URI of a certificate stored in the Key Vault.
 
 It is the base64 encoding of the following JSON Object which is encoded in UTF-8:
 
+```
 {
   "data":"\<Base64-encoded-certificate\>",
   "dataType":"pfx",
   "password":"\<pfx-file-password\>"
 }
+```
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -98,5 +100,3 @@ This cmdlet does not generate any output.
 ## RELATED LINKS
 
 [Add-AzureRmVmssSecret](xref:ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVmssSecret.md)
-
-
