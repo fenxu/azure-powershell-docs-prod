@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 27EA6A45-9227-4E87-AC85-0A6C4B2AE620
-updated_at: 10/27/2016 11:46 PM
-ms.date: 10/27/2016
+updated_at: 11/1/2016 10:26 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a76928b576fb6d6dd5270c579171107be1494a14/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/91a39eeee6aab7d49997566de9e5935ae05bfa10/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationOwner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Add-AzureADApplicationOwner
 
 ## SYNOPSIS
-Add an owner to an application
+Adds an owner to an application.
 
 ## SYNTAX
 
@@ -30,18 +30,19 @@ Add-AzureADApplicationOwner -ObjectId <String> -RefObjectId <String> [-Informati
 ```
 
 ## DESCRIPTION
+The Add-AzureADApplicationOwner cmdlet adds an owner to an Azure Active Directory application.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+###Example 1: Add an owner to an application
 ```
 PS C:\>Add-AzureADApplicationOwner -ObjectId 3ddd22e7-a150-4bb3-b100-e410dea1cb84 -RefObjectId c13dd34a-492b-4561-b171-40fcce2916c5
 ```
-
+This command adds an owner to an application.
 ## PARAMETERS
 
 ### -ObjectId
-The unique idenfier of an application in Azure Active Directory
+Specifies the ID of an application in Azure Active Directory.
 
 ```yaml
 Type: String
@@ -56,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -RefObjectId
-The unique identifier of the specific Azure Active Directory object that will be assigned as owner/manager/member
+Specifies the ID of the Active Directory object to assign as owner/manager/member.
 
 ```yaml
 Type: String
@@ -71,7 +72,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}```yaml
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
+
+```yaml
 Type: ActionPreference
 Parameter Sets: (All)
 Aliases: infa
@@ -84,7 +94,8 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}```yaml
+Specifies a variable in which to store an information event message.
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv
@@ -106,5 +117,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
+[Get-AzureADApplicationOwner](.\Get-AzureADApplicationOwner)<br>
+[Remove-AzureADApplicationOwner](.\Remove-AzureADApplicationOwner)
 
