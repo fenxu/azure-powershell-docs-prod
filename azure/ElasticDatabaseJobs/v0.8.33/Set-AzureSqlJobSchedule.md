@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./Get-AzureSqlJobSchedule.md
+online version: 
 schema: 2.0.0
 ms.assetid: 568BFFAB-1C4A-4C63-A299-983E6F6EFD23
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 10:25 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/e93afd96a88f190d454d6363846bda9f574753c9/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobSchedule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory

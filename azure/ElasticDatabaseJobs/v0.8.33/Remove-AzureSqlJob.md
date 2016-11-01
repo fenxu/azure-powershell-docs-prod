@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./Get-AzureSqlJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: F4AE7899-666E-4C76-8022-B586547BF932
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 10:25 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/e93afd96a88f190d454d6363846bda9f574753c9/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
