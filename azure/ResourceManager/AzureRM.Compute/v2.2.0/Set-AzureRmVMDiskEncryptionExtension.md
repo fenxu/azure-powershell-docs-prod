@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: 6ab4d9b9-0aac-4330-a6fa-09c8e6d0681a
+online version: 
 schema: 2.0.0
 ms.assetid: E626F63C-8254-45A2-A989-476EA7F3D51F
-updated_at: 11/1/2016 6:02 PM
+updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMDiskEncryptionExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/65066d955380e8d2130a784aa8d5778f7adf26f6/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMDiskEncryptionExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMDiskEncryptionExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

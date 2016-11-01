@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: f8be4014-ffd0-4f3e-a7ea-25197a4b85b0
+online version: 
 schema: 2.0.0
 ms.assetid: 098806EA-0E92-4077-ACB5-DABECB53329A
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmRemoteDesktopFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmRemoteDesktopFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmRemoteDesktopFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

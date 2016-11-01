@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
-online version: .\New-AzureStorageContext.md
+online version: 
 schema: 2.0.0
 ms.assetid: 4FB064F5-94BC-4D8F-9EF6-2611F8AAB99C
-updated_at: 10/31/2016 3:41 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageFileSASToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42256fef87c1ded108a960d99ba2ca101729fe57/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageFileSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/New-AzureStorageFileSASToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

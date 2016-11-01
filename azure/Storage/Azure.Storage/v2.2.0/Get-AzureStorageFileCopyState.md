@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
-online version: .\Get-AzureStorageFile.md
+online version: 
 schema: 2.0.0
 ms.assetid: 248556E1-291F-4D27-B2E1-E00CC895B3A9
-updated_at: 10/28/2016 8:57 PM
-ms.date: 10/28/2016
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageFileCopyState.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1a363b27962232b93fa0c55f46990223338473a1/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageFileCopyState.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageFileCopyState.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: 48ac3ba1-94d3-4d0c-8bcb-0a9e178a2a3c
+online version: 
 schema: 2.0.0
 ms.assetid: AAFAAED5-32CA-470E-BF38-00B06DA56BA3
-updated_at: 11/1/2016 6:02 PM
+updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Disable-AzureRmVMDiskEncryption.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/65066d955380e8d2130a784aa8d5778f7adf26f6/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Disable-AzureRmVMDiskEncryption.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Disable-AzureRmVMDiskEncryption.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

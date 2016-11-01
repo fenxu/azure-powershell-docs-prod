@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: c2a3c653-fbba-4d24-bced-faea67c1d4a6
+online version: 
 schema: 2.0.0
 ms.assetid: 48B9D59D-FF51-4F70-9A29-FD017A9A8383
-updated_at: 11/1/2016 8:11 PM
+updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVirtualNetworkGatewayKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/76d389e6f4656b8cb2f1cc90ba2be7be7f3ff754/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVirtualNetworkGatewayKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVirtualNetworkGatewayKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

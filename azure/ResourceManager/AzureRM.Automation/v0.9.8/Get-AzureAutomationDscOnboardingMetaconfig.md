@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: 1cfac190-50d7-4a87-a2e0-f3b8de8f7ed0
+online version: 
 schema: 2.0.0
 ms.assetid: C9CA053E-DECE-4A20-A8D1-A4884603C136
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscOnboardingMetaconfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscOnboardingMetaconfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscOnboardingMetaconfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

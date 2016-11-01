@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Scheduler.dll-Help.xml
-online version: c2cbb94c-e22a-4197-a89d-daac813e6a6f
+online version: 
 schema: 2.0.0
 ms.assetid: 6FE8D8B0-4ACC-4CA9-8A5F-481CABB5741B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.0/New-AzureRmSchedulerHttpJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.0/New-AzureRmSchedulerHttpJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.0/New-AzureRmSchedulerHttpJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

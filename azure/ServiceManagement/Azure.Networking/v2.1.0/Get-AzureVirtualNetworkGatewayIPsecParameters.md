@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\Set-AzureVirtualNetworkGatewayIPsecParameters.md
+online version: 
 schema: 2.0.0
 ms.assetid: E78F45C8-B9B7-48C1-A919-306E52576469
-updated_at: 11/1/2016 8:54 PM
+updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVirtualNetworkGatewayIPsecParameters.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/52685e6d246396611d0a7cb1781c171e33e2a4ff/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVirtualNetworkGatewayIPsecParameters.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVirtualNetworkGatewayIPsecParameters.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

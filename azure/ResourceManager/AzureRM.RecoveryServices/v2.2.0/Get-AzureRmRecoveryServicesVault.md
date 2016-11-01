@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServices.ARM.dll-Help.xml
-online version: 392a4537-0698-40ac-9569-026cc453d26c
+online version: 
 schema: 2.0.0
 ms.assetid: 6A2CBD8B-7AA2-4AB8-B5EB-69A32CFBD03D
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Get-AzureRmRecoveryServicesVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Get-AzureRmRecoveryServicesVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Get-AzureRmRecoveryServicesVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

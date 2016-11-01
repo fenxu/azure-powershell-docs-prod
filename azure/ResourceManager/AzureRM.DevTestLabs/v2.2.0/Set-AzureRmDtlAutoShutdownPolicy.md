@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
-online version: 91e9385c-e861-4ba7-9bc9-66cef5385cec
+online version: 
 schema: 2.0.0
 ms.assetid: A61000E7-77E4-4441-B167-6DD304FBA932
-updated_at: 10/28/2016 9:50 PM
-ms.date: 10/28/2016
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlAutoShutdownPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e478754b524d17a2f53132d5818d405e48d9369c/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlAutoShutdownPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/Set-AzureRmDtlAutoShutdownPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
-online version: 7d8b6162-ecd4-4b7e-8f17-1e63b6d47fbf
+online version: 
 schema: 2.0.0
 ms.assetid: F8351EC3-E7A9-4FEA-B05C-E0793A5AAE3B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Disable-AzureWebsiteDebug.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Disable-AzureWebsiteDebug.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Disable-AzureWebsiteDebug.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

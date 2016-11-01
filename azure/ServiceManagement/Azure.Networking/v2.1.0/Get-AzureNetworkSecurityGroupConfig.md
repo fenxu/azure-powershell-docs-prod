@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\New-AzureNetworkSecurityGroup.md
+online version: 
 schema: 2.0.0
 ms.assetid: AE016D63-9EDE-4EF7-880D-C99AFD19879F
-updated_at: 11/1/2016 8:54 PM
+updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureNetworkSecurityGroupConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/52685e6d246396611d0a7cb1781c171e33e2a4ff/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureNetworkSecurityGroupConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureNetworkSecurityGroupConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

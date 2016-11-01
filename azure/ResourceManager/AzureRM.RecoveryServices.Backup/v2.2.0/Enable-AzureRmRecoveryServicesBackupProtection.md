@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xml
-online version: 3644725e-b6bc-4e16-846e-4aa9f3b18d28
+online version: 
 schema: 2.0.0
 ms.assetid: 10B88FC1-B29C-4C2B-8348-C1B5C1419D14
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.2.0/Enable-AzureRmRecoveryServicesBackupProtection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.2.0/Enable-AzureRmRecoveryServicesBackupProtection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.2.0/Enable-AzureRmRecoveryServicesBackupProtection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

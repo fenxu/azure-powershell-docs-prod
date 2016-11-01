@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-online version: 81b76bcf-fd4f-47e8-9e6b-6b849fb633e1
+online version: 
 schema: 2.0.0
 ms.assetid: 53C1A4D8-AE0F-422D-A069-D765E4407310
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/New-AzureRmHDInsightPigJobDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/New-AzureRmHDInsightPigJobDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/New-AzureRmHDInsightPigJobDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

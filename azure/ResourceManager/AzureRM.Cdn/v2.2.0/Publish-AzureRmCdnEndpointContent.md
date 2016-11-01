@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
-online version: c101398f-75b3-44d9-b07a-38405b748ea7
+online version: 
 schema: 2.0.0
 ms.assetid: 165682E9-26DC-4829-B816-8C983DC2D020
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Publish-AzureRmCdnEndpointContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Publish-AzureRmCdnEndpointContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Publish-AzureRmCdnEndpointContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
