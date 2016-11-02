@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B505822C-4BAA-4EC5-BB0A-128C093930C6
-updated_at: 10/27/2016 11:46 PM
-ms.date: 10/27/2016
+updated_at: 11/2/2016 9:53 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADScopedRoleMembership.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a76928b576fb6d6dd5270c579171107be1494a14/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADScopedRoleMembership.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6becd3942d546c0169a1bde7759c26792d3ffe5b/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADScopedRoleMembership.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Add-AzureADScopedRoleMembership
 
 ## SYNOPSIS
-Add a scopedRoleMembership to an administrativeUnit
+Adds a scoped role membership to an administrative unit.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Add-AzureADScopedRoleMembership -ObjectId <String> [-AdministrativeUnitObjectId 
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Add-AzureADScopedRoleMembership** cmdlet adds a scoped role membership to an administrative unit.
 
 ## PARAMETERS
 
 ### -AdministrativeUnitObjectId
-@{Text=}
+Specifies the ID of an admininstrative unit.
 
 ```yaml
 Type: String
@@ -56,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -71,8 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -RoleMemberInfo
-@{Text=}
-
+Specifies a **RoleMemberInfo** object. 
 ```yaml
 Type: RoleMemberInfo
 Parameter Sets: (All)
@@ -86,8 +79,6 @@ Accept wildcard characters: False
 ```
 
 ### -RoleObjectId
-@{Text=}
-
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -110,5 +101,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADScopedRoleMembership](.\Get-AzureADScopedRoleMembership)
 
+[Remove-AzureADScopedRoleMembership](.\Remove-AzureADScopedRoleMembership)
 
