@@ -3,10 +3,10 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 156B7382-5026-423F-8570-969F11C4BD5F
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 4:42 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0fd9fb4ce9179d4ff591e7539b0bcbbb544795ab/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -36,7 +36,7 @@ You can run this cmdlet to pre-populate nodes with required code, config, and da
 Later service creation operations can finish more quickly.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the **Run as administrator** option.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -54,7 +54,7 @@ The cmdlet copies packages for the application type that this parameter specifie
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -70,7 +70,7 @@ The cmdlet copies packages for the application type version that this parameter 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -86,7 +86,7 @@ The cmdlet copies the service package to the node that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 4
@@ -102,7 +102,7 @@ To obtain a **PackageSharingPolicy** object, use the **New-ServiceFabricPackageS
 ```yaml
 Type: PackageSharingPolicy[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -117,7 +117,7 @@ Specifies the name of a Service Fabric service package.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -132,7 +132,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -163,5 +163,3 @@ This cmdlet returns a message that includes the status of the operation.
 [Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
 [Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
-
-

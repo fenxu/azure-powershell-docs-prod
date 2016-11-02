@@ -3,10 +3,10 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 7370AD41-FB09-4948-9BB7-8FD67B5E99E4
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 4:42 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0fd9fb4ce9179d4ff591e7539b0bcbbb544795ab/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -80,7 +80,7 @@ Connect-ServiceFabricCluster -ConnectionEndpoint <String[]> [-AllowNetworkConnec
 
 ## DESCRIPTION
 The **Connect-ServiceFabricCluster** cmdlet creates a connection to a Service Fabric cluster that allows you to run management actions for that cluster.
-After you connect to a cluster, you can view the settings of the connection by using the Get-ServiceFabricClusterConnection cmdlet.
+After you connect to a cluster, you can view the settings of the connection by using the [Get-ServiceFabricClusterConnection](.\Get-ServiceFabricClusterConnection.md) cmdlet.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the **Run as administrator** option.
 
@@ -95,8 +95,8 @@ This command creates a connection to the specified cluster.
 
 ### Example 2: Connect to a cluster using an X.509 certificate
 ```
-PS C:\>$connectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  X509Credential = $True;  StoreLocation = 'CurrentUser';  StoreName = "MY";  ServerCommonName = "mycluster.cloudapp.net";  FindType = 'FindByThumbprint';  FindValue = "AA11BB22CC33DD44EE55FF66AA77BB88CC99DD00"   }
-PS C:\> Connect-ServiceFabricCluster @connectArgs
+PS C:\>$ConnectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  X509Credential = $True;  StoreLocation = 'CurrentUser';  StoreName = "MY";  ServerCommonName = "mycluster.cloudapp.net";  FindType = 'FindByThumbprint';  FindValue = "AA11BB22CC33DD44EE55FF66AA77BB88CC99DD00"   }
+PS C:\> Connect-ServiceFabricCluster $ConnectArgs
 ```
 
 This command connects to a cluster using an X.509 certificate.
@@ -133,7 +133,7 @@ Allows connecting to the cluster even when system services are unresponsive as l
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -148,7 +148,7 @@ When connecting with *AzureActiveDirectory*, specifies the buffer size to alloca
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -163,7 +163,7 @@ Specifies that Azure Active Directory should be used for authentication and auth
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Aad
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -178,7 +178,7 @@ This parameter is for internal use only.
 ```yaml
 Type: String[]
 Parameter Sets: Dsts
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -193,7 +193,7 @@ This parameter is for internal use only.
 ```yaml
 Type: String
 Parameter Sets: Dsts
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -208,7 +208,7 @@ Specifies the cluster security principal name to use for Windows credential.
 ```yaml
 Type: String
 Parameter Sets: Windows
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -220,7 +220,7 @@ Accept wildcard characters: False
 ### -ConnectionEndpoint
 Specifies an array of connection endpoints for the cluster in the format ClusterAddress: ClientConnectionEndpoint, where ClusterAddress is the IPv4 address, IPv6 address, or fully qualified domain name (FQDN) of the cluster node to connect to and ClientConnectionEndpoint is the client connection port specified in the cluster manifest.
 Enclose IPv6 addresses in square brackets (\[\]).
-Valid endpoints have the following form: 
+Valid endpoints have the following form:
 
 IPv4Address:ClientConnectionEndpoint
 \[IPv6Address\]:ClientConnectionEndpoint
@@ -229,7 +229,7 @@ FQDN:ClientConnectionEndpoint
 ```yaml
 Type: String[]
 Parameter Sets: Aad, Windows, X509, Dsts
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -241,7 +241,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String[]
 Parameter Sets: Default
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -256,7 +256,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -271,7 +271,7 @@ This parameter is for internal use only.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Dsts
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -282,13 +282,13 @@ Accept wildcard characters: False
 
 ### -FindType
 Specifies the type of **FindValue** for searching certificate in certificate store.
-The following filter types are supported: 
+The following filter types are supported:
 
 - FindByThumbprint.
 Find certificate by certificate thumbprint.
 - FindBySubjectName.
 Search certificate in certificate store by subject distinguished name or common name, when subject distinguished name is provided in **FindValue**, subject name in the certificate must be encoded in ASN encoding due to a restriction in native Windows crypto API.
-There is no such restriction when common name is provided in **FindValue**. 
+There is no such restriction when common name is provided in **FindValue**.
 - FindBySubjectDistinguishedName
 - FindByIssuerName
 - FindByIssuerDistinguishedName
@@ -306,7 +306,7 @@ There is no such restriction when common name is provided in **FindValue**.
 ```yaml
 Type: X509FindType
 Parameter Sets: X509
-Aliases: 
+Aliases:
 Accepted values: FindByThumbprint, FindBySubjectName, FindBySubjectDistinguishedName, FindByIssuerName, FindByIssuerDistinguishedName, FindBySerialNumber, FindByTimeValid, FindByTimeNotYetValid, FindByTimeExpired, FindByTemplateName, FindByApplicationPolicy, FindByCertificatePolicy, FindByExtension, FindByKeyUsage, FindBySubjectKeyIdentifier
 
 Required: True
@@ -322,7 +322,7 @@ Specifies filter value to search a certificate in certificate store.
 ```yaml
 Type: String
 Parameter Sets: X509
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -337,7 +337,7 @@ When connecting with *AzureActiveDirectory*, anonymously retrieves the metadata 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Aad
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -353,7 +353,7 @@ When a health operation times out or fails with a communication error, the healt
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -368,7 +368,7 @@ Specifies the interval, in seconds, at which the health client retries sending t
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -384,7 +384,7 @@ If set to 0, the health client will send the reports immediately.
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -399,7 +399,7 @@ Indicates whether the cmdlet operates interactively.
 ```yaml
 Type: Boolean
 Parameter Sets: Dsts
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -415,7 +415,7 @@ This interval prevents a connection from being terminated because of inactivity 
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -430,7 +430,7 @@ This parameter is for internal use only.
 ```yaml
 Type: String
 Parameter Sets: Dsts
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -446,7 +446,7 @@ The default value is 0, which signifies no limit.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -461,7 +461,7 @@ When connecting with *AzureActiveDirectory*, the specified security token is use
 ```yaml
 Type: String
 Parameter Sets: Aad
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -477,7 +477,7 @@ These thumbprints are used to authenticate that the cmdlet connects to the endpo
 ```yaml
 Type: String[]
 Parameter Sets: Aad, X509, Dsts
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -493,7 +493,7 @@ These names are used to authenticate that the cmdlet connects to the endpoint of
 ```yaml
 Type: String[]
 Parameter Sets: Aad, X509, Dsts
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -509,7 +509,7 @@ This interval is used by old model of poll-based service address change notifica
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -524,7 +524,7 @@ Indicates to bypass system service responsiveness validation checks when connect
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -543,7 +543,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: StoreLocation
 Parameter Sets: X509
-Aliases: 
+Aliases:
 Accepted values: CurrentUser, LocalMachine
 
 Required: False
@@ -559,7 +559,7 @@ Specifies the name of the certificate store to load the client certificate.
 ```yaml
 Type: String
 Parameter Sets: X509
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -574,7 +574,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -589,7 +589,7 @@ Indicates that the cmdlet uses Windows credentials to connect to a Service Fabri
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Windows
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -604,7 +604,7 @@ Indicates that the cmdlet uses an x509 certificate to perform mutual authenticat
 ```yaml
 Type: SwitchParameter
 Parameter Sets: X509
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -633,5 +633,3 @@ This cmdlet returns a **System.Fabric.Powershell.ClusterConnection** that repres
 [Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 [Test-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Test-ServiceFabricClusterConnection.md)
-
-

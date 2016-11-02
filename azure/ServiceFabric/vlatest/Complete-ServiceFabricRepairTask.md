@@ -3,10 +3,10 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: FF0A85E2-0CAB-4762-B813-47C420DF9FB8
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 4:42 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Complete-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Complete-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0fd9fb4ce9179d4ff591e7539b0bcbbb544795ab/Service-Fabric-cmdlets/ServiceFabric/vlatest/Complete-ServiceFabricRepairTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -42,7 +42,7 @@ This cmdlet supports the Service Fabric platform.
 Do not run this cmdlet directly.
 
 This cmdlet requires that you connect to the cluster with credentials that are granted administrator access to the cluster.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -63,7 +63,7 @@ This command marks the manual repair task that has the ID MyRepairTaskId as canc
 ## PARAMETERS
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -83,7 +83,7 @@ Forces the command to run even if the specified repair task does not appear to b
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -98,7 +98,7 @@ Specifies a value that provides additional details about the result of the repai
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -113,7 +113,7 @@ Specifies a string that provide additional details about the result of the repai
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -142,7 +142,7 @@ Do not specify this value.
 ```yaml
 Type: RepairTaskResult
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, Succeeded, Cancelled, Interrupted, Failed, Pending
 
 Required: False
@@ -158,7 +158,7 @@ Specifies the ID of the repair task to complete.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -173,7 +173,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -190,7 +190,7 @@ Specify a value of zero (0) to skip version check.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -242,5 +242,3 @@ This cmdlet does not generate any output.
 [Start-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md)
 
 [Stop-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Stop-ServiceFabricRepairTask.md)
-
-

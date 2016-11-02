@@ -3,10 +3,10 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 51657577-F2A0-4D22-822C-3586F0A70B04
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 4:42 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0fd9fb4ce9179d4ff591e7539b0bcbbb544795ab/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -32,23 +32,23 @@ Copy-ServiceFabricApplicationPackage [-ApplicationPackagePath] <String> [-ImageS
 ## DESCRIPTION
 The **Copy-ServiceFabricApplicationPackage** cmdlet copies a Service Fabric application package to the image store.
 
-After you copy the application package, use the Register-ServiceFabricApplicationType cmdlet to register the application type.
+After you copy the application package, use the [Register-ServiceFabricApplicationType](.\Register-ServiceFabricApplicationType.md) cmdlet to register the application type.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the **Run as administrator** option.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Copy an application package
 ```
-PS C:\>Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListService" -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]"
+PS C:\> Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListService" -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]"
 ```
 
 This command copies the application package in the specified path to the image store.
 
 ### Example 2: Copy an application package to a specific directory in the image store
 ```
-PS C:\>Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListService" -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]" -ApplicationPackagePathInImageStore "PersistentToDoListService_v2"
+PS C:\> Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListService" -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]" -ApplicationPackagePathInImageStore "PersistentToDoListService_v2"
 ```
 
 This command copies the application package in the specified path to the PersistentToDoListService_v2 directory in the image store.
@@ -62,7 +62,7 @@ The cmdlet copies the package from the path that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -77,7 +77,7 @@ Specifies the relative path in the image store where the application package sho
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -92,7 +92,7 @@ Specifies the connection string for the Service Fabric image store.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -108,7 +108,7 @@ The maximum timeout value in the image store service is 1800 seconds.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -141,5 +141,3 @@ This cmdlet returns a message that includes the status of the copy operation.
 [Register-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md)
 
 [Remove-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplicationPackage.md)
-
-
