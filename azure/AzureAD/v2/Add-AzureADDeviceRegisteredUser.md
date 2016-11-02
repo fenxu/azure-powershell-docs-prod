@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 2CFAF4EB-D639-4B11-8A1F-6D011BBE4ACA
-updated_at: 10/27/2016 11:46 PM
-ms.date: 10/27/2016
+updated_at: 11/2/2016 4:38 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDeviceRegisteredUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a76928b576fb6d6dd5270c579171107be1494a14/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDeviceRegisteredUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7dee613e4716c9d4c19c2db51ed0035508059d15/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDeviceRegisteredUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Add-AzureADDeviceRegisteredUser
 
 ## SYNOPSIS
-
+Adds a registered user for a device.
 ## SYNTAX
 
 ```
@@ -28,13 +28,8 @@ Add-AzureADDeviceRegisteredUser -ObjectId <String> -RefObjectId <String> [<Commo
 ```
 
 ## DESCRIPTION
+The **Add-AzureADDeviceRegisteredUser** cmdlet adds a registered user for an Azure Active Directory device.
 
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 
@@ -74,5 +69,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADDeviceRegisteredUser](.\Get-AzureADDeviceRegisteredUser)
 
-
+[Remove-AzureADDeviceRegisteredUser](.\Remove-AzureADDeviceRegisteredUser)
