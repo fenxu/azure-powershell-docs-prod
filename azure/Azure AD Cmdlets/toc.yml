@@ -1,10 +1,8 @@
 - name: AzureAD
   items:
     - name: v2
-      href: ../AzureAD/v2/AzureActiveDirectory.md
+      href: ../AzureAD/v2/Add-AzureADAdministrativeUnitMember.md
       items:
-        - name: Add-AzureADAdministrativeUnitMember
-          href: ../AzureAD/v2/Add-AzureADAdministrativeUnitMember.md
         - name: Add-AzureADApplicationOwner
           href: ../AzureAD/v2/Add-AzureADApplicationOwner.md
         - name: Add-AzureADApplicationPolicy
@@ -25,6 +23,8 @@
           href: ../AzureAD/v2/Add-AzureADServicePrincipalOwner.md
         - name: Add-AzureADServicePrincipalPolicy
           href: ../AzureAD/v2/Add-AzureADServicePrincipalPolicy.md
+        - name: AzureActiveDirectory
+          href: ../AzureAD/v2/AzureActiveDirectory.md
         - name: Confirm-AzureADDomain
           href: ../AzureAD/v2/Confirm-AzureADDomain.md
         - name: Connect-AzureAD
