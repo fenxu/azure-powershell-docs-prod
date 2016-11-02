@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3A7A5F22-B002-41F0-BA4C-91262FA3D462
-updated_at: 11/2/2016 9:20 PM
+updated_at: 11/2/2016 9:21 PM
 ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADGroupOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c42af73c908c1d9402859ca5b47e0939cfc0fc05/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADGroupOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1924f39ca5513448bd33a080bff4f0a034391069/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADGroupOwner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,7 +30,7 @@ Add-AzureADGroupOwner -ObjectId <String> -RefObjectId <String> [-InformationActi
 ```
 
 ## DESCRIPTION
-The **Add-AzureADGroupOwner** adds an owner to an Azure Active Directory group.
+The **Add-AzureADGroupOwner** cmdlet adds an owner to an Azure Active Directory group.
 
 ## EXAMPLES
 
