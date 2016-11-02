@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 652D7268-D620-4A4C-AAF7-E5D553FE5F09
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 5:02 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDirectoryRoleMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDirectoryRoleMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/410412397cc47626b2e6e26b63faa3bdc2857c4c/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDirectoryRoleMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Add-AzureADDirectoryRoleMember
 
 ## SYNOPSIS
-Add a member to a directory role
+Adds a member to a directory role.
 
 ## SYNTAX
 
@@ -30,18 +30,18 @@ Add-AzureADDirectoryRoleMember -ObjectId <String> -RefObjectId <String> [-Inform
 ```
 
 ## DESCRIPTION
-
+The **Add-AzureADDirectoryRoleMember** cmdlet adds a member to an Azure Active Directory role.
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Add a member to an Active Directory role
 ```
 PS C:\>Add-AzureADDirectoryRoleMember -ObjectId 019ea7a2-1613-47c9-81cb-20ba35b1ae48 -RefObjectId c13dd34a-492b-4561-b171-40fcce2916c5
 ```
-
+This command adds a member to an Active Directory role.
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a directory role in Azure Active Directory (ObjectId)
+Specifies the ID of a directory role in Azure Active Directory.
 
 ```yaml
 Type: String
@@ -56,7 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -RefObjectId
-The unique identifier of the specific Azure Active Directory object that will be assigned as owner/manager/member
+Specifies the ID of the Azure Active Directory object to assign as owner/manager/member.
 
 ```yaml
 Type: String
@@ -71,9 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -119,5 +117,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADDirectoryRoleMember](.\Get-ServiceFabricCluster)
 
+[Remove-AzureADDirectoryRoleMember](.\Remove-ServiceFabricCluster)
 
