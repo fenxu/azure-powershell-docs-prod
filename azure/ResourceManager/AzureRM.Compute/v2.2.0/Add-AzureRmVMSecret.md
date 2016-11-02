@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 6AB4D9B9-0AAC-4330-A6FA-09C8E6D0681A
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 5:52 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVMSecret.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVMSecret.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a4dce6a44da647f1579df4b2890671b1986b47f0/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVMSecret.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -94,13 +94,12 @@ Specifies the URL that points to a Key Vault secret which contains a certificate
 
 The certificate is the Base64 encoding of the following JavaScript Object Notation (JSON) object, which is encoded in UTF-8:
 
-```
 {
 "data": "\<Base64-encoded-file\>",
 "dataType": "\<file-format\>",
 "password": "\<pfx-file-password\>"
 }
-```
+
 
 Currently, dataType accepts only .pfx files.
 
