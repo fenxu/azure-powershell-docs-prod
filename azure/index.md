@@ -1,3 +1,18 @@
+---
+updated_at: 11/1/2016 9:19 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/visual-studio-china/azure-powershell-docs-prod/blob/master/azure/index.md
+gitcommit: https://github.com/visual-studio-china/azure-powershell-docs-prod/blob/e1e789a97061a13ab188e385ef7df8ff209f7643/azure/index.md
+ms.topic: conceptual
+ms.prod: powershell
+ms.service: azure-powershell
+ms.technology: Azure PowerShell
+author: visual-studio-china
+ms.author: PowerShellHelpPub
+keywords: powershell, cmdlet
+manager: visual-studio-china
+---
+
 # Get started with Azure PowerShell cmdlets
 
 This guide is the introduction to the Cmdlet Reference for Windows Azure PowerShell. In it, you’ll find everything you need to get up and running quickly with the cmdlets.
