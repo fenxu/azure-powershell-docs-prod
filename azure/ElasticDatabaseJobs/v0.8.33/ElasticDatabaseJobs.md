@@ -5,10 +5,10 @@ Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 2.0.0.0
 Locale: en-US
 ms.assetid: E1AF2634-2E0A-4B64-925C-A0895168F939
-updated_at: 10/27/2016 10:54 PM
-ms.date: 10/27/2016
+updated_at: 11/2/2016 2:15 AM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/814492a0f709b7d627329f19e978a67923b91f1c/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/64699f630725ddbaf121a7306fb3e87efd8687b9/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
 uid: ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
 ms.topic: conceptual
 ms.prod: powershell

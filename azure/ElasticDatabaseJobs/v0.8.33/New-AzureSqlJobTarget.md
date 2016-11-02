@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B19A0CEE-F7C4-4B8D-9C61-EBC67FC81139
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 2:15 AM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/e93afd96a88f190d454d6363846bda9f574753c9/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/693e90003fbe67b6076d4970d872fda5417b034e/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
