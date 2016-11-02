@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: E595285A-E976-4071-B085-C414D125F9B9
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedApplicationHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedApplicationHealth.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedApplicationHealth.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -33,18 +33,18 @@ Get-ServiceFabricDeployedApplicationHealth [-NodeName] <String> [-ApplicationNam
 
 ## DESCRIPTION
 The **Get-ServiceFabricDeployedApplicationHealth** cmdlet gets the health of Service Fabric applications deployed on a node in a cluster.
-Service Fabric reports the following health states: 
+Service Fabric reports the following health states:
 
 - OK.
-The entity meets health guidelines. 
+The entity meets health guidelines.
 - Error.
-The entity does not meet health guidelines. 
+The entity does not meet health guidelines.
 - Warning.
-The entity meets health guidelines but experienced some issue. 
+The entity meets health guidelines but experienced some issue.
 
 If the application is not deployed on the specified node, this cmdlet returns an error.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -73,7 +73,7 @@ The cmdlet gets health information for the application that has the URI that you
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -88,7 +88,7 @@ Indicates whether to treat a warning health report as error during health evalua
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -107,7 +107,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, None, Ok, Warning, Error, All
 
 Required: False
@@ -124,7 +124,7 @@ Specify the *DeployedServicePackagesFilter* instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -143,7 +143,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, None, Ok, Warning, Error, All
 
 Required: False
@@ -160,7 +160,7 @@ Specify the *EventsFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -176,7 +176,7 @@ The cmdlet gets health information for the application deployed to the node that
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -191,7 +191,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -222,5 +222,3 @@ This cmdlet returns the **System.Fabric.Health.DeployedApplicationHealth** objec
 [Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 [Get-ServiceFabricDeployedApplication](xref:ServiceFabric/vlatest/Get-ServiceFabricDeployedApplication.md)
-
-

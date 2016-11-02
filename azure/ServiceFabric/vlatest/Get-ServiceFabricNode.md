@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 27D58E8F-73CC-4FCE-90BD-449F86127385
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -32,7 +32,7 @@ Get-ServiceFabricNode [[-NodeName] <String>] [-StatusFilter <NodeStatusFilter>] 
 ## DESCRIPTION
 The **Get-ServiceFabricNode** cmdlet gets information about the Service Fabric nodes in a Service Fabric cluster.
 
-Keep in mind that, before you perform any operation on a Service Fabric cluster you must establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Keep in mind that, before you perform any operation on a Service Fabric cluster you must establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -51,7 +51,7 @@ Specifies the name of the Service Fabric node whose information is being returne
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 0
@@ -66,7 +66,7 @@ Specifies the node status filter as a **NodeStatusFilter** object.
 ```yaml
 Type: NodeStatusFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, Up, Down, Enabling, Disabling, Disabled, Unknown, Removed, All
 
 Required: False
@@ -82,7 +82,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,5 +115,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Disable-ServiceFabricNode](xref:ServiceFabric/vlatest/Disable-ServiceFabricNode.md)
 
 [Enable-ServiceFabricNode](xref:ServiceFabric/vlatest/Enable-ServiceFabricNode.md)
-
-

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 22F9FF8A-25DE-423C-9395-ED584B0D6BC3
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeLoadInformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeLoadInformation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeLoadInformation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-ServiceFabricNodeLoadInformation
 
 ## SYNOPSIS
-Returns detailed metrics load information for a Service Fabric node.
+Gets detailed metrics load information for a Service Fabric node.
 
 ## SYNTAX
 
@@ -29,12 +29,12 @@ Get-ServiceFabricNodeLoadInformation [-NodeName] <String> [-TimeoutSec <Int32>] 
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricNodeLoadInformation** cmdlet returns detailed metrics load information for a Service Fabric node.
+The **Get-ServiceFabricNodeLoadInformation** cmdlet gets detailed metrics load information for a Service Fabric node.
 Specify a node by name.
 This cmdlet returns a list of metrics that includes the name, load, and the last updated date for metrics.
 This cmdlet can help you troubleshoot metrics-related issues on a node.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -53,7 +53,7 @@ Specifies the name of a Service Fabric node.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -68,7 +68,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -97,5 +97,3 @@ This cmdlet returns a **System.Fabric.Query.NodeLoadInformation** that represent
 [Get-ServiceFabricNode](xref:ServiceFabric/vlatest/Get-ServiceFabricNode.md)
 
 [Get-ServiceFabricNodeHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricNodeHealth.md)
-
-

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: B348ED27-766F-4AEC-A36E-740207CBE1BE
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationUpgrade.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -31,7 +31,7 @@ Get-ServiceFabricApplicationUpgrade [-ApplicationName] <Uri> [-TimeoutSec <Int32
 ## DESCRIPTION
 The **Get-ServiceFabricApplicationUpgrade** cmdlet gets the status of a Service Fabric application upgrade.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -51,7 +51,7 @@ The cmdlet gets the status of the upgrade for the application that has the URI t
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -66,7 +66,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -99,5 +99,3 @@ This cmdlet returns a **System.Fabric.ApplicationUpgradeProgress** object that r
 [Resume-ServiceFabricApplicationUpgrade](xref:ServiceFabric/vlatest/Resume-ServiceFabricApplicationUpgrade.md)
 
 [Start-ServiceFabricApplicationUpgrade](xref:ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md)
-
-

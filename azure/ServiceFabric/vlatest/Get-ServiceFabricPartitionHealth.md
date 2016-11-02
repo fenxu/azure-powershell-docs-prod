@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 329D70B6-FABD-4BB4-AE54-2E177E8246B9
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -35,17 +35,17 @@ Get-ServiceFabricPartitionHealth [-PartitionId] <Guid> [-ConsiderWarningAsError 
 The **Get-ServiceFabricPartitionHealth** cmdlet gets the health of a Service Fabric partition.
 If you specify a partition that does not exist in the health store, this cmdlet returns an error.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Get the health events for of a service partition
 ```
-PS C:\>$ToDoPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS 
+PS C:\>$ToDoPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS
 C:\> Get-ServiceFabricPartitionHealth -PartitionId $ToDoPartition01.PartitionId
 ```
 
-The first command uses the Get-ServiceFabricPartition cmdlet to get the singleton service partition object for the specified service, and then stores the object in the $ToDoPartition01 variable.
+The first command uses the [Get-ServiceFabricPartition](./Get-ServiceFabricPartition.md) cmdlet to get the singleton service partition object for the specified service, and then stores the object in the $ToDoPartition01 variable.
 
 The second command gets the health of the partition by using the **PartitionId** property of the object stored in $ToDoPartition01.
 
@@ -65,7 +65,7 @@ Indicates whether to treat a warning health report as error during health evalua
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -84,7 +84,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, None, Ok, Warning, Error, All
 
 Required: False
@@ -101,7 +101,7 @@ Specify the *EventsFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -117,7 +117,7 @@ If there are more replicas with a health state error than tolerated, the health 
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -132,7 +132,7 @@ Specifies the ID of a Service Fabric partition.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -151,7 +151,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, None, Ok, Warning, Error, All
 
 Required: False
@@ -168,7 +168,7 @@ Specify the *ReplicasFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -183,7 +183,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -214,5 +214,3 @@ This cmdlet returns a **System.Fabric.Health.PartitionHealth** object that repre
 [Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 [Get-ServiceFabricPartition](xref:ServiceFabric/vlatest/Get-ServiceFabricPartition.md)
-
-

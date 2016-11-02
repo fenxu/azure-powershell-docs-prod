@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: D4F9D188-FFB3-4D93-870C-6C6076CBA6AE
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -38,7 +38,7 @@ If you request a very large number of events, this cmdlet can return them in mul
 A continuation token is returned as a part of the **ChaosReport** object.
 This token must be passed for subsequent batches.
 
-For more information about Chaos in the Fault Analysis Service (FAS), see the Start-ServiceFabricChaos cmdlet.
+For more information about Chaos in the Fault Analysis Service (FAS), see the [Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md) cmdlet.
 
 ## EXAMPLES
 
@@ -51,7 +51,7 @@ $EndTime = $UtcNow.AddMinutes(1)
 Get-ServiceFabricChaosReport -StartTimeUtc $StartTime -EndTimeUtc $EndTime -Verbose
 ```
 
-The first four commands create start and end times, starting two minutes in the past, by using the Get-Date cmdlet and standard Windows PowerShell syntax.
+The first four commands create start and end times, starting two minutes in the past, by using the **Get-Date** cmdlet and standard Windows PowerShell syntax.
 
 The final command gets information about Chaos results in the specified time.
 The console displays the results.
@@ -66,7 +66,7 @@ Continuation tokens connect these parts.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -81,7 +81,7 @@ Specifies the end of the time range, in UTC, for which this cmdlet generates a r
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -96,7 +96,7 @@ Specifies the start of the time range, in UTC, for which this cmdlet generates a
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,7 +111,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -137,5 +137,3 @@ This cmdlet returns a **ChaosReport** object that represents the report for the 
 [Start-ServiceFabricChaos](xref:ServiceFabric/vlatest/Start-ServiceFabricChaos.md)
 
 [Stop-ServiceFabricChaos](xref:ServiceFabric/vlatest/Stop-ServiceFabricChaos.md)
-
-

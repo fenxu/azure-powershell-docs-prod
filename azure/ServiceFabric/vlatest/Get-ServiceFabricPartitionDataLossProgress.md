@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 004C9EF9-80DE-4B23-AD63-652B7F4FF1A4
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -30,7 +30,7 @@ Get-ServiceFabricPartitionDataLossProgress -OperationId <Guid> [-TimeoutSec <Int
 
 ## DESCRIPTION
 The **Get-ServiceFabricPartitionDataLossProgress** cmdlet gets the progress of a data loss operation in Azure Service Fabric.
-Initiate a data loss operation by using the Start-ServiceFabricPartitionDataLoss cmdlet.
+Initiate a data loss operation by using the [Start-ServiceFabricPartitionDataLoss](./Start-ServiceFabricPartitionDataLoss.md) cmdlet.
 
 ## EXAMPLES
 
@@ -54,7 +54,7 @@ You assign this value when you run **Start-ServiceFabricPartitionDataLoss**.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -69,7 +69,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -90,5 +90,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Start-ServiceFabricPartitionDataLoss](xref:ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md)
-
-

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 9D63C467-E643-4DCD-B8AD-70C741D39377
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -35,18 +35,18 @@ Get-ServiceFabricApplicationHealth [-ApplicationName] <Uri> [-ConsiderWarningAsE
 
 ## DESCRIPTION
 The **Get-ServiceFabricApplicationHealth** cmdlet gets the health state of a Service Fabric application.
-Service Fabric reports the following health states: 
+Service Fabric reports the following health states:
 
 - OK.
-The entity meets health guidelines. 
+The entity meets health guidelines.
 - Error.
-The entity does not meet health guidelines. 
+The entity does not meet health guidelines.
 - Warning.
-The entity meets health guidelines but experienced some issue. 
+The entity meets health guidelines but experienced some issue.
 
 If the entity is not found in the health store, this cmdlet returns an error.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -75,7 +75,7 @@ The cmdlet gets health information for the application that has the URI that you
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -90,7 +90,7 @@ Indicates whether to treat a warning health report as error during health evalua
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -109,7 +109,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, None, Ok, Warning, Error, All
 
 Required: False
@@ -126,7 +126,7 @@ Specify the *DeployedApplicationsFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -145,7 +145,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, None, Ok, Warning, Error, All
 
 Required: False
@@ -162,7 +162,7 @@ Specify the *EventsFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -174,12 +174,12 @@ Accept wildcard characters: False
 ### -MaxPercentUnhealthyDeployedApplications
 Specifies the maximum tolerated percentage of unhealthy application instances deployed on the nodes in the cluster.
 If there are more deployed applications with health state error than tolerated, the health state of the application is error.
-If you do not specify this parameter, the health evaluation uses the value proviced in the application manifest.
+If you do not specify this parameter, the health evaluation uses the value provided in the application manifest.
 
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -196,7 +196,7 @@ If you do not specify this parameter, the health evaluation uses the value provi
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -213,7 +213,7 @@ If you do not specify this parameter, the health evaluation uses the value provi
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -230,7 +230,7 @@ If you do not specify this parameter, the health evaluation uses the value provi
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -249,7 +249,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, None, Ok, Warning, Error, All
 
 Required: False
@@ -266,7 +266,7 @@ Specify the *ServicesFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -281,7 +281,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -310,5 +310,3 @@ This cmdlet returns an **ApplicationHealth** object that represents the health o
 [Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
 [Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
-
-

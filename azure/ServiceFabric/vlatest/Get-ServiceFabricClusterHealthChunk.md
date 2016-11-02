@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 7EE2AE48-02B7-4A75-B20F-75AA942A4C96
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -39,10 +39,10 @@ The **Get-ServiceFabricClusterHealthChunk** cmdlet gets health information for a
 By default, no child entities are returned.
 If specified, all entities that respect the input are returned in a hierarchical fashion.
 
-Service Fabric reports the following health states. 
+Service Fabric reports the following health states.
 
 - OK.
-The entity meets health guidelins. 
+The entity meets health guidelines.
 - Error.
 The entity does not meet health guidelines.
 - Warning.
@@ -58,7 +58,7 @@ The filtering is done on the server side, so message size is minimized.
 
 If the requested output does not fit into a message, no result is returned.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -134,7 +134,7 @@ If you do not specify this parameter, no applications are returned.
 ```yaml
 Type: System.Collections.Generic.List`1[System.Fabric.Health.ApplicationHealthStateFilter]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -150,7 +150,7 @@ If you do not specify this parameter, or if you don't include an entry in the ma
 ```yaml
 Type: ApplicationHealthPolicyMap
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -163,7 +163,7 @@ Accept wildcard characters: False
 Specifies the map that defines the maximum percentage of unhealthy applications that are allowed per application type.
 Application types in this map are evaluated using specific percentages rather than the global *MaxPercentUnhealthyApplications* percentage.
 
-For example, if some applications of a type are critical, the cluster administrator can add an entry to the map for that application type and assign it a value of 0% (that is, do not tolerate any failures).
+For instance, if some applications of a type are critical, the cluster administrator can add an entry to the map for that application type and assign it a value of 0% (that is, do not tolerate any failures).
 All other applications can be evaluated with *MaxPercentUnhealthyApplications* set to 20% to tolerate some failures out of the thousands of application instances.
 
 The application type health policy map is used only if the cluster manifest enables application type health evaluation using the configuration entry for HealthManager/EnableApplicationTypeHealthEvaluation.
@@ -171,7 +171,7 @@ The application type health policy map is used only if the cluster manifest enab
 ```yaml
 Type: ApplicationTypeHealthPolicyMap
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -189,7 +189,7 @@ If none of the cluster health policy parameters are specified, health evaluation
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -207,7 +207,7 @@ If none of the cluster health policy parameters are specified, health evaluation
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -226,7 +226,7 @@ If none of the cluster health policy parameters are specified, health evaluation
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -245,7 +245,7 @@ If you do not specify this parameter, no nodes are returned.
 ```yaml
 Type: System.Collections.Generic.List`1[System.Fabric.Health.NodeHealthStateFilter]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -260,7 +260,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -286,5 +286,3 @@ This cmdlet returns a **System.Fabric.Health.ClusterHealthChunk** object that re
 ## NOTES
 
 ## RELATED LINKS
-
-
