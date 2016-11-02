@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 59B49FB7-4743-4D76-9C08-4416D862BEE3
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/2/2016 6:12 PM
+ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationKeyCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationKeyCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3fa4fdaebe2eea54254033e7d0d4dbdf129abc66/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationKeyCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADApplicationKeyCredential
 
 ## SYNOPSIS
-Remove a key credential from an application
+Removes a key credential from an application.
 
 ## SYNTAX
 
@@ -30,23 +30,25 @@ Remove-AzureADApplicationKeyCredential -ObjectId <String> -KeyId <String>
 ```
 
 ## DESCRIPTION
+The **Remove-AzureADApplicationKeyCredential** cmdlet removes a key credential from an application.
 
 ## EXAMPLES
 
-### 1:
+### Example 1: Remove a key credential
+```PowerShell
+PS C:\> Remove-AzureADApplicationKeyCredential -ObjectId "3ddd22e7-a150-4bb3-b100-e410dea1cb84" -KeyId "6aa971c6-3040-45df-87ed-581c8c09ff2b"
 ```
-PS C:\>
-```
+This command removes the specified key credential from the specified application.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of the application in Azure Active Directory
+Specifies a unique ID of an application in Azure Active Directory.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -56,12 +58,12 @@ Accept wildcard characters: False
 ```
 
 ### -KeyId
-@{Text=}
+Specifies a custom key ID.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -120,4 +122,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureADApplicationKeyCredential](xref:AzureAD/v2/Get-AzureADApplicationKeyCredential.md)
 
+[New-AzureADApplicationKeyCredential](xref:AzureAD/v2/New-AzureADApplicationKeyCredential.md)
