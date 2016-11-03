@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 174EC629-F240-47FD-B603-87F4419ACD14
-updated_at: 11/2/2016 6:12 PM
-ms.date: 11/2/2016
+updated_at: 11/3/2016 8:58 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationExtensionProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3fa4fdaebe2eea54254033e7d0d4dbdf129abc66/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationExtensionProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5776410f3c0200990bf99fe8e160bd5209246d2c/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationExtensionProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
