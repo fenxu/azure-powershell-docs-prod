@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version:
 schema: 2.0.0
 ms.assetid: 306B2B21-9B1C-4388-B3D6-419CDE02C75C
-updated_at: 11/2/2016 6:12 PM
-ms.date: 11/2/2016
+updated_at: 11/3/2016 8:58 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationKeyCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3fa4fdaebe2eea54254033e7d0d4dbdf129abc66/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationKeyCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/eed153f9320fe04911cf4fa6106fae251ab9710a/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationKeyCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
