@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: FC0F8815-DEEC-4672-81A1-68A1095E5543
-updated_at: 11/3/2016 7:58 PM
+updated_at: 11/3/2016 8:01 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c857af86cc32a8ce9b0837411570c50697ec9957/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/bf81f02a13405bc5bba2b32b2b9893d713292cf8/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -66,7 +66,7 @@ This command gets an application by its ID.
 Output:
 
     ObjectId                             AppId                                DisplayName
-                             
+    --------                             -----                                -----------  
     ed192e92-84d4-4baf-997d-1e190a81f28e 36ee4c6c-0812-40a2-b820-b22ebd02bce3 MyNewApp
 
 ## PARAMETERS
