@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 4275CC75-BDDD-4782-99C8-D3E775F07E61
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 12:09 AM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -38,7 +38,7 @@ Get-ServiceFabricService [-Adhoc] [[-ServiceName] <Uri>] [-TimeoutSec <Int32>] [
 ## DESCRIPTION
 The **Get-ServiceFabricService** cmdlet gets a list of Service Fabric services.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -65,7 +65,7 @@ In ad hoc mode, you manually activate the service host.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -81,7 +81,7 @@ The cmdlet gets the services for the applications that you specify.
 ```yaml
 Type: Uri
 Parameter Sets: Non-Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -97,7 +97,7 @@ If you do not specify this parameter, this cmdlet gets all services of the speci
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -112,7 +112,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -149,5 +149,3 @@ This cmdlet returns a list of **System.Fabric.Query.Service** objects that repre
 [Resolve-ServiceFabricService](xref:ServiceFabric/vlatest/Resolve-ServiceFabricService.md)
 
 [Update-ServiceFabricService](xref:ServiceFabric/vlatest/Update-ServiceFabricService.md)
-
-

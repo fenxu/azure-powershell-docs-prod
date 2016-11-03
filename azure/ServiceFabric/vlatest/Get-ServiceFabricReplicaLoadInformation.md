@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 3579C67E-CD38-4ECF-B03A-D1CC8E0A6CC7
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 12:09 AM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaLoadInformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaLoadInformation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaLoadInformation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -35,7 +35,7 @@ Specify a replica ID or instance ID.
 This cmdlet returns a list of metrics that includes the name, load, and last reported time.
 This cmdlet can help you troubleshoot load replica issues on a node.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -54,7 +54,7 @@ Specifies the ID of a Service Fabric partition.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -70,7 +70,7 @@ Specify a replica ID for a stateful service or an instance ID for a stateless se
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -85,7 +85,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -114,5 +114,3 @@ This cmdlet returns a **System.Fabric.Query.ReplicaLoadInformation** object for 
 [Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
 [Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
-
-

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 73384750-6F54-4B7D-AD7D-BE53426132A4
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 12:09 AM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -30,9 +30,9 @@ Invoke-ServiceFabricDecryptText [-CipherText] <String> [-StoreLocation <StoreLoc
 ```
 
 ## DESCRIPTION
-The **Invoke-ServiceFabricDecryptText** cmdlet decrypts text that was encrypted by using the Invoke-ServiceFabricEncryptText cmdlet for verification in Service Fabric.
+The **Invoke-ServiceFabricDecryptText** cmdlet decrypts text that was encrypted by using the [Invoke-ServiceFabricEncryptText](./Invoke-ServiceFabricEncryptText.md) cmdlet for verification in Service Fabric.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -49,7 +49,7 @@ Specifies the cipher text for the cmdlet.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 
 ### -StoreLocation
 Specifies the location of a certificate store.
-Valid values are: 
+Valid values are:
 
 - CurrentUser
 - LocalMachine
@@ -68,7 +68,7 @@ Valid values are:
 ```yaml
 Type: StoreLocation
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: CurrentUser, LocalMachine
 
 Required: False
@@ -84,7 +84,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,5 +115,3 @@ This cmdlet returns decrypted text as a **String**.
 [Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
 [Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
-
-
