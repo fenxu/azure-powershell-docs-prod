@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C6B7A2E6-1C8E-4E8E-AF21-24999DF81310
-updated_at: 11/3/2016 5:15 PM
+updated_at: 11/3/2016 8:46 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5c7c7e879d8e8f93c7fe14350c3f858fae3971c2/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/83225b2147c1439b7faa535f4995f625e08fb957/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -116,8 +116,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Get-AzureADServicePrincipalPolicy](.\Get-AzureADServicePrincipalPolicy)
+[Get-AzureADServicePrincipalPolicy](./Get-AzureADServicePrincipalPolicy)
 
-[Remove-AzureADServicePrincipalPolicy](.\Remove-AzureADServicePrincipalPolicy)
+[Remove-AzureADServicePrincipalPolicy](./Remove-AzureADServicePrincipalPolicy)
 
 
