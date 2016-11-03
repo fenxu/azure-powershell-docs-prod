@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F5FFA4CF-0672-4645-8646-70153A01CB9C
-updated_at: 11/3/2016 4:54 PM
+updated_at: 11/3/2016 4:55 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/79c5e585bfa2ff93a209bd61a3615fa02accade8/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADGroupMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6aab43238b5dcb4b7adb35afd823841fac0d040f/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADGroupMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -33,11 +33,11 @@ Add-AzureADGroupMember -ObjectId <String> -RefObjectId <String> [-InformationAct
 The **Add-AzureADGroupMember** cmdlet adds a member to a group.
 ## EXAMPLES
 
-### Example 1: Add a member to a group.
+### Example 1: Add a member to a group
 ```
 PS C:\>Add-AzureADGroupMember -ObjectId "62438306-7c37-4638-a72d-0ee8d9217680" -RefObjectId "0a1068c0-dbb6-4537-9db3-b48f3e31dd76"
 ```
-
+This command adds a member to a group.
 ## PARAMETERS
 
 ### -ObjectId
