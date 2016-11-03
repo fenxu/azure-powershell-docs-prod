@@ -304,14 +304,48 @@
     - name: v1
       href: ../MSOnline/v1/AzureActiveDirectory.md
       items:
+        - name: Add-MsolAdministrativeUnitMember
+          href: ../MSOnline/v1/Add-MsolAdministrativeUnitMember.md
+        - name: Add-MsolForeignGroupToRole
+          href: ../MSOnline/v1/Add-MsolForeignGroupToRole.md
+        - name: Add-MsolGroupMember
+          href: ../MSOnline/v1/Add-MsolGroupMember.md
+        - name: Add-MsolRoleMember
+          href: ../MSOnline/v1/Add-MsolRoleMember.md
+        - name: Add-MsolScopedRoleMember
+          href: ../MSOnline/v1/Add-MsolScopedRoleMember.md
+        - name: Confirm-MsolDomain
+          href: ../MSOnline/v1/Confirm-MsolDomain.md
+        - name: Confirm-MsolEmailVerifiedDomain
+          href: ../MSOnline/v1/Confirm-MsolEmailVerifiedDomain.md
+        - name: Connect-MsolService
+          href: ../MSOnline/v1/Connect-MsolService.md
+        - name: Convert-MsolDomainToFederated
+          href: ../MSOnline/v1/Convert-MsolDomainToFederated.md
+        - name: Convert-MsolDomainToStandard
+          href: ../MSOnline/v1/Convert-MsolDomainToStandard.md
+        - name: Convert-MsolFederatedUser
+          href: ../MSOnline/v1/Convert-MsolFederatedUser.md
         - name: Disable-MsolDevice
           href: ../MSOnline/v1/Disable-MsolDevice.md
         - name: Enable-MsolDevice
           href: ../MSOnline/v1/Enable-MsolDevice.md
+        - name: Get-MsolAccountSku
+          href: ../MSOnline/v1/Get-MsolAccountSku.md
+        - name: Get-MsolAdministrativeUnit
+          href: ../MSOnline/v1/Get-MsolAdministrativeUnit.md
+        - name: Get-MsolAdministrativeUnitMember
+          href: ../MSOnline/v1/Get-MsolAdministrativeUnitMember.md
         - name: Get-MsolAllSettings
           href: ../MSOnline/v1/Get-MsolAllSettings.md
         - name: Get-MsolAllSettingTemplate
           href: ../MSOnline/v1/Get-MsolAllSettingTemplate.md
+        - name: Get-MsolCompanyAllowedDataLocation
+          href: ../MSOnline/v1/Get-MsolCompanyAllowedDataLocation.md
+        - name: Get-MsolCompanyInformation
+          href: ../MSOnline/v1/Get-MsolCompanyInformation.md
+        - name: Get-MsolContact
+          href: ../MSOnline/v1/Get-MsolContact.md
         - name: Get-MsolDevice
           href: ../MSOnline/v1/Get-MsolDevice.md
         - name: Get-MsolDeviceRegistrationServicePolicy
@@ -322,33 +356,157 @@
           href: ../MSOnline/v1/Get-MsolDirSyncFeatures.md
         - name: Get-MsolDirSyncProvisioningError
           href: ../MSOnline/v1/Get-MsolDirSyncProvisioningError.md
+        - name: Get-MsolDomain
+          href: ../MSOnline/v1/Get-MsolDomain.md
+        - name: Get-MsolDomainFederationSettings
+          href: ../MSOnline/v1/Get-MsolDomainFederationSettings.md
+        - name: Get-MsolDomainVerificationDns
+          href: ../MSOnline/v1/Get-MsolDomainVerificationDns.md
+        - name: Get-MsolFederationProperty
+          href: ../MSOnline/v1/Get-MsolFederationProperty.md
+        - name: Get-MsolGroup
+          href: ../MSOnline/v1/Get-MsolGroup.md
+        - name: Get-MsolGroupMember
+          href: ../MSOnline/v1/Get-MsolGroupMember.md
         - name: Get-MsolHasObjectsWithDirSyncProvisioningErrors
           href: ../MSOnline/v1/Get-MsolHasObjectsWithDirSyncProvisioningErrors.md
+        - name: Get-MsolPartnerContract
+          href: ../MSOnline/v1/Get-MsolPartnerContract.md
+        - name: Get-MsolPartnerInformation
+          href: ../MSOnline/v1/Get-MsolPartnerInformation.md
+        - name: Get-MsolPasswordPolicy
+          href: ../MSOnline/v1/Get-MsolPasswordPolicy.md
+        - name: Get-MsolRole
+          href: ../MSOnline/v1/Get-MsolRole.md
+        - name: Get-MsolRoleMember
+          href: ../MSOnline/v1/Get-MsolRoleMember.md
+        - name: Get-MsolScopedRoleMember
+          href: ../MSOnline/v1/Get-MsolScopedRoleMember.md
+        - name: Get-MsolServicePrincipal
+          href: ../MSOnline/v1/Get-MsolServicePrincipal.md
+        - name: Get-MsolServicePrincipalCredential
+          href: ../MSOnline/v1/Get-MsolServicePrincipalCredential.md
         - name: Get-MsolSettings
           href: ../MSOnline/v1/Get-MsolSettings.md
         - name: Get-MsolSettingTemplate
           href: ../MSOnline/v1/Get-MsolSettingTemplate.md
+        - name: Get-MsolSubscription
+          href: ../MSOnline/v1/Get-MsolSubscription.md
+        - name: Get-MsolUser
+          href: ../MSOnline/v1/Get-MsolUser.md
         - name: Get-MsolUserByStrongAuthentication
           href: ../MSOnline/v1/Get-MsolUserByStrongAuthentication.md
+        - name: Get-MsolUserRole
+          href: ../MSOnline/v1/Get-MsolUserRole.md
+        - name: New-MsolAdministrativeUnit
+          href: ../MSOnline/v1/New-MsolAdministrativeUnit.md
+        - name: New-MsolDomain
+          href: ../MSOnline/v1/New-MsolDomain.md
+        - name: New-MsolFederatedDomain
+          href: ../MSOnline/v1/New-MsolFederatedDomain.md
+        - name: New-MsolGroup
+          href: ../MSOnline/v1/New-MsolGroup.md
+        - name: New-MsolLicenseOptions
+          href: ../MSOnline/v1/New-MsolLicenseOptions.md
+        - name: New-MsolServicePrincipal
+          href: ../MSOnline/v1/New-MsolServicePrincipal.md
+        - name: New-MsolServicePrincipalAddresses
+          href: ../MSOnline/v1/New-MsolServicePrincipalAddresses.md
+        - name: New-MsolServicePrincipalCredential
+          href: ../MSOnline/v1/New-MsolServicePrincipalCredential.md
         - name: New-MsolSettings
           href: ../MSOnline/v1/New-MsolSettings.md
+        - name: New-MsolUser
+          href: ../MSOnline/v1/New-MsolUser.md
         - name: New-MsolWellKnownGroup
           href: ../MSOnline/v1/New-MsolWellKnownGroup.md
+        - name: Redo-MsolProvisionContact
+          href: ../MSOnline/v1/Redo-MsolProvisionContact.md
+        - name: Redo-MsolProvisionGroup
+          href: ../MSOnline/v1/Redo-MsolProvisionGroup.md
+        - name: Redo-MsolProvisionUser
+          href: ../MSOnline/v1/Redo-MsolProvisionUser.md
+        - name: Remove-MsolAdministrativeUnit
+          href: ../MSOnline/v1/Remove-MsolAdministrativeUnit.md
+        - name: Remove-MsolAdministrativeUnitMember
+          href: ../MSOnline/v1/Remove-MsolAdministrativeUnitMember.md
         - name: Remove-MsolApplicationPassword
           href: ../MSOnline/v1/Remove-MsolApplicationPassword.md
+        - name: Remove-MsolContact
+          href: ../MSOnline/v1/Remove-MsolContact.md
         - name: Remove-MsolDevice
           href: ../MSOnline/v1/Remove-MsolDevice.md
+        - name: Remove-MsolDomain
+          href: ../MSOnline/v1/Remove-MsolDomain.md
+        - name: Remove-MsolFederatedDomain
+          href: ../MSOnline/v1/Remove-MsolFederatedDomain.md
         - name: Remove-MsolForeignGroupFromRole
           href: ../MSOnline/v1/Remove-MsolForeignGroupFromRole.md
+        - name: Remove-MsolGroup
+          href: ../MSOnline/v1/Remove-MsolGroup.md
+        - name: Remove-MsolGroupMember
+          href: ../MSOnline/v1/Remove-MsolGroupMember.md
+        - name: Remove-MsolRoleMember
+          href: ../MSOnline/v1/Remove-MsolRoleMember.md
+        - name: Remove-MsolScopedRoleMember
+          href: ../MSOnline/v1/Remove-MsolScopedRoleMember.md
+        - name: Remove-MsolServicePrincipal
+          href: ../MSOnline/v1/Remove-MsolServicePrincipal.md
+        - name: Remove-MsolServicePrincipalCredential
+          href: ../MSOnline/v1/Remove-MsolServicePrincipalCredential.md
         - name: Remove-MsolSettings
           href: ../MSOnline/v1/Remove-MsolSettings.md
+        - name: Remove-MsolUser
+          href: ../MSOnline/v1/Remove-MsolUser.md
         - name: Reset-MsolStrongAuthenticationMethodByUpn
           href: ../MSOnline/v1/Reset-MsolStrongAuthenticationMethodByUpn.md
+        - name: Restore-MsolUser
+          href: ../MSOnline/v1/Restore-MsolUser.md
+        - name: Set-MsolADFSContext
+          href: ../MSOnline/v1/Set-MsolADFSContext.md
+        - name: Set-MsolAdministrativeUnit
+          href: ../MSOnline/v1/Set-MsolAdministrativeUnit.md
+        - name: Set-MsolCompanyAllowedDataLocation
+          href: ../MSOnline/v1/Set-MsolCompanyAllowedDataLocation.md
+        - name: Set-MsolCompanyContactInformation
+          href: ../MSOnline/v1/Set-MsolCompanyContactInformation.md
+        - name: Set-MsolCompanyMultiNationalEnabled
+          href: ../MSOnline/v1/Set-MsolCompanyMultiNationalEnabled.md
+        - name: Set-MsolCompanySecurityComplianceContactInformation
+          href: ../MSOnline/v1/Set-MsolCompanySecurityComplianceContactInformation.md
+        - name: Set-MsolCompanySettings
+          href: ../MSOnline/v1/Set-MsolCompanySettings.md
         - name: Set-MsolDeviceRegistrationServicePolicy
           href: ../MSOnline/v1/Set-MsolDeviceRegistrationServicePolicy.md
         - name: Set-MsolDirSyncConfiguration
           href: ../MSOnline/v1/Set-MsolDirSyncConfiguration.md
+        - name: Set-MsolDirSyncEnabled
+          href: ../MSOnline/v1/Set-MsolDirSyncEnabled.md
         - name: Set-MsolDirSyncFeature
           href: ../MSOnline/v1/Set-MsolDirSyncFeature.md
+        - name: Set-MsolDomain
+          href: ../MSOnline/v1/Set-MsolDomain.md
+        - name: Set-MsolDomainAuthentication
+          href: ../MSOnline/v1/Set-MsolDomainAuthentication.md
+        - name: Set-MsolDomainFederationSettings
+          href: ../MSOnline/v1/Set-MsolDomainFederationSettings.md
+        - name: Set-MsolGroup
+          href: ../MSOnline/v1/Set-MsolGroup.md
+        - name: Set-MsolPartnerInformation
+          href: ../MSOnline/v1/Set-MsolPartnerInformation.md
+        - name: Set-MsolPasswordPolicy
+          href: ../MSOnline/v1/Set-MsolPasswordPolicy.md
+        - name: Set-MsolServicePrincipal
+          href: ../MSOnline/v1/Set-MsolServicePrincipal.md
         - name: Set-MsolSettings
           href: ../MSOnline/v1/Set-MsolSettings.md
+        - name: Set-MsolUser
+          href: ../MSOnline/v1/Set-MsolUser.md
+        - name: Set-MsolUserLicense
+          href: ../MSOnline/v1/Set-MsolUserLicense.md
+        - name: Set-MsolUserPassword
+          href: ../MSOnline/v1/Set-MsolUserPassword.md
+        - name: Set-MsolUserPrincipalName
+          href: ../MSOnline/v1/Set-MsolUserPrincipalName.md
+        - name: Update-MsolFederatedDomain
+          href: ../MSOnline/v1/Update-MsolFederatedDomain.md
