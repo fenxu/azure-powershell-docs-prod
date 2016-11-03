@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 041BAC4C-2588-471C-9358-BC9199B37503
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 10:38 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactDirectReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactDirectReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0feb133634d28dc88f6fae67f66cd3d9388045e0/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactDirectReport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADContactDirectReport
 
 ## SYNOPSIS
-Get the contact's direct reports.
+Get the direct reports for a contact.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Get-AzureADContactDirectReport -ObjectId <String> [-Top <Int32>] [-InformationAc
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Get-AzureADContactDirectReport** cmdlet gets the direct reports for a contact.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a contact in Azure Active Directory (ObjectId)
+Specifies the ID of a contact in Azure Active Directory.
 
 ```yaml
 Type: String
@@ -56,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
