@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 46154156-B7D4-40DE-8EC9-760E44110C76
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 6:52 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1aff808b554d196cb68d08a394a16afa8ad0f924/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnit.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADAdministrativeUnit
 
 ## SYNOPSIS
-Get an Administrative Unit by objectId
+Gets an administrative unit.
 
 ## SYNTAX
 
@@ -37,18 +37,12 @@ Get-AzureADAdministrativeUnit -ObjectId <String> [-InformationAction <ActionPref
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Get-AzureADAdministrativeUnit** cmdlet gets an Azure Active Directory administrative unit.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique idenfier of an administrativeUnit in Azure Active Directory
+Specifies the ID of an administrative unit in Azure Active Directory.
 
 ```yaml
 Type: String
@@ -63,9 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -87,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+Specifies a variable in which to store an information event message.
 
 ```yaml
 Type: String
@@ -102,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -117,10 +109,9 @@ Accept wildcard characters: False
 ```
 
 ### -Filter
-The oData v3.0 filter statement. 
-Controls which objects are returned.
+Specifies an oData v3.0 filter statement. This parameter filters which objects are returned.
 
-To learn more about oData v3.0 filter expressions, refer to https://msdn.microsoft.com/en-us/library/hh169248%28v=nav.90%29.aspx
+For more information about oData v3.0 filter expressions, see https://msdn.microsoft.com/en-us/library/hh169248%28v=nav.90%29.aspx
 
 ```yaml
 Type: String
@@ -144,5 +135,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[New-AzureADAdministrativeUnit](.\New-AzureADAdministrativeUnit)
 
+[Remove-AzureADAdministrativeUnit](.\Remove-AzureADAdministrativeUnit)
 
+[Set-AzureADAdministrativeUnit](.\Set-AzureADAdministrativeUnit)
