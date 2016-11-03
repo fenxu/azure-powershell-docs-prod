@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 18A501C7-DFDE-4F4D-A82C-6AA855EB5C33
-updated_at: 11/2/2016 4:49 PM
-ms.date: 11/2/2016
+updated_at: 11/3/2016 9:02 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDeviceRegisteredUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e3252ca24f35fafa38a74d6f7fa8c2de9bf45fae/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDeviceRegisteredUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/de5d8a186641b0b3e5d7bd9459421088f5b5836d/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDeviceRegisteredUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -71,7 +71,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Add-AzureADDeviceRegisteredUser](.\Add-AzureADDeviceRegisteredUser)
+[Add-AzureADDeviceRegisteredUser](./Add-AzureADDeviceRegisteredUser)
 
-[Get-AzureADDeviceRegisteredUser](.\Get-AzureADDeviceRegisteredUser)
+[Get-AzureADDeviceRegisteredUser](./Get-AzureADDeviceRegisteredUser)
 
