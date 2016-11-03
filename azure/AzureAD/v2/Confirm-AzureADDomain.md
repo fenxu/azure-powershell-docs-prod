@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 120268ED-E28B-434B-8EC2-313D3C3517B9
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:30 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/138db92ccb3c4d93df3b1028631f210b116fe65c/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Confirm-AzureADDomain
 
 ## SYNOPSIS
-Validate the ownership of the domain.
+Validate the ownership of a domain.
 
 ## SYNTAX
 
@@ -30,20 +30,12 @@ Confirm-AzureADDomain -Name <String> [-InformationAction <ActionPreference>] [-I
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Confirm-AzureADDomain** cmdlet validates the ownership of an Azure Active Directory domain.
 
 ## PARAMETERS
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -65,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+Specifies a variable in which to store an information event message.
 
 ```yaml
 Type: String
@@ -80,6 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
+Specifies the name of the domain.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -102,5 +95,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADDomain](.\Get-AzureADDomain)
+
+[New-AzureADDomain](.\New-AzureADDomain)
+
+[Remove-AzureADDomain](.\Remove-AzureADDomain)
+
+[Set-AzureADDomain](.\Set-AzureADDomain)
 
 
