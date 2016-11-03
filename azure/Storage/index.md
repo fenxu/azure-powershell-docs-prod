@@ -3,7 +3,6 @@ updated_at: 10/26/2016 6:21 PM
 ms.date: 10/26/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/index.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a896ab2aa20a89d2f14b54e8898f895358a71f04/azureps-cmdlets-docs/Storage/index.md
-uid: Storage/index.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

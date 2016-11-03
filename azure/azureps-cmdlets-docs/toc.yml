@@ -1,35 +1,292 @@
 - name: ResourceManager
   href: ../ResourceManager/index.md
   items:
+    - name: ApiManagement.ServiceManagement
+      items:
+        - name: v1.1.4
+          href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Microsoft.Azure.Commands.ApiManagement.ServiceManagement.md
+          items:
+            - name: Add-AzureRmApiManagementApiToProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Add-AzureRmApiManagementApiToProduct.md
+            - name: Add-AzureRmApiManagementProductToGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Add-AzureRmApiManagementProductToGroup.md
+            - name: Add-AzureRmApiManagementUserToGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Add-AzureRmApiManagementUserToGroup.md
+            - name: Export-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Export-AzureRmApiManagementApi.md
+            - name: Get-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementApi.md
+            - name: Get-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementAuthorizationServer.md
+            - name: Get-AzureRmApiManagementCertificate
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementCertificate.md
+            - name: Get-AzureRmApiManagementGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementGroup.md
+            - name: Get-AzureRmApiManagementLogger
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementLogger.md
+            - name: Get-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: Get-AzureRmApiManagementOperation
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementOperation.md
+            - name: Get-AzureRmApiManagementPolicy
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementPolicy.md
+            - name: Get-AzureRmApiManagementProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementProduct.md
+            - name: Get-AzureRmApiManagementProperty
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementProperty.md
+            - name: Get-AzureRmApiManagementSubscription
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementSubscription.md
+            - name: Get-AzureRmApiManagementTenantAccess
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementTenantAccess.md
+            - name: Get-AzureRmApiManagementTenantGitAccess
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementTenantGitAccess.md
+            - name: Get-AzureRmApiManagementTenantSyncState
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementTenantSyncState.md
+            - name: Get-AzureRmApiManagementUser
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementUser.md
+            - name: Get-AzureRmApiManagementUserSsoUrl
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementUserSsoUrl.md
+            - name: Import-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Import-AzureRmApiManagementApi.md
+            - name: New-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementApi.md
+            - name: New-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementAuthorizationServer.md
+            - name: New-AzureRmApiManagementCertificate
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementCertificate.md
+            - name: New-AzureRmApiManagementContext
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementContext.md
+            - name: New-AzureRmApiManagementGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementGroup.md
+            - name: New-AzureRmApiManagementLogger
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementLogger.md
+            - name: New-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: New-AzureRmApiManagementOperation
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementOperation.md
+            - name: New-AzureRmApiManagementProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementProduct.md
+            - name: New-AzureRmApiManagementProperty
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementProperty.md
+            - name: New-AzureRmApiManagementSubscription
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementSubscription.md
+            - name: New-AzureRmApiManagementUser
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementUser.md
+            - name: Publish-AzureRmApiManagementTenantGitConfiguration
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Publish-AzureRmApiManagementTenantGitConfiguration.md
+            - name: Remove-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementApi.md
+            - name: Remove-AzureRmApiManagementApiFromProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementApiFromProduct.md
+            - name: Remove-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementAuthorizationServer.md
+            - name: Remove-AzureRmApiManagementCertificate
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementCertificate.md
+            - name: Remove-AzureRmApiManagementGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementGroup.md
+            - name: Remove-AzureRmApiManagementLogger
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementLogger.md
+            - name: Remove-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: Remove-AzureRmApiManagementOperation
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementOperation.md
+            - name: Remove-AzureRmApiManagementPolicy
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementPolicy.md
+            - name: Remove-AzureRmApiManagementProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementProduct.md
+            - name: Remove-AzureRmApiManagementProductFromGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementProductFromGroup.md
+            - name: Remove-AzureRmApiManagementProperty
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementProperty.md
+            - name: Remove-AzureRmApiManagementSubscription
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementSubscription.md
+            - name: Remove-AzureRmApiManagementUser
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementUser.md
+            - name: Remove-AzureRmApiManagementUserFromGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementUserFromGroup.md
+            - name: Save-AzureRmApiManagementTenantGitConfiguration
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Save-AzureRmApiManagementTenantGitConfiguration.md
+            - name: Set-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementApi.md
+            - name: Set-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementAuthorizationServer.md
+            - name: Set-AzureRmApiManagementCertificate
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementCertificate.md
+            - name: Set-AzureRmApiManagementGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementGroup.md
+            - name: Set-AzureRmApiManagementLogger
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementLogger.md
+            - name: Set-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: Set-AzureRmApiManagementOperation
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementOperation.md
+            - name: Set-AzureRmApiManagementPolicy
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementPolicy.md
+            - name: Set-AzureRmApiManagementProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementProduct.md
+            - name: Set-AzureRmApiManagementProperty
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementProperty.md
+            - name: Set-AzureRmApiManagementSubscription
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementSubscription.md
+            - name: Set-AzureRmApiManagementTenantAccess
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementTenantAccess.md
+            - name: Set-AzureRmApiManagementUser
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementUser.md
     - name: AzureRM.ApiManagement
       items:
         - name: v3.0.0
           href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/AzureRM.ApiManagement.md
           items:
+            - name: Add-AzureRmApiManagementApiToProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Add-AzureRmApiManagementApiToProduct.md
+            - name: Add-AzureRmApiManagementProductToGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Add-AzureRmApiManagementProductToGroup.md
             - name: Add-AzureRmApiManagementRegion
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Add-AzureRmApiManagementRegion.md
+            - name: Add-AzureRmApiManagementUserToGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Add-AzureRmApiManagementUserToGroup.md
             - name: Backup-AzureRmApiManagement
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Backup-AzureRmApiManagement.md
+            - name: Export-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Export-AzureRmApiManagementApi.md
             - name: Get-AzureRmApiManagement
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagement.md
+            - name: Get-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementApi.md
+            - name: Get-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementAuthorizationServer.md
+            - name: Get-AzureRmApiManagementCertificate
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementCertificate.md
+            - name: Get-AzureRmApiManagementGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementGroup.md
+            - name: Get-AzureRmApiManagementLogger
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementLogger.md
+            - name: Get-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: Get-AzureRmApiManagementOperation
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementOperation.md
+            - name: Get-AzureRmApiManagementPolicy
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementPolicy.md
+            - name: Get-AzureRmApiManagementProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementProduct.md
+            - name: Get-AzureRmApiManagementProperty
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementProperty.md
             - name: Get-AzureRmApiManagementSsoToken
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementSsoToken.md
+            - name: Get-AzureRmApiManagementSubscription
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementSubscription.md
+            - name: Get-AzureRmApiManagementTenantAccess
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementTenantAccess.md
+            - name: Get-AzureRmApiManagementTenantGitAccess
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementTenantGitAccess.md
+            - name: Get-AzureRmApiManagementTenantSyncState
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementTenantSyncState.md
+            - name: Get-AzureRmApiManagementUser
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementUser.md
+            - name: Get-AzureRmApiManagementUserSsoUrl
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Get-AzureRmApiManagementUserSsoUrl.md
+            - name: Import-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Import-AzureRmApiManagementApi.md
             - name: Import-AzureRmApiManagementHostnameCertificate
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Import-AzureRmApiManagementHostnameCertificate.md
             - name: New-AzureRmApiManagement
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagement.md
+            - name: New-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementApi.md
+            - name: New-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementAuthorizationServer.md
+            - name: New-AzureRmApiManagementCertificate
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementCertificate.md
+            - name: New-AzureRmApiManagementContext
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementContext.md
+            - name: New-AzureRmApiManagementGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementGroup.md
             - name: New-AzureRmApiManagementHostnameConfiguration
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementHostnameConfiguration.md
+            - name: New-AzureRmApiManagementLogger
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementLogger.md
+            - name: New-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: New-AzureRmApiManagementOperation
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementOperation.md
+            - name: New-AzureRmApiManagementProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementProduct.md
+            - name: New-AzureRmApiManagementProperty
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementProperty.md
+            - name: New-AzureRmApiManagementSubscription
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementSubscription.md
+            - name: New-AzureRmApiManagementUser
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementUser.md
             - name: New-AzureRmApiManagementVirtualNetwork
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementVirtualNetwork.md
+            - name: Publish-AzureRmApiManagementTenantGitConfiguration
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Publish-AzureRmApiManagementTenantGitConfiguration.md
             - name: Remove-AzureRmApiManagement
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagement.md
+            - name: Remove-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementApi.md
+            - name: Remove-AzureRmApiManagementApiFromProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementApiFromProduct.md
+            - name: Remove-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementAuthorizationServer.md
+            - name: Remove-AzureRmApiManagementCertificate
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementCertificate.md
+            - name: Remove-AzureRmApiManagementGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementGroup.md
+            - name: Remove-AzureRmApiManagementLogger
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementLogger.md
+            - name: Remove-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: Remove-AzureRmApiManagementOperation
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementOperation.md
+            - name: Remove-AzureRmApiManagementPolicy
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementPolicy.md
+            - name: Remove-AzureRmApiManagementProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementProduct.md
+            - name: Remove-AzureRmApiManagementProductFromGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementProductFromGroup.md
+            - name: Remove-AzureRmApiManagementProperty
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementProperty.md
             - name: Remove-AzureRmApiManagementRegion
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementRegion.md
+            - name: Remove-AzureRmApiManagementSubscription
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementSubscription.md
+            - name: Remove-AzureRmApiManagementUser
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementUser.md
+            - name: Remove-AzureRmApiManagementUserFromGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementUserFromGroup.md
             - name: Restore-AzureRmApiManagement
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Restore-AzureRmApiManagement.md
+            - name: Save-AzureRmApiManagementTenantGitConfiguration
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Save-AzureRmApiManagementTenantGitConfiguration.md
+            - name: Set-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementApi.md
+            - name: Set-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementAuthorizationServer.md
+            - name: Set-AzureRmApiManagementCertificate
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementCertificate.md
+            - name: Set-AzureRmApiManagementGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementGroup.md
             - name: Set-AzureRmApiManagementHostnames
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementHostnames.md
+            - name: Set-AzureRmApiManagementLogger
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementLogger.md
+            - name: Set-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: Set-AzureRmApiManagementOperation
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementOperation.md
+            - name: Set-AzureRmApiManagementPolicy
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementPolicy.md
+            - name: Set-AzureRmApiManagementProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementProduct.md
+            - name: Set-AzureRmApiManagementProperty
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementProperty.md
+            - name: Set-AzureRmApiManagementSubscription
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementSubscription.md
+            - name: Set-AzureRmApiManagementTenantAccess
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementTenantAccess.md
+            - name: Set-AzureRmApiManagementUser
+              href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementUser.md
             - name: Update-AzureRmApiManagementDeployment
               href: ../ResourceManager/AzureRM.ApiManagement/v3.0.0/Update-AzureRmApiManagementDeployment.md
             - name: Update-AzureRmApiManagementRegion
@@ -37,30 +294,156 @@
         - name: v2.1.0
           href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/AzureRM.ApiManagement.md
           items:
+            - name: Add-AzureRmApiManagementApiToProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Add-AzureRmApiManagementApiToProduct.md
+            - name: Add-AzureRmApiManagementProductToGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Add-AzureRmApiManagementProductToGroup.md
             - name: Add-AzureRmApiManagementRegion
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Add-AzureRmApiManagementRegion.md
+            - name: Add-AzureRmApiManagementUserToGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Add-AzureRmApiManagementUserToGroup.md
             - name: Backup-AzureRmApiManagement
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Backup-AzureRmApiManagement.md
+            - name: Export-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Export-AzureRmApiManagementApi.md
             - name: Get-AzureRmApiManagement
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagement.md
+            - name: Get-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementApi.md
+            - name: Get-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementAuthorizationServer.md
+            - name: Get-AzureRmApiManagementCertificate
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementCertificate.md
+            - name: Get-AzureRmApiManagementGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementGroup.md
+            - name: Get-AzureRmApiManagementLogger
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementLogger.md
+            - name: Get-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: Get-AzureRmApiManagementOperation
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementOperation.md
+            - name: Get-AzureRmApiManagementPolicy
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementPolicy.md
+            - name: Get-AzureRmApiManagementProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementProduct.md
+            - name: Get-AzureRmApiManagementProperty
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementProperty.md
             - name: Get-AzureRmApiManagementSsoToken
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementSsoToken.md
+            - name: Get-AzureRmApiManagementSubscription
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementSubscription.md
+            - name: Get-AzureRmApiManagementTenantAccess
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementTenantAccess.md
+            - name: Get-AzureRmApiManagementTenantGitAccess
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementTenantGitAccess.md
+            - name: Get-AzureRmApiManagementTenantSyncState
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementTenantSyncState.md
+            - name: Get-AzureRmApiManagementUser
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementUser.md
+            - name: Get-AzureRmApiManagementUserSsoUrl
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementUserSsoUrl.md
+            - name: Import-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Import-AzureRmApiManagementApi.md
             - name: Import-AzureRmApiManagementHostnameCertificate
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Import-AzureRmApiManagementHostnameCertificate.md
             - name: New-AzureRmApiManagement
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagement.md
+            - name: New-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementApi.md
+            - name: New-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementAuthorizationServer.md
+            - name: New-AzureRmApiManagementCertificate
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementCertificate.md
+            - name: New-AzureRmApiManagementContext
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementContext.md
+            - name: New-AzureRmApiManagementGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementGroup.md
             - name: New-AzureRmApiManagementHostnameConfiguration
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementHostnameConfiguration.md
+            - name: New-AzureRmApiManagementLogger
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementLogger.md
+            - name: New-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: New-AzureRmApiManagementOperation
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementOperation.md
+            - name: New-AzureRmApiManagementProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementProduct.md
+            - name: New-AzureRmApiManagementProperty
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementProperty.md
+            - name: New-AzureRmApiManagementSubscription
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementSubscription.md
+            - name: New-AzureRmApiManagementUser
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementUser.md
             - name: New-AzureRmApiManagementVirtualNetwork
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementVirtualNetwork.md
+            - name: Publish-AzureRmApiManagementTenantGitConfiguration
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Publish-AzureRmApiManagementTenantGitConfiguration.md
             - name: Remove-AzureRmApiManagement
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagement.md
+            - name: Remove-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementApi.md
+            - name: Remove-AzureRmApiManagementApiFromProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementApiFromProduct.md
+            - name: Remove-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementAuthorizationServer.md
+            - name: Remove-AzureRmApiManagementCertificate
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementCertificate.md
+            - name: Remove-AzureRmApiManagementGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementGroup.md
+            - name: Remove-AzureRmApiManagementLogger
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementLogger.md
+            - name: Remove-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: Remove-AzureRmApiManagementOperation
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementOperation.md
+            - name: Remove-AzureRmApiManagementPolicy
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementPolicy.md
+            - name: Remove-AzureRmApiManagementProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementProduct.md
+            - name: Remove-AzureRmApiManagementProductFromGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementProductFromGroup.md
+            - name: Remove-AzureRmApiManagementProperty
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementProperty.md
             - name: Remove-AzureRmApiManagementRegion
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementRegion.md
+            - name: Remove-AzureRmApiManagementSubscription
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementSubscription.md
+            - name: Remove-AzureRmApiManagementUser
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementUser.md
+            - name: Remove-AzureRmApiManagementUserFromGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementUserFromGroup.md
             - name: Restore-AzureRmApiManagement
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Restore-AzureRmApiManagement.md
+            - name: Save-AzureRmApiManagementTenantGitConfiguration
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Save-AzureRmApiManagementTenantGitConfiguration.md
+            - name: Set-AzureRmApiManagementApi
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementApi.md
+            - name: Set-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementAuthorizationServer.md
+            - name: Set-AzureRmApiManagementCertificate
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementCertificate.md
+            - name: Set-AzureRmApiManagementGroup
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementGroup.md
             - name: Set-AzureRmApiManagementHostnames
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementHostnames.md
+            - name: Set-AzureRmApiManagementLogger
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementLogger.md
+            - name: Set-AzureRmApiManagementOpenIdConnectProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
+            - name: Set-AzureRmApiManagementOperation
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementOperation.md
+            - name: Set-AzureRmApiManagementPolicy
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementPolicy.md
+            - name: Set-AzureRmApiManagementProduct
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementProduct.md
+            - name: Set-AzureRmApiManagementProperty
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementProperty.md
+            - name: Set-AzureRmApiManagementSubscription
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementSubscription.md
+            - name: Set-AzureRmApiManagementTenantAccess
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementTenantAccess.md
+            - name: Set-AzureRmApiManagementUser
+              href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementUser.md
             - name: Set-AzureRmApiManagementVirtualNetworks
               href: ../ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementVirtualNetworks.md
             - name: Update-AzureRmApiManagementDeployment
@@ -8352,395 +8735,6 @@
               href: ../ResourceManager/AzureRM.Websites/v1.0/Stop-AzureRMWebAppSlot.md
             - name: Swap-AzureRmWebAppSlot
               href: ../ResourceManager/AzureRM.Websites/v1.0/Swap-AzureRmWebAppSlot.md
-    - name: Microsoft.Azure.Commands.ApiManagement.ServiceManagement
-      items:
-        - name: v2.2.0
-          href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Microsoft.Azure.Commands.ApiManagement.ServiceManagement.md
-          items:
-            - name: Add-AzureRmApiManagementApiToProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Add-AzureRmApiManagementApiToProduct.md
-            - name: Add-AzureRmApiManagementProductToGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Add-AzureRmApiManagementProductToGroup.md
-            - name: Add-AzureRmApiManagementUserToGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Add-AzureRmApiManagementUserToGroup.md
-            - name: Export-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Export-AzureRmApiManagementApi.md
-            - name: Get-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementApi.md
-            - name: Get-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementAuthorizationServer.md
-            - name: Get-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementCertificate.md
-            - name: Get-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementGroup.md
-            - name: Get-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementLogger.md
-            - name: Get-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: Get-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementOperation.md
-            - name: Get-AzureRmApiManagementPolicy
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementPolicy.md
-            - name: Get-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementProduct.md
-            - name: Get-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementProperty.md
-            - name: Get-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementSubscription.md
-            - name: Get-AzureRmApiManagementTenantAccess
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementTenantAccess.md
-            - name: Get-AzureRmApiManagementTenantGitAccess
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementTenantGitAccess.md
-            - name: Get-AzureRmApiManagementTenantSyncState
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementTenantSyncState.md
-            - name: Get-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementUser.md
-            - name: Get-AzureRmApiManagementUserSsoUrl
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Get-AzureRmApiManagementUserSsoUrl.md
-            - name: Import-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Import-AzureRmApiManagementApi.md
-            - name: New-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementApi.md
-            - name: New-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementAuthorizationServer.md
-            - name: New-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementCertificate.md
-            - name: New-AzureRmApiManagementContext
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementContext.md
-            - name: New-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementGroup.md
-            - name: New-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementLogger.md
-            - name: New-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: New-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementOperation.md
-            - name: New-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementProduct.md
-            - name: New-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementProperty.md
-            - name: New-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementSubscription.md
-            - name: New-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/New-AzureRmApiManagementUser.md
-            - name: Publish-AzureRmApiManagementTenantGitConfiguration
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Publish-AzureRmApiManagementTenantGitConfiguration.md
-            - name: Remove-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementApi.md
-            - name: Remove-AzureRmApiManagementApiFromProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementApiFromProduct.md
-            - name: Remove-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementAuthorizationServer.md
-            - name: Remove-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementCertificate.md
-            - name: Remove-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementGroup.md
-            - name: Remove-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementLogger.md
-            - name: Remove-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: Remove-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementOperation.md
-            - name: Remove-AzureRmApiManagementPolicy
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementPolicy.md
-            - name: Remove-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementProduct.md
-            - name: Remove-AzureRmApiManagementProductFromGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementProductFromGroup.md
-            - name: Remove-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementProperty.md
-            - name: Remove-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementSubscription.md
-            - name: Remove-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementUser.md
-            - name: Remove-AzureRmApiManagementUserFromGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Remove-AzureRmApiManagementUserFromGroup.md
-            - name: Save-AzureRmApiManagementTenantGitConfiguration
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Save-AzureRmApiManagementTenantGitConfiguration.md
-            - name: Set-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementApi.md
-            - name: Set-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementAuthorizationServer.md
-            - name: Set-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementCertificate.md
-            - name: Set-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementGroup.md
-            - name: Set-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementLogger.md
-            - name: Set-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: Set-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementOperation.md
-            - name: Set-AzureRmApiManagementPolicy
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementPolicy.md
-            - name: Set-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementProduct.md
-            - name: Set-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementProperty.md
-            - name: Set-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementSubscription.md
-            - name: Set-AzureRmApiManagementTenantAccess
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementTenantAccess.md
-            - name: Set-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.2.0/Set-AzureRmApiManagementUser.md
-        - name: v2.1.0
-          href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Microsoft.Azure.Commands.ApiManagement.ServiceManagement.md
-          items:
-            - name: Add-AzureRmApiManagementApiToProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Add-AzureRmApiManagementApiToProduct.md
-            - name: Add-AzureRmApiManagementProductToGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Add-AzureRmApiManagementProductToGroup.md
-            - name: Add-AzureRmApiManagementUserToGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Add-AzureRmApiManagementUserToGroup.md
-            - name: Export-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Export-AzureRmApiManagementApi.md
-            - name: Get-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementApi.md
-            - name: Get-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementAuthorizationServer.md
-            - name: Get-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementCertificate.md
-            - name: Get-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementGroup.md
-            - name: Get-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementLogger.md
-            - name: Get-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: Get-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementOperation.md
-            - name: Get-AzureRmApiManagementPolicy
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementPolicy.md
-            - name: Get-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementProduct.md
-            - name: Get-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementProperty.md
-            - name: Get-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementSubscription.md
-            - name: Get-AzureRmApiManagementTenantAccess
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementTenantAccess.md
-            - name: Get-AzureRmApiManagementTenantGitAccess
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementTenantGitAccess.md
-            - name: Get-AzureRmApiManagementTenantSyncState
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementTenantSyncState.md
-            - name: Get-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementUser.md
-            - name: Get-AzureRmApiManagementUserSsoUrl
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Get-AzureRmApiManagementUserSsoUrl.md
-            - name: Import-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Import-AzureRmApiManagementApi.md
-            - name: New-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementApi.md
-            - name: New-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementAuthorizationServer.md
-            - name: New-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementCertificate.md
-            - name: New-AzureRmApiManagementContext
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementContext.md
-            - name: New-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementGroup.md
-            - name: New-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementLogger.md
-            - name: New-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: New-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementOperation.md
-            - name: New-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementProduct.md
-            - name: New-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementProperty.md
-            - name: New-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementSubscription.md
-            - name: New-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/New-AzureRmApiManagementUser.md
-            - name: Publish-AzureRmApiManagementTenantGitConfiguration
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Publish-AzureRmApiManagementTenantGitConfiguration.md
-            - name: Remove-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementApi.md
-            - name: Remove-AzureRmApiManagementApiFromProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementApiFromProduct.md
-            - name: Remove-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementAuthorizationServer.md
-            - name: Remove-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementCertificate.md
-            - name: Remove-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementGroup.md
-            - name: Remove-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementLogger.md
-            - name: Remove-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: Remove-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementOperation.md
-            - name: Remove-AzureRmApiManagementPolicy
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementPolicy.md
-            - name: Remove-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementProduct.md
-            - name: Remove-AzureRmApiManagementProductFromGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementProductFromGroup.md
-            - name: Remove-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementProperty.md
-            - name: Remove-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementSubscription.md
-            - name: Remove-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementUser.md
-            - name: Remove-AzureRmApiManagementUserFromGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Remove-AzureRmApiManagementUserFromGroup.md
-            - name: Save-AzureRmApiManagementTenantGitConfiguration
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Save-AzureRmApiManagementTenantGitConfiguration.md
-            - name: Set-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementApi.md
-            - name: Set-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementAuthorizationServer.md
-            - name: Set-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementCertificate.md
-            - name: Set-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementGroup.md
-            - name: Set-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementLogger.md
-            - name: Set-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: Set-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementOperation.md
-            - name: Set-AzureRmApiManagementPolicy
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementPolicy.md
-            - name: Set-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementProduct.md
-            - name: Set-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementProperty.md
-            - name: Set-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementSubscription.md
-            - name: Set-AzureRmApiManagementTenantAccess
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementTenantAccess.md
-            - name: Set-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementUser.md
-        - name: v1.1.4
-          href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Microsoft.Azure.Commands.ApiManagement.ServiceManagement.md
-          items:
-            - name: Add-AzureRmApiManagementApiToProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Add-AzureRmApiManagementApiToProduct.md
-            - name: Add-AzureRmApiManagementProductToGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Add-AzureRmApiManagementProductToGroup.md
-            - name: Add-AzureRmApiManagementUserToGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Add-AzureRmApiManagementUserToGroup.md
-            - name: Export-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Export-AzureRmApiManagementApi.md
-            - name: Get-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementApi.md
-            - name: Get-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementAuthorizationServer.md
-            - name: Get-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementCertificate.md
-            - name: Get-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementGroup.md
-            - name: Get-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementLogger.md
-            - name: Get-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: Get-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementOperation.md
-            - name: Get-AzureRmApiManagementPolicy
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementPolicy.md
-            - name: Get-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementProduct.md
-            - name: Get-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementProperty.md
-            - name: Get-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementSubscription.md
-            - name: Get-AzureRmApiManagementTenantAccess
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementTenantAccess.md
-            - name: Get-AzureRmApiManagementTenantGitAccess
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementTenantGitAccess.md
-            - name: Get-AzureRmApiManagementTenantSyncState
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementTenantSyncState.md
-            - name: Get-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementUser.md
-            - name: Get-AzureRmApiManagementUserSsoUrl
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementUserSsoUrl.md
-            - name: Import-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Import-AzureRmApiManagementApi.md
-            - name: New-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementApi.md
-            - name: New-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementAuthorizationServer.md
-            - name: New-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementCertificate.md
-            - name: New-AzureRmApiManagementContext
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementContext.md
-            - name: New-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementGroup.md
-            - name: New-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementLogger.md
-            - name: New-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: New-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementOperation.md
-            - name: New-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementProduct.md
-            - name: New-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementProperty.md
-            - name: New-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementSubscription.md
-            - name: New-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementUser.md
-            - name: Publish-AzureRmApiManagementTenantGitConfiguration
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Publish-AzureRmApiManagementTenantGitConfiguration.md
-            - name: Remove-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementApi.md
-            - name: Remove-AzureRmApiManagementApiFromProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementApiFromProduct.md
-            - name: Remove-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementAuthorizationServer.md
-            - name: Remove-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementCertificate.md
-            - name: Remove-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementGroup.md
-            - name: Remove-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementLogger.md
-            - name: Remove-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: Remove-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementOperation.md
-            - name: Remove-AzureRmApiManagementPolicy
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementPolicy.md
-            - name: Remove-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementProduct.md
-            - name: Remove-AzureRmApiManagementProductFromGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementProductFromGroup.md
-            - name: Remove-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementProperty.md
-            - name: Remove-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementSubscription.md
-            - name: Remove-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementUser.md
-            - name: Remove-AzureRmApiManagementUserFromGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementUserFromGroup.md
-            - name: Save-AzureRmApiManagementTenantGitConfiguration
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Save-AzureRmApiManagementTenantGitConfiguration.md
-            - name: Set-AzureRmApiManagementApi
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementApi.md
-            - name: Set-AzureRmApiManagementAuthorizationServer
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementAuthorizationServer.md
-            - name: Set-AzureRmApiManagementCertificate
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementCertificate.md
-            - name: Set-AzureRmApiManagementGroup
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementGroup.md
-            - name: Set-AzureRmApiManagementLogger
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementLogger.md
-            - name: Set-AzureRmApiManagementOpenIdConnectProvider
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementOpenIdConnectProvider.md
-            - name: Set-AzureRmApiManagementOperation
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementOperation.md
-            - name: Set-AzureRmApiManagementPolicy
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementPolicy.md
-            - name: Set-AzureRmApiManagementProduct
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementProduct.md
-            - name: Set-AzureRmApiManagementProperty
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementProperty.md
-            - name: Set-AzureRmApiManagementSubscription
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementSubscription.md
-            - name: Set-AzureRmApiManagementTenantAccess
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementTenantAccess.md
-            - name: Set-AzureRmApiManagementUser
-              href: ../ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementUser.md
 - name: ServiceManagement
   href: ../ServiceManagement/index.md
   items:
