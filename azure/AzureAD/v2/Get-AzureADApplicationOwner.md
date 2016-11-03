@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 45C6B663-1AD4-4ED3-81BB-D2B79C67BC47
-updated_at: 11/3/2016 8:15 PM
+updated_at: 11/3/2016 8:22 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/08456de998c2cef5b51401102327da0bce105ead/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/dd9f8ec67066723d60d813e9ffd24e6b0a8a3fdc/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationOwner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -35,15 +35,16 @@ The **Get-AzureADApplicationOwner** cmdlet get an owner of an Azure Active Direc
 ## EXAMPLES
 
 ### Example 1: Get the owner of an application
-```
-PS C:\>Get-AzureADApplicationOwner -ObjectId 3ddd22e7-a150-4bb3-b100-e410dea1cb84
+```PowerShell
+PS C:\>Get-AzureADApplicationOwner -ObjectId "3ddd22e7-a150-4bb3-b100-e410dea1cb84"
+
+ObjectId                             ObjectType
+--------                             ----------
+c13dd34a-492b-4561-b171-40fcce2916c5 User
 ```
 This command gets the owner of an application.
-Output:
 
-    ObjectId                             ObjectType
-    --------                             ----------
-    c13dd34a-492b-4561-b171-40fcce2916c5 User
+
 
 ## PARAMETERS
 
