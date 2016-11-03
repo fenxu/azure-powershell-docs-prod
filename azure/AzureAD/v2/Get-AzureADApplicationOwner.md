@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 45C6B663-1AD4-4ED3-81BB-D2B79C67BC47
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 8:15 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/08456de998c2cef5b51401102327da0bce105ead/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationOwner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADApplicationOwner
 
 ## SYNOPSIS
-Get owners of an application.
+Gets the owner of an application.
 
 ## SYNTAX
 
@@ -30,24 +30,25 @@ Get-AzureADApplicationOwner -ObjectId <String> [-Top <Int32>] [-InformationActio
 ```
 
 ## DESCRIPTION
+The **Get-AzureADApplicationOwner** cmdlet get an owner of an Azure Active Directory application.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Get the owner of an application
 ```
 PS C:\>Get-AzureADApplicationOwner -ObjectId 3ddd22e7-a150-4bb3-b100-e410dea1cb84
 ```
-
+This command gets the owner of an application.
 Output:
 
-ObjectId                             ObjectType
---------                             ----------
-c13dd34a-492b-4561-b171-40fcce2916c5 User
+    ObjectId                             ObjectType
+    --------                             ----------
+    c13dd34a-492b-4561-b171-40fcce2916c5 User
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique idenfier of an application in Azure Active Directory
+Specifes the ID of an application in Azure Active Directory.
 
 ```yaml
 Type: String
@@ -62,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -77,9 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -101,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+Specifies a variable in which to store an information event message.
 
 ```yaml
 Type: String
@@ -126,4 +125,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Add-AzureADApplicationOwner](.\Add-AzureADApplicationOwner)  
+[Remove-AzureADApplicationOwner](.\Remove-AzureADApplicationOwner)
 
