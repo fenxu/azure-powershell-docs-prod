@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 5751DBA5-57F8-47C6-954D-9D4B026CE662
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 10:56 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/379176321272ee5119a7dfa13c9bf6c6283c7c5b/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADContract
 
 ## SYNOPSIS
-Retrieves a specific contract from Azure Active Directory
+Gets a contract.
 
 ## SYNTAX
 
@@ -37,18 +37,12 @@ Get-AzureADContract -ObjectId <String> [-InformationAction <ActionPreference>] [
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Get-AzureADContract** cmdlet gets a contract from Azure Active Directory.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a contract in Azure Active Directory (ObjectId)
+Specifies the ID of a contract.
 
 ```yaml
 Type: String
@@ -102,7 +96,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -117,8 +111,7 @@ Accept wildcard characters: False
 ```
 
 ### -Filter
-The oData v3.0 filter statement. 
-Controls which objects are returned.
+Specifies an oData v3.0 filter statement. This parameter controls which objects are returned.
 
 ```yaml
 Type: String
