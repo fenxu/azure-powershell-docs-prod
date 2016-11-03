@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 652D7268-D620-4A4C-AAF7-E5D553FE5F09
-updated_at: 11/2/2016 5:06 PM
-ms.date: 11/2/2016
+updated_at: 11/3/2016 8:53 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDirectoryRoleMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f981178d2bc4ede5959ff27c2c95c40fb8994be/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDirectoryRoleMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/93b7d0103da7b2f92aba2049b7c14178e1ed109f/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDirectoryRoleMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -117,7 +117,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Get-AzureADDirectoryRoleMember](.\Get-ServiceFabricCluster)
+[Get-AzureADDirectoryRoleMember](./Get-ServiceFabricCluster)
 
-[Remove-AzureADDirectoryRoleMember](.\Remove-ServiceFabricCluster)
+[Remove-AzureADDirectoryRoleMember](./Remove-ServiceFabricCluster)
 
