@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C6B7A2E6-1C8E-4E8E-AF21-24999DF81310
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:15 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/aaba70e2c1b425bec6475c74d947f95e1daf409f/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Add-AzureADServicePrincipalPolicy
 
 ## SYNOPSIS
-
+Adds a service principal policy.
 ## SYNTAX
 
 ```
@@ -29,10 +29,10 @@ Add-AzureADServicePrincipalPolicy -ObjectId <String> -RefObjectId <String>
 ```
 
 ## DESCRIPTION
-
+The **Add-AzureADServicePrincipalPolicy** cmdlet adds a service principal policy.
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Add a service principal policy.
 ```
 PS C:\>Add-AzureADServicePrincipalPolicy -ObjectId <object id of service principal> -RefObjectId <object id of policy>
 ```
@@ -40,7 +40,7 @@ PS C:\>Add-AzureADServicePrincipalPolicy -ObjectId <object id of service princip
 ## PARAMETERS
 
 ### -ObjectId
-The object Id of the Application
+Specifies the object Id of the application.
 
 ```yaml
 Type: String
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -RefObjectId
-The object Id of the Policy
+Specifies the object Id of the policy.
 
 ```yaml
 Type: String
@@ -70,9 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -94,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+Specifies a variable in which to store an information event message.
 
 ```yaml
 Type: String
@@ -118,5 +116,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADServicePrincipalPolicy](.\Get-AzureADServicePrincipalPolicy)
+
+[Remove-AzureADServicePrincipalPolicy](.\Remove-AzureADServicePrincipalPolicy)
 
 
