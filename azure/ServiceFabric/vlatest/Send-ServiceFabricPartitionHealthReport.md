@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 56FED04E-8162-4BD9-83BA-C4A79DC46B57
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricPartitionHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricPartitionHealthReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricPartitionHealthReport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -34,16 +34,16 @@ Send-ServiceFabricPartitionHealthReport [-PartitionId] <Guid> -HealthState <Heal
 The **Send-ServiceFabricPartitionHealthReport** cmdlet sends a health report on a Service Fabric service partition.
 
 The partition must already exist in the health store.
-To check whether it exists, use the Get-ServiceFabricPartitionHealth cmdlet and specify the partition ID.
-Alternatively, you can use the Get-ServiceFabricServiceHealth cmdlet and check the partition health states section to find the partition.
+To check whether it exists, use the [Get-ServiceFabricPartitionHealth](./Get-ServiceFabricPartitionHealth.md) cmdlet and specify the partition ID.
+Alternatively, you can use the [Get-ServiceFabricServiceHealth](./Get-ServiceFabricServiceHealth.md) cmdlet and check the partition health states section to find the partition.
 
-The cmdlet sends the report after an interval specified by the **HealthReportSendIntervalInSec** parameter of the Connect-ServiceFabricCluster cmdlet.
+The cmdlet sends the report after an interval specified by the *HealthReportSendIntervalInSec* parameter of the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 The cluster connection must be kept alive during this time.
 
 The cmdlet may return success, but the report is sent asynchronously, so its processing may fail.
 To see whether the report was applied in the health store, use the **Get-ServiceFabricPartitionHealth** cmdlet and check that the report appears in the HealthEvents section.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the **Connect-ServiceFabricCluster** cmdlet.
 
 ## EXAMPLES
 
@@ -68,14 +68,14 @@ The report is marked for removal on expiration.
 
 ### -Description
 Specifies human readable information about the condition that triggered the report.
-The **SourceId**, **HealthProperty**, and **HealthState** parameters fully describe the report.
+The *SourceId*, *HealthProperty*, and *HealthState* parameters fully describe the report.
 
 The maximum string length for the description is 4096 characters.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -86,13 +86,13 @@ Accept wildcard characters: False
 
 ### -HealthProperty
 Specifies the property of the report.
-Together with the **SourceId** parameter, this property uniquely identifies the report.
-The report overrides any previous reports with the same values for the **SourceId** and **HealthProperty** parameters on the same entity.
+Together with the *SourceId* parameter, this property uniquely identifies the report.
+The report overrides any previous reports with the same values for the *SourceId* and *HealthProperty* parameters on the same entity.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -107,7 +107,7 @@ Specifies a **HealthState** object that represents the reported health state.
 ```yaml
 Type: HealthState
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, Ok, Warning, Error, Unknown
 
 Required: True
@@ -123,7 +123,7 @@ Specifies the ID of a Service Fabric partition.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -140,7 +140,7 @@ The reports that are removed when expired can be used for conditions that are on
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -157,7 +157,7 @@ If you specify a sequence number, that value must be higher than any previous se
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -172,7 +172,7 @@ Specifies the identifier of the source that triggered the report.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -183,14 +183,14 @@ Accept wildcard characters: False
 
 ### -TimeToLiveSec
 Specifies the Time to Live (TTL) of the report in seconds.
-When the TTL expires, the report is removed from the health store if the **RemoveWhenExpired** parameter is specified.
+When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
 Otherwise, the entity is evaluated at Error because of the expired report.
 The default value is Infinite.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -205,7 +205,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -231,12 +231,10 @@ This cmdlet does not return any output.
 
 ## RELATED LINKS
 
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
+
 [Get-ServiceFabricPartitionHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md)
 
 [Get-ServiceFabricServiceHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricServiceHealth.md)
 
-[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
-
 [Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
-
-

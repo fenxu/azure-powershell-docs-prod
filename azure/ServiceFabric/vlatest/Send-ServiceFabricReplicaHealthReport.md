@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 8C3C3790-94B3-4655-85F9-864C25AE5151
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -42,16 +42,16 @@ Send-ServiceFabricReplicaHealthReport [-PartitionId] <Guid> -InstanceId <Int64> 
 The **Send-ServiceFabricReplicaHealthReport** cmdlet sends a health report on a Service Fabric stateless service instance or a stateful service replica.
 
 The stateless service instance or the stateful service replica must already exist in the health store.
-To check whether it exists, use the Get-ServiceFabricReplicaHealth cmdlet, and specify the **PartitionId** and **ReplicaOrInstanceId** parameters.
-Alternatively, you can use the Get-ServiceFabricPartitionHealth cmdlet with the **PartitionId** parameter, and then check the ReplicaHealthStates section to find the replica.
+To check whether it exists, use the [Get-ServiceFabricReplicaHealth](./Get-ServiceFabricReplicaHealth.md) cmdlet, and specify the *PartitionId* and *ReplicaOrInstanceId* parameters.
+Alternatively, you can use the [Get-ServiceFabricPartitionHealth](./Get-ServiceFabricPartitionHealth.md) cmdlet with the *PartitionId* parameter, and then check the ReplicaHealthStates section to find the replica.
 
-The cmdlet sends the report after an interval specified by the **HealthReportSendIntervalInSec** parameter of the Connect-ServiceFabricCluster cmdlet.
+The cmdlet sends the report after an interval specified by the *HealthReportSendIntervalInSec* parameter of the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 The cluster connection must be kept alive during this time.
 
 The cmdlet may return success, but the report is sent asynchronously, so its processing may fail.
 To see whether the report was applied in the health store, use the **Get-ServiceFabricReplicaHealth** cmdlet and check that the report appears in the health events section.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the **Connect-ServiceFabricCluster** cmdlet.
 
 ## EXAMPLES
 
@@ -64,7 +64,7 @@ This command sends a health report for the specified partition for the specified
 The health report contains information about the health property **DiskUsage** in an Error health state, with infinite TTL.
 This command also gives a description of the error.
 
-### Example 2: Report Warning health report on a stateless service instance valid for specified with set TTL and remove it when it expiresvalid for specified
+### Example 2: Report Warning health report on a stateless service instance valid for the specified TTL and remove it when it expires
 ```
 PS C:\>Send-ServiceFabricReplicaHealthReport -PartitionId 1a151ac7-9c25-4528-81fc-4c6bb9909394 -InstanceId 130464806670632403 -SourceId "MyWatchdog" -HealthProperty "Resources" -HealthState Warning -Description "Access to resources is temporarily disabled" -TimeToLiveSec 10 -RemoveWhenExpired
 ```
@@ -77,14 +77,14 @@ The report marked for removal on expiration.
 
 ### -Description
 Specifies human readable information about the condition that triggered the report.
-The **SourceId**, **HealthProperty**, and **HealthState** parameters fully describe the report.
+The *SourceId*, *HealthProperty*, and *HealthState* parameters fully describe the report.
 
 The maximum string length for the description is 4096 characters.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -100,7 +100,7 @@ Together with the *SourceId* parameter, this property uniquely identifies the re
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -115,7 +115,7 @@ Specifies a **HealthState** object that represents the reported health state.
 ```yaml
 Type: HealthState
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, Ok, Warning, Error, Unknown
 
 Required: True
@@ -131,7 +131,7 @@ Specifies the stateless service instance ID.
 ```yaml
 Type: Int64
 Parameter Sets: StatelessService
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -146,7 +146,7 @@ Specifies the ID of a Service Fabric partition.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -163,7 +163,7 @@ The reports that are removed when expired can be used for conditions that are on
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -178,7 +178,7 @@ Specifies the stateful service replica ID.
 ```yaml
 Type: Int64
 Parameter Sets: StatefulService
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -195,7 +195,7 @@ If you specify a sequence number, that value must be higher than any previous se
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -210,7 +210,7 @@ Specifies the identifier of the source that triggered the report.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -221,14 +221,14 @@ Accept wildcard characters: False
 
 ### -TimeToLiveSec
 Specifies the Time to Live (TTL) of the report in seconds.
-When the TTL expires, the report is removed from the health store if the **RemoveWhenExpired** parameter is specified.
+When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
 Otherwise, the entity is evaluated at Error because of the expired report.
 The default value is Infinite.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -243,7 +243,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -276,5 +276,3 @@ This cmdlet does not return any output.
 [Get-ServiceFabricPartitionHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md)
 
 [Get-ServiceFabricReplicaHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md)
-
-

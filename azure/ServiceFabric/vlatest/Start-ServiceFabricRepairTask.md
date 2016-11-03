@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 239A882B-8E31-4404-AB35-2A39D8ABC600
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Start-ServiceFabricRepairTask
 
 ## SYNOPSIS
-Creates a repair task.
+Starts a repair task.
 
 ## SYNTAX
 
@@ -43,7 +43,7 @@ Start-ServiceFabricRepairTask [-NodeNames] <String[]> [-NodeImpact] <NodeImpactL
 ```
 
 ## DESCRIPTION
-The **Start-ServiceFabricRepairTask** cmdlet creates a repair task.
+The **Start-ServiceFabricRepairTask** cmdlet starts a repair task.
 You can create Service Fabric repair tasks that run automatically or manually.
 To create repair tasks, first enable the Repair Manager system service in the cluster configuration.
 For repair tasks that run automatically, an appropriate repair executor must be running for each repair action to run automatically.
@@ -54,14 +54,14 @@ Do not run this cmdlet directly.
 
 To create a manual repair task, provide the set of impacted node names and the expected impact.
 When the state of the created repair task changes to approved, you can safely perform repair actions on those nodes.
-After you finish repairing the nodes, use the Complete-ServiceFabricRepairTask cmdlet to complete the task and bring the nodes back online.
+After you finish repairing the nodes, use the [Complete-ServiceFabricRepairTask](./Complete-ServiceFabricRepairTask.md) cmdlet to complete the task and bring the nodes back online.
 
 To create an automatic repair task, provide the target node name and desired repair action.
 You can provide one of the built-in node repair actions, or you can specify a string that contains the full name of the custom repair action.
 If the custom repair executor for the action supports it, you can also specify more than one target node.
 
 This cmdlet requires that you connect to the cluster with credentials that are granted administrator access to the cluster.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -81,7 +81,7 @@ You can specify any action that one of the repair executors supports.
 ```yaml
 Type: String
 Parameter Sets: NodeCustomAuto
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -96,7 +96,7 @@ Specifies a description of the purpose of the repair task, or other information.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -107,7 +107,7 @@ Accept wildcard characters: False
 
 ### -NodeAction
 Specifies the repair action to perform.
-Valid values are: 
+Valid values are:
 
 - Reboot.
 Requests a reboot of the computer on which the node runs.
@@ -119,7 +119,7 @@ Requests that all disk volumes be reimaged on the computer on which the given no
 ```yaml
 Type: SystemNodeRepairAction
 Parameter Sets: NodeBuiltInAuto
-Aliases: 
+Aliases:
 Accepted values: Reboot, ReimageOS, FullReimage
 
 Required: True
@@ -131,7 +131,7 @@ Accept wildcard characters: False
 
 ### -NodeImpact
 Specifies the expected level of impact of a manual repair of a set of nodes.
-Valid values are: 
+Valid values are:
 
 - Invalid.
 Do not specify this value.
@@ -146,7 +146,7 @@ It may lose all of its persisted state prior to restarting.
 ```yaml
 Type: NodeImpactLevel
 Parameter Sets: NodeManual
-Aliases: 
+Aliases:
 Accepted values: Invalid, None, Restart, RemoveData
 
 Required: True
@@ -163,7 +163,7 @@ This cmdlet repairs the node that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: NodeBuiltInAuto
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -179,7 +179,7 @@ This cmdlet repairs the nodes that this parameter specifies.
 ```yaml
 Type: String[]
 Parameter Sets: NodeCustomAuto, NodeManual
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -195,7 +195,7 @@ If you do not specify an ID, this cmdlet generates a unique ID.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -210,7 +210,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -240,10 +240,10 @@ This cmdlet returns an object that contains the **TaskID** and **Version** of th
 
 [Complete-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Complete-ServiceFabricRepairTask.md)
 
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
+
 [Get-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Get-ServiceFabricRepairTask.md)
 
 [Remove-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Remove-ServiceFabricRepairTask.md)
 
 [Stop-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Stop-ServiceFabricRepairTask.md)
-
-

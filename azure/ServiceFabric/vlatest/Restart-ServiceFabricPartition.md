@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: C6C8C091-9A47-4AB1-B10B-27D0D6D2F7AE
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricPartition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricPartition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricPartition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -63,7 +63,7 @@ Before using this cmdlet, connect to the Service Fabric cluster.
 
 Important note: This cmdlet should not be aborted while running.
 Aborting this cmdlet while it is running may leave state behind.
-If this cmdlet is aborted while running, Remove-ServiceFabricTestState should be invoked to remove state that may have been left behind.
+If this cmdlet is aborted while running, [Remove-ServiceFabricTestState](./Remove-ServiceFabricTestState.md) should be invoked to remove state that may have been left behind.
 
 ## EXAMPLES
 
@@ -89,7 +89,7 @@ Specifies the ID of the partition to restart.
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -104,7 +104,7 @@ Specifies the key of the partition to restart.
 ```yaml
 Type: String
 Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -119,7 +119,7 @@ Indicates that this cmdlet restarts a named partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -134,7 +134,7 @@ Indicates that this cmdlet restarts a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -149,7 +149,7 @@ Indicates that this cmdlet restarts a UniformInt64 partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -164,7 +164,7 @@ Specifies whether to restart all replicas in the partition or only secondary par
 ```yaml
 Type: RestartPartitionMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, AllReplicasOrInstances, OnlyActiveSecondaries
 
 Required: True
@@ -180,7 +180,7 @@ Specifies the name of the service to restart.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -195,7 +195,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -229,5 +229,3 @@ This cmdlet returns a **System.Fabric.Testability.RestartPartitionResult** objec
 [Repair-ServiceFabricPartition](xref:ServiceFabric/vlatest/Repair-ServiceFabricPartition.md)
 
 [Restart-ServiceFabricPartition](xref:ServiceFabric/vlatest/Restart-ServiceFabricPartition.md)
-
-

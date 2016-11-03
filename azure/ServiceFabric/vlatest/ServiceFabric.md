@@ -5,10 +5,10 @@ Download Help Link: http://go.microsoft.com/fwlink/?LinkID=521412
 Help Version: 2.0.14.0
 Locale: en-US
 ms.assetid: 8FE06792-E775-4575-8C55-12A66ED66383
-updated_at: 10/27/2016 10:52 PM
-ms.date: 10/27/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/483c3b1a57f43eb5b5c41c0052db248342480999/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 uid: ServiceFabric/vlatest/ServiceFabric.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -127,7 +127,7 @@ Gets configuration upgrade status.
 
 
 ### [Get-ServiceFabricClusterConfiguration](./Get-ServiceFabricClusterConfiguration.md)
-Retrieves the latest JSON cluster configuration.
+Gets the latest JSON cluster configuration.
 
 
 ### [Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
@@ -199,7 +199,7 @@ Gets the health state of a Service Fabric node.
 
 
 ### [Get-ServiceFabricNodeLoadInformation](./Get-ServiceFabricNodeLoadInformation.md)
-Returns detailed metrics load information for a Service Fabric node.
+Gets detailed metrics load information for a Service Fabric node.
 
 
 ### [Get-ServiceFabricNode](./Get-ServiceFabricNode.md)
@@ -247,7 +247,7 @@ Gets the health of a Service Fabric replica.
 
 
 ### [Get-ServiceFabricReplicaLoadInformation](./Get-ServiceFabricReplicaLoadInformation.md)
-Returns detailed metrics load information for a Service Fabric replica.
+Gets detailed metrics load information for a Service Fabric replica.
 
 
 ### [Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md)

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 2E71980D-7493-4C14-BA4A-1AB48398594A
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -62,7 +62,7 @@ To run this cmdlet, **FaultAnalysisService** must be enabled.
 Run this cmdlet to restart only partitions for stateful services.
 Do not use this cmdlet to restart partitions for system services.
 
-You can check the progress of the operation by using the Get-ServiceFabricPartitionRestartProgress cmdlet.
+You can check the progress of the operation by using the [Get-ServiceFabricPartitionRestartProgress](./Get-ServiceFabricPartitionRestartProgress.md) cmdlet.
 
 ## EXAMPLES
 
@@ -93,7 +93,7 @@ You can check the progress of the operation by using this ID and the **Get-Servi
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -108,7 +108,7 @@ Specifies the ID of the Service Fabric partition that this cmdlet restarts.
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -123,7 +123,7 @@ Specifies the key of the Service Fabric partition that this cmdlet restarts.
 ```yaml
 Type: String
 Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -138,7 +138,7 @@ Indicates that the Service Fabric partition that this cmdlet restarts is a Named
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -153,7 +153,7 @@ Indicates that the Service Fabric partition that this cmdlet restarts is a singl
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -168,7 +168,7 @@ Indicates that the Service Fabric partition that this cmdlet restarts is a Unifo
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -189,7 +189,7 @@ Restart only the secondaries in the target partition.
 ```yaml
 Type: RestartPartitionMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, AllReplicasOrInstances, OnlyActiveSecondaries
 
 Required: True
@@ -205,7 +205,7 @@ Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -220,7 +220,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -241,5 +241,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-ServiceFabricPartitionRestartProgress](xref:ServiceFabric/vlatest/Get-ServiceFabricPartitionRestartProgress.md)
-
-

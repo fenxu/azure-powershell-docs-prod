@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 9C765157-6B48-4AC8-A4D5-C26C098CFC17
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -55,20 +55,20 @@ Start-ServiceFabricApplicationUpgrade [-ApplicationName] <Uri> [-ApplicationType
 ## DESCRIPTION
 The **Start-ServiceFabricApplicationUpgrade** cmdlet upgrades a Service Fabric application.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Upgrade an application
 ```
-PS C:\>Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListServiceV2" -ImageStoreConnectionString "file:C:\ProgramData\ServiceFabric\ImageStore" 
-PS C:\> Register-ServiceFabricApplicationType -ApplicationPathInImageStore "PersistentToDoListServiceV2" 
+PS C:\>Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListServiceV2" -ImageStoreConnectionString "file:C:\ProgramData\ServiceFabric\ImageStore"
+PS C:\> Register-ServiceFabricApplicationType -ApplicationPathInImageStore "PersistentToDoListServiceV2"
 PS C:\> Start-ServiceFabricApplicationUpgrade -ApplicationName fabric:/myapp/persistenttodolist -ApplicationTypeVersion "2.0" -RestartProcess -UnMonitoredManual
 ```
 
-The first command uses the Copy-ServiceFabricApplicationPackage cmdlet to copy the updated application package to the image store.
+The first command uses the [Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md) cmdlet to copy the updated application package to the image store.
 
-The second command uses the Register-ServiceFabricApplicationType cmdlet to register the updated application type.
+The second command uses the [Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType) cmdlet to register the updated application type.
 
 The final command upgrades the application.
 The command performs an unmonitored manual upgrade, which includes a restart of the server that hosts the application.
@@ -82,7 +82,7 @@ The cmdlet upgrades the application that has the URI that you specify.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -97,7 +97,7 @@ Specifies the overrides for application parameters as name/value pairs.
 ```yaml
 Type: Hashtable
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -113,7 +113,7 @@ The cmdlet upgrades the application to the version that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -123,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -143,7 +143,7 @@ Indicates whether to treat a warning health event as an error event during healt
 ```yaml
 Type: Boolean
 Parameter Sets: Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -153,8 +153,8 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultServiceTypeHealthPolicy
-Specifies the health policy for the default service type to use for the monitored upgrade in the format MaxPercentUnhealthyPartitionsPerService,MaxPercentUnhealthyReplicasPerPartition,MaxPercentUnhealthyServices.
-For example, 5,10,15 indicates the following values: 
+Specifies the health policy for the default service type to use for the monitored upgrade in the format MaxPercentUnhealthyPartitionsPerService, MaxPercentUnhealthyReplicasPerPartition, MaxPercentUnhealthyServices.
+For example, 5,10,15 indicates the following values:
 
 - MaxPercentUnhealthyPartitionsPerService = 5
 - MaxPercentUnhealthyReplicasPerPartition = 10
@@ -163,7 +163,7 @@ For example, 5,10,15 indicates the following values:
 ```yaml
 Type: String
 Parameter Sets: Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -182,7 +182,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: UpgradeFailureAction
 Parameter Sets: Monitored
-Aliases: 
+Aliases:
 Accepted values: Invalid, Rollback, Manual
 
 Required: True
@@ -198,7 +198,7 @@ Indicates that this cmdlet skips the warning message and forces the upgrade.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -213,7 +213,7 @@ Indicates that the service host restarts even if the upgrade is a configuration-
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -228,7 +228,7 @@ Specifies the duration, in seconds, after which Service Fabric retries the healt
 ```yaml
 Type: UInt32
 Parameter Sets: Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -244,7 +244,7 @@ This wait duration prevents undetected changes of health right after the health 
 ```yaml
 Type: UInt32
 Parameter Sets: Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -259,7 +259,7 @@ Specifies the duration, in seconds, that Service Fabric waits before it performs
 ```yaml
 Type: UInt32
 Parameter Sets: Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -274,7 +274,7 @@ Specifies the maximum percentage of the application instances deployed on the no
 ```yaml
 Type: Byte
 Parameter Sets: Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -292,7 +292,7 @@ This is the recommended mode for application upgrades in a production environmen
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Monitored
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -306,12 +306,12 @@ Specifies the time-out period, in seconds, to check whether the replica set has 
 After the time-out period, the upgrade proceeds.
 
 This parameter has been deprecated.
-Specify the **UpgradeReplicaSetCheckTimeoutSec** parameter instead.
+Specify the *UpgradeReplicaSetCheckTimeoutSec* parameter instead.
 
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -324,12 +324,12 @@ Accept wildcard characters: False
 Indicates that the service host restarts as part of the upgrade.
 
 This parameter has been deprecated.
-Specify the **ForceRestart** parameter instead.
+Specify the *ForceRestart* parameter instead.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -340,14 +340,14 @@ Accept wildcard characters: False
 
 ### -ServiceTypeHealthPolicyMap
 Specifies the map of the health policy to use for different service types as a hash table in the following format: @ {"*ServiceTypeName*" : "MaxPercentUnhealthyPartitionsPerService,MaxPercentUnhealthyReplicasPerPartition,MaxPercentUnhealthyServices"}.
-For example: 
+For example:
 
 @{ "ServiceTypeName01" = "5,10,5"; "ServiceTypeName02" = "5,5,5" }
 
 ```yaml
 Type: Hashtable
 Parameter Sets: Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -362,7 +362,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -379,7 +379,7 @@ This mode is not recommended for production, and is only useful during developme
 ```yaml
 Type: SwitchParameter
 Parameter Sets: UnmonitoredAuto
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -390,12 +390,12 @@ Accept wildcard characters: False
 
 ### -UnmonitoredManual
 Indicates that the upgrade mode is unmonitored manual.
-After Service Fabric upgrades an upgrade domain, it waits for you to upgrade the next upgrade domain by using the Resume-ServiceFabricApplicationUpgrade cmdlet.
+After Service Fabric upgrades an upgrade domain, it waits for you to upgrade the next upgrade domain by using the [Resume-ServiceFabricApplicationUpgrade](./Resume-ServiceFabricApplicationUpgrade.md) cmdlet.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: UnmonitoredManual
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -411,7 +411,7 @@ After this period, the upgrade fails.
 ```yaml
 Type: UInt32
 Parameter Sets: Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -426,7 +426,7 @@ Specifies the maximum time that Service Fabric waits for a service to reconfigur
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -442,7 +442,7 @@ After this period, the upgrade fails.
 ```yaml
 Type: UInt32
 Parameter Sets: Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -453,7 +453,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -496,5 +495,3 @@ This cmdlet returns a **System.Fabric.Description.ApplicationUpgradeDescription*
 [Copy-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md)
 
 [Register-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md)
-
-

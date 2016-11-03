@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: F6801F63-9A69-48E9-B2A2-64B8F2C5E8C8
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricServiceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricServiceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricServiceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -40,7 +40,7 @@ Update-ServiceFabricServiceGroup [-Stateful] [-ServiceName] <Uri> [-TargetReplic
 ## DESCRIPTION
 The **Update-ServiceFabricServiceGroup** cmdlet updates a Service Fabric service group.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -61,7 +61,7 @@ This command updates the instance count of a running Fabric Service to a value o
 ## PARAMETERS
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -81,7 +81,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -96,7 +96,7 @@ Specifies the number of instances for the stateless service.
 ```yaml
 Type: Int32
 Parameter Sets: Stateless
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,7 +111,7 @@ Specifies the minimum replica set size for the Service Fabric stateful service.
 ```yaml
 Type: Int32
 Parameter Sets: Stateful
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -122,13 +122,13 @@ Accept wildcard characters: False
 
 ### -QuorumLossWaitDuration
 Specifies the duration, as a **TimeSpan** object, that Service Fabric waits before it declares data loss for a service partition.
-To obtain a **TimeSpan** object, use the New-TimeSpanhttp://go.microsoft.com/fwlink/?LinkID=113360 cmdlet.
+To obtain a **TimeSpan** object, use the [New-TimeSpan](http://go.microsoft.com/fwlink/?LinkID=113360) cmdlet.
 For more information, type `Get-Help New-TimeSpan`.
 
 ```yaml
 Type: TimeSpan
 Parameter Sets: Stateful
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -144,7 +144,7 @@ To obtain a **TimeSpan** object, use the **New-TimeSpan** cmdlet.
 ```yaml
 Type: TimeSpan
 Parameter Sets: Stateful
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -159,7 +159,7 @@ Specifies the Uniform Resource Identifier (URI) of a Service Fabric service grou
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -174,7 +174,7 @@ Indicates that the service is a Service Fabric stateful service.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Stateful
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -189,7 +189,7 @@ Indicates that the service is a Service Fabric stateless service.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Stateless
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -204,7 +204,7 @@ Specifies the target replica set size for a Service Fabric stateful service.
 ```yaml
 Type: Int32
 Parameter Sets: Stateful
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -219,7 +219,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -230,7 +230,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -269,5 +268,3 @@ This cmdlet returns the status of the operation as a string.
 [New-ServiceFabricServiceGroup](xref:ServiceFabric/vlatest/New-ServiceFabricServiceGroup.md)
 
 [Remove-ServiceFabricServiceGroup](xref:ServiceFabric/vlatest/Remove-ServiceFabricServiceGroup.md)
-
-

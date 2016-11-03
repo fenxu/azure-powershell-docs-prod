@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 81C3B5F4-6B48-47CB-AC09-3193F3F86E25
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricApplicationPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricApplicationPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -31,9 +31,9 @@ Test-ServiceFabricApplicationPackage [-ApplicationPackagePath] <String> [-Applic
 
 ## DESCRIPTION
 The **Test-ServiceFabricApplicationPackage** cmdlet validates a Service Fabric application package.
-After you validate a package, use the Copy-ServiceFabricApplicationPackage cmdlet to copy it to the image store.
+After you validate a package, use the [Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md) cmdlet to copy it to the image store.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -53,7 +53,7 @@ The cmdlet validates the package in the path that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -68,7 +68,7 @@ Specifies the overrides for application parameters as name/value pairs.
 ```yaml
 Type: Hashtable
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -84,7 +84,7 @@ If you specify this parameter, the cmdlet performs additional validations agains
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -117,5 +117,3 @@ This cmdlet returns $True if the Service Fabric application package is valid, or
 [Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 [Remove-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplicationPackage.md)
-
-

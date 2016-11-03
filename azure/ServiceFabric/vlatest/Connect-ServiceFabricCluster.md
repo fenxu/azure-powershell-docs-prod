@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 7370AD41-FB09-4948-9BB7-8FD67B5E99E4
-updated_at: 11/2/2016 4:42 PM
-ms.date: 11/2/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0fd9fb4ce9179d4ff591e7539b0bcbbb544795ab/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -128,7 +128,7 @@ This command creates a connection to the specified cluster.
 ## PARAMETERS
 
 ### -AllowNetworkConnectionOnly
-Allows connecting to the cluster even when system services are unresponsive as long as an underlying network connection can be established.
+Indicates that the cmdlet allows connecting to the cluster even when system services are unresponsive as long as an underlying network connection can be established.
 
 ```yaml
 Type: SwitchParameter

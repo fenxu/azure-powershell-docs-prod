@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 0F403FD1-EA91-4040-BD9E-D289B59F0E01
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -35,7 +35,7 @@ This cmdlet verifies that the services are at the target replica set size and th
 This cmdlet also validates that there are no InBuild replicas.
 Use this cmdlet to verify that your service is stable after inducing any fault into the system.
 
-Before using this cmdlet, connect to the Service Fabric cluster.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -54,7 +54,7 @@ Specifies the maximum time-out period, in seconds, for the cluster to stabilize 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -69,7 +69,7 @@ Specifies the name of the service to test.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -84,7 +84,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -110,6 +110,8 @@ This cmdlet returns a **String** object that represents the status of validation
 
 ## RELATED LINKS
 
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
+
 [Get-ServiceFabricService](xref:ServiceFabric/vlatest/Get-ServiceFabricService.md)
 
 [New-ServiceFabricService](xref:ServiceFabric/vlatest/New-ServiceFabricService.md)
@@ -119,5 +121,3 @@ This cmdlet returns a **String** object that represents the status of validation
 [Test-ServiceFabricService](xref:ServiceFabric/vlatest/Test-ServiceFabricService.md)
 
 [Update-ServiceFabricService](xref:ServiceFabric/vlatest/Update-ServiceFabricService.md)
-
-

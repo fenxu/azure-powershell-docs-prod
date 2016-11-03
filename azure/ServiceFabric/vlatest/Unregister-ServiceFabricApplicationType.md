@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 42986C68-14EA-4ADA-9381-3B7A9DF11971
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricApplicationType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricApplicationType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricApplicationType.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -31,11 +31,11 @@ Unregister-ServiceFabricApplicationType [-ApplicationTypeName] <String> [-Applic
 
 ## DESCRIPTION
 The **Unregister-ServiceFabricApplicationType** cmdlet unregisters a Service Fabric application type.
-Before you unregister an application type, you must use the Remove-ServiceFabricService cmdlet to remove services that you base on the application, and use the Remove-ServiceFabricApplication to remove instances of the application.
+Before you unregister an application type, you must use the [Remove-ServiceFabricService](./Remove-ServiceFabricService.md) cmdlet to remove services that you base on the application, and use the [Remove-ServiceFabricApplication](./Remove-ServiceFabricApplication.md) to remove instances of the application.
 If you unregister an application type, the cmdlet removes the application package from the image store.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -45,7 +45,7 @@ PS C:\>Unregister-ServiceFabricApplicationType -ApplicationTypeName "CalcService
 ```
 
 This command unregisters the application CalcServiceApp, version 1.0.
-Because the command includes the **Force** parameter, the cmdlet does not prompt you for confirmation.
+Because the command includes the *Force* parameter, the cmdlet does not prompt you for confirmation.
 
 ## PARAMETERS
 
@@ -56,7 +56,7 @@ The cmdlet unregisters the type that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -72,7 +72,7 @@ The cmdlet unregisters the type that has the version that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -82,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -102,7 +102,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -117,7 +117,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -128,7 +128,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -162,14 +161,12 @@ This cmdlet returns the status of the operation as a string.
 
 [Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
-
 [Get-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md)
+
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 [Register-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md)
 
-[Remove-ServiceFabricService](xref:ServiceFabric/vlatest/Remove-ServiceFabricService.md)
-
 [Remove-ServiceFabricApplication](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplication.md)
 
-
+[Remove-ServiceFabricService](xref:ServiceFabric/vlatest/Remove-ServiceFabricService.md)

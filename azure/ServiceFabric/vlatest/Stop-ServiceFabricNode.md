@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 4BC03E59-F564-4678-A6DE-83974795422C
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -35,11 +35,11 @@ If the command succeeds the intent is recorded, but the node may not stop immedi
 
 Safety checks are not performed when using this cmdlet.
 
-If you specify the *NodeInstanceId*parameter, only the node with that ID is stopped.
+If you specify the *NodeInstanceId* parameter, only the node with that ID is stopped.
 If you specify a value for *NodeInstanceId* that does not match the active node, an error occurs.
 
 Use this command to test the failover recovery paths by simulating stopped nodes in a cluster.
-Unlike the Restart-ServiceFabricNode cmdlet, **Stop-ServiceFabricNode** keeps the node stopped until you run the Start-ServiceFabricNode cmdlet to start the node.
+Unlike the [Restart-ServiceFabricNode](./Restart-ServiceFabricNode.md) cmdlet, **Stop-ServiceFabricNode** keeps the node stopped until you run the [Start-ServiceFabricNode](./Start-ServiceFabricNode.md) cmdlet to start the node.
 If you stop a node with the **Stop-ServiceFabricNode** cmdlet, you should only start the node with the **Start-ServiceFabricNode** cmdlet.
 
 Before using this cmdlet, connect to the Service Fabric cluster.
@@ -69,7 +69,7 @@ Specifies whether the action waits for the restart to complete.
 ```yaml
 Type: CompletionMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, DoNotVerify, Verify
 
 Required: False
@@ -87,7 +87,7 @@ The default value is 0.
 ```yaml
 Type: BigInteger
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -103,7 +103,7 @@ The cmdlet stops the node that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -118,7 +118,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -153,5 +153,3 @@ This cmdlet returns a **System.Fabric.Testability.StopNode** object that represe
 [Restart-ServiceFabricNode](xref:ServiceFabric/vlatest/Restart-ServiceFabricNode.md)
 
 [Start-ServiceFabricNode](xref:ServiceFabric/vlatest/Start-ServiceFabricNode.md)
-
-

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 368529F1-EA7E-407B-93A7-352ED6D2048C
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -31,7 +31,7 @@ Start-ServiceFabricNode [-NodeName] <String> [[-NodeInstanceId] <BigInteger>] [[
 ```
 
 ## DESCRIPTION
-The **Start-ServiceFabricNode** cmdlet starts the node specified by the *NodeName* parameter that has been stopped using the Stop-ServiceFabricNode cmdlet, StopNodeAsync, or a representational state transfer (REST) equivalent.
+The **Start-ServiceFabricNode** cmdlet starts the node specified by the *NodeName* parameter that has been stopped using the [Stop-ServiceFabricNode](./Stop-ServiceFabricNode.md) cmdlet, StopNodeAsync, or a representational state transfer (REST) equivalent.
 If the cmdlet succeeds, the intent is recorded but the node may not be immediately available.
 
 Use this cmdlet to test your service along the failover recovery paths.
@@ -48,7 +48,7 @@ In this case, be sure to specify the *IpAddressOrFQDN* and *ClusterConnectionPor
 In general, you should not specify *IpAddressOrFQDN * or *ClusterConnectionPort*.
 You should use the **Start-ServiceFabricNode** cmdlet only on nodes that were stopped using the **Stop-ServiceFabricNode** cmdlet.
 
-Before using this cmdlet, connect to the Service Fabric cluster.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -72,7 +72,7 @@ PS C:\>Start-ServiceFabricNode -NodeName "Node03" -IpAddressOrFQDN 172.16.0.0 -C
 ```
 
 This command starts the node named Node03, which has the IP address 172.16.0.0 and a cluster connection port of 10555.
-You can get the IP address and cluster connection port of a node by using the Get-ServiceFabricNode cmdlet.
+You can get the IP address and cluster connection port of a node by using the [Get-ServiceFabricNode](./Get-ServiceFabricNode.md) cmdlet.
 
 ## PARAMETERS
 
@@ -82,7 +82,7 @@ Specifies the cluster connection port for the node to start.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -97,7 +97,7 @@ Specifies whether the action waits for the restart to complete.
 ```yaml
 Type: CompletionMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, DoNotVerify, Verify
 
 Required: False
@@ -109,12 +109,12 @@ Accept wildcard characters: False
 
 ### -IpAddressOrFQDN
 Specifies the IP address or fully qualified domain name (FQDN) for the node to start.
-You can use the Get-ServiceFabricNode cmdlet to get the FQDN or IP address of a node.
+You can use the **Get-ServiceFabricNode** cmdlet to get the FQDN or IP address of a node.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -130,7 +130,7 @@ Unless you specify 0, the node instance ID that you specify is matched against t
 ```yaml
 Type: BigInteger
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -146,7 +146,7 @@ The cmdlet starts the node that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -161,7 +161,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -187,6 +187,8 @@ This cmdlet returns a **System.Fabric.Testability.StartNodeResult** object that 
 
 ## RELATED LINKS
 
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
+
 [Disable-ServiceFabricNode](xref:ServiceFabric/vlatest/Disable-ServiceFabricNode.md)
 
 [Enable-ServiceFabricNode](xref:ServiceFabric/vlatest/Enable-ServiceFabricNode.md)
@@ -196,5 +198,3 @@ This cmdlet returns a **System.Fabric.Testability.StartNodeResult** object that 
 [Restart-ServiceFabricNode](xref:ServiceFabric/vlatest/Restart-ServiceFabricNode.md)
 
 [Stop-ServiceFabricNode](xref:ServiceFabric/vlatest/Stop-ServiceFabricNode.md)
-
-

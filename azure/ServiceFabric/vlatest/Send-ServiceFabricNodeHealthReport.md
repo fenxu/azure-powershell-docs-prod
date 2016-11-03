@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: F28E40A2-17B6-4ADC-AE34-90A436F56B75
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricNodeHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricNodeHealthReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricNodeHealthReport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -34,11 +34,11 @@ Send-ServiceFabricNodeHealthReport [-NodeName] <String> -HealthState <HealthStat
 The **Send-ServiceFabricNodeHealthReport** cmdlet sends a health report on a Service Fabric node.
 
 The node must already exist in the health store.
-To check whether it exists, use the Get-ServiceFabricNodeHealth cmdlet.
-Alternatively, you can use the Get-ServiceFabricNode cmdlet.
+To check whether it exists, use the [Get-ServiceFabricNodeHealth](./Get-ServiceFabricNodeHealth.md) cmdlet.
+Alternatively, you can use the [Get-ServiceFabricNode](./Get-ServiceFabricNode.md) cmdlet.
 If the cmdlet gets the and the node has valid health state, then the node exists in the health store.
 
-The cmdlet sends the report after an interval specified by the **HealthReportSendIntervalInSec** parameter of the Connect-ServiceFabricCluster cmdlet.
+The cmdlet sends the report after an interval specified by the *HealthReportSendIntervalInSec* parameter of the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 The cluster connection must be kept alive during this time.
 The command is evaluated on the client without reference to running on the health store.
 The report may not be applied in health store even if the command returns success.
@@ -47,7 +47,7 @@ For example, the health store may reject the report because of an invalid parame
 To see whether the report was applied in the health store, use the **Get-ServiceFabricNodeHealth** cmdlet and check that the report appears in the HealthEvents section.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet and then the Get-ServiceFabricClusterConnection cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the **Connect-ServiceFabricCluster** cmdlet and then the [Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md) cmdlet.
 
 ## EXAMPLES
 
@@ -72,14 +72,14 @@ The command also gives a description for the warning, sets the TTL to 10 seconds
 
 ### -Description
 Specifies human readable information about the condition that triggered the report.
-The **SourceId**, **HealthProperty**, and **HealthState** parameters fully describe the report.
+The *SourceId*, *HealthProperty*, and *HealthState* parameters fully describe the report.
 
 The maximum string length for the description is 4096 characters.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -91,12 +91,12 @@ Accept wildcard characters: False
 ### -HealthProperty
 Specifies the property of the report.
 Together with the *SourceId* parameter, this property uniquely identifies the report.
-The report overrides any previous reports with the same values for the **SourceId** and **HealthProperty** parameters on the same entity.
+The report overrides any previous reports with the same values for the *SourceId* and *HealthProperty* parameters on the same entity.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -111,7 +111,7 @@ Specifies a **HealthState** object that represents the reported health state.
 ```yaml
 Type: HealthState
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, Ok, Warning, Error, Unknown
 
 Required: True
@@ -128,7 +128,7 @@ The cmdlet sends a health report on the node that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -145,7 +145,7 @@ The reports that are removed when expired can be used for conditions that are on
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -162,7 +162,7 @@ If you specify a sequence number, that value must be higher than any previous se
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -177,7 +177,7 @@ Specifies the identifier of the source that triggered the report.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -188,14 +188,14 @@ Accept wildcard characters: False
 
 ### -TimeToLiveSec
 Specifies the Time to Live (TTL) of the report in seconds.
-When the TTL expires, the report is removed from the health store if the **RemoveWhenExpired** parameter is specified.
+When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
 Otherwise, the entity is evaluated at Error because of the expired report.
 The default value is Infinite.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -210,7 +210,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -243,5 +243,3 @@ This cmdlet does not return any output.
 [Get-ServiceFabricNode](xref:ServiceFabric/vlatest/Get-ServiceFabricNode.md)
 
 [Get-ServiceFabricNodeHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricNodeHealth.md)
-
-
