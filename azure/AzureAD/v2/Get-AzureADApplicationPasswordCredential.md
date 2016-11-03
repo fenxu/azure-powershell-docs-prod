@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: 5F3B0266-B5CD-4CAB-B22D-BDEA4C78E3B1
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 8:37 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPasswordCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPasswordCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3a2240e39ee0767cb1da29b0b1ce5f813d517a80/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPasswordCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADApplicationPasswordCredential
 
 ## SYNOPSIS
-Get and application's password credentials
+Gets the password credential for an application.
 
 ## SYNTAX
 
@@ -30,21 +30,21 @@ Get-AzureADApplicationPasswordCredential -ObjectId <String> [-InformationAction 
 ```
 
 ## DESCRIPTION
+The **Get-AzureADApplicationPasswordCredential** cmdlet gets the password credentials for an Azure Active Directory application.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
+### Example 1:
+```PowerShell
 PS C:\>New-AzureADApplicationPasswordCredential -ObjectId 3ddd22e7-a150-4bb3-b100-e410dea1cb84
-```
-
-Output:
 
 CustomKeyIdentifier :
 EndDate             : 9/28/2017 3:57:10 PM
 KeyId               :
 StartDate           : 9/28/2016 3:57:10 PM
 Value               : ZJ0V1Yg4cp4eWIey9DrYspqVdX1pdvY437P/ueGxVLU=
+
+```
 
 ## PARAMETERS
 
