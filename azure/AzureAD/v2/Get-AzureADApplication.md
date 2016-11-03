@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: FC0F8815-DEEC-4672-81A1-68A1095E5543
-updated_at: 11/3/2016 8:19 PM
+updated_at: 11/3/2016 8:57 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/adfc6185e8a17849831c6e9dd56b107364b1e5da/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5e60c75e6bda203b0a4d71bb2dee141eabe147ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -181,9 +181,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[New-AzureADApplication](.\New-AzureADApplication)  
-[Remove-AzureADApplication](.\Remove-AzureADApplication)  
-[Set-AzureADApplication](.\Set-AzureADApplication)
+[New-AzureADApplication](./New-AzureADApplication)  
+[Remove-AzureADApplication](./Remove-AzureADApplication)  
+[Set-AzureADApplication](./Set-AzureADApplication)
 
 
 
