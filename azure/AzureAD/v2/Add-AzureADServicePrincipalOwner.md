@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 22D71474-34F5-4646-BB68-A929B211D283
-updated_at: 11/3/2016 4:45 PM
+updated_at: 11/3/2016 8:45 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8a6548b8ca004290a7d6b16b3f5b92a639417222/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/99485c79f86ec4757d0388cb8d0f6c38d782d7dc/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalOwner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -112,7 +112,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Get-AzureADServicePrincipalOwner](.\Get-AzureADServicePrincipalOwner)
+[Get-AzureADServicePrincipalOwner](./Get-AzureADServicePrincipalOwner)
 
-[Remove-AzureADServicePrincipalOwner](.\Remove-AzureADServicePrincipalOwner)
+[Remove-AzureADServicePrincipalOwner](./Remove-AzureADServicePrincipalOwner)
 
