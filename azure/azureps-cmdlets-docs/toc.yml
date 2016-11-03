@@ -695,89 +695,6 @@
               href: ../ResourceManager/AzureRM.Automation/v0.9.8/Unregister-AzureAutomationScheduledRunbook.md
     - name: AzureRM.AzureStackStorage
       items:
-        - name: v0.9.8.1
-          href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/AzureRM.AzureStackStorage.md
-          items:
-            - name: Add-ACSFarm
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Add-ACSFarm.md
-            - name: Disable-ACSNode
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Disable-ACSNode.md
-            - name: Enable-ACSNode
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Enable-ACSNode.md
-            - name: Export-ACSLog
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Export-ACSLog.md
-            - name: Get-ACSBlobService
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSBlobService.md
-            - name: Get-ACSBlobServiceMetric
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSBlobServiceMetric.md
-            - name: Get-ACSBlobServiceMetricDefinition
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSBlobServiceMetricDefinition.md
-            - name: Get-ACSEvent
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEvent.md
-            - name: Get-ACSEventQuery
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEventQuery.md
-            - name: Get-ACSFarm
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarm.md
-            - name: Get-ACSFarmMetric
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarmMetric.md
-            - name: Get-ACSFarmMetricDefinition
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarmMetricDefinition.md
-            - name: Get-ACSFault
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFault.md
-            - name: Get-ACSManagementService
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSManagementService.md
-            - name: Get-ACSManagementServiceMetric
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSManagementServiceMetric.md
-            - name: Get-ACSManagementServiceMetricDefinition
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSManagementServiceMetricDefinition.md
-            - name: Get-ACSNode
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNode.md
-            - name: Get-ACSNodeMetric
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNodeMetric.md
-            - name: Get-ACSNodeMetricDefinition
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNodeMetricDefinition.md
-            - name: Get-ACSRoleInstance
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSRoleInstance.md
-            - name: Get-ACSRoleInstanceMetric
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSRoleInstanceMetric.md
-            - name: Get-ACSRoleInstanceMetricDefinition
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSRoleInstanceMetricDefinition.md
-            - name: Get-ACSShare
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShare.md
-            - name: Get-ACSShareMetric
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShareMetric.md
-            - name: Get-ACSShareMetricDefinition
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShareMetricDefinition.md
-            - name: Get-ACSStorageAccount
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSStorageAccount.md
-            - name: Get-ACSTableService
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableService.md
-            - name: Get-ACSTableServiceMetric
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetric.md
-            - name: Get-ACSTableServiceMetricDefinition
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetricDefinition.md
-            - name: Resolve-ACSFault
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Resolve-ACSFault.md
-            - name: Restart-ACSRoleInstance
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Restart-ACSRoleInstance.md
-            - name: Set-ACSBlobService
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSBlobService.md
-            - name: Set-ACSFarm
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSFarm.md
-            - name: Set-ACSManagementService
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSManagementService.md
-            - name: Set-ACSTableService
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSTableService.md
-            - name: Start-ACSBlobServerRoleInstance
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Start-ACSBlobServerRoleInstance.md
-            - name: Stop-ACSBlobServerRoleInstance
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Stop-ACSBlobServerRoleInstance.md
-            - name: Sync-ACSStorageAccount
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Sync-ACSStorageAccount.md
-            - name: Undo-ACSStorageAccountDeletion
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Undo-ACSStorageAccountDeletion.md
-            - name: Update-ACSRoleInstance
-              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Update-ACSRoleInstance.md
         - name: v0.10.0
           href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.0/AzureRM.AzureStackStorage.md
           items:
@@ -861,6 +778,89 @@
               href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Undo-ACSStorageAccountDeletion.md
             - name: Update-ACSRoleInstance
               href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Update-ACSRoleInstance.md
+        - name: v0.9.8.1
+          href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/AzureRM.AzureStackStorage.md
+          items:
+            - name: Add-ACSFarm
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Add-ACSFarm.md
+            - name: Disable-ACSNode
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Disable-ACSNode.md
+            - name: Enable-ACSNode
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Enable-ACSNode.md
+            - name: Export-ACSLog
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Export-ACSLog.md
+            - name: Get-ACSBlobService
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSBlobService.md
+            - name: Get-ACSBlobServiceMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSBlobServiceMetric.md
+            - name: Get-ACSBlobServiceMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSBlobServiceMetricDefinition.md
+            - name: Get-ACSEvent
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEvent.md
+            - name: Get-ACSEventQuery
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEventQuery.md
+            - name: Get-ACSFarm
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarm.md
+            - name: Get-ACSFarmMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarmMetric.md
+            - name: Get-ACSFarmMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarmMetricDefinition.md
+            - name: Get-ACSFault
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFault.md
+            - name: Get-ACSManagementService
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSManagementService.md
+            - name: Get-ACSManagementServiceMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSManagementServiceMetric.md
+            - name: Get-ACSManagementServiceMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSManagementServiceMetricDefinition.md
+            - name: Get-ACSNode
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNode.md
+            - name: Get-ACSNodeMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNodeMetric.md
+            - name: Get-ACSNodeMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNodeMetricDefinition.md
+            - name: Get-ACSRoleInstance
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSRoleInstance.md
+            - name: Get-ACSRoleInstanceMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSRoleInstanceMetric.md
+            - name: Get-ACSRoleInstanceMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSRoleInstanceMetricDefinition.md
+            - name: Get-ACSShare
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShare.md
+            - name: Get-ACSShareMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShareMetric.md
+            - name: Get-ACSShareMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSShareMetricDefinition.md
+            - name: Get-ACSStorageAccount
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSStorageAccount.md
+            - name: Get-ACSTableService
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableService.md
+            - name: Get-ACSTableServiceMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetric.md
+            - name: Get-ACSTableServiceMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetricDefinition.md
+            - name: Resolve-ACSFault
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Resolve-ACSFault.md
+            - name: Restart-ACSRoleInstance
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Restart-ACSRoleInstance.md
+            - name: Set-ACSBlobService
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSBlobService.md
+            - name: Set-ACSFarm
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSFarm.md
+            - name: Set-ACSManagementService
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSManagementService.md
+            - name: Set-ACSTableService
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSTableService.md
+            - name: Start-ACSBlobServerRoleInstance
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Start-ACSBlobServerRoleInstance.md
+            - name: Stop-ACSBlobServerRoleInstance
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Stop-ACSBlobServerRoleInstance.md
+            - name: Sync-ACSStorageAccount
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Sync-ACSStorageAccount.md
+            - name: Undo-ACSStorageAccountDeletion
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Undo-ACSStorageAccountDeletion.md
+            - name: Update-ACSRoleInstance
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Update-ACSRoleInstance.md
     - name: AzureRM.Backup
       items:
         - name: v2.2.0
@@ -4000,23 +4000,6 @@
               href: ../ResourceManager/AzureRM.LogicApp/v1.0.8/Stop-AzureRmLogicAppRun.md
     - name: AzureRM.MachineLearning
       items:
-        - name: v0.9.2.1
-          href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/AzureRM.MachineLearning.md
-          items:
-            - name: Export-AzureRmMlWebService
-              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Export-AzureRmMlWebService.md
-            - name: Get-AzureRmMlWebService
-              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Get-AzureRmMlWebService.md
-            - name: Get-AzureRmMlWebServiceKeys
-              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Get-AzureRmMlWebServiceKeys.md
-            - name: Import-AzureRmMlWebService
-              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Import-AzureRmMlWebService.md
-            - name: New-AzureRmMlWebService
-              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/New-AzureRmMlWebService.md
-            - name: Remove-AzureRmMlWebService
-              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Remove-AzureRmMlWebService.md
-            - name: Update-AzureRmMlWebService
-              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Update-AzureRmMlWebService.md
         - name: v0.11.0
           href: ../ResourceManager/AzureRM.MachineLearning/v0.11.0/AzureRM.MachineLearning.md
           items:
@@ -4051,6 +4034,23 @@
               href: ../ResourceManager/AzureRM.MachineLearning/v0.10.0/Remove-AzureRmMlWebService.md
             - name: Update-AzureRmMlWebService
               href: ../ResourceManager/AzureRM.MachineLearning/v0.10.0/Update-AzureRmMlWebService.md
+        - name: v0.9.2.1
+          href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/AzureRM.MachineLearning.md
+          items:
+            - name: Export-AzureRmMlWebService
+              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Export-AzureRmMlWebService.md
+            - name: Get-AzureRmMlWebService
+              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Get-AzureRmMlWebService.md
+            - name: Get-AzureRmMlWebServiceKeys
+              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Get-AzureRmMlWebServiceKeys.md
+            - name: Import-AzureRmMlWebService
+              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Import-AzureRmMlWebService.md
+            - name: New-AzureRmMlWebService
+              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/New-AzureRmMlWebService.md
+            - name: Remove-AzureRmMlWebService
+              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Remove-AzureRmMlWebService.md
+            - name: Update-AzureRmMlWebService
+              href: ../ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Update-AzureRmMlWebService.md
     - name: AzureRM.Media
       items:
         - name: v0.3.0
