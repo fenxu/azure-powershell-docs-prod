@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: DB181096-FF93-4C1E-9E08-884E8162DAB7
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 10:47 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactMembership.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactMembership.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b82b9f5eb072892a7ce15b0839efc05ea35564a3/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactMembership.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,18 +30,12 @@ Get-AzureADContactMembership -ObjectId <String> [-Top <Int32>] [-InformationActi
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Get-AzureADContactMembership** cmdlet gets a contact membership in Azure Active Directory.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a contact in Azure Active Directory (ObjectId)
+Specifies the ID of a contact in Azure Active Directory.
 
 ```yaml
 Type: String
@@ -56,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
