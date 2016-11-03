@@ -4,9 +4,9 @@
 - name: Azure AD PowerShell
   href: Azure AD Cmdlets/index.md
   tocHref: Azure AD Cmdlets/toc.yml
-- name: ElasticDB PowerShell
+- name: Azure ElasticDB PowerShell
   tocHref: ElasticDB/toc.yml
-- name: Service Fabric PowerShell
+- name: Azure Service Fabric PowerShell
   tocHref: Service-Fabric-cmdlets/toc.yml
 - name: Azure Information Protection PowerShell
   tocHref: Azure Information Protection/toc.yml
