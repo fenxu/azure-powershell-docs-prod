@@ -3,15 +3,16 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623207
 schema: 2.0.0
 ms.assetid: D0B8B71F-85E0-481B-B615-CE8D34EF564A
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/RMSProtection/vlatest/Protect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/RMSProtection/vlatest/Protect-RMSFile.md
+updated_at: 11/3/2016 6:06 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -304,12 +305,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-RMSTemplate](.\Get-RMSTemplate.md)
+[Get-RMSTemplate](xref:RMSProtection/vlatest/Get-RMSTemplate.md)
 
-[Get-RMSFileStatus](.\Get-RMSFileStatus.md)
+[Get-RMSFileStatus](xref:RMSProtection/vlatest/Get-RMSFileStatus.md)
 
-[New-RMSProtectionLicense](.\New-RMSProtectionLicense.md)
+[New-RMSProtectionLicense](xref:RMSProtection/vlatest/New-RMSProtectionLicense.md)
 
-[Unprotect-RMSFile](.\Unprotect-RMSFile.md)
+[Unprotect-RMSFile](xref:RMSProtection/vlatest/Unprotect-RMSFile.md)
 
 

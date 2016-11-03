@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400624
 schema: 2.0.0
 ms.assetid: 1CBB5251-7084-4545-B71A-670AC19DC5E4
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Add-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Add-AadrmTemplate.md
+updated_at: 11/3/2016 6:06 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -330,14 +331,14 @@ The rights are specified as a list of **Rights Definition** objects that contain
 
 ## RELATED LINKS
 
-[Export-AadrmTemplate](.\Export-AadrmTemplate.md)
+[Export-AadrmTemplate](xref:AADRM/vlatest/Export-AadrmTemplate.md)
 
-[Get-AadrmTemplate](.\Get-AadrmTemplate.md)
+[Get-AadrmTemplate](xref:AADRM/vlatest/Get-AadrmTemplate.md)
 
-[Import-AadrmTemplate](.\Import-AadrmTemplate.md)
+[Import-AadrmTemplate](xref:AADRM/vlatest/Import-AadrmTemplate.md)
 
-[New-AadrmRightsDefinition](.\New-AadrmRightsDefinition.md)
+[New-AadrmRightsDefinition](xref:AADRM/vlatest/New-AadrmRightsDefinition.md)
 
-[Remove-AadrmTemplate](.\Remove-AadrmTemplate.md)
+[Remove-AadrmTemplate](xref:AADRM/vlatest/Remove-AadrmTemplate.md)
 
 
