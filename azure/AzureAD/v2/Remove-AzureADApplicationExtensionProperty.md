@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 441B9A03-B06D-4B67-91F2-09CB78C11330
-updated_at: 11/2/2016 6:12 PM
-ms.date: 11/2/2016
+updated_at: 11/3/2016 9:04 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3fa4fdaebe2eea54254033e7d0d4dbdf129abc66/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/32e965b5fe34a89d4883a511140220001faa59eb/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
