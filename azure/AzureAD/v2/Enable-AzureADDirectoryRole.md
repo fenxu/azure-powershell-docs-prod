@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3719960D-7A77-414E-A20C-812B527F27AB
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 6:43 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/aa22654900b3d94f05624d3559d99707c2a79574/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Enable-AzureADDirectoryRole
 
 ## SYNOPSIS
-Activates an existing directory role in Azure Active Directory
+Activates an existing directory role in Azure Active Directory.
 
 ## SYNTAX
 
@@ -30,19 +30,12 @@ Enable-AzureADDirectoryRole -DirectoryRole <DirectoryRole> [-InformationAction <
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Enable-AzureADDirectoryRole** cmdlet activates an existing directory role in Azure Active Directory.
 
 ## PARAMETERS
 
 ### -DirectoryRole
-Azure active directory role. 
-Only the roleTemplateId is required.
+Specifies an Azure Active Directory role. Only the roleTemplateId is required.
 
 ```yaml
 Type: DirectoryRole
@@ -57,9 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -81,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+Specifies a variable in which to store an information event message.
 
 ```yaml
 Type: String
@@ -105,5 +96,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADDirectoryRole](.\Get-AzureADDirectoryRole)
 
 
