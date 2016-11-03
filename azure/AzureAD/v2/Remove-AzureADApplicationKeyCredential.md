@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version:
 schema: 2.0.0
 ms.assetid: 59B49FB7-4743-4D76-9C08-4416D862BEE3
-updated_at: 11/2/2016 6:12 PM
-ms.date: 11/2/2016
+updated_at: 11/3/2016 9:07 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationKeyCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3fa4fdaebe2eea54254033e7d0d4dbdf129abc66/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationKeyCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1b4cc027e3d91fa376eb0bab0d4dccea92584740/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationKeyCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
