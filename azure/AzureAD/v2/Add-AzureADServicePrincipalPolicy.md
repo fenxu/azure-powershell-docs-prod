@@ -6,7 +6,7 @@ ms.assetid: C6B7A2E6-1C8E-4E8E-AF21-24999DF81310
 updated_at: 11/3/2016 5:15 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/aaba70e2c1b425bec6475c74d947f95e1daf409f/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5c7c7e879d8e8f93c7fe14350c3f858fae3971c2/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -32,7 +32,7 @@ Add-AzureADServicePrincipalPolicy -ObjectId <String> -RefObjectId <String>
 The **Add-AzureADServicePrincipalPolicy** cmdlet adds a service principal policy.
 ## EXAMPLES
 
-### Example 1: Add a service principal policy.
+### Example 1: Add a service principal policy
 ```
 PS C:\>Add-AzureADServicePrincipalPolicy -ObjectId <object id of service principal> -RefObjectId <object id of policy>
 ```
