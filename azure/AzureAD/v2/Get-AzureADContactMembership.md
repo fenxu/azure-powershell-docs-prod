@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: DB181096-FF93-4C1E-9E08-884E8162DAB7
-updated_at: 11/3/2016 10:47 PM
+updated_at: 11/3/2016 10:48 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactMembership.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b82b9f5eb072892a7ce15b0839efc05ea35564a3/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactMembership.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/524121aa3c831d295d4956ef66beb3db19104864/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactMembership.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADContactMembership
 
 ## SYNOPSIS
-Get contact memberships.
+Get a contact membership.
 
 ## SYNTAX
 
