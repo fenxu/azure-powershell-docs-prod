@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: EFDF88E2-DBFD-4868-AB66-E4F5379C55A9
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 1:31 AM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplicationPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplicationPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -31,10 +31,10 @@ Remove-ServiceFabricApplicationPackage [-ApplicationPackagePathInImageStore] <St
 
 ## DESCRIPTION
 The **Remove-ServiceFabricApplicationPackage** cmdlet removes a Service Fabric application package from the image store.
-Run this cmdlet after you register the application package by using the **Register-ServiceFabricApplicationPackage** cmdlet.
+Run this cmdlet after you register the application package by using the [Register-ServiceFabricApplicationPackage](./Register-ServiceFabricApplicationPackage.md) cmdlet.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -55,7 +55,7 @@ The cmdlet removes the package from the path that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -85,7 +85,7 @@ Specifies the connection string for the Service Fabric image store.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -100,7 +100,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,7 +111,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -142,9 +141,10 @@ This cmdlet returns the status of the operation as a string.
 ## NOTES
 
 ## RELATED LINKS
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
 [Copy-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md)
 
+[Register-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationPackage.md)
+
 [Test-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Test-ServiceFabricApplicationPackage.md)
-
-

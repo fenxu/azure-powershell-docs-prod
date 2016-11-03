@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 3C647305-B5A8-4CB7-8655-CC7695736CE0
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 1:31 AM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -136,7 +136,7 @@ New-ServiceFabricService [-Stateless] [-PartitionSchemeNamed] [-Adhoc] [-Service
 ## DESCRIPTION
 The **New-ServiceFabricService** cmdlet creates a Service Fabric service.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -156,7 +156,7 @@ In ad hoc mode, you manually activate the service host.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Stateful Named Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Adhoc, Stateless Singleton Adhoc, Stateless Named Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -172,7 +172,7 @@ The cmdlet creates a service based on the application that you specify.
 ```yaml
 Type: Uri
 Parameter Sets: Stateless Singleton Non-Adhoc, Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless Named Non-Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -187,7 +187,7 @@ Specifies an array of correlation constraints for this service.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -198,7 +198,7 @@ Accept wildcard characters: False
 
 ### -DefaultMoveCost
 Specifies default move cost that replicas have when they are created.
-Valid values are: 
+Valid values are:
 
 - Zero
 - Low
@@ -208,7 +208,7 @@ Valid values are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Zero, Low, Medium, High
 
 Required: False
@@ -224,7 +224,7 @@ Indicates that the stateful service has persistent state.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Stateful Singleton Non-Adhoc, Stateful Named Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -239,7 +239,7 @@ Specifies the high key range of the partition set.
 ```yaml
 Type: Int64
 Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -254,7 +254,7 @@ Specifies the number of instances for the stateless service.
 ```yaml
 Type: Int32
 Parameter Sets: Stateless Singleton Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc, Stateless Named Non-Adhoc, Stateless Singleton Adhoc, Stateless Named Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -269,7 +269,7 @@ Specifies the low key range of the partition set.
 ```yaml
 Type: Int64
 Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -284,7 +284,7 @@ Specifies an array of metrics that the service reports.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -299,7 +299,7 @@ Specifies the minimum replica set size for the Service Fabric stateful service.
 ```yaml
 Type: Int32
 Parameter Sets: Stateful Singleton Non-Adhoc, Stateful Named Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -314,7 +314,7 @@ Specifies the number of partitions for the service.
 ```yaml
 Type: Int32
 Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -329,7 +329,7 @@ Specifies an array of names of partitions.
 ```yaml
 Type: String[]
 Parameter Sets: Stateful Named Adhoc, Stateful Named Non-Adhoc, Stateless Named Non-Adhoc, Stateless Named Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -344,7 +344,7 @@ Indicates that the service uses the named partition scheme.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Stateful Named Adhoc, Stateful Named Non-Adhoc, Stateless Named Non-Adhoc, Stateless Named Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -359,7 +359,7 @@ Indicates that the service uses the singleton partition scheme.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Stateless Singleton Non-Adhoc, Stateful Singleton Non-Adhoc, Stateful Singleton Adhoc, Stateless Singleton Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -374,7 +374,7 @@ Indicates that the service uses the UniformInt64 partition scheme.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -389,7 +389,7 @@ Specifies the placement constraint for the service.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -404,7 +404,7 @@ Specifies an array of placement policies for a service.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -415,13 +415,13 @@ Accept wildcard characters: False
 
 ### -QuorumLossWaitDuration
 Specifies the duration, as a **TimeSpan** object, that Service Fabric waits before it declares data loss for the service partition.
-To obtain a **TimeSpan** object, use the New-TimeSpanhttp://go.microsoft.com/fwlink/?LinkID=113360 cmdlet.
+To obtain a **TimeSpan** object, use the [New-TimeSpan](http://go.microsoft.com/fwlink/?LinkID=113360) cmdlet.
 For more information, type `Get-Help New-TimeSpan`.
 
 ```yaml
 Type: TimeSpan
 Parameter Sets: Stateful Singleton Non-Adhoc, Stateful Named Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -437,7 +437,7 @@ To obtain a **TimeSpan** object, use the **New-TimeSpan** cmdlet.
 ```yaml
 Type: TimeSpan
 Parameter Sets: Stateful Singleton Non-Adhoc, Stateful Named Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -452,7 +452,7 @@ Specifies the URI of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -467,7 +467,7 @@ Specifies the name of a Service Fabric service type.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 4
@@ -482,7 +482,7 @@ Specifies the duration, as a **TimeSpan** object, that a replica with persistent
 ```yaml
 Type: TimeSpan
 Parameter Sets: Stateful Singleton Non-Adhoc, Stateful Named Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -497,7 +497,7 @@ Indicates that the service is a Service Fabric stateful service.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Stateful Singleton Non-Adhoc, Stateful Named Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -512,7 +512,7 @@ Indicates that the service is a Service Fabric stateless service.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Stateless Singleton Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc, Stateless Named Non-Adhoc, Stateless Singleton Adhoc, Stateless Named Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -527,7 +527,7 @@ Specifies the target replica set size for a Service Fabric stateful service.
 ```yaml
 Type: Int32
 Parameter Sets: Stateful Singleton Non-Adhoc, Stateful Named Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -542,7 +542,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -581,5 +581,3 @@ This cmdlet returns a **System.Fabric.Description.ServiceDescription** object fo
 [Resolve-ServiceFabricService](xref:ServiceFabric/vlatest/Resolve-ServiceFabricService.md)
 
 [Update-ServiceFabricService](xref:ServiceFabric/vlatest/Update-ServiceFabricService.md)
-
-

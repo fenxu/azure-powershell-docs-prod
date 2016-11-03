@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 80D9F43B-395B-4295-8D5B-CE56BB0B6FA2
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 1:31 AM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: service-fabric
@@ -165,7 +165,8 @@ The **Remove-ServiceFabricReplica** cmdlet simulates a Service Fabric replica fa
 The removal closes the replica, transitions the replica to the role None, and then removes all of the state information of the replica from the cluster.
 This cmdlet tests the replica state removal path, and simulates the report fault permanent path through client APIs.
 
-Before using this cmdlet, connect to the Service Fabric cluster.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
+
 
 ## EXAMPLES
 
@@ -191,7 +192,7 @@ Specifies whether the action waits for the remove operation to complete.
 ```yaml
 Type: CompletionMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, DoNotVerify, Verify
 
 Required: False
@@ -207,7 +208,7 @@ Indicates that this cmdlet forces removal of the replica.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -223,7 +224,7 @@ The cmdlet removes a replica deployed on the node that you specify.
 ```yaml
 Type: String
 Parameter Sets: ByNodeName
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -238,7 +239,7 @@ Specifies the ID of the partition from which to remove the replica.
 ```yaml
 Type: Guid
 Parameter Sets: ByNodeName, PartitionId, PartitionIdReplicaPrimary, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -253,7 +254,7 @@ Specifies the partition key.
 ```yaml
 Type: String
 Parameter Sets: ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -268,7 +269,7 @@ Indicates that this cmdlet removes a replica on a named partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionNamed, ServiceNamePartitionNamedReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -283,7 +284,7 @@ Indicates that this cmdlet removes a replica on a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionSingleton, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -298,7 +299,7 @@ Indicates that this cmdlet removes a replica on a UniformInt64 partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -313,7 +314,7 @@ Indicates that this cmdlet removes the replica for the primary replica.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: PartitionIdReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNameReplicaPrimary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -328,7 +329,7 @@ Indicates that this cmdlet removes a replica for a random secondary replica.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: PartitionIdReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNameReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -343,7 +344,7 @@ Specifies a Service Fabric service replica or instance ID.
 ```yaml
 Type: Int64
 Parameter Sets: ByNodeName, PartitionIdReplicaId, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNameReplicaId, ServiceNamePartitionUniformedIntReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -353,12 +354,12 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-Specifies the name of the service to remove.
+Specifies the name of the service that this cmdlet removes.
 
 ```yaml
 Type: Uri
 Parameter Sets: PartitionId, PartitionIdReplicaPrimary, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamedReplicaPrimary, ServiceName, ServiceNamePartitionSingleton, ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNameReplicaId, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId, ServiceNameReplicaPrimary, ServiceNameReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -373,7 +374,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -405,6 +406,6 @@ This cmdlet returns a **System.Fabric.Testability.RemoveReplicaResult** object t
 
 ## RELATED LINKS
 
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
+
 [Get-ServiceFabricReplica](xref:ServiceFabric/vlatest/Get-ServiceFabricReplica.md)
-
-
