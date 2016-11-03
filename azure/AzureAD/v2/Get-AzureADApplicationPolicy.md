@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 20303C1F-EB5F-4326-B522-2241D736ED4E
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 9:25 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/611730f2142457ccd0b76cc7f9fe359328105dcd/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADApplicationPolicy
 
 ## SYNOPSIS
-
+Gets an application policy.
 ## SYNTAX
 
 ```
@@ -29,18 +29,18 @@ Get-AzureADApplicationPolicy -ObjectId <String> [-InformationAction <ActionPrefe
 ```
 
 ## DESCRIPTION
-
+The **Get-AzureADApplicationPolicy** cmdlet gets an Azure Active Directory application policy.
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Get an application policy
+```PowerShell
+PS C:\>Get-AzureADApplicationPolicy -ObjectId "<object id of application>"
 ```
-PS C:\>Get-AzureADApplicationPolicy -ObjectId <object id of application>
-```
-
+This command gets the specified application policy.
 ## PARAMETERS
 
 ### -ObjectId
-The object Id of the Application
+Specifies the ID of the application.
 
 ```yaml
 Type: String
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+Specifies a variable in which to store an information event message.
 
 ```yaml
 Type: String
@@ -103,5 +103,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Add-AzureADApplicationPolicy](./Add-AzureADApplicationPolicy)  
+[Remove-AzureADApplicationPolicy](./Remove-AzureADApplicationPolicy)
 
 
