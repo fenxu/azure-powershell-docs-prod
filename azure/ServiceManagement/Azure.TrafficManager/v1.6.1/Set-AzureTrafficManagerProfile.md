@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 406B9C0F-1C7A-4000-9AC4-A272FE4AEDD1
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.1.6/New-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.1.6/New-AzureTrafficManagerProfile.md
+ms.assetid: CB33E5A1-6E2E-4ED9-807B-D3505530EE96
+updated_at: 11/3/2016 6:38 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Set-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b99e9cf8cc8dbf12111d92b05669d2c50f01373c/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Set-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -17,35 +17,43 @@ keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
 
-# New-AzureTrafficManagerProfile
+# Set-AzureTrafficManagerProfile
 
 ## SYNOPSIS
-Creates a Traffic Manager profile.
+Updates the properties of a Traffic Manager profile.
 
 ## SYNTAX
 
 ```
-New-AzureTrafficManagerProfile [-Name] <String> [-DomainName] <String> -LoadBalancingMethod <String>
- -MonitorPort <Int32> -MonitorProtocol <String> -MonitorRelativePath <String> -Ttl <Int32>
- [-Profile <AzureSMProfile>] [<CommonParameters>]
+Set-AzureTrafficManagerProfile [-Name <String>] [-LoadBalancingMethod <String>] [-MonitorPort <Int32>]
+ [-MonitorProtocol <String>] [-MonitorRelativePath <String>] [-Ttl <Int32>]
+ [-TrafficManagerProfile] <IProfileWithDefinition> [-Profile <AzureSMProfile>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **New-AzureTrafficManagerProfile** cmdlet creates a Microsoft Azure Traffic Manager profile.
+The **Set-AzureTrafficManagerProfile** cmdlet updates the properties of a Microsoft Azure Traffic Manager profile.
 
-After you create a profile where you set the *LoadBalancingMethod* value to "Failover", you can determine the failover order of the endpoints you add to your profile with the Add-AzureTrafficManagerEndpoint cmdlet.
-For more information, see Example 2 below.
+For profiles for which you have set the *LoadBalancingMethod* value to "Failover", you can determine the failover order of the endpoints you have added to your profile with the Add-AzureTrafficManagerEndpoint cmdlet.
+For more information, see Example 3 below.
 
 ## EXAMPLES
 
-### Example 1: Create a Traffic Manager profile
+### Example 1: Set the TTL for a Traffic Manager profile
 ```
-PS C:\>New-AzureTrafficManagerProfile -Name "MyProfile" -DomainName "My.profile.trafficmanager.net" -LoadBalancingMethod "RoundRobin" -Ttl 30 -MonitorProtocol "Http" -MonitorPort 80 -MonitorRelativePath "/"
+PS C:\>Set-AzureTrafficManagerProfile -TrafficManagerProfile $MyTrafficManagerProfile -Ttl 60
 ```
 
-This command creates a Traffic Manager profile named MyProfile in the specified Traffic Manager domain with a Round Robin load balancing method, a TTL of 30 seconds, HTTP monitoring protocol, monitoring port 80, and with the specified path.
+This command sets the TTL to 60 seconds for the Traffic Manager profile object MyTrafficManagerProfile.
 
-### Example 2: Reorder endpoints to desired failover order
+### Example 2: Set several values for a profile
+```
+PS C:\>Get-AzureTrafficManagerProfile -Name "MyProfile" | Set-AzureTrafficManagerProfile -LoadBalancingMethod "RoundRobin" -Ttl 30 -MonitorProtocol "Http" -MonitorPort 80 -MonitorRelativePath "/"
+```
+
+This command gets a Traffic Manager profile named MyProfile by using the **Get-AzureTrafficManagerProfile** cmdlet.
+The profile uses the RoundRobin load balancing method, a TTL of 30 seconds,  the monitor protocol HTTP, the monitor port, and the relative path for a Traffic Manager profile.
+
+### Example 3: Reorder endpoints to desired failover order
 ```
 PS C:\>$Profile = Get-AzureTrafficManagerProfile -Name "MyProfile"
 PS C:\> $Profile.Endpoints[0],$Profile.Endpoints[1] = $Profile.Endpoints[1],$Profile.Endpoints[0]
@@ -63,33 +71,17 @@ The last command updates the Traffic Manager profile stored in $Profile with the
 ## PARAMETERS
 
 ### -Name
-Specifies the name of the Traffic Manager profile to create.
+Specifies the name of the Traffic Manager profile to update.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
-Position: 0
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -DomainName
-Specifies the domain name of the Traffic Manager profile.
-This must be a subdomain of trafficmanager.net.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -106,7 +98,7 @@ Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -122,7 +114,7 @@ Type: Int32
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -134,7 +126,6 @@ Specifies the protocol to use to monitor endpoint health.
 Valid values are: 
 
 - Http
-
 - Https
 
 ```yaml
@@ -142,7 +133,7 @@ Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -154,13 +145,9 @@ Specifies the path relative to the endpoint domain name to probe for health stat
 The path must meet the following restrictions: 
 
 - The path must be from 1 through 1000 characters.
-
 - It must start with a forward slash, /.
-
 - It must contain no XML elements, \<\>.
-
 - It must contain no double slashes, //.
-
 - It must contain no invalid HTML escape characters.
 For example, %XY.
 
@@ -169,7 +156,7 @@ Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -178,17 +165,32 @@ Accept wildcard characters: False
 
 ### -Ttl
 Specifies the DNS Time-to-Live (TTL) that informs the Local DNS resolvers how long to cache DNS entries.
-Valid values are integers from 30 through 999,999.
+Valid values are an integer from 30 through 999,999.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TrafficManagerProfile
+Specifies the Traffic Manager profile object you use to set the profile.
+
+```yaml
+Type: IProfileWithDefinition
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
@@ -221,14 +223,14 @@ This cmdlet generates a Traffic Manager profile object.
 
 ## RELATED LINKS
 
-[Disable-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.1.6/Disable-AzureTrafficManagerProfile.md)
+[Disable-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.6.1/Disable-AzureTrafficManagerProfile.md)
 
-[Enable-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.1.6/Enable-AzureTrafficManagerProfile.md)
+[Enable-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.6.1/Enable-AzureTrafficManagerProfile.md)
 
-[Get-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.1.6/Get-AzureTrafficManagerProfile.md)
+[Get-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.6.1/Get-AzureTrafficManagerProfile.md)
 
-[Remove-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.1.6/Remove-AzureTrafficManagerProfile.md)
+[New-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.6.1/New-AzureTrafficManagerProfile.md)
 
-[Set-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.1.6/Set-AzureTrafficManagerProfile.md)
+[Remove-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.6.1/Remove-AzureTrafficManagerProfile.md)
 
 

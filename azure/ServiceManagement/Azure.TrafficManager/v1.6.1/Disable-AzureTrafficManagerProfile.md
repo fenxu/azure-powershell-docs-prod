@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 438A2B48-3200-45C5-80A0-D62E66096465
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.1.6/Disable-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.1.6/Disable-AzureTrafficManagerProfile.md
+updated_at: 11/3/2016 6:38 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Disable-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b99e9cf8cc8dbf12111d92b05669d2c50f01373c/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Disable-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -114,14 +114,14 @@ If the operation is successful and if you specify the *PassThru* parameter, this
 
 ## RELATED LINKS
 
-[Enable-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.1.6/Enable-AzureTrafficManagerProfile.md)
+[Enable-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.6.1/Enable-AzureTrafficManagerProfile.md)
 
-[Get-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.1.6/Get-AzureTrafficManagerProfile.md)
+[Get-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.6.1/Get-AzureTrafficManagerProfile.md)
 
-[New-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.1.6/New-AzureTrafficManagerProfile.md)
+[New-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.6.1/New-AzureTrafficManagerProfile.md)
 
-[Remove-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.1.6/Remove-AzureTrafficManagerProfile.md)
+[Remove-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.6.1/Remove-AzureTrafficManagerProfile.md)
 
-[Set-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.1.6/Set-AzureTrafficManagerProfile.md)
+[Set-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v1.6.1/Set-AzureTrafficManagerProfile.md)
 
 

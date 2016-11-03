@@ -13713,29 +13713,29 @@
               href: ../ServiceManagement/Azure.TrafficManager/v2.1.0/Set-AzureTrafficManagerProfile.md
             - name: Test-AzureTrafficManagerDomainName
               href: ../ServiceManagement/Azure.TrafficManager/v2.1.0/Test-AzureTrafficManagerDomainName.md
-        - name: v1.1.6
-          href: ../ServiceManagement/Azure.TrafficManager/v1.1.6/Azure.TrafficManager.md
+        - name: v1.6.1
+          href: ../ServiceManagement/Azure.TrafficManager/v1.6.1/Azure.TrafficManager.md
           items:
             - name: Add-AzureTrafficManagerEndpoint
-              href: ../ServiceManagement/Azure.TrafficManager/v1.1.6/Add-AzureTrafficManagerEndpoint.md
+              href: ../ServiceManagement/Azure.TrafficManager/v1.6.1/Add-AzureTrafficManagerEndpoint.md
             - name: Disable-AzureTrafficManagerProfile
-              href: ../ServiceManagement/Azure.TrafficManager/v1.1.6/Disable-AzureTrafficManagerProfile.md
+              href: ../ServiceManagement/Azure.TrafficManager/v1.6.1/Disable-AzureTrafficManagerProfile.md
             - name: Enable-AzureTrafficManagerProfile
-              href: ../ServiceManagement/Azure.TrafficManager/v1.1.6/Enable-AzureTrafficManagerProfile.md
+              href: ../ServiceManagement/Azure.TrafficManager/v1.6.1/Enable-AzureTrafficManagerProfile.md
             - name: Get-AzureTrafficManagerProfile
-              href: ../ServiceManagement/Azure.TrafficManager/v1.1.6/Get-AzureTrafficManagerProfile.md
+              href: ../ServiceManagement/Azure.TrafficManager/v1.6.1/Get-AzureTrafficManagerProfile.md
             - name: New-AzureTrafficManagerProfile
-              href: ../ServiceManagement/Azure.TrafficManager/v1.1.6/New-AzureTrafficManagerProfile.md
+              href: ../ServiceManagement/Azure.TrafficManager/v1.6.1/New-AzureTrafficManagerProfile.md
             - name: Remove-AzureTrafficManagerEndpoint
-              href: ../ServiceManagement/Azure.TrafficManager/v1.1.6/Remove-AzureTrafficManagerEndpoint.md
+              href: ../ServiceManagement/Azure.TrafficManager/v1.6.1/Remove-AzureTrafficManagerEndpoint.md
             - name: Remove-AzureTrafficManagerProfile
-              href: ../ServiceManagement/Azure.TrafficManager/v1.1.6/Remove-AzureTrafficManagerProfile.md
+              href: ../ServiceManagement/Azure.TrafficManager/v1.6.1/Remove-AzureTrafficManagerProfile.md
             - name: Set-AzureTrafficManagerEndpoint
-              href: ../ServiceManagement/Azure.TrafficManager/v1.1.6/Set-AzureTrafficManagerEndpoint.md
+              href: ../ServiceManagement/Azure.TrafficManager/v1.6.1/Set-AzureTrafficManagerEndpoint.md
             - name: Set-AzureTrafficManagerProfile
-              href: ../ServiceManagement/Azure.TrafficManager/v1.1.6/Set-AzureTrafficManagerProfile.md
+              href: ../ServiceManagement/Azure.TrafficManager/v1.6.1/Set-AzureTrafficManagerProfile.md
             - name: Test-AzureTrafficManagerDomainName
-              href: ../ServiceManagement/Azure.TrafficManager/v1.1.6/Test-AzureTrafficManagerDomainName.md
+              href: ../ServiceManagement/Azure.TrafficManager/v1.6.1/Test-AzureTrafficManagerDomainName.md
         - name: v0.9.8
           href: ../ServiceManagement/Azure.TrafficManager/v0.9.8/Azure.TrafficManager.md
           items:
