@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 393B2C82-CB87-4892-872E-6E6285DFF955
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/3/2016 9:38 PM
+ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContact.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContact.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ce13655fe2e7f947e314b6eea05586ecdb0c4729/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContact.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADContact
 
 ## SYNOPSIS
-Retrieves a specific contact from Azure Active Directory
+Gets a  contact from Azure Active Directory.
 
 ## SYNTAX
 
@@ -37,18 +37,12 @@ Get-AzureADContact -ObjectId <String> [-InformationAction <ActionPreference>] [-
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Get-AzureADContact** cmdlet gets a contact from Azure Active Directory.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a contact in Azure Active Directory (ObjectId)
+Specifies the ID of a contact in Azure Active Directory.
 
 ```yaml
 Type: String
@@ -87,7 +81,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+Specifies a variable in which to store an information event message.
 
 ```yaml
 Type: String
@@ -102,7 +96,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -117,8 +111,7 @@ Accept wildcard characters: False
 ```
 
 ### -Filter
-The oData v3.0 filter statement. 
-Controls which objects are returned.
+Specifies an oData v3.0 filter statement. This parameter controls which objects are returned.
 
 ```yaml
 Type: String
@@ -143,4 +136,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-
+[Remove-AzureADContact](xref:AzureAD/v2/Remove-AzureADContact.md)  
+[Set-AzureADContact](xref:AzureAD/v2/Set-AzureADContact.md)
