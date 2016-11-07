@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 5655BF04-B245-4D0E-9AD9-AAAA1A6B048D
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 6:22 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0ba8ee2aea0fb1dbbd7821b161dba0963cfa62d5/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADPolicy
 
 ## SYNOPSIS
-
+Gets a policy.
 ## SYNTAX
 
 ### GetQuery (Default)
@@ -35,20 +35,12 @@ Get-AzureADPolicy -ObjectId <String> [-InformationAction <ActionPreference>] [-I
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### -------------------------- EXAMPLE 1 --------------------------
-```
-PS C:\>Get-AzureADPolicy
-```
+The **Get-AzureADPolicy** cmdlet gets a policy in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -85,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-\[Optional\] The object Id of the Policy you would like to get
+\[Optional\] Specifies the ID of the policy object to get.
 
 ```yaml
 Type: String
@@ -109,5 +101,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[New-AzureADPolicy](xref:AzureAD/v2/New-AzureADPolicy.md)
 
+[Remove-AzureADPolicy](xref:AzureAD/v2/Remove-AzureADPolicy.md)
+
+[Set-AzureADPolicy](xref:AzureAD/v2/Set-AzureADPolicy.md)
 
