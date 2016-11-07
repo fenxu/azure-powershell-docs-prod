@@ -3,10 +3,10 @@ external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F1CEBDF4-5AF8-4AFC-AA1F-D36CEC381D04
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 6:13 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADObjectSetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADObjectSetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8fe00262bed47f13afd27c2c111bdd429eabaae3/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADObjectSetting.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADObjectSetting
 
 ## SYNOPSIS
-Retrieves a object setting from Azure Active Directory.
+Gets an object setting.
 
 ## SYNTAX
 
@@ -37,18 +37,12 @@ Get-AzureADObjectSetting -TargetType <String> -TargetObjectId <String> -ObjectId
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Get-AzureADObjectSetting** cmdlet gets an object from Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -TargetType
-object type name of directory object that will be assigned settings
+Specifies the target type. 
 
 ```yaml
 Type: String
@@ -63,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -TargetObjectId
-object id of directory object that will be assigned settings
+Specifies the ID of the target object.
 
 ```yaml
 Type: String
@@ -78,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-The unique identifier of a settings in Azure Active Directory
+Specifies the ID of a settings object. 
 
 ```yaml
 Type: String
@@ -132,7 +126,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -156,5 +150,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[New-AzureADObjectSetting](xref:AzureAD/v2/New-AzureADObjectSetting.md)
 
+[Remove-AzureADObjectSetting](xref:AzureAD/v2/Remove-AzureADObjectSetting.md)
+
+[Set-AzureADObjectSetting](xref:AzureAD/v2/Set-AzureADObjectSetting.md)
 
