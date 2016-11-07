@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C62F46A7-EEE7-41C9-9F71-98C05C11E20D
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 6:32 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicyAppliedObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicyAppliedObject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ba7693ab33520bc9be6ec729f50584203763043c/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicyAppliedObject.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -29,18 +29,12 @@ Get-AzureADPolicyAppliedObject -ObjectId <String> [-InformationAction <ActionPre
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### -------------------------- EXAMPLE 1 --------------------------
-```
-PS C:\>Get-AzureADPolicyAppliedObject -ObjectId <object id of policy>
-```
+The **Get-AzureADPolicyAppliedObject** cmdlet gets a policy-applied object from Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The object Id of the Policy you would like to get
+Specifies the ID of the policy object to get.
 
 ```yaml
 Type: String
@@ -55,9 +49,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
