@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: DFEF698C-93D2-4D67-A8B2-4A1D3ADDCBBA
-updated_at: 10/27/2016 11:46 PM
-ms.date: 10/27/2016
+updated_at: 11/7/2016 11:20 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a76928b576fb6d6dd5270c579171107be1494a14/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b1a2b3a117f29868ae3d5b08c00b808615ba1767/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureADUserExtension
 
 ## SYNOPSIS
-
+Sets a user extension.
 ## SYNTAX
 
 ### SetSingle
@@ -37,17 +37,12 @@ Set-AzureADUserExtension -ObjectId <String>
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Set-AzureADUserExtension** cmdlet sets a user extension in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ExtensionName
+Specifies the name of an extension.
 ```yaml
 Type: String
 Parameter Sets: SetSingle
@@ -61,6 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionNameValues
+Specifies extension name values.
 ```yaml
 Type: System.Collections.Generic.Dictionary`2[System.String,System.String]
 Parameter Sets: SetMultiple
@@ -74,6 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionValue
+Specifies an extension value.
 ```yaml
 Type: String
 Parameter Sets: SetSingle
@@ -87,6 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
+Specifies the ID of an object.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -109,5 +107,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADUserExtension](xref:AzureAD/v2/Get-AzureADUserExtension.md)
 
+[Remove-AzureADUserExtension](xref:AzureAD/v2/Remove-AzureADUserExtension.md)
 
