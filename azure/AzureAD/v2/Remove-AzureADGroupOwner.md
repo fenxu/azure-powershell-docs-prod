@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 2F1DA4E0-4D7C-4726-85AA-2493B0A3FDA8
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 5:09 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/98a5809c78b25a9f2037851e1f857b28854da4c4/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupOwner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,18 +30,18 @@ Remove-AzureADGroupOwner -ObjectId <String> -OwnerId <String> [-InformationActio
 ```
 
 ## DESCRIPTION
-
+The **Remove-AzureADGroupOwner** cmdlet removes an owner from a group in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
-PS C:\>Remove-AzureADGroupOwner -ObjectId 62438306-7c37-4638-a72d-0ee8d9217680 -OwnerId 0a1068c0-dbb6-4537-9db3-b48f3e31dd76
+### Example 1: Remove an owner
+```PowerShell
+PS C:\>Remove-AzureADGroupOwner -ObjectId "62438306-7c37-4638-a72d-0ee8d9217680" -OwnerId "0a1068c0-dbb6-4537-9db3-b48f3e31dd76"
 ```
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a group in Azure Active Directory (ObjectId)
+Specifies the ID of a group in Azure AD.
 
 ```yaml
 Type: String
@@ -56,7 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -OwnerId
-The unique identifier of the object specific Azure Active Directory object
+Specifies the ID of an owner.
 
 ```yaml
 Type: String
@@ -119,5 +119,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
+[Add-AzureADGroupOwner](xref:AzureAD/v2/Add-AzureADGroupOwner.md)  
+[Get-AzureADGroupOwner](xref:AzureAD/v2/Get-AzureADGroupOwner.md)
 
