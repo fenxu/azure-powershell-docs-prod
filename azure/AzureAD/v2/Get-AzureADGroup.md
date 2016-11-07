@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E008C14D-91DE-4CD4-BB76-6D037BB747DB
-updated_at: 11/4/2016 8:26 PM
-ms.date: 11/4/2016
+updated_at: 11/7/2016 5:40 AM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ff75e55d154868a679b87cc39f789a1038414d40/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c4c481f39484ac5af35c0c2455444e3f4e618eed/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -190,8 +190,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[New-AzureADGroup](xref:AzureAD/v2/New-AzureADGroup.md)  
-[Remove-AzureADGroup](xref:AzureAD/v2/Remove-AzureADGroup.md)  
+[New-AzureADGroup](xref:AzureAD/v2/New-AzureADGroup.md)
+[Remove-AzureADGroup](xref:AzureAD/v2/Remove-AzureADGroup.md)
 [Set-AzureADGroup](xref:AzureAD/v2/Set-AzureADGroup.md)
 
 

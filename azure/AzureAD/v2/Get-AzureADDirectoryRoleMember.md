@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: DD253761-F1BB-4EF1-B0CB-586C0040DECE
-updated_at: 11/4/2016 7:41 PM
-ms.date: 11/4/2016
+updated_at: 11/7/2016 5:40 AM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/dc9f3f918ac770f520f25662d3e4946b38c0a770/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c4c481f39484ac5af35c0c2455444e3f4e618eed/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -110,6 +110,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Add-AzureADDirectoryRoleMember](xref:AzureAD/v2/Add-AzureADDirectoryRoleMember.md)  
+[Add-AzureADDirectoryRoleMember](xref:AzureAD/v2/Add-AzureADDirectoryRoleMember.md)
 [Remove-AzureADDirectoryRoleMember](xref:AzureAD/v2/Remove-AzureADDirectoryRoleMember.md)
 

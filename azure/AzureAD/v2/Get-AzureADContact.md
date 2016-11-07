@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 393B2C82-CB87-4892-872E-6E6285DFF955
-updated_at: 11/3/2016 9:38 PM
-ms.date: 11/3/2016
+updated_at: 11/7/2016 5:40 AM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContact.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ce13655fe2e7f947e314b6eea05586ecdb0c4729/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContact.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c4c481f39484ac5af35c0c2455444e3f4e618eed/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContact.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -136,5 +136,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureADContact](xref:AzureAD/v2/Remove-AzureADContact.md)  
+[Remove-AzureADContact](xref:AzureAD/v2/Remove-AzureADContact.md)
 [Set-AzureADContact](xref:AzureAD/v2/Set-AzureADContact.md)

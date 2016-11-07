@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 04497A4E-E281-4FB5-98D5-102039F15692
-updated_at: 11/4/2016 8:13 PM
-ms.date: 11/4/2016
+updated_at: 11/7/2016 5:40 AM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72a80ef0bf564cfb67bd90fa28a12505dc3e023/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c4c481f39484ac5af35c0c2455444e3f4e618eed/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDomain.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -100,9 +100,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Confirm-AzureADDomain](xref:AzureAD/v2/Confirm-AzureADDomain.md)  
-[New-AzureADDomain](xref:AzureAD/v2/New-AzureADDomain.md)  
-[Remove-AzureADDomain](xref:AzureAD/v2/Remove-AzureADDomain.md)  
+[Confirm-AzureADDomain](xref:AzureAD/v2/Confirm-AzureADDomain.md)
+[New-AzureADDomain](xref:AzureAD/v2/New-AzureADDomain.md)
+[Remove-AzureADDomain](xref:AzureAD/v2/Remove-AzureADDomain.md)
 [Set-AzureADDomain](xref:AzureAD/v2/Set-AzureADDomain.md)
 
 

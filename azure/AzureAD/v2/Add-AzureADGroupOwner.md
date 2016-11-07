@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3A7A5F22-B002-41F0-BA4C-91262FA3D462
-updated_at: 11/4/2016 6:02 PM
-ms.date: 11/4/2016
+updated_at: 11/7/2016 5:40 AM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADGroupOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/341a9313b261ce0e4bc84a69d6c51d7882318bf7/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADGroupOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c4c481f39484ac5af35c0c2455444e3f4e618eed/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADGroupOwner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -118,7 +118,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Get-AzureADGroupOwner](xref:AzureAD/v2/Get-AzureADGroupOwner.md)  
+[Get-AzureADGroupOwner](xref:AzureAD/v2/Get-AzureADGroupOwner.md)
 [Remove-AzureADGroupOwner](xref:AzureAD/v2/Remove-AzureADGroupOwner.md)
 
 
