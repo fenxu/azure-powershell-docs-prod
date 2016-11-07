@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E008C14D-91DE-4CD4-BB76-6D037BB747DB
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/4/2016 8:26 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ff75e55d154868a679b87cc39f789a1038414d40/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADGroup
 
 ## SYNOPSIS
-Get a group by objectId
+Gets a group.
 
 ## SYNTAX
 
@@ -43,13 +43,14 @@ Get-AzureADGroup -ObjectId <String> [-InformationAction <ActionPreference>] [-In
 ```
 
 ## DESCRIPTION
+The **Get-AzureADGroup** cmdlet gets a group in Azure Active Directory (AD).
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
+### Example 1: Get all groups
+```PowerShell
 PS C:\>Get-AzureADGroup
-```
+
 
 ObjectId                             DisplayName                          Description
 --------                             -----------                          -----------
@@ -68,20 +69,19 @@ Its members ...
 364e009b-fbe4-4aef-b230-2e9e8f2fe636 ADSyncPasswordSet
 3d3f7196-3ec8-4076-a232-1ca30b655d1a WinRMRemoteWMIUsers__                Members of this group can access WMI resources over management protocols (such as WS-Management via the Windows Remote Man...
 3df5d8b7-8af4-4536-90d6-cde4c878e252 ADSyncOperators
-4370f0a6-78e9-44cb-b722-29cb5307fdba Exchange Servers                     This group contains all the Exchange servers.
-This group shouldn't be deleted.
+4370f0a6-78e9-44cb-b722-29cb5307fdba Exchange Servers                     This group contains all the Exchange servers. This group shouldn't be deleted.
 47a1bff5-f449-4bfc-8772-b1515c57fec5 ExchangeLegacyInterop                This group is for interoperability with Exchange 2003 servers within the same forest.
 This group should not be deleted.
-
-### -------------------------- EXAMPLE 2 --------------------------
 ```
-PS C:\>get-azureadgroup -SearchString "All"
-```
+### Example 2: Get groups that contain a search string
+```PowerShell
+PS C:\>Get-AzureADGroup -SearchString "All"
 
 ObjectId                             DisplayName                                 Description
 --------                             -----------                                 -----------
 093fc0e2-1d6e-4a1b-9bf8-effa0196f1f7 All Users
-
+```
+This command gets the groups that include the text All in their display names.
 ## PARAMETERS
 
 ### -ObjectId
@@ -100,9 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -139,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -154,8 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -Filter
-The oData v3.0 filter statement. 
-Controls which objects are returned.
+Specifies an oData v3.0 filter statement. This parameter controls which objects are returned.
 
 ```yaml
 Type: String
@@ -170,6 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -SearchString
+Specifies a search string.
 ```yaml
 Type: String
 Parameter Sets: GetVague
@@ -192,5 +190,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[New-AzureADGroup](xref:AzureAD/v2/New-AzureADGroup.md)  
+[Remove-AzureADGroup](xref:AzureAD/v2/Remove-AzureADGroup.md)  
+[Set-AzureADGroup](xref:AzureAD/v2/Set-AzureADGroup.md)
 
 

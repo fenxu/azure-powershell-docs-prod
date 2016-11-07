@@ -3,10 +3,10 @@ external help file: Microsoft.Open.Azure.AD.CommonLibrary.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A5EF9C25-E0D9-432F-A528-81534A01F444
-updated_at: 11/3/2016 8:47 PM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 6:09 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fee07d5032bd131522d96c63a78337d39aae6a69/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7b3957130cd00314c758a6c0541ce39675496edf/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -333,5 +333,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disconnet-AzureAD](./Disconnect-AzureAD)
+[Disconnet-AzureAD](xref:AzureAD/v2/Disconnect-AzureAD.md)
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 20303C1F-EB5F-4326-B522-2241D736ED4E
-updated_at: 11/3/2016 9:25 PM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 5:49 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/611730f2142457ccd0b76cc7f9fe359328105dcd/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7f689bd8998a044380561a58c18babc1f7cced65/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -103,7 +103,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Add-AzureADApplicationPolicy](./Add-AzureADApplicationPolicy)  
-[Remove-AzureADApplicationPolicy](./Remove-AzureADApplicationPolicy)
+[Add-AzureADApplicationPolicy](xref:AzureAD/v2/Add-AzureADApplicationPolicy.md)  
+[Remove-AzureADApplicationPolicy](xref:AzureAD/v2/Remove-AzureADApplicationPolicy.md)
 
 

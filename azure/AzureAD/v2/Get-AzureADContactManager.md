@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 45AD85CB-E30B-412B-945E-64187DD0E9BA
-updated_at: 11/3/2016 10:42 PM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 6:17 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactManager.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/30b60799c135219f86d1750a4341a2e7835ee4e5/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactManager.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7f3f42b01f9f87b6cd2f3c30a2147cf98bc19bd9/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactManager.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -98,7 +98,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Remove-AzureADContactManager](./Remove-AzureADContactManager)  
-[Set-AzureADContactManager](./Set-AzureADContactManager)
+[Remove-AzureADContactManager](xref:AzureAD/v2/Remove-AzureADContactManager.md)  
+[Set-AzureADContactManager](xref:AzureAD/v2/Set-AzureADContactManager.md)
 
 

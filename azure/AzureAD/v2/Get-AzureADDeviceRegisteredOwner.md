@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F2D051A2-8915-459D-8083-2D5800C53A86
-updated_at: 10/27/2016 11:46 PM
-ms.date: 10/27/2016
+updated_at: 11/4/2016 6:48 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeviceRegisteredOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a76928b576fb6d6dd5270c579171107be1494a14/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeviceRegisteredOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/eedba82f416719b0aefb8c336e17270841bf0d7e/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeviceRegisteredOwner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADDeviceRegisteredOwner
 
 ## SYNOPSIS
-
+Gets the registered owner of a device.
 ## SYNTAX
 
 ```
@@ -28,17 +28,12 @@ Get-AzureADDeviceRegisteredOwner -ObjectId <String> [-Top <Int32>] [<CommonParam
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Get-AzureADDeviceRegisteredOwner** cmdlet gets the registered owner of a device in Azure Active Directory.
 
 ## PARAMETERS
 
 ### -ObjectId
+Specifies the ID of an object.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -74,5 +69,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
+[Add-AzureADDeviceRegisteredOwner](xref:AzureAD/v2/Add-AzureADDeviceRegisteredOwner.md)  
+[Remove-AzureADDeviceRegisteredOwner](xref:AzureAD/v2/Remove-AzureADDeviceRegisteredOwner.md)
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 7ED60BB8-1968-412C-ACDF-923DB66F3DE4
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/4/2016 10:54 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADOAuth2PermissionGrant.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADOAuth2PermissionGrant.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/21ce0136e2e7fc847d6bf244f5c8a87cb55d7ed5/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADOAuth2PermissionGrant.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADOAuth2PermissionGrant
 
 ## SYNOPSIS
-Get a list of all oAuth2PermissionGrants granted by users within the directory.
+Gets **OAuth2PermissionGrant** entities.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Get-AzureADOAuth2PermissionGrant [-Top <Int32>] [-InformationAction <ActionPrefe
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Get-AzureADOAuth2PermissionGrant** cmdlet gets **OAuth2PermissionGrant** entities in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -56,9 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -104,5 +96,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
+[Remove-AzureADOAuth2PermissionGrant](xref:AzureAD/v2/Remove-AzureADOAuth2PermissionGrant.md)
 

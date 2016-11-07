@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E5E17FE9-67C1-463F-BC06-B3B6883D99AE
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/4/2016 5:48 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDevice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDevice.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5ba5624898ceb675369b53392be951bfca926daf/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDevice.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADDevice
 
 ## SYNOPSIS
-Retrieves a specific device from Azure Active Directory
+Gets a device from Active Directory.
 
 ## SYNTAX
 
@@ -43,26 +43,23 @@ Get-AzureADDevice -ObjectId <String> [-InformationAction <ActionPreference>] [-I
 ```
 
 ## DESCRIPTION
+The **Get-AzureADDevice** cmdlet gets a device from Azure Active Directory (AD).
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
-PS C:\>Get-AzureADDevice -ObjectId 3cb87a8f-0a41-4ca8-8910-e56cc00114a3
-```
-
-Output:
+### Example 1: Get a device by ID
+```PowerShell
+PS C:\>Get-AzureADDevice -ObjectId "3cb87a8f-0a41-4ca8-8910-e56cc00114a3"
 
 ObjectId                             DeviceId                             DisplayName
 --------                             --------                             -----------
 3cb87a8f-0a41-4ca8-8910-e56cc00114a3 48445467-033c-42ca-8e38-8d181db1d49c bastias_WindowsPhone_5/1/2016_12:53 PM
 
-### -------------------------- EXAMPLE 2 --------------------------
 ```
+This command gets the specified device.
+### Example 2: Get all devices
+```PowerShell
 PS C:\>Get-AzureADDevice
-```
-
-Output:
 
 ObjectId                             DeviceId                             DisplayName
 --------                             --------                             -----------
@@ -70,10 +67,14 @@ ObjectId                             DeviceId                             Displa
 62aae804-8b1a-4ab7-8fda-5068aed1a1f7 3cb87a8f-0a41-4ca8-8910-e56cc00114a3 New Device
 d4fe7726-5966-431c-b3b8-cddc8fdb717d 293872f6-c006-4e6a-8629-07847c5ab078 New Device
 
+```
+This command gets all available devices.
+
+
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a device in Azure Active Directory (ObjectId)
+Specifies the ID of a device in Azure AD.
 
 ```yaml
 Type: String
@@ -127,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -142,8 +143,7 @@ Accept wildcard characters: False
 ```
 
 ### -Filter
-The oData v3.0 filter statement. 
-Controls which objects are returned.
+Specifies the oData v3.0 filter statement. This parameter controls which objects are returned.
 
 ```yaml
 Type: String
@@ -158,6 +158,7 @@ Accept wildcard characters: False
 ```
 
 ### -SearchString
+Specifies a search string.
 ```yaml
 Type: String
 Parameter Sets: GetVague
@@ -180,5 +181,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[New-AzureADDevice](xref:AzureAD/v2/New-AzureADDevice.md)  
+[Remove-AzureADDevice](xref:AzureAD/v2/Remove-AzureADDevice.md)  
+[Set-AzureADDevice](xref:AzureAD/v2/Set-AzureADDevice.md)
 
 

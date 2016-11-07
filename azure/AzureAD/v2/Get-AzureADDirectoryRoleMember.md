@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: DD253761-F1BB-4EF1-B0CB-586C0040DECE
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/4/2016 7:41 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/dc9f3f918ac770f520f25662d3e4946b38c0a770/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADDirectoryRoleMember
 
 ## SYNOPSIS
-Get the members of a directory role.
+Gets members of a directory role.
 
 ## SYNTAX
 
@@ -30,15 +30,12 @@ Get-AzureADDirectoryRoleMember -ObjectId <String> [-InformationAction <ActionPre
 ```
 
 ## DESCRIPTION
-
+The **Get-AzureADDirectoryRoleMember** cmdlet gets the members of a directory role in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
-PS C:\>Get-AzureADDirectoryRoleMember -ObjectId 019ea7a2-1613-47c9-81cb-20ba35b1ae48
-```
-
-Output:
+### Example 1: Get members by role ID
+```PowerShell
+PS C:\>Get-AzureADDirectoryRoleMember -ObjectId "019ea7a2-1613-47c9-81cb-20ba35b1ae48"
 
 ObjectId                             ObjectType
 --------                             ----------
@@ -47,11 +44,12 @@ df19e8e6-2ad7-453e-87f5-037f6529ae16 User
 c13dd34a-492b-4561-b171-40fcce2916c5 User
 0558a23b-438a-48aa-8e30-5042e0746f69 User
 1fbae2b2-bb4b-48f9-bb38-83e9e1ad4bff User
-
+```
+This command gets the members of the specified role.
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a directory role in Azure Active Directory (ObjectId)
+Specifies the ID of a directory role in Azure AD.
 
 ```yaml
 Type: String
@@ -66,9 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -114,5 +110,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
+[Add-AzureADDirectoryRoleMember](xref:AzureAD/v2/Add-AzureADDirectoryRoleMember.md)  
+[Remove-AzureADDirectoryRoleMember](xref:AzureAD/v2/Remove-AzureADDirectoryRoleMember.md)
 

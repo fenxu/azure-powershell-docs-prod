@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 46154156-B7D4-40DE-8EC9-760E44110C76
-updated_at: 11/3/2016 8:49 PM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 6:11 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5c5de2457e83f4f2131a7138f4a1940e88e19a63/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/499005a41753b28920fecf31e16516f48ebb2519/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnit.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -135,8 +135,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[New-AzureADAdministrativeUnit](./New-AzureADAdministrativeUnit)
+[New-AzureADAdministrativeUnit](xref:AzureAD/v2/New-AzureADAdministrativeUnit.md)
 
-[Remove-AzureADAdministrativeUnit](./Remove-AzureADAdministrativeUnit)
+[Remove-AzureADAdministrativeUnit](xref:AzureAD/v2/Remove-AzureADAdministrativeUnit.md)
 
-[Set-AzureADAdministrativeUnit](./Set-AzureADAdministrativeUnit)
+[Set-AzureADAdministrativeUnit](xref:AzureAD/v2/Set-AzureADAdministrativeUnit.md)
