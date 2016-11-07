@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=722835
 schema: 2.0.0
 ms.assetid: 7C339803-9C45-4B06-B741-DB8CD43EF886
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUserLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUserLog.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUserLog.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -36,7 +36,7 @@ When you specify a time with a date (for example, -fordate "2/1/2016 15:00:00"),
 The **Get-AadrmUserLog** command then gets the logs for that UTC time period.
 See the examples for how you might need to change your **DateTime** values, to accommodate the conversion needed for your local time.
 
-For more information about usage logging, For more information about usage logging, see Logging and analyzing Azure Rights Management usagehttps://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage (https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) on the Microsoft documentation site.
+For more information about usage logging, For more information about usage logging, see [Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) (https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -83,7 +83,7 @@ Indicates that this cmdlet overwrites, without prompting for confirmation, an ex
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,12 +95,12 @@ Accept wildcard characters: False
 ### -ForDate
 Specifies a date (and optionally, a time) for the log file as a **DateTime** object.
 Use this parameter when you do not use the *FromDate* parameter.
-To obtain a **DateTime** object, use the Get-Date cmdlet.
+To obtain a **DateTime** object, use the **Get-Date** cmdlet.
 
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -117,7 +117,7 @@ If you specify this parameter but not the *ToDate*, the end date is the day you 
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -134,7 +134,7 @@ The default value is 3.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -149,7 +149,7 @@ Specifies an existing path of the folder in which to save the logs.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -167,7 +167,7 @@ If you do not specify this parameter when you use the *FromDate* parameter, the 
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -187,4 +187,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-
+[Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage)

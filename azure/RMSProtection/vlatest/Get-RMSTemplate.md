@@ -3,10 +3,10 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623205
 schema: 2.0.0
 ms.assetid: 569C89B8-0A48-492F-BC48-8D8214F35C71
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -40,7 +40,7 @@ PS C:\>Get-RMSTemplate
 TemplateId        : {0e36001f-a341-49f2-aad5-be4937cd391d}
 
 CultureInfo       : en-US
-Description       : This content is proprietary information intended for internal users only. This content cannot be modified. 
+Description       : This content is proprietary information intended for internal users only. This content cannot be modified.
 
 Name              : Contoso, Ltd - Confidential View Only
 
@@ -54,7 +54,7 @@ TemplateId        : {e6ee2481-26b9-45e5-b34a-f744eacd53b0}
 
 CultureInfo       : en-US
 
-Description       : This content is proprietary information intended for internal users only. This content can be modified but cannot be copied and printed. 
+Description       : This content is proprietary information intended for internal users only. This content can be modified but cannot be copied and printed.
 
 Name              : Contoso, Ltd - Confidential
 
@@ -84,7 +84,7 @@ PS C:\>Get-RMSTemplate -Culture "fr-fr"
 TemplateId        : {e6ee2481-26b9-45e5-b34a-f744eacd53b0}
 CultureInfo       : fr-FR
 Description       : Ce document contient des informations confidentielles destinees a un usage interne uniquement. Il
-                    peut etre modifi Â©, mais ne peut etre ni copie ni imprime. 
+                    peut etre modifi Â©, mais ne peut etre ni copie ni imprime.
 Name              : Contoso, Ltd - Confidentiel
 IssuerDisplayName : Contoso, Ltd
 FromTemplate      : True
@@ -92,7 +92,7 @@ FromTemplate      : True
 TemplateId        : {1e9f7d73-51f8-4e5b-93b5-696d252697c }
 CultureInfo       : fr-FR
 Description       : Ce document contient des informations confidentielles destinees a un usage interne uniquement. Il
-                    ne peut pas etre modifie. 
+                    ne peut pas etre modifie.
 Name              : Contoso, Ltd - Affichage confidentiel uniquement
 IssuerDisplayName : Contoso, Ltd
 FromTemplate      : True
@@ -103,15 +103,15 @@ This command gets a list of templates for the French locale.
 ## PARAMETERS
 
 ### -Culture
-Specifies the templates to load by locale by using a language-region code-pair, where language is an ISO-639 language code and region is an ISO 3166-1 country or region identifier (for example, en-us, fr-fr, or es-es).
+Specifies the templates to load by locale by using a language-region code-pair, where language is an ISO-639 language code and region is an ISO 3166-1 country or region identifier (for instance, en-us, fr-fr, or es-es).
 If you do not specify this parameter, or you specify this parameter without a value, all available language versions for the same template are returned.
 To load templates for a different locale, specify it as a value with this parameter by using the language-region code-pair.
-For example, if you are in Canada and your current system locale is set to English but you want to see the template names and description in French, specify -Culture  ¢â‚¬Å"fr-fr ¢â‚¬Â.
+For instance, if you are in Canada and your current system locale is set to English but you want to see the template names and description in French, specify -Culture  ¢â‚¬Å"fr-fr ¢â‚¬Â.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -126,7 +126,7 @@ Indicates that this cmdlet downloads the templates directly from the Azure RMS s
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -142,7 +142,7 @@ This parameter is not applicable to Azure RMS.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -159,12 +159,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
-* If you don't specify a template server, the **Get-RMSTemplate** cmdlet gets the list of templates from your computer's default RMS deployment by using service discovery. Typically, you need to specify this parameter only if you have multiple deployments of AD RMS or service discovery cannot find an AD RMS server. If you are not sure what server name to specify, use the Get-RMSServer cmdlet. When you specify a template server, **Get-RMSTemplate** gets the list from the specified AD RMS server (or cluster).
+* If you don't specify a template server, the **Get-RMSTemplate** cmdlet gets the list of templates from your computer's default RMS deployment by using service discovery. Typically, you need to specify this parameter only if you have multiple deployments of AD RMS or service discovery cannot find an AD RMS server. If you are not sure what server name to specify, use the [Get-RMSServer](./Get-RMSServer) cmdlet. When you specify a template server, **Get-RMSTemplate** gets the list from the specified AD RMS server (or cluster).
 
 ## RELATED LINKS
 
 [Get-RMSServer](xref:RMSProtection/vlatest/Get-RMSServer.md)
 
 [Protect-RMSFile](xref:RMSProtection/vlatest/Protect-RMSFile.md)
-
-

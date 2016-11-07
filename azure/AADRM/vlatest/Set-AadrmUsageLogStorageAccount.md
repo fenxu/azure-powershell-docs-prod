@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400623
 schema: 2.0.0
 ms.assetid: D4615C3C-F6B3-42EF-BE69-C4CD4B6BD5A2
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -31,10 +31,10 @@ Set-AadrmUsageLogStorageAccount -StorageAccount <String> -AccessKey <SecureStrin
 ## DESCRIPTION
 The **Set-AadrmUsageLogStorageAccount** cmdlet sets the Azure storage location for usage logs for Azure Rights Management.
 
-Note: This cmdlet should be used only if you have usage logs prior to the usage logging change in February 2016.
+This cmdlet should be used only if you have usage logs prior to the usage logging change in February 2016.
 After this date, the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is Get-AadrmUserLog.
 
-For more information about usage logging, see Logging and analyzing Azure Rights Management usagehttps://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage (https://docs.microsoft.com/en-us/rights-management/deploy-use/log-analyze-usage) on the Microsoft documentation site.
+For more information about usage logging, see [Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) (https://docs.microsoft.com/en-us/rights-management/deploy-use/log-analyze-usage) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -44,7 +44,7 @@ PS C:\>$AccessKey = ConvertTo-SecureString "aeDpsMswiYNGNwOaCkOrfPiDtIpjRREosiXN
 PS C:\> Set-AadrmUsageLogStorageAccount -AccessKey $AccessKey -StorageAccount "RmsStorageAccount"
 ```
 
-The first command uses the ConvertTo-SecureStringhttp://go.microsoft.com/fwlink/?LinkID=113291 cmdlet to convert your access key to a secure string, and then stores it in the **$AccessKey** variable.
+The first command uses the [ConvertTo-SecureString](http://go.microsoft.com/fwlink/?LinkID=113291) cmdlet to convert your access key to a secure string, and then stores it in the **$AccessKey** variable.
 For more information, type `Get-Help ConvertTo-SecureString`.
 
 The second command specifies the location for your usage logs.
@@ -58,7 +58,7 @@ To view your access key, connect to the Azure Management Portal.
 ```yaml
 Type: SecureString
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -74,7 +74,7 @@ To obtain the name of this account, use the Management Portal.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -96,4 +96,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AadrmUsageLogStorageAccount](xref:AADRM/vlatest/Get-AadrmUsageLogStorageAccount.md)
 
+[ConvertTo-SecureString](http://go.microsoft.com/fwlink/?LinkID=113291)
 
+[Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage)

@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400608
 schema: 2.0.0
 ms.assetid: 57CD3929-8922-43C2-9056-B5543F1FD0BB
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -50,13 +50,13 @@ CertificationExtranetDistributionPointUrl: https://5c6bb73b-1038-4eec-863d-49bde
 
 AdminConnectionUrl                        : https://admin.na.aadrm.com/admin/admin.svc/Tenants/ 5c6bb73b-1038-4eec-863d-49bded473437
 
-OnPremiseDomainName                       : 
+OnPremiseDomainName                       :
 
 Keys                                      : {c46b5d49-1c4c-4a79-83d1-ec12a25f3134}
 
 CurrentLicensorCertificateGuid            : c46b5d49-1c4c-4a79-83d1-ec12a25f3134
 
-Templates                                 : { c46b5d49-1c4c-4a79-83d1-ec12a25f3134, 
+Templates                                 : { c46b5d49-1c4c-4a79-83d1-ec12a25f3134,
 
                                             5c6d36g9-c24e-4222-7786e-b1a8a1ecab60}
 
@@ -66,7 +66,7 @@ SuperUsersEnabled                         : Disabled
 
 SuperUsers                                : {admin3@contoso.com, admin4@contoso.com}
 
-AdminRoleMembers                          : {Global Administrator -> 5834f4d6-35d2-455b-a134-75d4cdc82172, 
+AdminRoleMembers                          : {Global Administrator -> 5834f4d6-35d2-455b-a134-75d4cdc82172,
 
                                             ConnectorAdministrator -> 5834f4d6-35d2-455b-a134-75d4cdc82172}
 
@@ -93,5 +93,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

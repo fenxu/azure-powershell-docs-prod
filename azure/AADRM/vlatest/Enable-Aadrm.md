@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400602
 schema: 2.0.0
 ms.assetid: 60B3F42C-4FEF-435B-AE28-771932FA6251
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-Aadrm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Enable-Aadrm.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Enable-Aadrm.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -34,8 +34,8 @@ This cmdlet offers an alternative method of activating the Azure Rights Manageme
 You must activate Rights Management before you can begin to use information rights management (IRM) features in Office applications and before you can protect documents and emails by using other applications that use Azure Rights Management.
 When you activate Rights Management, you turn on this service for all rights-enabled applications and services, but some applications and services and might need further configuration before they can use Azure Rights Management.
 
-For more information about activating Rights Management and a link to information about the service plans that include Azure Rights Management, see Activating Azure Rights Managementhttps://docs.microsoft.com/rights-management/deploy-use/activate-service (https://docs.microsoft.com/rights-management/deploy-use/activate-service) on the Microsoft documentation site.
-For more information about other deployment steps that might be needed, see the deployment roadmaphttps://docs.microsoft.com/rights-management/plan-design/deployment-roadmap (https://docs.microsoft.com/rights-management/plan-design/deployment-roadmap).
+For more information about activating Rights Management and a link to information about the service plans that include Azure Rights Management, see [Activating Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/activate-service) (https://docs.microsoft.com/rights-management/deploy-use/activate-service) on the Microsoft documentation site.
+For more information about other deployment steps that might be needed, see the [Deployment Roadmap](https://docs.microsoft.com/rights-management/plan-design/deployment-roadmap)  (https://docs.microsoft.com/rights-management/plan-design/deployment-roadmap).
 
 ## EXAMPLES
 
@@ -63,4 +63,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-Aadrm](xref:AADRM/vlatest/Get-Aadrm.md)
 
+[Activating Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/activate-service)
 
+[Deployment Roadmap](https://docs.microsoft.com/rights-management/plan-design/deployment-roadmap)

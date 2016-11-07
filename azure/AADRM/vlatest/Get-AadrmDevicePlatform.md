@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400609
 schema: 2.0.0
 ms.assetid: 6E60214B-4051-48B3-A59C-5E4587A0025B
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmDevicePlatform.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmDevicePlatform.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmDevicePlatform.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -37,18 +37,17 @@ Get-AadrmDevicePlatform [-Windows] [-WindowsStore] [-WindowsPhone] [-Mac] [-iOS]
 
 ## DESCRIPTION
 The **Get-AadrmDevicePlatform** cmdlet gets the device platforms that Azure Rights Management supports for your organization.
-For information about supported device platforms, see the Enable-AadrmDevicePlatform cmdlet.
+For information about supported device platforms, see the [Enable-AadrmDevicePlatform](./Enable-AadrmDevicePlatform.md) cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Get specific device platforms that support Rights Management
 ```
 PS C:\>Get-AadrmDevicePlatform -WindowsPhone -WindowStore
-         Key                                                       Value
-
-       -----
-WindowsStore                                                        True
-WindowsPhone                                                        True
+       Key                                                       Value
+       -----                                                     ------
+       WindowsStore                                              True
+       WindowsPhone                                              True
 ```
 
 This command determines whether Windows Phone and Windows Store device platforms in your organization support Rights Management.
@@ -69,7 +68,7 @@ The cmdlet gets the Rights Management support status of all device platforms.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: AllPlatforms
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -85,7 +84,7 @@ The cmdlet gets the Rights Management support status for the specified device pl
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -101,7 +100,7 @@ The cmdlet gets the Rights Management support status for the specified device pl
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -117,7 +116,7 @@ The cmdlet gets the Rights Management support status for the specified device pl
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -133,7 +132,7 @@ The cmdlet gets the Rights Management support status for the specified device pl
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -149,7 +148,7 @@ The cmdlet gets the Rights Management support status for the specified device pl
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -165,7 +164,7 @@ The cmdlet gets the Rights Management support status for the specified device pl
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -181,7 +180,7 @@ The cmdlet gets the Rights Management support status for the specified device pl
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -204,5 +203,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Disable-AadrmDevicePlatform](xref:AADRM/vlatest/Disable-AadrmDevicePlatform.md)
 
 [Enable-AadrmDevicePlatform](xref:AADRM/vlatest/Enable-AadrmDevicePlatform.md)
-
-

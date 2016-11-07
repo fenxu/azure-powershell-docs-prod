@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400603
 schema: 2.0.0
 ms.assetid: 1D21A18B-1E3D-434C-A283-E65B810EF1B4
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDevicePlatform.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDevicePlatform.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDevicePlatform.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -37,7 +37,7 @@ Enable-AadrmDevicePlatform [-Windows] [-WindowsStore] [-WindowsPhone] [-Mac] [-i
 
 ## DESCRIPTION
 The **Enable-AadrmDevicePlatform** cmdlet enables Rights Management support for device platforms.
-Your organization can support any combination of the following device platforms: 
+Your organization can support any combination of the following device platforms:
 
 - Android
 - iOS
@@ -74,7 +74,7 @@ The cmdlet enables Rights Management support for all device platforms.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: AllPlatforms
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -90,7 +90,7 @@ The cmdlet enables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -106,7 +106,7 @@ The cmdlet enables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -122,7 +122,7 @@ The cmdlet enables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -138,7 +138,7 @@ The cmdlet enables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -154,7 +154,7 @@ The cmdlet enables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -170,7 +170,7 @@ The cmdlet enables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -186,7 +186,7 @@ The cmdlet enables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -209,5 +209,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Disable-AadrmDevicePlatform](xref:AADRM/vlatest/Disable-AadrmDevicePlatform.md)
 
 [Get-AadrmDevicePlatform](xref:AADRM/vlatest/Get-AadrmDevicePlatform.md)
-
-

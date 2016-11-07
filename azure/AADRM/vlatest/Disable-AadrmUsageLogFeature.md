@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400600
 schema: 2.0.0
 ms.assetid: 469B8EE7-0EE9-4BD7-BC24-A3AD74111FB0
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmUsageLogFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmUsageLogFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmUsageLogFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -34,9 +34,9 @@ If you disable this logging, the cmdlet does not delete existing logs.
 If you enable usage logging again, logging begins at the point in the log where logging previously stopped.
 
 Note: This cmdlet is not needed and will not run successfully after the usage logging change in February 2016.
-After this date, usage logging is automatically enabled and cannot be disabled; the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is Get-AadrmUserLog.
+After this date, usage logging is automatically enabled and cannot be disabled; the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is [Get-AadrmUserLog](./Get-AadrmUserLog.md).
 
-For more information about usage logging, see Logging and analyzing Azure Rights Management usagehttps://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage (https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) on the Microsoft documentation site.
+For more information about usage logging, see [Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) (https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -64,4 +64,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AadrmUsageLogFeature](xref:AADRM/vlatest/Get-AadrmUsageLogFeature.md)
 
-
+[Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage)

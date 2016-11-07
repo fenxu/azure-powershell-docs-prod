@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=623036
 schema: 2.0.0
 ms.assetid: 0D84EE44-D412-40CA-A106-576E23CB81E8
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -37,7 +37,7 @@ By default, document tracking is enabled, so you would run this cmdlet only if s
 After enabling document tracking, users can see information in the document tracking site for all the protected documents that they have shared, and not just information from when you enabled the feature.
 For example, they could revoke a document that they shared when document tracking was disabled.
 
-For more information about document tracking and revocation, see Track and revoke your documents when you use the RMS sharing applicationhttps://docs.microsoft.com/rights-management/rms-client/sharing-app-track-revoke (https://docs.microsoft.com/rights-management/rms-client/sharing-app-track-revoke) from the Rights Management sharing application user guide.
+For more information about document tracking and revocation, see Track and revoke your documents when you use the [RMS sharing application](https://docs.microsoft.com/rights-management/rms-client/sharing-app-track-revoke) (https://docs.microsoft.com/rights-management/rms-client/sharing-app-track-revoke) from the Rights Management sharing application user guide.
 
 ## EXAMPLES
 
@@ -56,7 +56,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -66,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -82,7 +82,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -111,5 +110,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Disable-AadrmDocumentTrackingFeature](xref:AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md)
 
 [Get-AadrmDocumentTrackingFeature](xref:AADRM/vlatest/Get-AadrmDocumentTrackingFeature.md)
-
-

@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400627
 schema: 2.0.0
 ms.assetid: E7942746-0F62-4D15-AD46-5DB8235FAF62
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplateProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplateProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplateProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -34,7 +34,7 @@ Get-AadrmTemplateProperty -TemplateId <Guid> [-Names] [-Descriptions] [-RightsDe
 The **Get-AadrmTemplateProperty** cmdlet gets specified properties of an Azure Rights Management template, by using the *TemplateId* parameter.
 
 You can query properties of a default template, or a custom template.
-For more information about custom templates, see Configuring custom templates for Azure Rights Managementhttps://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
+For more information about custom templates, see [Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -62,7 +62,7 @@ Use this parameter only if *ContentExpirationOption* is set to OnDate.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -73,19 +73,19 @@ Accept wildcard characters: False
 
 ### -ContentExpirationOption
 Gets the content expiration configuration setting for content that is protected with the template.
-One of the following values is returned: 
+One of the following values is returned:
 
 - Never.
-Indicates that content is available indefinitely. 
+Indicates that content is available indefinitely.
 - OnDate.
-Indicates that content expires at a certain fixed date. 
+Indicates that content expires at a certain fixed date.
 - AfterDays.
 Indicates that content is available for the indicated number of days after it is protected.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -101,7 +101,7 @@ Use this parameter only if *ContentExpirationOption* is set to AfterDays.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -116,7 +116,7 @@ Lists the descriptions for the template in all locales.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -126,18 +126,18 @@ Accept wildcard characters: False
 ```
 
 ### -EnableInLegacyApps
-Indicates the behavior of a departmental template in applications that do not support departmental templates (see the ScopedIdentities parameter).
+Indicates the behavior of a departmental template in applications that do not support departmental templates (see the *ScopedIdentities* parameter).
 If set to True and the template is a departmental template, all users trying to protect content from an application that does not support departmental templates will see the template and therefore be able to select it, regardless of whether the users are members of the template's target scope or not.
 If set to False, no users see and therefore cannot select the template in applications that do not support departmental templates, even if the users are members of the template's target scope.
 
 This setting has no effect on templates that are not departmental templates and also has no effect on applications that natively support departmental templates.
 
-Note: This parameter is functionally the equivalent of the **Show this template to all users when the applications do not support user identity** check box when you configure **APPLICATION COMPATIBILITY** in the Azure Management Portal.
+This parameter is functionally the equivalent of the **Show this template to all users when the applications do not support user identity** check box when you configure **APPLICATION COMPATIBILITY** in the Azure Management Portal.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -154,7 +154,7 @@ Lists the number of days content is accessible offline after a license to consum
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -169,7 +169,7 @@ Lists the names for the template in all locales.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -184,7 +184,7 @@ Indicates whether the template is a default template (True) and therefore cannot
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -199,7 +199,7 @@ Lists the rights granted to users or groups for the content that is protected wi
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -210,12 +210,12 @@ Accept wildcard characters: False
 
 ### -ScopedIdentities
 Lists the users by email address (account or group) that can see and therefore select departmental templates from applications.
-For the specified users to see the templates, the application must support departmental templates or the EnableInLegacyApps parameter must be set to True.
+For the specified users to see the templates, the application must support departmental templates or the *EnableInLegacyApps* parameter must be set to True.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -232,7 +232,7 @@ Published templates are distributed to users and made available to protect conte
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -248,7 +248,7 @@ You can use the **Get-AadrmTemplate** cmdlet to obtain the template ID of all te
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -272,4 +272,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Set-AadrmTemplateProperty](xref:AADRM/vlatest/Set-AadrmTemplateProperty.md)
 
-
+[Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates)

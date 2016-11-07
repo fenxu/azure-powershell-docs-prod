@@ -3,10 +3,10 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623204
 schema: 2.0.0
 ms.assetid: 015252D1-EF22-4060-84E5-619C8C66CEDF
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServerAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServerAuthentication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServerAuthentication.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -35,7 +35,7 @@ This status remains on for the duration of your Windows PowerShell session.
 
 This cmdlet applies to Azure  RMS only and does not apply to AD RMS.
 This cmdlet also does not apply if you are authenticating to Azure RMS by using your user account.
-For more information, see about_RMSProtection_AzureRMS.
+For more information, see [about_RMSProtection_AzureRMS](./about_RMSProtection_AzureRMS.md).
 
 ## EXAMPLES
 
@@ -44,9 +44,9 @@ For more information, see about_RMSProtection_AzureRMS.
 PS C:\>Get-RMSServerAuthentication
 The RmsServerAuthentication is ON
 
-Base64Key                               AppPrincipalId                          BposTenantId
----------                               --------------                          ------------
-zIeMu8zNJ6U377CLtppkhkbl4gjodmYSXUVwAO5ycgA=                         b5e3f76a-b5c2-4c96-a594-a0807f65bba4                                23976bc6-dcd4-4173-9d96-dad1f48efd42
+Base64Key                                         AppPrincipalId                          BposTenantId
+---------                                         --------------                          ------------
+zIeMu8zNJ6U377CLtppkhkbl4gjodmYSXUVwAO5ycgA=      b5e3f76a-b5c2-4c96-a594-a0807f65bba4    23976bc6-dcd4-4173-9d96-dad1f48efd42
 ```
 
 This command gets the status of the service principal authentication and outputs the currently used identifiers, if authentication is successful.
@@ -66,4 +66,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Set-RMSServerAuthentication](xref:RMSProtection/vlatest/Set-RMSServerAuthentication.md)
 
-
+[about_RMSProtection_AzureRMS](xref:RMSProtection/vlatest/about_RMSProtection_AzureRMS.md)

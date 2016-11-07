@@ -3,10 +3,10 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623207
 schema: 2.0.0
 ms.assetid: D0B8B71F-85E0-481B-B615-CE8D34EF564A
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -37,17 +37,17 @@ If the file was previously protected, it will be protected again, to apply any c
 All file types can be protected in the same way that the RMS sharing application can protect all files.
 However, different levels of protection will be automatically applied (native or generic), depending on the file type.
 You can change the level of protection by editing the registry.
-In addition, some files change their file name extension after they are protected by Rights Management. 
-For more information, see File API configurationhttps://docs.microsoft.com/information-protection/develop/file-api-configuration (https://docs.microsoft.com/information-protection/develop/file-api-configuration) on the Microsoft documentation site.
+In addition, some files change their file name extension after they are protected by Rights Management.
+For more information, see [File API configuration](https://docs.microsoft.com/information-protection/develop/file-api-configuration)  (https://docs.microsoft.com/information-protection/develop/file-api-configuration) on the Microsoft documentation site.
 
-When you run this cmdlet, you have the following options: 
+When you run this cmdlet, you have the following options:
 
-- The file is protected in the current location, replacing the original file that was unprotected. 
-- The original file remains unprotected and a protected version of the file is created in another location. 
-- All files in the specified folder are protected in the current location, replacing the original files that were unprotected. 
+- The file is protected in the current location, replacing the original file that was unprotected.
+- The original file remains unprotected and a protected version of the file is created in another location.
+- All files in the specified folder are protected in the current location, replacing the original files that were unprotected.
 - All files in the specified folder remains unprotected and a protected version of each file is created in another location.
 
-Tip: For step-by-step instructions to use this cmdlet to protect files on a Windows Server file share, using File Resource Manager and File Classification Infrastructure, see RMS Protection with Windows Server File Classification Infrastructure (FCI)https://docs.microsoft.com/information-protection/rms-client/configure-fci (https://docs.microsoft.com/information-protection/rms-client/configure-fci) on the Microsoft documentation site.
+Tip: For step-by-step instructions to use this cmdlet to protect files on a Windows Server file share, using File Resource Manager and File Classification Infrastructure, see [RMS Protection with Windows Server File Classification Infrastructure (FCI)](https://docs.microsoft.com/information-protection/rms-client/configure-fci)  (https://docs.microsoft.com/information-protection/rms-client/configure-fci) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -90,16 +90,16 @@ The owner of the file, and the email address that might be displayed to users wh
 ```
 PS C:\>Protect-RMSFile -Folder "\\server1\Docs" -InPlace -TemplateID e6ee2481-26b9-45e5-b34a-f744eacd53b0 -OwnerEmail "IT@Contoso.com"
 
-InputFile                                 EncryptedFile
+InputFile                        EncryptedFile
 
----------                                             -------------
+----------                       -------------
 \\server1\Docs\Feb2015.docx      \\server1\Docs\Feb2015.docx
 
-\\server1\Docs\Feb2015.txt         \\server1\Docs\Feb2015.ptxt
+\\server1\Docs\Feb2015.txt       \\server1\Docs\Feb2015.ptxt
 
-\\server1\Docs\Jan2015.docx       \\server1\Docs\Jan2015.docx
+\\server1\Docs\Jan2015.docx      \\server1\Docs\Jan2015.docx
 
-\\server1\Docs\Jan2015.txt          \\server1\Docs\Jan2015.ptxt
+\\server1\Docs\Jan2015.txt       \\server1\Docs\Jan2015.ptxt
 ```
 
 This command protects all files in a server share (single folder only, not subfolders), replacing the unprotected files.
@@ -112,20 +112,20 @@ PS C:\>foreach ($file in (Get-ChildItem -Path \\server1\Docs -Recurse -Force | w
 
 InputFile                                   EncryptedFile
 
----------                                               -------------
-\\server1\Docs\Feb2015.docx             \\server1\Docs\Feb2015.docx
+---------                                   -------------
+\\server1\Docs\Feb2015.docx                 \\server1\Docs\Feb2015.docx
 
-\\server1\Docs\Jan2015.docx              \\server1\Docs\Jan2015.docx
+\\server1\Docs\Jan2015.docx                 \\server1\Docs\Jan2015.docx
 
-\\server1\Docs\Reports\Feb2015.docx             \\server1\Docs\Reports\Feb2015.docx
+\\server1\Docs\Reports\Feb2015.docx         \\server1\Docs\Reports\Feb2015.docx
 
-\\server1\Docs\Reports\Jan2015.docx              \\server1\Docs\Reports\Jan2015.docx
+\\server1\Docs\Reports\Jan2015.docx         \\server1\Docs\Reports\Jan2015.docx
 ```
 
 This command protects only files that have a .docx file name extension in a folder (and all subfolders) on a server share, replacing the unprotected files.
 The owner of the file, and the email address that might be displayed to users when they access the protected file, is for the IT department.
 
-Although the Protect-RMSFile command does not natively support wildcards, you can use Windows PowerShell to achieve this, and change the file name extension in the example, as required.
+Although the [Protect-RMSFile](./Protect-RMSFile.md) command does not natively support wildcards, you can use Windows PowerShell to achieve this, and change the file name extension in the example, as required.
 
 ### Example 6: Protect a single file by using an ad-hoc rights policy
 ```
@@ -152,14 +152,14 @@ However, it is also less flexible for users who might not have the network conne
 The acceptable values for this parameter are:
 
 - Disk: The content key is prevented from being cached locally in the license store.
-For example, on Windows computers, the license store is %localappdata%\Microsoft\MSIPC. 
-- License:     The content key is prevented from being inserted within the serialized publishing license. 
+For example, on Windows computers, the license store is %localappdata%\Microsoft\MSIPC.
+- License:     The content key is prevented from being inserted within the serialized publishing license.
 - All:             The content key is prevented from being cached locally in the license store and being inserted within the serialized publishing license.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: all, disk, license
 
 Required: False
@@ -176,7 +176,7 @@ For the path, you can use a drive letter or UNC.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -194,7 +194,7 @@ New files added to the folder will not be automatically protected.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -204,13 +204,13 @@ Accept wildcard characters: False
 ```
 
 ### -License
-Specifies the variable name that stores an ad hoc rights policy that was created by using the New-RMSProtectionLicense cmdlet.
+Specifies the variable name that stores an ad hoc rights policy that was created by using the [New-RMSProtectionLicense](./New-RMSProtectionLicense.md) cmdlet.
 This ad-hoc rights policy is used instead of a template to protect the file or files.
 
 ```yaml
 Type: SafeInformationProtectionLicenseHandle
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -227,7 +227,7 @@ For the path, you can use a drive letter or UNC.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -254,7 +254,7 @@ Because of this, we recommend that you always specify this parameter when you pr
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -269,7 +269,7 @@ When used with the *Folder* parameter, indicates that all the current files in t
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -280,12 +280,12 @@ Accept wildcard characters: False
 
 ### -TemplateID
 Specifies the ID of the template to use to protect the specified file or files if you do not use the *-License* parameter for an ad-hoc policy.
-If you do not know the ID of the template that you want to use, use the Get-RMSTemplate cmdlet.
+If you do not know the ID of the template that you want to use, use the [Get-RMSTemplate](./Get-RMSTemplate.md) cmdlet.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -312,5 +312,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-RMSProtectionLicense](xref:RMSProtection/vlatest/New-RMSProtectionLicense.md)
 
 [Unprotect-RMSFile](xref:RMSProtection/vlatest/Unprotect-RMSFile.md)
-
-

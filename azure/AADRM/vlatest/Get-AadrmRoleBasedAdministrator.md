@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400613
 schema: 2.0.0
 ms.assetid: 528FCC5D-F653-4B40-8D82-F036BAB66E5C
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -48,13 +48,13 @@ Specifies a role.
 The cmdlet gets the administrators that belong to the role that you specify.
 The acceptable values for this parameter are:
 
-- ConnectorAdministrator 
+- ConnectorAdministrator
 - GlobalAdministrator
 
 ```yaml
 Type: Role
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -77,5 +77,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Add-AadrmRoleBasedAdministrator](xref:AADRM/vlatest/Add-AadrmRoleBasedAdministrator.md)
 
 [Remove-AadrmRoleBasedAdministrator](xref:AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md)
-
-

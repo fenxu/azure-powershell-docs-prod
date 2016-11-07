@@ -3,10 +3,10 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623209
 schema: 2.0.0
 ms.assetid: C07C0831-92B3-43CE-B18F-F2A12F3283DC
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -31,11 +31,11 @@ Unprotect-RMSFile [-File <String>] [-Folder <String>] [-Recurse] [-OutputFolder 
 
 ## DESCRIPTION
 The **Unprotect-RMSFile** cmdlet removes Rights Management (RMS) protection from one or more files in a specified folder if those files were previously protected by AD RMS or Azure RMS.
-When you run this cmdlet, you have the following options: 
+When you run this cmdlet, you have the following options:
 
-- The file is unprotected in the same folder so that the original protected file and the new unprotected file co-exist. 
-- The original file remains protected and an unprotected version of the file is created in another location. 
-- All files in the specified folder are unprotected in the current location, replacing the original files that were protected. 
+- The file is unprotected in the same folder so that the original protected file and the new unprotected file co-exist.
+- The original file remains protected and an unprotected version of the file is created in another location.
+- All files in the specified folder are unprotected in the current location, replacing the original files that were protected.
 - All files in the specified folder remains protected and an unprotected version of each file is created in another location.
 
 If you are unprotecting a container file, each child is recursively extracted, unprotected, and repackaged.
@@ -115,7 +115,7 @@ For the path, you can specify a drive letter or UNC.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -132,7 +132,7 @@ All of the files in the specified folder will be unprotected.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -155,7 +155,7 @@ The default log file location is %localappdata%\RMSProtection\Logging.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -172,7 +172,7 @@ For the path, you can use a drive letter or UNC.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -187,7 +187,7 @@ This parameter is not currently implemented.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -202,7 +202,7 @@ Indicates that this operation unprotects all files in all subfolders.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -217,7 +217,7 @@ This parameter is not implemented; there is no UI for this cmdlet.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -238,5 +238,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Protect-RMSFile](xref:RMSProtection/vlatest/Protect-RMSFile.md)
-
-

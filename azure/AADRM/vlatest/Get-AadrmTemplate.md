@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400626
 schema: 2.0.0
 ms.assetid: 89C3B584-6401-46D5-BB40-5DCB41A149B4
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -35,9 +35,9 @@ If you do not specify the *TemplateId*, all templates are retrieved.
 
 The cmdlet output is a list of template objects that contain all the template properties that you can use for further processing.
 The output of this command displays the template GUID, name, and description in the current locale.
-For additional template properties, such as usage rights and whether the template is published or archived, use the Get-AadrmTemplateProperty cmdlets.
+For additional template properties, such as usage rights and whether the template is published or archived, use the [Get-AadrmTemplateProperty](./Get-AadrmTemplateProperty.md) cmdlets.
 
-For more information about custom templates, see Configuring custom templates for Azure Rights Managementhttps://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
+For more information about custom templates, see [Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -63,7 +63,7 @@ Specifies the GUID of an Rights Management template.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -101,4 +101,4 @@ If no description is defined for a template in the current locale, "No descripti
 
 [Remove-AadrmTemplate](xref:AADRM/vlatest/Remove-AadrmTemplate.md)
 
-
+[Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates)

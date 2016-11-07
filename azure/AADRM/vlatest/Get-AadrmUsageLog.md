@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400616
 schema: 2.0.0
 ms.assetid: 2EEF1510-4A63-4D3D-A707-541FC294DA33
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLog.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLog.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -32,9 +32,9 @@ Get-AadrmUsageLog -Path <String> [-FromCounter <Int32>] [-ToCounter <Int32>] [<C
 The **Get-AadrmUsageLog** cmdlet downloads Azure Rights Management usage logs to local storage.
 
 Note: This cmdlet should be used only if you have usage logs prior to the usage logging change in February 2016.
-After this date, the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is Get-AadrmUserLog.
+After this date, the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is [Get-AadrmUserLog](./Get-AadrmUserLog.md).
 
-For more information about usage logging, see Logging and analyzing Azure Rights Management usagehttps://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage (https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) on the Microsoft documentation site.
+For more information about usage logging, see [Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) (https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -57,12 +57,12 @@ This command saves the specified range of usage logs to the E:\Logs\UsageLogRang
 ### -FromCounter
 Specifies a counter value.
 The cmdlet gets entries as far back as this counter value.
-To obtain a counter value, use the Get-AadrmUsageLogLastCounterValue cmdlet.
+To obtain a counter value, use the [Get-AadrmUsageLogLastCounterValue](./Get-AadrmUsageLogLastCounterValue.md) cmdlet.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -77,7 +77,7 @@ Specifies a path for the log.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -93,7 +93,7 @@ The cmdlet gets entries as far forward as this counter value.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,4 +115,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AadrmUsageLogLastCounterValue](xref:AADRM/vlatest/Get-AadrmUsageLogLastCounterValue.md)
 
-
+[Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage)

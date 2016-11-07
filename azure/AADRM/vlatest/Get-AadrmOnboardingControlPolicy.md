@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=521418
 schema: 2.0.0
 ms.assetid: A5384868-65D1-46A8-A1E0-7050F607131C
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmOnboardingControlPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmOnboardingControlPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmOnboardingControlPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -32,7 +32,7 @@ Get-AadrmOnboardingControlPolicy [<CommonParameters>]
 The **Get-AadrmOnboardingControlPolicy** cmdlet obtains your Azure Rights Management user on-boarding control policy to support a gradual deployment by controlling which users in your organization can protect content by using Azure Rights Management.
 This control can be based on assigned user licenses for the service or membership in a designated security group.
 You can also define whether the policy applies to just mobile devices, just Windows clients, or mobile devices and Windows clients.
-For more information, see Set-AadrmOnboardingControlPolicy.
+For more information, see [Set-AadrmOnboardingControlPolicy](./Set-AadrmOnboardingControlPolicy.md).
 
 ## EXAMPLES
 
@@ -57,5 +57,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Set-AadrmOnboardingControlPolicy](xref:AADRM/vlatest/Set-AadrmOnboardingControlPolicy.md)
-
-

@@ -5,10 +5,10 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 35D99F89-BD73-457E-95C7-73857656FB59
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
 uid: RMSProtection/vlatest/RightsProtection.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -26,7 +26,7 @@ The following list contains links to the help topics for the Microsoft Rights Ma
 
 These RMS Protection cmdlets can be used with Azure Rights Management (Azure RMS) data protection from Azure Information Protection, or with Active Directory Rights Management Services (AD RMS) and these cmdlets supplement other PowerShell modules for these Rights Management deployments. Use these RMS Protection cmdlets to bulk protect and unprotect files for any file type.
 
-The current version of the RMS Protection PowerShell module is **2.2.0.0**. If you have previously downloaded the tool and installed this module, run the following command to check the version: (Get-Module RMSProtection -ListAvailable).Version.
+The current version of the RMS Protection PowerShell module is **2.2.0.0**. If you have previously downloaded the tool and installed this module, run the following command to check the version: `(Get-Module RMSProtection -ListAvailable).Version`.
 
 >**Tip**
 >
@@ -107,6 +107,3 @@ Sets the service principal authentication credentials for Azure RMS.
 
 ### [Unprotect-RMSFile](./Unprotect-RMSFile.md)
 Unprotects a file that is currently protected by RMS.
-
-
-

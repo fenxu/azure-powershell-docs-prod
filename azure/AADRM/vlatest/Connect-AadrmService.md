@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=400595
 schema: 2.0.0
 ms.assetid: 857D8EFC-9D6E-4756-A9A2-B90FF8E02A1F
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -40,14 +40,14 @@ This cmdlet can also be used by a partner company that manages your tenant.
 
 You must run this cmdlet before you can run the other Rights Management cmdlets in this module.
 
-To connect to Azure RMS, use an account that is one of the following: 
+To connect to Azure RMS, use an account that is one of the following:
 
-- A global admin for your Office 365 tenant. 
+- A global admin for your Office 365 tenant.
 
 - A global administrator for your Azure tenant.
 However, this account cannot be a Microsoft account (MSA) or from another Azure tenant.
 
-- A user account that has been granted administrative rights to Azure RMS by using the Add-AadrmRoleBasedAdministrator cmdlet.
+- A user account that has been granted administrative rights to Azure RMS by using the [Add-AadrmRoleBasedAdministrator](./Add-AadrmRoleBasedAdministrator) cmdlet.
 
 Tip: If you are not prompted for your credentials, and you see an error message such as **Cannot use this feature without credentials**, verify that Internet Explorer is configured to use Windows integrated authentication.
 If this setting is not enabled, enable it, restart Internet Explorer, and then retry authentication to the Rights Management service.
@@ -67,7 +67,7 @@ If your account is configured to use multi-factor authentication, you must use t
 
 ### Example 2: Connect to Azure RMS with stored credentials
 ```
-PS C:\>$AdminCredentials = Get-Credential "Admin@aadrm.contoso.com" 
+PS C:\>$AdminCredentials = Get-Credential "Admin@aadrm.contoso.com"
 PS C:\> Connect-AadrmService -Credential $AdminCredentials
 ```
 
@@ -80,17 +80,17 @@ If you disconnect from the service and reconnect while the variable is still in 
 ### Example 3: Connect to Azure RMS with a token
 ```
 PS C:\>[Reflection.Assembly]::LoadFile("C:\Windows\system32\WindowsPowerShell\v1.0\Modules\AADRM\Microsoft.IdentityModel.Clients.ActiveDirectory.dll")
-PS C:\> $clientId='90f610bf-206d-4950-b61d-37fa6fd1b224'; 
-PS C:\> $resourceId = 'https://api.aadrm.com/'; 
-PS C:\> $clientId='90f610bf-206d-4950-b61d-37fa6fd1b224'; 
-PS C:\> $userName='admin@contoso.com'; 
-PS C:\> $password='Passw0rd!'; 
-PS C:\> $redirectUri = new-object System.Uri("https://aadrm.com/AADRMAdminPowershell"); 
-PS C:\> $authority = "https://login.microsoftonline.com/common"; 
-PS C:\> $authContext = New-Object Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext($authority); 
-PS C:\> $userCreds = New-Object Microsoft.IdentityModel.Clients.ActiveDirectory.UserCredential($userName, $password); 
-PS C:\> $authenticationResult = $authContext.AcquireToken($resourceId,$clientId,$userCreds); 
-PS C:\> Import-module aadrm 
+PS C:\> $clientId='90f610bf-206d-4950-b61d-37fa6fd1b224';
+PS C:\> $resourceId = 'https://api.aadrm.com/';
+PS C:\> $clientId='90f610bf-206d-4950-b61d-37fa6fd1b224';
+PS C:\> $userName='admin@contoso.com';
+PS C:\> $password='Passw0rd!';
+PS C:\> $redirectUri = new-object System.Uri("https://aadrm.com/AADRMAdminPowershell");
+PS C:\> $authority = "https://login.microsoftonline.com/common";
+PS C:\> $authContext = New-Object Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext($authority);
+PS C:\> $userCreds = New-Object Microsoft.IdentityModel.Clients.ActiveDirectory.UserCredential($userName, $password);
+PS C:\> $authenticationResult = $authContext.AcquireToken($resourceId,$clientId,$userCreds);
+PS C:\> Import-module aadrm
 PS C:\> Connect-Aadrmservice -AccessToken $authenticationResult.AccessToken
 ```
 
@@ -101,7 +101,7 @@ After the connection is open, you can then run the Azure RMS administrative comm
 After you confirm that these commands result in successfully connecting to the Azure RMS service, you could run them non-interactively, for example, from a script.
 Note that for illustration purposes, this example uses the user name of "admin@contoso.com" with the password of "Passw0rd!".
 In a production environment when you use this connection method non-interactively, use additional methods to secure the password so that it is not stored in clear text.
-For example, use the ConvertTo-SecureString command or use Key Vault to store the password as a secret.
+For example, use the **ConvertTo-SecureString** command or use Key Vault to store the password as a secret.
 
 ## PARAMETERS
 
@@ -116,7 +116,7 @@ You cannot use this parameter with the *Credential* parameter.
 ```yaml
 Type: String
 Parameter Sets: AccessToken
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 
 ### -Credential
 Specifies a **PSCredential** object.
-To obtain a **PSCredential** object, use the Get-Credentialhttp://go.microsoft.com/fwlink/?LinkID=293936 cmdlet.
+To obtain a **PSCredential** object, use the [Get-Credential](http://go.microsoft.com/fwlink/?LinkID=293936) cmdlet.
 For more information, type `Get-Help Get-Cmdlet`.
 The cmdlet prompts you for a password.
 
@@ -136,7 +136,7 @@ You cannot use this parameter with the *AccessToken* parameter and do not use it
 ```yaml
 Type: PSCredential
 Parameter Sets: Credential
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -153,7 +153,7 @@ If you do not specify this parameter, the cmdlet connects to the tenant that you
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -176,5 +176,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-Credential](https://go.microsoft.com/fwlink/?LinkID=293936)
 
 [Disconnect-AadrmService](xref:AADRM/vlatest/Disconnect-AadrmService.md)
-
-

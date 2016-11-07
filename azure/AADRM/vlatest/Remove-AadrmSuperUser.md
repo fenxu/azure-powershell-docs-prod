@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400621
 schema: 2.0.0
 ms.assetid: 48A3F450-B87B-43DB-8723-8917FD5E0B7B
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmSuperUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmSuperUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmSuperUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -30,9 +30,9 @@ Remove-AadrmSuperUser -EmailAddress <String> [<CommonParameters>]
 
 ## DESCRIPTION
 The **Remove-AadrmSuperUser** cmdlet removes a user from the list of users who are individually granted super user privileges for your organization.
-This cmdlet does not remove a group or a user from that a group that is assigned super user privileges by using the Set-AadrmSuperUserGroup cmdlet.
-To add or remove super users, you must first enable the super user feature for Azure Rights Management by using the Enable-AadrmSuperUserFeature cmdlet.
-For more information about super users, see the Get-AadrmSuperUser cmdlet.
+This cmdlet does not remove a group or a user from that a group that is assigned super user privileges by using the [Set-AadrmSuperUserGroup](./Set-AadrmSuperUserGroup.md) cmdlet.
+To add or remove super users, you must first enable the super user feature for Azure Rights Management by using the [Enable-AadrmSuperUserFeature](./Enable-AadrmSuperUserFeature.md) cmdlet.
+For more information about super users, see the [Get-AadrmSuperUser](./Get-AadrmSuperUser.md) cmdlet.
 
 ## EXAMPLES
 
@@ -52,7 +52,7 @@ The cmdlet removes the user or group identified by the email address that you sp
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -79,5 +79,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Enable-AadrmSuperUserFeature](xref:AADRM/vlatest/Enable-AadrmSuperUserFeature.md)
 
 [Set-AadrmSuperUserGroup](xref:AADRM/vlatest/Set-AadrmSuperUserGroup.md)
-
-

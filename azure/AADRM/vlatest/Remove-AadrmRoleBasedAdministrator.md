@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400620
 schema: 2.0.0
 ms.assetid: C019DD8B-8C2C-487C-B730-38E50A170180
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -53,7 +53,7 @@ Tip: If you have many groups, use the **Where-Object** cmdlet in Windows PowerSh
 For example, you might enter the following cmdlet to filter and return only groups that start with "Rights": **Get-MsolGroup | where {$_.DisplayName -like "Rights*" }**
 
 2.
-In the output of the **Get-MsolGroup** cmdlet, copy the GUID value that was returned and use (paste) that value into the value of the -ObjectId parameter when you run the **Add-RoleBased Administrator** or Remove-AadrmRoleBasedAdministrator cmdlet.
+In the output of the **Get-MsolGroup** cmdlet, copy the GUID value that was returned and use (paste) that value into the value of the -ObjectId parameter when you run the **Add-RoleBased Administrator** or [Remove-AadrmRoleBasedAdministrator](./Remove-AadrmRoleBasedAdministrator) cmdlet.
 
 ## EXAMPLES
 
@@ -80,7 +80,7 @@ The cmdlet removes administrative rights for the user or group identified by the
 ```yaml
 Type: String
 Parameter Sets: EmailAddress
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -96,7 +96,7 @@ The cmdlet removes administrative rights for the user or group identified by GUI
 ```yaml
 Type: Guid
 Parameter Sets: ObjectId
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -110,7 +110,7 @@ Specifies a role.
 The cmdlet removes an administrator that belongs to the role that you specify.
 The acceptable values for this parameter are:
 
-- ConnectorAdministrator 
+- ConnectorAdministrator
 - GlobalAdministrator
 
 If you do not specify a role, the cmdlet removes the administrator from the GlobalAdministrator role.
@@ -118,7 +118,7 @@ If you do not specify a role, the cmdlet removes the administrator from the Glob
 ```yaml
 Type: Role
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -134,7 +134,7 @@ The cmdlet removes administrative rights for the user or group identified by the
 ```yaml
 Type: String
 Parameter Sets: DisplayName
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -157,5 +157,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Add-AadrmRoleBasedAdministrator](xref:AADRM/vlatest/Add-AadrmRoleBasedAdministrator.md)
 
 [Get-AadrmRoleBasedAdministrator](xref:AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md)
-
-
