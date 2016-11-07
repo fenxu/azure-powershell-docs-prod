@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C4E796AF-54F5-4DC9-BFDD-55B6C8EBA4FA
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 7:28 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServiceConfigurationRecord.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServiceConfigurationRecord.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5d8e83fd20d8cb6763f42112664a1f5960e8e4b6/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServiceConfigurationRecord.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADServiceConfigurationRecord
 
 ## SYNOPSIS
-Get serviceConfigurationRecords
+Gets a service configuration record.
 
 ## SYNTAX
 
@@ -30,20 +30,12 @@ Get-AzureADServiceConfigurationRecord -Name <String> [-InformationAction <Action
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Get-AzureADServiceConfigurationRecord** cmdlet gets a service configuration record in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -80,6 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
+Specifies the name of the service configuration record to get.
 ```yaml
 Type: String
 Parameter Sets: (All)
