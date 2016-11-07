@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 21466FB1-EC5D-4045-B94C-FF8B7E6B5158
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 7:50 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalMembership.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalMembership.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/331a79252fb80f60e0da51838f45fd3652ca27d0/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalMembership.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADServicePrincipalMembership
 
 ## SYNOPSIS
-Get service principal memberships.
+Get a service principal membership.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Get-AzureADServicePrincipalMembership -ObjectId <String> [-Top <Int32>] [-Inform
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Get-AzureADServicePrincipalMembership** cmdlet gets the memberships of a service principal in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique idenfier of an service principal in Azure Active Directory
+Specifies the ID of a service principal in Azure AD.
 
 ```yaml
 Type: String
@@ -56,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -71,9 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
