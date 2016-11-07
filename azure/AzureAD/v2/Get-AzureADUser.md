@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 52681E27-7FE6-43CE-B2BF-8516C21E04CB
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 10:28 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0cb30a4e8763dfd61a8b75e1d97f2475f58f8092/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADUser
 
 ## SYNOPSIS
-Retrieves a specific user from Azure Active Directory
+Gets a user.
 
 ## SYNTAX
 
@@ -43,27 +43,26 @@ Get-AzureADUser -ObjectId <String> [-InformationAction <ActionPreference>] [-Inf
 ```
 
 ## DESCRIPTION
-
+The **Get-AzureADUser** cmdlet gets a user from Azure Active Directory (AD).
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+### Example 1: Get ten users
 ```
 PS C:\>Get-AzureADUser -Top 10
 ```
 
-Return users from tenant that meets the requirement.
+This command gets ten users.
 
-### --------------------------  Example 2  --------------------------
+### Example 2: Get a user by ID
 ```
-PS C:\>Get-AzureADUser -ObjectId testUpn@tenant.com
+PS C:\>Get-AzureADUser -ObjectId "testUpn@tenant.com"
 ```
-
-Return the specific user using user's object Id or UPN.
+This command gets the specified user.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a user in Azure Active Directory (UPN or ObjectId)
+Specifies the ID (as a UPN or ObjectId) of a user in Azure AD. 
 
 ```yaml
 Type: String
@@ -78,9 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -117,7 +114,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -132,8 +129,7 @@ Accept wildcard characters: False
 ```
 
 ### -Filter
-The oData v3.0 filter statement. 
-Controls which objects are returned.
+Specifies an oData v3.0 filter statement. This parameter controls which objects are returned.
 
 ```yaml
 Type: String
@@ -148,6 +144,7 @@ Accept wildcard characters: False
 ```
 
 ### -SearchString
+Specifies a search string.
 ```yaml
 Type: String
 Parameter Sets: GetVague
@@ -170,5 +167,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[New-AzureADUser](xref:AzureAD/v2/New-AzureADUser.md)
+
+[Remove-AzureADUser](xref:AzureAD/v2/Remove-AzureADUser.md)
+
+[Set-AzureADUser](xref:AzureAD/v2/Set-AzureADUser.md)
 
 
