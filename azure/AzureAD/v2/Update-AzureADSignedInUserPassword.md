@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: 8959FA62-5E06-4C57-90CC-985F7467BC59
-updated_at: 11/7/2016 10:34 PM
+updated_at: 11/7/2016 10:36 PM
 ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Update-AzureADSignedInUserPassword.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c3d9913ccd4785369596d7ada2a5b816d957fc0e/Azure%20AD%20Cmdlets/AzureAD/v2/Update-AzureADSignedInUserPassword.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/9ccefa7eaa7c1ca834ab3975578a6f7d185314ee/Azure%20AD%20Cmdlets/AzureAD/v2/Update-AzureADSignedInUserPassword.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Update-AzureADSignedInUserPassword
 
 ## SYNOPSIS
-Updates the password for the current user.
+Updates the password for the signed-in user.
 
 ## SYNTAX
 
@@ -30,18 +30,18 @@ Update-AzureADSignedInUserPassword -CurrentPassword <SecureString> -NewPassword 
 ```
 
 ## DESCRIPTION
-The **Update-AzureADSignedInUserPassword** cmdlet updates the password for the current user in Azure Active Directory (AD).
+The **Update-AzureADSignedInUserPassword** cmdlet updates the password for the signed-in user in Azure Active Directory (AD).
 ## EXAMPLES
 
 ### Example 1: Update a password
 ```PowerShell
 PS C:\>Update-AzureADSignedInUserPassword -CurrentPassword $CurrentPassword -NewPassword $NewPassword
 ```
-This command updates the password for the current user.
+This command updates the password for the signed-in user.
 ## PARAMETERS
 
 ### -CurrentPassword
-Specifies the current password of the current user.
+Specifies the current password of the signed-in user.
 
 ```yaml
 Type: SecureString
@@ -56,7 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -NewPassword
-Specifies the new password for the current user.
+Specifies the new password for the signed-in user.
 
 ```yaml
 Type: SecureString
