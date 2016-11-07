@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: 8959FA62-5E06-4C57-90CC-985F7467BC59
-updated_at: 11/7/2016 10:33 PM
+updated_at: 11/7/2016 10:34 PM
 ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Update-AzureADSignedInUserPassword.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e1c16c534f39f236fd2aa604e813f1f646184f25/Azure%20AD%20Cmdlets/AzureAD/v2/Update-AzureADSignedInUserPassword.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c3d9913ccd4785369596d7ada2a5b816d957fc0e/Azure%20AD%20Cmdlets/AzureAD/v2/Update-AzureADSignedInUserPassword.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -34,7 +34,7 @@ The **Update-AzureADSignedInUserPassword** cmdlet updates the password for the c
 ## EXAMPLES
 
 ### Example 1: Update a password
-```
+```PowerShell
 PS C:\>Update-AzureADSignedInUserPassword -CurrentPassword $CurrentPassword -NewPassword $NewPassword
 ```
 This command updates the password for the current user.
