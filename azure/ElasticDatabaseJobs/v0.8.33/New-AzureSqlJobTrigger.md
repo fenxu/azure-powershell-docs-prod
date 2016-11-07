@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: A5D19108-72A8-40E2-AAB9-FBC467CF7808
-updated_at: 11/2/2016 2:15 AM
-ms.date: 11/2/2016
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTrigger.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/693e90003fbe67b6076d4970d872fda5417b034e/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTrigger.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTrigger.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -30,7 +30,7 @@ New-AzureSqlJobTrigger -JobName <String> -ScheduleName <String>
 ```
 
 ## DESCRIPTION
-The **New-AzureSqlJobTrigger** cmdlet creates a mapping of job to schedules. 
+The **New-AzureSqlJobTrigger** cmdlet creates a mapping of job to schedules.
 In accordance to the schedule definition, job runs are triggered for each job or schedule mapping.
 
 ## EXAMPLES
@@ -49,13 +49,13 @@ This command creates a trigger for a job named MyJob to run according to the sch
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -70,7 +70,7 @@ Specifies the name of the job.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -85,7 +85,7 @@ Specifies the name of the schedule.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -114,5 +114,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md)
 
 [Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
-
-

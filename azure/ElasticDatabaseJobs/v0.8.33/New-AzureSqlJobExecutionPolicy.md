@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 31ED2F79-5E6D-467D-94B3-FDC879005BF3
-updated_at: 11/2/2016 2:15 AM
-ms.date: 11/2/2016
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobExecutionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/693e90003fbe67b6076d4970d872fda5417b034e/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobExecutionPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobExecutionPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -53,13 +53,13 @@ This command creates an execution policy named MyCustomExecutionPolicyName.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -74,7 +74,7 @@ Specifies the execution policy name.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -89,7 +89,7 @@ Specifies the time interval to use between job task executions following a job t
 ```yaml
 Type: TimeSpan
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -104,7 +104,7 @@ Specifies the timeout to enforce for overall job execution time.
 ```yaml
 Type: TimeSpan
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -119,7 +119,7 @@ Specifies the total number of job task execution retry attempts to allow within 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -134,7 +134,7 @@ Specifies the maximum time between retry attempts.
 ```yaml
 Type: TimeSpan
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -144,13 +144,13 @@ Accept wildcard characters: False
 ```
 
 ### -RetryIntervalBackoffCoefficient
-Specifies the coefficient used to calculate the next interval between retries. 
+Specifies the coefficient used to calculate the next interval between retries.
 The following formula is used: (Initial Retry Interval) * Math.pow((Interval Backoff Coefficient), (Number of Retries) - 2).
 
 ```yaml
 Type: Single
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -175,5 +175,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-AzureSqlJobExecutionPolicy](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobExecutionPolicy.md)
 
 [Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
-
-

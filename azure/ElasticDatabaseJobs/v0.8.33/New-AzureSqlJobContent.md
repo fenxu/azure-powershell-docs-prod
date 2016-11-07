@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: FCAA0791-9557-4CDE-A2D5-AE9B174003ED
-updated_at: 11/2/2016 2:15 AM
-ms.date: 11/2/2016
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/693e90003fbe67b6076d4970d872fda5417b034e/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -37,7 +37,7 @@ New-AzureSqlJobContent -ContentName <String> -DacpacUri <Uri>
 ```
 
 ## DESCRIPTION
-The **New-AzureSqlJobContent** cmdlet creates content that can be run or applied across entities within a job target. 
+The **New-AzureSqlJobContent** cmdlet creates content that can be run or applied across entities within a job target.
 Content can be created in the form of T-SQL scripts or DACPAC URIs.
 
 ## EXAMPLES
@@ -70,20 +70,20 @@ ContentName                                                                     
 MyDacpac                                                                                                         Dacpac
 ```
 
-This command creates DACPAC content to be used for execution within a job. 
+This command creates DACPAC content to be used for execution within a job.
 The provided URI should be publically accessible to allow the system to successfully apply the DACPAC across the job target.
 
 ## PARAMETERS
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -93,14 +93,14 @@ Accept wildcard characters: False
 ```
 
 ### -CommandText
-Specifies the command text of a T-SQL script. 
-The script can contain GO statements. 
+Specifies the command text of a T-SQL script.
+The script can contain GO statements.
 When containing GO statements, the system splits the command text into multiple batches.
 
 ```yaml
 Type: String[]
 Parameter Sets: Script
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -115,7 +115,7 @@ Specifies the name of the content.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -125,13 +125,13 @@ Accept wildcard characters: False
 ```
 
 ### -DacpacUri
-Specifies the URI for a DACPAC to be used for application. 
+Specifies the URI for a DACPAC to be used for application.
 The URI must be accessible by the system.
 
 ```yaml
 Type: Uri
 Parameter Sets: Dacpac
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -153,6 +153,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AzureSqlJobContent](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobContent.md)
 
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
+
 [Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
-
-

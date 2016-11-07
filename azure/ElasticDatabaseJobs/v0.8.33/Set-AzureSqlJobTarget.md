@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: AA3F0D08-ADFD-407E-9359-6F3EEB131286
-updated_at: 11/2/2016 2:15 AM
-ms.date: 11/2/2016
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/693e90003fbe67b6076d4970d872fda5417b034e/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTarget.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -38,7 +38,7 @@ Set-AzureSqlJobTarget -ShardMapManagerServerName <String> -ShardMapManagerDataba
 ```
 
 ## DESCRIPTION
-The **Set-AzureSqlJobTarget** cmdlet updates a job target definition. 
+The **Set-AzureSqlJobTarget** cmdlet updates a job target definition.
 This currently enables a specified shard map target to have its credentials updated.
 
 ## EXAMPLES
@@ -69,13 +69,13 @@ This command updates the credentials used to determine databases within an Elast
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet. 
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -90,7 +90,7 @@ Specifies the name of the credential to use whenever connecting to the shard map
 ```yaml
 Type: String
 Parameter Sets: ShardMap
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -105,7 +105,7 @@ Specifies the Elastic Scale shard map database name.
 ```yaml
 Type: String
 Parameter Sets: ShardMap
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -120,7 +120,7 @@ Specifies the Elastic Scale shard map server name.
 ```yaml
 Type: String
 Parameter Sets: ShardMap
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -135,7 +135,7 @@ Specifies the Elastic Scale shard map name.
 ```yaml
 Type: String
 Parameter Sets: ShardMap
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -165,7 +165,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Server
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -175,12 +175,12 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-{{Fill ServerName Description}}
+Specifies the name of the server.
 
 ```yaml
 Type: String
 Parameter Sets: Server
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -205,5 +205,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureSqlJobTarget](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md)
 
 [Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
-
-

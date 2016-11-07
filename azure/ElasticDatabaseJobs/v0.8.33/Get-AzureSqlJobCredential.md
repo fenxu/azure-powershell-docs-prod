@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 43FAC986-8E46-47B5-9BDD-21C65C5DE7E5
-updated_at: 11/2/2016 2:15 AM
-ms.date: 11/2/2016
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/693e90003fbe67b6076d4970d872fda5417b034e/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -66,13 +66,13 @@ Get all credentials stored within the system.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet. 
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the N[ew-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -87,7 +87,7 @@ Specifies the name of the credential.
 ```yaml
 Type: String[]
 Parameter Sets: CredentialName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -109,6 +109,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [New-AzureSqlJobCredential](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobCredential.md)
 
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
+
 [Set-AzureSqlJobCredential](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md)
-
-

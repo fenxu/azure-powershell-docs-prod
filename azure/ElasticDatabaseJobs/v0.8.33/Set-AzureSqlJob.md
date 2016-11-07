@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 74A798B5-44A6-437B-82EB-E957DC7D8366
-updated_at: 11/2/2016 2:15 AM
-ms.date: 11/2/2016
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/693e90003fbe67b6076d4970d872fda5417b034e/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -50,7 +50,7 @@ The **Set-AzureSqlJob** cmdlet updates a job definition.
 PS C:\>Set-AzureSqlDatabaseJob -JobName "MyResultsJob" -ResultSetDestinationServerName "MyResultsServerName.database.contoso.net" -ResultSetDestinationDatabaseName "MyResultsDatabaseName" -ResultSetDestinationCredentialName "MyResultsCredential" -ResultSetDestinationSchemaName "DBO" -ResultSetDestinationTableName "MyResultsTable"
 JobName              : MyResultsJob
 ContentName          : MyScript
-ContentVersionNumber : 
+ContentVersionNumber :
 TargetDescription    : {"CustomCollectionName":"MyCustomCollection"}
 TargetId             : b525727e-6ed0-44cc-94da-63c543e383d7
 CredentialName       : MyCredential
@@ -65,7 +65,7 @@ This command adds a result set collection to the job named MyResultsJob.
 PS C:\>Set-AzureSqlDatabaseJob -JobName "MyResultsJob" -RemoveResultSetDestination
 JobName              : MyResultsJob
 ContentName          : MyScript
-ContentVersionNumber : 
+ContentVersionNumber :
 TargetDescription    : {"CustomCollectionName":"myCustomCollection"}
 TargetId             : b525727e-6ed0-44cc-94da-63c543e383d7
 CredentialName       : MyCredential
@@ -79,13 +79,13 @@ This command removes a result set collection from the provided job.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -100,7 +100,7 @@ Indicates that this cmdlet updates the content that is run or applied during the
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,7 +115,7 @@ Specifies the credentials to use when connecting to target databases.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -130,7 +130,7 @@ Indicates that this cmdlet updates the execution policy to be used during job ru
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -145,7 +145,7 @@ Specifies the name of the job.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -160,7 +160,7 @@ Indicates that this cmdlet removes the use of a result set destination from a jo
 ```yaml
 Type: SwitchParameter
 Parameter Sets: TargetIdRemoveesultSetDestination
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -175,7 +175,7 @@ Specifies the name of the credential to use for the database connection used for
 ```yaml
 Type: String
 Parameter Sets: TargetIdUpdateResultSetDestination
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -190,7 +190,7 @@ Specifies the database name to use for insertion of the first result set obtaine
 ```yaml
 Type: String
 Parameter Sets: TargetIdUpdateResultSetDestination
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -205,7 +205,7 @@ Specifies the database schema name to use for insertion of the first result set 
 ```yaml
 Type: String
 Parameter Sets: TargetIdUpdateResultSetDestination
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -220,7 +220,7 @@ Specifies the database server name to use for insertion of the first result set 
 ```yaml
 Type: String
 Parameter Sets: TargetIdUpdateResultSetDestination
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -230,13 +230,13 @@ Accept wildcard characters: False
 ```
 
 ### -ResultSetDestinationTableName
-Specifies the database table name to use for insertion of the first result set obtained during a job run. 
+Specifies the database table name to use for insertion of the first result set obtained during a job run.
 If the table does not exist during job execution, the system will automatically create it using a schema matching the result set.
 
 ```yaml
 Type: String
 Parameter Sets: TargetIdUpdateResultSetDestination
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -251,7 +251,7 @@ Specifies the target ID.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -266,7 +266,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: TargetIdUpdateResultSetDestination
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -293,5 +293,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md)
 
 [Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
-
-

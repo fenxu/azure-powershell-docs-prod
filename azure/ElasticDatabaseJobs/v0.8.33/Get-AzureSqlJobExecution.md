@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 2F400DA8-52CF-4D84-8AFA-EB2FEFE7DC3E
-updated_at: 11/2/2016 2:15 AM
-ms.date: 11/2/2016
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/693e90003fbe67b6076d4970d872fda5417b034e/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -47,11 +47,11 @@ Each job execution container contains task executions performed to fulfill execu
 ```
 PS C:\>Get-AzureSqlJobExecution
 JobExecutionId       : e1b85439-14af-453e-a462-04cd17e1d3ec
-ParentJobExecutionId : 
+ParentJobExecutionId :
 Lifecycle            : WaitingToRetry
 CreatedTime          : 7/10/2015 1:59:06 PM -07:00
 StartTime            : 7/10/2015 1:59:08 PM -07:00
-EndTime              : 
+EndTime              :
 JobName              : MyJob
 ContentName          : MyScript
 ContentVersionNumber : 1
@@ -71,7 +71,7 @@ JobExecutionId       : e1b85439-14af-453e-a462-04cd17e1d3ec
 ParentJobExecutionId : Lifecycle            : WaitingToRetry
 CreatedTime          : 7/10/2015 1:59:06 PM -07:00
 StartTime            : 7/10/2015 1:59:08 PM -07:00
-EndTime              : 
+EndTime              :
 JobName              : MyJob
 ContentName          : MyScript
 ContentVersionNumber : 1
@@ -88,11 +88,11 @@ This command gets the specified job execution by ID.
 ```
 PS C:\>Get-AzureSqlJobExecution -JobName "MyJob"
 JobExecutionId       : e1b85439-14af-453e-a462-04cd17e1d3ec
-ParentJobExecutionId : 
+ParentJobExecutionId :
 Lifecycle            : WaitingToRetry
 CreatedTime          : 7/10/2015 1:59:06 PM -07:00
 StartTime            : 7/10/2015 1:59:08 PM -07:00
-EndTime              : 
+EndTime              :
 JobName              : MyJob
 ContentName          : MyScript
 ContentVersionNumber : 1
@@ -109,11 +109,11 @@ This command gets all active job executions across the specified job name.
 ```
 PS C:\>Get-AzureSqlJobExecution -JobName "CreateTableJob" -IncludeChildren
 JobExecutionId       : a664a3d1-0dba-4516-ad53-bf26115bfaa0
-ParentJobExecutionId : 
+ParentJobExecutionId :
 Lifecycle            : WaitingForChildJobExecutions
 CreatedTime          : 7/10/2015 3:17:26 PM -07:00
 StartTime            : 7/10/2015 3:17:27 PM -07:00
-EndTime              : 
+EndTime              :
 JobName              : CreateTableJob
 ContentName          : CreateMyTestTable
 ContentVersionNumber : 1
@@ -121,14 +121,14 @@ TargetDescription    : {"CustomCollectionName":"myCustomCollection"}
 TargetId             : b525727e-6ed0-44cc-94da-63c543e383d7
 CredentialName       : MyCredential
 ExecutionPolicyName  : Default execution policy
-ResultSetDestination : 
+ResultSetDestination :
 
 JobExecutionId       : c0d1433f-ca50-4cc4-81e2-80bcdf5ad258
 ParentJobExecutionId : a664a3d1-0dba-4516-ad53-bf26115bfaa0
 Lifecycle            : InProgress
 CreatedTime          : 7/10/2015 3:17:31 PM -07:00
 StartTime            : 7/10/2015 3:17:32 PM -07:00
-EndTime              : 
+EndTime              :
 JobName              : CreateTableJob
 ContentName          : CreateMyTestTable
 ContentVersionNumber : 1
@@ -145,11 +145,11 @@ This command gets all active job executions across the specified job name, inclu
 ```
 PS C:\>Get-AzureSqlJobExecution -ContentName MyScript
 JobExecutionId       : e1b85439-14af-453e-a462-04cd17e1d3ec
-ParentJobExecutionId : 
+ParentJobExecutionId :
 Lifecycle            : WaitingToRetry
 CreatedTime          : 7/10/2015 1:59:06 PM -07:00
 StartTime            : 7/10/2015 1:59:08 PM -07:00
-EndTime              : 
+EndTime              :
 JobName              : MyJob
 ContentName          : MyScript
 ContentVersionNumber : 1
@@ -166,13 +166,13 @@ This command gets all active parent job executions across the system executing t
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet. 
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the N[ew-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -187,7 +187,7 @@ Specifies the content name to use for filtering across all job executions.
 ```yaml
 Type: String
 Parameter Sets: Filter
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -202,7 +202,7 @@ Indicates whether children job runs are included within the job output.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -217,7 +217,7 @@ Indicates whether job runs are included within the job output.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Filter
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -232,7 +232,7 @@ Specifies the ID of the job execution to obtain.
 ```yaml
 Type: Guid[]
 Parameter Sets: JobExecutionId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -247,7 +247,7 @@ Specifies the job name to use for filtering across all job executions.
 ```yaml
 Type: String
 Parameter Sets: Filter
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -257,14 +257,14 @@ Accept wildcard characters: False
 ```
 
 ### -JobType
-Specifies that this cmdlet filters the job executions by User, Cleanup, Heartbeat or TelemetryCollection job types. 
-All jobs created through New-AzureSqlJob are of type User. 
+Specifies that this cmdlet filters the job executions by User, Cleanup, Heartbeat or TelemetryCollection job types.
+All jobs created through [New-AzureSqlJob](./New-AzureSqlJob.md) are of type User.
 System jobs are of type Cleanup, Heartbeat or TelemetryCollection.
 
 ```yaml
 Type: JobType
 Parameter Sets: Filter
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -279,7 +279,7 @@ Specifies the parent job execution ID to use for filtering across all job execut
 ```yaml
 Type: Guid
 Parameter Sets: Filter
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -294,7 +294,7 @@ Specifies the schedule name to use for filtering across all job executions.
 ```yaml
 Type: String
 Parameter Sets: Filter
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -309,7 +309,7 @@ Specifies the target ID to use for filtering across all job executions.
 ```yaml
 Type: Guid
 Parameter Sets: Filter
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -334,5 +334,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Stop-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Stop-AzureSqlJobExecution.md)
 
 [Wait-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md)
-
-

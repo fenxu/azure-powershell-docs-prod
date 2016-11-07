@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: F0568B6B-E86F-445E-AAD6-6E9E984ED981
-updated_at: 11/2/2016 2:15 AM
-ms.date: 11/2/2016
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobScriptBatchExecution.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/693e90003fbe67b6076d4970d872fda5417b034e/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobScriptBatchExecution.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobScriptBatchExecution.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -30,7 +30,7 @@ Get-AzureSqlJobScriptBatchExecution -JobTaskExecutionId <Guid[]>
 ```
 
 ## DESCRIPTION
-The **Get-AzureSqlJobScriptBatchExecution** cmdlet gets one or multiple results of a script batch run within a task execution. 
+The **Get-AzureSqlJobScriptBatchExecution** cmdlet gets one or multiple results of a script batch run within a task execution.
 Each task run for script execution also create one or multiple script batch executions.
 
 ## EXAMPLES
@@ -45,20 +45,20 @@ EndTime           : 7/10/2015 3:32:08 PM -07:00
 Message           :
 ```
 
-This command gets the results of the specified job task execution from each batch within a script. 
+This command gets the results of the specified job task execution from each batch within a script.
 The job task execution ID must match a job task of type ScriptExecution.
 
 ## PARAMETERS
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the N[ew-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -73,7 +73,7 @@ Specifies the job task execution ID to use for lookup of script batch executions
 ```yaml
 Type: Guid[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -98,5 +98,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
 
 [Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
-
-

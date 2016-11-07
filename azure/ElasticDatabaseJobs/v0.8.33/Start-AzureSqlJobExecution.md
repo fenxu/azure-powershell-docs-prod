@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 0E2D8FAD-FAB9-46BF-81BB-5631C0EE2006
-updated_at: 11/2/2016 2:15 AM
-ms.date: 11/2/2016
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Start-AzureSqlJobExecution.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/693e90003fbe67b6076d4970d872fda5417b034e/ElasticDB/ElasticDatabaseJobs/v0.8.33/Start-AzureSqlJobExecution.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Start-AzureSqlJobExecution.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: active-directory
@@ -38,11 +38,11 @@ The **Start-AzureSqlJobExecution** cmdlet starts a job execution.
 ```
 PS C:\>Start-AzureSqlJobExecution -JobName "MyJob"
 JobExecutionId       : 736de27d-186f-42ae-8a4c-e5a77c683ccd
-ParentJobExecutionId : 
+ParentJobExecutionId :
 Lifecycle            : Created
 CreatedTime          : 7/10/2015 2:15:32 PM -07:00
-StartTime            : 
-EndTime              : 
+StartTime            :
+EndTime              :
 JobName              : MyJob
 ContentName          : MyScript
 ContentVersionNumber : 1
@@ -59,13 +59,13 @@ This command starts a job execution using the job named MyJob.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet. 
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -80,7 +80,7 @@ Specifies the name of the job.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -107,5 +107,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Wait-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md)
 
 [Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)
-
-
