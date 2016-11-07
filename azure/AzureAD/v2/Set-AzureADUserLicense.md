@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A98FA4E7-3662-433C-A28D-CAF4D60592A1
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 11:15 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserLicense.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserLicense.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/bbfe232ad7e6f2977e5bd06736a86f69d4979281/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserLicense.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureADUserLicense
 
 ## SYNOPSIS
-Add and remove one or more licenses for a Microsoft online service to the list of assigned licenses for the user.
+Adds or removes licenses for a Microsoft online service to the list of assigned licenses for a user.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Set-AzureADUserLicense -ObjectId <String> -AssignedLicenses <AssignedLicenses>
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Set-AzureADUserLicense** adds or removes licenses for a Microsoft online service to the list of assigned licenses for a user.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a user in Azure Active Directory (UPN or ObjectId)
+Specifies the ID of a user (as a UPN or ObjectId) in Azure AD. 
 
 ```yaml
 Type: String
@@ -56,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -AssignedLicenses
-A list of licenses to be assigned and those to be removed.
+Specifies a list of licenses to assign or remove.
 
 ```yaml
 Type: AssignedLicenses
@@ -71,9 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
