@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D4C305FF-6005-4296-8B26-CFFCACFF9D2C
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 8:58 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/414ab491f42a4ba60faf9f10b89c4e7ebf47654a/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -29,18 +29,18 @@ Get-AzureADServicePrincipalPolicy -ObjectId <String> [-InformationAction <Action
 ```
 
 ## DESCRIPTION
-
+The **Get-AzureADServicePrincipalPolicy** cmdlet gets the policy of a service principal in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Get a policy
+```PowerShell
+PS C:\>Get-AzureADServicePrincipalPolicy -ObjectId "<object id of service principal>"
 ```
-PS C:\>Get-AzureADServicePrincipalPolicy -ObjectId <object id of service principal>
-```
-
+This command get the policy for the specified service principal.
 ## PARAMETERS
 
 ### -ObjectId
-The object Id of the Service principal
+Specifies the ID of a service principal.
 
 ```yaml
 Type: String
@@ -55,9 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -103,5 +101,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Add-AzureADServicePrincipalPolicy](xref:AzureAD/v2/Add-AzureADServicePrincipalPolicy.md)
 
+[Remove-AzureADServicePrincipalPolicy](xref:AzureAD/v2/Remove-AzureADServicePrincipalPolicy.md)
 
