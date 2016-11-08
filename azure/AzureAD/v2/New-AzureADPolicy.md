@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 4AC32B4E-81B5-4C66-82D5-21B839DB71AC
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 5:46 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/de227ea4591a67103ca5ccff057fae51253b478e/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADPolicy
 
 ## SYNOPSIS
-
+Creates a policy.
 ## SYNTAX
 
 ```
@@ -32,14 +32,14 @@ New-AzureADPolicy [-InformationAction <ActionPreference>] [-InformationVariable 
 ```
 
 ## DESCRIPTION
-
+The **New-AzureADPolicy** cmdlet creates a policy in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
+### Example 1: Create a policy
+```PowerShell
 PS C:\>New-AzureADPolicy -Definition <Array of Rules> -DisplayName <Name of Policy> -IsTenantDefault
 ```
-
+This command creates a new policy.
 ## PARAMETERS
 
 ### -InformationAction
@@ -82,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -AlternativeIdentifier
-@{Text=}
+Specifies an alternative ID.
 
 ```yaml
 Type: String
@@ -97,8 +97,8 @@ Accept wildcard characters: False
 ```
 
 ### -Definition
-The array of strinfied JSON that contains all the rules of the policy, e.g.
--Definition @("{"TokenLifetimePolicy":{"Version":1,"MaxInactiveTime":"20:00:00"}}")
+Specifies an array of JSON that contains all the rules of the policy, for example:
+*-Definition @("{"TokenLifetimePolicy":{"Version":1,"MaxInactiveTime":"20:00:00"}}")*
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -143,7 +143,6 @@ Accept wildcard characters: False
 ```
 
 ### -KeyCredentials
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.KeyCredential]
@@ -158,7 +157,7 @@ Accept wildcard characters: False
 ```
 
 ### -Type
-The type of policy, for token lifetimes always use "TokenLifetimePolicy"
+Specifies the type of policy. For token lifetimes, specify "TokenLifetimePolicy".
 
 ```yaml
 Type: String
@@ -182,5 +181,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADPolicy](xref:AzureAD/v2/Get-AzureADPolicy.md)
 
+[Remove-AzureADPolicy](xref:AzureAD/v2/Remove-AzureADPolicy.md)
 
+[Set-AzureADPolicy](xref:AzureAD/v2/Set-AzureADPolicy.md)
