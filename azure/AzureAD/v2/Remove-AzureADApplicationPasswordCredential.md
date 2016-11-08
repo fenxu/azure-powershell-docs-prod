@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: EAD7BC01-298D-427D-A0AF-5610021D1BE8
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 9:14 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/94eea5348db36cc2a4e62b730f4df17f859a180d/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADApplicationPasswordCredential
 
 ## SYNOPSIS
-Remove a password credential from an application
+Removes a password credential from an application.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Remove-AzureADApplicationPasswordCredential -ObjectId <String> -KeyId <String>
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Remove-AzureADApplicationPasswordCredential** cmdlet removes a password credential from an application in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of the application in Azure Active Directory
+Specifies the ID of the application in Azure AD.
 
 ```yaml
 Type: String
@@ -56,11 +50,10 @@ Accept wildcard characters: False
 ```
 
 ### -KeyId
-@{Text=}
 
 ```yaml
 Type: String
-Parameter Sets: (All)
+AzureADApplicationPasswordCredentialParameter Sets: (All)
 Aliases: 
 
 Required: True
@@ -119,5 +112,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADApplicationPasswordCredential](xref:AzureAD/v2/Get-AzureADApplicationPasswordCredential.md)
 
-
+[Remove-AzureADApplicationPasswordCredential](xref:AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md)
