@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 18D86E76-31D1-4286-8950-8067FBAF005A
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 4:04 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserMembership.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserMembership.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cecf568adb655ddf724ae25de03e0f92d4a901d1/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserMembership.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,15 +30,12 @@ Get-AzureADUserMembership -ObjectId <String> [-Top <Int32>] [-InformationAction 
 ```
 
 ## DESCRIPTION
-
+The **Get-AzureADUserMembership** cmdlet gets user memberships in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
-PS C:\>Get-AzureADUserMembership  -ObjectId df19e8e6-2ad7-453e-87f5-037f6529ae16
-```
-
-Output:
+### Example 1: Get user memberships
+```PowerShell
+PS C:\>Get-AzureADUserMembership  -ObjectId "df19e8e6-2ad7-453e-87f5-037f6529ae16"
 
 ObjectId                             ObjectType
 --------                             ----------
@@ -54,11 +51,12 @@ d96eb2b3-0970-4827-8f26-6008efd86511 Role
 0e6cf869-82ca-4647-b330-420b9a6f8ef7 Group
 78045c26-218e-46fb-94b6-1a47320da153 Group
 093fc0e2-1d6e-4a1b-9bf8-effa0196f1f7 Group
-
+```
+This command gets the memberships for the specified user.
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a user in Azure Active Directory (UPN or ObjectId)
+Specifies the ID of a user (as a UPN or ObjectId) in Azure AD. 
 
 ```yaml
 Type: String
@@ -73,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -88,9 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
