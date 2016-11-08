@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 0DF2C468-53D8-4BC5-AFC8-7E8EDF38C347
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 5:02 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADDevice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADDevice.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e69cb0842279f0c17bac7221a53949cdb76fbbd8/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADDevice.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADDevice
 
 ## SYNOPSIS
-Create a new device in Azure Active Directory
+Creates a device.
 
 ## SYNTAX
 
@@ -35,26 +35,22 @@ New-AzureADDevice [-InformationAction <ActionPreference>] [-InformationVariable 
 ```
 
 ## DESCRIPTION
+The **New-AzureADDevice** cmdlet creates a device in Azure Active Directory (AD).
+##EXAMPLES
 
-## EXAMPLES
-
-### -------------------------- EXAMPLE 1 --------------------------
-```
+### Example 1: Create a device
+```PowerShell
 PS C:\>New-AzureADDevice -AccountEnabled $true -DisplayName "My new device" -AlternativeSecurityIds $altsecid -DeviceId $guid -DeviceOSType "OS/2" -DeviceOSVersion "9.3"
-```
-
-Output:
 
 ObjectId                             DeviceId                             DisplayName
 --------                             --------                             -----------
 99a1915d-298f-42d1-93ae-71646b85e2fa 5547679b-809d-4e2c-9820-3c4401a573a8 My new device
-
+```
+This command creates a new device.
 ## PARAMETERS
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -91,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -AccountEnabled
-@{Text=}
+Indicates whether the account is enabled.
 
 ```yaml
 Type: Boolean
@@ -106,7 +102,6 @@ Accept wildcard characters: False
 ```
 
 ### -AlternativeSecurityIds
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.AlternativeSecurityId]
@@ -121,7 +116,6 @@ Accept wildcard characters: False
 ```
 
 ### -ApproximateLastLogonTimeStamp
-@{Text=}
 
 ```yaml
 Type: DateTime
@@ -136,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeviceId
-@{Text=}
+Specifies the ID of the device.
 
 ```yaml
 Type: String
@@ -151,7 +145,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeviceObjectVersion
-@{Text=}
+Specifies the object version of the device.
 
 ```yaml
 Type: Int32
@@ -166,7 +160,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeviceOSType
-The Operating System type of the new device
+Specifies the operating system type of the new device.
 
 ```yaml
 Type: String
@@ -181,7 +175,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeviceOSVersion
-@{Text=}
+Specifies the operating system version of the new device.
 
 ```yaml
 Type: String
@@ -196,7 +190,6 @@ Accept wildcard characters: False
 ```
 
 ### -DevicePhysicalIds
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -211,7 +204,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-The display name of the new device
+Specifies the display name of the new device.
 
 ```yaml
 Type: String
@@ -226,7 +219,6 @@ Accept wildcard characters: False
 ```
 
 ### -IsCompliant
-@{Text=}
 
 ```yaml
 Type: Boolean
@@ -241,7 +233,6 @@ Accept wildcard characters: False
 ```
 
 ### -IsManaged
-@{Text=}
 
 ```yaml
 Type: Boolean
@@ -265,5 +256,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADDevice](xref:AzureAD/v2/Get-AzureADDevice.md)
+
+[Remove-AzureADDevice](xref:AzureAD/v2/Remove-AzureADDevice.md)
+
+[Set-AzureADDevice](xref:AzureAD/v2/Set-AzureADDevice.md)
 
 
