@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: EAD7BC01-298D-427D-A0AF-5610021D1BE8
-updated_at: 11/8/2016 9:14 PM
+updated_at: 11/8/2016 11:30 PM
 ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/94eea5348db36cc2a4e62b730f4df17f859a180d/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c98b4d31f12674e9b69721f15d9f837af1eef77d/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -53,7 +53,7 @@ Accept wildcard characters: False
 
 ```yaml
 Type: String
-AzureADApplicationPasswordCredentialParameter Sets: (All)
+Parameter Sets: (All)
 Aliases: 
 
 Required: True
