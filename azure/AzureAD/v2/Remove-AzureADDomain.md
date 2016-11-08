@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: CAD38E2B-DC2D-440F-A51F-1CF9060FF62A
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 10:45 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/42edeef07de5244af677e0414a805139870aa41b/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDomain.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADDomain
 
 ## SYNOPSIS
-Delete an domain by objectId.
+Removes a domain.
 
 ## SYNTAX
 
@@ -30,20 +30,12 @@ Remove-AzureADDomain -Name <String> [-InformationAction <ActionPreference>] [-In
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Remove-AzureADDomain** cmdlet removes a domain from Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -80,6 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
+Specifies the name of the domain to remove.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -102,5 +95,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Confirm-AzureADDomain](xref:AzureAD/v2/Confirm-AzureADDomain.md)
 
+[Get-AzureADDomain](xref:AzureAD/v2/Get-AzureADDomain.md)
 
+[New-AzureADDomain](xref:AzureAD/v2/New-AzureADDomain.md)
+
+[Set-AzureADDomain](xref:AzureAD/v2/Set-AzureADDomain.md)
