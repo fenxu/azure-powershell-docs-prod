@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 4A7B644A-221C-48D7-8A20-85511A03D4CD
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 4:22 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserRegisteredDevice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserRegisteredDevice.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/49fcc1871a8a3ef5cd45675d4aa71985a766ea5b/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserRegisteredDevice.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADUserRegisteredDevice
 
 ## SYNOPSIS
-Get registered devices registered by the user.
+Get devices registered by a user.
 
 ## SYNTAX
 
@@ -30,18 +30,18 @@ Get-AzureADUserRegisteredDevice -ObjectId <String> [-Top <Int32>] [-InformationA
 ```
 
 ## DESCRIPTION
-
+The **Get-AzureADUserRegisteredDevice** cmdlet gets devices registered by a user in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Get registered devices 
+```PowerShell
+PS C:\>Get-AzureADUserRegisteredDevice -ObjectId  "df19e8e6-2ad7-453e-87f5-037f6529ae16"
 ```
-PS C:\>Get-AzureADUserRegisteredDevice -ObjectId  df19e8e6-2ad7-453e-87f5-037f6529ae16
-```
-
+This command gets the devices that are registered to the specified user.
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a user in Azure Active Directory (UPN or ObjectId)
+Specifies the ID of a user (as a UPN or ObjectId) in Azure AD.
 
 ```yaml
 Type: String
@@ -56,7 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies The maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -71,9 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
