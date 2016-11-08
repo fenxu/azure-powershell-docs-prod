@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 7B6691DA-D534-4425-B85E-9EC7EA729ED2
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 4:31 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADAdministrativeUnit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADAdministrativeUnit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e6a194e938b30d82dad9bd12142737961558d140/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADAdministrativeUnit.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADAdministrativeUnit
 
 ## SYNOPSIS
-Create a new administrativeUnit in Azure Active Directory
+Creates an administrative unit.
 
 ## SYNTAX
 
@@ -30,20 +30,12 @@ New-AzureADAdministrativeUnit [-InformationAction <ActionPreference>] [-Informat
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **New-AzureADAdministrativeUnit** cmdlet creates an administrative unit in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -80,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-The description of the new administrative unit
+Specifies a description for the new administrative unit.
 
 ```yaml
 Type: String
@@ -95,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-The display name of the new administrative unit
+Specifies the display name of the new administrative unit.
 
 ```yaml
 Type: String
@@ -119,5 +111,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADAdministrativeUnit](xref:AzureAD/v2/Get-AzureADAdministrativeUnit.md)
+
+[Remove-AzureADAdministrativeUnit](xref:AzureAD/v2/Remove-AzureADAdministrativeUnit.md)
+
+[Set-AzureADAdministrativeUnit](xref:AzureAD/v2/Set-AzureADAdministrativeUnit.md)
 
 
