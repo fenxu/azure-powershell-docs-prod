@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 35D6752C-1503-412C-84D0-3775EC30CE13
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 6:30 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServiceAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServiceAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2b50131d32cea213c654ee26c8cb6f39df3a4279/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServiceAppRoleAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADServiceAppRoleAssignment
 
 ## SYNOPSIS
-Assign a service principal to an application role.
+Assigns a service principal to an application role.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ New-AzureADServiceAppRoleAssignment -ObjectId <String> [-InformationAction <Acti
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **New-AzureADServiceAppRoleAssignment** cmdlet assigns a service principal to an application role in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique idenfier of an service principal in Azure Active Directory
+Specifies the ID of a service principal in Azure AD.
 
 ```yaml
 Type: String
@@ -56,9 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -95,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-@{Text=}
+Specifies the ID.
 
 ```yaml
 Type: String
@@ -110,7 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -PrincipalId
-@{Text=}
+Specifies a principal ID.
 
 ```yaml
 Type: String
@@ -125,7 +117,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceId
-@{Text=}
+Specifies a resource ID.
 
 ```yaml
 Type: String
@@ -149,5 +141,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADServiceAppRoleAssignment](xref:AzureAD/v2/Get-AzureADServiceAppRoleAssignment.md)
 
-
+[Remove-AzureADServiceAppRoleAssignment](xref:AzureAD/v2/Remove-AzureADServiceAppRoleAssignment.md)
