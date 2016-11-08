@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3B08911A-85D4-4E91-B288-69D77C3F39C5
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 3:52 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserDirectReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserDirectReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d81c5fa4901cb4b3681563fb7e31712fee1fbd2c/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserDirectReport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,24 +30,22 @@ Get-AzureADUserDirectReport -ObjectId <String> [-Top <Int32>] [-InformationActio
 ```
 
 ## DESCRIPTION
-
+The **Get-AzureADUserDirectReport** cmdlet gets the direct reports for a user in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
-PS C:\>Get-AzureADUserDirectReport -ObjectId df19e8e6-2ad7-453e-87f5-037f6529ae16
-```
-
-Output:
+### Example 1: Get a user's direct reports
+```PowerShell
+PS C:\>Get-AzureADUserDirectReport -ObjectId "df19e8e6-2ad7-453e-87f5-037f6529ae16"
 
 ObjectId                             ObjectType
 --------                             ----------
 5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0 User
-
+```
+This command gets the direct report for the specified user.
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a user in Azure Active Directory (UPN or ObjectId)
+Specifies the ID of a user in Azure Active Directory (UPN or ObjectId)
 
 ```yaml
 Type: String
@@ -62,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -77,9 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
