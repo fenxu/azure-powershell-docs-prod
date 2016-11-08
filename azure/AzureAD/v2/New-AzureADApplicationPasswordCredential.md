@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: D3B591A4-A99D-4D2D-90E2-D4CE016C4589
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 4:55 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationPasswordCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationPasswordCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a6b622804dc4ead0bbf2296ce7f3640c306dfb98/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationPasswordCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADApplicationPasswordCredential
 
 ## SYNOPSIS
-Create a new password credential for an application
+Creates a password credential for an application.
 
 ## SYNTAX
 
@@ -31,26 +31,23 @@ New-AzureADApplicationPasswordCredential -ObjectId <String> [-CustomKeyIdentifie
 ```
 
 ## DESCRIPTION
-
+The **New-AzureADApplicationPasswordCredential** cmdlet creates a password credential for an application in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
-PS C:\>New-AzureADApplicationPasswordCredential -ObjectId 3ddd22e7-a150-4bb3-b100-e410dea1cb84
-```
-
-Output:
+### Example 1: Create a password credential
+```PowerShell
+PS C:\>New-AzureADApplicationPasswordCredential -ObjectId "3ddd22e7-a150-4bb3-b100-e410dea1cb84"
 
 CustomKeyIdentifier :
 EndDate             : 9/28/2017 3:57:10 PM
 KeyId               :
 StartDate           : 9/28/2016 3:57:10 PM
 Value               : ZJ0V1Yg4cp4eWIey9DrYspqVdX1pdvY437P/ueGxVLU=
-
+```
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of an application in Azure Active Directory
+Specifies the ID of a user in Azure AD.
 
 ```yaml
 Type: String
@@ -65,7 +62,6 @@ Accept wildcard characters: False
 ```
 
 ### -CustomKeyIdentifier
-@{Text=}
 
 ```yaml
 Type: String
@@ -80,7 +76,6 @@ Accept wildcard characters: False
 ```
 
 ### -StartDate
-@{Text=}
 
 ```yaml
 Type: DateTime
@@ -95,7 +90,6 @@ Accept wildcard characters: False
 ```
 
 ### -EndDate
-@{Text=}
 
 ```yaml
 Type: DateTime
@@ -110,7 +104,6 @@ Accept wildcard characters: False
 ```
 
 ### -Value
-@{Text=}
 
 ```yaml
 Type: String
@@ -125,9 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -173,5 +164,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADApplicationPasswordCredential](xref:AzureAD/v2/Get-AzureADApplicationPasswordCredential.md)
+
+[Remove-AzureADApplicationPasswordCredential](xref:AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md)
 
 
