@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 5DCD4EAF-A3D8-49CE-8392-A0F3AE61B86C
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 10:02 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDevice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDevice.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b9354925fed242cee3d096a8ab357e5694305f32/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDevice.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADDevice
 
 ## SYNOPSIS
-Deletes a specific device in Azure Active Directory
+Deletes a device.
 
 ## SYNTAX
 
@@ -30,18 +30,19 @@ Remove-AzureADDevice -ObjectId <String> [-InformationAction <ActionPreference>] 
 ```
 
 ## DESCRIPTION
+The **Remove-AzureADDevice** cmdlet removes a device from Azure Active Directory (AD).
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Remove a device
+```PowerShell
+PS C:\>Remove-AzureADDevice -ObjectId "99a1915d-298f-42d1-93ae-71646b85e2fa"
 ```
-PS C:\>Remove-AzureADDevice -ObjectId 99a1915d-298f-42d1-93ae-71646b85e2fa
-```
-
+This command removes the specified device.
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a device in Azure Active Directory (ObjectId)
+Specifies the object ID of a device in Azure AD.
 
 ```yaml
 Type: String
@@ -56,9 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -104,5 +103,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADDevice](xref:AzureAD/v2/Get-AzureADDevice.md)
 
+[New-AzureADDevice](xref:AzureAD/v2/New-AzureADDevice.md)
 
+[Set-AzureADDevice](xref:AzureAD/v2/Set-AzureADDevice.md)
