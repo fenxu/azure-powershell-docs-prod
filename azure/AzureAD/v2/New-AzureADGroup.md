@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A81910CC-FC86-414D-B79D-B09892732DC1
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 5:21 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4bffde88a172dd0b59d99b36bbc128faeff6271c/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADGroup
 
 ## SYNOPSIS
-Create a new group in Azure Active Directory
+Creates a group.
 
 ## SYNTAX
 
@@ -31,20 +31,17 @@ New-AzureADGroup [-InformationAction <ActionPreference>] [-InformationVariable <
 ```
 
 ## DESCRIPTION
-
+The **New-AzureADGroup** cmdlet creates a group in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
+### Example 1: Create a group
+```PowerShell
 PS C:\>New-AzureADGroup -DisplayName "My new group" -MailEnabled $false -SecurityEnabled $true -MailNickName "NotSet"
-```
-
-Output:
 
 ObjectId                             DisplayName  Description
 --------                             -----------  -----------
 11fa5e1e-737c-40c5-835e-416ae3959606 My new group
-
+```
 ## PARAMETERS
 
 ### -InformationAction
@@ -87,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-@{Text=}
+Specifies a description of the group.
 
 ```yaml
 Type: String
@@ -102,7 +99,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-The name of the new group
+Specifies the display name of the group.
 
 ```yaml
 Type: String
@@ -117,7 +114,7 @@ Accept wildcard characters: False
 ```
 
 ### -MailEnabled
-@{Text=}
+Indicates whether mail is enabled.
 
 ```yaml
 Type: Boolean
@@ -132,7 +129,7 @@ Accept wildcard characters: False
 ```
 
 ### -MailNickName
-@{Text=}
+Specifies a nickname for mail.
 
 ```yaml
 Type: String
@@ -147,7 +144,7 @@ Accept wildcard characters: False
 ```
 
 ### -SecurityEnabled
-@{Text=}
+Indicates whether the group is security-enabled.
 
 ```yaml
 Type: Boolean
@@ -171,5 +168,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADGroup](xref:AzureAD/v2/Get-AzureADGroup.md)
+
+[Remove-AzureADGroup](xref:AzureAD/v2/Remove-AzureADGroup.md)
+
+[Set-AzureADGroup](xref:AzureAD/v2/Set-AzureADGroup.md)
 
 
