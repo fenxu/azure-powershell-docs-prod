@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 167DEE27-AF46-42B3-B692-B18D8C356B99
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 9:18 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/503e34996278f3a282fa855671ca715727c7c0b8/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADApplicationPolicy
 
 ## SYNOPSIS
-
+Removes an application policy.
 ## SYNTAX
 
 ```
@@ -29,18 +29,18 @@ Remove-AzureADApplicationPolicy -ObjectId <String> -PolicyId <String> [-Informat
 ```
 
 ## DESCRIPTION
-
+The **Remove-AzureADApplicationPolicy** cmdlet removes an application policy from Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
+### Example 1: Remove an application policy
+```PowerShell
 PS C:\>Remove-AzureADApplicationPolicy -ObjectId <object id of application> -PolicyId <object id of policy>
 ```
-
+This command removes the specified application policy.
 ## PARAMETERS
 
 ### -ObjectId
-The object Id of the Application
+Specifies The ID of the application.
 
 ```yaml
 Type: String
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -PolicyId
-The ObjectId of Policy
+Specifies the ID of the policy.
 
 ```yaml
 Type: String
@@ -70,9 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -118,5 +116,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Add-AzureADApplicationPolicy](xref:AzureAD/v2/Add-AzureADApplicationPolicy.md)
+
+[Get-AzureADApplicationPolicy](xref:AzureAD/v2/Get-AzureADApplicationPolicy.md)
 
 
