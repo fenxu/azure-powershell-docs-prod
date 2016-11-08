@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 56657391-43D9-4939-B5AE-BB44EF00BE6E
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 6:00 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/abf1a9f4b00af380bbcd907a3757540301b580e6/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureADUser
 
 ## SYNOPSIS
-Updates a specific user in Azure Active Directory
+Updates a user.
 
 ## SYNTAX
 
@@ -40,22 +40,21 @@ Set-AzureADUser -ObjectId <String> [-InformationAction <ActionPreference>] [-Inf
 ```
 
 ## DESCRIPTION
-
+The **Set-AzureADUser** cmdlet updates a user in Azure Active Directory (AD).
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+### Example 1: Update a user
+```PowerShell
+PS C:\> $user = Get-AzureADUser -ObjectId TestUser@example.com 
+PS C:\> $user.DisplayName = 'YetAnotherTestUser 
+PS C:\> Set-AzureADUser -ObjectId TestUser@example.com -User $user
 ```
-PS C:\>$user = Get-AzureADUser -ObjectId TestUser@example.com
-                $user.DisplayName = 'YetAnotherTestUser
-                Set-AzureADUser -ObjectId TestUser@example.com -User $user
-```
-
-Update a specific user's property.
+This command updates the specified user's property.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a user in Azure Active Directory (UPN or ObjectId)
+Specifies the ID of a user (as a UPN or ObjectId) in Azure AD.
 
 ```yaml
 Type: String
@@ -70,9 +69,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -109,8 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -AccountEnabled
-@{Text=}
-
+Indicates whether the account is enabled.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
@@ -124,8 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -AssignedLicenses
-@{Text=}
-
+Specifies an array of assigned licenses.
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.AssignedLicense]
 Parameter Sets: (All)
@@ -139,8 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -City
-@{Text=}
-
+Specifies the user's city.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -154,8 +148,7 @@ Accept wildcard characters: False
 ```
 
 ### -Country
-@{Text=}
-
+Specifies the user's country.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -169,8 +162,7 @@ Accept wildcard characters: False
 ```
 
 ### -Department
-@{Text=}
-
+Specifies the user's department.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -184,8 +176,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-@{Text=}
-
+Specifies the user's display name.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -199,8 +190,7 @@ Accept wildcard characters: False
 ```
 
 ### -FacsimilieTelephoneNumber
-@{Text=}
-
+Specifies the user's fax number.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -214,8 +204,7 @@ Accept wildcard characters: False
 ```
 
 ### -GivenName
-@{Text=}
-
+Specifies the user's given name.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -229,8 +218,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobTitle
-@{Text=}
-
+Specifies the user's job title.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -244,7 +232,7 @@ Accept wildcard characters: False
 ```
 
 ### -Mail
-@{Text=}
+Specifies the user's email address.
 
 ```yaml
 Type: String
@@ -259,7 +247,7 @@ Accept wildcard characters: False
 ```
 
 ### -MailNickName
-@{Text=}
+Specifies a nickname for the user's mail address.
 
 ```yaml
 Type: String
@@ -274,7 +262,7 @@ Accept wildcard characters: False
 ```
 
 ### -Mobile
-@{Text=}
+Specifies the user's mobile phone number.
 
 ```yaml
 Type: String
@@ -289,7 +277,7 @@ Accept wildcard characters: False
 ```
 
 ### -OtherMails
-@{Text=}
+Specifies other email addresses for the user.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -304,7 +292,7 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordPolicies
-@{Text=}
+Specifies password policies for the user.
 
 ```yaml
 Type: String
@@ -319,7 +307,7 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordProfile
-@{Text=}
+Specifies the user's password profile.
 
 ```yaml
 Type: PasswordProfile
@@ -349,7 +337,7 @@ Accept wildcard characters: False
 ```
 
 ### -PostalCode
-@{Text=}
+Specifies the user's postal code.
 
 ```yaml
 Type: String
@@ -364,7 +352,7 @@ Accept wildcard characters: False
 ```
 
 ### -PreferredLanguage
-@{Text=}
+Specifies the user's preferred language.
 
 ```yaml
 Type: String
@@ -379,7 +367,7 @@ Accept wildcard characters: False
 ```
 
 ### -State
-@{Text=}
+Specifies the user's state.
 
 ```yaml
 Type: String
@@ -394,7 +382,7 @@ Accept wildcard characters: False
 ```
 
 ### -StreetAddress
-@{Text=}
+Specifies the user's street address.
 
 ```yaml
 Type: String
@@ -409,7 +397,7 @@ Accept wildcard characters: False
 ```
 
 ### -Surname
-@{Text=}
+Specifies the user's surname.
 
 ```yaml
 Type: String
@@ -424,7 +412,7 @@ Accept wildcard characters: False
 ```
 
 ### -TelephoneNumber
-@{Text=}
+Specifies the user's telephone number.
 
 ```yaml
 Type: String
@@ -439,7 +427,7 @@ Accept wildcard characters: False
 ```
 
 ### -ThumbnailPhoto
-@{Text=}
+Specifies a thumbnail photo for the user.
 
 ```yaml
 Type: Byte[]
@@ -454,7 +442,7 @@ Accept wildcard characters: False
 ```
 
 ### -UsageLocation
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -469,7 +457,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserPrincipalName
-@{Text=}
+Specifies the user's user principal name.
 
 ```yaml
 Type: String
@@ -484,7 +472,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserType
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -534,5 +522,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADUser](xref:AzureAD/v2/Get-AzureADUser.md)
 
+[New-AzureADUser](xref:AzureAD/v2/New-AzureADUser.md)
 
+[Remove-AzureADUser](xref:AzureAD/v2/Get-AzureADUser.md)
