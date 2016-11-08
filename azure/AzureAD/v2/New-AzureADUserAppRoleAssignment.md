@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3B666786-2620-4E80-9A36-552B942A9F7C
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 8:32 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/197b96706590d85eaebd24d978f9c04beb62975f/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADUserAppRoleAssignment
 
 ## SYNOPSIS
-Assign a user to an application role.
+Assigns a user to an application role.
 
 ## SYNTAX
 
@@ -30,18 +30,18 @@ New-AzureADUserAppRoleAssignment -ObjectId <String> [-InformationAction <ActionP
 ```
 
 ## DESCRIPTION
-
+The **New-AzureADUserAppRoleAssignment** cmdlet assigns a user to an application role in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
+### Example 1: Assign a user to an application role
+```PowerShell
 PS C:\>New-AzureADUserAppRoleAssignment -ObjectId $user.ObjectId -PrincipalId $user.ObjectId -ResourceId $ServicePrincipal.ObjectId -Id $Role.Id
 ```
-
+This command assigns a user to an application role.
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a user in Azure Active Directory (UPN or ObjectId)
+Specifies the ID of a user (as a UPN or ObjectId) in Azure AD.
 
 ```yaml
 Type: String
@@ -56,9 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -95,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-@{Text=}
+Specifies an ID.
 
 ```yaml
 Type: String
@@ -110,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -PrincipalId
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -125,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceId
-@{Text=}
+Specifies a resource ID.
 
 ```yaml
 Type: String
@@ -149,5 +147,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADUserAppRoleAssignment](xref:AzureAD/v2/Get-AzureADUserAppRoleAssignment.md)
 
-
+[Remove-AzureADUserAppRoleAssignment](xref:AzureAD/v2/Remove-AzureADUserAppRoleAssignment.md)
