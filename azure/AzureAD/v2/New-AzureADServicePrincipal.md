@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 7DC1958A-D7DE-44AF-A5B1-9C90ABF0B89A
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 6:37 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/965a466e1bd6e309fc4ff0315f2fbef80057cd24/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADServicePrincipal
 
 ## SYNOPSIS
-Create a new application in Azure Active Directory
+Creates a service principal.
 
 ## SYNTAX
 
@@ -40,17 +40,15 @@ New-AzureADServicePrincipal [-InformationAction <ActionPreference>] [-Informatio
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Create a service principal
+```PowerShell
+PS C:\>New-AzureADServicePrincipal -AccountEnabled $true -AppId $MyApp.AppId -AppRoleAssignmentRequired $true -DisplayName $App
 ```
-PS C:\>New-AzureADServicePrincipal -AccountEnabled true -AppId $MyApp.AppId -AppRoleAssignmentRequired $true -DisplayName $App
-```
-
+This command creates a service principal.
 ## PARAMETERS
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -87,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -AccountEnabled
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -102,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppId
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -117,7 +115,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppRoleAssignmentRequired
-@{Text=}
+Indicates whether an application role assignment is required.
 
 ```yaml
 Type: Boolean
@@ -132,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-@{Text=}
+Specifies the display name.
 
 ```yaml
 Type: String
@@ -147,7 +145,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorUrl
-@{Text=}
+Specifies the error URL.
 
 ```yaml
 Type: String
@@ -162,7 +160,7 @@ Accept wildcard characters: False
 ```
 
 ### -Homepage
-@{Text=}
+Specifies the home page.
 
 ```yaml
 Type: String
@@ -177,7 +175,6 @@ Accept wildcard characters: False
 ```
 
 ### -KeyCredentials
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.KeyCredential]
@@ -192,8 +189,7 @@ Accept wildcard characters: False
 ```
 
 ### -LogoutUrl
-@{Text=}
-
+Specifies the logout URL.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -207,7 +203,7 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordCredentials
-@{Text=}
+Specifies password credentials.
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.PasswordCredential]
@@ -222,7 +218,7 @@ Accept wildcard characters: False
 ```
 
 ### -PublisherName
-@{Text=}
+Specifies the publisher name.
 
 ```yaml
 Type: String
@@ -237,7 +233,6 @@ Accept wildcard characters: False
 ```
 
 ### -ReplyUrl
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -252,7 +247,6 @@ Accept wildcard characters: False
 ```
 
 ### -SamlMetadataUrl
-@{Text=}
 
 ```yaml
 Type: String
@@ -267,7 +261,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalNames
-@{Text=}
+Specifies an array of service principal names.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -282,7 +276,6 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -306,5 +299,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADServicePrincipal](xref:AzureAD/v2/Get-AzureADServicePrincipal.md)
 
+[Remove-AzureADServicePrincipal](xref:AzureAD/v2/Remove-AzureADServicePrincipal.md)
 
+[Set-AzureADServicePrincipal](xref:AzureAD/v2/Set-AzureADServicePrincipal.md)
