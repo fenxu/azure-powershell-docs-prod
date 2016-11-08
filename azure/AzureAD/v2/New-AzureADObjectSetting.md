@@ -3,10 +3,10 @@ external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 24E6DD2A-A1A1-42D2-8564-F0A92AA0C49F
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 5:39 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADObjectSetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADObjectSetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5ee1895653e57e555666eea1378f0e814c6efc8e/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADObjectSetting.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADObjectSetting
 
 ## SYNOPSIS
-Creates a settings object in Azure Active Directory.
+Creates a settings object.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ New-AzureADObjectSetting -TargetType <String> -TargetObjectId <String> -Director
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **New-AzureADObjectSetting** cmdlet creates a settings object in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -TargetType
-object type name of directory object that will be assigned settings
+Specifies the type of the directory object to which to assign settings.
 
 ```yaml
 Type: String
@@ -56,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -TargetObjectId
-object id of directory object that will be assigned settings
+Specifies the ID of directory object to which to assign settings.
 
 ```yaml
 Type: String
@@ -71,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -DirectorySetting
-New settings
+Specifies the new settings.
 
 ```yaml
 Type: DirectorySetting
@@ -134,5 +128,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADObjectSetting](xref:AzureAD/v2/Get-AzureADObjectSetting.md)
 
+[Remove-AzureADObjectSetting](xref:AzureAD/v2/Remove-AzureADObjectSetting.md)
 
+[Set-AzureADObjectSetting](xref:AzureAD/v2/Set-AzureADObjectSetting.md)
