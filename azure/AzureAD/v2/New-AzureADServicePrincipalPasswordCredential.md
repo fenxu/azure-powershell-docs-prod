@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: 8F7770B8-E39E-45F9-AE8E-B03883B77756
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 7:07 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalPasswordCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalPasswordCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8d6f523dd0fd57129c60fd0779cc3f8a0c5e36a3/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalPasswordCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADServicePrincipalPasswordCredential
 
 ## SYNOPSIS
-Create a new password credential for a service principal
+Creates a password credential for a service principal.
 
 ## SYNTAX
 
@@ -31,19 +31,12 @@ New-AzureADServicePrincipalPasswordCredential -ObjectId <String> [-CustomKeyIden
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **New-AzureADServicePrincipalPasswordCredential** cmdlet creates a password credential for a service principal in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-@{Text=}
-
+Specifies an object ID.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -57,7 +50,6 @@ Accept wildcard characters: False
 ```
 
 ### -CustomKeyIdentifier
-@{Text=}
 
 ```yaml
 Type: String
@@ -72,7 +64,6 @@ Accept wildcard characters: False
 ```
 
 ### -StartDate
-@{Text=}
 
 ```yaml
 Type: DateTime
@@ -87,7 +78,6 @@ Accept wildcard characters: False
 ```
 
 ### -EndDate
-@{Text=}
 
 ```yaml
 Type: DateTime
@@ -102,7 +92,6 @@ Accept wildcard characters: False
 ```
 
 ### -Value
-@{Text=}
 
 ```yaml
 Type: String
@@ -117,9 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -165,5 +152,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADServicePrincipalPasswordCredential](xref:AzureAD/v2/Get-AzureADServicePrincipalPasswordCredential.md)
+
+[Remove-AzureADServicePrincipalPasswordCredential](xref:AzureAD/v2/Remove-AzureADServicePrincipalPasswordCredential.md)
 
 
