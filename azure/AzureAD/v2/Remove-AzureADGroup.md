@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D495C18D-D65F-4D9E-8A04-C478D1C0F97C
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 10:49 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/83a4954b1670a1055fb78c5b10f16987a384d494/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADGroup
 
 ## SYNOPSIS
-Delete a group by objectId.
+Removes a group.
 
 ## SYNTAX
 
@@ -30,18 +30,18 @@ Remove-AzureADGroup -ObjectId <String> [-InformationAction <ActionPreference>] [
 ```
 
 ## DESCRIPTION
-
+The **Remove-AzureADGroup** cmdlet removes a group from Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Remove a group
+```PowerShell
+PS C:\>Remove-AzureADGroup -ObjectId "11fa5e1e-737c-40c5-835e-416ae3959606"
 ```
-PS C:\>Remove-AzureADGroup -ObjectId 11fa5e1e-737c-40c5-835e-416ae3959606
-```
-
+This command removes the specified group from Azure AD.
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a group in Azure Active Directory (ObjectId)
+Specifies the object ID of a group in Azure AD.
 
 ```yaml
 Type: String
@@ -56,9 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -104,5 +102,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADGroup](xref:AzureAD/v2/Get-AzureADGroup.md)
 
+[New-AzureADGroup](xref:AzureAD/v2/New-AzureADGroup.md)
 
+[Set-AzureADGroup](xref:AzureAD/v2/Set-AzureADGroup.md)
