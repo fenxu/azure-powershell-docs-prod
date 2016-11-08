@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 36DA56DE-7C38-4C67-844A-1407533A7DA3
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 4:18 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserOwnedObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserOwnedObject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f869f3bddf9949a04e8c45f1a653be373cfca974/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserOwnedObject.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADUserOwnedObject
 
 ## SYNOPSIS
-Get objects owned by the user.
+Get objects owned by a user.
 
 ## SYNTAX
 
@@ -30,15 +30,12 @@ Get-AzureADUserOwnedObject -ObjectId <String> [-Top <Int32>] [-InformationAction
 ```
 
 ## DESCRIPTION
-
+The **Get-AzureADUserOwnedObject** cmdlet gets objects owned by a user in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
-PS C:\>Get-AzureADUserOwnedObject -ObjectId df19e8e6-2ad7-453e-87f5-037f6529ae16
-```
-
-Output:
+### Example 1: Get objects owned by a user
+```PowerShell
+PS C:\>Get-AzureADUserOwnedObject -ObjectId "df19e8e6-2ad7-453e-87f5-037f6529ae16"
 
 ObjectId                             ObjectType
 --------                             ----------
@@ -50,11 +47,12 @@ ObjectId                             ObjectType
 4c0ed9b7-cca2-4bb2-a2f1-736bb263ea0b Group
 49a8bc01-2751-450b-a2e8-b4267f609513 Application
 a0dada57-89ef-4db8-9e5f-46cca3bf2398 Group
-
+```
+This command gets objects owned by the specified user.
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a user in Azure Active Directory (UPN or ObjectId)
+Specifies the ID of a user (as a UPN or ObjectId) in Azure AD. 
 
 ```yaml
 Type: String
@@ -69,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-The maximum number of records to return.
+Specifies the maximum number of records to return.
 
 ```yaml
 Type: Int32
@@ -84,9 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
