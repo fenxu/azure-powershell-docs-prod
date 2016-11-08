@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A5DDAF58-A04C-4B8F-8AFE-A491387ABCB0
-updated_at: 11/8/2016 7:41 PM
+updated_at: 11/8/2016 7:43 PM
 ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/88c3074ae71a9c6865276119ae93c4cb3e753551/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2a2e521351280532a008cad1066ad053b211a876/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADUser
 
 ## SYNOPSIS
-Create a new user in Azure Active Directory
+Creates an AD user.
 
 ## SYNTAX
 
