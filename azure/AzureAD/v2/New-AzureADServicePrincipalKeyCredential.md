@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: D6EA0D4D-6643-4F11-A94C-2A71827C2774
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 7:03 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalKeyCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalKeyCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a065a4a5ac7da74bf8a17be84ad0723ab28e24cb/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalKeyCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -31,18 +31,18 @@ New-AzureADServicePrincipalKeyCredential -ObjectId <String> [-CustomKeyIdentifie
 ```
 
 ## DESCRIPTION
-
+The **New-AzureADServicePrincipalKeyCredential** cmdlet creates a key credential for a service principal in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
+### Example 1: Create a key credential
+```PowerShell
 PS C:\>New-AzureADServicePrincipalKeyCredential
 ```
-
+This command creates a key credential for a service principal.
 ## PARAMETERS
 
 ### -ObjectId
-@{Text=}
+Specifies an object ID.
 
 ```yaml
 Type: String
@@ -57,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -CustomKeyIdentifier
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -72,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartDate
-@{Text=}
+
 
 ```yaml
 Type: DateTime
@@ -87,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndDate
-@{Text=}
+
 
 ```yaml
 Type: DateTime
@@ -102,7 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -Type
-@{Text=}
+
 
 ```yaml
 Type: KeyType
@@ -117,7 +117,6 @@ Accept wildcard characters: False
 ```
 
 ### -Usage
-@{Text=}
 
 ```yaml
 Type: KeyUsage
@@ -132,7 +131,6 @@ Accept wildcard characters: False
 ```
 
 ### -Value
-@{Text=}
 
 ```yaml
 Type: String
@@ -147,9 +145,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -195,5 +191,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADServicePrincipalKeyCredential](xref:AzureAD/v2/Get-AzureADServicePrincipalKeyCredential.md)
 
-
+[Remove-AzureADServicePrincipalKeyCredential](xref:AzureAD/v2/Remove-AzureADServicePrincipalKeyCredential.md)
