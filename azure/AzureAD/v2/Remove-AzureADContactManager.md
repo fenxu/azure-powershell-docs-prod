@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: CB0C4658-FF1F-46D4-AD62-8C2FA7E72BCA
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 9:50 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADContactManager.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADContactManager.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5ea8980d868c6c6f8c73f0345b01b2bde49d2b62/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADContactManager.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADContactManager
 
 ## SYNOPSIS
-Deletes the contact's manager in Azure Active Directory
+Removes a contact's manager.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Remove-AzureADContactManager -ObjectId <String> [-InformationAction <ActionPrefe
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Remove-AzureADContactManager** cmdlet removes a contact's manager in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a contact in Azure Active Directory (ObjectId)
+Specifies the object ID of a contact in Azure AD.
 
 ```yaml
 Type: String
@@ -56,9 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -104,5 +96,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADContactManager](xref:AzureAD/v2/Get-AzureADContactManager.md)
 
-
+[Set-AzureADContactManager](xref:AzureAD/v2/Set-AzureADContactManager.md)
