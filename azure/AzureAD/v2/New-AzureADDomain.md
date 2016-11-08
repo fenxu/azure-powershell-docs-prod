@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 29A39191-9E64-4983-8C89-B9A6C574E621
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 5:10 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/40055f76c59c163cbbd14df92f947c57de56277e/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADDomain.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureADDomain
 
 ## SYNOPSIS
-Create a new domain in Azure Active Directory
+Creates a domain.
 
 ## SYNTAX
 
@@ -31,13 +31,7 @@ New-AzureADDomain [-InformationAction <ActionPreference>] [-InformationVariable 
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **New-AzureADDomain** cmdlet creates a domain in Azure Active Directory (AD).
 
 ## PARAMETERS
 
@@ -81,7 +75,6 @@ Accept wildcard characters: False
 ```
 
 ### -IsDefault
-@{Text=}
 
 ```yaml
 Type: Boolean
@@ -96,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the new domain
+Specifies the name of the domain.
 
 ```yaml
 Type: String
@@ -111,7 +104,6 @@ Accept wildcard characters: False
 ```
 
 ### -SupportedServices
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -135,5 +127,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Confirm-AzureADDomain](xref:AzureAD/v2/Confirm-AzureADDomain.md)
+
+[Get-AzureADDomain](xref:AzureAD/v2/Get-AzureADDomain.md)
+
+[Remove-AzureADDomain](xref:AzureAD/v2/Remove-AzureADDomain.md)
+
+[Set-AzureADDomain](xref:AzureAD/v2/Set-AzureADDomain.md)
 
 
