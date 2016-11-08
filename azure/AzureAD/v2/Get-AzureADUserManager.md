@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C27027E1-A314-4EF2-82F2-396524334B99
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 3:59 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserManager.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserManager.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ac6349bae1d56d7c2516967ef3e5e3add3b902e9/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserManager.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureADUserManager
 
 ## SYNOPSIS
-Retrieves the manager of a user from Azure Active Directory
+Gets the manager of a user.
 
 ## SYNTAX
 
@@ -30,20 +30,18 @@ Get-AzureADUserManager -ObjectId <String> [-InformationAction <ActionPreference>
 ```
 
 ## DESCRIPTION
-
+The **Get-AzureADUserManager** cmdlet gets the manager of a user in Azure Active Directory (AD).
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
-PS C:\>Get-AzureADUserManager -ObjectId df19e8e6-2ad7-453e-87f5-037f6529ae16
-```
-
-Output:
+### Example 1: Get the manager of a user
+```PowerSHell
+PS C:\>Get-AzureADUserManager -ObjectId "df19e8e6-2ad7-453e-87f5-037f6529ae16"
 
 ObjectId                             ObjectType
 --------                             ----------
 5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0 User
-
+```
+This command gets the manager of the specified user.
 ## PARAMETERS
 
 ### -ObjectId
@@ -62,9 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -110,5 +106,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Remove-AzureADUserManager](xref:AzureAD/v2/Remove-AzureADUserManager.md)
 
+[Set-AzureADUserManager](xref:AzureAD/v2/Set-AzureADUserManager.md)
 
