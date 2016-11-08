@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 9DEA1FE5-FE78-431F-9D12-53C349812A81
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 8:38 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADAdministrativeUnitMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADAdministrativeUnitMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3ed212bc86c7326f0b69c483172cc37119f9bf28/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADAdministrativeUnitMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADAdministrativeUnitMember
 
 ## SYNOPSIS
-Removes an administrativeUnit member.
+Removes an administrative unit member.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Remove-AzureADAdministrativeUnitMember -ObjectId <String> -MemberId <String>
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Remove-AzureADAdministrativeUnitMember** cmdlet removes an administrative unit member in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique idenfier of an administrative unit in Azure Active Directory
+Specifies the ID of an administrative unit in Azure AD.
 
 ```yaml
 Type: String
@@ -56,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -MemberId
-The unique identifier of the object specific Azure Active Directory object
+Specifies the ID of the administrative unit member.
 
 ```yaml
 Type: String
@@ -119,5 +113,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Add-AzureADAdministrativeUnitMember](xref:AzureAD/v2/Add-AzureADAdministrativeUnitMember.md)
+
+[Remove-AzureADAdministrativeUnitMember](xref:AzureAD/v2/Remove-AzureADAdministrativeUnitMember.md)
 
 
