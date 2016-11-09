@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 323CA5E7-FD6C-403F-8581-284B30B8770E
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/9/2016 8:56 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsContactIsMemberOf.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsContactIsMemberOf.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/517f4d28afeb49d710757d39d158763969225384/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsContactIsMemberOf.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Select-AzureADGroupIdsContactIsMemberOf
 
 ## SYNOPSIS
-From a list of groups Ids select those that the contact is a member of.
+Get groups in which a contact is a member.
 
 ## SYNTAX
 
@@ -31,18 +31,12 @@ Select-AzureADGroupIdsContactIsMemberOf -ObjectId <String>
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Select-AzureADGroupIdsContactIsMemberOf** cmdlet gets groups in Azure Active Directory (AD) in which a contact is a member.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a contact in Azure Active Directory (ObjectId)
+Specifies the object ID of a contact in Azure AD.
 
 ```yaml
 Type: String
@@ -57,7 +51,7 @@ Accept wildcard characters: False
 ```
 
 ### -GroupIdsForMembershipCheck
-A list of groups object ids.
+Specifies an array of group object IDs.
 
 ```yaml
 Type: GroupIdsForMembershipCheck
@@ -72,9 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -120,5 +112,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
 
