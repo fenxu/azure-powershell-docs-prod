@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 61EBD4DC-A9D7-4792-83BB-B1EA6338E68B
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/9/2016 7:11 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipalPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipalPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5a3db63955e8c68b183050559eb1f8e14ba48111/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipalPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -32,15 +32,15 @@ Remove-AzureADServicePrincipalPolicy -ObjectId <String> -PolicyId <String>
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
+### Example 1: Remove a service principal policy
+```PowerShell
 PS C:\>Remove-AzureADApplicationPolicy -ObjectId <object id of application> -PolicyId <object id of policy>
 ```
-
+This command removes a service principal policy.
 ## PARAMETERS
 
 ### -ObjectId
-The object Id of the Application
+Specifies the object ID of an application.
 
 ```yaml
 Type: String
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -PolicyId
-The ObjectId of Policy
+Specifies the object ID of a policy.
 
 ```yaml
 Type: String
@@ -70,9 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -118,5 +116,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Add-AzureADServicePrincipalPolicy](xref:AzureAD/v2/Add-AzureADServicePrincipalPolicy.md)
 
-
+[Get-AzureADServicePrincipalPolicy](xref:AzureAD/v2/Get-AzureADServicePrincipalPolicy.md)
