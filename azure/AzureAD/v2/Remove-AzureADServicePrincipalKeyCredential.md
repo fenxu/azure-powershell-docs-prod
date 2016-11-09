@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: AB894D03-378C-4F96-87C2-54FA2C7476B3
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/9/2016 6:39 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipalKeyCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipalKeyCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1c5893ec0b5179d806e2bef464e0aba31fc98f44/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipalKeyCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADServicePrincipalKeyCredential
 
 ## SYNOPSIS
-Remove a key credential from a service principal
+Removes a key credential from a service principal.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Remove-AzureADServicePrincipalKeyCredential -ObjectId <String> -KeyId <String>
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Remove-AzureADServicePrincipalKeyCredential** cmdlet removes a key credential from a service principal in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of the application in Azure Active Directory
+Specifies the ID of a service principal.
 
 ```yaml
 Type: String
@@ -56,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -KeyId
-@{Text=}
+Specifies the ID of a key credential.
 
 ```yaml
 Type: String
@@ -71,9 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -119,5 +111,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADServicePrincipalKeyCredential](xref:AzureAD/v2/Get-AzureADServicePrincipalKeyCredential.md)
 
-
+[New-AzureADServicePrincipalKeyCredential](xref:AzureAD/v2/New-AzureADServicePrincipalKeyCredential.md)
