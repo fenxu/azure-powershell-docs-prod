@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 0D0A1E28-96E7-4139-908D-13C426D8065E
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/9/2016 8:06 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserManager.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserManager.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0a6cd80024cd55677be66ea0c2a9e48c3d113007/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserManager.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADUserManager
 
 ## SYNOPSIS
-Deletes the user's manager in Azure Active Directory
+Removes a user's manager.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Remove-AzureADUserManager -ObjectId <String> [-InformationAction <ActionPreferen
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Remove-AzureADUserManager** cmdlet removes a user's manager in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a user in Azure Active Directory (UPN or ObjectId)
+Specifies the ID of a user (as a UPN or ObjectId) in Azure AD.
 
 ```yaml
 Type: String
@@ -56,9 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -104,5 +96,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADUserManager](xref:AzureAD/v2/Get-AzureADUserManager.md)
 
-
+[Set-AzureADUserManager](xref:AzureAD/v2/Set-AzureADUserManager.md)
