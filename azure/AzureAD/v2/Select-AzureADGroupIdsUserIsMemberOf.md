@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 66D77613-4992-463D-B318-E2D53B14AED4
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/9/2016 10:46 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsUserIsMemberOf.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsUserIsMemberOf.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/193400054f63b2d5283192a6a11e8b04475893e0/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsUserIsMemberOf.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,8 @@ manager: visual-studio-china
 # Select-AzureADGroupIdsUserIsMemberOf
 
 ## SYNOPSIS
-From a list of groups Ids select those that the user is a member of.
+Selects the groups that a user is a member of.
+
 
 ## SYNTAX
 
@@ -31,18 +32,12 @@ Select-AzureADGroupIdsUserIsMemberOf -ObjectId <String>
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Select-AzureADGroupIdsUserIsMemberOf** cmdlet selects the groups that a user is a member of in Azure Actve Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a user in Azure Active Directory (UPN or ObjectId)
+Specifies the ID of a user (as a UPN or ObjectId) in Azure AD.
 
 ```yaml
 Type: String
@@ -57,7 +52,7 @@ Accept wildcard characters: False
 ```
 
 ### -GroupIdsForMembershipCheck
-A list of groups object ids.
+Specifies an array of group object IDs.
 
 ```yaml
 Type: GroupIdsForMembershipCheck
@@ -72,9 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
