@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 064EB674-91C6-406D-B218-BD1CE3C459CF
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/9/2016 5:32 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServiceAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServiceAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2ac21fe5404dc5944d425f3bcc288fe6f86614e6/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServiceAppRoleAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADServiceAppRoleAssignment
 
 ## SYNOPSIS
-Delete a service principal application role assignment.
+Removes a service principal application role assignment.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Remove-AzureADServiceAppRoleAssignment -ObjectId <String> -AppRoleAssignmentId <
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Remove-AzureADServiceAppRoleAssignment** cmdlet removes a service principal application role assignment in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique idenfier of an service principal in Azure Active Directory
+Specifies the ID of a service principal in Azure AD.
 
 ```yaml
 Type: String
@@ -56,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppRoleAssignmentId
-The unique identifier of the object specific Azure Active Directory object
+Specifies the ID of the application role assignment.
 
 ```yaml
 Type: String
@@ -71,9 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -119,5 +111,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADServiceAppRoleAssignment](xref:AzureAD/v2/Get-AzureADServiceAppRoleAssignment.md)
 
-
+[New-AzureADServiceAppRoleAssignment](xref:AzureAD/v2/New-AzureADServiceAppRoleAssignment.md)
