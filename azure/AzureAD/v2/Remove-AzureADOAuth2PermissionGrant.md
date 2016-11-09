@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E02E6FAA-5FE3-4EDC-8BCA-75342557F3D5
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/9/2016 4:24 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADOAuth2PermissionGrant.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADOAuth2PermissionGrant.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1ec0fdae338a685d8ef4e9be1d432345322df1b4/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADOAuth2PermissionGrant.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADOAuth2PermissionGrant
 
 ## SYNOPSIS
-Delete an oAuth2PermissionGrant.
+Removes an oAuth2PermissionGrant.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Remove-AzureADOAuth2PermissionGrant -ObjectId <String> [-InformationAction <Acti
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Remove-AzureADOAuth2PermissionGrant** cmdlet removes an **oAuth2PermissionGrant** object in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of an oAuth2PermissionGrant in Azure Active Directory
+Specifies the ID of an **oAuth2PermissionGrant** object in Azure AD.
 
 ```yaml
 Type: String
@@ -56,9 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -104,5 +96,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-
+[Get-AzureADOAuth2PermissionGrant](xref:AzureAD/v2/Get-AzureADOAuth2PermissionGrant.md)
