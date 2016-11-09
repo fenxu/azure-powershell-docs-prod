@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A57C8BFC-4E69-444D-8B9E-65D4767F8364
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/9/2016 7:47 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/75041af5eb21626ca157f460588875d32d5ef49b/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserAppRoleAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADUserAppRoleAssignment
 
 ## SYNOPSIS
-Delete a user application role assignment.
+Removes a user application role assignment.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Remove-AzureADUserAppRoleAssignment -ObjectId <String> -AppRoleAssignmentId <Str
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Remove-AzureADUserAppRoleAssignment** cmdlet removes a user application role assignment in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a user in Azure Active Directory (UPN or ObjectId)
+Specifies the ID (as a UPN or ObjectId) of a user in Azure AD.
 
 ```yaml
 Type: String
@@ -56,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppRoleAssignmentId
-The unique identifier of the object specific Azure Active Directory object
+Specifies the ID of an application role assignment.
 
 ```yaml
 Type: String
@@ -71,9 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -119,5 +111,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADUserAppRoleAssignment](xref:AzureAD/v2/Get-AzureADUserAppRoleAssignment.md)
 
-
+[New-AzureADUserAppRoleAssignment](xref:AzureAD/v2/New-AzureADUserAppRoleAssignment.md)
