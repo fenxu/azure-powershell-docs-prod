@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 80D775B6-1EA6-4F54-A727-A981B0CBC3A1
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/9/2016 10:55 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADAdministrativeUnit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADAdministrativeUnit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c78dcfdf92608cc96a34d92f5b262c6687ba2cd6/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADAdministrativeUnit.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureADAdministrativeUnit
 
 ## SYNOPSIS
-Updates a specific administrativeUnit in Azure Active Directory
+Updates an administrative unit.
 
 ## SYNTAX
 
@@ -30,18 +30,12 @@ Set-AzureADAdministrativeUnit -ObjectId <String> [-InformationAction <ActionPref
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Set-AzureADAdministrativeUnit** cmdlet updates an administrative unit in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique idenfier of an administrative unit in Azure Active Directory
+Specifies the ID of an administrative unit in Azure AD.
 
 ```yaml
 Type: String
@@ -56,9 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -95,8 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-@{Text=}
-
+Specifies a description.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -110,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-@{Text=}
+Specifies a display name.
 
 ```yaml
 Type: String
@@ -134,5 +125,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADAdministrativeUnit](xref:AzureAD/v2/Get-AzureADAdministrativeUnit.md)
 
+[New-AzureADAdministrativeUnit](xref:AzureAD/v2/New-AzureADAdministrativeUnit.md)
 
+[Remove-AzureADAdministrativeUnit](xref:AzureAD/v2/Remove-AzureADAdministrativeUnit.md)
