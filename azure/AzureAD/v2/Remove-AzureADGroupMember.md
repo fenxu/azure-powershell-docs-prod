@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: FD2AE118-42DC-4DA4-A705-17972ECCA1E7
-updated_at: 11/9/2016 3:53 PM
+updated_at: 11/9/2016 4:13 PM
 ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cfd9187ad45e6b21c36277a3dcea127c179738d0/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/638509d858209c3ec35936a4743521dc7d5e634b/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,7 +30,7 @@ Remove-AzureADGroupMember -ObjectId <String> -MemberId <String> [-InformationAct
 ```
 
 ## DESCRIPTION
-The Remove-AzureADGroupMember cmdlet removes a member from a group in Azure Active Directory (AD).
+The **Remove-AzureADGroupMember** cmdlet removes a member from a group in Azure Active Directory (AD).
 ## EXAMPLES
 
 ### Example 1: Remove a member
