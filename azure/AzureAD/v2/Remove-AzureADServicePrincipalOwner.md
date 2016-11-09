@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B4D81173-942E-4A7D-AFD2-543ECB31CC2E
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/9/2016 6:52 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipalOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipalOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cb3fa5a729586eb23cd1f3ebf0edd6d60b784266/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipalOwner.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,18 +30,12 @@ Remove-AzureADServicePrincipalOwner -ObjectId <String> -OwnerId <String>
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Remove-AzureADServicePrincipalOwner** cmdlet removes an owner from a service principal in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique idenfier of an service principal in Azure Active Directory
+Specifies the ID of a service principal.
 
 ```yaml
 Type: String
@@ -56,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -OwnerId
-The unique identifier of the object specific Azure Active Directory object
+Specifies the ID of the owner.
 
 ```yaml
 Type: String
@@ -71,9 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -119,5 +111,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Add-AzureADServicePrincipalOwner](xref:AzureAD/v2/Add-AzureADServicePrincipalOwner.md)
 
-
+[Get-AzureADServicePrincipalOwner](xref:AzureAD/v2/Get-AzureADServicePrincipalOwner.md)
