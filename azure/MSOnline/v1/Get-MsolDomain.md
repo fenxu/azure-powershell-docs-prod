@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 20C36069-42AE-4B9C-A64B-ECAF5C3B6252
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/7/2016 11:36 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDomain.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -42,7 +42,7 @@ The Get-MsolDomain cmdlet is used to retrieve company domains.
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
-Get-Domain
+PS C:\> Get-Domain
 
           Returns a list of company domains.
 ```
@@ -55,7 +55,7 @@ This command retrieves all domains for the company (verified or unverified).
 
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
-Get-Domain -Name contoso.com
+PS C:\> Get-Domain -Name contoso.com
 
           Returns a domain name.
 ```
@@ -68,7 +68,7 @@ This command retrieves the contoso.com domain.
 
 ### -------------------------- EXAMPLE 3 --------------------------
 ```
-Get-Domain -Status Verified
+PS C:\> Get-Domain -Status Verified
 
           Returns a list of verified company domains.
 ```
@@ -88,7 +88,7 @@ If provided, only domains with the authentication type will be returned.
 ```yaml
 Type: DomainAuthenticationType
 Parameter Sets: ListDomains__0
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -103,7 +103,7 @@ The filter for domains that have the specified capability assigned.
 ```yaml
 Type: DomainCapabilities
 Parameter Sets: ListDomains__0
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -118,7 +118,7 @@ The fully qualified domain name to retrieve.
 ```yaml
 Type: String
 Parameter Sets: GetDomain__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -134,7 +134,7 @@ Valid values are Verified, Unverified, and PendingDeletion.
 ```yaml
 Type: DomainStatus
 Parameter Sets: ListDomains__0
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -144,14 +144,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -191,5 +191,3 @@ Only root domains need to be verified, and all subdomains will be automatically 
 ## NOTES
 
 ## RELATED LINKS
-
-

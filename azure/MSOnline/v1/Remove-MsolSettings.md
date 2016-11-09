@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 79972530-7187-4E7D-96BA-0C5351E4ADDE
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 11:36 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolSettings.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6600f52fb9e8494968164be77a39809bf8320873/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolSettings.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolSettings.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -42,14 +42,14 @@ The **Remove-MsolSettings** cmdlet removes a directory setting.
 
 ### Example 1: Remove a directory setting
 ```
-PS C:\>Remove-MsolServicePrincipalCredential -SettingId "4197A724-04F3-456F-B42E-2B830C5D8152"
+PS C:\> Remove-MsolServicePrincipalCredential -SettingId "4197A724-04F3-456F-B42E-2B830C5D8152"
 ```
 
 This command removes a directory setting with the specified setting ID.
 
 ### Example 2: Remove a directory setting with a specified target object ID
 ```
-PS C:\>Remove-MsolServicePrincipalCredential -SettingId "4197A724-04F3-456F-B42E-2B830C5D8152" -TargetType Groups -TargetObjectId "Group002"
+PS C:\> Remove-MsolServicePrincipalCredential -SettingId "4197A724-04F3-456F-B42E-2B830C5D8152" -TargetType Groups -TargetObjectId "Group002"
 ```
 
 This command removes a directory setting associated with a group object.
@@ -63,7 +63,7 @@ You can use the Get-MsolAllSettings cmdlet to get the setting ID for a directory
 ```yaml
 Type: String
 Parameter Sets: None
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Scope
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -99,7 +99,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: TargetType
 Parameter Sets: Scope
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,7 +115,7 @@ If you do not specify a value, this cmdlet associates the directory setting with
 ```yaml
 Type: String
 Parameter Sets: Scope
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -140,5 +140,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-MsolSettings](xref:MSOnline/v1/New-MsolSettings.md)
 
 [Set-MsolSettings](xref:MSOnline/v1/Set-MsolSettings.md)
-
-

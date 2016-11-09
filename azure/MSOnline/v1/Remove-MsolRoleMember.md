@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 54F95D25-05CB-4AC9-A11A-4BF3E734CA4F
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/8/2016 9:01 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolRoleMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolRoleMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolRoleMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -37,33 +37,27 @@ Remove-MsolRoleMember [-RoleMemberType <RoleMemberType>] [-RoleMemberObjectId <G
 ```
 
 ## DESCRIPTION
-The Remove-MsolRoleMember cmdlet is used to remove a user from an administrator role.
+The **Remove-MsolRoleMember** cmdlet removes a user from an administrator role.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Remove a member from an administrator role
 ```
-Remove-MsolRoleMember -RoleName "Company Administrator" -RoleMemberType User -RoleMemberEmailAddress user@contoso.com
+PS C:\> Remove-MsolRoleMember -RoleName "Company Administrator" -RoleMemberType User -RoleMemberEmailAddress "elisadaugherty@contoso.com"
 ```
 
-Description
-
------------
-
-Will remove user@contoso.com from the Company Administrator role.
+This command removes elisadaugherty@contoso.com from the Company Administrator role.
 
 ## PARAMETERS
 
 ### -RoleMemberEmailAddress
-The object ID of the member (User or Group) to remove.
-For users, this should be the
-            user ID.
-Either RoleMemberEmailAddress or RoleMemberObjectId should be provided.
+Specifies the member remove add.
+Specify either the _RoleMemberEmailAddress_ or _RoleMemberObjectId_ parameter.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -73,14 +67,13 @@ Accept wildcard characters: False
 ```
 
 ### -RoleMemberObjectId
-The object ID of the member (User or Group) to remove.
-Either RoleMemberEmailAddress
-            or RoleMemberObjectId should be provided.
+Specifies the unique object ID of the member to remove.
+Specify either _RoleMemberEmailAddress_ or _RoleMemberObjectId_.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -90,12 +83,12 @@ Accept wildcard characters: False
 ```
 
 ### -RoleMemberType
-The type of role of the member (User or Group) to remove.
+Specifies the type of role of the member to remove.
 
 ```yaml
 Type: RoleMemberType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -105,14 +98,13 @@ Accept wildcard characters: False
 ```
 
 ### -RoleName
-The name of the role to remove members from.
-Either RoleName or RoleObjectId should be
-            provided.
+Specifies the name of the role from which to remove members.
+Specify either the _RoleName_ or _RoleObjectId_ parameter.
 
 ```yaml
 Type: String
 Parameter Sets: RemoveRoleMembersByRoleName__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -122,13 +114,13 @@ Accept wildcard characters: False
 ```
 
 ### -RoleObjectId
-The role to remove members from.
-Either RoleName or RoleObjectId should be provided.
+Specifies the unique ID of the role from which to remove members.
+Specify either _RoleName_ or _RoleObjectId_.
 
 ```yaml
 Type: Guid
 Parameter Sets: RemoveRoleMembers__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -138,14 +130,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -164,5 +156,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Add-MsolRoleMember](xref:MSOnline/v1/Add-MsolRoleMember.md)
 
-
+[Get-MsolRoleMember](xref:MSOnline/v1/Get-MsolRoleMember.md)

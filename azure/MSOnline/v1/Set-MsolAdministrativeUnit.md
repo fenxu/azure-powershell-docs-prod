@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 287EDFB6-E2D4-417A-B8B2-29D6EFD9F1E7
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 10:40 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolAdministrativeUnit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolAdministrativeUnit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c22ad9f927dcfe00a363b1a2c343fc086da2ac5/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolAdministrativeUnit.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,35 +30,32 @@ Set-MsolAdministrativeUnit [-ObjectId <Guid>] [-DisplayName <String>] [-Descript
 ```
 
 ## DESCRIPTION
-The Set-MsolAdministrativeUnit cmdlet is used to update the properties of an administrative unit.
+The **Set-MsolAdministrativeUnit** cmdlet updates the properties of an administrative unit.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Modify a description of an administrative unit
 
 ```
-$au = Get-MsolAdministrativeUnit -searchstring "West Coast"
-          Set-MsolAdministrativeUnit -Description "West Coast region" -ObjectID $au.ObjectId
+PS C:\> $AdminstrativeUnit = Get-MsolAdministrativeUnit -SearchString "West Coast"
+PS C:\> Set-MsolAdministrativeUnit -Description "West Coast region" -ObjectID $AdminstrativeUnit.ObjectId
 ```
 
-Description
+The first command gets an administrative unit that matches a search string by using the [Get-MsolAdministrativeUnit](./Get-MsolAdministrativeUnit.md) cmdlet.
+The command stores the administrative unit in the $AdminstrativeUnit variable.
 
------------
-
-This command first locates the administrative unit with the name "West Coast", then assigns it a description value of "West Coast region".
+The second command assigns the description value of West Coast region.
+The command specifies the administrative unit by using the object ID of $AdminstrativeUnit.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique ID of the administrative unit to update.
+Specifies the unique ID of the administrative unit to update.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -68,12 +65,12 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-The display name of the administrative unit.
+Specifies a display name for the administrative unit.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -83,12 +80,12 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-The description of the administrative unit.
+Specifies a description for the administrative unit.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -98,14 +95,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -124,5 +121,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-MsolAdministrativeUnit](xref:MSOnline/v1/Get-MsolAdministrativeUnit.md)
 
+[New-MsolAdministrativeUnit](xref:MSOnline/v1/New-MsolAdministrativeUnit.md)
 
+[Remove-MsolAdministrativeUnit](xref:MSOnline/v1/Remove-MsolAdministrativeUnit.md)

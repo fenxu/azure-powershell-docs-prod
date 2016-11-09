@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: BA22F11F-5010-421E-A9A9-680C9EA014B4
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/4/2016 10:40 PM
+ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolAdministrativeUnit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolAdministrativeUnit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c22ad9f927dcfe00a363b1a2c343fc086da2ac5/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolAdministrativeUnit.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-MsolAdministrativeUnit
 
 ## SYNOPSIS
-Deletes an administrative unit from Azure AD.
+Deletes an administrative unit from Azure Active Directory.
 
 ## SYNTAX
 
@@ -29,35 +29,35 @@ Remove-MsolAdministrativeUnit -ObjectId <Guid> [-Force] [-TenantId <Guid>] [<Com
 ```
 
 ## DESCRIPTION
-The Remove-MsolAdministrativeUnit cmdlet is used to delete an administrative unit from Azure AD.
+The **Remove-MsolAdministrativeUnit** cmdlet deletes an administrative unit from Azure Active Directory.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Remove an administrative unit
 
 ```
-$au = Get-MsolAdministrativeUnit -searchstring "West Coast"
-          Remove-MsolAdministrativeUnit -ObjectId $au.ObjectId -Force
+PS C:\> $AdminstrativeUnit = Get-MsolAdministrativeUnit -SearchString "West Coast"
+PS C:\> Remove-MsolAdministrativeUnit -ObjectId $AdminstrativeUnit.ObjectId -Force
 ```
 
-Description
+The first command gets an administrative unit that matches a search string by using the [Get-MsolAdministrativeUnit](./Get-MsolAdministrativeUnit.md) cmdlet.
+The command stores the administrative unit in the $AdminstrativeUnit variable.
 
------------
+The second command deletes the administrative unit.
+The command specifies the administrative unit by using the object ID of $AdminstrativeUnit.
+The command specifies the _Force_ parameter.
+It does not prompt for comfirmation.
 
-This command will remove the administrative unit "West Coast" from the directory.
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique ID of the administrative unit to remove.
+Specifies the unique ID of the administrative unit to remove.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -67,12 +67,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Used to bypass onscreen confirmation.
+Indicates that this cmdlet does not prompt you for confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -82,14 +82,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -108,5 +108,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-MsolAdministrativeUnit](xref:MSOnline/v1/Get-MsolAdministrativeUnit.md)
 
+[New-MsolAdministrativeUnit](xref:MSOnline/v1/New-MsolAdministrativeUnit.md)
 
+[Set-MsolAdministrativeUnit](xref:MSOnline/v1/Set-MsolAdministrativeUnit.md)

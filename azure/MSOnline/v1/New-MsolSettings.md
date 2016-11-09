@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 2FE0B98E-77B0-4122-A5D0-3ED553F83B36
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 11:36 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolSettings.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6600f52fb9e8494968164be77a39809bf8320873/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolSettings.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolSettings.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -42,7 +42,7 @@ The **New-MsolSettings** cmdlet creates a directory setting.
 
 ### Example 1: Add a directory setting
 ```
-PS C:\>$Template = (Get-MsolAllSettingTemplate)[0] 
+PS C:\> $Template = (Get-MsolAllSettingTemplate)[0]
 PS C:\> $Settings = $Template.CreateSettingsObject() New-MsolSetting -SettingsObject $Settings
 ```
 
@@ -52,7 +52,7 @@ The second command adds a directory setting stored in the variable named $Settin
 
 ### Example 2: Add a directory setting to a specific target type
 ```
-PS C:\>$Template = (Get-MsolAllSettingTemplate)[0] 
+PS C:\> $Template = (Get-MsolAllSettingTemplate)[0] 
 PS C:\> $Settings = $template.CreateSettingsObject() New-MsolSetting -SettingsObject $Settings -TargetType Groups -TargetObjectId
 ```
 
@@ -69,7 +69,7 @@ Specifies the **SettingsObject** that contains necessary information to create a
 ```yaml
 Type: Settings
 Parameter Sets: None
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -81,7 +81,7 @@ Accept wildcard characters: False
 ```yaml
 Type: Settings
 Parameter Sets: Scope
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -105,7 +105,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: TargetType
 Parameter Sets: Scope
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -121,7 +121,7 @@ If you do not specify a value, the cmdlet associates the object ID with the tena
 ```yaml
 Type: String
 Parameter Sets: Scope
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -146,5 +146,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-MsolSettings](xref:MSOnline/v1/Remove-MsolSettings.md)
 
 [Set-MsolSettings](xref:MSOnline/v1/Set-MsolSettings.md)
-
-

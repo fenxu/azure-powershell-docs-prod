@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 73C147BE-82EC-484F-B2F3-EC684AA7B52C
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 9:01 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDevice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6600f52fb9e8494968164be77a39809bf8320873/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDevice.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDevice.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -41,7 +41,7 @@ The **Remove-MsolDevice** cmdlet removes a device object from Azure Active Direc
 
 ### Example 1: Remove a device by device ID with confirmation
 ```
-PS C:\>Remove-MsolDevice -DeviceId "1aa200c4-bdfb-42b5-9a1e-5f1bafbe4274"
+PS C:\> Remove-MsolDevice -DeviceId "1aa200c4-bdfb-42b5-9a1e-5f1bafbe4274"
 ```
 
 This command removes the device with DeviceId 1aa200c4-bdfb-42b5-9a1e-5f1bafbe4274 from Azure Active Directory.
@@ -49,7 +49,7 @@ Since the command does not use the *Force* parameter, the user is prompted for c
 
 ### Example 2: Remove a device by device ID
 ```
-PS C:\>Remove-MsolDevice -DeviceId "1aa200c4-bdfb-42b5-9a1e-5f1bafbe4274" -Force
+PS C:\> Remove-MsolDevice -DeviceId "1aa200c4-bdfb-42b5-9a1e-5f1bafbe4274" -Force
 ```
 
 This command removes the device with DeviceId 1aa200c4-bdfb-42b5-9a1e-5f1bafbe4274 from Azure Active Directory.
@@ -57,7 +57,7 @@ Since the command uses the *Force* parameter, the user is not prompted for confi
 
 ### Example 3: Remove a device by object ID
 ```
-PS C:\>Remove-MsolDevice -ObjectId "1aa200c4-bdfb-42b5-9a1e-5f1bafbe4274"
+PS C:\> Remove-MsolDevice -ObjectId "1aa200c4-bdfb-42b5-9a1e-5f1bafbe4274"
 ```
 
 This command removes the device with ObjectId 1aa200c4-bdfb-42b5-9a1e-5f1bafbe4274 from Azure Active Directory.
@@ -70,7 +70,7 @@ Specifies the device ID of the device that this cmdlet removes.
 ```yaml
 Type: Guid
 Parameter Sets: RemoveDeviceByDeviceId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -85,7 +85,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -100,7 +100,7 @@ Specifies the unique object ID of the device that this cmdlet removes.
 ```yaml
 Type: Guid
 Parameter Sets: RemoveDeviceByObjectId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the command.
 
 ```yaml
 Type: SwitchParameter
@@ -126,7 +126,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -164,5 +163,3 @@ This cmdlet does not generate any output.
 [Enable-MsolDevice](xref:MSOnline/v1/Enable-MsolDevice.md)
 
 [Get-MsolDevice](xref:MSOnline/v1/Get-MsolDevice.md)
-
-

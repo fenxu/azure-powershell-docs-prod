@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 3C941FE3-032E-4160-8693-F68165A6E36C
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/9/2016 10:36 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Convert-MsolFederatedUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Convert-MsolFederatedUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a602340dee47e7edf41f6c5af3edb93e03ac1b45/Azure%20AD%20Cmdlets/MSOnline/v1/Convert-MsolFederatedUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Convert-MsolFederatedUser
 
 ## SYNOPSIS
-Updates a user in a domain that was recently converted from single sign-on (also known as identity federation) to standard authentication type.
+Updates a user in a domain that was recently converted from single sign-on.
 
 ## SYNTAX
 
@@ -30,18 +30,28 @@ Convert-MsolFederatedUser -UserPrincipalName <String> [-NewPassword <String>] [-
 ```
 
 ## DESCRIPTION
-The Convert-MsolFederatedUser cmdlet is used to update a user in a domain that was recently converted from single sign-on (also known as identity federation) to standard authentication type. 
+The **Convert-MsolFederatedUser** cmdlet updates a user in a domain that was recently converted from single sign-on to standard authentication type.
+Single sign-on is also known as identity federation.
 A new password must be provided for the user.
+
+## EXAMPLES
+
+### Example 1:
+```
+PS C:\> Convert-MsolFederatedUser -UserPrincipalName "pattifuller@contoso.com"
+```
+
+This command converts a federated user into a standard user.
 
 ## PARAMETERS
 
 ### -NewPassword
-The new password of the user.
+Specifies the new password of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -51,14 +61,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on. 
-If this is not provided then it will default to the tenant of the current user. 
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -68,12 +78,12 @@ Accept wildcard characters: False
 ```
 
 ### -UserPrincipalName
-The Microsoft Azure Active Directory UserID for the user to convert.
+Specifies the Azure Active Directory user ID for the user to convert.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -92,5 +102,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

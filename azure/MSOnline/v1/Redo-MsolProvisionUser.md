@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 728230E1-6984-49F8-B153-B73A7724EF5A
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/9/2016 10:36 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Redo-MsolProvisionUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Redo-MsolProvisionUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a602340dee47e7edf41f6c5af3edb93e03ac1b45/Azure%20AD%20Cmdlets/MSOnline/v1/Redo-MsolProvisionUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Redo-MsolProvisionUser
 
 ## SYNOPSIS
-The Redo-MsolProvisionUser cmdlet can be used to retry the provisioning of a user object in Microsoft Azure Active Directory when a previous attempt to create the user object resulted in a validation error.
+Retries the provisioning of a user object in Azure Active Directory.
 
 ## SYNTAX
 
@@ -29,16 +29,17 @@ Redo-MsolProvisionUser -ObjectId <Guid> [-TenantId <Guid>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
+The **Redo-MsolProvisionUser** cmdlet retries the provisioning of a user object in Azure Active Directory when a previous attempt to create the user object resulted in a validation error.
 
 ## PARAMETERS
 
 ### -ObjectId
-The ObjectId of the user to retrieve.
+Specifies the unique object ID associated with the user object on which to retry provisioning.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -48,14 +49,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided, then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -74,5 +75,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Redo-MsolProvisionContact](xref:MSOnline/v1/Redo-MsolProvisionContact.md)
 
-
+[Redo-MsolProvisionGroup](xref:MSOnline/v1/Redo-MsolProvisionGroup.md)

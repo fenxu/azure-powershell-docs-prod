@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 3F9E2B81-398B-4C87-B786-DF5C59FAE369
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/7/2016 8:50 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e45b51fd816f025d32fa17a27b0e7eafee1289da/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-MsolServicePrincipal
 
 ## SYNOPSIS
-Retrieves a service principal or list of service principals from Microsoft Azure Active Directory.
+Gets service principals from Azure Active Directory.
 
 ## SYNTAX
 
@@ -50,61 +50,42 @@ Get-MsolServicePrincipal [-SearchString <String>] [-All] [-TenantId <Guid>] [<Co
 ```
 
 ## DESCRIPTION
-The Get-MsolServicePrincipal cmdlet can be used to retrieve a service principal or a list of service principals from Microsoft Azure Active Directory.
+The Get-MsolServicePrincipal cmdlet gets a service principal or a list of service principals from Azure Active Directory.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Display all service principals
 ```
-Get-MsolServicePrincipal -ServicePrincipalName "
-
-          Returns a list of service principals
+PS C:\> Get-MsolServicePrincipal
 ```
 
-Description
+This command displays all the existing service principals in the organization's tenant.
 
------------
-
-This command will list all of the existing service principals in the organization's tenant.
-
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2: Get service principals by using a name
 ```
-Get-MsolServicePrincipal -ServicePrincipalName "MyApp"
-
-          Returns a list of service principals.
+PS C:\> Get-MsolServicePrincipal -ServicePrincipalName "MyApp"
 ```
 
-Description
+This command gets all the existing service principals that have a service principal name that starts with MyApp.
+This is an exact match of the **appClass** portion of the service principal name up to the forward slash.
 
------------
-
-This command lists all of the existing service principals that have a ServicePrincipalName that start with "MyApp".
-Note: This is an exact match of the appClass portion of the ServicePrincipalName up to the forward slash.
-
-### -------------------------- EXAMPLE 3 --------------------------
+### Example 3:
 ```
-Get-MsolServicePrincipal -AppPrincipalId 5e964d2f-e384-4292-ae55-dd24c89cc53b
-
-          Returns a service principal.
+PS C:\> Get-MsolServicePrincipal -AppPrincipalId 5e964d2f-e384-4292-ae55-dd24c89cc53b
 ```
 
-Description
-
------------
-
-This command gets a service principal with a specific AppPrincipalId.
-In this example, the value of "5e964d2f-e384-4292-ae55-dd24c89cc53b" might return a service principal named "MyApp3".
+This command gets a service principal that has a specific application principal ID.
 
 ## PARAMETERS
 
 ### -All
-If present then all results will be returned.
-Cannot be used with the MaxResults parameter.
+Indicates that this cmdlet returns all results.
+Do not specify together with the _MaxResults_ parameter.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: All__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -114,12 +95,12 @@ Accept wildcard characters: False
 ```
 
 ### -AppPrincipalId
-The application ID associated with the service principal to retrieve.
+Specifies the unique application ID of the service principal to get.
 
 ```yaml
 Type: Guid
 Parameter Sets: GetServicePrincipalByAppPrincipalId__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -129,13 +110,13 @@ Accept wildcard characters: False
 ```
 
 ### -MaxResults
-The maximum number of results returned for a search result.
-If not specified, 500 results will be returned.
+Specifies the maximum number of results that this cmdlet returns.
+The default value is 500.
 
 ```yaml
 Type: Int32
 Parameter Sets: ListServicePrincipals__0
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -145,12 +126,12 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-The object ID associated with the service principal to retrieve.
+Specifies the unique object ID of the service principal to get.
 
 ```yaml
 Type: Guid
 Parameter Sets: GetServicePrincipal__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -160,14 +141,18 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalName
-The unique name of the service principal to retrieve.
-            An SPN must use one of the following formats "appName" or "appName/hostname" or be a valid URL. 
-AppName represents the name of the application and hostname represents the URI authority for the application.
+Specifies the name of the service principal or service principals to get.
+An SPN must use one of the following formats:
 
+* `appName`
+* `appName/hostname`
+* a valid URL
+
+AppName represents the name of the application and hostname represents the URI authority for the application.
 ```yaml
 Type: String
 Parameter Sets: GetServicePrincipalBySpn__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -177,14 +162,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided, then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -194,12 +179,13 @@ Accept wildcard characters: False
 ```
 
 ### -SearchString
+Specifies a string to match service principal names.
 
 
 ```yaml
 Type: String
 Parameter Sets: ListServicePrincipals__0
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -211,7 +197,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: All__0
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -228,17 +214,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### Microsoft.Online.Administration.ServicePrincipal[]
-Retrieve a service principal or a list of service principals from Microsoft Azure Active Directory.
+This cmdlet returns a service principal or a list of service principals from Azure Active Directory.
 Each service principal contains the following information:
 
-            ObjectId - The unique identifier of the service principal.
-            AppPrincipalId - The application identifier of the service principal.
-            DisplayName - The friendly name of the service principal.
-            ServicePrincipalName - The list of service principal names (SPNs) associated with the service principal.
-            AccountEnabled - The value indicating if the account is enabled.
+* ObjectId. The unique identifier of the service principal.
+* AppPrincipalId. The application identifier of the service principal.
+* DisplayName. The friendly name of the service principal.
+* ServicePrincipalName. The list of service principal names (SPNs) associated with the service principal.
+* AccountEnabled. The value indicating if the account is enabled.
 
 ## NOTES
 
 ## RELATED LINKS
+[New-MsolServicePrincipal](xref:MSOnline/v1/New-MsolServicePrincipal.md)
 
+[Remove-MsolServicePrincipal](xref:MSOnline/v1/Remove-MsolServicePrincipal.md)
 
+[Set-MsolServicePrincipal](xref:MSOnline/v1/Set-MsolServicePrincipal.md)

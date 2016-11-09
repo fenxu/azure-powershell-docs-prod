@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 87A60137-58ED-473B-9D1E-BB7C0CD8F8A2
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/7/2016 8:50 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e45b51fd816f025d32fa17a27b0e7eafee1289da/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-MsolServicePrincipal
 
 ## SYNOPSIS
-Removes a service principal from Microsoft Azure Active Directory.
+Removes a service principal from Azure Active Directory.
 
 ## SYNTAX
 
@@ -40,31 +40,27 @@ Remove-MsolServicePrincipal -ServicePrincipalName <String> [-TenantId <Guid>] [<
 ```
 
 ## DESCRIPTION
-The Remove-MsolServicePrincipal cmdlet removes a service principal from Microsoft Azure Active Directory.
+The **Remove-MsolServicePrincipal** cmdlet removes a service principal from  Azure Active Directory.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Remove a service principal
 ```
-Remove-MsolServicePrincipal -ServicePrincipalName "MyApp/myApp.com"
+PS C:\> Remove-MsolServicePrincipal -ServicePrincipalName "MyApp/myApp.com"
 ```
-
-Description
-
------------
 
 This command removes a service principal by specifying one of its service principal names.
-In this example, the service principal associated with the service principal name "MyApp/myApp.com" would be removed.
+In this example, the service principal associated with the service principal name MyApp/myApp.com is removed.
 
 ## PARAMETERS
 
 ### -AppPrincipalId
-The unique application identifier associated with the service principal to be removed.
+Specifies the unique application ID of the service principal to remove.
 
 ```yaml
 Type: Guid
 Parameter Sets: RemoveServicePrincipalByAppPrincipalId__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -74,12 +70,12 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-The object ID of the service principal to be removed.
+Specifies the unique object ID of the service principal to remove.
 
 ```yaml
 Type: Guid
 Parameter Sets: RemoveServicePrincipal__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -89,14 +85,19 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalName
-The unique name of the service principal or service principals to be removed.
-            An SPN must use one of the following formats "appName" or "appName/hostname" or be a valid URL. 
+Specifies the name of the service principal or service principals to remove.
+An SPN must use one of the following formats:
+
+* `appName`
+* `appName/hostname`
+* a valid URL
+
 AppName represents the name of the application and hostname represents the URI authority for the application.
 
 ```yaml
 Type: String
 Parameter Sets: RemoveServicePrincipalBySpn__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -106,14 +107,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided, then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -132,5 +133,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-MsolServicePrincipal](xref:MSOnline/v1/Get-MsolServicePrincipal.md)
 
+[New-MsolServicePrincipal](xref:MSOnline/v1/New-MsolServicePrincipal.md)
 
+[Set-MsolServicePrincipal](xref:MSOnline/v1/Set-MsolServicePrincipal.md)

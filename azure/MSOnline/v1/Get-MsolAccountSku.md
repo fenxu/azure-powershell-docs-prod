@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 843652E4-266F-4F05-A1C5-8E8EBC86241D
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/9/2016 6:37 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAccountSku.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAccountSku.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7986fb4880d0ee292c289166871e4b25df1ad4b8/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAccountSku.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-MsolAccountSku
 
 ## SYNOPSIS
-Retrieves all the SKUs for a company.
+Returns all the SKUs for a company.
 
 ## SYNTAX
 
@@ -29,34 +29,28 @@ Get-MsolAccountSku [-TenantId <Guid>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-MsolAccountSku will return all the SKUs that the company owns.
+The **Get-MsolAccountSku** cmdlet returns all the SKUs that the company owns.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Get the company SKUs
 ```
-Get-MsolAccountSku
-
-          Returns a list of SKUs.
+PS C:\> Get-MsolAccountSku
 ```
-
-Description
-
------------
 
 This command returns a list of SKUs.
 
 ## PARAMETERS
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -73,38 +67,36 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### Microsoft.Online.Administration.AccountSKU
-Each AccountSKU returned will include the following information:
+The cmdlet returns AccountSKU objects that contain the following information:
 
-            AccountName: The name of the account this SKU belongs to.
+* AccountName. The name of the account this SKU belongs to.
 
-            AccountObjectId: The unique ID of the account this SKU belongs to.
+* AccountObjectId. The unique ID of the account this SKU belongs to.
 
-            AccountSkuId: The unique string ID of the account/SKU combination.
+* AccountSkuId. The unique string ID of the account/SKU combination.
 This value should be used when assigning or updating licenses.
 
-            ActiveUnits: The number of active licenses.
+* ActiveUnits. The number of active licenses.
 
-            ConsumedUnits: The number of licenses consumed.
+* ConsumedUnits. The number of licenses consumed.
 
-            ServiceStatus: The provisioning status of individual services belonging to this SKU.
+* ServiceStatus. The provisioning status of individual services belonging to this SKU.
 
-            SkuId: The unique ID for the SKU.
+* SkuId. The unique ID for the SKU.
 
-            SkuPartNumber: The partner number of this SKU.
+* SkuPartNumber. The partner number of this SKU.
 
-            SubscriptionIds: A list of all subscriptions associated with this SKU.
+* SubscriptionIds. A list of all subscriptions associated with this SKU.
 For the purposes of assigning licenses, all subscriptions with the same SKU will be grouped into a single license pool.
 
-            SuspendedUnits: The number of suspended licenses.
+* SuspendedUnits. The number of suspended licenses.
 These licenses are not available for assignment.
 
-            TargetClass: The target class of this SKU.
+* TargetClass. The target class of this SKU.
 Only SKUs with target class=user are assignable.
 
-            WarningUnits: The number of warning units.
+* WarningUnits. The number of warning units.
 
 ## NOTES
 
 ## RELATED LINKS
-
-

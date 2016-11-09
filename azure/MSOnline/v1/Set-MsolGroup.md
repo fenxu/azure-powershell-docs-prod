@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 1D23EC9E-30E3-4B23-82E8-6B5C91F523A4
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/7/2016 11:36 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,31 +30,28 @@ Set-MsolGroup [-ObjectId <Guid>] [-DisplayName <String>] [-Description <String>]
 ```
 
 ## DESCRIPTION
-The Set-MsolGroup cmdlet is used to update the properties of a security group.
+The **Set-MsolGroup** cmdlet updates the properties of a security group.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Modify a group
 ```
-$groupid = Get-MsolGroup -searchstring MyGroup
-          Set-MsolGroup -objectid $groupId -Description "My Group"
+PS C:\> $GroupId = Get-MsolGroup -SearchString "MyGroup"
+PS C:\> Set-MsolGroup -ObjectId $GroupId -Description "My Group"
 ```
 
-Description
-
------------
-
-Updates the description for MyGroup.
+The first command gets the security group that matches the string MyGroup, and then stores it in the $GroupId variable.
+The second command modifies the group in $GroupId.
 
 ## PARAMETERS
 
 ### -Description
-The description of the group.
+Specifies a description of the group.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -64,12 +61,12 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-The display name of the group.
+Specifies a display name of the group.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -79,12 +76,12 @@ Accept wildcard characters: False
 ```
 
 ### -ManagedBy
-The owner of the group.
+Specifies the owner of the group.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -94,12 +91,12 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-The ObjectId of the group to update.
+Specifies the unique object ID of the group to update.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -109,14 +106,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -135,5 +132,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-MsolGroup](xref:MSOnline/v1/Get-MsolGroup.md)
 
+[New-MsolGroup](xref:MSOnline/v1/New-MsolGroup.md)
 
+[Remove-MsolGroup](xref:MSOnline/v1/Remove-MsolGroup.md)

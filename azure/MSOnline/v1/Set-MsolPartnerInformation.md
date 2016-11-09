@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 089BACA3-BA23-479B-BA92-06280F96AC48
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/9/2016 6:37 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolPartnerInformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolPartnerInformation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7986fb4880d0ee292c289166871e4b25df1ad4b8/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolPartnerInformation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -31,33 +31,27 @@ Set-MsolPartnerInformation [-ObjectId <Guid>] [-CompanyType <CompanyType>] [-Par
 ```
 
 ## DESCRIPTION
-The Set-MsolPartnerInformation cmdlet is used by partners to set partner-specific properties.
+The **Set-MsolPartnerInformation** cmdlet is used by partners to set partner-specific properties.
 These properties can be viewed by all tenants that the partner has access to.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Update the help URL
 ```
-Set-MsolPartnerInformation -PartnerHelpUrl "http://www.help.com"
-
-          none
+PS C:\> Set-MsolPartnerInformation -PartnerHelpUrl "http://www.help.contoso.com"
 ```
 
-Description
-
------------
-
-Updates the help URL for this partner.
+This command updates the help URL for this partner.
 
 ## PARAMETERS
 
 ### -PartnerCommerceUrl
-URL for the partner's commerce website.
+Specifies the URL for the partner's commerce website.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -67,12 +61,12 @@ Accept wildcard characters: False
 ```
 
 ### -PartnerHelpUrl
-URL for the partner's Help website.
+Specifies the URL for the partner's Help website.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -82,12 +76,12 @@ Accept wildcard characters: False
 ```
 
 ### -PartnerSupportEmails
-Support email address for the partner.
+Specifies the support email address for the partner.
 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -97,12 +91,12 @@ Accept wildcard characters: False
 ```
 
 ### -PartnerSupportTelephones
-Support telephone numbers for the partner.
+Specifies the support telephone numbers for the partner.
 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -112,12 +106,12 @@ Accept wildcard characters: False
 ```
 
 ### -PartnerSupportUrl
-URL for the partner's support website.
+Specifies the URL for the partner's support website.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -127,14 +121,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided, then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -144,12 +138,12 @@ Accept wildcard characters: False
 ```
 
 ### -CompanyType
-
+Specifies the partner's company type.
 
 ```yaml
 Type: CompanyType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -159,12 +153,12 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-
+Specifies the unique object ID of the partner.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -174,12 +168,13 @@ Accept wildcard characters: False
 ```
 
 ### -PartnerCompanyName
+Specifies the partner's company name.
 
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -198,5 +193,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-
+[Get-MsolPartnerInformation](xref:MSOnline/v1/Get-MsolPartnerInformation.md)

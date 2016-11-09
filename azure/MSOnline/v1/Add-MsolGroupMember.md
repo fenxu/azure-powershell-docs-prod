@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: CCADA679-CABC-4B55-A717-DFD43E7A9191
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/8/2016 9:01 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Add-MsolGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Add-MsolGroupMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Add-MsolGroupMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,33 +30,27 @@ Add-MsolGroupMember -GroupObjectId <Guid> [-GroupMemberType <GroupMemberType>] [
 ```
 
 ## DESCRIPTION
-The Add-MsolGroupMember cmdlet is used to add members to a security group.
+The **Add-MsolGroupMember** cmdlet adds members to a security group.
 The new members can be either users or other security groups.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Add a user to a security group
 ```
-Add-MsolGroupMember -groupObjectid <id> -groupmemberType "User" -groupMemberObjectId <id>
-
-          None
+PS C:\> Add-MsolGroupMember -GroupObjectId 62f684d7-9ab1-4abc-a543-2257e085bdc6 -GroupMemberType User -GroupMemberObjectId bbb55777-d5aa-499d-abbf-353d4523049f
 ```
-
-Description
-
------------
 
 This command adds a user to a security group.
 
 ## PARAMETERS
 
 ### -GroupMemberObjectId
-The object ID of the member (User or Group) to add to the group.
+Specifies the unique object ID of the user or group to add to the group.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -66,12 +60,13 @@ Accept wildcard characters: False
 ```
 
 ### -GroupMemberType
-The type of member (User or Group) to add to the group.
+Specifies the type of member to add to the group.
+Valid values are: User and Group.
 
 ```yaml
 Type: GroupMemberType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -81,12 +76,12 @@ Accept wildcard characters: False
 ```
 
 ### -GroupObjectId
-The ID of the group to add members to.
+Specifies the unique ID of the group to which to add members.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -96,14 +91,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -122,5 +117,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-MsolGroupMember](xref:MSOnline/v1/Get-MsolGroupMember.md)
 
-
+[Remove-MsolGroupMember](xref:MSOnline/v1/Remove-MsolGroupMember.md)

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: A5A10B0B-7C64-4778-8B42-EB073E2ADA92
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/9/2016 7:55 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Connect-MsolService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Connect-MsolService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2ed1dc4a4cad9328c634640b8f50d00798f6278b/Azure%20AD%20Cmdlets/MSOnline/v1/Connect-MsolService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Connect-MsolService
 
 ## SYNOPSIS
-Initiates a connection with Microsoft Azure Active Directory.
+Initiates a connection to Azure Active Directory.
 
 ## SYNTAX
 
@@ -41,50 +41,40 @@ Connect-MsolService [-AdGraphAccessToken <String>] [-MsGraphAccessToken <String>
 ```
 
 ## DESCRIPTION
-The Connect-MsolService cmdlet will attempt to initiate a connection to Microsoft Azure Active Directory. 
-The caller must provide their credential (a PSCredential object), or specify the CurrentCredentials switch to use the credentials of the currently logged in user.
+The **Connect-MsolService** cmdlet attempts to initiate a connection to Azure Active Directory.
+You must specify a credential, as a **PSCredential** object, or specify the _CurrentCredentials_ parameter to use the credentials of the current user.
 
-        This cmdlet may return a warning or error if the version of the module being used is out of date.
+This cmdlet may return a warning or error if the version of the module is out of date.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Initiate a connection
 ```
-Connect-MsolService
-
-          None
+PS C:\> Connect-MsolService
 ```
 
-Description
+This command attempts to initiate a connection with Azure Active Directory.
+Since no credential is provided, the cmdlet prompts you to enter your username and password.
 
------------
-
-This command attempts to initiate a connection with Microsoft Azure Active Directory. 
-Since no credential is provided, the user will be prompted to enter their username and password.
-
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2: Initiate a connection by using a credential object
 ```
-Connect-MsolService -Credential $cred -AzureEnvironment AzureChinaCloud
-
-          None
+PS C:\> Connect-MsolService -Credential $Credential -AzureEnvironment AzureChinaCloud
 ```
 
-Description
-
------------
-
-This command attempts to initiate a connection to AzureChinaCloud with Microsoft Azure Active Directory using the credential provided. 
-The credential must be of the type PSCredential (typically retrieved through the Get-Credential cmdlet).
+This command attempts to initiate a connection to AzureChinaCloud with Azure Active Directory using the credential provided.
+The credential must be of the type **PSCredential**.
+To obtain a credential object, use the **Get-Credential** cmdlet.
 
 ## PARAMETERS
 
 ### -Credential
-The credential to use for connecting to Microsoft Azure Active Directory.
+Specifies the credential to use to connect to Azure Active Directory.
+To obtain a **PSCredential** object, use the **Get-Credential** cmdlet.
 
 ```yaml
 Type: PSCredential
 Parameter Sets: Credential
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -94,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -AdGraphAccessToken
-The AD Graph access token to use for connecting to Microsoft Azure Active Directory.
+Specifies the AD Graph access token to use to connect to Azure Active Directory.
 
 ```yaml
 Type: String
@@ -109,12 +99,12 @@ Accept wildcard characters: False
 ```
 
 ### -MsGraphAccessToken
-The MS Graph access token to use for connecting to Microsoft Azure Active Directory.
+Specifies the MS Graph access token to use to connect to Azure Active Directory.
 
 ```yaml
 Type: String
 Parameter Sets: AccessToken
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -124,13 +114,18 @@ Accept wildcard characters: False
 ```
 
 ### -AzureEnvironment
-The deployment type to use for connecting to Microsoft Azure Active Directory in different region.
-Possible values are AzureCloud, AzureChinaCloud, AzureGermanyCloud and USGovernment.
+Specifies the deployment type to use to connect to Azure Active Directory in different region.
+Valid values are:
+
+* AzureCloud
+* AzureChinaCloud
+* AzureGermanyCloud
+* USGovernment
 
 ```yaml
 Type: AzureEnvironment
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -149,5 +144,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

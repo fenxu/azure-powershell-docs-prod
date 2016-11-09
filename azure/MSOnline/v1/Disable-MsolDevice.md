@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 58F7425A-3F73-4CAF-851D-972214E870AC
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/8/2016 9:01 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Disable-MsolDevice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6600f52fb9e8494968164be77a39809bf8320873/Azure%20AD%20Cmdlets/MSOnline/v1/Disable-MsolDevice.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Disable-MsolDevice.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -63,7 +63,7 @@ Specifies the unique device ID of the device that this cmdlet disables.
 ```yaml
 Type: Guid
 Parameter Sets: DisableDeviceByDeviceId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -78,7 +78,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -93,7 +93,7 @@ Specifies the unique object ID of the device that this cmdlet disables.
 ```yaml
 Type: Guid
 Parameter Sets: DisableDeviceByObjectId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -103,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the command.
 
 ```yaml
 Type: SwitchParameter
@@ -119,7 +119,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -150,5 +149,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-MsolDevice](xref:MSOnline/v1/Get-MsolDevice.md)
 
 [Remove-MsolDevice](xref:MSOnline/v1/Remove-MsolDevice.md)
-
-

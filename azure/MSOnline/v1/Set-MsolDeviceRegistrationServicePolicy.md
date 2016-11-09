@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 3DF291FC-2A4E-4493-8C1E-BFE2977B5F15
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/7/2016 11:36 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDeviceRegistrationServicePolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6600f52fb9e8494968164be77a39809bf8320873/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDeviceRegistrationServicePolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDeviceRegistrationServicePolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -36,35 +36,35 @@ The **Set-MsolDeviceRegistrationServicePolicy** cmdlet sets the Azure Active Dir
 
 ### Example 1: Set the maximum number of devices for a user
 ```
-PS C:\>Set-MsolDeviceRegistratioinServicePolicy -MaximumDevicesPerUser 50
+PS C:\> Set-MsolDeviceRegistratioinServicePolicy -MaximumDevicesPerUser 50
 ```
 
 This command sets the maximum number of devices a user can have in Azure Active Directory.
 
 ### Example 2: Enforce that a user use a second method of authentication
 ```
-PS C:\>Set-MsolDeviceRegistratioinServicePolicy -RequireMultiFactorAuth $True
+PS C:\> Set-MsolDeviceRegistratioinServicePolicy -RequireMultiFactorAuth $True
 ```
 
 This command enforces users that are adding devices from the internet first use a second method of authentication.
 
 ### Example 3: Allow all users to workplace join devices
 ```
-PS C:\>Set-MsolDeviceRegistratioinServicePolicy -AllowedToWorkplaceJoin All
+PS C:\> Set-MsolDeviceRegistratioinServicePolicy -AllowedToWorkplaceJoin All
 ```
 
 This command allows all the users to workplace join devices.
 
 ### Example 4: Disallow all users to workplace join devices
 ```
-PS C:\>Set-MsolDeviceRegistratioinServicePolicy -AllowedToWorkplaceJoin None
+PS C:\> Set-MsolDeviceRegistratioinServicePolicy -AllowedToWorkplaceJoin None
 ```
 
 This command disallows any of the users to workplace join devices.
 
 ### Example 5: Allow all users to Azure Active Directory join devices
 ```
-PS C:\>Set-MsolDeviceRegistratioinServicePolicy -AllowedToAzureAdJoin All
+PS C:\> Set-MsolDeviceRegistratioinServicePolicy -AllowedToAzureAdJoin All
 ```
 
 This command allows all the users to Azure Active Directory join devices.
@@ -77,7 +77,7 @@ Specifies the maximum number of devices a user can have in Azure Active Director
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -92,7 +92,7 @@ Indicates whether users that add devices from the internet must first use a seco
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -109,7 +109,7 @@ When set to None, no one is allowed to workplace join devices.
 ```yaml
 Type: Scope
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -133,7 +133,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: Scope
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -154,5 +154,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-MsolDeviceRegistrationServicePolicy](xref:MSOnline/v1/Get-MsolDeviceRegistrationServicePolicy.md)
-
-

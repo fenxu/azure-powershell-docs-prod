@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 16B61372-E804-41E7-9B03-8752A76DD2CB
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/8/2016 9:01 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolScopedRoleMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolScopedRoleMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolScopedRoleMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-MsolScopedRoleMember
 
 ## SYNOPSIS
-Retrieves the members of the specified role who are granted that role over an administrative unit.
+Gets members of a role who are granted that role over an administrative unit.
 
 ## SYNTAX
 
@@ -37,36 +37,28 @@ Get-MsolScopedRoleMember [-AdministrativeUnitObjectId <Guid>] [-RoleObjectId <Gu
 ```
 
 ## DESCRIPTION
-The Get-MsolScopedRoleMember cmdlet is used to the retrieve members of the specified role who are granted that role over an administrative unit.
+The **Get-MsolScopedRoleMember** cmdlet gets members of the specified role who are granted that role over an administrative unit.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Get members of the User Account Administrator role
 
 ```
-$westcoastau = Get-MsolAdministrativeUnit -searchstring "West Coast"
-          $uaadmin = Get-MsolRole -RoleName "User Account Administrator"
-          Get-MsolScopedRoleMember -RoleObjectId $uaadmin.ObjectId -AdministrativeUnitObjectId $westcoastau.ObjectId
+PS C:\> $WestCoastAu = Get-MsolAdministrativeUnit -SearchString "West Coast"
+PS C:\> $UaAdmin = Get-MsolRole -RoleName "User Account Administrator"
+PS C:\> Get-MsolScopedRoleMember -RoleObjectId $UaAdmin.ObjectId -AdministrativeUnitObjectId $WestCoastAu.ObjectId
 ```
-
-Description
-
------------
-
-This command will list all members of the "User Account Administrator" role that is scoped to the administrative unit "West Coast".
+This example gets all members of the User Account Administrator role that is scoped to the administrative unit named West Coast.
 
 ## PARAMETERS
 
 ### -RoleObjectId
-The role whose scoped members should be returned.
+Specifies the unique object ID of the role from which to get members.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -76,13 +68,13 @@ Accept wildcard characters: False
 ```
 
 ### -AdministrativeUnitObjectId
-The object ID of the administrative unit whose administrators should be returned.
-Omit this parameter to find administrators for all administrative units.
+Specifies the unique object ID of the administrative unit.
+If you do not specify this parameter, this cmdlet gets administrators for all administrative units.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -92,12 +84,12 @@ Accept wildcard characters: False
 ```
 
 ### -MaxResults
-The maximum number of results returned for a search result.
+Specifies the maximum number of results that this cmdlet returns.
 
 ```yaml
 Type: Int32
 Parameter Sets: ListRoleScopedMembers__0
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -107,14 +99,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided, then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -124,13 +116,13 @@ Accept wildcard characters: False
 ```
 
 ### -All
-If present then all results will be returned. 
-Cannot be used with the MaxResults parameter.
+Indicates that this cmdlet returns all results that it finds.
+Do not specify this parameter and the _MaxResults_ parameter.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: All__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -147,13 +139,19 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### Microsoft.Online.Administration.RoleScopedMember
-For this cmdlet, each output object will include the following:
-            DisplayName: The display name of the scoped role member.
-            UserPrincipalName: The user principal name of the scoped role member.
-            ObjectId: The unique ID of the scoped role member.
+This cmdlet returns objects that contain the following information:
+
+* DisplayName. The display name of the scoped role member.
+* UserPrincipalName. The user principal name of the scoped role member.
+* ObjectId. The unique ID of the scoped role member.
 
 ## NOTES
 
 ## RELATED LINKS
+[Get-MsolAdministrativeUnit](xref:MSOnline/v1/Get-MsolAdministrativeUnit.md)
 
+[Get-MsolRole](xref:MSOnline/v1/Get-MsolRole.md)
 
+[Get-MsolScopedRoleMember](xref:MSOnline/v1/Get-MsolScopedRoleMember.md)
+
+[Remove-MsolScopedRoleMember](xref:MSOnline/v1/Remove-MsolScopedRoleMember.md)

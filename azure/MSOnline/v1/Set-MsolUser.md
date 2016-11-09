@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: F0BE5738-B797-4F9E-B963-73155997618F
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/7/2016 11:36 PM
+ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-MsolUser
 
 ## SYNOPSIS
-Updates a user in Microsoft Azure Active Directory.
+Modifies a user in Azure Active Directory.
 
 ## SYNTAX
 
@@ -39,77 +39,53 @@ Set-MsolUser [-ImmutableId <String>] [-ObjectId <Guid>] [-UserPrincipalName <Str
 ```
 
 ## DESCRIPTION
-The Set-MsolUser cmdlet is used to update a user object.
+The **Set-MsolUser** cmdlet modifies a user object.
 
-        Note that this cmdlet should be used for basic properties only.
-The licenses, password, and User Principal Name for a user can be updated through the Set-MsolUserLicense, Set-MsolUserPassword and Set-MsolUserPrincipalName cmdlets respectively.
+Use this cmdlet only for updates to basic properties.
+Update the licenses, password, and User Principal Name for a user by using the [Set-MsolUserLicense](./Set-MsolUserLicense.md), [Set-MsolUserPassword](./Set-MsolUserPassword.md) and [Set-MsolUserPrincipalName](./Set-MsolUserPrincipalName.md) cmdlets.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Block credential for a user
 ```
-Set-MsolUser -UserPrincipalName user@contoso.com -blockcredential $true
-
-          None
+PS C:\> Set-MsolUser -UserPrincipalName "davidchew@contoso.com" -BlockCredential $True
 ```
 
-Description
+This command sets block credential to $Tue for a user, which blocks them from being able to sign in.
+This cannot be done for a synced user.
 
------------
-
-This command sets block credential to true for a user (which will block them from being able to sign in). 
-This cannot be set for a synced user.
-
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2:
 ```
-Set-MsolUser -UserPrincipalName user@contoso.com -DisplayName "John Doe" -Title "Manager" -Department "Finance"
-
-          None
+PS C:\> Set-MsolUser -UserPrincipalName "davidchew@contoso.com" -DisplayName "David Chew" -Title "Manager" -Department "Finance"
 ```
-
-Description
-
------------
 
 This command updates the display name for the specified user.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### Example 3: Set the location of a user
 ```
-Set-MsolUser -UserPrincipalName user@contoso.com -UsageLocation "CA"
-
-          None
+PS C:\> Set-MsolUser -UserPrincipalName "davidchew@contoso.com" -UsageLocation "CA"
 ```
 
-Description
-
------------
-
-This command sets the location (country) of this user.
+This command sets the location country of a user.
 The country must be a two-letter ISO code.
 This can be set for synced users as well as managed users.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### Example 4: Set the preferred data location
 ```
-Set-MsolUser -UserPrincipalName john@contoso.onmicrosoft.com -PreferredDataLocation EUR
-
-          None
+PS C:\> Set-MsolUser -UserPrincipalName "davidchew@contoso.com" -PreferredDataLocation "EUR"
 ```
 
-Description
-
------------
-
-This command sets the preferred data location property of a user whose user principal name is john@contoso.onmicrosoft.com to EUR.
+This command sets the preferred data location property of a user whose user principal name is davidchew@contoso.com to EUR.
 
 ## PARAMETERS
 
 ### -AlternateEmailAddresses
-Alternate email addresses of the user.
+Specifies alternate email addresses for the user.
 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -119,12 +95,12 @@ Accept wildcard characters: False
 ```
 
 ### -AlternateMobilePhones
-Alternate mobile phone numbers of the user.
+Specifies alternate mobile phone numbers for the user.
 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -134,12 +110,12 @@ Accept wildcard characters: False
 ```
 
 ### -BlockCredential
-When true, the user will not be able to sign in using their user ID.
+Specifies whether the user is not able to log on using their user ID.
 
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -149,12 +125,12 @@ Accept wildcard characters: False
 ```
 
 ### -City
-The city of the user.
+Specifies the city of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -164,12 +140,12 @@ Accept wildcard characters: False
 ```
 
 ### -Country
-The country or region of the user.
+Specifies the country or region of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -179,12 +155,12 @@ Accept wildcard characters: False
 ```
 
 ### -Department
-The department of the user.
+Specifies the department of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -194,12 +170,12 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-The display name of the user.
+Specifies the display name of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -209,12 +185,12 @@ Accept wildcard characters: False
 ```
 
 ### -Fax
-The fax number of the user.
+Specifies the fax number of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -224,12 +200,12 @@ Accept wildcard characters: False
 ```
 
 ### -FirstName
-The first name of the user.
+Specifies the first name of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -239,13 +215,13 @@ Accept wildcard characters: False
 ```
 
 ### -ImmutableId
-The immutable ID of the user's federated identity.
+Specifies the immutable ID of the federated identity of the user.
 This should be omitted for users with standard identities.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -255,12 +231,12 @@ Accept wildcard characters: False
 ```
 
 ### -LastName
-The last name of the user.
+Specifies the last name of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -270,12 +246,12 @@ Accept wildcard characters: False
 ```
 
 ### -MobilePhone
-The mobile phone number of the user.
+Specifies the mobile phone number of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -285,12 +261,12 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-The unique ID of the user.
+Specifies the unique object ID of the user.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -300,12 +276,12 @@ Accept wildcard characters: False
 ```
 
 ### -Office
-The location of the office of the user.
+Specifies the location of the office of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -315,12 +291,12 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordNeverExpires
-Sets whether or not the user's password will expire periodically.
+Specifies whether the user password expires periodically.
 
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -330,12 +306,12 @@ Accept wildcard characters: False
 ```
 
 ### -PhoneNumber
-The phone number of the user.
+Specifies the phone number of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -345,12 +321,12 @@ Accept wildcard characters: False
 ```
 
 ### -PostalCode
-The postal code for the user's location.
+Specifies the postal code of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -360,12 +336,12 @@ Accept wildcard characters: False
 ```
 
 ### -PreferredDataLocation
-The preferred data location to set for the user.
+Specifies the preferred data location for the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -375,12 +351,12 @@ Accept wildcard characters: False
 ```
 
 ### -PreferredLanguage
-The preferred language of the user.
+Specifies the preferred language of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -390,12 +366,12 @@ Accept wildcard characters: False
 ```
 
 ### -State
-The state or province where the user is located.
+Specifies the state or province where the user is located.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -405,12 +381,12 @@ Accept wildcard characters: False
 ```
 
 ### -StreetAddress
-The street address of the user.
+Specifies the street address of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -420,12 +396,12 @@ Accept wildcard characters: False
 ```
 
 ### -StrongPasswordRequired
-Sets whether or not the user requires a strong password.
+Specifies whether to require a strong password for the user.
 
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -435,14 +411,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided, then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -452,12 +428,12 @@ Accept wildcard characters: False
 ```
 
 ### -Title
-The title of the user.
+Specifies the title of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -467,13 +443,13 @@ Accept wildcard characters: False
 ```
 
 ### -UsageLocation
-The location of the user where services are consumed.
-Must be a two-letter country code.
+Specifies the location of the user where services are consumed.
+Specify a two-letter country code.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -483,12 +459,12 @@ Accept wildcard characters: False
 ```
 
 ### -UserPrincipalName
-The user ID of the user.
+Specifies the user ID of the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -498,12 +474,12 @@ Accept wildcard characters: False
 ```
 
 ### -LastPasswordChangeTimestamp
-
+Specifies a time when the password was last changed.
 
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -513,12 +489,12 @@ Accept wildcard characters: False
 ```
 
 ### -SoftDeletionTimestamp
-
+Specifies a time for soft deletion.
 
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -528,12 +504,12 @@ Accept wildcard characters: False
 ```
 
 ### -StrongAuthenticationMethods
-
+Specifies an array of strong authentication methods.
 
 ```yaml
 Type: StrongAuthenticationMethod[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -543,12 +519,12 @@ Accept wildcard characters: False
 ```
 
 ### -StrongAuthenticationRequirements
-
+Specifies an array of strong authentication requirements.
 
 ```yaml
 Type: StrongAuthenticationRequirement[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -558,12 +534,12 @@ Accept wildcard characters: False
 ```
 
 ### -StsRefreshTokensValidFrom
-
+Specifies a StsRefreshTokensValidFrom value.
 
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -573,12 +549,12 @@ Accept wildcard characters: False
 ```
 
 ### -UserType
-
+Specifies the user type.
 
 ```yaml
 Type: UserType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -597,5 +573,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-MsolUser](xref:MSOnline/v1/Get-MsolUser.md)
 
+[New-MsolUser](xref:MSOnline/v1/New-MsolUser.md)
 
+[Remove-MsolUser](xref:MSOnline/v1/Remove-MsolUser.md)
+
+[Restore-MsolUser](xref:MSOnline/v1/Restore-MsolUser.md)
+
+[Set-MsolUserLicense](xref:MSOnline/v1/Set-MsolUserLicense.md)
+
+[Set-MsolUserPassword](xref:MSOnline/v1/Set-MsolUserPassword.md)
+
+[Set-MsolUserPrincipalName](xref:MSOnline/v1/Set-MsolUserPrincipalName.md)

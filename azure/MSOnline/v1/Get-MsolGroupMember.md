@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 15A181E5-32EA-4DAB-942D-2DDCF1C71140
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/8/2016 9:01 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolGroupMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolGroupMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-MsolGroupMember
 
 ## SYNOPSIS
-Retrieves all members of the specified group.
+Retrieves members of the specified group.
 
 ## SYNTAX
 
@@ -37,34 +37,29 @@ Get-MsolGroupMember [-GroupObjectId <Guid>] [-MemberObjectTypes <String[]>] [-Se
 ```
 
 ## DESCRIPTION
-The Get-MsolGroupMember cmdlet is used to retrieve members of the specified group.
+The **Get-MsolGroupMember** cmdlet gets members of the specified group.
 The members can be either users or groups.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Get all members of a group
 ```
-Get-MsolGroupMember -groupObjectid <id>
-
-          Returns a list of group member objects.
+PS C:\> Get-MsolGroupMember -GroupObjectId 74d7b44e-6811-4250-bffe-8292e3b0b689
 ```
 
-Description
-
------------
-
-This command retrieves all members (users or groups) of the specified group.
+This command retrieves all members of the specified group.
+The members can be users or groups.
 
 ## PARAMETERS
 
 ### -All
-If present then all results will be returned. 
-Cannot be used with MaxResults parameter.
+Indicates that this cmdlet returns all results that it finds.
+Do not specify this parameter and the _MaxResults_ parameter.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: All__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -74,12 +69,12 @@ Accept wildcard characters: False
 ```
 
 ### -GroupObjectId
-The ID of the group to retrieve members for.
+Specifies the unique ID of the group from which to get members.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -89,13 +84,13 @@ Accept wildcard characters: False
 ```
 
 ### -MaxResults
-The maximum number of results returned for a search result.
-If not specified, 250 results will be returned.
+Specifies the maximum number of results that this cmdlet returns.
+The default value is 250.
 
 ```yaml
 Type: Int32
 Parameter Sets: ListGroupMembers__0
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -105,13 +100,13 @@ Accept wildcard characters: False
 ```
 
 ### -SearchString
-The string to search on.
-Only objects with a display name or email address starting with this string will be returned.
+Specifies a string.
+This cmdlet returns objects with a display name or email address that start with this string.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -121,14 +116,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided, then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -138,12 +133,12 @@ Accept wildcard characters: False
 ```
 
 ### -MemberObjectTypes
-
+Specifies an array of member object types.
 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -160,20 +155,21 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### Microsoft.Online.Administration.GroupMember
-For this cmdlet, each output object will include the following:
+This cmldet returns objects that contain the following information:
 
-            CommonName: The common name of the group.
+* CommonName. The common name of the group.
 
-            DisplayName: The display name of the group.
+* DisplayName. The display name of the group.
 
-            EmailAddress: The primary email address of the group (for MailEnabled groups only).
+* EmailAddress. The primary email address of the group (for MailEnabled groups only).
 
-            GroupMemberType: The group type (SecurityGroup, Distributionlist, or MailEnabledSecurityGroup).
+* GroupMemberType. The group type (SecurityGroup, Distributionlist, or MailEnabledSecurityGroup).
 
-            ObjectId: The unique ID of the group.
+* ObjectId. The unique ID of the group.
 
 ## NOTES
 
 ## RELATED LINKS
+[Add-MsolGroupMember](xref:MSOnline/v1/Add-MsolGroupMember.md)
 
-
+[Remove-MsolGroupMember](xref:MSOnline/v1/Remove-MsolGroupMember.md)

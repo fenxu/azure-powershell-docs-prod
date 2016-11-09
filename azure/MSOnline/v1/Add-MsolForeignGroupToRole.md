@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: B5D447B0-4C83-42D7-8162-1E95AF02EDA2
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/9/2016 7:55 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Add-MsolForeignGroupToRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Add-MsolForeignGroupToRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2ed1dc4a4cad9328c634640b8f50d00798f6278b/Azure%20AD%20Cmdlets/MSOnline/v1/Add-MsolForeignGroupToRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Add-MsolForeignGroupToRole
 
 ## SYNOPSIS
-Adds the specified group from a partner tenant to a Role in this tenant.
+Adds a security group from a partner tenant to a Role in this tenant.
 
 ## SYNTAX
 
@@ -30,17 +30,17 @@ Add-MsolForeignGroupToRole -ForeignGroupObjectId <Guid> -ForeignCompanyObjectId 
 ```
 
 ## DESCRIPTION
-The Add-MsolForeignGroupToRole cmdlet is used to add a security group from a partner tenant to the specified role in this tenant.
+The **Add-MsolForeignGroupToRole** cmdlet adds a security group from a partner tenant to the specified role in this tenant.
 
 ## PARAMETERS
 
 ### -ForeignCompanyObjectId
-The object ID of the partner tenant that contains the group to add.
+Specifies the object ID of the partner tenant that contains the group to add.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -50,12 +50,12 @@ Accept wildcard characters: False
 ```
 
 ### -ForeignGroupObjectId
-The object ID of the group in the partner tenant to add.
+Specifies the unique object ID of the group in the partner tenant to add.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -65,12 +65,12 @@ Accept wildcard characters: False
 ```
 
 ### -RoleObjectId
-The object ID of the role to add the group to.
+Specifies the unique object ID of the role to which to add the group.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -80,14 +80,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on. 
-If this is not provided then it will default to the tenant of the current user. 
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -106,5 +106,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 6771683C-F5D9-48C4-9591-DC6692407ACA
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/8/2016 9:01 PM
+ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolGroupMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolGroupMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,33 +30,28 @@ Remove-MsolGroupMember -GroupObjectId <Guid> [-GroupMemberType <GroupMemberType>
 ```
 
 ## DESCRIPTION
-The Remove-MsolGroupMember cmdlet is used to remove a member from a security group.
+The **Remove-MsolGroupMember** cmdlet is used to remove a member from a security group.
 This member can be either a user or a group.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1:
 ```
-$groupId = Get-MsolGroup -searchString MyGroup
-          $userid = get-msoluser -userPrincipalName user@contoso.com
-          Remove-MsoLGroupMember -groupObjectId $groupid -GroupMemberType User -groupmemberobjectid $userid
+PS C:\> $GroupId = Get-MsolGroup -SearchString "MyGroup"
+PS C:\> $UserId = Get-MsolUser -UserPrincipalName "evannarvaez@contoso.com"
+PS C:\> Remove-MsoLGroupMember -GroupObjectId $GroupId -GroupMemberType User -GroupmemberObjectId $UserId
 ```
-
-Description
-
------------
-
-Will remove user@contoso.com from MyGroup.
+This example removes the user evannarvaez@contoso.com from the group named MyGroup.
 
 ## PARAMETERS
 
 ### -GroupMemberObjectId
-The object ID of the member (User or Group) to remove from the group.
+Specifies the unique object ID of the user or group to remove from the group.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -66,12 +61,13 @@ Accept wildcard characters: False
 ```
 
 ### -GroupMemberType
-The type of member (User or Group) to remove from the group.
+Specifies the type of member to remove from the group.
+Valid values are: User and Group.
 
 ```yaml
 Type: GroupMemberType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -81,12 +77,12 @@ Accept wildcard characters: False
 ```
 
 ### -GroupObjectId
-The ID of the group to remove members from.
+Specifies the unique ID of the group from which to remove members.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -96,14 +92,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -122,5 +118,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Add-MsolGroupMember](xref:MSOnline/v1/Add-MsolGroupMember.md)
 
-
+[Get-MsolGroupMember](xref:MSOnline/v1/Get-MsolGroupMember.md)

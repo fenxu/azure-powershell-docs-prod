@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: FE736AD3-BE42-47C0-A41A-05E01D1DD7A9
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/9/2016 10:36 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserPassword.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserPassword.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a602340dee47e7edf41f6c5af3edb93e03ac1b45/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserPassword.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -37,49 +37,37 @@ Set-MsolUserPassword [-NewPassword <String>] [-ForceChangePassword <Boolean>]
 ```
 
 ## DESCRIPTION
-The Set-MsolUserPassword cmdlet is used to change the password of a user. 
+The **Set-MsolUserPassword** cmdlet resets the password of a user.
 This cmdlet can only be used for users with standard identities.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Reset a password with a random password
 ```
-Set-MsolUserPassword -UserPrincipalName user@contoso.com
-
-          Returns the user's new password.
+PS C:\> Set-MsolUserPassword -UserPrincipalName "davidchew@contoso.com" -ForceChangePassword
 ```
 
-Description
+This command resets the password for davidchew@contoso.com.
+The cmdlet generates a random password.
+The user is required to reset the password on next sign in.
 
------------
-
-This command resets the password for user@contoso.com. 
-A random password will be generated.
-The user will be required to reset the password on next sign in.
-
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2: Reset a password
 ```
-Set-MsolUserPassword -userPrincipalName user@consoso.com -NewPassword "pa$$word"
-
-          Returns the user's new password.
+PS C:\> Set-MsolUserPassword -UserPrincipalName "davidchew@consoso.com" -NewPassword "pa$$word"
 ```
 
-Description
-
------------
-
-This command resets the password for user@contoso.com. 
+This command resets the password for davidchew@contoso.com.
 The user will be required to reset the password on next sign in.
 
 ## PARAMETERS
 
 ### -ForceChangePassword
-When true, the user will be required to change their password the next time they sign in.
+Indicates whether the user must change the password the next time they sign in.
 
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -89,21 +77,22 @@ Accept wildcard characters: False
 ```
 
 ### -NewPassword
-The new password for the user.
+Specifies a new password for the user.
 If the user is set to require a strong password, then all of the following rules must be met:
-            - The password must contain at least one lowercase letter
-            - The password must contain at least one uppercase letter
-            - The password must contain at least one non-alphanumeric character
-            - The password cannot contain any spaces, tabs, or line breaks
-            - The length of the password must be 8-16 characters
-            - The user name cannot be contained in the password
 
-            If this value is omitted, then a random password will be assigned to the user.
+* The password must contain at least one lowercase letter
+* The password must contain at least one uppercase letter
+* The password must contain at least one non-alphanumeric character
+* The password cannot contain any spaces, tabs, or line breaks
+* The length of the password must be 8-16 characters
+* The user name cannot be contained in the password
+
+If you do not specify a password, the cmdlet generates a random password for the user.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -113,12 +102,12 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-The unique ID of the user to set the password for.
+Specifies the unique ID of the user for which to set the password.
 
 ```yaml
 Type: Guid
 Parameter Sets: ResetUserPassword__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -128,14 +117,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -145,12 +134,12 @@ Accept wildcard characters: False
 ```
 
 ### -UserPrincipalName
-The user ID of the user to set the password for.
+Specifies the user principal name of the user for which to set the password.
 
 ```yaml
 Type: String
 Parameter Sets: ResetUserPasswordByUpn__0
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -165,7 +154,7 @@ Accept wildcard characters: False
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -184,5 +173,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Set-MsolUserLicense](xref:MSOnline/v1/Set-MsolUserLicense.md)
 
-
+[Set-MsolUserPrincipalName](xref:MSOnline/v1/Set-MsolUserPrincipalName.md)

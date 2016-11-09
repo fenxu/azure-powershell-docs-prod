@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 85A8F5D8-EDF3-4B49-A806-C95280EE370A
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/9/2016 6:37 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPasswordPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPasswordPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7986fb4880d0ee292c289166871e4b25df1ad4b8/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPasswordPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-MsolPasswordPolicy
 
 ## SYNOPSIS
-Retrieves the current password policy for the tenant or the specified domain.
+Gets the current password policy for a tenant or a domain.
 
 ## SYNTAX
 
@@ -29,46 +29,34 @@ Get-MsolPasswordPolicy -DomainName <String> [-TenantId <Guid>] [<CommonParameter
 ```
 
 ## DESCRIPTION
-The Get-MsolPasswordPolicy cmdlet can be used to retrieve the values associated with the Password Expiry window or Password Expiry Notification window for a tenant or specified domain. 
-When a domain name is specified, it must be a verified domain for the company.
+The **Get-MsolPasswordPolicy** cmdlet gets the values associated with the Password Expiry window or Password Expiry Notification window for a tenant or specified domain.
+If you specify a domain name, it must be a verified domain for the company.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Get the password policy for the tenant
 ```
-Get-MsolPasswordPolicy
-
-          Returns the password policy.
+PS C:\> Get-MsolPasswordPolicy
 ```
 
-Description
+This command gets the password policy for the tenant.
 
------------
-
-Returns the password policy for the tenant.
-
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2: Get the password policy for a domain
 ```
-Get-MsolPasswordPolicy -DomainName contoso.com
-
-          Returns the password policy.
+PS C:\> Get-MsolPasswordPolicy -DomainName contoso.com
 ```
 
-Description
-
------------
-
-Returns the password policy for the domain contoso.com.
+This command gets the password policy for the domain contoso.com.
 
 ## PARAMETERS
 
 ### -DomainName
-The fully qualified name of the domain to be retrieved.
+Specifies the fully qualified domain name of the domain to be retrieved.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -78,12 +66,14 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -100,16 +90,15 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ###  
-The following values will be returned either for the specified domain or the tenant if no domain was specified.
+This cmdlet returns the following values:
 
-            ValidityPeriod : Specifies the length of time that a password is valid before it must be changed.
+* ValidityPeriod. Specifies the length of time that a password is valid before it must be changed.
 A null value indicates the default value of 90 days will be used.
 
-            NotificationDays : Specifies the number of days before a user receives notification that their password will expire.
+* NotificationDays. Specifies the number of days before a user receives notification that their password will expire.
 A null value indicates the default of 14 days will be used.
 
 ## NOTES
 
 ## RELATED LINKS
-
-
+[Set-MsolPasswordPolicy](xref:MSOnline/v1/Set-MsolPasswordPolicy.md)
