@@ -6,7 +6,7 @@ ms.assetid: D74563F0-14B9-43BD-8C3C-BC46CD505407
 updated_at: 11/9/2016 5:07 PM
 ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0940ad9c52c3264bf4d686f83a1c05ea452ff7fd/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ec0c3dd1a39a348a41068c3fdd9c7236c9da1bc3/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureADPolicy
 
 ## SYNOPSIS
-
+Removes a policy.
 ## SYNTAX
 
 ```
