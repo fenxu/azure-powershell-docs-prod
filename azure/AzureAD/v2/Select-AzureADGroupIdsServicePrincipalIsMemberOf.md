@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3FA60E42-BD4A-40C9-B3FC-CEE205E7DB4D
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/9/2016 10:16 PM
+ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsServicePrincipalIsMemberOf.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsServicePrincipalIsMemberOf.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1ab05cf87dbbeb2b14ab77d03d857215d0c9f6d0/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsServicePrincipalIsMemberOf.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Select-AzureADGroupIdsServicePrincipalIsMemberOf
 
 ## SYNOPSIS
-From a list of groups Ids select those that the service principal is a member of.
+Selects the groups in which a service principal is a member.
 
 ## SYNTAX
 
@@ -31,18 +31,12 @@ Select-AzureADGroupIdsServicePrincipalIsMemberOf -ObjectId <String>
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Select-AzureADGroupIdsServicePrincipalIsMemberOf** cmdlet selects the groups in which a service principal is a member in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique idenfier of an service principal in Azure Active Directory
+Specifies the ID of a service principal in Azure AD.
 
 ```yaml
 Type: String
@@ -57,7 +51,7 @@ Accept wildcard characters: False
 ```
 
 ### -GroupIdsForMembershipCheck
-A list of groups object ids.
+Specifies an array of group object IDs.
 
 ```yaml
 Type: GroupIdsForMembershipCheck
@@ -72,9 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
