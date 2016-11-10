@@ -3,13 +3,13 @@ external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: EAA47557-0286-4A6E-BC2C-7A74DA74B8A6
-updated_at: 11/7/2016 6:39 PM
+updated_at: 11/7/2016 6:45 PM
 ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/4b0ea6957de1341f1677064c4aad86313b6b5a33/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
@@ -42,7 +42,7 @@ New-AzureSqlJob -JobName <String> -CredentialName <String> -ContentName <String>
 ## DESCRIPTION
 The **New-AzureSqlJob** cmdlet creates a job definition to be used for subsequent job runs.
 
-Job execution can be requested through the Start-AzureSqlJobExecution cmdlet or through creation of a trigger in combination with a schedule using the New-AzureSqlJobTrigger cmdlet.
+Job execution can be requested through the [Start-AzureSqlJobExecution](./Start-AzureSqlJobExecution.md) cmdlet or through creation of a trigger in combination with a schedule using the [New-AzureSqlJobTrigger](./New-AzureSqlJobTrigger.md) cmdlet.
 
 ## EXAMPLES
 
