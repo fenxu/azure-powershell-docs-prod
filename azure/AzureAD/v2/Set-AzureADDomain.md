@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 53B15037-19DD-4253-B998-D968DA05F2AC
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/10/2016 7:20 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d6896a7821454a57781cab0445c98d0ea171518e/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDomain.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureADDomain
 
 ## SYNOPSIS
-Updates a specific domain in Azure Active Directory
+Updates a domain.
 
 ## SYNTAX
 
@@ -31,20 +31,13 @@ Set-AzureADDomain -Name <String> [-InformationAction <ActionPreference>] [-Infor
 ```
 
 ## DESCRIPTION
+The **Set-AzureADDomain** cmdlet updates a domain in Azure Active Directory (AD).
 
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -81,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -IsDefault
-@{Text=}
+
 
 ```yaml
 Type: Boolean
@@ -96,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
+Specifies a name.
 
 ```yaml
 Type: String
@@ -111,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -SupportedServices
-@{Text=}
+Specifies an array of supported services.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -135,5 +128,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Confirm-AzureADDomain](xref:AzureAD/v2/Confirm-AzureADDomain.md)
 
+[Get-AzureADDomain](xref:AzureAD/v2/Get-AzureADDomain.md)
 
+[New-AzureADDomain](xref:AzureAD/v2/New-AzureADDomain.md)
+
+[Remove-AzureADDomain](xref:AzureAD/v2/Remove-AzureADDomain.md)
