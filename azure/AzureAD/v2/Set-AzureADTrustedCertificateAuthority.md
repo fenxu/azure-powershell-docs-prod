@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: E3628C6F-0F08-49DF-8A48-35E8FF4ABB65
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/10/2016 7:56 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADTrustedCertificateAuthority.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADTrustedCertificateAuthority.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/20f71b89f5a8be42ae5254627790cd0e87e2f872/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADTrustedCertificateAuthority.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureADTrustedCertificateAuthority
 
 ## SYNOPSIS
-
+Updates a trusted certificate authority.
 ## SYNTAX
 
 ```
@@ -29,18 +29,13 @@ Set-AzureADTrustedCertificateAuthority -CertificateAuthorityInformation <Certifi
 ```
 
 ## DESCRIPTION
+The **Set-AzureADTrustedCertificateAuthority** cmdlet updates a trusted certificate authority in Azure Active Directory (AD).
 
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 
 ### -CertificateAuthorityInformation
-@{Text=}
+Specifies a **CertificateAuthorityInformation** object.
 
 ```yaml
 Type: CertificateAuthorityInformation
@@ -55,9 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -103,5 +96,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADTrustedCertificateAuthority](xref:AzureAD/v2/Get-AzureADTrustedCertificateAuthority.md)
 
+[New-AzureADTrustedCertificateAuthority](xref:AzureAD/v2/New-AzureADTrustedCertificateAuthority.md)
 
+[Remove-AzureADTrustedCertificateAuthority](xref:AzureAD/v2/Remove-AzureADTrustedCertificateAuthority.md)
