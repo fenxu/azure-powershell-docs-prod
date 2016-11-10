@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F2E34C5B-EBB1-440B-B144-8CE176A9D7C9
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/10/2016 6:29 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADContact.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADContact.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4d672fec4d1b8a05276f70d6c6e7c4b5eaa77887/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADContact.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureADContact
 
 ## SYNOPSIS
-Updates a specific contact in Azure Active Directory
+Updates a contact.
 
 ## SYNTAX
 
@@ -35,18 +35,12 @@ Set-AzureADContact -ObjectId <String> [-InformationAction <ActionPreference>] [-
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Set-AzureADContact** cmdlet updates a contact in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a contact in Azure Active Directory (ObjectId)
+Specifies the object ID of a contact in Azure AD.
 
 ```yaml
 Type: String
@@ -61,9 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -100,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -City
-@{Text=}
+Specifies the contact's city.
 
 ```yaml
 Type: String
@@ -115,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -Country
-@{Text=}
+Specifies the contact's country.
 
 ```yaml
 Type: String
@@ -130,7 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -Department
-@{Text=}
+Specifies the contact's department.
 
 ```yaml
 Type: String
@@ -145,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-@{Text=}
+Specifies the contact's display name.
 
 ```yaml
 Type: String
@@ -160,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -FacsimilieTelephoneNumber
-@{Text=}
+Specifies the contact's fax number.
 
 ```yaml
 Type: String
@@ -175,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -GivenName
-@{Text=}
+Specifies the contact's given name.
 
 ```yaml
 Type: String
@@ -190,7 +182,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobTitle
-@{Text=}
+Specifies the contact's job title.
 
 ```yaml
 Type: String
@@ -205,7 +197,7 @@ Accept wildcard characters: False
 ```
 
 ### -MailNickName
-@{Text=}
+Specifies the contact's mail nickname.
 
 ```yaml
 Type: String
@@ -220,7 +212,7 @@ Accept wildcard characters: False
 ```
 
 ### -Mobile
-@{Text=}
+Specifies the contact's mobile phone number.
 
 ```yaml
 Type: String
@@ -235,7 +227,7 @@ Accept wildcard characters: False
 ```
 
 ### -PhysicalDeliveryOfficeName
-@{Text=}
+Specifies the contact's physical delivery office name.
 
 ```yaml
 Type: String
@@ -250,7 +242,7 @@ Accept wildcard characters: False
 ```
 
 ### -PostalCode
-@{Text=}
+Specifies the contact's postal code.
 
 ```yaml
 Type: String
@@ -265,7 +257,7 @@ Accept wildcard characters: False
 ```
 
 ### -ProvisioningErrors
-@{Text=}
+
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ProvisioningError]
@@ -280,7 +272,7 @@ Accept wildcard characters: False
 ```
 
 ### -State
-@{Text=}
+Specifies the contact's state.
 
 ```yaml
 Type: String
@@ -295,7 +287,7 @@ Accept wildcard characters: False
 ```
 
 ### -StreetAddress
-@{Text=}
+Specifies the contact's street address.
 
 ```yaml
 Type: String
@@ -310,7 +302,7 @@ Accept wildcard characters: False
 ```
 
 ### -Surname
-@{Text=}
+Specifies the contact's surname.
 
 ```yaml
 Type: String
@@ -325,7 +317,7 @@ Accept wildcard characters: False
 ```
 
 ### -TelephoneNumber
-@{Text=}
+Specifies the contact's telephone number.
 
 ```yaml
 Type: String
@@ -340,7 +332,7 @@ Accept wildcard characters: False
 ```
 
 ### -ThumbnailPhoto
-@{Text=}
+Specifies the contact's thumbnail photo.
 
 ```yaml
 Type: Byte[]
@@ -364,5 +356,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADContact](xref:AzureAD/v2/Get-AzureADContact.md)
 
-
+[Remove-AzureADContact](xref:AzureAD/v2/Remove-AzureADContact.md)
