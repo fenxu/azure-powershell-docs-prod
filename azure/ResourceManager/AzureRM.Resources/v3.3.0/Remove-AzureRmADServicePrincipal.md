@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 0C8C07CA-6720-452F-A952-48C76EBF3BBD
-online version: 
+online version:
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/10/2016 12:55 AM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d8a423026e3225e9496e77bc00f07c13ce542bfb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -66,7 +66,7 @@ If specified, returns the deleted service principal.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -177,6 +177,3 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 [Remove-AzureRmADApplication]()
 
 [Remove-AzureRmADAppCredential]()
-
-[]()
-

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: C61FA834-BEBE-4DBF-888F-C6CB8CC95390
-online version: 
+online version:
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/10/2016 12:55 AM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADAppCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADAppCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d8a423026e3225e9496e77bc00f07c13ce542bfb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADAppCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -83,7 +83,7 @@ The object id of the application to remove the credentials from.
 ```yaml
 Type: String
 Parameter Sets: ApplicationObjectIdWithKeyIdParameterSet, ApplicationObjectIdWithAllParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -99,7 +99,7 @@ The key Ids for the application can be obtained using the Get-AzureRmADAppCreden
 ```yaml
 Type: Guid
 Parameter Sets: ApplicationObjectIdWithKeyIdParameterSet, ApplicationIdWithKeyIdParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -114,7 +114,7 @@ Switch to delete credential without a confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -198,7 +198,7 @@ Switch to remove all the credentials associated with the application.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ApplicationObjectIdWithAllParameterSet, ApplicationIdWithAllParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -213,7 +213,7 @@ The id of the application to remove the credentials from.
 ```yaml
 Type: String
 Parameter Sets: ApplicationIdWithAllParameterSet, ApplicationIdWithKeyIdParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -235,6 +235,3 @@ Accept wildcard characters: False
 [New-AzureRmADAppCredential]()
 
 [Get-AzureRmADApplication]()
-
-[]()
-

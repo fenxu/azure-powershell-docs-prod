@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 86D8965D-D999-48A4-A4EE-9E054E5486EE
-online version: 
+online version:
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/10/2016 12:55 AM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d8a423026e3225e9496e77bc00f07c13ce542bfb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -52,7 +52,7 @@ example 'Alex Wu'.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -68,7 +68,7 @@ Example-'someuser@contoso.com'.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -85,7 +85,7 @@ It is recommended to set a strong password.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -100,7 +100,7 @@ It needs to be specified only if you are using a federated domain for the user's
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -116,7 +116,7 @@ Default behavior is (false) to not change the password on the next successful lo
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -207,6 +207,3 @@ Accept wildcard characters: False
 [Set-AzureRmADUser]()
 
 [Remove-AzureRmADUser]()
-
-[]()
-
