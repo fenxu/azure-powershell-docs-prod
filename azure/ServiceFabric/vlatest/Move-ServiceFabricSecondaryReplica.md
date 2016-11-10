@@ -8,7 +8,7 @@ ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china

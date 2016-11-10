@@ -8,7 +8,7 @@ ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china

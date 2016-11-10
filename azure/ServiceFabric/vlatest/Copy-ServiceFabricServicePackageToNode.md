@@ -8,7 +8,7 @@ ms.date: 11/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0fd9fb4ce9179d4ff591e7539b0bcbbb544795ab/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china

@@ -11,7 +11,7 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/bl
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 uid: ServiceFabric/vlatest/ServiceFabric.md
 ms.topic: conceptual
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china

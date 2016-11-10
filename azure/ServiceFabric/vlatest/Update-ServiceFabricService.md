@@ -8,7 +8,7 @@ ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricService.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
