@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 8846536B-3E57-4307-81C7-CCFFB2C6E5EC
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/10/2016 7:26 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ae4f67ff36bc5b74558ace00c8475d6fc62f0c1f/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -31,18 +31,19 @@ Set-AzureADGroup -ObjectId <String> [-InformationAction <ActionPreference>] [-In
 ```
 
 ## DESCRIPTION
+The **Set-AzureADGroup** cmdlet updates a group in Azure Active Directory (AD).
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Update a group
+```PowerShell
+PS C:\>Set-AzureADGroup -ObjectId "11fa5e1e-737c-40c5-835e-416ae3959606" -Description "This is my new group"
 ```
-PS C:\>Set-AzureADGroup -ObjectId 11fa5e1e-737c-40c5-835e-416ae3959606 -Description "This is my new group"
-```
-
+This command updates the specfied group in Azure AD.
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a group in Azure Active Directory (ObjectId)
+Specifies the object ID of a group.
 
 ```yaml
 Type: String
@@ -57,9 +58,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -96,8 +95,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-@{Text=}
-
+Specfies a description.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -111,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-@{Text=}
+Specifies a display name.
 
 ```yaml
 Type: String
@@ -126,7 +124,7 @@ Accept wildcard characters: False
 ```
 
 ### -MailEnabled
-@{Text=}
+Indicates whether mail is enabled.
 
 ```yaml
 Type: Boolean
@@ -141,7 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -MailNickName
-@{Text=}
+Specifies a nickname for the mail.
 
 ```yaml
 Type: String
@@ -156,7 +154,7 @@ Accept wildcard characters: False
 ```
 
 ### -SecurityEnabled
-@{Text=}
+Indicates whether security is enabled.
 
 ```yaml
 Type: Boolean
@@ -180,5 +178,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADGroup](xref:AzureAD/v2/Get-AzureADGroup.md)
 
+[New-AzureADGroup](xref:AzureAD/v2/New-AzureADGroup.md)
 
+[Remove-AzureADGroup](xref:AzureAD/v2/Remove-AzureADGroup.md)
