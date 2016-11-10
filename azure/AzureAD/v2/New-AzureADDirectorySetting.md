@@ -9,7 +9,7 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3d5f396555a763fd13764215045abd52830a4425/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADDirectorySetting.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: Azure PowerShell
+ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub

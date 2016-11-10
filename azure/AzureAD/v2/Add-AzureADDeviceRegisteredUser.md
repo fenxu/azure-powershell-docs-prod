@@ -9,7 +9,7 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fe18ac1b9a889d7ae610537a1a4924a6587b33ef/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDeviceRegisteredUser.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: Azure PowerShell
+ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub

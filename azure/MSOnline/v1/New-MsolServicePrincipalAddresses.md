@@ -9,7 +9,7 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalAddresses.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: Azure PowerShell
+ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub

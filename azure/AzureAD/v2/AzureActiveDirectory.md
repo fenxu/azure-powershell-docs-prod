@@ -12,7 +12,7 @@ gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a76928b57
 uid: AzureAD/v2/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.prod: powershell
-ms.service: Azure PowerShell
+ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub

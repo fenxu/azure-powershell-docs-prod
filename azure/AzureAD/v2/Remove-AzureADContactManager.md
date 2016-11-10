@@ -9,7 +9,7 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5ea8980d868c6c6f8c73f0345b01b2bde49d2b62/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADContactManager.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: Azure PowerShell
+ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub

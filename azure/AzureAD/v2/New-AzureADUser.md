@@ -9,7 +9,7 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2a2e521351280532a008cad1066ad053b211a876/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: Azure PowerShell
+ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
