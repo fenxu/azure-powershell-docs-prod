@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 1575D032-020F-4471-A408-2487C93940AF
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/10/2016 7:47 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cc14a65d6ca7d1c2404562bccba750ced5d4d81c/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -32,18 +32,19 @@ Set-AzureADPolicy -ObjectId <String> [-InformationAction <ActionPreference>] [-I
 ```
 
 ## DESCRIPTION
+The **Set-AzureADPolicy** cmdlet sets a policy in Azure Active Directory (AD).
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
-```
+### Example 1: Update a policy
+```PowerShell
 PS C:\>Set-AzureADPolicy -ObjectId <object id of policy> -DisplayName <string>
 ```
-
+This command updates the specified policy in Azure AD.
 ## PARAMETERS
 
 ### -ObjectId
-The object Id of the Policy
+Specifies the object ID of a policy.
 
 ```yaml
 Type: String
@@ -58,9 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -97,7 +96,7 @@ Accept wildcard characters: False
 ```
 
 ### -AlternativeIdentifier
-\[Optional\] Sets an alternative id to the policy
+Specifies an alternative ID for the policy.
 
 ```yaml
 Type: String
@@ -112,8 +111,8 @@ Accept wildcard characters: False
 ```
 
 ### -Definition
-\[Optional\] The array of strinfied JSON that contains all the rules of the policy, e.g.
--Definition @("{"TokenLifetimePolicy":{"Version":1,"MaxInactiveTime":"20:00:00"}}")
+Specifies the array of stringfied JSON that contains all the rules of the policy. For example
+*-Definition @("{"TokenLifetimePolicy":{"Version":1,"MaxInactiveTime":"20:00:00"}}")*.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -128,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-String of the policy name
+Specifies the display name.
 
 ```yaml
 Type: String
@@ -143,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -IsTenantDefault
-\[Optional\] If true sets the policy as tenant's default policy, if false does nothing
+Indicates whether the policy is the tenant's default policy.
 
 ```yaml
 Type: Boolean
@@ -158,7 +157,7 @@ Accept wildcard characters: False
 ```
 
 ### -KeyCredentials
-@{Text=}
+Specifies the key credentials.
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.KeyCredential]
@@ -173,7 +172,7 @@ Accept wildcard characters: False
 ```
 
 ### -Type
-\[Optional\] The type of policy, for token lifetimes always use "TokenLifetimePolicy"
+Specifies the type of policy. For token lifetimes, use "TokenLifetimePolicy".
 
 ```yaml
 Type: String
@@ -197,5 +196,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADPolicy](xref:AzureAD/v2/Get-AzureADPolicy.md)
 
+[New-AzureADPolicy](xref:AzureAD/v2/New-AzureADPolicy.md)
 
+[Remove-AzureADPolicy](xref:AzureAD/v2/Remove-AzureADPolicy.md)
