@@ -6,7 +6,7 @@ ms.assetid: 1575D032-020F-4471-A408-2487C93940AF
 updated_at: 11/10/2016 7:47 PM
 ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cc14a65d6ca7d1c2404562bccba750ced5d4d81c/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/aabff6be8d7cf0a181796ed8ff6237f343cc58b7/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureADPolicy
 
 ## SYNOPSIS
-
+Updates a policy.
 ## SYNTAX
 
 ```
