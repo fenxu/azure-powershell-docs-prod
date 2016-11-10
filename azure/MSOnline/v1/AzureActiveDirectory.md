@@ -5,10 +5,10 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: BB86A603-6CD9-4299-89B8-30A2B4A011A0
-updated_at: 11/10/2016 12:00 AM
+updated_at: 11/10/2016 4:53 PM
 ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ab567af35e6d1056d76cbc832dde9d77724fbd30/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fa0df7d7c5fc79297507723a62f5fc4575dafc5e/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
 uid: MSOnline/v1/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -137,7 +137,7 @@ Verifies a custom domain.
 
 
 ### [Confirm-MsolEmailVerifiedDomain](./Confirm-MsolEmailVerifiedDomain.md)
-
+Confirms ownership of an unmanaged tenant.
 
 
 ### [Connect-MsolService](./Connect-MsolService.md)
@@ -449,7 +449,7 @@ Enables the multinational feature for a service type for a company with Azure Ac
 
 
 ### [Set-MsolCompanySecurityComplianceContactInformation](./Set-MsolCompanySecurityComplianceContactInformation.md)
-
+Sets company-level security and compliance contact preferences.
 
 
 ### [Set-MsolCompanySettings](./Set-MsolCompanySettings.md)
