@@ -8,7 +8,7 @@ ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADTenantDetail.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/034e157547afaa5408301bcb5c9207daa6361386/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADTenantDetail.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

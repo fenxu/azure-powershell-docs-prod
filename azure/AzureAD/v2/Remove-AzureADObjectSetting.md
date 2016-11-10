@@ -8,7 +8,7 @@ ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADObjectSetting.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d2a0d55feba78d79e687675d049100836fa46141/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADObjectSetting.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

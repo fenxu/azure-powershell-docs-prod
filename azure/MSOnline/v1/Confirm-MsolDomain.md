@@ -8,7 +8,7 @@ ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Confirm-MsolDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/94a9d6babbb311cac82eb0873333def445a3d23a/Azure%20AD%20Cmdlets/MSOnline/v1/Confirm-MsolDomain.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

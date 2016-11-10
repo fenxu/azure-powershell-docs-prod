@@ -8,7 +8,7 @@ ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADAdministrativeUnit.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c4c481f39484ac5af35c0c2455444e3f4e618eed/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADAdministrativeUnit.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

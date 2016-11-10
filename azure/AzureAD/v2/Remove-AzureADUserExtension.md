@@ -8,7 +8,7 @@ ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserExtension.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/77b05be2c77182c0c8a2c38ff14991528ddedda0/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserExtension.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

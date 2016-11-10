@@ -8,7 +8,7 @@ ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/379176321272ee5119a7dfa13c9bf6c6283c7c5b/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

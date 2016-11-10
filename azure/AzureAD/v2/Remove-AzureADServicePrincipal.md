@@ -8,7 +8,7 @@ ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipal.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5297c2c52d877b3bff04037ec1c8c917cfc82f6f/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipal.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

@@ -8,7 +8,7 @@ ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADContact.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4d672fec4d1b8a05276f70d6c6e7c4b5eaa77887/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADContact.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

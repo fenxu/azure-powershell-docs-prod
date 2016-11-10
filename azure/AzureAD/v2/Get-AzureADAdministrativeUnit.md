@@ -8,7 +8,7 @@ ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnit.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/499005a41753b28920fecf31e16516f48ebb2519/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnit.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

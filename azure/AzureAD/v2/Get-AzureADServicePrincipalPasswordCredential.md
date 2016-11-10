@@ -8,7 +8,7 @@ ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalPasswordCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/73aab2c20c182aa3208dcd345e2a5b74f597c32b/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalPasswordCredential.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

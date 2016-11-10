@@ -8,7 +8,7 @@ ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupOwner.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f61869047861dc0070f96e6408f5860867d3667/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupOwner.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

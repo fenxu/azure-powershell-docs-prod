@@ -8,7 +8,7 @@ ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADScopedRoleMembership.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/60a45af23412aa12e23fd6bd0fcb2e10c92ffac0/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADScopedRoleMembership.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

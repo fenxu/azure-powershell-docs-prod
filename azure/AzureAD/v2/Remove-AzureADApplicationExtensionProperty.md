@@ -8,7 +8,7 @@ ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/32e965b5fe34a89d4883a511140220001faa59eb/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

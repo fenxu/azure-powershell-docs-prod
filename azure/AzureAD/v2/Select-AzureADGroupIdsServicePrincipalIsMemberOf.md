@@ -8,7 +8,7 @@ ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsServicePrincipalIsMemberOf.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1ab05cf87dbbeb2b14ab77d03d857215d0c9f6d0/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsServicePrincipalIsMemberOf.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

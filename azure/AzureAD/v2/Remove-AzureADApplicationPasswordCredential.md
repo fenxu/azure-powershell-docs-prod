@@ -8,7 +8,7 @@ ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c98b4d31f12674e9b69721f15d9f837af1eef77d/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

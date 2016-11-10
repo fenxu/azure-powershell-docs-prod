@@ -8,7 +8,7 @@ ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDevice.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b9354925fed242cee3d096a8ab357e5694305f32/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDevice.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

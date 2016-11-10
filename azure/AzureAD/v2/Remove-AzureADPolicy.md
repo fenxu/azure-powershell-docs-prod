@@ -8,7 +8,7 @@ ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ec0c3dd1a39a348a41068c3fdd9c7236c9da1bc3/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADPolicy.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

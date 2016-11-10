@@ -8,7 +8,7 @@ ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationOwner.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8d68e52f982cff5ea56fa4b5ba13ac24d14075db/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationOwner.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

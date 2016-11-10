@@ -8,7 +8,7 @@ ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0cb30a4e8763dfd61a8b75e1d97f2475f58f8092/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUser.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

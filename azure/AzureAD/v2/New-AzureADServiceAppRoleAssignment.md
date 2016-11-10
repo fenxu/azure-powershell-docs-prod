@@ -8,7 +8,7 @@ ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServiceAppRoleAssignment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2b50131d32cea213c654ee26c8cb6f39df3a4279/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServiceAppRoleAssignment.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

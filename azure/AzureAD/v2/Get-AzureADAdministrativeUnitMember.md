@@ -8,7 +8,7 @@ ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnitMember.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d62a9965526a7c06371cc9a8a7e070764e955ffa/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnitMember.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

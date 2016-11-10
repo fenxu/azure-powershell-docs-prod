@@ -8,7 +8,7 @@ ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/929e16264b73939ffe21c5329495ee80bd7e6346/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

@@ -11,7 +11,7 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fa0df7d7c5fc79297507723a62f5fc4575dafc5e/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
 uid: MSOnline/v1/AzureActiveDirectory.md
 ms.topic: conceptual
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

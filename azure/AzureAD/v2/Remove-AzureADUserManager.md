@@ -8,7 +8,7 @@ ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserManager.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0a6cd80024cd55677be66ea0c2a9e48c3d113007/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserManager.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

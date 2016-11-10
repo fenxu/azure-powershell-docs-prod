@@ -8,7 +8,7 @@ ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserExtension.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b1a2b3a117f29868ae3d5b08c00b808615ba1767/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserExtension.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

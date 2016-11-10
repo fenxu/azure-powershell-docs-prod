@@ -8,7 +8,7 @@ ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7b3957130cd00314c758a6c0541ce39675496edf/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

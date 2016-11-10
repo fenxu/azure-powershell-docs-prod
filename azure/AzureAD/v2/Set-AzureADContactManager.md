@@ -8,7 +8,7 @@ ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADContactManager.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/136ecb3e473bff96fd0f3db3ed28b3703deb6057/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADContactManager.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

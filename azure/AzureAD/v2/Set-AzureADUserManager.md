@@ -8,7 +8,7 @@ ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserManager.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5e545bcc775e42a595163d0e9dd005852457a8f8/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserManager.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

@@ -8,7 +8,7 @@ ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactMembership.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/524121aa3c831d295d4956ef66beb3db19104864/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactMembership.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

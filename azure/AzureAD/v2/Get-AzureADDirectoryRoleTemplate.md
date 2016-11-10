@@ -8,7 +8,7 @@ ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleTemplate.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e5a312afd52db35e094c67df17276dbafa935d1a/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleTemplate.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

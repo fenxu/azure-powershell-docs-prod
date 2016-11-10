@@ -8,7 +8,7 @@ ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADOAuth2PermissionGrant.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1ec0fdae338a685d8ef4e9be1d432345322df1b4/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADOAuth2PermissionGrant.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

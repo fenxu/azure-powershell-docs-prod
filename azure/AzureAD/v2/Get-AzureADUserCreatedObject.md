@@ -8,7 +8,7 @@ ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserCreatedObject.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a378aecf99b4ea7c82d9a9f1c04c3e659832d523/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserCreatedObject.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

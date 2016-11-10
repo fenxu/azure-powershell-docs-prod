@@ -8,7 +8,7 @@ ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationKeyCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a8353262160082e6c7b96def4517d74a884631cf/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationKeyCredential.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

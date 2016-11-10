@@ -8,7 +8,7 @@ ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/aabff6be8d7cf0a181796ed8ff6237f343cc58b7/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADPolicy.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

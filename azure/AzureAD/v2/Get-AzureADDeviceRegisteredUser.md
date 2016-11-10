@@ -8,7 +8,7 @@ ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeviceRegisteredUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c431b84d727dce9e575f6b216a3cb4e26d32b99/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeviceRegisteredUser.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

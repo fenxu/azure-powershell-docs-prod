@@ -8,7 +8,7 @@ ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationPasswordCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a6b622804dc4ead0bbf2296ce7f3640c306dfb98/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationPasswordCredential.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

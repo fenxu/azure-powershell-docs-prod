@@ -8,7 +8,7 @@ ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDirectoryRoleMember.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fb2b58e9a186adac1e14cb9f6539b3702c70cf0c/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDirectoryRoleMember.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

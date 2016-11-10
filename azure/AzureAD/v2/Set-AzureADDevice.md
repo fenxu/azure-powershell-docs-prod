@@ -8,7 +8,7 @@ ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDevice.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/be01a49de2aef6817122eccd0458e8a0dea814ae/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDevice.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

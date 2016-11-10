@@ -8,7 +8,7 @@ ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalOAuth2PermissionGrant.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/44f3d212c1070f5ade2eee38d0414ba461cdf3d6/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalOAuth2PermissionGrant.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

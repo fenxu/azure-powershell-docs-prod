@@ -8,7 +8,7 @@ ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADObjectSetting.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fca3665092fe08b6c74ee63694319d9cad2592f3/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADObjectSetting.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

@@ -8,7 +8,7 @@ ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserOwnedObject.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f869f3bddf9949a04e8c45f1a653be373cfca974/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserOwnedObject.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china

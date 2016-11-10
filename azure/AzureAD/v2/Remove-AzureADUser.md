@@ -8,7 +8,7 @@ ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a31f0452dde8c92ba79b3134fb3c303458c7dfdd/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUser.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: visual-studio-china
