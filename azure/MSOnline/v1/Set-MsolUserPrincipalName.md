@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: D6A8C6DA-B071-473D-8618-E1618D42024F
-updated_at: 11/9/2016 10:36 PM
-ms.date: 11/9/2016
+updated_at: 11/10/2016 6:25 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserPrincipalName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a602340dee47e7edf41f6c5af3edb93e03ac1b45/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserPrincipalName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserPrincipalName.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -42,7 +42,7 @@ This cmdlet can be used to move a user between a federated and standard domain, 
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Rename a user
 ```
 PS C:\> Set-MsolUserPrincipalName -UserPrincipalName "davidc@contoso.com" -NewUserPrincipalName "davidchew@contoso.com"
 ```

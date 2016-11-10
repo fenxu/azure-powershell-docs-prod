@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 74BD0C15-D7F3-40CE-8D53-4C6C8E3BAA5F
-updated_at: 11/7/2016 11:36 PM
-ms.date: 11/7/2016
+updated_at: 11/10/2016 6:25 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Restore-MsolUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Restore-MsolUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Restore-MsolUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -57,11 +57,10 @@ PS C:\> Restore-MsolUser -UserPrincipalName "davidchew@contoso.com" -AutoReconci
 This command restores the user davidchew@contoso.com from the Deleted users container to the Active users container, removing any conflicting proxy addresses.
 Use this option if restore fails due to proxy conflicts.
 
-### Example 3:
+### Example 3: Restore a user
 ```
 PS C:\> Restore-MsolUser -UserPrincipalName "davidchew@contoso.com" -NewUserPrincipalName "davidchew02@contoso.com"
 ```
-
 
 This command restores the user davidchew@contoso.com from the Deleted users container to the Active users container as davidchew02@contoso.com.
 Use this option if restore fails due to a user principal name conflict.

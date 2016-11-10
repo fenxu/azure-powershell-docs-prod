@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 3F9E2B81-398B-4C87-B786-DF5C59FAE369
-updated_at: 11/10/2016 12:31 AM
+updated_at: 11/10/2016 6:25 PM
 ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -69,7 +69,7 @@ PS C:\> Get-MsolServicePrincipal -ServicePrincipalName "MyApp"
 This command gets all the existing service principals that have a service principal name that starts with MyApp.
 This is an exact match of the **appClass** portion of the service principal name up to the forward slash.
 
-### Example 3:
+### Example 3: Get a service principal
 ```
 PS C:\> Get-MsolServicePrincipal -AppPrincipalId 5e964d2f-e384-4292-ae55-dd24c89cc53b
 ```

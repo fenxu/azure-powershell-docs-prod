@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: F0BE5738-B797-4F9E-B963-73155997618F
-updated_at: 11/7/2016 11:36 PM
-ms.date: 11/7/2016
+updated_at: 11/10/2016 6:25 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -54,7 +54,7 @@ PS C:\> Set-MsolUser -UserPrincipalName "davidchew@contoso.com" -BlockCredential
 This command sets block credential to $Tue for a user, which blocks them from being able to sign in.
 This cannot be done for a synced user.
 
-### Example 2:
+### Example 2: Update display name
 ```
 PS C:\> Set-MsolUser -UserPrincipalName "davidchew@contoso.com" -DisplayName "David Chew" -Title "Manager" -Department "Finance"
 ```

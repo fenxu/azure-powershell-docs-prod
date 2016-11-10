@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 15A181E5-32EA-4DAB-942D-2DDCF1C71140
-updated_at: 11/8/2016 9:01 PM
-ms.date: 11/8/2016
+updated_at: 11/10/2016 6:25 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolGroupMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolGroupMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -155,7 +155,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### Microsoft.Online.Administration.GroupMember
-This cmldet returns objects that contain the following information:
+This cmdlet returns objects that contain the following information:
 
 * CommonName. The common name of the group.
 

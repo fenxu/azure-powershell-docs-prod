@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 8D9F4A29-671A-468A-9B20-B985DF1B4EC2
-updated_at: 11/9/2016 10:36 PM
-ms.date: 11/9/2016
+updated_at: 11/10/2016 6:25 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a602340dee47e7edf41f6c5af3edb93e03ac1b45/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -35,7 +35,7 @@ This cmdlet disables specific service plans when assigning a user a license usin
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Create license options object
 ```
 PS C:\> New-MsolLicenseOption -AccountSkuId Contoso:BPOS_STANDARD -DisabledPlans EXCHANGE_STANDARD
 ```
@@ -89,4 +89,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [New-MsolUser](xref:MSOnline/v1/New-MsolUser.md)
 
-[Set-MsolUserLicense](xref:MSOnline/v1/Set-MsolUserLicense.md) 
+[Set-MsolUserLicense](xref:MSOnline/v1/Set-MsolUserLicense.md)

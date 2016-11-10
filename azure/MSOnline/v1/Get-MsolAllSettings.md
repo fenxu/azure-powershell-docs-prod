@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 4955285A-6FE5-46E2-AFFC-8B1798AE8F2A
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 11/10/2016 6:25 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAllSettings.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6600f52fb9e8494968164be77a39809bf8320873/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAllSettings.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAllSettings.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -40,7 +40,7 @@ PS C:\>Get-MsolAllSettings
 
 This command gets a list of directory settings
 
-### Example 2:
+### Example 2: Get directory settings
 ```
 PS C:\>Get-MsolAllSettings -TargetType Groups -TargetObjectId "Group001"
 ```
@@ -63,7 +63,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: TargetType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -78,7 +78,7 @@ Specifies the object ID that setting objects are associated with, if this value 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -101,5 +101,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-MsolSettings](xref:MSOnline/v1/Get-MsolSettings.md)
 
 [Get-MsolAllSettingTemplate](xref:MSOnline/v1/Get-MsolAllSettingTemplate.md)
-
-

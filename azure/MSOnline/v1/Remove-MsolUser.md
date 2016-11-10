@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: CF0916CC-7239-438D-87F7-BF39B733B77F
-updated_at: 11/7/2016 8:50 PM
-ms.date: 11/7/2016
+updated_at: 11/10/2016 6:25 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e45b51fd816f025d32fa17a27b0e7eafee1289da/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -50,7 +50,7 @@ This command removes the user davidchew@contoso.com from Azure Active Directory.
 If the user has any licenses, the cmdlet removes these.
 The command prompts you to confirm the operation.
 
-### Example 2:Remove a user without confirmation
+### Example 2: Remove a user without confirmation
 ```
 Remove-MsolUser -UserPrincipalName "davidchew@contoso.com" -Force
 ```
@@ -58,7 +58,7 @@ Remove-MsolUser -UserPrincipalName "davidchew@contoso.com" -Force
 This command removes davidchew@contoso.com from Azure Active Directory.
 If the user has any licenses, the cmdlet removes these.
 
-### Example 3:
+### Example 3: Remove a user from the Recycle Bin
 ```
 Remove-MsolUser -UserPrincipalName "davidchew@contoso.com" -RemoveFromRecycleBin
 ```

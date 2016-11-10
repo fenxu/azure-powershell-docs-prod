@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 3C941FE3-032E-4160-8693-F68165A6E36C
-updated_at: 11/9/2016 10:36 PM
-ms.date: 11/9/2016
+updated_at: 11/10/2016 6:25 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Convert-MsolFederatedUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a602340dee47e7edf41f6c5af3edb93e03ac1b45/Azure%20AD%20Cmdlets/MSOnline/v1/Convert-MsolFederatedUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Convert-MsolFederatedUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -36,7 +36,7 @@ A new password must be provided for the user.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Convert a federated user
 ```
 PS C:\> Convert-MsolFederatedUser -UserPrincipalName "pattifuller@contoso.com"
 ```

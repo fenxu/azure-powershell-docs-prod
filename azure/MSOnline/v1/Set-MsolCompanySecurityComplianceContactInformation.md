@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 5EFA8894-F622-48D0-97D4-3D673E08FF37
-updated_at: 11/10/2016 4:53 PM
+updated_at: 11/10/2016 6:25 PM
 ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySecurityComplianceContactInformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fa0df7d7c5fc79297507723a62f5fc4575dafc5e/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySecurityComplianceContactInformation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySecurityComplianceContactInformation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -37,7 +37,7 @@ The contact is used for notification purposes.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Set contact information
 ```
 Set-MsolCompanySecurityComplianceContactInformation -SecurityComplianceNotificationEmails "EvanNarvaez@contoso.com", "ElisaDaugherty@contoso.com" -SecuritComplianceNotificationPhones "555-555-0012","555-555-0199"
 ```

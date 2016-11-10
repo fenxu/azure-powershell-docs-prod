@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 6771683C-F5D9-48C4-9591-DC6692407ACA
-updated_at: 11/8/2016 9:01 PM
-ms.date: 11/8/2016
+updated_at: 11/10/2016 6:25 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolGroupMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolGroupMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -35,7 +35,7 @@ This member can be either a user or a group.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Remove a user from a group
 ```
 PS C:\> $GroupId = Get-MsolGroup -SearchString "MyGroup"
 PS C:\> $UserId = Get-MsolUser -UserPrincipalName "evannarvaez@contoso.com"
