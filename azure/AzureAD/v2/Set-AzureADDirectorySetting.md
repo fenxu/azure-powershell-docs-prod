@@ -3,10 +3,10 @@ external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 96F47B05-3D04-4298-9C60-03B60B8AD6AF
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/10/2016 7:13 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDirectorySetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDirectorySetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0fe9adfb52ba045c8e77b8982014c103a8c0c6f3/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDirectorySetting.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,18 +30,13 @@ Set-AzureADDirectorySetting [-ObjectId <String>] -DirectorySetting <DirectorySet
 ```
 
 ## DESCRIPTION
+The **Set-AzureADDirectorySetting** cmdlet updates a directory setting in Azure Active Directory (AD).
 
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of a settings in Azure Active Directory
+Specifies the ID of a settings object in Azure AD.
 
 ```yaml
 Type: String
@@ -56,7 +51,7 @@ Accept wildcard characters: False
 ```
 
 ### -DirectorySetting
-Update settings.
+Specifies the directory settings.
 
 ```yaml
 Type: DirectorySetting
@@ -71,9 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -119,5 +112,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADDirectorySetting](xref:AzureAD/v2/Get-AzureADDirectorySetting.md)
 
+[New-AzureADDirectorySetting](xref:AzureAD/v2/New-AzureADDirectorySetting.md)
 
+[Remove-AzureADDirectorySetting](xref:AzureAD/v2/Remove-AzureADDirectorySetting.md)
