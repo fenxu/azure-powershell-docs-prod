@@ -3,10 +3,10 @@ external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 505A49A7-2C60-4D87-BE2C-AE5BF7B5FD86
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/10/2016 7:32 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADObjectSetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADObjectSetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fca3665092fe08b6c74ee63694319d9cad2592f3/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADObjectSetting.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureADObjectSetting
 
 ## SYNOPSIS
-Updates settings in Azure Active Directory.
+Updates object settings.
 
 ## SYNTAX
 
@@ -31,18 +31,12 @@ Set-AzureADObjectSetting -TargetType <String> -TargetObjectId <String> [-ObjectI
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
+The **Set-AzureADObjectSetting** cmdlet updates the settings for an object in Azure Active Directory (AD).
 
 ## PARAMETERS
 
 ### -TargetType
-object type name of directory object that will be assigned settings
+Specifies the target type of a directory object.
 
 ```yaml
 Type: String
@@ -57,7 +51,7 @@ Accept wildcard characters: False
 ```
 
 ### -TargetObjectId
-object id of directory object that will be assigned settings
+Specifies the object ID of directory object.
 
 ```yaml
 Type: String
@@ -72,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-The unique identifier of a settings in Azure Active Directory
+Specifies the ID of a settings object.
 
 ```yaml
 Type: String
@@ -87,7 +81,7 @@ Accept wildcard characters: False
 ```
 
 ### -DirectorySetting
-Update settings.
+Specifies a **DirectorySetting** objet. 
 
 ```yaml
 Type: DirectorySetting
@@ -102,9 +96,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -150,5 +142,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADObjectSetting](xref:AzureAD/v2/Get-AzureADObjectSetting.md)
 
+[New-AzureADObjectSetting](xref:AzureAD/v2/New-AzureADObjectSetting.md)
 
+[Remove-AzureADObjectSetting](xref:AzureAD/v2/Remove-AzureADObjectSetting.md)
