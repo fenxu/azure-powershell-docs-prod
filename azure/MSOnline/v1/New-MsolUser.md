@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 1E77AB39-65ED-4280-A4EF-09F323C0D341
-updated_at: 11/7/2016 11:36 PM
-ms.date: 11/7/2016
+updated_at: 11/10/2016 12:31 AM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -40,7 +40,7 @@ New-MsolUser [-ImmutableId <String>] [-UserPrincipalName <String>] [-BlockCreden
 ```
 
 ## DESCRIPTION
-The New-MsolUser cmdlet creates a user in Azure Active Directory.
+The **New-MsolUser** cmdlet creates a user in Azure Active Directory.
 In order to give the user access to services, assign a license by using the _LicenseAssignment_ parameter.
 
 ## EXAMPLES

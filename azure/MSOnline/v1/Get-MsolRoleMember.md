@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: C38ED8D1-68B3-4D78-8386-20F6FC87A167
-updated_at: 11/8/2016 9:01 PM
-ms.date: 11/8/2016
+updated_at: 11/10/2016 12:31 AM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolRoleMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolRoleMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolRoleMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -37,7 +37,7 @@ Get-MsolRoleMember [-RoleObjectId <Guid>] [-MemberObjectTypes <String[]>] [-Sear
 ```
 
 ## DESCRIPTION
-The Get-MsolRoleMember cmdlet gets members of the specified role.
+The **Get-MsolRoleMember** cmdlet gets members of the specified role.
 
 ## EXAMPLES
 

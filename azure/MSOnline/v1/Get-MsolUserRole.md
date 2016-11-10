@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 13C8D948-E093-45E7-A5B5-BC38FAFCCEC7
-updated_at: 11/7/2016 11:36 PM
-ms.date: 11/7/2016
+updated_at: 11/10/2016 12:31 AM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-MsolUserRole
 
 ## SYNOPSIS
-Retrieves a list of roles that the specified user is a member of.
+Gets administrator roles to which a user belongs.
 
 ## SYNTAX
 
@@ -35,28 +35,21 @@ Get-MsolUserRole -UserPrincipalName <String> [-TenantId <Guid>] [<CommonParamete
 ```
 
 ## DESCRIPTION
-The Get-MsolUserRole cmdlet is used to retrieve all of the administrator roles that the specified user belongs to.
+The **Get-MsolUserRole** cmdlet gets all of the administrator roles to which the specified user belongs.
 This cmdlet will also return roles that the user is a member of through security group membership.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Get user groups
 ```
-PS C:\> Get-MsolUserRole -UserPrincipalName user@contoso.com
-
-          Returns a list of roles.
+PS C:\> Get-MsolUserRole -UserPrincipalName "davidchew@contoso.com"
 ```
-
-Description
-
------------
-
-This command retrieves all groups that user@contoso.com is a member of.
+This command retrieves all groups that davidchew@contoso.com is a member of.
 
 ## PARAMETERS
 
 ### -ObjectId
-The ID of the user to retrieve roles for.
+Specifies the unique ID of the user to retrieve roles for.
 
 ```yaml
 Type: Guid
@@ -71,9 +64,9 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
-The unique ID of the tenant to perform the operation on.
-If this is not provided then the value will default to the tenant of the current user.
-This parameter is only applicable to partner users.
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
 
 ```yaml
 Type: Guid
@@ -88,7 +81,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserPrincipalName
-The user ID of the user to retrieve roles for.
+Specifies the user principal name of the user to retrieve roles for.
 
 ```yaml
 Type: String

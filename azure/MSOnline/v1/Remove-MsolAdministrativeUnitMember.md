@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: DE61C6A6-8503-4FD6-8EDD-C9AAEB62A882
-updated_at: 11/4/2016 10:40 PM
-ms.date: 11/4/2016
+updated_at: 11/10/2016 12:31 AM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolAdministrativeUnitMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c22ad9f927dcfe00a363b1a2c343fc086da2ac5/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolAdministrativeUnitMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolAdministrativeUnitMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -30,7 +30,7 @@ Remove-MsolAdministrativeUnitMember -AdministrativeUnitObjectId <Guid>
 ```
 
 ## DESCRIPTION
-The Remove-MsolAdministrativeUnitMember cmdlet is used to remove a member from an administrative unit.
+The **Remove-MsolAdministrativeUnitMember** cmdlet is used to remove a member from an administrative unit.
 
 ## EXAMPLES
 

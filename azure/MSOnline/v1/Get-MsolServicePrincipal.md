@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 3F9E2B81-398B-4C87-B786-DF5C59FAE369
-updated_at: 11/7/2016 8:50 PM
-ms.date: 11/7/2016
+updated_at: 11/10/2016 12:31 AM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e45b51fd816f025d32fa17a27b0e7eafee1289da/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -50,7 +50,7 @@ Get-MsolServicePrincipal [-SearchString <String>] [-All] [-TenantId <Guid>] [<Co
 ```
 
 ## DESCRIPTION
-The Get-MsolServicePrincipal cmdlet gets a service principal or a list of service principals from Azure Active Directory.
+The **Get-MsolServicePrincipal** cmdlet gets a service principal or a list of service principals from Azure Active Directory.
 
 ## EXAMPLES
 
