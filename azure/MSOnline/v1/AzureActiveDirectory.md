@@ -5,10 +5,10 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: BB86A603-6CD9-4299-89B8-30A2B4A011A0
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/10/2016 12:00 AM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ab567af35e6d1056d76cbc832dde9d77724fbd30/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
 uid: MSOnline/v1/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -29,7 +29,7 @@ This topic includes information about how to install these cmdlets for use with 
 
 ## Install the Azure AD Module
 
-The Azure AD Module is supported on the following Windows operating systems with the default version of Microsoft .NET Framework and Windows PowerShell: Windows 8.1, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2.
+The Azure AD Module is supported on the following Windows operating systems with the default version of Microsoft .NET Framework and Windows PowerShell: Windows 8.1, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2.
 
 There are two versions of the Azure Active Directory Module for Windows PowerShell available: a General Availability version and a Public Preview Version.
 The Public Preview version contains cmdlets that have not yet been released for General Availability.
@@ -117,7 +117,7 @@ Adds a member to an administrative unit.
 
 
 ### [Add-MsolForeignGroupToRole](./Add-MsolForeignGroupToRole.md)
-Adds the specified group from a partner tenant to a Role in this tenant.
+Adds a security group from a partner tenant to a Role in this tenant.
 
 
 ### [Add-MsolGroupMember](./Add-MsolGroupMember.md)
@@ -125,7 +125,7 @@ Adds a member to an existing security group.
 
 
 ### [Add-MsolRoleMember](./Add-MsolRoleMember.md)
-Adds a member to an existing administrator role.
+Adds a member to an administrator role.
 
 
 ### [Add-MsolScopedRoleMember](./Add-MsolScopedRoleMember.md)
@@ -141,11 +141,11 @@ Verifies a custom domain.
 
 
 ### [Connect-MsolService](./Connect-MsolService.md)
-Initiates a connection with Microsoft Azure Active Directory.
+Initiates a connection to Azure Active Directory.
 
 
 ### [Convert-MsolDomainToFederated](./Convert-MsolDomainToFederated.md)
-Converts the domain from using standard authentication to using single sign-on (also known as identity federation).
+Converts the domain from using standard authentication to using single sign-on.
 
 
 ### [Convert-MsolDomainToStandard](./Convert-MsolDomainToStandard.md)
@@ -153,7 +153,7 @@ Converts the domain from using single sign-on (also known as identity federation
 
 
 ### [Convert-MsolFederatedUser](./Convert-MsolFederatedUser.md)
-Updates a user in a domain that was recently converted from single sign-on (also known as identity federation) to standard authentication type.
+Updates a user in a domain that was recently converted from single sign-on.
 
 
 ### [Disable-MsolDevice](./Disable-MsolDevice.md)
@@ -165,7 +165,7 @@ Enables a device object in Azure Active Directory.
 
 
 ### [Get-MsolAccountSku](./Get-MsolAccountSku.md)
-Retrieves all the SKUs for a company.
+Returns all the SKUs for a company.
 
 
 ### [Get-MsolAdministrativeUnit](./Get-MsolAdministrativeUnit.md)
@@ -173,7 +173,7 @@ Retrieves administrative units from Azure AD.
 
 
 ### [Get-MsolAdministrativeUnitMember](./Get-MsolAdministrativeUnitMember.md)
-Retrieves the members of the specified administrative unit.
+Gets members of an administrative unit.
 
 
 ### [Get-MsolAllSettings](./Get-MsolAllSettings.md)
@@ -185,7 +185,7 @@ Gets all the directory setting templates that a tenant owns.
 
 
 ### [Get-MsolCompanyAllowedDataLocation](./Get-MsolCompanyAllowedDataLocation.md)
-Retrieves all the current allowed data locations of a company from Azure Active Directory.
+Get the current allowed data locations of a company from Azure Active Directory.
 
 
 ### [Get-MsolCompanyInformation](./Get-MsolCompanyInformation.md)
@@ -193,7 +193,7 @@ Retrieves company-level information.
 
 
 ### [Get-MsolContact](./Get-MsolContact.md)
-Retrieves a contact from Microsoft Azure Active Directory.
+Gets contacts from Azure Active Directory.
 
 
 ### [Get-MsolDeviceRegistrationServicePolicy](./Get-MsolDeviceRegistrationServicePolicy.md)
@@ -221,15 +221,15 @@ Retrieves a domain Microsoft Azure Active Directory.
 
 
 ### [Get-MsolDomainFederationSettings](./Get-MsolDomainFederationSettings.md)
-Retrieves settings for a federated domain.
+Gets key settings for a federated domain.
 
 
 ### [Get-MsolDomainVerificationDns](./Get-MsolDomainVerificationDns.md)
-Retrieves a list of records to configure a domain.
+Gets DNS records necessary to verify a domain.
 
 
 ### [Get-MsolFederationProperty](./Get-MsolFederationProperty.md)
-For the specified domain, displays the properties of the Active Directory Federation Services 2.0 server and Microsoft Online.
+Displays the properties of the Active Directory Federation Services 2.0 server and Microsoft Online.
 
 
 ### [Get-MsolGroup](./Get-MsolGroup.md)
@@ -245,7 +245,7 @@ Retrieves all members of the specified group.
 
 
 ### [Get-MsolPartnerContract](./Get-MsolPartnerContract.md)
-Retrieves a list of contracts for a partner.
+Gets a list of contracts for a partner.
 
 
 ### [Get-MsolPartnerInformation](./Get-MsolPartnerInformation.md)
@@ -253,19 +253,19 @@ Retrieves company-level information for partners.
 
 
 ### [Get-MsolPasswordPolicy](./Get-MsolPasswordPolicy.md)
-Retrieves the current password policy for the tenant or the specified domain.
+Gets the current password policy for a tenant or a domain.
 
 
 ### [Get-MsolRole](./Get-MsolRole.md)
-Retrieves administrator roles.
+Gets administrator roles.
 
 
 ### [Get-MsolRoleMember](./Get-MsolRoleMember.md)
-Retrieves all members of the specified role.
+Gets members of a role.
 
 
 ### [Get-MsolScopedRoleMember](./Get-MsolScopedRoleMember.md)
-Retrieves the members of the specified role who are granted that role over an administrative unit.
+Gets members of a role who are granted that role over an administrative unit.
 
 
 ### [Get-MsolServicePrincipal](./Get-MsolServicePrincipal.md)
@@ -273,7 +273,7 @@ Retrieves a service principal or list of service principals from Microsoft Azure
 
 
 ### [Get-MsolServicePrincipalCredential](./Get-MsolServicePrincipalCredential.md)
-Retrieves a list of credentials associated with a service principal.
+Gets credentials associated with a service principal.
 
 
 ### [Get-MsolSettings](./Get-MsolSettings.md)
@@ -285,11 +285,11 @@ Gets a directory setting template.
 
 
 ### [Get-MsolSubscription](./Get-MsolSubscription.md)
-Retrieves subscriptions.
+Gets subscriptions.
 
 
 ### [Get-MsolUser](./Get-MsolUser.md)
-Retrieves a user from Microsoft Azure Active Directory.
+Gets users from Azure Active Directory.
 
 
 ### [Get-MsolUserByStrongAuthentication](./Get-MsolUserByStrongAuthentication.md)
@@ -305,19 +305,19 @@ Adds a new administrative unit to Azure Active Directory.
 
 
 ### [New-MsolDomain](./New-MsolDomain.md)
-Add a new domain to Microsoft Azure Active Directory.
+Add a domain to Azure Active Directory.
 
 
 ### [New-MsolFederatedDomain](./New-MsolFederatedDomain.md)
-Adds a new single sign-on domain (also known as identity-federated domain) to Microsoft Online Services and establishes the relying party trust between the Active Directory Federation Services 2.0 server and Microsoft Online.
+Adds a new single sign-on domain to Microsoft Online Services and establishes the relying party trust.
 
 
 ### [New-MsolGroup](./New-MsolGroup.md)
-Adds a new group to the Microsoft Azure Active Directory.
+Adds a new group to the Azure Active Directory.
 
 
 ### [New-MsolLicenseOptions](./New-MsolLicenseOptions.md)
-Creates a new License Options object.
+Creates a License Options object.
 
 
 ### [New-MsolServicePrincipal](./New-MsolServicePrincipal.md)
@@ -337,7 +337,7 @@ Creates a directory setting.
 
 
 ### [New-MsolUser](./New-MsolUser.md)
-Adds a new user to Microsoft Azure Active Directory.
+Creates a user in Azure Active Directory.
 
 
 ### [New-MsolWellKnownGroup](./New-MsolWellKnownGroup.md)
@@ -345,19 +345,19 @@ Adds a new user to Microsoft Azure Active Directory.
 
 
 ### [Redo-MsolProvisionContact](./Redo-MsolProvisionContact.md)
-The Redo-MsolProvisionContact cmdlet can be used to retry the provisioning of a contact object in Microsoft Azure Active Directory when a previous attempt to create the contact object resulted in a validation error.
+Retries the provisioning of a contact object in Azure Active Directory.
 
 
 ### [Redo-MsolProvisionGroup](./Redo-MsolProvisionGroup.md)
-The Redo-MsolProvisionGroup cmdlet can be used to retry the provisioning of a group object in Microsoft Azure Active Directory when a previous attempt to create the group object resulted in a validation error.
+Retries the provisioning of a group object in Azure Active Directory.
 
 
 ### [Redo-MsolProvisionUser](./Redo-MsolProvisionUser.md)
-The Redo-MsolProvisionUser cmdlet can be used to retry the provisioning of a user object in Microsoft Azure Active Directory when a previous attempt to create the user object resulted in a validation error.
+Retries the provisioning of a user object in Azure Active Directory.
 
 
 ### [Remove-MsolAdministrativeUnit](./Remove-MsolAdministrativeUnit.md)
-Deletes an administrative unit from Azure AD.
+Deletes an administrative unit from Azure Active Directory.
 
 
 ### [Remove-MsolAdministrativeUnitMember](./Remove-MsolAdministrativeUnitMember.md)
@@ -369,7 +369,7 @@ Removes a member from an administrative unit.
 
 
 ### [Remove-MsolContact](./Remove-MsolContact.md)
-Removes a contact from Microsoft Azure Active Directory.
+Removes a contact from Azure Active Directory.
 
 
 ### [Remove-MsolDevice](./Remove-MsolDevice.md)
@@ -377,11 +377,11 @@ Remove a device object from Azure Active Directory.
 
 
 ### [Remove-MsolDomain](./Remove-MsolDomain.md)
-Removes a domain from Microsoft Azure Active Directory.
+Removes a domain from Azure Active Directory.
 
 
 ### [Remove-MsolFederatedDomain](./Remove-MsolFederatedDomain.md)
-Removes the specified single sign-on domain from the list of domains in Microsoft Online.
+Removes a single sign-on domain from the domains in Microsoft Online.
 
 
 ### [Remove-MsolForeignGroupFromRole](./Remove-MsolForeignGroupFromRole.md)
@@ -389,7 +389,7 @@ Removes the specified single sign-on domain from the list of domains in Microsof
 
 
 ### [Remove-MsolGroup](./Remove-MsolGroup.md)
-Removes a group from Microsoft Azure Active Directory.
+Removes a group from Azure Active Directory.
 
 
 ### [Remove-MsolGroupMember](./Remove-MsolGroupMember.md)
@@ -405,7 +405,7 @@ Removes a user from an administrative unit-scoped role.
 
 
 ### [Remove-MsolServicePrincipal](./Remove-MsolServicePrincipal.md)
-Removes a service principal from Microsoft Azure Active Directory.
+Removes a service principal from Azure Active Directory.
 
 
 ### [Remove-MsolServicePrincipalCredential](./Remove-MsolServicePrincipalCredential.md)
@@ -425,7 +425,7 @@ Removes a user from Microsoft Azure Active Directory.
 
 
 ### [Restore-MsolUser](./Restore-MsolUser.md)
-Restores a user from the Deleted users view to their original state.
+Restores a deleted user.
 
 
 ### [Set-MsolADFSContext](./Set-MsolADFSContext.md)
@@ -465,7 +465,7 @@ Sets the Azure Active Directory device registration service settings.
 
 
 ### [Set-MsolDirSyncEnabled](./Set-MsolDirSyncEnabled.md)
-Used to de-/activate Directory Sync for this tenant.
+Turns directory synchronization on or off for a company.
 
 
 ### [Set-MsolDirSyncFeature](./Set-MsolDirSyncFeature.md)
@@ -473,7 +473,7 @@ Sets identity synchronization features for a tenant.
 
 
 ### [Set-MsolDomain](./Set-MsolDomain.md)
-Updates the settings of a domain.
+Modifies settings of a domain.
 
 
 ### [Set-MsolDomainAuthentication](./Set-MsolDomainAuthentication.md)
@@ -493,7 +493,7 @@ Sets company information for partners.
 
 
 ### [Set-MsolPasswordPolicy](./Set-MsolPasswordPolicy.md)
-Sets the values associated with the password notification window and password validity window for a specified domain or all domains in the tenant.
+Updates the password policy of a specified domain or tenant.
 
 
 ### [Set-MsolServicePrincipal](./Set-MsolServicePrincipal.md)
@@ -505,7 +505,7 @@ Updates a directory setting in Azure Active Directory.
 
 
 ### [Set-MsolUser](./Set-MsolUser.md)
-Updates a user in Microsoft Azure Active Directory.
+Modifies a user in Azure Active Directory.
 
 
 ### [Set-MsolUserLicense](./Set-MsolUserLicense.md)
@@ -538,6 +538,3 @@ These include the following:
 [Administering your Azure AD directory](https://msdn.microsoft.com/en-us/library/azure/hh967611(v=azure.98).aspx)
 
 [Install Windows PowerShell for directory synchronization](https://msdn.microsoft.com/en-us/library/azure/jj151828(v=azure.98).aspx)
-
-
-
