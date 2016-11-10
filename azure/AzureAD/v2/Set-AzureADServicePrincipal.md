@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 540A8E20-80C9-48D8-BE49-E1DA84FD3BF7
-updated_at: 11/1/2016 11:00 PM
-ms.date: 11/1/2016
+updated_at: 11/10/2016 7:53 PM
+ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/66db348a9213e1862a01affd9f2b97c6fe02dc79/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/621eb00da26e368604329e898d0970aa3f71fd4b/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureADServicePrincipal
 
 ## SYNOPSIS
-Updates a service principal in Azure Active Directory
+Updates a service principal.
 
 ## SYNTAX
 
@@ -37,18 +37,13 @@ Set-AzureADServicePrincipal -ObjectId <String> [-InformationAction <ActionPrefer
 ```
 
 ## DESCRIPTION
+The **Set-AzureADServicePrincipal** cmdlet updates a service principal in Azure Active Directory (AD).
 
-## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique idenfier of an service principal in Azure Active Directory
+Specifeis the ID of a service principal in Azure AD.
 
 ```yaml
 Type: String
@@ -63,9 +58,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
 - Continue
 - Ignore
@@ -102,7 +95,7 @@ Accept wildcard characters: False
 ```
 
 ### -AccountEnabled
-@{Text=}
+Indicates whether the account is enabled.
 
 ```yaml
 Type: String
@@ -117,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppId
-@{Text=}
+Specifies the application ID.
 
 ```yaml
 Type: String
@@ -132,7 +125,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppRoleAssignmentRequired
-@{Text=}
+Indicates whether an application role assignment is required.
 
 ```yaml
 Type: Boolean
@@ -147,7 +140,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-@{Text=}
+Specifies the display name.
 
 ```yaml
 Type: String
@@ -162,7 +155,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorUrl
-@{Text=}
+Specifies the error URL.
 
 ```yaml
 Type: String
@@ -177,7 +170,7 @@ Accept wildcard characters: False
 ```
 
 ### -Homepage
-@{Text=}
+Specifies the home page.
 
 ```yaml
 Type: String
@@ -192,7 +185,7 @@ Accept wildcard characters: False
 ```
 
 ### -KeyCredentials
-@{Text=}
+Specifies key credentials.
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.KeyCredential]
@@ -207,7 +200,7 @@ Accept wildcard characters: False
 ```
 
 ### -LogoutUrl
-@{Text=}
+Specifies the logout URL.
 
 ```yaml
 Type: String
@@ -222,7 +215,7 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordCredentials
-@{Text=}
+Specifies password credentials.
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.PasswordCredential]
@@ -237,7 +230,7 @@ Accept wildcard characters: False
 ```
 
 ### -PublisherName
-@{Text=}
+Specifies the publisher name.
 
 ```yaml
 Type: String
@@ -252,7 +245,7 @@ Accept wildcard characters: False
 ```
 
 ### -ReplyUrl
-@{Text=}
+Specifies a reply URL.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -267,7 +260,6 @@ Accept wildcard characters: False
 ```
 
 ### -SamlMetadataUrl
-@{Text=}
 
 ```yaml
 Type: String
@@ -282,7 +274,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalNames
-@{Text=}
+Specifies service principal names.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -297,7 +289,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-@{Text=}
+Specifies an array of tags.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -321,5 +313,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADServicePrincipal](xref:AzureAD/v2/Get-AzureADServicePrincipal.md)
 
+[New-AzureADServicePrincipal](xref:AzureAD/v2/New-AzureADServicePrincipal.md)
 
+[Remove-AzureADServicePrincipal](xref:AzureAD/v2/Remove-AzureADServicePrincipal.md)
