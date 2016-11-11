@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_MachineLearning_v0_11_1_New_AzureRmMlWebService_md
 ---
 
 # New-AzureRmMlWebService

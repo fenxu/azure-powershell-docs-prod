@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_DNS_v2_2_0_Add_AzureRmDnsRecordConfig_md
 ---
 
 # Add-AzureRmDnsRecordConfig

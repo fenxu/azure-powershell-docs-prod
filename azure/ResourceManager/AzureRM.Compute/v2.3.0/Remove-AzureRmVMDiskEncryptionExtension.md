@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Compute_v2_3_0_Remove_AzureRmVMDiskEncryptionExtension_md
 ---
 
 # Remove-AzureRmVMDiskEncryptionExtension

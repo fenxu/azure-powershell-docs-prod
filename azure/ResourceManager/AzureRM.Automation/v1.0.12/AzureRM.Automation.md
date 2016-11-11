@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Automation_v1_0_12_AzureRM_Automation_md
 ---
 
 # AzureRM.Automation Module

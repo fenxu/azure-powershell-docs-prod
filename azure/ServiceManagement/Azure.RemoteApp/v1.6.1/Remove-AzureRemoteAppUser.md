@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_RemoteApp_v1_6_1_Remove_AzureRemoteAppUser_md
 ---
 
 # Remove-AzureRemoteAppUser

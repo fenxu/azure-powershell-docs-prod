@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_KeyVault_v1_1_11_Restore_AzureKeyVaultKey_md
 ---
 
 # Restore-AzureKeyVaultKey

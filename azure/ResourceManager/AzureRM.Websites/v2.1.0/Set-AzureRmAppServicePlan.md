@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Websites_v2_1_0_Set_AzureRmAppServicePlan_md
 ---
 
 # Set-AzureRmAppServicePlan

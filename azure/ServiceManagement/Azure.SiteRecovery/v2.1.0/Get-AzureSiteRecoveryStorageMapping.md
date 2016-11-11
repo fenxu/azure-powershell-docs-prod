@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_SiteRecovery_v2_1_0_Get_AzureSiteRecoveryStorageMapping_md
 ---
 
 # Get-AzureSiteRecoveryStorageMapping

@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_HDInsight_v2_2_0_AzureRM_HDInsight_md
 ---
 
 # AzureRM.HDInsight Module

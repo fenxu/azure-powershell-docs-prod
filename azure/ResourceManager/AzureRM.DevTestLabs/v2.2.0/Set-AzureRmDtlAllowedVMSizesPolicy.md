@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_DevTestLabs_v2_2_0_Set_AzureRmDtlAllowedVMSizesPolicy_md
 ---
 
 # Set-AzureRmDtlAllowedVMSizesPolicy

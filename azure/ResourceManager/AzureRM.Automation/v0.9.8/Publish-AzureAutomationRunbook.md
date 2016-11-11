@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Automation_v0_9_8_Publish_AzureAutomationRunbook_md
 ---
 
 # Publish-AzureAutomationRunbook

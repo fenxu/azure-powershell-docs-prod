@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_ApiManagement_ServiceManagement_v1_1_4_Microsoft_Azure_Commands_ApiManagement_ServiceManagement_md
 ---
 
 # Microsoft.Azure.Commands.ApiManagement.ServiceManagement Module

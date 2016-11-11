@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Network_v3_1_0_Get_AzureRmNetworkInterfaceIpConfig_md
 ---
 
 # Get-AzureRmNetworkInterfaceIpConfig

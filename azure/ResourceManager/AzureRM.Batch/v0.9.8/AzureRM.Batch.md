@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Batch_v0_9_8_AzureRM_Batch_md
 ---
 
 # AzureRM.Batch Module

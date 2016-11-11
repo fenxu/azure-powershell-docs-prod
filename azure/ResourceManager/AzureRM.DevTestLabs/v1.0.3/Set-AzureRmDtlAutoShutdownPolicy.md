@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_DevTestLabs_v1_0_3_Set_AzureRmDtlAutoShutdownPolicy_md
 ---
 
 # Set-AzureRmDtlAutoShutdownPolicy

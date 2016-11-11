@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_UsageAggregates_v2_3_0_AzureRM_UsageAggregates_md
 ---
 
 # AzureRM.UsageAggregates Module

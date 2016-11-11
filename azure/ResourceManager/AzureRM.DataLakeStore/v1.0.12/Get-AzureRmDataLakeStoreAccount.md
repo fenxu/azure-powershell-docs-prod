@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_DataLakeStore_v1_0_12_Get_AzureRmDataLakeStoreAccount_md
 ---
 
 # Get-AzureRmDataLakeStoreAccount

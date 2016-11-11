@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_ApiManagement_v1_1_4_Update_AzureRmApiManagementDeployment_md
 ---
 
 # Update-AzureRmApiManagementDeployment

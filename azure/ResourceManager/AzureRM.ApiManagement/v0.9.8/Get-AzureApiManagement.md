@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_ApiManagement_v0_9_8_Get_AzureApiManagement_md
 ---
 
 # Get-AzureApiManagement

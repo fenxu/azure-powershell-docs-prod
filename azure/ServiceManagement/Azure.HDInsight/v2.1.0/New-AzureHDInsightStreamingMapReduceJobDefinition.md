@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_HDInsight_v2_1_0_New_AzureHDInsightStreamingMapReduceJobDefinition_md
 ---
 
 # New-AzureHDInsightStreamingMapReduceJobDefinition

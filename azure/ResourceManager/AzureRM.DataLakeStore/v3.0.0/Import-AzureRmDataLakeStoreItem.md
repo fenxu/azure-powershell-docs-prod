@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_DataLakeStore_v3_0_0_Import_AzureRmDataLakeStoreItem_md
 ---
 
 # Import-AzureRmDataLakeStoreItem

@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: Storage_Azure_Storage_v2_1_0_Set_AzureStorageShareQuota_md
 ---
 
 # Set-AzureStorageShareQuota

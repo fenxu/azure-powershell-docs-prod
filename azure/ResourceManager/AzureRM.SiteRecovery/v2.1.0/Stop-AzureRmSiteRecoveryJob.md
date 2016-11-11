@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_SiteRecovery_v2_1_0_Stop_AzureRmSiteRecoveryJob_md
 ---
 
 # Stop-AzureRmSiteRecoveryJob

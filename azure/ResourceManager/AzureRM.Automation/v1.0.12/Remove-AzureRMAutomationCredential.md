@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Automation_v1_0_12_Remove_AzureRMAutomationCredential_md
 ---
 
 # Remove-AzureRmAutomationCredential

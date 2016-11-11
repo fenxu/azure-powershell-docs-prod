@@ -11,6 +11,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: Storage_index_md
 ---
 # Azure Storage
 

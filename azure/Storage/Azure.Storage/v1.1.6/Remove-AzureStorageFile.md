@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: Storage_Azure_Storage_v1_1_6_Remove_AzureStorageFile_md
 ---
 
 # Remove-AzureStorageFile

@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Compute_v2_1_0_Remove_AzureRmVMBackup_md
 ---
 
 # Remove-AzureRmVMBackup

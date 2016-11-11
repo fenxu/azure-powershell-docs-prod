@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_RecoveryServices_Backup_v2_2_0_Stop_AzureRmRecoveryServicesBackupJob_md
 ---
 
 # Stop-AzureRmRecoveryServicesBackupJob

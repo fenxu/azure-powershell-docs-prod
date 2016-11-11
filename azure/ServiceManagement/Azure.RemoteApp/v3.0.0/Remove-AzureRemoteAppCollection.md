@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_RemoteApp_v3_0_0_Remove_AzureRemoteAppCollection_md
 ---
 
 # Remove-AzureRemoteAppCollection

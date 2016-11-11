@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_DataFactories_v2_1_0_Resume_AzureRmDataFactoryPipeline_md
 ---
 
 # Resume-AzureRmDataFactoryPipeline

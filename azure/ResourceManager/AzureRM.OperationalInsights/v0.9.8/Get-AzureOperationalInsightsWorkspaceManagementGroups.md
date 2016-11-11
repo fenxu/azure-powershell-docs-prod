@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_OperationalInsights_v0_9_8_Get_AzureOperationalInsightsWorkspaceManagementGroups_md
 ---
 
 # Get-AzureOperationalInsightsWorkspaceManagementGroups

@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Insights_v1_0_12_Get_AzureRmDiagnosticSetting_md
 ---
 
 # Get-AzureRmDiagnosticSetting

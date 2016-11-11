@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Resources_v2_0_3_AzureRM_Resources_md
 ---
 
 # AzureRM.Resources Module

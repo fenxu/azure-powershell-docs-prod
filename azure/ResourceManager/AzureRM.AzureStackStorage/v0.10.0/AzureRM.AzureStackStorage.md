@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_AzureStackStorage_v0_10_0_AzureRM_AzureStackStorage_md
 ---
 
 # AzureRM.AzureStackStorage Module

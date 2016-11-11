@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_RecoveryServices_Backup_v1_0_4_Get_AzureRmRecoveryServicesBackupManagementServer_md
 ---
 
 # Get-AzureRmRecoveryServicesBackupManagementServer

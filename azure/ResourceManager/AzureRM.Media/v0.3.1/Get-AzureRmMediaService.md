@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Media_v0_3_1_Get_AzureRmMediaService_md
 ---
 
 # Get-AzureRmMediaService

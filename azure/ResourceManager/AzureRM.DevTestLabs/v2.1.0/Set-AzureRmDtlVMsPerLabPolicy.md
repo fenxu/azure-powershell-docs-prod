@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_DevTestLabs_v2_1_0_Set_AzureRmDtlVMsPerLabPolicy_md
 ---
 
 # Set-AzureRmDtlVMsPerLabPolicy

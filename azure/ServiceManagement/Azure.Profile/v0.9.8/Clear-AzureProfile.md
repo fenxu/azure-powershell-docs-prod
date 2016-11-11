@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_Profile_v0_9_8_Clear_AzureProfile_md
 ---
 
 # Clear-AzureProfile

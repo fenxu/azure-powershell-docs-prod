@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_AzureStackStorage_v0_9_8_1_Get_ACSManagementServiceMetricDefinition_md
 ---
 
 # Get-ACSManagementServiceMetricDefinition

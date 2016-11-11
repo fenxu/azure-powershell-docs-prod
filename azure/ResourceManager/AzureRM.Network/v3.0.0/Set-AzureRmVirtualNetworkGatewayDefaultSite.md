@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Network_v3_0_0_Set_AzureRmVirtualNetworkGatewayDefaultSite_md
 ---
 
 # Set-AzureRmVirtualNetworkGatewayDefaultSite

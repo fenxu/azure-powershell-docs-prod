@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_SiteRecovery_v3_2_0_Get_AzureRmSiteRecoveryPolicy_md
 ---
 
 # Get-AzureRmSiteRecoveryPolicy

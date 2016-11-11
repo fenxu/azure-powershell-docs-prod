@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_Service_v1_6_1_Get_AzureVMDscExtension_md
 ---
 
 # Get-AzureVMDscExtension

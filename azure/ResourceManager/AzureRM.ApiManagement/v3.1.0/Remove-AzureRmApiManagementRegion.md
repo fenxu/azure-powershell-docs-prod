@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_ApiManagement_v3_1_0_Remove_AzureRmApiManagementRegion_md
 ---
 
 # Remove-AzureRmApiManagementRegion

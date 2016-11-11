@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_CognitiveServices_v0_4_1_Get_AzureRmCognitiveServicesAccount_md
 ---
 
 # Get-AzureRmCognitiveServicesAccount

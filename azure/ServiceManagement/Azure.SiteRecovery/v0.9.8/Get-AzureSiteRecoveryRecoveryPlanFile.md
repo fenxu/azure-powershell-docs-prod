@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_SiteRecovery_v0_9_8_Get_AzureSiteRecoveryRecoveryPlanFile_md
 ---
 
 # Get-AzureSiteRecoveryRecoveryPlanFile

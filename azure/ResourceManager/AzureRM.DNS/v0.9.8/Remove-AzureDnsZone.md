@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_DNS_v0_9_8_Remove_AzureDnsZone_md
 ---
 
 # Remove-AzureDnsZone

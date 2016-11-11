@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_OperationalInsights_v2_3_0_New_AzureRmOperationalInsightsLinuxSyslogDataSource_md
 ---
 
 # New-AzureRmOperationalInsightsLinuxSyslogDataSource
