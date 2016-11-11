@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_Networking_v3_1_0_Set_AzureNetworkSecurityRule_md
 ---
 
 # Set-AzureNetworkSecurityRule

@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_Profile_v2_1_0_Azure_Profile_md
 ---
 
 # Azure.Profile Module

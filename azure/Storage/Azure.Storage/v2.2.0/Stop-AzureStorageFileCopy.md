@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: Storage_Azure_Storage_v2_2_0_Stop_AzureStorageFileCopy_md
 ---
 
 # Stop-AzureStorageFileCopy

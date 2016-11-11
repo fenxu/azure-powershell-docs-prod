@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_DataFactories_v2_1_0_Remove_AzureRmDataFactoryPipeline_md
 ---
 
 # Remove-AzureRmDataFactoryPipeline

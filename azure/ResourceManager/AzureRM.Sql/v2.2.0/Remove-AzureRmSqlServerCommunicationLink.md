@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Sql_v2_2_0_Remove_AzureRmSqlServerCommunicationLink_md
 ---
 
 # Remove-AzureRmSqlServerCommunicationLink

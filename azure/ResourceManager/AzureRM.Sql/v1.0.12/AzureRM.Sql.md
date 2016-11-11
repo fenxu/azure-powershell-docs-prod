@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Sql_v1_0_12_AzureRM_Sql_md
 ---
 
 # AzureRM.Sql Module

@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_LogicApp_v1_0_8_AzureRM_LogicApp_md
 ---
 
 # AzureRM.LogicApp Module

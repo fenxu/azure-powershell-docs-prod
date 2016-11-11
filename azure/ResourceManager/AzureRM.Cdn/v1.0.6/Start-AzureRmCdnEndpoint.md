@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Cdn_v1_0_6_Start_AzureRmCdnEndpoint_md
 ---
 
 # Start-AzureRmCdnEndpoint

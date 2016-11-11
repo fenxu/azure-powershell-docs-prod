@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Network_v2_1_0_Remove_AzureRmLoadBalancerInboundNatPoolConfig_md
 ---
 
 # Remove-AzureRmLoadBalancerInboundNatPoolConfig

@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: Storage_Azure_Storage_v1_1_6_New_AzureStorageFileSASToken_md
 ---
 
 # New-AzureStorageFileSASToken

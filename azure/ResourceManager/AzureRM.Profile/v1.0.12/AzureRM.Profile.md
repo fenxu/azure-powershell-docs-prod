@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Profile_v1_0_12_AzureRM_Profile_md
 ---
 
 # AzureRM.Profile Module

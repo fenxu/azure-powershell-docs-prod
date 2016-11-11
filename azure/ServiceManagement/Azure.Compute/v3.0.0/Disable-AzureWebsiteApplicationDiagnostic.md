@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_Compute_v3_0_0_Disable_AzureWebsiteApplicationDiagnostic_md
 ---
 
 # Disable-AzureWebsiteApplicationDiagnostic

@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Sql_v2_1_0_New_AzureRmSqlServerDisasterRecoveryConfiguration_md
 ---
 
 # New-AzureRmSqlServerDisasterRecoveryConfiguration

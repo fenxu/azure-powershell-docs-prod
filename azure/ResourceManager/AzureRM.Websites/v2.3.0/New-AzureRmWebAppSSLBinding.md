@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Websites_v2_3_0_New_AzureRmWebAppSSLBinding_md
 ---
 
 # New-AzureRmWebAppSSLBinding

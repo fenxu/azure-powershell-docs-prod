@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_ServerManagement_v2_1_0_AzureRM_ServerManagement_md
 ---
 
 # AzureRM.ServerManagement Module

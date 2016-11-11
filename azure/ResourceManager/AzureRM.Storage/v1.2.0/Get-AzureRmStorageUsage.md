@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Storage_v1_2_0_Get_AzureRmStorageUsage_md
 ---
 
 # Get-AzureRmStorageUsage

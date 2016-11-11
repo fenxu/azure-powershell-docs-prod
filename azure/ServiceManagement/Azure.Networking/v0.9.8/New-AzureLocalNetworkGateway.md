@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_Networking_v0_9_8_New_AzureLocalNetworkGateway_md
 ---
 
 # New-AzureLocalNetworkGateway

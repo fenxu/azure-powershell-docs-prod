@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Resources_v3_3_0_Remove_AzureRmPolicyAssignment_md
 ---
 
 # Remove-AzureRmPolicyAssignment

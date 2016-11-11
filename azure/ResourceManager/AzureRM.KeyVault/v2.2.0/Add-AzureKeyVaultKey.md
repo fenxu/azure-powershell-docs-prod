@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_KeyVault_v2_2_0_Add_AzureKeyVaultKey_md
 ---
 
 # Add-AzureKeyVaultKey

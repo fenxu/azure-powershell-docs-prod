@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_StorSimple_v3_1_0_New_AzureStorSimpleInlineStorageAccountCredential_md
 ---
 
 # New-AzureStorSimpleInlineStorageAccountCredential

@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_PowerBIEmbedded_v1_0_1_AzureRM_PowerBIEmbedded_md
 ---
 
 # AzureRM.PowerBIEmbedded Module

@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_Automation_v1_6_1_Set_AzureAutomationModule_md
 ---
 
 # Set-AzureAutomationModule

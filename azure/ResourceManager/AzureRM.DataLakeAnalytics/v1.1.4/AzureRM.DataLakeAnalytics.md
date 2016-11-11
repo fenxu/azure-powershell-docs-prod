@@ -17,6 +17,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_DataLakeAnalytics_v1_1_4_AzureRM_DataLakeAnalytics_md
 ---
 
 # AzureRM.DataLakeAnalytics Module

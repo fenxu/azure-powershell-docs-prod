@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Scheduler_v0_11_0_Disable_AzureRmSchedulerJobCollection_md
 ---
 
 # Disable-AzureRmSchedulerJobCollection

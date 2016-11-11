@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_UsageAggregates_v2_1_0_Get_UsageAggregates_md
 ---
 
 # Get-UsageAggregates

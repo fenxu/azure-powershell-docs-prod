@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_OperationalInsights_v1_0_12_New_AzureRmOperationalInsightsStorageInsight_md
 ---
 
 # New-AzureRmOperationalInsightsStorageInsight

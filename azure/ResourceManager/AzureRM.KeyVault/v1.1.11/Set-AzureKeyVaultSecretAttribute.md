@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_KeyVault_v1_1_11_Set_AzureKeyVaultSecretAttribute_md
 ---
 
 # Set-AzureKeyVaultSecretAttribute

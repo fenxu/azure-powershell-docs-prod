@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Backup_v2_2_0_New_AzureRmBackupVault_md
 ---
 
 # New-AzureRmBackupVault

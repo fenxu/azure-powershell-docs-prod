@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Network_v1_0_13_Set_AzureRmApplicationGatewayUrlPathMapConfig_md
 ---
 
 # Set-AzureRmApplicationGatewayUrlPathMapConfig

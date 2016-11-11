@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_RedisCache_v1_1_10_Get_AzureRmRedisCacheKey_md
 ---
 
 # Get-AzureRmRedisCacheKey

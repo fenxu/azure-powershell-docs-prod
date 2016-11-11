@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_ServerManagement_v2_2_0_Invoke_AzureRmServerManagementPowerShellCommand_md
 ---
 
 # Invoke-AzureRmServerManagementPowerShellCommand

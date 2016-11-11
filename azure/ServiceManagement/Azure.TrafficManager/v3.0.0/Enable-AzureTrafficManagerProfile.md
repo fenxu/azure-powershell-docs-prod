@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceManagement_Azure_TrafficManager_v3_0_0_Enable_AzureTrafficManagerProfile_md
 ---
 
 # Enable-AzureTrafficManagerProfile

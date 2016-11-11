@@ -14,6 +14,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_AzureStackAdmin_v1_2_6_Remove_AzureRMManagedLocation_md
 ---
 
 # Remove-AzureRMManagedLocation

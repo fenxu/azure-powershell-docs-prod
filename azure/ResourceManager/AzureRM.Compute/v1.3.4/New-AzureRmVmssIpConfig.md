@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Compute_v1_3_4_New_AzureRmVmssIpConfig_md
 ---
 
 # New-AzureRmVmssIpConfig

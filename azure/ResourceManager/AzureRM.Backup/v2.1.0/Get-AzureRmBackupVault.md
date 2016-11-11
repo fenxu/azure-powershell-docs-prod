@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_Backup_v2_1_0_Get_AzureRmBackupVault_md
 ---
 
 # Get-AzureRmBackupVault

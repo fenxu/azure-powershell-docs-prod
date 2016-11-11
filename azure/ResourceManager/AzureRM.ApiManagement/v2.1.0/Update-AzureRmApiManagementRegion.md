@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_ApiManagement_v2_1_0_Update_AzureRmApiManagementRegion_md
 ---
 
 # Update-AzureRmApiManagementRegion

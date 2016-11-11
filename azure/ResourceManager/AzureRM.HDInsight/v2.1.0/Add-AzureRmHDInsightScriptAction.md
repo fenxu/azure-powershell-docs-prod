@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ResourceManager_AzureRM_HDInsight_v2_1_0_Add_AzureRmHDInsightScriptAction_md
 ---
 
 # Add-AzureRmHDInsightScriptAction
