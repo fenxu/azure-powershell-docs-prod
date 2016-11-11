@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./Get-AzureSqlJobExecution.md
+online version:
 schema: 2.0.0
 ms.assetid: 2882003C-8B0B-4007-8A40-D19BB6731CE2
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_Wait_AzureSqlJobExecution_md
 ---
 
 # Wait-AzureSqlJobExecution
@@ -69,7 +70,7 @@ Indicates that the cmdlet will wait for only one provided job to complete rather
 ```yaml
 Type: SwitchParameter
 Parameter Sets: JobExecutionId, JobExecutionInfo
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -80,13 +81,13 @@ Accept wildcard characters: False
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet. 
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -96,13 +97,13 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-Specifies JobExecutionInfo object(s) on which to wait. 
-JobExecutionInfo objects can be obtained using the Get-AzureSqlJobExecution cmdlet.
+Specifies JobExecutionInfo object(s) on which to wait.
+JobExecutionInfo objects can be obtained using the [Get-AzureSqlJobExecution](./Get-AzureSqlJobExecution.md) cmdlet.
 
 ```yaml
 Type: JobExecutionInfo[]
 Parameter Sets: JobExecutionInfo
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -117,7 +118,7 @@ Specifies the job execution ID.
 ```yaml
 Type: Guid[]
 Parameter Sets: JobExecutionId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -132,7 +133,7 @@ Specifies the name of the job.
 ```yaml
 Type: String[]
 Parameter Sets: JobName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -147,7 +148,7 @@ Specifies the time duration before this cmdlet times out.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -167,12 +168,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobExecution](./Get-AzureSqlJobExecution.md)
+[Get-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md)
 
-[Start-AzureSqlJobExecution](./Start-AzureSqlJobExecution.md)
+[Start-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Start-AzureSqlJobExecution.md)
 
-[Stop-AzureSqlJobExecution](./Stop-AzureSqlJobExecution.md)
+[Stop-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Stop-AzureSqlJobExecution.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
-
-
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)

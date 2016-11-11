@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./New-AzureSqlJobExecutionPolicy.md
+online version:
 schema: 2.0.0
 ms.assetid: 99EFE3ED-F237-438F-A799-6C3A344FE043
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecutionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecutionPolicy.md
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecutionPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecutionPolicy.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_Get_AzureSqlJobExecutionPolicy_md
 ---
 
 # Get-AzureSqlJobExecutionPolicy
@@ -57,13 +58,13 @@ This command gets an execution policy.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the N[ew-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -73,12 +74,12 @@ Accept wildcard characters: False
 ```
 
 ### -ExecutionPolicyName
-Specifies the name of the execution policy to retrieve.
+Specifies the name of the execution policy that this cmdlet gets.
 
 ```yaml
 Type: String[]
 Parameter Sets: ExecutionPolicyName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -98,10 +99,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobExecutionPolicy](./New-AzureSqlJobExecutionPolicy.md)
+[New-AzureSqlJobExecutionPolicy](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobExecutionPolicy.md)
 
-[Set-AzureSqlJobExecutionPolicy](./Set-AzureSqlJobExecutionPolicy.md)
+[Set-AzureSqlJobExecutionPolicy](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobExecutionPolicy.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
 
-
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)

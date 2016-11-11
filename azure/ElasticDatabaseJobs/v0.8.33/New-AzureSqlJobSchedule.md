@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./Get-AzureSqlJobSchedule.md
+online version:
 schema: 2.0.0
 ms.assetid: A6FB51F0-2A72-4D99-A400-8FBB4E82B3CA
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobSchedule.md
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobSchedule.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_New_AzureSqlJobSchedule_md
 ---
 
 # New-AzureSqlJobSchedule
@@ -63,7 +64,7 @@ New-AzureSqlJobSchedule -ScheduleName <String> [-StartTime <DateTimeOffset>] [-E
 ## DESCRIPTION
 The **New-AzureSqlJobSchedule** cmdlet creates a time based specification for a job run to take place either on a reoccurring interval or at a single time.
 
-Jobs can be set to run according to a schedule through the creation of a trigger through the New-AzureSqlJobTrigger cmdlet.
+Jobs can be set to run according to a schedule through the creation of a trigger through the [New-AzureSqlJobTrigger](./New-AzureSqlJobTrigger.md) cmdlet.
 
 ## EXAMPLES
 
@@ -111,13 +112,13 @@ This command creates a schedule to be triggered once at the provided start time.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -132,7 +133,7 @@ Specifies the number of days to allow to elapse between jobs.
 ```yaml
 Type: Int32
 Parameter Sets: DayInterval
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -147,7 +148,7 @@ Specifies the ending time for the schedule to be active.
 ```yaml
 Type: DateTimeOffset
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -162,7 +163,7 @@ Specifies the number of hours to allow to elapse between jobs.
 ```yaml
 Type: Int32
 Parameter Sets: HourInterval
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -177,7 +178,7 @@ Specifies the number of minutes to allow to elapse between jobs.
 ```yaml
 Type: Int32
 Parameter Sets: MinuteInterval
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -192,7 +193,7 @@ Specifies the number of months to allow to elapse between jobs.
 ```yaml
 Type: Int32
 Parameter Sets: MonthInterval
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -207,7 +208,7 @@ Indicates that the schedule will only run once on the specified start time.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: OneTime
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -222,7 +223,7 @@ Specifies the name of the schedule.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -237,7 +238,7 @@ Specifies the starting time for the schedule to be active.
 ```yaml
 Type: DateTimeOffset
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -252,7 +253,7 @@ Specifies the number of weeks to allow to elapse between jobs.
 ```yaml
 Type: Int32
 Parameter Sets: WeekInterval
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -272,8 +273,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobSchedule](./Get-AzureSqlJobSchedule.md)
+[Get-AzureSqlJobSchedule](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobSchedule.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
-
-
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)

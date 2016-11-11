@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./New-AzureSqlJobTrigger.md
+online version:
 schema: 2.0.0
 ms.assetid: 3BC3E6BB-A0E5-4702-8D65-E9271B7CA9E0
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTrigger.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTrigger.md
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTrigger.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTrigger.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_Get_AzureSqlJobTrigger_md
 ---
 
 # Get-AzureSqlJobTrigger
@@ -30,8 +31,8 @@ Get-AzureSqlJobTrigger [-JobName <String>] [-ScheduleName <String>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureSqlJobTrigger** cmdlet gets one or multiple job triggers. 
-A job trigger is a mapping of job to schedules. 
+The **Get-AzureSqlJobTrigger** cmdlet gets one or multiple job triggers.
+A job trigger is a mapping of job to schedules.
 In accordance to the schedule definition, job runs are triggered for each job or schedule mapping.
 
 ## EXAMPLES
@@ -73,13 +74,13 @@ This command gets all triggers defined in the system.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -95,7 +96,7 @@ If you specify this parameter, this cmdlet returns triggers that are bounded to 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,7 +112,7 @@ If you specify this parameter, this cmdlet returns triggers that are bounded to 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -131,12 +132,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobTrigger](./New-AzureSqlJobTrigger.md)
+[New-AzureSqlJobTrigger](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTrigger.md)
 
-[Remove-AzureSqlJobTrigger](./Remove-AzureSqlJobTrigger.md)
+[Remove-AzureSqlJobTrigger](xref:ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJobTrigger.md)
 
-[Set-AzureSqlJobTrigger](./Set-AzureSqlJobTrigger.md)
+[Set-AzureSqlJobTrigger](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTrigger.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
 
-
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)

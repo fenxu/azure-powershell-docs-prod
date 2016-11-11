@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./Get-AzureSqlJobCredential.md
+online version:
 schema: 2.0.0
 ms.assetid: 2123018B-F7F8-42CE-82AD-30BFA0B52EE5
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_Set_AzureSqlJobCredential_md
 ---
 
 # Set-AzureSqlJobCredential
@@ -43,7 +44,7 @@ The **Set-AzureJobCredential** cmdlet updates the username or password within an
 
 ### Example 1: Update an existing credential
 ```
-PS C:\>Set-AzureSqlJobCredential -CredentialName "MyCredential" -Credential (Get-Credential) 
+PS C:\>Set-AzureSqlJobCredential -CredentialName "MyCredential" -Credential (Get-Credential)
 CredentialName                                                                 UserName                                                                      
 --------------                                                                 --------                                                                      
 MyCredential                                                                   MyUsername
@@ -55,13 +56,13 @@ This command updates the credential named MyCredential with the provided credent
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet. 
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -76,7 +77,7 @@ Specifies the **PSCredential** object containing the username and password.
 ```yaml
 Type: PSCredential
 Parameter Sets: Credential
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -91,7 +92,7 @@ Specifies the name of the credential.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -106,7 +107,7 @@ Specifies the new password for the updated credentials.
 ```yaml
 Type: SecureString
 Parameter Sets: UserNameAndPassword
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -121,7 +122,7 @@ Specifies the user name for the updated credential.
 ```yaml
 Type: String
 Parameter Sets: UserNameAndPassword
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -141,10 +142,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobCredential](./Get-AzureSqlJobCredential.md)
+[Get-AzureSqlJobCredential](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobCredential.md)
 
-[New-AzureSqlJobCredential](./New-AzureSqlJobCredential.md)
+[New-AzureSqlJobCredential](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobCredential.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
-
-
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)

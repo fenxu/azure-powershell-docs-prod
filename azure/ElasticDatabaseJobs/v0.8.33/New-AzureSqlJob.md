@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./Get-AzureSqlJob.md
+online version:
 schema: 2.0.0
 ms.assetid: EAA47557-0286-4A6E-BC2C-7A74DA74B8A6
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
+updated_at: 11/7/2016 6:45 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/4b0ea6957de1341f1677064c4aad86313b6b5a33/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_New_AzureSqlJob_md
 ---
 
 # New-AzureSqlJob
@@ -42,7 +43,7 @@ New-AzureSqlJob -JobName <String> -CredentialName <String> -ContentName <String>
 ## DESCRIPTION
 The **New-AzureSqlJob** cmdlet creates a job definition to be used for subsequent job runs.
 
-Job execution can be requested through the Start-AzureSqlJobExecution cmdlet or through creation of a trigger in combination with a schedule using the New-AzureSqlJobTrigger cmdlet.
+Job execution can be requested through the [Start-AzureSqlJobExecution](./Start-AzureSqlJobExecution.md) cmdlet or through creation of a trigger in combination with a schedule using the [New-AzureSqlJobTrigger](./New-AzureSqlJobTrigger.md) cmdlet.
 
 ## EXAMPLES
 
@@ -51,7 +52,7 @@ Job execution can be requested through the Start-AzureSqlJobExecution cmdlet or 
 PS C:\>ew-AzureSqlJob -JobName "MyJob" -CredentialName "MyCredential" -ContentName "MyScript" -TargetId (Get-AzureSqlDatabaseJobTarget -CustomCollectionName "MyCustomCollection").TargetId
 JobName              : MyJob
 ContentName          : MyScript
-ContentVersionNumber : 
+ContentVersionNumber :
 TargetDescription    : {"CustomCollectionName":"myCustomCollection"}
 TargetId             : b525727e-6ed0-44cc-94da-63c543e383d7
 CredentialName       : MyCredential
@@ -67,7 +68,7 @@ PS C:\>New-AzureSqlJob -JobName "MyResultsJob" -CredentialName "MyCredential" -C
 JobName              : MyResultsJob
 ContentName          : MyScript
 
-ContentVersionNumber : 
+ContentVersionNumber :
 TargetDescription    : {"CustomCollectionName":"myCustomCollection"}
 TargetId             : b525727e-6ed0-44cc-94da-63c543e383d7
 CredentialName       : MyCredential
@@ -82,7 +83,7 @@ This command creates a job using the specified content to run across the specifi
 PS C:\>New-AzureSqlJob -JobName "MyResultsJobAcrossShardMap" -CredentialName "MyCredential" -ContentName "MyScript" -ResultSetDestinationServerName "MyResultsServerName.database.windows.net" -ResultSetDestinationDatabaseName "MyResultsDatabaseName" -ResultSetDestinationCredentialName myResultsCredential -ResultSetDestinationSchemaName "DBO" -ResultSetDestinationTableName "MyResultsTable" -TargetId (Get-AzureSqlDatabaseJobTarget -ShardMapManagerServerName "MyShardMapManagerServer.database.windows.net" -ShardMapManagerDatabaseName "MyShardMapManagerDatabase" -ShardMapName "MyShardMap").TargetId
 JobName              : MyResultsJobAcrossShardMap
 ContentName          : MyScript
-ContentVersionNumber : 
+ContentVersionNumber :
 TargetDescription    : {"ShardMapName":"MyShardMap","ShardMapManagerServerName":"MyShardMapManagerServer.database.windows.net","ShardMapManagerDatabaseName":
                        "MyShardMapManagerDatabase"}
 TargetId             : 1afd9326-1277-4344-832f-8170d0375ff7
@@ -97,13 +98,13 @@ This command creates a job using the specified content to execute across the spe
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -118,7 +119,7 @@ Specifies the name of the content to run or be applied during the job.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -133,7 +134,7 @@ Specifies the name of the credentials to use when connecting to target databases
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -143,13 +144,13 @@ Accept wildcard characters: False
 ```
 
 ### -ExecutionPolicyName
-Specifies the name of the execution policy to use during job execution. 
+Specifies the name of the execution policy to use during job execution.
 If you do not specify this parameter, the default job execution policy is used.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -164,7 +165,7 @@ Specifies the name to use for the new job.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -179,7 +180,7 @@ Specifies the name of the credential to use for the database connection used for
 ```yaml
 Type: String
 Parameter Sets: TargetIdWithResultSetDestination
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -194,7 +195,7 @@ Specifies the database name to use for insertion of the first result set obtaine
 ```yaml
 Type: String
 Parameter Sets: TargetIdWithResultSetDestination
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -209,7 +210,7 @@ Specifies the database schema name to use for insertion of the first result set 
 ```yaml
 Type: String
 Parameter Sets: TargetIdWithResultSetDestination
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -224,7 +225,7 @@ Specifies the database schema name to use for insertion of the first result set 
 ```yaml
 Type: String
 Parameter Sets: TargetIdWithResultSetDestination
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -234,13 +235,13 @@ Accept wildcard characters: False
 ```
 
 ### -ResultSetDestinationTableName
-Specifies the database table name to use for insertion of the first result set obtained during job execution. 
+Specifies the database table name to use for insertion of the first result set obtained during job execution.
 If the table does not exist during job execution, the system automatically creates it using a schema matching the result set.
 
 ```yaml
 Type: String
 Parameter Sets: TargetIdWithResultSetDestination
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -255,7 +256,7 @@ Specifies the target ID to use for execution or application of the content durin
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -270,7 +271,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: TargetIdWithResultSetDestination
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -290,10 +291,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJob](./Get-AzureSqlJob.md)
+[Get-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md)
 
-[Remove-AzureSqlJob](./Remove-AzureSqlJob.md)
+[Remove-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md)
 
-[Set-AzureSqlJob](./Set-AzureSqlJob.md)
-
-
+[Set-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJob.md)

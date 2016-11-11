@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./New-AzureSqlJobConnection.md
+online version:
 schema: 2.0.0
 ms.assetid: 0A5D69FE-2951-4F57-8935-D9FEEBBCBA0C
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_Use_AzureSqlJobConnection_md
 ---
 
 # Use-AzureSqlJobConnection
@@ -49,7 +50,7 @@ Use-AzureSqlJobConnection -ServerName <String> -DatabaseName <String> [-LiteralS
 ## DESCRIPTION
 The **Use-AzureSqlJobConnection** cmdlet sets the Azure PowerShell session context to use the provided connection to the Elastic Database jobs control database.
 
-Subsequent Elastic Database Jobs cmdlet invocations will make use of the connection information specified within the Use-AzureSqlJobConnection cmdlet invocation.
+Subsequent Elastic Database Jobs cmdlet invocations will make use of the connection information specified within the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet invocation.
 
 ## EXAMPLES
 
@@ -58,7 +59,7 @@ Subsequent Elastic Database Jobs cmdlet invocations will make use of the connect
 PS C:\>Use-AzureSqlJobConnection -CurrentAzureSubscription
 ```
 
-This command sets the Azure PowerShell session context to use a connection to the Elastic Database Jobs database previously installed within the current Azure subscription within the __ElasticDatabaseJobs resource group. 
+This command sets the Azure PowerShell session context to use a connection to the Elastic Database Jobs database previously installed within the current Azure subscription within the __ElasticDatabaseJobs__ resource group.
 Following the cmdlet invocation, credentials will be prompted.
 
 ### Example 2: Set the PowerShell session context to use the provided connection to the Elastic Database jobs control database.
@@ -73,13 +74,13 @@ You are then prompted for credentials after the cmdlet runs.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet. 
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: ConnectionObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -94,7 +95,7 @@ Specifies the **PSCredential** containing the username and password for the Elas
 ```yaml
 Type: PSCredential
 Parameter Sets: CurrentAzureSubscription, ConnectionDetails
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -109,7 +110,7 @@ Indicates that the Elastic Database jobs control database will be looked up with
 ```yaml
 Type: SwitchParameter
 Parameter Sets: CurrentAzureSubscription
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -124,7 +125,7 @@ Specifies the database name of the Elastic Database jobs control database.
 ```yaml
 Type: String
 Parameter Sets: ConnectionDetails
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -139,7 +140,7 @@ Indicates that any set connection info context within the session from previous 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: None
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -149,13 +150,13 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the Azure resource group that contains the Elastic Database jobs control database. 
+Specifies the name of the Azure resource group that contains the Elastic Database jobs control database.
 The cmdlet will identify the Elastic Database jobs control database within the resource group.
 
 ```yaml
 Type: String
 Parameter Sets: CurrentAzureSubscription
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -170,7 +171,7 @@ Specifies the database server name of the Elastic Database jobs control database
 ```yaml
 Type: String
 Parameter Sets: ConnectionDetails
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -185,7 +186,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ConnectionDetails
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -205,10 +206,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md)
+[New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md)
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
-
-
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)

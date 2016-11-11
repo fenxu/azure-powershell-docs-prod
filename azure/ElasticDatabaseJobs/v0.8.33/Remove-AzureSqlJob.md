@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./Get-AzureSqlJob.md
+online version:
 schema: 2.0.0
 ms.assetid: F4AE7899-666E-4C76-8022-B586547BF932
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_Remove_AzureSqlJob_md
 ---
 
 # Remove-AzureSqlJob
@@ -31,9 +32,9 @@ Remove-AzureSqlJob -JobName <String[]> [[-AzureSqlJobConnection] <AzureSqlJobCon
 ## DESCRIPTION
 The **Remove-AzureSqlJob** cmdlet removes a job and its job run history from the system.
 
-Job and job run history deletion takes place asynchronously. 
-Any active jobs will not be automatically canceled by the system. 
-If you want to cancel an active job, use the Stop-AzureSqlJobExecution cmdlet. 
+Job and job run history deletion takes place asynchronously.
+Any active jobs will not be automatically canceled by the system.
+If you want to cancel an active job, use the [Stop-AzureSqlJobExecution](./Stop-AzureSqlJobExecution.md) cmdlet.
 The job and job execution history will be deleted following the completion of any active job executions of the job.
 
 ## EXAMPLES
@@ -49,13 +50,13 @@ This command removes the job named MyJob and its job execution history.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -70,7 +71,7 @@ Specifies the name of the job.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -90,14 +91,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJob](./Get-AzureSqlJob.md)
+[Get-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md)
 
-[New-AzureSqlJob](./New-AzureSqlJob.md)
+[New-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md)
 
-[Set-AzureSqlJob](./Set-AzureSqlJob.md)
+[Set-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJob.md)
 
-[Stop-AzureSqlJobExecution](./Stop-AzureSqlJobExecution.md)
+[Stop-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Stop-AzureSqlJobExecution.md)
 
-[Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md)
-
-
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)

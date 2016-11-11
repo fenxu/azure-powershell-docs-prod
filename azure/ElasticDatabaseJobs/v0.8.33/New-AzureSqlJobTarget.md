@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./Get-AzureSqlJobTarget.md
+online version:
 schema: 2.0.0
 ms.assetid: B19A0CEE-F7C4-4B8D-9C61-EBC67FC81139
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_New_AzureSqlJobTarget_md
 ---
 
 # New-AzureSqlJobTarget
@@ -50,7 +51,7 @@ New-AzureSqlJobTarget -CustomCollectionName <String> [[-AzureSqlJobConnection] <
 ```
 
 ## DESCRIPTION
-The **New-AzureSqlJobTarget** cmdlet creates a set of databases that can be used as a target for jobs. 
+The **New-AzureSqlJobTarget** cmdlet creates a set of databases that can be used as a target for jobs.
 Targets can be created in the form of either custom collections, Elastic Scale shard maps or databases.
 
 ## EXAMPLES
@@ -76,8 +77,8 @@ TargetDescription             CustomCollectionName          TargetId            
 {"CustomCollectionName":"m... MyCustomCollection            b525727e-6ed0-44cc-94da-63...              CustomCollection
 ```
 
-This command creates a custom collection. 
-After a custom collection is created, database targets can be added as child targets using the Add-AzureSqlJobChildTarget cmdlet.
+This command creates a custom collection.
+After a custom collection is created, database targets can be added as child targets using the [Add-AzureSqlJobChildTarget](./Add-AzureSqlJobChildTarget.md) cmdlet.
 
 ### Example 3: Create an Elastic Scale shared map target
 ```
@@ -93,22 +94,22 @@ TargetId                        : 1afd9326-1277-4344-832f-8170d0375ff7
 TargetType                      : ShardMap
 ```
 
-This command creates an Elastic Scale shared map target using the provided shard map server name, database name and name. 
-Job runs targeting the shard map target expand to run against each database shard in the shard map. 
-The database shards within the shard map are determined by the system through connecting to the shard map database using the specified shard map credentials. 
+This command creates an Elastic Scale shared map target using the provided shard map server name, database name and name.
+Job runs targeting the shard map target expand to run against each database shard in the shard map.
+The database shards within the shard map are determined by the system through connecting to the shard map database using the specified shard map credentials.
 A database target for the database server and the database must first be created along with the credentials.
 
 ## PARAMETERS
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -123,7 +124,7 @@ Specifies the name of the custom collection.
 ```yaml
 Type: String
 Parameter Sets: CustomCollection
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -138,7 +139,7 @@ Specifies the name of the database.
 ```yaml
 Type: String
 Parameter Sets: Database
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -153,7 +154,7 @@ Specifies the name of the server.
 ```yaml
 Type: String
 Parameter Sets: Server, Database
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -168,7 +169,7 @@ Specifies the name of the credential to use whenever connecting to the shard map
 ```yaml
 Type: String
 Parameter Sets: ShardMap
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -183,7 +184,7 @@ Specifies the database name containing the Elastic Scale shard map.
 ```yaml
 Type: String
 Parameter Sets: ShardMap
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -198,7 +199,7 @@ Specifies the database server name containing the Elastic Scale shard map.
 ```yaml
 Type: String
 Parameter Sets: ShardMap
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -213,7 +214,7 @@ Specifies the name of the Elastic Scale shard map.
 ```yaml
 Type: String
 Parameter Sets: ShardMap
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -228,7 +229,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Server, Database, ShardMap
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -243,7 +244,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Server
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -263,10 +264,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlJobTarget](./Get-AzureSqlJobTarget.md)
+[Get-AzureSqlJobTarget](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTarget.md)
 
-[Set-AzureSqlJobTarget](./Set-AzureSqlJobTarget.md)
+[Set-AzureSqlJobTarget](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTarget.md)
 
-[Add-AzureSqlJobChildTarget](./Add-AzureSqlJobChildTarget.md)
-
-
+[Add-AzureSqlJobChildTarget](xref:ElasticDatabaseJobs/v0.8.33/Add-AzureSqlJobChildTarget.md)

@@ -5,23 +5,52 @@ Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 2.0.0.0
 Locale: en-US
 ms.assetid: E1AF2634-2E0A-4B64-925C-A0895168F939
-updated_at: 10/24/2016 11:40 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/7a02af14ec19f1c9dda7d4026e385276a422289b/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
+updated_at: 11/2/2016 2:15 AM
+ms.date: 11/2/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/64699f630725ddbaf121a7306fb3e87efd8687b9/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
+uid: ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
 ms.topic: conceptual
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_ElasticDatabaseJobs_md
 ---
 
 # ElasticDatabaseJobs Module
-## Description
+
 This topic displays help topics for the Azure Elastic Database Jobs Cmdlets.
+
+Elastic Database Jobs (preview) enables you to reliably run a Transact-SQL (T-SQL) script or apply a data-tier application package (DACPAC) across a group of Azure SQL databases.
+By using these cmdlets, you can easily perform administrative operations such as schema changes, credentials management, reference data updates, performance data collection, and tenant (customer) telemetry collection.
+
+This module includes preliminary documentation that is subject to change.
+Blank topics are included as placeholders.
+
+
+## About Windows PowerShell
+
+Windows PowerShell is a task-based command-line shell and scripting language designed for system administration.
+Unlike most shells, which accept and return text, Windows PowerShell is built on top of the .NET Framework, and accepts and returns .NET Framework objects.
+
+Windows PowerShell introduces the concept of a cmdlet (pronounced "command-let"), a simple, single-function command-line tool built into the shell.
+Cmdlets have the following naming convention: a verb and noun separated by a dash (-), such as **Get-Help**, **Get-Process**, and **Start-Service**.
+Windows PowerShell includes more than one hundred basic core cmdlets.
+
+For more information about, or for the syntax of, any of the cmdlets, use the `Get-Help <cmdlet name>` command, where `<cmdlet name>` is the name of the cmdlet that you want to research.
+For more detailed information, you can run any of the following commands:
+
+* `Get-Help <cmdlet name> -Detailed`
+* `Get-Help <cmdlet name> -Examples`
+* `Get-Help <cmdlet name> -Full`
+
+For more information about Windows PowerShell, see the [Getting Started with Windows PowerShell](https://msdn.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell).
+
+
 
 ## ElasticDatabaseJobs Cmdlets
 ### [Add-AzureSqlJobChildTarget](./Add-AzureSqlJobChildTarget.md)
@@ -158,6 +187,3 @@ Sets the Azure PowerShell session context to use the provided connection to the 
 
 ### [Wait-AzureSqlJobExecution](./Wait-AzureSqlJobExecution.md)
 Waits for the provided job execution to complete.
-
-
-

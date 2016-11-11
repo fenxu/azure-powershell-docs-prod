@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./Add-AzureSqlJobChildTarget.md
+online version:
 schema: 2.0.0
 ms.assetid: FDE662A9-C4CF-449A-887B-F0905F5D80E0
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJobChildTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJobChildTarget.md
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJobChildTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJobChildTarget.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_Remove_AzureSqlJobChildTarget_md
 ---
 
 # Remove-AzureSqlJobChildTarget
@@ -37,7 +38,7 @@ Remove-AzureSqlJobChildTarget -CustomCollectionName <String> -ServerName <String
 ```
 
 ## DESCRIPTION
-The **Remove-AzureSqlJobChildTarget** cmdlet removes a child target from another target. 
+The **Remove-AzureSqlJobChildTarget** cmdlet removes a child target from another target.
 This cmdlet removes the child target from a custom collection, but it does not delete the target.
 
 ## EXAMPLES
@@ -53,13 +54,13 @@ This command removes the database target named MyServer.database.contoso.net as 
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -74,7 +75,7 @@ Specifies the name of the custom collection.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -89,7 +90,7 @@ Specifies an array that contains the database name of the database target to rem
 ```yaml
 Type: String[]
 Parameter Sets: Database
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -104,7 +105,7 @@ Specifies an array that contains the database server name of the database target
 ```yaml
 Type: String[]
 Parameter Sets: Database
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -119,7 +120,7 @@ Specifies an array of GUIDs that contains the target ID to remove from the custo
 ```yaml
 Type: Guid[]
 Parameter Sets: TargetId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -134,7 +135,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Database
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -154,12 +155,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureSqlJobChildTarget](./Add-AzureSqlJobChildTarget.md)
+[Add-AzureSqlJobChildTarget](xref:ElasticDatabaseJobs/v0.8.33/Add-AzureSqlJobChildTarget.md)
 
-[New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md)
+[New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md)
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
-
-
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)

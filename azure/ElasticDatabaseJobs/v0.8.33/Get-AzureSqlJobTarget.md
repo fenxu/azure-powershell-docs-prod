@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./New-AzureSqlJobTarget.md
+online version:
 schema: 2.0.0
 ms.assetid: BB0DF9FF-1EAC-46AD-B964-878BE2C22287
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTarget.md
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobTarget.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_Get_AzureSqlJobTarget_md
 ---
 
 # Get-AzureSqlJobTarget
@@ -75,7 +76,7 @@ Get-AzureSqlJobTarget -ParentCustomCollectionName <String> [[-AzureSqlJobConnect
 ## DESCRIPTION
 The **Get-AzureSqlJobTarget** cmdlet gets one or multiple containers of databases that can be used as a target for job execution.
 
-There are multiple supported types of targets, namely custom collection targets, database targets, and Elastic Scale shard map targets. 
+There are multiple supported types of targets, namely custom collection targets, database targets, and Elastic Scale shard map targets.
 Each target type can be retrieved through the different parameter sets within this cmdlet.
 
 ## EXAMPLES
@@ -146,13 +147,13 @@ This command gets all job targets.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the N[ew-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -162,12 +163,12 @@ Accept wildcard characters: False
 ```
 
 ### -CustomCollectionName
-Specifies the name of the custom collection to retrieve.
+Specifies the name of the custom collection that this cmdlet gets.
 
 ```yaml
 Type: String
 Parameter Sets: CustomCollection
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -177,12 +178,12 @@ Accept wildcard characters: False
 ```
 
 ### -DatabaseName
-Specifies the name of a database within a database target to retrieve.
+Specifies the name of a database within a database target that this cmdlet gets.
 
 ```yaml
 Type: String
 Parameter Sets: Database
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -192,13 +193,13 @@ Accept wildcard characters: False
 ```
 
 ### -ParentCustomCollectionName
-Specifies the name of the parent custom collection name to retrieve targets. 
+Specifies the name of the parent custom collection name to get targets.
 This cmdlet gets all child targets of the specified customâ€¦
 
 ```yaml
 Type: String
 Parameter Sets: ParentCustomCollection
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -208,13 +209,13 @@ Accept wildcard characters: False
 ```
 
 ### -ParentTargetId
-Specifies the parent target ID. 
+Specifies the parent target ID.
 If you specify this parameter, this cmdlet returns all child targets of the specified parent target ID.
 
 ```yaml
 Type: Guid
 Parameter Sets: ParentTargetId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -224,12 +225,12 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of a database server within a database target to retrieve.
+Specifies the name of a database server within a database target that this cmdlet gets.
 
 ```yaml
 Type: String
 Parameter Sets: Database, Server
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -244,7 +245,7 @@ Specifies the elastic scale shard map database name.
 ```yaml
 Type: String
 Parameter Sets: ShardMap
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -259,7 +260,7 @@ Specifies the elastic scale shard map server name.
 ```yaml
 Type: String
 Parameter Sets: ShardMap
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -274,7 +275,7 @@ Specifies the elastic scale shard map name.
 ```yaml
 Type: String
 Parameter Sets: ShardMap
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -289,7 +290,7 @@ Specifies the target ID.
 ```yaml
 Type: Guid[]
 Parameter Sets: TargetId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -304,7 +305,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Database, Server, ShardMap
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -324,14 +325,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJobTarget](./New-AzureSqlJobTarget.md)
+[New-AzureSqlJobTarget](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md)
 
-[Set-AzureSqlJobTarget](./Set-AzureSqlJobTarget.md)
+[Set-AzureSqlJobTarget](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobTarget.md)
 
-[New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md)
+[New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md)
 
-[Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md)
+[Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md)
 
-[Azure Elastic Database Jobs Cmdlets](./ElasticDatabaseJobs.md)
-
-
+[Azure Elastic Database Jobs Cmdlets](xref:ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md)

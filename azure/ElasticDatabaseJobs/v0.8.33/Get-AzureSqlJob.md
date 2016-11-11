@@ -1,20 +1,21 @@
 ---
 external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
-online version: ./New-AzureSqlJob.md
+online version:
 schema: 2.0.0
 ms.assetid: BE8DBC20-68D1-4F97-8B24-3C21AB2E2B32
-updated_at: 10/24/2016 10:53 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/21fb425e1aa4eed4def521cf4515fe66d60846c7/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md
+updated_at: 11/7/2016 6:39 PM
+ms.date: 11/7/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md
 ms.topic: reference
-ms.prod: powershell
-ms.service: active-directory
+ms.prod: 
+ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ElasticDatabaseJobs_v0_8_33_Get_AzureSqlJob_md
 ---
 
 # Get-AzureSqlJob
@@ -45,7 +46,7 @@ The **Get-AzureSqlJob** cmdlet gets one or multiple job definitions.
 PS C:\>Get-AzureSqlJob -JobName MyJob
 JobName              : MyJob
 ContentName          : MyScript
-ContentVersionNumber : 
+ContentVersionNumber :
 TargetDescription    : {"CustomCollectionName":"myCustomCollection"}
 TargetId             : b525727e-6ed0-44cc-94da-63c543e383d7
 CredentialName       : MyCredential
@@ -60,7 +61,7 @@ This command gets the specified job by name.
 PS C:\>Get-AzureSqlJob -ScheduleName MyOneMinuteIntervalSchedule
 JobName              : MyJob
 ContentName          : MyScript
-ContentVersionNumber : 
+ContentVersionNumber :
 TargetDescription    : {"CustomCollectionName":"myCustomCollection"}
 TargetId             : b525727e-6ed0-44cc-94da-63c543e383d7
 CredentialName       : MyCredential
@@ -74,44 +75,44 @@ This command gets all jobs that have defined triggers over the provided schedule
 ```
 PS C:\>Get-AzureSqlJob
 JobName              : System Job: telemetry
-ContentName          : 
-ContentVersionNumber : 
-TargetDescription    : 
-TargetId             : 
-CredentialName       : 
+ContentName          :
+ContentVersionNumber :
+TargetDescription    :
+TargetId             :
+CredentialName       :
 ExecutionPolicyName  : System execution policy: telemetry
-ResultSetDestination : 
+ResultSetDestination :
 
 JobName              : System Job: heartbeat
-ContentName          : 
-ContentVersionNumber : 
-TargetDescription    : 
-TargetId             : 
-CredentialName       : 
+ContentName          :
+ContentVersionNumber :
+TargetDescription    :
+TargetId             :
+CredentialName       :
 ExecutionPolicyName  : System execution policy: heartbeat
-ResultSetDestination : 
+ResultSetDestination :
 
 JobName              : System Job: cleanup
-ContentName          : 
-ContentVersionNumber : 
-TargetDescription    : 
-TargetId             : 
-CredentialName       : 
+ContentName          :
+ContentVersionNumber :
+TargetDescription    :
+TargetId             :
+CredentialName       :
 ExecutionPolicyName  : System execution policy: cleanup
-ResultSetDestination : 
+ResultSetDestination :
 
 JobName              : MyJob
 ContentName          : MyScript
-ContentVersionNumber : 
+ContentVersionNumber :
 TargetDescription    : {"CustomCollectionName":"myCustomCollection"}
 TargetId             : b525727e-6ed0-44cc-94da-63c543e383d7
 CredentialName       : MyCredential
 ExecutionPolicyName  : Default execution policy
-ResultSetDestination : 
+ResultSetDestination :
 
 JobName              : MyResultsJob
 ContentName          : MyScript
-ContentVersionNumber : 
+ContentVersionNumber :
 TargetDescription    : {"CustomCollectionName":"myCustomCollection"}
 TargetId             : b525727e-6ed0-44cc-94da-63c543e383d7
 CredentialName       : MyCredential
@@ -120,7 +121,7 @@ ResultSetDestination : Microsoft.Azure.SqlDatabase.Jobs.Client.ResultSetDestinat
 
 JobName              : MyResultsJobAcrossShardMap
 ContentName          : MyScript
-ContentVersionNumber : 
+ContentVersionNumber :
 TargetDescription    : {"ShardMapName":"myShardMap","ShardMapManagerServerName":"myShardMapManagerServer.database.windows.net","ShardMapManagerDatabaseName":
                        "myShardMapManagerDatabase"}
 TargetId             : 1afd9326-1277-4344-832f-8170d0375ff7
@@ -135,13 +136,13 @@ This command gets all jobs defined in the system.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the New-AzureSqlJobConnection cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the Use-AzureSqlJobConnection cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -156,7 +157,7 @@ Specifies the name of the job.
 ```yaml
 Type: String[]
 Parameter Sets: JobName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -171,7 +172,7 @@ Specifies the name of the schedule as a filter when getting jobs.
 ```yaml
 Type: String
 Parameter Sets: Filter
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -191,10 +192,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSqlJob](./New-AzureSqlJob.md)
+[New-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md)
 
-[Remove-AzureSqlJob](./Remove-AzureSqlJob.md)
+[Remove-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md)
 
-[Set-AzureSqlJob](./Set-AzureSqlJob.md)
-
-
+[Set-AzureSqlJob](xref:ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJob.md)
