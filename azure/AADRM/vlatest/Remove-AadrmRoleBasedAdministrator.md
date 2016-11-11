@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: AADRM_vlatest_Remove_AadrmRoleBasedAdministrator_md
 ---
 
 # Remove-AadrmRoleBasedAdministrator

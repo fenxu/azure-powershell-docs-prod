@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: AADRM_vlatest_Set_AadrmMigrationUrl_md
 ---
 
 # Set-AadrmMigrationUrl
