@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: AzureAD_v2_Get_AzureADGroup_md
 ---
 
 # Get-AzureADGroup

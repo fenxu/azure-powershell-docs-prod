@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: AzureAD_v2_Get_AzureADServiceConfigurationRecord_md
 ---
 
 # Get-AzureADServiceConfigurationRecord

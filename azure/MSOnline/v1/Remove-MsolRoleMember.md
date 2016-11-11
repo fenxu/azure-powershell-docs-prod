@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: MSOnline_v1_Remove_MsolRoleMember_md
 ---
 
 # Remove-MsolRoleMember
