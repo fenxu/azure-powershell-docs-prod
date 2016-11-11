@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 73384750-6f54-4b7d-ad7d-be53426132a4
+online version:
 schema: 2.0.0
 ms.assetid: BEA22E4F-87EE-48AC-9406-E8A05BB8A740
-updated_at: 10/24/2016 5:47 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9f1d8af76684a984727546ed80c60dff01969382/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
+updated_at: 11/3/2016 12:09 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -63,9 +63,9 @@ The **Invoke-ServiceFabricFailoverTestScenario** cmdlet starts a test scenario t
 The test puts the partition through specific failover scenarios to ensure those paths are exercised.
 If you run a workload against a Service Fabric service while the cmdlet runs its tests, you increase the chance of discovering bugs in the service.
 
-The faults induced for the primary, secondary, and stateless instances are: 
+The faults induced for the primary, secondary, and stateless instances are:
 
-- RestartReplica (only persisted) 
+- RestartReplica (only persisted)
 - RemoveReplica
 - ResartDeployedCodePackage
 - MovePrimary (only stateful)
@@ -93,7 +93,7 @@ Specifies the maximum time-out period, in seconds, for the service to stabilize 
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -108,7 +108,7 @@ Specifies the ID of the partition to test.
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -123,7 +123,7 @@ Specifies the key of the partition on which to invoke the test.
 ```yaml
 Type: String
 Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -138,7 +138,7 @@ Indicates that this cmdlet tests a named partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -153,7 +153,7 @@ Indicates that this cmdlet tests a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -168,7 +168,7 @@ Indicates that this cmdlet tests a UniformInt64 partitioned service.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -183,7 +183,7 @@ Specifies the name of the service to test.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -198,7 +198,7 @@ Specifies the total time, in minutes, for the scenario to run.
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -213,7 +213,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -229,7 +229,7 @@ The larger the value the lower the concurrency.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -257,5 +257,3 @@ This cmdlet returns a **String** object that represents the final status of the 
 ## NOTES
 
 ## RELATED LINKS
-
-

@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Connect-ServiceFabricCluster.md
+online version:
 schema: 2.0.0
 ms.assetid: 5CF5310E-E6BC-4F08-858A-DC9CF5FC0493
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
+updated_at: 11/3/2016 1:31 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -32,9 +32,9 @@ New-ServiceFabricApplication [-ApplicationName] <Uri> [-ApplicationTypeName] <St
 
 ## DESCRIPTION
 The **New-ServiceFabricApplication** cmdlet creates a Service Fabric application of a registered application type.
-Use the Register-ServiceFabricApplicationType cmdlet to register an application type.
+Use the [Register-ServiceFabricApplicationType](.\Register-ServiceFabricApplicationType.md) cmdlet to register an application type.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -55,7 +55,7 @@ The cmdlet creates a Service Fabric application with the name that you specify.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -70,7 +70,7 @@ Specifies the overrides for application parameters as name/value pairs.
 ```yaml
 Type: Hashtable
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -86,7 +86,7 @@ The cmdlet creates a Service Fabric application of the application type that you
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -102,7 +102,7 @@ The cmdlet creates an application that has the version that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -118,7 +118,7 @@ The value of this parameter must be a non-negative integer.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -130,30 +130,30 @@ Accept wildcard characters: False
 ### -Metrics
 Specifies an array of metrics.
 Each metric can follow the pattern MetricName,NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity, or can specify MetricName and use parameter names NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity followed by a parameter value, and separated with a colon.
-Each parameter **name:value** pair can appear at most once. 
+Each parameter **name:value** pair can appear at most once.
 
 - MetricName.
 Specifies the name of the metric.
 - NodeReservationCapacity.
 Specifies the amount of metric load that is reserved on nodes that have instances of this application.
-If *MinimumNodes* is specified, the product of these values is the capacity reserved in the cluster for the application. 
+If *MinimumNodes* is specified, the product of these values is the capacity reserved in the cluster for the application.
 - MaximumNodeCapacity.
 Specifies the maximum load for an instance of this application on a single node.
-Even if the capacity of the node is greater than this value, Service Fabric limits the total load of the application's child replicas to this value. 
+Even if the capacity of the node is greater than this value, Service Fabric limits the total load of the application's child replicas to this value.
 - TotalApplicationCapacity.
 Specifies the total capacity for the application in the cluster.
 Service Fabric attempts to limit the sum of loads of the application's child replicas to this value.
 
-While creating the application, Service Fabric performs the following validations and will fail the command if they do not pass: 
+While creating the application, Service Fabric performs the following validations and will fail the command if they do not pass:
 
 - NodeReservationCapacity must not be more than MaximumNodeCapacity.
- 
+
 - If both the *MinimumNodes* parameter and NodeReservationCapacity metric are specified, then the product of *MinimumNodes* and NodeReservationCapacity must not be more than TotalApplicationCapacity.
 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -169,7 +169,7 @@ The value of this parameter must be a non-negative integer.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -184,7 +184,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -210,14 +210,12 @@ This cmdlet returns a **System.Fabric.Description.ApplicationDescription** objec
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricApplication](./Get-ServiceFabricApplication.md)
+[Get-ServiceFabricApplication](xref:ServiceFabric/vlatest/Get-ServiceFabricApplication.md)
 
-[Remove-ServiceFabricApplication](./Remove-ServiceFabricApplication.md)
+[Remove-ServiceFabricApplication](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplication.md)
 
-[Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType.md)
-
-
+[Register-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md)

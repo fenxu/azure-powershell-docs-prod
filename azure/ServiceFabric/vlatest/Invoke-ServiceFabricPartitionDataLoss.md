@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Invoke-ServiceFabricPartitionQuorumLoss.md
+online version:
 schema: 2.0.0
 ms.assetid: D772E7FA-EA9A-494A-913F-584F9891F880
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md
+updated_at: 11/3/2016 1:31 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -64,7 +64,7 @@ Before using this cmdlet, connect to the Service Fabric cluster.
 
 Important note: This cmdlet should not be aborted while running.
 Aborting this cmdlet while it is running may leave state behind.
-If this cmdlet is aborted while running, Remove-ServiceFabricTestState should be invoked to remove state that may have been left behind.
+If this cmdlet is aborted while running, [Remove-ServiceFabricTestState](./Remove-ServiceFabricTestState.md) should be invoked to remove state that may have been left behind.
 
 ## EXAMPLES
 
@@ -86,7 +86,7 @@ This command invokes full data loss on a UniformInt64 partition.
 
 ### -DataLossMode
 Specifies the data loss mode for the operation.
-The acceptable values for this parameter are: 
+The acceptable values for this parameter are:
 
 - PartialDataLoss
 - FullDataLoss
@@ -94,7 +94,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: DataLossMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, PartialDataLoss, FullDataLoss
 
 Required: True
@@ -110,7 +110,7 @@ Specifies the ID of the partition on which to invoke the data loss.
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -125,7 +125,7 @@ Specifies the key of the partition on which to invoke the test.
 ```yaml
 Type: String
 Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -140,7 +140,7 @@ Indicates that this cmdlet invokes data loss on a named partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -155,7 +155,7 @@ Indicates that this cmdlet invokes data loss on a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -170,7 +170,7 @@ Indicates that this cmdlet invokes data loss on a UniformInt64 partitioned servi
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -185,7 +185,7 @@ Specifies the name of the service to test.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -200,7 +200,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -229,6 +229,6 @@ This cmdlet returns a **System.Fabric.Testability.InvokeDataLossResult** object 
 
 ## RELATED LINKS
 
-[Invoke-ServiceFabricPartitionQuorumLoss](./Invoke-ServiceFabricPartitionQuorumLoss.md)
+[Invoke-ServiceFabricPartitionQuorumLoss](xref:ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md)
 
-
+[Remove-ServiceFabricTestState](xref:ServiceFabric/vlatest/Remove-ServiceFabricTestState.md)

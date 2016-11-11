@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Connect-ServiceFabricCluster.md
+online version:
 schema: 2.0.0
 ms.assetid: 9145CA7E-1FF1-44C0-BB40-452161DCB15A
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
+updated_at: 11/3/2016 1:31 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -33,9 +33,9 @@ Register-ServiceFabricApplicationType [-ApplicationPathInImageStore] <String> [-
 The **Register-ServiceFabricApplicationType** cmdlet registers a Service Fabric application type.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
-After you register an application type, you can use the New-ServiceFabricApplication cmdlet to create an application instance, or use the Start-ServiceFabricApplicationUpgrade cmdlet to upgrade an existing application.
+After you register an application type, you can use the [New-ServiceFabricApplication](./New-ServiceFabricApplication.md) cmdlet to create an application instance, or use the [Start-ServiceFabricApplicationUpgrade](./Start-ServiceFabricApplicationUpgrade.md) cmdlet to upgrade an existing application.
 
 ## EXAMPLES
 
@@ -54,7 +54,7 @@ Specifies the relative path of the application type package in the image store.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -69,7 +69,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,16 +95,14 @@ This cmdlet returns the status of the operation as a string.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricApplicationType](./Get-ServiceFabricApplicationType.md)
+[Get-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md)
 
-[Unregister-ServiceFabricApplicationType](./Unregister-ServiceFabricApplicationType.md)
+[Unregister-ServiceFabricApplicationType](xref:ServiceFabric/vlatest/Unregister-ServiceFabricApplicationType.md)
 
-[New-ServiceFabricApplication](./New-ServiceFabricApplication.md)
+[New-ServiceFabricApplication](xref:ServiceFabric/vlatest/New-ServiceFabricApplication.md)
 
-[Start-ServiceFabricApplicationUpgrade](./Start-ServiceFabricApplicationUpgrade.md)
-
-
+[Start-ServiceFabricApplicationUpgrade](xref:ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md)

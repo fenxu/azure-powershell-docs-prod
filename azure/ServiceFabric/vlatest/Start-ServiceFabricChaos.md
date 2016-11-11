@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Get-ServiceFabricChaosReport.md
+online version:
 schema: 2.0.0
 ms.assetid: 6777C2BF-2F6C-4C1D-86E2-E21A069AC766
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricChaos.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricChaos.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricChaos.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricChaos.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -33,7 +33,7 @@ Start-ServiceFabricChaos [-TimeToRunMinute <UInt32>] [-MaxConcurrentFaults <UInt
 ## DESCRIPTION
 The **Start-ServiceFabricChaos** cmdlet starts Chaos in the cluster as part of the Fault Analysis Service (FAS).
 Chaos induces random faults and stores the results in a report.
-View the report by using the Get-ServiceFabricChaosReport cmdlet.
+View the report by using the [Get-ServiceFabricChaosReport](./Get-ServiceFabricChaosReport.md) cmdlet.
 
 Chaos runs in iterations.
 You can control how long Chaos runs, how long it waits between iterations, how many faults it can induce during an iteration, and how long it waits between faults.
@@ -61,7 +61,7 @@ Indicates that Chaos can induce faults that can cause primary or secondary repli
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -76,7 +76,7 @@ Specifies the maximum number of seconds that Chaos waits for the cluster to stab
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -94,7 +94,7 @@ In a single iteration, Chaos induces at most the number of faults that you speci
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -105,12 +105,12 @@ Accept wildcard characters: False
 
 ### -TimeToRunMinute
 Specifies how long Chaos runs, in minutes.
-Alternatively, you can stop Chaos by using the Stop-ServiceFabricChaos cmdlet or the **StopChaos** API.
+Alternatively, you can stop Chaos by using the [Stop-ServiceFabricChaos](./Stop-ServiceFabricChaos.md) cmdlet or the **StopChaos** API.
 
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -125,7 +125,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -141,7 +141,7 @@ If you specify a larger value, the number of concurrent faults is lower.
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -156,7 +156,7 @@ Specifies how long Chaos waits, in seconds, between iterations.
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -176,8 +176,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ServiceFabricChaosReport](./Get-ServiceFabricChaosReport.md)
+[Get-ServiceFabricChaosReport](xref:ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md)
 
-[Stop-ServiceFabricChaos](./Stop-ServiceFabricChaos.md)
-
-
+[Stop-ServiceFabricChaos](xref:ServiceFabric/vlatest/Stop-ServiceFabricChaos.md)

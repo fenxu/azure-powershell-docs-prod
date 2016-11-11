@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Connect-ServiceFabricCluster.md
+online version:
 schema: 2.0.0
 ms.assetid: DFC277E2-C2C5-451D-9029-0D9054A53E82
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -38,9 +38,9 @@ Get-ServiceFabricDeployedReplica [-NodeName] <String> [-Adhoc] [[-ServiceManifes
 
 ## DESCRIPTION
 The **Get-ServiceFabricDeployedReplica** cmdlet gets a Service Fabric replica deployed on a specified node.
-This view may be different from the view returned by the Get-ServiceFabricReplica cmdlet because the node has the most current view of the replica.
+This view may be different from the view returned by the [Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md) cmdlet because the node has the most current view of the replica.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -60,7 +60,7 @@ In ad hoc mode, you manually activate the service host.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -76,7 +76,7 @@ The cmdlet gets the replica for the application that has the URI that you specif
 ```yaml
 Type: Uri
 Parameter Sets: Non-Adhoc
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -92,7 +92,7 @@ The cmdlet gets replicas deployed on the node that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -108,7 +108,7 @@ This is an additional filter to return the replica that belongs to that partitio
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -124,7 +124,7 @@ This parameter can be used to filter to only replicas in a specific service mani
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -139,7 +139,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -165,10 +165,8 @@ This cmdlet returns **DeployedServiceReplica** objects that represent replicas.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md)
-
-
+[Get-ServiceFabricReplica](xref:ServiceFabric/vlatest/Get-ServiceFabricReplica.md)

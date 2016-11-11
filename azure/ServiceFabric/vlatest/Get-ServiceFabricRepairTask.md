@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Approve-ServiceFabricRepairTask.md
+online version:
 schema: 2.0.0
 ms.assetid: 9443FC2A-D72B-45D3-B2A4-0350C7DDD458
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRepairTask.md
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRepairTask.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -35,7 +35,7 @@ The **Get-ServiceFabricRepairTask** cmdlet gets the Service Fabric repair tasks.
 This cmdlet supports the Service Fabric platform.
 Do not run this cmdlet directly.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -58,24 +58,24 @@ This command returns all repair tasks in the system which are not yet completed.
 ### -State
 Specifies a bitwise combination of state filter values.
 The states determine which repair task states that this cmdlet gets.
-Valid states include the following: 
+Valid states include the following:
 
-- Default 
-- Created 
-- Claimed 
-- Preparing 
-- Approved 
-- Executing 
-- ReadyToExecute 
-- Restoring 
-- Active 
-- Completed 
+- Default
+- Created
+- Claimed
+- Preparing
+- Approved
+- Executing
+- ReadyToExecute
+- Restoring
+- Active
+- Completed
 - All
 
 ```yaml
 Type: RepairTaskStateFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, Created, Claimed, Preparing, Approved, Executing, ReadyToExecute, Restoring, Active, Completed, All
 
 Required: False
@@ -91,7 +91,7 @@ Specifies a repair task ID prefix to match.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 0
@@ -106,7 +106,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -122,7 +122,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ### System.Fabric.Repair.RepairTask
 This cmdlet accepts a repair task ID.
-You can pipe results of the **Start-ServiceFabricRepairTask** to the current cmdlet.
+You can pipe results of the [Start-ServiceFabricRepairTask](./Start-ServiceFabricRepairTask.md) to the current cmdlet.
 
 ## OUTPUTS
 
@@ -133,14 +133,14 @@ Returns **System.Fabric.Repair.RepairTask** objects.
 
 ## RELATED LINKS
 
-[Approve-ServiceFabricRepairTask](./Approve-ServiceFabricRepairTask.md)
+[Approve-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md)
 
-[Complete-ServiceFabricRepairTask](./Complete-ServiceFabricRepairTask.md)
+[Complete-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Complete-ServiceFabricRepairTask.md)
 
-[Remove-ServiceFabricRepairTask](./Remove-ServiceFabricRepairTask.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Start-ServiceFabricRepairTask](./Start-ServiceFabricRepairTask.md)
+[Remove-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Remove-ServiceFabricRepairTask.md)
 
-[Stop-ServiceFabricRepairTask](./Stop-ServiceFabricRepairTask.md)
+[Start-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md)
 
-
+[Stop-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Stop-ServiceFabricRepairTask.md)

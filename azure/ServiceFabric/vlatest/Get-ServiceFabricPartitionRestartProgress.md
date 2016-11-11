@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Start-ServiceFabricPartitionRestart.md
+online version:
 schema: 2.0.0
 ms.assetid: 21624C97-BE06-43D1-944E-C9ECFD1F63E7
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionRestartProgress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionRestartProgress.md
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionRestartProgress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionRestartProgress.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -30,7 +30,7 @@ Get-ServiceFabricPartitionRestartProgress -OperationId <Guid> [-TimeoutSec <Int3
 
 ## DESCRIPTION
 The **Get-ServiceFabricPartitionRestartProgress** cmdlet gets the progress of a partition restart operation in Azure Service Fabric.
-Initiate a restart by using the Start-ServiceFabricPartitionRestart cmdlet.
+Initiate a restart by using the [Start-ServiceFabricPartitionRestart](./Start-ServiceFabricPartitionRestart.md) cmdlet.
 
 ## EXAMPLES
 
@@ -54,7 +54,7 @@ You assign this value when you run **Start-ServiceFabricPartitionRestart**.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -69,7 +69,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -89,6 +89,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-ServiceFabricPartitionRestart](./Start-ServiceFabricPartitionRestart.md)
-
-
+[Start-ServiceFabricPartitionRestart](xref:ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md)

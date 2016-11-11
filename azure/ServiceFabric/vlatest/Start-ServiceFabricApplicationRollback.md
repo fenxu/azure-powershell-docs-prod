@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Start-ServiceFabricClusterRollback.md
+online version:
 schema: 2.0.0
 ms.assetid: 169F0E6F-8E42-41DD-B406-0A232E380A8D
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -31,9 +31,9 @@ Start-ServiceFabricApplicationRollback [-ApplicationName] <Uri> [-TimeoutSec <In
 ## DESCRIPTION
 The **Start-ServiceFabricApplicationRollback** cmdlet manually starts rolling back a pending upgrade.
 If the command finishes successfully, then the cmdlet has registered the intent to roll back the upgrade with Service Fabric.
-To monitor the status of the rollback, use the Get-ServiceFabricApplicationUpgrade cmdlet.
+To monitor the status of the rollback, use the [Get-ServiceFabricApplicationUpgrade](./Get-ServiceFabricApplicationUpgrade.md) cmdlet.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -53,7 +53,7 @@ The cmdlet rolls back the upgrade for the Service Fabric that this parameter spe
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -68,7 +68,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -94,14 +94,12 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Start-ServiceFabricClusterRollback](./Start-ServiceFabricClusterRollback.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Start-ServiceFabricApplicationUpgrade](./Start-ServiceFabricApplicationUpgrade.md)
+[Get-ServiceFabricApplicationUpgrade](xref:ServiceFabric/vlatest/Get-ServiceFabricApplicationUpgrade.md)
 
-[Get-ServiceFabricApplicationUpgrade](./Get-ServiceFabricApplicationUpgrade.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Start-ServiceFabricApplicationUpgrade](xref:ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
-
-
+[Start-ServiceFabricClusterRollback](xref:ServiceFabric/vlatest/Start-ServiceFabricClusterRollback.md)

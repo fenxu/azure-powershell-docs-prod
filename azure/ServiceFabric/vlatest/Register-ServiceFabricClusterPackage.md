@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Connect-ServiceFabricCluster.md
+online version:
 schema: 2.0.0
 ms.assetid: 4E889F33-E989-492D-884A-A59A3A89FE08
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
+updated_at: 11/3/2016 1:31 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -46,7 +46,7 @@ Register-ServiceFabricClusterPackage [-Config] [-CodePackagePath <String>] -Clus
 The **Register-ServiceFabricClusterPackage** cmdlet registers a Service Fabric clustermanifest and/or a Service Fabric .msi.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -74,7 +74,7 @@ The cmdlet registers file at the path that you specify.
 ```yaml
 Type: String
 Parameter Sets: Both, Config
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Code
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -101,7 +101,7 @@ Indicates that the package includes only a Service Fabric .msi file in the Image
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -117,7 +117,7 @@ The cmdlet registers the file in the path that you specify.
 ```yaml
 Type: String
 Parameter Sets: Both, Code
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -129,7 +129,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Config
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -144,7 +144,7 @@ Indicates that the package is a Service Fabric cluster manifest.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Config
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -159,7 +159,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -185,12 +185,10 @@ This cmdlet returns the status of the operation as a string.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Copy-ServiceFabricClusterPackage](./Copy-ServiceFabricClusterPackage.md)
+[Copy-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md)
 
-[Unregister-ServiceFabricClusterPackage](./Unregister-ServiceFabricClusterPackage.md)
-
-
+[Unregister-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md)

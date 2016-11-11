@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Get-ServiceFabricDeployedCodePackage.md
+online version:
 schema: 2.0.0
 ms.assetid: 13A0E0CC-38CE-4B64-8018-8DA8EFA7678B
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricDeployedCodePackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricDeployedCodePackage.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricDeployedCodePackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricDeployedCodePackage.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -168,7 +168,7 @@ This restart simulates code package process failures in the cluster, which tests
 You can specify a code package, or you can specify a ReplicaSelector to restart the node and code package combination where the replica is hosted.
 This simplifies tests on the primary host node by not having to determine which Service Fabric node is the primary node before restarting that node.
 
-Before using this cmdlet, connect to the Service Fabric cluster.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -194,7 +194,7 @@ Specifies the name of the application to which the code package belongs.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -210,7 +210,7 @@ If you specify 0, no comparison is done.
 ```yaml
 Type: Int64
 Parameter Sets: ByNodeName
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -225,7 +225,7 @@ Specifies the name of the code package to restart.
 ```yaml
 Type: String
 Parameter Sets: ByNodeName
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -240,7 +240,7 @@ Specifies whether the action waits for the restart to complete.
 ```yaml
 Type: CompletionMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, DoNotVerify, Verify
 
 Required: False
@@ -257,7 +257,7 @@ The cmdlet restarts the node you specify.
 ```yaml
 Type: String
 Parameter Sets: ByNodeName
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -272,7 +272,7 @@ Specifies the ID of the partition for which the code package is restarted.
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId, PartitionIdReplicaPrimary, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -287,7 +287,7 @@ Specifies the key of the partition for which the code package is restarted.
 ```yaml
 Type: String
 Parameter Sets: ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionUniformedIntReplicaId, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionNamedReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -302,7 +302,7 @@ Indicates that this cmdlet restarts a code package on a named partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamed, ServiceNamePartitionNamedReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -317,7 +317,7 @@ Indicates that this cmdlet restarts a code package on a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionSingleton, ServiceNamePartitionSingletonReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -332,7 +332,7 @@ Indicates that this cmdlet restarts a code package on a UniformInt64 partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaId, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedInt
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -347,7 +347,7 @@ Indicates that this cmdlet restarts the code package for the primary replica.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary, ServiceNameReplicaPrimary, PartitionIdReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -362,7 +362,7 @@ Indicates that this cmdlet restarts a code package for a random secondary replic
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNameReplicaRandomSecondary, PartitionIdReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -377,7 +377,7 @@ Specifies a Service Fabric service replica or instance ID.
 ```yaml
 Type: Int64
 Parameter Sets: ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionUniformedIntReplicaId, ServiceNameReplicaId, PartitionIdReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -392,7 +392,7 @@ Specifies the name of the service manifest where the code package is defined.
 ```yaml
 Type: String
 Parameter Sets: ByNodeName
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -407,7 +407,7 @@ Specifies the name of the service to which the code package belongs.
 ```yaml
 Type: Uri
 Parameter Sets: ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionUniformedIntReplicaId, ServiceNameReplicaPrimary, ServiceNameReplicaRandomSecondary, ServiceNameReplicaId, PartitionId, PartitionIdReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId, ServiceName, ServiceNamePartitionSingleton, ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -422,7 +422,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -454,6 +454,6 @@ Specifies the name of the Service Fabric service node.
 
 ## RELATED LINKS
 
-[Get-ServiceFabricDeployedCodePackage](./Get-ServiceFabricDeployedCodePackage.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-
+[Get-ServiceFabricDeployedCodePackage](xref:ServiceFabric/vlatest/Get-ServiceFabricDeployedCodePackage.md)

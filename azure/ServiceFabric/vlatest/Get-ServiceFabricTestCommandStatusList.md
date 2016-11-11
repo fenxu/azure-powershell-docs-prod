@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Stop-ServiceFabricTestCommand.md
+online version:
 schema: 2.0.0
 ms.assetid: 26459CBC-9296-4B65-A298-E6B31EF65865
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
+updated_at: 11/3/2016 12:09 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -68,19 +68,19 @@ The returned list contains five completed test commands, and one cancelled test 
 Specifies the state of commands that this cmdlet gets.
 The acceptable values for this parameter are:
 
-- Default 
-- Running 
-- RollingBack 
-- CompletedSuccessfully 
-- Failed 
-- Cancelled 
-- ForceCancelled 
+- Default
+- Running
+- RollingBack
+- CompletedSuccessfully
+- Failed
+- Cancelled
+- ForceCancelled
 - All
 
 ```yaml
 Type: TestCommandStateFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, Running, RollingBack, CompletedSuccessfully, Failed, Cancelled, ForceCancelled, All
 
 Required: False
@@ -96,7 +96,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -109,14 +109,14 @@ Accept wildcard characters: False
 Specifies the type of commands that this cmdlet gets.
 The acceptable values for this parameter are:
 
-- PartitionDataLoss 
-- PartitionQuorumLoss 
+- PartitionDataLoss
+- PartitionQuorumLoss
 - PartitionRestart
 
 ```yaml
 Type: TestCommandTypeFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, PartitionDataLoss, PartitionQuorumLoss, PartitionRestart, All
 
 Required: False
@@ -137,6 +137,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Stop-ServiceFabricTestCommand](./Stop-ServiceFabricTestCommand.md)
-
-
+[Stop-ServiceFabricTestCommand](xref:ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md)

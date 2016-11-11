@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Get-ServiceFabricApplication.md
+online version:
 schema: 2.0.0
 ms.assetid: 38C23E3E-4A54-4C9A-B349-A338006A12DE
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -81,7 +81,7 @@ Specifies the name of the application to update.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -100,7 +100,7 @@ If you don't specify this parameter, the application uses the existing maximum n
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -112,29 +112,29 @@ Accept wildcard characters: False
 ### -Metrics
 Specifies an array of metrics.
 Each metric can follow the pattern MetricName,NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity, or can specify MetricName and use parameter names NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity followed by a parameter value separated with a colon.
-Each parameter **name:value** pair can appear at most once. 
+Each parameter **name:value** pair can appear at most once.
 
 - MetricName.
 Specifies the name of the metric.
 - NodeReservationCapacity.
 Specifies the amount of metric load that is reserved on nodes that have instances of this application.
-If *MinimumNodes* is specified, the product of these values is the capacity reserved in the cluster for the application. 
+If *MinimumNodes* is specified, the product of these values is the capacity reserved in the cluster for the application.
 - MaximumNodeCapacity.
 Specifies the maximum load for an instance of this application on a single node.
-Even if the capacity of the node is greater than this value, Service Fabric limits the total load of the application's child replicas to this value. 
+Even if the capacity of the node is greater than this value, Service Fabric limits the total load of the application's child replicas to this value.
 - TotalApplicationCapacity.
 Specifies the total capacity for the application in the cluster.
 Service Fabric attempts to limit the sum of loads of the application's child replicas to this value.
 
-While updating capacity, Service Fabric performs the following validations and will fail the command if they do not pass: 
+While updating capacity, Service Fabric performs the following validations and will fail the command if they do not pass:
 
-- NodeReservationCapacity must not be more than MaximumNodeCapacity. 
+- NodeReservationCapacity must not be more than MaximumNodeCapacity.
 - If both the *MinimumNodes* parameter and NodeReservationCapacity metric are specified, then the product of *MinimumNodes* and NodeReservationCapacity must not be more than TotalApplicationCapacity.
 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -153,7 +153,7 @@ If MinimumNodes is set to 0, no capacity is reserved.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -169,7 +169,7 @@ If you specify this parameter, you cannot specify the *Metrics* parameter to upd
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -184,7 +184,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -210,12 +210,10 @@ None.
 
 ## RELATED LINKS
 
-[Get-ServiceFabricApplication](./Get-ServiceFabricApplication.md)
+[Get-ServiceFabricApplication](xref:ServiceFabric/vlatest/Get-ServiceFabricApplication.md)
 
-[New-ServiceFabricApplication](./New-ServiceFabricApplication.md)
+[New-ServiceFabricApplication](xref:ServiceFabric/vlatest/New-ServiceFabricApplication.md)
 
-[Remove-ServiceFabricApplication](./Remove-ServiceFabricApplication.md)
+[Remove-ServiceFabricApplication](xref:ServiceFabric/vlatest/Remove-ServiceFabricApplication.md)
 
-[Test-ServiceFabricApplication](./Test-ServiceFabricApplication.md)
-
-
+[Test-ServiceFabricApplication](xref:ServiceFabric/vlatest/Test-ServiceFabricApplication.md)

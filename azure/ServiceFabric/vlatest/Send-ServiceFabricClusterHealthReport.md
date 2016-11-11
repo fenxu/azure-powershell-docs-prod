@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Connect-ServiceFabricCluster.md
+online version:
 schema: 2.0.0
 ms.assetid: 59D7C1B2-FE34-4D91-9503-7A95F3443444
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricClusterHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricClusterHealthReport.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricClusterHealthReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricClusterHealthReport.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -33,16 +33,16 @@ Send-ServiceFabricClusterHealthReport -HealthState <HealthState> -SourceId <Stri
 ## DESCRIPTION
 The **Send-ServiceFabricClusterHealthReport** cmdlet sends a health report on a Service Fabric cluster.
 
-The cmdlet sends the report after an interval specified by the **HealthReportSendIntervalInSec** parameter of the Connect-ServiceFabricCluster cmdlet.
+The cmdlet sends the report after an interval specified by the *HealthReportSendIntervalInSec* parameter of the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 The cluster connection must be kept alive during this time.
 The command is evaluated on the client without reference to running on the health store.
 The report may not be applied in health store even if the command returns success.
 For example, the health store may reject the report because of an invalid parameter, like a stale sequence number.
 
-To see whether the report was applied in the health store, use the Get-ServiceFabricClusterHealth cmdlet and check that the report appears in the HealthEvents section.
+To see whether the report was applied in the health store, use the G[Get-ServiceFabricClusterHealth](./Get-ServiceFabricClusterHealth.md) cmdlet and check that the report appears in the HealthEvents section.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet and then the Get-ServiceFabricClusterConnection cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the **Connect-ServiceFabricCluster** cmdlet and then the [Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md) cmdlet.
 
 ## EXAMPLES
 
@@ -69,14 +69,14 @@ The sequence number must be higher than any previously reported sequence numbers
 
 ### -Description
 Specifies human readable information about the condition that triggered the report.
-The **SourceId**, **HealthProperty**, and **HealthState** parameters fully describe the report.
+The *SourceId*, *HealthProperty*, and *HealthState* parameters fully describe the report.
 
 The maximum string length for the description is 4096 characters.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -87,13 +87,13 @@ Accept wildcard characters: False
 
 ### -HealthProperty
 Specifies the property of the report.
-Together with the **SourceId** parameter, this property uniquely identifies the report.
-The report overrides any previous reports with the same values for the **SourceId** and **HealthProperty** parameters on the same entity.
+Together with the *SourceId* parameter, this property uniquely identifies the report.
+The report overrides any previous reports with the same values for the *SourceId* and *HealthProperty* parameters on the same entity.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -108,7 +108,7 @@ Specifies a **HealthState** object that represents the reported health state.
 ```yaml
 Type: HealthState
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, Ok, Warning, Error, Unknown
 
 Required: True
@@ -126,7 +126,7 @@ The reports that are removed when expired can be used for conditions that are on
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -138,12 +138,12 @@ Accept wildcard characters: False
 ### -SequenceNumber
 Specifies the sequence number associated with the health report.
 If you do not specify a value for this parameter, the sequence number is set automatically.
-If you specify a sequence number, that value must be higher than any previous sequence number set on the same **SourceId** and **HealthProperty**, or the report will be rejected due to staleness.
+If you specify a sequence number, that value must be higher than any previous sequence number set on the same *SourceId* and *HealthProperty*, or the report will be rejected due to staleness.
 
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -158,7 +158,7 @@ Specifies the identifier of the source that triggered the report.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -169,14 +169,14 @@ Accept wildcard characters: False
 
 ### -TimeToLiveSec
 Specifies the Time to Live (TTL) of the report in seconds.
-When the TTL expires, the report is removed from the health store if the **RemoveWhenExpired** parameter is specified.
+When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
 Otherwise, the entity is evaluated at Error because of the expired report.
 The default value is Infinite.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -191,7 +191,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -217,12 +217,10 @@ This cmdlet does not return any output.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricClusterHealth](./Get-ServiceFabricClusterHealth.md)
+[Get-ServiceFabricClusterHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterHealth.md)
 
-[Get-ServiceFabricApplicationHealth](./Get-ServiceFabricApplicationHealth.md)
-
-
+[Get-ServiceFabricApplicationHealth](xref:ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md)

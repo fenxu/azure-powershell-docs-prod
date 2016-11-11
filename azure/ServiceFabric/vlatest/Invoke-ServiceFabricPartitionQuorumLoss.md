@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Invoke-ServiceFabricPartitionDataLoss.md
+online version:
 schema: 2.0.0
 ms.assetid: C312AB4D-6C4F-404B-8335-A911EFFBD6E0
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md
+updated_at: 11/3/2016 1:31 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -62,9 +62,9 @@ You can run this cmdlet only with stateful services.
 
 Before using this cmdlet, connect to the Service Fabric cluster.
 
-Important note: This cmdlet should not be aborted while running.
+This cmdlet should not be aborted while running.
 Aborting this cmdlet while it is running may leave state behind.
-If this cmdlet is aborted while running, Remove-ServiceFabricTestState should be invoked to remove state that may have been left behind.
+If this cmdlet is aborted while running, [Remove-ServiceFabricTestState](.\Remove-ServiceFabricTestState.md) should be invoked to remove state that may have been left behind.
 
 ## EXAMPLES
 
@@ -92,7 +92,7 @@ Specifies the ID of the partition on which to invoke the quorum loss.
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -107,7 +107,7 @@ Specifies the key of the partition on which to invoke the test.
 ```yaml
 Type: String
 Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -122,7 +122,7 @@ Indicates that this cmdlet invokes a quorum loss on a named partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -137,7 +137,7 @@ Indicates that this cmdlet invokes a quorum loss on a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -152,7 +152,7 @@ Indicates that this cmdlet invokes a quorum loss for a UniformInt64 partitioned 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -167,7 +167,7 @@ Specifies the duration period, in seconds, for the quorum loss.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -182,7 +182,7 @@ Specifies the quorum loss mode.
 ```yaml
 Type: QuorumLossMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, QuorumReplicas, AllReplicas
 
 Required: True
@@ -198,7 +198,7 @@ Specifies the name of the service to test.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -213,7 +213,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -242,6 +242,4 @@ This cmdlet returns a **System.Fabric.Testability.InvokeQuorumLossResult** objec
 
 ## RELATED LINKS
 
-[Invoke-ServiceFabricPartitionDataLoss](./Invoke-ServiceFabricPartitionDataLoss.md)
-
-
+[Invoke-ServiceFabricPartitionDataLoss](xref:ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md)

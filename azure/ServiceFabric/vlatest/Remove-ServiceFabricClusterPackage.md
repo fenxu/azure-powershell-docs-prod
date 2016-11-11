@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Connect-ServiceFabricCluster.md
+online version:
 schema: 2.0.0
 ms.assetid: CF0A03A9-D1E2-446A-BCA2-80B1D620D586
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md
+updated_at: 11/3/2016 1:31 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -50,7 +50,7 @@ The **Remove-ServiceFabricClusterPackage** cmdlet removes a Service Fabric clust
 Run this cmdlet after you register the package using the Register-ServiceFabricClusterPackage cmdlet.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the **Run as administrator** option.
-Before you perform any operation on a Service Fabric cluster, first run the Connect-ServiceFabricCluster cmdlet to establish a connection to the cluster.
+Before you perform any operation on a Service Fabric cluster, first run the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet to establish a connection to the cluster.
 
 ## EXAMPLES
 
@@ -71,7 +71,7 @@ The cmdlet removes the package from the path that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: Code
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -83,7 +83,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Config, Both
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -93,12 +93,12 @@ Accept wildcard characters: False
 ```
 
 ### -Code
-Indicates that the cmdlet deletes only the Service Fabric .msi file.
+Indicates that the cmdlet removes only the Service Fabric .msi file.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -114,7 +114,7 @@ The cmdlet removes the package from the path that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: Code, Both
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -126,7 +126,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Config
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -136,12 +136,12 @@ Accept wildcard characters: False
 ```
 
 ### -Config
-Indicates that this cmdlet deletes only the Service Fabric cluster manifest.
+Indicates that this cmdlet removes only the Service Fabric cluster manifest.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Config
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -151,7 +151,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -171,7 +171,7 @@ Specifies the connection string for the Service Fabric image store.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -186,7 +186,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -197,7 +197,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -229,12 +228,10 @@ This cmdlet returns the status of the operation as a string.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Copy-ServiceFabricClusterPackage](./Copy-ServiceFabricClusterPackage.md)
+[Copy-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Register-ServiceFabricClusterPackage](./Register-ServiceFabricClusterPackage.md)
-
-
+[Register-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md)

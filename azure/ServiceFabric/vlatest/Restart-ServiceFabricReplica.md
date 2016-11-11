@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Get-ServiceFabricReplica.md
+online version:
 schema: 2.0.0
 ms.assetid: 0210C19B-CE2B-4713-9548-515D7DD44BB1
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricReplica.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricReplica.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -163,7 +163,7 @@ Use this cmdlet to test your service for problems along the replica reopen path.
 This cmdlet helps simulate the report fault temporary path through client APIs.
 This cmdlet is only valid for replicas that belong to stateful persisted services.
 
-Before using this cmdlet, connect to the Service Fabric cluster.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -189,7 +189,7 @@ Specifies whether the action waits for the Restart operation to complete.
 ```yaml
 Type: CompletionMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, DoNotVerify, Verify
 
 Required: False
@@ -206,7 +206,7 @@ The cmdlet restarts a replica deployed on the node that you specify.
 ```yaml
 Type: String
 Parameter Sets: ByNodeName
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -221,7 +221,7 @@ Specifies the ID of the partition for which to restart the replica.
 ```yaml
 Type: Guid
 Parameter Sets: ByNodeName, PartitionId, PartitionIdReplicaPrimary, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -236,7 +236,7 @@ Specifies the key of the partition for which the replica is restarted.
 ```yaml
 Type: String
 Parameter Sets: ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -251,7 +251,7 @@ Indicates that this cmdlet restarts a replica on a named partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionNamed, ServiceNamePartitionNamedReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -266,7 +266,7 @@ Indicates that this cmdlet restarts a replica on a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionSingleton, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -281,7 +281,7 @@ Indicates that this cmdlet restarts a replica on a UniformInt64 partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -296,7 +296,7 @@ Indicates that this cmdlet restarts the replica for the primary replica.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: PartitionIdReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNameReplicaPrimary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -311,7 +311,7 @@ Indicates that this cmdlet restarts a replica for a random secondary replica.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: PartitionIdReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNameReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -326,7 +326,7 @@ Specifies a Service Fabric service replica or instance ID.
 ```yaml
 Type: Int64
 Parameter Sets: ByNodeName, PartitionIdReplicaId, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNameReplicaId, ServiceNamePartitionUniformedIntReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -341,7 +341,7 @@ Specifies the name of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: PartitionId, PartitionIdReplicaPrimary, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamedReplicaPrimary, ServiceName, ServiceNamePartitionSingleton, ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNameReplicaId, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId, ServiceNameReplicaPrimary, ServiceNameReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -356,7 +356,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -385,8 +385,8 @@ Specifies the name of a Service Fabric node.
 
 ## RELATED LINKS
 
-[Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Remove-ServiceFabricReplica](./Remove-ServiceFabricReplica.md)
+[Get-ServiceFabricReplica](xref:ServiceFabric/vlatest/Get-ServiceFabricReplica.md)
 
-
+[Remove-ServiceFabricReplica](xref:ServiceFabric/vlatest/Remove-ServiceFabricReplica.md)

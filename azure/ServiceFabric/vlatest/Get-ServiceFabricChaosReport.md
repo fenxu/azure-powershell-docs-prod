@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Start-ServiceFabricChaos.md
+online version:
 schema: 2.0.0
 ms.assetid: D4F9D188-FFB3-4D93-870C-6C6076CBA6AE
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -38,7 +38,7 @@ If you request a very large number of events, this cmdlet can return them in mul
 A continuation token is returned as a part of the **ChaosReport** object.
 This token must be passed for subsequent batches.
 
-For more information about Chaos in the Fault Analysis Service (FAS), see the Start-ServiceFabricChaos cmdlet.
+For more information about Chaos in the Fault Analysis Service (FAS), see the [Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md) cmdlet.
 
 ## EXAMPLES
 
@@ -51,7 +51,7 @@ $EndTime = $UtcNow.AddMinutes(1)
 Get-ServiceFabricChaosReport -StartTimeUtc $StartTime -EndTimeUtc $EndTime -Verbose
 ```
 
-The first four commands create start and end times, starting two minutes in the past, by using the Get-Date cmdlet and standard Windows PowerShell syntax.
+The first four commands create start and end times, starting two minutes in the past, by using the **Get-Date** cmdlet and standard Windows PowerShell syntax.
 
 The final command gets information about Chaos results in the specified time.
 The console displays the results.
@@ -66,7 +66,7 @@ Continuation tokens connect these parts.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -81,7 +81,7 @@ Specifies the end of the time range, in UTC, for which this cmdlet generates a r
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -96,7 +96,7 @@ Specifies the start of the time range, in UTC, for which this cmdlet generates a
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,7 +111,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -134,8 +134,6 @@ This cmdlet returns a **ChaosReport** object that represents the report for the 
 
 ## RELATED LINKS
 
-[Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md)
+[Start-ServiceFabricChaos](xref:ServiceFabric/vlatest/Start-ServiceFabricChaos.md)
 
-[Stop-ServiceFabricChaos](./Stop-ServiceFabricChaos.md)
-
-
+[Stop-ServiceFabricChaos](xref:ServiceFabric/vlatest/Stop-ServiceFabricChaos.md)

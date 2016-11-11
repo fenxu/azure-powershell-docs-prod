@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Connect-ServiceFabricCluster.md
+online version:
 schema: 2.0.0
 ms.assetid: 03B1C1AE-DF27-4EA0-8423-7224A9174AA3
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
+updated_at: 11/3/2016 12:09 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -34,18 +34,18 @@ Get-ServiceFabricReplicaHealth [-PartitionId] <Guid> [-ReplicaOrInstanceId] <Int
 The **Get-ServiceFabricReplicaHealth** cmdlet gets the health of a Service Fabric replica.
 If the replica that you specify does not exist in the health store, this cmdlet returns an exception.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Query the health of a service replica
 ```
-PS C:\>$ToDoPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS 
+PS C:\>$ToDoPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS
 C:\> $ToDoPartition01ReplicaList = Get-ServiceFabricReplica -PartitionId $ToDoPartition01.PartitionId
 C:\> Get-ServiceFabricReplicaHealth -PartitionId $ToDoPartition01.PartitionId -ReplicaOrInstanceId $ToDoPartition01ReplicaList[0].Id
 ```
 
-The first command uses the Get-ServiceFabricPartition cmdlet to get a Service Fabric service partition object, and then stores it in the $ToDoPartition01 variable.
+The first command uses the [Get-ServiceFabricPartition](./Get-ServiceFabricPartition.md) cmdlet to get a Service Fabric service partition object, and then stores it in the $ToDoPartition01 variable.
 
 The second command gets the list of replicas in the partition, and then stores it in the $ToDoPartition01ReplicaList variable.
 
@@ -76,7 +76,7 @@ Indicates whether to treat a warning health report as error during health evalua
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,7 +95,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Default, None, Ok, Warning, Error, All
 
 Required: False
@@ -112,7 +112,7 @@ Specify the *EventsFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -127,7 +127,7 @@ Specifies the ID of a Service Fabric partition.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -142,7 +142,7 @@ Specifies a Service Fabric stateful service replica or stateless service instanc
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -157,7 +157,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -183,10 +183,8 @@ This cmdlet returns a **System.Fabric.Health** object that represents the health
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricPartition](./Get-ServiceFabricPartition.md)
-
-
+[Get-ServiceFabricPartition](xref:ServiceFabric/vlatest/Get-ServiceFabricPartition.md)

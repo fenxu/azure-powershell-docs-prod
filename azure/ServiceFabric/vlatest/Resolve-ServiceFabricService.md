@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Connect-ServiceFabricCluster.md
+online version:
 schema: 2.0.0
 ms.assetid: A315ECB3-FC8C-451B-85B0-C3C4887B78C9
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -63,7 +63,7 @@ Resolve-ServiceFabricService [-PartitionKindNamed] [-ServiceName] <Uri> [-Partit
 ## DESCRIPTION
 The **Resolve-ServiceFabricService** cmdlet retrieves the replica or instance address of a Service Fabric service.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -82,7 +82,7 @@ Indicates that the cmdlet forces the local cache of resolved addresses to refres
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Singleton ForceRefresh, UniformInt64 ForceRefresh, Named ForceRefresh
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -97,7 +97,7 @@ Specifies the partition key for the Service Fabric service.
 ```yaml
 Type: String
 Parameter Sets: UniformInt64 ForceRefresh, UniformInt64 NonRefresh, Named ForceRefresh, Named NonRefresh
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -112,7 +112,7 @@ Indicates that the Service Fabric service is a named partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Named ForceRefresh, Named NonRefresh
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -127,7 +127,7 @@ Indicates that the Service Fabric service is a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Singleton NonRefresh, Singleton ForceRefresh
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -142,7 +142,7 @@ Indicates that the Service Fabric service is a UniformInt64 partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: UniformInt64 ForceRefresh, UniformInt64 NonRefresh
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -157,7 +157,7 @@ Specifies the previous resolve service partition results.
 ```yaml
 Type: ResolvedServicePartition
 Parameter Sets: Singleton NonRefresh, UniformInt64 NonRefresh, Named NonRefresh
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -172,7 +172,7 @@ Specifies the URI of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -187,7 +187,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -213,16 +213,14 @@ This cmdlet returns a **System.Fabric.ResolvedServicePartition** object that rep
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricService](./Get-ServiceFabricService.md)
+[Get-ServiceFabricService](xref:ServiceFabric/vlatest/Get-ServiceFabricService.md)
 
-[New-ServiceFabricService](./New-ServiceFabricService.md)
+[New-ServiceFabricService](xref:ServiceFabric/vlatest/New-ServiceFabricService.md)
 
-[Remove-ServiceFabricService](./Remove-ServiceFabricService.md)
+[Remove-ServiceFabricService](xref:ServiceFabric/vlatest/Remove-ServiceFabricService.md)
 
-[Update-ServiceFabricService](./Update-ServiceFabricService.md)
-
-
+[Update-ServiceFabricService](xref:ServiceFabric/vlatest/Update-ServiceFabricService.md)

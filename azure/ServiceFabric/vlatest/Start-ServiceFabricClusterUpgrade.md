@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Connect-ServiceFabricCluster.md
+online version:
 schema: 2.0.0
 ms.assetid: 32BC7760-F639-4236-8F42-6C68ADE81F25
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -114,7 +114,7 @@ The **Start-ServiceFabricClusterUpgrade** cmdlet upgrades a Service Fabric clust
 You can upgrade Service Fabric code, configuration, or both code and configuration.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -157,13 +157,13 @@ It specifies a custom cluster health policy, defines a different MaxPercentUnhea
 ## PARAMETERS
 
 ### -ApplicationHealthPolicyMap
-Specifies a **System.Fabric.Health.ApplicationHealthPolicyMap** that includes custom health policies for some or all of the applications.
+Specifies a **System.Fabric.Health.ApplicationHealthPolicyMap** object that includes custom health policies for some or all of the applications.
 If you do not specify this parameter, or if you don't include an entry in the map for an application, that application is evaluated with the application health policy defined in the application manifest if it exists, or the default policy otherwise.
 
 ```yaml
 Type: ApplicationHealthPolicyMap
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -174,17 +174,17 @@ Accept wildcard characters: False
 
 ### -ApplicationTypeHealthPolicyMap
 Specifies the map that defines the maximum percentage of unhealthy applications that are allowed per application type.
-Application types in this map are evaluated using specific percentages rather than the global *MaxPercentUnhealthyApplications* percentage.
+Application types in this map are evaluated using specific percentages rather than the global percentage specified in the *MaxPercentUnhealthyApplications* parameter.
 
 For example, if some applications of a type are critical, the cluster administrator can add an entry to the map for that application type and assign it a value of 0% (that is, do not tolerate any failures).
-All other applications can be evaluated with *MaxPercentUnhealthyApplications* set to 20% to tolerate some failures out of the thousands of application instances.
+All other applications can be evaluated with the *MaxPercentUnhealthyApplications* parameter set to 20% to tolerate some failures out of the thousands of application instances.
 
 The application type health policy map is used only if the cluster manifest enables application type health evaluation using the configuration entry for **HealthManager/EnableApplicationTypeHealthEvaluation**.
 
 ```yaml
 Type: ApplicationTypeHealthPolicyMap
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -199,7 +199,7 @@ Specifies the version stored in a Service Fabric cluster manifest.
 ```yaml
 Type: String
 Parameter Sets: Both UnmonitoredAuto, Config Monitored, Config UnmonitoredAuto, Config UnmonitoredManual, Both Monitored, Both UnmonitoredManual
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -214,7 +214,7 @@ Indicates that the package includes only a Service Fabric .msi file.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code UnmonitoredAuto, Code UnmonitoredManual, Code Monitored
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -229,7 +229,7 @@ Specifies the version of the Service Fabric .msi file.
 ```yaml
 Type: String
 Parameter Sets: Both UnmonitoredAuto, Code UnmonitoredAuto, Code UnmonitoredManual, Code Monitored, Both Monitored, Both UnmonitoredManual
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -244,7 +244,7 @@ Indicates that the package is a Service Fabric cluster manifest.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Config Monitored, Config UnmonitoredAuto, Config UnmonitoredManual
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -254,7 +254,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -275,7 +275,7 @@ Applications are evaluated using per application health policy settings.
 ```yaml
 Type: Boolean
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -290,7 +290,7 @@ Indicates that delta health evaluation is used to determine if the Service Fabri
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -309,7 +309,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: UpgradeFailureAction
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 Accepted values: Invalid, Rollback, Manual
 
 Required: True
@@ -325,7 +325,7 @@ Indicates that this cmdlet skips the warning message and forces the upgrade.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -340,7 +340,7 @@ Indicates that the service host restarts even if the upgrade is a configuration-
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -355,7 +355,7 @@ Specifies the duration, in seconds, after which Service Fabric retries the healt
 ```yaml
 Type: UInt32
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -371,7 +371,7 @@ This wait duration prevents undetected changes of health right after the health 
 ```yaml
 Type: UInt32
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -386,7 +386,7 @@ Specifies the duration, in seconds, that Service Fabric waits before it performs
 ```yaml
 Type: UInt32
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -402,7 +402,7 @@ If the current unhealthy nodes do not respect the percentage relative to the sta
 ```yaml
 Type: Byte
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -418,7 +418,7 @@ If the currently unhealthy applications do not respect this amount, the cluster 
 ```yaml
 Type: Byte
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -434,7 +434,7 @@ If the current unhealthy applications do not respect this percentage, the cluste
 ```yaml
 Type: Byte
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -450,7 +450,7 @@ If there is any upgrade domain where the current unhealthy nodes do not respect 
 ```yaml
 Type: Byte
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -467,7 +467,7 @@ If the upgrade domain or cluster fails to meet health policies, the upgrade fail
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -481,12 +481,12 @@ Specifies the time-out period, in seconds, to check whether the replica set has 
 After the time out period, the upgrade proceeds.
 
 This parameter has been deprecated.
-Specify the **UpgradeReplicaSetCheckTimeoutSec** parameter instead.
+Specify the *UpgradeReplicaSetCheckTimeoutSec* parameter instead.
 
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -499,12 +499,12 @@ Accept wildcard characters: False
 Indicates that the service host restarts as part of the upgrade.
 
 This parameter has been deprecated.
-Specify the **ForceRestart** parameter instead.
+Specify the *ForceRestart* parameter instead.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -519,7 +519,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -536,7 +536,7 @@ This mode is not recommended for production use.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Both UnmonitoredAuto, Code UnmonitoredAuto, Config UnmonitoredAuto
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -547,12 +547,12 @@ Accept wildcard characters: False
 
 ### -UnmonitoredManual
 Indicates that the upgrade mode is unmonitored manual.
-After Service Fabric upgrades an upgrade domain, it waits for you to upgrade the next upgrade domain by using the Resume-ServiceFabricClusterUpgrade cmdlet.
+After Service Fabric upgrades an upgrade domain, it waits for you to upgrade the next upgrade domain by using the [Resume-ServiceFabricClusterUpgrade](./Resume-ServiceFabricClusterUpgrade.md) cmdlet.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code UnmonitoredManual, Config UnmonitoredManual, Both UnmonitoredManual
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -568,7 +568,7 @@ After this period, the upgrade fails.
 ```yaml
 Type: UInt32
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -583,7 +583,7 @@ Specifies the maximum time that Service Fabric waits for a service to reconfigur
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -599,7 +599,7 @@ After this period, the upgrade fails.
 ```yaml
 Type: UInt32
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -610,7 +610,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -642,14 +641,12 @@ This cmdlet returns a **System.Fabric.Description.FabricUpgradeDescription** for
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[Get-ServiceFabricClusterUpgrade](./Get-ServiceFabricClusterUpgrade.md)
+[Get-ServiceFabricClusterUpgrade](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterUpgrade.md)
 
-[Resume-ServiceFabricClusterUpgrade](./Resume-ServiceFabricClusterUpgrade.md)
+[Resume-ServiceFabricClusterUpgrade](xref:ServiceFabric/vlatest/Resume-ServiceFabricClusterUpgrade.md)
 
-[Remove-ServiceFabricClusterPackage](./Remove-ServiceFabricClusterPackage.md)
-
-
+[Remove-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md)

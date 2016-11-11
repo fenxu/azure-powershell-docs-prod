@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Approve-ServiceFabricRepairTask.md
+online version:
 schema: 2.0.0
 ms.assetid: FF0A85E2-0CAB-4762-B813-47C420DF9FB8
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Complete-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Complete-ServiceFabricRepairTask.md
+updated_at: 11/2/2016 6:01 PM
+ms.date: 11/2/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Complete-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Complete-ServiceFabricRepairTask.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -42,7 +42,7 @@ This cmdlet supports the Service Fabric platform.
 Do not run this cmdlet directly.
 
 This cmdlet requires that you connect to the cluster with credentials that are granted administrator access to the cluster.
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -63,7 +63,7 @@ This command marks the manual repair task that has the ID MyRepairTaskId as canc
 ## PARAMETERS
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -83,7 +83,7 @@ Forces the command to run even if the specified repair task does not appear to b
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -98,7 +98,7 @@ Specifies a value that provides additional details about the result of the repai
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -113,7 +113,7 @@ Specifies a string that provide additional details about the result of the repai
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -142,7 +142,7 @@ Do not specify this value.
 ```yaml
 Type: RepairTaskResult
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, Succeeded, Cancelled, Interrupted, Failed, Pending
 
 Required: False
@@ -158,7 +158,7 @@ Specifies the ID of the repair task to complete.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -173,7 +173,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -190,7 +190,7 @@ Specify a value of zero (0) to skip version check.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -201,7 +201,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -233,14 +232,12 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[Approve-ServiceFabricRepairTask](./Approve-ServiceFabricRepairTask.md)
+[Approve-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md)
 
-[Get-ServiceFabricRepairTask](./Get-ServiceFabricRepairTask.md)
+[Get-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Get-ServiceFabricRepairTask.md)
 
-[Remove-ServiceFabricRepairTask](./Remove-ServiceFabricRepairTask.md)
+[Remove-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Remove-ServiceFabricRepairTask.md)
 
-[Start-ServiceFabricRepairTask](./Start-ServiceFabricRepairTask.md)
+[Start-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md)
 
-[Stop-ServiceFabricRepairTask](./Stop-ServiceFabricRepairTask.md)
-
-
+[Stop-ServiceFabricRepairTask](xref:ServiceFabric/vlatest/Stop-ServiceFabricRepairTask.md)

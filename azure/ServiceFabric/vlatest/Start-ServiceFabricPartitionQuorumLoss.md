@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Get-ServiceFabricPartitionQuorumLossProgress.md
+online version:
 schema: 2.0.0
 ms.assetid: 199F858A-4F1C-44C4-9723-D651FE5FAF44
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -65,7 +65,7 @@ To run this cmdlet, **FaultAnalysisService** must be enabled.
 Run this cmdlet to put a partition into quorum loss only for partitions for stateful services.
 Do not use this cmdlet to put a partition into quorum loss for system services.
 
-You can check the progress of the operation by using the Get-ServiceFabricPartitionQuorumLossProgress cmdlet.
+You can check the progress of the operation by using the [Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress) cmdlet.
 
 ## EXAMPLES
 
@@ -89,7 +89,7 @@ You can check the progress of the operation by using this ID and **Get-ServiceFa
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -104,7 +104,7 @@ Specifies the ID of the Service Fabric partition that this cmdlet puts into quor
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -119,7 +119,7 @@ Specifies the key of the Service Fabric partition that this cmdlet puts into quo
 ```yaml
 Type: String
 Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -134,7 +134,7 @@ Indicates that the Service Fabric partition that this cmdlet puts into quorum lo
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -149,7 +149,7 @@ Indicates that the Service Fabric partition that this cmdlet puts into quorum lo
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -164,7 +164,7 @@ Indicates that the Service Fabric partition that this cmdlet puts into quorum lo
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -179,7 +179,7 @@ Specifies the duration, in seconds, of the quorum loss.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -193,14 +193,14 @@ Specifies the mode of quorum loss that this cmdlet performs.
 The acceptable values for this parameter are:
 
 - FullQuorumLoss.
-Down all replicas for the target partition. 
+Down all replicas for the target partition.
 - PartialQuorumLoss.
 Down a quorum of replicas for the target partition.
 
 ```yaml
 Type: QuorumLossMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, QuorumReplicas, AllReplicas
 
 Required: True
@@ -216,7 +216,7 @@ Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -231,7 +231,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -251,8 +251,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress.md)
+[Get-ServiceFabricPartitionQuorumLossProgress](xref:ServiceFabric/vlatest/Get-ServiceFabricPartitionQuorumLossProgress.md)
 
-[Invoke-ServiceFabricPartitionQuorumLoss](./Invoke-ServiceFabricPartitionQuorumLoss.md)
-
-
+[Invoke-ServiceFabricPartitionQuorumLoss](xref:ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md)

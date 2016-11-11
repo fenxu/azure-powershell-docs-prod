@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Get-ServiceFabricPartitionDataLossProgress.md
+online version:
 schema: 2.0.0
 ms.assetid: F83D7B99-CFDC-4A95-A2C7-3CD33925FBAA
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -61,9 +61,9 @@ To run this cmdlet, **FaultAnalysisService** must be enabled.
 Run this cmdlet to perform a data loss test only for partitions for stateful services.
 Do not use this cmdlet to perform a data loss test for system services.
 
-You can check the progress of the operation by using the Get-ServiceFabricPartitionDataLossProgress cmdlet.
+You can check the progress of the operation by using the [Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress) cmdlet.
 
-Note: After you start **Start-ServiceFabricPartitionDataLoss**, you cannot reverse it.  Calling **Stop-ServiceFabricTestCommand** only stops execution and cleans up the internal system state; it does not restore data if the command has progressed far enough to cause data loss.
+After you start **Start-ServiceFabricPartitionDataLoss**, you cannot reverse it.  Calling [Stop-ServiceFabricTestCommand](./Stop-ServiceFabricTestCommand.md) only stops execution and cleans up the internal system state; it does not restore data if the command has progressed far enough to cause data loss.
 
 ## EXAMPLES
 
@@ -92,7 +92,7 @@ All data is lost and **OnDataLoss** is triggered.
 ```yaml
 Type: DataLossMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, PartialDataLoss, FullDataLoss
 
 Required: True
@@ -110,7 +110,7 @@ You can check the progress of the operation by using this ID and **Get-ServiceFa
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -125,7 +125,7 @@ Specifies the ID of the Service Fabric partition for which this cmdlet starts a 
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -140,7 +140,7 @@ Specifies the key of the Service Fabric partition for which this cmdlet starts a
 ```yaml
 Type: String
 Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -155,7 +155,7 @@ Indicates that the Service Fabric partition for which this cmdlet starts a data 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -170,7 +170,7 @@ Indicates that the Service Fabric partition for which this cmdlet starts a data 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -185,7 +185,7 @@ Indicates that the Service Fabric partition for which this cmdlet starts a data 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -200,7 +200,7 @@ Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -215,7 +215,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -235,8 +235,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress.md)
+[Get-ServiceFabricPartitionDataLossProgress](xref:ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md)
 
-[Invoke-ServiceFabricPartitionDataLoss](./Invoke-ServiceFabricPartitionDataLoss.md)
-
-
+[Invoke-ServiceFabricPartitionDataLoss](xref:ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md)

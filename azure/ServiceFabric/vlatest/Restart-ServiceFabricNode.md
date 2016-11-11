@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Disable-ServiceFabricNode.md
+online version:
 schema: 2.0.0
 ms.assetid: 31BD0C1D-F4E0-40B2-B902-06B660D633D9
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricNode.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricNode.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -162,14 +162,14 @@ This cmdlet simulates Service Fabric node failures in the cluster, which tests t
 In addition to selecting a specific Service Fabric node, this cmdlet can accept a *ReplicaOrInstanceId* parameter to restart the primary replica.
 This simplifies tests on the primary host node by not having to determine which Service Fabricnode is the primary node before restarting that node.
 
-If you specify a non-zero value for the NodeInstanceId parameter, that ID is compared with the active node ID.
+If you specify a non-zero value for the *NodeInstanceId* parameter, that ID is compared with the active node ID.
 If the IDs do not match, the process is not restarted and an error occurs.
 A stale message can cause this error.
 
 If you specify the *CreateFabricDump* parameter, this cmdlet causes the Fabric.exe process to crash on the specified node during restart.
 This crash creates a process dump for Fabric.exe.
 
-Before using this cmdlet, connect to the Service Fabric cluster.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -197,7 +197,7 @@ Specifies whether the action waits for the restart to complete.
 ```yaml
 Type: CompletionMode
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Invalid, DoNotVerify, Verify
 
 Required: False
@@ -213,7 +213,7 @@ Indicates that the Service Fabric node creates a process dump for Fabric.exe.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -230,7 +230,7 @@ The *NodeInstanceId* is also available through the query APIs.
 ```yaml
 Type: BigInteger
 Parameter Sets: ByNodeName
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -246,7 +246,7 @@ The cmdlet restarts the node that you specify.
 ```yaml
 Type: String
 Parameter Sets: ByNodeName
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -261,7 +261,7 @@ Specifies the ID of the partition of node to restart.
 ```yaml
 Type: Guid
 Parameter Sets: PartitionIdReplicaPrimary, PartitionId, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -276,7 +276,7 @@ Specifies the key of the partition for the node to restart.
 ```yaml
 Type: String
 Parameter Sets: ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -291,7 +291,7 @@ Indicates that this cmdlet restarts a node on a named partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamed, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionNamedReplicaPrimary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -306,7 +306,7 @@ Indicates that this cmdlet restarts a node on a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionSingleton, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionSingletonReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -321,7 +321,7 @@ Indicates that this cmdlet restarts a node on a UniformInt64 partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaId, ServiceNamePartitionUniformedInt, ServiceNamePartitionUniformedIntReplicaPrimary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -336,7 +336,7 @@ Indicates that this cmdlet restarts the node for the primary replica.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: PartitionIdReplicaPrimary, ServiceNameReplicaPrimary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -351,7 +351,7 @@ Indicates that this cmdlet restarts the node for a random secondary replica.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: PartitionIdReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNameReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -366,7 +366,7 @@ Specifies a Service Fabric service replica or instance ID.
 ```yaml
 Type: Int64
 Parameter Sets: PartitionIdReplicaId, ServiceNamePartitionUniformedIntReplicaId, ServiceNameReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionSingletonReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -381,7 +381,7 @@ Specifies the name of the service to restart.
 ```yaml
 Type: Uri
 Parameter Sets: PartitionIdReplicaPrimary, PartitionId, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaId, ServiceNameReplicaPrimary, ServiceNameReplicaRandomSecondary, ServiceNameReplicaId, ServiceName, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionSingleton, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionSingletonReplicaId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -396,7 +396,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -428,14 +428,14 @@ This cmdlet returns a **System.Fabric.Testability.RestartNodeResult** object tha
 
 ## RELATED LINKS
 
-[Disable-ServiceFabricNode](./Disable-ServiceFabricNode.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Enable-ServiceFabricNode](./Enable-ServiceFabricNode.md)
+[Disable-ServiceFabricNode](xref:ServiceFabric/vlatest/Disable-ServiceFabricNode.md)
 
-[Get-ServiceFabricNode](./Get-ServiceFabricNode.md)
+[Enable-ServiceFabricNode](xref:ServiceFabric/vlatest/Enable-ServiceFabricNode.md)
 
-[Start-ServiceFabricNode](./Start-ServiceFabricNode.md)
+[Get-ServiceFabricNode](xref:ServiceFabric/vlatest/Get-ServiceFabricNode.md)
 
-[Stop-ServiceFabricNode](./Stop-ServiceFabricNode.md)
+[Start-ServiceFabricNode](xref:ServiceFabric/vlatest/Start-ServiceFabricNode.md)
 
-
+[Stop-ServiceFabricNode](xref:ServiceFabric/vlatest/Stop-ServiceFabricNode.md)

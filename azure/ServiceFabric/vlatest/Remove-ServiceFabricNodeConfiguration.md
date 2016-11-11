@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Connect-ServiceFabricCluster.md
+online version:
 schema: 2.0.0
 ms.assetid: 9A5DA030-1323-4157-A3DE-3ED68A2AA354
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricNodeConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricNodeConfiguration.md
+updated_at: 11/3/2016 1:31 AM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricNodeConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricNodeConfiguration.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -31,8 +31,8 @@ Remove-ServiceFabricNodeConfiguration [-DeleteLog] [-Force] [-MachineName <Strin
 
 ## DESCRIPTION
 The **Remove-ServiceFabricNodeConfiguration** cmdlet removes all the data and configuration settings stored on the operating system instance related to the node.
-Note that **Remove-ServiceFabricNodeConfiguration**  does not change the Service Fabric state.
-To completely remove all information about the node, including the state, you must also use the Remove-ServiceFabricNodeState cmdlet.
+This cmdlet does not change the Service Fabric state.
+To completely remove all information about the node, including the state, you must also use the [Remove-ServiceFabricNodeState](./Remove-ServiceFabricNodeState.md) cmdlet.
 This removes the state from the system services.
 
 To manage Service Fabric clusters, start your Windows PowerShell session by using the Run as administrator option.
@@ -50,7 +50,7 @@ The *DeleteLog* parameter is included in order to remove the per-node log as wel
 ## PARAMETERS
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -70,7 +70,7 @@ Indicates that the cmdlet removes the per-node log.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -85,7 +85,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -104,7 +104,7 @@ For example:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,7 +115,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -136,7 +135,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ###  
-**Remove-ServiceFabricNodeConfiguration** does not accept pipelined input.
+This cmdlet does not accept pipelined input.
 
 ## OUTPUTS
 
@@ -147,14 +146,12 @@ This cmdlet returns the status of the operation as a string.
 
 ## RELATED LINKS
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
-[New-ServiceFabricNodeConfiguration](./New-ServiceFabricNodeConfiguration.md)
+[New-ServiceFabricNodeConfiguration](xref:ServiceFabric/vlatest/New-ServiceFabricNodeConfiguration.md)
 
-[Update-ServiceFabricNodeConfiguration](./Update-ServiceFabricNodeConfiguration.md)
+[Update-ServiceFabricNodeConfiguration](xref:ServiceFabric/vlatest/Update-ServiceFabricNodeConfiguration.md)
 
-[Remove-ServiceFabricNodeState](./Remove-ServiceFabricNodeState.md)
-
-
+[Remove-ServiceFabricNodeState](xref:ServiceFabric/vlatest/Remove-ServiceFabricNodeState.md)

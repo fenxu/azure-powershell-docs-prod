@@ -1,14 +1,14 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: ./Get-ServiceFabricPartition.md
+online version:
 schema: 2.0.0
 ms.assetid: E64F672A-23EB-408C-82E8-8BD8B2C5A7A2
-updated_at: 10/24/2016 10:54 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/865a3e19e58e9be5871c4d9834591e4ba1c1b9ec/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
+updated_at: 11/3/2016 5:06 PM
+ms.date: 11/3/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
 author: visual-studio-china
@@ -55,7 +55,7 @@ The expectation at this point is for the replicas to come back up so that the pa
 However, if replicas cannot come back up, you can run this cmdlet to bring the partition out of quorum loss.
 If the primary replica is also down, data loss is declared for the partition.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
@@ -95,7 +95,7 @@ Indicates that this cmdlet repairs all the partitions that are in quorum loss.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: All
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -125,7 +125,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -141,7 +141,7 @@ This cmdlet repairs only the partition that this parameter specifies.
 ```yaml
 Type: Guid
 Parameter Sets: Partition
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -156,7 +156,7 @@ Indicates that this cmdlet repairs only the partitions of the service that the *
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Service
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -171,7 +171,7 @@ Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: Service
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -186,7 +186,7 @@ Indicates that this cmdlet repairs all the partitions of the system services.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: System
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -201,7 +201,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -212,7 +212,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -244,10 +243,8 @@ This cmdlet returns the status of the operation as a string.
 
 ## RELATED LINKS
 
-[Get-ServiceFabricPartition](./Get-ServiceFabricPartition.md)
+[Get-ServiceFabricPartition](xref:ServiceFabric/vlatest/Get-ServiceFabricPartition.md)
 
-[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+[Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
-[Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
-
-
+[Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
