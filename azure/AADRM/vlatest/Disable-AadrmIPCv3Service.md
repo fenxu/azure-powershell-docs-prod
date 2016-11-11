@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400598
 schema: 2.0.0
 ms.assetid: 0AB1207B-C468-4C1A-ACED-DD1B182701B2
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Disable-AadrmIPCv3Service.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Disable-AadrmIPCv3Service.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmIPCv3Service.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmIPCv3Service.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -53,8 +54,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AadrmIPCv3Service](.\Enable-AadrmIPCv3Service.md)
+[Enable-AadrmIPCv3Service](xref:AADRM/vlatest/Enable-AadrmIPCv3Service.md)
 
-[Get-AadrmIPCv3Service](.\Get-AadrmIPCv3Service.md)
-
-
+[Get-AadrmIPCv3Service](xref:AADRM/vlatest/Get-AadrmIPCv3Service.md)

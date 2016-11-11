@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400597
 schema: 2.0.0
 ms.assetid: 56F5DDA0-7EFE-4B9B-BE34-4052DC5968B2
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Disable-AadrmDevicePlatform.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Disable-AadrmDevicePlatform.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDevicePlatform.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDevicePlatform.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -36,7 +37,7 @@ Disable-AadrmDevicePlatform [-Windows] [-WindowsStore] [-WindowsPhone] [-Mac] [-
 
 ## DESCRIPTION
 The **Disable-AadrmDevicePlatform** cmdlet disables Azure Rights Management support for device platforms.
-For information about supported device platforms, see the Enable-AadrmDevicePlatform cmdlet.
+For information about supported device platforms, see the [Enable-AadrmDevicePlatform](./Enable-AadrmDevicePlatform) cmdlet.
 
 ## EXAMPLES
 
@@ -63,7 +64,7 @@ The cmdlet disables Rights Management support for all device platforms.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: AllPlatforms
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -79,7 +80,7 @@ The cmdlet disables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,7 +96,7 @@ The cmdlet disables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,7 +112,7 @@ The cmdlet disables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -127,7 +128,7 @@ The cmdlet disables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -143,7 +144,7 @@ The cmdlet disables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -159,7 +160,7 @@ The cmdlet disables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -175,7 +176,7 @@ The cmdlet disables Rights Management support for the specified device platform.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Platforms
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -195,8 +196,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AadrmDevicePlatform](.\Enable-AadrmDevicePlatform.md)
+[Enable-AadrmDevicePlatform](xref:AADRM/vlatest/Enable-AadrmDevicePlatform.md)
 
-[Get-AadrmDevicePlatform](.\Get-AadrmDevicePlatform.md)
-
-
+[Get-AadrmDevicePlatform](xref:AADRM/vlatest/Get-AadrmDevicePlatform.md)

@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=521419
 schema: 2.0.0
 ms.assetid: AC10D692-604D-40A3-94BE-AAA5008BF9D8
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Set-AadrmOnboardingControlPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Set-AadrmOnboardingControlPolicy.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmOnboardingControlPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmOnboardingControlPolicy.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -41,7 +42,7 @@ If you use the group membership option, you must specify a security group, which
 To specify the group, use the group GUID.
 To obtain that GUID,  use the **Get-MsolGroup** cmdlet from the Azure AD PowerShell administration module.
 
-For more information about the Azure AD PowerShell cmdlets, see Azure Active Directory Cmdletshttp://msdn.microsoft.com/library/azure/jj151815.aspx (http://msdn.microsoft.com/library/azure/jj151815.aspx).
+For more information about the Azure AD PowerShell cmdlets, see [Azure Active Directory Cmdlets](http://msdn.microsoft.com/library/azure/jj151815.aspx) (http://msdn.microsoft.com/library/azure/jj151815.aspx).
 
 Note: This cmdlet does not stop users from consuming protected content.
 
@@ -88,7 +89,7 @@ Indicates that this cmdlet configures the on-boarding control policy even if the
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -98,17 +99,17 @@ Accept wildcard characters: False
 ```
 
 ### -Scope
-Specifies the types of applications to which the on-boarding policy applies. 
-Valid values are: 
+Specifies the types of applications to which the on-boarding policy applies.
+Valid values are:
 
-- All 
+- All
 - WindowsApp
 - MobileApp
 
 ```yaml
 Type: OnboardingControlPolicyScope
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: All, WindowsApp, MobileApp
 
 Required: False
@@ -127,7 +128,7 @@ You can use this parameter  to implement a phased deployment of Azure Rights Man
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -143,7 +144,7 @@ Users can always use Azure Rights Management to consume protected content regard
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -153,7 +154,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -169,7 +170,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -195,6 +195,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AadrmOnboardingControlPolicy](.\Get-AadrmOnboardingControlPolicy.md)
+[Get-AadrmOnboardingControlPolicy](xref:AADRM/vlatest/Get-AadrmOnboardingControlPolicy.md)
 
-
+[Azure Active Directory Cmdlets](http://msdn.microsoft.com/library/azure/jj151815.aspx)

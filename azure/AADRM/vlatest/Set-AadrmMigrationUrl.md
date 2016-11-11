@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400622
 schema: 2.0.0
 ms.assetid: ECE82C74-2902-475D-9DCE-6E9F3842024D
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Set-AadrmMigrationUrl.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Set-AadrmMigrationUrl.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmMigrationUrl.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmMigrationUrl.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -34,7 +35,7 @@ Migration URLs let you migrate from Rights Management to a supported on-premises
 Use this migration technique if you need indefinite access to content that has been previously protected by using Azure Rights Management and you have decided to no longer use Azure Rights Management.
 
 In addition to setting this migration URL for clients, you must export your keys and policies from the cloud service in the form of a trusted publishing domain (TPD file) and import them into an on-premises Rights Management server.
-For more information, see the instructions for exporting your tenant key in Microsoft-managed: Tenant key lifecycle operationshttps://docs.microsoft.com/rights-management/deploy-use/operations-microsoft-managed-tenant-key (https://docs.microsoft.com/rights-management/deploy-use/operations-microsoft-managed-tenant-key) on the Microsoft documentation site.
+For more information, see the instructions for exporting your tenant key in [Microsoft-managed: Tenant key lifecycle operations](https://docs.microsoft.com/rights-management/deploy-use/operations-microsoft-managed-tenant-key) (https://docs.microsoft.com/rights-management/deploy-use/operations-microsoft-managed-tenant-key) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -53,7 +54,7 @@ Specifies a URL for the domain to migrate.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -68,7 +69,7 @@ Indicates that the cmdlet sets the value of the migration URL even if there is a
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -78,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -94,7 +95,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -120,6 +120,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AadrmMigrationUrl](.\Get-AadrmMigrationUrl.md)
+[Get-AadrmMigrationUrl](xref:AADRM/vlatest/Get-AadrmMigrationUrl.md)
 
-
+[Microsoft-managed: Tenant key lifecycle operations](https://docs.microsoft.com/rights-management/deploy-use/operations-microsoft-managed-tenant-key)

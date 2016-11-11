@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400599
 schema: 2.0.0
 ms.assetid: E6136B57-7B45-4F74-8069-E23FB5D41E17
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Disable-AadrmSuperUserFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Disable-AadrmSuperUserFeature.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmSuperUserFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmSuperUserFeature.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -29,13 +30,13 @@ Disable-AadrmSuperUserFeature [<CommonParameters>]
 
 ## DESCRIPTION
 The **Disable-AadrmSuperUserFeature** cmdlet disables the super user feature.
-This action does not automatically remove the previously added users or group from the super user list, and they continue to be displayed when you run the Get-AadrmSuperUser or Get-AadrmSuperUserGroup cmdlets.
+This action does not automatically remove the previously added users or group from the super user list, and they continue to be displayed when you run the [Get-AadrmSuperUser](./Get-AadrmSuperUser.md) or [Get-AadrmSuperUserGroup](./Get-AadrmSuperGroup.md) cmdlets.
 Therefore, if you enable the super user feature again, these users are automatically super users again, until you manually remove them.
 If there are users in the current super list who must not be a super user if this feature is enabled again, remove them from the super user list before you disable the super user feature.
-If these users are individually specified, remove them with the Remove-AadrmSuperUser cmdlet.
-If they are a member of a group that you have specified to be a super user group, either remove those users from the specified super user group, or remove the super user group by using the Clear-AadrmSuperUserGroup cmdlet.
+If these users are individually specified, remove them with the [Remove-AadrmSuperUser](./Remove-AadrmSuperUser.md) cmdlet.
+If they are a member of a group that you have specified to be a super user group, either remove those users from the specified super user group, or remove the super user group by using the [Clear-AadrmSuperUserGroup](./Clear-AadrmSuperUserGroup.md) cmdlet.
 
-For information about the super user feature in Azure Rights Management, see Enable-AadrmSuperUserFeature.
+For information about the super user feature in Azure Rights Management, see [Enable-AadrmSuperUserFeature](./Enable-AadrmSuperUserFeature.md).
 
 ## EXAMPLES
 
@@ -59,16 +60,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Clear-AadrmSuperUserGroup](.\Clear-AadrmSuperUserGroup.md)
+[Clear-AadrmSuperUserGroup](xref:AADRM/vlatest/Clear-AadrmSuperUserGroup.md)
 
-[Enable-AadrmSuperUserFeature](.\Enable-AadrmSuperUserFeature.md)
+[Enable-AadrmSuperUserFeature](xref:AADRM/vlatest/Enable-AadrmSuperUserFeature.md)
 
-[Get-AadrmSuperUserFeature](.\Get-AadrmSuperUserFeature.md)
+[Get-AadrmSuperUserFeature](xref:AADRM/vlatest/Get-AadrmSuperUserFeature.md)
 
-[Get-AadrmSuperUser](.\Get-AadrmSuperUser.md)
+[Get-AadrmSuperUser](xref:AADRM/vlatest/Get-AadrmSuperUser.md)
 
-[Get-AadrmSuperUserGroup](.\Get-AadrmSuperUserGroup.md)
+[Get-AadrmSuperUserGroup](xref:AADRM/vlatest/Get-AadrmSuperUserGroup.md)
 
-[Remove-AadrmSuperUser](.\Remove-AadrmSuperUser.md)
-
-
+[Remove-AadrmSuperUser](xref:AADRM/vlatest/Remove-AadrmSuperUser.md)

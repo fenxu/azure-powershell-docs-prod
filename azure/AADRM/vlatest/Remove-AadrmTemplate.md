@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400630
 schema: 2.0.0
 ms.assetid: EAC26502-ECB3-43A0-B468-D166C1E4A9C4
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Remove-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Remove-AadrmTemplate.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmTemplate.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -33,9 +34,9 @@ You can delete only custom templates.
 You can set default templates to an archived state but you cannot delete them.
 After a template is deleted, content protected with that template might become inaccessible.
 Users who are super users can continue to access content that was previously protected with a template that is now deleted.
-For more information about super users, see Configuring super users for Azure Rights Management and discovery services or data recoveryhttps://docs.microsoft.com/rights-management/deploy-use/configure-super-users (https://docs.microsoft.com/rights-management/deploy-use/configure-super-users) on the Microsoft documentation site.
+For more information about super users, see [Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/rights-management/deploy-use/configure-super-users) (https://docs.microsoft.com/rights-management/deploy-use/configure-super-users) on the Microsoft documentation site.
 
-This cmdlet requires the template ID, which you can get with the Get-AadrmTemplate cmdlet.
+This cmdlet requires the template ID, which you can get with the [Get-AadrmTemplate](./Get-AadrmTemplate.md) cmdlet.
 
 This cmdlet performs the following operations:
 
@@ -44,7 +45,7 @@ This cmdlet performs the following operations:
 - Asks to confirm whether to proceed.
 - Calls the service to remove the template with the specified GUID.
 
-For more information about custom templates, see Configuring custom templates for Azure Rights Managementhttps://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
+For more information about custom templates, see [Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -63,7 +64,7 @@ Specifies the GUID of the Rights Management template.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -83,12 +84,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AadrmTemplate](.\Add-AadrmTemplate.md)
+[Add-AadrmTemplate](xref:AADRM/vlatest/Add-AadrmTemplate.md)
 
-[Export-AadrmTemplate](.\Export-AadrmTemplate.md)
+[Export-AadrmTemplate](xref:AADRM/vlatest/Export-AadrmTemplate.md)
 
-[Get-AadrmTemplate](.\Get-AadrmTemplate.md)
+[Get-AadrmTemplate](xref:AADRM/vlatest/Get-AadrmTemplate.md)
 
-[Import-AadrmTemplate](.\Import-AadrmTemplate.md)
+[Import-AadrmTemplate](xref:AADRM/vlatest/Import-AadrmTemplate.md)
 
+[Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/rights-management/deploy-use/configure-super-users)
 
+[Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates)

@@ -3,15 +3,16 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=734985
 schema: 2.0.0
 ms.assetid: ED6B146C-069C-4DB2-9477-65D9783BC002
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/RMSProtection/vlatest/Clear-RMSAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/RMSProtection/vlatest/Clear-RMSAuthentication.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -37,7 +38,7 @@ You are then prompted for new credentials.
 This cmdlet applies to Azure RMS only and when you authenticate as a user rather than a service principal.
 It does not apply to AD RMS.
 
-Note: If you want to clear the credentials for a service principal that you specified with **Set-RMSServerAuthentication**, close your PowerShell session and start a new session that runs Set-RMSServerAuthentication with the new credentials.
+Note: If you want to clear the credentials for a service principal that you specified with [Set-RMSServerAuthentication](./Set-RMSServerAuthentication), close your PowerShell session and start a new session that runs **Set-RMSServerAuthentication** with the new credentials.
 
 ## EXAMPLES
 
@@ -62,6 +63,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-RMSServerAuthentication](.\Set-RMSServerAuthentication.md)
-
-
+[Set-RMSServerAuthentication](xref:RMSProtection/vlatest/Set-RMSServerAuthentication.md)

@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400593
 schema: 2.0.0
 ms.assetid: 9802F554-834A-4BA0-A086-C7F8B2976939
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Add-AadrmRoleBasedAdministrator.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Add-AadrmRoleBasedAdministrator.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmRoleBasedAdministrator.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmRoleBasedAdministrator.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -51,13 +52,13 @@ Because the Office 365 admin center and the Azure classic portal does not displa
 
 1.
 If you have not already done so, download and install the Azure AD PowerShell module, connect to the service by running **Connect-MsolService**, and then run the **Get-MsolGroup** cmdlet to lookup the GUID of the security group you created to administer role-based administrative rights for Rights Management.
-To install the Azure AD module, see the Install the Windows Azure AD Module section from the Manage Azure AD using Windows PowerShell (http://msdn.microsoft.com/library/windowsazure/jj151815.aspx) topic.
+To install the Azure AD module, see the [Install the Windows Azure AD Module section from the Manage Azure AD using Windows PowerShell](http://msdn.microsoft.com/library/windowsazure/jj151815.aspx) topic.
 
 Tip: If you have many groups, use the **Where-Object** cmdlet in Windows PowerShell to filter results.
 For example, you might enter the following cmdlet to filter and return only groups that start with "Rights": **Get-MsolGroup | where {$_.DisplayName -like "Rights*" }**
 
 2.
-In the output of the **Get-MsolGroup** cmdlet, copy the GUID value that was returned and use (paste) that value into the value of the -ObjectId parameter when you run the **Add-RoleBased Administrator** or Remove-AadrmRoleBasedAdministrator cmdlet.
+In the output of the **Get-MsolGroup** cmdlet, copy the GUID value that was returned and use (paste) that value into the value of the *ObjectId* parameter when you run the **Add-RoleBased Administrator** or [Remove-AadrmRoleBasedAdministrator](./Remove-AadrmRoleBasedAdministrator) cmdlet.
 
 ## EXAMPLES
 
@@ -84,7 +85,7 @@ The cmdlet adds administrative rights for the user or group that is identified b
 ```yaml
 Type: String
 Parameter Sets: EmailAddress
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -100,7 +101,7 @@ The cmdlet adds administrative rights for the user or group that is identified b
 ```yaml
 Type: Guid
 Parameter Sets: ObjectId
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,14 +116,14 @@ To specify these roles, use the following values:
 
 - GlobalAdministrator
 
-- ConnectorAdministrator 
+- ConnectorAdministrator
 
 The default value is GlobalAdministrator.
 
 ```yaml
 Type: Role
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -138,7 +139,7 @@ The cmdlet adds administrative rights for the user or group that is identified b
 ```yaml
 Type: String
 Parameter Sets: DisplayName
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -158,8 +159,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AadrmRoleBasedAdministrator](.\Get-AadrmRoleBasedAdministrator.md)
+[Get-AadrmRoleBasedAdministrator](xref:AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md)
 
-[Remove-AadrmRoleBasedAdministrator](.\Remove-AadrmRoleBasedAdministrator.md)
-
-
+[Remove-AadrmRoleBasedAdministrator](xref:AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md)

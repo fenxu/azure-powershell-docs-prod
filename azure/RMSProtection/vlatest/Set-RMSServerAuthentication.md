@@ -3,15 +3,16 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623208
 schema: 2.0.0
 ms.assetid: B46B757C-DF4D-4BCE-9732-527A86498619
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/RMSProtection/vlatest/Set-RMSServerAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/RMSProtection/vlatest/Set-RMSServerAuthentication.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Set-RMSServerAuthentication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Set-RMSServerAuthentication.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -54,7 +55,7 @@ Specifies the AppPrincipalId value of the service principal.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -69,7 +70,7 @@ Specifies the BposTenantId value (the tenant ID) to which the service principal 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -84,7 +85,7 @@ Specifies the symmetric key value for the service principal.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -104,6 +105,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-RMSServerAuthentication](.\Get-RMSServerAuthentication.md)
-
-
+[Get-RMSServerAuthentication](xref:RMSProtection/vlatest/Get-RMSServerAuthentication.md)

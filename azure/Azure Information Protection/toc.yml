@@ -1,138 +1,142 @@
-- name: AADRM Module
+- name: AADRM
   items:
     - name: vlatest
-      href: ../AADRM Module/vlatest/RightsManagement.md
+      href: ../AADRM/vlatest/RightsManagement.md
       items:
         - name: Add-AadrmKey
-          href: ../AADRM Module/vlatest/Add-AadrmKey.md
+          href: ../AADRM/vlatest/Add-AadrmKey.md
         - name: Add-AadrmRoleBasedAdministrator
-          href: ../AADRM Module/vlatest/Add-AadrmRoleBasedAdministrator.md
+          href: ../AADRM/vlatest/Add-AadrmRoleBasedAdministrator.md
         - name: Add-AadrmSuperUser
-          href: ../AADRM Module/vlatest/Add-AadrmSuperUser.md
+          href: ../AADRM/vlatest/Add-AadrmSuperUser.md
         - name: Add-AadrmTemplate
-          href: ../AADRM Module/vlatest/Add-AadrmTemplate.md
+          href: ../AADRM/vlatest/Add-AadrmTemplate.md
         - name: Clear-AadrmSuperUserGroup
-          href: ../AADRM Module/vlatest/Clear-AadrmSuperUserGroup.md
+          href: ../AADRM/vlatest/Clear-AadrmSuperUserGroup.md
         - name: Connect-AadrmService
-          href: ../AADRM Module/vlatest/Connect-AadrmService.md
+          href: ../AADRM/vlatest/Connect-AadrmService.md
         - name: Convert-AadrmKeyToKeyVault
-          href: ../AADRM Module/vlatest/Convert-AadrmKeyToKeyVault.md
+          href: ../AADRM/vlatest/Convert-AadrmKeyToKeyVault.md
         - name: Disable-Aadrm
-          href: ../AADRM Module/vlatest/Disable-Aadrm.md
+          href: ../AADRM/vlatest/Disable-Aadrm.md
         - name: Disable-AadrmDevicePlatform
-          href: ../AADRM Module/vlatest/Disable-AadrmDevicePlatform.md
+          href: ../AADRM/vlatest/Disable-AadrmDevicePlatform.md
         - name: Disable-AadrmDocumentTrackingFeature
-          href: ../AADRM Module/vlatest/Disable-AadrmDocumentTrackingFeature.md
+          href: ../AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
         - name: Disable-AadrmIPCv3Service
-          href: ../AADRM Module/vlatest/Disable-AadrmIPCv3Service.md
+          href: ../AADRM/vlatest/Disable-AadrmIPCv3Service.md
         - name: Disable-AadrmSuperUserFeature
-          href: ../AADRM Module/vlatest/Disable-AadrmSuperUserFeature.md
+          href: ../AADRM/vlatest/Disable-AadrmSuperUserFeature.md
         - name: Disable-AadrmUsageLogFeature
-          href: ../AADRM Module/vlatest/Disable-AadrmUsageLogFeature.md
+          href: ../AADRM/vlatest/Disable-AadrmUsageLogFeature.md
         - name: Disconnect-AadrmService
-          href: ../AADRM Module/vlatest/Disconnect-AadrmService.md
+          href: ../AADRM/vlatest/Disconnect-AadrmService.md
         - name: Enable-Aadrm
-          href: ../AADRM Module/vlatest/Enable-Aadrm.md
+          href: ../AADRM/vlatest/Enable-Aadrm.md
         - name: Enable-AadrmDevicePlatform
-          href: ../AADRM Module/vlatest/Enable-AadrmDevicePlatform.md
+          href: ../AADRM/vlatest/Enable-AadrmDevicePlatform.md
         - name: Enable-AadrmDocumentTrackingFeature
-          href: ../AADRM Module/vlatest/Enable-AadrmDocumentTrackingFeature.md
+          href: ../AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
         - name: Enable-AadrmIPCv3Service
-          href: ../AADRM Module/vlatest/Enable-AadrmIPCv3Service.md
+          href: ../AADRM/vlatest/Enable-AadrmIPCv3Service.md
         - name: Enable-AadrmSuperUserFeature
-          href: ../AADRM Module/vlatest/Enable-AadrmSuperUserFeature.md
+          href: ../AADRM/vlatest/Enable-AadrmSuperUserFeature.md
         - name: Enable-AadrmUsageLogFeature
-          href: ../AADRM Module/vlatest/Enable-AadrmUsageLogFeature.md
+          href: ../AADRM/vlatest/Enable-AadrmUsageLogFeature.md
         - name: Export-AadrmTemplate
-          href: ../AADRM Module/vlatest/Export-AadrmTemplate.md
+          href: ../AADRM/vlatest/Export-AadrmTemplate.md
         - name: Get-Aadrm
-          href: ../AADRM Module/vlatest/Get-Aadrm.md
+          href: ../AADRM/vlatest/Get-Aadrm.md
         - name: Get-AadrmAdminLog
-          href: ../AADRM Module/vlatest/Get-AadrmAdminLog.md
+          href: ../AADRM/vlatest/Get-AadrmAdminLog.md
         - name: Get-AadrmConfiguration
-          href: ../AADRM Module/vlatest/Get-AadrmConfiguration.md
+          href: ../AADRM/vlatest/Get-AadrmConfiguration.md
         - name: Get-AadrmDevicePlatform
-          href: ../AADRM Module/vlatest/Get-AadrmDevicePlatform.md
+          href: ../AADRM/vlatest/Get-AadrmDevicePlatform.md
         - name: Get-AadrmDocumentTrackingFeature
-          href: ../AADRM Module/vlatest/Get-AadrmDocumentTrackingFeature.md
+          href: ../AADRM/vlatest/Get-AadrmDocumentTrackingFeature.md
         - name: Get-AadrmIPCv3Service
-          href: ../AADRM Module/vlatest/Get-AadrmIPCv3Service.md
+          href: ../AADRM/vlatest/Get-AadrmIPCv3Service.md
         - name: Get-AadrmKeys
-          href: ../AADRM Module/vlatest/Get-AadrmKeys.md
+          href: ../AADRM/vlatest/Get-AadrmKeys.md
         - name: Get-AadrmMaxUseLicenseValidityTime
-          href: ../AADRM Module/vlatest/Get-AadrmMaxUseLicenseValidityTime.md
+          href: ../AADRM/vlatest/Get-AadrmMaxUseLicenseValidityTime.md
         - name: Get-AadrmMigrationUrl
-          href: ../AADRM Module/vlatest/Get-AadrmMigrationUrl.md
+          href: ../AADRM/vlatest/Get-AadrmMigrationUrl.md
         - name: Get-AadrmOnboardingControlPolicy
-          href: ../AADRM Module/vlatest/Get-AadrmOnboardingControlPolicy.md
+          href: ../AADRM/vlatest/Get-AadrmOnboardingControlPolicy.md
         - name: Get-AadrmRoleBasedAdministrator
-          href: ../AADRM Module/vlatest/Get-AadrmRoleBasedAdministrator.md
+          href: ../AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
         - name: Get-AadrmSuperUser
-          href: ../AADRM Module/vlatest/Get-AadrmSuperUser.md
+          href: ../AADRM/vlatest/Get-AadrmSuperUser.md
         - name: Get-AadrmSuperUserFeature
-          href: ../AADRM Module/vlatest/Get-AadrmSuperUserFeature.md
+          href: ../AADRM/vlatest/Get-AadrmSuperUserFeature.md
         - name: Get-AadrmSuperUserGroup
-          href: ../AADRM Module/vlatest/Get-AadrmSuperUserGroup.md
+          href: ../AADRM/vlatest/Get-AadrmSuperUserGroup.md
         - name: Get-AadrmTemplate
-          href: ../AADRM Module/vlatest/Get-AadrmTemplate.md
+          href: ../AADRM/vlatest/Get-AadrmTemplate.md
         - name: Get-AadrmTemplateProperty
-          href: ../AADRM Module/vlatest/Get-AadrmTemplateProperty.md
+          href: ../AADRM/vlatest/Get-AadrmTemplateProperty.md
         - name: Get-AadrmUsageLog
-          href: ../AADRM Module/vlatest/Get-AadrmUsageLog.md
+          href: ../AADRM/vlatest/Get-AadrmUsageLog.md
         - name: Get-AadrmUsageLogFeature
-          href: ../AADRM Module/vlatest/Get-AadrmUsageLogFeature.md
+          href: ../AADRM/vlatest/Get-AadrmUsageLogFeature.md
         - name: Get-AadrmUsageLogLastCounterValue
-          href: ../AADRM Module/vlatest/Get-AadrmUsageLogLastCounterValue.md
+          href: ../AADRM/vlatest/Get-AadrmUsageLogLastCounterValue.md
         - name: Get-AadrmUsageLogStorageAccount
-          href: ../AADRM Module/vlatest/Get-AadrmUsageLogStorageAccount.md
+          href: ../AADRM/vlatest/Get-AadrmUsageLogStorageAccount.md
         - name: Get-AadrmUserLog
-          href: ../AADRM Module/vlatest/Get-AadrmUserLog.md
+          href: ../AADRM/vlatest/Get-AadrmUserLog.md
         - name: Import-AadrmTemplate
-          href: ../AADRM Module/vlatest/Import-AadrmTemplate.md
+          href: ../AADRM/vlatest/Import-AadrmTemplate.md
         - name: Import-AadrmTpd
-          href: ../AADRM Module/vlatest/Import-AadrmTpd.md
+          href: ../AADRM/vlatest/Import-AadrmTpd.md
         - name: New-AadrmRightsDefinition
-          href: ../AADRM Module/vlatest/New-AadrmRightsDefinition.md
+          href: ../AADRM/vlatest/New-AadrmRightsDefinition.md
         - name: Remove-AadrmRoleBasedAdministrator
-          href: ../AADRM Module/vlatest/Remove-AadrmRoleBasedAdministrator.md
+          href: ../AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md
         - name: Remove-AadrmSuperUser
-          href: ../AADRM Module/vlatest/Remove-AadrmSuperUser.md
+          href: ../AADRM/vlatest/Remove-AadrmSuperUser.md
         - name: Remove-AadrmTemplate
-          href: ../AADRM Module/vlatest/Remove-AadrmTemplate.md
+          href: ../AADRM/vlatest/Remove-AadrmTemplate.md
         - name: Set-AadrmMaxUseLicenseValidityTime
-          href: ../AADRM Module/vlatest/Set-AadrmMaxUseLicenseValidityTime.md
+          href: ../AADRM/vlatest/Set-AadrmMaxUseLicenseValidityTime.md
         - name: Set-AadrmMigrationUrl
-          href: ../AADRM Module/vlatest/Set-AadrmMigrationUrl.md
+          href: ../AADRM/vlatest/Set-AadrmMigrationUrl.md
         - name: Set-AadrmOnboardingControlPolicy
-          href: ../AADRM Module/vlatest/Set-AadrmOnboardingControlPolicy.md
+          href: ../AADRM/vlatest/Set-AadrmOnboardingControlPolicy.md
         - name: Set-AadrmSuperUserGroup
-          href: ../AADRM Module/vlatest/Set-AadrmSuperUserGroup.md
+          href: ../AADRM/vlatest/Set-AadrmSuperUserGroup.md
         - name: Set-AadrmTemplateProperty
-          href: ../AADRM Module/vlatest/Set-AadrmTemplateProperty.md
+          href: ../AADRM/vlatest/Set-AadrmTemplateProperty.md
         - name: Set-AadrmUsageLogStorageAccount
-          href: ../AADRM Module/vlatest/Set-AadrmUsageLogStorageAccount.md
+          href: ../AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
         - name: Use-AadrmKeyVaultKey
-          href: ../AADRM Module/vlatest/Use-AadrmKeyVaultKey.md
-- name: RMSProtection Module
+          href: ../AADRM/vlatest/Use-AadrmKeyVaultKey.md
+- name: RMSProtection
   items:
     - name: vlatest
-      href: ../RMSProtection Module/vlatest/RightsProtection.md
+      href: ../RMSProtection/vlatest/RightsProtection.md
       items:
+        - name: about_RMSProtection_ADRMS
+          href: ../RMSProtection/vlatest/about_RMSProtection_ADRMS.md
+        - name: about_RMSProtection_AzureRMS
+          href: ../RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
         - name: Clear-RMSAuthentication
-          href: ../RMSProtection Module/vlatest/Clear-RMSAuthentication.md
+          href: ../RMSProtection/vlatest/Clear-RMSAuthentication.md
         - name: Get-RMSFileStatus
-          href: ../RMSProtection Module/vlatest/Get-RMSFileStatus.md
+          href: ../RMSProtection/vlatest/Get-RMSFileStatus.md
         - name: Get-RMSServer
-          href: ../RMSProtection Module/vlatest/Get-RMSServer.md
+          href: ../RMSProtection/vlatest/Get-RMSServer.md
         - name: Get-RMSServerAuthentication
-          href: ../RMSProtection Module/vlatest/Get-RMSServerAuthentication.md
+          href: ../RMSProtection/vlatest/Get-RMSServerAuthentication.md
         - name: Get-RMSTemplate
-          href: ../RMSProtection Module/vlatest/Get-RMSTemplate.md
+          href: ../RMSProtection/vlatest/Get-RMSTemplate.md
         - name: New-RMSProtectionLicense
-          href: ../RMSProtection Module/vlatest/New-RMSProtectionLicense.md
+          href: ../RMSProtection/vlatest/New-RMSProtectionLicense.md
         - name: Protect-RMSFile
-          href: ../RMSProtection Module/vlatest/Protect-RMSFile.md
+          href: ../RMSProtection/vlatest/Protect-RMSFile.md
         - name: Set-RMSServerAuthentication
-          href: ../RMSProtection Module/vlatest/Set-RMSServerAuthentication.md
+          href: ../RMSProtection/vlatest/Set-RMSServerAuthentication.md
         - name: Unprotect-RMSFile
-          href: ../RMSProtection Module/vlatest/Unprotect-RMSFile.md
+          href: ../RMSProtection/vlatest/Unprotect-RMSFile.md

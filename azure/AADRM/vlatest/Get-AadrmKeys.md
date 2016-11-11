@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400611
 schema: 2.0.0
 ms.assetid: 9B4056B1-7BEB-4DD2-A0C7-2F9400EDB3E5
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Get-AadrmKeys.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Get-AadrmKeys.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmKeys.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmKeys.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -30,10 +31,10 @@ Get-AadrmKeys [<CommonParameters>]
 ## DESCRIPTION
 The **Get-AadrmKeys** cmdlet lists all tenant keys associated with your tenant for the Azure Rights Management service.
 The tenant keys include the initial tenant key that Microsoft generates for you, and any tenant keys that are stored in Azure Key Vault.
-For more information about Azure RMS tenant keys, see Planning and implementing your Azure Rights Management tenant keyhttps://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key (https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) on the Microsoft documentation site.
+For more information about Azure RMS tenant keys, see Planning and implementing your [Azure Rights Management tenant key](https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) (https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) on the Microsoft documentation site.
 For security reasons, the cmdlet does not display the value of the tenant keys.
 
-When you run this cmdlet, you will see **Status** and **KeyType**: 
+When you run this cmdlet, you will see **Status** and **KeyType**:
 
 - The **Status** value shows **Archived** or **Active**.
 Archived identifies a tenant key that can be used to open previously protected content.
@@ -67,8 +68,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AadrmKey](.\Add-AadrmKey.md)
+[Add-AadrmKey](xref:AADRM/vlatest/Add-AadrmKey.md)
 
-[Import-AadrmTpd](.\Import-AadrmTpd.md)
+[Import-AadrmTpd](xref:AADRM/vlatest/Import-AadrmTpd.md)
 
-
+[Azure Rights Management tenant key](https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key)

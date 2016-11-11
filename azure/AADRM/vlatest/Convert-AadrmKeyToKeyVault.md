@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=799850
 schema: 2.0.0
 ms.assetid: 58EEEE8D-9C0E-4879-8F04-3F56589B1238
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Convert-AadrmKeyToKeyVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Convert-AadrmKeyToKeyVault.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Convert-AadrmKeyToKeyVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Convert-AadrmKeyToKeyVault.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -33,11 +34,11 @@ The **Convert-AadrmKeyToKeyVault** cmdlet is only for customers who have previou
 Do not run this cmdlet without assistance from Microsoft.
 
 Azure RMS now uses Azure Key Vault to manage and monitor a customer-managed Azure RMS tenant key.
-To create a customer-managed Azure RMS tenant key for the first time, run Use-AadrmKeyVaultKey instead of this cmdlet.
-For more information about how to manage your Azure RMS tenant key, see Planning and implementing your Azure Rights Management tenant keyhttps://docs.microsoft.com/en-us/rights-management/plan-design/plan-implement-tenant-key (https://docs.microsoft.com/en-us/rights-management/plan-design/plan-implement-tenant-key) on the Microsoft documentation site.
+To create a customer-managed Azure RMS tenant key for the first time, run [Use-AadrmKeyVaultKey](./Use-AadrmKeyVaultKey.md) instead of this cmdlet.
+For more information about how to manage your Azure RMS tenant key, see Planning and implementing your Azure Rights Management tenant key https://docs.microsoft.com/en-us/rights-management/plan-design/plan-implement-tenant-key (https://docs.microsoft.com/en-us/rights-management/plan-design/plan-implement-tenant-key) on the Microsoft documentation site.
 
 Before you run this cmdlet, you will need to identify your original customer-managed Azure RMS tenant key.
-To do that, use the Get-AadrmKeys cmdlet.
+To do that, use the [Get-AadrmKeys](./Get-AadrmKeys.md) cmdlet.
 From the output and identified key, you will need the KeyIdentifier value for the *KeyIdentifier* parameter when you run this cmdlet.
 
 Also, your organization's administrator for Azure Key Vault must create a new key for Azure RMS and supply you with a URL for this key.
@@ -62,7 +63,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -78,7 +79,7 @@ To get the key identifier value, use the **Get-AadrmKeys** cmdlet.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -94,7 +95,7 @@ This key will be used in Azure RMS as the root key for all cryptographic operati
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -104,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -120,7 +121,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -146,8 +146,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AadrmKeys](.\Get-AadrmKeys.md)
+[Get-AadrmKeys](xref:AADRM/vlatest/Get-AadrmKeys.md)
 
-[Use-AadrmKeyVaultKey](.\Use-AadrmKeyVaultKey.md)
-
-
+[Use-AadrmKeyVaultKey](xref:AADRM/vlatest/Use-AadrmKeyVaultKey.md)

@@ -3,15 +3,16 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623199
 schema: 2.0.0
 ms.assetid: 074F42BF-D30C-45C4-88F9-E445A7DFEA41
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/RMSProtection/vlatest/Get-RMSFileStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/RMSProtection/vlatest/Get-RMSFileStatus.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -45,14 +46,14 @@ C:\Test.docx         Unprotected
 ```
 
 This command lists the Rights Management protection status for the specified file C:\Test.docx.
-Because a file with a .docx file name extension supports native protection, the status returns **Protected (Native)** or **Unprotected **.
+Because a file with a .docx file name extension supports native protection, the status returns **Protected (Native)** or **Unprotected**.
 
 ### Example 2: List the protection status for all files in a folder and any subfolders
 ```
 PS C:\>foreach ($file in (Get-ChildItem -Path C:\Documents -Recurse -Force | where {!$_.PSIsContainer})) {Get-RMSFileStatus -f $file.PSPath}
 ```
 
-Although the Get-RMSFileStatus cmdlet works for one file at a time, you can use the following Windows PowerShell command to get the status of all files in a folder (in our example, named C:\Documents) and its subfolders.
+Although the **Get-RMSFileStatus** cmdlet works for one file at a time, you can use the following Windows PowerShell command to get the status of all files in a folder (in our example, named C:\Documents) and its subfolders.
 The same command can be used with a UNC path instead of a drive and path.
 
 ### Example 3: Create a .CSV file with the protection status for all files in a folder and any subfolders
@@ -73,7 +74,7 @@ Specifies the fully qualified path to the file to verify whether it is protected
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -93,8 +94,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Protect-RMSFile](.\Protect-RMSFile.md)
+[Protect-RMSFile](xref:RMSProtection/vlatest/Protect-RMSFile.md)
 
-[Unprotect-RMSFile](.\Unprotect-RMSFile.md)
-
-
+[Unprotect-RMSFile](xref:RMSProtection/vlatest/Unprotect-RMSFile.md)

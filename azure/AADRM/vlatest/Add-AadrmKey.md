@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400592
 schema: 2.0.0
 ms.assetid: A1C99424-D986-4A5A-B2E1-6D18EEF11B21
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Add-AadrmKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Add-AadrmKey.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmKey.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -32,8 +33,8 @@ The **Add-AadrmKey** cmdlet adds a legacy customer-managed tenant key over the I
 The previously active tenant key is archived.
 
 **Note**: This cmdlet is now deprecated because Azure RMS uses Azure Key Vault for customer-managed keys.
-Instead of this cmdlet, use Use-AadrmKeyVaultKey.
-For more information, see Planning and implementing your Azure Rights Management tenant keyhttps://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key (https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) on the Microsoft documentation site.
+Instead of this cmdlet, use [Use-AadrmKeyVaultKey](./Use-AadrmKeyVaultKey.md).
+For more information, see [Planning and implementing your Azure Rights Management tenant key](https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) (https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -42,8 +43,8 @@ For more information, see Planning and implementing your Azure Rights Management
 PS C:\> Add-AadrmKey -Force -KeyFile "C:\Keys\Key073"
 ```
 
-This command adds the tenant key specified by the **KeyFile** parameter.
-Because the command specifies the **Force** parameter, the command does not prompt you for confirmation.
+This command adds the tenant key specified by the *KeyFile* parameter.
+Because the command specifies the *Force* parameter, the command does not prompt you for confirmation.
 
 ## PARAMETERS
 
@@ -53,7 +54,7 @@ Indicates that the cmdlet adds the tenant key silently without prompting you for
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -68,7 +69,7 @@ Specifies a tenant key file packaged by using the tools to generate your tenant 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -78,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -94,7 +95,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -120,8 +120,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Use-AadrmKeyVaultKey](.\Use-AadrmKeyVaultKey.md)
+[Use-AadrmKeyVaultKey](xref:AADRM/vlatest/Use-AadrmKeyVaultKey.md)
 
-[Get-AadrmKeys](.\Get-AadrmKeys.md)
-
-
+[Get-AadrmKeys](xref:AADRM/vlatest/Get-AadrmKeys.md)

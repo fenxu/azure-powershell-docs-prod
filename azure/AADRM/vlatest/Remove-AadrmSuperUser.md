@@ -3,15 +3,16 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400621
 schema: 2.0.0
 ms.assetid: 48A3F450-B87B-43DB-8723-8917FD5E0B7B
-updated_at: 10/18/2016 11:27 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/aip-cmdlets/AADRM/vlatest/Remove-AadrmSuperUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3cd0578639ed506752c7be4e6fb9013725a24d6f/aip-cmdlets/AADRM/vlatest/Remove-AadrmSuperUser.md
+updated_at: 11/4/2016 7:56 PM
+ms.date: 11/4/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmSuperUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmSuperUser.md
 ms.topic: reference
-ms.prod: powershell
+ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: visual-studio-china
+ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
 ---
@@ -29,9 +30,9 @@ Remove-AadrmSuperUser -EmailAddress <String> [<CommonParameters>]
 
 ## DESCRIPTION
 The **Remove-AadrmSuperUser** cmdlet removes a user from the list of users who are individually granted super user privileges for your organization.
-This cmdlet does not remove a group or a user from that a group that is assigned super user privileges by using the Set-AadrmSuperUserGroup cmdlet.
-To add or remove super users, you must first enable the super user feature for Azure Rights Management by using the Enable-AadrmSuperUserFeature cmdlet.
-For more information about super users, see the Get-AadrmSuperUser cmdlet.
+This cmdlet does not remove a group or a user from that a group that is assigned super user privileges by using the [Set-AadrmSuperUserGroup](./Set-AadrmSuperUserGroup.md) cmdlet.
+To add or remove super users, you must first enable the super user feature for Azure Rights Management by using the [Enable-AadrmSuperUserFeature](./Enable-AadrmSuperUserFeature.md) cmdlet.
+For more information about super users, see the [Get-AadrmSuperUser](./Get-AadrmSuperUser.md) cmdlet.
 
 ## EXAMPLES
 
@@ -51,7 +52,7 @@ The cmdlet removes the user or group identified by the email address that you sp
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -71,12 +72,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AadrmSuperUser](.\Add-AadrmSuperUser.md)
+[Add-AadrmSuperUser](xref:AADRM/vlatest/Add-AadrmSuperUser.md)
 
-[Get-AadrmSuperUser](.\Get-AadrmSuperUser.md)
+[Get-AadrmSuperUser](xref:AADRM/vlatest/Get-AadrmSuperUser.md)
 
-[Enable-AadrmSuperUserFeature](.\Enable-AadrmSuperUserFeature.md)
+[Enable-AadrmSuperUserFeature](xref:AADRM/vlatest/Enable-AadrmSuperUserFeature.md)
 
-[Set-AadrmSuperUserGroup](.\Set-AadrmSuperUserGroup.md)
-
-
+[Set-AadrmSuperUserGroup](xref:AADRM/vlatest/Set-AadrmSuperUserGroup.md)
