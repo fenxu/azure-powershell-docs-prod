@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: MSOnline_v1_Get_MsolAccountSku_md
 ---
 
 # Get-MsolAccountSku

@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: MSOnline_v1_Reset_MsolStrongAuthenticationMethodByUpn_md
 ---
 
 # Reset-MsolStrongAuthenticationMethodByUpn
