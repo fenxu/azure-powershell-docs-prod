@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceFabric_vlatest_Move_ServiceFabricSecondaryReplica_md
 ---
 
 # Move-ServiceFabricSecondaryReplica

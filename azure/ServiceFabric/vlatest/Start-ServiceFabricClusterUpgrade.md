@@ -15,6 +15,7 @@ author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
+id: ServiceFabric_vlatest_Start_ServiceFabricClusterUpgrade_md
 ---
 
 # Start-ServiceFabricClusterUpgrade
