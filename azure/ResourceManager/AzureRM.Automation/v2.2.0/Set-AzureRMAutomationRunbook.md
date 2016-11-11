@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: 614eee0d-f18e-4843-bed6-6cf43db59f75
+online version: 
 schema: 2.0.0
 ms.assetid: 80B64633-CEAB-4609-BB58-E11AB99E9C35
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationRunbook.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Set-AzureRmAutomationRunbook
@@ -30,7 +31,7 @@ Set-AzureRmAutomationRunbook [-Name] <String> [-Description <String>] [-Tags <ID
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmAutomationRunbook** cmdlet modifies the configuration of an azure_2 Automation runbook in APS.
+The **Set-AzureRmAutomationRunbook** cmdlet modifies the configuration of an Azure Automation runbook in APS.
 
 ## EXAMPLES
 
@@ -39,7 +40,7 @@ The **Set-AzureRmAutomationRunbook** cmdlet modifies the configuration of an azu
 PS C:\>Set-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbook02" -LogVerbose $True -ResourceGroupName "ResourceGroup01"
 ```
 
-This command enables verbose logging for the jobs of the specified runbook in the azure_2 Automation account named Contoso17.
+This command enables verbose logging for the jobs of the specified runbook in the Azure Automation account named Contoso17.
 
 ## PARAMETERS
 
@@ -161,20 +162,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmAutomationRunbook](./Export-AzureRMAutomationRunbook.md)
+[Export-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Export-AzureRMAutomationRunbook.md)
 
-[Get-AzureRmAutomationRunbook](./Get-AzureRMAutomationRunbook.md)
+[Get-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationRunbook.md)
 
-[Import-AzureRmAutomationRunbook](./Import-AzureRMAutomationRunbook.md)
+[Import-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Import-AzureRMAutomationRunbook.md)
 
-[New-AzureRmAutomationRunbook](./New-AzureRMAutomationRunbook.md)
+[New-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationRunbook.md)
 
-[New-AzureRmAutomationRunbook](./New-AzureRMAutomationRunbook.md)
+[New-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationRunbook.md)
 
-[Publish-AzureRmAutomationRunbook](./Publish-AzureRMAutomationRunbook.md)
+[Publish-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Publish-AzureRMAutomationRunbook.md)
 
-[Remove-AzureRmAutomationRunbook](./Remove-AzureRMAutomationRunbook.md)
+[Remove-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRMAutomationRunbook.md)
 
-[Start-AzureRmAutomationRunbook](./Start-AzureRMAutomationRunbook.md)
+[Start-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Start-AzureRMAutomationRunbook.md)
 
 

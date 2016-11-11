@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
-online version: .\Get-AzureRmStreamAnalyticsFunction.md
+online version: 
 schema: 2.0.0
 ms.assetid: FF818255-ABB2-44A6-9CEA-FDA097F3578F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.1.0/New-AzureRmStreamAnalyticsFunction.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.1.0/New-AzureRmStreamAnalyticsFunction.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.1.0/New-AzureRmStreamAnalyticsFunction.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.1.0/New-AzureRmStreamAnalyticsFunction.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -184,10 +184,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmStreamAnalyticsFunction](./Get-AzureRmStreamAnalyticsFunction.md)
+[Get-AzureRmStreamAnalyticsFunction](xref:ResourceManager/AzureRM.StreamAnalytics/v2.1.0/Get-AzureRmStreamAnalyticsFunction.md)
 
-[Remove-AzureRmStreamAnalyticsFunction](./Remove-AzureRmStreamAnalyticsFunction.md)
+[Remove-AzureRmStreamAnalyticsFunction](xref:ResourceManager/AzureRM.StreamAnalytics/v2.1.0/Remove-AzureRmStreamAnalyticsFunction.md)
 
-[Test-AzureRmStreamAnalyticsFunction](./Test-AzureRmStreamAnalyticsFunction.md)
+[Test-AzureRmStreamAnalyticsFunction](xref:ResourceManager/AzureRM.StreamAnalytics/v2.1.0/Test-AzureRmStreamAnalyticsFunction.md)
 
 

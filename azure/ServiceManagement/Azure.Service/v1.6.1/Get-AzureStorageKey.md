@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureStorageAccount.md
+online version: 
 schema: 2.0.0
 ms.assetid: 23023ECA-E637-4DC5-8130-606DE5CD6542
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureStorageKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureStorageKey.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureStorageKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureStorageKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureStorageKey
 
 ## SYNOPSIS
-Returns the primary and secondary storage account keys for an azure_2 storage account.
+Returns the primary and secondary storage account keys for an Azure storage account.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureStorageKey [-StorageAccountName] <String> [-Profile <AzureSMProfile>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureStorageKey** cmdlet returns an object with the azure_2 Storage account name, the primary account key, and the secondary account key of the specified azure_2 storage account as properties.
+The **Get-AzureStorageKey** cmdlet returns an object with the Azure Storage account name, the primary account key, and the secondary account key of the specified Azure storage account as properties.
 
 ## EXAMPLES
 
@@ -81,7 +81,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -96,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -122,14 +131,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageAccount](./Get-AzureStorageAccount.md)
+[Get-AzureStorageAccount](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureStorageAccount.md)
 
-[New-AzureStorageAccount](./New-AzureStorageAccount.md)
+[New-AzureStorageAccount](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureStorageAccount.md)
 
-[New-AzureStorageKey](./New-AzureStorageKey.md)
+[New-AzureStorageKey](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureStorageKey.md)
 
-[Remove-AzureStorageAccount](./Remove-AzureStorageAccount.md)
+[Remove-AzureStorageAccount](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureStorageAccount.md)
 
-[Set-AzureStorageAccount](./Set-AzureStorageAccount.md)
+[Set-AzureStorageAccount](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureStorageAccount.md)
 
 

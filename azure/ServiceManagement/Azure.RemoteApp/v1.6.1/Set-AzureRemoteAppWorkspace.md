@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Get-AzureRemoteAppWorkspace.md
+online version: 
 schema: 2.0.0
 ms.assetid: 8BBA9407-770B-41A3-B516-3774518E5E10
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Set-AzureRemoteAppWorkspace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Set-AzureRemoteAppWorkspace.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Set-AzureRemoteAppWorkspace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Set-AzureRemoteAppWorkspace.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureRemoteAppWorkspace
 
 ## SYNOPSIS
-Sets the properties of an azure_2 RemoteApp workspace.
+Sets the properties of an Azure RemoteApp workspace.
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Set-AzureRemoteAppWorkspace [-WorkspaceName] <String> [-Profile <AzureSMProfile>
 ```
 
 ## DESCRIPTION
-The **Set-AzureRemoteAppWorkspace** cmdlet sets the properties of an azure_2 RemoteApp workspace.
+The **Set-AzureRemoteAppWorkspace** cmdlet sets the properties of an Azure RemoteApp workspace.
 
 ## EXAMPLES
 
@@ -41,12 +41,12 @@ TrackingId
 12345
 ```
 
-This command sets the azure_2 RemoteApp workspace name to Contoso Work Applications.
+This command sets the Azure RemoteApp workspace name to Contoso Work Applications.
 
 ## PARAMETERS
 
 ### -WorkspaceName
-Specifies the name of the azure_2 RemoteApp workspace.
+Specifies the name of the Azure RemoteApp workspace.
 
 ```yaml
 Type: String
@@ -83,10 +83,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
-* All azure_2 RemoteApp collections for a specified subscription exist within a shared workspace.
+* All Azure RemoteApp collections for a specified subscription exist within a shared workspace.
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppWorkspace](./Get-AzureRemoteAppWorkspace.md)
+[Get-AzureRemoteAppWorkspace](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppWorkspace.md)
 
 

@@ -1,3 +1,17 @@
+---
+updated_at: 10/20/2016 5:07 PM
+ms.date: 10/20/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e902f43a1d2d6e8d682e996f0a88badde8bb6be6/azureps-cmdlets-docs/ServiceManagement/index.md
+ms.topic: conceptual
+ms.prod: powershell
+ms.service: azure-powershell
+ms.technology: Azure PowerShell
+author: visual-studio-china
+ms.author: PowerShellHelpPub
+keywords: powershell, cmdlet
+manager: visual-studio-china
+---
 # Azure Service Management Cmdlets
 
 The Azure Service Management reference provides information about Microsoft Azure PowerShell modules that help you to automate your Azure service management tasks.

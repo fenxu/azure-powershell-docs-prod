@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 6293F1AE-4E8A-4462-9038-30E5B7787359
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-WAPackStaticIPAddressPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-WAPackStaticIPAddressPool.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-WAPackStaticIPAddressPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-WAPackStaticIPAddressPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -49,7 +49,6 @@ PS C:\>
 ## PARAMETERS
 
 ### -VMSubnet
-@{Text=}
 
 ```yaml
 Type: VMSubnet
@@ -64,7 +63,6 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -79,7 +77,6 @@ Accept wildcard characters: False
 ```
 
 ### -IPAddressRangeStart
-@{Text=}
 
 ```yaml
 Type: String
@@ -94,7 +91,6 @@ Accept wildcard characters: False
 ```
 
 ### -IPAddressRangeEnd
-@{Text=}
 
 ```yaml
 Type: String

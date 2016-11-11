@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: 2a35b1da-9917-4754-9c56-ef6993dc6e9a
+online version: 
 schema: 2.0.0
 ms.assetid: B77218CF-0CB8-47C4-B5D7-71B56AB54017
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureCertificate.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -124,10 +124,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureCertificate](./Add-AzureCertificate.md)
+[Add-AzureCertificate](xref:ServiceManagement/Azure.Service/v3.0.0/Add-AzureCertificate.md)
 
-[New-AzureCertificateSetting](./New-AzureCertificateSetting.md)
+[New-AzureCertificateSetting](xref:ServiceManagement/Azure.Service/v3.0.0/New-AzureCertificateSetting.md)
 
-[Remove-AzureCertificate](./Remove-AzureCertificate.md)
+[Remove-AzureCertificate](xref:ServiceManagement/Azure.Service/v3.0.0/Remove-AzureCertificate.md)
 
 

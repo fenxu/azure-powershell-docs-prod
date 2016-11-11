@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureRmVM.md
+online version: 
 schema: 2.0.0
 ms.assetid: 9F77E3D1-EAE1-4ED2-A16E-C593BDD1C907
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureRmVMSqlServerExtension
 
 ## SYNOPSIS
-Sets the azure_2 SQL Server extension on a virtual machine.
+Sets the Azure SQL Server extension on a virtual machine.
 
 ## SYNTAX
 
@@ -33,7 +33,7 @@ Set-AzureRmVMSqlServerExtension [[-Version] <String>] [-ResourceGroupName] <Stri
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmVMSqlServerExtension** cmdlet sets the azure_2ssNoVersion extension on a virtual machine.
+The **Set-AzureRmVMSqlServerExtension** cmdlet sets the AzuressNoVersion extension on a virtual machine.
 
 ## EXAMPLES
 
@@ -177,7 +177,6 @@ Accept wildcard characters: False
 ```
 
 ### -KeyVaultCredentialSettings
-@{Text=}
 
 ```yaml
 Type: KeyVaultCredentialSettings
@@ -207,7 +206,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -222,7 +230,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -247,16 +255,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVM](./Get-AzureRmVM.md)
+[Get-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVM.md)
 
-[Get-AzureRmVMSqlServerExtension](./Get-AzureRMVMSqlServerExtension.md)
+[Get-AzureRmVMSqlServerExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRMVMSqlServerExtension.md)
 
-[New-AzureVMSqlServerAutoPatchingConfig](./New-AzureVMSqlServerAutoPatchingConfig.md)
+[New-AzureVMSqlServerAutoPatchingConfig](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureVMSqlServerAutoPatchingConfig.md)
 
-[New-AzureVMSqlServerAutoBackupConfig](./New-AzureVMSqlServerAutoBackupConfig.md)
+[New-AzureVMSqlServerAutoBackupConfig](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureVMSqlServerAutoBackupConfig.md)
 
-[Remove-AzureRmVMSqlServerExtension](./Remove-AzureRMVMSqlServerExtension.md)
+[Remove-AzureRmVMSqlServerExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRMVMSqlServerExtension.md)
 
-[Update-AzureRmVM](./Update-AzureRmVM.md)
+[Update-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Update-AzureRmVM.md)
 
 

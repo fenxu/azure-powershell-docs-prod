@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
-online version: .\Get-AzureRmServerManagementGateway.md
+online version: 
 schema: 2.0.0
 ms.assetid: 5DDED8A3-F733-458D-888B-DC414D291B22
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Remove-AzureRmServerManagementGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Remove-AzureRmServerManagementGateway.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Remove-AzureRmServerManagementGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Remove-AzureRmServerManagementGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Remove-AzureRmServerManagementGateway [-Gateway] <Gateway> [-InformationAction <
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmServerManagementGateway** cmdlet removes an azure_2 Server Management gateway.
+The **Remove-AzureRmServerManagementGateway** cmdlet removes an Azure Server Management gateway.
 
 ## EXAMPLES
 
@@ -79,7 +79,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -94,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -137,8 +146,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmServerManagementGateway](./Get-AzureRmServerManagementGateway.md)
+[Get-AzureRmServerManagementGateway](xref:ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementGateway.md)
 
-[New-AzureRmServerManagementGateway](./New-AzureRmServerManagementGateway.md)
+[New-AzureRmServerManagementGateway](xref:ResourceManager/AzureRM.ServerManagement/v1.0.3/New-AzureRmServerManagementGateway.md)
 
 

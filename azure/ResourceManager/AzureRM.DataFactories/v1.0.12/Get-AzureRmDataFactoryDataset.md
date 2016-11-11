@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
-online version: .\New-AzureRmDataFactoryDataset.md
+online version: 
 schema: 2.0.0
 ms.assetid: F893962D-866D-455A-81ED-5F3BAB423F8D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryDataset.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryDataset.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryDataset.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryDataset.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -178,8 +178,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmDataFactoryDataset](./New-AzureRmDataFactoryDataset.md)
+[New-AzureRmDataFactoryDataset](xref:ResourceManager/AzureRM.DataFactories/v1.0.12/New-AzureRmDataFactoryDataset.md)
 
-[Remove-AzureRmDataFactoryDataset](./Remove-AzureRmDataFactoryDataset.md)
+[Remove-AzureRmDataFactoryDataset](xref:ResourceManager/AzureRM.DataFactories/v1.0.12/Remove-AzureRmDataFactoryDataset.md)
 
 

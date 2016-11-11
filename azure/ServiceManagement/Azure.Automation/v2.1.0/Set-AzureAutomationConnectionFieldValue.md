@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
-online version: .\Get-AzureAutomationConnection.md
+online version: 
 schema: 2.0.0
 ms.assetid: 107E074C-5F72-4081-A984-A03579578B1A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/Set-AzureAutomationConnectionFieldValue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/Set-AzureAutomationConnectionFieldValue.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/Set-AzureAutomationConnectionFieldValue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/Set-AzureAutomationConnectionFieldValue.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -42,7 +42,6 @@ The Set-AzureAutomationConnectionFieldValue cmdlet modifies the value for a fiel
 ## PARAMETERS
 
 ### -AutomationAccountName
-@{Text=}
 
 ```yaml
 Type: String
@@ -57,7 +56,6 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionFieldName
-@{Text=}
 
 ```yaml
 Type: String
@@ -72,7 +70,6 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -87,7 +84,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureSMProfile
@@ -102,7 +98,6 @@ Accept wildcard characters: False
 ```
 
 ### -Value
-@{Text=}
 
 ```yaml
 Type: Object
@@ -127,10 +122,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationConnection](./Get-AzureAutomationConnection.md)
+[Get-AzureAutomationConnection](xref:ServiceManagement/Azure.Automation/v2.1.0/Get-AzureAutomationConnection.md)
 
-[New-AzureAutomationConnection](./New-AzureAutomationConnection.md)
+[New-AzureAutomationConnection](xref:ServiceManagement/Azure.Automation/v2.1.0/New-AzureAutomationConnection.md)
 
-[Remove-AzureAutomationConnection](./Remove-AzureAutomationConnection.md)
+[Remove-AzureAutomationConnection](xref:ServiceManagement/Azure.Automation/v2.1.0/Remove-AzureAutomationConnection.md)
 
 

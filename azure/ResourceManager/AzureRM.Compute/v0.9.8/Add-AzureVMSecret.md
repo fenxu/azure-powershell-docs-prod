@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: ad96feac-55a4-435e-a7dd-76085c831f77
+online version: 
 schema: 2.0.0
 ms.assetid: D48B5442-9BA9-4AAD-A402-4D9CC02105DC
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Add-AzureVMSecret.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Add-AzureVMSecret.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Add-AzureVMSecret.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Add-AzureVMSecret.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

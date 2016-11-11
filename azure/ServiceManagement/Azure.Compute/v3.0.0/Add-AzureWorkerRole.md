@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 0551B107-6F90-4200-AAC9-C919FB4279A2
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzureWorkerRole.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzureWorkerRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzureWorkerRole.md
 ms.topic: reference
 ms.prod: powershell
@@ -135,8 +135,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureWebRole](./Add-AzureWebRole.md)
+[Add-AzureWebRole](xref:ServiceManagement/Azure.Compute/v3.0.0/Add-AzureWebRole.md)
 
-[New-AzureRoleTemplate](./New-AzureRoleTemplate.md)
+[New-AzureRoleTemplate](xref:ServiceManagement/Azure.Compute/v3.0.0/New-AzureRoleTemplate.md)
 
 

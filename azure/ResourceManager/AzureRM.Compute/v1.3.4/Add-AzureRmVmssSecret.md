@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\New-AzureRmVmssVaultCertificateConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: 975161A1-B1B4-446A-B499-0EA209F02F78
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVmssSecret.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVmssSecret.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVmssSecret.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVmssSecret.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -32,7 +32,7 @@ Add-AzureRmVmssSecret [-VirtualMachineScaleSet] <VirtualMachineScaleSet> [[-Sour
 
 ## DESCRIPTION
 The **Add-AzureRmVmssSecret** cmdlet adds a secret to the Virtual Machine Scale Set (VMSS).
-The secret must be stored in an azure_2 Key Vault.
+The secret must be stored in an Azure Key Vault.
 For more information relating to Key Vault, see What is Azure Key Vault?https://azure.microsoft.com/en-us/documentation/articles/key-vault-whatis/ (https://azure.microsoft.com/en-us/documentation/articles/key-vault-whatis/).
 For more information about the cmdlets, see Azure Key Vault Cmdletshttps://msdn.microsoft.com/library/azure/dn868052.aspx(https://msdn.microsoft.com/library/azure/dn868052.aspx) in the Microsoft Developer Network library or the Set-AzureKeyVaultSecret cmdlet.
 
@@ -104,7 +104,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -119,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -147,8 +156,8 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[New-AzureRmVmssVaultCertificateConfig](./New-AzureRmVmssVaultCertificateConfig.md)
+[New-AzureRmVmssVaultCertificateConfig](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssVaultCertificateConfig.md)
 
-[New-AzureRmVmssConfig](./New-AzureRmVmssConfig.md)
+[New-AzureRmVmssConfig](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssConfig.md)
 
 

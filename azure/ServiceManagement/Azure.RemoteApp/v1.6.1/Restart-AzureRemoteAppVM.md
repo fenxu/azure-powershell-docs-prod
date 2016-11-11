@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Get-AzureRemoteAppVM.md
+online version: 
 schema: 2.0.0
 ms.assetid: 22C43C61-83FE-4008-9C74-DD089D7B90E0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Restart-AzureRemoteAppVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Restart-AzureRemoteAppVM.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Restart-AzureRemoteAppVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Restart-AzureRemoteAppVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Restart-AzureRemoteAppVM
 
 ## SYNOPSIS
-Restarts a virtual machine in an azure_2 RemoteApp collection.
+Restarts a virtual machine in an Azure RemoteApp collection.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Restart-AzureRemoteAppVM [-CollectionName] <String> [-UserUpn] <String> [[-Logof
 ```
 
 ## DESCRIPTION
-The **Restart-AzureRemoteAppVM** cmdlet restarts a virtual machine in an azure_2 RemoteApp collection on which the specified user is connected.
+The **Restart-AzureRemoteAppVM** cmdlet restarts a virtual machine in an Azure RemoteApp collection on which the specified user is connected.
 
 ## EXAMPLES
 
@@ -39,13 +39,13 @@ The **Restart-AzureRemoteAppVM** cmdlet restarts a virtual machine in an azure_2
 PS C:\>Restart-AzureRemoteAppVM -CollectionName "ContosoVNet" -UserUPN "PattiFuller@contoso.com"
 ```
 
-This command restarts a virtual machine in an azure_2 RemoteApp collection named Contoso.
+This command restarts a virtual machine in an Azure RemoteApp collection named Contoso.
 The user PattiFuller@contoso.com is connected to the collection which contains this virtual machine.
 
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of an azure_2 RemoteApp collection.
+Specifies the name of an Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -137,7 +137,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -162,6 +163,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppVM](./Get-AzureRemoteAppVM.md)
+[Get-AzureRemoteAppVM](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVM.md)
 
 

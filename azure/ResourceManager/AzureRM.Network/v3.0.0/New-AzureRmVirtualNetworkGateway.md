@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: b46d1efd-4e83-4298-8b67-40f54e1a7817
+online version: 
 schema: 2.0.0
 ms.assetid: 69D34F57-3641-4FCC-954A-D03505ECDE13
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGateway.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,7 +46,6 @@ New-AzureRmVirtualNetworkGateway -Name <String> -ResourceGroupName <String> -Loc
 ## PARAMETERS
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -61,7 +60,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -76,7 +74,6 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-@{Text=}
 
 ```yaml
 Type: String
@@ -91,7 +88,6 @@ Accept wildcard characters: False
 ```
 
 ### -IpConfigurations
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSVirtualNetworkGatewayIpConfiguration]
@@ -106,7 +102,6 @@ Accept wildcard characters: False
 ```
 
 ### -GatewayType
-@{Text=}
 
 ```yaml
 Type: String
@@ -121,7 +116,6 @@ Accept wildcard characters: False
 ```
 
 ### -VpnType
-@{Text=}
 
 ```yaml
 Type: String
@@ -136,7 +130,6 @@ Accept wildcard characters: False
 ```
 
 ### -EnableBgp
-@{Text=}
 
 ```yaml
 Type: Boolean
@@ -166,7 +159,6 @@ Accept wildcard characters: False
 ```
 
 ### -GatewaySku
-@{Text=}
 
 ```yaml
 Type: String
@@ -181,7 +173,6 @@ Accept wildcard characters: False
 ```
 
 ### -GatewayDefaultSite
-@{Text=}
 
 ```yaml
 Type: PSLocalNetworkGateway
@@ -196,7 +187,6 @@ Accept wildcard characters: False
 ```
 
 ### -VpnClientAddressPool
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -211,7 +201,6 @@ Accept wildcard characters: False
 ```
 
 ### -VpnClientRootCertificates
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSVpnClientRootCertificate]
@@ -226,7 +215,6 @@ Accept wildcard characters: False
 ```
 
 ### -VpnClientRevokedCertificates
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSVpnClientRevokedCertificate]
@@ -241,7 +229,6 @@ Accept wildcard characters: False
 ```
 
 ### -Asn
-@{Text=}
 
 ```yaml
 Type: UInt32
@@ -256,7 +243,6 @@ Accept wildcard characters: False
 ```
 
 ### -PeerWeight
-@{Text=}
 
 ```yaml
 Type: Int32
@@ -271,7 +257,6 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-@{Text=}
 
 ```yaml
 Type: Hashtable
@@ -343,14 +328,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVirtualNetworkGateway](./Get-AzureRmVirtualNetworkGateway.md)
+[Get-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmVirtualNetworkGateway.md)
 
-[Remove-AzureRmVirtualNetworkGateway](./Remove-AzureRmVirtualNetworkGateway.md)
+[Remove-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmVirtualNetworkGateway.md)
 
-[Reset-AzureRmVirtualNetworkGateway](./Reset-AzureRmVirtualNetworkGateway.md)
+[Reset-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.0.0/Reset-AzureRmVirtualNetworkGateway.md)
 
-[Resize-AzureRmVirtualNetworkGateway](./Resize-AzureRmVirtualNetworkGateway.md)
+[Resize-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.0.0/Resize-AzureRmVirtualNetworkGateway.md)
 
-[Set-AzureRmVirtualNetworkGateway](./Set-AzureRmVirtualNetworkGateway.md)
+[Set-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmVirtualNetworkGateway.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\New-AzureVM.md
+online version: 
 schema: 2.0.0
 ms.assetid: 7F8A5FBB-7F93-40F7-A5D7-8E19FD65B65E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVM.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureVM
 
 ## SYNOPSIS
-Retrieves information from one or more azure_2 virtual machines.
+Retrieves information from one or more Azure virtual machines.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ Get-AzureVM [-ServiceName] <String> [[-Name] <String>] [-Profile <AzureSMProfile
 ```
 
 ## DESCRIPTION
-The **Get-AzureVM** cmdlet retrieves information about virtual machines running in azure_2.
+The **Get-AzureVM** cmdlet retrieves information about virtual machines running in Azure.
 It returns an object with information on a specific virtual machine, or if no virtual machine is specified, for all the virtual machines in the specified service of the current subscription.
 
 ## EXAMPLES
@@ -81,7 +81,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -96,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -152,18 +161,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureVM](./New-AzureVM.md)
+[New-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md)
 
-[New-AzureVMConfig](./New-AzureVMConfig.md)
+[New-AzureVMConfig](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVMConfig.md)
 
-[Remove-AzureVM](./Remove-AzureVM.md)
+[Remove-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVM.md)
 
-[Restart-AzureVM](./Restart-AzureVM.md)
+[Restart-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Restart-AzureVM.md)
 
-[Start-AzureVM](./Start-AzureVM.md)
+[Start-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Start-AzureVM.md)
 
-[Stop-AzureVM](./Stop-AzureVM.md)
+[Stop-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Stop-AzureVM.md)
 
-[Update-AzureVM](./Update-AzureVM.md)
+[Update-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Update-AzureVM.md)
 
 

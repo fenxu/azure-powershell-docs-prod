@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: 18c26932-aa29-4b7e-b47f-5e46c73d4580
+online version: 
 schema: 2.0.0
 ms.assetid: 4F9FFAA1-0BC4-41C5-AA33-075BB5D09027
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetwork.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -207,10 +207,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVirtualNetwork](./Get-AzureRmVirtualNetwork.md)
+[Get-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmVirtualNetwork.md)
 
-[Remove-AzureRmVirtualNetwork](./Remove-AzureRmVirtualNetwork.md)
+[Remove-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmVirtualNetwork.md)
 
-[Set-AzureRmVirtualNetwork](./Set-AzureRmVirtualNetwork.md)
+[Set-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmVirtualNetwork.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-online version: .\New-AzureHDInsightClusterConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: 6BCB0B9C-C781-41CE-B1DE-CC0DA7FB6232
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -515,8 +515,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureHDInsightClusterConfig](./New-AzureHDInsightClusterConfig.md)
+[New-AzureHDInsightClusterConfig](xref:ResourceManager/AzureRM.HDInsight/v0.9.8/New-AzureHDInsightClusterConfig.md)
 
-[Azure HDInsight Cmdlets](./AzureRM.HDInsight.md)
+[Azure HDInsight Cmdlets](xref:ResourceManager/AzureRM.HDInsight/v0.9.8/AzureRM.HDInsight.md)
 
 

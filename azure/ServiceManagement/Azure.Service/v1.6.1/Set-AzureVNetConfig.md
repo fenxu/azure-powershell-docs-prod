@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureVNetConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: CE36E975-59DC-4D81-AA5C-DAA3670E9FA9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureVNetConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureVNetConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureVNetConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureVNetConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureVNetConfig
 
 ## SYNOPSIS
-Updates the virtual network settings for an azure_2 cloud service.
+Updates the virtual network settings for an Azure cloud service.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Set-AzureVNetConfig [-ConfigurationPath] <String> [-Profile <AzureSMProfile>]
 ```
 
 ## DESCRIPTION
-The **Set-AzureVNetConfig** cmdlet updates the network configuration for the current azure_2 subscription by specifying a path to anetwork configuration file (.netcfg).
+The **Set-AzureVNetConfig** cmdlet updates the network configuration for the current Azure subscription by specifying a path to anetwork configuration file (.netcfg).
 The network configuration file defines DNS servers and subnets for cloud services within a subscription.
 
 ## EXAMPLES
@@ -40,7 +40,7 @@ The network configuration file defines DNS servers and subnets for cloud service
 PS C:\>Set-AzureVNetConfig  -ConfigurationPath "c:\temp\MyAzNets.netcfg"
 ```
 
-This command updates the network configuration of the current Microsoft azure_2 subscription to that in the local file "c:\temp\MyAzNets.netcfg".
+This command updates the network configuration of the current Microsoft Azure subscription to that in the local file "c:\temp\MyAzNets.netcfg".
 
 ### Example 2: Set the Azure subscription and then update the network configuration
 ```
@@ -84,7 +84,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -99,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -124,10 +133,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVNetConfig](./Get-AzureVNetConfig.md)
+[Get-AzureVNetConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVNetConfig.md)
 
-[Get-AzureVNetSite](./Get-AzureVNetSite.md)
+[Get-AzureVNetSite](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVNetSite.md)
 
-[Remove-AzureVNetConfig](./Remove-AzureVNetConfig.md)
+[Remove-AzureVNetConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVNetConfig.md)
 
 

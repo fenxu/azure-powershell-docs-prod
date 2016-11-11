@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
-online version: .\Get-AzureRmBackupContainer.md
+online version: 
 schema: 2.0.0
 ms.assetid: 0B6F9E76-995E-4403-8F3F-80C67A698561
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupVault.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Get-AzureRmBackupVault [[-ResourceGroupName] <String>] [[-Name] <String>] [<Comm
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmBackupVault** cmdlet gets azure_2 Backup vaults.
+The **Get-AzureRmBackupVault** cmdlet gets Azure Backup vaults.
 This cmdlet returns **AzureRmBackupVault** objects for use with other cmdlets.
 
 ## EXAMPLES
@@ -39,7 +39,7 @@ This cmdlet returns **AzureRmBackupVault** objects for use with other cmdlets.
 PS C:\>Get-AzureRmBackupVault
 ```
 
-This command gets all the azure_2 Backup vaults.
+This command gets all the Azure Backup vaults.
 
 ### Example 2: View all vaults created in West US
 ```
@@ -75,7 +75,7 @@ Minimum  :
 Property :
 ```
 
-This command gets all the azure_2 Backup vaults.
+This command gets all the Azure Backup vaults.
 The command passes them to **Where-Object**, which filters the results based on the **Storage** property.
 The command passes the ones that have a value of LocallyRedundant to the Measure-Object cmdlet, which counts the results.
 For more information, type `Get-Help Measure-Object`.
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of an azure_2 resource group in which this cmdlet gets a Backup vault.
+Specifies the name of an Azure resource group in which this cmdlet gets a Backup vault.
 
 ```yaml
 Type: String
@@ -128,12 +128,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupContainer](./Get-AzureRmBackupContainer.md)
+[Get-AzureRmBackupContainer](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupContainer.md)
 
-[New-AzureRmBackupVault](./New-AzureRmBackupVault.md)
+[New-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v1.0.12/New-AzureRmBackupVault.md)
 
-[Remove-AzureRmBackupVault](./Remove-AzureRmBackupVault.md)
+[Remove-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v1.0.12/Remove-AzureRmBackupVault.md)
 
-[Set-AzureRmBackupVault](./Set-AzureRmBackupVault.md)
+[Set-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v1.0.12/Set-AzureRmBackupVault.md)
 
 

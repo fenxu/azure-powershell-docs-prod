@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: 7fed73b4-73cf-4642-8e10-167ea6158372
+online version: 
 schema: 2.0.0
 ms.assetid: 68F56D1C-23A9-4CB5-8FE8-C3A1E7C2AC1A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationConnection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureRmAutomationConnection
@@ -42,7 +43,7 @@ Get-AzureRmAutomationConnection [-ConnectionTypeName] <String> [-ResourceGroupNa
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAutomationConnection** cmdlet gets one or more azure_2 Automation connections.
+The **Get-AzureRmAutomationConnection** cmdlet gets one or more Azure Automation connections.
 By default, this cmdlet retrieves all connections.
 Specify the name of a connection to get a specific connection.
 Specify the connection type name to get all connections of a specific type.
@@ -146,8 +147,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAutomationConnection](./New-AzureRMAutomationConnection.md)
+[New-AzureRmAutomationConnection](xref:ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationConnection.md)
 
-[Remove-AzureRmAutomationConnection](./Remove-AzureRMAutomationConnection.md)
+[Remove-AzureRmAutomationConnection](xref:ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRMAutomationConnection.md)
 
 

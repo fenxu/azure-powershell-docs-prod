@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\Set-AzureVNetGatewayIPsecParameters.md
+online version: 
 schema: 2.0.0
 ms.assetid: E92C887C-7545-4C34-929F-3C8C5051D2C5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Get-AzureVNetGatewayIPsecParameters.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Get-AzureVNetGatewayIPsecParameters.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Get-AzureVNetGatewayIPsecParameters.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Get-AzureVNetGatewayIPsecParameters.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,11 +34,6 @@ The **Get-AzureVNetGatewayIPsecParameters** cmdlet gets current Internet Protoco
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
-
 ## PARAMETERS
 
 ### -VNetName
@@ -47,7 +42,7 @@ Specifies the virtual network for which this cmdlet gets IPsec parameters for th
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -62,7 +57,7 @@ Specifies the name of the local network site that connects to the virtual networ
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -78,7 +73,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -98,6 +93,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureVNetGatewayIPsecParameters](./Set-AzureVNetGatewayIPsecParameters.md)
-
-
+[Set-AzureVNetGatewayIPsecParameters](xref:ServiceManagement/Azure.Networking/v0.9.8/Set-AzureVNetGatewayIPsecParameters.md)

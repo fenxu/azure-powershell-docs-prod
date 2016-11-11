@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: CA1F8DF9-A8DF-4CBE-8E3C-3BACD0AFD7AA
 updated_at: 10/18/2016 9:38 PM
 ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseTransparentDataEncryption.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseTransparentDataEncryption.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseTransparentDataEncryption.md
 ms.topic: reference
 ms.prod: powershell

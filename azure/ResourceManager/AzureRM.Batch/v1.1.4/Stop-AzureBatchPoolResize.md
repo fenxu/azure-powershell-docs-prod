@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\Get-AzureRmBatchAccountKeys.md
+online version: 
 schema: 2.0.0
 ms.assetid: 40184AC0-EA13-4F66-AED2-84C3198699A4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchPoolResize.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchPoolResize.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchPoolResize.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchPoolResize.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Stop-AzureBatchPoolResize [-Id] <String> -BatchContext <BatchAccountContext> [<C
 ```
 
 ## DESCRIPTION
-The **Stop-AzureBatchPoolResize** cmdlet stops an azure_2 Batch resize operation on a pool.
+The **Stop-AzureBatchPoolResize** cmdlet stops an Azure Batch resize operation on a pool.
 
 ## EXAMPLES
 
@@ -95,12 +95,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBatchAccountKeys](./Get-AzureRmBatchAccountKeys.md)
+[Get-AzureRmBatchAccountKeys](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchAccountKeys.md)
 
-[Get-AzureBatchPool](./Get-AzureBatchPool.md)
+[Get-AzureBatchPool](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchPool.md)
 
-[Start-AzureBatchPoolResize](./Start-AzureBatchPoolResize.md)
+[Start-AzureBatchPoolResize](xref:ResourceManager/AzureRM.Batch/v1.1.4/Start-AzureBatchPoolResize.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v1.1.4/AzureRM.Batch.md)
 
 

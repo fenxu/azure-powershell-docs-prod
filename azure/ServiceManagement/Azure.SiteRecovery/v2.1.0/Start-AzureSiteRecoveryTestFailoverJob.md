@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
-online version: .\Get-AzureSiteRecoveryJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: 3811A53A-0C2A-4EEB-BE86-C7F3E614A297
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Start-AzureSiteRecoveryTestFailoverJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Start-AzureSiteRecoveryTestFailoverJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Start-AzureSiteRecoveryTestFailoverJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Start-AzureSiteRecoveryTestFailoverJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -417,14 +417,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSiteRecoveryJob](./Get-AzureSiteRecoveryJob.md)
+[Get-AzureSiteRecoveryJob](xref:ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryJob.md)
 
-[Get-AzureSiteRecoveryProtectionContainer](./Get-AzureSiteRecoveryProtectionContainer.md)
+[Get-AzureSiteRecoveryProtectionContainer](xref:ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryProtectionContainer.md)
 
-[Get-AzureSiteRecoveryProtectionEntity](./Get-AzureSiteRecoveryProtectionEntity.md)
+[Get-AzureSiteRecoveryProtectionEntity](xref:ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryProtectionEntity.md)
 
-[Get-AzureSiteRecoveryNetwork](./Get-AzureSiteRecoveryNetwork.md)
+[Get-AzureSiteRecoveryNetwork](xref:ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryNetwork.md)
 
-[Get-AzureSiteRecoveryRecoveryPlan](./Get-AzureSiteRecoveryRecoveryPlan.md)
+[Get-AzureSiteRecoveryRecoveryPlan](xref:ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryRecoveryPlan.md)
 
 

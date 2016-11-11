@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
-online version: b8ef3fcc-d7fb-45c0-85b8-9c1cadab80ff
+online version: 
 schema: 2.0.0
 ms.assetid: A957D7C7-30CF-4505-93B0-A4C013A4406C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRMWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRMWebAppSlot.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRMWebAppSlot.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRMWebAppSlot.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -118,18 +118,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRMWebAppSlot](./New-AzureRMWebAppSlot.md)
+[New-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.2.0/New-AzureRMWebAppSlot.md)
 
-[Remove-AzureRMWebAppSlot](./Remove-AzureRMWebAppSlot.md)
+[Remove-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.2.0/Remove-AzureRMWebAppSlot.md)
 
-[Restart-AzureRMWebAppSlot](./Restart-AzureRMWebAppSlot.md)
+[Restart-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.2.0/Restart-AzureRMWebAppSlot.md)
 
-[Set-AzureRMWebAppSlot](./Set-AzureRMWebAppSlot.md)
+[Set-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.2.0/Set-AzureRMWebAppSlot.md)
 
-[Start-AzureRMWebAppSlot](./Start-AzureRMWebAppSlot.md)
+[Start-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.2.0/Start-AzureRMWebAppSlot.md)
 
-[Stop-AzureRMWebAppSlot](./Stop-AzureRMWebAppSlot.md)
+[Stop-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/v2.2.0/Stop-AzureRMWebAppSlot.md)
 
-[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)
+[Get-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRmWebApp.md)
 
 

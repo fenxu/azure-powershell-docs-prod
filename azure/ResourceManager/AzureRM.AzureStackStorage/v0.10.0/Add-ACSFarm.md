@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
-online version: .\Get-ACSFarm.md
+online version: 
 schema: 2.0.0
 ms.assetid: 99A92834-DBD5-4ADD-9144-8E36060C38B2
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Add-ACSFarm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Add-ACSFarm.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Add-ACSFarm.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Add-ACSFarm.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -215,8 +215,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
-[Set-ACSFarm](./Set-ACSFarm.md)
+[Set-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSFarm.md)
 
 

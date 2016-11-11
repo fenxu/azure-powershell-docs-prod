@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3F8F7A51-B753-4513-85B1-406C65FAFFD0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Import-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Import-AzureRmRedisCache.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Import-AzureRmRedisCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Import-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Import-AzureRmRedisCache
 
 ## SYNOPSIS
-Imports data from blobs to azure_2 Redis Cache.
+Imports data from blobs to Azure Redis Cache.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Import-AzureRmRedisCache -ResourceGroupName <String> -Name <String> -Files <Stri
 ```
 
 ## DESCRIPTION
-The **Import-AzureRmRedisCache** cmdlet imports data from blobs into azure_2 Redis Cache.
+The **Import-AzureRmRedisCache** cmdlet imports data from blobs into Azure Redis Cache.
 
 ## EXAMPLES
 
@@ -39,7 +39,7 @@ The **Import-AzureRmRedisCache** cmdlet imports data from blobs into azure_2 Red
 PS C:\>Import-AzureRmRedisCache -ResourceGroupName "ResourceGroup13" -Name "RedisCache06" -Files @("https://mystorageaccount.blob.core.windows.net/container22/blobname?sv=2015-04-05&sr=b&sig=caIwutG2uDa0NZ8mjdNJdgOY8%2F8mhwRuGNdICU%2B0pI4%3D&st=2016-05-27T00%3A00%3A00Z&se=2016-05-28T00%3A00%3A00Z&sp=rwd") -Force
 ```
 
-This command imports data from the blob that is specified by the SAS URL into azure_2 Redis Cache.
+This command imports data from the blob that is specified by the SAS URL into Azure Redis Cache.
 
 ## PARAMETERS
 
@@ -136,7 +136,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -151,7 +151,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -182,14 +183,14 @@ You can pipe input to this cmdlet by property name, but not by value.
 
 ## RELATED LINKS
 
-[Export-AzureRmRedisCache](./Export-AzureRmRedisCache.md)
+[Export-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Export-AzureRmRedisCache.md)
 
-[New-AzureRmRedisCache](./New-AzureRmRedisCache.md)
+[New-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/New-AzureRmRedisCache.md)
 
-[Remove-AzureRmRedisCache](./Remove-AzureRmRedisCache.md)
+[Remove-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Remove-AzureRmRedisCache.md)
 
-[Reset-AzureRmRedisCache](./Reset-AzureRmRedisCache.md)
+[Reset-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Reset-AzureRmRedisCache.md)
 
-[Set-AzureRmRedisCache](./Set-AzureRmRedisCache.md)
+[Set-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Set-AzureRmRedisCache.md)
 
 

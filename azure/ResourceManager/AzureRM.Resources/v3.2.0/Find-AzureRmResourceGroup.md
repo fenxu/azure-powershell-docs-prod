@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
-online version: 7827edc2-87d5-4885-b853-cb48b5847a16
+online version: 
 schema: 2.0.0
 ms.assetid: 7827EDC2-87D5-4885-B853-CB48B5847A16
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Find-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Find-AzureRmResourceGroup.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Find-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Find-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Find-AzureRmResourceGroup

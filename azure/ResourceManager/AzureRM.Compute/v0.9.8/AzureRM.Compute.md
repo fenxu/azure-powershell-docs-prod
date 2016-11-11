@@ -6,8 +6,9 @@ Help Version: 2.0.2.0
 Locale: en-US
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/AzureRM.Compute.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/AzureRM.Compute.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/AzureRM.Compute.md
+uid: ResourceManager/AzureRM.Compute/v0.9.8/AzureRM.Compute.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: 48b9d59d-ff51-4f70-9a29-fd017a9a8383
+online version: 
 schema: 2.0.0
 ms.assetid: C2A3C653-FBBA-4D24-BCED-FAEA67C1D4A6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Reset-AzureVirtualNetworkGatewayKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Reset-AzureVirtualNetworkGatewayKey.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Reset-AzureVirtualNetworkGatewayKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Reset-AzureVirtualNetworkGatewayKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,10 +34,6 @@ The **Reset-AzureVirtualNetworkGatewayKey** cmdlet resets a virtual network gate
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -47,7 +43,7 @@ Specifies the ID of a connected entity.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -62,7 +58,7 @@ Specifies the ID of a gateway.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -72,12 +68,14 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies the Azure profile from which this cmdlet reads.
+If you do not specify a profile, this cmdlet reads from the local default profile.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -92,7 +90,7 @@ Specifies the key length.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -112,8 +110,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVirtualNetworkGatewayKey](./Get-AzureVirtualNetworkGatewayKey.md)
+[Get-AzureVirtualNetworkGatewayKey](xref:ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVirtualNetworkGatewayKey.md)
 
-[Set-AzureVirtualNetworkGatewayKey](./Set-AzureVirtualNetworkGatewayKey.md)
-
-
+[Set-AzureVirtualNetworkGatewayKey](xref:ServiceManagement/Azure.Networking/v3.0.0/Set-AzureVirtualNetworkGatewayKey.md)

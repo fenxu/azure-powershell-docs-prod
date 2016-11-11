@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Set-AzureRole.md
+online version: 
 schema: 2.0.0
 ms.assetid: 688BE4C0-0390-4DB2-97B7-81E05E8D796B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Reset-AzureRoleInstance.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Reset-AzureRoleInstance.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Reset-AzureRoleInstance.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Reset-AzureRoleInstance.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -33,17 +33,17 @@ Reset-AzureRoleInstance [-ServiceName] <String> -Slot <String> -InstanceName <St
 ## DESCRIPTION
 The **Reset-AzureRoleInstance** cmdlet requests a reboot or a reimage of a role instance that is running in a deployment.
 This operation executes synchronously.
-When you reboot a role instance, azure_2 takes the instance offline, restarts the underlying operating system for that instance, and brings the instance back online.
+When you reboot a role instance, Azure takes the instance offline, restarts the underlying operating system for that instance, and brings the instance back online.
 Any data that is written to the local disk persists across reboots.
 Any data that is in-memory is lost.
 
 Reimaging a role instance results in different behavior depending on the type of role.
-For a web or worker role, when the role is reimaged, azure_2 takes the role offline and writes a fresh installation of the azure_2 guest operating system to the virtual machine.
+For a web or worker role, when the role is reimaged, Azure takes the role offline and writes a fresh installation of the Azure guest operating system to the virtual machine.
 The role is then brought back online.
-For a VM role, when the role is reimaged, azure_2 takes the role offline, reapplies the custom image that you provided for it, and brings the role back online.
+For a VM role, when the role is reimaged, Azure takes the role offline, reapplies the custom image that you provided for it, and brings the role back online.
 
-azure_2 attempts to maintain data in any local storage resources when the role is reimaged; however, in case of a transient hardware failure, the local storage resource may be lost.
-If your application requires that data persist, writing to a durable data source, such as an azure_2 drive, is recommended.
+Azure attempts to maintain data in any local storage resources when the role is reimaged; however, in case of a transient hardware failure, the local storage resource may be lost.
+If your application requires that data persist, writing to a durable data source, such as an Azure drive, is recommended.
 Any data that is written to a local directory other than that defined by the local storage resource will be lost when the role is reimaged.
 
 ## EXAMPLES
@@ -166,7 +166,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -181,7 +190,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -206,6 +215,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRole](./Set-AzureRole.md)
+[Set-AzureRole](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureRole.md)
 
 

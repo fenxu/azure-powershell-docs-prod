@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-online version: 3bc9e3a9-d8e6-4cad-8642-4bea508a6ba1
+online version: 
 schema: 2.0.0
 ms.assetid: 81B76BCF-FD4F-47E8-9E6B-6B849FB633E1
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Start-AzureRmHDInsightJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Start-AzureRmHDInsightJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Start-AzureRmHDInsightJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Start-AzureRmHDInsightJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -127,12 +127,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmHDInsightJob](./Get-AzureRmHDInsightJob.md)
+[Get-AzureRmHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightJob.md)
 
-[New-AzureRmHDInsightHiveJobDefinition](./New-AzureRmHDInsightHiveJobDefinition.md)
+[New-AzureRmHDInsightHiveJobDefinition](xref:ResourceManager/AzureRM.HDInsight/v2.2.0/New-AzureRmHDInsightHiveJobDefinition.md)
 
-[Stop-AzureRmHDInsightJob](./Stop-AzureRmHDInsightJob.md)
+[Stop-AzureRmHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v2.2.0/Stop-AzureRmHDInsightJob.md)
 
-[Wait-AzureRmHDInsightJob](./Wait-AzureRmHDInsightJob.md)
+[Wait-AzureRmHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v2.2.0/Wait-AzureRmHDInsightJob.md)
 
 

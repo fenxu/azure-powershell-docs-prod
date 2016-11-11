@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureServiceDiagnosticsExtension.md
+online version: 
 schema: 2.0.0
 ms.assetid: 7486A636-0827-446C-827D-247B760183D9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureServiceDiagnosticsExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureServiceDiagnosticsExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureServiceDiagnosticsExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureServiceDiagnosticsExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureServiceDiagnosticsExtension
 
 ## SYNOPSIS
-Enables azure_2 Diagnostics extension on specified roles or all roles on a deployed service or at deployment.
+Enables Azure Diagnostics extension on specified roles or all roles on a deployed service or at deployment.
 
 ## SYNTAX
 
@@ -52,7 +52,7 @@ Set-AzureServiceDiagnosticsExtension [[-ServiceName] <String>] [[-Slot] <String>
 ```
 
 ## DESCRIPTION
-The **Set-AzureServiceDiagnosticsExtension** cmdlet enables azure_2 Diagnostics extension on specified roles or all roles on a deployed service or at deployment.
+The **Set-AzureServiceDiagnosticsExtension** cmdlet enables Azure Diagnostics extension on specified roles or all roles on a deployed service or at deployment.
 
 ## EXAMPLES
 
@@ -61,19 +61,19 @@ The **Set-AzureServiceDiagnosticsExtension** cmdlet enables azure_2 Diagnostics 
 PS C:\>Set-AzureServiceDiagnosticsExtension -ServiceName $Svc -StorageContext $StorageContext -DiagnosticsConfigurationPath $WadConfigXML
 ```
 
-This command enables the azure_2 Diagnostics extension for all roles.
+This command enables the Azure Diagnostics extension for all roles.
 
 ### Example 2: Enable Azure Diagnostics extension for a specified role
 ```
 PS C:\>Set-AzureServiceDiagnosticsExtension -ServiceName $Svc -StorageContext $StorageContext -DiagnosticsConfigurationPath $WadConfigXML -Role "WebRole01"
 ```
 
-This command enables the azure_2 Diagnostics extension for a specified role.
+This command enables the Azure Diagnostics extension for a specified role.
 
 ## PARAMETERS
 
 ### -ServiceName
-Specifies the azure_2 service name of the deployment.
+Specifies the Azure service name of the deployment.
 
 ```yaml
 Type: String
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -Role
-Specifies an optional array of roles for which to specify the azure_2 Diagnostics configuration.
+Specifies an optional array of roles for which to specify the Azure Diagnostics configuration.
 If you do not specify this parameter, the diagnostics configuration is applied as the default configuration for all roles.
 
 ```yaml
@@ -151,7 +151,6 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountName
-@{Text=}
 
 ```yaml
 Type: String
@@ -166,7 +165,6 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountKey
-@{Text=}
 
 ```yaml
 Type: String
@@ -181,7 +179,6 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountEndpoint
-@{Text=}
 
 ```yaml
 Type: String
@@ -196,7 +193,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageContext
-Specifies an azure_2 storage context.
+Specifies an Azure storage context.
 
 ```yaml
 Type: AzureStorageContext
@@ -211,7 +208,7 @@ Accept wildcard characters: False
 ```
 
 ### -DiagnosticsConfigurationPath
-Specifies the configuration for azure_2 Diagnostics.
+Specifies the configuration for Azure Diagnostics.
 You can download the schema by using the following command:
                         `(Get-AzureServiceAvailableExtension -ExtensionName 'PaaSDiagnostics' -ProviderNamespace 'Microsoft.Azure.Diagnostics').PublicConfigurationSchema | Out-File -Encoding utf8 -FilePath 'WadConfig.xsd'`
 
@@ -243,7 +240,6 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionId
-@{Text=}
 
 ```yaml
 Type: String
@@ -273,7 +269,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -288,7 +293,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -303,7 +308,6 @@ Accept wildcard characters: False
 ```
 
 ### -DiagnosticsConfiguration
-@{Text=}
 
 ```yaml
 Type: ExtensionConfigurationInput[]
@@ -345,8 +349,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureServiceDiagnosticsExtension](./Get-AzureServiceDiagnosticsExtension.md)
+[Get-AzureServiceDiagnosticsExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureServiceDiagnosticsExtension.md)
 
-[Remove-AzureServiceDiagnosticsExtension](./Remove-AzureServiceDiagnosticsExtension.md)
+[Remove-AzureServiceDiagnosticsExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureServiceDiagnosticsExtension.md)
 
 

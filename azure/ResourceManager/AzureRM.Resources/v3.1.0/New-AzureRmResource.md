@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
-online version: .\Find-AzureRmResource.md
+online version: 
 schema: 2.0.0
 ms.assetid: C65367CF-2B69-44D6-A3AB-B1192405C292
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmResource.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # New-AzureRmResource
@@ -412,14 +413,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Find-AzureRmResource](./Find-AzureRmResource.md)
+[Find-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.1.0/Find-AzureRmResource.md)
 
-[Get-AzureRmResource](./Get-AzureRmResource.md)
+[Get-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.1.0/Get-AzureRmResource.md)
 
-[Move-AzureRmResource](./Move-AzureRmResource.md)
+[Move-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.1.0/Move-AzureRmResource.md)
 
-[Remove-AzureRmResource](./Remove-AzureRmResource.md)
+[Remove-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.1.0/Remove-AzureRmResource.md)
 
-[Set-AzureRmResource](./Set-AzureRmResource.md)
+[Set-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.1.0/Set-AzureRmResource.md)
 
 

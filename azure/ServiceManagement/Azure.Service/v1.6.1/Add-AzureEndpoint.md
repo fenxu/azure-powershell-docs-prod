@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Add-AzureVirtualIP.md
+online version: 
 schema: 2.0.0
 ms.assetid: 5F408E88-F3AA-4DD1-9617-F2D8F8CBC20C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Add-AzureEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Add-AzureEndpoint.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Add-AzureEndpoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Add-AzureEndpoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -62,7 +62,7 @@ Add-AzureEndpoint [-Name] <String> [-Protocol] <String> [-LocalPort] <Int32> [-P
 ```
 
 ## DESCRIPTION
-The **Add-AzureEndpoint** cmdlet adds an endpoint to an azure_2 virtual machine object.
+The **Add-AzureEndpoint** cmdlet adds an endpoint to an Azure virtual machine object.
 
 ## EXAMPLES
 
@@ -154,7 +154,7 @@ Accept wildcard characters: False
 
 ### -PublicPort
 Specifies the public port that the endpoint uses.
-If you do not specify a value, azure_2 assigns an available port.
+If you do not specify a value, Azure assigns an available port.
 
 ```yaml
 Type: Int32
@@ -255,7 +255,7 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualIPName
-Specifies the name of a virtual IP address that azure_2 associates to the endpoint.
+Specifies the name of a virtual IP address that Azure associates to the endpoint.
 Your service can have multiple virtual IPs.
 To create virtual IPs, use the Add-AzureVirtualIP cmdlet.
 
@@ -302,7 +302,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -317,7 +326,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -468,16 +477,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureVirtualIP](./Add-AzureVirtualIP.md)
+[Add-AzureVirtualIP](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureVirtualIP.md)
 
-[Get-AzureEndpoint](./Get-AzureEndpoint.md)
+[Get-AzureEndpoint](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureEndpoint.md)
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVM.md)
 
-[Remove-AzureEndpoint](./Remove-AzureEndpoint.md)
+[Remove-AzureEndpoint](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureEndpoint.md)
 
-[Set-AzureEndpoint](./Set-AzureEndpoint.md)
+[Set-AzureEndpoint](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureEndpoint.md)
 
-[Update-AzureVM](./Update-AzureVM.md)
+[Update-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Update-AzureVM.md)
 
 

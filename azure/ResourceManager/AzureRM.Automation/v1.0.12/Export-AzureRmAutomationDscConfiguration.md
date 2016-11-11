@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Get-AzureRmAutomationDscConfiguration.md
+online version: 
 schema: 2.0.0
 ms.assetid: 091CD841-4AAF-45DE-A8F2-6F973FB9C91B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscConfiguration.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Export-AzureRmAutomationDscConfiguration
@@ -29,13 +30,14 @@ Export-AzureRmAutomationDscConfiguration -Name <String> [-Slot <String>] [-Outpu
 ```
 
 ## DESCRIPTION
-The **Export-AzureRmAutomationDscConfiguration** cmdlet exports an APS Desired State Configuration (DSC) configuration from azure_2 Automation to a local file.
+The **Export-AzureRmAutomationDscConfiguration** cmdlet exports an Azure PowerShell Desired State Configuration (DSC) configuration from Azure Automation to a local file.
 The exported file has a .ps1 file name extension.
 
 ## EXAMPLES
 
 ### Example 1: Export the published version of a DSC configuration
-```
+
+```PowerShell
 PS C:\>Export-AzureRmAutomationDscConfiguration -ResourceGroupName "ResourceGroup01" -AutomationAccountName "AutomationAccount01" -Name "Configuration01" -Slot Published -OutputFolder "C:\Users\PattiFuller\Desktop"
 ```
 
@@ -49,7 +51,7 @@ Specifies the name of the Automation account that contains the DSC that this cmd
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -64,7 +66,7 @@ Indicates that this cmdlet replaces an existing local file with a new file that 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -94,7 +96,7 @@ Specifies the output folder where this cmdlet exports the DSC configuration.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -109,7 +111,7 @@ Specifies the name of a resource group for which this cmdlet exports a DSC confi
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -120,17 +122,17 @@ Accept wildcard characters: False
 
 ### -Slot
 Specifies which version of the DSC configuration that this cmdlet exports.
-Valid values are: 
+Valid values are:
 
 - Draft
-- Published 
+- Published
 
 The default value is Published.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Published, Draft
 
 Required: False
@@ -141,7 +143,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -156,7 +158,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -181,8 +184,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationDscConfiguration](./Get-AzureRmAutomationDscConfiguration.md)
+[Get-AzureRmAutomationDscConfiguration](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscConfiguration.md)
 
-[Import-AzureRmAutomationDscConfiguration](./Import-AzureRmAutomationDscConfiguration.md)
-
-
+[Import-AzureRmAutomationDscConfiguration](xref:ResourceManager/AzureRM.Automation/v1.0.12/Import-AzureRmAutomationDscConfiguration.md)

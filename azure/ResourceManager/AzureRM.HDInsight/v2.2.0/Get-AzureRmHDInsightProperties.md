@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-online version: 611ecb41-1c2f-4e02-9cac-0d7d1323f79b
+online version: 
 schema: 2.0.0
 ms.assetid: 24C217E1-15BC-4874-B36A-C0D10E703EFD
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightProperties.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightProperties.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightProperties.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightProperties.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

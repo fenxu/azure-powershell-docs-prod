@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Tags.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkId=404173
+online version: 
 schema: 2.0.0
 ms.assetid: 4A43AF5D-6359-46BF-9C51-FDF399A5FDC6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/Get-AzureRmTag.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/Get-AzureRmTag.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/Get-AzureRmTag.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/Get-AzureRmTag.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmTag
 
 ## SYNOPSIS
-Gets predefined azure_2 tags.
+Gets predefined Azure tags.
 
 ## SYNTAX
 
@@ -29,12 +29,12 @@ Get-AzureRmTag [[-Name] <String>] [-Detailed] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmTag** cmdlet gets predefined azure_2 tags in your subscription.
+The **Get-AzureRmTag** cmdlet gets predefined Azure tags in your subscription.
 This cmdlet returns basic information about the tags or detailed information about tags and their values.
 All output objects include a Count property that represents the number of resources and resource groups to which the tags and values have been applied.
 
-The azure_2 Tags module that **Get-AzureRMTag** is a part of can help you manage predefined azure_2 tags.
-An azure_2 tag is a name-value pair that you can use to categorize your azure_2 resources and resource groups, such as by department or cost center, or to track notes or comments about the resources and groups.
+The Azure Tags module that **Get-AzureRMTag** is a part of can help you manage predefined Azure tags.
+An Azure tag is a name-value pair that you can use to categorize your Azure resources and resource groups, such as by department or cost center, or to track notes or comments about the resources and groups.
 
 You can define and apply tags in a single step, but predefined tags let you establish standard, consistent, predictable names and values for the tags in your subscription.
 If the subscription includes any predefined tags, you cannot apply undefined tags or values to any resource or resource group in the subscription.
@@ -161,8 +161,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmTag](./New-AzureRmTag.md)
+[New-AzureRmTag](xref:ResourceManager/AzureRM.Tags/v2.2.0/New-AzureRmTag.md)
 
-[Remove-AzureRmTag](./Remove-AzureRmTag.md)
+[Remove-AzureRmTag](xref:ResourceManager/AzureRM.Tags/v2.2.0/Remove-AzureRmTag.md)
 
 

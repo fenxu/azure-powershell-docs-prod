@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
-online version: .\Get-ACSEventQuery.md
+online version: 
 schema: 2.0.0
 ms.assetid: 25D0C4A3-49EE-4A56-955F-C0A21A5BE0CB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEvent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEvent.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEvent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEvent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -39,7 +39,7 @@ Get-ACSEvent -EventQuery <EventQuery> [[-SubscriptionId] <String>] [[-Token] <St
 ```
 
 ## DESCRIPTION
-The **Get-ACSEvent** cmdlet gets a list of event objects events in the azure_2 Consistent Storage (ACS) system.
+The **Get-ACSEvent** cmdlet gets a list of event objects events in the Azure Consistent Storage (ACS) system.
 You can compose an event query with the Get-ACSEventQuery cmdlet.
 
 ## EXAMPLES
@@ -132,7 +132,6 @@ Accept wildcard characters: False
 ```
 
 ### -EventId
-@{Text=}
 
 ```yaml
 Type: Int32[]
@@ -311,8 +310,8 @@ Output from Get-ACSFarm can be piped to this cmdlet's input.
 
 ## RELATED LINKS
 
-[Get-ACSEventQuery](./Get-ACSEventQuery.md)
+[Get-ACSEventQuery](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSEventQuery.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarm.md)
 
 

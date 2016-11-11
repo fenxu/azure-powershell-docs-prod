@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: .\Get-AzureRmSqlDatabaseDataMaskingPolicy.md
+online version: 
 schema: 2.0.0
 ms.assetid: EDDF6337-5468-4387-90EC-02DFBD0B0688
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseDataMaskingRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseDataMaskingRule.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseDataMaskingRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseDataMaskingRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,11 +31,11 @@ Get-AzureRmSqlDatabaseDataMaskingRule [-SchemaName <String>] [-TableName <String
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSqlDatabaseDataMaskingRule** cmdlet gets either a specific data masking rule or all of the data masking rules for an azure_2 SQL database.
+The **Get-AzureRmSqlDatabaseDataMaskingRule** cmdlet gets either a specific data masking rule or all of the data masking rules for an Azure SQL database.
 To use the cmdlet, use the *ResourceGroupName*, *ServerName*, and *DatabaseName* parameters to identify the database, and the *RuleId* parameter to specify which rule this cmdlet returns.
-If you do not provide *RuleId*, all the data masking rules for that azure_2 SQL database are returned.
+If you do not provide *RuleId*, all the data masking rules for that Azure SQL database are returned.
 
-This cmdlet is also supported by the SQL Server Stretch Database service on azure_2.
+This cmdlet is also supported by the SQL Server Stretch Database service on Azure.
 
 ## EXAMPLES
 
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -TableName
-Specifies the name of an azure_2 SQL table.
+Specifies the name of an Azure SQL table.
 
 ```yaml
 Type: String
@@ -139,7 +139,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -154,7 +163,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -184,16 +193,16 @@ None.
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlDatabaseDataMaskingPolicy](./Get-AzureRmSqlDatabaseDataMaskingPolicy.md)
+[Get-AzureRmSqlDatabaseDataMaskingPolicy](xref:ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseDataMaskingPolicy.md)
 
-[New-AzureRmSqlDatabaseDataMaskingRule](./New-AzureRmSqlDatabaseDataMaskingRule.md)
+[New-AzureRmSqlDatabaseDataMaskingRule](xref:ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseDataMaskingRule.md)
 
-[Remove-AzureRmSqlDatabaseDataMaskingRule](./Remove-AzureRmSqlDatabaseDataMaskingRule.md)
+[Remove-AzureRmSqlDatabaseDataMaskingRule](xref:ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlDatabaseDataMaskingRule.md)
 
-[Set-AzureRmSqlDatabaseDataMaskingPolicy](./Set-AzureRmSqlDatabaseDataMaskingPolicy.md)
+[Set-AzureRmSqlDatabaseDataMaskingPolicy](xref:ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseDataMaskingPolicy.md)
 
-[Set-AzureRmSqlDatabaseDataMaskingRule](./Set-AzureRmSqlDatabaseDataMaskingRule.md)
+[Set-AzureRmSqlDatabaseDataMaskingRule](xref:ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseDataMaskingRule.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
 
 

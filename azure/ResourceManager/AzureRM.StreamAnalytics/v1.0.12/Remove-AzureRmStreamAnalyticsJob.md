@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
-online version: .\Get-AzureRmStreamAnalyticsJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: D840084F-8B06-4EEA-918F-BDAFB6C60F9B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Remove-AzureRmStreamAnalyticsJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Remove-AzureRmStreamAnalyticsJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Remove-AzureRmStreamAnalyticsJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Remove-AzureRmStreamAnalyticsJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Remove-AzureRmStreamAnalyticsJob [-Name] <String> [-Force] [-ResourceGroupName] 
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmStreamAnalyticsJob** cmdlet asynchronously deletes a specific Stream Analytics job in azure_2.
+The **Remove-AzureRmStreamAnalyticsJob** cmdlet asynchronously deletes a specific Stream Analytics job in Azure.
 
 ## EXAMPLES
 
@@ -44,7 +44,7 @@ This command removes the job StreamingJob.
 ## PARAMETERS
 
 ### -Name
-Specifies the name of the azure_2 Stream Analytics job to remove.
+Specifies the name of the Azure Stream Analytics job to remove.
 
 ```yaml
 Type: String
@@ -74,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group to which the azure_2 Stream Analytics job belongs.
+Specifies the name of the resource group to which the Azure Stream Analytics job belongs.
 
 ```yaml
 Type: String
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -119,7 +119,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -146,12 +147,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmStreamAnalyticsJob](./Get-AzureRmStreamAnalyticsJob.md)
+[Get-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsJob.md)
 
-[New-AzureRmStreamAnalyticsJob](./New-AzureRmStreamAnalyticsJob.md)
+[New-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsJob.md)
 
-[Start-AzureRmStreamAnalyticsJob](./Start-AzureRmStreamAnalyticsJob.md)
+[Start-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Start-AzureRmStreamAnalyticsJob.md)
 
-[Stop-AzureRmStreamAnalyticsJob](./Stop-AzureRmStreamAnalyticsJob.md)
+[Stop-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Stop-AzureRmStreamAnalyticsJob.md)
 
 

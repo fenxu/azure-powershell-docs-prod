@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 2C9E70EA-01B7-403C-9F59-63CCDDCD80C8
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightHiveJobDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightHiveJobDefinition.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightHiveJobDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightHiveJobDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -39,7 +39,7 @@ For information about how to use the new HDInsight to create a cluster, see Crea
 For information about how to submit jobs by using APS and other approaches, see Submit Hadoop jobs in HDInsighthttps://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/.
 For reference information about APS HDInsight, see Azure HDInsight Cmdletshttps://msdn.microsoft.com/en-us/library/mt438705.aspx.
 
-The **New-AzureHDInsightHiveJobDefinition** cmdlet defines a Hive job for an azure_2 HDInsight service.
+The **New-AzureHDInsightHiveJobDefinition** cmdlet defines a Hive job for an Azure HDInsight service.
 
 ## EXAMPLES
 
@@ -176,7 +176,7 @@ Accept wildcard characters: False
 ```
 
 ### -RunAsFileJob
-Indicates that this cmdlet creates a file in the default azure_2 storage account in which to store a query.
+Indicates that this cmdlet creates a file in the default Azure storage account in which to store a query.
 This cmdlet submits the job that references this file as a script to run.
 
 You can use this functionality to handle special characters such as percent sign (%) that would fail on a job submission through Templeton, because Templeton interprets a query with a percent sign as a URL parameter.
@@ -204,12 +204,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureHDInsightMapReduceJobDefinition](./New-AzureHDInsightMapReduceJobDefinition.md)
+[New-AzureHDInsightMapReduceJobDefinition](xref:ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightMapReduceJobDefinition.md)
 
-[New-AzureHDInsightPigJobDefinition](./New-AzureHDInsightPigJobDefinition.md)
+[New-AzureHDInsightPigJobDefinition](xref:ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightPigJobDefinition.md)
 
-[New-AzureHDInsightSqoopJobDefinition](./New-AzureHDInsightSqoopJobDefinition.md)
+[New-AzureHDInsightSqoopJobDefinition](xref:ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightSqoopJobDefinition.md)
 
-[New-AzureHDInsightStreamingMapReduceJobDefinition](./New-AzureHDInsightStreamingMapReduceJobDefinition.md)
+[New-AzureHDInsightStreamingMapReduceJobDefinition](xref:ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightStreamingMapReduceJobDefinition.md)
 
 

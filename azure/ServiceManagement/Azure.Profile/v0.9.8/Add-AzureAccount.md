@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkID=397618
+online version: 
 schema: 2.0.0
 ms.assetid: 738FC867-1D2A-48D7-B61D-3FFD5887A896
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Add-AzureAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Add-AzureAccount.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Add-AzureAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Add-AzureAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -76,7 +76,6 @@ This command uses the **SubscriptionDataFile** parameter to direct **Add-AzureAc
 ## PARAMETERS
 
 ### -Environment
-@{Text=}
 
 ```yaml
 Type: String
@@ -91,7 +90,6 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-@{Text=}
 
 ```yaml
 Type: PSCredential
@@ -118,7 +116,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureProfile
@@ -133,7 +130,6 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipal
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -148,7 +144,6 @@ Accept wildcard characters: False
 ```
 
 ### -Tenant
-@{Text=}
 
 ```yaml
 Type: String
@@ -194,14 +189,14 @@ This cmdlet does not return any output.
 
 ## RELATED LINKS
 
-[Add-AzureEnvironment](./Add-AzureEnvironment.md)
+[Add-AzureEnvironment](xref:ServiceManagement/Azure.Profile/v0.9.8/Add-AzureEnvironment.md)
 
-[Get-AzureEnvironment](./Get-AzureEnvironment.md)
+[Get-AzureEnvironment](xref:ServiceManagement/Azure.Profile/v0.9.8/Get-AzureEnvironment.md)
 
-[Import-AzurePublishSettingsFile](./Import-AzurePublishSettingsFile.md)
+[Import-AzurePublishSettingsFile](xref:ServiceManagement/Azure.Profile/v0.9.8/Import-AzurePublishSettingsFile.md)
 
-[Get-AzureAccount](./Get-AzureAccount.md)
+[Get-AzureAccount](xref:ServiceManagement/Azure.Profile/v0.9.8/Get-AzureAccount.md)
 
-[Remove-AzureAccount](./Remove-AzureAccount.md)
+[Remove-AzureAccount](xref:ServiceManagement/Azure.Profile/v0.9.8/Remove-AzureAccount.md)
 
 

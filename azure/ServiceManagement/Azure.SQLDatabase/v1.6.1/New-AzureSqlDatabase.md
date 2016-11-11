@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
-online version: https://azure.microsoft.com/en-us/services/sql-database/
+online version: 
 schema: 2.0.0
 ms.assetid: 100C508F-3871-4BE1-B7E5-ADDB6869DA24
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabase.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -41,9 +41,9 @@ New-AzureSqlDatabase [-ServerName] <String> [-DatabaseName] <String> [-Collation
 ## DESCRIPTION
 The **New-AzureSqlDatabase** cmdlet creates an ssSDS.
 You can specify the server by using an ssSDS server connection context that you create using the **New-AzureSqlDatabaseServerContext** cmdlet.
-Or, if you specify the server name, the cmdlet uses the current azure_2 subscription information to authenticate the request to access the server.
+Or, if you specify the server name, the cmdlet uses the current Azure subscription information to authenticate the request to access the server.
 
-When you create a new database by specifying an ssSDS server, the **New-AzureSqlDatabase** cmdlet creates a temporary connection context using the specified server name and the current azure_2 subscription information to perform the operation.
+When you create a new database by specifying an ssSDS server, the **New-AzureSqlDatabase** cmdlet creates a temporary connection context using the specified server name and the current Azure subscription information to perform the operation.
 
 ## EXAMPLES
 
@@ -60,7 +60,7 @@ PS C:\>$Database01 = New-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName
 ```
 
 This example creates a database named Database1, in the specified ssSDS server named lpqd0zbr8y.
-The cmdlet uses the current azure_2 subscription information to authenticate the request to access the server.
+The cmdlet uses the current Azure subscription information to authenticate the request to access the server.
 
 ## PARAMETERS
 
@@ -224,7 +224,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -239,7 +240,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -303,12 +304,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Operations for Azure SQL Databases](https://msdn.microsoft.com/en-us/library/azure/dn505719.aspx)
 
-[Get-AzureSqlDatabase](./Get-AzureSqlDatabase.md)
+[Get-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabase.md)
 
-[New-AzureSqlDatabaseServerContext](./New-AzureSqlDatabaseServerContext.md)
+[New-AzureSqlDatabaseServerContext](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServerContext.md)
 
-[Remove-AzureSqlDatabase](./Remove-AzureSqlDatabase.md)
+[Remove-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/Remove-AzureSqlDatabase.md)
 
-[Set-AzureSqlDatabase](./Set-AzureSqlDatabase.md)
+[Set-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabase.md)
 
 

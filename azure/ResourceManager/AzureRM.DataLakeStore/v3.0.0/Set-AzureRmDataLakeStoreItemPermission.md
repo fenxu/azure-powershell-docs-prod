@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
-online version: 8f516472-7ebd-4571-81d0-7f581c4ff0d4
+online version: 
 schema: 2.0.0
 ms.assetid: 04C6F4C2-A385-47E3-98CD-8780D2F6BAE4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.0.0/Set-AzureRmDataLakeStoreItemPermission.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.0.0/Set-AzureRmDataLakeStoreItemPermission.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.0.0/Set-AzureRmDataLakeStoreItemPermission.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.0.0/Set-AzureRmDataLakeStoreItemPermission.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -135,6 +135,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmDataLakeStoreItemPermission](./Get-AzureRmDataLakeStoreItemPermission.md)
+[Get-AzureRmDataLakeStoreItemPermission](xref:ResourceManager/AzureRM.DataLakeStore/v3.0.0/Get-AzureRmDataLakeStoreItemPermission.md)
 
 

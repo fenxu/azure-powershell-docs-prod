@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureRmVM.md
+online version: 
 schema: 2.0.0
 ms.assetid: 30F95EC0-0CBC-4C82-9D47-0006CB05A50A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMPlan.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMPlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,9 +31,9 @@ Set-AzureRmVMPlan [-VM] <PSVirtualMachine> [-Name] <String> [[-Product] <String>
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmVMPlan** cmdlet sets the azure_2 Marketplace plan information for a virtual machine.
+The **Set-AzureRmVMPlan** cmdlet sets the Azure Marketplace plan information for a virtual machine.
 
-Before being able to deploy a Marketplace image through the command-line, programmatic access must be enabled or the virtual machine must be deployed by using the azure_2 portal.
+Before being able to deploy a Marketplace image through the command-line, programmatic access must be enabled or the virtual machine must be deployed by using the Azure portal.
 
 ## EXAMPLES
 
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 ### -Name
 Specifies the name of the image from the Marketplace.
 This is the same value that is returned by the Get-AzureRmVMImageSku cmdlet.
-For more information about how to find image information, see Navigating and Selecting Azure Virtual Machine images with PowerShell and the Azure CLIhttps://azure.microsoft.com/documentation/articles/resource-groups-vm-searching/ (https://azure.microsoft.com/documentation/articles/resource-groups-vm-searching/) in the Microsoft azure_2 documentation.
+For more information about how to find image information, see Navigating and Selecting Azure Virtual Machine images with PowerShell and the Azure CLIhttps://azure.microsoft.com/documentation/articles/resource-groups-vm-searching/ (https://azure.microsoft.com/documentation/articles/resource-groups-vm-searching/) in the Microsoft Azure documentation.
 
 ```yaml
 Type: String
@@ -126,7 +126,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -141,7 +150,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -166,12 +175,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVM](./Get-AzureRmVM.md)
+[Get-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVM.md)
 
-[Get-AzureRmVMImagePublisher](./Get-AzureRmVMImagePublisher.md)
+[Get-AzureRmVMImagePublisher](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMImagePublisher.md)
 
-[Get-AzureRmVMImageSku](./Get-AzureRmVMImageSku.md)
+[Get-AzureRmVMImageSku](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMImageSku.md)
 
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)
+[New-AzureRmVMConfig](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVMConfig.md)
 
 

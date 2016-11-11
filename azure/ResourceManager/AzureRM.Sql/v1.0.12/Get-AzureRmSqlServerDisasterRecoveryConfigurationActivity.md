@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: e7fad077-5b9a-4a56-91f4-3f768354ecb9
+online version: 
 schema: 2.0.0
 ms.assetid: 66A51F4E-705F-4173-91AB-B3D579E23A85
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -103,7 +103,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -118,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

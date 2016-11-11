@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: .\Get-AzureRmSqlDatabase.md
+online version: 
 schema: 2.0.0
 ms.assetid: BDDDAA96-5CEF-45D3-88A0-82A183940E4B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlDatabase.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureRmSqlDatabase
 
 ## SYNOPSIS
-Removes an azure_2 SQL database.
+Removes an Azure SQL database.
 
 ## SYNTAX
 
@@ -31,9 +31,9 @@ Remove-AzureRmSqlDatabase [-DatabaseName] <String> [-Force] [-ServerName] <Strin
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmSqlDatabase** cmdlet removes an azure_2 SQL database.
+The **Remove-AzureRmSqlDatabase** cmdlet removes an Azure SQL database.
 
-This cmdlet is also supported by the SQL Server Stretch Database service on azure_2.
+This cmdlet is also supported by the SQL Server Stretch Database service on Azure.
 
 ## EXAMPLES
 
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the azure_2 resource group to which the database is assigned.
+Specifies the name of the Azure resource group to which the database is assigned.
 
 ```yaml
 Type: String
@@ -107,7 +107,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -122,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -137,7 +146,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -152,7 +162,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -181,16 +191,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlDatabase](./Get-AzureRmSqlDatabase.md)
+[Get-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabase.md)
 
-[New-AzureRmSqlDatabase](./New-AzureRmSqlDatabase.md)
+[New-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabase.md)
 
-[Resume-AzureRmSqlDatabase](./Resume-AzureRmSqlDatabase.md)
+[Resume-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v1.0.12/Resume-AzureRmSqlDatabase.md)
 
-[Set-AzureRmSqlDatabase](./Set-AzureRmSqlDatabase.md)
+[Set-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabase.md)
 
-[Suspend-AzureRmSqlDatabase](./Suspend-AzureRmSqlDatabase.md)
+[Suspend-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v1.0.12/Suspend-AzureRmSqlDatabase.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
 
 

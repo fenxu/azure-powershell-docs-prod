@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: f2eabc30-aa24-489a-a7fe-20b9ff7e4d26
+online version: 
 schema: 2.0.0
 ms.assetid: 0DDE27B6-BDA5-45C4-8635-C094B9E92CC2
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryVault.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -33,10 +33,6 @@ The **New-AzureRmSiteRecoveryVault** cmdlet creates an Azure Site Recovery servi
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -46,7 +42,7 @@ Specifies the name of the vault.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -61,7 +57,7 @@ Specifies the name of a resource group.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -76,7 +72,7 @@ Specifies the geographical location name.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -96,8 +92,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryVault](./Get-AzureRmSiteRecoveryVault.md)
+[Get-AzureRmSiteRecoveryVault](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryVault.md)
 
-[Remove-AzureRmSiteRecoveryVault](./Remove-AzureRmSiteRecoveryVault.md)
-
-
+[Remove-AzureRmSiteRecoveryVault](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryVault.md)

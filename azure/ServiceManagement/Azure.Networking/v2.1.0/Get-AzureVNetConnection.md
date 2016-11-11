@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: acf3a543-1185-4fe7-9fa2-2fa5ea3b8ca2
+online version: 
 schema: 2.0.0
 ms.assetid: C3DA0104-9BFA-4FBF-A6C4-C3AE5C13D229
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVNetConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVNetConnection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVNetConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVNetConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,10 +34,7 @@ VPN connections include cross premises site-to-site VPNs and virtual network to 
 
 ## EXAMPLES
 
-### 1:
-```
 
-```
 
 ## PARAMETERS
 
@@ -47,7 +44,7 @@ Specifies the name of the virtual network from which this cmdlet returns connect
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -63,7 +60,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -82,5 +79,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

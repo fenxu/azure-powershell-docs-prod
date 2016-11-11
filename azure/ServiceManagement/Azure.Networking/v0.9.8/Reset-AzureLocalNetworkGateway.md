@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: 12e991fe-45c2-48c6-af0f-738d93021e5c
+online version: 
 schema: 2.0.0
 ms.assetid: 0CDDDA13-EC00-4F05-9818-7193B38F3614
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Reset-AzureLocalNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Reset-AzureLocalNetworkGateway.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Reset-AzureLocalNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Reset-AzureLocalNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

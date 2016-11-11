@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Register-AzureRMAutomationScheduledRunbook.md
+online version: 
 schema: 2.0.0
 ms.assetid: CFAC4E12-2A1F-4B2C-873B-F5A3F9C4A2CE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationScheduledRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationScheduledRunbook.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationScheduledRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationScheduledRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureRmAutomationScheduledRunbook
@@ -54,7 +55,7 @@ Get-AzureRmAutomationScheduledRunbook -ScheduleName <String> [-ResourceGroupName
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAutomationScheduledRunbook** cmdlet gets one or more azure_2 Automation runbooks and associated schedules.
+The **Get-AzureRmAutomationScheduledRunbook** cmdlet gets one or more Azure Automation runbooks and associated schedules.
 By default, this cmdlet gets all scheduled runbooks.
 Specify the name of a runbook or a schedule or both to see specific runbook schedules.
 
@@ -65,21 +66,21 @@ Specify the name of a runbook or a schedule or both to see specific runbook sche
 PS C:\>Get-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command gets all scheduled runbooks in the azure_2 Automation account named Contoso17.
+This command gets all scheduled runbooks in the Azure Automation account named Contoso17.
 
 ### Example 2: Get all schedules associated with a runbook
 ```
 PS C:\>Get-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01" -RunbookName "Runbk01"
 ```
 
-This command gets all scheduled runbooks for the runbook Runbk01 in the azure_2 Automation account named Contoso17.
+This command gets all scheduled runbooks for the runbook Runbk01 in the Azure Automation account named Contoso17.
 
 ### Example 3: Get all runbooks associated with a schedule
 ```
 PS C:\>Get-AzureRmAutomationScheduledRunbook -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01" -ScheduleName "Schedule01"
 ```
 
-This command gets all scheduled runbooks for the schedule Schedule01 in the azure_2 Automation account named Contoso17.
+This command gets all scheduled runbooks for the schedule Schedule01 in the Azure Automation account named Contoso17.
 
 ## PARAMETERS
 
@@ -171,8 +172,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Register-AzureRmAutomationScheduledRunbook](./Register-AzureRMAutomationScheduledRunbook.md)
+[Register-AzureRmAutomationScheduledRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Register-AzureRMAutomationScheduledRunbook.md)
 
-[Unregister-AzureRmAutomationScheduledRunbook](./Unregister-AzureRMAutomationScheduledRunbook.md)
+[Unregister-AzureRmAutomationScheduledRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRMAutomationScheduledRunbook.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Add-AzureRmVMSecret.md
+online version: 
 schema: 2.0.0
 ms.assetid: E626F63C-8254-45A2-A989-476EA7F3D51F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMDiskEncryptionExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMDiskEncryptionExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMDiskEncryptionExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMDiskEncryptionExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureRmVMDiskEncryptionExtension
 
 ## SYNOPSIS
-Enables encryption on a running IaaS virtual machine in azure_2.
+Enables encryption on a running IaaS virtual machine in Azure.
 
 ## SYNTAX
 
@@ -45,7 +45,7 @@ Set-AzureRmVMDiskEncryptionExtension [-ResourceGroupName] <String> [-VMName] <St
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmVMDiskEncryptionExtension** cmdlet enables encryption on a running infrastructure as a service (IaaS) virtual machine in azure_2.
+The **Set-AzureRmVMDiskEncryptionExtension** cmdlet enables encryption on a running infrastructure as a service (IaaS) virtual machine in Azure.
 This cmdlet enables encryption by installing the disk encryption extension on the virtual machine.
 If no *Name* parameter is specified, an extension with the default name AzureDiskEncryption for virtual machines that run the Windows operating system or AzureDiskEncryptionForLinux for Linux virtual machines are installed.
 This cmdlet requires confirmation from the users as one of the steps to enable encryption requires a restart of the virtual machine.
@@ -66,7 +66,7 @@ PS C:\> $KeyVaultResourceId = $KeyVault.ResourceId;
 PS C:\> Set-AzureRmVMDiskEncryptionExtension -ResourceGroupName $RGName -VMName $VMName -AadClientID $AADClientID -AadClientSecret $AADClientSecret -DiskEncryptionKeyVaultUrl $DiskEncryptionKeyVaultUrl -DiskEncryptionKeyVaultId $KeyVaultResourceId ;
 ```
 
-This example enables encryption using azure_2 AD client ID, and client secret.
+This example enables encryption using Azure AD client ID, and client secret.
 
 ### Example 2: Enable encryption using Azure AD client ID and client certification thumbprint
 ```
@@ -112,7 +112,7 @@ PS C:\> Update-AzureRmVM -VM $VM -ResourceGroupName $RGName
 PS C:\> Set-AzureRmVMDiskEncryptionExtension -ResourceGroupName $RGName -VMName $VMName -AadClientID $AADClientID -AadClientCertThumbprint $AADClientCertThumbprint -DiskEncryptionKeyVaultUrl $DiskEncryptionKeyVaultUrl -DiskEncryptionKeyVaultId $KeyVaultResourceId ;
 ```
 
-This example enables encryption using azure_2 AD client ID and client certification thumbprints.
+This example enables encryption using Azure AD client ID and client certification thumbprints.
 
 ### Example 3: Enable encryption using Azure AD client ID, client secret, and wrap disk encryption key by using key encryption key
 ```
@@ -133,7 +133,7 @@ PS C:\> $KeyEncryptionKeyUrl = $KEK.Key.kid;
 PS C:\> Set-AzureRmVMDiskEncryptionExtension -ResourceGroupName $RGName -VMName $VMName -AadClientID $AADClientID -AadClientSecret $AADClientSecret -DiskEncryptionKeyVaultUrl $DiskEncryptionKeyVaultUrl -DiskEncryptionKeyVaultId $KeyVaultResourceId -KeyEncryptionKeyUrl $KeyEncryptionKeyUrl -KeyEncryptionKeyVaultId $KeyVaultResourceId;
 ```
 
-This example enables encryption using azure_2 AD client ID, client secret, and wrap disk encryption key by using the key encryption key.
+This example enables encryption using Azure AD client ID, client secret, and wrap disk encryption key by using the key encryption key.
 
 ### Example 4: Enable encryption using Azure AD client ID, client cert thumbprint, and wrap disk encryptionkey by using key encryption key
 ```
@@ -180,7 +180,7 @@ PS C:\> Update-AzureRmVM -VM $VM -ResourceGroupName $RGName
 PS C:\> Set-AzureRmVMDiskEncryptionExtension -ResourceGroupName $RGname -VMName $VMName -AadClientID $AADClientID -AadClientCertThumbprint $AADClientCertThumbprint -DiskEncryptionKeyVaultUrl $DiskEncryptionKeyVaultUrl -DiskEncryptionKeyVaultId $KeyVaultResourceId ;
 ```
 
-This example enables encryption using azure_2 AD client ID, client cert thumbprint, and wrap disk encryption key by using key encryption key.
+This example enables encryption using Azure AD client ID, client cert thumbprint, and wrap disk encryption key by using key encryption key.
 
 ## PARAMETERS
 
@@ -215,7 +215,7 @@ Accept wildcard characters: False
 ```
 
 ### -AadClientID
-Specifies the client ID of the azure_2 AD application that has permissions to write secrets to **KeyVault**.
+Specifies the client ID of the Azure AD application that has permissions to write secrets to **KeyVault**.
 
 ```yaml
 Type: String
@@ -230,7 +230,7 @@ Accept wildcard characters: False
 ```
 
 ### -AadClientSecret
-Specifies the client secret of the azure_2 AD application that has permissions to write secrets to **KeyVault**.
+Specifies the client secret of the Azure AD application that has permissions to write secrets to **KeyVault**.
 
 ```yaml
 Type: String
@@ -372,7 +372,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the azure_2 Resource Manager resource that represents the extension.
+Specifies the name of the Azure Resource Manager resource that represents the extension.
 The default value is AzureDiskEncryption for virtual machines that run the Windows operating system or AzureDiskEncryptionForLinux for Linux virtual machines.
 
 ```yaml
@@ -434,7 +434,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -449,7 +458,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -464,7 +473,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -479,7 +489,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -494,9 +504,9 @@ Accept wildcard characters: False
 ```
 
 ### -AadClientCertThumbprint
-Specifies the thumbprint of the azure_2pn_Active_Directory (azure_2 AD) application client certificate that has permissions to write secrets to **KeyVault**.
-As a prerequisite, the azure_2 AD client certificate must be previously deployed to the virtual machine's local computer `my` certificate store.
-The Add-AzureRmVMSecret cmdlet can be used to deploy a certificate to a virtual machine in azure_2.
+Specifies the thumbprint of the Azurepn_Active_Directory (Azure AD) application client certificate that has permissions to write secrets to **KeyVault**.
+As a prerequisite, the Azure AD client certificate must be previously deployed to the virtual machine's local computer `my` certificate store.
+The Add-AzureRmVMSecret cmdlet can be used to deploy a certificate to a virtual machine in Azure.
 For more details, see the **Add-AzureRmVMSecret** cmdlet help.
 The certificate must be previously deployed to the virtual machine local computer my certificate store.
 
@@ -523,10 +533,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmVMSecret](./Add-AzureRmVMSecret.md)
+[Add-AzureRmVMSecret](xref:ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVMSecret.md)
 
-[Get-AzureRmVMDiskEncryptionStatus](./Get-AzureRmVMDiskEncryptionStatus.md)
+[Get-AzureRmVMDiskEncryptionStatus](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMDiskEncryptionStatus.md)
 
-[Remove-AzureRmVMDiskEncryptionExtension](./Remove-AzureRmVMDiskEncryptionExtension.md)
+[Remove-AzureRmVMDiskEncryptionExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVMDiskEncryptionExtension.md)
 
 

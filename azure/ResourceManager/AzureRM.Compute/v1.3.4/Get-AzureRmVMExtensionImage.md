@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureRmVMExtensionImageType.md
+online version: 
 schema: 2.0.0
 ms.assetid: 4C206A95-E72A-4B30-84B0-2328287AD73F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImage.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmVMExtensionImage
 
 ## SYNOPSIS
-Gets all versions for an azure_2 extension.
+Gets all versions for an Azure extension.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Get-AzureRmVMExtensionImage -Location <String> -PublisherName <String> -Type <St
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmVMExtensionImage** cmdlet gets all versions for an azure_2 extension.
+The **Get-AzureRmVMExtensionImage** cmdlet gets all versions for an Azure extension.
 
 ## EXAMPLES
 
@@ -122,7 +122,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -137,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -162,10 +171,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMExtensionImageType](./Get-AzureRmVMExtensionImageType.md)
+[Get-AzureRmVMExtensionImageType](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImageType.md)
 
-[Get-AzureRmVMImage](./Get-AzureRmVMImage.md)
+[Get-AzureRmVMImage](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMImage.md)
 
-[Get-AzureRmVMImagePublisher](./Get-AzureRmVMImagePublisher.md)
+[Get-AzureRmVMImagePublisher](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMImagePublisher.md)
 
 

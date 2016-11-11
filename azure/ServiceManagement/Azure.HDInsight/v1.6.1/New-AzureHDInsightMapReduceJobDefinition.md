@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 171388A7-78CA-4CB3-AA6F-1884CD919C06
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightMapReduceJobDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightMapReduceJobDefinition.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightMapReduceJobDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightMapReduceJobDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -39,7 +39,7 @@ For information about how to use the new HDInsight to create a cluster, see Crea
 For information about how to submit jobs by using APS and other approaches, see Submit Hadoop jobs in HDInsighthttps://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/.
 For reference information about APS HDInsight, see Azure HDInsight Cmdletshttps://msdn.microsoft.com/en-us/library/mt438705.aspx.
 
-The **New-AzureHDInsightMapReduceJobDefinition** cmdlet defines a new MapReduce job to run on an azure_2 HDInsight cluster.
+The **New-AzureHDInsightMapReduceJobDefinition** cmdlet defines a new MapReduce job to run on an Azure HDInsight cluster.
 
 ## EXAMPLES
 
@@ -216,16 +216,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureHDInsightJobOutput](./Get-AzureHDInsightJobOutput.md)
+[Get-AzureHDInsightJobOutput](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Get-AzureHDInsightJobOutput.md)
 
-[New-AzureHDInsightHiveJobDefinition](./New-AzureHDInsightHiveJobDefinition.md)
+[New-AzureHDInsightHiveJobDefinition](xref:ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightHiveJobDefinition.md)
 
-[New-AzureHDInsightPigJobDefinition](./New-AzureHDInsightPigJobDefinition.md)
+[New-AzureHDInsightPigJobDefinition](xref:ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightPigJobDefinition.md)
 
-[New-AzureHDInsightSqoopJobDefinition](./New-AzureHDInsightSqoopJobDefinition.md)
+[New-AzureHDInsightSqoopJobDefinition](xref:ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightSqoopJobDefinition.md)
 
-[Start-AzureHDInsightJob](./Start-AzureHDInsightJob.md)
+[Start-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Start-AzureHDInsightJob.md)
 
-[Wait-AzureHDInsightJob](./Wait-AzureHDInsightJob.md)
+[Wait-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Wait-AzureHDInsightJob.md)
 
 

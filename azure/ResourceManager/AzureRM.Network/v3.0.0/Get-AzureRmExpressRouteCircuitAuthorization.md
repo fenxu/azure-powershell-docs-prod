@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: e4b093a3-e235-44e9-98a9-15069e5a7b37
+online version: 
 schema: 2.0.0
 ms.assetid: A3CE99B1-CA65-4241-8018-4E80226AB610
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmExpressRouteCircuitAuthorization.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmExpressRouteCircuitAuthorization.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmExpressRouteCircuitAuthorization.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmExpressRouteCircuitAuthorization.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -112,12 +112,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmExpressRouteCircuitAuthorization](./Add-AzureRmExpressRouteCircuitAuthorization.md)
+[Add-AzureRmExpressRouteCircuitAuthorization](xref:ResourceManager/AzureRM.Network/v3.0.0/Add-AzureRmExpressRouteCircuitAuthorization.md)
 
-[Get-AzureRmExpressRouteCircuit](./Get-AzureRmExpressRouteCircuit.md)
+[Get-AzureRmExpressRouteCircuit](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmExpressRouteCircuit.md)
 
-[New-AzureRmExpressRouteCircuitAuthorization](./New-AzureRmExpressRouteCircuitAuthorization.md)
+[New-AzureRmExpressRouteCircuitAuthorization](xref:ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmExpressRouteCircuitAuthorization.md)
 
-[Remove-AzureRmExpressRouteCircuitAuthorization](./Remove-AzureRmExpressRouteCircuitAuthorization.md)
+[Remove-AzureRmExpressRouteCircuitAuthorization](xref:ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmExpressRouteCircuitAuthorization.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\Get-AzureVirtualNetworkGatewayIPsecParameters.md
+online version: 
 schema: 2.0.0
 ms.assetid: 2D44212A-763F-4D23-A3B8-8C7A8580761F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVirtualNetworkGatewayIPsecParameters.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVirtualNetworkGatewayIPsecParameters.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVirtualNetworkGatewayIPsecParameters.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVirtualNetworkGatewayIPsecParameters.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 
 ### -EncryptionType
 Specifies the encryption type for the virtual network gateway.
-psdx_paramvalues
+The acceptable values for this parameter are:
 
 - NoEncryption
 - RequireEncryption
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 
 ### -PfsGroup
 Specifies the perfect forward secrecy (PFS) group.
-psdx_paramvalues
+The acceptable values for this parameter are:
 
 - PFS1
 - None
@@ -111,7 +111,8 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
 
 ```yaml
 Type: AzureSMProfile
@@ -166,6 +167,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVirtualNetworkGatewayIPsecParameters](./Get-AzureVirtualNetworkGatewayIPsecParameters.md)
+[Get-AzureVirtualNetworkGatewayIPsecParameters](xref:ServiceManagement/Azure.Networking/v1.6.1/Get-AzureVirtualNetworkGatewayIPsecParameters.md)
 
 

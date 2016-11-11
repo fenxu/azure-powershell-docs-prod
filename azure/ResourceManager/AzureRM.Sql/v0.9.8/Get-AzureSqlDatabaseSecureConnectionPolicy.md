@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: DD8D1A84-DA9E-4AF9-A47E-6F8565501636
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseSecureConnectionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseSecureConnectionPolicy.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseSecureConnectionPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseSecureConnectionPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Database identifiers include, but are not limited to, ResourceGroupName, ServerN
 
 ## EXAMPLES
 
-### Example 1: Get the secure connection policy of an azure_2 SQL database
+### Example 1: Get the secure connection policy of an Azure SQL database
 ```
 PS C:\>Get-AzureSqlDatabaseSecureConnectionPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server04" -DatabaseName "Database07"
 ```

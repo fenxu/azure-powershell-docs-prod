@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: 2a33b92e-0e85-4992-ac1e-8a237a682a48
+online version: 
 schema: 2.0.0
 ms.assetid: F8BE4014-FFD0-4F3E-A7EA-25197A4B85B0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmContainerService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmContainerService.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmContainerService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmContainerService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -116,7 +116,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
+
 The cmdlet is not run.
 
 ```yaml
@@ -142,12 +142,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmContainerService](./Get-AzureRmContainerService.md)
+[Get-AzureRmContainerService](xref:ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmContainerService.md)
 
-[New-AzureRmContainerServiceConfig](./New-AzureRmContainerServiceConfig.md)
+[New-AzureRmContainerServiceConfig](xref:ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmContainerServiceConfig.md)
 
-[Remove-AzureRmContainerService](./Remove-AzureRmContainerService.md)
+[Remove-AzureRmContainerService](xref:ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmContainerService.md)
 
-[Update-AzureRmContainerService](./Update-AzureRmContainerService.md)
+[Update-AzureRmContainerService](xref:ResourceManager/AzureRM.Compute/v2.2.0/Update-AzureRmContainerService.md)
 
 

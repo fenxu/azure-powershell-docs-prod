@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
-online version: .\Register-AzureRmProviderFeature.md
+online version: 
 schema: 2.0.0
 ms.assetid: 84F0E54B-294C-4FAD-A7D1-FC1B352B1337
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmProviderFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmProviderFeature.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmProviderFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmProviderFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,12 +14,13 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureRmProviderFeature
 
 ## SYNOPSIS
-Gets information about azure_2 provider features.
+Gets information about Azure provider features.
 
 ## SYNTAX
 
@@ -34,7 +35,7 @@ Get-AzureRmProviderFeature -ProviderNamespace <String> -FeatureName <String> [<C
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmProviderFeature** cmdlet gets the feature name, provider name, and registration status for azure_2 provider features.
+The **Get-AzureRmProviderFeature** cmdlet gets the feature name, provider name, and registration status for Azure provider features.
 
 ## EXAMPLES
 
@@ -122,6 +123,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Register-AzureRmProviderFeature](./Register-AzureRmProviderFeature.md)
+[Register-AzureRmProviderFeature](xref:ResourceManager/AzureRM.Resources/v2.0.3/Register-AzureRmProviderFeature.md)
 
 

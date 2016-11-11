@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkID=397621
+online version: 
 schema: 2.0.0
 ms.assetid: 61BA2680-C4EE-4553-B4E9-B3172F71D0BB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Get-AzureEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Get-AzureEnvironment.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Get-AzureEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Get-AzureEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -119,7 +119,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureSMProfile
@@ -153,16 +152,16 @@ When you run **Get-AzureEnvironment** with the **Name** parameter, it returns a 
 
 ## RELATED LINKS
 
-[Add-AzureAccount](./Add-AzureAccount.md)
+[Add-AzureAccount](xref:ServiceManagement/Azure.Profile/v2.1.0/Add-AzureAccount.md)
 
-[Add-AzureEnvironment](./Add-AzureEnvironment.md)
+[Add-AzureEnvironment](xref:ServiceManagement/Azure.Profile/v2.1.0/Add-AzureEnvironment.md)
 
-[Get-AzurePublishSettingsFile](./Get-AzurePublishSettingsFile.md)
+[Get-AzurePublishSettingsFile](xref:ServiceManagement/Azure.Profile/v2.1.0/Get-AzurePublishSettingsFile.md)
 
-[Import-AzurePublishSettingsFile](./Import-AzurePublishSettingsFile.md)
+[Import-AzurePublishSettingsFile](xref:ServiceManagement/Azure.Profile/v2.1.0/Import-AzurePublishSettingsFile.md)
 
-[Remove-AzureEnvironment](./Remove-AzureEnvironment.md)
+[Remove-AzureEnvironment](xref:ServiceManagement/Azure.Profile/v2.1.0/Remove-AzureEnvironment.md)
 
-[Set-AzureEnvironment](./Set-AzureEnvironment.md)
+[Set-AzureEnvironment](xref:ServiceManagement/Azure.Profile/v2.1.0/Set-AzureEnvironment.md)
 
 

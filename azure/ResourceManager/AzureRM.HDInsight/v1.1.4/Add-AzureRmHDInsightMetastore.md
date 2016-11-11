@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-online version: .\New-AzureRmHDInsightClusterConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: 5EE6E2C7-0FA3-43CD-A509-E8DC56179792
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightMetastore.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightMetastore.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightMetastore.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightMetastore.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -SqlAzureServerName
-Specifies the azure_2ssNoVersion instance to use for this metastore.
+Specifies the AzuressNoVersion instance to use for this metastore.
 
 ```yaml
 Type: String
@@ -142,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -DatabaseName
-Specifies the database on the azure_2ssNoVersion instance to use for this metastore.
+Specifies the database on the AzuressNoVersion instance to use for this metastore.
 
 ```yaml
 Type: String
@@ -157,7 +157,7 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-Specifies the credentials to use for the azure_2ssNoVersion database.
+Specifies the credentials to use for the AzuressNoVersion database.
 
 ```yaml
 Type: PSCredential
@@ -172,7 +172,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -187,7 +196,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -212,6 +221,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmHDInsightClusterConfig](./New-AzureRmHDInsightClusterConfig.md)
+[New-AzureRmHDInsightClusterConfig](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightClusterConfig.md)
 
 

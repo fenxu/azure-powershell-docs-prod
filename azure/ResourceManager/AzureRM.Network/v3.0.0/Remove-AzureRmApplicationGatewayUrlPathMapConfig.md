@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: b9b7992c-fa0f-4a0b-9c1c-8b46ac78de8f
+online version: 
 schema: 2.0.0
 ms.assetid: A113D0DE-0CB0-4B4B-8E62-FC34DC901A17
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -82,12 +82,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApplicationGatewayUrlPathMapConfig](./Add-AzureRmApplicationGatewayUrlPathMapConfig.md)
+[Add-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.0.0/Add-AzureRmApplicationGatewayUrlPathMapConfig.md)
 
-[Get-AzureRmApplicationGatewayUrlPathMapConfig](./Get-AzureRmApplicationGatewayUrlPathMapConfig.md)
+[Get-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmApplicationGatewayUrlPathMapConfig.md)
 
-[New-AzureRmApplicationGatewayUrlPathMapConfig](./New-AzureRmApplicationGatewayUrlPathMapConfig.md)
+[New-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmApplicationGatewayUrlPathMapConfig.md)
 
-[Set-AzureRmApplicationGatewayUrlPathMapConfig](./Set-AzureRmApplicationGatewayUrlPathMapConfig.md)
+[Set-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayUrlPathMapConfig.md)
 
 

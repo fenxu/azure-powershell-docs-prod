@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 670b9755-dc64-400d-b56d-938472e5e1ac
+online version: 
 schema: 2.0.0
 ms.assetid: 1DDC015D-4F61-46B4-A8F0-256A5A13F49D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServer.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -177,12 +177,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmSqlServer](./New-AzureRmSqlServer.md)
+[New-AzureRmSqlServer](xref:ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlServer.md)
 
-[Remove-AzureRmSqlServer](./Remove-AzureRmSqlServer.md)
+[Remove-AzureRmSqlServer](xref:ResourceManager/AzureRM.Sql/v2.2.0/Remove-AzureRmSqlServer.md)
 
-[Set-AzureRmSqlServer](./Set-AzureRmSqlServer.md)
+[Set-AzureRmSqlServer](xref:ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlServer.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md)
 
 

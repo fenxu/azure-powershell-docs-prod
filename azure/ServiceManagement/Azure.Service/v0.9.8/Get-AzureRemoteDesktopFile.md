@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: B0531740-4C22-4C1C-8074-0E2077330DC7
 updated_at: 10/18/2016 9:38 PM
 ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Get-AzureRemoteDesktopFile.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Get-AzureRemoteDesktopFile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Get-AzureRemoteDesktopFile.md
 ms.topic: reference
 ms.prod: powershell

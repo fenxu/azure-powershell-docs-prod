@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkId=824795
+online version: 
 schema: 2.0.0
 ms.assetid: A36CF696-16F2-443D-87BE-C7AD60226008
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Add-AzureKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Add-AzureKeyVaultKey.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Add-AzureKeyVaultKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Add-AzureKeyVaultKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -369,12 +369,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Backup-AzureKeyVaultKey](./Backup-AzureKeyVaultKey.md)
+[Backup-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Backup-AzureKeyVaultKey.md)
 
-[Get-AzureKeyVaultKey](./Get-AzureKeyVaultKey.md)
+[Get-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Get-AzureKeyVaultKey.md)
 
-[Remove-AzureKeyVaultKey](./Remove-AzureKeyVaultKey.md)
+[Remove-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Remove-AzureKeyVaultKey.md)
 
-[Set-AzureKeyVaultKeyAttribute](./Set-AzureKeyVaultKeyAttribute.md)
+[Set-AzureKeyVaultKeyAttribute](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureKeyVaultKeyAttribute.md)
 
 

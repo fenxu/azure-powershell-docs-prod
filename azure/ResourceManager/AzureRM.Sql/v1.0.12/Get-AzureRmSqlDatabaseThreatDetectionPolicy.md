@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: .\Remove-AzureRmSqlDatabaseThreatDetectionPolicy.md
+online version: 
 schema: 2.0.0
 ms.assetid: E1A99DD5-7AED-4655-A90E-B95EBBFAA33C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseThreatDetectionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseThreatDetectionPolicy.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseThreatDetectionPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseThreatDetectionPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,10 +31,10 @@ Get-AzureRmSqlDatabaseThreatDetectionPolicy [-ServerName] <String> [-DatabaseNam
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSqlDatabaseThreatDetectionPolicy** cmdlet gets the threat detection policy of an azure_2 SQL database.
+The **Get-AzureRmSqlDatabaseThreatDetectionPolicy** cmdlet gets the threat detection policy of an Azure SQL database.
 To use this cmdlet, specify the *ResourceGroupName*, *ServerName*, and *DatabaseName* parameters to identify the database for which this cmdlet gets the policy.
 
-This cmdlet is also supported by the SQL Server Stretch Database service on azure_2.
+This cmdlet is also supported by the SQL Server Stretch Database service on Azure.
 
 ## EXAMPLES
 
@@ -101,7 +101,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -116,7 +125,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -147,10 +156,10 @@ This cmdlet returns a **Model.DatabaseThreatDetectionPolicyModel** object.
 
 ## RELATED LINKS
 
-[Remove-AzureRmSqlDatabaseThreatDetectionPolicy](./Remove-AzureRmSqlDatabaseThreatDetectionPolicy.md)
+[Remove-AzureRmSqlDatabaseThreatDetectionPolicy](xref:ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlDatabaseThreatDetectionPolicy.md)
 
 [Set-AzureRmSqlDatabaseThreatDetectionPolicy]()
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
 
 

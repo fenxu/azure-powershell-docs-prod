@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: e4c39c1d-185e-4397-82c7-c78e1106ed2b
+online version: 
 schema: 2.0.0
 ms.assetid: 953BC89D-100D-463C-9E1E-9832B7401E86
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryStorageClassificationMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryStorageClassificationMapping.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryStorageClassificationMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryStorageClassificationMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -35,20 +35,15 @@ The **New-AzureRmSiteRecoveryStorageClassificationMapping** cmdlet creates a sto
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -63,7 +58,7 @@ Specifies the primary storage classification mapping.
 ```yaml
 Type: ASRStorageClassification
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -78,7 +73,7 @@ Specifies a recovery storage classification mapping.
 ```yaml
 Type: ASRStorageClassification
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -98,8 +93,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryStorageClassificationMapping](./Get-AzureRmSiteRecoveryStorageClassificationMapping.md)
+[Get-AzureRmSiteRecoveryStorageClassificationMapping](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryStorageClassificationMapping.md)
 
-[Remove-AzureRmSiteRecoveryStorageClassificationMapping](./Remove-AzureRmSiteRecoveryStorageClassificationMapping.md)
-
-
+[Remove-AzureRmSiteRecoveryStorageClassificationMapping](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryStorageClassificationMapping.md)

@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: AD7A9990-36D0-4AE5-82D8-8C0FAA159782
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Show-AzurePortal.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Show-AzurePortal.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Show-AzurePortal.md
 ms.topic: reference
 ms.prod: powershell
@@ -116,6 +116,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Show-AzureWebsite](./Show-AzureWebsite.md)
+[Show-AzureWebsite](xref:ServiceManagement/Azure.Compute/v1.6.1/Show-AzureWebsite.md)
 
 

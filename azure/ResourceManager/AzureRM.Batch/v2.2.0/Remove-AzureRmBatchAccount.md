@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: 59fadea7-fe9d-4b8d-b398-27a80d495977
+online version: 
 schema: 2.0.0
 ms.assetid: 33A0150F-C73A-4A57-92AE-5E1502F44B2C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Remove-AzureRmBatchAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Remove-AzureRmBatchAccount.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Remove-AzureRmBatchAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Remove-AzureRmBatchAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -133,12 +133,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBatchAccount](./Get-AzureRmBatchAccount.md)
+[Get-AzureRmBatchAccount](xref:ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureRmBatchAccount.md)
 
-[New-AzureRmBatchAccount](./New-AzureRmBatchAccount.md)
+[New-AzureRmBatchAccount](xref:ResourceManager/AzureRM.Batch/v2.2.0/New-AzureRmBatchAccount.md)
 
-[Set-AzureRmBatchAccount](./Set-AzureRmBatchAccount.md)
+[Set-AzureRmBatchAccount](xref:ResourceManager/AzureRM.Batch/v2.2.0/Set-AzureRmBatchAccount.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v2.2.0/AzureRM.Batch.md)
 
 

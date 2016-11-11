@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\Get-AzureVirtualNetworkGatewayKey.md
+online version: 
 schema: 2.0.0
 ms.assetid: 55E48183-31B6-44C7-A94B-E75D28415585
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureVirtualNetworkGatewayKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureVirtualNetworkGatewayKey.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureVirtualNetworkGatewayKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureVirtualNetworkGatewayKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,10 +34,7 @@ The **Set-AzureVirtualNetworkGatewayKey** cmdlet sets the key for an Azure virtu
 
 ## EXAMPLES
 
-### 1:
-```
 
-```
 
 ## PARAMETERS
 
@@ -47,7 +44,7 @@ Specifies the ID of a connected entity.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -62,7 +59,7 @@ Specifies the ID of a gateway
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -78,7 +75,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -93,7 +90,7 @@ Specifies a shared key.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -113,8 +110,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVirtualNetworkGatewayKey](./Get-AzureVirtualNetworkGatewayKey.md)
+[Get-AzureVirtualNetworkGatewayKey](xref:ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVirtualNetworkGatewayKey.md)
 
-[Reset-AzureVirtualNetworkGatewayKey](./Reset-AzureVirtualNetworkGatewayKey.md)
-
-
+[Reset-AzureVirtualNetworkGatewayKey](xref:ServiceManagement/Azure.Networking/v2.1.0/Reset-AzureVirtualNetworkGatewayKey.md)

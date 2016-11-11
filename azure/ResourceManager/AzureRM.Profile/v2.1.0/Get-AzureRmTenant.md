@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
-online version: 79bf6173-959c-45ac-b006-07d0d389c321
+online version: 
 schema: 2.0.0
 ms.assetid: 14506C8E-2707-4C3F-9D65-312C63A3E0CB
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Get-AzureRmTenant.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Get-AzureRmTenant.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Get-AzureRmTenant.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Get-AzureRmTenant.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

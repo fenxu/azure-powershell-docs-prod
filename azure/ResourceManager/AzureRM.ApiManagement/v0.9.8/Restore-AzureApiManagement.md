@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
-online version: .\Backup-AzureApiManagement.md
+online version: 
 schema: 2.0.0
 ms.assetid: 50B7B72D-8158-46CA-A4B2-CBA6A97499C9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Restore-AzureApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Restore-AzureApiManagement.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Restore-AzureApiManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Restore-AzureApiManagement.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -162,12 +162,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Backup-AzureApiManagement](./Backup-AzureApiManagement.md)
+[Backup-AzureApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Backup-AzureApiManagement.md)
 
-[Get-AzureApiManagement](./Get-AzureApiManagement.md)
+[Get-AzureApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagement.md)
 
-[New-AzureApiManagement](./New-AzureApiManagement.md)
+[New-AzureApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/New-AzureApiManagement.md)
 
-[Remove-AzureApiManagement](./Remove-AzureApiManagement.md)
+[Remove-AzureApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Remove-AzureApiManagement.md)
 
 

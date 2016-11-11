@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\New-AzureRMAutomationConnection.md
+online version: 
 schema: 2.0.0
 ms.assetid: 16CBE4ED-037E-48ED-815E-4DB87894B10B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRMAutomationConnectionFieldValue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRMAutomationConnectionFieldValue.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRMAutomationConnectionFieldValue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRMAutomationConnectionFieldValue.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Set-AzureRmAutomationConnectionFieldValue
@@ -29,7 +30,7 @@ Set-AzureRmAutomationConnectionFieldValue [-Name] <String> -ConnectionFieldName 
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmAutomationConnectionFieldValue** cmdlet modifies the value of a field in a connection in azure_2 Automation.
+The **Set-AzureRmAutomationConnectionFieldValue** cmdlet modifies the value of a field in a connection in Azure Automation.
 
 ## EXAMPLES
 
@@ -38,7 +39,7 @@ The **Set-AzureRmAutomationConnectionFieldValue** cmdlet modifies the value of a
 PS C:\>Set-AzureRmAutomationConnectionFieldValue -Name "ContosoConnection" -ConnectionFieldName "SubscriptionID" -Value "b53ec456-3494-4847-8f2b-180901c51050" -ResourceGroupName "ResourceGroup01" -AutomationAccountName "AutomationAccount01"
 ```
 
-This command changes the subscription ID for the azure_2 connection named ContosoConnection in the Automation account named AutomationAccount01.
+This command changes the subscription ID for the Azure connection named ContosoConnection in the Automation account named AutomationAccount01.
 
 ## PARAMETERS
 
@@ -128,6 +129,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAutomationConnection](./New-AzureRMAutomationConnection.md)
+[New-AzureRmAutomationConnection](xref:ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationConnection.md)
 
 

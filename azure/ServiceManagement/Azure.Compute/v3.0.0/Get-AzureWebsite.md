@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 1004AB50-2F0C-4D72-8B20-6C1EDAF52E97
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsite.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsite.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsite.md
 ms.topic: reference
 ms.prod: powershell
@@ -167,14 +167,14 @@ When you use the *Name* parameter, **Get-AzureWebsite** returns a **SiteWithConf
 
 ## RELATED LINKS
 
-[New-AzureWebsite](./New-AzureWebsite.md)
+[New-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/New-AzureWebsite.md)
 
-[Remove-AzureWebsite](./Remove-AzureWebsite.md)
+[Remove-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-AzureWebsite.md)
 
-[Start-AzureWebsite](./Start-AzureWebsite.md)
+[Start-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Start-AzureWebsite.md)
 
-[Stop-AzureWebsite](./Stop-AzureWebsite.md)
+[Stop-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Stop-AzureWebsite.md)
 
-[Show-AzureWebsite](./Show-AzureWebsite.md)
+[Show-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Show-AzureWebsite.md)
 
 

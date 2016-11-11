@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ManagedCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 4A298D14-FF99-44A6-82CF-3E5D789CBE20
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/Remove-AzureManagedCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/Remove-AzureManagedCache.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/Remove-AzureManagedCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/Remove-AzureManagedCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureManagedCache
 
 ## SYNOPSIS
-Removes an azure_2 Cache.
+Removes an Azure Cache.
 
 ## SYNTAX
 
@@ -29,12 +29,12 @@ Remove-AzureManagedCache [-Name] <String> [-PassThru] [-Force] [-Profile <AzureS
 ```
 
 ## DESCRIPTION
-The **Remove-AzureManagedCache** cmdlet removes an azure_2 Cache and all of the data in the Cache.
+The **Remove-AzureManagedCache** cmdlet removes an Azure Cache and all of the data in the Cache.
 It returns $True if the operation was successful and $False if it failed.
-By default, **Remove-AzureManagedCache** will prompt you for confirmation before it removes the azure_2 Cache, but you can use the *Force* parameter to suppress the prompt.
-An azure_2 Cache is a secure, dedicated cache that provides extremely fast access to data.
+By default, **Remove-AzureManagedCache** will prompt you for confirmation before it removes the Azure Cache, but you can use the *Force* parameter to suppress the prompt.
+An Azure Cache is a secure, dedicated cache that provides extremely fast access to data.
 This distributed, in-memory, scalable solution enables you to build highly scalable and responsive applications.
-For more information about azure_2 Cache, see Azure Cachehttp://azure.microsoft.com/en-us/services/cache/.
+For more information about Azure Cache, see Azure Cachehttp://azure.microsoft.com/en-us/services/cache/.
 
 ## EXAMPLES
 
@@ -50,7 +50,7 @@ Performing the operation "Delete" on target "ContosoCache".
 True
 ```
 
-This command removes the azure_2 Cache named ContosoCache.
+This command removes the Azure Cache named ContosoCache.
 The command prompts for confirmation before the cmdlet removes the Cache.
 It returns a value of $True to indicate that the Cache was removed.
 
@@ -59,15 +59,15 @@ It returns a value of $True to indicate that the Cache was removed.
 PS C:\>Get-AzureManagedCache | Where-Object Name -like Test* | Remove-AzureManagedCache -Force
 ```
 
-This command removes all azure_2 Caches that have names that begin with Test.
-It uses the Get-AzureManagedCache cmdlet to get the azure_2 Caches in your account.
-It pipes them to the Where-Object cmdlet, which returns only the azure_2 Caches that have names that begin with Test.
+This command removes all Azure Caches that have names that begin with Test.
+It uses the Get-AzureManagedCache cmdlet to get the Azure Caches in your account.
+It pipes them to the Where-Object cmdlet, which returns only the Azure Caches that have names that begin with Test.
 Then, it pipes the test caches to the **Remove-AzureManagedCache** cmdlet with the *Force* parameter, which removes them without prompting for confirmation.
 
 ## PARAMETERS
 
 ### -Name
-Specifies the name of the azure_2 Cache to remove.
+Specifies the name of the Azure Cache to remove.
 The parameter value is case-sensitive.
 Wildcard characters are not permitted.
 
@@ -140,7 +140,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### System.Boolean
 
 ## NOTES
-* Use the Add-AzureAccount or Import-AzurePublishSettingsFile cmdlet to make your azure_2 account available to wps_2 before using this cmdlet. For more information, see How to install and configure Azure PowerShellhttp://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/.
+* Use the Add-AzureAccount or Import-AzurePublishSettingsFile cmdlet to make your Azure account available to wps_2 before using this cmdlet. For more information, see How to install and configure Azure PowerShellhttp://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/.
 
 ## RELATED LINKS
 
@@ -148,14 +148,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [How to install and configure Azure PowerShell](http://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/)
 
-[Get-AzureManagedCache](./Get-AzureManagedCache.md)
+[Get-AzureManagedCache](xref:ServiceManagement/Azure.ManagedCache/v1.6.1/Get-AzureManagedCache.md)
 
-[New-AzureManagedCache](./New-AzureManagedCache.md)
+[New-AzureManagedCache](xref:ServiceManagement/Azure.ManagedCache/v1.6.1/New-AzureManagedCache.md)
 
-[Set-AzureManagedCache](./Set-AzureManagedCache.md)
+[Set-AzureManagedCache](xref:ServiceManagement/Azure.ManagedCache/v1.6.1/Set-AzureManagedCache.md)
 
-[Get-AzureManagedCacheAccessKey](./Get-AzureManagedCacheAccessKey.md)
+[Get-AzureManagedCacheAccessKey](xref:ServiceManagement/Azure.ManagedCache/v1.6.1/Get-AzureManagedCacheAccessKey.md)
 
-[New-AzureManagedCacheAccessKey](./New-AzureManagedCacheAccessKey.md)
+[New-AzureManagedCacheAccessKey](xref:ServiceManagement/Azure.ManagedCache/v1.6.1/New-AzureManagedCacheAccessKey.md)
 
 

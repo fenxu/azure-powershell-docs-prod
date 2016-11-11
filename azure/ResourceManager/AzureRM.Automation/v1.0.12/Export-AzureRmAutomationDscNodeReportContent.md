@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Export-AzureRmAutomationDscNodeReportContent.md
+online version: 
 schema: 2.0.0
 ms.assetid: 0BFB6A70-3A4A-4E58-A0B9-E41EB52A90EF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscNodeReportContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscNodeReportContent.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscNodeReportContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscNodeReportContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Export-AzureRmAutomationDscNodeReportContent
@@ -29,8 +30,8 @@ Export-AzureRmAutomationDscNodeReportContent -NodeId <Guid> -ReportId <Guid> [-O
 ```
 
 ## DESCRIPTION
-The **Export-AzureRmAutomationDscNodeReportContent** cmdlet exports the raw contents of an APS Desired State Configuration (DSC) report.
-A DSC node sends a DSC report to azure_2 Automation.
+The **Export-AzureRmAutomationDscNodeReportContent** cmdlet exports the raw contents of an Azure PowerShell Desired State Configuration (DSC) report.
+A DSC node sends a DSC report to Azure Automation.
 
 ## EXAMPLES
 
@@ -138,7 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -153,7 +154,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -178,10 +180,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmAutomationDscNodeReportContent](./Export-AzureRmAutomationDscNodeReportContent.md)
+[Export-AzureRmAutomationDscNodeReportContent](xref:ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscNodeReportContent.md)
 
-[Get-AzureRmAutomationDscNode](./Get-AzureRmAutomationDscNode.md)
+[Get-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscNode.md)
 
-[Get-AzureRmAutomationDscNodeReport](./Get-AzureRmAutomationDscNodeReport.md)
+[Get-AzureRmAutomationDscNodeReport](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscNodeReport.md)
 
 

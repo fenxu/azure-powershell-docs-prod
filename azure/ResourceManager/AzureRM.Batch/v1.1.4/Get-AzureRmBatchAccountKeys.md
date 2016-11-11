@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\New-AzureRmBatchAccountKey.md
+online version: 
 schema: 2.0.0
 ms.assetid: A8A9A07E-1A67-405A-891E-71CDBCDD6C7E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchAccountKeys.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchAccountKeys.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchAccountKeys.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchAccountKeys.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Get-AzureRmBatchAccountKeys [-AccountName] <String> [-ResourceGroupName <String>
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmBatchAccountKeys** cmdlet gets the keys of an azure_2 Batch account in the current subscription.
+The **Get-AzureRmBatchAccountKeys** cmdlet gets the keys of an Azure Batch account in the current subscription.
 
 ## EXAMPLES
 
@@ -81,8 +81,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmBatchAccountKey](./New-AzureRmBatchAccountKey.md)
+[New-AzureRmBatchAccountKey](xref:ResourceManager/AzureRM.Batch/v1.1.4/New-AzureRmBatchAccountKey.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v1.1.4/AzureRM.Batch.md)
 
 

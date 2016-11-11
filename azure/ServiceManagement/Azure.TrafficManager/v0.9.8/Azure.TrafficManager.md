@@ -6,8 +6,9 @@ Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/Azure.TrafficManager.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/Azure.TrafficManager.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/Azure.TrafficManager.md
+uid: ServiceManagement/Azure.TrafficManager/v0.9.8/Azure.TrafficManager.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
@@ -15,6 +16,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Azure.TrafficManager Module

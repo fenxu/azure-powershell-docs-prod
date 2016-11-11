@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
-online version: .\Get-AzureRmCdnEndpoint.md
+online version: 
 schema: 2.0.0
 ms.assetid: 3E39B5D6-63E8-4653-B988-62421CC5D69F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Start-AzureRmCdnEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Start-AzureRmCdnEndpoint.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Start-AzureRmCdnEndpoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Start-AzureRmCdnEndpoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Start-AzureRmCdnEndpoint -CdnEndpoint <PSEndpoint> [-PassThru] [-InformationActi
 ```
 
 ## DESCRIPTION
-The **Start-AzureRmCdnEndpoint** cmdlet starts an azure_2 Content Delivery Network (CDN) endpoint.
+The **Start-AzureRmCdnEndpoint** cmdlet starts an Azure Content Delivery Network (CDN) endpoint.
 
 ## EXAMPLES
 
@@ -109,7 +109,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -124,7 +133,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -164,14 +173,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmCdnEndpoint](./Get-AzureRmCdnEndpoint.md)
+[Get-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Get-AzureRmCdnEndpoint.md)
 
-[New-AzureRmCdnEndpoint](./New-AzureRmCdnEndpoint.md)
+[New-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v1.0.6/New-AzureRmCdnEndpoint.md)
 
-[Remove-AzureRmCdnEndpoint](./Remove-AzureRmCdnEndpoint.md)
+[Remove-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Remove-AzureRmCdnEndpoint.md)
 
-[Set-AzureRmCdnEndpoint](./Set-AzureRmCdnEndpoint.md)
+[Set-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Set-AzureRmCdnEndpoint.md)
 
-[Stop-AzureRmCdnEndpoint](./Stop-AzureRmCdnEndpoint.md)
+[Stop-AzureRmCdnEndpoint](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Stop-AzureRmCdnEndpoint.md)
 
 

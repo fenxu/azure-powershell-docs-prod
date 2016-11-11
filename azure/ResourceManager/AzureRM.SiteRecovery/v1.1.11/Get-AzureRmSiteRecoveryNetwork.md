@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: a1fe5285-5354-4e56-aed6-5e0446b07fa2
+online version: 
 schema: 2.0.0
 ms.assetid: 41F239D5-F201-495A-B68A-5A22228C9018
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryNetwork.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -45,7 +45,7 @@ Get-AzureRmSiteRecoveryNetwork -Server <ASRServer> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSiteRecoveryNetwork** cmdlet gets information about azure_2 Site Recovery networks for the current azure_2 Site Recovery vault.
+The **Get-AzureRmSiteRecoveryNetwork** cmdlet gets information about Azure Site Recovery networks for the current Azure Site Recovery vault.
 
 ## EXAMPLES
 
@@ -87,7 +87,6 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-@{Text=}
 
 ```yaml
 Type: ASRServer

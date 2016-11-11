@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.NotificationHubs.dll-Help.xml
-online version: 3d945357-195d-494d-9b14-5523655ffb04
+online version: 
 schema: 2.0.0
 ms.assetid: 324C7BDF-50CE-4904-8FDA-D33E1DF34976
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.2.0/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.2.0/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.2.0/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.2.0/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -147,10 +147,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmNotificationHubsNamespaceAuthorizationRules](./Get-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
+[Get-AzureRmNotificationHubsNamespaceAuthorizationRules](xref:ResourceManager/AzureRM.NotificationHubs/v2.2.0/Get-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
 
-[New-AzureRmNotificationHubsNamespaceAuthorizationRules](./New-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
+[New-AzureRmNotificationHubsNamespaceAuthorizationRules](xref:ResourceManager/AzureRM.NotificationHubs/v2.2.0/New-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
 
-[Remove-AzureRmNotificationHubsNamespaceAuthorizationRules](./Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
+[Remove-AzureRmNotificationHubsNamespaceAuthorizationRules](xref:ResourceManager/AzureRM.NotificationHubs/v2.2.0/Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
 
 

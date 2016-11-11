@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: .\Get-AzureRmSqlDatabase.md
+online version: 
 schema: 2.0.0
 ms.assetid: DE86473A-79C4-4BF3-A11D-5ABA89079C4C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabase.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -33,7 +33,7 @@ Set-AzureRmSqlDatabase [-DatabaseName] <String> [-MaxSizeBytes <Int64>] [-Editio
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmSqlDatabase** cmdlet sets properties for an azure_2 SQL database.
+The **Set-AzureRmSqlDatabase** cmdlet sets properties for an Azure SQL database.
 In addition, you can specify the *ElasticPoolName* parameter to move a database into an elastic pool.
 If a database is already in an elastic pool, you can use the *RequestedServiceObjectiveName* parameter to assign a performance level.
 
@@ -223,7 +223,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -238,7 +247,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -265,16 +274,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlDatabase](./Get-AzureRmSqlDatabase.md)
+[Get-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabase.md)
 
-[New-AzureRmSqlDatabase](./New-AzureRmSqlDatabase.md)
+[New-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabase.md)
 
-[Remove-AzureRmSqlDatabase](./Remove-AzureRmSqlDatabase.md)
+[Remove-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlDatabase.md)
 
-[Resume-AzureRmSqlDatabase](./Resume-AzureRmSqlDatabase.md)
+[Resume-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v1.0.12/Resume-AzureRmSqlDatabase.md)
 
-[Suspend-AzureRmSqlDatabase](./Suspend-AzureRmSqlDatabase.md)
+[Suspend-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v1.0.12/Suspend-AzureRmSqlDatabase.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
 
 

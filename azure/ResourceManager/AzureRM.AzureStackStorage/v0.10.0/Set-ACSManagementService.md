@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
-online version: .\Get-ACSManagementService.md
+online version: 
 schema: 2.0.0
 ms.assetid: FA216AFC-571B-4526-B56E-96BCD2E27CC0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSManagementService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSManagementService.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSManagementService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSManagementService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -218,8 +218,8 @@ Output from Get-ACSFarm and Get-ACSManagementService can be piped to this cmdlet
 
 ## RELATED LINKS
 
-[Get-ACSManagementService](./Get-ACSManagementService.md)
+[Get-ACSManagementService](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSManagementService.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
 

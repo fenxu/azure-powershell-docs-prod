@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Add-AzureDisk.md
+online version: 
 schema: 2.0.0
 ms.assetid: 69874C98-EBA5-4242-9288-B9FA5164AAE7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Update-AzureDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Update-AzureDisk.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Update-AzureDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Update-AzureDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Update-AzureDisk
 
 ## SYNOPSIS
-Changes the label of a disk in the azure_2 disk repository.
+Changes the label of a disk in the Azure disk repository.
 
 ## SYNTAX
 
@@ -38,7 +38,7 @@ Update-AzureDisk [-DiskName] <String> [-Label] <String> [-Profile <AzureSMProfil
 ```
 
 ## DESCRIPTION
-The **Update-AzureDisk** cmdlet changes the label that is associated with a disk in the disk repository of the current azure_2 subscription.
+The **Update-AzureDisk** cmdlet changes the label that is associated with a disk in the disk repository of the current Azure subscription.
 
 ## EXAMPLES
 
@@ -124,7 +124,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -139,7 +148,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -166,10 +175,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureDisk](./Add-AzureDisk.md)
+[Add-AzureDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureDisk.md)
 
-[Get-AzureDisk](./Get-AzureDisk.md)
+[Get-AzureDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureDisk.md)
 
-[Remove-AzureDisk](./Remove-AzureDisk.md)
+[Remove-AzureDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureDisk.md)
 
 

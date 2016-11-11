@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
-online version: .\Get-AzureAutomationCredential.md
+online version: 
 schema: 2.0.0
 ms.assetid: 4034893B-0F12-4640-92B6-7A6EE003413D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/New-AzureAutomationCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/New-AzureAutomationCredential.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/New-AzureAutomationCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/New-AzureAutomationCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -49,7 +49,6 @@ This is then used in the last command to create the Automation credential.
 ## PARAMETERS
 
 ### -AutomationAccountName
-@{Text=}
 
 ```yaml
 Type: String
@@ -64,7 +63,6 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-@{Text=}
 
 ```yaml
 Type: String
@@ -79,7 +77,6 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -94,7 +91,6 @@ Accept wildcard characters: False
 ```
 
 ### -Value
-@{Text=}
 
 ```yaml
 Type: PSCredential
@@ -109,7 +105,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureSMProfile
@@ -136,10 +131,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationCredential](./Get-AzureAutomationCredential.md)
+[Get-AzureAutomationCredential](xref:ServiceManagement/Azure.Automation/v2.1.0/Get-AzureAutomationCredential.md)
 
-[Remove-AzureAutomationCredential](./Remove-AzureAutomationCredential.md)
+[Remove-AzureAutomationCredential](xref:ServiceManagement/Azure.Automation/v2.1.0/Remove-AzureAutomationCredential.md)
 
-[Set-AzureAutomationCredential](./Set-AzureAutomationCredential.md)
+[Set-AzureAutomationCredential](xref:ServiceManagement/Azure.Automation/v2.1.0/Set-AzureAutomationCredential.md)
 
 

@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 8C42F219-CDB7-4063-9205-D27D27FED1A5
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Start-AzureEmulator.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Start-AzureEmulator.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Start-AzureEmulator.md
 ms.topic: reference
 ms.prod: powershell
@@ -103,10 +103,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureServiceProject](./New-AzureServiceProject.md)
+[New-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v2.1.0/New-AzureServiceProject.md)
 
-[Publish-AzureServiceProject](./Publish-AzureServiceProject.md)
+[Publish-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v2.1.0/Publish-AzureServiceProject.md)
 
-[Stop-AzureEmulator](./Stop-AzureEmulator.md)
+[Stop-AzureEmulator](xref:ServiceManagement/Azure.Compute/v2.1.0/Stop-AzureEmulator.md)
 
 

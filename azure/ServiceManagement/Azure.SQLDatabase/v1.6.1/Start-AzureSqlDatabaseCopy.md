@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
-online version: https://azure.microsoft.com/en-us/services/sql-database/
+online version: 
 schema: 2.0.0
 ms.assetid: 567866F7-7376-4575-B9A3-E826FFE25AF0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseCopy.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -131,7 +131,7 @@ Accept wildcard characters: False
 
 ### -PartnerServer
 Specifies the name of the server that hosts the target database.
-This server must be in the same azure_2 subscription as the source database server.
+This server must be in the same Azure subscription as the source database server.
 
 ```yaml
 Type: String
@@ -202,7 +202,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -217,7 +218,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -319,10 +320,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Start Database Copy](https://msdn.microsoft.com/en-us/library/azure/dn509576.aspx)
 
-[Azure SQL Database Cmdlets](./Azure.SQLDatabase.md)
+[Azure SQL Database Cmdlets](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/Azure.SQLDatabase.md)
 
-[Get-AzureSqlDatabaseCopy](./Get-AzureSqlDatabaseCopy.md)
+[Get-AzureSqlDatabaseCopy](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseCopy.md)
 
-[Stop-AzureSqlDatabaseCopy](./Stop-AzureSqlDatabaseCopy.md)
+[Stop-AzureSqlDatabaseCopy](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/Stop-AzureSqlDatabaseCopy.md)
 
 

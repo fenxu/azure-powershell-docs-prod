@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: db81d86c-df82-4541-9448-1cc4847b146f
+online version: 
 schema: 2.0.0
 ms.assetid: 40CE0312-1D64-41EC-B9DD-5EA92AC9C996
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGatewayConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGatewayConnection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGatewayConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGatewayConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -53,7 +53,6 @@ New-AzureRmVirtualNetworkGatewayConnection -Name <String> -ResourceGroupName <St
 ## PARAMETERS
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -68,7 +67,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -83,7 +81,6 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-@{Text=}
 
 ```yaml
 Type: String
@@ -98,7 +95,6 @@ Accept wildcard characters: False
 ```
 
 ### -AuthorizationKey
-@{Text=}
 
 ```yaml
 Type: String
@@ -113,7 +109,6 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualNetworkGateway1
-@{Text=}
 
 ```yaml
 Type: PSVirtualNetworkGateway
@@ -128,7 +123,6 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualNetworkGateway2
-@{Text=}
 
 ```yaml
 Type: PSVirtualNetworkGateway
@@ -143,7 +137,6 @@ Accept wildcard characters: False
 ```
 
 ### -LocalNetworkGateway2
-@{Text=}
 
 ```yaml
 Type: PSLocalNetworkGateway
@@ -158,7 +151,6 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionType
-@{Text=}
 
 ```yaml
 Type: String
@@ -173,7 +165,6 @@ Accept wildcard characters: False
 ```
 
 ### -RoutingWeight
-@{Text=}
 
 ```yaml
 Type: Int32
@@ -188,7 +179,6 @@ Accept wildcard characters: False
 ```
 
 ### -SharedKey
-@{Text=}
 
 ```yaml
 Type: String
@@ -203,7 +193,6 @@ Accept wildcard characters: False
 ```
 
 ### -Peer
-@{Text=}
 
 ```yaml
 Type: PSPeering
@@ -218,7 +207,6 @@ Accept wildcard characters: False
 ```
 
 ### -EnableBgp
-@{Text=}
 
 ```yaml
 Type: String
@@ -233,7 +221,6 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-@{Text=}
 
 ```yaml
 Type: Hashtable
@@ -248,7 +235,6 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -295,7 +281,6 @@ Accept wildcard characters: False
 ```
 
 ### -PeerId
-@{Text=}
 
 ```yaml
 Type: String
@@ -320,10 +305,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVirtualNetworkGatewayConnection](./Get-AzureRmVirtualNetworkGatewayConnection.md)
+[Get-AzureRmVirtualNetworkGatewayConnection](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmVirtualNetworkGatewayConnection.md)
 
-[Remove-AzureRmVirtualNetworkGatewayConnection](./Remove-AzureRmVirtualNetworkGatewayConnection.md)
+[Remove-AzureRmVirtualNetworkGatewayConnection](xref:ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmVirtualNetworkGatewayConnection.md)
 
-[Set-AzureRmVirtualNetworkGatewayConnection](./Set-AzureRmVirtualNetworkGatewayConnection.md)
+[Set-AzureRmVirtualNetworkGatewayConnection](xref:ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmVirtualNetworkGatewayConnection.md)
 
 

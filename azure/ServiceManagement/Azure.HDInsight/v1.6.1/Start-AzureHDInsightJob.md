@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 26885C41-7208-4233-9C3B-9A0B2B105261
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Start-AzureHDInsightJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Start-AzureHDInsightJob.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Start-AzureHDInsightJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Start-AzureHDInsightJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,7 +46,7 @@ For information about how to use the new HDInsight to create a cluster, see Crea
 For information about how to submit jobs by using APS and other approaches, see Submit Hadoop jobs in HDInsighthttps://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/.
 For reference information about APS HDInsight, see Azure HDInsight Cmdletshttps://msdn.microsoft.com/en-us/library/mt438705.aspx.
 
-The **Start-AzureHDInsightJob** cmdlet starts a defined azure_2 HDInsight job on a specified cluster.
+The **Start-AzureHDInsightJob** cmdlet starts a defined Azure HDInsight job on a specified cluster.
 The job to start can be a MapReduce job, a streaming job, a Hive job, or a Pig job.
 
 ## EXAMPLES
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobDefinition
-Specifies the endpoint to use when connecting to Microsoft azure_2 if the endpoint is different from the default.
+Specifies the endpoint to use when connecting to Microsoft Azure if the endpoint is different from the default.
 
 ```yaml
 Type: AzureHDInsightJobDefinition
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -Certificate
-Specifies the management certificate for an azure_2 subscription.
+Specifies the management certificate for an Azure subscription.
 
 ```yaml
 Type: X509Certificate2
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 ```
 
 ### -Endpoint
-Specifies the endpoint to use to connect to azure_2.
+Specifies the endpoint to use to connect to Azure.
 If you do not specify this parameter, this cmdlet uses the default endpoint.
 
 ```yaml
@@ -222,14 +222,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureHDInsightJob](./Get-AzureHDInsightJob.md)
+[Get-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Get-AzureHDInsightJob.md)
 
-[Get-AzureHDInsightJobOutput](./Get-AzureHDInsightJobOutput.md)
+[Get-AzureHDInsightJobOutput](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Get-AzureHDInsightJobOutput.md)
 
-[New-AzureHDInsightMapReduceJobDefinition](./New-AzureHDInsightMapReduceJobDefinition.md)
+[New-AzureHDInsightMapReduceJobDefinition](xref:ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightMapReduceJobDefinition.md)
 
-[Stop-AzureHDInsightJob](./Stop-AzureHDInsightJob.md)
+[Stop-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Stop-AzureHDInsightJob.md)
 
-[Wait-AzureHDInsightJob](./Wait-AzureHDInsightJob.md)
+[Wait-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Wait-AzureHDInsightJob.md)
 
 

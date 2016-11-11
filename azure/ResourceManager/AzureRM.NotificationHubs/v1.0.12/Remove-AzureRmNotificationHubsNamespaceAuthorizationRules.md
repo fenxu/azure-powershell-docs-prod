@@ -1,16 +1,17 @@
 ---
 external help file: Microsoft.Azure.Commands.NotificationHubs.dll-Help.xml
-online version: .\Get-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+online version: 
 schema: 2.0.0
 ms.assetid: 4C88A065-E7CD-46D6-B29C-689B3B21B6D3
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
+author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: visual-studio-china
@@ -59,7 +60,7 @@ When you run this command you must specify the resource group that the namespace
 
 ### -ResourceGroup
 Specifies the resource group to which the namespace is assigned.
-Resource groups organize items such as namespaces, notification hubs, and authorization rules in ways that help simply inventory management and azure_2 administration.
+Resource groups organize items such as namespaces, notification hubs, and authorization rules in ways that help simply inventory management and Azure administration.
 
 ```yaml
 Type: String
@@ -105,7 +106,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -120,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -145,10 +155,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmNotificationHubsNamespaceAuthorizationRules](./Get-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
+[Get-AzureRmNotificationHubsNamespaceAuthorizationRules](xref:ResourceManager/AzureRM.NotificationHubs/v1.0.12/Get-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
 
-[New-AzureRmNotificationHubsNamespaceAuthorizationRules](./New-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
+[New-AzureRmNotificationHubsNamespaceAuthorizationRules](xref:ResourceManager/AzureRM.NotificationHubs/v1.0.12/New-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
 
-[Set-AzureRmNotificationHubsNamespaceAuthorizationRules](./Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
+[Set-AzureRmNotificationHubsNamespaceAuthorizationRules](xref:ResourceManager/AzureRM.NotificationHubs/v1.0.12/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md)
 
 

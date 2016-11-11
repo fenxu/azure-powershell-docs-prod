@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: 5e7fedfe-b1db-472d-b6d7-63bbfce199dd
+online version: 
 schema: 2.0.0
 ms.assetid: 7158758D-EDB2-49DD-A136-357C3F8FBEEB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmLoadBalancerInboundNatRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmLoadBalancerInboundNatRuleConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmLoadBalancerInboundNatRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmLoadBalancerInboundNatRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -87,12 +87,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmLoadBalancer](./Get-AzureRmLoadBalancer.md)
+[Get-AzureRmLoadBalancer](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmLoadBalancer.md)
 
-[New-AzureRmLoadBalancerInboundNatRuleConfig](./New-AzureRmLoadBalancerInboundNatRuleConfig.md)
+[New-AzureRmLoadBalancerInboundNatRuleConfig](xref:ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmLoadBalancerInboundNatRuleConfig.md)
 
-[Remove-AzureRmLoadBalancerInboundNatRuleConfig](./Remove-AzureRmLoadBalancerInboundNatRuleConfig.md)
+[Remove-AzureRmLoadBalancerInboundNatRuleConfig](xref:ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmLoadBalancerInboundNatRuleConfig.md)
 
-[Set-AzureRmLoadBalancerInboundNatRuleConfig](./Set-AzureRmLoadBalancerInboundNatRuleConfig.md)
+[Set-AzureRmLoadBalancerInboundNatRuleConfig](xref:ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmLoadBalancerInboundNatRuleConfig.md)
 
 

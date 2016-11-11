@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 085EC9A1-E5F7-46D7-82EA-B8A71A7CBD9D
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryHub.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryHub.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryHub.md
 ms.topic: reference
 ms.prod: powershell
@@ -133,8 +133,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmDataFactoryHub](./New-AzureRmDataFactoryHub.md)
+[New-AzureRmDataFactoryHub](xref:ResourceManager/AzureRM.DataFactories/v1.0.12/New-AzureRmDataFactoryHub.md)
 
-[Remove-AzureRmDataFactoryHub](./Remove-AzureRmDataFactoryHub.md)
+[Remove-AzureRmDataFactoryHub](xref:ResourceManager/AzureRM.DataFactories/v1.0.12/Remove-AzureRmDataFactoryHub.md)
 
 

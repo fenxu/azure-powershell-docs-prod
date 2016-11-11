@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3F3854F8-F09A-4259-8AF3-07FB02D94701
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlDatabaseDataMaskingRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlDatabaseDataMaskingRule.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlDatabaseDataMaskingRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlDatabaseDataMaskingRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -289,7 +289,6 @@ Accept wildcard characters: False
 ```
 
 ### -SchemaName
-@{Text=}
 
 ```yaml
 Type: String

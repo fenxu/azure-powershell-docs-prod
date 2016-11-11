@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
-online version: 3a46bcd5-ad81-411a-92aa-7788ebd2473e
+online version: 
 schema: 2.0.0
 ms.assetid: 9C33FB6B-4F01-482D-A723-E67CB0230EB5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/New-AzureRmOperationalInsightsStorageInsight.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/New-AzureRmOperationalInsightsStorageInsight.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/New-AzureRmOperationalInsightsStorageInsight.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/New-AzureRmOperationalInsightsStorageInsight.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -84,7 +84,7 @@ The Storage Insight consumes data from the WADWindowsEventLogsTable table in the
 ## PARAMETERS
 
 ### -ResourceGroupName
-Specifies the name of an azure_2 resource group that contains a workspace.
+Specifies the name of an Azure resource group that contains a workspace.
 
 ```yaml
 Type: String
@@ -129,7 +129,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountResourceId
-Specifies the azure_2 resource of a storage account.
+Specifies the Azure resource of a storage account.
 This can be retrieved by executing the Get-AzureRmStorageAccount cmdlet and accessing the *Id* parameter of the result.
 
 ```yaml
@@ -205,7 +205,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -220,7 +229,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -250,7 +259,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -265,7 +274,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -290,8 +300,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Azure Operational Insights Cmdlets](./AzureRM.OperationalInsights.md)
+[Azure Operational Insights Cmdlets](xref:ResourceManager/AzureRM.OperationalInsights/v1.0.12/AzureRM.OperationalInsights.md)
 
-[Get-AzureRmOperationalInsightsWorkspace](./Get-AzureRmOperationalInsightsWorkspace.md)
+[Get-AzureRmOperationalInsightsWorkspace](xref:ResourceManager/AzureRM.OperationalInsights/v1.0.12/Get-AzureRmOperationalInsightsWorkspace.md)
 
 

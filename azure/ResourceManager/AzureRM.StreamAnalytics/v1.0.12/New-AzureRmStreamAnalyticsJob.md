@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
-online version: .\Get-AzureRmStreamAnalyticsJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: 07B0C67A-6EFA-48EB-B795-8EAA4FC83646
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ New-AzureRmStreamAnalyticsJob [[-Name] <String>] [-File] <String> [-Force] [-Res
 ```
 
 ## DESCRIPTION
-The **New-AzureRmStreamAnalyticsJob** cmdlet creates a new Stream Analytics job in azure_2 or updates the definition of an existing specified job.
+The **New-AzureRmStreamAnalyticsJob** cmdlet creates a new Stream Analytics job in Azure or updates the definition of an existing specified job.
 The name of the job can be specified in the .JSON file or on the command line.
 If both are specified, the name on command line must match the name in the file.
 
@@ -58,7 +58,7 @@ This command replaces the job definition for StreamingJob without confirmation.
 ## PARAMETERS
 
 ### -Name
-Specifies the name of the azure_2 Stream Analytics job to create.
+Specifies the name of the Azure Stream Analytics job to create.
 
 ```yaml
 Type: String
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -File
-Specifies the path to a JSON file that contains the JSON representation of the azure_2 Stream Analytics job to create.
+Specifies the path to a JSON file that contains the JSON representation of the Azure Stream Analytics job to create.
 
 ```yaml
 Type: String
@@ -103,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group to which the azure_2 Stream Analytics job should belong.
+Specifies the name of the resource group to which the Azure Stream Analytics job should belong.
 
 ```yaml
 Type: String
@@ -133,7 +133,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -148,7 +148,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -175,14 +176,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmStreamAnalyticsJob](./Get-AzureRmStreamAnalyticsJob.md)
+[Get-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsJob.md)
 
-[Remove-AzureRmStreamAnalyticsJob](./Remove-AzureRmStreamAnalyticsJob.md)
+[Remove-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Remove-AzureRmStreamAnalyticsJob.md)
 
-[Start-AzureRmStreamAnalyticsJob](./Start-AzureRmStreamAnalyticsJob.md)
+[Start-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Start-AzureRmStreamAnalyticsJob.md)
 
-[Stop-AzureRmStreamAnalyticsJob](./Stop-AzureRmStreamAnalyticsJob.md)
+[Stop-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Stop-AzureRmStreamAnalyticsJob.md)
 
-[Stop-AzureRmStreamAnalyticsJob](./Stop-AzureRmStreamAnalyticsJob.md)
+[Stop-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Stop-AzureRmStreamAnalyticsJob.md)
 
 

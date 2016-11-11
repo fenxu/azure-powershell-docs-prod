@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Add-AzureApplicationGatewaySslCertificate.md
+online version: 
 schema: 2.0.0
 ms.assetid: 911CEFC4-E31E-484D-B669-9593D0723A81
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySslCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySslCertificate.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySslCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySslCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,7 +34,7 @@ The **New-AzureApplicationGatewaySslCertificate** cmdlet creates an SSL certific
 
 ## EXAMPLES
 
-### Example 1: Create an SSL certificate for an azure_2 application gateway.
+### Example 1: Create an SSL certificate for an Azure application gateway.
 ```
 PS C:\>$Cert = New-AzureApplicationGatewaySslCertificate -Name "Cert01" -CertificateFile "D:\cert01.pfx" -Password "Password01"
 ```
@@ -119,12 +119,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureApplicationGatewaySslCertificate](./Add-AzureApplicationGatewaySslCertificate.md)
+[Add-AzureApplicationGatewaySslCertificate](xref:ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewaySslCertificate.md)
 
-[Get-AzureApplicationGatewaySslCertificate](./Get-AzureApplicationGatewaySslCertificate.md)
+[Get-AzureApplicationGatewaySslCertificate](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewaySslCertificate.md)
 
-[Remove-AzureApplicationGatewaySslCertificate](./Remove-AzureApplicationGatewaySslCertificate.md)
+[Remove-AzureApplicationGatewaySslCertificate](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewaySslCertificate.md)
 
-[Set-AzureApplicationGatewaySslCertificate](./Set-AzureApplicationGatewaySslCertificate.md)
+[Set-AzureApplicationGatewaySslCertificate](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewaySslCertificate.md)
 
 

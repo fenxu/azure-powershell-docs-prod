@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureStorageAccount.md
+online version: 
 schema: 2.0.0
 ms.assetid: 9B49B714-EB08-4DDA-9E45-B055792FBCEC
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureStorageAccount.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureStorageAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureStorageAccount
 
 ## SYNOPSIS
-Updates the properties of a storage account in an azure_2 subscription.
+Updates the properties of a storage account in an Azure subscription.
 
 ## SYNTAX
 
@@ -39,7 +39,7 @@ Set-AzureStorageAccount [-StorageAccountName] <String> [-Label <String>] [-Descr
 ```
 
 ## DESCRIPTION
-The **Set-AzureStorageAccount** cmdlet updates the properties of an azure_2 storage account in the current subscription.
+The **Set-AzureStorageAccount** cmdlet updates the properties of an Azure storage account in the current subscription.
 Properties that can be set are: **Label**, **Description**, **Type** and **GeoReplicationEnabled**.
 
 ## EXAMPLES
@@ -145,7 +145,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -160,7 +169,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -213,10 +222,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStorageAccount](./Get-AzureStorageAccount.md)
+[Get-AzureStorageAccount](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureStorageAccount.md)
 
-[New-AzureStorageAccount](./New-AzureStorageAccount.md)
+[New-AzureStorageAccount](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureStorageAccount.md)
 
-[Remove-AzureStorageAccount](./Remove-AzureStorageAccount.md)
+[Remove-AzureStorageAccount](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureStorageAccount.md)
 
 

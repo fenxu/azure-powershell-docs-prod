@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Get-AzureApplicationGatewaySku.md
+online version: 
 schema: 2.0.0
 ms.assetid: 1CA28FFA-9B59-4EDE-8F18-B8E4F13A6E17
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySku.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySku.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySku.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySku.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,7 +34,7 @@ The **New-AzureApplicationGatewaySku** cmdlet creates a stock keeping unit (SKU)
 
 ## EXAMPLES
 
-### Example 1: Create a SKU for an azure_2 application gateway
+### Example 1: Create a SKU for an Azure application gateway
 ```
 PS C:\>$SKU = New-AzureApplicationGatewaySku -Name "Standard_Small" -Tier "Standard" -Capacity 2
 ```
@@ -120,8 +120,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureApplicationGatewaySku](./Get-AzureApplicationGatewaySku.md)
+[Get-AzureApplicationGatewaySku](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewaySku.md)
 
-[Set-AzureApplicationGatewaySku](./Set-AzureApplicationGatewaySku.md)
+[Set-AzureApplicationGatewaySku](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewaySku.md)
 
 

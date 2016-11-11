@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: 292b4aa0-82b7-42df-9a1b-e6a4f3b4a953
+online version: 
 schema: 2.0.0
 ms.assetid: 1A219795-8F65-443E-AB5D-62B0DC2F8E11
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureLocalNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureLocalNetworkGateway.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureLocalNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureLocalNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -33,10 +33,6 @@ The **Get-AzureLocalNetworkGateway** cmdlet gets a local network gateway.
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -46,7 +42,7 @@ Specifies the ID of the gateway to get.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 0
@@ -56,12 +52,14 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies the Azure profile from which this cmdlet reads.
+If you do not specify a profile, this cmdlet reads from the local default profile.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -81,10 +79,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureLocalNetworkGateway](./New-AzureLocalNetworkGateway.md)
+[New-AzureLocalNetworkGateway](xref:ServiceManagement/Azure.Networking/v3.0.0/New-AzureLocalNetworkGateway.md)
 
-[Remove-AzureLocalNetworkGateway](./Remove-AzureLocalNetworkGateway.md)
+[Remove-AzureLocalNetworkGateway](xref:ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureLocalNetworkGateway.md)
 
-[Reset-AzureLocalNetworkGateway](./Reset-AzureLocalNetworkGateway.md)
-
-
+[Reset-AzureLocalNetworkGateway](xref:ServiceManagement/Azure.Networking/v3.0.0/Reset-AzureLocalNetworkGateway.md)

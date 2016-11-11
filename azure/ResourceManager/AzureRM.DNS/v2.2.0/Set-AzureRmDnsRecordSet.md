@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
-online version: 3d1b6e20-c580-4429-8f4f-a4388441b929
+online version: 
 schema: 2.0.0
 ms.assetid: 81B8269A-B92B-481B-B05A-F0CCB143FD57
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Set-AzureRmDnsRecordSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Set-AzureRmDnsRecordSet.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Set-AzureRmDnsRecordSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Set-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,11 +29,11 @@ Set-AzureRmDnsRecordSet -RecordSet <DnsRecordSet> [-Overwrite] [-WhatIf] [-Confi
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmDnsRecordSet** cmdlet updates a record set in the azure_2 DNS service from a local **RecordSet** object.
+The **Set-AzureRmDnsRecordSet** cmdlet updates a record set in the Azure DNS service from a local **RecordSet** object.
 
 You can pass a **RecordSet** object as a parameter or by using the pipeline operator.
 
-The record set is not updated if it has been changed in azure_2 DNS since the local **RecordSet** object was retrieved.
+The record set is not updated if it has been changed in Azure DNS since the local **RecordSet** object was retrieved.
 This provides protection for concurrent changes.
 You can suppress this behavior using the *Overwrite* parameter, which updates the record set regardless of concurrent changes.
 
@@ -153,10 +153,10 @@ This cmdlet returns an object that represents the updated **RecordSet** object.
 
 ## RELATED LINKS
 
-[Get-AzureRmDnsRecordSet](./Get-AzureRmDnsRecordSet.md)
+[Get-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.2.0/Get-AzureRmDnsRecordSet.md)
 
-[New-AzureRmDnsRecordSet](./New-AzureRmDnsRecordSet.md)
+[New-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.2.0/New-AzureRmDnsRecordSet.md)
 
-[Remove-AzureRmDnsRecordSet](./Remove-AzureRmDnsRecordSet.md)
+[Remove-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.2.0/Remove-AzureRmDnsRecordSet.md)
 
 

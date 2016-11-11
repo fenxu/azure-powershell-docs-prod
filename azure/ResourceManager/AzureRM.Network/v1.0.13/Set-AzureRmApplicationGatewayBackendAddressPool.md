@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Add-AzureRmApplicationGatewayBackendAddressPool.md
+online version: 
 schema: 2.0.0
 ms.assetid: 2531DEAE-9412-40A2-9BF1-1A93E16EDC50
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmApplicationGatewayBackendAddressPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmApplicationGatewayBackendAddressPool.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmApplicationGatewayBackendAddressPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmApplicationGatewayBackendAddressPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -32,7 +32,7 @@ Set-AzureRmApplicationGatewayBackendAddressPool -ApplicationGateway <PSApplicati
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmApplicationGatewayBackendAddressPool** cmdlet updates a back-end address pool for an azure_2 application gateway.
+The **Set-AzureRmApplicationGatewayBackendAddressPool** cmdlet updates a back-end address pool for an Azure application gateway.
 Back-end addresses can be specified as IP addresses, fully-qualified domain names (FQDN) or IP configurations IDs.
 
 ## EXAMPLES
@@ -107,7 +107,6 @@ Accept wildcard characters: False
 ```
 
 ### -BackendIPAddresses
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -137,7 +136,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -152,7 +160,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -181,12 +189,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApplicationGatewayBackendAddressPool](./Add-AzureRmApplicationGatewayBackendAddressPool.md)
+[Add-AzureRmApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayBackendAddressPool.md)
 
-[Get-AzureRmApplicationGatewayBackendAddressPool](./Get-AzureRmApplicationGatewayBackendAddressPool.md)
+[Get-AzureRmApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmApplicationGatewayBackendAddressPool.md)
 
-[New-AzureRmApplicationGatewayBackendAddressPool](./New-AzureRmApplicationGatewayBackendAddressPool.md)
+[New-AzureRmApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmApplicationGatewayBackendAddressPool.md)
 
-[Remove-AzureRmApplicationGatewayBackendAddressPool](./Remove-AzureRmApplicationGatewayBackendAddressPool.md)
+[Remove-AzureRmApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmApplicationGatewayBackendAddressPool.md)
 
 

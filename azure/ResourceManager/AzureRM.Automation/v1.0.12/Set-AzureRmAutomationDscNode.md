@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Get-AzureRmAutomationDscNode.md
+online version: 
 schema: 2.0.0
 ms.assetid: 68DA8FBA-38DF-4255-91E8-513635163D57
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationDscNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationDscNode.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationDscNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationDscNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Set-AzureRmAutomationDscNode
@@ -29,8 +30,8 @@ Set-AzureRmAutomationDscNode -Id <Guid> -NodeConfigurationName <String> [-Force]
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmAutomationDscNode** cmdlet modifies an APS Desired State Configuration (DSC) node configuration.
-azure_2 Automation stores DSC node configuration as a Managed Object Format (MOF) configuration document.
+The **Set-AzureRmAutomationDscNode** cmdlet modifies an Azure PowerShell Desired State Configuration (DSC) node configuration.
+Azure Automation stores DSC node configuration as a Managed Object Format (MOF) configuration document.
 
 ## EXAMPLES
 
@@ -59,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force the command to run without asking for user confirmation.
+Forces the command to run without asking for user confirmation. the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -119,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -134,7 +135,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -159,10 +161,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationDscNode](./Get-AzureRmAutomationDscNode.md)
+[Get-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscNode.md)
 
-[Register-AzureRmAutomationDscNode](./Register-AzureRmAutomationDscNode.md)
+[Register-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v1.0.12/Register-AzureRmAutomationDscNode.md)
 
-[Unregister-AzureRmAutomationDscNode](./Unregister-AzureRmAutomationDscNode.md)
+[Unregister-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRmAutomationDscNode.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Get-AzureRmPublicIpAddress.md
+online version: 
 schema: 2.0.0
 ms.assetid: 44E44187-746D-4C4E-90DC-28986821482E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmPublicIpAddress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmPublicIpAddress.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmPublicIpAddress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmPublicIpAddress.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -195,7 +195,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -210,7 +219,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -267,10 +276,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmPublicIpAddress](./Get-AzureRmPublicIpAddress.md)
+[Get-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmPublicIpAddress.md)
 
-[Remove-AzureRmPublicIpAddress](./Remove-AzureRmPublicIpAddress.md)
+[Remove-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmPublicIpAddress.md)
 
-[Set-AzureRmPublicIpAddress](./Set-AzureRmPublicIpAddress.md)
+[Set-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmPublicIpAddress.md)
 
 

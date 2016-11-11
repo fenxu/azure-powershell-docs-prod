@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\New-AzureRMAutomationVariable.md
+online version: 
 schema: 2.0.0
 ms.assetid: A6DC9902-AD99-47F9-8212-D3D96146B180
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Get-AzureRMAutomationVariable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Get-AzureRMAutomationVariable.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Get-AzureRMAutomationVariable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Get-AzureRMAutomationVariable.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureRmAutomationVariable
@@ -113,10 +114,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAutomationVariable](./New-AzureRMAutomationVariable.md)
+[New-AzureRmAutomationVariable](xref:ResourceManager/AzureRM.Automation/v2.1.0/New-AzureRMAutomationVariable.md)
 
-[Remove-AzureRmAutomationVariable](./Remove-AzureRMAutomationVariable.md)
+[Remove-AzureRmAutomationVariable](xref:ResourceManager/AzureRM.Automation/v2.1.0/Remove-AzureRMAutomationVariable.md)
 
-[Set-AzureRmAutomationVariable](./Set-AzureRMAutomationVariable.md)
+[Set-AzureRmAutomationVariable](xref:ResourceManager/AzureRM.Automation/v2.1.0/Set-AzureRMAutomationVariable.md)
 
 

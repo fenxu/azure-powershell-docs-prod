@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: 25883b96-1479-4ad1-80b3-667b596a7394
+online version: 
 schema: 2.0.0
 ms.assetid: 79D2B0AC-B489-441B-B39A-B86A9CAC1E81
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryReplicationProtectedItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryReplicationProtectedItem.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryReplicationProtectedItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryReplicationProtectedItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -56,10 +56,6 @@ Use this cmdlet to enable replication for a protectable item.
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -69,7 +65,7 @@ Indicates that the cmdlet waits for completion.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -80,7 +76,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
+
 The cmdlet is not run.
 
 ```yaml
@@ -96,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -116,7 +112,7 @@ Specifies the Azure Site Recovery Protectable Item.
 ```yaml
 Type: ASRProtectableItem
 Parameter Sets: EnterpriseToAzure, EnterpriseToEnterprise, HyperVSiteToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -131,7 +127,7 @@ Specifies the name of the Azure Site Recovery Replication Protected Item.
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToAzure, EnterpriseToEnterprise, HyperVSiteToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -146,7 +142,7 @@ Specifies the Azure Site Recovery Protection Container mapping object to use for
 ```yaml
 Type: ASRProtectionContainerMapping
 Parameter Sets: EnterpriseToAzure, EnterpriseToEnterprise, HyperVSiteToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -161,7 +157,7 @@ Specifies the ID of the Azure storage account that this cmdlet replicates to.
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToAzure, HyperVSiteToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -176,7 +172,7 @@ Specifies the name of the operating system disk.
 ```yaml
 Type: String
 Parameter Sets: HyperVSiteToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -192,7 +188,7 @@ The acceptable values for this parameter are: Windows or Linux.
 ```yaml
 Type: String
 Parameter Sets: HyperVSiteToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -214,10 +210,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryReplicationProtectedItem](./Get-AzureRmSiteRecoveryReplicationProtectedItem.md)
+[Get-AzureRmSiteRecoveryReplicationProtectedItem](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryReplicationProtectedItem.md)
 
-[Remove-AzureRmSiteRecoveryReplicationProtectedItem](./Remove-AzureRmSiteRecoveryReplicationProtectedItem.md)
+[Remove-AzureRmSiteRecoveryReplicationProtectedItem](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryReplicationProtectedItem.md)
 
-[Set-AzureRmSiteRecoveryReplicationProtectedItem](./Set-AzureRmSiteRecoveryReplicationProtectedItem.md)
-
-
+[Set-AzureRmSiteRecoveryReplicationProtectedItem](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryReplicationProtectedItem.md)

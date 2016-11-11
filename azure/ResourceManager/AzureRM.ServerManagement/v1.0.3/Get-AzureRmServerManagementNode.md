@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
-online version: .\New-AzureRmServerManagementNode.md
+online version: 
 schema: 2.0.0
 ms.assetid: 9123BD8A-E7DC-4905-9EEA-DF7654AB76BF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementNode.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Get-AzureRmServerManagementNode [-Node] <Node> [-InformationAction <ActionPrefer
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmServerManagementNode** cmdlet gets one or more azure_2 Server Management nodes.
+The **Get-AzureRmServerManagementNode** cmdlet gets one or more Azure Server Management nodes.
 
 ## EXAMPLES
 
@@ -79,7 +79,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -94,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -134,8 +143,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmServerManagementNode](./New-AzureRmServerManagementNode.md)
+[New-AzureRmServerManagementNode](xref:ResourceManager/AzureRM.ServerManagement/v1.0.3/New-AzureRmServerManagementNode.md)
 
-[Remove-AzureRmServerManagementNode](./Remove-AzureRmServerManagementNode.md)
+[Remove-AzureRmServerManagementNode](xref:ResourceManager/AzureRM.ServerManagement/v1.0.3/Remove-AzureRmServerManagementNode.md)
 
 

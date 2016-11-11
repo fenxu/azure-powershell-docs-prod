@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
-online version: https://azure.microsoft.com/en-us/services/sql-database/
+online version: 
 schema: 2.0.0
 ms.assetid: ABC7E620-0FBB-45FD-99C5-2D3C87C7D045
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabase.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -41,7 +41,7 @@ Get-AzureSqlDatabase [-ServerName] <String> [-Database <Database>] [-DatabaseNam
 ## DESCRIPTION
 The **Get-AzureSqlDatabase** cmdlet retrieves one or more instances of an ssSDS from an ssSDS server.
 You can specify the server with an ssSDS server connection context that you create using the **New-AzureSqlDatabaseServerContext** cmdlet.
-Or, if you specify the ssSDS server name, the cmdlet uses the current azure_2 subscription information to authenticate the request to access the server.
+Or, if you specify the ssSDS server name, the cmdlet uses the current Azure subscription information to authenticate the request to access the server.
 
 If you do not specify a database, the **Get-AzureSqlDatabase** cmdlet returns all databases from the specified server.
 
@@ -200,7 +200,7 @@ Accept wildcard characters: False
 
 ### -ServerName
 Specifies the name of the server that contains the database that this cmdlet retrieves.
-The cmdlet uses the current azure_2 subscription to access the server.
+The cmdlet uses the current Azure subscription to access the server.
 
 ```yaml
 Type: String
@@ -254,12 +254,12 @@ This cmdlet returns a *RestorableDroppedDatabase* object if you specify the *Res
 
 [Operations for Azure SQL Databases](https://msdn.microsoft.com/en-us/library/azure/dn505719.aspx)
 
-[New-AzureSqlDatabase](./New-AzureSqlDatabase.md)
+[New-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabase.md)
 
-[New-AzureSqlDatabaseServerContext](./New-AzureSqlDatabaseServerContext.md)
+[New-AzureSqlDatabaseServerContext](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServerContext.md)
 
-[Remove-AzureSqlDatabase](./Remove-AzureSqlDatabase.md)
+[Remove-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/Remove-AzureSqlDatabase.md)
 
-[Set-AzureSqlDatabase](./Set-AzureSqlDatabase.md)
+[Set-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabase.md)
 
 

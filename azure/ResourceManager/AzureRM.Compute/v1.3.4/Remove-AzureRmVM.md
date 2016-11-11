@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureRmVM.md
+online version: 
 schema: 2.0.0
 ms.assetid: 51E580E3-0262-4093-85D3-90D390A34676
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVM.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureRmVM
 
 ## SYNOPSIS
-Removes a virtual machine from azure_2.
+Removes a virtual machine from Azure.
 
 ## SYNTAX
 
@@ -38,7 +38,7 @@ Remove-AzureRmVM [-Name] <String> [-Force] [-Id] <String> [-InformationAction <A
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmVM** cmdlet removes a virtual machine from azure_2.
+The **Remove-AzureRmVM** cmdlet removes a virtual machine from Azure.
 
 ## EXAMPLES
 
@@ -97,7 +97,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -112,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -127,7 +136,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -142,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -182,16 +192,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVM](./Get-AzureRmVM.md)
+[Get-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVM.md)
 
-[New-AzureRmVM](./New-AzureRmVM.md)
+[New-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVM.md)
 
-[Restart-AzureRmVM](./Restart-AzureRmVM.md)
+[Restart-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Restart-AzureRmVM.md)
 
-[Start-AzureRmVM](./Start-AzureRmVM.md)
+[Start-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Start-AzureRmVM.md)
 
-[Stop-AzureRmVM](./Stop-AzureRmVM.md)
+[Stop-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Stop-AzureRmVM.md)
 
-[Update-AzureRmVM](./Update-AzureRmVM.md)
+[Update-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Update-AzureRmVM.md)
 
 

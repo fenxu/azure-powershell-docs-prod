@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: 302d6213-fbb7-496f-919a-6e9937ea7536
+online version: 
 schema: 2.0.0
 ms.assetid: F7C3162C-555C-4862-959C-8A7AF8700B3B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMDscExtensionStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMDscExtensionStatus.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMDscExtensionStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMDscExtensionStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -100,6 +100,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmVMDscExtension](./Set-AzureRmVMDscExtension.md)
+[Set-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMDscExtension.md)
 
 

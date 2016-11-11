@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Add-AzureRmRouteConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: 2B08FCD6-BA8D-42B6-B9CC-897D26425669
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmRouteConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmRouteConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmRouteConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmRouteConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Get-AzureRmRouteConfig [-Name <String>] -RouteTable <PSRouteTable> [-Information
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmRouteConfig** cmdlet gets routes from an azure_2 route table.
+The **Get-AzureRmRouteConfig** cmdlet gets routes from an Azure route table.
 You can specify a route by name.
 
 ## EXAMPLES
@@ -84,7 +84,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -99,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -124,14 +133,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmRouteConfig](./Add-AzureRmRouteConfig.md)
+[Add-AzureRmRouteConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmRouteConfig.md)
 
-[Get-AzureRmRouteTable](./Get-AzureRmRouteTable.md)
+[Get-AzureRmRouteTable](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmRouteTable.md)
 
-[New-AzureRmRouteConfig](./New-AzureRmRouteConfig.md)
+[New-AzureRmRouteConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmRouteConfig.md)
 
-[Remove-AzureRmRouteConfig](./Remove-AzureRmRouteConfig.md)
+[Remove-AzureRmRouteConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmRouteConfig.md)
 
-[Set-AzureRmRouteConfig](./Set-AzureRmRouteConfig.md)
+[Set-AzureRmRouteConfig](xref:ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmRouteConfig.md)
 
 

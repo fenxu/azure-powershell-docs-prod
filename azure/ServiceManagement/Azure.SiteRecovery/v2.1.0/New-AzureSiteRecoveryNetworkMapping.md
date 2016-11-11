@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
-online version: .\Get-AzureSiteRecoveryNetworkMapping.md
+online version: 
 schema: 2.0.0
 ms.assetid: 41FB380E-9434-467A-84D4-1E0BCFE70590
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/New-AzureSiteRecoveryNetworkMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/New-AzureSiteRecoveryNetworkMapping.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/New-AzureSiteRecoveryNetworkMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/New-AzureSiteRecoveryNetworkMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -175,12 +175,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSiteRecoveryNetworkMapping](./Get-AzureSiteRecoveryNetworkMapping.md)
+[Get-AzureSiteRecoveryNetworkMapping](xref:ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryNetworkMapping.md)
 
-[Remove-AzureSiteRecoveryNetworkMapping](./Remove-AzureSiteRecoveryNetworkMapping.md)
+[Remove-AzureSiteRecoveryNetworkMapping](xref:ServiceManagement/Azure.SiteRecovery/v2.1.0/Remove-AzureSiteRecoveryNetworkMapping.md)
 
-[Get-AzureSiteRecoveryServer](./Get-AzureSiteRecoveryServer.md)
+[Get-AzureSiteRecoveryServer](xref:ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryServer.md)
 
-[Get-AzureSiteRecoveryNetwork](./Get-AzureSiteRecoveryNetwork.md)
+[Get-AzureSiteRecoveryNetwork](xref:ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryNetwork.md)
 
 

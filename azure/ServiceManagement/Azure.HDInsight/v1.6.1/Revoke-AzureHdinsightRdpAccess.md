@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
-online version: .\Grant-AzureHdinsightRdpAccess.md
+online version: 
 schema: 2.0.0
 ms.assetid: 8D9C9C3C-BBEA-4530-B385-7962A50C3779
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Revoke-AzureHdinsightRdpAccess.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Revoke-AzureHdinsightRdpAccess.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Revoke-AzureHdinsightRdpAccess.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Revoke-AzureHdinsightRdpAccess.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -39,7 +39,7 @@ For information about how to use the new HDInsight to create a cluster, see Crea
 For information about how to submit jobs by using APS and other approaches, see Submit Hadoop jobs in HDInsighthttps://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/.
 For reference information about APS HDInsight, see Azure HDInsight Cmdletshttps://msdn.microsoft.com/en-us/library/mt438705.aspx.
 
-The **Revoke-AzureHDInsightRdpAccess** cmdlet disables Remote Desktop Protocol (RDP) access to an azure_2 HDInsight cluster.
+The **Revoke-AzureHDInsightRdpAccess** cmdlet disables Remote Desktop Protocol (RDP) access to an Azure HDInsight cluster.
 
 ## EXAMPLES
 
@@ -51,7 +51,7 @@ The **Revoke-AzureHDInsightRdpAccess** cmdlet disables Remote Desktop Protocol (
 ## PARAMETERS
 
 ### -Certificate
-Specifies the management certificate for an azure_2 subscription.
+Specifies the management certificate for an Azure subscription.
 
 ```yaml
 Type: X509Certificate2
@@ -66,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -Endpoint
-Specifies the endpoint to use to connect to azure_2.
+Specifies the endpoint to use to connect to Azure.
 If you do not specify this parameter, this cmdlet uses the default endpoint.
 
 ```yaml
@@ -113,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the azure_2 region in which a cluster is located.
+Specifies the Azure region in which a cluster is located.
 
 ```yaml
 Type: String
@@ -128,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of an azure_2 HDInsight cluster.
+Specifies the name of an Azure HDInsight cluster.
 
 ```yaml
 Type: String
@@ -184,6 +184,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Grant-AzureHdinsightRdpAccess](./Grant-AzureHdinsightRdpAccess.md)
+[Grant-AzureHdinsightRdpAccess](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Grant-AzureHdinsightRdpAccess.md)
 
 

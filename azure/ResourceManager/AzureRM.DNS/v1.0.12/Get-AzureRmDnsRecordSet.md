@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
-online version: .\New-AzureRmDnsRecordSet.md
+online version: 
 schema: 2.0.0
 ms.assetid: 3D1B6E20-C580-4429-8F4F-A4388441B929
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v1.0.12/Get-AzureRmDnsRecordSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v1.0.12/Get-AzureRmDnsRecordSet.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v1.0.12/Get-AzureRmDnsRecordSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v1.0.12/Get-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -207,10 +207,10 @@ There will be at most one **RecordSet** returned if the *Name* and *RecordType* 
 
 ## RELATED LINKS
 
-[New-AzureRmDnsRecordSet](./New-AzureRmDnsRecordSet.md)
+[New-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v1.0.12/New-AzureRmDnsRecordSet.md)
 
-[Remove-AzureRmDnsRecordSet](./Remove-AzureRmDnsRecordSet.md)
+[Remove-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v1.0.12/Remove-AzureRmDnsRecordSet.md)
 
-[Set-AzureRmDnsRecordSet](./Set-AzureRmDnsRecordSet.md)
+[Set-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v1.0.12/Set-AzureRmDnsRecordSet.md)
 
 

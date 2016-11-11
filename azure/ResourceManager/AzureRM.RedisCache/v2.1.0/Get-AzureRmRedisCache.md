@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 851C7039-8B33-44F5-93C3-C8F8730CAC3A
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Get-AzureRmRedisCache.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Get-AzureRmRedisCache.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Get-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
@@ -217,10 +217,10 @@ Returns an array of **RedisCacheAttributes** objects.
 
 ## RELATED LINKS
 
-[New-AzureRmRedisCache](./New-AzureRmRedisCache.md)
+[New-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v2.1.0/New-AzureRmRedisCache.md)
 
-[Remove-AzureRmRedisCache](./Remove-AzureRmRedisCache.md)
+[Remove-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v2.1.0/Remove-AzureRmRedisCache.md)
 
-[Set-AzureRmRedisCache](./Set-AzureRmRedisCache.md)
+[Set-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v2.1.0/Set-AzureRmRedisCache.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Get-AzureRemoteAppCollection.md
+online version: 
 schema: 2.0.0
 ms.assetid: C37E4F6A-09A8-45F9-9499-4AD5E2B4F9AB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppCollection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureRemoteAppCollection
 
 ## SYNOPSIS
-Removes an azure_2 RemoteApp collection.
+Removes an Azure RemoteApp collection.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Remove-AzureRemoteAppCollection [-CollectionName] <String> [-Profile <AzureSMPro
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRemoteAppCollection** cmdlet removes an azure_2 RemoteApp collection.
+The **Remove-AzureRemoteAppCollection** cmdlet removes an Azure RemoteApp collection.
 
 ## EXAMPLES
 
@@ -42,7 +42,7 @@ The **Remove-AzureRemoteAppCollection** cmdlet removes an azure_2 RemoteApp coll
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -57,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -72,7 +72,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -112,12 +113,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppCollection](./Get-AzureRemoteAppCollection.md)
+[Get-AzureRemoteAppCollection](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppCollection.md)
 
-[New-AzureRemoteAppCollection](./New-AzureRemoteAppCollection.md)
+[New-AzureRemoteAppCollection](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppCollection.md)
 
-[Set-AzureRemoteAppCollection](./Set-AzureRemoteAppCollection.md)
+[Set-AzureRemoteAppCollection](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Set-AzureRemoteAppCollection.md)
 
-[Update-AzureRemoteAppCollection](./Update-AzureRemoteAppCollection.md)
+[Update-AzureRemoteAppCollection](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Update-AzureRemoteAppCollection.md)
 
 

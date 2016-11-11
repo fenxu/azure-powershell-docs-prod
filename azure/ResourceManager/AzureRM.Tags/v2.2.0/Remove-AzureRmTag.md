@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Tags.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkId=404174
+online version: 
 schema: 2.0.0
 ms.assetid: AC99BEDE-9BB0-4449-9947-6DBBB236758D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/Remove-AzureRmTag.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/Remove-AzureRmTag.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/Remove-AzureRmTag.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/Remove-AzureRmTag.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureRmTag
 
 ## SYNOPSIS
-Deletes predefined azure_2 tags or values.
+Deletes predefined Azure tags or values.
 
 ## SYNTAX
 
@@ -29,14 +29,14 @@ Remove-AzureRmTag [-Name] <String> [[-Value] <String[]>] [-PassThru] [-WhatIf] [
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmTag** cmdlet deletes predefined azure_2 tags and values from your subscription.
+The **Remove-AzureRmTag** cmdlet deletes predefined Azure tags and values from your subscription.
 To delete particular values from a predefined tag, use the *Value* parameter.
 By default, **Remove-AzureRmTag** deletes the specified tag and all of its values.You cannot delete a tag or value that is currently applied to a resource or resource group.
 
 Before using **Remove-AzureRmTag**, use the *Tag* parameter of the Set-AzureRMResourceGroup cmdlet to delete the tag or values from the resource or resource group.
 
-The azure_2 Tags module that **Remove-AzureRmTag** is part of can help you manage your predefined azure_2 tags.
-An azure_2 tag is a name-value pair that you can use to categorize your azure_2 resources and resource groups, such as by department or cost center, or to track notes or comments about the resources and groups.
+The Azure Tags module that **Remove-AzureRmTag** is part of can help you manage your predefined Azure tags.
+An Azure tag is a name-value pair that you can use to categorize your Azure resources and resource groups, such as by department or cost center, or to track notes or comments about the resources and groups.
 
 You can define and apply tags in a single step, but predefined tags let you establish standard, consistent, predictable names and values for the tags in your subscription.
 If the subscription includes any predefined tags, you cannot apply undefined tags or values to any resource or resource group in the subscription.
@@ -119,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -134,7 +134,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -163,8 +164,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmTag](./Get-AzureRmTag.md)
+[Get-AzureRmTag](xref:ResourceManager/AzureRM.Tags/v2.2.0/Get-AzureRmTag.md)
 
-[New-AzureRmTag](./New-AzureRmTag.md)
+[New-AzureRmTag](xref:ResourceManager/AzureRM.Tags/v2.2.0/New-AzureRmTag.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
-online version: .\New-AzureRmApiManagementHostnameConfiguration.md
+online version: 
 schema: 2.0.0
 ms.assetid: 2A7EF835-586C-4E86-A243-3CC0E9623D71
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Import-AzureRmApiManagementHostnameCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Import-AzureRmApiManagementHostnameCertificate.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Import-AzureRmApiManagementHostnameCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Import-AzureRmApiManagementHostnameCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -51,7 +51,7 @@ Specifies the name of the of resource group under which the API Management deplo
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -66,7 +66,7 @@ Specifies the name of the API Management deployment that this cmdlet imports.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ### -HostnameType
 Specifies the host name type that this cmdlet loads the certificate for.
 
-Valid values are: 
+Valid values are:
 
 - Proxy
 - Portal
@@ -86,7 +86,7 @@ Valid values are:
 ```yaml
 Type: PsApiManagementHostnameType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -101,7 +101,7 @@ Specifies the path to a .pfx certificate file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -116,7 +116,7 @@ Specifies the password for the .pfx certificate file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -126,12 +126,13 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-passthru
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -141,7 +142,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -156,7 +166,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -181,8 +191,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmApiManagementHostnameConfiguration](./New-AzureRmApiManagementHostnameConfiguration.md)
+[New-AzureRmApiManagementHostnameConfiguration](xref:ResourceManager/AzureRM.ApiManagement/v1.1.4/New-AzureRmApiManagementHostnameConfiguration.md)
 
-[Set-AzureRmApiManagementHostnames](./Set-AzureRmApiManagementHostnames.md)
-
-
+[Set-AzureRmApiManagementHostnames](xref:ResourceManager/AzureRM.ApiManagement/v1.1.4/Set-AzureRmApiManagementHostnames.md)

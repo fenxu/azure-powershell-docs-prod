@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
-online version: .\Get-WAPackVM.md
+online version: 
 schema: 2.0.0
 ms.assetid: 905DA55F-9488-4206-AC00-6C89CDEF465D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Remove-WAPackVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Remove-WAPackVM.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Remove-WAPackVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Remove-WAPackVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -127,7 +127,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -167,20 +168,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-WAPackVM](./Get-WAPackVM.md)
+[Get-WAPackVM](xref:ServiceManagement/Azure.Compute/v1.6.1/Get-WAPackVM.md)
 
-[New-WAPackVM](./New-WAPackVM.md)
+[New-WAPackVM](xref:ServiceManagement/Azure.Compute/v1.6.1/New-WAPackVM.md)
 
-[Restart-WAPackVM](./Restart-WAPackVM.md)
+[Restart-WAPackVM](xref:ServiceManagement/Azure.Compute/v1.6.1/Restart-WAPackVM.md)
 
-[Resume-WAPackVM](./Resume-WAPackVM.md)
+[Resume-WAPackVM](xref:ServiceManagement/Azure.Compute/v1.6.1/Resume-WAPackVM.md)
 
-[Set-WAPackVM](./Set-WAPackVM.md)
+[Set-WAPackVM](xref:ServiceManagement/Azure.Compute/v1.6.1/Set-WAPackVM.md)
 
-[Start-WAPackVM](./Start-WAPackVM.md)
+[Start-WAPackVM](xref:ServiceManagement/Azure.Compute/v1.6.1/Start-WAPackVM.md)
 
-[Stop-WAPackVM](./Stop-WAPackVM.md)
+[Stop-WAPackVM](xref:ServiceManagement/Azure.Compute/v1.6.1/Stop-WAPackVM.md)
 
-[Suspend-WAPackVM](./Suspend-WAPackVM.md)
+[Suspend-WAPackVM](xref:ServiceManagement/Azure.Compute/v1.6.1/Suspend-WAPackVM.md)
 
 

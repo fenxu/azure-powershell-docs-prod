@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: 12d6f28b-1d9d-47f3-ac54-21683d4c2f51
+online version: 
 schema: 2.0.0
 ms.assetid: 25194B68-47AF-4C09-8D41-A1FE4D50B626
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVirtualNetworkGatewayDiagnostics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVirtualNetworkGatewayDiagnostics.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVirtualNetworkGatewayDiagnostics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVirtualNetworkGatewayDiagnostics.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureVirtualNetworkGatewayDiagnostics
 
 ## SYNOPSIS
-Gets the results of azure_2 virtual network gateway diagnostics.
+Gets the results of Azure virtual network gateway diagnostics.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureVirtualNetworkGatewayDiagnostics [-GatewayId] <String> [-Profile <Azure
 ```
 
 ## DESCRIPTION
-The **Get-AzureVirtualNetworkGatewayDiagnostics** cmdlet gets the results of azure_2 virtual network gateway diagnostics.
+The **Get-AzureVirtualNetworkGatewayDiagnostics** cmdlet gets the results of Azure virtual network gateway diagnostics.
 
 ## EXAMPLES
 
@@ -57,7 +57,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: AzureSMProfile
@@ -82,8 +84,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureVirtualNetworkGatewayDiagnostics](./Start-AzureVirtualNetworkGatewayDiagnostics.md)
+[Start-AzureVirtualNetworkGatewayDiagnostics](xref:ServiceManagement/Azure.Networking/v3.0.0/Start-AzureVirtualNetworkGatewayDiagnostics.md)
 
-[Stop-AzureVirtualNetworkGatewayDiagnostics](./Stop-AzureVirtualNetworkGatewayDiagnostics.md)
+[Stop-AzureVirtualNetworkGatewayDiagnostics](xref:ServiceManagement/Azure.Networking/v3.0.0/Stop-AzureVirtualNetworkGatewayDiagnostics.md)
 
 

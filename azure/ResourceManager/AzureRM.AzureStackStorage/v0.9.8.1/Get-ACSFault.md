@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
-online version: .\Resolve-ACSFault.md
+online version: 
 schema: 2.0.0
 ms.assetid: 8D70F5E0-C1C3-4776-9C8B-D1DC7F819946
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFault.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFault.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-ACSFault
 
 ## SYNOPSIS
-Gets faults in the azure_2 Consistent Storage system.
+Gets faults in the Azure Consistent Storage system.
 
 ## SYNTAX
 
@@ -44,7 +44,7 @@ Get-ACSFault [-FarmName] <String> -StartTime <DateTime> -EndTime <DateTime> [[-S
 ```
 
 ## DESCRIPTION
-The **Get-ACSFault** cmdlet returns a list of azure_2 Consistent Storage (ACS) faults in the system.
+The **Get-ACSFault** cmdlet returns a list of Azure Consistent Storage (ACS) faults in the system.
 It supports several parameter sets: 
 The default parameter set is the *GetCurrentFaults* parameter, which returns a list of current active fault objects.
 If the *ResourceUri* parameter is specified, the cmdlet returns a list of current active fault objects on this resource. 
@@ -80,7 +80,7 @@ Type       : Microsoft.Storage.Admin/farms/faults
 ```
 
 The first command gets the specified ACSFarm and stores the result in the variable named $Farm.
-This final command gets a list of the fault messages in the azure_2 Consistent Storage system.
+This final command gets a list of the fault messages in the Azure Consistent Storage system.
 
 ## PARAMETERS
 
@@ -251,8 +251,8 @@ Output from Get-ACSFarm can be piped to this cmdlet's input.
 
 ## RELATED LINKS
 
-[Resolve-ACSFault](./Resolve-ACSFault.md)
+[Resolve-ACSFault](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Resolve-ACSFault.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarm.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: 614eee0d-f18e-4843-bed6-6cf43db59f75
+online version: 
 schema: 2.0.0
 ms.assetid: 5C86545A-93DD-4B3C-96B2-FA6ED740448D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Start-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Start-AzureRMAutomationRunbook.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Start-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Start-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Start-AzureRmAutomationRunbook
@@ -36,7 +37,7 @@ Start-AzureRmAutomationRunbook [-Name] <String> [-Parameters <IDictionary>] [-Ru
 ```
 
 ## DESCRIPTION
-The **Start-AzureRmAutomationRunbook** cmdlet starts an azure_2 Automation runbook job.
+The **Start-AzureRmAutomationRunbook** cmdlet starts an Azure Automation runbook job.
 Specify the ID or name of a runbook.
 
 ## EXAMPLES
@@ -51,7 +52,6 @@ This command starts a runbook job for the runbook named Runbk01 in the Azure Aut
 ## PARAMETERS
 
 ### -AutomationAccountName
-@{Text=}
 
 ```yaml
 Type: String
@@ -66,7 +66,6 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String
@@ -81,7 +80,6 @@ Accept wildcard characters: False
 ```
 
 ### -Parameters
-@{Text=}
 
 ```yaml
 Type: IDictionary
@@ -96,7 +94,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
 
 ```yaml
 Type: String
@@ -111,7 +108,6 @@ Accept wildcard characters: False
 ```
 
 ### -RunOn
-@{Text=}
 
 ```yaml
 Type: String
@@ -126,7 +122,6 @@ Accept wildcard characters: False
 ```
 
 ### -Wait
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -141,7 +136,6 @@ Accept wildcard characters: False
 ```
 
 ### -MaxWaitSeconds
-@{Text=}
 
 ```yaml
 Type: Int32
@@ -168,20 +162,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmAutomationRunbook](./Export-AzureRMAutomationRunbook.md)
+[Export-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Export-AzureRMAutomationRunbook.md)
 
-[Get-AzureRmAutomationRunbook](./Get-AzureRMAutomationRunbook.md)
+[Get-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationRunbook.md)
 
-[Import-AzureRmAutomationRunbook](./Import-AzureRMAutomationRunbook.md)
+[Import-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Import-AzureRMAutomationRunbook.md)
 
-[New-AzureRmAutomationRunbook](./New-AzureRMAutomationRunbook.md)
+[New-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationRunbook.md)
 
-[New-AzureRmAutomationRunbook](./New-AzureRMAutomationRunbook.md)
+[New-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationRunbook.md)
 
-[Publish-AzureRmAutomationRunbook](./Publish-AzureRMAutomationRunbook.md)
+[Publish-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Publish-AzureRMAutomationRunbook.md)
 
-[Remove-AzureRmAutomationRunbook](./Remove-AzureRMAutomationRunbook.md)
+[Remove-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRMAutomationRunbook.md)
 
-[Set-AzureRmAutomationRunbook](./Set-AzureRMAutomationRunbook.md)
+[Set-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationRunbook.md)
 
 

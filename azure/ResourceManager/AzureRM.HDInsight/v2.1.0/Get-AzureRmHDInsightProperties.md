@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-online version: 611ecb41-1c2f-4e02-9cac-0d7d1323f79b
+online version: 
 schema: 2.0.0
 ms.assetid: 24C217E1-15BC-4874-B36A-C0D10E703EFD
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.1.0/Get-AzureRmHDInsightProperties.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.1.0/Get-AzureRmHDInsightProperties.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.1.0/Get-AzureRmHDInsightProperties.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.1.0/Get-AzureRmHDInsightProperties.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -59,7 +59,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -74,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

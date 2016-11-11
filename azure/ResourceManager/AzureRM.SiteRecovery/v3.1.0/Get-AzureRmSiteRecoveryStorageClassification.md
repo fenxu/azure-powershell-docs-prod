@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: 953bc89d-100d-463c-9e1e-9832b7401e86
+online version: 
 schema: 2.0.0
 ms.assetid: D6C84C18-A8CF-4EF4-B46A-9E5DB90FF6E0
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryStorageClassification.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryStorageClassification.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryStorageClassification.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryStorageClassification.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -54,10 +54,6 @@ The **Get-AzureRmSiteRecoveryStorageClassification** cmdlet gets storage classif
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -67,7 +63,7 @@ Specifies the name of the storage classification that this cmdlet gets.
 ```yaml
 Type: String
 Parameter Sets: ByName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -82,7 +78,7 @@ Specifies the friendly name of the storage classification that this cmdlet gets.
 ```yaml
 Type: String
 Parameter Sets: ByFriendlyName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -92,12 +88,11 @@ Accept wildcard characters: False
 ```
 
 ### -Fabric
-@{Text=}
 
 ```yaml
 Type: ASRFabric
 Parameter Sets: ByFabricObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -107,12 +102,11 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-@{Text=}
 
 ```yaml
 Type: ASRServer
 Parameter Sets: ByServerObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -131,5 +125,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

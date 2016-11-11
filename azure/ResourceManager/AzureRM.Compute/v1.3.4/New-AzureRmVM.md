@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureRmVM.md
+online version: 
 schema: 2.0.0
 ms.assetid: 7ACDA033-0959-4490-8CF7-90F470E5F8FB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVM.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -32,7 +32,7 @@ New-AzureRmVM [-ResourceGroupName] <String> [-Location] <String> [-VM] <PSVirtua
 ```
 
 ## DESCRIPTION
-The **New-AzureRmVM** cmdlet creates a virtual machine in azure_2.
+The **New-AzureRmVM** cmdlet creates a virtual machine in Azure.
 This cmdlet takes a virtual machine object as input.
 Use the New-AzureRmVMConfig cmdlet to create a virtual machine object.
 Other cmdlets can be used to configure the virtual machine, such as Set-AzureRmVMOperatingSystem, Set-AzureRmVMSourceImage, Add-AzureRmVMNetworkInterface, and Set-AzureRmVMOSDisk.
@@ -146,7 +146,7 @@ This example takes an existing sys-prepped, generalized custom operating system 
 
 This script can be used for automatic provisioning because it uses the local virtual machine admin credentials inline instead of calling **Get-Credential** which requires user interaction.
 
-This script assumes that you are already logged into your azure_2 account.
+This script assumes that you are already logged into your Azure account.
 You can confirm your login status by using the **Get-AzureSubscription** cmdlet.
 
 ## PARAMETERS
@@ -254,7 +254,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -269,7 +278,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -284,7 +293,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -299,7 +308,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -324,28 +334,28 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVM](./Get-AzureRmVM.md)
+[Get-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVM.md)
 
-[Remove-AzureRmVM](./Remove-AzureRmVM.md)
+[Remove-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVM.md)
 
-[Restart-AzureRmVM](./Restart-AzureRmVM.md)
+[Restart-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Restart-AzureRmVM.md)
 
-[Start-AzureRmVM](./Start-AzureRmVM.md)
+[Start-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Start-AzureRmVM.md)
 
-[Stop-AzureRmVM](./Stop-AzureRmVM.md)
+[Stop-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Stop-AzureRmVM.md)
 
-[Update-AzureRmVM](./Update-AzureRmVM.md)
+[Update-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Update-AzureRmVM.md)
 
-[Add-AzureRmVMDataDisk](./Add-AzureRmVMDataDisk.md)
+[Add-AzureRmVMDataDisk](xref:ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVMDataDisk.md)
 
-[Add-AzureRmVMNetworkInterface](./Add-AzureRmVMNetworkInterface.md)
+[Add-AzureRmVMNetworkInterface](xref:ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVMNetworkInterface.md)
 
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)
+[New-AzureRmVMConfig](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVMConfig.md)
 
-[Set-AzureRmVMOperatingSystem](./Set-AzureRmVMOperatingSystem.md)
+[Set-AzureRmVMOperatingSystem](xref:ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMOperatingSystem.md)
 
-[Set-AzureRmVMSourceImage](./Set-AzureRmVMSourceImage.md)
+[Set-AzureRmVMSourceImage](xref:ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMSourceImage.md)
 
-[Set-AzureRmVMOSDisk](./Set-AzureRmVMOSDisk.md)
+[Set-AzureRmVMOSDisk](xref:ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMOSDisk.md)
 
 

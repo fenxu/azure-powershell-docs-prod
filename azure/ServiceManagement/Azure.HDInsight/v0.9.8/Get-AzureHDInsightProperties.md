@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 3C423081-DB0E-4681-9718-04BB7A67E20E
 updated_at: 10/18/2016 9:38 PM
 ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Get-AzureHDInsightProperties.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Get-AzureHDInsightProperties.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Get-AzureHDInsightProperties.md
 ms.topic: reference
 ms.prod: powershell

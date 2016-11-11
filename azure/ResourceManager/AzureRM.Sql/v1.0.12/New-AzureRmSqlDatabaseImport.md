@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: .\Get-AzureRmSqlDatabaseImportExportStatus.md
+online version: 
 schema: 2.0.0
 ms.assetid: 39EF07C6-DBF7-42D9-A15E-082FFD4F29C2
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseImport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseImport.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseImport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseImport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -33,7 +33,7 @@ New-AzureRmSqlDatabaseImport -DatabaseName <String> -Edition <DatabaseEdition> -
 ```
 
 ## DESCRIPTION
-The **New-AzureRmSqlDatabaseImport** cmdlet imports a bacpac file from an azure_2 storage account to a new ssSDS.
+The **New-AzureRmSqlDatabaseImport** cmdlet imports a bacpac file from an Azure storage account to a new ssSDS.
 The get import database status request may be sent to retrieve status information for this request.
 
 ## EXAMPLES
@@ -235,8 +235,8 @@ psdx_paramvalues
 SQL authentication.
 Set the *AdministratorLogin* and *AdministratorLoginPassword* parameters to the SQL administrator username and password. 
 - ADPassword.
-azure_2 Active Directory authentication.
-Set *AdministratorLogin* and *AdministratorLoginPassword* to the azure_2 Active Directory administrator username and password.
+Azure Active Directory authentication.
+Set *AdministratorLogin* and *AdministratorLoginPassword* to the Azure Active Directory administrator username and password.
 
 This parameter is only available on nextref_database V12 servers.
 
@@ -268,7 +268,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -283,7 +292,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -311,8 +320,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlDatabaseImportExportStatus](./Get-AzureRmSqlDatabaseImportExportStatus.md)
+[Get-AzureRmSqlDatabaseImportExportStatus](xref:ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseImportExportStatus.md)
 
-[New-AzureRmSqlDatabaseExport](./New-AzureRmSqlDatabaseExport.md)
+[New-AzureRmSqlDatabaseExport](xref:ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseExport.md)
 
 

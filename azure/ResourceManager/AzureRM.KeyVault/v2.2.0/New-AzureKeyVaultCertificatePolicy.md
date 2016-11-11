@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
-online version: https://go.microsoft.com/fwlink/?linkid=829536
+online version: 
 schema: 2.0.0
 ms.assetid: 84C150B6-490D-40CA-9B1D-3E226206D51E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificatePolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificatePolicy.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificatePolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificatePolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -54,7 +54,7 @@ Indicates that the certificate policy is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -69,7 +69,7 @@ Specifies the DNS names in the certificate.
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -84,7 +84,7 @@ Specifies the enhanced key usages (EKUs) in the certificate.
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -99,7 +99,7 @@ Specifies how many days before expiry the automatic notification process begins.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -114,7 +114,7 @@ Specifies the percentage of the lifetime after which the automatic process for t
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -129,7 +129,7 @@ Specifies the name of the issuer for the certificate.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -144,7 +144,7 @@ Indicates that the key is not exportable.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -157,13 +157,13 @@ Accept wildcard characters: False
 Specifies the key type of the key that backs the certificate.
 The acceptable values for this parameter are:
 
-- RSA 
+- RSA
 - RSA-HSM
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: RSA, RSA-HSM
 
 Required: False
@@ -179,7 +179,7 @@ Specifies the key usages in the certificate.
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -194,7 +194,7 @@ Specifies the number of days before expiry after which the automatic process for
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -209,7 +209,7 @@ Specifies the percentage of the lifetime after which the automatic process for c
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -224,7 +224,7 @@ Indicates that the certificate reuse the key during renewal.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -243,7 +243,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: application/x-pkcs12, application/x-pem-file
 
 Required: False
@@ -259,7 +259,7 @@ Specifies the subject name of the certificate.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -274,7 +274,7 @@ Specifies the number of months the certificate is valid.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -289,7 +289,7 @@ Specifies the type of certificate to the issuer.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -299,7 +299,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -315,7 +315,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -341,8 +340,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureKeyVaultCertificatePolicy](./Get-AzureKeyVaultCertificatePolicy.md)
+[Get-AzureKeyVaultCertificatePolicy](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Get-AzureKeyVaultCertificatePolicy.md)
 
-[Set-AzureKeyVaultCertificatePolicy](./Set-AzureKeyVaultCertificatePolicy.md)
-
-
+[Set-AzureKeyVaultCertificatePolicy](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultCertificatePolicy.md)

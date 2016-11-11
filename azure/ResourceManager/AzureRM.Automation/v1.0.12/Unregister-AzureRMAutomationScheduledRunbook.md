@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Get-AzureRMAutomationScheduledRunbook.md
+online version: 
 schema: 2.0.0
 ms.assetid: A56FC467-F64D-4453-9B55-CDD5CAD1AA98
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRMAutomationScheduledRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRMAutomationScheduledRunbook.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRMAutomationScheduledRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRMAutomationScheduledRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Unregister-AzureRmAutomationScheduledRunbook
@@ -36,7 +37,7 @@ Unregister-AzureRmAutomationScheduledRunbook -RunbookName <String> -ScheduleName
 ```
 
 ## DESCRIPTION
-The **Unregister-AzureRmAutomationScheduledRunbook** cmdlet removes the association between an azure_2 Automation runbook and a schedule.
+The **Unregister-AzureRmAutomationScheduledRunbook** cmdlet removes the association between an Azure Automation runbook and a schedule.
 The schedule no longer starts the runbook.
 
 ## EXAMPLES
@@ -66,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -141,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -156,7 +157,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -181,8 +183,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationScheduledRunbook](./Get-AzureRMAutomationScheduledRunbook.md)
+[Get-AzureRmAutomationScheduledRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationScheduledRunbook.md)
 
-[Register-AzureRmAutomationScheduledRunbook](./Register-AzureRMAutomationScheduledRunbook.md)
+[Register-AzureRmAutomationScheduledRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Register-AzureRMAutomationScheduledRunbook.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Get-AzureLoadBalancerProbeConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: 4D7FF54B-AC3C-4CF4-A338-069DFAAB7F5D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerProbeConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerProbeConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerProbeConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerProbeConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -178,14 +178,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureLoadBalancerProbeConfig](./Get-AzureLoadBalancerProbeConfig.md)
+[Get-AzureLoadBalancerProbeConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerProbeConfig.md)
 
-[New-AzureLoadBalancerProbeConfig](./New-AzureLoadBalancerProbeConfig.md)
+[New-AzureLoadBalancerProbeConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerProbeConfig.md)
 
-[Remove-AzureLoadBalancerProbeConfig](./Remove-AzureLoadBalancerProbeConfig.md)
+[Remove-AzureLoadBalancerProbeConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerProbeConfig.md)
 
-[Set-AzureLoadBalancer](./Set-AzureLoadBalancer.md)
+[Set-AzureLoadBalancer](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancer.md)
 
-[Set-AzureLoadBalancerProbeConfig](./Set-AzureLoadBalancerProbeConfig.md)
+[Set-AzureLoadBalancerProbeConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancerProbeConfig.md)
 
 

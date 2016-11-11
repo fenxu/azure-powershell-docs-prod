@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\New-AzureVirtualNetworkGatewayConnection.md
+online version: 
 schema: 2.0.0
 ms.assetid: D9B7B6EF-BED9-4FEE-97BD-A2DDDE80CC1C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVirtualNetworkGatewayConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVirtualNetworkGatewayConnection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVirtualNetworkGatewayConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVirtualNetworkGatewayConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,10 +34,7 @@ The **Get-AzureVirtualNetworkGatewayConnection** cmdlet gets an Azure virtual ne
 
 ## EXAMPLES
 
-### 1:
-```
 
-```
 
 ## PARAMETERS
 
@@ -47,7 +44,7 @@ Specifies the ID of a connected entity.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -62,7 +59,7 @@ Specifies the ID of the gateway.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 0
@@ -78,7 +75,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -98,10 +95,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureVirtualNetworkGatewayConnection](./New-AzureVirtualNetworkGatewayConnection.md)
+[New-AzureVirtualNetworkGatewayConnection](xref:ServiceManagement/Azure.Networking/v2.1.0/New-AzureVirtualNetworkGatewayConnection.md)
 
-[Remove-AzureVirtualNetworkGatewayConnection](./Remove-AzureVirtualNetworkGatewayConnection.md)
+[Remove-AzureVirtualNetworkGatewayConnection](xref:ServiceManagement/Azure.Networking/v2.1.0/Remove-AzureVirtualNetworkGatewayConnection.md)
 
-[Reset-AzureVirtualNetworkGatewayConnection](./Reset-AzureVirtualNetworkGatewayConnection.md)
-
-
+[Reset-AzureVirtualNetworkGatewayConnection](xref:ServiceManagement/Azure.Networking/v2.1.0/Reset-AzureVirtualNetworkGatewayConnection.md)

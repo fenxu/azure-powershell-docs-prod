@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
-online version: .\Get-AzureRmResourceLock.md
+online version: 
 schema: 2.0.0
 ms.assetid: 4669FDC5-6F1D-4465-8E5B-7EE62855CF24
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceLock.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceLock.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceLock.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceLock.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Remove-AzureRmResourceLock
@@ -73,7 +74,7 @@ Remove-AzureRmResourceLock -LockName <String> [-Force] [-ApiVersion <String>] [-
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmResourceLock** cmdlet removes an azure_2 resource lock.
+The **Remove-AzureRmResourceLock** cmdlet removes an Azure resource lock.
 
 ## EXAMPLES
 
@@ -196,7 +197,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -211,7 +221,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -226,7 +236,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -241,7 +252,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -311,10 +322,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmResourceLock](./Get-AzureRmResourceLock.md)
+[Get-AzureRmResourceLock](xref:ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceLock.md)
 
-[New-AzureRmResourceLock](./New-AzureRmResourceLock.md)
+[New-AzureRmResourceLock](xref:ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResourceLock.md)
 
-[Set-AzureRmResourceLock](./Set-AzureRmResourceLock.md)
+[Set-AzureRmResourceLock](xref:ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmResourceLock.md)
 
 

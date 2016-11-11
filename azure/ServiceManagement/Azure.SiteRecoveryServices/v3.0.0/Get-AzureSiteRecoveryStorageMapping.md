@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
-online version: def617c2-ee83-4714-aec7-dc9021ae78a7
+online version: 
 schema: 2.0.0
 ms.assetid: 43B771B6-AD59-4C14-9BDF-5416BF33F478
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryStorageMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryStorageMapping.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryStorageMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryStorageMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -114,10 +114,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSiteRecoveryServer](./Get-AzureSiteRecoveryServer.md)
+[Get-AzureSiteRecoveryServer](xref:ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryServer.md)
 
-[New-AzureSiteRecoveryStorageMapping](./New-AzureSiteRecoveryStorageMapping.md)
+[New-AzureSiteRecoveryStorageMapping](xref:ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/New-AzureSiteRecoveryStorageMapping.md)
 
-[Remove-AzureSiteRecoveryStorageMapping](./Remove-AzureSiteRecoveryStorageMapping.md)
+[Remove-AzureSiteRecoveryStorageMapping](xref:ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Remove-AzureSiteRecoveryStorageMapping.md)
 
 

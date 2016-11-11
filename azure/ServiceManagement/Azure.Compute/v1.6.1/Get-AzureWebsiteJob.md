@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
-online version: .\Get-AzureWebsite.md
+online version: 
 schema: 2.0.0
 ms.assetid: 5EF76B84-385F-419E-8ABA-228D53CE2232
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsiteJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsiteJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsiteJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsiteJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -144,14 +144,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureWebsite](./Get-AzureWebsite.md)
+[Get-AzureWebsite](xref:ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsite.md)
 
-[New-AzureWebsiteJob](./New-AzureWebsiteJob.md)
+[New-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v1.6.1/New-AzureWebsiteJob.md)
 
-[Remove-AzureWebsiteJob](./Remove-AzureWebsiteJob.md)
+[Remove-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureWebsiteJob.md)
 
-[Start-AzureWebsiteJob](./Start-AzureWebsiteJob.md)
+[Start-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v1.6.1/Start-AzureWebsiteJob.md)
 
-[Stop-AzureWebsiteJob](./Stop-AzureWebsiteJob.md)
+[Stop-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v1.6.1/Stop-AzureWebsiteJob.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureVMDscExtension.md
+online version: 
 schema: 2.0.0
 ms.assetid: 2E8CD4D6-DAD9-4BFF-B318-077F756B0073
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMDscExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMDscExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMDscExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMDscExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -118,10 +118,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMDscExtension](./Get-AzureVMDscExtension.md)
+[Get-AzureVMDscExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureVMDscExtension.md)
 
-[Set-AzureVMDscExtension](./Set-AzureVMDscExtension.md)
+[Set-AzureVMDscExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Set-AzureVMDscExtension.md)
 
-[Update-AzureVM](./Update-AzureVM.md)
+[Update-AzureVM](xref:ServiceManagement/Azure.Service/v0.9.8/Update-AzureVM.md)
 
 

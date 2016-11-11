@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Add-AzureRemoteAppUser.md
+online version: 
 schema: 2.0.0
 ms.assetid: CC568981-B4BF-4380-8797-B87CBA64A2B5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppUser.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppUser
 
 ## SYNOPSIS
-Lists the users in an azure_2 RemoteApp collection.
+Lists the users in an Azure RemoteApp collection.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureRemoteAppUser [-CollectionName] <String> [[-UserUpn] <String>] [-Alias 
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppUser** cmdlet lists the users in an azure_2 RemoteApp collection.
+The **Get-AzureRemoteAppUser** cmdlet lists the users in an Azure RemoteApp collection.
 
 ## EXAMPLES
 
@@ -39,12 +39,12 @@ The **Get-AzureRemoteAppUser** cmdlet lists the users in an azure_2 RemoteApp co
 PS C:\>Get-AzureRemoteAppUser -CollectionName "Contoso"
 ```
 
-This command lists the users who have access to the azure_2 RemoteApp collection named Contoso.
+This command lists the users who have access to the Azure RemoteApp collection named Contoso.
 
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -116,10 +116,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRemoteAppUser](./Add-AzureRemoteAppUser.md)
+[Add-AzureRemoteAppUser](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Add-AzureRemoteAppUser.md)
 
-[Get-AzureRemoteAppSession](./Get-AzureRemoteAppSession.md)
+[Get-AzureRemoteAppSession](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppSession.md)
 
-[Remove-AzureRemoteAppUser](./Remove-AzureRemoteAppUser.md)
+[Remove-AzureRemoteAppUser](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppUser.md)
 
 

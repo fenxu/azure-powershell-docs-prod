@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Add-AzureApplicationGatewayBackendAddressPool.md
+online version: 
 schema: 2.0.0
 ms.assetid: C33AA8B0-3756-4A9C-BA74-E96C4A793F8E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayBackendAddressPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayBackendAddressPool.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayBackendAddressPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayBackendAddressPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -199,14 +199,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureApplicationGatewayBackendAddressPool](./Add-AzureApplicationGatewayBackendAddressPool.md)
+[Add-AzureApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewayBackendAddressPool.md)
 
-[Get-AzureApplicationGatewayBackendAddressPool](./Get-AzureApplicationGatewayBackendAddressPool.md)
+[Get-AzureApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayBackendAddressPool.md)
 
-[Get-AzureNetworkInterface](./Get-AzureNetworkInterface.md)
+[Get-AzureNetworkInterface](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureNetworkInterface.md)
 
-[New-AzureApplicationGatewayBackendAddressPool](./New-AzureApplicationGatewayBackendAddressPool.md)
+[New-AzureApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayBackendAddressPool.md)
 
-[Remove-AzureApplicationGatewayBackendAddressPool](./Remove-AzureApplicationGatewayBackendAddressPool.md)
+[Remove-AzureApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewayBackendAddressPool.md)
 
 

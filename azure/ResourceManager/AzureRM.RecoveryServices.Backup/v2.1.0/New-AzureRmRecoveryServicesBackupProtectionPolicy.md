@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xml
-online version: .\Enable-AzureRmRecoveryServicesBackupProtection.md
+online version: 
 schema: 2.0.0
 ms.assetid: ABB9DED5-A932-4949-8CD1-6835B607FA67
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/New-AzureRmRecoveryServicesBackupProtectionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/New-AzureRmRecoveryServicesBackupProtectionPolicy.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/New-AzureRmRecoveryServicesBackupProtectionPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/New-AzureRmRecoveryServicesBackupProtectionPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -125,7 +125,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -140,7 +149,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -197,16 +206,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureRmRecoveryServicesBackupProtection](./Enable-AzureRmRecoveryServicesBackupProtection.md)
+[Enable-AzureRmRecoveryServicesBackupProtection](xref:ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Enable-AzureRmRecoveryServicesBackupProtection.md)
 
-[Get-AzureRmRecoveryServicesBackupProtectionPolicy](./Get-AzureRmRecoveryServicesBackupProtectionPolicy.md)
+[Get-AzureRmRecoveryServicesBackupProtectionPolicy](xref:ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Get-AzureRmRecoveryServicesBackupProtectionPolicy.md)
 
-[Get-AzureRmRecoveryServicesBackupRetentionPolicyObject](./Get-AzureRmRecoveryServicesBackupRetentionPolicyObject.md)
+[Get-AzureRmRecoveryServicesBackupRetentionPolicyObject](xref:ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Get-AzureRmRecoveryServicesBackupRetentionPolicyObject.md)
 
-[Get-AzureRmRecoveryServicesBackupSchedulePolicyObject](./Get-AzureRmRecoveryServicesBackupSchedulePolicyObject.md)
+[Get-AzureRmRecoveryServicesBackupSchedulePolicyObject](xref:ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Get-AzureRmRecoveryServicesBackupSchedulePolicyObject.md)
 
-[Remove-AzureRmRecoveryServicesBackupProtectionPolicy](./Remove-AzureRmRecoveryServicesBackupProtectionPolicy.md)
+[Remove-AzureRmRecoveryServicesBackupProtectionPolicy](xref:ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Remove-AzureRmRecoveryServicesBackupProtectionPolicy.md)
 
-[Set-AzureRmRecoveryServicesBackupProtectionPolicy](./Set-AzureRmRecoveryServicesBackupProtectionPolicy.md)
+[Set-AzureRmRecoveryServicesBackupProtectionPolicy](xref:ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Set-AzureRmRecoveryServicesBackupProtectionPolicy.md)
 
 

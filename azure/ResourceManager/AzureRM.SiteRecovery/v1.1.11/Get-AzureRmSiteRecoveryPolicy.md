@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: .\New-AzureRmSiteRecoveryPolicy.md
+online version: 
 schema: 2.0.0
 ms.assetid: B7DB9AD2-8757-4064-A03C-A691B43A30C6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryPolicy.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -40,7 +40,7 @@ Get-AzureRmSiteRecoveryPolicy -FriendlyName <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSiteRecoveryPolicy** cmdlet gets the list of configured azure_2 Site Recovery protection policies or a specific protection policy by name.
+The **Get-AzureRmSiteRecoveryPolicy** cmdlet gets the list of configured Azure Site Recovery protection policies or a specific protection policy by name.
 
 ## EXAMPLES
 
@@ -92,8 +92,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmSiteRecoveryPolicy](./New-AzureRmSiteRecoveryPolicy.md)
+[New-AzureRmSiteRecoveryPolicy](xref:ResourceManager/AzureRM.SiteRecovery/v1.1.11/New-AzureRmSiteRecoveryPolicy.md)
 
-[Remove-AzureRmSiteRecoveryPolicy](./Remove-AzureRmSiteRecoveryPolicy.md)
+[Remove-AzureRmSiteRecoveryPolicy](xref:ResourceManager/AzureRM.SiteRecovery/v1.1.11/Remove-AzureRmSiteRecoveryPolicy.md)
 
 

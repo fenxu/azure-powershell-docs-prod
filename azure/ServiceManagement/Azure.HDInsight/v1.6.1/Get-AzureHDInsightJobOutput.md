@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 64C57ADB-80D8-4494-BF1E-AC594D54852B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Get-AzureHDInsightJobOutput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Get-AzureHDInsightJobOutput.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Get-AzureHDInsightJobOutput.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Get-AzureHDInsightJobOutput.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -66,7 +66,7 @@ It also passes $WordCountJob to the Wait-AzureHDInsightJob cmdlet to wait for th
 ## PARAMETERS
 
 ### -Certificate
-Specifies the management certificate for an azure_2 subscription.
+Specifies the management certificate for an Azure subscription.
 
 ```yaml
 Type: X509Certificate2
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -Endpoint
-Specifies the endpoint to use to connect to azure_2.
+Specifies the endpoint to use to connect to Azure.
 If you do not specify this parameter, this cmdlet uses the default endpoint.
 
 ```yaml
@@ -273,10 +273,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureHDInsightMapReduceJobDefinition](./New-AzureHDInsightMapReduceJobDefinition.md)
+[New-AzureHDInsightMapReduceJobDefinition](xref:ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightMapReduceJobDefinition.md)
 
-[Start-AzureHDInsightJob](./Start-AzureHDInsightJob.md)
+[Start-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Start-AzureHDInsightJob.md)
 
-[Wait-AzureHDInsightJob](./Wait-AzureHDInsightJob.md)
+[Wait-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Wait-AzureHDInsightJob.md)
 
 

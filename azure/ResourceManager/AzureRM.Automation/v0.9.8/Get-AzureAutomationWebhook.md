@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\New-AzureAutomationWebhook.md
+online version: 
 schema: 2.0.0
 ms.assetid: 11C053B2-C394-4DD8-BC74-3724654CCDBF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationWebhook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationWebhook.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationWebhook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationWebhook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureAutomationWebhook
@@ -47,10 +48,6 @@ To get specific webhooks, specify a webhook name or specify the name of an Azure
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -60,7 +57,7 @@ Specifies the name of an Automation account in which this cmdlet gets a webhook.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -91,7 +88,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -106,7 +103,7 @@ Specifies the name of the resource group for which this cmdlet gets webhooks.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -121,7 +118,7 @@ Specifies the name of a runbook for which this cmdlet gets webhooks.
 ```yaml
 Type: String
 Parameter Sets: ByRunbookName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -141,10 +138,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureAutomationWebhook](./New-AzureAutomationWebhook.md)
+[New-AzureAutomationWebhook](xref:ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationWebhook.md)
 
-[Remove-AzureAutomationWebhook](./Remove-AzureAutomationWebhook.md)
+[Remove-AzureAutomationWebhook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Remove-AzureAutomationWebhook.md)
 
-[Set-AzureAutomationWebhook](./Set-AzureAutomationWebhook.md)
-
-
+[Set-AzureAutomationWebhook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Set-AzureAutomationWebhook.md)

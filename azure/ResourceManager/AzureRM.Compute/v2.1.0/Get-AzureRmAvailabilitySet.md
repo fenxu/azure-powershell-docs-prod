@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\New-AzureRmAvailabilitySet.md
+online version: 
 schema: 2.0.0
 ms.assetid: CA32A23B-631A-4C8C-A045-719E7FEEF2CC
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmAvailabilitySet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmAvailabilitySet.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmAvailabilitySet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmAvailabilitySet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -91,8 +91,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAvailabilitySet](./New-AzureRmAvailabilitySet.md)
+[New-AzureRmAvailabilitySet](xref:ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmAvailabilitySet.md)
 
-[Remove-AzureRmAvailabilitySet](./Remove-AzureRmAvailabilitySet.md)
+[Remove-AzureRmAvailabilitySet](xref:ResourceManager/AzureRM.Compute/v2.1.0/Remove-AzureRmAvailabilitySet.md)
 
 

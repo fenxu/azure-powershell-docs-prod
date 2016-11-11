@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Get-AzureRmNetworkInterfaceIpConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: 50ADAF9B-1426-4AE4-B21D-A4768F51020F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmNetworkInterfaceIpConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmNetworkInterfaceIpConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmNetworkInterfaceIpConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/Add-AzureRmNetworkInterfaceIpConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -124,7 +124,6 @@ Accept wildcard characters: False
 ```
 
 ### -Primary
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -216,7 +215,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -231,7 +239,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -332,12 +340,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmNetworkInterfaceIpConfig](./Get-AzureRmNetworkInterfaceIpConfig.md)
+[Get-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Get-AzureRmNetworkInterfaceIpConfig.md)
 
-[New-AzureRmNetworkInterfaceIpConfig](./New-AzureRmNetworkInterfaceIpConfig.md)
+[New-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmNetworkInterfaceIpConfig.md)
 
-[Remove-AzureRmNetworkInterfaceIpConfig](./Remove-AzureRmNetworkInterfaceIpConfig.md)
+[Remove-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Remove-AzureRmNetworkInterfaceIpConfig.md)
 
-[Set-AzureRmNetworkInterfaceIpConfig](./Set-AzureRmNetworkInterfaceIpConfig.md)
+[Set-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/Set-AzureRmNetworkInterfaceIpConfig.md)
 
 

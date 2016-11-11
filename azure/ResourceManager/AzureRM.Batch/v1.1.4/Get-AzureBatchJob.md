@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\Disable-AzureBatchJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: 096590AF-5920-4FBB-A535-08EB5815558D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -43,7 +43,7 @@ Get-AzureBatchJob [[-JobSchedule] <PSCloudJobSchedule>] [-Filter <String>] [-Max
 ```
 
 ## DESCRIPTION
-The **Get-AzureBatchJob** cmdlet gets the azure_2 Batch jobs for the Batch account specified by the *BatchAccountContext* parameter.
+The **Get-AzureBatchJob** cmdlet gets the Azure Batch jobs for the Batch account specified by the *BatchAccountContext* parameter.
 You can use the *Id* parameter to get a single job.
 You can use the *Filter* parameter to get the jobs that match an Open Data Protocol (OData) filter.
 If you supply a job schedule ID or **PSCloudJobSchedule** instance, this cmdlet returns only the jobs for that job schedule.
@@ -277,20 +277,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureBatchJob](./Disable-AzureBatchJob.md)
+[Disable-AzureBatchJob](xref:ResourceManager/AzureRM.Batch/v1.1.4/Disable-AzureBatchJob.md)
 
-[Enable-AzureBatchJob](./Enable-AzureBatchJob.md)
+[Enable-AzureBatchJob](xref:ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchJob.md)
 
-[Get-AzureRmBatchAccountKeys](./Get-AzureRmBatchAccountKeys.md)
+[Get-AzureRmBatchAccountKeys](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchAccountKeys.md)
 
-[Get-AzureBatchJobSchedule](./Get-AzureBatchJobSchedule.md)
+[Get-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJobSchedule.md)
 
-[New-AzureBatchJob](./New-AzureBatchJob.md)
+[New-AzureBatchJob](xref:ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchJob.md)
 
-[Remove-AzureBatchJob](./Remove-AzureBatchJob.md)
+[Remove-AzureBatchJob](xref:ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchJob.md)
 
-[Stop-AzureBatchJob](./Stop-AzureBatchJob.md)
+[Stop-AzureBatchJob](xref:ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchJob.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v1.1.4/AzureRM.Batch.md)
 
 

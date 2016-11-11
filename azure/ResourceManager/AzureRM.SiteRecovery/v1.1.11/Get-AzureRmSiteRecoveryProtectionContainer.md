@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: 4cce9aa8-4efa-4399-b814-480a09e26f77
+online version: 
 schema: 2.0.0
 ms.assetid: AC0941E5-CC2D-403D-A352-3FDE484D0EF5
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryProtectionContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryProtectionContainer.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryProtectionContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryProtectionContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -40,7 +40,7 @@ Get-AzureRmSiteRecoveryProtectionContainer -FriendlyName <String> [<CommonParame
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSiteRecoveryProtectionContainer** cmdlet gets protection containers for the current azure_2 Site Recovery vault.
+The **Get-AzureRmSiteRecoveryProtectionContainer** cmdlet gets protection containers for the current Azure Site Recovery vault.
 A protection container is a logical container for protected objects such as virtual machines.
 Protection policies define replication settings for protected items and can be associated with a protection container and applied to a protected entity.
 

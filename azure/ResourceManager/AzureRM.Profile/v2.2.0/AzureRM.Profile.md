@@ -4,10 +4,11 @@ Module Guid: 342714fc-4009-4863-8afb-a9067e3db04b
 Download Help Link: None
 Help Version: 4.0.0.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/AzureRM.Profile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/AzureRM.Profile.md
+updated_at: 10/27/2016 9:26 PM
+ms.date: 10/27/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/AzureRM.Profile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/AzureRM.Profile.md
+uid: ResourceManager/AzureRM.Profile/v2.2.0/AzureRM.Profile.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +21,7 @@ manager: visual-studio-china
 
 # AzureRM.Profile Module
 ## Description
-{{Manually Enter Description Here}}
+This topic displays help topics for the Azure Profile cmdlets.
 
 ## AzureRM.Profile Cmdlets
 ### [Add-AzureRmAccount](./Add-AzureRmAccount.md)

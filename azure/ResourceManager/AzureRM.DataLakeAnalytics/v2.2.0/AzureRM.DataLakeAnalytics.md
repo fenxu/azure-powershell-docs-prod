@@ -4,10 +4,11 @@ Module Guid: eca73aa1-a68f-4ceb-9775-70759316a57b
 Download Help Link: None
 Help Version: 4.0.0.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/AzureRM.DataLakeAnalytics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/AzureRM.DataLakeAnalytics.md
+updated_at: 10/27/2016 9:26 PM
+ms.date: 10/27/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/AzureRM.DataLakeAnalytics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/AzureRM.DataLakeAnalytics.md
+uid: ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/AzureRM.DataLakeAnalytics.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +21,7 @@ manager: visual-studio-china
 
 # AzureRM.DataLakeAnalytics Module
 ## Description
-{{Manually Enter Description Here}}
+The topics in this section document the Azure PowerShell cmdlets for Azure Data Lake Analytics in the Azure Resource Manager (ARM) framework. The cmdlets exist in the **Microsoft.Azure.Commands.DataLakeAnalytics** namespace.
 
 ## AzureRM.DataLakeAnalytics Cmdlets
 ### [Add-AzureRmDataLakeAnalyticsDataSource](./Add-AzureRmDataLakeAnalyticsDataSource.md)

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: 16207dee-029f-4659-ab6f-f636f869b82b
+online version: 
 schema: 2.0.0
 ms.assetid: EB95DD17-0761-4911-A33F-2949D55340D3
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationDscNodeConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationDscNodeConfiguration.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationDscNodeConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationDscNodeConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Remove-AzureRmAutomationDscNodeConfiguration
@@ -29,7 +30,7 @@ Remove-AzureRmAutomationDscNodeConfiguration [-Name] <String> [-Force] [-IgnoreN
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmAutomationDscNodeConfiguration** cmdlet removes metadata from APS Desired State Configuration (DSC) node configurations in azure_2 Automation.
+The **Remove-AzureRmAutomationDscNodeConfiguration** cmdlet removes metadata from APS Desired State Configuration (DSC) node configurations in Azure Automation.
 Automation stores DSC node configuration as a Managed Object Format (MOF) configuration document.
 
 ## EXAMPLES
@@ -57,7 +58,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -133,7 +134,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -158,10 +160,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationDscNodeConfiguration](./Get-AzureRmAutomationDscNodeConfiguration.md)
+[Get-AzureRmAutomationDscNodeConfiguration](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationDscNodeConfiguration.md)
 
-[Import-AzureRmAutomationDscNodeConfiguration](./Import-AzureRmAutomationDscNodeConfiguration.md)
+[Import-AzureRmAutomationDscNodeConfiguration](xref:ResourceManager/AzureRM.Automation/v2.2.0/Import-AzureRmAutomationDscNodeConfiguration.md)
 
-[Azure Automation Cmdlets](./AzureRM.Automation.md)
+[Azure Automation Cmdlets](xref:ResourceManager/AzureRM.Automation/v2.2.0/AzureRM.Automation.md)
 
 

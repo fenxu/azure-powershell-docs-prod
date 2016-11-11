@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: 64efc6d9-735c-4432-9cbb-9c80ade705c8
+online version: 
 schema: 2.0.0
 ms.assetid: 2ACDBC10-FE61-49C9-BC4D-6CBDB12AB530
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMSqlServerExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMSqlServerExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMSqlServerExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMSqlServerExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -82,8 +82,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMSqlServerExtension](./Get-AzureVMSqlServerExtension.md)
+[Get-AzureVMSqlServerExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Get-AzureVMSqlServerExtension.md)
 
-[Set-AzureVMSqlServerExtension](./Set-AzureVMSqlServerExtension.md)
+[Set-AzureVMSqlServerExtension](xref:ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMSqlServerExtension.md)
 
 

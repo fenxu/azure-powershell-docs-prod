@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: 953bc89d-100d-463c-9e1e-9832b7401e86
+online version: 
 schema: 2.0.0
 ms.assetid: D6C84C18-A8CF-4EF4-B46A-9E5DB90FF6E0
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryStorageClassification.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryStorageClassification.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryStorageClassification.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryStorageClassification.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -45,7 +45,7 @@ Get-AzureRmSiteRecoveryStorageClassification -Server <ASRServer> [<CommonParamet
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSiteRecoveryStorageClassification** cmdlet gets storage classifications in azure_2 Site Recovery.
+The **Get-AzureRmSiteRecoveryStorageClassification** cmdlet gets storage classifications in Azure Site Recovery.
 
 ## EXAMPLES
 
@@ -87,7 +87,6 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-@{Text=}
 
 ```yaml
 Type: ASRServer

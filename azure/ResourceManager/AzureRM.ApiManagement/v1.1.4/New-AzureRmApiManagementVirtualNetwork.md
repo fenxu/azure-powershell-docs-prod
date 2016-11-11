@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
-online version: 2a7ef835-586c-4e86-a243-3cc0e9623d71
+online version: 
 schema: 2.0.0
 ms.assetid: EC96B443-15BF-4B19-B518-DECB18C64749
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/New-AzureRmApiManagementVirtualNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/New-AzureRmApiManagementVirtualNetwork.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/New-AzureRmApiManagementVirtualNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/New-AzureRmApiManagementVirtualNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -49,7 +49,7 @@ This example creates a virtual network and then calls the **Set-AzureRmApiManage
 ### -Location
 Specifies the location of the virtual network in which this cmdlet creates the instance.
 
-psdx_paramvalues
+The acceptable values for this parameter are:
 
 - North Central US
 - South Central US
@@ -70,7 +70,7 @@ psdx_paramvalues
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -85,7 +85,7 @@ Name of the sub network.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -100,7 +100,7 @@ Identifier of the virtual network.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -110,7 +110,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -125,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -149,5 +158,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

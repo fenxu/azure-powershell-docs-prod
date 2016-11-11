@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: 879c7df4-1a13-4d06-a376-910910504626
+online version: 
 schema: 2.0.0
 ms.assetid: 21DA37EC-8A96-4997-9368-7705D0864BDE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureVNetSite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureVNetSite.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureVNetSite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureVNetSite.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -92,10 +92,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVNetConfig](./Get-AzureVNetConfig.md)
+[Get-AzureVNetConfig](xref:ServiceManagement/Azure.Service/v3.0.0/Get-AzureVNetConfig.md)
 
-[Remove-AzureVNetConfig](./Remove-AzureVNetConfig.md)
+[Remove-AzureVNetConfig](xref:ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVNetConfig.md)
 
-[Set-AzureVNetConfig](./Set-AzureVNetConfig.md)
+[Set-AzureVNetConfig](xref:ServiceManagement/Azure.Service/v3.0.0/Set-AzureVNetConfig.md)
 
 

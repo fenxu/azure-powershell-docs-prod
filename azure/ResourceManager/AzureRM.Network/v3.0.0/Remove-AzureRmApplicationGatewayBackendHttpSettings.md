@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: cca576b8-8292-4d71-a692-7bb2f5f70166
+online version: 
 schema: 2.0.0
 ms.assetid: 52FBC6B0-C531-4DBB-A17F-FD7CACBC2876
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmApplicationGatewayBackendHttpSettings.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmApplicationGatewayBackendHttpSettings.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmApplicationGatewayBackendHttpSettings.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmApplicationGatewayBackendHttpSettings.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -89,12 +89,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApplicationGatewayBackendHttpSettings](./Add-AzureRmApplicationGatewayBackendHttpSettings.md)
+[Add-AzureRmApplicationGatewayBackendHttpSettings](xref:ResourceManager/AzureRM.Network/v3.0.0/Add-AzureRmApplicationGatewayBackendHttpSettings.md)
 
-[New-AzureRmApplicationGatewayBackendHttpSettings](./New-AzureRmApplicationGatewayBackendHttpSettings.md)
+[New-AzureRmApplicationGatewayBackendHttpSettings](xref:ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmApplicationGatewayBackendHttpSettings.md)
 
-[Get-AzureRmApplicationGatewayBackendHttpSettings](./Get-AzureRmApplicationGatewayBackendHttpSettings.md)
+[Get-AzureRmApplicationGatewayBackendHttpSettings](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmApplicationGatewayBackendHttpSettings.md)
 
-[Set-AzureRmApplicationGatewayBackendHttpSettings](./Set-AzureRmApplicationGatewayBackendHttpSettings.md)
+[Set-AzureRmApplicationGatewayBackendHttpSettings](xref:ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayBackendHttpSettings.md)
 
 

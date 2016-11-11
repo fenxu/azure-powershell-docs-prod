@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
-online version: .\Import-AzureSiteRecoveryVaultSettingsFile.md
+online version: 
 schema: 2.0.0
 ms.assetid: 09BB1BB4-3676-470F-9D64-B627C077482D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryVaultSettingsFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryVaultSettingsFile.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryVaultSettingsFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryVaultSettingsFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -193,10 +193,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Import-AzureSiteRecoveryVaultSettingsFile](./Import-AzureSiteRecoveryVaultSettingsFile.md)
+[Import-AzureSiteRecoveryVaultSettingsFile](xref:ServiceManagement/Azure.SiteRecovery/v1.6.1/Import-AzureSiteRecoveryVaultSettingsFile.md)
 
-[Get-AzureSiteRecoveryVault](./Get-AzureSiteRecoveryVault.md)
+[Get-AzureSiteRecoveryVault](xref:ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryVault.md)
 
-[Get-AzureSiteRecoverySite](./Get-AzureSiteRecoverySite.md)
+[Get-AzureSiteRecoverySite](xref:ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoverySite.md)
 
 

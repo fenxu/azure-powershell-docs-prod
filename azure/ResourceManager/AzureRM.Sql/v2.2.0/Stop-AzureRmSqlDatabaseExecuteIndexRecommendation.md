@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 915a4449-4d66-4940-8027-ffe4225658c2
+online version: 
 schema: 2.0.0
 ms.assetid: A9BCE6C0-4100-4653-9922-613FF4ECCEB8
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -114,10 +114,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlDatabaseIndexRecommendations](./Get-AzureRmSqlDatabaseIndexRecommendations.md)
+[Get-AzureRmSqlDatabaseIndexRecommendations](xref:ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlDatabaseIndexRecommendations.md)
 
-[Start-AzureRmSqlDatabaseExecuteIndexRecommendation](./Start-AzureRmSqlDatabaseExecuteIndexRecommendation.md)
+[Start-AzureRmSqlDatabaseExecuteIndexRecommendation](xref:ResourceManager/AzureRM.Sql/v2.2.0/Start-AzureRmSqlDatabaseExecuteIndexRecommendation.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md)
 
 

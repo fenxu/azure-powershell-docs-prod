@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
-online version: 186caea5-31e5-4bf3-9056-7347a9c62595
+online version: 
 schema: 2.0.0
 ms.assetid: 4A62165C-930A-40F7-B9B3-25B8925BF587
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Start-AzureStorSimpleDeviceBackupJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Start-AzureStorSimpleDeviceBackupJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Start-AzureStorSimpleDeviceBackupJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Start-AzureStorSimpleDeviceBackupJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -170,8 +170,8 @@ If you do not specify that parameter, it returns a **TaskResponse** object.
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleJob](./Get-AzureStorSimpleJob.md)
+[Get-AzureStorSimpleJob](xref:ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleJob.md)
 
-[Start-AzureStorSimpleDeviceBackupRestoreJob](./Start-AzureStorSimpleDeviceBackupRestoreJob.md)
+[Start-AzureStorSimpleDeviceBackupRestoreJob](xref:ServiceManagement/Azure.StorSimple/v3.0.0/Start-AzureStorSimpleDeviceBackupRestoreJob.md)
 
 

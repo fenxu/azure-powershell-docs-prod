@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Export-AzureRmAutomationDscConfiguration.md
+online version: 
 schema: 2.0.0
 ms.assetid: 9E316628-0101-4DA8-8A9F-843F8442E52D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Import-AzureRmAutomationDscConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Import-AzureRmAutomationDscConfiguration.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Import-AzureRmAutomationDscConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Import-AzureRmAutomationDscConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Import-AzureRmAutomationDscConfiguration
@@ -210,8 +211,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmAutomationDscConfiguration](./Export-AzureRmAutomationDscConfiguration.md)
+[Export-AzureRmAutomationDscConfiguration](xref:ResourceManager/AzureRM.Automation/v2.1.0/Export-AzureRmAutomationDscConfiguration.md)
 
-[Get-AzureRmAutomationDscConfiguration](./Get-AzureRmAutomationDscConfiguration.md)
+[Get-AzureRmAutomationDscConfiguration](xref:ResourceManager/AzureRM.Automation/v2.1.0/Get-AzureRmAutomationDscConfiguration.md)
 
 

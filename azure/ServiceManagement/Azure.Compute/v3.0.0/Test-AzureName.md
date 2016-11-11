@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
-online version: 0c2a5092-db45-4ce7-b39b-d1e499b4a867
+online version: 
 schema: 2.0.0
 ms.assetid: 2F7C7C8F-5B25-4BB1-BFCB-3505088DCA71
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Test-AzureName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Test-AzureName.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Test-AzureName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Test-AzureName.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

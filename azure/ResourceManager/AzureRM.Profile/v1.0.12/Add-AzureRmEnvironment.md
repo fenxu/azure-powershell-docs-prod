@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
-online version: .\Get-AzureRmEnvironment.md
+online version: 
 schema: 2.0.0
 ms.assetid: D5202B22-4DD3-446B-9208-7F04ECE3C398
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmEnvironment.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Add-AzureRmEnvironment [-Name] <String> [[-PublishSettingsFileUrl] <String>] [[-
 ```
 
 ## DESCRIPTION
-The **Add-AzureRmEnvironment** cmdlet adds endpoints and metadata to enable azure_2 Resource Manager cmdlets to connect with a new instance of Resource Manager.
+The **Add-AzureRmEnvironment** cmdlet adds endpoints and metadata to enable Azure Resource Manager cmdlets to connect with a new instance of Resource Manager.
 The built-in environments AzureCloud and AzureChinaCloud target existing public instances of Resource Manager.
 
 ## EXAMPLES
@@ -50,7 +50,7 @@ The built-in environments AzureCloud and AzureChinaCloud target existing public 
 ## PARAMETERS
 
 ### -ActiveDirectoryEndpoint
-Specifies the base authority for azure_2 Active Directory authentication.
+Specifies the base authority for Azure Active Directory authentication.
 
 ```yaml
 Type: String
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -ActiveDirectoryServiceEndpointResourceId
-Specifies the audience for tokens that authenticate requests to azure_2 Resource Manager or Service Management (RDFE) endpoints.
+Specifies the audience for tokens that authenticate requests to Azure Resource Manager or Service Management (RDFE) endpoints.
 
 ```yaml
 Type: String
@@ -95,7 +95,7 @@ Accept wildcard characters: False
 ```
 
 ### -AzureKeyVaultDnsSuffix
-Specifies the domain name suffix for azure_2 Key Vault services.
+Specifies the domain name suffix for Azure Key Vault services.
 
 ```yaml
 Type: String
@@ -155,7 +155,7 @@ Accept wildcard characters: False
 ```
 
 ### -GraphEndpoint
-Specifies the URL for azure_2 Active Directory Graph requests.
+Specifies the URL for Azure Active Directory Graph requests.
 
 ```yaml
 Type: String
@@ -245,7 +245,7 @@ Accept wildcard characters: False
 ```
 
 ### -SqlDatabaseDnsSuffix
-Specifies the domain name suffix for azure_2 SQL Database servers.
+Specifies the domain name suffix for Azure SQL Database servers.
 
 ```yaml
 Type: String
@@ -291,7 +291,7 @@ Accept wildcard characters: False
 ```
 
 ### -AzureDataLakeAnalyticsCatalogAndJobEndpointSuffix
-Specifies the azure_2 Data Lake Analytics catalog and job endpoint suffix.
+Specifies the Azure Data Lake Analytics catalog and job endpoint suffix.
 
 ```yaml
 Type: String
@@ -306,7 +306,7 @@ Accept wildcard characters: False
 ```
 
 ### -AzureDataLakeStoreFileSystemEndpointSuffix
-Specifies the azure_2 Data Lake Store files system endpoint suffix.
+Specifies the Azure Data Lake Store files system endpoint suffix.
 
 ```yaml
 Type: String
@@ -321,7 +321,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -336,7 +336,6 @@ Accept wildcard characters: False
 ```
 
 ### -GraphAudience
-@{Text=}
 
 ```yaml
 Type: String
@@ -351,7 +350,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -373,16 +373,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ###  
-This cmdlet returns the set of endpoints and metadata that are required to communicate with an instance of azure_2.
+This cmdlet returns the set of endpoints and metadata that are required to communicate with an instance of Azure.
 
 ## NOTES
 
 ## RELATED LINKS
 
-[Get-AzureRmEnvironment](./Get-AzureRmEnvironment.md)
+[Get-AzureRmEnvironment](xref:ResourceManager/AzureRM.Profile/v1.0.12/Get-AzureRmEnvironment.md)
 
-[Remove-AzureRmEnvironment](./Remove-AzureRmEnvironment.md)
+[Remove-AzureRmEnvironment](xref:ResourceManager/AzureRM.Profile/v1.0.12/Remove-AzureRmEnvironment.md)
 
-[Set-AzureRmEnvironment](./Set-AzureRmEnvironment.md)
+[Set-AzureRmEnvironment](xref:ResourceManager/AzureRM.Profile/v1.0.12/Set-AzureRmEnvironment.md)
 
 

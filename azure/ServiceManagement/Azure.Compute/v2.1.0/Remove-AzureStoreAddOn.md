@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 8EB045DA-6B01-4AEC-AF6A-9E45EC1391F1
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Remove-AzureStoreAddOn.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Remove-AzureStoreAddOn.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Remove-AzureStoreAddOn.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Remove-AzureStoreAddOn.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -61,7 +61,6 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -101,10 +100,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStoreAddOn](./Get-AzureStoreAddOn.md)
+[Get-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v2.1.0/Get-AzureStoreAddOn.md)
 
-[New-AzureStoreAddOn](./New-AzureStoreAddOn.md)
+[New-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v2.1.0/New-AzureStoreAddOn.md)
 
-[Set-AzureStoreAddOn](./Set-AzureStoreAddOn.md)
+[Set-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v2.1.0/Set-AzureStoreAddOn.md)
 
 

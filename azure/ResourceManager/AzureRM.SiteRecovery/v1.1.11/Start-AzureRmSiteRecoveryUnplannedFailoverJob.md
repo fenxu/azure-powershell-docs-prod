@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: .\Get-AzureRmSiteRecoveryJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: B02F3C77-3043-48D8-94CB-693BA671F3E0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -39,7 +39,7 @@ Start-AzureRmSiteRecoveryUnplannedFailoverJob -RecoveryPlan <ASRRecoveryPlan> -D
 ```
 
 ## DESCRIPTION
-The **Start-AzureRmSiteRecoveryUnplannedFailoverJob** cmdlet starts the unplanned failover of an azure_2 Site Recovery protection entity or recovery plan.
+The **Start-AzureRmSiteRecoveryUnplannedFailoverJob** cmdlet starts the unplanned failover of an Azure Site Recovery protection entity or recovery plan.
 You can check whether the job succeeds by using the Get-AzureRmSiteRecoveryJob cmdlet.
 
 ## EXAMPLES
@@ -156,6 +156,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryJob](./Get-AzureRmSiteRecoveryJob.md)
+[Get-AzureRmSiteRecoveryJob](xref:ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryJob.md)
 
 

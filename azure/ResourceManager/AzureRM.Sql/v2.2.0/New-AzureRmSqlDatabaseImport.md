@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 3d74e98c-15cb-4720-bd58-1227b501dd1c
+online version: 
 schema: 2.0.0
 ms.assetid: 39EF07C6-DBF7-42D9-A15E-082FFD4F29C2
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlDatabaseImport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlDatabaseImport.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlDatabaseImport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlDatabaseImport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -313,8 +313,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlDatabaseImportExportStatus](./Get-AzureRmSqlDatabaseImportExportStatus.md)
+[Get-AzureRmSqlDatabaseImportExportStatus](xref:ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlDatabaseImportExportStatus.md)
 
-[New-AzureRmSqlDatabaseExport](./New-AzureRmSqlDatabaseExport.md)
+[New-AzureRmSqlDatabaseExport](xref:ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlDatabaseExport.md)
 
 

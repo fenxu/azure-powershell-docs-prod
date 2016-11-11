@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
-online version: .\Start-AzureSiteRecoveryProtectionProfileAssociationJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: A8FCA9C9-1FD8-4E0D-BA73-64F671461B51
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/New-AzureSiteRecoveryProtectionProfileObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/New-AzureSiteRecoveryProtectionProfileObject.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/New-AzureSiteRecoveryProtectionProfileObject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/New-AzureSiteRecoveryProtectionProfileObject.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -327,8 +327,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureSiteRecoveryProtectionProfileAssociationJob](./Start-AzureSiteRecoveryProtectionProfileAssociationJob.md)
+[Start-AzureSiteRecoveryProtectionProfileAssociationJob](xref:ServiceManagement/Azure.SiteRecovery/v2.1.0/Start-AzureSiteRecoveryProtectionProfileAssociationJob.md)
 
-[Start-AzureSiteRecoveryProtectionProfileDissociationJob](./Start-AzureSiteRecoveryProtectionProfileDissociationJob.md)
+[Start-AzureSiteRecoveryProtectionProfileDissociationJob](xref:ServiceManagement/Azure.SiteRecovery/v2.1.0/Start-AzureSiteRecoveryProtectionProfileDissociationJob.md)
 
 

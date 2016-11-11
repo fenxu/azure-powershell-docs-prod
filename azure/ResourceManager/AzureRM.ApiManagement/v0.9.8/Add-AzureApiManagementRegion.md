@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
-online version: .\Remove-AzureApiManagementRegion.md
+online version: 
 schema: 2.0.0
 ms.assetid: 00238612-5A56-43D6-B96D-E9EB4957CFDA
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Add-AzureApiManagementRegion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Add-AzureApiManagementRegion.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Add-AzureApiManagementRegion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Add-AzureApiManagementRegion.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -180,10 +180,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureApiManagementRegion](./Remove-AzureApiManagementRegion.md)
+[Remove-AzureApiManagementRegion](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Remove-AzureApiManagementRegion.md)
 
-[Update-AzureApiManagementRegion](./Update-AzureApiManagementRegion.md)
+[Update-AzureApiManagementRegion](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Update-AzureApiManagementRegion.md)
 
-[Update-AzureApiManagementDeployment](./Update-AzureApiManagementDeployment.md)
+[Update-AzureApiManagementDeployment](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Update-AzureApiManagementDeployment.md)
 
 

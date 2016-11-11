@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 28765C04-36D4-4D20-AE5A-934F563E5A95
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Get-AzureRmRedisCachePatchSchedule.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Get-AzureRmRedisCachePatchSchedule.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Get-AzureRmRedisCachePatchSchedule.md
 ms.topic: reference
 ms.prod: powershell
@@ -90,10 +90,10 @@ This cmdlet returns the of patch schedule entries set on the cache.
 
 ## RELATED LINKS
 
-[New-AzureRmRedisCachePatchSchedule](./New-AzureRmRedisCachePatchSchedule.md)
+[New-AzureRmRedisCachePatchSchedule](xref:ResourceManager/AzureRM.RedisCache/v2.1.0/New-AzureRmRedisCachePatchSchedule.md)
 
-[New-AzureRmRedisCacheScheduleEntry](./New-AzureRmRedisCacheScheduleEntry.md)
+[New-AzureRmRedisCacheScheduleEntry](xref:ResourceManager/AzureRM.RedisCache/v2.1.0/New-AzureRmRedisCacheScheduleEntry.md)
 
-[Remove-AzureRmRedisCachePatchSchedule](./Remove-AzureRmRedisCachePatchSchedule.md)
+[Remove-AzureRmRedisCachePatchSchedule](xref:ResourceManager/AzureRM.RedisCache/v2.1.0/Remove-AzureRmRedisCachePatchSchedule.md)
 
 

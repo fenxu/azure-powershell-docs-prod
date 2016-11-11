@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: 7e2d3105-ae14-40c6-a715-57d63c178cde
+online version: 
 schema: 2.0.0
 ms.assetid: 77502783-0006-4288-917F-26F265CCFCBE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationCertificate.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Set-AzureRmAutomationCertificate
@@ -30,7 +31,7 @@ Set-AzureRmAutomationCertificate [-Name] <String> [-Description <String>] [-Pass
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmAutomationCertificate** cmdlet modifies the configuration of a certificate in azure_2 Automation.
+The **Set-AzureRmAutomationCertificate** cmdlet modifies the configuration of a certificate in Azure Automation.
 
 ## EXAMPLES
 
@@ -168,10 +169,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationCertificate](./Get-AzureRMAutomationCertificate.md)
+[Get-AzureRmAutomationCertificate](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationCertificate.md)
 
-[New-AzureRmAutomationCertificate](./New-AzureRMAutomationCertificate.md)
+[New-AzureRmAutomationCertificate](xref:ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationCertificate.md)
 
-[Remove-AzureRmAutomationCertificate](./Remove-AzureRMAutomationCertificate.md)
+[Remove-AzureRmAutomationCertificate](xref:ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRMAutomationCertificate.md)
 
 

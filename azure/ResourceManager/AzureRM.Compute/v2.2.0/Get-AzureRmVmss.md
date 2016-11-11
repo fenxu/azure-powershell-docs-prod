@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: 86da105e-48a0-4b73-9bc8-d4430a84def2
+online version: 
 schema: 2.0.0
 ms.assetid: E633B1C7-B87E-4390-A1EE-9D73C767F242
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVmss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVmss.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVmss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVmss.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -116,18 +116,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmVmss](./New-AzureRmVmss.md)
+[New-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmVmss.md)
 
-[Remove-AzureRmVmss](./Remove-AzureRmVmss.md)
+[Remove-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVmss.md)
 
-[Restart-AzureRmVmss](./Restart-AzureRmVmss.md)
+[Restart-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.2.0/Restart-AzureRmVmss.md)
 
-[Set-AzureRmVmss](./Set-AzureRmVmss.md)
+[Set-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVmss.md)
 
-[Start-AzureRmVmss](./Start-AzureRmVmss.md)
+[Start-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.2.0/Start-AzureRmVmss.md)
 
-[Stop-AzureRmVmss](./Stop-AzureRmVmss.md)
+[Stop-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.2.0/Stop-AzureRmVmss.md)
 
-[Update-AzureRmVmss](./Update-AzureRmVmss.md)
+[Update-AzureRmVmss](xref:ResourceManager/AzureRM.Compute/v2.2.0/Update-AzureRmVmss.md)
 
 

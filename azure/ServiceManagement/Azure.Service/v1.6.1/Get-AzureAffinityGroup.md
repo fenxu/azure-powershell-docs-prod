@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\New-AzureAffinityGroup.md
+online version: 
 schema: 2.0.0
 ms.assetid: 985D040B-1148-40B1-ACDD-8C30DD3C7B29
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureAffinityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureAffinityGroup.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureAffinityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureAffinityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureAffinityGroup
 
 ## SYNOPSIS
-Gets an azure_2 affinity group object.
+Gets an Azure affinity group object.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureAffinityGroup [[-Name] <String>] [-Profile <AzureSMProfile>] [-Informat
 ```
 
 ## DESCRIPTION
-The **Get-AzureAffinityGroup** cmdlet gets an azure_2 affinity group.
+The **Get-AzureAffinityGroup** cmdlet gets an Azure affinity group.
 The affinity group object includes the affinity group name, location, label, description and the storage and hosted services that are part of the affinity group.
 
 ## EXAMPLES
@@ -77,7 +77,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -92,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -119,10 +128,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureAffinityGroup](./New-AzureAffinityGroup.md)
+[New-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureAffinityGroup.md)
 
-[Remove-AzureAffinityGroup](./Remove-AzureAffinityGroup.md)
+[Remove-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureAffinityGroup.md)
 
-[Set-AzureAffinityGroup](./Set-AzureAffinityGroup.md)
+[Set-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureAffinityGroup.md)
 
 

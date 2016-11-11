@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
-online version: .\Get-AzureStorSimpleJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: 78B86759-9D0D-4A87-B2C9-BAA32D83A49E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Start-AzureStorSimpleDeviceBackupRestoreJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Start-AzureStorSimpleDeviceBackupRestoreJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Start-AzureStorSimpleDeviceBackupRestoreJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Start-AzureStorSimpleDeviceBackupRestoreJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -123,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-Specifies an azure_2 profile.
+Specifies an Azure profile.
 
 ```yaml
 Type: AzureSMProfile
@@ -184,8 +184,8 @@ If you do not specify that parameter, it returns a **TaskResponse** object.
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleJob](./Get-AzureStorSimpleJob.md)
+[Get-AzureStorSimpleJob](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleJob.md)
 
-[Start-AzureStorSimpleDeviceBackupJob](./Start-AzureStorSimpleDeviceBackupJob.md)
+[Start-AzureStorSimpleDeviceBackupJob](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Start-AzureStorSimpleDeviceBackupJob.md)
 
 

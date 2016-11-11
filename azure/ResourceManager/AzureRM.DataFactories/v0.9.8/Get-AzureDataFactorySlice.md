@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
-online version: .\Set-AzureDataFactorySliceStatus.md
+online version: 
 schema: 2.0.0
 ms.assetid: 3AF4E7FB-1798-47E2-8B3B-7649C0386B50
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactorySlice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactorySlice.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactorySlice.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactorySlice.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -171,7 +171,6 @@ Accept wildcard characters: False
 ```
 
 ### -DatasetName
-@{Text=}
 
 ```yaml
 Type: String
@@ -214,8 +213,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureDataFactorySliceStatus](./Set-AzureDataFactorySliceStatus.md)
+[Set-AzureDataFactorySliceStatus](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Set-AzureDataFactorySliceStatus.md)
 
-[Azure Data Factory Cmdlets](./AzureRM.DataFactories.md)
+[Azure Data Factory Cmdlets](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/AzureRM.DataFactories.md)
 
 

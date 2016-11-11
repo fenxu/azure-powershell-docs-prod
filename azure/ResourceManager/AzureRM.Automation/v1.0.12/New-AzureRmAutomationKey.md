@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: ea09d4b6-ff25-4b91-b957-328222844689
+online version: 
 schema: 2.0.0
 ms.assetid: 3AF84BAF-D40E-43EB-A709-6F7CAF657846
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRmAutomationKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRmAutomationKey.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRmAutomationKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRmAutomationKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # New-AzureRmAutomationKey
@@ -29,7 +30,7 @@ New-AzureRmAutomationKey [-KeyType] <String> [-ResourceGroupName] <String> [-Aut
 ```
 
 ## DESCRIPTION
-The **New-AzureRmAutomationKey** cmdlet regenerates registration keys for an azure_2 Automation account.
+The **New-AzureRmAutomationKey** cmdlet regenerates registration keys for an Azure Automation account.
 
 ## EXAMPLES
 
@@ -38,7 +39,7 @@ The **New-AzureRmAutomationKey** cmdlet regenerates registration keys for an azu
 PS C:\>New-AzureAutomationKey -KeyType Primary -ResourceGroup "ResourceGroup01" -AutomationAccountName "AutomationAccount01"
 ```
 
-This command regenerates the primary key for the azure_2 Automation account named AutomationAccount01 in the resource group named ResourceGroup01.
+This command regenerates the primary key for the Azure Automation account named AutomationAccount01 in the resource group named ResourceGroup01.
 
 ## PARAMETERS
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: 73a4a9ba-477c-41e6-9193-2be97182e07d
+online version: 
 schema: 2.0.0
 ms.assetid: 633C3E61-0DA0-4A01-897B-E81C6E571196
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRMAutomationSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRMAutomationSchedule.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRMAutomationSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRMAutomationSchedule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Remove-AzureRmAutomationSchedule
@@ -29,7 +30,7 @@ Remove-AzureRmAutomationSchedule [-Name] <String> [-Force] [-ResourceGroupName] 
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmAutomationSchedule** cmdlet deletes a schedule from azure_2 Automation.
+The **Remove-AzureRmAutomationSchedule** cmdlet deletes a schedule from Azure Automation.
 
 ## EXAMPLES
 
@@ -103,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -118,7 +119,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -143,10 +145,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationSchedule](./Get-AzureRMAutomationSchedule.md)
+[Get-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationSchedule.md)
 
-[New-AzureRmAutomationSchedule](./New-AzureRMAutomationSchedule.md)
+[New-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationSchedule.md)
 
-[Set-AzureRmAutomationSchedule](./Set-AzureRMAutomationSchedule.md)
+[Set-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationSchedule.md)
 
 

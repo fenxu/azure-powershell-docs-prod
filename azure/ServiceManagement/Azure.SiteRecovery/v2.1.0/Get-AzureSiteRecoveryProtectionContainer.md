@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
-online version: 41fb380e-9434-467a-84d4-1e0bcfe70590
+online version: 
 schema: 2.0.0
 ms.assetid: 0292D567-DC64-45CB-9CA1-73D5EDECA5D7
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryProtectionContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryProtectionContainer.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryProtectionContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryProtectionContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

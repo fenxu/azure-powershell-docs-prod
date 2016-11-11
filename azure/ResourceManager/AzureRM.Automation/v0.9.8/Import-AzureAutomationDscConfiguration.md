@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Export-AzureAutomationDscConfiguration.md
+online version: 
 schema: 2.0.0
 ms.assetid: 7FAB4BAB-2607-4433-A15A-C300841FAF41
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationDscConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationDscConfiguration.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationDscConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationDscConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Import-AzureAutomationDscConfiguration
@@ -35,10 +36,6 @@ Specify the path of a PowerShell script that contains a single DSC configuration
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -48,7 +45,7 @@ Specifies the name of the Automation account into which this cmdlet imports a DS
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -63,7 +60,7 @@ Specifies a description of the configuration that this cmdlet imports.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -78,7 +75,7 @@ Indicates that this cmdlet can replace an existing DSC configuration in Automati
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -94,7 +91,7 @@ Specify a value of $True to turn verbose logging on or $False to turn it off.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -110,7 +107,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -125,7 +122,7 @@ Indicates that this cmdlet imports the DSC configuration in the published state.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -140,7 +137,7 @@ Specifies the name of a resource group for which this cmdlet imports a DSC confi
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -190,8 +187,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureAutomationDscConfiguration](./Export-AzureAutomationDscConfiguration.md)
+[Export-AzureAutomationDscConfiguration](xref:ResourceManager/AzureRM.Automation/v0.9.8/Export-AzureAutomationDscConfiguration.md)
 
-[Get-AzureAutomationDscConfiguration](./Get-AzureAutomationDscConfiguration.md)
-
-
+[Get-AzureAutomationDscConfiguration](xref:ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscConfiguration.md)

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.TrafficManager.dll-Help.xml
-online version: cee33b80-28f2-4913-a46f-f418d79fbea3
+online version: 
 schema: 2.0.0
 ms.assetid: 2A71921D-C8F2-4B21-A93C-4C3A2C36B81A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Add-AzureRmTrafficManagerEndpointConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Add-AzureRmTrafficManagerEndpointConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Add-AzureRmTrafficManagerEndpointConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Add-AzureRmTrafficManagerEndpointConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Add-AzureRmTrafficManagerEndpointConfig
@@ -259,12 +260,12 @@ This cmdlet returns a modified **TrafficManagerProfile** object.
 
 ## RELATED LINKS
 
-[Get-AzureRmTrafficManagerProfile](./Get-AzureRmTrafficManagerProfile.md)
+[Get-AzureRmTrafficManagerProfile](xref:ResourceManager/AzureRM.TrafficManager/v2.2.0/Get-AzureRmTrafficManagerProfile.md)
 
-[New-AzureRmTrafficManagerEndpoint](./New-AzureRmTrafficManagerEndpoint.md)
+[New-AzureRmTrafficManagerEndpoint](xref:ResourceManager/AzureRM.TrafficManager/v2.2.0/New-AzureRmTrafficManagerEndpoint.md)
 
-[Remove-AzureRmTrafficManagerEndpointConfig](./Remove-AzureRmTrafficManagerEndpointConfig.md)
+[Remove-AzureRmTrafficManagerEndpointConfig](xref:ResourceManager/AzureRM.TrafficManager/v2.2.0/Remove-AzureRmTrafficManagerEndpointConfig.md)
 
-[Set-AzureRmTrafficManagerProfile](./Set-AzureRmTrafficManagerProfile.md)
+[Set-AzureRmTrafficManagerProfile](xref:ResourceManager/AzureRM.TrafficManager/v2.2.0/Set-AzureRmTrafficManagerProfile.md)
 
 

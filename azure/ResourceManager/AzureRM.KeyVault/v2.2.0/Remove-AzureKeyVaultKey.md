@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
-online version: https://go.microsoft.com/fwlink/?linkid=829542
+online version: 
 schema: 2.0.0
 ms.assetid: A9754159-420F-412A-B2EA-17E29B43D611
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultKey.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -67,7 +67,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -99,7 +99,7 @@ By default, this cmdlet does not generate any output.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,7 +115,7 @@ This cmdlet constructs the FQDN of a key vault based on the name that this param
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -125,7 +125,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -141,7 +141,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -172,10 +171,8 @@ This cmdlet returns a value only if you specify the *PassThru* parameter.
 
 ## RELATED LINKS
 
-[Add-AzureKeyVaultKey](./Add-AzureKeyVaultKey.md)
+[Add-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Add-AzureKeyVaultKey.md)
 
-[Get-AzureKeyVaultKey](./Get-AzureKeyVaultKey.md)
+[Get-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Get-AzureKeyVaultKey.md)
 
-[Set-AzureKeyVaultKeyAttribute](./Set-AzureKeyVaultKeyAttribute.md)
-
-
+[Set-AzureKeyVaultKeyAttribute](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultKeyAttribute.md)

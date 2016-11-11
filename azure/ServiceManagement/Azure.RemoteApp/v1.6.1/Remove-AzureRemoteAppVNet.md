@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Get-AzureRemoteAppVNet.md
+online version: 
 schema: 2.0.0
 ms.assetid: ED191A06-0C1D-486E-91F3-3CB61AA470A6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppVNet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppVNet.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppVNet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppVNet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureRemoteAppVNet
 
 ## SYNOPSIS
-Deletes an azure_2 RemoteApp virtual network.
+Deletes an Azure RemoteApp virtual network.
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Remove-AzureRemoteAppVNet -VNetName <String> [-Profile <AzureSMProfile>] [<Commo
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRemoteAppVNet** cmdlet deletes an azure_2 RemoteApp virtual network.
+The **Remove-AzureRemoteAppVNet** cmdlet deletes an Azure RemoteApp virtual network.
 
 ## EXAMPLES
 
@@ -43,7 +43,7 @@ This command deletes the virtual network named ContosoVNet
 ## PARAMETERS
 
 ### -VNetName
-Specifies the name of the azure_2 RemoteApp virtual network to delete.
+Specifies the name of the Azure RemoteApp virtual network to delete.
 
 ```yaml
 Type: String
@@ -83,8 +83,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppVNet](./Get-AzureRemoteAppVNet.md)
+[Get-AzureRemoteAppVNet](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppVNet.md)
 
-[Set-AzureRemoteAppVNet](./Set-AzureRemoteAppVNet.md)
+[Set-AzureRemoteAppVNet](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Set-AzureRemoteAppVNet.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\New-AzureRmAvailabilitySet.md
+online version: 
 schema: 2.0.0
 ms.assetid: CA32A23B-631A-4C8C-A045-719E7FEEF2CC
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmAvailabilitySet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmAvailabilitySet.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmAvailabilitySet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmAvailabilitySet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmAvailabilitySet
 
 ## SYNOPSIS
-Gets azure_2 availability sets in a resource group.
+Gets Azure availability sets in a resource group.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureRmAvailabilitySet [-ResourceGroupName] <String> [[-Name] <String>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAvailabilitySet** cmdlet gets azure_2 availability sets in a resource group.
+The **Get-AzureRmAvailabilitySet** cmdlet gets Azure availability sets in a resource group.
 You can specify the name of a specific availability set to get.
 
 ## EXAMPLES
@@ -82,7 +82,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -97,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -122,8 +131,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAvailabilitySet](./New-AzureRmAvailabilitySet.md)
+[New-AzureRmAvailabilitySet](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmAvailabilitySet.md)
 
-[Remove-AzureRmAvailabilitySet](./Remove-AzureRmAvailabilitySet.md)
+[Remove-AzureRmAvailabilitySet](xref:ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmAvailabilitySet.md)
 
 

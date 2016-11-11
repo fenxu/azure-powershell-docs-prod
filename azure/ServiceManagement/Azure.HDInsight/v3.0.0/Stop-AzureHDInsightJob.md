@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 01D27482-B56F-440D-AD92-5E31D170ABEB
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Stop-AzureHDInsightJob.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Stop-AzureHDInsightJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Stop-AzureHDInsightJob.md
 ms.topic: reference
 ms.prod: powershell
@@ -208,10 +208,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureHDInsightJob](./Get-AzureHDInsightJob.md)
+[Get-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v3.0.0/Get-AzureHDInsightJob.md)
 
-[Start-AzureHDInsightJob](./Start-AzureHDInsightJob.md)
+[Start-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v3.0.0/Start-AzureHDInsightJob.md)
 
-[Wait-AzureHDInsightJob](./Wait-AzureHDInsightJob.md)
+[Wait-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v3.0.0/Wait-AzureHDInsightJob.md)
 
 

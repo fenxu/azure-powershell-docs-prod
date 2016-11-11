@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\Get-AzureBatchTask.md
+online version: 
 schema: 2.0.0
 ms.assetid: E7831067-35C5-404A-BFA5-07805DF0725A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchTask.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -35,7 +35,7 @@ Stop-AzureBatchTask [-Task] <PSCloudTask> -BatchContext <BatchAccountContext> [<
 ```
 
 ## DESCRIPTION
-The **Stop-AzureBatchTask** cmdlet stops an azure_2 Batch task.
+The **Stop-AzureBatchTask** cmdlet stops an Azure Batch task.
 
 ## EXAMPLES
 
@@ -132,12 +132,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureBatchTask](./Get-AzureBatchTask.md)
+[Get-AzureBatchTask](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchTask.md)
 
-[New-AzureBatchTask](./New-AzureBatchTask.md)
+[New-AzureBatchTask](xref:ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchTask.md)
 
-[Remove-AzureBatchTask](./Remove-AzureBatchTask.md)
+[Remove-AzureBatchTask](xref:ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchTask.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v1.1.4/AzureRM.Batch.md)
 
 

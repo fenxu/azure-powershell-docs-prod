@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
-online version: 62c5de93-e58b-4e57-85d0-8b7e75df1f31
+online version: 
 schema: 2.0.0
 ms.assetid: 3A514910-AF12-4BC2-B9D3-A19FF28DA1E6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Stop-AzureWebsiteJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Stop-AzureWebsiteJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Stop-AzureWebsiteJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Stop-AzureWebsiteJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -105,7 +105,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureSMProfile
@@ -130,14 +129,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Stop-AzureWebsite](./Stop-AzureWebsite.md)
+[Stop-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Stop-AzureWebsite.md)
 
-[Get-AzureWebsiteJob](./Get-AzureWebsiteJob.md)
+[Get-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsiteJob.md)
 
-[New-AzureWebsiteJob](./New-AzureWebsiteJob.md)
+[New-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v3.0.0/New-AzureWebsiteJob.md)
 
-[Remove-AzureWebsiteJob](./Remove-AzureWebsiteJob.md)
+[Remove-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-AzureWebsiteJob.md)
 
-[Start-AzureWebsiteJob](./Start-AzureWebsiteJob.md)
+[Start-AzureWebsiteJob](xref:ServiceManagement/Azure.Compute/v3.0.0/Start-AzureWebsiteJob.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
-online version: .\Export-AzureRmDataLakeStoreItem.md
+online version: 
 schema: 2.0.0
 ms.assetid: 4D592AE0-4FD1-4E20-91D1-7DD73718FEBB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v2.1.0/Test-AzureRmDataLakeStoreItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v2.1.0/Test-AzureRmDataLakeStoreItem.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v2.1.0/Test-AzureRmDataLakeStoreItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v2.1.0/Test-AzureRmDataLakeStoreItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -94,7 +94,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -109,7 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -134,16 +143,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmDataLakeStoreItem](./Export-AzureRmDataLakeStoreItem.md)
+[Export-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v2.1.0/Export-AzureRmDataLakeStoreItem.md)
 
-[Get-AzureRmDataLakeStoreItem](./Get-AzureRmDataLakeStoreItem.md)
+[Get-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v2.1.0/Get-AzureRmDataLakeStoreItem.md)
 
-[Import-AzureRmDataLakeStoreItem](./Import-AzureRmDataLakeStoreItem.md)
+[Import-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v2.1.0/Import-AzureRmDataLakeStoreItem.md)
 
-[Join-AzureRmDataLakeStoreItem](./Join-AzureRmDataLakeStoreItem.md)
+[Join-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v2.1.0/Join-AzureRmDataLakeStoreItem.md)
 
-[Move-AzureRmDataLakeStoreItem](./Move-AzureRmDataLakeStoreItem.md)
+[Move-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v2.1.0/Move-AzureRmDataLakeStoreItem.md)
 
-[Remove-AzureRmDataLakeStoreItem](./Remove-AzureRmDataLakeStoreItem.md)
+[Remove-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v2.1.0/Remove-AzureRmDataLakeStoreItem.md)
 
 

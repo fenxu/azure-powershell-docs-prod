@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Add-AzureRmVpnClientRevokedCertificate.md
+online version: 
 schema: 2.0.0
 ms.assetid: 1C766AE8-84B5-48A0-8A96-79D605657B2F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVpnClientRevokedCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVpnClientRevokedCertificate.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVpnClientRevokedCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVpnClientRevokedCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -80,7 +80,7 @@ Accept wildcard characters: False
 ### -ResourceGroupName
 Specifies the name of the resource group that the virtual network gateway is assigned to.
 
-Resource groups categorize items to help simplify inventory management and general azure_2 administration.
+Resource groups categorize items to help simplify inventory management and general Azure administration.
 
 ```yaml
 Type: String
@@ -116,7 +116,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -131,7 +140,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -156,10 +165,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmVpnClientRevokedCertificate](./Add-AzureRmVpnClientRevokedCertificate.md)
+[Add-AzureRmVpnClientRevokedCertificate](xref:ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmVpnClientRevokedCertificate.md)
 
-[Get-AzureRmVpnClientRevokedCertificate](./Get-AzureRmVpnClientRevokedCertificate.md)
+[Get-AzureRmVpnClientRevokedCertificate](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmVpnClientRevokedCertificate.md)
 
-[New-AzureRmVpnClientRevokedCertificate](./New-AzureRmVpnClientRevokedCertificate.md)
+[New-AzureRmVpnClientRevokedCertificate](xref:ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmVpnClientRevokedCertificate.md)
 
 

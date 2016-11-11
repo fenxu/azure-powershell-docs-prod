@@ -6,8 +6,9 @@ Help Version: 1.0.0.0
 Locale: en-US
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Azure.SiteRecovery.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Azure.SiteRecovery.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Azure.SiteRecovery.md
+uid: ServiceManagement/Azure.SiteRecovery/v1.6.1/Azure.SiteRecovery.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

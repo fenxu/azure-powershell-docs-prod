@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureNetworkInterfaceConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: 1289D55F-4227-4C3D-A3A3-379ECB9752F8
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Add-AzureNetworkInterfaceConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Add-AzureNetworkInterfaceConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Add-AzureNetworkInterfaceConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Add-AzureNetworkInterfaceConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -143,10 +143,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureNetworkInterfaceConfig](./Get-AzureNetworkInterfaceConfig.md)
+[Get-AzureNetworkInterfaceConfig](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureNetworkInterfaceConfig.md)
 
-[Remove-AzureNetworkInterfaceConfig](./Remove-AzureNetworkInterfaceConfig.md)
+[Remove-AzureNetworkInterfaceConfig](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureNetworkInterfaceConfig.md)
 
-[Set-AzureNetworkInterfaceConfig](./Set-AzureNetworkInterfaceConfig.md)
+[Set-AzureNetworkInterfaceConfig](xref:ServiceManagement/Azure.Service/v0.9.8/Set-AzureNetworkInterfaceConfig.md)
 
 

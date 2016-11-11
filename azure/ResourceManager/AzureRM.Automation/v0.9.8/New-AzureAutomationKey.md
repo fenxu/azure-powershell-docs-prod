@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Get-AzureAutomationAccount.md
+online version: 
 schema: 2.0.0
 ms.assetid: 23F26DE1-2298-4CE5-9D38-651A7EB29CD4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationKey.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # New-AzureAutomationKey
@@ -33,10 +34,7 @@ The **New-AzureAutomationKey** cmdlet regenerates registration keys for an Azure
 
 ## EXAMPLES
 
-### 1:
-```
 
-```
 
 ## PARAMETERS
 
@@ -46,7 +44,7 @@ Specifies the name of an Automation account for which this cmdlet regenerates ke
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -62,7 +60,7 @@ Valid values are: Primary and Secondary.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Primary, Secondary
 
 Required: True
@@ -79,7 +77,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,7 +93,7 @@ This cmdlet regenerates keys for an Automation account in the resource group tha
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -115,8 +113,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAutomationAccount](./Get-AzureAutomationAccount.md)
+[Get-AzureAutomationAccount](xref:ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationAccount.md)
 
-[New-AzureAutomationAccount](./New-AzureAutomationAccount.md)
-
-
+[New-AzureAutomationAccount](xref:ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationAccount.md)

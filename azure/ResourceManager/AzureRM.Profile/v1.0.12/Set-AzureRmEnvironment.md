@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
-online version: .\Add-AzureRmEnvironment.md
+online version: 
 schema: 2.0.0
 ms.assetid: 5600D8DC-6CAC-4B4C-9FDE-45031A5F14B9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Set-AzureRmEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Set-AzureRmEnvironment.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Set-AzureRmEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Set-AzureRmEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureRmEnvironment
 
 ## SYNOPSIS
-Sets properties for an azure_2 environment.
+Sets properties for an Azure environment.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ Set-AzureRmEnvironment [-Name] <String> [[-PublishSettingsFileUrl] <String>] [[-
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmEnvironment** cmdlet sets endpoints and metadata for connecting to an instance of azure_2.
+The **Set-AzureRmEnvironment** cmdlet sets endpoints and metadata for connecting to an instance of Azure.
 
 ## EXAMPLES
 
@@ -49,7 +49,7 @@ The **Set-AzureRmEnvironment** cmdlet sets endpoints and metadata for connecting
 ## PARAMETERS
 
 ### -ActiveDirectoryEndpoint
-Specifies the base authority for azure_2 Active Directory authentication.
+Specifies the base authority for Azure Active Directory authentication.
 
 ```yaml
 Type: String
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -ActiveDirectoryServiceEndpointResourceId
-Specifies the audience for tokens that authenticate requests to azure_2 Resource Manager or Service Management (RDFE) endpoints.
+Specifies the audience for tokens that authenticate requests to Azure Resource Manager or Service Management (RDFE) endpoints.
 
 ```yaml
 Type: String
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -AzureKeyVaultDnsSuffix
-Specifies the domain name suffix for azure_2 Key Vault services.
+Specifies the domain name suffix for Azure Key Vault services.
 
 ```yaml
 Type: String
@@ -154,7 +154,7 @@ Accept wildcard characters: False
 ```
 
 ### -GraphEndpoint
-Specifies the URL for azure_2 Active Directory Graph requests.
+Specifies the URL for Azure Active Directory Graph requests.
 
 ```yaml
 Type: String
@@ -244,7 +244,7 @@ Accept wildcard characters: False
 ```
 
 ### -SqlDatabaseDnsSuffix
-Specifies the domain name suffix for azure_2 SQL Database servers.
+Specifies the domain name suffix for Azure SQL Database servers.
 
 ```yaml
 Type: String
@@ -275,7 +275,7 @@ Accept wildcard characters: False
 ```
 
 ### -TrafficManagerDnsSuffix
-Specifies the domain name suffix for azure_2 Traffic Manager services.
+Specifies the domain name suffix for Azure Traffic Manager services.
 
 ```yaml
 Type: String
@@ -290,7 +290,7 @@ Accept wildcard characters: False
 ```
 
 ### -AzureDataLakeAnalyticsCatalogAndJobEndpointSuffix
-Specifies the azure_2 Data Lake Analytics catalog and job endpoint suffix.
+Specifies the Azure Data Lake Analytics catalog and job endpoint suffix.
 
 ```yaml
 Type: String
@@ -305,7 +305,7 @@ Accept wildcard characters: False
 ```
 
 ### -AzureDataLakeStoreFileSystemEndpointSuffix
-Specifies the azure_2 Data Lake Store files system endpoint suffix.
+Specifies the Azure Data Lake Store files system endpoint suffix.
 
 ```yaml
 Type: String
@@ -320,7 +320,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -335,7 +335,6 @@ Accept wildcard characters: False
 ```
 
 ### -GraphAudience
-@{Text=}
 
 ```yaml
 Type: String
@@ -350,7 +349,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -375,10 +375,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmEnvironment](./Add-AzureRmEnvironment.md)
+[Add-AzureRmEnvironment](xref:ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmEnvironment.md)
 
-[Get-AzureRmEnvironment](./Get-AzureRmEnvironment.md)
+[Get-AzureRmEnvironment](xref:ResourceManager/AzureRM.Profile/v1.0.12/Get-AzureRmEnvironment.md)
 
-[Remove-AzureRmEnvironment](./Remove-AzureRmEnvironment.md)
+[Remove-AzureRmEnvironment](xref:ResourceManager/AzureRM.Profile/v1.0.12/Remove-AzureRmEnvironment.md)
 
 

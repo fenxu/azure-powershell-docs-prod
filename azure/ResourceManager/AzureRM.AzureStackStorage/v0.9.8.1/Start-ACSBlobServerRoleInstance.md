@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
-online version: .\Stop-ACSBlobServerRoleInstance.md
+online version: 
 schema: 2.0.0
 ms.assetid: 1FF9AA26-0ABE-4429-BA17-4C2D25EE81BE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Start-ACSBlobServerRoleInstance.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Start-ACSBlobServerRoleInstance.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Start-ACSBlobServerRoleInstance.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Start-ACSBlobServerRoleInstance.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ Start-ACSBlobServerRoleInstance [-FarmName] <String> [-InstanceId] <String> [[-S
 ```
 
 ## DESCRIPTION
-The **Start-ACSBlobServerRoleInstance** cmdlet starts the azure_2 Consistent Storage (ACS) blob service instance on a specific physical node.
+The **Start-ACSBlobServerRoleInstance** cmdlet starts the Azure Consistent Storage (ACS) blob service instance on a specific physical node.
 
 ## EXAMPLES
 
@@ -157,7 +157,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -172,7 +173,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -200,10 +201,10 @@ Output from Get-ACSFarm and Get-ACSRoleInstance can be piped to this cmdlet's in
 
 ## RELATED LINKS
 
-[Stop-ACSBlobServerRoleInstance](./Stop-ACSBlobServerRoleInstance.md)
+[Stop-ACSBlobServerRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Stop-ACSBlobServerRoleInstance.md)
 
-[Get-ACSRoleInstance](./Get-ACSRoleInstance.md)
+[Get-ACSRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSRoleInstance.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarm.md)
 
 

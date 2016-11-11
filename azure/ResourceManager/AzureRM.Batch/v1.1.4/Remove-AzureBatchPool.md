@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\Get-AzureRmBatchAccountKeys.md
+online version: 
 schema: 2.0.0
 ms.assetid: 3D6783EC-142C-4CA5-9940-D6E219CE7EE5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchPool.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Remove-AzureBatchPool [-Id] <String> [-Force] -BatchContext <BatchAccountContext
 ```
 
 ## DESCRIPTION
-The **Remove-AzureBatchPool** cmdlet deletes the specified azure_2 Batch pool.
+The **Remove-AzureBatchPool** cmdlet deletes the specified Azure Batch pool.
 You are prompted for confirmation unless you use the *Force* parameter.
 
 ## EXAMPLES
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -116,7 +116,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -141,12 +142,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBatchAccountKeys](./Get-AzureRmBatchAccountKeys.md)
+[Get-AzureRmBatchAccountKeys](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchAccountKeys.md)
 
-[Get-AzureBatchPool](./Get-AzureBatchPool.md)
+[Get-AzureBatchPool](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchPool.md)
 
-[New-AzureBatchPool](./New-AzureBatchPool.md)
+[New-AzureBatchPool](xref:ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchPool.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v1.1.4/AzureRM.Batch.md)
 
 

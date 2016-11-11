@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Get-AzureRmLocalNetworkGateway.md
+online version: 
 schema: 2.0.0
 ms.assetid: E0C70DB1-A911-4C93-BA73-00275C6D73BC
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -32,8 +32,8 @@ Set-AzureRmVirtualNetworkGatewayDefaultSite -VirtualNetworkGateway <PSVirtualNet
 
 ## DESCRIPTION
 The **Set-AzureRmVirtualNetworkGatewayDefaultSite** cmdlet assigns a forced tunneling default site to a virtual network gateway.
-Forced tunneling provides a way for you to redirect Internet-bound traffic from azure_2 virtual machines to your on-premises network; this enables you to inspect and audit traffic before releasing it.
-Forced tunneling is carried out by using a virtual private network (VPN) tunnel; this tunnel requires a default site, a local gateway where all the azure_2 Internet-bound traffic is redirected.
+Forced tunneling provides a way for you to redirect Internet-bound traffic from Azure virtual machines to your on-premises network; this enables you to inspect and audit traffic before releasing it.
+Forced tunneling is carried out by using a virtual private network (VPN) tunnel; this tunnel requires a default site, a local gateway where all the Azure Internet-bound traffic is redirected.
 **Set-AzureRmVirtualNetworkGatewayDefaultSite** provides a way to change the default site assigned to a gateway.
 
 ## EXAMPLES
@@ -92,7 +92,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -107,7 +116,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -138,10 +147,10 @@ This cmdlet modifies existing instances of the **Microsoft.Azure.Commands.Networ
 
 ## RELATED LINKS
 
-[Get-AzureRmLocalNetworkGateway](./Get-AzureRmLocalNetworkGateway.md)
+[Get-AzureRmLocalNetworkGateway](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmLocalNetworkGateway.md)
 
-[Get-AzureRmVirtualNetworkGateway](./Get-AzureRmVirtualNetworkGateway.md)
+[Get-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmVirtualNetworkGateway.md)
 
-[Remove-AzureRmVirtualNetworkGatewayDefaultSite](./Remove-AzureRmVirtualNetworkGatewayDefaultSite.md)
+[Remove-AzureRmVirtualNetworkGatewayDefaultSite](xref:ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVirtualNetworkGatewayDefaultSite.md)
 
 

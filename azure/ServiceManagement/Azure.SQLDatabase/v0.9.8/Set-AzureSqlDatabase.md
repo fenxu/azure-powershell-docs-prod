@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
-online version: .\Get-AzureSqlDatabase.md
+online version: 
 schema: 2.0.0
 ms.assetid: C1B89561-B9FD-4408-9884-E38570CF8A80
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Set-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Set-AzureSqlDatabase.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Set-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Set-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -247,7 +247,6 @@ Accept wildcard characters: False
 ```
 
 ### -Sync
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -353,12 +352,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSqlDatabase](./Get-AzureSqlDatabase.md)
+[Get-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/Get-AzureSqlDatabase.md)
 
-[New-AzureSqlDatabase](./New-AzureSqlDatabase.md)
+[New-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/New-AzureSqlDatabase.md)
 
-[Remove-AzureSqlDatabase](./Remove-AzureSqlDatabase.md)
+[Remove-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/Remove-AzureSqlDatabase.md)
 
-[New-AzureSqlDatabaseServerContext](./New-AzureSqlDatabaseServerContext.md)
+[New-AzureSqlDatabaseServerContext](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/New-AzureSqlDatabaseServerContext.md)
 
 

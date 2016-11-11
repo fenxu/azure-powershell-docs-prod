@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
-online version: http://go.microsoft.com/FWLink/p/?LinkID=311701
+online version: 
 schema: 2.0.0
 ms.assetid: 5E0E5009-A69F-4621-A317-68A8109AABF8
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Enable-AzureWebsiteApplicationDiagnostic.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Enable-AzureWebsiteApplicationDiagnostic.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Enable-AzureWebsiteApplicationDiagnostic.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Enable-AzureWebsiteApplicationDiagnostic.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -244,14 +244,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureWebsiteApplicationDiagnostic](./Disable-AzureWebsiteApplicationDiagnostic.md)
+[Disable-AzureWebsiteApplicationDiagnostic](xref:ServiceManagement/Azure.Compute/v1.6.1/Disable-AzureWebsiteApplicationDiagnostic.md)
 
-[Get-AzureWebsite](./Get-AzureWebsite.md)
+[Get-AzureWebsite](xref:ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebsite.md)
 
-[New-AzureWebsite](./New-AzureWebsite.md)
+[New-AzureWebsite](xref:ServiceManagement/Azure.Compute/v1.6.1/New-AzureWebsite.md)
 
-[Remove-AzureWebsite](./Remove-AzureWebsite.md)
+[Remove-AzureWebsite](xref:ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureWebsite.md)
 
-[Start-AzureWebsite](./Start-AzureWebsite.md)
+[Start-AzureWebsite](xref:ServiceManagement/Azure.Compute/v1.6.1/Start-AzureWebsite.md)
 
 

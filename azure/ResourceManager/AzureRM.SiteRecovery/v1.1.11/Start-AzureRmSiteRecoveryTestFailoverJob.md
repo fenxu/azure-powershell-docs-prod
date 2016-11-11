@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: .\Get-AzureRmSiteRecoveryJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: 8C2F1B76-4516-478F-AC85-007914CA83B4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryTestFailoverJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryTestFailoverJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryTestFailoverJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Start-AzureRmSiteRecoveryTestFailoverJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -65,7 +65,7 @@ Start-AzureRmSiteRecoveryTestFailoverJob -ProtectionEntity <ASRProtectionEntity>
 ```
 
 ## DESCRIPTION
-The **Start-AzureRmSiteRecoveryTestFailoverJob** cmdlet starts test failover of an azure_2 Site Recovery protection entity or recovery plan.
+The **Start-AzureRmSiteRecoveryTestFailoverJob** cmdlet starts test failover of an Azure Site Recovery protection entity or recovery plan.
 You can check whether the job succeeded by using the Get-AzureRmSiteRecoveryJob cmdlet.
 
 ## EXAMPLES
@@ -78,7 +78,7 @@ You can check whether the job succeeded by using the Get-AzureRmSiteRecoveryJob 
 ## PARAMETERS
 
 ### -AzureVMNetworkId
-Specifies the azure_2 virtual network ID.
+Specifies the Azure virtual network ID.
 
 ```yaml
 Type: String
@@ -221,6 +221,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryJob](./Get-AzureRmSiteRecoveryJob.md)
+[Get-AzureRmSiteRecoveryJob](xref:ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryJob.md)
 
 

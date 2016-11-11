@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
-online version: 07b0c67a-6efa-48eb-b795-8eaa4fc83646
+online version: 
 schema: 2.0.0
 ms.assetid: 0A0A1917-9BD0-4554-AF32-AD564ADCD604
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Get-AzureRmStreamAnalyticsJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Get-AzureRmStreamAnalyticsJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Get-AzureRmStreamAnalyticsJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Get-AzureRmStreamAnalyticsJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -136,12 +136,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmStreamAnalyticsJob](./New-AzureRmStreamAnalyticsJob.md)
+[New-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v2.2.0/New-AzureRmStreamAnalyticsJob.md)
 
-[Remove-AzureRmStreamAnalyticsJob](./Remove-AzureRmStreamAnalyticsJob.md)
+[Remove-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Remove-AzureRmStreamAnalyticsJob.md)
 
-[Start-AzureRmStreamAnalyticsJob](./Start-AzureRmStreamAnalyticsJob.md)
+[Start-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Start-AzureRmStreamAnalyticsJob.md)
 
-[Stop-AzureRmStreamAnalyticsJob](./Stop-AzureRmStreamAnalyticsJob.md)
+[Stop-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Stop-AzureRmStreamAnalyticsJob.md)
 
 

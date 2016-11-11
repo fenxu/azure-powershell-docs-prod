@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: 666bd93b-69d0-4cae-bcd3-1496eb60fd65
+online version: 
 schema: 2.0.0
 ms.assetid: 1D557E05-D8CC-4972-96BA-9EA285170A6C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayHttpListener.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayHttpListener.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayHttpListener.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayHttpListener.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -241,12 +241,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApplicationGatewayHttpListener](./Add-AzureRmApplicationGatewayHttpListener.md)
+[Add-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v3.0.0/Add-AzureRmApplicationGatewayHttpListener.md)
 
-[Get-AzureRmApplicationGatewayHttpListener](./Get-AzureRmApplicationGatewayHttpListener.md)
+[Get-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmApplicationGatewayHttpListener.md)
 
-[New-AzureRmApplicationGatewayHttpListener](./New-AzureRmApplicationGatewayHttpListener.md)
+[New-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmApplicationGatewayHttpListener.md)
 
-[Remove-AzureRmApplicationGatewayHttpListener](./Remove-AzureRmApplicationGatewayHttpListener.md)
+[Remove-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmApplicationGatewayHttpListener.md)
 
 

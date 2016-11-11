@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureAffinityGroup.md
+online version: 
 schema: 2.0.0
 ms.assetid: 638D7003-1BCB-409A-989A-C8EEC7B80746
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureAffinityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureAffinityGroup.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureAffinityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureAffinityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Set-AzureAffinityGroup [-Name] <String> -Label <String> [-Description <String>] 
 ```
 
 ## DESCRIPTION
-The **Set-AzureAffinityGroup** cmdlet modifies properties of an azure_2 affinity group.
+The **Set-AzureAffinityGroup** cmdlet modifies properties of an Azure affinity group.
 You can change the label and the description.
 
 ## EXAMPLES
@@ -107,7 +107,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -122,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -147,10 +156,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAffinityGroup](./Get-AzureAffinityGroup.md)
+[Get-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureAffinityGroup.md)
 
-[New-AzureAffinityGroup](./New-AzureAffinityGroup.md)
+[New-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureAffinityGroup.md)
 
-[Remove-AzureAffinityGroup](./Remove-AzureAffinityGroup.md)
+[Remove-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureAffinityGroup.md)
 
 

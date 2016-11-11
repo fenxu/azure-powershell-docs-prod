@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 851C7039-8B33-44F5-93C3-C8F8730CAC3A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Get-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Get-AzureRmRedisCache.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Get-AzureRmRedisCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Get-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -40,7 +40,7 @@ Get-AzureRmRedisCache -ResourceGroupName <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmRedisCache** cmdlet gets the specified azure_2 Redis Cache.
+The **Get-AzureRmRedisCache** cmdlet gets the specified Azure Redis Cache.
 If you specify no parameters, this operation gets every Redis Cache for the current subscription.
 
 ## EXAMPLES
@@ -217,10 +217,10 @@ Returns an array of **RedisCacheAttributes** objects.
 
 ## RELATED LINKS
 
-[New-AzureRmRedisCache](./New-AzureRmRedisCache.md)
+[New-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/New-AzureRmRedisCache.md)
 
-[Remove-AzureRmRedisCache](./Remove-AzureRmRedisCache.md)
+[Remove-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Remove-AzureRmRedisCache.md)
 
-[Set-AzureRmRedisCache](./Set-AzureRmRedisCache.md)
+[Set-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Set-AzureRmRedisCache.md)
 
 

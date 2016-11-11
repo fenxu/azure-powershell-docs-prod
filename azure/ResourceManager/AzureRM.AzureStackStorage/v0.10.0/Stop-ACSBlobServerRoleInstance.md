@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
-online version: .\Start-ACSBlobServerRoleInstance.md
+online version: 
 schema: 2.0.0
 ms.assetid: CE9BE4F5-4154-461F-9D72-AB015AE8AF41
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Stop-ACSBlobServerRoleInstance.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Stop-ACSBlobServerRoleInstance.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Stop-ACSBlobServerRoleInstance.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Stop-ACSBlobServerRoleInstance.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -202,10 +202,10 @@ Output from Get-ACSFarm and Get-ACSRoleInstance can be piped to this cmdlet's in
 
 ## RELATED LINKS
 
-[Start-ACSBlobServerRoleInstance](./Start-ACSBlobServerRoleInstance.md)
+[Start-ACSBlobServerRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Start-ACSBlobServerRoleInstance.md)
 
-[Get-ACSRoleInstance](./Get-ACSRoleInstance.md)
+[Get-ACSRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstance.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md)
 
 

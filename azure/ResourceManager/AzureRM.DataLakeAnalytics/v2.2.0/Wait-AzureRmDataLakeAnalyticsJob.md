@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DataLakeAnalytics.dll-Help.xml
-online version: 7973d46e-7f57-480e-b5e2-d37400364424
+online version: 
 schema: 2.0.0
 ms.assetid: 4E50ABA5-D0F4-4333-9373-9EAF21E4F6E0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/Wait-AzureRmDataLakeAnalyticsJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/Wait-AzureRmDataLakeAnalyticsJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/Wait-AzureRmDataLakeAnalyticsJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/Wait-AzureRmDataLakeAnalyticsJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -114,10 +114,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmDataLakeAnalyticsJob](./Get-AzureRmDataLakeAnalyticsJob.md)
+[Get-AzureRmDataLakeAnalyticsJob](xref:ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/Get-AzureRmDataLakeAnalyticsJob.md)
 
-[Stop-AzureRmDataLakeAnalyticsJob](./Stop-AzureRmDataLakeAnalyticsJob.md)
+[Stop-AzureRmDataLakeAnalyticsJob](xref:ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/Stop-AzureRmDataLakeAnalyticsJob.md)
 
-[Submit-AzureRmDataLakeAnalyticsJob](./Submit-AzureRmDataLakeAnalyticsJob.md)
+[Submit-AzureRmDataLakeAnalyticsJob](xref:ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/Submit-AzureRmDataLakeAnalyticsJob.md)
 
 

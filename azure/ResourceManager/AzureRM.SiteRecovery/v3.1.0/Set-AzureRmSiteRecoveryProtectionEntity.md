@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: 93720545-7fcc-4149-aed3-d0db61d275b4
+online version: 
 schema: 2.0.0
 ms.assetid: EEE53ABF-120C-49A4-83FD-ABFFE70F42E0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryProtectionEntity.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryProtectionEntity.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryProtectionEntity.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryProtectionEntity.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -55,10 +55,6 @@ The **Set-AzureRmSiteRecoveryProtectionEntity** cmdlet enables or disables prote
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -68,7 +64,7 @@ Specifies the protection entity object.
 ```yaml
 Type: ASRProtectionEntity
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -87,7 +83,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -102,7 +98,7 @@ Indicates that the command waits for completion before returning.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -117,7 +113,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -128,7 +124,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
+
 The cmdlet is not run.
 
 ```yaml
@@ -144,7 +140,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -164,7 +160,7 @@ Specifies the Site Recovery policy object.
 ```yaml
 Type: ASRPolicy
 Parameter Sets: EnterpriseToEnterprise, HyperVSiteToAzure, EnterpriseToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -179,7 +175,7 @@ Specifies the ID of the target Azure Storage account.
 ```yaml
 Type: String
 Parameter Sets: HyperVSiteToAzure, EnterpriseToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -194,7 +190,7 @@ Specifies the name of the disk that contains the operating system.
 ```yaml
 Type: String
 Parameter Sets: HyperVSiteToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -213,7 +209,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: String
 Parameter Sets: HyperVSiteToAzure
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -233,6 +229,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryProtectionEntity](./Get-AzureRmSiteRecoveryProtectionEntity.md)
-
-
+[Get-AzureRmSiteRecoveryProtectionEntity](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryProtectionEntity.md)

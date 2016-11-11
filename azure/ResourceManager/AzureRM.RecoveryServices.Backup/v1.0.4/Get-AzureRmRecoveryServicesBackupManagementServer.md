@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xml
-online version: .\Unregister-AzureRmRecoveryServicesBackupManagementServer.md
+online version: 
 schema: 2.0.0
 ms.assetid: 05354755-B450-467F-A8AC-64DBD5834F38
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Get-AzureRmRecoveryServicesBackupManagementServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Get-AzureRmRecoveryServicesBackupManagementServer.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Get-AzureRmRecoveryServicesBackupManagementServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Get-AzureRmRecoveryServicesBackupManagementServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -32,7 +32,7 @@ Get-AzureRmRecoveryServicesBackupManagementServer [[-Name] <String>] [-Informati
 ## DESCRIPTION
 The **Get-AzureRmRecoveryServicesBackupManagementServer** cmdlet gets a list of Backup management servers that are registered in a vault.
 
-There are two types of Backup management servers: System Center Data Protection Manager (SCDPM) and azure_2 Backup management servers.
+There are two types of Backup management servers: System Center Data Protection Manager (SCDPM) and Azure Backup management servers.
 Backup management servers are installed separately to manage Backup orchestration.
 
 Set the vault context by using the Set-AzureRmRecoveryServicesVaultContext cmdlet before you use the current cmdlet.
@@ -64,7 +64,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -79,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -104,6 +113,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Unregister-AzureRmRecoveryServicesBackupManagementServer](./Unregister-AzureRmRecoveryServicesBackupManagementServer.md)
+[Unregister-AzureRmRecoveryServicesBackupManagementServer](xref:ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Unregister-AzureRmRecoveryServicesBackupManagementServer.md)
 
 

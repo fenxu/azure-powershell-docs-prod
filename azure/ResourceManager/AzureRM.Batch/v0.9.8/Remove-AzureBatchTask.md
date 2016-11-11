@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\Get-AzureBatchAccountKeys.md
+online version: 
 schema: 2.0.0
 ms.assetid: 3D1EF84F-713A-474F-9D9A-BE32A8EA0CFF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v0.9.8/Remove-AzureBatchTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v0.9.8/Remove-AzureBatchTask.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v0.9.8/Remove-AzureBatchTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v0.9.8/Remove-AzureBatchTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -165,12 +165,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureBatchAccountKeys](./Get-AzureBatchAccountKeys.md)
+[Get-AzureBatchAccountKeys](xref:ResourceManager/AzureRM.Batch/v0.9.8/Get-AzureBatchAccountKeys.md)
 
-[Get-AzureBatchTask](./Get-AzureBatchTask.md)
+[Get-AzureBatchTask](xref:ResourceManager/AzureRM.Batch/v0.9.8/Get-AzureBatchTask.md)
 
-[New-AzureBatchTask](./New-AzureBatchTask.md)
+[New-AzureBatchTask](xref:ResourceManager/AzureRM.Batch/v0.9.8/New-AzureBatchTask.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v0.9.8/AzureRM.Batch.md)
 
 

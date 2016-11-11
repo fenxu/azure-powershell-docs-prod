@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Save-AzureRmVhd.md
+online version: 
 schema: 2.0.0
 ms.assetid: 2C84CE79-E1E4-4558-A3B6-FC133760B1B9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRMVhd.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRMVhd.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRMVhd.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRMVhd.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Add-AzureRmVhd
 
 ## SYNOPSIS
-Uploads a virtual hard disk from an on-premises virtual machine to a blob in a cloud storage account in azure_2.
+Uploads a virtual hard disk from an on-premises virtual machine to a blob in a cloud storage account in Azure.
 
 ## SYNTAX
 
@@ -133,7 +133,7 @@ Accept wildcard characters: False
 ```
 
 ### -BaseImageUriToPatch
-Specifies the URI to a base image blob in azure_2 Blob Storage.
+Specifies the URI to a base image blob in Azure Blob Storage.
 An SAS can be specified as the value for this parameter.
 
 ```yaml
@@ -164,7 +164,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -179,7 +188,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -204,6 +213,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Save-AzureRmVhd](./Save-AzureRmVhd.md)
+[Save-AzureRmVhd](xref:ResourceManager/AzureRM.Compute/v1.3.4/Save-AzureRmVhd.md)
 
 

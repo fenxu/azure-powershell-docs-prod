@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: eee53abf-120c-49a4-83fd-abffe70f42e0
+online version: 
 schema: 2.0.0
 ms.assetid: 93720545-7FCC-4149-AED3-D0DB61D275B4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryProtectionEntity.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryProtectionEntity.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryProtectionEntity.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryProtectionEntity.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,10 +46,6 @@ The **Get-AzureRmSiteRecoveryProtectionEntity** cmdlet gets a list of protectabl
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -59,7 +55,7 @@ Specifies the protection container object.
 ```yaml
 Type: ASRProtectionContainer
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -74,7 +70,7 @@ Specifies the name of the protection entity.
 ```yaml
 Type: String
 Parameter Sets: ByObjectWithName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -89,7 +85,7 @@ Specifies the friendly name of the protection entity.
 ```yaml
 Type: String
 Parameter Sets: ByObjectWithFriendlyName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -109,6 +105,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmSiteRecoveryProtectionEntity](./Set-AzureRmSiteRecoveryProtectionEntity.md)
-
-
+[Set-AzureRmSiteRecoveryProtectionEntity](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryProtectionEntity.md)

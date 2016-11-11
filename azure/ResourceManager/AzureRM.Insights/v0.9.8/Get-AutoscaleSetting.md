@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Insights.dll-Help.xml
-online version: .\Add-AutoscaleSetting.md
+online version: 
 schema: 2.0.0
 ms.assetid: 8A0099D5-F0A3-4577-BAF3-EA071DA4E9E8
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v0.9.8/Get-AutoscaleSetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v0.9.8/Get-AutoscaleSetting.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v0.9.8/Get-AutoscaleSetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v0.9.8/Get-AutoscaleSetting.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -123,10 +123,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AutoscaleSetting](./Add-AutoscaleSetting.md)
+[Add-AutoscaleSetting](xref:ResourceManager/AzureRM.Insights/v0.9.8/Add-AutoscaleSetting.md)
 
-[Get-AutoscaleHistory](./Get-AutoscaleHistory.md)
+[Get-AutoscaleHistory](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AutoscaleHistory.md)
 
-[Remove-AutoscaleSetting](./Remove-AutoscaleSetting.md)
+[Remove-AutoscaleSetting](xref:ResourceManager/AzureRM.Insights/v0.9.8/Remove-AutoscaleSetting.md)
 
 

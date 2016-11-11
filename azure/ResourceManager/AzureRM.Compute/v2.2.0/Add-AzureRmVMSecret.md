@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: 68c13eb3-b86b-4eb2-b885-2a2ab6c7cc2f
+online version: 
 schema: 2.0.0
 ms.assetid: 6AB4D9B9-0AAC-4330-A6FA-09C8E6D0681A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVMSecret.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVMSecret.md
+updated_at: 11/2/2016 5:52 PM
+ms.date: 11/2/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVMSecret.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a4dce6a44da647f1579df4b2890671b1986b47f0/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Add-AzureRmVMSecret.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -33,19 +33,19 @@ Add-AzureRmVMSecret [-VM] <PSVirtualMachine> [[-SourceVaultId] <String>] [[-Cert
 The **Add-AzureRmVMSecret** cmdlet adds a secret to a virtual machine.
 This value lets you add a certificate to the virtual machine.
 The secret must be stored in a Key Vault.
-For more information about Key Vault, see What is Azure Key Vault?https://azure.microsoft.com/en-us/documentation/articles/key-vault-whatis/ (https://azure.microsoft.com/en-us/documentation/articles/key-vault-whatis/).
-For more information about the cmdlets, see Azure Key Vault Cmdletshttps://msdn.microsoft.com/library/azure/dn868052.aspx (https://msdn.microsoft.com/library/azure/dn868052.aspx) in the Microsoft Developer Network library or the Set-AzureKeyVaultSecret cmdlet.
+For more information about Key Vault, see [What is Azure Key Vault?](https://azure.microsoft.com/en-us/documentation/articles/key-vault-whatis/).
+For more information about the cmdlets, see [Azure Key Vault Cmdlets](https://msdn.microsoft.com/library/azure/dn868052.aspx) in the Microsoft Developer Network library or the Set-AzureKeyVaultSecret cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Add a secret to a virtual machine
 ```
-PS C:\>$VirtualMachine = New-AzureRmVMConfig -VMName "VirtualMachine07" -VMSize "Standard_A1" -AvailabilitySetID $AvailabilitySet.Id 
+PS C:\>$VirtualMachine = New-AzureRmVMConfig -VMName "VirtualMachine07" -VMSize "Standard_A1" -AvailabilitySetID $AvailabilitySet.Id
 PS C:\> $Credential = Get-Credential
 PS C:\> $VirtualMachine = Set-AzureRmVMOperatingSystem -VM $VirtualMachine  -Windows -ComputerName "Contoso26" -Credential $Credential
-PS C:\> $SourceVaultId = "/subscriptions/46f8cea4-2de6-4179-8ab1-365da4211af4/resourceGroups/vault/providers/Microsoft.KeyVault/vaults/keyvault" 
-PS C:\> $CertificateStore01 = "My" 
-PS C:\> $CertificateUrl01 = "https://contosovault.vault.azure.net/secrets/514ceb769c984379a7e0230bdd703272" 
+PS C:\> $SourceVaultId = "/subscriptions/46f8cea4-2de6-4179-8ab1-365da4211af4/resourceGroups/vault/providers/Microsoft.KeyVault/vaults/keyvault"
+PS C:\> $CertificateStore01 = "My"
+PS C:\> $CertificateUrl01 = "https://contosovault.vault.azure.net/secrets/514ceb769c984379a7e0230bdd703272"
 PS C:\> $VirtualMachine = Add-AzureRmVMSecret -VM $VirtualMachine -SourceVaultId $SourceVaultId -CertificateStore $CertificateStore01 -CertificateUrl $CertificateUrl01
 ```
 
@@ -80,7 +80,7 @@ You can only specify this parameter for virtual machines that run the Windows op
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -100,12 +100,13 @@ The certificate is the Base64 encoding of the following JavaScript Object Notati
 "password": "\<pfx-file-password\>"
 }
 
+
 Currently, dataType accepts only .pfx files.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -159,10 +160,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVM](./Get-AzureRmVM.md)
+[Get-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVM.md)
 
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)
+[New-AzureRmVMConfig](xref:ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmVMConfig.md)
 
-[Set-AzureRmVMOperatingSystem](./Set-AzureRmVMOperatingSystem.md)
-
-
+[Set-AzureRmVMOperatingSystem](xref:ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMOperatingSystem.md)

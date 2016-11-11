@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Get-AzureRmAutomationModule.md
+online version: 
 schema: 2.0.0
 ms.assetid: E47306C4-B17E-4651-8248-EB81AD448A17
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationModule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationModule.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationModule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationModule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Set-AzureRmAutomationModule
@@ -29,11 +30,11 @@ Set-AzureRmAutomationModule [-Name] <String> [-ContentLinkUri <Uri>] [-ContentLi
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmAutomationModule** cmdlet updates a module in azure_2 Automation.
+The **Set-AzureRmAutomationModule** cmdlet updates a module in Azure Automation.
 This command accepts a compressed file that has a .zip file name extension.
-The file contains a folder that includes a file that is one of the following types: 
+The file contains a folder that includes a file that is one of the following types:
 
-- wps_2 module, which has a .psm1 or .dll file name extension 
+- wps_2 module, which has a .psm1 or .dll file name extension
 - wps_2 module manifest, which has a .psd1 file name extension
 
 The name of the .zip file, the name of the folder, and the name of the file in the folder must be the same.
@@ -44,7 +45,7 @@ If you import a wps_2 module into Automation by using this cmdlet or the New-Azu
 The command finishes whether the import succeeds or fails.
 To check whether it succeeded, run the following command:
 
-`PS C:\\\> $ModuleInstance = Get-AzureRmAutomationModule -Name `ModuleName
+`PS C:\> $ModuleInstance = Get-AzureRmAutomationModule -Name ModuleName`
 
 Check the **ProvisioningState** property for a value of Succeeded.
 
@@ -65,7 +66,7 @@ Specifies the name of the Automation account for which this cmdlet updates a mod
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -80,7 +81,7 @@ Specifies the URL of the .zip file that contains the new version of a module tha
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,7 +96,7 @@ Specifies the version of the module to which this cmdlet updates Automation.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -110,7 +111,7 @@ Specifies the name of the module that this cmdlet imports.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -125,7 +126,7 @@ Specifies the name of a resource group for which this cmdlet updates a module.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -145,10 +146,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationModule](./Get-AzureRmAutomationModule.md)
+[Get-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationModule.md)
 
-[New-AzureRmAutomationModule](./New-AzureRmAutomationModule.md)
+[New-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRmAutomationModule.md)
 
-[Remove-AzureRmAutomationModule](./Remove-AzureRmAutomationModule.md)
-
-
+[Remove-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v1.0.12/Remove-AzureRmAutomationModule.md)

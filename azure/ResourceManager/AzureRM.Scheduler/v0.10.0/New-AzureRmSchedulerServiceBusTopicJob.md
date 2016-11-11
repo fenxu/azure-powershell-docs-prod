@@ -1,11 +1,11 @@
 ---
 external help file: Microsoft.Azure.Commands.Scheduler.dll-Help.xml
-online version: .\New-AzureRmSchedulerHttpJob.md
+online version: 
 schema: 2.0.0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerServiceBusTopicJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerServiceBusTopicJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerServiceBusTopicJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerServiceBusTopicJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -316,7 +316,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -331,7 +340,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -388,21 +397,21 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmSchedulerHttpJob](./New-AzureRmSchedulerHttpJob.md)
+[New-AzureRmSchedulerHttpJob](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerHttpJob.md)
 
-[New-AzureRmSchedulerJobCollection](./New-AzureRmSchedulerJobCollection.md)
+[New-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerJobCollection.md)
 
-[New-AzureRmSchedulerServiceBusQueueJob](./New-AzureRmSchedulerServiceBusQueueJob.md)
+[New-AzureRmSchedulerServiceBusQueueJob](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerServiceBusQueueJob.md)
 
-[New-AzureRmSchedulerStorageQueueJob](./New-AzureRmSchedulerStorageQueueJob.md)
+[New-AzureRmSchedulerStorageQueueJob](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerStorageQueueJob.md)
 
-[Set-AzureRmSchedulerHttpJob](./Set-AzureRmSchedulerHttpJob.md)
+[Set-AzureRmSchedulerHttpJob](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/Set-AzureRmSchedulerHttpJob.md)
 
-[Set-AzureRmSchedulerJobCollection](./Set-AzureRmSchedulerJobCollection.md)
+[Set-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/Set-AzureRmSchedulerJobCollection.md)
 
-[Set-AzureRmSchedulerServiceBusQueueJob](./Set-AzureRmSchedulerServiceBusQueueJob.md)
+[Set-AzureRmSchedulerServiceBusQueueJob](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/Set-AzureRmSchedulerServiceBusQueueJob.md)
 
-[Set-AzureRmSchedulerServiceBusTopicJob](./Set-AzureRmSchedulerServiceBusTopicJob.md)
+[Set-AzureRmSchedulerServiceBusTopicJob](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/Set-AzureRmSchedulerServiceBusTopicJob.md)
 
-[Set-AzureRmSchedulerStorageQueueJob](./Set-AzureRmSchedulerStorageQueueJob.md)
+[Set-AzureRmSchedulerStorageQueueJob](xref:ResourceManager/AzureRM.Scheduler/v0.10.0/Set-AzureRmSchedulerStorageQueueJob.md)
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\Get-AzureSubnetRouteTable.md
+online version: 
 schema: 2.0.0
 ms.assetid: BE20F75A-85E2-48B3-B35F-AD8CE3788A82
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Remove-AzureSubnetRouteTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Remove-AzureSubnetRouteTable.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Remove-AzureSubnetRouteTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Remove-AzureSubnetRouteTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -146,8 +146,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSubnetRouteTable](./Get-AzureSubnetRouteTable.md)
+[Get-AzureSubnetRouteTable](xref:ServiceManagement/Azure.Networking/v0.9.8/Get-AzureSubnetRouteTable.md)
 
-[Set-AzureSubnetRouteTable](./Set-AzureSubnetRouteTable.md)
+[Set-AzureSubnetRouteTable](xref:ServiceManagement/Azure.Networking/v0.9.8/Set-AzureSubnetRouteTable.md)
 
 

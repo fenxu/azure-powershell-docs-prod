@@ -4,10 +4,11 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: 1.0.0.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Azure.Compute.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Azure.Compute.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Azure.Compute.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Azure.Compute.md
+uid: ServiceManagement/Azure.Compute/v1.6.1/Azure.Compute.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +21,7 @@ manager: visual-studio-china
 
 # Azure.Compute Module
 ## Description
-Azure PowerShell is a PowerShell module designed to help information technology (IT) professionals automate system administration tasks. To install the latest Azure PowerShell version and associate it with your Azure subscription, see How to install and configure Azure PowerShell.
+This topic displays help topics for the Azure Compute Cmdlets.
 
 ## Azure.Compute Cmdlets
 ### [Add-AzureNodeWebRole](./Add-AzureNodeWebRole.md)
@@ -121,11 +122,11 @@ Gets the available Azure Store add-ons.
 
 
 ### [Get-AzureWebHostingPlanMetric](./Get-AzureWebHostingPlanMetric.md)
-Gets metrics for azure_2 website hosting plans.
+Gets metrics for Azure website hosting plans.
 
 
 ### [Get-AzureWebHostingPlan](./Get-AzureWebHostingPlan.md)
-Gets azure_2 web hosting plans in the current subscription.
+Gets Azure web hosting plans in the current subscription.
 
 
 ### [Get-AzureWebsiteDeployment](./Get-AzureWebsiteDeployment.md)
@@ -149,7 +150,7 @@ Gets logs for the specified website.
 
 
 ### [Get-AzureWebsiteMetric](./Get-AzureWebsiteMetric.md)
-Gets metrics for the azure_2 website in the current subscription.
+Gets metrics for the Azure website in the current subscription.
 
 
 ### [Get-AzureWebsite](./Get-AzureWebsite.md)

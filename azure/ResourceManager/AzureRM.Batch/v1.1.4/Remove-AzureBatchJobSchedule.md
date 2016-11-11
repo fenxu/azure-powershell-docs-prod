@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\Disable-AzureBatchJobSchedule.md
+online version: 
 schema: 2.0.0
 ms.assetid: 0F111DCC-F5D2-433E-AD26-93A6C7D481E1
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchJobSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchJobSchedule.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchJobSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchJobSchedule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Remove-AzureBatchJobSchedule [-Id] <String> [-Force] -BatchContext <BatchAccount
 ```
 
 ## DESCRIPTION
-The **Remove-AzureBatchJobSchedule** cmdlet removes an azure_2 Batch job schedule.
+The **Remove-AzureBatchJobSchedule** cmdlet removes an Azure Batch job schedule.
 
 ## EXAMPLES
 
@@ -88,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -103,7 +103,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -128,16 +129,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureBatchJobSchedule](./Disable-AzureBatchJobSchedule.md)
+[Disable-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v1.1.4/Disable-AzureBatchJobSchedule.md)
 
-[Enable-AzureBatchJobSchedule](./Enable-AzureBatchJobSchedule.md)
+[Enable-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchJobSchedule.md)
 
-[Get-AzureBatchJobSchedule](./Get-AzureBatchJobSchedule.md)
+[Get-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJobSchedule.md)
 
-[New-AzureBatchJobSchedule](./New-AzureBatchJobSchedule.md)
+[New-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchJobSchedule.md)
 
-[Set-AzureBatchJobSchedule](./Set-AzureBatchJobSchedule.md)
+[Set-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v1.1.4/Set-AzureBatchJobSchedule.md)
 
-[Stop-AzureBatchJobSchedule](./Stop-AzureBatchJobSchedule.md)
+[Stop-AzureBatchJobSchedule](xref:ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchJobSchedule.md)
 
 

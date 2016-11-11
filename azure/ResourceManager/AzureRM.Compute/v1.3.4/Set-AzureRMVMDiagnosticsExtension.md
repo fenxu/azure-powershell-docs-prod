@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureRMVMDiagnosticsExtension.md
+online version: 
 schema: 2.0.0
 ms.assetid: 1087E8DB-E659-40E5-945C-B463B1FADEF9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMDiagnosticsExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMDiagnosticsExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMDiagnosticsExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMDiagnosticsExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Set-AzureRmVMDiagnosticsExtension
 
 ## SYNOPSIS
-Configures the azure_2 diagnostics extension on a virtual machine.
+Configures the Azure diagnostics extension on a virtual machine.
 
 ## SYNTAX
 
@@ -33,7 +33,7 @@ Set-AzureRmVMDiagnosticsExtension [-ResourceGroupName] <String> [-VMName] <Strin
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmVMDiagnosticsExtension** cmdlet configures the azure_2 diagnostics extension on a virtual machine.
+The **Set-AzureRmVMDiagnosticsExtension** cmdlet configures the Azure diagnostics extension on a virtual machine.
 
 ## EXAMPLES
 
@@ -156,7 +156,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageContext
-Specifies the azure_2 storage context.
+Specifies the Azure storage context.
 
 ```yaml
 Type: AzureStorageContext
@@ -217,7 +217,7 @@ Accept wildcard characters: False
 ```
 
 ### -AutoUpgradeMinorVersion
-Indicates whether this cmdlet allows the azure_2 guest agent to automatically update the extension to a newer minor version.
+Indicates whether this cmdlet allows the Azure guest agent to automatically update the extension to a newer minor version.
 
 ```yaml
 Type: Boolean
@@ -232,7 +232,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -247,7 +256,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -272,10 +281,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMDiagnosticsExtension](./Get-AzureRMVMDiagnosticsExtension.md)
+[Get-AzureRmVMDiagnosticsExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRMVMDiagnosticsExtension.md)
 
-[Get-AzureRmVMExtensionImage](./Get-AzureRmVMExtensionImage.md)
+[Get-AzureRmVMExtensionImage](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImage.md)
 
-[Remove-AzureRmVMDiagnosticsExtension](./Remove-AzureRmVMDiagnosticsExtension.md)
+[Remove-AzureRmVMDiagnosticsExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVMDiagnosticsExtension.md)
 
 

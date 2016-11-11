@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureRmVMDscExtension.md
+online version: 
 schema: 2.0.0
 ms.assetid: 5D452788-B1D9-43B5-BFEA-6E1FB645EB0A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Publish-AzureRmVMDscConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Publish-AzureRmVMDscConfiguration.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Publish-AzureRmVMDscConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Publish-AzureRmVMDscConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Publish-AzureRmVMDscConfiguration
 
 ## SYNOPSIS
-Uploads a DSC script to azure_2 blob storage.
+Uploads a DSC script to Azure blob storage.
 
 ## SYNTAX
 
@@ -42,7 +42,7 @@ Publish-AzureRmVMDscConfiguration [-ConfigurationPath] <String> [[-OutputArchive
 ```
 
 ## DESCRIPTION
-The **Publish-AzureRmVMDscConfiguration** cmdlet uploads a Desired State Configuration (DSC) script to azure_2 blob storage, which later can be applied to azure_2 virtual machines using the Set-AzureRmVMDscExtension cmdlet.
+The **Publish-AzureRmVMDscConfiguration** cmdlet uploads a Desired State Configuration (DSC) script to Azure blob storage, which later can be applied to Azure virtual machines using the Set-AzureRmVMDscExtension cmdlet.
 
 ## EXAMPLES
 
@@ -51,7 +51,7 @@ The **Publish-AzureRmVMDscConfiguration** cmdlet uploads a Desired State Configu
 PS C:\>Publish-AzureRmVMDscConfiguration ".\MyConfiguration.ps1"
 ```
 
-This command creates a .zip package for the given script and any dependent resource modules and uploads it to azure_2 storage.
+This command creates a .zip package for the given script and any dependent resource modules and uploads it to Azure storage.
 
 ### Example 2: Create a .zip package and store it to a local file
 ```
@@ -65,21 +65,21 @@ This command creates a .zip package for the given script and any dependent resou
 PS C:\>Publish-AzureRmVMDscConfiguration -ConfigurationPath "C:\Sample.ps1" -SkipDependencyDetection
 ```
 
-This command adds configuration named Sample.ps1 to the configuration archive to upload to azure_2 storage and skips dependent resource modules.
+This command adds configuration named Sample.ps1 to the configuration archive to upload to Azure storage and skips dependent resource modules.
 
 ### Example 4: Add configuration and configuration data to the archive and then upload it to storage
 ```
 PS C:\>Publish-AzureRmVMDscConfiguration -ConfigurationPath "C:\Sample.ps1" -ConfigurationDataPath "C:\SampleData.psd1"
 ```
 
-This command adds configuration named Sample.ps1 and configuration data named SampleData.psd1 to the configuration archive to upload to azure_2 storage.
+This command adds configuration named Sample.ps1 and configuration data named SampleData.psd1 to the configuration archive to upload to Azure storage.
 
 ### Example 5: Add configuration, configuration data, and additional content to the archive and then upload it to storage
 ```
 PS C:\>Publish-AzureRmVMDscConfiguration -ConfigurationPath "C:\Sample.ps1" -AdditionalPath @("C:\ContentDir1", "C:\File.txt") -ConfigurationDataPath "C:\SampleData.psd1"
 ```
 
-This command adds configuration named Sample.ps1, configuration data SampleData.psd1, and additional content to configuration archive to upload to azure_2 storage.
+This command adds configuration named Sample.ps1, configuration data SampleData.psd1, and additional content to configuration archive to upload to Azure storage.
 
 ## PARAMETERS
 
@@ -115,7 +115,7 @@ Accept wildcard characters: False
 ```
 
 ### -ContainerName
-Specifies the name of the azure_2 storage container the configuration is uploaded to.
+Specifies the name of the Azure storage container the configuration is uploaded to.
 
 ```yaml
 Type: String
@@ -130,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountName
-Specifies the azure_2 storage account name that is used to upload the configuration script to the container specified by the *ContainerName* parameter.
+Specifies the Azure storage account name that is used to upload the configuration script to the container specified by the *ContainerName* parameter.
 
 ```yaml
 Type: String
@@ -223,7 +223,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -238,7 +247,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -253,7 +262,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -268,7 +278,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -284,7 +294,7 @@ Accept wildcard characters: False
 
 ### -OutputArchivePath
 Specifies the path of a local .zip file to write the configuration archive to.
-When this parameter is used, the configuration script is not uploaded to azure_2 blob storage.
+When this parameter is used, the configuration script is not uploaded to Azure blob storage.
 
 ```yaml
 Type: String
@@ -309,10 +319,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMDscExtension](./Get-AzureRmVMDscExtension.md)
+[Get-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMDscExtension.md)
 
-[Remove-AzureRmVMDscExtension](./Remove-AzureRmVMDscExtension.md)
+[Remove-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVMDscExtension.md)
 
-[Set-AzureRmVMDscExtension](./Set-AzureRmVMDscExtension.md)
+[Set-AzureRmVMDscExtension](xref:ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMDscExtension.md)
 
 

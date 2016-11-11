@@ -4,10 +4,11 @@ Module Guid: e43e47c8-8bff-4013-b003-ded1741f403a
 Download Help Link: None
 Help Version: 3.0.0.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v2.1.0/AzureRM.UsageAggregates.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v2.1.0/AzureRM.UsageAggregates.md
+updated_at: 10/27/2016 9:26 PM
+ms.date: 10/27/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v2.1.0/AzureRM.UsageAggregates.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v2.1.0/AzureRM.UsageAggregates.md
+uid: ResourceManager/AzureRM.UsageAggregates/v2.1.0/AzureRM.UsageAggregates.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +21,7 @@ manager: visual-studio-china
 
 # AzureRM.UsageAggregates Module
 ## Description
-Azure PowerShell is a command-line shell and scripting language designed to help information technology (IT) professionals automate system administration tasks. To install the latest Azure PowerShell version and associate it with your Azure subscription, see How to install and configure Azure PowerShell.
+This topic displays help topics for the Azure Usage Aggregate Cmdlets.
 
 ## AzureRM.UsageAggregates Cmdlets
 ### [Get-UsageAggregates](./Get-UsageAggregates.md)

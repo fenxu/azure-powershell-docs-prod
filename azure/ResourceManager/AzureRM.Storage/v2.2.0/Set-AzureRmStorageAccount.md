@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
-online version: e6a13f25-4565-4ab1-8690-a292c89c9c43
+online version: 
 schema: 2.0.0
 ms.assetid: BEA384E0-C930-442C-A7F9-0FDCE87E7871
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.2.0/Set-AzureRmStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.2.0/Set-AzureRmStorageAccount.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.2.0/Set-AzureRmStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.2.0/Set-AzureRmStorageAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -281,10 +281,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmStorageAccount](./Get-AzureRmStorageAccount.md)
+[Get-AzureRmStorageAccount](xref:ResourceManager/AzureRM.Storage/v2.2.0/Get-AzureRmStorageAccount.md)
 
-[New-AzureRmStorageAccount](./New-AzureRmStorageAccount.md)
+[New-AzureRmStorageAccount](xref:ResourceManager/AzureRM.Storage/v2.2.0/New-AzureRmStorageAccount.md)
 
-[Remove-AzureRmStorageAccount](./Remove-AzureRmStorageAccount.md)
+[Remove-AzureRmStorageAccount](xref:ResourceManager/AzureRM.Storage/v2.2.0/Remove-AzureRmStorageAccount.md)
 
 

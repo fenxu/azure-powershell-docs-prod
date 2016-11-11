@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: BFA7AC16-6CFF-4518-AB61-5A3442A33932
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Remove-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Remove-AzureRmRedisCache.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Remove-AzureRmRedisCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Remove-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Remove-AzureRmRedisCache -ResourceGroupName <String> -Name <String> [-Force] [-P
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmRedisCache** cmdlet removes an azure_2 Redis Cache.
+The **Remove-AzureRmRedisCache** cmdlet removes an Azure Redis Cache.
 
 ## EXAMPLES
 
@@ -113,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -128,7 +128,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -159,10 +160,10 @@ Returns $True if no exception occurs.
 
 ## RELATED LINKS
 
-[Get-AzureRmRedisCache](./Get-AzureRmRedisCache.md)
+[Get-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Get-AzureRmRedisCache.md)
 
-[New-AzureRmRedisCache](./New-AzureRmRedisCache.md)
+[New-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/New-AzureRmRedisCache.md)
 
-[Set-AzureRmRedisCache](./Set-AzureRmRedisCache.md)
+[Set-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Set-AzureRmRedisCache.md)
 
 

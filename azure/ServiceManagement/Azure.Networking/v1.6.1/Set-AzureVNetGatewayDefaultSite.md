@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\Remove-AzureVNetGatewayDefaultSite.md
+online version: 
 schema: 2.0.0
 ms.assetid: C4790EB8-62C8-4A6C-A5DE-2BFCED985C71
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVNetGatewayDefaultSite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVNetGatewayDefaultSite.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVNetGatewayDefaultSite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVNetGatewayDefaultSite.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ Set-AzureVNetGatewayDefaultSite [-VNetName] <String> [-DefaultSite] <String> [-P
 
 ## DESCRIPTION
 The **Set-AzureVNetGatewayDefaultSite** cmdlet sets the default route to the on-premises site for forced tunneling traffic.
-This command sets the route on an azure_2 virtual private network (VPN) gateway for a virtual network.
+This command sets the route on an Azure virtual private network (VPN) gateway for a virtual network.
 
 ## EXAMPLES
 
@@ -74,7 +74,8 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
 
 ```yaml
 Type: AzureSMProfile
@@ -99,6 +100,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureVNetGatewayDefaultSite](./Remove-AzureVNetGatewayDefaultSite.md)
+[Remove-AzureVNetGatewayDefaultSite](xref:ServiceManagement/Azure.Networking/v1.6.1/Remove-AzureVNetGatewayDefaultSite.md)
 
 

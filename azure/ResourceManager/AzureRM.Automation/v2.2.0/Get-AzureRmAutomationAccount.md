@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: 1a996e7a-1de8-4533-a39a-c17cf1ab18fd
+online version: 
 schema: 2.0.0
 ms.assetid: C9EC226D-3A4F-49D1-9B9F-DF9D57BDFA43
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationAccount.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureRmAutomationAccount
@@ -34,7 +35,7 @@ Get-AzureRmAutomationAccount [-ResourceGroupName] <String> [-Name] <String> [<Co
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAutomationAccount** cmdlet gets azure_2 Automation accounts in a resource group.
+The **Get-AzureRmAutomationAccount** cmdlet gets Azure Automation accounts in a resource group.
 
 For more information about Automation accounts, see the New-AzureRmAutomationAccount cmdlet.
 
@@ -109,10 +110,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAutomationAccount](./New-AzureRmAutomationAccount.md)
+[New-AzureRmAutomationAccount](xref:ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRmAutomationAccount.md)
 
-[Remove-AzureRmAutomationAccount](./Remove-AzureRmAutomationAccount.md)
+[Remove-AzureRmAutomationAccount](xref:ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationAccount.md)
 
-[Set-AzureRmAutomationAccount](./Set-AzureRmAutomationAccount.md)
+[Set-AzureRmAutomationAccount](xref:ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRmAutomationAccount.md)
 
 

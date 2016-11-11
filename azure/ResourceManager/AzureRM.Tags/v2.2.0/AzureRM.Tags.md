@@ -4,10 +4,11 @@ Module Guid: 59713673-194f-418a-b1f2-ac60db82edf9
 Download Help Link: None
 Help Version: 4.0.0.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/AzureRM.Tags.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/AzureRM.Tags.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/AzureRM.Tags.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/AzureRM.Tags.md
+uid: ResourceManager/AzureRM.Tags/v2.2.0/AzureRM.Tags.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,19 +21,19 @@ manager: visual-studio-china
 
 # AzureRM.Tags Module
 ## Description
-{{Manually Enter Description Here}}
+This topic displays help topics for the Azure Tag Cmdlets.
 
 ## AzureRM.Tags Cmdlets
 ### [Get-AzureRmTag](./Get-AzureRmTag.md)
-Gets predefined azure_2 tags.
+Gets predefined Azure tags.
 
 
 ### [New-AzureRmTag](./New-AzureRmTag.md)
-Creates a predefined azure_2 tag or adds values to an existing tag.
+Creates a predefined Azure tag or adds values to an existing tag.
 
 
 ### [Remove-AzureRmTag](./Remove-AzureRmTag.md)
-Deletes predefined azure_2 tags or values.
+Deletes predefined Azure tags or values.
 
 
 

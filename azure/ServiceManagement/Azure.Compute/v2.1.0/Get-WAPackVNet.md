@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: AAC92C22-37DE-491B-A774-38D10675F5A5
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Get-WAPackVNet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Get-WAPackVNet.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Get-WAPackVNet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Get-WAPackVNet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -55,7 +55,6 @@ PS C:\>
 ## PARAMETERS
 
 ### -ID
-@{Text=}
 
 ```yaml
 Type: Guid
@@ -70,7 +69,6 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
 
 ```yaml
 Type: String

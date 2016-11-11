@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Register-AzureRmAutomationDscNode.md
+online version: 
 schema: 2.0.0
 ms.assetid: 19472F94-5827-4878-A17A-D7BB10932861
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscNode.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureRmAutomationDscNode
@@ -54,7 +55,7 @@ Get-AzureRmAutomationDscNode -ConfigurationName <String> [-ResourceGroupName] <S
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAutomationDscNode** cmdlet gets APS Desired State Configuration (DSC) nodes from azure_2 Automation.
+The **Get-AzureRmAutomationDscNode** cmdlet gets Azure PowerShell Desired State Configuration (DSC) nodes from Azure Automation.
 
 ## EXAMPLES
 
@@ -221,10 +222,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Register-AzureRmAutomationDscNode](./Register-AzureRmAutomationDscNode.md)
+[Register-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v1.0.12/Register-AzureRmAutomationDscNode.md)
 
-[Set-AzureRmAutomationDscNode](./Set-AzureRmAutomationDscNode.md)
+[Set-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationDscNode.md)
 
-[Unregister-AzureRmAutomationDscNode](./Unregister-AzureRmAutomationDscNode.md)
+[Unregister-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRmAutomationDscNode.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
-online version: .\Get-AzureRmStreamAnalyticsInput.md
+online version: 
 schema: 2.0.0
 ms.assetid: 68C82793-B46A-454F-81A0-80CF4A46F757
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsInput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsInput.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsInput.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsInput.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -66,7 +66,7 @@ This command replaces the definition of the existing input source called EntrySt
 ## PARAMETERS
 
 ### -JobName
-Specifies the name of the azure_2 Stream Analytics job under which to create the Azure Stream Analytics input.
+Specifies the name of the Azure Stream Analytics job under which to create the Azure Stream Analytics input.
 
 ```yaml
 Type: String
@@ -81,7 +81,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the azure_2 Stream Analytics input to create.
+Specifies the name of the Azure Stream Analytics input to create.
 
 ```yaml
 Type: String
@@ -96,7 +96,7 @@ Accept wildcard characters: False
 ```
 
 ### -File
-Specifies the path to a JSON file that contains the JSON representation of the azure_2 Stream Analytics input to create.
+Specifies the path to a JSON file that contains the JSON representation of the Azure Stream Analytics input to create.
 
 ```yaml
 Type: String
@@ -126,7 +126,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group under which to create the azure_2 Streaming input.
+Specifies the name of the resource group under which to create the Azure Streaming input.
 
 ```yaml
 Type: String
@@ -156,7 +156,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -171,7 +171,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -198,10 +199,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmStreamAnalyticsInput](./Get-AzureRmStreamAnalyticsInput.md)
+[Get-AzureRmStreamAnalyticsInput](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsInput.md)
 
-[Remove-AzureRmStreamAnalyticsInput](./Remove-AzureRmStreamAnalyticsInput.md)
+[Remove-AzureRmStreamAnalyticsInput](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Remove-AzureRmStreamAnalyticsInput.md)
 
-[Test-AzureRmStreamAnalyticsInput](./Test-AzureRmStreamAnalyticsInput.md)
+[Test-AzureRmStreamAnalyticsInput](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Test-AzureRmStreamAnalyticsInput.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
-online version: https://go.microsoft.com/fwlink/?linkid=829554
+online version: 
 schema: 2.0.0
 ms.assetid: 4CD3DD28-AAA4-4C03-9BCE-129FB8ED716D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Stop-AzureKeyVaultCertificateOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Stop-AzureKeyVaultCertificateOperation.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Stop-AzureKeyVaultCertificateOperation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Stop-AzureKeyVaultCertificateOperation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -45,7 +45,7 @@ CertificateSigningRequest : MIICpjCCAY4CAQAwFjEUMBIGA1UEAxMLY29udG9zby5jb20wggEi
                             xPDA6MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwCQYDVR0TBAIwADANBgkqhkiG9w0BAQsFAAOCAQEAjxUX5PGhri9qJTxSleGEbMVkxhhn3nuPUgxujEzrcQVr
                             fZAACJHbOnga/QYwpxumKWnkX9YdWxb58PPn+nLV2gYP3eYEyJ4DR9XDcKpoQxZahUdqD3JZXhWPIcN05tw9Fuq8ziw94BjLZW3h3iDamqkBnysJYW58FBp1H8Ejqk0Iynbo0V223Innq/7QB2fVwe3ZJ
                             JecT8YxHJjVQ5psdDpEWgLUG/DFiAPHdwupI7JjvtvQmT3AotL0x5GNx2bWNH5hHIXsX4bnbxZgNQnTB2w3tQ3QeuKt8fUx2S0xtxPllaCUul6efa84TNqdMcMfyxCarIwDP6qdhS+CDU1uUA==
-ErrorCode                 : 
+ErrorCode                 :
 ErrorMessage              :
 ```
 
@@ -59,7 +59,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -89,7 +89,7 @@ Specifies the name of a key vault.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -99,7 +99,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -115,7 +115,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -143,8 +142,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureKeyVaultCertificateOperation](./Get-AzureKeyVaultCertificateOperation.md)
+[Get-AzureKeyVaultCertificateOperation](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Get-AzureKeyVaultCertificateOperation.md)
 
-[Remove-AzureKeyVaultCertificateOperation](./Remove-AzureKeyVaultCertificateOperation.md)
-
-
+[Remove-AzureKeyVaultCertificateOperation](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultCertificateOperation.md)

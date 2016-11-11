@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 218A2697-3DAE-42F5-8583-A8084790A869
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-AzureWebsite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-AzureWebsite.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-AzureWebsite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-AzureWebsite.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -365,7 +365,6 @@ Accept wildcard characters: False
 ```
 
 ### -AutoSwapSlotName
-@{Text=}
 
 ```yaml
 Type: String
@@ -395,7 +394,6 @@ Accept wildcard characters: False
 ```
 
 ### -SlotStickyAppSettingNames
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -410,7 +408,6 @@ Accept wildcard characters: False
 ```
 
 ### -SlotStickyConnectionStringNames
-@{Text=}
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -435,8 +432,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureWebsite](./New-AzureWebsite.md)
+[New-AzureWebsite](xref:ServiceManagement/Azure.Compute/v2.1.0/New-AzureWebsite.md)
 
-[Get-AzureWebsite](./Get-AzureWebsite.md)
+[Get-AzureWebsite](xref:ServiceManagement/Azure.Compute/v2.1.0/Get-AzureWebsite.md)
 
 

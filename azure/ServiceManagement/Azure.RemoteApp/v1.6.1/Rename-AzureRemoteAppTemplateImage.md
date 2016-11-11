@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Get-AzureRemoteAppTemplateImage.md
+online version: 
 schema: 2.0.0
 ms.assetid: 654C490B-1C87-4920-B525-C12DB1152AB1
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Rename-AzureRemoteAppTemplateImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Rename-AzureRemoteAppTemplateImage.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Rename-AzureRemoteAppTemplateImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Rename-AzureRemoteAppTemplateImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Rename-AzureRemoteAppTemplateImage
 
 ## SYNOPSIS
-Renames an azure_2 RemoteApp template image.
+Renames an Azure RemoteApp template image.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Rename-AzureRemoteAppTemplateImage [-ImageName] <String> [-NewName] <String> [-P
 ```
 
 ## DESCRIPTION
-The **Rename-AzureRemoteAppTemplateImage** cmdlet renames an azure_2 RemoteApp template image.
+The **Rename-AzureRemoteAppTemplateImage** cmdlet renames an Azure RemoteApp template image.
 
 ## EXAMPLES
 
@@ -39,12 +39,12 @@ The **Rename-AzureRemoteAppTemplateImage** cmdlet renames an azure_2 RemoteApp t
 PS C:\>Rename-AzureRemoteAppTemplateImage -ImageName "ContosoApps" -NewName "ContosoFinanceApps"
 ```
 
-This command renames the azure_2 RemoteApp template image named ContosoApps to ContosoFinanceApps.
+This command renames the Azure RemoteApp template image named ContosoApps to ContosoFinanceApps.
 
 ## PARAMETERS
 
 ### -ImageName
-Specifies the name of an azure_2 RemoteApp template image to rename.
+Specifies the name of an Azure RemoteApp template image to rename.
 
 ```yaml
 Type: String
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -NewName
-Specifies a new name for an azure_2 RemoteApp template image.
+Specifies a new name for an Azure RemoteApp template image.
 
 ```yaml
 Type: String
@@ -99,10 +99,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppTemplateImage](./Get-AzureRemoteAppTemplateImage.md)
+[Get-AzureRemoteAppTemplateImage](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppTemplateImage.md)
 
-[New-AzureRemoteAppTemplateImage](./New-AzureRemoteAppTemplateImage.md)
+[New-AzureRemoteAppTemplateImage](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppTemplateImage.md)
 
-[Remove-AzureRemoteAppTemplateImage](./Remove-AzureRemoteAppTemplateImage.md)
+[Remove-AzureRemoteAppTemplateImage](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppTemplateImage.md)
 
 

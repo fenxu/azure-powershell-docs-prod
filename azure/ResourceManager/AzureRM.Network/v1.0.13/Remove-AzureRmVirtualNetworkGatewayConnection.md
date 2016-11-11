@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Get-AzureRmVirtualNetworkGatewayConnection.md
+online version: 
 schema: 2.0.0
 ms.assetid: C336FF43-9975-4BBA-B3BF-FCB6B2459EA9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVirtualNetworkGatewayConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVirtualNetworkGatewayConnection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVirtualNetworkGatewayConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVirtualNetworkGatewayConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -103,7 +103,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -118,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -133,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -148,7 +157,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -173,10 +183,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVirtualNetworkGatewayConnection](./Get-AzureRmVirtualNetworkGatewayConnection.md)
+[Get-AzureRmVirtualNetworkGatewayConnection](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmVirtualNetworkGatewayConnection.md)
 
-[New-AzureRmVirtualNetworkGatewayConnection](./New-AzureRmVirtualNetworkGatewayConnection.md)
+[New-AzureRmVirtualNetworkGatewayConnection](xref:ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmVirtualNetworkGatewayConnection.md)
 
-[Set-AzureRmVirtualNetworkGatewayConnection](./Set-AzureRmVirtualNetworkGatewayConnection.md)
+[Set-AzureRmVirtualNetworkGatewayConnection](xref:ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmVirtualNetworkGatewayConnection.md)
 
 

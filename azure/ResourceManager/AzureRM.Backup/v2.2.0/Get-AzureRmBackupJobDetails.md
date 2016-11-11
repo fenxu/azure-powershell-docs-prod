@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
-online version: 0b4eb2eb-f014-4370-bb14-8c0f63ba1cbc
+online version: 
 schema: 2.0.0
 ms.assetid: 09FC2526-8288-4AE9-8381-8D6BD749DA8C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupJobDetails.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupJobDetails.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupJobDetails.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupJobDetails.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -135,8 +135,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupJob](./Get-AzureRmBackupJob.md)
+[Get-AzureRmBackupJob](xref:ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupJob.md)
 
-[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupVault.md)
 
 

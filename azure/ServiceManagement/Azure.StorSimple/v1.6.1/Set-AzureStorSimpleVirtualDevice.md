@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
-online version: .\New-AzureStorSimpleVirtualDevice.md
+online version: 
 schema: 2.0.0
 ms.assetid: 63F83F15-57EC-4B27-A9E1-FC7490FC73FA
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleVirtualDevice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleVirtualDevice.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleVirtualDevice.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleVirtualDevice.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ Set-AzureStorSimpleVirtualDevice [-DeviceName] <String> [-SecretKey] <String> [-
 ```
 
 ## DESCRIPTION
-The **Set-AzureStorSimpleVirtualDevice** cmdlet creates or updates the device configuration of an azure_2 StorSimple virtual device.
+The **Set-AzureStorSimpleVirtualDevice** cmdlet creates or updates the device configuration of an Azure StorSimple virtual device.
 
 ## EXAMPLES
 
@@ -124,7 +124,7 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-Specifies an azure_2 profile.
+Specifies an Azure profile.
 
 ```yaml
 Type: AzureSMProfile
@@ -203,8 +203,8 @@ This cmdlet returns updated device details for the virtual device.
 
 ## RELATED LINKS
 
-[New-AzureStorSimpleVirtualDevice](./New-AzureStorSimpleVirtualDevice.md)
+[New-AzureStorSimpleVirtualDevice](xref:ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleVirtualDevice.md)
 
-[Set-AzureStorSimpleDevice](./Set-AzureStorSimpleDevice.md)
+[Set-AzureStorSimpleDevice](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleDevice.md)
 
 

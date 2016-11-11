@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 55981C68-5D82-4EC4-8083-3DC9989CCBC4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Remove-AzureHDInsightCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Remove-AzureHDInsightCluster.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Remove-AzureHDInsightCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Remove-AzureHDInsightCluster.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -41,7 +41,7 @@ For reference information about APS HDInsight, see Azure HDInsight Cmdletshttps:
 
 The **Remove-AzureHDInsightCluster** cmdlet deletes the specified HDInsight service cluster from a subscription.
 This operation also deletes any data stored in the Hadoop Distributed File System (HDFS) on the cluster.
-Data stored in the associated azure_2 Storage account is not deleted.
+Data stored in the associated Azure Storage account is not deleted.
 
 ## EXAMPLES
 
@@ -55,7 +55,7 @@ This command deletes the HDInsight cluster named HDICluster.
 ## PARAMETERS
 
 ### -Certificate
-Specifies the management certificate for an azure_2 subscription.
+Specifies the management certificate for an Azure subscription.
 
 ```yaml
 Type: X509Certificate2
@@ -85,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -Endpoint
-Specifies the endpoint to use to connect to azure_2.
+Specifies the endpoint to use to connect to Azure.
 If you do not specify this parameter, this cmdlet uses the default endpoint.
 
 ```yaml
@@ -171,10 +171,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureHDInsightCluster](./Get-AzureHDInsightCluster.md)
+[Get-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Get-AzureHDInsightCluster.md)
 
-[New-AzureHDInsightCluster](./New-AzureHDInsightCluster.md)
+[New-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightCluster.md)
 
-[Use-AzureHDInsightCluster](./Use-AzureHDInsightCluster.md)
+[Use-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v1.6.1/Use-AzureHDInsightCluster.md)
 
 

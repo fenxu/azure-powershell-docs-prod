@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\New-AzureRMAutomationSchedule.md
+online version: 
 schema: 2.0.0
 ms.assetid: 73A4A9BA-477C-41E6-9193-2BE97182E07D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationSchedule.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationSchedule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureRmAutomationSchedule
@@ -36,7 +37,7 @@ Get-AzureRmAutomationSchedule [-Name] <String> [-ResourceGroupName] <String> [-A
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAutomationSchedule** cmdlet gets an azure_2 Automation schedule.
+The **Get-AzureRmAutomationSchedule** cmdlet gets an Azure Automation schedule.
 
 ## EXAMPLES
 
@@ -107,10 +108,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmAutomationSchedule](./New-AzureRMAutomationSchedule.md)
+[New-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationSchedule.md)
 
-[Remove-AzureRmAutomationSchedule](./Remove-AzureRMAutomationSchedule.md)
+[Remove-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v1.0.12/Remove-AzureRMAutomationSchedule.md)
 
-[Set-AzureRmAutomationSchedule](./Set-AzureRMAutomationSchedule.md)
+[Set-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRMAutomationSchedule.md)
 
 

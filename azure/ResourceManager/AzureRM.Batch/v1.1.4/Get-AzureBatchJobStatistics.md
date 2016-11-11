@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\Get-AzureRmBatchAccountKeys.md
+online version: 
 schema: 2.0.0
 ms.assetid: 8E694A3A-6364-4D13-99EB-11813162F238
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJobStatistics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJobStatistics.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJobStatistics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJobStatistics.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Get-AzureBatchJobStatistics -BatchContext <BatchAccountContext> [<CommonParamete
 ```
 
 ## DESCRIPTION
-The **Get-AzureBatchJobStatistics** cmdlet gets lifetime summary statistics for all of the jobs in an azure_2 Batch account.
+The **Get-AzureBatchJobStatistics** cmdlet gets lifetime summary statistics for all of the jobs in an Azure Batch account.
 Statistics are aggregated across all jobs that have ever existed in the account, from account creation to the last update time of the statistics.
 
 ## EXAMPLES
@@ -90,10 +90,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBatchAccountKeys](./Get-AzureRmBatchAccountKeys.md)
+[Get-AzureRmBatchAccountKeys](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchAccountKeys.md)
 
-[Get-AzureBatchPoolStatistics](./Get-AzureBatchPoolStatistics.md)
+[Get-AzureBatchPoolStatistics](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchPoolStatistics.md)
 
-[Get-AzureBatchPoolUsageMetrics](./Get-AzureBatchPoolUsageMetrics.md)
+[Get-AzureBatchPoolUsageMetrics](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchPoolUsageMetrics.md)
 
 

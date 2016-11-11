@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Set-AzureRemoteAppWorkspace.md
+online version: 
 schema: 2.0.0
 ms.assetid: BC3CEB58-CE52-46C8-97A1-66CEA9098F8F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppWorkspace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppWorkspace.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppWorkspace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppWorkspace.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppWorkspace
 
 ## SYNOPSIS
-Retrieves information about an azure_2 RemoteApp workspace.
+Retrieves information about an Azure RemoteApp workspace.
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Get-AzureRemoteAppWorkspace [-Profile <AzureSMProfile>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppWorkspace** cmdlet retrieves information about an azure_2 RemoteApp workspace.
+The **Get-AzureRemoteAppWorkspace** cmdlet retrieves information about an Azure RemoteApp workspace.
 
 ## EXAMPLES
 
@@ -41,7 +41,7 @@ ClientUrl                               EndUserFeedName
 https://www.remoteapp.windowsazure.com/ Contoso Work Applications
 ```
 
-This command retrieves information about the azure_2 RemoteApp workspace.
+This command retrieves information about the Azure RemoteApp workspace.
 
 ## PARAMETERS
 
@@ -71,6 +71,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRemoteAppWorkspace](./Set-AzureRemoteAppWorkspace.md)
+[Set-AzureRemoteAppWorkspace](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Set-AzureRemoteAppWorkspace.md)
 
 

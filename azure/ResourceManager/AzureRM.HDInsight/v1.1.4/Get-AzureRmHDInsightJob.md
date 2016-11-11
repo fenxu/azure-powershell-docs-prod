@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-online version: .\New-AzureRmHDInsightHiveJobDefinition.md
+online version: 
 schema: 2.0.0
 ms.assetid: 3BC9E3A9-D8E6-4CAD-8642-4BEA508A6BA1
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ Get-AzureRmHDInsightJob [-ClusterName] <String> [-HttpCredential] <PSCredential>
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmHDInsightJob** cmdlet gets recent jobs for a specified azure_2 HDInsight cluster in reverse chronological order, with the most recent job at the top of the list.
+The **Get-AzureRmHDInsightJob** cmdlet gets recent jobs for a specified Azure HDInsight cluster in reverse chronological order, with the most recent job at the top of the list.
 Get a specific job by providing the *JobId* parameter.
 
 ## EXAMPLES
@@ -134,7 +134,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -149,7 +158,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -174,12 +183,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmHDInsightHiveJobDefinition](./New-AzureRmHDInsightHiveJobDefinition.md)
+[New-AzureRmHDInsightHiveJobDefinition](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightHiveJobDefinition.md)
 
-[Start-AzureRmHDInsightJob](./Start-AzureRmHDInsightJob.md)
+[Start-AzureRmHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/Start-AzureRmHDInsightJob.md)
 
-[Stop-AzureRmHDInsightJob](./Stop-AzureRmHDInsightJob.md)
+[Stop-AzureRmHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/Stop-AzureRmHDInsightJob.md)
 
-[Wait-AzureRmHDInsightJob](./Wait-AzureRmHDInsightJob.md)
+[Wait-AzureRmHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/Wait-AzureRmHDInsightJob.md)
 
 

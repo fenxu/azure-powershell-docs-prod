@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: 79d2b0ac-b489-441b-b39a-b86a9cac1e81
+online version: 
 schema: 2.0.0
 ms.assetid: 25883B96-1479-4AD1-80B3-667B596A7394
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryReplicationProtectedItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryReplicationProtectedItem.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryReplicationProtectedItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryReplicationProtectedItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -52,10 +52,6 @@ The **Get-AzureRmSiteRecoveryReplicationProtectedItem** cmdlet gets the properti
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -65,7 +61,7 @@ Specifies the Azure Site Recovery Protection Container object.
 ```yaml
 Type: ASRProtectionContainer
 Parameter Sets: ByObject, ByObjectWithName, ByObjectWithFriendlyName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -80,7 +76,7 @@ Specifies the name of the Replication Protected Item that this cmdlet gets.
 ```yaml
 Type: String
 Parameter Sets: ByObjectWithName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -95,7 +91,7 @@ Specifies the friendly name of the Replication Protected Item that this cmdlet g
 ```yaml
 Type: String
 Parameter Sets: ByObjectWithFriendlyName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -110,7 +106,7 @@ Specifies the Protectable Item corresponding to the Replication Protected Item.
 ```yaml
 Type: ASRProtectableItem
 Parameter Sets: ByProtectableItemObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -132,10 +128,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmSiteRecoveryReplicationProtectedItem](./New-AzureRmSiteRecoveryReplicationProtectedItem.md)
+[New-AzureRmSiteRecoveryReplicationProtectedItem](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryReplicationProtectedItem.md)
 
-[Remove-AzureRmSiteRecoveryReplicationProtectedItem](./Remove-AzureRmSiteRecoveryReplicationProtectedItem.md)
+[Remove-AzureRmSiteRecoveryReplicationProtectedItem](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryReplicationProtectedItem.md)
 
-[Set-AzureRmSiteRecoveryReplicationProtectedItem](./Set-AzureRmSiteRecoveryReplicationProtectedItem.md)
-
-
+[Set-AzureRmSiteRecoveryReplicationProtectedItem](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryReplicationProtectedItem.md)

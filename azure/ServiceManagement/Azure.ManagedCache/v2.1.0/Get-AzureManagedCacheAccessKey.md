@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ManagedCache.dll-Help.xml
-online version: .\New-AzureManagedCacheAccessKey.md
+online version: 
 schema: 2.0.0
 ms.assetid: F0877362-B75E-4D8D-A2B7-5E4CB985E727
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v2.1.0/Get-AzureManagedCacheAccessKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v2.1.0/Get-AzureManagedCacheAccessKey.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v2.1.0/Get-AzureManagedCacheAccessKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v2.1.0/Get-AzureManagedCacheAccessKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -96,14 +96,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureManagedCacheAccessKey](./New-AzureManagedCacheAccessKey.md)
+[New-AzureManagedCacheAccessKey](xref:ServiceManagement/Azure.ManagedCache/v2.1.0/New-AzureManagedCacheAccessKey.md)
 
-[New-AzureManagedCache](./New-AzureManagedCache.md)
+[New-AzureManagedCache](xref:ServiceManagement/Azure.ManagedCache/v2.1.0/New-AzureManagedCache.md)
 
-[Get-AzureManagedCache](./Get-AzureManagedCache.md)
+[Get-AzureManagedCache](xref:ServiceManagement/Azure.ManagedCache/v2.1.0/Get-AzureManagedCache.md)
 
-[Set-AzureManagedCache](./Set-AzureManagedCache.md)
+[Set-AzureManagedCache](xref:ServiceManagement/Azure.ManagedCache/v2.1.0/Set-AzureManagedCache.md)
 
-[Remove-AzureManagedCache](./Remove-AzureManagedCache.md)
+[Remove-AzureManagedCache](xref:ServiceManagement/Azure.ManagedCache/v2.1.0/Remove-AzureManagedCache.md)
 
 

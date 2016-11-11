@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureVNetSite.md
+online version: 
 schema: 2.0.0
 ms.assetid: 879C7DF4-1A13-4D06-A376-910910504626
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVNetConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVNetConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVNetConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureVNetConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureVNetConfig
 
 ## SYNOPSIS
-Gets the azure_2 virtual network configuration from the current subscription.
+Gets the Azure virtual network configuration from the current subscription.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureVNetConfig [-ExportToFile <String>] [-Profile <AzureSMProfile>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureVNetConfig** cmdlet retrieves the virtual network configuration of the current azure_2 subscription.
+The **Get-AzureVNetConfig** cmdlet retrieves the virtual network configuration of the current Azure subscription.
 If the *ExportToFile* parameter is specified, a network configuration file is created.
 
 ## EXAMPLES
@@ -40,14 +40,14 @@ If the *ExportToFile* parameter is specified, a network configuration file is cr
 PS C:\>Get-AzureVNetConfig
 ```
 
-This command gets the virtual network configuration of the current azure_2 subscription and displays it.
+This command gets the virtual network configuration of the current Azure subscription and displays it.
 
 ### Example 2: Get the virtual network configuration of the current Azure subscription and save it to a local file
 ```
 PS C:\>Get-AzureVNetConfig -ExportToFile "c:\temp\MyAzNets.netcfg"
 ```
 
-This command gets the virtual network configuration of the current azure_2 subscription and then saves it to a local file.
+This command gets the virtual network configuration of the current Azure subscription and then saves it to a local file.
 
 ## PARAMETERS
 
@@ -82,7 +82,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -97,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -122,10 +131,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVNetSite](./Get-AzureVNetSite.md)
+[Get-AzureVNetSite](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVNetSite.md)
 
-[Remove-AzureVNetConfig](./Remove-AzureVNetConfig.md)
+[Remove-AzureVNetConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVNetConfig.md)
 
-[Set-AzureVNetConfig](./Set-AzureVNetConfig.md)
+[Set-AzureVNetConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureVNetConfig.md)
 
 

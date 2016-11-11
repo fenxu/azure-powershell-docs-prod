@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\New-AzureRmApplicationGatewayBackendAddressPool.md
+online version: 
 schema: 2.0.0
 ms.assetid: 2D20CE52-EDBC-4223-BD32-AC0344BA3B03
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGateway.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -378,7 +378,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -393,7 +402,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -454,24 +463,24 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmApplicationGatewayBackendAddressPool](./New-AzureRmApplicationGatewayBackendAddressPool.md)
+[New-AzureRmApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayBackendAddressPool.md)
 
-[New-AzureRmApplicationGatewayBackendHttpSettings](./New-AzureRmApplicationGatewayBackendHttpSettings.md)
+[New-AzureRmApplicationGatewayBackendHttpSettings](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayBackendHttpSettings.md)
 
-[New-AzureRmApplicationGatewayFrontendIPConfig](./New-AzureRmApplicationGatewayFrontendIPConfig.md)
+[New-AzureRmApplicationGatewayFrontendIPConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayFrontendIPConfig.md)
 
-[New-AzureRmApplicationGatewayFrontendPort](./New-AzureRmApplicationGatewayFrontendPort.md)
+[New-AzureRmApplicationGatewayFrontendPort](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayFrontendPort.md)
 
-[New-AzureRmApplicationGatewayHttpListener](./New-AzureRmApplicationGatewayHttpListener.md)
+[New-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayHttpListener.md)
 
-[New-AzureRmApplicationGatewayIPConfiguration](./New-AzureRmApplicationGatewayIPConfiguration.md)
+[New-AzureRmApplicationGatewayIPConfiguration](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayIPConfiguration.md)
 
-[New-AzureRmApplicationGatewayRequestRoutingRule](./New-AzureRmApplicationGatewayRequestRoutingRule.md)
+[New-AzureRmApplicationGatewayRequestRoutingRule](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayRequestRoutingRule.md)
 
-[New-AzureRmApplicationGatewaySku](./New-AzureRmApplicationGatewaySku.md)
+[New-AzureRmApplicationGatewaySku](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewaySku.md)
 
-[New-AzureRmVirtualNetwork](./New-AzureRmVirtualNetwork.md)
+[New-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmVirtualNetwork.md)
 
-[New-AzureRmVirtualNetworkSubnetConfig](./New-AzureRmVirtualNetworkSubnetConfig.md)
+[New-AzureRmVirtualNetworkSubnetConfig](xref:ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmVirtualNetworkSubnetConfig.md)
 
 

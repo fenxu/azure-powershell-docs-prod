@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
-online version: 204fd229-256b-4db4-829d-3324f9b176f0
+online version: 
 schema: 2.0.0
 ms.assetid: 7D19DAA0-8BBD-4AE8-B7DD-82DD18A7E306
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/New-AzureRmDnsRecordConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/New-AzureRmDnsRecordConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/New-AzureRmDnsRecordConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/New-AzureRmDnsRecordConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -383,10 +383,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmDnsRecordConfig](./Add-AzureRmDnsRecordConfig.md)
+[Add-AzureRmDnsRecordConfig](xref:ResourceManager/AzureRM.DNS/v2.2.0/Add-AzureRmDnsRecordConfig.md)
 
-[New-AzureRmDnsRecordSet](./New-AzureRmDnsRecordSet.md)
+[New-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.2.0/New-AzureRmDnsRecordSet.md)
 
-[Remove-AzureRmDnsRecordConfig](./Remove-AzureRmDnsRecordConfig.md)
+[Remove-AzureRmDnsRecordConfig](xref:ResourceManager/AzureRM.DNS/v2.2.0/Remove-AzureRmDnsRecordConfig.md)
 
 

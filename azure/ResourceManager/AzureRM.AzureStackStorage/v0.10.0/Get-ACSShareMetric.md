@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
-online version: .\Get-ACSShare.md
+online version: 
 schema: 2.0.0
 ms.assetid: E1CFB733-DA68-4910-8429-49AC4D318162
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShareMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShareMetric.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShareMetric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShareMetric.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -294,8 +294,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ACSShare](./Get-ACSShare.md)
+[Get-ACSShare](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShare.md)
 
-[Get-ACSShareMetricDefinition](./Get-ACSShareMetricDefinition.md)
+[Get-ACSShareMetricDefinition](xref:ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShareMetricDefinition.md)
 
 

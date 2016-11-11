@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 0D0773E0-8980-4565-A023-F6C5A0663D38
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/New-AzureHDInsightSqoopJobDefinition.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/New-AzureHDInsightSqoopJobDefinition.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/New-AzureHDInsightSqoopJobDefinition.md
 ms.topic: reference
 ms.prod: powershell
@@ -142,12 +142,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureHDInsightHiveJobDefinition](./New-AzureHDInsightHiveJobDefinition.md)
+[New-AzureHDInsightHiveJobDefinition](xref:ServiceManagement/Azure.HDInsight/v2.1.0/New-AzureHDInsightHiveJobDefinition.md)
 
-[New-AzureHDInsightMapReduceJobDefinition](./New-AzureHDInsightMapReduceJobDefinition.md)
+[New-AzureHDInsightMapReduceJobDefinition](xref:ServiceManagement/Azure.HDInsight/v2.1.0/New-AzureHDInsightMapReduceJobDefinition.md)
 
-[New-AzureHDInsightPigJobDefinition](./New-AzureHDInsightPigJobDefinition.md)
+[New-AzureHDInsightPigJobDefinition](xref:ServiceManagement/Azure.HDInsight/v2.1.0/New-AzureHDInsightPigJobDefinition.md)
 
-[New-AzureHDInsightStreamingMapReduceJobDefinition](./New-AzureHDInsightStreamingMapReduceJobDefinition.md)
+[New-AzureHDInsightStreamingMapReduceJobDefinition](xref:ServiceManagement/Azure.HDInsight/v2.1.0/New-AzureHDInsightStreamingMapReduceJobDefinition.md)
 
 

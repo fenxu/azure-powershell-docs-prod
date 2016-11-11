@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: .\Get-AzureRmSqlServer.md
+online version: 
 schema: 2.0.0
 ms.assetid: 0BD7D98F-2D43-4FD2-8F1E-6A5169E69C42
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServer.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureRmSqlServer
 
 ## SYNOPSIS
-Removes an azure_2 SQL Database server.
+Removes an Azure SQL Database server.
 
 ## SYNTAX
 
@@ -43,7 +43,7 @@ For instance, you need to create a new server that uses the same name.
 PS C:\>Remove-AzureRmSqlServer -ResourceGroupName "ResourceGroup01" -ServerName "Server01"
 ```
 
-This command removes the azure_2 SQL Database server named Server01.
+This command removes the Azure SQL Database server named Server01.
 
 ## PARAMETERS
 
@@ -93,7 +93,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -108,7 +117,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -123,7 +132,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -138,7 +148,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -167,12 +177,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlServer](./Get-AzureRmSqlServer.md)
+[Get-AzureRmSqlServer](xref:ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServer.md)
 
-[New-AzureRmSqlServer](./New-AzureRmSqlServer.md)
+[New-AzureRmSqlServer](xref:ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlServer.md)
 
-[Set-AzureRmSqlServer](./Set-AzureRmSqlServer.md)
+[Set-AzureRmSqlServer](xref:ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServer.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
 
 

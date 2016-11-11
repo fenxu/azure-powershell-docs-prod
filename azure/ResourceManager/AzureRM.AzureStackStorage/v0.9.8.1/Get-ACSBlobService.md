@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
-online version: .\Set-ACSBlobService.md
+online version: 
 schema: 2.0.0
 ms.assetid: 6D098FBA-8E89-4A51-88DB-EA20B037830F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSBlobService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSBlobService.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSBlobService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSBlobService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Get-ACSBlobService [-FarmName] <String> [[-SubscriptionId] <String>] [[-Token] <
 ```
 
 ## DESCRIPTION
-The **Get-ACSBlobService** cmdlet gets the status and settings of the azure_2 Consistent Storage (ACS) blob service.
+The **Get-ACSBlobService** cmdlet gets the status and settings of the Azure Consistent Storage (ACS) blob service.
 
 ## EXAMPLES
 
@@ -161,8 +161,8 @@ Output from cmdlet Get-ACSFarm can be piped to the input for this cmdlet.
 
 ## RELATED LINKS
 
-[Set-ACSBlobService](./Set-ACSBlobService.md)
+[Set-ACSBlobService](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Set-ACSBlobService.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarm.md)
 
 

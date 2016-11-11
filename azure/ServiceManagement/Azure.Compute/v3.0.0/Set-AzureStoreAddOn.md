@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 7116CF7C-FFDC-4A1D-8D7E-AD70DE74BEEF
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-AzureStoreAddOn.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-AzureStoreAddOn.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-AzureStoreAddOn.md
 ms.topic: reference
 ms.prod: powershell
@@ -140,10 +140,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureStoreAddOn](./Get-AzureStoreAddOn.md)
+[Get-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-AzureStoreAddOn.md)
 
-[New-AzureStoreAddOn](./New-AzureStoreAddOn.md)
+[New-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v3.0.0/New-AzureStoreAddOn.md)
 
-[Remove-AzureStoreAddOn](./Remove-AzureStoreAddOn.md)
+[Remove-AzureStoreAddOn](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-AzureStoreAddOn.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Export-AzureAutomationRunbook.md
+online version: 
 schema: 2.0.0
 ms.assetid: B9B92318-EC04-4191-8709-DF35494924B4
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationRunbook.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Import-AzureAutomationRunbook
@@ -37,10 +38,6 @@ For PowerShell Workflow runbooks, the script must contain a single PowerShell Wo
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -50,7 +47,7 @@ Specifies the name of the Automation account into which this cmdlet imports a ru
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -65,7 +62,7 @@ Specifies a description for the imported runbook.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -80,7 +77,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,7 +92,7 @@ Specifies whether the runbook logs progress information.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -110,7 +107,7 @@ Specifies whether the runbook logs detailed information.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -141,7 +138,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -156,7 +153,7 @@ Indicates that this cmdlet publishes the runbook that it imports.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -171,7 +168,7 @@ Specifies the name of the resource group for which this cmdlet imports a runbook
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -197,16 +194,16 @@ Accept wildcard characters: False
 
 ### -Type
 Specifies the type of runbook that this cmdlet creates.
-Valid values are: 
+Valid values are:
 
-- Graph 
-- PowerShell 
+- Graph
+- PowerShell
 - PowerShellWorkflow
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Graph, PowerShell, PowerShellWorkflow
 
 Required: True
@@ -227,20 +224,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureAutomationRunbook](./Export-AzureAutomationRunbook.md)
+[Export-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Export-AzureAutomationRunbook.md)
 
-[Get-AzureAutomationRunbook](./Get-AzureAutomationRunbook.md)
+[Get-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationRunbook.md)
 
-[Import-AzureAutomationRunbook](./Import-AzureAutomationRunbook.md)
+[Import-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationRunbook.md)
 
-[New-AzureAutomationRunbook](./New-AzureAutomationRunbook.md)
+[New-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationRunbook.md)
 
-[Publish-AzureAutomationRunbook](./Publish-AzureAutomationRunbook.md)
+[Publish-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Publish-AzureAutomationRunbook.md)
 
-[Remove-AzureAutomationRunbook](./Remove-AzureAutomationRunbook.md)
+[Remove-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Remove-AzureAutomationRunbook.md)
 
-[Set-AzureAutomationRunbook](./Set-AzureAutomationRunbook.md)
+[Set-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Set-AzureAutomationRunbook.md)
 
-[Start-AzureAutomationRunbook](./Start-AzureAutomationRunbook.md)
-
-
+[Start-AzureAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v0.9.8/Start-AzureAutomationRunbook.md)

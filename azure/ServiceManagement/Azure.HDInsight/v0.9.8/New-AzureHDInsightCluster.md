@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 6BCB0B9C-C781-41CE-B1DE-CC0DA7FB6232
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
 ms.topic: reference
 ms.prod: powershell
@@ -512,18 +512,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureHDInsightMetastore](./Add-AzureHDInsightMetastore.md)
+[Add-AzureHDInsightMetastore](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Add-AzureHDInsightMetastore.md)
 
-[Add-AzureHDInsightStorage](./Add-AzureHDInsightStorage.md)
+[Add-AzureHDInsightStorage](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Add-AzureHDInsightStorage.md)
 
-[Get-AzureHDInsightCluster](./Get-AzureHDInsightCluster.md)
+[Get-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Get-AzureHDInsightCluster.md)
 
-[New-AzureHDInsightClusterConfig](./New-AzureHDInsightClusterConfig.md)
+[New-AzureHDInsightClusterConfig](xref:ServiceManagement/Azure.HDInsight/v0.9.8/New-AzureHDInsightClusterConfig.md)
 
-[Remove-AzureHDInsightCluster](./Remove-AzureHDInsightCluster.md)
+[Remove-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Remove-AzureHDInsightCluster.md)
 
-[Set-AzureHDInsightDefaultStorage](./Set-AzureHDInsightDefaultStorage.md)
+[Set-AzureHDInsightDefaultStorage](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Set-AzureHDInsightDefaultStorage.md)
 
-[Use-AzureHDInsightCluster](./Use-AzureHDInsightCluster.md)
+[Use-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v0.9.8/Use-AzureHDInsightCluster.md)
 
 

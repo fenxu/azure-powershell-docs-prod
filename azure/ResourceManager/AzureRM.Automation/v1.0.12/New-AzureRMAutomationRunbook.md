@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Export-AzureRMAutomationRunbook.md
+online version: 
 schema: 2.0.0
 ms.assetid: C0DE19B6-68A5-46B0-8575-88F229FD2494
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationRunbook.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # New-AzureRmAutomationRunbook
@@ -30,7 +31,7 @@ New-AzureRmAutomationRunbook [-Name] <String> [-Description <String>] [-Tags <ID
 ```
 
 ## DESCRIPTION
-The **New-AzureRmAutomationRunbook** cmdlet creates an empty azure_2 Automation runbook by using APS.
+The **New-AzureRmAutomationRunbook** cmdlet creates an empty Azure Automation runbook by using Azure PowerShell.
 Specify a name for the runbook.
 
 ## EXAMPLES
@@ -40,7 +41,7 @@ Specify a name for the runbook.
 PS C:\>New-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbook02" -ResourceGroupName "ResourceGroup01"
 ```
 
-This command creates a runbook named Runbook02 in the azure_2 Automation account named Contoso17.
+This command creates a runbook named Runbook02 in the Azure Automation account named Contoso17.
 
 ## PARAMETERS
 
@@ -188,18 +189,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmAutomationRunbook](./Export-AzureRMAutomationRunbook.md)
+[Export-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRMAutomationRunbook.md)
 
-[Get-AzureRmAutomationRunbook](./Get-AzureRMAutomationRunbook.md)
+[Get-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationRunbook.md)
 
-[Import-AzureRmAutomationRunbook](./Import-AzureRMAutomationRunbook.md)
+[Import-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Import-AzureRMAutomationRunbook.md)
 
-[Publish-AzureRmAutomationRunbook](./Publish-AzureRMAutomationRunbook.md)
+[Publish-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Publish-AzureRMAutomationRunbook.md)
 
-[Remove-AzureRmAutomationRunbook](./Remove-AzureRMAutomationRunbook.md)
+[Remove-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Remove-AzureRMAutomationRunbook.md)
 
-[Set-AzureRmAutomationRunbook](./Set-AzureRMAutomationRunbook.md)
+[Set-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRMAutomationRunbook.md)
 
-[Start-AzureRmAutomationRunbook](./Start-AzureRMAutomationRunbook.md)
+[Start-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRMAutomationRunbook.md)
 
 

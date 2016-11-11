@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureAffinityGroup.md
+online version: 
 schema: 2.0.0
 ms.assetid: 88264E1B-43CB-44FE-90BF-655DF795EA24
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureAffinityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureAffinityGroup.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureAffinityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureAffinityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,9 +31,9 @@ New-AzureAffinityGroup [-Name] <String> [-Label <String>] [-Description <String>
 ```
 
 ## DESCRIPTION
-The **New-AzureAffinityGroup** cmdlet creates an azure_2 affinity group in the current azure_2 subscription.
+The **New-AzureAffinityGroup** cmdlet creates an Azure affinity group in the current Azure subscription.
 
-An affinity group puts your services and their resources together in an azure_2 datacenter.
+An affinity group puts your services and their resources together in an Azure datacenter.
 The affinity group groups members together for optimal performance.
 Define affinity groups at the subscription level.
 Your affinity groups are available to any subsequent cloud services or storage accounts that you create.
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the geographical location of the azure_2 datacenter where this cmdlet creates the affinity group.
+Specifies the geographical location of the Azure datacenter where this cmdlet creates the affinity group.
 
 ```yaml
 Type: String
@@ -130,7 +130,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -145,7 +154,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -170,10 +179,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAffinityGroup](./Get-AzureAffinityGroup.md)
+[Get-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureAffinityGroup.md)
 
-[Remove-AzureAffinityGroup](./Remove-AzureAffinityGroup.md)
+[Remove-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureAffinityGroup.md)
 
-[Set-AzureAffinityGroup](./Set-AzureAffinityGroup.md)
+[Set-AzureAffinityGroup](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureAffinityGroup.md)
 
 

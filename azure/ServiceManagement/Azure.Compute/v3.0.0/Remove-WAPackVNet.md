@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: CEF492D2-7B71-41E4-9234-FF81543B28DB
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackVNet.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackVNet.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackVNet.md
 ms.topic: reference
 ms.prod: powershell
@@ -135,8 +135,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-WAPackVNet](./Get-WAPackVNet.md)
+[Get-WAPackVNet](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-WAPackVNet.md)
 
-[New-WAPackVNet](./New-WAPackVNet.md)
+[New-WAPackVNet](xref:ServiceManagement/Azure.Compute/v3.0.0/New-WAPackVNet.md)
 
 

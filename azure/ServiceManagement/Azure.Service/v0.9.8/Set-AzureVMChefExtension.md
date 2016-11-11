@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureVMChefExtension.md
+online version: 
 schema: 2.0.0
 ms.assetid: 9F683A3E-818C-4CC0-8F66-651938E0D2DD
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Set-AzureVMChefExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Set-AzureVMChefExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Set-AzureVMChefExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Set-AzureVMChefExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -199,7 +199,6 @@ Accept wildcard characters: False
 ```
 
 ### -ValidationClientName
-@{Text=}
 
 ```yaml
 Type: String
@@ -298,10 +297,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMChefExtension](./Get-AzureVMChefExtension.md)
+[Get-AzureVMChefExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Get-AzureVMChefExtension.md)
 
-[Remove-AzureVMChefExtension](./Remove-AzureVMChefExtension.md)
+[Remove-AzureVMChefExtension](xref:ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMChefExtension.md)
 
-[Azure Service Cmdlets](./Azure.Service.md)
+[Azure Service Cmdlets](xref:ServiceManagement/Azure.Service/v0.9.8/Azure.Service.md)
 
 

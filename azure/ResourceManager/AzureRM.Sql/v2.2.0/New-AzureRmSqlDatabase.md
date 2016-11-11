@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 4f1be5f2-3886-49c0-a557-537c42eff7aa
+online version: 
 schema: 2.0.0
 ms.assetid: B7ABFC85-364D-4C94-BD4B-6902189BDE0F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlDatabase.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -294,20 +294,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlDatabase](./Get-AzureRmSqlDatabase.md)
+[Get-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlDatabase.md)
 
-[New-AzureRmSqlElasticPool](./New-AzureRmSqlElasticPool.md)
+[New-AzureRmSqlElasticPool](xref:ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlElasticPool.md)
 
-[New-AzureRmSqlServer](./New-AzureRmSqlServer.md)
+[New-AzureRmSqlServer](xref:ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlServer.md)
 
-[Remove-AzureRmSqlDatabase](./Remove-AzureRmSqlDatabase.md)
+[Remove-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v2.2.0/Remove-AzureRmSqlDatabase.md)
 
-[Resume-AzureRmSqlDatabase](./Resume-AzureRmSqlDatabase.md)
+[Resume-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v2.2.0/Resume-AzureRmSqlDatabase.md)
 
-[Set-AzureRmSqlDatabase](./Set-AzureRmSqlDatabase.md)
+[Set-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlDatabase.md)
 
-[Suspend-AzureRmSqlDatabase](./Suspend-AzureRmSqlDatabase.md)
+[Suspend-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v2.2.0/Suspend-AzureRmSqlDatabase.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md)
 
 

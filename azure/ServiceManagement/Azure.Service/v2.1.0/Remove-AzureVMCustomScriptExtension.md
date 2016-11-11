@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureVMCustomScriptExtension.md
+online version: 
 schema: 2.0.0
 ms.assetid: 75BE7685-8632-449C-B5B1-E4BF4DC7E341
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureVMCustomScriptExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureVMCustomScriptExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureVMCustomScriptExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureVMCustomScriptExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -75,7 +75,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -90,7 +99,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -115,10 +124,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMCustomScriptExtension](./Get-AzureVMCustomScriptExtension.md)
+[Get-AzureVMCustomScriptExtension](xref:ServiceManagement/Azure.Service/v2.1.0/Get-AzureVMCustomScriptExtension.md)
 
-[Set-AzureVMCustomScriptExtension](./Set-AzureVMCustomScriptExtension.md)
+[Set-AzureVMCustomScriptExtension](xref:ServiceManagement/Azure.Service/v2.1.0/Set-AzureVMCustomScriptExtension.md)
 
-[Azure Service Cmdlets](./Azure.Service.md)
+[Azure Service Cmdlets](xref:ServiceManagement/Azure.Service/v2.1.0/Azure.Service.md)
 
 

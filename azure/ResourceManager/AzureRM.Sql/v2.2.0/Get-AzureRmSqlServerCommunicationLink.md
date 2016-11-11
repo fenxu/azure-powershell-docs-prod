@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: e7fad077-5b9a-4a56-91f4-3f768354ecb9
+online version: 
 schema: 2.0.0
 ms.assetid: 90F91FCE-E81B-42D6-B303-9CF0130DC295
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServerCommunicationLink.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServerCommunicationLink.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServerCommunicationLink.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServerCommunicationLink.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -143,8 +143,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmSqlServerCommunicationLink](./New-AzureRmSqlServerCommunicationLink.md)
+[New-AzureRmSqlServerCommunicationLink](xref:ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlServerCommunicationLink.md)
 
-[Remove-AzureRmSqlServerCommunicationLink](./Remove-AzureRmSqlServerCommunicationLink.md)
+[Remove-AzureRmSqlServerCommunicationLink](xref:ResourceManager/AzureRM.Sql/v2.2.0/Remove-AzureRmSqlServerCommunicationLink.md)
 
 

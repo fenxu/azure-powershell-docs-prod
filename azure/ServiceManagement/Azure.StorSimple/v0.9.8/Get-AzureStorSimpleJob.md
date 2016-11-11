@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
-online version: .\Stop-AzureStorSimpleJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: 186CAEA5-31E5-4BF3-9056-7347A9C62595
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -113,7 +113,6 @@ The final command gets jobs for the device named Device07 between the times stor
 ## PARAMETERS
 
 ### -DeviceName
-@{Text=}
 
 ```yaml
 Type: String
@@ -128,7 +127,6 @@ Accept wildcard characters: False
 ```
 
 ### -From
-@{Text=}
 
 ```yaml
 Type: DateTime
@@ -143,7 +141,6 @@ Accept wildcard characters: False
 ```
 
 ### -InstanceId
-@{Text=}
 
 ```yaml
 Type: String
@@ -158,7 +155,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureProfile
@@ -173,7 +169,6 @@ Accept wildcard characters: False
 ```
 
 ### -Status
-@{Text=}
 
 ```yaml
 Type: String
@@ -189,7 +184,6 @@ Accept wildcard characters: False
 ```
 
 ### -To
-@{Text=}
 
 ```yaml
 Type: DateTime
@@ -204,7 +198,6 @@ Accept wildcard characters: False
 ```
 
 ### -Type
-@{Text=}
 
 ```yaml
 Type: String
@@ -268,6 +261,6 @@ This cmdlet returns a list of job details objects, or, if you specify the *Insta
 
 ## RELATED LINKS
 
-[Stop-AzureStorSimpleJob](./Stop-AzureStorSimpleJob.md)
+[Stop-AzureStorSimpleJob](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Stop-AzureStorSimpleJob.md)
 
 

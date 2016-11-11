@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Remove-AzureRemoteAppUserDisk.md
+online version: 
 schema: 2.0.0
 ms.assetid: 9C26AFEA-91AC-45A0-AA63-4AECB25E9E28
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Copy-AzureRemoteAppUserDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Copy-AzureRemoteAppUserDisk.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Copy-AzureRemoteAppUserDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Copy-AzureRemoteAppUserDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Copy-AzureRemoteAppUserDisk
 
 ## SYNOPSIS
-Copies the user disk of a user from one azure_2 RemoteApp collection to another.
+Copies the user disk of a user from one Azure RemoteApp collection to another.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Copy-AzureRemoteAppUserDisk [-SourceCollectionName] <String> [-DestinationCollec
 ```
 
 ## DESCRIPTION
-The **Copy-AzureRemoteAppUserDisk** cmdlet copies the user disk of a user from one azure_2 RemoteApp collection to another.
+The **Copy-AzureRemoteAppUserDisk** cmdlet copies the user disk of a user from one Azure RemoteApp collection to another.
 
 ## EXAMPLES
 
@@ -39,13 +39,13 @@ The **Copy-AzureRemoteAppUserDisk** cmdlet copies the user disk of a user from o
 PS C:\>Copy-AzureRemoteAppUserDisk -DestinationCollectionName "Contoso02" -SourceCollectionName "Contoso01" -UserUpn "PattiFuller@contoso.com" -OverwriteExistingUserDisk
 ```
 
-This command copies the user disk of an azure_2 Active Directory user who has the UPN PattiFuller@contoso.com from the collection Contoso01 to the collection Contoso02.
+This command copies the user disk of an Azure Active Directory user who has the UPN PattiFuller@contoso.com from the collection Contoso01 to the collection Contoso02.
 If a user disk for PattiFuller@contoso.com already exists on Contoso02, this command overwrites it.
 
 ## PARAMETERS
 
 ### -SourceCollectionName
-Specifies the name of the source azure_2 RemoteApp collection.
+Specifies the name of the source Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -DestinationCollectionName
-Specifies the name of the destination azure_2 RemoteApp collection.
+Specifies the name of the destination Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -130,6 +130,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureRemoteAppUserDisk](./Remove-AzureRemoteAppUserDisk.md)
+[Remove-AzureRemoteAppUserDisk](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppUserDisk.md)
 
 

@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 5C146BF3-54EA-4C08-9CEA-0BF9F1FF1716
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-AzureSBNamespace.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-AzureSBNamespace.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-AzureSBNamespace.md
 ms.topic: reference
 ms.prod: powershell
@@ -148,6 +148,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSBNamespace](./New-AzureSBNamespace.md)
+[New-AzureSBNamespace](xref:ServiceManagement/Azure.Compute/v3.0.0/New-AzureSBNamespace.md)
 
 

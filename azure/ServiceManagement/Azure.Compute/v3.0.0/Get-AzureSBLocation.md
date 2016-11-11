@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 03D443C5-1B85-4D5A-8381-818C06C5880C
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSBLocation.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSBLocation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSBLocation.md
 ms.topic: reference
 ms.prod: powershell
@@ -72,6 +72,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureSBNamespace](./Get-AzureSBNamespace.md)
+[Get-AzureSBNamespace](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSBNamespace.md)
 
 

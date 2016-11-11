@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: 68762a05-73e2-4987-aac6-1021282cdad7
+online version: 
 schema: 2.0.0
 ms.assetid: 762B2B43-579B-4869-98F9-882AAF224686
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationModule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationModule.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationModule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRmAutomationModule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Remove-AzureRmAutomationModule
@@ -29,7 +30,7 @@ Remove-AzureRmAutomationModule [-Name] <String> [-Force] [-ResourceGroupName] <S
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmAutomationModule** cmdlet removes a module from an Automation account in azure_2 Automation.
+The **Remove-AzureRmAutomationModule** cmdlet removes a module from an Automation account in Azure Automation.
 
 ## EXAMPLES
 
@@ -103,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -118,7 +119,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -143,10 +145,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationModule](./Get-AzureRmAutomationModule.md)
+[Get-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationModule.md)
 
-[New-AzureRmAutomationModule](./New-AzureRmAutomationModule.md)
+[New-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRmAutomationModule.md)
 
-[Set-AzureRmAutomationModule](./Set-AzureRmAutomationModule.md)
+[Set-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRmAutomationModule.md)
 
 

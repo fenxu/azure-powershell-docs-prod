@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: b46d1efd-4e83-4298-8b67-40f54e1a7817
+online version: 
 schema: 2.0.0
 ms.assetid: C00221C2-6925-4F48-9A4C-75A2094848C1
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmVirtualNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmVirtualNetworkGateway.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmVirtualNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmVirtualNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -224,14 +224,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVirtualNetworkGateway](./Get-AzureRmVirtualNetworkGateway.md)
+[Get-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmVirtualNetworkGateway.md)
 
-[New-AzureRmVirtualNetworkGateway](./New-AzureRmVirtualNetworkGateway.md)
+[New-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmVirtualNetworkGateway.md)
 
-[Remove-AzureRmVirtualNetworkGateway](./Remove-AzureRmVirtualNetworkGateway.md)
+[Remove-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmVirtualNetworkGateway.md)
 
-[Reset-AzureRmVirtualNetworkGateway](./Reset-AzureRmVirtualNetworkGateway.md)
+[Reset-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.0.0/Reset-AzureRmVirtualNetworkGateway.md)
 
-[Resize-AzureRmVirtualNetworkGateway](./Resize-AzureRmVirtualNetworkGateway.md)
+[Resize-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.0.0/Resize-AzureRmVirtualNetworkGateway.md)
 
 

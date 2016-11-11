@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: .\Get-AzureRmSiteRecoveryProtectionEntity.md
+online version: 
 schema: 2.0.0
 ms.assetid: EEE53ABF-120C-49A4-83FD-ABFFE70F42E0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Set-AzureRmSiteRecoveryProtectionEntity.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Set-AzureRmSiteRecoveryProtectionEntity.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Set-AzureRmSiteRecoveryProtectionEntity.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Set-AzureRmSiteRecoveryProtectionEntity.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -51,7 +51,7 @@ Set-AzureRmSiteRecoveryProtectionEntity -ProtectionEntity <ASRProtectionEntity> 
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmSiteRecoveryProtectionEntity** cmdlet enables or disables protection on an azure_2 Site Recovery protection entity.
+The **Set-AzureRmSiteRecoveryProtectionEntity** cmdlet enables or disables protection on an Azure Site Recovery protection entity.
 
 ## EXAMPLES
 
@@ -63,7 +63,7 @@ The **Set-AzureRmSiteRecoveryProtectionEntity** cmdlet enables or disables prote
 ## PARAMETERS
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -176,7 +176,7 @@ Accept wildcard characters: False
 ```
 
 ### -RecoveryAzureStorageAccountId
-Specifies the ID of the target azure_2 Storage account.
+Specifies the ID of the target Azure Storage account.
 
 ```yaml
 Type: String
@@ -206,7 +206,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -231,6 +232,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryProtectionEntity](./Get-AzureRmSiteRecoveryProtectionEntity.md)
+[Get-AzureRmSiteRecoveryProtectionEntity](xref:ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryProtectionEntity.md)
 
 

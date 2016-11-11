@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 7558d19c-08ec-4bb2-8652-d2e4231911b4
+online version: 
 schema: 2.0.0
 ms.assetid: 20DFD2A4-6040-4204-8388-5251C72FFE14
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlServerActiveDirectoryAdministrator.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlServerActiveDirectoryAdministrator.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlServerActiveDirectoryAdministrator.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlServerActiveDirectoryAdministrator.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -189,10 +189,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlServerActiveDirectoryAdministrator](./Get-AzureRmSqlServerActiveDirectoryAdministrator.md)
+[Get-AzureRmSqlServerActiveDirectoryAdministrator](xref:ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServerActiveDirectoryAdministrator.md)
 
-[Remove-AzureRmSqlServerActiveDirectoryAdministrator](./Remove-AzureRmSqlServerActiveDirectoryAdministrator.md)
+[Remove-AzureRmSqlServerActiveDirectoryAdministrator](xref:ResourceManager/AzureRM.Sql/v2.2.0/Remove-AzureRmSqlServerActiveDirectoryAdministrator.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\Disable-AzureBatchComputeNodeScheduling.md
+online version: 
 schema: 2.0.0
 ms.assetid: 2C463937-AF16-4833-9484-F7B93A640674
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchComputeNodeScheduling.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchComputeNodeScheduling.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchComputeNodeScheduling.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchComputeNodeScheduling.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -38,7 +38,7 @@ Enable-AzureBatchComputeNodeScheduling [[-ComputeNode] <PSComputeNode>] -BatchCo
 
 ## DESCRIPTION
 The **Enable-AzureBatchComputeNodeScheduling** cmdlet enables task scheduling on the specified compute node.
-A compute node is an azure_2 virtual machine dedicated to a specific application workload.
+A compute node is an Azure virtual machine dedicated to a specific application workload.
 
 ## EXAMPLES
 
@@ -142,6 +142,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureBatchComputeNodeScheduling](./Disable-AzureBatchComputeNodeScheduling.md)
+[Disable-AzureBatchComputeNodeScheduling](xref:ResourceManager/AzureRM.Batch/v1.1.4/Disable-AzureBatchComputeNodeScheduling.md)
 
 

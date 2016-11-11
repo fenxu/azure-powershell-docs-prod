@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
-online version: 8cdd0580-1174-4f34-849d-d0f18baff439
+online version: 
 schema: 2.0.0
 ms.assetid: B5A63F24-76B7-440C-8D5A-6362849AFC20
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Get-AzureRmDnsZone.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Get-AzureRmDnsZone.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Get-AzureRmDnsZone.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Get-AzureRmDnsZone.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -61,7 +61,7 @@ This example gets all of the DNS zones in the specified resource group, and then
 PS C:\> $Zones = Get-AzureRmDnsZone
 ```
 
-This example gets all of the DNS zones in the current azure_2 subscription, and then stores them in the $Zones variable.
+This example gets all of the DNS zones in the current Azure subscription, and then stores them in the $Zones variable.
 
 ## PARAMETERS
 
@@ -69,7 +69,7 @@ This example gets all of the DNS zones in the current azure_2 subscription, and 
 Specifies the name of the DNS zone to get.
 
 If you do not specify a value for the *Name* parameter, this cmdlet gets all DNS zones in the specified resource group.
-If you also omit the *ResourceGroupName* parameter, this cmdlet gets all DNS zones in the current azure_2 subscription.
+If you also omit the *ResourceGroupName* parameter, this cmdlet gets all DNS zones in the current Azure subscription.
 
 ```yaml
 Type: String
@@ -87,7 +87,7 @@ Accept wildcard characters: False
 Specifies the name of the resource group that contains the DNS zone to get.
 
 If you do not specify the *ResourceGroupName*, then you mus also omit the *Name* parameter.
-In this case, this cmdlet gets all DNS zones in the current azure_2 subscription.
+In this case, this cmdlet gets all DNS zones in the current Azure subscription.
 
 ```yaml
 Type: String
@@ -119,10 +119,10 @@ If the zone name is not specified, an array of zone objects is returned.
 
 ## RELATED LINKS
 
-[New-AzureRmDnsZone](./New-AzureRmDnsZone.md)
+[New-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.2.0/New-AzureRmDnsZone.md)
 
-[Remove-AzureRmDnsZone](./Remove-AzureRmDnsZone.md)
+[Remove-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.2.0/Remove-AzureRmDnsZone.md)
 
-[Set-AzureRmDnsZone](./Set-AzureRmDnsZone.md)
+[Set-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.2.0/Set-AzureRmDnsZone.md)
 
 

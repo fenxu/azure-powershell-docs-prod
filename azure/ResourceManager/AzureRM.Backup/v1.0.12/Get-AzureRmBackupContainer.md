@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
-online version: .\Get-AzureRmBackupVault.md
+online version: 
 schema: 2.0.0
 ms.assetid: D68F33FE-5F04-4680-B818-76AC05DE8797
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupContainer.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,16 +31,16 @@ Get-AzureRmBackupContainer [-Name <String>] -Type <AzureBackupContainerType>
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmBackupContainer** cmdlet gets azure_2 Backup containers.
+The **Get-AzureRmBackupContainer** cmdlet gets Azure Backup containers.
 
 An **AzureBackupContainer** encapsulates data sources, protected items, and recovery points.
 An **AzureBackupContainer** can be one of the following: 
 
 - A Windows Server computer
 - A System Center Data Protection Manager (SCDPM) server 
-- An azure_2 infrastructure as a service (IaaS) virtual machine
+- An Azure infrastructure as a service (IaaS) virtual machine
 
-Before Backup can back up a data source or item, you must register the container that holds it with the azure_2 Backup service.
+Before Backup can back up a data source or item, you must register the container that holds it with the Azure Backup service.
 The container must be authenticated to send backup data to the Backup vault.
 For Windows Server computers and SCDPM servers, the registration is held with the fully qualified domain name of the server.
 
@@ -184,10 +184,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupVault.md)
 
-[Register-AzureRmBackupContainer](./Register-AzureRmBackupContainer.md)
+[Register-AzureRmBackupContainer](xref:ResourceManager/AzureRM.Backup/v1.0.12/Register-AzureRmBackupContainer.md)
 
-[Unregister-AzureRmBackupContainer](./Unregister-AzureRmBackupContainer.md)
+[Unregister-AzureRmBackupContainer](xref:ResourceManager/AzureRM.Backup/v1.0.12/Unregister-AzureRmBackupContainer.md)
 
 

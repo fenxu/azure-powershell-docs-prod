@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Get-AzureLoadBalancerRuleConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: 1F9227E2-FACB-41FC-97C7-B52F53CAB330
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerRuleConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -298,12 +298,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureLoadBalancerRuleConfig](./Get-AzureLoadBalancerRuleConfig.md)
+[Get-AzureLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerRuleConfig.md)
 
-[New-AzureLoadBalancerRuleConfig](./New-AzureLoadBalancerRuleConfig.md)
+[New-AzureLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerRuleConfig.md)
 
-[Remove-AzureLoadBalancerRuleConfig](./Remove-AzureLoadBalancerRuleConfig.md)
+[Remove-AzureLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerRuleConfig.md)
 
-[Set-AzureLoadBalancerRuleConfig](./Set-AzureLoadBalancerRuleConfig.md)
+[Set-AzureLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancerRuleConfig.md)
 
 

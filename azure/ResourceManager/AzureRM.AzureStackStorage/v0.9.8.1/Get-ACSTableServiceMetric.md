@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
-online version: .\Get-ACSTableService.md
+online version: 
 schema: 2.0.0
 ms.assetid: 69ECB134-874E-4AB2-BF16-0C69E526A83E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetric.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetric.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -162,7 +162,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-Specifies the azure_2 subscription ID.
+Specifies the Azure subscription ID.
 For example:
 
 `-SubscriptionID "81c87063-04a3-4abf-8e4c-736569bc1f60"`
@@ -219,7 +219,7 @@ For example:
 
 `-ResourceGroupName "ContosoResourceGroup"`
 
-Resource groups categorize items to help simplify inventory management and overall azure_2 administration.
+Resource groups categorize items to help simplify inventory management and overall Azure administration.
 
 ```yaml
 Type: String
@@ -276,8 +276,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-ACSTableService](./Get-ACSTableService.md)
+[Get-ACSTableService](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableService.md)
 
-[Get-ACSTableServiceMetricDefinition](./Get-ACSTableServiceMetricDefinition.md)
+[Get-ACSTableServiceMetricDefinition](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSTableServiceMetricDefinition.md)
 
 

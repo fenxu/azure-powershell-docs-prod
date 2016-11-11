@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 59D32D53-789C-44C4-A4A7-C6E08EDF56EF
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Disable-AzureServiceProjectRemoteDesktop.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Disable-AzureServiceProjectRemoteDesktop.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Disable-AzureServiceProjectRemoteDesktop.md
 ms.topic: reference
 ms.prod: powershell
@@ -87,6 +87,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureServiceProjectRemoteDesktop](./Enable-AzureServiceProjectRemoteDesktop.md)
+[Enable-AzureServiceProjectRemoteDesktop](xref:ServiceManagement/Azure.Compute/v3.0.0/Enable-AzureServiceProjectRemoteDesktop.md)
 
 

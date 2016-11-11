@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
-online version: https://go.microsoft.com/fwlink/?linkid=829550
+online version: 
 schema: 2.0.0
 ms.assetid: A43C1D14-6EED-4E73-BA05-472EA58DE646
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultKeyAttribute.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultKeyAttribute.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultKeyAttribute.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultKeyAttribute.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ The **Set-AzureKeyVaultKeyAttribute** cmdlet updates the editable attributes of 
 
 ### Example 1: Modify a key to enable it, and set the expiration date and tags
 ```
-PS C:\>$Expires = (Get-Date).AddYears(2).ToUniversalTime() 
+PS C:\>$Expires = (Get-Date).AddYears(2).ToUniversalTime()
 PS C:\> $Tags = @{'Severity' = 'high'; 'Accounting' = null}
 PS C:\> Set-AzureKeyVaultKeyAttribute -VaultName 'Contoso' -Name 'ITSoftware' -Expires $Expires -Enable $True -Tags $Tags -PassThru
 ```
@@ -70,7 +70,7 @@ If you do not specify this parameter, this cmdlet does not modify the status of 
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -88,7 +88,7 @@ For more information, type `Get-Help Get-Date`.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -102,13 +102,13 @@ Specifies an array of operations that can be performed by using the key that thi
 If you do not specify this parameter, all operations can be performed.
 
 The acceptable values for this parameter are a comma-separated list of key operations as defined by the JSON Web Key specification.
-These values (case-sensitive) are: 
+These values (case-sensitive) are:
 
-- encrypt 
-- decrypt 
-- wrap 
-- unwrap 
-- sign 
+- encrypt
+- decrypt
+- wrap
+- unwrap
+- sign
 - verify
 - backup
 - restore
@@ -116,7 +116,7 @@ These values (case-sensitive) are:
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -149,7 +149,7 @@ To obtain a **DateTime** object, use the **Get-Date** cmdlet.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -165,7 +165,7 @@ By default, this cmdlet does not generate any output.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -181,7 +181,7 @@ This cmdlet constructs the FQDN of a key vault based on the name that this param
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -207,7 +207,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -238,7 +238,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -268,10 +267,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureKeyVaultKey](./Add-AzureKeyVaultKey.md)
+[Add-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Add-AzureKeyVaultKey.md)
 
-[Get-AzureKeyVaultKey](./Get-AzureKeyVaultKey.md)
+[Get-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Get-AzureKeyVaultKey.md)
 
-[Remove-AzureKeyVaultKey](./Remove-AzureKeyVaultKey.md)
-
-
+[Remove-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultKey.md)

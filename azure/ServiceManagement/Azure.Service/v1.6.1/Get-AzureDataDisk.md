@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Add-AzureDataDisk.md
+online version: 
 schema: 2.0.0
 ms.assetid: 8A97F067-7F6D-4D1D-BAB4-8195DC04A99A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureDataDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureDataDisk.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureDataDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureDataDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureDataDisk
 
 ## SYNOPSIS
-Gets azure_2 data disks.
+Gets Azure data disks.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureDataDisk [[-Lun] <Int32>] -VM <IPersistentVM> [-Profile <AzureSMProfile
 ```
 
 ## DESCRIPTION
-The **Get-AzureDataDisk** cmdlet gets an object that represents the data disks on an azure_2 virtual machine.
+The **Get-AzureDataDisk** cmdlet gets an object that represents the data disks on an Azure virtual machine.
 To get a specific data disk object, specify the logical unit number (LUN) of the disk.
 
 ## EXAMPLES
@@ -103,7 +103,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -118,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -143,12 +152,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureDataDisk](./Add-AzureDataDisk.md)
+[Add-AzureDataDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureDataDisk.md)
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVM.md)
 
-[Remove-AzureDataDisk](./Remove-AzureDataDisk.md)
+[Remove-AzureDataDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureDataDisk.md)
 
-[Set-AzureDataDisk](./Set-AzureDataDisk.md)
+[Set-AzureDataDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureDataDisk.md)
 
 

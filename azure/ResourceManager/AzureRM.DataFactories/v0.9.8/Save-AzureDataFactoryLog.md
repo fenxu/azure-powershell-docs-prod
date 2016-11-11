@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F88255A8-3FD9-4980-9F31-85DCC9B83A6C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Save-AzureDataFactoryLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Save-AzureDataFactoryLog.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Save-AzureDataFactoryLog.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Save-AzureDataFactoryLog.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -77,7 +77,6 @@ Note that -DownloadLogs parameter is not specified.
 ## PARAMETERS
 
 ### -DataFactory
-@{Text=}
 
 ```yaml
 Type: PSDataFactory
@@ -171,7 +170,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureProfile
@@ -196,16 +194,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureDataFactoryRun](./Get-AzureDataFactoryRun.md)
+[Get-AzureDataFactoryRun](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryRun.md)
 
-[Get-AzureDataFactoryPipeline](./Get-AzureDataFactoryPipeline.md)
+[Get-AzureDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryPipeline.md)
 
-[New-AzureDataFactoryPipeline](./New-AzureDataFactoryPipeline.md)
+[New-AzureDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/New-AzureDataFactoryPipeline.md)
 
-[Remove-AzureDataFactoryPipeline](./Remove-AzureDataFactoryPipeline.md)
+[Remove-AzureDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Remove-AzureDataFactoryPipeline.md)
 
-[Set-AzureDataFactoryPipelineActivePeriod](./Set-AzureDataFactoryPipelineActivePeriod.md)
+[Set-AzureDataFactoryPipelineActivePeriod](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Set-AzureDataFactoryPipelineActivePeriod.md)
 
-[Suspend-AzureDataFactoryPipeline](./Suspend-AzureDataFactoryPipeline.md)
+[Suspend-AzureDataFactoryPipeline](xref:ResourceManager/AzureRM.DataFactories/v0.9.8/Suspend-AzureDataFactoryPipeline.md)
 
 

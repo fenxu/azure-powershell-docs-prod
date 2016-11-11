@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
-online version: .\Get-AzureRmBackupJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: 47AE169C-9CEA-4F97-8B99-4A4009CA1B07
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Wait-AzureRmBackupJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Wait-AzureRmBackupJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Wait-AzureRmBackupJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Wait-AzureRmBackupJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Wait-AzureRmBackupJob -Job <Object> [-TimeOut <Int64>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Wait-AzureRmBackupJob** cmdlet waits for an azure_2 Backup job to finish.
+The **Wait-AzureRmBackupJob** cmdlet waits for an Azure Backup job to finish.
 Backup jobs can take a long time.
 If you run a backup job as part of a script, you may want to force the script to wait for job to finish before it continues to other tasks.
 
@@ -91,8 +91,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupJob](./Get-AzureRmBackupJob.md)
+[Get-AzureRmBackupJob](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupJob.md)
 
-[Stop-AzureRmBackupJob](./Stop-AzureRmBackupJob.md)
+[Stop-AzureRmBackupJob](xref:ResourceManager/AzureRM.Backup/v1.0.12/Stop-AzureRmBackupJob.md)
 
 

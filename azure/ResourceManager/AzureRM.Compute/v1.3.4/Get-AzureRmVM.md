@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\New-AzureRmVM.md
+online version: 
 schema: 2.0.0
 ms.assetid: 68C13EB3-B86B-4EB2-B885-2A2AB6C7CC2F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVM.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -48,7 +48,7 @@ Get-AzureRmVM [-NextLink] <Uri> [-InformationAction <ActionPreference>] [-Inform
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmVM** cmdlet gets the model view and instance view of an azure_2 virtual machine.
+The **Get-AzureRmVM** cmdlet gets the model view and instance view of an Azure virtual machine.
 The model view is the user specified properties of the virtual machine.
 The instance view is the instance level status of the virtual machine.
 Specify the *Status* parameter to get only the instance view of a virtual machine.
@@ -88,7 +88,16 @@ This command gets all the virtual machines in your subscription.
 ## PARAMETERS
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -103,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -188,16 +197,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmVM](./New-AzureRmVM.md)
+[New-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVM.md)
 
-[Remove-AzureRmVM](./Remove-AzureRmVM.md)
+[Remove-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmVM.md)
 
-[Restart-AzureRmVM](./Restart-AzureRmVM.md)
+[Restart-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Restart-AzureRmVM.md)
 
-[Start-AzureRmVM](./Start-AzureRmVM.md)
+[Start-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Start-AzureRmVM.md)
 
-[Stop-AzureRmVM](./Stop-AzureRmVM.md)
+[Stop-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Stop-AzureRmVM.md)
 
-[Update-AzureRmVM](./Update-AzureRmVM.md)
+[Update-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v1.3.4/Update-AzureRmVM.md)
 
 

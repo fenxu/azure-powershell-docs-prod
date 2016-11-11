@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
-online version: 0c2a5092-db45-4ce7-b39b-d1e499b4a867
+online version: 
 schema: 2.0.0
 ms.assetid: 533E00D4-80F7-4920-B12A-7F848667DAB3
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureWebsiteProject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureWebsiteProject.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureWebsiteProject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureWebsiteProject.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -174,7 +174,6 @@ Accept wildcard characters: False
 ```
 
 ### -DoNotDelete
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -205,7 +204,6 @@ Accept wildcard characters: False
 ```
 
 ### -SetParametersFile
-@{Text=}
 
 ```yaml
 Type: String
@@ -220,7 +218,6 @@ Accept wildcard characters: False
 ```
 
 ### -SkipAppData
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -235,7 +232,6 @@ Accept wildcard characters: False
 ```
 
 ### -Tokens
-@{Text=}
 
 ```yaml
 Type: String
@@ -260,12 +256,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureWebsite](./Get-AzureWebsite.md)
+[Get-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsite.md)
 
-[New-AzureWebsite](./New-AzureWebsite.md)
+[New-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/New-AzureWebsite.md)
 
-[Remove-AzureWebsite](./Remove-AzureWebsite.md)
+[Remove-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-AzureWebsite.md)
 
-[Set-AzureWebsite](./Set-AzureWebsite.md)
+[Set-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Set-AzureWebsite.md)
 
 

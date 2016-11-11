@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\Get-AzureVNetGatewayIPsecParameters.md
+online version: 
 schema: 2.0.0
 ms.assetid: 9BA609FB-0913-411A-9AAB-50946BE6048C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureVNetGatewayIPsecParameters.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureVNetGatewayIPsecParameters.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureVNetGatewayIPsecParameters.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureVNetGatewayIPsecParameters.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -35,10 +35,7 @@ The **Set-AzureVNetGatewayIPsecParameters** cmdlet sets Internet Protocol securi
 
 ## EXAMPLES
 
-### 1:
-```
 
-```
 
 ## PARAMETERS
 
@@ -48,7 +45,7 @@ Specifies the virtual network for which this cmdlet sets IPsec parameters for th
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -63,7 +60,7 @@ Specifies the name of the local network site connection on which this cmdlet con
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -74,15 +71,15 @@ Accept wildcard characters: False
 
 ### -EncryptionType
 Specifies the encryption type for the virtual network gateway.
-Valid values are: 
+Valid values are:
 
-- NoEncryption 
+- NoEncryption
 - RequireEncryption
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -93,15 +90,15 @@ Accept wildcard characters: False
 
 ### -PfsGroup
 Specifies the perfect forward secrecy (PFS) group.
-Valid values are: 
+Valid values are:
 
-- PFS1 
+- PFS1
 - None
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -116,7 +113,7 @@ Specifies the size, in kilobytes, of the security association (SA).
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -131,7 +128,7 @@ Specifies the period, in seconds, of the security association.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -147,7 +144,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -167,6 +164,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVNetGatewayIPsecParameters](./Get-AzureVNetGatewayIPsecParameters.md)
-
-
+[Get-AzureVNetGatewayIPsecParameters](xref:ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVNetGatewayIPsecParameters.md)

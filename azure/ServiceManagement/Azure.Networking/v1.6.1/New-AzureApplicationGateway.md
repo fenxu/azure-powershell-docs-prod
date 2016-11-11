@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\Get-AzureApplicationGateway.md
+online version: 
 schema: 2.0.0
 ms.assetid: FD6F1D91-F019-4282-9F4F-46AEB4B4621B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/New-AzureApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/New-AzureApplicationGateway.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/New-AzureApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/New-AzureApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -141,7 +141,8 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
 
 ```yaml
 Type: AzureSMProfile
@@ -170,14 +171,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureApplicationGateway](./Get-AzureApplicationGateway.md)
+[Get-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v1.6.1/Get-AzureApplicationGateway.md)
 
-[Remove-AzureApplicationGateway](./Remove-AzureApplicationGateway.md)
+[Remove-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v1.6.1/Remove-AzureApplicationGateway.md)
 
-[Start-AzureApplicationGateway](./Start-AzureApplicationGateway.md)
+[Start-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v1.6.1/Start-AzureApplicationGateway.md)
 
-[Stop-AzureApplicationGateway](./Stop-AzureApplicationGateway.md)
+[Stop-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v1.6.1/Stop-AzureApplicationGateway.md)
 
-[Update-AzureApplicationGateway](./Update-AzureApplicationGateway.md)
+[Update-AzureApplicationGateway](xref:ServiceManagement/Azure.Networking/v1.6.1/Update-AzureApplicationGateway.md)
 
 

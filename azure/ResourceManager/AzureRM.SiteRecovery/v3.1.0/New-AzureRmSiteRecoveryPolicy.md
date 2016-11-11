@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: b7db9ad2-8757-4064-a03c-a691b43a30c6
+online version: 
 schema: 2.0.0
 ms.assetid: 4CCE9AA8-4EFA-4399-B814-480A09E26F77
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryPolicy.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,10 +46,6 @@ The replication policy is used to specify replication settings such as the repli
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -59,7 +55,7 @@ Specifies a friendly name which identifies the Site Recovery replication policy.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -70,7 +66,7 @@ Accept wildcard characters: False
 
 ### -ReplicationProvider
 Specifies the replication provider.
-Valid values are: 
+Valid values are:
 
 - HyperVReplica2012R2
 - HyperVReplica2012
@@ -79,7 +75,7 @@ Valid values are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -90,7 +86,7 @@ Accept wildcard characters: False
 
 ### -ReplicationFrequencyInSeconds
 Specifies the replication frequency interval in seconds.
-Valid values are: 
+Valid values are:
 
 - 30
 - 300
@@ -99,7 +95,7 @@ Valid values are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -114,7 +110,7 @@ Specifies the number of hours to retain recovery points.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -129,7 +125,7 @@ Specifies the frequency of the application consistent snapshot in hours.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -145,7 +141,7 @@ It must be no later than 24-hours from the start of the job.
 ```yaml
 Type: TimeSpan
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -160,7 +156,7 @@ Specifies the Azure storage account ID of the replication target.
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToAzure
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -170,12 +166,11 @@ Accept wildcard characters: False
 ```
 
 ### -Encryption
-@{Text=}
 
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToAzure
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -186,7 +181,7 @@ Accept wildcard characters: False
 
 ### -ReplicationMethod
 Specifies the replication method.
-Valid values are: 
+Valid values are:
 
 - Online
 - Offline
@@ -194,7 +189,7 @@ Valid values are:
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -204,12 +199,11 @@ Accept wildcard characters: False
 ```
 
 ### -Compression
-@{Text=}
 
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -224,7 +218,7 @@ Specifies the port used for replication.
 ```yaml
 Type: UInt16
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -235,7 +229,7 @@ Accept wildcard characters: False
 
 ### -Authentication
 Specifies the type of authentication used.
-Valid values are: 
+Valid values are:
 
 - Certificate
 -  Kerberos
@@ -243,7 +237,7 @@ Valid values are:
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -253,12 +247,11 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicaDeletion
-@{Text=}
 
 ```yaml
 Type: String
 Parameter Sets: EnterpriseToEnterprise
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -278,8 +271,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryPolicy](./Get-AzureRmSiteRecoveryPolicy.md)
+[Get-AzureRmSiteRecoveryPolicy](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryPolicy.md)
 
-[Remove-AzureRmSiteRecoveryPolicy](./Remove-AzureRmSiteRecoveryPolicy.md)
-
-
+[Remove-AzureRmSiteRecoveryPolicy](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryPolicy.md)

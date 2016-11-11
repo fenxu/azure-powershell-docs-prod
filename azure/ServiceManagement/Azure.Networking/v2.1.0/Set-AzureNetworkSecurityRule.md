@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\Remove-AzureNetworkSecurityRule.md
+online version: 
 schema: 2.0.0
 ms.assetid: 045041BF-855D-47A2-9D18-9D4BBB0525EA
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureNetworkSecurityRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureNetworkSecurityRule.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureNetworkSecurityRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Set-AzureNetworkSecurityRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -36,10 +36,7 @@ The **Set-AzureNetworkSecurityRule** cmdlet adds or modifies an Azure network se
 
 ## EXAMPLES
 
-### 1:
-```
 
-```
 
 ## PARAMETERS
 
@@ -49,7 +46,7 @@ Specifies the name for the network security rule that this cmdlet adds or modifi
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -65,7 +62,7 @@ Valid values are: Inbound and Outbound.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -81,7 +78,7 @@ Valid values are: integers from 100 to 4096.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -97,7 +94,7 @@ Valid values are: Allow and Deny.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -113,7 +110,7 @@ An asterisk (*) specifies any IP address.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -131,7 +128,7 @@ A hyphen separates the two values.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -147,7 +144,7 @@ An asterisk (*) specifies any IP address.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -165,7 +162,7 @@ A hyphen separates the two values.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -176,16 +173,16 @@ Accept wildcard characters: False
 
 ### -Protocol
 Specifies the protocol for the network security rule.
-Valid values are: 
+Valid values are:
 
-- TCP 
-- UDP 
+- TCP
+- UDP
 - *
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -201,7 +198,7 @@ To obtain an **INetworkSecurityGroup** object, use the Get-AzureNetworkSecurityG
 ```yaml
 Type: INetworkSecurityGroup
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -217,7 +214,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -237,6 +234,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureNetworkSecurityRule](./Remove-AzureNetworkSecurityRule.md)
-
-
+[Remove-AzureNetworkSecurityRule](xref:ServiceManagement/Azure.Networking/v2.1.0/Remove-AzureNetworkSecurityRule.md)

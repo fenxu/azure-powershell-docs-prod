@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
-online version: d6e31a21-f027-4075-955a-d6e0344a6805
+online version: 
 schema: 2.0.0
 ms.assetid: CB7EA7DE-7C36-451B-A904-99F785B674A6
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleTask.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

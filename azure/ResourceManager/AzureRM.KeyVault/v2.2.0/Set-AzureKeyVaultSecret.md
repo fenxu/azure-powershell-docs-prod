@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
-online version: https://go.microsoft.com/fwlink/?linkid=829551
+online version: 
 schema: 2.0.0
 ms.assetid: FD385C29-0596-43B4-AC1F-ECDA88889F72
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultSecret.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultSecret.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultSecret.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultSecret.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -39,7 +39,7 @@ If the secret already exists, this cmdlet creates a new version of that secret.
 
 ### Example 1: Modify the value of a secret using default attributes
 ```
-PS C:\>$Secret = ConvertTo-SecureString -String 'Password' -AsPlainText -Force 
+PS C:\>$Secret = ConvertTo-SecureString -String 'Password' -AsPlainText -Force
 PS C:\> Set-AzureKeyVaultSecret -VaultName 'Contoso' -Name 'ITSecret' -SecretValue $Secret
 ```
 
@@ -51,7 +51,7 @@ The secret value becomes the value stored in $Secret.
 
 ### Example 2: Modify the value of a secret using custom attributes
 ```
-PS C:\>$Secret = ConvertTo-SecureString -String 'Password' -AsPlainText -Force 
+PS C:\>$Secret = ConvertTo-SecureString -String 'Password' -AsPlainText -Force
 PS C:\> $Expires = (Get-Date).AddYears(2).ToUniversalTime()
 PS C:\> $NBF =(Get-Date).ToUniversalTime()
 PS C:\> $Tags = @{ 'Severity' = 'medium'; 'IT' = null }
@@ -75,7 +75,7 @@ To delete the existing content type, specify an empty string.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -90,7 +90,7 @@ Indicates that this cmdlet disables a secret.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -108,7 +108,7 @@ For more information, type `Get-Help Get-Date`.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -141,7 +141,7 @@ To obtain a **DateTime** object, use the **Get-Date** cmdlet.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -158,7 +158,7 @@ For more information, type `Get-Help ConvertTo-SecureString`.
 ```yaml
 Type: SecureString
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -174,7 +174,7 @@ This cmdlet constructs the FQDN of a key vault based on the name that this param
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -184,7 +184,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -215,7 +215,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -245,8 +244,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureKeyVaultSecret](./Get-AzureKeyVaultSecret.md)
+[Get-AzureKeyVaultSecret](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Get-AzureKeyVaultSecret.md)
 
-[Remove-AzureKeyVaultSecret](./Remove-AzureKeyVaultSecret.md)
-
-
+[Remove-AzureKeyVaultSecret](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultSecret.md)

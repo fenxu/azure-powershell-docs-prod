@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
-online version: .\Add-AzureRmApiManagementRegion.md
+online version: 
 schema: 2.0.0
 ms.assetid: BF37A79F-38A4-433E-B847-BEB564AD781C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Update-AzureRmApiManagementRegion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Update-AzureRmApiManagementRegion.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Update-AzureRmApiManagementRegion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Update-AzureRmApiManagementRegion.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,10 +37,6 @@ To update a deployment of an API Management use the modified **PsApiManagementIn
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -50,7 +46,7 @@ Specifies the **PsApiManagement** instance to update an existing deployment regi
 ```yaml
 Type: PsApiManagement
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -62,7 +58,7 @@ Accept wildcard characters: False
 ### -Location
 Specifies the location of the deployment region to update.
 
-Valid values are: 
+Valid values are:
 
 - North Central US
 - South Central US
@@ -83,7 +79,7 @@ Valid values are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -95,7 +91,7 @@ Accept wildcard characters: False
 ### -Sku
 Specifies the new tier value for the deployment region.
 
-Valid values are: 
+Valid values are:
 
 - Developer
 - Standard
@@ -104,7 +100,7 @@ Valid values are:
 ```yaml
 Type: PsApiManagementSku
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -119,7 +115,7 @@ Specifies the new SKU capacity value for the deployment region.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -135,7 +131,7 @@ Passing $null will remove virtual network configuration for the region.
 ```yaml
 Type: PsApiManagementVirtualNetwork
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -145,7 +141,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -160,7 +165,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -185,10 +190,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApiManagementRegion](./Add-AzureRmApiManagementRegion.md)
+[Add-AzureRmApiManagementRegion](xref:ResourceManager/AzureRM.ApiManagement/v1.1.4/Add-AzureRmApiManagementRegion.md)
 
-[Remove-AzureRmApiManagementRegion](./Remove-AzureRmApiManagementRegion.md)
+[Remove-AzureRmApiManagementRegion](xref:ResourceManager/AzureRM.ApiManagement/v1.1.4/Remove-AzureRmApiManagementRegion.md)
 
-[Update-AzureRmApiManagementDeployment](./Update-AzureRmApiManagementDeployment.md)
-
-
+[Update-AzureRmApiManagementDeployment](xref:ResourceManager/AzureRM.ApiManagement/v1.1.4/Update-AzureRmApiManagementDeployment.md)

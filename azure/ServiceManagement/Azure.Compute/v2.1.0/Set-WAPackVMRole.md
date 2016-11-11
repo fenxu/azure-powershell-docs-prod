@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 82036131-58A0-4129-83F9-D2F48678AB78
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-WAPackVMRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-WAPackVMRole.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-WAPackVMRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-WAPackVMRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -49,7 +49,6 @@ PS C:\>
 ## PARAMETERS
 
 ### -VMRole
-@{Text=}
 
 ```yaml
 Type: VMRole
@@ -64,7 +63,6 @@ Accept wildcard characters: False
 ```
 
 ### -InstanceCount
-@{Text=}
 
 ```yaml
 Type: Int32
@@ -79,7 +77,6 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-@{Text=}
 
 ```yaml
 Type: SwitchParameter

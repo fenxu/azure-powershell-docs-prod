@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkId=826291
+online version: 
 schema: 2.0.0
 ms.assetid: 1A10E023-51C3-4456-8B5B-0CC1D80B7B4B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Remove-AzureKeyVaultCertificateContact.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Remove-AzureKeyVaultCertificateContact.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Remove-AzureKeyVaultCertificateContact.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Remove-AzureKeyVaultCertificateContact.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -132,8 +132,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureKeyVaultCertificateContact](./Add-AzureKeyVaultCertificateContact.md)
+[Add-AzureKeyVaultCertificateContact](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Add-AzureKeyVaultCertificateContact.md)
 
-[Get-AzureKeyVaultCertificateContact](./Get-AzureKeyVaultCertificateContact.md)
+[Get-AzureKeyVaultCertificateContact](xref:ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultCertificateContact.md)
 
 

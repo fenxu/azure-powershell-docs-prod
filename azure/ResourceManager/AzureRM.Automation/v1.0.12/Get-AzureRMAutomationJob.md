@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Get-AzureRMAutomationJobOutput.md
+online version: 
 schema: 2.0.0
 ms.assetid: E41C8823-9E6A-4535-B90C-0E2DE7634C47
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureRmAutomationJob
@@ -43,7 +44,7 @@ Get-AzureRmAutomationJob -RunbookName <String> [-Status <String>] [-StartTime <D
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAutomationJob** cmdlet gets runbook jobs in azure_2 Automation.
+The **Get-AzureRmAutomationJob** cmdlet gets runbook jobs in Azure Automation.
 
 ## EXAMPLES
 
@@ -206,12 +207,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationJobOutput](./Get-AzureRMAutomationJobOutput.md)
+[Get-AzureRmAutomationJobOutput](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationJobOutput.md)
 
-[Resume-AzureRmAutomationJob](./Resume-AzureRMAutomationJob.md)
+[Resume-AzureRmAutomationJob](xref:ResourceManager/AzureRM.Automation/v1.0.12/Resume-AzureRMAutomationJob.md)
 
-[Stop-AzureRmAutomationJob](./Stop-AzureRMAutomationJob.md)
+[Stop-AzureRmAutomationJob](xref:ResourceManager/AzureRM.Automation/v1.0.12/Stop-AzureRMAutomationJob.md)
 
-[Suspend-AzureRmAutomationJob](./Suspend-AzureRMAutomationJob.md)
+[Suspend-AzureRmAutomationJob](xref:ResourceManager/AzureRM.Automation/v1.0.12/Suspend-AzureRMAutomationJob.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureVMAccessExtension.md
+online version: 
 schema: 2.0.0
 ms.assetid: 30F0A1C0-3855-4689-90C8-D7AD82E1E4ED
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMAccessExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMAccessExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMAccessExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMAccessExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -178,12 +178,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVMAccessExtension](./Get-AzureVMAccessExtension.md)
+[Get-AzureVMAccessExtension](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMAccessExtension.md)
 
-[Remove-AzureVMAccessExtension](./Remove-AzureVMAccessExtension.md)
+[Remove-AzureVMAccessExtension](xref:ResourceManager/AzureRM.Compute/v0.9.8/Remove-AzureVMAccessExtension.md)
 
-[Set-AzureVMExtension](./Set-AzureVMExtension.md)
+[Set-AzureVMExtension](xref:ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMExtension.md)
 
-[Get-AzureVMExtensionImage](./Get-AzureVMExtensionImage.md)
+[Get-AzureVMExtensionImage](xref:ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMExtensionImage.md)
 
 

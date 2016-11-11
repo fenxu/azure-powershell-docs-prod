@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: d9b7b6ef-bed9-4fee-97bd-a2ddde80cc1c
+online version: 
 schema: 2.0.0
 ms.assetid: EAE0FBC7-93DA-4322-BC05-A38A7780813D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/New-AzureVirtualNetworkGatewayConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/New-AzureVirtualNetworkGatewayConnection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/New-AzureVirtualNetworkGatewayConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/New-AzureVirtualNetworkGatewayConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureVirtualNetworkGatewayConnection
 
 ## SYNOPSIS
-Creates an azure_2 virtual gateway network connection.
+Creates an Azure virtual gateway network connection.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ New-AzureVirtualNetworkGatewayConnection [-ConnectedEntityId] <String> [-Gateway
 ```
 
 ## DESCRIPTION
-The **New-AzureVirtualNetworkGatewayConnection** cmdlet creates an azure_2 virtual gateway network connection.
+The **New-AzureVirtualNetworkGatewayConnection** cmdlet creates an Azure virtual gateway network connection.
 
 ## EXAMPLES
 
@@ -103,7 +103,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: AzureSMProfile
@@ -171,10 +173,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVirtualNetworkGatewayConnection](./Get-AzureVirtualNetworkGatewayConnection.md)
+[Get-AzureVirtualNetworkGatewayConnection](xref:ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVirtualNetworkGatewayConnection.md)
 
-[Remove-AzureVirtualNetworkGatewayConnection](./Remove-AzureVirtualNetworkGatewayConnection.md)
+[Remove-AzureVirtualNetworkGatewayConnection](xref:ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureVirtualNetworkGatewayConnection.md)
 
-[Reset-AzureVirtualNetworkGatewayConnection](./Reset-AzureVirtualNetworkGatewayConnection.md)
+[Reset-AzureVirtualNetworkGatewayConnection](xref:ServiceManagement/Azure.Networking/v3.0.0/Reset-AzureVirtualNetworkGatewayConnection.md)
 
 

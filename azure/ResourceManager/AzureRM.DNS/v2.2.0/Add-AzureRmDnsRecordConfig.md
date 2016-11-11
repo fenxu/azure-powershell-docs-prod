@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
-online version: 3d1b6e20-c580-4429-8f4f-a4388441b929
+online version: 
 schema: 2.0.0
 ms.assetid: 204FD229-256B-4DB4-829D-3324F9B176F0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Add-AzureRmDnsRecordConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Add-AzureRmDnsRecordConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Add-AzureRmDnsRecordConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Add-AzureRmDnsRecordConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -68,7 +68,7 @@ Add-AzureRmDnsRecordConfig -RecordSet <DnsRecordSet> -Cname <String> [<CommonPar
 
 ## DESCRIPTION
 The **Add-AzureRmDnsRecordConfig** cmdlet adds a Domain Name System (DNS) record to a **RecordSet** object.
-The **RecordSet** object is an offline object, and changes to it do not change the DNS responses until after you run the Set-AzureRmDnsRecordSet cmdlet to persist the change to the Microsoft azure_2 DNS service.
+The **RecordSet** object is an offline object, and changes to it do not change the DNS responses until after you run the Set-AzureRmDnsRecordSet cmdlet to persist the change to the Microsoft Azure DNS service.
 
 SOA records are created when a DNS zone is created, and are removed when the DNS zone is deleted.
 You cannot add or remove SOA records, but you can edit them.
@@ -399,10 +399,10 @@ In addition, the object passed in is modified directly.
 
 ## RELATED LINKS
 
-[Get-AzureRmDnsRecordSet](./Get-AzureRmDnsRecordSet.md)
+[Get-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.2.0/Get-AzureRmDnsRecordSet.md)
 
-[Remove-AzureRmDnsRecordConfig](./Remove-AzureRmDnsRecordConfig.md)
+[Remove-AzureRmDnsRecordConfig](xref:ResourceManager/AzureRM.DNS/v2.2.0/Remove-AzureRmDnsRecordConfig.md)
 
-[Set-AzureRmDnsRecordSet](./Set-AzureRmDnsRecordSet.md)
+[Set-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.2.0/Set-AzureRmDnsRecordSet.md)
 
 

@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 68B3E4A9-7AFF-4274-BD8C-0F664CB6E65D
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureServiceProject.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureServiceProject.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureServiceProject.md
 ms.topic: reference
 ms.prod: powershell
@@ -87,12 +87,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureNodeWebRole](./Add-AzureNodeWebRole.md)
+[Add-AzureNodeWebRole](xref:ServiceManagement/Azure.Compute/v1.6.1/Add-AzureNodeWebRole.md)
 
-[Add-AzureNodeWorkerRole](./Add-AzureNodeWorkerRole.md)
+[Add-AzureNodeWorkerRole](xref:ServiceManagement/Azure.Compute/v1.6.1/Add-AzureNodeWorkerRole.md)
 
-[Set-AzureServiceProject](./Set-AzureServiceProject.md)
+[Set-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v1.6.1/Set-AzureServiceProject.md)
 
-[Set-AzureServiceProjectRole](./Set-AzureServiceProjectRole.md)
+[Set-AzureServiceProjectRole](xref:ServiceManagement/Azure.Compute/v1.6.1/Set-AzureServiceProjectRole.md)
 
 

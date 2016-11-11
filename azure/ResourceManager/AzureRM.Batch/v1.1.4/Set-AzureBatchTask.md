@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\Get-AzureBatchTask.md
+online version: 
 schema: 2.0.0
 ms.assetid: 17C6284F-05D2-4CE1-8523-E293649344AF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Set-AzureBatchTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Set-AzureBatchTask.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Set-AzureBatchTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Set-AzureBatchTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Set-AzureBatchTask [-Task] <PSCloudTask> -BatchContext <BatchAccountContext> [<C
 ```
 
 ## DESCRIPTION
-The **Set-AzureBatchTask** cmdlet updates the properties of a task in the azure_2 Batch service.
+The **Set-AzureBatchTask** cmdlet updates the properties of a task in the Azure Batch service.
 Use the Get-AzureBatchTask cmdlet to get a **PSCloudTask** object.
 Modify the properties of that object, and then use the current cmdlet to commit your changes to the Batch service.
 
@@ -93,16 +93,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureBatchTask](./Get-AzureBatchTask.md)
+[Get-AzureBatchTask](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchTask.md)
 
-[Get-AzureRmBatchAccountKeys](./Get-AzureRmBatchAccountKeys.md)
+[Get-AzureRmBatchAccountKeys](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchAccountKeys.md)
 
-[New-AzureBatchTask](./New-AzureBatchTask.md)
+[New-AzureBatchTask](xref:ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchTask.md)
 
-[Remove-AzureBatchTask](./Remove-AzureBatchTask.md)
+[Remove-AzureBatchTask](xref:ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchTask.md)
 
-[Stop-AzureBatchTask](./Stop-AzureBatchTask.md)
+[Stop-AzureBatchTask](xref:ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchTask.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v1.1.4/AzureRM.Batch.md)
 
 

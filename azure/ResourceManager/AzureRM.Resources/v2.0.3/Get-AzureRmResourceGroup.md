@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
-online version: .\New-AzureRmResourceGroup.md
+online version: 
 schema: 2.0.0
 ms.assetid: 6282A378-C6F0-4A8E-BF68-DD5F68412205
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroup.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureRmResourceGroup
@@ -35,11 +36,11 @@ Get-AzureRmResourceGroup [-Location <String>] [-Id <String>] [-ApiVersion <Strin
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmResourceGroup** cmdlet gets azure_2 resource groups in the current subscription.
+The **Get-AzureRmResourceGroup** cmdlet gets Azure resource groups in the current subscription.
 You can get all resource groups, or specify a resource group by name or by other properties.
 By default, this cmdlet gets all resource groups in the current subscription.
 
-For more information about azure_2 resources and azure_2 resource groups, see the New-AzureRmResourceGroup cmdlet.
+For more information about Azure resources and Azure resource groups, see the New-AzureRmResourceGroup cmdlet.
 
 ## EXAMPLES
 
@@ -48,7 +49,7 @@ For more information about azure_2 resources and azure_2 resource groups, see th
 PS C:\>Get-AzureRmResourceGroup -Name "EngineerBlog"
 ```
 
-This command gets the azure_2 resource group in your subscription named EngineerBlog.
+This command gets the Azure resource group in your subscription named EngineerBlog.
 
 ### Example 2: Get all tags of a resource group
 ```
@@ -154,10 +155,10 @@ This cmdlet returns resource groups.
 
 ## RELATED LINKS
 
-[New-AzureRmResourceGroup](./New-AzureRmResourceGroup.md)
+[New-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResourceGroup.md)
 
-[Remove-AzureRmResourceGroup](./Remove-AzureRmResourceGroup.md)
+[Remove-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceGroup.md)
 
-[Set-AzureRmResourceGroup](./Set-AzureRmResourceGroup.md)
+[Set-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmResourceGroup.md)
 
 

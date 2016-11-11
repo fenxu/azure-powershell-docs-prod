@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
-online version: .\Get-AzureRmBackupVault.md
+online version: 
 schema: 2.0.0
 ms.assetid: EAE6DB41-9F9D-40C1-A5E9-212161C76EBF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.1.0/Remove-AzureRmBackupVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.1.0/Remove-AzureRmBackupVault.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.1.0/Remove-AzureRmBackupVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.1.0/Remove-AzureRmBackupVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -80,7 +80,6 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -127,10 +126,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v2.1.0/Get-AzureRmBackupVault.md)
 
-[New-AzureRmBackupVault](./New-AzureRmBackupVault.md)
+[New-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v2.1.0/New-AzureRmBackupVault.md)
 
-[Set-AzureRmBackupVault](./Set-AzureRmBackupVault.md)
+[Set-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v2.1.0/Set-AzureRmBackupVault.md)
 
 

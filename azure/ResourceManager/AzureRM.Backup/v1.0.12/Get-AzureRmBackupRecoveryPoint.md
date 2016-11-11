@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
-online version: .\Get-AzureRmBackupContainer.md
+online version: 
 schema: 2.0.0
 ms.assetid: 30EBAEEE-E27C-4366-94B1-29274DBC3D6B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupRecoveryPoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupRecoveryPoint.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupRecoveryPoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupRecoveryPoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Get-AzureRmBackupRecoveryPoint [[-RecoveryPointId] <String>] [-Item] <AzureRMBac
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmBackupRecoveryPoint** cmdlet gets the recovery points for a backed up azure_2 Backup item.
+The **Get-AzureRmBackupRecoveryPoint** cmdlet gets the recovery points for a backed up Azure Backup item.
 After an item has been backed up, Backup stores one or more recovery points.
 
 ## EXAMPLES
@@ -104,10 +104,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmBackupContainer](./Get-AzureRmBackupContainer.md)
+[Get-AzureRmBackupContainer](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupContainer.md)
 
-[Get-AzureRmBackupItem](./Get-AzureRmBackupItem.md)
+[Get-AzureRmBackupItem](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupItem.md)
 
-[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupVault.md)
 
 

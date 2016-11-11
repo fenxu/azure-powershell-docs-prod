@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureRmContainerService.md
+online version: 
 schema: 2.0.0
 ms.assetid: A31AB17D-C4B0-402F-AE5D-28FCE7B7F6CB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmContainerService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmContainerService.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmContainerService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRmContainerService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Remove-AzureRmContainerService [-InformationAction <ActionPreference>] [-Informa
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmContainerService** cmdlet removes a container service from your azure_2 account.
+The **Remove-AzureRmContainerService** cmdlet removes a container service from your Azure account.
 
 ## EXAMPLES
 
@@ -44,7 +44,16 @@ This command removes the container service named CSResourceGroup17.
 ## PARAMETERS
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -59,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -114,10 +123,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmContainerService](./Get-AzureRmContainerService.md)
+[Get-AzureRmContainerService](xref:ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmContainerService.md)
 
-[New-AzureRmContainerService](./New-AzureRmContainerService.md)
+[New-AzureRmContainerService](xref:ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmContainerService.md)
 
-[Update-AzureRmContainerService](./Update-AzureRmContainerService.md)
+[Update-AzureRmContainerService](xref:ResourceManager/AzureRM.Compute/v1.3.4/Update-AzureRmContainerService.md)
 
 

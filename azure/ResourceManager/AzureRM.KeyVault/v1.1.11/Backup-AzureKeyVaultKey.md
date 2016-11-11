@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkId=824796
+online version: 
 schema: 2.0.0
 ms.assetid: 90BDAAAA-C9DE-4614-94FB-CA6BEE82D39B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Backup-AzureKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Backup-AzureKeyVaultKey.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Backup-AzureKeyVaultKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Backup-AzureKeyVaultKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -38,7 +38,7 @@ Typical reasons to use this cmdlet are:
 
 - You want to escrow a copy of your key, so that you have an offline copy in case you accidentally delete your key in your key vault.
  
-- You created a key using Key Vault and now want to clone the key into a different azure_2 region, so that you can use it from all instances of your distributed application.
+- You created a key using Key Vault and now want to clone the key into a different Azure region, so that you can use it from all instances of your distributed application.
 Use the **Backup-AzureKeyVaultKey** cmdlet to retrieve the key in encrypted format and then use the Restore-AzureKeyVaultKey cmdlet and specify a key vault in the second region.
 
 ## EXAMPLES
@@ -117,12 +117,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureKeyVaultKey](./Add-AzureKeyVaultKey.md)
+[Add-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Add-AzureKeyVaultKey.md)
 
-[Get-AzureKeyVaultKey](./Get-AzureKeyVaultKey.md)
+[Get-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Get-AzureKeyVaultKey.md)
 
-[Remove-AzureKeyVaultKey](./Remove-AzureKeyVaultKey.md)
+[Remove-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Remove-AzureKeyVaultKey.md)
 
-[Restore-AzureKeyVaultKey](./Restore-AzureKeyVaultKey.md)
+[Restore-AzureKeyVaultKey](xref:ResourceManager/AzureRM.KeyVault/v1.1.11/Restore-AzureKeyVaultKey.md)
 
 

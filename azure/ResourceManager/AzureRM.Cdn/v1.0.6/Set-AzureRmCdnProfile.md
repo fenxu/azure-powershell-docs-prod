@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
-online version: .\Get-AzureRMCdnProfile.md
+online version: 
 schema: 2.0.0
 ms.assetid: 0982DCDF-27E0-4331-AA11-D66BDEE729A9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Set-AzureRmCdnProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Set-AzureRmCdnProfile.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Set-AzureRmCdnProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Set-AzureRmCdnProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Set-AzureRmCdnProfile -CdnProfile <PSProfile> [-InformationAction <ActionPrefere
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmCdnProfile** cmdlet updates an azure_2 Content Delivery Network (CDN) profile.
+The **Set-AzureRmCdnProfile** cmdlet updates an Azure Content Delivery Network (CDN) profile.
 
 ## EXAMPLES
 
@@ -57,7 +57,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -72,7 +81,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -97,10 +106,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRMCdnProfile](./Get-AzureRMCdnProfile.md)
+[Get-AzureRMCdnProfile](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Get-AzureRMCdnProfile.md)
 
-[New-AzureRmCdnProfile](./New-AzureRmCdnProfile.md)
+[New-AzureRmCdnProfile](xref:ResourceManager/AzureRM.Cdn/v1.0.6/New-AzureRmCdnProfile.md)
 
-[Remove-AzureRmCdnProfile](./Remove-AzureRmCdnProfile.md)
+[Remove-AzureRmCdnProfile](xref:ResourceManager/AzureRM.Cdn/v1.0.6/Remove-AzureRmCdnProfile.md)
 
 

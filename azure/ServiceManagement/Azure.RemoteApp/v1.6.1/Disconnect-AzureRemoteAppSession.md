@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Get-AzureRemoteAppSession.md
+online version: 
 schema: 2.0.0
 ms.assetid: E5E8587A-704C-48CB-9C08-452D5D0CFAEB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Disconnect-AzureRemoteAppSession.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Disconnect-AzureRemoteAppSession.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Disconnect-AzureRemoteAppSession.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Disconnect-AzureRemoteAppSession.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Disconnect-AzureRemoteAppSession
 
 ## SYNOPSIS
-Disconnects an azure_2 RemoteApp session.
+Disconnects an Azure RemoteApp session.
 
 ## SYNTAX
 
@@ -30,8 +30,8 @@ Disconnect-AzureRemoteAppSession [-CollectionName] <String> [-UserUpn] <String> 
 ```
 
 ## DESCRIPTION
-The **Disconnect-AzureRemoteAppSession** cmdlet disconnects a user's azure_2 RemoteApp session.
-The user's client disconnects from their azure_2 RemoteApp session, but the user's programs continue to run.
+The **Disconnect-AzureRemoteAppSession** cmdlet disconnects a user's Azure RemoteApp session.
+The user's client disconnects from their Azure RemoteApp session, but the user's programs continue to run.
 
 ## EXAMPLES
 
@@ -40,12 +40,12 @@ The user's client disconnects from their azure_2 RemoteApp session, but the user
 PS C:\>Disconnect-AzureRemoteAppSession -CollectionName "ContosoApps" -UserUpn "PattiFuller@contoso.com"
 ```
 
-This command disconnects the azure_2 RemoteApp session in the ContosoApps collection for the user whose UPN is PattiFuller@contoso.com.
+This command disconnects the Azure RemoteApp session in the ContosoApps collection for the user whose UPN is PattiFuller@contoso.com.
 
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -100,10 +100,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppSession](./Get-AzureRemoteAppSession.md)
+[Get-AzureRemoteAppSession](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppSession.md)
 
-[Invoke-AzureRemoteAppSessionLogoff](./Invoke-AzureRemoteAppSessionLogoff.md)
+[Invoke-AzureRemoteAppSessionLogoff](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Invoke-AzureRemoteAppSessionLogoff.md)
 
-[Send-AzureRemoteAppSessionMessage](./Send-AzureRemoteAppSessionMessage.md)
+[Send-AzureRemoteAppSessionMessage](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Send-AzureRemoteAppSessionMessage.md)
 
 

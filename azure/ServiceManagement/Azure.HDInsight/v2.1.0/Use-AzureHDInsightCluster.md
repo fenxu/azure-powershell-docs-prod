@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 3B0ADDF2-EA75-407C-9CD3-5BF81797EB03
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/Use-AzureHDInsightCluster.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/Use-AzureHDInsightCluster.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/Use-AzureHDInsightCluster.md
 ms.topic: reference
 ms.prod: powershell
@@ -169,10 +169,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureHDInsightCluster](./Get-AzureHDInsightCluster.md)
+[Get-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v2.1.0/Get-AzureHDInsightCluster.md)
 
-[New-AzureHDInsightCluster](./New-AzureHDInsightCluster.md)
+[New-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v2.1.0/New-AzureHDInsightCluster.md)
 
-[Remove-AzureHDInsightCluster](./Remove-AzureHDInsightCluster.md)
+[Remove-AzureHDInsightCluster](xref:ServiceManagement/Azure.HDInsight/v2.1.0/Remove-AzureHDInsightCluster.md)
 
 

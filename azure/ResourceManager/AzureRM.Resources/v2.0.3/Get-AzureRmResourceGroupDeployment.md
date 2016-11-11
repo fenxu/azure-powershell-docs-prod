@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
-online version: .\Get-AzureRmResourceGroup.md
+online version: 
 schema: 2.0.0
 ms.assetid: 2D41645A-48C4-4E76-B144-4E8E6305E99C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroupDeployment.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroupDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroupDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureRmResourceGroupDeployment
@@ -35,15 +36,15 @@ Get-AzureRmResourceGroupDeployment -Id <String> [-ApiVersion <String>] [-Pre] [<
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmResourceGroupDeployment** cmdlet gets the deployments in an azure_2 resource group.
+The **Get-AzureRmResourceGroupDeployment** cmdlet gets the deployments in an Azure resource group.
 Specify the *Name* or *Id* parameter to filter the results.
 By default, **Get-AzureRmResourceGroupDeployment** gets all deployments for a specified resource group.
 
-An azure_2 resource is a user-managed azure_2 entity, such as a database server, database, or web site.
-An azure_2 resource group is a collection of azure_2 resources that are deployed as a unit.
+An Azure resource is a user-managed Azure entity, such as a database server, database, or web site.
+An Azure resource group is a collection of Azure resources that are deployed as a unit.
 
 A deployment is the operation that makes the resources in the resource group available for use.
-For more information about azure_2 resources and azure_2 resource groups, see the New-AzureRmResourceGroup cmdlet.
+For more information about Azure resources and Azure resource groups, see the New-AzureRmResourceGroup cmdlet.
 
 You can use this cmdlet for tracking.
 For debugging, use this cmdlet with the Get-AzureRmLog cmdlet.
@@ -174,16 +175,16 @@ The cmdlet returns resource group deployments.
 
 ## RELATED LINKS
 
-[Get-AzureRmResourceGroup](./Get-AzureRmResourceGroup.md)
+[Get-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroup.md)
 
-[New-AzureRmResourceGroup](./New-AzureRmResourceGroup.md)
+[New-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResourceGroup.md)
 
-[New-AzureRmResourceGroupDeployment](./New-AzureRmResourceGroupDeployment.md)
+[New-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResourceGroupDeployment.md)
 
-[Remove-AzureRmResourceGroupDeployment](./Remove-AzureRmResourceGroupDeployment.md)
+[Remove-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceGroupDeployment.md)
 
-[Stop-AzureRmResourceGroupDeployment](./Stop-AzureRmResourceGroupDeployment.md)
+[Stop-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v2.0.3/Stop-AzureRmResourceGroupDeployment.md)
 
-[Test-AzureRmResourceGroupDeployment](./Test-AzureRmResourceGroupDeployment.md)
+[Test-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v2.0.3/Test-AzureRmResourceGroupDeployment.md)
 
 

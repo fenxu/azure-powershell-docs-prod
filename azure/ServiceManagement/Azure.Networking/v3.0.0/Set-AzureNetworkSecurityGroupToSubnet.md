@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: dfd1141a-28f4-40f0-b25d-cafb1d19cd52
+online version: 
 schema: 2.0.0
 ms.assetid: 27472C0E-7787-44D1-BC02-176955FF86F9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureNetworkSecurityGroupToSubnet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureNetworkSecurityGroupToSubnet.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureNetworkSecurityGroupToSubnet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureNetworkSecurityGroupToSubnet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Set-AzureNetworkSecurityGroupToSubnet [-Name] <String> [-VirtualNetworkName] <St
 ```
 
 ## DESCRIPTION
-The **Set-AzureNetworkSecurityGroupToSubnet** cmdlet associates an azure_2 network security group to a subnet.
+The **Set-AzureNetworkSecurityGroupToSubnet** cmdlet associates an Azure network security group to a subnet.
 
 ## EXAMPLES
 
@@ -103,7 +103,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-passthru
+Returns an object representing the item with which you are working. 
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -118,7 +119,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: AzureSMProfile
@@ -143,8 +146,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureNetworkSecurityGroupForSubnet](./Get-AzureNetworkSecurityGroupForSubnet.md)
+[Get-AzureNetworkSecurityGroupForSubnet](xref:ServiceManagement/Azure.Networking/v3.0.0/Get-AzureNetworkSecurityGroupForSubnet.md)
 
-[Remove-AzureNetworkSecurityGroupFromSubnet](./Remove-AzureNetworkSecurityGroupFromSubnet.md)
+[Remove-AzureNetworkSecurityGroupFromSubnet](xref:ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureNetworkSecurityGroupFromSubnet.md)
 
 

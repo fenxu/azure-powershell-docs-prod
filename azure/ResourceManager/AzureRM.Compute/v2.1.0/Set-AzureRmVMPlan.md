@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureRmVM.md
+online version: 
 schema: 2.0.0
 ms.assetid: 30F95EC0-0CBC-4C82-9D47-0006CB05A50A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVMPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVMPlan.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVMPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVMPlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -135,12 +135,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVM](./Get-AzureRmVM.md)
+[Get-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVM.md)
 
-[Get-AzureRmVMImagePublisher](./Get-AzureRmVMImagePublisher.md)
+[Get-AzureRmVMImagePublisher](xref:ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVMImagePublisher.md)
 
-[Get-AzureRmVMImageSku](./Get-AzureRmVMImageSku.md)
+[Get-AzureRmVMImageSku](xref:ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVMImageSku.md)
 
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)
+[New-AzureRmVMConfig](xref:ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmVMConfig.md)
 
 

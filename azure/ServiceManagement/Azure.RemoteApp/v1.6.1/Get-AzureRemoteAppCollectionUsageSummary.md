@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Get-AzureRemoteAppCollection.md
+online version: 
 schema: 2.0.0
 ms.assetid: 5C0AF133-1D45-4F4E-A22E-0C53DA4B8127
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppCollectionUsageSummary.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppCollectionUsageSummary.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppCollectionUsageSummary.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppCollectionUsageSummary.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppCollectionUsageSummary
 
 ## SYNOPSIS
-Retrieves a usage summary for an azure_2 RemoteApp collection.
+Retrieves a usage summary for an Azure RemoteApp collection.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureRemoteAppCollectionUsageSummary [-CollectionName] <String> [[-UsageMont
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppCollectionUsageSummary** cmdlet retrieves a usage summary for an azure_2 RemoteApp collection.
+The **Get-AzureRemoteAppCollectionUsageSummary** cmdlet retrieves a usage summary for an Azure RemoteApp collection.
 
 ## EXAMPLES
 
@@ -44,7 +44,7 @@ This command gets a usage summary for the month of December in the year 2014, fo
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -116,8 +116,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppCollection](./Get-AzureRemoteAppCollection.md)
+[Get-AzureRemoteAppCollection](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppCollection.md)
 
-[Get-AzureRemoteAppCollectionUsageDetails](./Get-AzureRemoteAppCollectionUsageDetails.md)
+[Get-AzureRemoteAppCollectionUsageDetails](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppCollectionUsageDetails.md)
 
 

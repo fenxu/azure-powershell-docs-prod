@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServices.ARM.dll-Help.xml
-online version: 6a2cbd8b-7aa2-4ab8-b5eb-69a32cfbd03d
+online version: 
 schema: 2.0.0
 ms.assetid: 392A4537-0698-40AC-9569-026CC453D26C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Get-AzureRmRecoveryServicesVaultSettingsFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Get-AzureRmRecoveryServicesVaultSettingsFile.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Get-AzureRmRecoveryServicesVaultSettingsFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Get-AzureRmRecoveryServicesVaultSettingsFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRmRecoveryServicesVaultSettingsFile
 
 ## SYNOPSIS
-Gets the azure_2 Site Recovery vault settings file.
+Gets the Azure Site Recovery vault settings file.
 
 ## SYNTAX
 
@@ -43,7 +43,7 @@ Get-AzureRmRecoveryServicesVaultSettingsFile [-Vault] <ARSVault> [[-Path] <Strin
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmRecoveryServicesVaultSettingsFile** cmdlet gets the settings file for an azure_2 Site Recovery vault.
+The **Get-AzureRmRecoveryServicesVaultSettingsFile** cmdlet gets the settings file for an Azure Site Recovery vault.
 
 ## EXAMPLES
 
@@ -58,12 +58,12 @@ The first command gets the vault named TestVault, and then stores it in the $Vau
 
 The second command sets the $CredsPath variable to C:\Downloads.
 
-The last command gets the vault credentials file for $Vault01 using the credentials in $CredsPath for azure_2 Backup.
+The last command gets the vault credentials file for $Vault01 using the credentials in $CredsPath for Azure Backup.
 
 ## PARAMETERS
 
 ### -Vault
-Specifies the azure_2 Site Recovery vault object.
+Specifies the Azure Site Recovery vault object.
 
 ```yaml
 Type: ARSVault
@@ -110,8 +110,8 @@ Accept wildcard characters: False
 ```
 
 ### -Path
-Specifies the path to the azure_2 Site Recovery vault settings file.
-You can download this file from the azure_2 Site Recovery vault portal and store it locally.
+Specifies the path to the Azure Site Recovery vault settings file.
+You can download this file from the Azure Site Recovery vault portal and store it locally.
 
 ```yaml
 Type: String
@@ -126,7 +126,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteRecovery
-Indicates the vault credentials file is applicable to azure_2 Site Recovery.
+Indicates the vault credentials file is applicable to Azure Site Recovery.
 
 ```yaml
 Type: SwitchParameter
@@ -141,7 +141,7 @@ Accept wildcard characters: False
 ```
 
 ### -Backup
-Indicates the vault credentials file is applicable to azure_2 Backup.
+Indicates the vault credentials file is applicable to Azure Backup.
 
 ```yaml
 Type: SwitchParameter
@@ -166,10 +166,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmRecoveryServicesVault](./Get-AzureRmRecoveryServicesVault.md)
+[Get-AzureRmRecoveryServicesVault](xref:ResourceManager/AzureRM.RecoveryServices/v2.2.0/Get-AzureRmRecoveryServicesVault.md)
 
-[New-AzureRmRecoveryServicesVault](./New-AzureRmRecoveryServicesVault.md)
+[New-AzureRmRecoveryServicesVault](xref:ResourceManager/AzureRM.RecoveryServices/v2.2.0/New-AzureRmRecoveryServicesVault.md)
 
-[Remove-AzureRmRecoveryServicesVault](./Remove-AzureRmRecoveryServicesVault.md)
+[Remove-AzureRmRecoveryServicesVault](xref:ResourceManager/AzureRM.RecoveryServices/v2.2.0/Remove-AzureRmRecoveryServicesVault.md)
 
 

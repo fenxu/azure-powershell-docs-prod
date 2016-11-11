@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F28F869D-FA1D-4B7D-A2F8-2F6AA13D2C67
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Show-AzurePortal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Show-AzurePortal.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Show-AzurePortal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Show-AzurePortal.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -77,7 +77,6 @@ Accept wildcard characters: False
 ```
 
 ### -Environment
-@{Text=}
 
 ```yaml
 Type: String
@@ -118,6 +117,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Show-AzureWebsite](./Show-AzureWebsite.md)
+[Show-AzureWebsite](xref:ServiceManagement/Azure.Compute/v3.0.0/Show-AzureWebsite.md)
 
 

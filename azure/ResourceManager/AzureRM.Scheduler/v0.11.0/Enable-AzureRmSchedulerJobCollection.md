@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Scheduler.dll-Help.xml
-online version: 5d156d67-eb59-4f91-a44a-b74fdfa44414
+online version: 
 schema: 2.0.0
 ms.assetid: 68F3E2C7-2CF6-4903-9212-E146E21704F6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.0/Enable-AzureRmSchedulerJobCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.0/Enable-AzureRmSchedulerJobCollection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.0/Enable-AzureRmSchedulerJobCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.0/Enable-AzureRmSchedulerJobCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -130,14 +130,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureRmSchedulerJobCollection](./Disable-AzureRmSchedulerJobCollection.md)
+[Disable-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.11.0/Disable-AzureRmSchedulerJobCollection.md)
 
-[Get-AzureRmSchedulerJobCollection](./Get-AzureRmSchedulerJobCollection.md)
+[Get-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.11.0/Get-AzureRmSchedulerJobCollection.md)
 
-[New-AzureRmSchedulerJobCollection](./New-AzureRmSchedulerJobCollection.md)
+[New-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.11.0/New-AzureRmSchedulerJobCollection.md)
 
-[Remove-AzureRmSchedulerJobCollection](./Remove-AzureRmSchedulerJobCollection.md)
+[Remove-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.11.0/Remove-AzureRmSchedulerJobCollection.md)
 
-[Set-AzureRmSchedulerJobCollection](./Set-AzureRmSchedulerJobCollection.md)
+[Set-AzureRmSchedulerJobCollection](xref:ResourceManager/AzureRM.Scheduler/v0.11.0/Set-AzureRmSchedulerJobCollection.md)
 
 

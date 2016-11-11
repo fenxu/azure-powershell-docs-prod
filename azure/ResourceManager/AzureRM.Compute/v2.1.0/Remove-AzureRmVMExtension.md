@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureRmVMExtension.md
+online version: 
 schema: 2.0.0
 ms.assetid: 7E2862F8-BDA6-4DD7-852B-8D7DCDCA3D38
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Remove-AzureRmVMExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Remove-AzureRmVMExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Remove-AzureRmVMExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Remove-AzureRmVMExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -146,8 +146,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMExtension](./Get-AzureRmVMExtension.md)
+[Get-AzureRmVMExtension](xref:ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVMExtension.md)
 
-[Set-AzureRmVMExtension](./Set-AzureRmVMExtension.md)
+[Set-AzureRmVMExtension](xref:ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVMExtension.md)
 
 

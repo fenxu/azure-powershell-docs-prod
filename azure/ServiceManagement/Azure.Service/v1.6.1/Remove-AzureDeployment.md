@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureDeployment.md
+online version: 
 schema: 2.0.0
 ms.assetid: DCA716C0-5227-44DB-9188-DAC8CC2B8548
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureDeployment.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ Remove-AzureDeployment [-ServiceName] <String> [-Slot] <String> [-DeleteVHD] [-F
 ```
 
 ## DESCRIPTION
-The **Remove-AzureDeployment** cmdlet deletes a deployment of an azure_2 cloud service.
+The **Remove-AzureDeployment** cmdlet deletes a deployment of an Azure cloud service.
 To delete a deployment, first suspend it.
 
 ## EXAMPLES
@@ -41,7 +41,7 @@ To delete a deployment, first suspend it.
 PS C:\>Remove-AzureDeployment -ServiceName "ContosoService"
 ```
 
-This command removes the deployment of the azure_2 service named ContosoService.
+This command removes the deployment of the Azure service named ContosoService.
 Because this command does not specify a slot, it removes the service from the production environment.
 
 ### Example 2: Remove a deployment and virtual hard disks
@@ -132,7 +132,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -147,7 +156,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -174,14 +183,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureDeployment](./Get-AzureDeployment.md)
+[Get-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureDeployment.md)
 
-[Get-AzureDeploymentEvent](./Get-AzureDeploymentEvent.md)
+[Get-AzureDeploymentEvent](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureDeploymentEvent.md)
 
-[Move-AzureDeployment](./Move-AzureDeployment.md)
+[Move-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/Move-AzureDeployment.md)
 
-[New-AzureDeployment](./New-AzureDeployment.md)
+[New-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureDeployment.md)
 
-[Set-AzureDeployment](./Set-AzureDeployment.md)
+[Set-AzureDeployment](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureDeployment.md)
 
 

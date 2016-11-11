@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
-online version: c83abc8b-23a3-4607-85b4-740d2df60d4a
+online version: 
 schema: 2.0.0
 ms.assetid: 3D9EC718-D366-46C9-8486-4CFECFA14C79
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Get-AzureRmIntegrationAccountSchema.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Get-AzureRmIntegrationAccountSchema.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Get-AzureRmIntegrationAccountSchema.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Get-AzureRmIntegrationAccountSchema.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -138,10 +138,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmIntegrationAccountSchema](./New-AzureRmIntegrationAccountSchema.md)
+[New-AzureRmIntegrationAccountSchema](xref:ResourceManager/AzureRM.LogicApp/v2.2.0/New-AzureRmIntegrationAccountSchema.md)
 
-[Remove-AzureRmIntegrationAccountSchema](./Remove-AzureRmIntegrationAccountSchema.md)
+[Remove-AzureRmIntegrationAccountSchema](xref:ResourceManager/AzureRM.LogicApp/v2.2.0/Remove-AzureRmIntegrationAccountSchema.md)
 
-[Set-AzureRmIntegrationAccountSchema](./Set-AzureRmIntegrationAccountSchema.md)
+[Set-AzureRmIntegrationAccountSchema](xref:ResourceManager/AzureRM.LogicApp/v2.2.0/Set-AzureRmIntegrationAccountSchema.md)
 
 

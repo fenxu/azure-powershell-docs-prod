@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
-online version: .\Get-AzureRmWebApp.md
+online version: 
 schema: 2.0.0
 ms.assetid: 2829ACB1-6BD7-48A6-8CD4-66FA277D82F3
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Set-AzureRMWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Set-AzureRMWebApp.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Set-AzureRMWebApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Set-AzureRMWebApp.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -305,7 +305,6 @@ Accept wildcard characters: False
 ```
 
 ### -AutoSwapSlotName
-@{Text=}
 
 ```yaml
 Type: String
@@ -330,16 +329,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)
+[Get-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v2.1.0/Get-AzureRmWebApp.md)
 
-[New-AzureRmWebApp](./New-AzureRmWebApp.md)
+[New-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v2.1.0/New-AzureRmWebApp.md)
 
-[Remove-AzureRmWebApp](./Remove-AzureRmWebApp.md)
+[Remove-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v2.1.0/Remove-AzureRmWebApp.md)
 
-[Restart-AzureRmWebApp](./Restart-AzureRmWebApp.md)
+[Restart-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v2.1.0/Restart-AzureRmWebApp.md)
 
-[Start-AzureRmWebApp](./Start-AzureRmWebApp.md)
+[Start-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v2.1.0/Start-AzureRmWebApp.md)
 
-[Stop-AzureRmWebApp](./Stop-AzureRmWebApp.md)
+[Stop-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/v2.1.0/Stop-AzureRmWebApp.md)
 
 

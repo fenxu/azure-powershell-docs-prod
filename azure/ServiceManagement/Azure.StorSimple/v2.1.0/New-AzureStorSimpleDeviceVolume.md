@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
-online version: .\Get-AzureStorSimpleDeviceVolume.md
+online version: 
 schema: 2.0.0
 ms.assetid: DA486F47-4D49-4383-B013-153A07551699
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleDeviceVolume.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleDeviceVolume.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleDeviceVolume.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleDeviceVolume.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -303,16 +303,16 @@ This cmdlet returns a **TaskStatusInfo** object, if you specify the *WaitForComp
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleDeviceVolume](./Get-AzureStorSimpleDeviceVolume.md)
+[Get-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleDeviceVolume.md)
 
-[Remove-AzureStorSimpleDeviceVolume](./Remove-AzureStorSimpleDeviceVolume.md)
+[Remove-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Remove-AzureStorSimpleDeviceVolume.md)
 
-[Set-AzureStorSimpleDeviceVolume](./Set-AzureStorSimpleDeviceVolume.md)
+[Set-AzureStorSimpleDeviceVolume](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Set-AzureStorSimpleDeviceVolume.md)
 
-[Get-AzureStorSimpleAccessControlRecord](./Get-AzureStorSimpleAccessControlRecord.md)
+[Get-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleAccessControlRecord.md)
 
-[Get-AzureStorSimpleDeviceVolumeContainer](./Get-AzureStorSimpleDeviceVolumeContainer.md)
+[Get-AzureStorSimpleDeviceVolumeContainer](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleDeviceVolumeContainer.md)
 
-[Get-AzureStorSimpleJob](./Get-AzureStorSimpleJob.md)
+[Get-AzureStorSimpleJob](xref:ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleJob.md)
 
 

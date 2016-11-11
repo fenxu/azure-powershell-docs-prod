@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureVNetConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: DE61E8F6-3DFE-4307-A07F-44E4A32BC5BE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVNetConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVNetConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVNetConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVNetConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureVNetConfig
 
 ## SYNOPSIS
-Deletes the network configuration from the current azure_2 subscription.
+Deletes the network configuration from the current Azure subscription.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Remove-AzureVNetConfig [-Profile <AzureSMProfile>] [-InformationAction <ActionPr
 ```
 
 ## DESCRIPTION
-The **Remove-AzureVNetConfig** cmdlet removes all virtual network settings from the current azure_2 subscription.
+The **Remove-AzureVNetConfig** cmdlet removes all virtual network settings from the current Azure subscription.
 
 ## EXAMPLES
 
@@ -59,7 +59,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -74,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -99,10 +108,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVNetConfig](./Get-AzureVNetConfig.md)
+[Get-AzureVNetConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVNetConfig.md)
 
-[Get-AzureVNetSite](./Get-AzureVNetSite.md)
+[Get-AzureVNetSite](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVNetSite.md)
 
-[Set-AzureVNetConfig](./Set-AzureVNetConfig.md)
+[Set-AzureVNetConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureVNetConfig.md)
 
 

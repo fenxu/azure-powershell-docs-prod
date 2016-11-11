@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\New-AzureRmVmssVaultCertificateConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: 975161A1-B1B4-446A-B499-0EA209F02F78
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Add-AzureRmVmssSecret.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Add-AzureRmVmssSecret.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Add-AzureRmVmssSecret.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Add-AzureRmVmssSecret.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -116,8 +116,8 @@ This cmdlet does not generate any output.
 
 ## RELATED LINKS
 
-[New-AzureRmVmssVaultCertificateConfig](./New-AzureRmVmssVaultCertificateConfig.md)
+[New-AzureRmVmssVaultCertificateConfig](xref:ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmVmssVaultCertificateConfig.md)
 
-[New-AzureRmVmssConfig](./New-AzureRmVmssConfig.md)
+[New-AzureRmVmssConfig](xref:ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmVmssConfig.md)
 
 

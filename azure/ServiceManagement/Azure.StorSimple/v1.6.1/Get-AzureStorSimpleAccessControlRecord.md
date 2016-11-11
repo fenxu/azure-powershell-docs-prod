@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
-online version: .\New-AzureStorSimpleAccessControlRecord.md
+online version: 
 schema: 2.0.0
 ms.assetid: EECFB4FF-7DC4-4B82-8726-A24020FF0B81
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleAccessControlRecord.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleAccessControlRecord.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleAccessControlRecord.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleAccessControlRecord.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -88,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-Specifies an azure_2 profile.
+Specifies an Azure profile.
 
 ```yaml
 Type: AzureSMProfile
@@ -126,10 +126,10 @@ An **AccessControlRecord** object contains the following fields:
 
 ## RELATED LINKS
 
-[New-AzureStorSimpleAccessControlRecord](./New-AzureStorSimpleAccessControlRecord.md)
+[New-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleAccessControlRecord.md)
 
-[Remove-AzureStorSimpleAccessControlRecord](./Remove-AzureStorSimpleAccessControlRecord.md)
+[Remove-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Remove-AzureStorSimpleAccessControlRecord.md)
 
-[Set-AzureStorSimpleAccessControlRecord](./Set-AzureStorSimpleAccessControlRecord.md)
+[Set-AzureStorSimpleAccessControlRecord](xref:ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleAccessControlRecord.md)
 
 

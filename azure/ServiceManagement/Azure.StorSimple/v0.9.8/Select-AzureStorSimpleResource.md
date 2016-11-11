@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
-online version: .\Get-AzureStorSimpleResource.md
+online version: 
 schema: 2.0.0
 ms.assetid: BD052FDB-C7A6-4470-8726-CC0ACF123DDE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Select-AzureStorSimpleResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Select-AzureStorSimpleResource.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Select-AzureStorSimpleResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Select-AzureStorSimpleResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -137,8 +137,8 @@ This cmdlet returns a **StorSimpleResourceContext** object that contains details
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleResource](./Get-AzureStorSimpleResource.md)
+[Get-AzureStorSimpleResource](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleResource.md)
 
-[Get-AzureStorSimpleResourceContext](./Get-AzureStorSimpleResourceContext.md)
+[Get-AzureStorSimpleResourceContext](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleResourceContext.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Disconnect-AzureRemoteAppSession.md
+online version: 
 schema: 2.0.0
 ms.assetid: 4B214D92-3377-42A6-8A79-E3FC85E79206
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppOperationResult.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppOperationResult.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppOperationResult.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppOperationResult.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureRemoteAppOperationResult
 
 ## SYNOPSIS
-Retrieves the result of an azure_2 RemoteApp operation.
+Retrieves the result of an Azure RemoteApp operation.
 
 ## SYNTAX
 
@@ -29,8 +29,8 @@ Get-AzureRemoteAppOperationResult [-TrackingId] <String> [-Profile <AzureSMProfi
 ```
 
 ## DESCRIPTION
-The **Get-AzureRemoteAppOperationResult** cmdlet retrieves the result of a long-running azure_2 RemoteApp operation.
-azure_2 RemoteApp uses long-running operations for many actions that require processing by the service and cannot return immediately.
+The **Get-AzureRemoteAppOperationResult** cmdlet retrieves the result of a long-running Azure RemoteApp operation.
+Azure RemoteApp uses long-running operations for many actions that require processing by the service and cannot return immediately.
 Examples of cmdlets that return tracking IDs include **Update-AzureRemoteAppCollection**, **Set-AzureRemoteAppWorkspace**, **Disconnect-AzureRemoteAppSession**, and others.
 
 ## EXAMPLES
@@ -41,7 +41,7 @@ PS C:\>$result = New-AzureRemoteAppCollection -CollectionName Contoso -ImageName
 PS C:\> Get-AzureRemoteAppOperationResult -TrackingId $result.Tracking
 ```
 
-This command saves the tracking ID returned from an azure_2 RemoteApp operation.
+This command saves the tracking ID returned from an Azure RemoteApp operation.
 The tracking ID is passed to **Get-AzureRemoteAppOperationResult** in the command that follows.
 
 ## PARAMETERS
@@ -87,10 +87,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disconnect-AzureRemoteAppSession](./Disconnect-AzureRemoteAppSession.md)
+[Disconnect-AzureRemoteAppSession](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Disconnect-AzureRemoteAppSession.md)
 
-[Set-AzureRemoteAppWorkspace](./Set-AzureRemoteAppWorkspace.md)
+[Set-AzureRemoteAppWorkspace](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Set-AzureRemoteAppWorkspace.md)
 
-[Update-AzureRemoteAppCollection](./Update-AzureRemoteAppCollection.md)
+[Update-AzureRemoteAppCollection](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Update-AzureRemoteAppCollection.md)
 
 

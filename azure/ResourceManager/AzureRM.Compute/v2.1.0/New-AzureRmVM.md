@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: .\Get-AzureRmVM.md
+online version: 
 schema: 2.0.0
 ms.assetid: 7ACDA033-0959-4490-8CF7-90F470E5F8FB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmVM.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -295,28 +295,28 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVM](./Get-AzureRmVM.md)
+[Get-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVM.md)
 
-[Remove-AzureRmVM](./Remove-AzureRmVM.md)
+[Remove-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v2.1.0/Remove-AzureRmVM.md)
 
-[Restart-AzureRmVM](./Restart-AzureRmVM.md)
+[Restart-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v2.1.0/Restart-AzureRmVM.md)
 
-[Start-AzureRmVM](./Start-AzureRmVM.md)
+[Start-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v2.1.0/Start-AzureRmVM.md)
 
-[Stop-AzureRmVM](./Stop-AzureRmVM.md)
+[Stop-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v2.1.0/Stop-AzureRmVM.md)
 
-[Update-AzureRmVM](./Update-AzureRmVM.md)
+[Update-AzureRmVM](xref:ResourceManager/AzureRM.Compute/v2.1.0/Update-AzureRmVM.md)
 
-[Add-AzureRmVMDataDisk](./Add-AzureRmVMDataDisk.md)
+[Add-AzureRmVMDataDisk](xref:ResourceManager/AzureRM.Compute/v2.1.0/Add-AzureRmVMDataDisk.md)
 
-[Add-AzureRmVMNetworkInterface](./Add-AzureRmVMNetworkInterface.md)
+[Add-AzureRmVMNetworkInterface](xref:ResourceManager/AzureRM.Compute/v2.1.0/Add-AzureRmVMNetworkInterface.md)
 
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)
+[New-AzureRmVMConfig](xref:ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmVMConfig.md)
 
-[Set-AzureRmVMOperatingSystem](./Set-AzureRmVMOperatingSystem.md)
+[Set-AzureRmVMOperatingSystem](xref:ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVMOperatingSystem.md)
 
-[Set-AzureRmVMSourceImage](./Set-AzureRmVMSourceImage.md)
+[Set-AzureRmVMSourceImage](xref:ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVMSourceImage.md)
 
-[Set-AzureRmVMOSDisk](./Set-AzureRmVMOSDisk.md)
+[Set-AzureRmVMOSDisk](xref:ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVMOSDisk.md)
 
 

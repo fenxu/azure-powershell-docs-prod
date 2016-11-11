@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Add-AzureVhd.md
+online version: 
 schema: 2.0.0
 ms.assetid: 4E542B2F-A7A2-4B59-9E3C-504D62568053
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Save-AzureVhd.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Save-AzureVhd.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Save-AzureVhd.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Save-AzureVhd.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -69,7 +69,7 @@ This command downloads a .vhd file and specifies the storage key.
 ## PARAMETERS
 
 ### -Source
-Specifies the Uniform Resource Identifier (URI) to the blob in `azure_2`.
+Specifies the Uniform Resource Identifier (URI) to the blob in `Azure`.
 
 ```yaml
 Type: Uri
@@ -115,7 +115,7 @@ Accept wildcard characters: False
 
 ### -StorageKey
 Specifies the storage key of the blob storage account.
-If it is not provided, **Save-AzureVhd** attempts to determine the storage key of the account in *SourceUri* from azure_2.
+If it is not provided, **Save-AzureVhd** attempts to determine the storage key of the account in *SourceUri* from Azure.
 
 ```yaml
 Type: String
@@ -160,7 +160,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -175,7 +184,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -200,6 +209,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureVhd](./Add-AzureVhd.md)
+[Add-AzureVhd](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureVhd.md)
 
 

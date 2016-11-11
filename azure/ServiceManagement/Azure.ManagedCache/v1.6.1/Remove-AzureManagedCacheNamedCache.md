@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ManagedCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 06F96135-1624-4693-AD49-30B2BE41A19E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/Remove-AzureManagedCacheNamedCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/Remove-AzureManagedCacheNamedCache.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/Remove-AzureManagedCacheNamedCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v1.6.1/Remove-AzureManagedCacheNamedCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Remove-AzureManagedCacheNamedCache -Name <String> -NamedCache <String> [-Force] 
 ```
 
 ## DESCRIPTION
-The **Remove-AzureManagedCacheNamedCache** cmdlet removes a named cache from the specified azure_2 Managed Cache Service instance in your azure_2 account.
+The **Remove-AzureManagedCacheNamedCache** cmdlet removes a named cache from the specified Azure Managed Cache Service instance in your Azure account.
 
 ## EXAMPLES
 
@@ -39,7 +39,7 @@ The **Remove-AzureManagedCacheNamedCache** cmdlet removes a named cache from the
 PS C:\>Remove-AzureManagedCacheNamedCache -Name "ContosoCache" -NamedCache "ContosoNamedCache" -Force -PassThru
 ```
 
-This command removes an azure_2 cache named ContosoNamedCache.
+This command removes an Azure cache named ContosoNamedCache.
 
 ## PARAMETERS
 
@@ -130,16 +130,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### Boolean
 
 ## NOTES
-* Use the Add-AzureAccount or Import-AzurePublishSettingsFile to make your azure_2 account available to wps_2 before using this cmdlet. For more information, see How to install and configure Azure PowerShellhttp://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/.
+* Use the Add-AzureAccount or Import-AzurePublishSettingsFile to make your Azure account available to wps_2 before using this cmdlet. For more information, see How to install and configure Azure PowerShellhttp://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/.
 
 ## RELATED LINKS
 
 [How to install and configure Azure PowerShell](http://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/)
 
-[Get-AzureManagedCacheNamedCache](./Get-AzureManagedCacheNamedCache.md)
+[Get-AzureManagedCacheNamedCache](xref:ServiceManagement/Azure.ManagedCache/v1.6.1/Get-AzureManagedCacheNamedCache.md)
 
-[New-AzureManagedCacheNamedCache](./New-AzureManagedCacheNamedCache.md)
+[New-AzureManagedCacheNamedCache](xref:ServiceManagement/Azure.ManagedCache/v1.6.1/New-AzureManagedCacheNamedCache.md)
 
-[Set-AzureManagedCacheNamedCache](./Set-AzureManagedCacheNamedCache.md)
+[Set-AzureManagedCacheNamedCache](xref:ServiceManagement/Azure.ManagedCache/v1.6.1/Set-AzureManagedCacheNamedCache.md)
 
 

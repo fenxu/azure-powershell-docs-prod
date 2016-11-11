@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Get-AzureRmApplicationGatewaySku.md
+online version: 
 schema: 2.0.0
 ms.assetid: E9DC94B8-FCD7-4D55-95E3-D008DD1A39C6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmApplicationGatewaySku.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmApplicationGatewaySku.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmApplicationGatewaySku.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmApplicationGatewaySku.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -39,7 +39,7 @@ The **New-AzureRmApplicationGatewaySku** cmdlet creates a stock keeping unit (SK
 PS C:\>$SKU = New-AzureRmApplicationGatewaySku -Name "Standard_Small" -Tier "Standard" -Capacity 2
 ```
 
-This command creates a SKU named Standard_Small for an azure_2 application gateway and stores the result in the variable named $SKU.
+This command creates a SKU named Standard_Small for an Azure application gateway and stores the result in the variable named $SKU.
 
 ## PARAMETERS
 
@@ -101,7 +101,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -116,7 +125,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -145,8 +154,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmApplicationGatewaySku](./Get-AzureRmApplicationGatewaySku.md)
+[Get-AzureRmApplicationGatewaySku](xref:ResourceManager/AzureRM.Network/v1.0.13/Get-AzureRmApplicationGatewaySku.md)
 
-[Set-AzureRmApplicationGatewaySku](./Set-AzureRmApplicationGatewaySku.md)
+[Set-AzureRmApplicationGatewaySku](xref:ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmApplicationGatewaySku.md)
 
 

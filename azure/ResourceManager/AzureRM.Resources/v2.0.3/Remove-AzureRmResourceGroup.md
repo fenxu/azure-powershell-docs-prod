@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
-online version: .\Get-AzureRmResourceGroup.md
+online version: 
 schema: 2.0.0
 ms.assetid: 3CD31A1C-3862-48A2-939B-3B23EF3051D1
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceGroup.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Remove-AzureRmResourceGroup
@@ -36,7 +37,7 @@ Remove-AzureRmResourceGroup [-Id] <String> [-Force] [-ApiVersion <String>] [-Pre
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmResourceGroup** cmdlet removes an azure_2 resource group and its resources from the current subscription.
+The **Remove-AzureRmResourceGroup** cmdlet removes an Azure resource group and its resources from the current subscription.
 To delete a resource, but leave the resource group, use the Remove-AzureRmResource cmdlet.
 
 ## EXAMPLES
@@ -130,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -160,7 +161,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -189,10 +191,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmResourceGroup](./Get-AzureRmResourceGroup.md)
+[Get-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmResourceGroup.md)
 
-[New-AzureRmResourceGroup](./New-AzureRmResourceGroup.md)
+[New-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResourceGroup.md)
 
-[Set-AzureRmResourceGroup](./Set-AzureRmResourceGroup.md)
+[Set-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmResourceGroup.md)
 
 

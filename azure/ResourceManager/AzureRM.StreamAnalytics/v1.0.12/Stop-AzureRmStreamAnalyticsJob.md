@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
-online version: .\Get-AzureRmStreamAnalyticsJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: F30CA3C3-D6CD-4FAA-9FD4-6E1D8A250785
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Stop-AzureRmStreamAnalyticsJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Stop-AzureRmStreamAnalyticsJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Stop-AzureRmStreamAnalyticsJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Stop-AzureRmStreamAnalyticsJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,8 +30,8 @@ Stop-AzureRmStreamAnalyticsJob [-Name] <String> [-ResourceGroupName] <String> [-
 ```
 
 ## DESCRIPTION
-The **Stop-AzureRmStreamAnalyticsJob** cmdlet asynchronously stops a Stream Analytics job from running in azure_2 and deallocates resources that were that were being used.
-The job definition and metadata remain available within your subscription through both the azure_2 Portal and Management APIs, such that the job can be edited and restarted.
+The **Stop-AzureRmStreamAnalyticsJob** cmdlet asynchronously stops a Stream Analytics job from running in Azure and deallocates resources that were that were being used.
+The job definition and metadata remain available within your subscription through both the Azure Portal and Management APIs, such that the job can be edited and restarted.
 You will not be charged for a job in the Stopped state.
 
 ## EXAMPLES
@@ -46,7 +46,7 @@ This command stops the job StreamingJob.
 ## PARAMETERS
 
 ### -Name
-Specifies the name of the azure_2 Stream Analytics job to stop.
+Specifies the name of the Azure Stream Analytics job to stop.
 
 ```yaml
 Type: String
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group to which the azure_2 Stream Analytics job belongs.
+Specifies the name of the resource group to which the Azure Stream Analytics job belongs.
 
 ```yaml
 Type: String
@@ -103,14 +103,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmStreamAnalyticsJob](./Get-AzureRmStreamAnalyticsJob.md)
+[Get-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsJob.md)
 
-[Get-AzureRmStreamAnalyticsJob](./Get-AzureRmStreamAnalyticsJob.md)
+[Get-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Get-AzureRmStreamAnalyticsJob.md)
 
-[New-AzureRmStreamAnalyticsJob](./New-AzureRmStreamAnalyticsJob.md)
+[New-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/New-AzureRmStreamAnalyticsJob.md)
 
-[Remove-AzureRmStreamAnalyticsJob](./Remove-AzureRmStreamAnalyticsJob.md)
+[Remove-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Remove-AzureRmStreamAnalyticsJob.md)
 
-[Start-AzureRmStreamAnalyticsJob](./Start-AzureRmStreamAnalyticsJob.md)
+[Start-AzureRmStreamAnalyticsJob](xref:ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Start-AzureRmStreamAnalyticsJob.md)
 
 

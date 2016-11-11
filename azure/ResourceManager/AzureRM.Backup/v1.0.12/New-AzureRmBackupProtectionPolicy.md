@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
-online version: .\Enable-AzureRmBackupProtection.md
+online version: 
 schema: 2.0.0
 ms.assetid: 556EB647-35A9-4F38-AFF0-526AD3686DF9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/New-AzureRmBackupProtectionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/New-AzureRmBackupProtectionPolicy.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/New-AzureRmBackupProtectionPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/New-AzureRmBackupProtectionPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -45,7 +45,7 @@ New-AzureRmBackupProtectionPolicy [-Name] <String> [-Type] <String> [-Weekly] [-
 ```
 
 ## DESCRIPTION
-The **New-AzureRmBackupProtectionPolicy** cmdlet creates an azure_2 Backup policy as an APS object.
+The **New-AzureRmBackupProtectionPolicy** cmdlet creates an Azure Backup policy as an APS object.
 
 A backup policy defines when and how often Backup backs up an item.
 The Enable-AzureRmBackupProtection cmdlet uses a backup policy.
@@ -199,7 +199,7 @@ Accept wildcard characters: False
 ```
 
 ### -Vault
-Specifies the azure_2 Backup vault to which the backup policy belongs.
+Specifies the Azure Backup vault to which the backup policy belongs.
 To obtain an **AzureRmBackupVault** object, use the Get-AzureRmBackupVault cmdlet.
 
 ```yaml
@@ -245,16 +245,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureRmBackupProtection](./Enable-AzureRmBackupProtection.md)
+[Enable-AzureRmBackupProtection](xref:ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupProtection.md)
 
-[Get-AzureRmBackupProtectionPolicy](./Get-AzureRmBackupProtectionPolicy.md)
+[Get-AzureRmBackupProtectionPolicy](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupProtectionPolicy.md)
 
-[Get-AzureRmBackupVault](./Get-AzureRmBackupVault.md)
+[Get-AzureRmBackupVault](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupVault.md)
 
-[New-AzureRmBackupRetentionPolicyObject](./New-AzureRmBackupRetentionPolicyObject.md)
+[New-AzureRmBackupRetentionPolicyObject](xref:ResourceManager/AzureRM.Backup/v1.0.12/New-AzureRmBackupRetentionPolicyObject.md)
 
-[Remove-AzureRmBackupProtectionPolicy](./Remove-AzureRmBackupProtectionPolicy.md)
+[Remove-AzureRmBackupProtectionPolicy](xref:ResourceManager/AzureRM.Backup/v1.0.12/Remove-AzureRmBackupProtectionPolicy.md)
 
-[Set-AzureRmBackupProtectionPolicy](./Set-AzureRmBackupProtectionPolicy.md)
+[Set-AzureRmBackupProtectionPolicy](xref:ResourceManager/AzureRM.Backup/v1.0.12/Set-AzureRmBackupProtectionPolicy.md)
 
 

@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 0E11BDE9-2B84-4D69-8DBC-2CD606443627
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackVMRole.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackVMRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackVMRole.md
 ms.topic: reference
 ms.prod: powershell
@@ -202,10 +202,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-WAPackVMRole](./Get-WAPackVMRole.md)
+[Get-WAPackVMRole](xref:ServiceManagement/Azure.Compute/v3.0.0/Get-WAPackVMRole.md)
 
-[New-WAPackVMRole](./New-WAPackVMRole.md)
+[New-WAPackVMRole](xref:ServiceManagement/Azure.Compute/v3.0.0/New-WAPackVMRole.md)
 
-[Set-WAPackVMRole](./Set-WAPackVMRole.md)
+[Set-WAPackVMRole](xref:ServiceManagement/Azure.Compute/v3.0.0/Set-WAPackVMRole.md)
 
 

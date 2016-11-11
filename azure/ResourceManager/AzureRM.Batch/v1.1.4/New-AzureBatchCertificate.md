@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\Get-AzureBatchCertificate.md
+online version: 
 schema: 2.0.0
 ms.assetid: 3A627306-BA51-4D22-8C30-202C20708A5C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchCertificate.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ New-AzureBatchCertificate [-RawData] <Byte[]> [-Password <String>] -BatchContext
 ```
 
 ## DESCRIPTION
-The **New-AzureBatchCertificate** cmdlet adds a certificate to the specified azure_2 Batch account.
+The **New-AzureBatchCertificate** cmdlet adds a certificate to the specified Azure Batch account.
 
 ## EXAMPLES
 
@@ -134,12 +134,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureBatchCertificate](./Get-AzureBatchCertificate.md)
+[Get-AzureBatchCertificate](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchCertificate.md)
 
-[Get-AzureRmBatchAccountKeys](./Get-AzureRmBatchAccountKeys.md)
+[Get-AzureRmBatchAccountKeys](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureRmBatchAccountKeys.md)
 
-[Remove-AzureBatchCertificate](./Remove-AzureBatchCertificate.md)
+[Remove-AzureBatchCertificate](xref:ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchCertificate.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v1.1.4/AzureRM.Batch.md)
 
 

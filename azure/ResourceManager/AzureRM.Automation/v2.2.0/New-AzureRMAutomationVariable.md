@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: a6dc9902-ad99-47f9-8212-d3d96146b180
+online version: 
 schema: 2.0.0
 ms.assetid: 4103A716-9567-4836-B522-D2484452A60E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationVariable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationVariable.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationVariable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/New-AzureRMAutomationVariable.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # New-AzureRmAutomationVariable
@@ -29,7 +30,7 @@ New-AzureRmAutomationVariable [-Name] <String> -Encrypted <Boolean> [-Descriptio
 ```
 
 ## DESCRIPTION
-The **New-AzureRmAutomationVariable** cmdlet creates a variable in azure_2 Automation.
+The **New-AzureRmAutomationVariable** cmdlet creates a variable in Azure Automation.
 To encrypt the variable, specify the *Encrypted* parameter.
 You cannot modify the encrypted state of a variable after creation.
 
@@ -157,10 +158,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationVariable](./Get-AzureRMAutomationVariable.md)
+[Get-AzureRmAutomationVariable](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRMAutomationVariable.md)
 
-[Remove-AzureRmAutomationVariable](./Remove-AzureRMAutomationVariable.md)
+[Remove-AzureRmAutomationVariable](xref:ResourceManager/AzureRM.Automation/v2.2.0/Remove-AzureRMAutomationVariable.md)
 
-[Set-AzureRmAutomationVariable](./Set-AzureRMAutomationVariable.md)
+[Set-AzureRmAutomationVariable](xref:ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRMAutomationVariable.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkID=397628
+online version: 
 schema: 2.0.0
 ms.assetid: 3F21DAF8-995D-4DA4-BB2F-CED48DC39772
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Select-AzureSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Select-AzureSubscription.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Select-AzureSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Select-AzureSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -91,7 +91,6 @@ This command changes the default subscription to "ContosoFinance." It saves the 
 ## PARAMETERS
 
 ### -SubscriptionName
-@{Text=}
 
 ```yaml
 Type: String
@@ -106,7 +105,6 @@ Accept wildcard characters: False
 ```
 
 ### -Account
-@{Text=}
 
 ```yaml
 Type: String
@@ -121,7 +119,6 @@ Accept wildcard characters: False
 ```
 
 ### -Current
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -136,7 +133,6 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -151,7 +147,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureSMProfile
@@ -166,7 +161,6 @@ Accept wildcard characters: False
 ```
 
 ### -Default
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -181,7 +175,6 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-@{Text=}
 
 ```yaml
 Type: String
@@ -196,7 +189,6 @@ Accept wildcard characters: False
 ```
 
 ### -NoCurrent
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -211,7 +203,6 @@ Accept wildcard characters: False
 ```
 
 ### -NoDefault
-@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -243,10 +234,10 @@ By default, it does not generate any output.
 
 ## RELATED LINKS
 
-[Get-AzureSubscription](./Get-AzureSubscription.md)
+[Get-AzureSubscription](xref:ServiceManagement/Azure.Profile/v1.6.1/Get-AzureSubscription.md)
 
-[Remove-AzureSubscription](./Remove-AzureSubscription.md)
+[Remove-AzureSubscription](xref:ServiceManagement/Azure.Profile/v1.6.1/Remove-AzureSubscription.md)
 
-[Set-AzureSubscription](./Set-AzureSubscription.md)
+[Set-AzureSubscription](xref:ServiceManagement/Azure.Profile/v1.6.1/Set-AzureSubscription.md)
 
 

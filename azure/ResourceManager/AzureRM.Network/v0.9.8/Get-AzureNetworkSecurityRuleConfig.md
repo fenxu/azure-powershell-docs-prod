@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Add-AzureNetworkSecurityRuleConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: F6A5DB36-7E9B-4DC1-B87A-3E8606FEB0B5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureNetworkSecurityRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureNetworkSecurityRuleConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureNetworkSecurityRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureNetworkSecurityRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -112,12 +112,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureNetworkSecurityRuleConfig](./Add-AzureNetworkSecurityRuleConfig.md)
+[Add-AzureNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Add-AzureNetworkSecurityRuleConfig.md)
 
-[New-AzureNetworkSecurityRuleConfig](./New-AzureNetworkSecurityRuleConfig.md)
+[New-AzureNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureNetworkSecurityRuleConfig.md)
 
-[Remove-AzureNetworkSecurityRuleConfig](./Remove-AzureNetworkSecurityRuleConfig.md)
+[Remove-AzureNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureNetworkSecurityRuleConfig.md)
 
-[Set-AzureNetworkSecurityRuleConfig](./Set-AzureNetworkSecurityRuleConfig.md)
+[Set-AzureNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureNetworkSecurityRuleConfig.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
-online version: .\Get-AzureStorSimpleStorageAccountCredential.md
+online version: 
 schema: 2.0.0
 ms.assetid: B265B3DF-B352-4801-9A3D-27F363B321EE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Remove-AzureStorSimpleStorageAccountCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Remove-AzureStorSimpleStorageAccountCredential.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Remove-AzureStorSimpleStorageAccountCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Remove-AzureStorSimpleStorageAccountCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -169,12 +169,12 @@ This cmdlet returns a **TaskStatusInfo** object, if you specify the *WaitForComp
 
 ## RELATED LINKS
 
-[Get-AzureStorSimpleStorageAccountCredential](./Get-AzureStorSimpleStorageAccountCredential.md)
+[Get-AzureStorSimpleStorageAccountCredential](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleStorageAccountCredential.md)
 
-[New-AzureStorSimpleStorageAccountCredential](./New-AzureStorSimpleStorageAccountCredential.md)
+[New-AzureStorSimpleStorageAccountCredential](xref:ServiceManagement/Azure.StorSimple/v0.9.8/New-AzureStorSimpleStorageAccountCredential.md)
 
-[Set-AzureStorSimpleStorageAccountCredential](./Set-AzureStorSimpleStorageAccountCredential.md)
+[Set-AzureStorSimpleStorageAccountCredential](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Set-AzureStorSimpleStorageAccountCredential.md)
 
-[Get-AzureStorSimpleJob](./Get-AzureStorSimpleJob.md)
+[Get-AzureStorSimpleJob](xref:ServiceManagement/Azure.StorSimple/v0.9.8/Get-AzureStorSimpleJob.md)
 
 

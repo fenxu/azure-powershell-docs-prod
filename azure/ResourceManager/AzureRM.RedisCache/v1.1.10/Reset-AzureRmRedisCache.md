@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F48C3D73-2FB0-4A2E-AF50-7FBF30F64CFE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Reset-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Reset-AzureRmRedisCache.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Reset-AzureRmRedisCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Reset-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Reset-AzureRmRedisCache -ResourceGroupName <String> -Name <String> -RebootType <
 ```
 
 ## DESCRIPTION
-The **Reset-AzureRmRedisCache** cmdlet restarts nodes of an azure_2 Redis Cache instance.
+The **Reset-AzureRmRedisCache** cmdlet restarts nodes of an Azure Redis Cache instance.
 
 ## EXAMPLES
 
@@ -140,7 +140,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -155,7 +155,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -186,14 +187,14 @@ You can pipe input to this cmdlet by property name, but not by value.
 
 ## RELATED LINKS
 
-[Export-AzureRmRedisCache](./Export-AzureRmRedisCache.md)
+[Export-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Export-AzureRmRedisCache.md)
 
-[Import-AzureRmRedisCache](./Import-AzureRmRedisCache.md)
+[Import-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Import-AzureRmRedisCache.md)
 
-[New-AzureRmRedisCache](./New-AzureRmRedisCache.md)
+[New-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/New-AzureRmRedisCache.md)
 
-[Remove-AzureRmRedisCache](./Remove-AzureRmRedisCache.md)
+[Remove-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Remove-AzureRmRedisCache.md)
 
-[Set-AzureRmRedisCache](./Set-AzureRmRedisCache.md)
+[Set-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v1.1.10/Set-AzureRmRedisCache.md)
 
 

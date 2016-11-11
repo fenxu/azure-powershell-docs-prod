@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
-online version: 2d41645a-48c4-4e76-b144-4e8e6305e99c
+online version: 
 schema: 2.0.0
 ms.assetid: A8D81054-E35D-4758-9A29-47088139ED1B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroupDeployment.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroupDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroupDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # New-AzureRmResourceGroupDeployment
@@ -361,16 +362,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmResourceGroupDeployment](./Get-AzureRmResourceGroupDeployment.md)
+[Get-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmResourceGroupDeployment.md)
 
-[New-AzureRmResource](./New-AzureRmResource.md)
+[New-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResource.md)
 
-[New-AzureRmResourceGroup](./New-AzureRmResourceGroup.md)
+[New-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroup.md)
 
-[Remove-AzureRmResourceGroupDeployment](./Remove-AzureRmResourceGroupDeployment.md)
+[Remove-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.2.0/Remove-AzureRmResourceGroupDeployment.md)
 
-[Stop-AzureRmResourceGroupDeployment](./Stop-AzureRmResourceGroupDeployment.md)
+[Stop-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.2.0/Stop-AzureRmResourceGroupDeployment.md)
 
-[Test-AzureRmResourceGroupDeployment](./Test-AzureRmResourceGroupDeployment.md)
+[Test-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.2.0/Test-AzureRmResourceGroupDeployment.md)
 
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Move-AzureNetworkSecurityGroup.md
+online version: 
 schema: 2.0.0
 ms.assetid: 8EAD62A7-AB9A-4BD6-9E63-24E8D625A585
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Move-AzureReservedIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Move-AzureReservedIP.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Move-AzureReservedIP.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Move-AzureReservedIP.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -111,7 +111,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -126,7 +135,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -228,14 +237,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Move-AzureNetworkSecurityGroup](./Move-AzureNetworkSecurityGroup.md)
+[Move-AzureNetworkSecurityGroup](xref:ServiceManagement/Azure.Service/v2.1.0/Move-AzureNetworkSecurityGroup.md)
 
-[Move-AzureRouteTable](./Move-AzureRouteTable.md)
+[Move-AzureRouteTable](xref:ServiceManagement/Azure.Service/v2.1.0/Move-AzureRouteTable.md)
 
-[Move-AzureService](./Move-AzureService.md)
+[Move-AzureService](xref:ServiceManagement/Azure.Service/v2.1.0/Move-AzureService.md)
 
-[Move-AzureStorageAccount](./Move-AzureStorageAccount.md)
+[Move-AzureStorageAccount](xref:ServiceManagement/Azure.Service/v2.1.0/Move-AzureStorageAccount.md)
 
-[Move-AzureVirtualNetwork](./Move-AzureVirtualNetwork.md)
+[Move-AzureVirtualNetwork](xref:ServiceManagement/Azure.Service/v2.1.0/Move-AzureVirtualNetwork.md)
 
 

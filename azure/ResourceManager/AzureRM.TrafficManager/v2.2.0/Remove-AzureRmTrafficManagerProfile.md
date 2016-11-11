@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.TrafficManager.dll-Help.xml
-online version: 07cdf07f-d115-4450-ae3c-2915ba1e5b8d
+online version: 
 schema: 2.0.0
 ms.assetid: 07553EE0-9C77-4284-A3B7-22AC2FF808E9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Remove-AzureRmTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Remove-AzureRmTrafficManagerProfile.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Remove-AzureRmTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Remove-AzureRmTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Remove-AzureRmTrafficManagerProfile
@@ -174,14 +175,14 @@ This cmdlet returns a value of $True, if it succeeds or, if the deletion fails, 
 
 ## RELATED LINKS
 
-[Disable-AzureRmTrafficManagerProfile](./Disable-AzureRmTrafficManagerProfile.md)
+[Disable-AzureRmTrafficManagerProfile](xref:ResourceManager/AzureRM.TrafficManager/v2.2.0/Disable-AzureRmTrafficManagerProfile.md)
 
-[Enable-AzureRmTrafficManagerProfile](./Enable-AzureRmTrafficManagerProfile.md)
+[Enable-AzureRmTrafficManagerProfile](xref:ResourceManager/AzureRM.TrafficManager/v2.2.0/Enable-AzureRmTrafficManagerProfile.md)
 
-[Get-AzureRmTrafficManagerProfile](./Get-AzureRmTrafficManagerProfile.md)
+[Get-AzureRmTrafficManagerProfile](xref:ResourceManager/AzureRM.TrafficManager/v2.2.0/Get-AzureRmTrafficManagerProfile.md)
 
-[New-AzureRmTrafficManagerProfile](./New-AzureRmTrafficManagerProfile.md)
+[New-AzureRmTrafficManagerProfile](xref:ResourceManager/AzureRM.TrafficManager/v2.2.0/New-AzureRmTrafficManagerProfile.md)
 
-[Set-AzureRmTrafficManagerProfile](./Set-AzureRmTrafficManagerProfile.md)
+[Set-AzureRmTrafficManagerProfile](xref:ResourceManager/AzureRM.TrafficManager/v2.2.0/Set-AzureRmTrafficManagerProfile.md)
 
 

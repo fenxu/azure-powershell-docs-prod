@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-online version: 770dd8c9-90cd-4c85-8b02-e5539f53ebf3
+online version: 
 schema: 2.0.0
 ms.assetid: 72EC6786-33C7-4A00-BDEF-A4C71EE4422B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/Set-AzureRmVMExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -279,7 +279,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -295,7 +295,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
+
 The cmdlet is not run.
 
 ```yaml
@@ -321,8 +321,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmVMExtension](./Get-AzureRmVMExtension.md)
+[Get-AzureRmVMExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Get-AzureRmVMExtension.md)
 
-[Remove-AzureRmVMExtension](./Remove-AzureRmVMExtension.md)
+[Remove-AzureRmVMExtension](xref:ResourceManager/AzureRM.Compute/v2.2.0/Remove-AzureRmVMExtension.md)
 
 

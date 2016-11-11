@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: 2cd9e814-4020-4ca5-ab45-855f15c1d3eb
+online version: 
 schema: 2.0.0
 ms.assetid: 55AB322C-9E09-4B28-B2D2-7876B70B3560
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryPlannedFailoverJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryPlannedFailoverJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryPlannedFailoverJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryPlannedFailoverJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -52,10 +52,6 @@ You can check whether the job succeeds by using the Get-AzureRmSiteRecoveryJob c
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -65,7 +61,7 @@ Specifies the Site Recovery protection entity object.
 ```yaml
 Type: ASRProtectionEntity
 Parameter Sets: ByPEObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -84,7 +80,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -96,7 +92,7 @@ Accept wildcard characters: False
 ### -Optimize
 Specifies what to optimize for.
 This parameter applies when failover is done from an Azure site to an on-premise site which requires a substantial data synchronization.
-Valid values are: 
+Valid values are:
 
 - ForDowntime
 - ForSynchronization
@@ -113,7 +109,7 @@ Synchronization starts after shutdown to complete the failover operation.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -131,7 +127,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -141,12 +137,11 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-@{Text=}
 
 ```yaml
 Type: ASRServer
 Parameter Sets: ByPEObject
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -156,12 +151,11 @@ Accept wildcard characters: False
 ```
 
 ### -ServicesProvider
-@{Text=}
 
 ```yaml
 Type: ASRRecoveryServicesProvider
 Parameter Sets: ByRPIObject
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -176,7 +170,7 @@ Specifies the primary certificate file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -191,7 +185,7 @@ Specifies the secondary certificate file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -206,7 +200,7 @@ Specifies a recovery plan object.
 ```yaml
 Type: ASRRecoveryPlan
 Parameter Sets: ByRPObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -216,12 +210,11 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicationProtectedItem
-@{Text=}
 
 ```yaml
 Type: ASRReplicationProtectedItem
 Parameter Sets: ByRPIObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -240,5 +233,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

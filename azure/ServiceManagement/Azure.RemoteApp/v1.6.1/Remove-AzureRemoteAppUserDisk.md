@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Copy-AzureRemoteAppUserDisk.md
+online version: 
 schema: 2.0.0
 ms.assetid: 349327EE-838F-4194-AB6F-2B17F6051A6D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppUserDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppUserDisk.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppUserDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppUserDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureRemoteAppUserDisk
 
 ## SYNOPSIS
-Removes the user disk of a user from an azure_2 RemoteApp collection.
+Removes the user disk of a user from an Azure RemoteApp collection.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Remove-AzureRemoteAppUserDisk [-CollectionName] <String> [-UserUpn] <String> [-P
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRemoteAppUserDisk** cmdlet removes the user disk of a user from an azure_2 RemoteApp collection.
+The **Remove-AzureRemoteAppUserDisk** cmdlet removes the user disk of a user from an Azure RemoteApp collection.
 
 ## EXAMPLES
 
@@ -39,12 +39,12 @@ The **Remove-AzureRemoteAppUserDisk** cmdlet removes the user disk of a user fro
 PS C:\>Remove-AzureRemoteAppUserDisk -CollectionName "Contoso01" -UserUpn "PattiFuller@contoso.com"
 ```
 
-This command removes the user disk of an azure_2 Active Directory user who has the UPN PattiFuller@contoso.com from the collection Contoso01.
+This command removes the user disk of an Azure Active Directory user who has the UPN PattiFuller@contoso.com from the collection Contoso01.
 
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -74,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -104,7 +104,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -129,6 +130,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Copy-AzureRemoteAppUserDisk](./Copy-AzureRemoteAppUserDisk.md)
+[Copy-AzureRemoteAppUserDisk](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Copy-AzureRemoteAppUserDisk.md)
 
 

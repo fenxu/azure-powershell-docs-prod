@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Add-AzureDataDisk.md
+online version: 
 schema: 2.0.0
 ms.assetid: FAED2C30-926E-48C9-A477-8438C4F83F8D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureVM
 
 ## SYNOPSIS
-Creates an azure_2 virtual machine.
+Creates an Azure virtual machine.
 
 ## SYNTAX
 
@@ -43,7 +43,7 @@ New-AzureVM -ServiceName <String> [-Location <String>] [-AffinityGroup <String>]
 ```
 
 ## DESCRIPTION
-The **New-AzureVM** cmdlet adds a new virtual machine to an existing azure_2 service, or creates a virtual machine and service in the current subscription if either the *Location* or *AffinityGroup* is specified.
+The **New-AzureVM** cmdlet adds a new virtual machine to an existing Azure service, or creates a virtual machine and service in the current subscription if either the *Location* or *AffinityGroup* is specified.
 
 ## EXAMPLES
 
@@ -70,7 +70,7 @@ PS C:\> $VirtualMachine02 = New-AzureVMConfig -Name "VirtualMachine02" -Instance
 
 The first two commands get available images by using the Get-AzureVMImage cmdlet, and stores one of them in the $Image variable.
 
-This command creates a provisioning configuration based on a virtual machine configuration for the Windows operating system, and uses it to create a virtual machine with an azure_2 data disk.
+This command creates a provisioning configuration based on a virtual machine configuration for the Windows operating system, and uses it to create a virtual machine with an Azure data disk.
 
 ### Example 4: Create a virtual machine with a reserved IP address
 ```
@@ -240,7 +240,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -255,7 +264,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -286,7 +295,7 @@ Accept wildcard characters: False
 ```
 
 ### -AffinityGroup
-Specifies the azure_2 affinity group in which the cloud service resides.
+Specifies the Azure affinity group in which the cloud service resides.
 This parameter is required only when this cmdlet creates a cloud service.
 
 ```yaml
@@ -357,12 +366,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureDataDisk](./Add-AzureDataDisk.md)
+[Add-AzureDataDisk](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureDataDisk.md)
 
-[Add-AzureProvisioningConfig](./Add-AzureProvisioningConfig.md)
+[Add-AzureProvisioningConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureProvisioningConfig.md)
 
-[Get-AzureVMImage](./Get-AzureVMImage.md)
+[Get-AzureVMImage](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVMImage.md)
 
-[New-AzureVMConfig](./New-AzureVMConfig.md)
+[New-AzureVMConfig](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVMConfig.md)
 
 

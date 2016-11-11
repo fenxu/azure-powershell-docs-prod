@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkID=398281
+online version: 
 schema: 2.0.0
 ms.assetid: E164B4FC-5581-4DC7-9F7B-231212090550
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Add-AzureTrafficManagerEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Add-AzureTrafficManagerEndpoint.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Add-AzureTrafficManagerEndpoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Add-AzureTrafficManagerEndpoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Add-AzureTrafficManagerEndpoint
@@ -190,7 +191,6 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-@{Text=}
 
 ```yaml
 Type: AzureSMProfile
@@ -218,12 +218,12 @@ This cmdlet generates a Traffic Manager profile object, which contains informati
 
 ## RELATED LINKS
 
-[Remove-AzureTrafficManagerEndpoint](./Remove-AzureTrafficManagerEndpoint.md)
+[Remove-AzureTrafficManagerEndpoint](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Remove-AzureTrafficManagerEndpoint.md)
 
-[Set-AzureTrafficManagerEndpoint](./Set-AzureTrafficManagerEndpoint.md)
+[Set-AzureTrafficManagerEndpoint](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Set-AzureTrafficManagerEndpoint.md)
 
-[Get-AzureTrafficManagerProfile](./Get-AzureTrafficManagerProfile.md)
+[Get-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Get-AzureTrafficManagerProfile.md)
 
-[Set-AzureTrafficManagerProfile](./Set-AzureTrafficManagerProfile.md)
+[Set-AzureTrafficManagerProfile](xref:ServiceManagement/Azure.TrafficManager/v3.0.0/Set-AzureTrafficManagerProfile.md)
 
 

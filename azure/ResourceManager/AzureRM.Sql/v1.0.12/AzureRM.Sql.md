@@ -4,10 +4,11 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md
+uid: ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
@@ -111,7 +112,7 @@ Gets elastic pools and their property values in an ssSDS.
 
 
 ### [Get-AzureRmSqlServerActiveDirectoryAdministrator](./Get-AzureRmSqlServerActiveDirectoryAdministrator.md)
-Gets information about an azure_2 AD administrator for SQL Server.
+Gets information about an Azure AD administrator for SQL Server.
 
 ### [Get-AzureRmSqlServerAuditingPolicy](./Get-AzureRmSqlServerAuditingPolicy.md)
 Gets the auditing policy of a SQL server.
@@ -212,7 +213,7 @@ Removes the threat detection policy from a database.
 
 
 ### [Remove-AzureRmSqlDatabase](./Remove-AzureRmSqlDatabase.md)
-Removes an azure_2 SQL database.
+Removes an Azure SQL database.
 
 
 ### [Remove-AzureRmSqlElasticPool](./Remove-AzureRmSqlElasticPool.md)
@@ -220,7 +221,7 @@ Deletes an elastic database pool.
 
 
 ### [Remove-AzureRmSqlServerActiveDirectoryAdministrator](./Remove-AzureRmSqlServerActiveDirectoryAdministrator.md)
-Removes an azure_2 AD administrator for SQL Server.
+Removes an Azure AD administrator for SQL Server.
 
 
 ### [Remove-AzureRmSqlServerAuditing](./Remove-AzureRmSqlServerAuditing.md)
@@ -244,7 +245,7 @@ Removes the threat detection policy from a database.
 
 
 ### [Remove-AzureRmSqlServer](./Remove-AzureRmSqlServer.md)
-Removes an azure_2 SQL Database server.
+Removes an Azure SQL Database server.
 
 
 ### [Restore-AzureRmSqlDatabase](./Restore-AzureRmSqlDatabase.md)
@@ -289,7 +290,7 @@ Modifies properties of an elastic database pool in a nextref_database.
 
 
 ### [Set-AzureRmSqlServerActiveDirectoryAdministrator](./Set-AzureRmSqlServerActiveDirectoryAdministrator.md)
-Provisions an azure_2 AD administrator for SQL Server.
+Provisions an Azure AD administrator for SQL Server.
 
 ### [Set-AzureRmSqlServerAuditingPolicy](./Set-AzureRmSqlServerAuditingPolicy.md)
 Changes the auditing policy of a nextref_database server.

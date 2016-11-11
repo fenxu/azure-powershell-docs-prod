@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
-online version: .\New-AzureSqlDatabase.md
+online version: 
 schema: 2.0.0
 ms.assetid: E223F6D6-3D4D-4759-AB21-BB309927FECB
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Get-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Get-AzureSqlDatabase.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Get-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Get-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -250,12 +250,12 @@ This cmdlet returns a *RestorableDroppedDatabase* object if you specify the *Res
 
 ## RELATED LINKS
 
-[New-AzureSqlDatabase](./New-AzureSqlDatabase.md)
+[New-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/New-AzureSqlDatabase.md)
 
-[New-AzureSqlDatabaseServerContext](./New-AzureSqlDatabaseServerContext.md)
+[New-AzureSqlDatabaseServerContext](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/New-AzureSqlDatabaseServerContext.md)
 
-[Remove-AzureSqlDatabase](./Remove-AzureSqlDatabase.md)
+[Remove-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/Remove-AzureSqlDatabase.md)
 
-[Set-AzureSqlDatabase](./Set-AzureSqlDatabase.md)
+[Set-AzureSqlDatabase](xref:ServiceManagement/Azure.SQLDatabase/v0.9.8/Set-AzureSqlDatabase.md)
 
 

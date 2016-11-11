@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: 7962d734-1c67-4085-91fc-6a9c9d99ad8b
+online version: 
 schema: 2.0.0
 ms.assetid: 2D551F2C-5DFE-42FC-BF3C-D34776C0892B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryVM.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -45,10 +45,6 @@ The **Get-AzureRmSiteRecoveryVM** cmdlet gets information about virtual machines
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -58,7 +54,7 @@ Specifies the Site Recovery protection container object.
 ```yaml
 Type: ASRProtectionContainer
 Parameter Sets: ByObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -70,7 +66,7 @@ Accept wildcard characters: False
 ```yaml
 Type: ASRProtectionContainer
 Parameter Sets: ByObjectWithName, ByObjectWithFriendlyName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -85,7 +81,7 @@ Specifies the name of the virtual machine.
 ```yaml
 Type: String
 Parameter Sets: ByObjectWithName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -100,7 +96,7 @@ Specifies the friendly name of the virtual machine.
 ```yaml
 Type: String
 Parameter Sets: ByObjectWithFriendlyName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -120,6 +116,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureRmSiteRecoveryVM](./Set-AzureRmSiteRecoveryVM.md)
-
-
+[Set-AzureRmSiteRecoveryVM](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Set-AzureRmSiteRecoveryVM.md)

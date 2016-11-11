@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
-online version: .\Disable-AzureBatchJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: BB2C124B-2CAB-433F-8F8A-5C896F29047C
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Enable-AzureBatchJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -29,7 +29,7 @@ Enable-AzureBatchJob [-Id] <String> -BatchContext <BatchAccountContext> [<Common
 ```
 
 ## DESCRIPTION
-The **Enable-AzureBatchJob** cmdlet enables an azure_2 Batch job.
+The **Enable-AzureBatchJob** cmdlet enables an Azure Batch job.
 After you enable a job, new tasks can run.
 
 ## EXAMPLES
@@ -86,16 +86,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AzureBatchJob](./Disable-AzureBatchJob.md)
+[Disable-AzureBatchJob](xref:ResourceManager/AzureRM.Batch/v1.1.4/Disable-AzureBatchJob.md)
 
-[Get-AzureBatchJob](./Get-AzureBatchJob.md)
+[Get-AzureBatchJob](xref:ResourceManager/AzureRM.Batch/v1.1.4/Get-AzureBatchJob.md)
 
-[New-AzureBatchJob](./New-AzureBatchJob.md)
+[New-AzureBatchJob](xref:ResourceManager/AzureRM.Batch/v1.1.4/New-AzureBatchJob.md)
 
-[Remove-AzureBatchJob](./Remove-AzureBatchJob.md)
+[Remove-AzureBatchJob](xref:ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchJob.md)
 
-[Stop-AzureBatchJob](./Stop-AzureBatchJob.md)
+[Stop-AzureBatchJob](xref:ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchJob.md)
 
-[Azure Batch Cmdlets](./AzureRM.Batch.md)
+[Azure Batch Cmdlets](xref:ResourceManager/AzureRM.Batch/v1.1.4/AzureRM.Batch.md)
 
 

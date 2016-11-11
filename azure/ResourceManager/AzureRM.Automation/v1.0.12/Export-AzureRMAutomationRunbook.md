@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Get-AzureRMAutomationRunbook.md
+online version: 
 schema: 2.0.0
 ms.assetid: 614EEE0D-F18E-4843-BED6-6CF43DB59F75
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRMAutomationRunbook.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Export-AzureRmAutomationRunbook
@@ -29,7 +30,7 @@ Export-AzureRmAutomationRunbook [-Name] <String> [-Slot <String>] [-OutputFolder
 ```
 
 ## DESCRIPTION
-The **Export-AzureRmAutomationRunbook** cmdlet exports an azure_2 Automation runbook to a wps_2 script (.ps1 ) file, for wps_2 or wps_2 Workflow runbooks, or to a graphical runbook (.graphrunbook) file, for graphical runbooks.
+The **Export-AzureRmAutomationRunbook** cmdlet exports an Azure Automation runbook to a wps_2 script (.ps1 ) file, for wps_2 or wps_2 Workflow runbooks, or to a graphical runbook (.graphrunbook) file, for graphical runbooks.
 The name of the runbook becomes the name of the exported file.
 
 ## EXAMPLES
@@ -49,7 +50,7 @@ Specifies the name of the Automation account in which this cmdlet exports a runb
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -59,12 +60,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,7 +96,7 @@ Specifies the path of a folder in which this cmdlet creates the export file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -110,7 +111,7 @@ Specifies the name of the resource group for which this cmdlet exports a runbook
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -121,15 +122,15 @@ Accept wildcard characters: False
 
 ### -Slot
 Specifies whether this cmdlet exports the draft or published content of the runbook.
-Valid values are: 
+Valid values are:
 
-- Published 
+- Published
 - Draft
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Published, Draft
 
 Required: False
@@ -140,7 +141,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -155,7 +156,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -180,20 +182,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationRunbook](./Get-AzureRMAutomationRunbook.md)
+[Get-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRMAutomationRunbook.md)
 
-[Import-AzureRmAutomationRunbook](./Import-AzureRMAutomationRunbook.md)
+[Import-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Import-AzureRMAutomationRunbook.md)
 
-[New-AzureRmAutomationRunbook](./New-AzureRMAutomationRunbook.md)
+[New-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationRunbook.md)
 
-[New-AzureRmAutomationRunbook](./New-AzureRMAutomationRunbook.md)
+[New-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRMAutomationRunbook.md)
 
-[Publish-AzureRmAutomationRunbook](./Publish-AzureRMAutomationRunbook.md)
+[Publish-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Publish-AzureRMAutomationRunbook.md)
 
-[Remove-AzureRmAutomationRunbook](./Remove-AzureRMAutomationRunbook.md)
+[Remove-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Remove-AzureRMAutomationRunbook.md)
 
-[Set-AzureRmAutomationRunbook](./Set-AzureRMAutomationRunbook.md)
+[Set-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRMAutomationRunbook.md)
 
-[Start-AzureRmAutomationRunbook](./Start-AzureRMAutomationRunbook.md)
-
-
+[Start-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRMAutomationRunbook.md)

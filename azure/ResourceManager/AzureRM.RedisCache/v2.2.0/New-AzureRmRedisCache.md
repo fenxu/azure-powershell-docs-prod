@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C68984BD-7B36-4036-8364-7B6698A8BC3E
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmRedisCache.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmRedisCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -373,7 +373,6 @@ Accept wildcard characters: False
 ```
 
 ### -SubnetId
-@{Text=}
 
 ```yaml
 Type: String
@@ -436,10 +435,10 @@ This cmdlet returns all attributes of a Redis Cache including primary and second
 
 ## RELATED LINKS
 
-[Get-AzureRmRedisCache](./Get-AzureRmRedisCache.md)
+[Get-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v2.2.0/Get-AzureRmRedisCache.md)
 
-[Remove-AzureRmRedisCache](./Remove-AzureRmRedisCache.md)
+[Remove-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v2.2.0/Remove-AzureRmRedisCache.md)
 
-[Set-AzureRmRedisCache](./Set-AzureRmRedisCache.md)
+[Set-AzureRmRedisCache](xref:ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmRedisCache.md)
 
 

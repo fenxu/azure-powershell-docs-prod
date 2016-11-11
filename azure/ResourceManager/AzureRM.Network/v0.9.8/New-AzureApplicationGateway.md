@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\New-AzureApplicationGatewayBackendAddressPool.md
+online version: 
 schema: 2.0.0
 ms.assetid: 7D70DFAE-9BA1-4FF0-8924-6CA9A1BD75CE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGateway.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -334,24 +334,24 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureApplicationGatewayBackendAddressPool](./New-AzureApplicationGatewayBackendAddressPool.md)
+[New-AzureApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayBackendAddressPool.md)
 
-[New-AzureApplicationGatewayBackendHttpSettings](./New-AzureApplicationGatewayBackendHttpSettings.md)
+[New-AzureApplicationGatewayBackendHttpSettings](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayBackendHttpSettings.md)
 
-[New-AzureApplicationGatewayFrontendIPConfig](./New-AzureApplicationGatewayFrontendIPConfig.md)
+[New-AzureApplicationGatewayFrontendIPConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayFrontendIPConfig.md)
 
-[New-AzureApplicationGatewayFrontendPort](./New-AzureApplicationGatewayFrontendPort.md)
+[New-AzureApplicationGatewayFrontendPort](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayFrontendPort.md)
 
-[New-AzureApplicationGatewayHttpListener](./New-AzureApplicationGatewayHttpListener.md)
+[New-AzureApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayHttpListener.md)
 
-[New-AzureApplicationGatewayIPConfiguration](./New-AzureApplicationGatewayIPConfiguration.md)
+[New-AzureApplicationGatewayIPConfiguration](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayIPConfiguration.md)
 
-[New-AzureApplicationGatewayRequestRoutingRule](./New-AzureApplicationGatewayRequestRoutingRule.md)
+[New-AzureApplicationGatewayRequestRoutingRule](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayRequestRoutingRule.md)
 
-[New-AzureApplicationGatewaySku](./New-AzureApplicationGatewaySku.md)
+[New-AzureApplicationGatewaySku](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySku.md)
 
-[New-AzureVirtualNetwork](./New-AzureVirtualNetwork.md)
+[New-AzureVirtualNetwork](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetwork.md)
 
-[New-AzureVirtualNetworkSubnetConfig](./New-AzureVirtualNetworkSubnetConfig.md)
+[New-AzureVirtualNetworkSubnetConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkSubnetConfig.md)
 
 

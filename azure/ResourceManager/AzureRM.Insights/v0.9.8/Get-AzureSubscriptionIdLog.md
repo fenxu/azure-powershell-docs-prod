@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Insights.dll-Help.xml
-online version: .\Get-AzureCorrelationIdLog.md
+online version: 
 schema: 2.0.0
 ms.assetid: 65FFF555-3AFB-4A4B-8297-C6A418C615E5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureSubscriptionIdLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureSubscriptionIdLog.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureSubscriptionIdLog.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureSubscriptionIdLog.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -175,12 +175,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureCorrelationIdLog](./Get-AzureCorrelationIdLog.md)
+[Get-AzureCorrelationIdLog](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureCorrelationIdLog.md)
 
-[Get-AzureResourceGroupLog](./Get-AzureResourceGroupLog.md)
+[Get-AzureResourceGroupLog](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureResourceGroupLog.md)
 
-[Get-AzureResourceLog](./Get-AzureResourceLog.md)
+[Get-AzureResourceLog](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureResourceLog.md)
 
-[Get-AzureResourceProviderLog](./Get-AzureResourceProviderLog.md)
+[Get-AzureResourceProviderLog](xref:ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureResourceProviderLog.md)
 
 

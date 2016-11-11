@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
-online version: ac55e6be-eb22-4b33-afac-beb371fbbd32
+online version: 
 schema: 2.0.0
 ms.assetid: D094E0FD-63B7-44B4-943D-0CAE23A75E61
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSchedulerJobCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSchedulerJobCollection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSchedulerJobCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSchedulerJobCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -130,10 +130,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureSchedulerJobCollection](./New-AzureSchedulerJobCollection.md)
+[New-AzureSchedulerJobCollection](xref:ServiceManagement/Azure.Compute/v3.0.0/New-AzureSchedulerJobCollection.md)
 
-[Remove-AzureSchedulerJobCollection](./Remove-AzureSchedulerJobCollection.md)
+[Remove-AzureSchedulerJobCollection](xref:ServiceManagement/Azure.Compute/v3.0.0/Remove-AzureSchedulerJobCollection.md)
 
-[Set-AzureSchedulerJobCollection](./Set-AzureSchedulerJobCollection.md)
+[Set-AzureSchedulerJobCollection](xref:ServiceManagement/Azure.Compute/v3.0.0/Set-AzureSchedulerJobCollection.md)
 
 

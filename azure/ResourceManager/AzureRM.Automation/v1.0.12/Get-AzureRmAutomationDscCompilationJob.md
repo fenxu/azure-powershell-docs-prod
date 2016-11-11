@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Get-AzureRmAutomationDscCompilationJobOutput.md
+online version: 
 schema: 2.0.0
 ms.assetid: CBD50659-1E44-425C-9B97-A58BE040E3B9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscCompilationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscCompilationJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscCompilationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscCompilationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureRmAutomationDscCompilationJob
@@ -44,7 +45,7 @@ Get-AzureRmAutomationDscCompilationJob -ConfigurationName <String> [-Status <Str
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmAutomationDscCompilationJob** cmdlet gets APS Desired State Configuration (DSC) compilation jobs in azure_2 Automation.
+The **Get-AzureRmAutomationDscCompilationJob** cmdlet gets Azure PowerShell Desired State Configuration (DSC) compilation jobs in Azure Automation.
 
 ## EXAMPLES
 
@@ -203,8 +204,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationDscCompilationJobOutput](./Get-AzureRmAutomationDscCompilationJobOutput.md)
+[Get-AzureRmAutomationDscCompilationJobOutput](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscCompilationJobOutput.md)
 
-[Start-AzureRmAutomationDscCompilationJob](./Start-AzureRmAutomationDscCompilationJob.md)
+[Start-AzureRmAutomationDscCompilationJob](xref:ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRmAutomationDscCompilationJob.md)
 
 

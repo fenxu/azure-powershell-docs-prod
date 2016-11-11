@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Export-AzureRmAutomationDscConfiguration.md
+online version: 
 schema: 2.0.0
 ms.assetid: 9E316628-0101-4DA8-8A9F-843F8442E52D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Import-AzureRmAutomationDscConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Import-AzureRmAutomationDscConfiguration.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Import-AzureRmAutomationDscConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Import-AzureRmAutomationDscConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Import-AzureRmAutomationDscConfiguration
@@ -30,8 +31,8 @@ Import-AzureRmAutomationDscConfiguration -SourcePath <String> [-Tags <IDictionar
 ```
 
 ## DESCRIPTION
-The **Import-AzureRmAutomationDscConfiguration** cmdlet imports an APS Desired State Configuration (DSC) configuration into azure_2 Automation.
-Specify the path of an APS script that contains a single DSC configuration.
+The **Import-AzureRmAutomationDscConfiguration** cmdlet imports an Azure PowerShell Desired State Configuration (DSC) configuration into Azure Automation.
+Specify the path of an Azure PowerShell script that contains a single DSC configuration.
 
 ## EXAMPLES
 
@@ -168,7 +169,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -183,7 +184,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -208,8 +210,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmAutomationDscConfiguration](./Export-AzureRmAutomationDscConfiguration.md)
+[Export-AzureRmAutomationDscConfiguration](xref:ResourceManager/AzureRM.Automation/v1.0.12/Export-AzureRmAutomationDscConfiguration.md)
 
-[Get-AzureRmAutomationDscConfiguration](./Get-AzureRmAutomationDscConfiguration.md)
+[Get-AzureRmAutomationDscConfiguration](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationDscConfiguration.md)
 
 

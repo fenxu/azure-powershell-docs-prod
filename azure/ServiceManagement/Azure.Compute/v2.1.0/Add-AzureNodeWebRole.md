@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 9250296C-F12A-43DA-B027-256431E864CB
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Add-AzureNodeWebRole.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Add-AzureNodeWebRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Add-AzureNodeWebRole.md
 ms.topic: reference
 ms.prod: powershell
@@ -111,8 +111,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureNodeWorkerRole](./Add-AzureNodeWorkerRole.md)
+[Add-AzureNodeWorkerRole](xref:ServiceManagement/Azure.Compute/v2.1.0/Add-AzureNodeWorkerRole.md)
 
-[New-AzureServiceProject](./New-AzureServiceProject.md)
+[New-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v2.1.0/New-AzureServiceProject.md)
 
 

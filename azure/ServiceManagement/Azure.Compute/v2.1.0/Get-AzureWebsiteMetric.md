@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 02AECE8E-48E3-4E6D-A3BE-540082481C1B
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Get-AzureWebsiteMetric.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Get-AzureWebsiteMetric.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Get-AzureWebsiteMetric.md
 ms.topic: reference
 ms.prod: powershell
@@ -234,6 +234,6 @@ By default, **Get-AzureWebsiteMetric** returns an array of **MetricResponse** ob
 
 ## RELATED LINKS
 
-[Get-AzureWebsite](./Get-AzureWebsite.md)
+[Get-AzureWebsite](xref:ServiceManagement/Azure.Compute/v2.1.0/Get-AzureWebsite.md)
 
 

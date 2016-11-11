@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
-online version: https://go.microsoft.com/fwlink/?linkid=829537
+online version: 
 schema: 2.0.0
 ms.assetid: 73422772-0B77-42CD-82D2-2FDE34D23AEC
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureRmKeyVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureRmKeyVault.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureRmKeyVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureRmKeyVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -64,7 +64,7 @@ Enables the Microsoft.Compute resource provider to retrieve secrets from this ke
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -79,7 +79,7 @@ Enables the Azure disk encryption service to get secrets and unwrap keys from th
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -94,7 +94,7 @@ Enables Azure Resource Manager to get secrets from this key vault when this key 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,7 +111,7 @@ For more information, type `Get-Help Get-AzureLocation`.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -126,7 +126,7 @@ Specifies the name of an existing resource group in which to create the key vaul
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -142,7 +142,7 @@ For information about which features are available for each SKU, see the Azure K
 ```yaml
 Type: SkuName
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Standard, Premium
 
 Required: False
@@ -176,7 +176,7 @@ The name must be universally unique.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -186,7 +186,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -202,7 +202,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -230,8 +229,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmKeyVault](./Get-AzureRmKeyVault.md)
+[Get-AzureRmKeyVault](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Get-AzureRmKeyVault.md)
 
-[Remove-AzureRmKeyVault](./Remove-AzureRmKeyVault.md)
-
-
+[Remove-AzureRmKeyVault](xref:ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureRmKeyVault.md)

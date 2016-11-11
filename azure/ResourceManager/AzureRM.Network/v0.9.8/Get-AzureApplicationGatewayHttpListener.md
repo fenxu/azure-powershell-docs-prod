@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Add-AzureApplicationGatewayHttpListener.md
+online version: 
 schema: 2.0.0
 ms.assetid: B356F3A9-458A-4D45-AFA3-9C1061B207C6
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayHttpListener.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayHttpListener.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayHttpListener.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayHttpListener.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -115,12 +115,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureApplicationGatewayHttpListener](./Add-AzureApplicationGatewayHttpListener.md)
+[Add-AzureApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewayHttpListener.md)
 
-[New-AzureApplicationGatewayHttpListener](./New-AzureApplicationGatewayHttpListener.md)
+[New-AzureApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayHttpListener.md)
 
-[Remove-AzureApplicationGatewayHttpListener](./Remove-AzureApplicationGatewayHttpListener.md)
+[Remove-AzureApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewayHttpListener.md)
 
-[Set-AzureApplicationGatewayHttpListener](./Set-AzureApplicationGatewayHttpListener.md)
+[Set-AzureApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayHttpListener.md)
 
 

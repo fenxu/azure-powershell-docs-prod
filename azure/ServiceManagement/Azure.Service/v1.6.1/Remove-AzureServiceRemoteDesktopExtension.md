@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Set-AzureServiceRemoteDesktopExtension.md
+online version: 
 schema: 2.0.0
 ms.assetid: 23125C19-782D-4966-A005-9D615BF8710A
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureServiceRemoteDesktopExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureServiceRemoteDesktopExtension.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureServiceRemoteDesktopExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureServiceRemoteDesktopExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -60,7 +60,7 @@ This command removes the remote desktop extension from a specified role.
 ## PARAMETERS
 
 ### -ServiceName
-Specifies the azure_2 service name of the deployment.
+Specifies the Azure service name of the deployment.
 
 ```yaml
 Type: String
@@ -122,7 +122,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -137,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -177,6 +186,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-AzureServiceRemoteDesktopExtension](./Set-AzureServiceRemoteDesktopExtension.md)
+[Set-AzureServiceRemoteDesktopExtension](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureServiceRemoteDesktopExtension.md)
 
 

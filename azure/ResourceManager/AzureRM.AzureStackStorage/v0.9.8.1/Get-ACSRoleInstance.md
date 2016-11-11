@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
-online version: .\Restart-ACSRoleInstance.md
+online version: 
 schema: 2.0.0
 ms.assetid: 8F12FE28-0C72-402A-8155-BC239F9806FF
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSRoleInstance.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSRoleInstance.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSRoleInstance.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSRoleInstance.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -252,10 +252,10 @@ Output from Get-ACSFarm can be piped to this cmdlet.
 
 ## RELATED LINKS
 
-[Restart-ACSRoleInstance](./Restart-ACSRoleInstance.md)
+[Restart-ACSRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Restart-ACSRoleInstance.md)
 
-[Update-ACSRoleInstance](./Update-ACSRoleInstance.md)
+[Update-ACSRoleInstance](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Update-ACSRoleInstance.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarm.md)
 
 

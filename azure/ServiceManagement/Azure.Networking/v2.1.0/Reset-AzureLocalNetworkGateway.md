@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\Get-AzureLocalNetworkGateway.md
+online version: 
 schema: 2.0.0
 ms.assetid: 0CDDDA13-EC00-4F05-9818-7193B38F3614
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Reset-AzureLocalNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Reset-AzureLocalNetworkGateway.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Reset-AzureLocalNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Reset-AzureLocalNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -35,10 +35,7 @@ The **Reset-AzureLocalNetworkGateway** cmdlet resets a local network gateway.
 
 ## EXAMPLES
 
-### 1:
-```
 
-```
 
 ## PARAMETERS
 
@@ -48,7 +45,7 @@ Specifies the address space.
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -63,7 +60,7 @@ Specifies the autonomous system number (ASN).
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -78,7 +75,7 @@ Specifies the Border Gateway Protocol (BGP) peering address.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -93,7 +90,7 @@ Specifies the ID of the gateway.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -106,7 +103,7 @@ Accept wildcard characters: False
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -122,7 +119,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -142,10 +139,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureLocalNetworkGateway](./Get-AzureLocalNetworkGateway.md)
+[Get-AzureLocalNetworkGateway](xref:ServiceManagement/Azure.Networking/v2.1.0/Get-AzureLocalNetworkGateway.md)
 
-[New-AzureLocalNetworkGateway](./New-AzureLocalNetworkGateway.md)
+[New-AzureLocalNetworkGateway](xref:ServiceManagement/Azure.Networking/v2.1.0/New-AzureLocalNetworkGateway.md)
 
-[Remove-AzureLocalNetworkGateway](./Remove-AzureLocalNetworkGateway.md)
-
-
+[Remove-AzureLocalNetworkGateway](xref:ServiceManagement/Azure.Networking/v2.1.0/Remove-AzureLocalNetworkGateway.md)

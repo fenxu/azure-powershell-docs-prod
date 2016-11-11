@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: 0c1ad644-0a32-4f03-9e12-9c2e17529fec
+online version: 
 schema: 2.0.0
 ms.assetid: 9FDF7B42-BC5D-403E-B41B-A0077BDE5629
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayFrontendPort.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayFrontendPort.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayFrontendPort.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Set-AzureRmApplicationGatewayFrontendPort.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -102,12 +102,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmApplicationGatewayFrontendPort](./Add-AzureRmApplicationGatewayFrontendPort.md)
+[Add-AzureRmApplicationGatewayFrontendPort](xref:ResourceManager/AzureRM.Network/v3.0.0/Add-AzureRmApplicationGatewayFrontendPort.md)
 
-[Get-AzureRmApplicationGatewayFrontendPort](./Get-AzureRmApplicationGatewayFrontendPort.md)
+[Get-AzureRmApplicationGatewayFrontendPort](xref:ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmApplicationGatewayFrontendPort.md)
 
-[New-AzureRmApplicationGatewayFrontendPort](./New-AzureRmApplicationGatewayFrontendPort.md)
+[New-AzureRmApplicationGatewayFrontendPort](xref:ResourceManager/AzureRM.Network/v3.0.0/New-AzureRmApplicationGatewayFrontendPort.md)
 
-[Remove-AzureRmApplicationGatewayFrontendPort](./Remove-AzureRmApplicationGatewayFrontendPort.md)
+[Remove-AzureRmApplicationGatewayFrontendPort](xref:ResourceManager/AzureRM.Network/v3.0.0/Remove-AzureRmApplicationGatewayFrontendPort.md)
 
 

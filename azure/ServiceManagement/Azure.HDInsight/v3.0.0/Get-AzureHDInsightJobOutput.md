@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 64C57ADB-80D8-4494-BF1E-AC594D54852B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Get-AzureHDInsightJobOutput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Get-AzureHDInsightJobOutput.md
+updated_at: 11/1/2016 8:11 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Get-AzureHDInsightJobOutput.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/76d389e6f4656b8cb2f1cc90ba2be7be7f3ff754/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Get-AzureHDInsightJobOutput.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -36,9 +36,9 @@ This version of Azure PowerShell HDInsight is deprecated.
 These cmdlets will be removed by January 1, 2017.
 Please use the newer version of Azure PowerShell HDInsight.
 
-For information about how to use the new HDInsight to create a cluster, see Create Linux-based clusters in HDInsight using Azure PowerShellhttps://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-create-linux-clusters-azure-powershell/.
-For information about how to submit jobs by using Azure PowerShell and other approaches, see Submit Hadoop jobs in HDInsighthttps://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/.
-For reference information about Azure PowerShell HDInsight, see Azure HDInsight Cmdletshttps://msdn.microsoft.com/en-us/library/mt438705.aspx.
+For information about how to use the new HDInsight to create a cluster, see Create Linux-based clusters in [HDInsight using Azure PowerShell](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-create-linux-clusters-azure-powershell/).
+For information about how to submit jobs by using Azure PowerShell and other approaches, see [Submit Hadoop jobs in HDInsight](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/).
+For reference information about Azure PowerShell HDInsight, see [Azure HDInsight Cmdlets](https://msdn.microsoft.com/en-us/library/mt438705.aspx).
 
 The **Get-AzureHDInsightJobOutput** cmdlet gets the log output for a job from the storage account associated with a cluster.
 You can get various types of job logs including standard output, standard error, task logs, and a summary of the task logs.
@@ -48,10 +48,10 @@ You can get various types of job logs including standard output, standard error,
 ### Example 1: Get job output
 ```
 PS C:\>$SubId = (Get-AzureSubscription  ¢â‚¬"Current).SubscriptionId
-PS C:\> $ClusterName = "MyCluster" 
-PS C:\> $WordCountJob = New-AzureHDInsightMapReduceJobDefinition -JarFile "/Example/Apps/Hadoop-examples.jar" -ClassName "Wordcount" -Defines @{ "mapred.map.tasks" = "3" } -Arguments "/Example/Data/Gutenberg/Davinci.txt", "/Example/Output/WordCount" $WordCountJob 
-    | Start-AzureHDInsightJob -Subscription $SubId -Cluster $ClusterName 
-    | Wait-AzureHDInsightJob -Subscription $SubId -WaitTimeoutInSeconds 3600 
+PS C:\> $ClusterName = "MyCluster"
+PS C:\> $WordCountJob = New-AzureHDInsightMapReduceJobDefinition -JarFile "/Example/Apps/Hadoop-examples.jar" -ClassName "Wordcount" -Defines @{ "mapred.map.tasks" = "3" } -Arguments "/Example/Data/Gutenberg/Davinci.txt", "/Example/Output/WordCount" $WordCountJob
+    | Start-AzureHDInsightJob -Subscription $SubId -Cluster $ClusterName
+    | Wait-AzureHDInsightJob -Subscription $SubId -WaitTimeoutInSeconds 3600
     | Get-AzureHDInsightJobOutput -Cluster $ClusterName -StandardError
 ```
 
@@ -117,7 +117,7 @@ Indicates that this cmdlet gets the task logs for a job.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -133,7 +133,7 @@ If you do not specify this parameter, this cmdlet uses the default endpoint.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -163,7 +163,7 @@ Indicates that this cmdlet gets the StdErr output of a job.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -178,7 +178,7 @@ Indicates that this cmdlet gets the SdtOut output of a job.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -223,7 +223,7 @@ Indicates that this cmdlets gets the task log summary.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -238,7 +238,7 @@ Indicates whether Secure Sockets Layer (SSL) errors are ignored.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -254,7 +254,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -274,10 +274,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureHDInsightMapReduceJobDefinition](./New-AzureHDInsightMapReduceJobDefinition.md)
+[New-AzureHDInsightMapReduceJobDefinition](xref:ServiceManagement/Azure.HDInsight/v3.0.0/New-AzureHDInsightMapReduceJobDefinition.md)
 
-[Start-AzureHDInsightJob](./Start-AzureHDInsightJob.md)
+[Start-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v3.0.0/Start-AzureHDInsightJob.md)
 
-[Wait-AzureHDInsightJob](./Wait-AzureHDInsightJob.md)
-
-
+[Wait-AzureHDInsightJob](xref:ServiceManagement/Azure.HDInsight/v3.0.0/Wait-AzureHDInsightJob.md)

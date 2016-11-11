@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.MachineLearning.dll-Help.xml
-online version: .\Export-AzureRmMlWebService.md
+online version: 
 schema: 2.0.0
 ms.assetid: 02640779-83D1-4E49-B521-FEAE1B656D23
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Update-AzureRmMlWebService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Update-AzureRmMlWebService.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Update-AzureRmMlWebService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Update-AzureRmMlWebService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -40,7 +40,7 @@ Update-AzureRmMlWebService -ResourceGroupName <String> -Name <String> -ServiceUp
 ```
 
 ## DESCRIPTION
-The **Update-AzureRmMlWebService** cmdlet updates properties of an azure_2 Machine Learning web service.
+The **Update-AzureRmMlWebService** cmdlet updates properties of an Azure Machine Learning web service.
 The cmdlet works as a patch operation, so you need to pass only the properties that you want to modify.
 
 To determine the resource group name of an existing web service, run the Get-AzureRmMlWebService cmdlet to display the web services in your subscription.
@@ -55,7 +55,7 @@ In the following example the resource group name is **Default-MachineLearning-So
 `Type       : Microsoft.MachineLearning/webServices`
 `Tags       : {}`
 
-Alternatively, to determine the resource group name of an existing web service, log on to the Microsoft azure_2 Machine Learning Web Services portal.
+Alternatively, to determine the resource group name of an existing web service, log on to the Microsoft Azure Machine Learning Web Services portal.
 Select the web service.
 The resource group name is the fifth element of the URL of the web service, just after the **resourceGroups** element.
 In the following example the resource group name is **Default-MachineLearning-SouthCentralUS**.
@@ -328,7 +328,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -343,7 +343,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -371,14 +372,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Export-AzureRmMlWebService](./Export-AzureRmMlWebService.md)
+[Export-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Export-AzureRmMlWebService.md)
 
-[Get-AzureRmMlWebService](./Get-AzureRmMlWebService.md)
+[Get-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Get-AzureRmMlWebService.md)
 
-[Import-AzureRmMlWebService](./Import-AzureRmMlWebService.md)
+[Import-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Import-AzureRmMlWebService.md)
 
-[New-AzureRmMlWebService](./New-AzureRmMlWebService.md)
+[New-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.9.2.1/New-AzureRmMlWebService.md)
 
-[Remove-AzureRmMlWebService](./Remove-AzureRmMlWebService.md)
+[Remove-AzureRmMlWebService](xref:ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Remove-AzureRmMlWebService.md)
 
 

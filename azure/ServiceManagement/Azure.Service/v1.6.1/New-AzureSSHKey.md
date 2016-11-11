@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Add-AzureProvisioningConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: D1D4D505-9F98-4BB5-9810-B6438E701293
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureSSHKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureSSHKey.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureSSHKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureSSHKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # New-AzureSSHKey
 
 ## SYNOPSIS
-Creates a SSH Key object to insert an existing certificate into a new Linux-based azure_2 virtual machines.
+Creates a SSH Key object to insert an existing certificate into a new Linux-based Azure virtual machines.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ New-AzureSSHKey [-PublicKey] [-Fingerprint] <String> [-Path] <String> [-Informat
 ```
 
 ## DESCRIPTION
-The **New-AzureSSHKey** cmdlet creates an SSH Key object for a certificate that has already been added to azure_2.
+The **New-AzureSSHKey** cmdlet creates an SSH Key object for a certificate that has already been added to Azure.
 This SSH Key object can then be used by **New-AzureProvisioningConfig** when creating the configuration object for a new virtual machine using **New-AzureVM**, or when creating a new virtual machine with **New-AzureQuickVM**.
 When included as part of a virtual machine creation script, this adds the specified SSH Public Key or Key Pair to the new virtual machine.
 
@@ -59,7 +59,7 @@ New-AzureVMConfig -Name "MyVM2" -InstanceSize Small -ImageName $LxImage `
           | New-AzureVM -ServiceName "MySvc"
 ```
 
-This command adds a certificate to an azure_2 service, and then creates a new Linux virtual machine that uses the certificate.
+This command adds a certificate to an Azure service, and then creates a new Linux virtual machine that uses the certificate.
 
 ## PARAMETERS
 
@@ -109,7 +109,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -124,7 +133,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -164,12 +173,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureProvisioningConfig](./Add-AzureProvisioningConfig.md)
+[Add-AzureProvisioningConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureProvisioningConfig.md)
 
-[New-AzureVMConfig](./New-AzureVMConfig.md)
+[New-AzureVMConfig](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVMConfig.md)
 
-[New-AzureVM](./New-AzureVM.md)
+[New-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md)
 
-[New-AzureQuickVM](./New-AzureQuickVM.md)
+[New-AzureQuickVM](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureQuickVM.md)
 
 

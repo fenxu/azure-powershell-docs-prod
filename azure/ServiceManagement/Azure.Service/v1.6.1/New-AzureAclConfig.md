@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureAclConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: 03A846AD-4D9B-4612-85F0-ACE35683DFF8
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureAclConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureAclConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureAclConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureAclConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -43,7 +43,16 @@ This command creates an empty ACL configuration object, and then stores it in th
 ## PARAMETERS
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -58,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -83,10 +92,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAclConfig](./Get-AzureAclConfig.md)
+[Get-AzureAclConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureAclConfig.md)
 
-[Remove-AzureAclConfig](./Remove-AzureAclConfig.md)
+[Remove-AzureAclConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureAclConfig.md)
 
-[Set-AzureAclConfig](./Set-AzureAclConfig.md)
+[Set-AzureAclConfig](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureAclConfig.md)
 
 

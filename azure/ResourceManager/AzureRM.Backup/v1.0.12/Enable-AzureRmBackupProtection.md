@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
-online version: .\Backup-AzureRmBackupItem.md
+online version: 
 schema: 2.0.0
 ms.assetid: CF8DF499-CC50-4DF0-AD77-9E6A47074456
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupProtection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupProtection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupProtection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupProtection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Enable-AzureRmBackupProtection
 
 ## SYNOPSIS
-Associates an item with an azure_2 Backup protection policy.
+Associates an item with an Azure Backup protection policy.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Enable-AzureRmBackupProtection -Policy <AzureRMBackupProtectionPolicy>
 ```
 
 ## DESCRIPTION
-The **Enable-AzureRmBackupProtection** cmdlet associates an item with an azure_2 Backup protection policy.
+The **Enable-AzureRmBackupProtection** cmdlet associates an item with an Azure Backup protection policy.
 To enable a protection policy, you must first have an existing backup item and an existing policy.
 Both must belong to the same Backup vault.
 The backup schedule does the full initial copy for the item and the incremental copy for the subsequent backups.
@@ -107,10 +107,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Backup-AzureRmBackupItem](./Backup-AzureRmBackupItem.md)
+[Backup-AzureRmBackupItem](xref:ResourceManager/AzureRM.Backup/v1.0.12/Backup-AzureRmBackupItem.md)
 
-[Get-AzureRmBackupItem](./Get-AzureRmBackupItem.md)
+[Get-AzureRmBackupItem](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupItem.md)
 
-[Get-AzureRmBackupProtectionPolicy](./Get-AzureRmBackupProtectionPolicy.md)
+[Get-AzureRmBackupProtectionPolicy](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupProtectionPolicy.md)
 
 

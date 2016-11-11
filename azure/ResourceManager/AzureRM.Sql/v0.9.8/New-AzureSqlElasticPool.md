@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 218AA7D7-9930-4FD1-8C4A-28A1D5C5890D
 updated_at: 10/18/2016 9:38 PM
 ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlElasticPool.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlElasticPool.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlElasticPool.md
 ms.topic: reference
 ms.prod: powershell

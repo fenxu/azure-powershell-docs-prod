@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 19b2ff37-49b9-4eef-9ae2-7cbb8c4ca741
+online version: 
 schema: 2.0.0
 ms.assetid: 166F3CFF-13A1-45F4-AF29-79E59FC33C13
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlElasticPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlElasticPool.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlElasticPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlElasticPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -266,14 +266,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlElasticPool](./Get-AzureRmSqlElasticPool.md)
+[Get-AzureRmSqlElasticPool](xref:ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlElasticPool.md)
 
-[Get-AzureRmSqlElasticPoolActivity](./Get-AzureRmSqlElasticPoolActivity.md)
+[Get-AzureRmSqlElasticPoolActivity](xref:ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlElasticPoolActivity.md)
 
-[Get-AzureRmSqlElasticPoolDatabase](./Get-AzureRmSqlElasticPoolDatabase.md)
+[Get-AzureRmSqlElasticPoolDatabase](xref:ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlElasticPoolDatabase.md)
 
-[New-AzureRmSqlElasticPool](./New-AzureRmSqlElasticPool.md)
+[New-AzureRmSqlElasticPool](xref:ResourceManager/AzureRM.Sql/v2.2.0/New-AzureRmSqlElasticPool.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md)
 
 

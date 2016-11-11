@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.StorageAdmin.dll-Help.xml
-online version: .\Disable-ACSNode.md
+online version: 
 schema: 2.0.0
 ms.assetid: B346EBDE-CD04-4617-8E5A-24A814B3641B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Enable-ACSNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Enable-ACSNode.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Enable-ACSNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Enable-ACSNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -50,7 +50,7 @@ This command enables the node named Node002 in the service fabric cluster.
 ## PARAMETERS
 
 ### -FarmName
-Specifies the name of the azure_2 Consistent Storage (ACS) farm.
+Specifies the name of the Azure Consistent Storage (ACS) farm.
 
 ```yaml
 Type: String
@@ -156,7 +156,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -171,7 +172,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -199,10 +200,10 @@ Output from Get-ACSFarm and Get-ACSNode can be piped to this cmdlet.
 
 ## RELATED LINKS
 
-[Disable-ACSNode](./Disable-ACSNode.md)
+[Disable-ACSNode](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Disable-ACSNode.md)
 
-[Get-ACSNode](./Get-ACSNode.md)
+[Get-ACSNode](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSNode.md)
 
-[Get-ACSFarm](./Get-ACSFarm.md)
+[Get-ACSFarm](xref:ResourceManager/AzureRM.AzureStackStorage/v0.9.8.1/Get-ACSFarm.md)
 
 

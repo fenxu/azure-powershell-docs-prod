@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DataLakeAnalytics.dll-Help.xml
-online version: .\Get-AzureRmDataLakeAnalyticsAccount.md
+online version: 
 schema: 2.0.0
 ms.assetid: 2106EAC5-21A6-435E-9B4A-3D6ADFC0A4EA
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/New-AzureRmDataLakeAnalyticsAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/New-AzureRmDataLakeAnalyticsAccount.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/New-AzureRmDataLakeAnalyticsAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/New-AzureRmDataLakeAnalyticsAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -31,7 +31,7 @@ New-AzureRmDataLakeAnalyticsAccount [-ResourceGroupName] <String> [-Name] <Strin
 ```
 
 ## DESCRIPTION
-The **New-AzureRmDataLakeAnalyticsAccount** cmdlet creates an azure_2 Data Lake Analytics account.
+The **New-AzureRmDataLakeAnalyticsAccount** cmdlet creates an Azure Data Lake Analytics account.
 
 ## EXAMPLES
 
@@ -107,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-Specifies key-value pairs that can be used to identify the Data Lake Analytics account among other azure_2 resources.
+Specifies key-value pairs that can be used to identify the Data Lake Analytics account among other Azure resources.
 
 ```yaml
 Type: Hashtable[]
@@ -122,7 +122,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -137,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -162,12 +171,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmDataLakeAnalyticsAccount](./Get-AzureRmDataLakeAnalyticsAccount.md)
+[Get-AzureRmDataLakeAnalyticsAccount](xref:ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Get-AzureRmDataLakeAnalyticsAccount.md)
 
-[Remove-AzureRmDataLakeAnalyticsAccount](./Remove-AzureRmDataLakeAnalyticsAccount.md)
+[Remove-AzureRmDataLakeAnalyticsAccount](xref:ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Remove-AzureRmDataLakeAnalyticsAccount.md)
 
-[Set-AzureRmDataLakeAnalyticsAccount](./Set-AzureRmDataLakeAnalyticsAccount.md)
+[Set-AzureRmDataLakeAnalyticsAccount](xref:ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Set-AzureRmDataLakeAnalyticsAccount.md)
 
-[Test-AzureRmDataLakeAnalyticsAccount](./Test-AzureRmDataLakeAnalyticsAccount.md)
+[Test-AzureRmDataLakeAnalyticsAccount](xref:ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Test-AzureRmDataLakeAnalyticsAccount.md)
 
 

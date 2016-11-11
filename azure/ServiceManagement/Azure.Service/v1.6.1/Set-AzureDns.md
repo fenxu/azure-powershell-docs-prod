@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Add-AzureDns.md
+online version: 
 schema: 2.0.0
 ms.assetid: FD9E7FD9-D39A-4F3C-8DE8-008A00035583
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureDns.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureDns.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureDns.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureDns.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Set-AzureDns [-Name] <String> [-IPAddress] <String> [-ServiceName] <String> [-Pr
 ```
 
 ## DESCRIPTION
-The **Set-AzureDns** cmdlet modifies the IP address of a DNS server for an azure_2 service.
+The **Set-AzureDns** cmdlet modifies the IP address of a DNS server for an Azure service.
 
 ## EXAMPLES
 
@@ -104,7 +104,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -119,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -146,12 +155,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureDns](./Add-AzureDns.md)
+[Add-AzureDns](xref:ServiceManagement/Azure.Service/v1.6.1/Add-AzureDns.md)
 
-[Get-AzureDns](./Get-AzureDns.md)
+[Get-AzureDns](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureDns.md)
 
-[New-AzureDns](./New-AzureDns.md)
+[New-AzureDns](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureDns.md)
 
-[Remove-AzureDns](./Remove-AzureDns.md)
+[Remove-AzureDns](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureDns.md)
 
 

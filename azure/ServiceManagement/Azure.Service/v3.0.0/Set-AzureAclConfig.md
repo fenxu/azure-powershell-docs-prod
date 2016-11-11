@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: 979956b7-aa12-432c-b52a-442a9665a57d
+online version: 
 schema: 2.0.0
 ms.assetid: A94B400E-D081-461D-BBE6-A21332FC207B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureAclConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureAclConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureAclConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureAclConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -264,16 +264,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureAclConfig](./Get-AzureAclConfig.md)
+[Get-AzureAclConfig](xref:ServiceManagement/Azure.Service/v3.0.0/Get-AzureAclConfig.md)
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v3.0.0/Get-AzureVM.md)
 
-[New-AzureAclConfig](./New-AzureAclConfig.md)
+[New-AzureAclConfig](xref:ServiceManagement/Azure.Service/v3.0.0/New-AzureAclConfig.md)
 
-[Remove-AzureAclConfig](./Remove-AzureAclConfig.md)
+[Remove-AzureAclConfig](xref:ServiceManagement/Azure.Service/v3.0.0/Remove-AzureAclConfig.md)
 
-[Set-AzureEndpoint](./Set-AzureEndpoint.md)
+[Set-AzureEndpoint](xref:ServiceManagement/Azure.Service/v3.0.0/Set-AzureEndpoint.md)
 
-[Update-AzureVM](./Update-AzureVM.md)
+[Update-AzureVM](xref:ServiceManagement/Azure.Service/v3.0.0/Update-AzureVM.md)
 
 

@@ -6,8 +6,9 @@ Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Azure.Profile.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Azure.Profile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Azure.Profile.md
+uid: ServiceManagement/Azure.Profile/v2.1.0/Azure.Profile.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell

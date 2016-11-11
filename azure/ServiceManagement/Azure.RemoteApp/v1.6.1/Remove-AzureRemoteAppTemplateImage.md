@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Get-AzureRemoteAppTemplateImage.md
+online version: 
 schema: 2.0.0
 ms.assetid: 59DFE497-65B3-4D23-900B-2B1CC6FD9EF5
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppTemplateImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppTemplateImage.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppTemplateImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Remove-AzureRemoteAppTemplateImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Remove-AzureRemoteAppTemplateImage
 
 ## SYNOPSIS
-Deletes an azure_2 RemoteApp template image.
+Deletes an Azure RemoteApp template image.
 
 ## SYNTAX
 
@@ -30,8 +30,8 @@ Remove-AzureRemoteAppTemplateImage [-ImageName] <String> [-Profile <AzureSMProfi
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRemoteAppTemplateImage** cmdlet deletes an azure_2 RemoteApp template image.
-A template image can deleted only if it is not linked to any azure_2 RemoteApp collection.
+The **Remove-AzureRemoteAppTemplateImage** cmdlet deletes an Azure RemoteApp template image.
+A template image can deleted only if it is not linked to any Azure RemoteApp collection.
 
 ## EXAMPLES
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -75,7 +75,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -115,10 +116,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRemoteAppTemplateImage](./Get-AzureRemoteAppTemplateImage.md)
+[Get-AzureRemoteAppTemplateImage](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppTemplateImage.md)
 
-[New-AzureRemoteAppTemplateImage](./New-AzureRemoteAppTemplateImage.md)
+[New-AzureRemoteAppTemplateImage](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/New-AzureRemoteAppTemplateImage.md)
 
-[Rename-AzureRemoteAppTemplateImage](./Rename-AzureRemoteAppTemplateImage.md)
+[Rename-AzureRemoteAppTemplateImage](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Rename-AzureRemoteAppTemplateImage.md)
 
 

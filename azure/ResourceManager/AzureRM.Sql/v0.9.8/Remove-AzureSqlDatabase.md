@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 9A890201-D0F2-40D3-9752-45D2D7D18F3F
 updated_at: 10/20/2016 12:12 AM
 ms.date: 10/20/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlDatabase.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlDatabase.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell

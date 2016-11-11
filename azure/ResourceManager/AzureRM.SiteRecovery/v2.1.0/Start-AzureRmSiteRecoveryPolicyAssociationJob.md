@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: 2d551f2c-5dfe-42fc-bf3c-d34776c0892b
+online version: 
 schema: 2.0.0
 ms.assetid: 86674808-E6F2-4DD7-884C-90C324D799A4
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

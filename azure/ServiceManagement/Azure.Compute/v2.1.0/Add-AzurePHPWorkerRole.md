@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 07733C27-505B-4DD2-945E-EF2496437C80
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Add-AzurePHPWorkerRole.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Add-AzurePHPWorkerRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Add-AzurePHPWorkerRole.md
 ms.topic: reference
 ms.prod: powershell
@@ -112,8 +112,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureServiceProject](./New-AzureServiceProject.md)
+[New-AzureServiceProject](xref:ServiceManagement/Azure.Compute/v2.1.0/New-AzureServiceProject.md)
 
-[Add-AzurePHPWebRole](./Add-AzurePHPWebRole.md)
+[Add-AzurePHPWebRole](xref:ServiceManagement/Azure.Compute/v2.1.0/Add-AzurePHPWebRole.md)
 
 

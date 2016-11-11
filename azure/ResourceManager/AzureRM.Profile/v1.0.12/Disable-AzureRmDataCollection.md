@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
-online version: .\Enable-AzureRmDataCollection.md
+online version: 
 schema: 2.0.0
 ms.assetid: 3E0927A7-EBB9-4463-826E-9B6A3F52E0C9
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Disable-AzureRmDataCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Disable-AzureRmDataCollection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Disable-AzureRmDataCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Disable-AzureRmDataCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -49,7 +49,7 @@ This command disables data collection for the current user on the current comput
 ## PARAMETERS
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -64,7 +64,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -89,6 +90,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureRmDataCollection](./Enable-AzureRmDataCollection.md)
+[Enable-AzureRmDataCollection](xref:ResourceManager/AzureRM.Profile/v1.0.12/Enable-AzureRmDataCollection.md)
 
 

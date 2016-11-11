@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: 16f37637-a91a-4257-bc70-aee2a196f825
+online version: 
 schema: 2.0.0
 ms.assetid: 5DA460AF-2DB1-4303-B9D9-C51FD9674E4B
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryRecoveryPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryRecoveryPlan.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryRecoveryPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryRecoveryPlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -44,10 +44,6 @@ The **Get-AzureRmSiteRecoveryRecoveryPlan** cmdlet gets a recovery plan in Azure
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -57,7 +53,7 @@ Specifies the name of the recovery plan that this cmdlet gets.
 ```yaml
 Type: String
 Parameter Sets: ByName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -72,7 +68,7 @@ Specifies the file path to which this cmdlet saves the recovery plan.
 ```yaml
 Type: String
 Parameter Sets: ByName, ByFriendlyName
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -87,7 +83,7 @@ Specifies the friendly name of the recovery plan that this cmdlet gets.
 ```yaml
 Type: String
 Parameter Sets: ByFriendlyName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -107,10 +103,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmSiteRecoveryRecoveryPlan](./New-AzureRmSiteRecoveryRecoveryPlan.md)
+[New-AzureRmSiteRecoveryRecoveryPlan](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryRecoveryPlan.md)
 
-[Remove-AzureRmSiteRecoveryRecoveryPlan](./Remove-AzureRmSiteRecoveryRecoveryPlan.md)
+[Remove-AzureRmSiteRecoveryRecoveryPlan](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Remove-AzureRmSiteRecoveryRecoveryPlan.md)
 
-[Update-AzureRmSiteRecoveryRecoveryPlan](./Update-AzureRmSiteRecoveryRecoveryPlan.md)
-
-
+[Update-AzureRmSiteRecoveryRecoveryPlan](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Update-AzureRmSiteRecoveryRecoveryPlan.md)

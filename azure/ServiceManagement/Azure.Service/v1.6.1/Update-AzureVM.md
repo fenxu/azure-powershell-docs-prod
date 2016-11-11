@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: .\Get-AzureVM.md
+online version: 
 schema: 2.0.0
 ms.assetid: 569E1687-2E48-4CA8-85D3-6113675274CC
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Update-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Update-AzureVM.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Update-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Update-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Update-AzureVM
 
 ## SYNOPSIS
-Modifies the configuration of an azure_2 virtual machine.
+Modifies the configuration of an Azure virtual machine.
 
 ## SYNTAX
 
@@ -82,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceName
-Specifies the name of the azure_2 service.
+Specifies the name of the Azure service.
 
 ```yaml
 Type: String
@@ -112,7 +112,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -127,7 +136,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -152,20 +161,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVM](./Get-AzureVM.md)
+[Get-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Get-AzureVM.md)
 
-[New-AzureVM](./New-AzureVM.md)
+[New-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md)
 
-[New-AzureVMConfig](./New-AzureVMConfig.md)
+[New-AzureVMConfig](xref:ServiceManagement/Azure.Service/v1.6.1/New-AzureVMConfig.md)
 
-[Remove-AzureVM](./Remove-AzureVM.md)
+[Remove-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVM.md)
 
-[Restart-AzureVM](./Restart-AzureVM.md)
+[Restart-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Restart-AzureVM.md)
 
-[Set-AzureVMSize](./Set-AzureVMSize.md)
+[Set-AzureVMSize](xref:ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMSize.md)
 
-[Start-AzureVM](./Start-AzureVM.md)
+[Start-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Start-AzureVM.md)
 
-[Stop-AzureVM](./Stop-AzureVM.md)
+[Stop-AzureVM](xref:ServiceManagement/Azure.Service/v1.6.1/Stop-AzureVM.md)
 
 

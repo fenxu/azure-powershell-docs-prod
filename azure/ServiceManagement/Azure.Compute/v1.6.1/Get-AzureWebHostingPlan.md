@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 8E660E09-5CDC-4324-B7DA-608008B057CA
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebHostingPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebHostingPlan.md
+updated_at: 10/31/2016 9:17 PM
+ms.date: 10/31/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebHostingPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureWebHostingPlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureWebHostingPlan
 
 ## SYNOPSIS
-Gets azure_2 web hosting plans in the current subscription.
+Gets Azure web hosting plans in the current subscription.
 
 ## SYNTAX
 
@@ -32,9 +32,9 @@ Get-AzureWebHostingPlan [-WebSpaceName <String>] [-Name <String>] [-Profile <Azu
 ## DESCRIPTION
 powershell_prelim
 
-The **Get-AzureWebHostingPlan** cmdlet gets the azure_2 web hosting plans in the current subscription.
+The **Get-AzureWebHostingPlan** cmdlet gets the Azure web hosting plans in the current subscription.
 
-By default, **Get-AzureWebHostingPlan** gets all azure_2 hosting plans in the current subscription and returns an object that provides basic information about the plans.
+By default, **Get-AzureWebHostingPlan** gets all Azure hosting plans in the current subscription and returns an object that provides basic information about the plans.
 When you use the *WebSpace* and *Name* parameters, **Get-AzureWebHostingPlan** returns a specific hosting plan object.
 
 To find the current subscription, use the *Current* parameter of the **Get-AzureSubscription** cmdlet.
@@ -62,7 +62,7 @@ CurrentNumberOfWorkers : 0
 Status : Ready
 ```
 
-This command gets all azure_2 web hosting plans in the current subscription.
+This command gets all Azure web hosting plans in the current subscription.
 
 ### Example 2: Get a specific web hosting plan in a subscription
 ```

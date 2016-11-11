@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
-online version: cbde7141-7332-4884-a0f9-2e5d3a4d76bd
+online version: 
 schema: 2.0.0
 ms.assetid: 580B3B9F-FD85-4531-8586-F25A182E7FB2
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureLocation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureLocation.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureLocation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureLocation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -20,7 +20,7 @@ manager: visual-studio-china
 # Get-AzureLocation
 
 ## SYNOPSIS
-Gets the available data center locations for the current azure_2 subscription.
+Gets the available data center locations for the current Azure subscription.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-AzureLocation [-Profile <AzureSMProfile>] [-InformationAction <ActionPrefere
 ```
 
 ## DESCRIPTION
-The **Get-AzureLocation** cmdlet gets a list of the available azure_2 data centers and their properties for the current azure_2 subscription.
+The **Get-AzureLocation** cmdlet gets a list of the available Azure data centers and their properties for the current Azure subscription.
 Before you run this cmdlet, you must set your current subscription by using the Select-AzureSubscription and Set-AzureSubscription cmdlets.
 
 ## EXAMPLES
@@ -60,7 +60,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -75,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String

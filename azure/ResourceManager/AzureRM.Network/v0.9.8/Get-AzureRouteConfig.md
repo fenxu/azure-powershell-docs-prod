@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-online version: .\Add-AzureRouteConfig.md
+online version: 
 schema: 2.0.0
 ms.assetid: 8721B360-0F48-4517-A4D8-32A39FEE2605
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureRouteConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureRouteConfig.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureRouteConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureRouteConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -110,14 +110,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRouteConfig](./Add-AzureRouteConfig.md)
+[Add-AzureRouteConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Add-AzureRouteConfig.md)
 
-[Get-AzureRouteTable](./Get-AzureRouteTable.md)
+[Get-AzureRouteTable](xref:ResourceManager/AzureRM.Network/v0.9.8/Get-AzureRouteTable.md)
 
-[New-AzureRouteConfig](./New-AzureRouteConfig.md)
+[New-AzureRouteConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/New-AzureRouteConfig.md)
 
-[Remove-AzureRouteConfig](./Remove-AzureRouteConfig.md)
+[Remove-AzureRouteConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureRouteConfig.md)
 
-[Set-AzureRouteConfig](./Set-AzureRouteConfig.md)
+[Set-AzureRouteConfig](xref:ResourceManager/AzureRM.Network/v0.9.8/Set-AzureRouteConfig.md)
 
 

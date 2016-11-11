@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
-online version: .\Add-AzureRemoteAppUser.md
+online version: 
 schema: 2.0.0
 ms.assetid: 79E039C7-AC28-4DE8-A9A3-6CAABF94D873
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Send-AzureRemoteAppSessionMessage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Send-AzureRemoteAppSessionMessage.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Send-AzureRemoteAppSessionMessage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Send-AzureRemoteAppSessionMessage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Send-AzureRemoteAppSessionMessage [-CollectionName] <String> [-UserUpn] <String>
 ```
 
 ## DESCRIPTION
-The **Send-AzureRemoteAppSessionMessage** cmdlet sends a message to a user who is connected to an azure_2 RemoteApp session.
+The **Send-AzureRemoteAppSessionMessage** cmdlet sends a message to a user who is connected to an Azure RemoteApp session.
 
 ## EXAMPLES
 
@@ -44,7 +44,7 @@ This command sends a message to the user whose UPN is PattiFuller@contoso.com.
 ## PARAMETERS
 
 ### -CollectionName
-Specifies the name of the azure_2 RemoteApp collection.
+Specifies the name of the Azure RemoteApp collection.
 
 ```yaml
 Type: String
@@ -114,10 +114,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRemoteAppUser](./Add-AzureRemoteAppUser.md)
+[Add-AzureRemoteAppUser](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Add-AzureRemoteAppUser.md)
 
-[Get-AzureRemoteAppSession](./Get-AzureRemoteAppSession.md)
+[Get-AzureRemoteAppSession](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppSession.md)
 
-[Get-AzureRemoteAppUser](./Get-AzureRemoteAppUser.md)
+[Get-AzureRemoteAppUser](xref:ServiceManagement/Azure.RemoteApp/v1.6.1/Get-AzureRemoteAppUser.md)
 
 

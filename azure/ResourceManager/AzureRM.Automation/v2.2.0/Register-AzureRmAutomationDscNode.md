@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: 19472f94-5827-4878-a17a-d7bb10932861
+online version: 
 schema: 2.0.0
 ms.assetid: A6F623A1-2E69-4EA2-828B-AB63D285A009
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRmAutomationDscNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRmAutomationDscNode.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRmAutomationDscNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRmAutomationDscNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,12 +14,13 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Register-AzureRmAutomationDscNode
 
 ## SYNOPSIS
-Registers an azure_2 virtual machine as a DSC node for an Automation account.
+Registers an Azure virtual machine as a DSC node for an Automation account.
 
 ## SYNTAX
 
@@ -32,7 +33,7 @@ Register-AzureRmAutomationDscNode -AzureVMName <String> [-NodeConfigurationName 
 ```
 
 ## DESCRIPTION
-The **Register-AzureRmAutomationDscNode** cmdlet registers an azure_2 virtual machine as an APS Desired State Configuration (DSC) node in an azure_2 Automation account.
+The **Register-AzureRmAutomationDscNode** cmdlet registers an Azure virtual machine as an APS Desired State Configuration (DSC) node in an Azure Automation account.
 
 ## EXAMPLES
 
@@ -41,7 +42,7 @@ The **Register-AzureRmAutomationDscNode** cmdlet registers an azure_2 virtual ma
 PS C:\>Register-AzureAutomationDscNode -AutomationAccountName "Contoso17" -AzureVMName "VirtualMachine01" -ResourceGroupName "ResourceGroup01"-NodeConfigurationName "ContosoConfiguration.webserver"
 ```
 
-This command registers the azure_2 virtual machine named VirtualMachine01 as a DSC node in the Automation account named Contoso17.
+This command registers the Azure virtual machine named VirtualMachine01 as a DSC node in the Automation account named Contoso17.
 
 ## PARAMETERS
 
@@ -66,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -AllowModuleOverwrite
-Specifies whether new configurations that this DSC node downloads from the azure_2 Automation DSC pull server replace the existing modules already on the target node.
+Specifies whether new configurations that this DSC node downloads from the Azure Automation DSC pull server replace the existing modules already on the target node.
 
 ```yaml
 Type: Boolean
@@ -112,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -AzureVMName
-Specifies the name of the azure_2 virtual machine that this cmdlet registers for management.
+Specifies the name of the Azure virtual machine that this cmdlet registers for management.
 
 ```yaml
 Type: String
@@ -127,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -AzureVMResourceGroup
-Specifies the name of the resource group of the azure_2 virtual machine that this cmdlet registers.
+Specifies the name of the resource group of the Azure virtual machine that this cmdlet registers.
 
 ```yaml
 Type: String
@@ -178,7 +179,7 @@ Accept wildcard characters: False
 ```
 
 ### -NodeConfigurationName
-Specifies the name of the node configuration that this cmdlet configures the virtual machine to pull from azure_2 Automation DSC.
+Specifies the name of the node configuration that this cmdlet configures the virtual machine to pull from Azure Automation DSC.
 
 ```yaml
 Type: String
@@ -208,7 +209,7 @@ Accept wildcard characters: False
 ```
 
 ### -RefreshFrequencyMins
-Specifies the frequency, in minutes, at which the local Configuration Manager contacts the azure_2 Automation DSC pull server to download the latest node configuration.
+Specifies the frequency, in minutes, at which the local Configuration Manager contacts the Azure Automation DSC pull server to download the latest node configuration.
 
 ```yaml
 Type: Int32
@@ -249,10 +250,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationDscNode](./Get-AzureRmAutomationDscNode.md)
+[Get-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v2.2.0/Get-AzureRmAutomationDscNode.md)
 
-[Set-AzureRmAutomationDscNode](./Set-AzureRmAutomationDscNode.md)
+[Set-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v2.2.0/Set-AzureRmAutomationDscNode.md)
 
-[Unregister-AzureRmAutomationDscNode](./Unregister-AzureRmAutomationDscNode.md)
+[Unregister-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v2.2.0/Unregister-AzureRmAutomationDscNode.md)
 
 

@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 06F96135-1624-4693-AD49-30B2BE41A19E
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Remove-AzureManagedCacheNamedCache.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Remove-AzureManagedCacheNamedCache.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Remove-AzureManagedCacheNamedCache.md
 ms.topic: reference
 ms.prod: powershell
@@ -137,10 +137,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [How to install and configure Azure PowerShell](http://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/)
 
-[Get-AzureManagedCacheNamedCache](./Get-AzureManagedCacheNamedCache.md)
+[Get-AzureManagedCacheNamedCache](xref:ServiceManagement/Azure.ManagedCache/v3.0.0/Get-AzureManagedCacheNamedCache.md)
 
-[New-AzureManagedCacheNamedCache](./New-AzureManagedCacheNamedCache.md)
+[New-AzureManagedCacheNamedCache](xref:ServiceManagement/Azure.ManagedCache/v3.0.0/New-AzureManagedCacheNamedCache.md)
 
-[Set-AzureManagedCacheNamedCache](./Set-AzureManagedCacheNamedCache.md)
+[Set-AzureManagedCacheNamedCache](xref:ServiceManagement/Azure.ManagedCache/v3.0.0/Set-AzureManagedCacheNamedCache.md)
 
 

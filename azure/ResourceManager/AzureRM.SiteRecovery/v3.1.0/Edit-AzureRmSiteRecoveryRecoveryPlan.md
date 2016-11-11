@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: 5da460af-2db1-4303-b9d9-c51fd9674e4b
+online version: 
 schema: 2.0.0
 ms.assetid: 200ECD6F-5A5E-499A-8EA9-F747197EBF03
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Edit-AzureRmSiteRecoveryRecoveryPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Edit-AzureRmSiteRecoveryRecoveryPlan.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Edit-AzureRmSiteRecoveryRecoveryPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Edit-AzureRmSiteRecoveryRecoveryPlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -64,10 +64,6 @@ The **Edit-AzureRmSiteRecoveryRecoveryPlan** cmdlet edits an Azure Site Recovery
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -77,7 +73,7 @@ Specifies a recovery plan.
 ```yaml
 Type: ASRRecoveryPlan
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -92,7 +88,7 @@ Indicates that this operation appends the group to the recovery plan object.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: AppendGroup
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -107,7 +103,7 @@ Removes the specified Site Recovery recovery plan group.
 ```yaml
 Type: ASRRecoveryPlanGroup
 Parameter Sets: RemoveGroup
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -122,7 +118,7 @@ Specifies a Site Recovery plan group.
 ```yaml
 Type: ASRRecoveryPlanGroup
 Parameter Sets: AddReplicationProtectedItems, RemoveProtectedEntities, AddProtectedEntities, RemoveReplicationProtectedItems
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -132,12 +128,11 @@ Accept wildcard characters: False
 ```
 
 ### -AddProtectedItems
-@{Text=}
 
 ```yaml
 Type: ASRReplicationProtectedItem[]
 Parameter Sets: AddReplicationProtectedItems
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -152,7 +147,7 @@ Specifies an array of protected entities to add.
 ```yaml
 Type: ASRProtectionEntity[]
 Parameter Sets: AddProtectedEntities
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -167,7 +162,7 @@ Specifies an array of protected entities.
 ```yaml
 Type: ASRProtectionEntity[]
 Parameter Sets: RemoveProtectedEntities
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -177,12 +172,11 @@ Accept wildcard characters: False
 ```
 
 ### -RemoveProtectedItems
-@{Text=}
 
 ```yaml
 Type: ASRReplicationProtectedItem[]
 Parameter Sets: RemoveReplicationProtectedItems
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -202,8 +196,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryRecoveryPlan](./Get-AzureRmSiteRecoveryRecoveryPlan.md)
+[Get-AzureRmSiteRecoveryRecoveryPlan](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/Get-AzureRmSiteRecoveryRecoveryPlan.md)
 
-[New-AzureRmSiteRecoveryRecoveryPlan](./New-AzureRmSiteRecoveryRecoveryPlan.md)
-
-
+[New-AzureRmSiteRecoveryRecoveryPlan](xref:ResourceManager/AzureRM.SiteRecovery/v3.1.0/New-AzureRmSiteRecoveryRecoveryPlan.md)

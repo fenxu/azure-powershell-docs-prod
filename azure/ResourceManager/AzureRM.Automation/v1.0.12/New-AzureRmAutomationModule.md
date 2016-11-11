@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-online version: .\Get-AzureRmAutomationModule.md
+online version: 
 schema: 2.0.0
 ms.assetid: 0CFA1DD4-11F2-4EB6-A354-46BF4286D00F
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRmAutomationModule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRmAutomationModule.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRmAutomationModule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/New-AzureRmAutomationModule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -14,6 +14,7 @@ ms.technology: Azure PowerShell
 author: visual-studio-china
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # New-AzureRmAutomationModule
@@ -29,7 +30,7 @@ New-AzureRmAutomationModule [-Name] <String> [-ContentLink] <Uri> [-ResourceGrou
 ```
 
 ## DESCRIPTION
-The **New-AzureRmAutomationModule** cmdlet imports a module into azure_2 Automation.
+The **New-AzureRmAutomationModule** cmdlet imports a module into Azure Automation.
 This command accepts a compressed file that has a .zip file name extension.
 The file contains a folder that includes a file that is one of the following types: 
 
@@ -56,7 +57,7 @@ PS C:\>New-AzureRmAutomationModule -AutomationAccountName "Contoso17" -Name "Con
 ```
 
 This command imports a module named ContosoModule into the Automation account named Contoso17.
-The module is stored in an azure_2 blob in a storage account named contosostorage and a container named modules.
+The module is stored in an Azure blob in a storage account named contosostorage and a container named modules.
 
 ## PARAMETERS
 
@@ -131,10 +132,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmAutomationModule](./Get-AzureRmAutomationModule.md)
+[Get-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v1.0.12/Get-AzureRmAutomationModule.md)
 
-[Remove-AzureRmAutomationModule](./Remove-AzureRmAutomationModule.md)
+[Remove-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v1.0.12/Remove-AzureRmAutomationModule.md)
 
-[Set-AzureRmAutomationModule](./Set-AzureRmAutomationModule.md)
+[Set-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v1.0.12/Set-AzureRmAutomationModule.md)
 
 

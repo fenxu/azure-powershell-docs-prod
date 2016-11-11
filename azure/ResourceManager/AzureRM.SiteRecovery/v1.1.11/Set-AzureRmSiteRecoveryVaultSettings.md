@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
-online version: .\Get-AzureRmSiteRecoveryVaultSettings.md
+online version: 
 schema: 2.0.0
 ms.assetid: F5378D08-C948-42C6-B893-48478680E8AA
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Set-AzureRmSiteRecoveryVaultSettings.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Set-AzureRmSiteRecoveryVaultSettings.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Set-AzureRmSiteRecoveryVaultSettings.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Set-AzureRmSiteRecoveryVaultSettings.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -35,7 +35,7 @@ Set-AzureRmSiteRecoveryVaultSettings -ARSVault <ARSVault> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmSiteRecoveryVaultSettings** cmdlet sets the azure_2 Site Recovery vault context for further operations.
+The **Set-AzureRmSiteRecoveryVaultSettings** cmdlet sets the Azure Site Recovery vault context for further operations.
 This does not apply to recovery services vaults.
 
 ## EXAMPLES
@@ -88,6 +88,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmSiteRecoveryVaultSettings](./Get-AzureRmSiteRecoveryVaultSettings.md)
+[Get-AzureRmSiteRecoveryVaultSettings](xref:ResourceManager/AzureRM.SiteRecovery/v1.1.11/Get-AzureRmSiteRecoveryVaultSettings.md)
 
 

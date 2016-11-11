@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
-online version: .\Enable-AzureRmBackupProtection.md
+online version: 
 schema: 2.0.0
 ms.assetid: F8849412-61CD-42E0-9A00-48F5D885B826
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Disable-AzureRmBackupProtection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Disable-AzureRmBackupProtection.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Disable-AzureRmBackupProtection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v1.0.12/Disable-AzureRmBackupProtection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -30,7 +30,7 @@ Disable-AzureRmBackupProtection [-RemoveRecoveryPoints] [-Force] [-Item] <AzureR
 ```
 
 ## DESCRIPTION
-The **Disable-AzureRmBackupProtection** cmdlet disables protection for an azure_2 Backup protected item.
+The **Disable-AzureRmBackupProtection** cmdlet disables protection for an Azure Backup protected item.
 This cmdlet stops regular scheduled backup of an item.
 This cmdlet can delete existing recovery points for the backup item.
 
@@ -91,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-psdx_confirmdesc
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -106,7 +106,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-psdx_whatifdesc
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -135,8 +136,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Enable-AzureRmBackupProtection](./Enable-AzureRmBackupProtection.md)
+[Enable-AzureRmBackupProtection](xref:ResourceManager/AzureRM.Backup/v1.0.12/Enable-AzureRmBackupProtection.md)
 
-[Get-AzureRmBackupItem](./Get-AzureRmBackupItem.md)
+[Get-AzureRmBackupItem](xref:ResourceManager/AzureRM.Backup/v1.0.12/Get-AzureRmBackupItem.md)
 
 

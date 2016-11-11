@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: 8583FC19-66A5-4BCE-9BB4-76962345E969
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
 ms.topic: reference
 ms.prod: powershell
@@ -211,10 +211,10 @@ This cmdlet returns a **Model.DatabaseThreatDetectionPolicyModel** object.
 
 ## RELATED LINKS
 
-[Get-AzureRmSqlDatabaseThreatDetectionPolicy](./Get-AzureRmSqlServerThreatDetectionPolicy.md)
+[Get-AzureRmSqlDatabaseThreatDetectionPolicy](xref:ResourceManager/AzureRM.Sql/v2.2.0/Get-AzureRmSqlServerThreatDetectionPolicy.md)
 
-[Remove-AzureRmSqlDatabaseThreatDetectionPolicy](./Remove-AzureRmSqlDatabaseThreatDetectionPolicy.md)
+[Remove-AzureRmSqlDatabaseThreatDetectionPolicy](xref:ResourceManager/AzureRM.Sql/v2.2.0/Remove-AzureRmSqlDatabaseThreatDetectionPolicy.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+[Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md)
 
 

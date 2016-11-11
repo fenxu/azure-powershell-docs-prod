@@ -5,7 +5,7 @@ schema: 2.0.0
 ms.assetid: AEF7D4CB-9791-4C1C-B3B5-E51546C8F621
 updated_at: 10/18/2016 9:38 PM
 ms.date: 10/18/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Suspend-AzureSqlDatabase.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Suspend-AzureSqlDatabase.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Suspend-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell

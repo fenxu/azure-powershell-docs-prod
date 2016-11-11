@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
-online version: .\Get-AzureVirtualNetworkGatewayDiagnostics.md
+online version: 
 schema: 2.0.0
 ms.assetid: 12D6F28B-1D9D-47F3-AC54-21683D4C2F51
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Start-AzureVirtualNetworkGatewayDiagnostics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Start-AzureVirtualNetworkGatewayDiagnostics.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Start-AzureVirtualNetworkGatewayDiagnostics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v2.1.0/Start-AzureVirtualNetworkGatewayDiagnostics.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,10 +37,6 @@ If you run this cmdlet while a gateway diagnostics session is running, this cmdl
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -50,7 +46,7 @@ Specifies the capture duration in seconds.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -66,7 +62,7 @@ This cmdlet stores results in the container that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -81,7 +77,7 @@ Specifies the ID of a gateway.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -97,7 +93,7 @@ If you do not specify a profile, this cmdlet reads from the local default profil
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -113,7 +109,7 @@ This cmdlet stores results by using the storage context that this parameter spec
 ```yaml
 Type: AzureStorageContext
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -133,8 +129,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureVirtualNetworkGatewayDiagnostics](./Get-AzureVirtualNetworkGatewayDiagnostics.md)
+[Get-AzureVirtualNetworkGatewayDiagnostics](xref:ServiceManagement/Azure.Networking/v2.1.0/Get-AzureVirtualNetworkGatewayDiagnostics.md)
 
-[Stop-AzureVirtualNetworkGatewayDiagnostics](./Stop-AzureVirtualNetworkGatewayDiagnostics.md)
-
-
+[Stop-AzureVirtualNetworkGatewayDiagnostics](xref:ServiceManagement/Azure.Networking/v2.1.0/Stop-AzureVirtualNetworkGatewayDiagnostics.md)

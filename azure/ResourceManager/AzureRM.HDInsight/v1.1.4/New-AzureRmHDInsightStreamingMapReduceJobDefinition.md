@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-online version: .\Start-AzureRmHDInsightJob.md
+online version: 
 schema: 2.0.0
 ms.assetid: 4F1B47BE-1740-4B58-A5EE-7FD535AB612D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightStreamingMapReduceJobDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightStreamingMapReduceJobDefinition.md
+updated_at: 11/1/2016 10:24 PM
+ms.date: 11/1/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightStreamingMapReduceJobDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightStreamingMapReduceJobDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -32,7 +32,7 @@ New-AzureRmHDInsightStreamingMapReduceJobDefinition [-Arguments <String[]>] [-Fi
 ```
 
 ## DESCRIPTION
-The **New-AzureRmHDInsightStreamingMapReduceJobDefinition** cmdlet defines a Streaming MapReduce job object for use with an azure_2 HDInsight cluster.
+The **New-AzureRmHDInsightStreamingMapReduceJobDefinition** cmdlet defines a Streaming MapReduce job object for use with an Azure HDInsight cluster.
 
 ## EXAMPLES
 
@@ -210,7 +210,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -225,7 +234,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -250,6 +259,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureRmHDInsightJob](./Start-AzureRmHDInsightJob.md)
+[Start-AzureRmHDInsightJob](xref:ResourceManager/AzureRM.HDInsight/v1.1.4/Start-AzureRmHDInsightJob.md)
 
 
