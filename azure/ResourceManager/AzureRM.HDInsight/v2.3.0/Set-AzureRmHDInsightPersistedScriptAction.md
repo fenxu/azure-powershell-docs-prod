@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-ms.assetid: 340D56E8-9EC8-4A31-852C-5A3F4DCD0A37
+ms.assetid: 92F21752-4FB6-4162-B542-DA25ACA3340B
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.3.0/Set-AzureRmHDInsightPersistedScriptAction.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.3.0/Set-AzureRmHDInsightPersistedScriptAction.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.3.0/Set-AzureRmHDInsightPersistedScriptAction.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

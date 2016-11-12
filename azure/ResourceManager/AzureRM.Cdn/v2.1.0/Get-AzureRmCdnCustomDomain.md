@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: B694A78C-9262-422B-B3C0-73FCA0DA26B0
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: DE1F68A4-507E-4E4D-B9F7-4AC675D4D3B0
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnCustomDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnCustomDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnCustomDomain.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

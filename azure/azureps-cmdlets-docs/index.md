@@ -1,9 +1,10 @@
 ---
-updated_at: 11/10/2016 11:41 PM
-ms.date: 11/10/2016
+ms.assetid: DF332CD7-E3E5-4CC1-8C01-380B2065193C
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b719e91b9cd12d6d9590eafcd2a648663f19188c/azureps-cmdlets-docs/index.md
-ms.topic: conceptual
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/index.md
+ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
@@ -13,6 +14,7 @@ keywords: powershell, cmdlet
 manager: visual-studio-china
 id: index_md
 ---
+
 # Get started with Azure PowerShell cmdlets
 
 

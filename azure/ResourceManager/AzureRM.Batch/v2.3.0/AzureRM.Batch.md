@@ -4,10 +4,11 @@ Module Guid: Batch_Cmdlets_D48CF693-4125-4D2D-879
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 4.0.0.0
 Locale: en-US
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+ms.assetid: 91FFC688-AE99-4963-823D-A8C66F64E0BA
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.3.0/AzureRM.Batch.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.3.0/AzureRM.Batch.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.3.0/AzureRM.Batch.md
 uid: ResourceManager/AzureRM.Batch/v2.3.0/AzureRM.Batch.md
 ms.topic: conceptual
 ms.prod: powershell

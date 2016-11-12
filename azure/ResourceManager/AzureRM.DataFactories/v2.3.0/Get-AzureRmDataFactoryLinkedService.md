@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
-ms.assetid: ED29001F-47C2-4D30-B6D3-87E0362362CF
+ms.assetid: DFA41A2B-7C8A-42CB-B0B6-5E6FF853EFEE
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.3.0/Get-AzureRmDataFactoryLinkedService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.3.0/Get-AzureRmDataFactoryLinkedService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.3.0/Get-AzureRmDataFactoryLinkedService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

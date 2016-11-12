@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: BCF1D6F3-D07A-4DF1-9A05-26FC64946B93
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: CEBB402E-C8C7-4EBC-9E49-74C80652784A
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Publish-AzureRemoteAppProgram.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Publish-AzureRemoteAppProgram.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Publish-AzureRemoteAppProgram.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

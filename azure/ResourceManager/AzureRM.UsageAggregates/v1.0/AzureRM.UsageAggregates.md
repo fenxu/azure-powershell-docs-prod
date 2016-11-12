@@ -4,10 +4,11 @@ Module Guid: e43e47c8-8bff-4013-b003-ded1741f403a
 Download Help Link: None
 Help Version: 2.0.1.0
 Locale: en-US
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+ms.assetid: DCCB7042-758D-476B-9B9C-41BA6A02FE40
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v1.0/AzureRM.UsageAggregates.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v1.0/AzureRM.UsageAggregates.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v1.0/AzureRM.UsageAggregates.md
 uid: ResourceManager/AzureRM.UsageAggregates/v1.0/AzureRM.UsageAggregates.md
 ms.topic: conceptual
 ms.prod: powershell

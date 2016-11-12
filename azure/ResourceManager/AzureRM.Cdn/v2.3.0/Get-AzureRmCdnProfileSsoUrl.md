@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
-ms.assetid: A05FA90C-3B36-4359-8C31-5DF293B4CAE1
+ms.assetid: 93D5E2D9-FB89-4311-8E8E-44CBFAFC98A9
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.3.0/Get-AzureRmCdnProfileSsoUrl.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.3.0/Get-AzureRmCdnProfileSsoUrl.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.3.0/Get-AzureRmCdnProfileSsoUrl.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

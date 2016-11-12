@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServices.ARM.dll-Help.xml
-ms.assetid: 89C926E3-32BA-40A1-8679-2D9FA4B03947
+ms.assetid: F1EA1EC7-3DB5-4FD7-9200-C5B7C3ACBB3C
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.3.0/Get-AzureRmRecoveryServicesBackupProperties.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.3.0/Get-AzureRmRecoveryServicesBackupProperties.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.3.0/Get-AzureRmRecoveryServicesBackupProperties.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

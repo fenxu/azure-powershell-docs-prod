@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 64C57ADB-80D8-4494-BF1E-AC594D54852B
-updated_at: 11/1/2016 8:11 PM
-ms.date: 11/1/2016
+ms.assetid: FAEF1138-C478-4BCA-A151-E4C52AB61B10
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Get-AzureHDInsightJobOutput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/76d389e6f4656b8cb2f1cc90ba2be7be7f3ff754/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Get-AzureHDInsightJobOutput.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Get-AzureHDInsightJobOutput.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

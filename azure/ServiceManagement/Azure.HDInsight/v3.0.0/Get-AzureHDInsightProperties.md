@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 3C423081-DB0E-4681-9718-04BB7A67E20E
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
+ms.assetid: EB69B4D3-4A11-4B70-B6C6-2F5E186A1281
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Get-AzureHDInsightProperties.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Get-AzureHDInsightProperties.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Get-AzureHDInsightProperties.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

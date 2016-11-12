@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
-ms.assetid: D66EB400-F7F2-447B-992D-A4E7A5CB5155
+ms.assetid: ECF85C07-2C9E-487D-A2ED-77875C380244
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Save-AzureRmServerManagementGatewayProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Save-AzureRmServerManagementGatewayProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Save-AzureRmServerManagementGatewayProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

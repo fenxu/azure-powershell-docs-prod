@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 648D7776-5056-4025-8706-3BA091658AD0
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+ms.assetid: FB8A755E-ABEE-4010-8002-13EBCE956E78
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmRedisCacheDiagnostics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmRedisCacheDiagnostics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/Set-AzureRmRedisCacheDiagnostics.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

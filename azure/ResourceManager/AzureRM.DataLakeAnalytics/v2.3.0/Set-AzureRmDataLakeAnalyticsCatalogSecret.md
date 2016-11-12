@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DataLakeAnalytics.dll-Help.xml
-ms.assetid: 4DA2FABE-1D48-44A0-B8C6-CBC2094828CD
+ms.assetid: CAB32C72-5C16-467E-BC57-749EC49916BB
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.3.0/Set-AzureRmDataLakeAnalyticsCatalogSecret.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.3.0/Set-AzureRmDataLakeAnalyticsCatalogSecret.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.3.0/Set-AzureRmDataLakeAnalyticsCatalogSecret.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

@@ -1,9 +1,10 @@
 ---
-updated_at: 10/26/2016 6:21 PM
-ms.date: 10/26/2016
+ms.assetid: BB5EBF08-3264-4DDB-A1DC-BD5BA1805E0A
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a896ab2aa20a89d2f14b54e8898f895358a71f04/azureps-cmdlets-docs/ResourceManager/index.md
-ms.topic: conceptual
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/index.md
+ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
@@ -13,6 +14,7 @@ keywords: powershell, cmdlet
 manager: visual-studio-china
 id: ResourceManager_index_md
 ---
+
 # Azure Resource Manager Cmdlets
 
 This section displays the online help files for the Azure Resource Manager.

@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: D1764265-CE4D-43BE-96C6-26AE7A3292AC
-updated_at: 11/3/2016 11:01 PM
-ms.date: 11/3/2016
+ms.assetid: 5DF3244D-A177-4480-B60A-D60FC7E838C2
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/New-AzureRmDnsRecordSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/346a1ddff90f1da0ee9bf2726e9e496eba132d71/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/New-AzureRmDnsRecordSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/New-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

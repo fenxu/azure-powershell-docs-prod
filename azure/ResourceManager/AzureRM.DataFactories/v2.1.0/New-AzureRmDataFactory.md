@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: FAFA8304-D8D2-459C-86D7-7DA0E1D30012
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: CFCE41EC-2827-4E21-80AD-535E7F4D59C4
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.1.0/New-AzureRmDataFactory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.1.0/New-AzureRmDataFactory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.1.0/New-AzureRmDataFactory.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

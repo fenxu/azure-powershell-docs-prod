@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Scheduler.dll-Help.xml
-ms.assetid: 7A2A5182-0E9C-42E1-ABC5-87A30D1BBC54
+ms.assetid: F6B24F96-6016-4645-9F92-F584B73657D5
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.1/Set-AzureRmSchedulerServiceBusTopicJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.1/Set-AzureRmSchedulerServiceBusTopicJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.1/Set-AzureRmSchedulerServiceBusTopicJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

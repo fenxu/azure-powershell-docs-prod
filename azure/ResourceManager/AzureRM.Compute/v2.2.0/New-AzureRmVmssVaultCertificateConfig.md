@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: A052C39E-360C-4576-94C8-7EAD4D78CBEC
-updated_at: 11/2/2016 6:42 PM
-ms.date: 11/2/2016
+ms.assetid: AC68460A-B487-4471-8D19-0A3B96AD2E56
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmVmssVaultCertificateConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0d1ee921ec0c6fb1faa9cd0f2e2d4c405c1a538a/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmVmssVaultCertificateConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.2.0/New-AzureRmVmssVaultCertificateConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

@@ -4,10 +4,11 @@ Module Guid: f875725d-8ce4-423f-a6af-ea880bc63f13
 Download Help Link: None
 Help Version: 4.0.0.0
 Locale: en-US
-updated_at: 11/3/2016 10:58 PM
-ms.date: 11/3/2016
+ms.assetid: B4A34E35-6607-4666-9912-2279F3283285
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/AzureRM.ApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b0dc3fda3721a600f2fff31599b45845d71f44f4/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/AzureRM.ApiManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/AzureRM.ApiManagement.md
 uid: ResourceManager/AzureRM.ApiManagement/v2.1.0/AzureRM.ApiManagement.md
 ms.topic: conceptual
 ms.prod: powershell

@@ -1,9 +1,10 @@
 ---
-updated_at: 10/26/2016 6:21 PM
-ms.date: 10/26/2016
+ms.assetid: 7F4382D8-39A7-425E-91C0-918044B707D3
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a896ab2aa20a89d2f14b54e8898f895358a71f04/azureps-cmdlets-docs/Storage/index.md
-ms.topic: conceptual
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/index.md
+ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
@@ -13,6 +14,7 @@ keywords: powershell, cmdlet
 manager: visual-studio-china
 id: Storage_index_md
 ---
+
 # Azure Storage
 
 Azure Storage is a cloud storage solution for modern applications that rely on durability, availability, and scalability to meet the needs of customers.

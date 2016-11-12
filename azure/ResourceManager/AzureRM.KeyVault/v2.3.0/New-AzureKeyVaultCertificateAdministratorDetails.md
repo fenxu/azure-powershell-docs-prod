@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
-ms.assetid: FEC0EDD0-28A1-4924-B7B1-B019787B3E52
+ms.assetid: 775AB0E8-EC3C-4F96-8AF8-51C1DFEEF082
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.3.0/New-AzureKeyVaultCertificateAdministratorDetails.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.3.0/New-AzureKeyVaultCertificateAdministratorDetails.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.3.0/New-AzureKeyVaultCertificateAdministratorDetails.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

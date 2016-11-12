@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: C63357D3-BE16-4EE2-B2F1-B24EAEC21DB3
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+ms.assetid: A767C616-7CDF-4388-8E14-50A7B62F74BC
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Revoke-AzureHDInsightHttpServicesAccess.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Revoke-AzureHDInsightHttpServicesAccess.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Revoke-AzureHDInsightHttpServicesAccess.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

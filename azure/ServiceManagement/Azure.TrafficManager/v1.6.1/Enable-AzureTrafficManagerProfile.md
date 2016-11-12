@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 7E3C0433-6955-4A12-AC5B-C72CC8844ED3
-updated_at: 11/3/2016 6:38 AM
-ms.date: 11/3/2016
+ms.assetid: 4EB4940E-EEE6-4575-A61C-77315B32D5A6
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Enable-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b99e9cf8cc8dbf12111d92b05669d2c50f01373c/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Enable-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Enable-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

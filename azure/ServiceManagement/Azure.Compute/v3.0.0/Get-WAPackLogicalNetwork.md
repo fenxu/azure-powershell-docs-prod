@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: B1F97A23-700A-4A7E-B8C9-26DF98B25994
-updated_at: 10/24/2016 11:18 PM
-ms.date: 10/24/2016
+ms.assetid: 56476944-EC77-40D6-98B6-73FF92D09BC8
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-WAPackLogicalNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-WAPackLogicalNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-WAPackLogicalNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

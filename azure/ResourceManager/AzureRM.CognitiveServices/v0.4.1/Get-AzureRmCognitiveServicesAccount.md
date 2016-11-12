@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Management.CognitiveServices.dll-Help.xml
-ms.assetid: 30956A48-EAE8-41C4-A309-7CCAE10611D0
+ms.assetid: 11D5BFDF-5E5D-46B2-9F9B-A0524EFA1B42
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.1/Get-AzureRmCognitiveServicesAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.1/Get-AzureRmCognitiveServicesAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.1/Get-AzureRmCognitiveServicesAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

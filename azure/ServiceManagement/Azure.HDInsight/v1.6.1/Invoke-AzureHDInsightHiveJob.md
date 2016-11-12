@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 9F16D665-829E-46CC-893A-838F291B1717
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+ms.assetid: B00F3406-0192-425B-A628-8C8A37C0A60B
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Invoke-AzureHDInsightHiveJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Invoke-AzureHDInsightHiveJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Invoke-AzureHDInsightHiveJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

@@ -4,10 +4,11 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: 1.0.0.0
 Locale: en-US
-updated_at: 11/3/2016 6:38 AM
-ms.date: 11/3/2016
+ms.assetid: 69AD7292-83EE-40A4-9BB1-8406BAD4D52B
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Azure.TrafficManager.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b99e9cf8cc8dbf12111d92b05669d2c50f01373c/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Azure.TrafficManager.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Azure.TrafficManager.md
 uid: ServiceManagement/Azure.TrafficManager/v1.6.1/Azure.TrafficManager.md
 ms.topic: conceptual
 ms.prod: powershell
