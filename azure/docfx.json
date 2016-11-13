@@ -30,6 +30,7 @@
     "externalReference": [],
     "globalMetadata": {
         "breadcrumb_path": "/powershell/breadcrumb.json",
+        "ms.devlang": "powershell"
         "brand": "azure"
     },
     "fileMetadata": {},
