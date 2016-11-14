@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 563E6FCE-8B24-4952-A82E-3FA5A7339886
-updated_at: 11/7/2016 11:36 PM
-ms.date: 11/7/2016
+updated_at: 11/14/2016 9:14 PM
+ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolForeignGroupFromRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolForeignGroupFromRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolForeignGroupFromRole.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,6 +21,7 @@ id: MSOnline_v1_Remove_MsolForeignGroupFromRole_md
 # Remove-MsolForeignGroupFromRole
 
 ## SYNOPSIS
+Removes a security group from a partner tenant.
 
 ## SYNTAX
 
@@ -30,6 +31,7 @@ Remove-MsolForeignGroupFromRole -ForeignGroupObjectId <Guid> -ForeignCompanyObje
 ```
 
 ## DESCRIPTION
+The **Remove-MsolForeignGroupFromRole** cmdlet removes a security group from a partner tenant for a specified role in this tenant.
 
 ## EXAMPLES
 
@@ -37,6 +39,8 @@ Remove-MsolForeignGroupFromRole -ForeignGroupObjectId <Guid> -ForeignCompanyObje
 ## PARAMETERS
 
 ### -ForeignCompanyObjectId
+Specifies the object ID of the partner tenant that contains the group to remove.
+
 ```yaml
 Type: Guid
 Parameter Sets: (All)
@@ -50,6 +54,8 @@ Accept wildcard characters: False
 ```
 
 ### -ForeignGroupObjectId
+Specifies the unique object ID of the group in the partner tenant to remove.
+
 ```yaml
 Type: Guid
 Parameter Sets: (All)
@@ -63,6 +69,8 @@ Accept wildcard characters: False
 ```
 
 ### -RoleObjectId
+Specifies the unique object ID of the role from which to remove the group.
+
 ```yaml
 Type: Guid
 Parameter Sets: (All)
@@ -76,6 +84,10 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
+
 ```yaml
 Type: Guid
 Parameter Sets: (All)
@@ -98,3 +110,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Add-MsolForeignGroupToRole](xref:MSOnline/v1/Add-MsolForeignGroupToRole.md)

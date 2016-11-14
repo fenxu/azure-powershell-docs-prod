@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 9591963E-EC38-4F32-B4B9-C27873780C26
-updated_at: 11/7/2016 11:36 PM
-ms.date: 11/7/2016
+updated_at: 11/14/2016 9:14 PM
+ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Reset-MsolStrongAuthenticationMethodByUpn.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Reset-MsolStrongAuthenticationMethodByUpn.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f/Azure%20AD%20Cmdlets/MSOnline/v1/Reset-MsolStrongAuthenticationMethodByUpn.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,6 +21,7 @@ id: MSOnline_v1_Reset_MsolStrongAuthenticationMethodByUpn_md
 # Reset-MsolStrongAuthenticationMethodByUpn
 
 ## SYNOPSIS
+Resets the strong authentication method by using a user principal name.
 
 ## SYNTAX
 
@@ -29,6 +30,7 @@ Reset-MsolStrongAuthenticationMethodByUpn -UserPrincipalName <String> [-TenantId
 ```
 
 ## DESCRIPTION
+The **Reset-MsolStrongAuthenticationMethodByUpn** cmdlet resets the strong authentication method by using a user principal name.
 
 ## EXAMPLES
 
@@ -36,6 +38,10 @@ Reset-MsolStrongAuthenticationMethodByUpn -UserPrincipalName <String> [-TenantId
 ## PARAMETERS
 
 ### -TenantId
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
+
 ```yaml
 Type: Guid
 Parameter Sets: (All)
@@ -49,6 +55,8 @@ Accept wildcard characters: False
 ```
 
 ### -UserPrincipalName
+Specifies the user principal name for which to reset the strong authentication method.
+
 ```yaml
 Type: String
 Parameter Sets: (All)

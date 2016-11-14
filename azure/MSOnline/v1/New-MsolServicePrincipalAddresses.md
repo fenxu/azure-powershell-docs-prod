@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: ACEA9C06-7619-4EAE-967D-280F982ECE7A
-updated_at: 11/3/2016 5:22 PM
-ms.date: 11/3/2016
+updated_at: 11/14/2016 9:14 PM
+ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalAddresses.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cedef1609da4230592c00be27ccc62e342e2df61/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalAddresses.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalAddresses.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,7 +21,7 @@ id: MSOnline_v1_New_MsolServicePrincipalAddresses_md
 # New-MsolServicePrincipalAddresses
 
 ## SYNOPSIS
-
+Creates a service principal address.
 
 ## SYNTAX
 
@@ -30,17 +30,17 @@ New-MsolServicePrincipalAddresses -Address <String> [-AddressType <AddressType>]
 ```
 
 ## DESCRIPTION
-
+The **New-MsolServicePrincipalAddresses** cmdlet creates a service principal address.
 
 ## PARAMETERS
 
 ### -Address
-
+Specifies an address to be used by an application.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -50,12 +50,19 @@ Accept wildcard characters: False
 ```
 
 ### -AddressType
-
+Specifies the type of address to create.
+Valid values are:
+* Reply
+* Realm
+* Error
+* Other
+* SamlMetadata
+* SamlLogout
 
 ```yaml
 Type: AddressType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Reply, Realm, Error, Other, SamlMetadata, SamlLogout
 
 Required: False
@@ -79,5 +86,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

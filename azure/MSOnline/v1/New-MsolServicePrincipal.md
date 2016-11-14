@@ -3,10 +3,10 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 90C7E9B8-165A-4628-8399-F71F371FBB42
-updated_at: 11/7/2016 8:50 PM
-ms.date: 11/7/2016
+updated_at: 11/14/2016 9:14 PM
+ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e45b51fd816f025d32fa17a27b0e7eafee1289da/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipal.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,7 +21,7 @@ id: MSOnline_v1_New_MsolServicePrincipal_md
 # New-MsolServicePrincipal
 
 ## SYNOPSIS
-Add a service principal to Azure Active Directory.
+Adds a service principal to Azure Active Directory.
 
 ## SYNTAX
 
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 
 ### -Addresses
 Specifies the of addresses used by the application.
-Use the [New-MsolServicePrincipalAddress](./New-MsolServicePrincipalAddress.md) cmdlet to help create the Addresses list object.
+Use the [New-MsolServicePrincipalAddresses](./New-MsolServicePrincipalAddresses.md) cmdlet to help create the Addresses list object.
 
 ```yaml
 Type: RedirectUri[]
@@ -294,7 +294,7 @@ If credential type is symmetric, it represents an AES key.
 ## RELATED LINKS
 [Get-MsolServicePrincipal](xref:MSOnline/v1/Get-MsolServicePrincipal.md)
 
-[New-MsolServicePrincipalAddress](xref:MSOnline/v1/New-MsolServicePrincipalAddress.md)
+[New-MsolServicePrincipalAddresses](xref:MSOnline/v1/New-MsolServicePrincipalAddresses.md)
 
 [Remove-MsolServicePrincipal](xref:MSOnline/v1/Remove-MsolServicePrincipal.md)
 

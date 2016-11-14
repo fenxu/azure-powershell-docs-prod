@@ -5,10 +5,10 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: BB86A603-6CD9-4299-89B8-30A2B4A011A0
-updated_at: 11/10/2016 4:53 PM
-ms.date: 11/10/2016
+updated_at: 11/14/2016 9:14 PM
+ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fa0df7d7c5fc79297507723a62f5fc4575dafc5e/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
 uid: MSOnline/v1/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.prod: 
@@ -206,7 +206,7 @@ Gets an individual device, or a list of devices.
 
 
 ### [Get-MsolDirSyncConfiguration](./Get-MsolDirSyncConfiguration.md)
-
+Gets the directory synchronization settings.
 
 
 ### [Get-MsolDirSyncFeatures](./Get-MsolDirSyncFeatures.md)
@@ -294,7 +294,7 @@ Gets users from Azure Active Directory.
 
 
 ### [Get-MsolUserByStrongAuthentication](./Get-MsolUserByStrongAuthentication.md)
-
+Gets users based on strong authentication type.
 
 
 ### [Get-MsolUserRole](./Get-MsolUserRole.md)
@@ -322,11 +322,11 @@ Creates a License Options object.
 
 
 ### [New-MsolServicePrincipal](./New-MsolServicePrincipal.md)
-Add a new service principal to the Microsoft Azure Active Directory.
+Adds a service principal to Azure Active Directory.
 
 
 ### [New-MsolServicePrincipalAddresses](./New-MsolServicePrincipalAddresses.md)
-
+Creates a service principal address.
 
 
 ### [New-MsolServicePrincipalCredential](./New-MsolServicePrincipalCredential.md)
@@ -342,7 +342,7 @@ Creates a user in Azure Active Directory.
 
 
 ### [New-MsolWellKnownGroup](./New-MsolWellKnownGroup.md)
-
+Creates a well-known group.
 
 
 ### [Redo-MsolProvisionContact](./Redo-MsolProvisionContact.md)
@@ -366,7 +366,7 @@ Removes a member from an administrative unit.
 
 
 ### [Remove-MsolApplicationPassword](./Remove-MsolApplicationPassword.md)
-
+Removes a password for an application.
 
 
 ### [Remove-MsolContact](./Remove-MsolContact.md)
@@ -386,7 +386,7 @@ Removes a single sign-on domain from the domains in Microsoft Online.
 
 
 ### [Remove-MsolForeignGroupFromRole](./Remove-MsolForeignGroupFromRole.md)
-
+Removes a security group from a partner tenant.
 
 
 ### [Remove-MsolGroup](./Remove-MsolGroup.md)
@@ -422,7 +422,7 @@ Removes a user from Microsoft Azure Active Directory.
 
 
 ### [Reset-MsolStrongAuthenticationMethodByUpn](./Reset-MsolStrongAuthenticationMethodByUpn.md)
-
+Resets the strong authentication method by using a user principal name.
 
 
 ### [Restore-MsolUser](./Restore-MsolUser.md)
@@ -462,7 +462,7 @@ Sets the Azure Active Directory device registration service settings.
 
 
 ### [Set-MsolDirSyncConfiguration](./Set-MsolDirSyncConfiguration.md)
-
+Modifies the directory synchronization settings.
 
 
 ### [Set-MsolDirSyncEnabled](./Set-MsolDirSyncEnabled.md)

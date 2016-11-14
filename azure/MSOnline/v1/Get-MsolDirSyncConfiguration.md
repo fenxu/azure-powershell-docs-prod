@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 174960FD-00BB-461F-B8C9-DDA519E24F00
-updated_at: 11/7/2016 11:36 PM
-ms.date: 11/7/2016
+updated_at: 11/14/2016 9:14 PM
+ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncConfiguration.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,6 +21,7 @@ id: MSOnline_v1_Get_MsolDirSyncConfiguration_md
 # Get-MsolDirSyncConfiguration
 
 ## SYNOPSIS
+Gets the directory synchronization settings.
 
 ## SYNTAX
 
@@ -29,6 +30,7 @@ Get-MsolDirSyncConfiguration [-TenantId <Guid>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
+The **Get-MsolDirSyncConfiguration** cmdlet gets the directory synchronization settings.
 
 ## EXAMPLES
 
@@ -36,6 +38,10 @@ Get-MsolDirSyncConfiguration [-TenantId <Guid>] [<CommonParameters>]
 ## PARAMETERS
 
 ### -TenantId
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
+
 ```yaml
 Type: Guid
 Parameter Sets: (All)
@@ -58,3 +64,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Set-MsolDirSyncConfiguration](xref:MSOnline/v1/Set-MsolDirSyncConfiguration.md)
