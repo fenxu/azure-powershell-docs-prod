@@ -3,10 +3,10 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 7370AD41-FB09-4948-9BB7-8FD67B5E99E4
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+updated_at: 11/11/2016 12:41 AM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1e386f2c4d3f0d7aa5edba5cc7deaac957310f26/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 ms.topic: reference
 ms.prod: 
 ms.service: service-fabric
@@ -101,17 +101,26 @@ PS C:\> Connect-ServiceFabricCluster $ConnectArgs
 ```
 
 This command connects to a cluster using an X.509 certificate.
-The command uses the splatting feature of Windows PowerShell to create a hash table for parameters, and then supplies them to the **Connect-WindowFabricCluster** cmdlet.
+This command uses the splatting feature of Windows PowerShell to create a hash table for parameters, and then supplies them to the **Connect-ServiceFabricCluster** cmdlet.
 
-### Example 3: Connect to a cluster secured with a group-managed service account
+### Example 3: Connect to a cluster using Azure Active Directory
+```
+PS C:\>$ConnectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  AzureActiveDirectory = $True; ServerCertThumbprint = "AA11BB22CC33DD44EE55FF66AA77BB88CC99DD00"   }
+PS C:\> Connect-ServiceFabricCluster $ConnectArgs
+```
+
+This command connects to a cluster using Azure Active Directory(AAD) authentication.
+This command uses the splatting feature of Windows PowerShell to create a hash table for parameters, and then supplies them to the **Connect-ServiceFabricCluster** cmdlet.
+
+### Example 4: Connect to a cluster secured with a group-managed service account
 ```
 PS C:\>$ConnectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  WindowsCredential = $True; ClusterSpn = 'ServiceFabric/MyCluster.MyDomain.MyOrg'  }
 PS C:\> Connect-ServiceFabricCluster @connectArgs
 ```
 
-This command uses the splatting feature of Windows PowerShell to create a hash table for the parameters, and then supplies them to the **Connect-ServiceFabricCluster** cmdlet.
+This command uses the splatting feature of Windows PowerShell to create a hash table for parameters, and then supplies them to the **Connect-ServiceFabricCluster** cmdlet.
 
-### Example 4: Connect to a cluster secured with machine accounts
+### Example 5: Connect to a cluster secured with machine accounts
 ```
 PS C:\>$connectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  WindowsCredential = $True;  }
 PS C:\> Connect-ServiceFabricCluster @connectArgs
@@ -119,7 +128,7 @@ PS C:\> Connect-ServiceFabricCluster @connectArgs
 
 This command connects to a cluster secured with machine accounts.
 
-### Example 5: Connect to a cluster without the primary checks
+### Example 6: Connect to a cluster without the primary checks
 ```
 PS C:\>Connect-ServiceFabricCluster -ConnectionEndpoint -SkipChecks $True "ServiceFabric01.ContosoCloudApp.net:19000"
 ```
