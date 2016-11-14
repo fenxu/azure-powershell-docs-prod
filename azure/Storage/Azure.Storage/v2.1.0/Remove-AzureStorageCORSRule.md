@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: EA872C93-797E-49A5-8E97-640A56AADCEB
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: 69E4F9C3-4F82-46EB-9F34-A7DD7D327C5A
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Remove-AzureStorageCORSRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Remove-AzureStorageCORSRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Remove-AzureStorageCORSRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

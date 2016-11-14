@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: DCBF988D-B23A-4720-B461-35503231C30F
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: A234FF53-E74A-4C64-BB52-8EA1564ECE69
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Stop-AzureAutomationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Stop-AzureAutomationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Stop-AzureAutomationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

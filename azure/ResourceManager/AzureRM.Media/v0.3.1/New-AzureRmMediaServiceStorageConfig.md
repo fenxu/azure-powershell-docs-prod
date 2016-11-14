@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Media.dll-Help.xml
-ms.assetid: 166CD1DC-7B68-45CC-B960-42A6352019D5
+ms.assetid: 4D64CA4D-1066-4D3E-9317-60D37D9DE2BB
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.1/New-AzureRmMediaServiceStorageConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.1/New-AzureRmMediaServiceStorageConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.1/New-AzureRmMediaServiceStorageConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

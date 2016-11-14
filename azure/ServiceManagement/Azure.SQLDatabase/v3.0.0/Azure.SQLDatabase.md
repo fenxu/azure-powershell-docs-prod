@@ -4,10 +4,11 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 10/27/2016 9:26 PM
-ms.date: 10/27/2016
+ms.assetid: 112E8F2F-A7E1-4245-9B3A-18E4D69D1D43
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Azure.SQLDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Azure.SQLDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Azure.SQLDatabase.md
 uid: ServiceManagement/Azure.SQLDatabase/v3.0.0/Azure.SQLDatabase.md
 ms.topic: conceptual
 ms.prod: powershell

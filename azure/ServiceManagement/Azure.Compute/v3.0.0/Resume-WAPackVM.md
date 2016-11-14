@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 2A15E4B7-B10F-412E-94BD-ADF86168A7A5
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: 3309D464-5F53-44FD-A494-D527EF94583A
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Resume-WAPackVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Resume-WAPackVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Resume-WAPackVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

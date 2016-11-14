@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
-ms.assetid: 5BB95A2A-83BD-4ACB-B9F3-8858E768048D
+ms.assetid: 169E6694-82CD-4FCB-AB3D-E8A74001B8DB
 online version:
 schema: 2.0.0
-updated_at: 11/10/2016 10:39 PM
-ms.date: 11/10/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.3.0/Add-AzureRmVMDataDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/caa9306a418b5a3d9e30c316ba11340ca2c42bfa/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.3.0/Add-AzureRmVMDataDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.3.0/Add-AzureRmVMDataDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

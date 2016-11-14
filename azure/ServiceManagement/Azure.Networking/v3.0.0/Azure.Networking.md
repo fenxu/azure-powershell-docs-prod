@@ -4,10 +4,11 @@ Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 4.0.0.0
 Locale: en-US
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+ms.assetid: 3E8C1231-E815-4C8C-A40C-A9FFEA1D5BC7
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Azure.Networking.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Azure.Networking.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Azure.Networking.md
 uid: ServiceManagement/Azure.Networking/v3.0.0/Azure.Networking.md
 ms.topic: conceptual
 ms.prod: powershell

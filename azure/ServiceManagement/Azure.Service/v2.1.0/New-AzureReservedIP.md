@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 17DD604C-EDDF-4964-A21C-005FE19AC20E
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: DC196D42-F094-4D68-BF2C-BD314656C1AF
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/New-AzureReservedIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/New-AzureReservedIP.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/New-AzureReservedIP.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

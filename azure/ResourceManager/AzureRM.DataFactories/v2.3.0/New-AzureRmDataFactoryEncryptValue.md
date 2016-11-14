@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
-ms.assetid: 8350C2EF-E464-45F0-8D73-529D254FB031
+ms.assetid: 5BF24BC2-DEB6-4830-BDEA-841BAB070388
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.3.0/New-AzureRmDataFactoryEncryptValue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.3.0/New-AzureRmDataFactoryEncryptValue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.3.0/New-AzureRmDataFactoryEncryptValue.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

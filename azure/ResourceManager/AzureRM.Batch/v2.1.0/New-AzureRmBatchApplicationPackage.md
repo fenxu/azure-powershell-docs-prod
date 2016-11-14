@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 804BCAB6-4AAF-467B-9276-5CB7A24399BC
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: E0E1C334-9BD7-4F5A-9CE2-86BF208B9AE0
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/New-AzureRmBatchApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/New-AzureRmBatchApplicationPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/New-AzureRmBatchApplicationPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

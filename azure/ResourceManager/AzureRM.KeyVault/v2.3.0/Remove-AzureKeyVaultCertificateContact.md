@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
-ms.assetid: 1A10E023-51C3-4456-8B5B-0CC1D80B7B4B
+ms.assetid: 35FAA57F-B2BD-4E43-8238-12F7A8269E4D
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.3.0/Remove-AzureKeyVaultCertificateContact.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.3.0/Remove-AzureKeyVaultCertificateContact.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.3.0/Remove-AzureKeyVaultCertificateContact.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

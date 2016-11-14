@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.AzureBackup.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 068A20F0-222D-4726-B3E4-7FA55EF7F78B
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: DAEF6744-37EC-490E-BD1A-7B07EFB5CB14
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupVaultCredentials.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupVaultCredentials.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Get-AzureRmBackupVaultCredentials.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xml
-ms.assetid: 71357C7C-C3F4-44ED-8DCA-954025179A67
+ms.assetid: A10DC2A2-A732-416F-9C68-6533C143AE8F
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.3.0/Unregister-AzureRmRecoveryServicesBackupContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.3.0/Unregister-AzureRmRecoveryServicesBackupContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.3.0/Unregister-AzureRmRecoveryServicesBackupContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

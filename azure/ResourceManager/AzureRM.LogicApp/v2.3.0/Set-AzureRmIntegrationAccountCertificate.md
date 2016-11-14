@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
-ms.assetid: F228394C-B808-45FB-A95C-9EEA6E117D24
+ms.assetid: D9CA9515-5C19-4D63-8D4D-0B288E9309E9
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.3.0/Set-AzureRmIntegrationAccountCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.3.0/Set-AzureRmIntegrationAccountCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.3.0/Set-AzureRmIntegrationAccountCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

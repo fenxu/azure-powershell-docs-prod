@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 905DA55F-9488-4206-AC00-6C89CDEF465D
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: CEC03277-C09C-4340-96DD-9EE222D03F3F
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Remove-WAPackVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Remove-WAPackVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Remove-WAPackVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

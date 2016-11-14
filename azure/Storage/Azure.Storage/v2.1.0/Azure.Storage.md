@@ -4,10 +4,11 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: ./Azure.Storage.md
 Help Version:
 Locale: en-US
-updated_at: 10/31/2016 6:36 PM
-ms.date: 10/31/2016
+ms.assetid: 8BA8022B-0DB6-4205-A620-6CE9C03EB981
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Azure.Storage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42f6fe9c6f5a6249c3a75584ae45b7cf87ba6e46/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Azure.Storage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Azure.Storage.md
 uid: Storage/Azure.Storage/v2.1.0/Azure.Storage.md
 ms.topic: conceptual
 ms.prod: powershell

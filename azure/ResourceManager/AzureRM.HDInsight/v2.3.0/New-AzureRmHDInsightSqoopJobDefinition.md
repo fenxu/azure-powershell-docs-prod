@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-ms.assetid: 9ED502D1-74B0-47DB-925B-AE594E82258A
+ms.assetid: 4ED47646-542B-4983-B46B-B603BE33D499
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.3.0/New-AzureRmHDInsightSqoopJobDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.3.0/New-AzureRmHDInsightSqoopJobDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.3.0/New-AzureRmHDInsightSqoopJobDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
-ms.assetid: 3981E765-B861-4024-A1D2-2C60590EBE0E
+ms.assetid: 5422429E-C609-4C1F-A021-E2A085B5F74E
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageServiceLoggingProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageServiceLoggingProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageServiceLoggingProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

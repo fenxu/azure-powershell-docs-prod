@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 55377E7C-90B2-430D-97D7-23C35DABC7B7
-updated_at: 11/3/2016 6:38 AM
-ms.date: 11/3/2016
+ms.assetid: D113375A-BE10-458E-9103-7EBC63309259
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Test-AzureTrafficManagerDomainName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b99e9cf8cc8dbf12111d92b05669d2c50f01373c/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Test-AzureTrafficManagerDomainName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Test-AzureTrafficManagerDomainName.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

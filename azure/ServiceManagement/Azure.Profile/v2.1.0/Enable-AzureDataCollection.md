@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 1F1D0BC8-D184-4C63-B81A-DFD8C49AC99F
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: E35A6458-8A4F-4FE3-B1E4-B74B4F89B370
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Enable-AzureDataCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Enable-AzureDataCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Enable-AzureDataCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

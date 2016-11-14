@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 9934073D-EFA7-4AF0-B806-E30B0B54A647
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: BAD968FD-9F95-4BF3-84C2-C88AC07D3A45
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureServiceADDomainExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureServiceADDomainExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Get-AzureServiceADDomainExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

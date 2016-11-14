@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 6718AA34-5294-4EF5-9CBD-CEA7606DCE28
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: F892CE7E-2986-47C0-8A1B-745962086D8D
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureBatchComputeNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureBatchComputeNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureBatchComputeNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

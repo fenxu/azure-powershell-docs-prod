@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 2166E28A-33F6-435D-92AF-C9A7B44297B2
-updated_at: 11/3/2016 10:58 PM
-ms.date: 11/3/2016
+ms.assetid: 38F7D5CE-E07E-42F5-924B-D8F00C131539
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Add-AzureRmApiManagementApiToProduct.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b0dc3fda3721a600f2fff31599b45845d71f44f4/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Add-AzureRmApiManagementApiToProduct.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Add-AzureRmApiManagementApiToProduct.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

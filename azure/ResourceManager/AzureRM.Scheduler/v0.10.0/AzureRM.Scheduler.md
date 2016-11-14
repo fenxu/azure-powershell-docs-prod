@@ -4,10 +4,11 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 10/20/2016 12:12 AM
-ms.date: 10/20/2016
+ms.assetid: E0837E8F-FAF6-4E99-B560-71F4C0DEF100
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/AzureRM.Scheduler.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/AzureRM.Scheduler.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/AzureRM.Scheduler.md
 uid: ResourceManager/AzureRM.Scheduler/v0.10.0/AzureRM.Scheduler.md
 ms.topic: conceptual
 ms.prod: powershell

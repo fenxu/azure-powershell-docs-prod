@@ -4,10 +4,11 @@ Module Guid: DNS_Cmdlets_D48CF693-4125-4D2D-8790-
 Download Help Link: http://go.microsoft.com/fwlink/?LinkId=280237
 Help Version: 2.0.2.0
 Locale: en-US
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+ms.assetid: 17AF8C84-1066-4FF4-88C1-AE4BD51408A3
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/AzureRM.DNS.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/AzureRM.DNS.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/AzureRM.DNS.md
 uid: ResourceManager/AzureRM.DNS/v0.9.8/AzureRM.DNS.md
 ms.topic: conceptual
 ms.prod: powershell

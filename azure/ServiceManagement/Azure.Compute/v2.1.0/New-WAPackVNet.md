@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: EF966E2D-535E-4A9C-9EBA-2ADBD0F34272
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+ms.assetid: 9862B68B-F204-43F3-B154-83082DACF90E
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-WAPackVNet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-WAPackVNet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-WAPackVNet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

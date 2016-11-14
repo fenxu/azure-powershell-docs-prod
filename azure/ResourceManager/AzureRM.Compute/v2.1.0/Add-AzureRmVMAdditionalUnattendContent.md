@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: C4F0EE47-E31F-4474-8E5D-0EF8DABB3433
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: A68424FF-2D73-48DA-8F47-0A3A8A7A9503
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Add-AzureRmVMAdditionalUnattendContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Add-AzureRmVMAdditionalUnattendContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Add-AzureRmVMAdditionalUnattendContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

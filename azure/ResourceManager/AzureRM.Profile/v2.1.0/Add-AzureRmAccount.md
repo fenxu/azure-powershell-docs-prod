@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 8E0C633A-F157-4525-A1A8-327FA4BDD36D
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+ms.assetid: 619B4317-404F-4655-857D-C1807C301013
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Add-AzureRmAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Add-AzureRmAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Add-AzureRmAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

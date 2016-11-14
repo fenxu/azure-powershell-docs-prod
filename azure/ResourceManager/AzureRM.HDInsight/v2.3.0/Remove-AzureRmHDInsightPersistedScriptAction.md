@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-ms.assetid: 611ECB41-1C2F-4E02-9CAC-0D7D1323F79B
+ms.assetid: 08D1D6AC-D064-4E2D-9C22-0B65E7BE4DA7
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.3.0/Remove-AzureRmHDInsightPersistedScriptAction.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.3.0/Remove-AzureRmHDInsightPersistedScriptAction.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.3.0/Remove-AzureRmHDInsightPersistedScriptAction.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

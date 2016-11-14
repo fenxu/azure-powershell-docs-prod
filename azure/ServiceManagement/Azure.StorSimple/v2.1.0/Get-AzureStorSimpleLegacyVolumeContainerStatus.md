@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: D2F47D8A-3029-4BD4-8FBF-D5A25618ACF5
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: 3D0F4B1A-0722-4711-A917-460302CBAE28
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleLegacyVolumeContainerStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleLegacyVolumeContainerStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleLegacyVolumeContainerStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

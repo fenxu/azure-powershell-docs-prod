@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
-ms.assetid: 96EA83CF-8660-44B7-AFA3-179FEAE1B1CA
+ms.assetid: A3F653C7-6F9D-4B2B-81F8-0A012D80ECC7
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.3.0/Get-AzureRmDtlVMsPerLabPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.3.0/Get-AzureRmDtlVMsPerLabPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.3.0/Get-AzureRmDtlVMsPerLabPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

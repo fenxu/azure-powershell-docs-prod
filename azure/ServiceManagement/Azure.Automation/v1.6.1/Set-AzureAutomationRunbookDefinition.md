@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 595C26F0-6401-43D4-A70C-491FB2EF2696
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: 0FBC9E4B-24CB-451B-95AB-F7F98009B0D3
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Set-AzureAutomationRunbookDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Set-AzureAutomationRunbookDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Set-AzureAutomationRunbookDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

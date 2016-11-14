@@ -4,10 +4,11 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 11/3/2016 10:58 PM
-ms.date: 11/3/2016
+ms.assetid: 79B770C8-C2F3-4173-A419-4C350A1B542A
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Microsoft.Azure.Commands.ApiManagement.ServiceManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b0dc3fda3721a600f2fff31599b45845d71f44f4/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Microsoft.Azure.Commands.ApiManagement.ServiceManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Microsoft.Azure.Commands.ApiManagement.ServiceManagement.md
 uid: ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Microsoft.Azure.Commands.ApiManagement.ServiceManagement.md
 ms.topic: conceptual
 ms.prod: powershell

@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: F11035A8-7E3A-4B66-AD06-874C7C4AD40C
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: CB1FECAA-C288-4DC8-9415-D0B6CCA6B65B
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.2.0/Get-AzureRmStorageAccountNameAvailability.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.2.0/Get-AzureRmStorageAccountNameAvailability.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.2.0/Get-AzureRmStorageAccountNameAvailability.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

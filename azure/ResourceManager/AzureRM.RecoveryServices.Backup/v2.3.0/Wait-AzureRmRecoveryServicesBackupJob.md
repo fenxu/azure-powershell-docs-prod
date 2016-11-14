@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xml
-ms.assetid: FD26D1CD-C9F8-4CA3-8ACD-94D3986D2328
+ms.assetid: F671A7CC-2A27-460E-B064-2FBF1B9C6A0B
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.3.0/Wait-AzureRmRecoveryServicesBackupJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.3.0/Wait-AzureRmRecoveryServicesBackupJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.3.0/Wait-AzureRmRecoveryServicesBackupJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

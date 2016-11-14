@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 8A98AF2A-F22A-4A08-8D2C-142D964BBF9C
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: 932CF957-33DD-42B2-8576-390C10FEC743
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Enable-AzureRmOperationalInsightsLinuxPerformanceCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Enable-AzureRmOperationalInsightsLinuxPerformanceCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Enable-AzureRmOperationalInsightsLinuxPerformanceCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

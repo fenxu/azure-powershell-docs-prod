@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Management.CognitiveServices.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 105816E2-3972-4A75-9826-DC7887CFCF1A
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: 9A95DD0B-CECA-4A1A-BFC9-B358F7F8FBF8
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.0/Remove-AzureRmCognitiveServicesAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.0/Remove-AzureRmCognitiveServicesAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.0/Remove-AzureRmCognitiveServicesAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

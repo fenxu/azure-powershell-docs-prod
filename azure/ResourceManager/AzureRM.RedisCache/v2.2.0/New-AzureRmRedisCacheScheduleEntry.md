@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 866D6AC6-5A25-4105-8BB9-780CBA9959C2
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+ms.assetid: BB5310D3-6E8B-411D-AB12-6A088CC1FF18
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmRedisCacheScheduleEntry.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmRedisCacheScheduleEntry.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/New-AzureRmRedisCacheScheduleEntry.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

@@ -4,10 +4,11 @@ Module Guid: 59713673-194f-418a-b1f2-ac60db82edf9
 Download Help Link: None
 Help Version: 3.0.0.0
 Locale: en-US
-updated_at: 10/27/2016 9:26 PM
-ms.date: 10/27/2016
+ms.assetid: AFF3D41B-B2D3-4D64-B25C-3C6D939A1584
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.1.0/AzureRM.Tags.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5eeadc9e4cb2922fcef5161f87c5588a44622a76/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.1.0/AzureRM.Tags.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.1.0/AzureRM.Tags.md
 uid: ResourceManager/AzureRM.Tags/v2.1.0/AzureRM.Tags.md
 ms.topic: conceptual
 ms.prod: powershell

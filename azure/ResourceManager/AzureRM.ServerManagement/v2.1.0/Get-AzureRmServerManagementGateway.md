@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 79F77158-D89A-46B4-8281-87E4D0A9C95A
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: D30A90FF-14AB-452E-8B67-6ED386F188A1
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.1.0/Get-AzureRmServerManagementGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.1.0/Get-AzureRmServerManagementGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.1.0/Get-AzureRmServerManagementGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

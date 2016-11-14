@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml
-ms.assetid: 5C86545A-93DD-4B3C-96B2-FA6ED740448D
-online version: 
+ms.assetid: B2D9FF7B-EA3B-4853-814C-00FC4E328957
+online version:
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -50,13 +50,24 @@ PS C:\>Start-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "
 
 This command starts a runbook job for the runbook named Runbk01 in the Azure Automation account named Contoso17.
 
+### Example 2: Start a runbook job and wait for results
+```
+Start-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" -ResourceGroupName "ResourceGroup01" -MaxWaitSeconds 1000 -Wait
+```
+
+This command starts a runbook job for the runbook named Runbk01 in the Azure Automation account named Contoso17.
+This command specifies the _Wait_ parameter.
+Therefore, it returns results after the job is completed.
+The cmdlet waits up to 1000 seconds for the results.
+
+
 ## PARAMETERS
 
 ### -AutomationAccountName
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -82,7 +93,7 @@ Accept wildcard characters: False
 ```yaml
 Type: IDictionary
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,7 +106,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -118,10 +129,12 @@ Accept wildcard characters: False
 ```
 
 ### -Wait
+Indicates that this cmdlet waits for job to complete, suspend, or fail, and then returns control to Azure PowerShell.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: BySynchronousReturnJobOutput
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -131,10 +144,13 @@ Accept wildcard characters: False
 ```
 
 ### -MaxWaitSeconds
+Specifies the number of seconds this cmdlet waits for a job to finish before it abandons the job.
+The default value is 10800, or three hours.
+
 ```yaml
 Type: Int32
 Parameter Sets: BySynchronousReturnJobOutput
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -151,6 +167,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### Microsoft.Azure.Commands.Automation.Model.Job
+This cmdlet returns a Job object, unless you specify the _Wait_ parameter.
+If you specify _Wait_, Azure PowerShell completes the job, and then returns the results.
 
 ## NOTES
 
@@ -171,5 +189,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRMAutomationRunbook.md)
 
 [Set-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRMAutomationRunbook.md)
-
-

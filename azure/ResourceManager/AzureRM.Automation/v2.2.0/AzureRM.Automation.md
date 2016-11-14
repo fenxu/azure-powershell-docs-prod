@@ -4,10 +4,11 @@ Module Guid: bcea1c70-a32b-48c3-a05c-323e1c02f4d3
 Download Help Link: None_Azure
 Help Version: 4.0.0.0
 Locale: en-US
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+ms.assetid: 3878C34B-992B-4533-BF53-3B27767EF97B
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/AzureRM.Automation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/AzureRM.Automation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/AzureRM.Automation.md
 uid: ResourceManager/AzureRM.Automation/v2.2.0/AzureRM.Automation.md
 ms.topic: conceptual
 ms.prod: powershell

@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.MachineLearning.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 02640779-83D1-4E49-B521-FEAE1B656D23
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: FE67DE55-447D-460E-B77F-63D59755B9B0
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.11.0/Update-AzureRmMlWebService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.11.0/Update-AzureRmMlWebService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.11.0/Update-AzureRmMlWebService.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

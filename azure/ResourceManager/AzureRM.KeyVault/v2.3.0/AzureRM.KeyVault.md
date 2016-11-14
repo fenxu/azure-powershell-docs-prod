@@ -4,10 +4,11 @@ Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
 Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 4.0.0.0
 Locale: en-US
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+ms.assetid: 9D720291-A837-43D5-8EC1-9DD7FF432B34
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.3.0/AzureRM.KeyVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.3.0/AzureRM.KeyVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.3.0/AzureRM.KeyVault.md
 uid: ResourceManager/AzureRM.KeyVault/v2.3.0/AzureRM.KeyVault.md
 ms.topic: conceptual
 ms.prod: powershell

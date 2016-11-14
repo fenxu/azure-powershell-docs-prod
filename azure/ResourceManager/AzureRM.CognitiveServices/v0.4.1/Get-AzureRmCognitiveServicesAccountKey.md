@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Management.CognitiveServices.dll-Help.xml
-ms.assetid: 35F33DDA-691E-4D12-A585-D9525DD0B721
+ms.assetid: 73B1EB7E-568E-44E8-993A-91678B7D8AEE
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.1/Get-AzureRmCognitiveServicesAccountKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.1/Get-AzureRmCognitiveServicesAccountKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.4.1/Get-AzureRmCognitiveServicesAccountKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

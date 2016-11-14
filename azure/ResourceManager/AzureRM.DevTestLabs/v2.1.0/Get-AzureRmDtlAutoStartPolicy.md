@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: F2A66A2D-B93D-491D-8990-A8CDD48B57BB
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+ms.assetid: 5DCDD56A-E4AF-4C8F-984E-3E26A73C385D
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.1.0/Get-AzureRmDtlAutoStartPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.1.0/Get-AzureRmDtlAutoStartPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.1.0/Get-AzureRmDtlAutoStartPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

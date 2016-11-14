@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Tags.dll-Help.xml
-ms.assetid: CD68129A-CC88-4127-ADC4-D2ADDB20935D
+ms.assetid: 23DB0AD2-7EB7-4373-BB8D-BB6CB651DD54
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.3.0/New-AzureRmTag.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.3.0/New-AzureRmTag.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.3.0/New-AzureRmTag.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell

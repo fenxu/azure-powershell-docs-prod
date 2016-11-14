@@ -2,11 +2,11 @@
 external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 32FE6891-A693-4B63-B39B-1FF14D148837
-updated_at: 11/1/2016 8:11 PM
-ms.date: 11/1/2016
+ms.assetid: B672794C-8D10-4E55-A828-56EA18C5583C
+updated_at: 11/11/2016 11:03 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Add-AzureHDInsightMetastore.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/76d389e6f4656b8cb2f1cc90ba2be7be7f3ff754/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Add-AzureHDInsightMetastore.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Add-AzureHDInsightMetastore.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
