@@ -17,7 +17,10 @@
         "AzureCli": "Content"
       },
       "build_entry_point": "docs",
-      "customized_template_paths": ["azurecli/azurecli"]
+      "template_folder": "_themes",
+      "customized_template_paths": [
+        "azurecli/azurecli"
+      ]
     }
   ],
   "notification_subscribers": [],
@@ -31,6 +34,7 @@
       "branch_mapping": {}
     }
   ],
+  "need_generate_pdf_url_template": false,
   "dependent_packages": [
     {
       "path_to_root": "azurecli",
