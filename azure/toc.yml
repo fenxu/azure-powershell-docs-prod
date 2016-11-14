@@ -7,4 +7,4 @@
 - name: Azure Service Fabric PowerShell
   tocHref: Service-Fabric-cmdlets/toc.yml
 - name: Azure Information Protection PowerShell
-  tocHref: Azure Information Protection/toc.yml
+  tocHref: Azure Information Protection/toc.dd
