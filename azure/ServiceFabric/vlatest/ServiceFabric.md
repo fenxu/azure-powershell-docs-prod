@@ -5,10 +5,10 @@ Download Help Link: http://go.microsoft.com/fwlink/?LinkID=521412
 Help Version: 2.0.14.0
 Locale: en-US
 ms.assetid: 8FE06792-E775-4575-8C55-12A66ED66383
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+updated_at: 11/11/2016 11:37 PM
+ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/f13132d9850fcdd56cb5052cd757319e874eb566/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 uid: ServiceFabric/vlatest/ServiceFabric.md
 ms.topic: conceptual
 ms.prod: 
@@ -36,7 +36,7 @@ With Azure Service Fabric, you can do the following:
 * Proven platform used by Azure and other Microsoft services
 * Run in Azure, on-premises, or in other clouds
 
-For more information, see [Overview of Service Fabric](https://azure.microsoft.com/en-us/documentation/articles/service-fabric-overview/).
+The Service Fabric PowerShell module is installed with the [Service Fabric SDK, runtime, and tools](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started).
 
 
 ## About Windows PowerShell
