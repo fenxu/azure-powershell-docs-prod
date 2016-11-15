@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: FDBADDCD-A474-42F9-89BA-0BEC56D51A05
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/15/2016 9:52 PM
+ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureStackToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureStackToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f706d2c1618dbb78e7ccf2f58b90336813a13f1/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureStackToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,8 +21,7 @@ id: ResourceManager_AzureRM_AzureStackAdmin_v1_2_6_Get_AzureStackToken_md
 # Get-AzureStackToken
 
 ## SYNOPSIS
-The Get-AzureStackToken cmdlet gets a token to be used to make calls to Azurestack Resource Manager.
-The cmdlet will be deprecated in a future release
+Gets a token to be used to make calls to Azure Stack Resource Manager.
 
 ## SYNTAX
 
@@ -41,34 +40,34 @@ Get-AzureStackToken [-Authority] <String> -Resource <String> -AadTenantId <Strin
 ```
 
 ## DESCRIPTION
+The **Get-AzureStackToken** cmdlet gets a token to be used to make calls to Azure Stack Resource Manager.
+The cmdlet will be deprecated in a future release.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Get an access token for a specified user
 ```
-Get-AzureStackToken -Authority $aadAuthorityEndpoint -AadTenantId $AadTenantId -Resource $aadResource -Credential (Get-Credential) -Verbose
+$Endpoints = Invoke-RestMethod -Method Get -Uri "$($ArmEndpoint.TrimEnd('/'))/metadata/endpoints?api-version=2015-01-01" -Verbose
+$AAdAuthorityEndpoint = $Endpoints.authentication.loginEndpoint
+$AAdResource = $Endpoints.authentication.audiences\[0\]
+
+Get-AzureStackToken -Authority $AAdAuthorityEndpoint -AadTenantId $AadTenantId -Resource $AAdResource -Credential (Get-Credential) -Verbose
 ```
+The first command gets the login endpoints and stores the result in the variable named $Endpoints.
+The second command gets the authentication information and stores the result in the variable named $AAdAuthorityEndpoint.
+The third command gets the users from the $Endpoints variable and stores the result in the variable named $AAdResource.
+The forth command gets the access token for the specified user.
 
-Description
-
------------
-
-The following example gets the access token for the specified user
-            $endpoints = Invoke-RestMethod -Method Get -Uri "$($ArmEndpoint.TrimEnd('/'))/metadata/endpoints?api-version=2015-01-01" -Verbose
-            $aadAuthorityEndpoint = $endpoints.authentication.loginEndpoint
-            $aadResource = $endpoints.authentication.audiences\[0\]
-
-            Get-AzureStackToken -Authority $aadAuthorityEndpoint -AadTenantId $AadTenantId -Resource $aadResource -Credential (Get-Credential) -Verbose
 
 ## PARAMETERS
 
 ### -AadTenantId
-Azure active directory(AAD) tenant Id of the user belonging to the  AAD tenant group
+Specifies the Azure Active Directory (AAD) tenant ID of the user belonging to the AAD tenant group.
 
 ```yaml
 Type: String
 Parameter Sets: AAD
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -78,13 +77,13 @@ Accept wildcard characters: False
 ```
 
 ### -Authority
-Authority endpoint for authentication, typically of the form https://login.windows.net.
-The value can be obtained by access the ARM metadata endpoint https://\<ArmUri\>/metadata/endpoints?api-version=2015-01-01 and reading the value of loginEndpoint
+Specifies the authority endpoint for authentication, typically of the form https://login.contoso.net.
+The value can be obtained by access the ARM metadata endpoint https://\<ArmUri\>/metadata/endpoints?api-version=2015-01-01 and reading the value of loginEndpoint.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -94,14 +93,14 @@ Accept wildcard characters: False
 ```
 
 ### -ClientId
-The ClientId parameter is optional.
+Specifies the client ID for the Azure Stack token.
+The *ClientId* parameter is optional.
 This parameter will be removed in a future release.
-Please omit this
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,12 +110,12 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-Specifies the credential for the user for whom we need the access token
+Specifies the credential for the user for whom we need the access token.
 
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -126,9 +125,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -144,7 +148,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -159,7 +163,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Stores the value of the current pipeline element as a variable, for any named command as it flows through the pipeline.
 
 ```yaml
 Type: String
@@ -174,12 +178,12 @@ Accept wildcard characters: False
 ```
 
 ### -Resource
-Resource value for authentication, The value can be obtained by access the ARM metadata endpoint https://\<ArmUri\>/metadata/endpoints?api-version=2015-01-01 and reading the value of audiences
+Specifies the resource value for authentication. The value can be obtained by access the ARM metadata endpoint https://\<ArmUri\>/metadata/endpoints?api-version=2015-01-01 and getting the value of audiences.
 
 ```yaml
 Type: String
 Parameter Sets: ADFS
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -191,7 +195,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: AAD
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -208,4 +212,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-
