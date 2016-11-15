@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: C1701B31-9AAC-4F6D-BB9F-414D8794C1B8
-updated_at: 11/15/2016 9:52 PM
+updated_at: 11/15/2016 11:04 PM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMManagedLocation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f706d2c1618dbb78e7ccf2f58b90336813a13f1/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMManagedLocation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0fc201e069c7389d9c830720fb027c45afabb0ac/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMManagedLocation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -23,7 +23,6 @@ id: ResourceManager_AzureRM_AzureStackAdmin_v1_2_6_New_AzureRMManagedLocation_md
 ## SYNOPSIS
 Creates a location managed by Azure Stack Resource Manager.
 
-
 ## SYNTAX
 
 ```
@@ -38,7 +37,7 @@ The resource providers can be deployed in the new location.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Create a location
 ```
 New-AzureRMManagedLocation -Name "LocationName" -DisplayName "LocationName" -Latitude 80.5 -Longitude -45.5
 ```
@@ -48,8 +47,8 @@ This command creates a location named LocationName.
 ## PARAMETERS
 
 ### -AdminUri
-Specifies the azure stack resource manager endpoint.
-This parameter is not needed when using the cmdlet against the Azure Stack environment configured against Azure Active Directory (AAD).
+Specifies the Azure Stack Resource Manager endpoint.
+This parameter is not needed when you use the cmdlet against the Azure Stack environment configured against Azure Active Directory.
 
 ```yaml
 Type: Uri
@@ -234,6 +233,7 @@ Accept wildcard characters: False
 ### Microsoft.AzureStack.Management.Models.Location
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Get-AzureRMManagedLocation](xref:ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMManagedLocation.md)

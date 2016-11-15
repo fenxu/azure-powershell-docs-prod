@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 4D1CE705-11E4-4023-ABD8-30E4CF6755B7
-updated_at: 11/15/2016 9:52 PM
+updated_at: 11/15/2016 11:04 PM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMManagedSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f706d2c1618dbb78e7ccf2f58b90336813a13f1/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMManagedSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0fc201e069c7389d9c830720fb027c45afabb0ac/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMManagedSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -35,8 +35,6 @@ Set-AzureRMManagedSubscription [-SubscriptionId <Guid>] -Subscription <AdminSubs
 The **Set-AzureRMManagedSubscription** updates any tenant user subscription as a service administrator.
 
 ## EXAMPLES
-
-### Example 1
 
 ## PARAMETERS
 

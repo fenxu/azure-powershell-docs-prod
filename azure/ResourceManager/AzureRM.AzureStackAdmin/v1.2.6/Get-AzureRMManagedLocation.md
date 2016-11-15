@@ -3,10 +3,10 @@ external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 41175494-1F84-492C-9C5A-C5EFC68C5842
-updated_at: 11/15/2016 9:52 PM
+updated_at: 11/15/2016 11:04 PM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMManagedLocation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f706d2c1618dbb78e7ccf2f58b90336813a13f1/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMManagedLocation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0fc201e069c7389d9c830720fb027c45afabb0ac/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMManagedLocation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -36,14 +36,10 @@ The **Get-AzureRmMangedLocation cmdlet** gets the Azure Stack resource manager l
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Get the Azure Stack resource manager located in Chicago.
 ```
 Get-AzureRMManagedLocation -Name "Chicago"
 ```
-
-Description
-
------------
 
 This command gets the details of the location named Chicago.
 
@@ -51,9 +47,9 @@ This command gets the details of the location named Chicago.
 
 ### -AdminUri
 Specifies the Azure Stack resource manager endpoint.
-This parameter is not needed when using the cmdlet against the azure stack environment configured against azure active directory.
+This parameter is not needed when you use the cmdlet against the Azure Stack environment configured against Azure Active Directory.
 
-``` yaml
+```yaml
 Type: Uri
 Parameter Sets: (All)
 Aliases:
