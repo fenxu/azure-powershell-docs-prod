@@ -14,10 +14,10 @@ ms.topic: conceptual
 ms.prod: 
 ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: erickson-doug
 id: ElasticDatabaseJobs_v0_8_33_ElasticDatabaseJobs_md
 ---
 
