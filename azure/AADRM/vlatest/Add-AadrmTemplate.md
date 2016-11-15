@@ -11,10 +11,10 @@ ms.topic: reference
 ms.prod: 
 ms.service: rights-management
 ms.technology: Azure Powershell
-author: visual-studio-china
+author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: cabailey
 id: AADRM_vlatest_Add_AadrmTemplate_md
 ---
 
