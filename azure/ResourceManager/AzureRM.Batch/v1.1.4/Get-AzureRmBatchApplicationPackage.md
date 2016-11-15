@@ -11,10 +11,10 @@ ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: erickson-doug
 id: ResourceManager_AzureRM_Batch_v1_1_4_Get_AzureRmBatchApplicationPackage_md
 ---
 

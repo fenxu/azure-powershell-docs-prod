@@ -11,10 +11,10 @@ ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: erickson-doug
 id: ServiceManagement_Azure_Compute_v3_0_0_Get_AzureSchedulerJob_md
 ---
 

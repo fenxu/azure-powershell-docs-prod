@@ -14,10 +14,10 @@ ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: erickson-doug
 id: ResourceManager_ApiManagement_ServiceManagement_v1_1_4_Microsoft_Azure_Commands_ApiManagement_ServiceManagement_md
 ---
 

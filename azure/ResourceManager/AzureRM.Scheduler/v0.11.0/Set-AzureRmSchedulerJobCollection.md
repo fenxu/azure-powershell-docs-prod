@@ -11,10 +11,10 @@ ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: erickson-doug
 id: ResourceManager_AzureRM_Scheduler_v0_11_0_Set_AzureRmSchedulerJobCollection_md
 ---
 
