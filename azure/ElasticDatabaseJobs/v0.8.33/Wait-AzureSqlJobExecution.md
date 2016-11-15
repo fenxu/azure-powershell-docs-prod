@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 2882003C-8B0B-4007-8A40-D19BB6731CE2
-updated_at: 11/7/2016 6:39 PM
-ms.date: 11/7/2016
+updated_at: 11/15/2016 5:35 PM
+ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/4c44864b4943039d669aa18b1247265286162a07/ElasticDB/ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md
 ms.topic: reference
 ms.prod: 
 ms.service: sql-data-warehouse
@@ -81,8 +81,8 @@ Accept wildcard characters: False
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
@@ -98,7 +98,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies JobExecutionInfo object(s) on which to wait.
-JobExecutionInfo objects can be obtained using the [Get-AzureSqlJobExecution](./Get-AzureSqlJobExecution.md) cmdlet.
+JobExecutionInfo objects can be obtained using the [Get-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobExecution.md) cmdlet.
 
 ```yaml
 Type: JobExecutionInfo[]

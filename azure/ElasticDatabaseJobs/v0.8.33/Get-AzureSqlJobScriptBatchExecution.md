@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: F0568B6B-E86F-445E-AAD6-6E9E984ED981
-updated_at: 11/7/2016 6:39 PM
-ms.date: 11/7/2016
+updated_at: 11/15/2016 5:35 PM
+ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobScriptBatchExecution.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobScriptBatchExecution.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/4c44864b4943039d669aa18b1247265286162a07/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobScriptBatchExecution.md
 ms.topic: reference
 ms.prod: 
 ms.service: sql-data-warehouse
@@ -53,8 +53,8 @@ The job task execution ID must match a job task of type ScriptExecution.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the N[ew-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection
