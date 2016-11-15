@@ -11,10 +11,10 @@ ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: erickson-doug
 id: ResourceManager_AzureRM_RecoveryServices_Backup_v2_1_0_Get_AzureRmRecoveryServicesBackupRetentionPolicyObject_md
 ---
 
