@@ -6,10 +6,10 @@ ms.service: powershell
 author: erickson-doug
 ms.author: douge
 ms.manager: carolz
-updated_at: 11/16/2016 4:09 AM
+updated_at: 11/16/2016 5:15 AM
 ms.date: 11/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0a85cb6516374c279feb442d5c33cfa7d91df36b/azureps-cmdlets-docs/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ab8009319320a39cbce28d76013721992bc21351/azureps-cmdlets-docs/index.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 keywords: powershell, cmdlet
@@ -21,7 +21,7 @@ id: index_md
 
 Azure PowerShell cmdlets provide support for the following Azure services:
 
-[Azure Resource Manager](~/ResourceManager/)
+[Azure Resource Manager](/ResourceManager/)
 
 Azure Resource Manager enables you to work with the resources in your solution as a group.
 You can deploy, update, or delete all the resources for your solution in a single, coordinated operation.
