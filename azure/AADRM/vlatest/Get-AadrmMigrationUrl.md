@@ -8,7 +8,7 @@ ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmMigrationUrl.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmMigrationUrl.md
 ms.topic: reference
-ms.prod: 
+ms.prod: powershell
 ms.service: rights-management
 ms.technology: Azure Powershell
 author: cabailey
