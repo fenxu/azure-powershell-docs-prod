@@ -6,10 +6,10 @@ ms.service: powershell
 author: erickson-doug
 ms.author: douge
 ms.manager: carolz
-updated_at: 11/16/2016 3:07 AM
+updated_at: 11/16/2016 3:15 AM
 ms.date: 11/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50d5c66851b645a33feccccba1b340c6fb123e84/azureps-cmdlets-docs/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f5bfad99b863e7c8a6f21bda301aa250fa29e1fe/azureps-cmdlets-docs/index.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 keywords: powershell, cmdlet
@@ -22,18 +22,18 @@ id: index_md
 
 Azure PowerShell cmdlets provide support for the following Azure services:
 
-[Azure Resource Manager](~/ResourceManager/index.md)
+[Azure Resource Manager](ResourceManager/index.md)
 
 Azure Resource Manager enables you to work with the resources in your solution as a group.
 You can deploy, update, or delete all the resources for your solution in a single, coordinated operation.
 
 
-[Azure Service Management](~/ServiceManagement/index.md)
+[Azure Service Management](ServiceManagement/index.md)
 
 Azure Service Management helps you manage your deployments, hosted services, and storage accounts.
 
 
-[Azure Storage](~/Storage/index.md)
+[Azure Storage](Storage/index.md)
 
 Azure Storage is the cloud storage solution for modern applications that rely on durability, availability, and scalability to meet your needs.
 Storage supports Blob storage, File storage, Queue storage, and Table storage.
