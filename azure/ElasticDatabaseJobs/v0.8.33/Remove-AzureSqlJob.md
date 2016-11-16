@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: F4AE7899-666E-4C76-8022-B586547BF932
-updated_at: 11/15/2016 5:35 PM
-ms.date: 11/15/2016
+updated_at: 11/16/2016 9:11 AM
+ms.date: 11/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/4c44864b4943039d669aa18b1247265286162a07/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/b6a4e720f68675b3b0e9f6aa6be6e55d3ebdc390/ElasticDB/ElasticDatabaseJobs/v0.8.33/Remove-AzureSqlJob.md
 ms.topic: reference
 ms.prod: 
 ms.service: sql-data-warehouse
@@ -34,7 +34,7 @@ The **Remove-AzureSqlJob** cmdlet removes a job and its job run history from the
 
 Job and job run history deletion takes place asynchronously.
 Any active jobs will not be automatically canceled by the system.
-If you want to cancel an active job, use the [Stop-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Stop-AzureSqlJobExecution.md) cmdlet.
+If you want to cancel an active job, use the [Stop-AzureSqlJobExecution](./Stop-AzureSqlJobExecution.md) cmdlet.
 The job and job execution history will be deleted following the completion of any active job executions of the job.
 
 ## EXAMPLES
@@ -50,8 +50,8 @@ This command removes the job named MyJob and its job execution history.
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the [New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md) cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md) cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection

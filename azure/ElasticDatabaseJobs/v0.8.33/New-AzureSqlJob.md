@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: EAA47557-0286-4A6E-BC2C-7A74DA74B8A6
-updated_at: 11/15/2016 5:35 PM
-ms.date: 11/15/2016
+updated_at: 11/16/2016 9:11 AM
+ms.date: 11/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/4c44864b4943039d669aa18b1247265286162a07/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/b6a4e720f68675b3b0e9f6aa6be6e55d3ebdc390/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
 ms.topic: reference
 ms.prod: 
 ms.service: sql-data-warehouse
@@ -43,7 +43,7 @@ New-AzureSqlJob -JobName <String> -CredentialName <String> -ContentName <String>
 ## DESCRIPTION
 The **New-AzureSqlJob** cmdlet creates a job definition to be used for subsequent job runs.
 
-Job execution can be requested through the [Start-AzureSqlJobExecution](xref:ElasticDatabaseJobs/v0.8.33/Start-AzureSqlJobExecution.md) cmdlet or through creation of a trigger in combination with a schedule using the [New-AzureSqlJobTrigger](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTrigger.md) cmdlet.
+Job execution can be requested through the [Start-AzureSqlJobExecution](./Start-AzureSqlJobExecution.md) cmdlet or through creation of a trigger in combination with a schedule using the [New-AzureSqlJobTrigger](./New-AzureSqlJobTrigger.md) cmdlet.
 
 ## EXAMPLES
 
@@ -98,8 +98,8 @@ This command creates a job using the specified content to execute across the spe
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the [New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md) cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md) cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection

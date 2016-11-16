@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: B19A0CEE-F7C4-4B8D-9C61-EBC67FC81139
-updated_at: 11/15/2016 5:35 PM
-ms.date: 11/15/2016
+updated_at: 11/16/2016 9:11 AM
+ms.date: 11/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/4c44864b4943039d669aa18b1247265286162a07/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/b6a4e720f68675b3b0e9f6aa6be6e55d3ebdc390/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobTarget.md
 ms.topic: reference
 ms.prod: 
 ms.service: sql-data-warehouse
@@ -78,7 +78,7 @@ TargetDescription             CustomCollectionName          TargetId            
 ```
 
 This command creates a custom collection.
-After a custom collection is created, database targets can be added as child targets using the [Add-AzureSqlJobChildTarget](xref:ElasticDatabaseJobs/v0.8.33/Add-AzureSqlJobChildTarget.md) cmdlet.
+After a custom collection is created, database targets can be added as child targets using the [Add-AzureSqlJobChildTarget](./Add-AzureSqlJobChildTarget.md) cmdlet.
 
 ### Example 3: Create an Elastic Scale shared map target
 ```
@@ -103,8 +103,8 @@ A database target for the database server and the database must first be created
 
 ### -AzureSqlJobConnection
 Specifies the connection state object for the job.
-You can get the connection state object through the [New-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md) cmdlet.
-If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md) cmdlet.
+You can get the connection state object through the [New-AzureSqlJobConnection](./New-AzureSqlJobConnection.md) cmdlet.
+If you do not specify this parameter, the connection state is used from a prior call to the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet.
 
 ```yaml
 Type: AzureSqlJobConnection

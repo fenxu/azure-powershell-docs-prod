@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 3B81E55B-8CA2-42A1-92E1-231C3BA04A06
-updated_at: 11/15/2016 5:35 PM
-ms.date: 11/15/2016
+updated_at: 11/16/2016 9:11 AM
+ms.date: 11/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/4c44864b4943039d669aa18b1247265286162a07/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/b6a4e720f68675b3b0e9f6aa6be6e55d3ebdc390/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJobConnection.md
 ms.topic: reference
 ms.prod: 
 ms.service: sql-data-warehouse
@@ -41,7 +41,7 @@ New-AzureSqlJobConnection -ServerName <String> -DatabaseName <String> [-LiteralS
 The **New-AzureSqlJobConnection** cmdlet creates a connection to an Elastic Database jobs database.
 
 Different elastic database jobs use the object that this cmdlet creates within the *AzureSqlDatabaseJobConnection* optional parameter.
-Alternatively, you can use the [Use-AzureSqlJobConnection](xref:ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md) cmdlet to set the job connection within the Azure PowerShell session context and avoid having to pass the connection as a parameter to subsequent elastic database job cmdlet invocations.
+Alternatively, you can use the [Use-AzureSqlJobConnection](./Use-AzureSqlJobConnection.md) cmdlet to set the job connection within the Azure PowerShell session context and avoid having to pass the connection as a parameter to subsequent elastic database job cmdlet invocations.
 
 ## EXAMPLES
 
