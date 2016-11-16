@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=623036
 schema: 2.0.0
 ms.assetid: 0D84EE44-D412-40CA-A106-576E23CB81E8
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 11/14/2016 7:35 PM
+ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/53e80d76c7174f1b22190793afef148897809af7/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -34,9 +34,7 @@ The **Enable-AadrmDocumentTrackingFeature** cmdlet enables the document tracking
 This cmdlet enables access to the document tracking site so that users can track or revoke access to protected documents that they have shared.
 This setting is organization-wide; you cannot enable document tracking for some users in your organization and not for others.
 
-By default, document tracking is enabled, so you would run this cmdlet only if somebody had previously disabled document tracking for your organization.
-After enabling document tracking, users can see information in the document tracking site for all the protected documents that they have shared, and not just information from when you enabled the feature.
-For example, they could revoke a document that they shared when document tracking was disabled.
+By default, document tracking is enabled, so you would run this cmdlet only if somebody had previously disabled document tracking for your organization. When document tracking is enabled, users can access the document tracking site to see the protected documents that they have shared to date. Activity related to shared documents (who opened them, when, from which location) is shown for only when the document tracking site is enabled. For example, a user could revoke a document that they shared when document tracking was disabled but they cannot not see who opened this document when document tracking was disabled.
 
 For more information about document tracking and revocation, see Track and revoke your documents when you use the [RMS sharing application](https://docs.microsoft.com/rights-management/rms-client/sharing-app-track-revoke) (https://docs.microsoft.com/rights-management/rms-client/sharing-app-track-revoke) from the Rights Management sharing application user guide.
 
