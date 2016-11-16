@@ -11,13 +11,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Az
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 uid: AADRM/vlatest/RightsManagement.md
 ms.topic: conceptual
-ms.prod: 
+ms.prod: powershell
 ms.service: rights-management
 ms.technology: Azure Powershell
-author: visual-studio-china
+author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: cabailey
 id: AADRM_vlatest_RightsManagement_md
 ---
 

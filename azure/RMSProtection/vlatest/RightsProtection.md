@@ -11,13 +11,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Az
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
 uid: RMSProtection/vlatest/RightsProtection.md
 ms.topic: conceptual
-ms.prod: 
+ms.prod: powershell
 ms.service: rights-management
 ms.technology: Azure Powershell
-author: visual-studio-china
+author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: cabailey
 id: RMSProtection_vlatest_RightsProtection_md
 ---
 

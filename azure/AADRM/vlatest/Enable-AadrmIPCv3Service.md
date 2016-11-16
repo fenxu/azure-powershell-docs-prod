@@ -8,13 +8,13 @@ ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmIPCv3Service.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmIPCv3Service.md
 ms.topic: reference
-ms.prod: 
+ms.prod: powershell
 ms.service: rights-management
 ms.technology: Azure Powershell
-author: visual-studio-china
+author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: cabailey
 id: AADRM_vlatest_Enable_AadrmIPCv3Service_md
 ---
 
