@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 62CE2521-8292-4524-86C2-12B828346542
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/15/2016 9:52 PM
+ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f706d2c1618dbb78e7ccf2f58b90336813a13f1/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMPlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,8 +21,7 @@ id: ResourceManager_AzureRM_AzureStackAdmin_v1_2_6_Remove_AzureRMPlan_md
 # Remove-AzureRMPlan
 
 ## SYNOPSIS
-The Remove-AzureRMPlan cmddlet removes the specified plan.
-The plan should not have any references to offers to get removed
+Removes the specified plan.
 
 ## SYNTAX
 
@@ -33,30 +32,27 @@ Remove-AzureRMPlan -Name <String> -ResourceGroup <String> [-SubscriptionId <Guid
 ```
 
 ## DESCRIPTION
-
+The **Remove-AzureRMPlan** cmdlet removes the specified plan.
+The plan should not have any references to offers when you remove it.
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1: Remove a plan
 ```
 Remover-AzureRMPlan -Name ComputePlan
 ```
 
-Description
-
------------
-
-The example removes a plan named ComputePlan
+This command removes a plan named ComputePlan.
 
 ## PARAMETERS
 
 ### -AdminUri
 Specifies the azure stack resource manager endpoint.
-This parameter is not needed when using the cmdlet against the azure stack environment configured against azure active directory
+This parameter is not needed when you use the cmdlet against the Azure Stack environment configured with Azure Active Directory.
 
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -66,14 +62,14 @@ Accept wildcard characters: False
 ```
 
 ### -ApiVersion
-Specifies the api version supported.
-This is optional.
-This parameter will be deprecated in future
+Specifies the supported API version.
+This parameter is optional.
+This parameter will be deprecated in future.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -83,9 +79,14 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
 
 ```yaml
 Type: ActionPreference
@@ -101,7 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -116,12 +117,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
+Specifies the name of the plan that this cmdlet removes.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -131,7 +132,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Stores the value of the current pipeline element as a variable, for any named command as it flows through the pipeline.
 
 ```yaml
 Type: String
@@ -146,12 +147,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-@{Text=}
+Specifies the resource group that contains the plan.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -161,14 +162,14 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-Service administrator subscription id.
-This parameter is not needed when using the cmdlet against the azure stack environment configured against azure active directory. 
-This parameter will be deprecated in a future release
+Specifies the service administrator subscription ID.
+This parameter is not needed when you use the cmdlet against the Azure Stack environment configured with Azure Active Directory.
+This parameter will be deprecated in a future release.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -178,14 +179,14 @@ Accept wildcard characters: False
 ```
 
 ### -Token
-Authentication token for making the request.
-This parameter is not needed when using the cmdlet against the azure stack environment configured against azure active directory. 
-This parameter will be deprecated in a future release
+Specifies the authentication token for making the request.
+This parameter is not needed when you use the cmdlet against the Azure Stack environment configured with Azure Active Directory.
+This parameter will be deprecated in a future release.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -201,5 +202,11 @@ Accept wildcard characters: False
 ### Microsoft.Azure.AzureOperationResponse
 
 ## NOTES
+
 ## RELATED LINKS
 
+[Get-AzureRMPlan](xref:ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMPlan.md)
+
+[New-AzureRMPlan](xref:ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMPlan.md)
+
+[Set-AzureRMPlan](xref:ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMPlan.md)

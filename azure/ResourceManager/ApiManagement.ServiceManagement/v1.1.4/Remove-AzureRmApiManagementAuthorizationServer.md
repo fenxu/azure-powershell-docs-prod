@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: C2CC10DE-1D36-4937-8A3E-9776BE80DF9A
-updated_at: 11/3/2016 10:58 PM
-ms.date: 11/3/2016
+updated_at: 11/15/2016 8:49 PM
+ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementAuthorizationServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b0dc3fda3721a600f2fff31599b45845d71f44f4/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementAuthorizationServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/230ca41f5c07de17490a9aad1633801041349629/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementAuthorizationServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -36,10 +36,6 @@ The **Remove-AzureRmApiManagementAuthorizationServer** cmdlet removes an Azure A
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
