@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=623032
 schema: 2.0.0
 ms.assetid: 5C8ED12E-4A84-446E-962F-5E886CB40DF9
-updated_at: 11/16/2016 6:29 PM
+updated_at: 11/16/2016 8:23 PM
 ms.date: 11/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6a946d61226d581936388851dbb8ed84201d7a8c/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/56178c1d77dab4dfbc76ca870a0af4e5d994362b/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -30,7 +30,7 @@ Disable-AadrmDocumentTrackingFeature [-Force] [-WhatIf] [-Confirm] [<CommonParam
 ```
 
 ## DESCRIPTION
-The **Disable-AadrmDocumentTrackingFeature** cmdlet disables the document tracking feature for Azure Rights Management (Azure RMS). This means that activity related to shared documents (who opened them, when, from which location) is not logged to the document tracking site, and this information is not logged to the administrator [usage logs](https://docs.microsoft.com/information-protection/deploy-use/log-analyze-usage) (https://docs.microsoft.com/information-protection/deploy-use/log-analyze-usage). If you later enable the document tracking site, users will see the documents that they protected while the site was disabled but cannot see who opened them while document tracking was disabled. 
+The **Disable-AadrmDocumentTrackingFeature** cmdlet disables the document tracking feature for Azure Rights Management (Azure RMS). This cmdlet disables access to the document tracking site so that all users in your organization cannot track or revoke access to protected documents that they have shared. In addition, activity related to shared documents (who opened them, when, from which location) is not logged to the document tracking site. For example, if you later enable the document tracking site, users will see the documents that they protected while the site was disabled but cannot see who opened them.
 
 Document tracking is enabled by default for an organization using the Azure Rights Management service from Azure Information Protection, but you might need to disable this feature for privacy requirements that are specific to your organization or region. This setting is organization-wide; you cannot disable document tracking for some users in your organization and not for others.
 
