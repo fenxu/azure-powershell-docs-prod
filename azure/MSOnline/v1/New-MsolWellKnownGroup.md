@@ -3,24 +3,25 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 629EE8A1-A6F9-4923-94FC-C371CA0F4D5C
-updated_at: 11/7/2016 11:36 PM
-ms.date: 11/7/2016
+updated_at: 11/14/2016 9:14 PM
+ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolWellKnownGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolWellKnownGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolWellKnownGroup.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: carolz
 id: MSOnline_v1_New_MsolWellKnownGroup_md
 ---
 
 # New-MsolWellKnownGroup
 
 ## SYNOPSIS
+Creates a well-known group.
 
 ## SYNTAX
 
@@ -29,6 +30,7 @@ New-MsolWellKnownGroup -WellKnownGroupName <String> [-TenantId <Guid>] [<CommonP
 ```
 
 ## DESCRIPTION
+The **New-MsolWellKnownGroup** cmdlet creates a well-known group.
 
 ## EXAMPLES
 
@@ -36,6 +38,10 @@ New-MsolWellKnownGroup -WellKnownGroupName <String> [-TenantId <Guid>] [<CommonP
 ## PARAMETERS
 
 ### -TenantId
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
+
 ```yaml
 Type: Guid
 Parameter Sets: (All)
@@ -49,6 +55,8 @@ Accept wildcard characters: False
 ```
 
 ### -WellKnownGroupName
+Specifies a name for the well-known group. 
+
 ```yaml
 Type: String
 Parameter Sets: (All)

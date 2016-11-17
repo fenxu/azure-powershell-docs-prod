@@ -11,10 +11,10 @@ ms.topic: reference
 ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: carolz
 id: AzureAD_v2_Get_AzureADAdministrativeUnitMember_md
 ---
 

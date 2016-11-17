@@ -3,24 +3,25 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: CC0818E5-CAAD-4066-A736-4E41CE9E7C27
-updated_at: 11/7/2016 11:36 PM
-ms.date: 11/7/2016
+updated_at: 11/14/2016 9:14 PM
+ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserByStrongAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserByStrongAuthentication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserByStrongAuthentication.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: carolz
 id: MSOnline_v1_Get_MsolUserByStrongAuthentication_md
 ---
 
 # Get-MsolUserByStrongAuthentication
 
 ## SYNOPSIS
+Gets users based on strong authentication type.
 
 ## SYNTAX
 
@@ -37,6 +38,7 @@ Get-MsolUserByStrongAuthentication [-RoleObjectId <Guid>] [-Requirements <Strong
 ```
 
 ## DESCRIPTION
+The **Get-MsolUserByStrongAuthentication** cmdlet gets users in Azure Active Directory based on strong authentication type.
 
 ## EXAMPLES
 
@@ -44,6 +46,9 @@ Get-MsolUserByStrongAuthentication [-RoleObjectId <Guid>] [-Requirements <Strong
 ## PARAMETERS
 
 ### -All
+Indicates that this cmdlet returns all results that it finds.
+Do not specify this parameter and the _MaxResults_ parameter.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: All__0
@@ -57,6 +62,8 @@ Accept wildcard characters: False
 ```
 
 ### -MaxResults
+Specifies the maximum number of results that this cmdlet returns.
+
 ```yaml
 Type: Int32
 Parameter Sets: ListUsersByStrongAuthentication__0
@@ -70,6 +77,8 @@ Accept wildcard characters: False
 ```
 
 ### -RequirementUnsetOnly
+Indicates that this cmdlet gets only users that have no strong authentication requirement.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -83,6 +92,8 @@ Accept wildcard characters: False
 ```
 
 ### -Requirements
+Specifies an array of strong authentication requirements for which this cmdlet gets users.
+
 ```yaml
 Type: StrongAuthenticationRequirement[]
 Parameter Sets: (All)
@@ -96,6 +107,9 @@ Accept wildcard characters: False
 ```
 
 ### -RoleObjectId
+Specifies the unique object ID of the role for which this cmdlet gets users.
+
+
 ```yaml
 Type: Guid
 Parameter Sets: (All)
@@ -109,6 +123,9 @@ Accept wildcard characters: False
 ```
 
 ### -SearchString
+Specifies a string.
+This cmdlet returns users that start with this string.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -122,6 +139,10 @@ Accept wildcard characters: False
 ```
 
 ### -TenantId
+Specifies the unique ID of the tenant on which to perform the operation.
+The default value is the tenant of the current user.
+This parameter applies only to partner users.
+
 ```yaml
 Type: Guid
 Parameter Sets: (All)
@@ -144,3 +165,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-MsolUser](xref:MSOnline/v1/Get-MsolUser.md)
