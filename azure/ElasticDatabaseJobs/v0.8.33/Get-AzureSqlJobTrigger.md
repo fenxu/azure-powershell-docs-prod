@@ -14,7 +14,7 @@ ms.technology: Azure Powershell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: erickson-doug
+manager: carolz
 id: ElasticDatabaseJobs_v0_8_33_Get_AzureSqlJobTrigger_md
 ---
 
