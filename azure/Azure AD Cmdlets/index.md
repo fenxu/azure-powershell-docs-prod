@@ -7,10 +7,10 @@ ms.topic: conceptual
 ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: carolz
 id: index_md
 ---
 # Azure Active Directory
@@ -23,5 +23,5 @@ For developers, AzureAD lets you focus on building your application by making it
 
 Module | Description
 ------ | -----------
-[AzureAD](../AzureAD/v2/AzureActiveDirectory.md) | Azure Active Directory PowerShell v2
-[MSOnline](../MSOnline/v1/AzureActiveDirectory.md)| Azure Active Directory PowerShell v1
+[AzureAD](./AzureAD/v2/AzureActiveDirectory.md) | Azure Active Directory PowerShell v2
+[MSOnline](./MSOnline/v1/AzureActiveDirectory.md)| Azure Active Directory PowerShell v1
