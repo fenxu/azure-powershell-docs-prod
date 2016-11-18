@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServices.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 69141231-B9E3-4070-9DA5-0A39791B7088
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/Set-AzureSiteRecoveryProtectionEntity.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/Set-AzureSiteRecoveryProtectionEntity.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/Set-AzureSiteRecoveryProtectionEntity.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -51,7 +51,7 @@ Check whether the operation succeeds by using the **Get-AzureSiteRecoveryProtect
 ```
 PS C:\>$ProtectionContainer = Get-AzureSiteRecoveryProtectionContainer -Name "Cloud17"
 PS C:\> $ProtectionEntity = Get-AzureSiteRecoveryProtectionEntity -ProtectionContainer $ProtectionContainer -Name "VM01"
-PS C:\> Set-AzureSiteRecoveryProtectionEntity -ProtectionEntity $ ProtectionEntity -Protection Enable  ¢â‚¬"ProtectionProfile $ProtectionContainer.AvailableProtectionProfiles[0] -OS Windows
+PS C:\> Set-AzureSiteRecoveryProtectionEntity -ProtectionEntity $ ProtectionEntity -Protection Enable -ProtectionProfile $ProtectionContainer.AvailableProtectionProfiles[0] -OS Windows
 ```
 
 The first command gets containers for the current Azure Site vault by using the **Get-AzureSiteRecoveryProtectionContainer** cmdlet, and then stores it in the $ProtectionContainer variable.

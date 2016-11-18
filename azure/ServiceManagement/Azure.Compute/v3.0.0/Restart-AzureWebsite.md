@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 5FCDC4F4-520E-4556-A8D7-4DDC28CC4B08
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Restart-AzureWebsite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Restart-AzureWebsite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Restart-AzureWebsite.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -40,7 +40,7 @@ The **Restart-AzureWebsite** cmdlet stops and then restarts the specified websit
 
 ### Example 1: Restart a website
 ```
-PS C:\>Restart-AzureWebsite  ¢â‚¬"Name MyWebsite
+PS C:\>Restart-AzureWebsite -Name MyWebsite
 ```
 
 This example restarts a website named MyWebsite.

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 48774BF7-0042-49D9-8593-B706F73699DC
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.2.0/Set-AzureRmStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.2.0/Set-AzureRmStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.2.0/Set-AzureRmStorageAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -55,7 +55,7 @@ This command sets a custom domain for a Storage account.
 
 ### Example 3: Enable encryption and set the access tier value
 ```
-PS C:\>Set-AzureRmStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "MyStorageAccount"  ¢â‚¬"EnableEncryptionService Blob -AccessTier Cool
+PS C:\>Set-AzureRmStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "MyStorageAccount" -EnableEncryptionService Blob -AccessTier Cool
 ```
 
 This command enables Storage Service encryption for a Storage account.

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 99E3C5B6-46B2-403A-ACD5-8F3467AFEA40
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -65,7 +65,7 @@ It first retrieves both files and directories, passes them to the **where** oper
 
 ### Example 2: List a File Directory
 ```
-PS C:\> Get-AzureStorageFile -ShareName "ContosoShare06"  ¢â‚¬"Path "ContosoWorkingFolder" | Get-AzureStorageFile
+PS C:\> Get-AzureStorageFile -ShareName "ContosoShare06" -Path "ContosoWorkingFolder" | Get-AzureStorageFile
 ```
 
 This command lists the files and folders in the directory ContosoWorkingFolder under the share ContosoShare06.

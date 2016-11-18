@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 19EE582C-FC86-4131-8E7A-EEAE8F6931F2
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseDataMaskingRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseDataMaskingRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseDataMaskingRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -45,7 +45,7 @@ Rule identifiers include, but are not limited to, ResourceGroupName, ServerName,
 
 ### Example 1: Change the range of a data masking rule in a database
 ```
-PS C:\>Set-AzureSqlDatabaseDataMaskingRule -ResourceGroupName "ResourceGroup11" -ServerName "Server01" -DatabaseName "Database03"  ¢â‚¬"RuleId "Rule17"  ¢â‚¬"NumberFrom 23  ¢â‚¬"NumberTo 42
+PS C:\>Set-AzureSqlDatabaseDataMaskingRule -ResourceGroupName "ResourceGroup11" -ServerName "Server01" -DatabaseName "Database03" -RuleId "Rule17" -NumberFrom 23 -NumberTo 42
 ```
 
 This command modifies a data masking rule that has the ID Rule17.

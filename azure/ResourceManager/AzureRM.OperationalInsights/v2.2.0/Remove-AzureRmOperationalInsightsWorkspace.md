@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 43285739-74C8-4DBF-ADD8-70266BB46FCB
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Remove-AzureRmOperationalInsightsWorkspace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Remove-AzureRmOperationalInsightsWorkspace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Remove-AzureRmOperationalInsightsWorkspace.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -38,14 +38,14 @@ If this workspace was linked to an existing account via the *CustomerId* paramet
 
 ### Example 1: Remove a workspace by name
 ```
-PS C:\>Remove-AzureRmOperationalInsightsWorkspace  ¢â‚¬"ResourceGroupName "ContosResourceGroup"  ¢â‚¬"Name "MyWorkspace"
+PS C:\>Remove-AzureRmOperationalInsightsWorkspace -ResourceGroupName "ContosResourceGroup" -Name "MyWorkspace"
 ```
 
 This command removes the workspace named MyWorkspace from the resource group named ContosoResourceGroup.
 
 ### Example 2: Remove a workspace by using the pipeline and without confirmation
 ```
-PS C:\>Get-AzureRmOperationalInsightsWorkspace  ¢â‚¬"ResourceGroupName "ContosResourceGroup"  ¢â‚¬"Name "MyWorkspace" | Remove-AzureRmOperationalInsightsWorkspace -Force
+PS C:\>Get-AzureRmOperationalInsightsWorkspace -ResourceGroupName "ContosResourceGroup" -Name "MyWorkspace" | Remove-AzureRmOperationalInsightsWorkspace -Force
 ```
 
 This command uses the Get-AzureRmOperationalInsightsWorkspace cmdlet to get the workspace named MyWorkspace, and then passes it to the **Remove-AzureRmOperationalInsightsWorkspace** cmdlet by using the pipeline operator to remove it.

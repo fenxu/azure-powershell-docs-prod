@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 171A4524-B9A0-41D3-B65D-F4898BDD0077
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Import-AzurePublishSettingsFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Import-AzurePublishSettingsFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Import-AzurePublishSettingsFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -49,14 +49,14 @@ As a security best practice, save the file to a location in your Downloads or Do
 
 ### --------------  Example 1 --------------
 ```
-PS C:\>Import-AzurePublishSettingsFile  ¢â‚¬"PublishSettingsFile C:\Temp\MyAccount.publishsettings
+PS C:\>Import-AzurePublishSettingsFile -PublishSettingsFile C:\Temp\MyAccount.publishsettings
 ```
 
 This command imports the "C:\Temp\MyAccount.publishsettings" file.
 
 ### --------------  Example 2 --------------
 ```
-PS C:\>Import-AzurePublishSettingsFile  ¢â‚¬"PublishSettingsFile C:\Temp\MyAccount.publishsettings  ¢â‚¬"SubscriptionDataFile C:\Subs\Subscriptions.xml
+PS C:\>Import-AzurePublishSettingsFile -PublishSettingsFile C:\Temp\MyAccount.publishsettings -SubscriptionDataFile C:\Subs\Subscriptions.xml
 ```
 
 This command imports the "C:\Temp\MyAccountName-date-credentials.publishsettings" file and then saves the subscription data file in C:\Subs\Subscriptions.xml.

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 36FAE49A-3E80-4073-BFCA-C94EAD5C97C5
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseAuditingPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseAuditingPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseAuditingPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -48,21 +48,21 @@ Database identifiers include, but are not limited to, ResourceGroupName, ServerN
 
 ### Example 1: Set the auditing policy of a database
 ```
-PS C:\>Set-AzureSqlDatabaseAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02" -DatabaseName "Database01"  ¢â‚¬"StorageAccountName "Storage31"
+PS C:\>Set-AzureSqlDatabaseAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02" -DatabaseName "Database01" -StorageAccountName "Storage31"
 ```
 
 This command sets the auditing policy of database named Database01 located in Server02 to use the storage account named Storage31.
 
 ### Example 2: Set the storage account key of an existing auditing policy of a database
 ```
-PS C:\>Set-AzureSqlDatabaseAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02" -DatabaseName "Database01"  ¢â‚¬"StorageAccountKey Secondary
+PS C:\>Set-AzureSqlDatabaseAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02" -DatabaseName "Database01" -StorageAccountKey Secondary
 ```
 
 This command sets the auditing policy of database named Database01 located in Server02 to keep using the same storage account name, but use the secondary key.
 
 ### Example 3: Set the auditing policy of a database to use a specific event type
 ```
-PS C:\>Set-AzureSqlDatabaseAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02" -DatabaseName "Database01"  ¢â‚¬"EventType Login_Failure
+PS C:\>Set-AzureSqlDatabaseAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02" -DatabaseName "Database01" -EventType Login_Failure
 ```
 
 This command sets the auditing policy of database named Database01 located in Server02 to log the Login_Failure event type.

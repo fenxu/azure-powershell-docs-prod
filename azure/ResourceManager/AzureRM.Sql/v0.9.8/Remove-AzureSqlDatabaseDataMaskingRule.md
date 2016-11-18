@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 6C103C51-1DA0-48CE-BB63-8371441B666E
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlDatabaseDataMaskingRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlDatabaseDataMaskingRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlDatabaseDataMaskingRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -39,7 +39,7 @@ You can remove a data masking rule by using the ResourceGroupName, ServerName, D
 
 ### Example 1: Remove a database data masking rule
 ```
-PS C:\>Remove-AzureSqlDatabaseDataMaskingRule -ResourceGroupName "ResourceGroup11"  ¢â‚¬"ServerName "Server02"  ¢â‚¬"DatabaseName "Database14"  ¢â‚¬"RuleId "Rule17"
+PS C:\>Remove-AzureSqlDatabaseDataMaskingRule -ResourceGroupName "ResourceGroup11" -ServerName "Server02" -DatabaseName "Database14" -RuleId "Rule17"
 ```
 
 This command removes the rule that has the ID Rule17, that was defined for the database database1 located in Server02 in resource group ResourceGroup11.

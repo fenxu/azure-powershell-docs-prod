@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B75F8AA3-AB47-47D0-8B72-27D4AECA92CB
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlServerAuditingPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlServerAuditingPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlServerAuditingPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -44,14 +44,14 @@ Server identifiers include, but are not limited to, ResourceGroupName and Server
 
 ### Example 1: Set the auditing policy of an Azure SQL server
 ```
-PS C:\>Set-AzureSqlServerAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02"  ¢â‚¬"StorageAccountName "Storage22"
+PS C:\>Set-AzureSqlServerAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02" -StorageAccountName "Storage22"
 ```
 
 This command sets the auditing policy of the server named Server02 to use storage account named Storage22.
 
 ### Example 2: Set the storage account key of an already existing auditing policy of an Azure SQL server
 ```
-PS C:\>Set-AzureSqlServerAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02"  ¢â‚¬"StorageAccountKey Secondary
+PS C:\>Set-AzureSqlServerAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02" -StorageAccountKey Secondary
 ```
 
 This command sets the auditing policy of the server named Server02 to use the secondary key.
@@ -59,7 +59,7 @@ The command does not modify the storage account name.
 
 ### Example 3: Set the auditing policy of an Azure SQL server to use a specific event type
 ```
-PS C:\>Set-AzureSqlServerAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02"  ¢â‚¬"EventType Login_Failure
+PS C:\>Set-AzureSqlServerAuditingPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server02" -EventType Login_Failure
 ```
 
 This command sets the auditing policy of the server named Server02 to use the Login_Failure event type.

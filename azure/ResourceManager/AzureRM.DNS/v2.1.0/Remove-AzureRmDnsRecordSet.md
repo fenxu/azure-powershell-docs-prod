@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: FDDE09B4-3BFD-4734-BB6A-DBFB7CA5B6FD
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.1.0/Remove-AzureRmDnsRecordSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.1.0/Remove-AzureRmDnsRecordSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.1.0/Remove-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -69,13 +69,13 @@ The first command gets the specified record set, and then stores it in the $Reco
 ### Example 2: Remove a record set and suppress all confirmation
 ```
 PS C:\> $RecordSet = Get-AzureRmDnsRecordSet -Name "www" -ZoneName "myzone.com" -ResourceGroupName "MyResourceGroup" 
-PS C:\> Remove-AzureRmDnsRecordSet -RecordSet $RecordSet  ¢â‚¬"Confirm:$False  ¢â‚¬"Overwrite 
+PS C:\> Remove-AzureRmDnsRecordSet -RecordSet $RecordSet -Confirm:$False -Overwrite 
 
 # Alternatively, the record set can be removed as follows.  In this case, 
 # because the record set is specified by name rather than by object, the 
 # Overwrite parameter is not applicable.
 
-PS C:\> Remove-AzureRmDnsRecordSet -Name "www" -ZoneName "myzone.com" -ResourceGroupName "MyResourceGroup"  ¢â‚¬"Confirm:$False
+PS C:\> Remove-AzureRmDnsRecordSet -Name "www" -ZoneName "myzone.com" -ResourceGroupName "MyResourceGroup" -Confirm:$False
 ```
 
 The first command gets the specified record set.

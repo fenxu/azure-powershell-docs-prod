@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3F3854F8-F09A-4259-8AF3-07FB02D94701
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlDatabaseDataMaskingRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlDatabaseDataMaskingRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlDatabaseDataMaskingRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,7 +46,7 @@ Rule identifiers include, but are not limited to, **ResourceGroupName**, **Serve
 
 ### Example 1: Create a data masking rule for a number column in a database
 ```
-PS C:\>Set-AzureSqlDatabaseDataMaskingRule -ResourceGroupName "ResourceGroup11" -ServerName "Server01" -DatabaseName "Database03"  ¢â‚¬"RuleId "Rule17"  ¢â‚¬"SchemaName "Schema31"  ¢â‚¬"TableName "Table01"  ¢â‚¬"ColumnName "Column22"  ¢â‚¬"MaskingFunction Number  ¢â‚¬"NumberFrom 5  ¢â‚¬"NumberTo 14
+PS C:\>Set-AzureSqlDatabaseDataMaskingRule -ResourceGroupName "ResourceGroup11" -ServerName "Server01" -DatabaseName "Database03" -RuleId "Rule17" -SchemaName "Schema31" -TableName "Table01" -ColumnName "Column22" -MaskingFunction Number -NumberFrom 5 -NumberTo 14
 ```
 
 This command creates a data masking rule for the column named Column22 in the table named Table01 in the schema named Schema31.
