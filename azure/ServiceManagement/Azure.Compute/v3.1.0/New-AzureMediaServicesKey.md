@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 756F757C-8CDE-43A5-A8A6-D55EF9C66183
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 9:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/New-AzureMediaServicesKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/New-AzureMediaServicesKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/New-AzureMediaServicesKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -77,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-If the ` Â¢ ¢â€šÂ¬"Force` switch is specified, the key generation is not confirmed.
+If the `-Force` switch is specified, the key generation is not confirmed.
 
 ```yaml
 Type: SwitchParameter

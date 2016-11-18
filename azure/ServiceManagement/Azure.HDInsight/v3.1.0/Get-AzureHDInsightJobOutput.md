@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 ms.assetid: 0B194605-F6B2-4FBC-ABF8-E49876EC7CFD
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 9:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.1.0/Get-AzureHDInsightJobOutput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.1.0/Get-AzureHDInsightJobOutput.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.1.0/Get-AzureHDInsightJobOutput.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -49,7 +49,7 @@ You can get various types of job logs including standard output, standard error,
 
 ### Example 1: Get job output
 ```
-PS C:\>$SubId = (Get-AzureSubscription  Â¢ ¢â€šÂ¬"Current).SubscriptionId
+PS C:\>$SubId = (Get-AzureSubscription -Current).SubscriptionId
 PS C:\> $ClusterName = "MyCluster"
 PS C:\> $WordCountJob = New-AzureHDInsightMapReduceJobDefinition -JarFile "/Example/Apps/Hadoop-examples.jar" -ClassName "Wordcount" -Defines @{ "mapred.map.tasks" = "3" } -Arguments "/Example/Data/Gutenberg/Davinci.txt", "/Example/Output/WordCount" $WordCountJob
     | Start-AzureHDInsightJob -Subscription $SubId -Cluster $ClusterName

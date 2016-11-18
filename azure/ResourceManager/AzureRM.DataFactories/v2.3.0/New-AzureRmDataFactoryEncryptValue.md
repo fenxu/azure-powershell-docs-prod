@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
 ms.assetid: 5BF24BC2-DEB6-4830-BDEA-841BAB070388
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 9:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.3.0/New-AzureRmDataFactoryEncryptValue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.3.0/New-AzureRmDataFactoryEncryptValue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.3.0/New-AzureRmDataFactoryEncryptValue.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -48,7 +48,7 @@ The **New-AzureRmDataFactoryEncryptValue** cmdlet encrypts sensitive data, such 
 ### Example 1: Encrypt a non-ODBC connection string
 ```
 PS C:\>$Value = ConvertTo-SecureString 'Data Source=ContosoServer;Initial Catalog=catelog;user id =user123;password=password123' -AsPlainText -Force 
-PS C:\> New-AzureRmDataFactoryEncryptValue -GatewayName "WikiGateway" -DataFactoryName "WikiAdf" -Value $value -ResourceGroupName "ADF"  Â¢ ¢â€šÂ¬"Type OnPremisesSqlLinkedService
+PS C:\> New-AzureRmDataFactoryEncryptValue -GatewayName "WikiGateway" -DataFactoryName "WikiAdf" -Value $value -ResourceGroupName "ADF" -Type OnPremisesSqlLinkedService
 ```
 
 The first command uses the ConvertTo-SecureString cmdlet to convert the specified connection string to a **SecureString** object, and then stores that object in the $Value variable.

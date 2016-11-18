@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 2970E81E-A788-4829-B1FF-B522A91DE4B1
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 9:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmProviderFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmProviderFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmProviderFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -42,7 +42,7 @@ The **Get-AzureRmProviderFeature** cmdlet gets the feature name, provider name, 
 
 ### Example 1: Get all available features
 ```
-PS C:\>Get-AzureRmProviderFeature  Â¢ ¢â€šÂ¬"ListAvailable
+PS C:\>Get-AzureRmProviderFeature -ListAvailable
 ```
 
 This command gets all available features.

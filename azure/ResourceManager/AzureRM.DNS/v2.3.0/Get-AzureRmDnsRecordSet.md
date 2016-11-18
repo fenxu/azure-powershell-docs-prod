@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 ms.assetid: 40179CF3-7896-4C45-BC18-4CB653B245B6
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 9:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Get-AzureRmDnsRecordSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Get-AzureRmDnsRecordSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Get-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -71,7 +71,7 @@ This command gets an array of all record sets in the zone named myzone.com in th
 ### Example 4: Get all record sets in a zone, using a DnsZone object
 ```
 PS C:\> $Zone = Get-AzureRmDnsZone -Name "myzone.com" -ResourceGroupName "MyResourceGroup"
-PS C:\> $RecordSets = Get-AzureRmDnsRecordSet  Â¢ ¢â€šÂ¬"Zone $Zone
+PS C:\> $RecordSets = Get-AzureRmDnsRecordSet -Zone $Zone
 ```
 
 This example is equivalent to Example 3 above.
