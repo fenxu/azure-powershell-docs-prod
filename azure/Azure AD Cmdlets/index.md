@@ -1,8 +1,8 @@
 ---
-updated_at: 10/31/2016 6:57 PM
-ms.date: 10/31/2016
+updated_at: 11/18/2016 5:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/40dbc50e98800f04fb3ccacf724ec4cfa7dc98d2/Azure%20AD%20Cmdlets/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e81535cdf2d724dc278ac5bb6bdee1b52f150bcd/Azure%20AD%20Cmdlets/index.md
 ms.topic: conceptual
 ms.prod: 
 ms.service: active-directory
@@ -23,5 +23,5 @@ For developers, AzureAD lets you focus on building your application by making it
 
 Module | Description
 ------ | -----------
-[AzureAD](./AzureAD/v2/AzureActiveDirectory.md) | Azure Active Directory PowerShell v2
-[MSOnline](./MSOnline/v1/AzureActiveDirectory.md)| Azure Active Directory PowerShell v1
+[AzureAD](https://docs.microsoft.com/en-us/powershell/azuread/v2/azureactivedirectory) | Azure Active Directory PowerShell v2
+[MSOnline](https://docs.microsoft.com/en-us/powershell/msonline/v1/azureactivedirectory)| Azure Active Directory PowerShell v1
