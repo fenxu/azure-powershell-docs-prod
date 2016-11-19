@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 167DEE27-AF46-42B3-B692-B18D8C356B99
 online version: 
 schema: 2.0.0
-ms.assetid: 167DEE27-AF46-42B3-B692-B18D8C356B99
-updated_at: 11/8/2016 9:18 PM
-ms.date: 11/8/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/503e34996278f3a282fa855671ca715727c7c0b8/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPolicy.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -22,6 +22,7 @@ id: AzureAD_v2_Remove_AzureADApplicationPolicy_md
 
 ## SYNOPSIS
 Removes an application policy.
+
 ## SYNTAX
 
 ```
@@ -31,44 +32,17 @@ Remove-AzureADApplicationPolicy -ObjectId <String> -PolicyId <String> [-Informat
 
 ## DESCRIPTION
 The **Remove-AzureADApplicationPolicy** cmdlet removes an application policy from Azure Active Directory (AD).
+
 ## EXAMPLES
 
 ### Example 1: Remove an application policy
-```PowerShell
+```
 PS C:\>Remove-AzureADApplicationPolicy -ObjectId <object id of application> -PolicyId <object id of policy>
 ```
+
 This command removes the specified application policy.
+
 ## PARAMETERS
-
-### -ObjectId
-Specifies The ID of the application.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -PolicyId
-Specifies the ID of the policy.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
 
 ### -InformationAction
 Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
@@ -107,6 +81,36 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ObjectId
+Specifies The ID of the application.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -PolicyId
+Specifies the ID of the policy.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -117,6 +121,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Add-AzureADApplicationPolicy](xref:AzureAD/v2/Add-AzureADApplicationPolicy.md)
 
 [Get-AzureADApplicationPolicy](xref:AzureAD/v2/Get-AzureADApplicationPolicy.md)

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
+ms.assetid: 04497A4E-E281-4FB5-98D5-102039F15692
 online version: 
 schema: 2.0.0
-ms.assetid: 04497A4E-E281-4FB5-98D5-102039F15692
-updated_at: 11/7/2016 5:40 AM
-ms.date: 11/7/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c4c481f39484ac5af35c0c2455444e3f4e618eed/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDomain.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -38,6 +38,9 @@ Get-AzureADDomain -Name <String> [-InformationAction <ActionPreference>] [-Infor
 
 ## DESCRIPTION
 The **Get-AzureADDomain** cmdlet gets a domain in Azure Active Directory (AD).
+
+## EXAMPLES
+
 ## PARAMETERS
 
 ### -InformationAction
@@ -101,6 +104,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Confirm-AzureADDomain](xref:AzureAD/v2/Confirm-AzureADDomain.md)
 [New-AzureADDomain](xref:AzureAD/v2/New-AzureADDomain.md)
 [Remove-AzureADDomain](xref:AzureAD/v2/Remove-AzureADDomain.md)

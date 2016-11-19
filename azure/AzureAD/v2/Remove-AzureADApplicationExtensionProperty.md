@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 441B9A03-B06D-4B67-91F2-09CB78C11330
-updated_at: 11/3/2016 9:04 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/32e965b5fe34a89d4883a511140220001faa59eb/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -36,7 +36,7 @@ The **Remove-AzureADApplicationExtensionProperty** cmdlet removes an application
 ## EXAMPLES
 
 ### Example 1: Remove an extenion property
-```PowerShell
+```
 PS C:\> Remove-AzureADApplicationExtensionProperty -ObjectId "3ddd22e7-a150-4bb3-b100-e410dea1cb84" -ExtensionPropertyId "344ed560-f8e7-410e-ab9f-c79df5c36"
 ```
 
@@ -44,28 +44,13 @@ This command removes the extension property that has the specified ID from an ap
 
 ## PARAMETERS
 
-### -ObjectId
-Specifies the unique ID of an application in Azure Active Directory.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
 ### -ExtensionPropertyId
 Specifies the unique ID of the extension property to remove.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -113,6 +98,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ObjectId
+Specifies the unique ID of an application in Azure Active Directory.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -123,6 +123,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Get-AzureADApplicationExtensionProperty](xref:AzureAD/v2/Get-AzureADApplicationExtensionProperty.md)
 
 [New-AzureADApplicationExtensionProperty](xref:AzureAD/v2/New-AzureADApplicationExtensionProperty.md)

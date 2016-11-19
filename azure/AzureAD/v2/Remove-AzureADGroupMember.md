@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: FD2AE118-42DC-4DA4-A705-17972ECCA1E7
 online version: 
 schema: 2.0.0
-ms.assetid: FD2AE118-42DC-4DA4-A705-17972ECCA1E7
-updated_at: 11/9/2016 4:13 PM
-ms.date: 11/9/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/638509d858209c3ec35936a4743521dc7d5e634b/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupMember.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -32,44 +32,17 @@ Remove-AzureADGroupMember -ObjectId <String> -MemberId <String> [-InformationAct
 
 ## DESCRIPTION
 The **Remove-AzureADGroupMember** cmdlet removes a member from a group in Azure Active Directory (AD).
+
 ## EXAMPLES
 
 ### Example 1: Remove a member
-```PowerShell
+```
 PS C:\>Remove-AzureADGroupMember -ObjectId "62438306-7c37-4638-a72d-0ee8d9217680" -MemberId "0a1068c0-dbb6-4537-9db3-b48f3e31dd76"
 ```
+
 This command removes the specified member from the specified group.
+
 ## PARAMETERS
-
-### -ObjectId
-Specifies the object ID of a group in Azure AD.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -MemberId
-Specifies the ID of the member to remove.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
 
 ### -InformationAction
 Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
@@ -108,6 +81,36 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -MemberId
+Specifies the ID of the member to remove.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -ObjectId
+Specifies the object ID of a group in Azure AD.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -118,6 +121,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Add-AzureADGroupMember](xref:AzureAD/v2/Add-AzureADGroupMember.md)
 
 [Get-AzureADGroupMember](xref:AzureAD/v2/Get-AzureADGroupMember.md)

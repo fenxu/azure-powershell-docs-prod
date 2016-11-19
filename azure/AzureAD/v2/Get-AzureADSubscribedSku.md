@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 0E1A27BF-2CD9-43CD-851D-D1F09484CDE3
 online version: 
 schema: 2.0.0
-ms.assetid: 0E1A27BF-2CD9-43CD-851D-D1F09484CDE3
-updated_at: 11/7/2016 9:42 PM
-ms.date: 11/7/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADSubscribedSku.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3fe29818e79701638ab0561b0255471c0715c67b/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADSubscribedSku.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADSubscribedSku.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -32,10 +32,11 @@ Get-AzureADSubscribedSku [-InformationAction <ActionPreference>] [-InformationVa
 
 ## DESCRIPTION
 The **Get-AzureADSubscribedSku** cmdlet gets subscribed SKUs to Microsoft services.
+
 ## EXAMPLES
 
 ### Example 1: Get subscribed SKUs
-```PowerShell
+```
 PS C:\>Get-AzureADSubscribedSku
 
 ObjectId                                                                  SkuPartNumber         PrepaidUnits                                                             ConsumedUnits
@@ -45,7 +46,9 @@ ObjectId                                                                  SkuPar
 85b5ff1e-0402-400c-9e3c-0f9e965325d1_f245ecc8-75af-4f8e-b61f-27d8114de5f3 O365_BUSINESS_PREMIUM class LicenseUnitsDetail {... 
 24
 ```
+
 This command gets subscribed SKUs.
+
 ## PARAMETERS
 
 ### -InformationAction
@@ -95,5 +98,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
 

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 3C1BC855-0B50-4B1D-9D72-25A5E346F09D
-updated_at: 11/3/2016 10:07 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationKeyCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a8353262160082e6c7b96def4517d74a884631cf/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationKeyCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationKeyCredential.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -37,7 +37,7 @@ The **New-AzureADApplicationKeyCredential** cmdlet creates a key credential for 
 ## EXAMPLES
 
 ### Example 1: Create a key for an application
-```PowerShell
+```
 PS C:\> New-AzureADApplicationKeyCredential -ObjectId "3ddd22e7-a150-4bb3-b100-e410dea1cb84"
 
 CustomKeyIdentifier :
@@ -51,23 +51,7 @@ Value               : {3, 63, 112, 132...}
 
 This command creates a key for the specified application.
 
-
 ## PARAMETERS
-
-### -ObjectId
-Specifies a unique ID of an application in Azure Active Directory.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
 
 ### -CustomKeyIdentifier
 Specifies a custom key ID.
@@ -75,22 +59,7 @@ Specifies a custom key ID.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -StartDate
-Specifies the time when the key becomes valid as a **DateTime** object.
-
-```yaml
-Type: DateTime
-Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -105,52 +74,7 @@ Specifies the time when the key becomes invalid as a **DateTime** object.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Type
-Specifies the type of the key.
-
-```yaml
-Type: KeyType
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Usage
-Specifies the key usage.
-
-```yaml
-Type: KeyUsage
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Value
-Specifies the value for the key.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -195,6 +119,81 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ObjectId
+Specifies a unique ID of an application in Azure Active Directory.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -StartDate
+Specifies the time when the key becomes valid as a **DateTime** object.
+
+```yaml
+Type: DateTime
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Type
+Specifies the type of the key.
+
+```yaml
+Type: KeyType
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Usage
+Specifies the key usage.
+
+```yaml
+Type: KeyUsage
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Value
+Specifies the value for the key.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 

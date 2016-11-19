@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
+ms.assetid: 142C8CA5-58AC-4D47-98D5-B3FB7E6A37C7
 online version: 
 schema: 2.0.0
-ms.assetid: 142C8CA5-58AC-4D47-98D5-B3FB7E6A37C7
-updated_at: 11/7/2016 7:13 PM
-ms.date: 11/7/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADScopedRoleMembership.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/60a45af23412aa12e23fd6bd0fcb2e10c92ffac0/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADScopedRoleMembership.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADScopedRoleMembership.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -32,6 +32,7 @@ Get-AzureADScopedRoleMembership -ObjectId <String> [-ScopedRoleMembershipId <Str
 ## DESCRIPTION
 The **Get-AzureADScopedRoleMembership** cmdlet gets a scoped role membership from an administrative unit in Azure Active Directory (AD).
 
+## EXAMPLES
 
 ## PARAMETERS
 
@@ -74,6 +75,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Add-AzureADScopedRoleMembership](xref:AzureAD/v2/Add-AzureADScopedRoleMembership.md)
 
 [Remove-AzureADScopedRoleMembership](xref:AzureAD/v2/Remove-AzureADScopedRoleMembership.md)

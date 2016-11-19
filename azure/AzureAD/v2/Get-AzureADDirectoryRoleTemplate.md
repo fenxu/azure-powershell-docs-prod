@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 186B4EE1-A85A-45C0-B480-ABB4FBEF9AE0
 online version: 
 schema: 2.0.0
-ms.assetid: 186B4EE1-A85A-45C0-B480-ABB4FBEF9AE0
-updated_at: 11/4/2016 7:47 PM
-ms.date: 11/4/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e5a312afd52db35e094c67df17276dbafa935d1a/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleTemplate.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -24,6 +24,7 @@ id: AzureAD_v2_Get_AzureADDirectoryRoleTemplate_md
 Gets directory role templates.
 
 ## SYNTAX
+
 ```
 Get-AzureADDirectoryRoleTemplate [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [<CommonParameters>]
@@ -31,10 +32,11 @@ Get-AzureADDirectoryRoleTemplate [-InformationAction <ActionPreference>] [-Infor
 
 ## DESCRIPTION
 The **Get-AzureADDirectoryRoleTemplate** cmdlet gets directory role templates in Azure Active Directory (AD).
+
 ## EXAMPLES
 
 ### Example 1: Get role templates
-```PowerShell
+```
 PS C:\>Get-AzureADDirectoryRoleTemplate
 
 ObjectId                             DisplayName                             Description
@@ -73,7 +75,9 @@ e8611ab8-c189-46e8-94e1-60213ab1f814 Privileged Role Administrator           Pri
 44367163-eba1-44c3-98af-f5787879f96a CRM Service Administrator               CRM Service Administrator has full access in the CRM Service.
 a9ea8996-122f-4c74-9520-8edcd192826c Power BI Service Administrator          Full access in the Power BI Service.
 ```
+
 This command gets the role templates in Azure AD.
+
 ## PARAMETERS
 
 ### -InformationAction
@@ -123,5 +127,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
 

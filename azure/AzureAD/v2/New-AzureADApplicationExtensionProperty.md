@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: B15F90ED-2F60-4401-89A2-89E3DD072519
-updated_at: 11/3/2016 9:03 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationExtensionProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7b180aa6247732d7116688c92ac921e48df217d9/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationExtensionProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationExtensionProperty.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -34,11 +34,10 @@ New-AzureADApplicationExtensionProperty -ObjectId <String> [-InformationAction <
 ## DESCRIPTION
 The **New-AzureADApplicationExtensionProperty** cmdlet creates an application extension property for an object in Azure Active Directory.
 
-
 ## EXAMPLES
 
 ### Example 1: Create an extension property
-```PowerShell
+```
 PS C:\>New-AzureADApplicationExtensionProperty -ObjectID "3ddd22e7-a150-4bb3-b100-e410dea1cb84" -DataType "string" -Name "NewAttribute"
 
 
@@ -51,18 +50,18 @@ This command creates an application extension property of the string type for th
 
 ## PARAMETERS
 
-### -ObjectId
-Specifies a unique ID of an application in Azure Active Directory.
+### -DataType
+Specifies the data type of the extension property.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -105,13 +104,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DataType
+### -Name
 Specifies the data type of the extension property.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -120,18 +119,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the data type of the extension property.
+### -ObjectId
+Specifies a unique ID of an application in Azure Active Directory.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
-Required: False
+Required: True
 Position: Named
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
@@ -141,7 +140,7 @@ Specifies target objects.
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -160,6 +159,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Get-AzureADApplicationExtensionProperty](xref:AzureAD/v2/Get-AzureADApplicationExtensionProperty.md)
 
 [Remove-AzureADApplicationExtensionProperty](xref:AzureAD/v2/Remove-AzureADApplicationExtensionProperty.md)

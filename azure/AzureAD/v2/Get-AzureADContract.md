@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 5751DBA5-57F8-47C6-954D-9D4B026CE662
 online version: 
 schema: 2.0.0
-ms.assetid: 5751DBA5-57F8-47C6-954D-9D4B026CE662
-updated_at: 11/3/2016 10:56 PM
-ms.date: 11/3/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/379176321272ee5119a7dfa13c9bf6c6283c7c5b/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -40,17 +40,19 @@ Get-AzureADContract -ObjectId <String> [-InformationAction <ActionPreference>] [
 ## DESCRIPTION
 The **Get-AzureADContract** cmdlet gets a contract from Azure Active Directory.
 
+## EXAMPLES
+
 ## PARAMETERS
 
-### -ObjectId
-Specifies the ID of a contract.
+### -Filter
+Specifies an oData v3.0 filter statement. This parameter controls which objects are returned.
 
 ```yaml
 Type: String
-Parameter Sets: GetById
+Parameter Sets: GetQuery
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
@@ -96,26 +98,26 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Top
-Specifies the maximum number of records to return.
+### -ObjectId
+Specifies the ID of a contract.
 
 ```yaml
-Type: Int32
-Parameter Sets: GetQuery
+Type: String
+Parameter Sets: GetById
 Aliases: 
 
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Filter
-Specifies an oData v3.0 filter statement. This parameter controls which objects are returned.
+### -Top
+Specifies the maximum number of records to return.
 
 ```yaml
-Type: String
+Type: Int32
 Parameter Sets: GetQuery
 Aliases: 
 
@@ -136,5 +138,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
 

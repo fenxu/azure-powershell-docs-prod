@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xml
+ms.assetid: D3B591A4-A99D-4D2D-90E2-D4CE016C4589
 online version: 
 schema: 2.0.0
-ms.assetid: D3B591A4-A99D-4D2D-90E2-D4CE016C4589
-updated_at: 11/8/2016 4:55 PM
-ms.date: 11/8/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationPasswordCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a6b622804dc4ead0bbf2296ce7f3640c306dfb98/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationPasswordCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationPasswordCredential.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -33,10 +33,11 @@ New-AzureADApplicationPasswordCredential -ObjectId <String> [-CustomKeyIdentifie
 
 ## DESCRIPTION
 The **New-AzureADApplicationPasswordCredential** cmdlet creates a password credential for an application in Azure Active Directory (AD).
+
 ## EXAMPLES
 
 ### Example 1: Create a password credential
-```PowerShell
+```
 PS C:\>New-AzureADApplicationPasswordCredential -ObjectId "3ddd22e7-a150-4bb3-b100-e410dea1cb84"
 
 CustomKeyIdentifier :
@@ -45,41 +46,12 @@ KeyId               :
 StartDate           : 9/28/2016 3:57:10 PM
 Value               : ZJ0V1Yg4cp4eWIey9DrYspqVdX1pdvY437P/ueGxVLU=
 ```
+
 ## PARAMETERS
 
-### -ObjectId
-Specifies the ID of a user in Azure AD.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
 ### -CustomKeyIdentifier
-
 ```yaml
 Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -StartDate
-
-```yaml
-Type: DateTime
 Parameter Sets: (All)
 Aliases: 
 
@@ -91,23 +63,8 @@ Accept wildcard characters: False
 ```
 
 ### -EndDate
-
 ```yaml
 Type: DateTime
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Value
-
-```yaml
-Type: String
 Parameter Sets: (All)
 Aliases: 
 
@@ -155,6 +112,47 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ObjectId
+Specifies the ID of a user in Azure AD.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -StartDate
+```yaml
+Type: DateTime
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Value
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -165,6 +163,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Get-AzureADApplicationPasswordCredential](xref:AzureAD/v2/Get-AzureADApplicationPasswordCredential.md)
 
 [Remove-AzureADApplicationPasswordCredential](xref:AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md)

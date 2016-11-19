@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 8EAAE8EA-44D5-4B28-A940-28085547083A
 online version: 
 schema: 2.0.0
-ms.assetid: 8EAAE8EA-44D5-4B28-A940-28085547083A
-updated_at: 11/7/2016 7:37 PM
-ms.date: 11/7/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e3818556d5de74232dabf02f3427613c051e366f/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipal.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -46,17 +46,19 @@ Get-AzureADServicePrincipal -ObjectId <String> [-InformationAction <ActionPrefer
 ## DESCRIPTION
 The **Get-AzureADServicePrincipal** cmdlet gets a service principal in Azure Active Directory (AD).
 
+## EXAMPLES
+
 ## PARAMETERS
 
-### -ObjectId
-Specifies the ID of a service principal in Azure AD.
+### -Filter
+Specifies an oData v3.0 filter statement. This parameter controls which objects are returned.
 
 ```yaml
 Type: String
-Parameter Sets: GetById
+Parameter Sets: GetQuery
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
@@ -100,30 +102,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Top
-Specifies the maximum number of records to return.
-
-```yaml
-Type: Int32
-Parameter Sets: GetQuery
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Filter
-Specifies an oData v3.0 filter statement. This parameter controls which objects are returned.
+### -ObjectId
+Specifies the ID of a service principal in Azure AD.
 
 ```yaml
 Type: String
-Parameter Sets: GetQuery
+Parameter Sets: GetById
 Aliases: 
 
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
@@ -144,6 +131,21 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
+### -Top
+Specifies the maximum number of records to return.
+
+```yaml
+Type: Int32
+Parameter Sets: GetQuery
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -154,6 +156,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Remove-AzureADServicePrincipal](xref:AzureAD/v2/Remove-AzureADServicePrincipal.md)
 
 [Set-AzureADServicePrincipal](xref:AzureAD/v2/Set-AzureADServicePrincipal.md)

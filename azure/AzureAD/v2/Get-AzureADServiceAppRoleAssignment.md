@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: D1D9AB94-8FEE-44D9-A4A3-F023905A5717
 online version: 
 schema: 2.0.0
-ms.assetid: D1D9AB94-8FEE-44D9-A4A3-F023905A5717
-updated_at: 11/7/2016 7:21 PM
-ms.date: 11/7/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServiceAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7e80a90d77ffd34718cd052dddab8c33018a5876/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServiceAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServiceAppRoleAssignment.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -33,37 +33,9 @@ Get-AzureADServiceAppRoleAssignment -ObjectId <String> [-Top <Int32>] [-Informat
 ## DESCRIPTION
 The **Get-AzureADServiceAppRoleAssignment** cmdlet gets a role assignment for a service principal application in Azure Active Directory (AD).
 
+## EXAMPLES
+
 ## PARAMETERS
-
-### -ObjectId
-Specifies the ID of a service principal in Azure AD.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Top
-The maximum number of records to return.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
 
 ### -InformationAction
 Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
@@ -102,6 +74,36 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ObjectId
+Specifies the ID of a service principal in Azure AD.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Top
+The maximum number of records to return.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -112,6 +114,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [New-AzureADServiceAppRoleAssignment](xref:AzureAD/v2/New-AzureADServiceAppRoleAssignment.md)
 
 [Remove-AzureADServiceAppRoleAssignment](xref:AzureAD/v2/Remove-AzureADServiceAppRoleAssignment.md)

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 59B49FB7-4743-4D76-9C08-4416D862BEE3
-updated_at: 11/3/2016 9:07 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationKeyCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1b4cc027e3d91fa376eb0bab0d4dccea92584740/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationKeyCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationKeyCredential.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -36,42 +36,13 @@ The **Remove-AzureADApplicationKeyCredential** cmdlet removes a key credential f
 ## EXAMPLES
 
 ### Example 1: Remove a key credential
-```PowerShell
+```
 PS C:\> Remove-AzureADApplicationKeyCredential -ObjectId "3ddd22e7-a150-4bb3-b100-e410dea1cb84" -KeyId "6aa971c6-3040-45df-87ed-581c8c09ff2b"
 ```
+
 This command removes the specified key credential from the specified application.
 
 ## PARAMETERS
-
-### -ObjectId
-Specifies a unique ID of an application in Azure Active Directory.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -KeyId
-Specifies a custom key ID.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
 
 ### -InformationAction
 Specifies how this cmdlet responds to an information event.
@@ -109,6 +80,36 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -KeyId
+Specifies a custom key ID.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -ObjectId
+Specifies a unique ID of an application in Azure Active Directory.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 

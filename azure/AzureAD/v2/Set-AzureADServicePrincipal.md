@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 540A8E20-80C9-48D8-BE49-E1DA84FD3BF7
 online version: 
 schema: 2.0.0
-ms.assetid: 540A8E20-80C9-48D8-BE49-E1DA84FD3BF7
-updated_at: 11/10/2016 7:53 PM
-ms.date: 11/10/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/621eb00da26e368604329e898d0970aa3f71fd4b/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -40,60 +40,9 @@ Set-AzureADServicePrincipal -ObjectId <String> [-InformationAction <ActionPrefer
 ## DESCRIPTION
 The **Set-AzureADServicePrincipal** cmdlet updates a service principal in Azure Active Directory (AD).
 
+## EXAMPLES
 
 ## PARAMETERS
-
-### -ObjectId
-Specifeis the ID of a service principal in Azure AD.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
 
 ### -AccountEnabled
 Indicates whether the account is enabled.
@@ -185,6 +134,43 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -InformationAction
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies an information variable.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -KeyCredentials
 Specifies key credentials.
 
@@ -212,6 +198,21 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ObjectId
+Specifeis the ID of a service principal in Azure AD.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
@@ -261,7 +262,6 @@ Accept wildcard characters: False
 ```
 
 ### -SamlMetadataUrl
-
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -314,6 +314,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Get-AzureADServicePrincipal](xref:AzureAD/v2/Get-AzureADServicePrincipal.md)
 
 [New-AzureADServicePrincipal](xref:AzureAD/v2/New-AzureADServicePrincipal.md)

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: A98FA4E7-3662-433C-A28D-CAF4D60592A1
 online version: 
 schema: 2.0.0
-ms.assetid: A98FA4E7-3662-433C-A28D-CAF4D60592A1
-updated_at: 11/7/2016 11:15 PM
-ms.date: 11/7/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserLicense.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/bbfe232ad7e6f2977e5bd06736a86f69d4979281/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserLicense.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserLicense.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -33,22 +33,9 @@ Set-AzureADUserLicense -ObjectId <String> -AssignedLicenses <AssignedLicenses>
 ## DESCRIPTION
 The **Set-AzureADUserLicense** adds or removes licenses for a Microsoft online service to the list of assigned licenses for a user.
 
+## EXAMPLES
+
 ## PARAMETERS
-
-### -ObjectId
-Specifies the ID of a user (as a UPN or ObjectId) in Azure AD. 
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
 
 ### -AssignedLicenses
 Specifies a list of licenses to assign or remove.
@@ -102,6 +89,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ObjectId
+Specifies the ID of a user (as a UPN or ObjectId) in Azure AD. 
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -112,5 +114,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
 

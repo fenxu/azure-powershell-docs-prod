@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
+ms.assetid: 46154156-B7D4-40DE-8EC9-760E44110C76
 online version: 
 schema: 2.0.0
-ms.assetid: 46154156-B7D4-40DE-8EC9-760E44110C76
-updated_at: 11/4/2016 6:11 PM
-ms.date: 11/4/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/499005a41753b28920fecf31e16516f48ebb2519/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADAdministrativeUnit.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -40,17 +40,21 @@ Get-AzureADAdministrativeUnit -ObjectId <String> [-InformationAction <ActionPref
 ## DESCRIPTION
 The **Get-AzureADAdministrativeUnit** cmdlet gets an Azure Active Directory administrative unit.
 
+## EXAMPLES
+
 ## PARAMETERS
 
-### -ObjectId
-Specifies the ID of an administrative unit in Azure Active Directory.
+### -Filter
+Specifies an oData v3.0 filter statement. This parameter filters which objects are returned.
+
+For more information about oData v3.0 filter expressions, see https://msdn.microsoft.com/en-us/library/hh169248%28v=nav.90%29.aspx
 
 ```yaml
 Type: String
-Parameter Sets: GetById
+Parameter Sets: GetQuery
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
@@ -94,28 +98,26 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Top
-Specifies the maximum number of records to return.
+### -ObjectId
+Specifies the ID of an administrative unit in Azure Active Directory.
 
 ```yaml
-Type: Int32
-Parameter Sets: GetQuery
+Type: String
+Parameter Sets: GetById
 Aliases: 
 
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Filter
-Specifies an oData v3.0 filter statement. This parameter filters which objects are returned.
-
-For more information about oData v3.0 filter expressions, see https://msdn.microsoft.com/en-us/library/hh169248%28v=nav.90%29.aspx
+### -Top
+Specifies the maximum number of records to return.
 
 ```yaml
-Type: String
+Type: Int32
 Parameter Sets: GetQuery
 Aliases: 
 
@@ -136,6 +138,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [New-AzureADAdministrativeUnit](xref:AzureAD/v2/New-AzureADAdministrativeUnit.md)
 
 [Remove-AzureADAdministrativeUnit](xref:AzureAD/v2/Remove-AzureADAdministrativeUnit.md)

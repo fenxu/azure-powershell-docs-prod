@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 5655BF04-B245-4D0E-9AD9-AAAA1A6B048D
 online version: 
 schema: 2.0.0
-ms.assetid: 5655BF04-B245-4D0E-9AD9-AAAA1A6B048D
-updated_at: 11/7/2016 6:22 PM
-ms.date: 11/7/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0ba8ee2aea0fb1dbbd7821b161dba0963cfa62d5/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicy.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -22,6 +22,7 @@ id: AzureAD_v2_Get_AzureADPolicy_md
 
 ## SYNOPSIS
 Gets a policy.
+
 ## SYNTAX
 
 ### GetQuery (Default)
@@ -37,6 +38,8 @@ Get-AzureADPolicy -ObjectId <String> [-InformationAction <ActionPreference>] [-I
 
 ## DESCRIPTION
 The **Get-AzureADPolicy** cmdlet gets a policy in Azure Active Directory (AD).
+
+## EXAMPLES
 
 ## PARAMETERS
 
@@ -102,6 +105,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [New-AzureADPolicy](xref:AzureAD/v2/New-AzureADPolicy.md)
 
 [Remove-AzureADPolicy](xref:AzureAD/v2/Remove-AzureADPolicy.md)

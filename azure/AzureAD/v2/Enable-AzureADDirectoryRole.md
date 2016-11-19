@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 3719960D-7A77-414E-A20C-812B527F27AB
 online version: 
 schema: 2.0.0
-ms.assetid: 3719960D-7A77-414E-A20C-812B527F27AB
-updated_at: 11/4/2016 6:10 PM
-ms.date: 11/4/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5bb7cfd2f2d9c8c5429884df2d680b32e5a20f58/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -32,6 +32,8 @@ Enable-AzureADDirectoryRole -DirectoryRole <DirectoryRole> [-InformationAction <
 
 ## DESCRIPTION
 The **Enable-AzureADDirectoryRole** cmdlet activates an existing directory role in Azure Active Directory.
+
+## EXAMPLES
 
 ## PARAMETERS
 
@@ -97,6 +99,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Get-AzureADDirectoryRole](xref:AzureAD/v2/Get-AzureADDirectoryRole.md)
 
 

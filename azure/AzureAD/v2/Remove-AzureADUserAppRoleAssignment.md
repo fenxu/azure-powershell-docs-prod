@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: A57C8BFC-4E69-444D-8B9E-65D4767F8364
 online version: 
 schema: 2.0.0
-ms.assetid: A57C8BFC-4E69-444D-8B9E-65D4767F8364
-updated_at: 11/9/2016 7:47 PM
-ms.date: 11/9/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/75041af5eb21626ca157f460588875d32d5ef49b/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADUserAppRoleAssignment.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -33,22 +33,9 @@ Remove-AzureADUserAppRoleAssignment -ObjectId <String> -AppRoleAssignmentId <Str
 ## DESCRIPTION
 The **Remove-AzureADUserAppRoleAssignment** cmdlet removes a user application role assignment in Azure Active Directory (AD).
 
+## EXAMPLES
+
 ## PARAMETERS
-
-### -ObjectId
-Specifies the ID (as a UPN or ObjectId) of a user in Azure AD.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
 
 ### -AppRoleAssignmentId
 Specifies the ID of an application role assignment.
@@ -102,6 +89,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ObjectId
+Specifies the ID (as a UPN or ObjectId) of a user in Azure AD.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -112,6 +114,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Get-AzureADUserAppRoleAssignment](xref:AzureAD/v2/Get-AzureADUserAppRoleAssignment.md)
 
 [New-AzureADUserAppRoleAssignment](xref:AzureAD/v2/New-AzureADUserAppRoleAssignment.md)

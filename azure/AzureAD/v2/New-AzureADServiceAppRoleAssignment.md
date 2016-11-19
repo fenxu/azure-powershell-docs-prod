@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 35D6752C-1503-412C-84D0-3775EC30CE13
 online version: 
 schema: 2.0.0
-ms.assetid: 35D6752C-1503-412C-84D0-3775EC30CE13
-updated_at: 11/8/2016 6:30 PM
-ms.date: 11/8/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServiceAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2b50131d32cea213c654ee26c8cb6f39df3a4279/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServiceAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServiceAppRoleAssignment.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -33,10 +33,12 @@ New-AzureADServiceAppRoleAssignment -ObjectId <String> [-InformationAction <Acti
 ## DESCRIPTION
 The **New-AzureADServiceAppRoleAssignment** cmdlet assigns a service principal to an application role in Azure Active Directory (AD).
 
+## EXAMPLES
+
 ## PARAMETERS
 
-### -ObjectId
-Specifies the ID of a service principal in Azure AD.
+### -Id
+Specifies the ID.
 
 ```yaml
 Type: String
@@ -46,7 +48,7 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -87,8 +89,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Id
-Specifies the ID.
+### -ObjectId
+Specifies the ID of a service principal in Azure AD.
 
 ```yaml
 Type: String
@@ -98,7 +100,7 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
@@ -142,6 +144,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Get-AzureADServiceAppRoleAssignment](xref:AzureAD/v2/Get-AzureADServiceAppRoleAssignment.md)
 
 [Remove-AzureADServiceAppRoleAssignment](xref:AzureAD/v2/Remove-AzureADServiceAppRoleAssignment.md)

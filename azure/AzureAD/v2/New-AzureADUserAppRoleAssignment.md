@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 3B666786-2620-4E80-9A36-552B942A9F7C
 online version: 
 schema: 2.0.0
-ms.assetid: 3B666786-2620-4E80-9A36-552B942A9F7C
-updated_at: 11/8/2016 8:32 PM
-ms.date: 11/8/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/197b96706590d85eaebd24d978f9c04beb62975f/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -32,17 +32,20 @@ New-AzureADUserAppRoleAssignment -ObjectId <String> [-InformationAction <ActionP
 
 ## DESCRIPTION
 The **New-AzureADUserAppRoleAssignment** cmdlet assigns a user to an application role in Azure Active Directory (AD).
+
 ## EXAMPLES
 
 ### Example 1: Assign a user to an application role
-```PowerShell
+```
 PS C:\>New-AzureADUserAppRoleAssignment -ObjectId $user.ObjectId -PrincipalId $user.ObjectId -ResourceId $ServicePrincipal.ObjectId -Id $Role.Id
 ```
+
 This command assigns a user to an application role.
+
 ## PARAMETERS
 
-### -ObjectId
-Specifies the ID of a user (as a UPN or ObjectId) in Azure AD.
+### -Id
+Specifies an ID.
 
 ```yaml
 Type: String
@@ -52,7 +55,7 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -93,8 +96,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Id
-Specifies an ID.
+### -ObjectId
+Specifies the ID of a user (as a UPN or ObjectId) in Azure AD.
 
 ```yaml
 Type: String
@@ -104,13 +107,11 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
 ### -PrincipalId
-
-
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -148,6 +149,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Get-AzureADUserAppRoleAssignment](xref:AzureAD/v2/Get-AzureADUserAppRoleAssignment.md)
 
 [Remove-AzureADUserAppRoleAssignment](xref:AzureAD/v2/Remove-AzureADUserAppRoleAssignment.md)

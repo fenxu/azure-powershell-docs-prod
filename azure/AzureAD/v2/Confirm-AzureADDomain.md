@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
+ms.assetid: 120268ED-E28B-434B-8EC2-313D3C3517B9
 online version: 
 schema: 2.0.0
-ms.assetid: 120268ED-E28B-434B-8EC2-313D3C3517B9
-updated_at: 11/4/2016 6:08 PM
-ms.date: 11/4/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/929e16264b73939ffe21c5329495ee80bd7e6346/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -32,6 +32,8 @@ Confirm-AzureADDomain -Name <String> [-InformationAction <ActionPreference>] [-I
 
 ## DESCRIPTION
 The **Confirm-AzureADDomain** cmdlet validates the ownership of an Azure Active Directory domain.
+
+## EXAMPLES
 
 ## PARAMETERS
 
@@ -96,6 +98,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Get-AzureADDomain](xref:AzureAD/v2/Get-AzureADDomain.md)
 
 [New-AzureADDomain](xref:AzureAD/v2/New-AzureADDomain.md)

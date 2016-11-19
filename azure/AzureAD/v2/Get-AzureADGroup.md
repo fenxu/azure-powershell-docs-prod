@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: E008C14D-91DE-4CD4-BB76-6D037BB747DB
 online version: 
 schema: 2.0.0
-ms.assetid: E008C14D-91DE-4CD4-BB76-6D037BB747DB
-updated_at: 11/7/2016 5:40 AM
-ms.date: 11/7/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c4c481f39484ac5af35c0c2455444e3f4e618eed/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -49,7 +49,7 @@ The **Get-AzureADGroup** cmdlet gets a group in Azure Active Directory (AD).
 ## EXAMPLES
 
 ### Example 1: Get all groups
-```PowerShell
+```
 PS C:\>Get-AzureADGroup
 
 
@@ -74,26 +74,29 @@ Its members ...
 47a1bff5-f449-4bfc-8772-b1515c57fec5 ExchangeLegacyInterop                This group is for interoperability with Exchange 2003 servers within the same forest.
 This group should not be deleted.
 ```
+
 ### Example 2: Get groups that contain a search string
-```PowerShell
+```
 PS C:\>Get-AzureADGroup -SearchString "All"
 
 ObjectId                             DisplayName                                 Description
 --------                             -----------                                 -----------
 093fc0e2-1d6e-4a1b-9bf8-effa0196f1f7 All Users
 ```
+
 This command gets the groups that include the text All in their display names.
+
 ## PARAMETERS
 
-### -ObjectId
-The unique identifier of a group in Azure Active Directory (ObjectId)
+### -Filter
+Specifies an oData v3.0 filter statement. This parameter controls which objects are returned.
 
 ```yaml
 Type: String
-Parameter Sets: GetById
+Parameter Sets: GetQuery
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
@@ -137,30 +140,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Top
-Specifies the maximum number of records to return.
-
-```yaml
-Type: Int32
-Parameter Sets: GetQuery
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Filter
-Specifies an oData v3.0 filter statement. This parameter controls which objects are returned.
+### -ObjectId
+The unique identifier of a group in Azure Active Directory (ObjectId)
 
 ```yaml
 Type: String
-Parameter Sets: GetQuery
+Parameter Sets: GetById
 Aliases: 
 
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
@@ -181,6 +169,21 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
+### -Top
+Specifies the maximum number of records to return.
+
+```yaml
+Type: Int32
+Parameter Sets: GetQuery
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -191,6 +194,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [New-AzureADGroup](xref:AzureAD/v2/New-AzureADGroup.md)
 [Remove-AzureADGroup](xref:AzureAD/v2/Remove-AzureADGroup.md)
 [Set-AzureADGroup](xref:AzureAD/v2/Set-AzureADGroup.md)

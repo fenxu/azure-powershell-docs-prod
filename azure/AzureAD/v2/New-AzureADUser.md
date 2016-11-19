@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: A5DDAF58-A04C-4B8F-8AFE-A491387ABCB0
 online version: 
 schema: 2.0.0
-ms.assetid: A5DDAF58-A04C-4B8F-8AFE-A491387ABCB0
-updated_at: 11/8/2016 7:43 PM
-ms.date: 11/8/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2a2e521351280532a008cad1066ad053b211a876/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -42,55 +42,21 @@ New-AzureADUser [-InformationAction <ActionPreference>] [-InformationVariable <S
 
 ## DESCRIPTION
 The **New-AzureADUser** cmdlet creates a user in Azure Active Directory (AD).
+
 ## EXAMPLES
 
 ### Example 1: Create a user
-```PowerShell
+```
 PS C:\>New-AzureADUser -DisplayName "New user" -PasswordProfile $password -AccountEnabled $true -MailNickName "bpos" -UserPrincipalName "NewUser@contoso.com"
 
 ObjectId                             DisplayName UserPrincipalName               UserType
 --------                             ----------- -----------------               --------
 5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0 New user    NewUser@contoso.com             Member
 ```
+
 This command creates a new user.
+
 ## PARAMETERS
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
 
 ### -AccountEnabled
 Indicates whether the user's account is enabled.
@@ -182,6 +148,19 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ExtensionProperty
+```yaml
+Type: System.Collections.Generic.Dictionary`2[System.String,System.String]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -FacsimilieTelephoneNumber
 Specifies the user's fax number.
 
@@ -204,6 +183,56 @@ Specifies the user's given name.
 Type: String
 Parameter Sets: (All)
 Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ImmutableId
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationAction
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies an information variable.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
 
 Required: False
 Position: Named
@@ -273,8 +302,6 @@ Accept wildcard characters: False
 ```
 
 ### -OtherMails
-
-
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
@@ -423,8 +450,6 @@ Accept wildcard characters: False
 ```
 
 ### -ThumbnailPhoto
-
-
 ```yaml
 Type: Byte[]
 Parameter Sets: (All)
@@ -438,8 +463,6 @@ Accept wildcard characters: False
 ```
 
 ### -UsageLocation
-
-
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -453,8 +476,6 @@ Accept wildcard characters: False
 ```
 
 ### -UserPrincipalName
-
-
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -468,34 +489,6 @@ Accept wildcard characters: False
 ```
 
 ### -UserType
-
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ExtensionProperty
-```yaml
-Type: System.Collections.Generic.Dictionary`2[System.String,System.String]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ImmutableId
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -518,6 +511,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Get-AzureADUser](xref:AzureAD/v2/Get-AzureADUser.md)
 
 [Remove-AzureADUser](xref:AzureAD/v2/Remove-AzureADUser.md)

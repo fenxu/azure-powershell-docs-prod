@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 323CA5E7-FD6C-403F-8581-284B30B8770E
 online version: 
 schema: 2.0.0
-ms.assetid: 323CA5E7-FD6C-403F-8581-284B30B8770E
-updated_at: 11/9/2016 8:56 PM
-ms.date: 11/9/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsContactIsMemberOf.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/517f4d28afeb49d710757d39d158763969225384/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsContactIsMemberOf.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsContactIsMemberOf.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -34,22 +34,9 @@ Select-AzureADGroupIdsContactIsMemberOf -ObjectId <String>
 ## DESCRIPTION
 The **Select-AzureADGroupIdsContactIsMemberOf** cmdlet gets groups in Azure Active Directory (AD) in which a contact is a member.
 
+## EXAMPLES
+
 ## PARAMETERS
-
-### -ObjectId
-Specifies the object ID of a contact in Azure AD.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
 
 ### -GroupIdsForMembershipCheck
 Specifies an array of group object IDs.
@@ -100,6 +87,21 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ObjectId
+Specifies the object ID of a contact in Azure AD.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 

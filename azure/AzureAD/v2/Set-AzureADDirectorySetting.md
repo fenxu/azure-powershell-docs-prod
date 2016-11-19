@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
+ms.assetid: 96F47B05-3D04-4298-9C60-03B60B8AD6AF
 online version: 
 schema: 2.0.0
-ms.assetid: 96F47B05-3D04-4298-9C60-03B60B8AD6AF
-updated_at: 11/10/2016 7:13 PM
-ms.date: 11/10/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDirectorySetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0fe9adfb52ba045c8e77b8982014c103a8c0c6f3/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDirectorySetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDirectorySetting.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -33,23 +33,9 @@ Set-AzureADDirectorySetting [-ObjectId <String>] -DirectorySetting <DirectorySet
 ## DESCRIPTION
 The **Set-AzureADDirectorySetting** cmdlet updates a directory setting in Azure Active Directory (AD).
 
+## EXAMPLES
 
 ## PARAMETERS
-
-### -ObjectId
-Specifies the ID of a settings object in Azure AD.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
 
 ### -DirectorySetting
 Specifies the directory settings.
@@ -103,6 +89,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ObjectId
+Specifies the ID of a settings object in Azure AD.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -113,6 +114,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Get-AzureADDirectorySetting](xref:AzureAD/v2/Get-AzureADDirectorySetting.md)
 
 [New-AzureADDirectorySetting](xref:AzureAD/v2/New-AzureADDirectorySetting.md)

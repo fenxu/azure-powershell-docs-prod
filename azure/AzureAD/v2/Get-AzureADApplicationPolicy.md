@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 20303C1F-EB5F-4326-B522-2241D736ED4E
 online version: 
 schema: 2.0.0
-ms.assetid: 20303C1F-EB5F-4326-B522-2241D736ED4E
-updated_at: 11/7/2016 5:40 AM
-ms.date: 11/7/2016
+updated_at: 11/19/2016 5:55 PM
+ms.date: 11/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c4c481f39484ac5af35c0c2455444e3f4e618eed/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplicationPolicy.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -22,6 +22,7 @@ id: AzureAD_v2_Get_AzureADApplicationPolicy_md
 
 ## SYNOPSIS
 Gets an application policy.
+
 ## SYNTAX
 
 ```
@@ -31,29 +32,17 @@ Get-AzureADApplicationPolicy -ObjectId <String> [-InformationAction <ActionPrefe
 
 ## DESCRIPTION
 The **Get-AzureADApplicationPolicy** cmdlet gets an Azure Active Directory application policy.
+
 ## EXAMPLES
 
 ### Example 1: Get an application policy
-```PowerShell
+```
 PS C:\>Get-AzureADApplicationPolicy -ObjectId "<object id of application>"
 ```
+
 This command gets the specified application policy.
+
 ## PARAMETERS
-
-### -ObjectId
-Specifies the ID of the application.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
 
 ### -InformationAction
 Specifies how this cmdlet responds to an information event.
@@ -94,6 +83,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ObjectId
+Specifies the ID of the application.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -104,6 +108,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
 [Add-AzureADApplicationPolicy](xref:AzureAD/v2/Add-AzureADApplicationPolicy.md)
 [Remove-AzureADApplicationPolicy](xref:AzureAD/v2/Remove-AzureADApplicationPolicy.md)
 
