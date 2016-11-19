@@ -78,6 +78,8 @@
           href: ../AzureAD/v2/Get-AzureADDirectorySettingTemplate.md
         - name: Get-AzureADDomain
           href: ../AzureAD/v2/Get-AzureADDomain.md
+        - name: Get-AzureADExtensionProperty
+          href: ../AzureAD/v2/Get-AzureADExtensionProperty.md
         - name: Get-AzureADGroup
           href: ../AzureAD/v2/Get-AzureADGroup.md
         - name: Get-AzureADGroupAppRoleAssignment
@@ -86,6 +88,8 @@
           href: ../AzureAD/v2/Get-AzureADGroupMember.md
         - name: Get-AzureADGroupOwner
           href: ../AzureAD/v2/Get-AzureADGroupOwner.md
+        - name: Get-AzureADMSGroup
+          href: ../AzureAD/v2/Get-AzureADMSGroup.md
         - name: Get-AzureADOAuth2PermissionGrant
           href: ../AzureAD/v2/Get-AzureADOAuth2PermissionGrant.md
         - name: Get-AzureADObjectSetting
@@ -168,6 +172,8 @@
           href: ../AzureAD/v2/New-AzureADGroup.md
         - name: New-AzureADGroupAppRoleAssignment
           href: ../AzureAD/v2/New-AzureADGroupAppRoleAssignment.md
+        - name: New-AzureADMSGroup
+          href: ../AzureAD/v2/New-AzureADMSGroup.md
         - name: New-AzureADObjectSetting
           href: ../AzureAD/v2/New-AzureADObjectSetting.md
         - name: New-AzureADPolicy
@@ -226,6 +232,8 @@
           href: ../AzureAD/v2/Remove-AzureADGroupMember.md
         - name: Remove-AzureADGroupOwner
           href: ../AzureAD/v2/Remove-AzureADGroupOwner.md
+        - name: Remove-AzureADMSGroup
+          href: ../AzureAD/v2/Remove-AzureADMSGroup.md
         - name: Remove-AzureADOAuth2PermissionGrant
           href: ../AzureAD/v2/Remove-AzureADOAuth2PermissionGrant.md
         - name: Remove-AzureADObjectSetting
@@ -256,6 +264,10 @@
           href: ../AzureAD/v2/Remove-AzureADUserExtension.md
         - name: Remove-AzureADUserManager
           href: ../AzureAD/v2/Remove-AzureADUserManager.md
+        - name: Revoke-AzureADSignedInUserAllRefreshToken
+          href: ../AzureAD/v2/Revoke-AzureADSignedInUserAllRefreshToken.md
+        - name: Revoke-AzureADUserAllRefreshToken
+          href: ../AzureAD/v2/Revoke-AzureADUserAllRefreshToken.md
         - name: Select-AzureADGroupIdsContactIsMemberOf
           href: ../AzureAD/v2/Select-AzureADGroupIdsContactIsMemberOf.md
         - name: Select-AzureADGroupIdsGroupIsMemberOf
@@ -280,6 +292,8 @@
           href: ../AzureAD/v2/Set-AzureADDomain.md
         - name: Set-AzureADGroup
           href: ../AzureAD/v2/Set-AzureADGroup.md
+        - name: Set-AzureADMSGroup
+          href: ../AzureAD/v2/Set-AzureADMSGroup.md
         - name: Set-AzureADObjectSetting
           href: ../AzureAD/v2/Set-AzureADObjectSetting.md
         - name: Set-AzureADPolicy
