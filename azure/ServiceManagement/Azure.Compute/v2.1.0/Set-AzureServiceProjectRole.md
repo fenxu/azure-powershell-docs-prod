@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A264F19A-0596-41DB-A808-9588CFC8BEAC
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/18/2016 11:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-AzureServiceProjectRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-AzureServiceProjectRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-AzureServiceProjectRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -53,24 +53,24 @@ The **Set-AzureServiceProjectRole** cmdlet sets the number of role instances for
 
 ### 1: Set instances for a web role
 ```
-PS C:\>Set-AzureServiceProjectRole  ¢â‚¬Å"MyWebRole ¢â‚¬Â 2
+PS C:\>Set-AzureServiceProjectRole "MyWebRole" 2
 ```
 
 Sets the number of instances for the web role named 'MyWebRole1' to 2.
 
 ### 2: Set instances for a worker role
 ```
-PS C:\>Set-AzureServiceProjectRole  ¢â‚¬Å"MyWorkerRole1 ¢â‚¬Â 2
+PS C:\>Set-AzureServiceProjectRole "MyWorkerRole1" 2
 ```
 
 Sets the role instance count for the worker role named WorkerRole1 to 2.
 
 ### 3: Set the runtime version for a role service
 ```
-PS C:\>Set-AzureServiceProjectRole  ¢â‚¬Å"MyRole1 ¢â‚¬Â node 0.6.20
+PS C:\>Set-AzureServiceProjectRole "MyRole1" node 0.6.20
 ```
 
-Sets the node.exe runtime version for role  ¢â‚¬Å"MyRole1 ¢â‚¬Â to 0.6.20.
+Sets the node.exe runtime version for role "MyRole1" to 0.6.20.
 
 ## PARAMETERS
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B75F8AA3-AB47-47D0-8B72-27D4AECA92CB
-updated_at: 11/18/2016 8:33 AM
+updated_at: 11/18/2016 11:58 PM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlServerAuditingPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlServerAuditingPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlServerAuditingPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,7 +37,7 @@ Specify the ResourceGroupName and ServerName parameters to identify the server, 
 You can also define retention for the audit logs table by setting the value of the RetentionInDays and TableIdentifier parameters to define the period and the seed for the names of the audit logs tables.
 Specify the EventType parameter to define which event types to audit.
 After you run this cmdlet, auditing of the databases that use the policy of this server is enabled.
-If the cmdlet succeeds, and you specify the PassThru parameter, the cmdlet returns an object that describes the current auditing policy, and the server ¢â‚¬â"¢s identifiers.
+If the cmdlet succeeds, and you specify the PassThru parameter, the cmdlet returns an object that describes the current auditing policy, and the server's identifiers.
 Server identifiers include, but are not limited to, ResourceGroupName and ServerName.
 
 ## EXAMPLES

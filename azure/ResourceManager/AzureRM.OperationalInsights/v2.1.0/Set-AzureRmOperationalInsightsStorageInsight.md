@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 527B32C1-9D55-4311-9DA4-8EEFF7A9A3BD
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 11:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Set-AzureRmOperationalInsightsStorageInsight.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Set-AzureRmOperationalInsightsStorageInsight.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Set-AzureRmOperationalInsightsStorageInsight.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,16 +46,16 @@ The **Set-AzureRmOperationalInsightsStorageInsight** cmdlet changes the configur
 
 ### Example 1: Modify a Storage Insight by name
 ```
-PS C:\>Set-AzureRmOperationalInsightsStorageInsight  ¢â‚¬"ResourceGroupName "ContosoResourceGroup"  ¢â‚¬"WorkspaceName "MyWorkspace"  ¢â‚¬"Name "MyStorageInsight"  ¢â‚¬"Tables @("WADWindowsEventLogsTable")
+PS C:\>Set-AzureRmOperationalInsightsStorageInsight -ResourceGroupName "ContosoResourceGroup" -WorkspaceName "MyWorkspace" -Name "MyStorageInsight" -Tables @("WADWindowsEventLogsTable")
 ```
 
 This command modifies the tables from which the Storage Insight named MyStorageInsight reads.
 
 ### Example 2: Modify a Storage Insight by using a workspace object
 ```
-PS C:\>$Workspace = Get-AzureRmOperationalInsightsWorkspace  ¢â‚¬"ResourceGroupName "ContosoResourceGroup"  ¢â‚¬"Name "MyWorkspace"
+PS C:\>$Workspace = Get-AzureRmOperationalInsightsWorkspace -ResourceGroupName "ContosoResourceGroup" -Name "MyWorkspace"
 
-PS C:\>Set-AzureRmOperationalInsightsStorageInsight  ¢â‚¬"Workspace $Workspace  ¢â‚¬"Name "MyStorageInsight"  ¢â‚¬"Containers @("wad-iis-logfiles")
+PS C:\>Set-AzureRmOperationalInsightsStorageInsight -Workspace $Workspace -Name "MyStorageInsight" -Containers @("wad-iis-logfiles")
 ```
 
 The first command uses the Get-AzureRmOperationalInsightsWorkspace cmdlet to get the workspace named MyWorkspace, and then stores it in the $Workspace variable.

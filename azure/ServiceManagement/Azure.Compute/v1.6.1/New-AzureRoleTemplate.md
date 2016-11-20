@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 03FBB075-4258-4EB3-A5D1-3AE0F599E361
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/18/2016 11:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureRoleTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureRoleTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureRoleTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -97,8 +97,6 @@ Accept wildcard characters: False
 
 ### -Output
 Specifies the output path of generated template.
-\<Unclear to me ¢â‚¬Â¦is this where you want to store the template that the cmdlet creates?
-Seems to be based on the example.\>
 
 ```yaml
 Type: String

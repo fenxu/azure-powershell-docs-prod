@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 7B386051-005D-499D-A106-1EB34D5C9F47
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 11/18/2016 11:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Set-AzureWebsite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Set-AzureWebsite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Set-AzureWebsite.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -56,7 +56,7 @@ This example enables HTTP logging.
 
 ### 2: Set storage credentials for a website
 ```
-PS C:\>$settings = New-Object Hashtable$settings[ ¢â‚¬Å"AZURE_STORAGE_ACCOUNT ¢â‚¬Â= myaccountname$settings[ ¢â‚¬Å"AZURE_STORAGE_ACCESS_KEY ¢â‚¬Â] = myaccesskeySet-AzureWebsite -AppSettings $settings myWebsite
+PS C:\>$settings = New-Object Hashtable$settings["AZURE_STORAGE_ACCOUNT"= myaccountname$settings["AZURE_STORAGE_ACCESS_KEY"] = myaccesskeySet-AzureWebsite -AppSettings $settings myWebsite
 ```
 
 This example sets storage credentials in a website named myWebsite with environment variables for AZURE_STORAGE_ACCOUNT and AZURE_STORAGE_ACCESS_KEY.
@@ -275,7 +275,7 @@ Accept wildcard characters: False
 
 ### -Name
 Specifies the name of the website.
-\<What ¢â‚¬â"¢s used if this isn ¢â‚¬â"¢t specified?\>
+\<What's used if this isn't specified?\>
 
 ```yaml
 Type: String
