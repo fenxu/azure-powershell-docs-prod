@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
-ms.assetid: E5E17FE9-67C1-463F-BC06-B3B6883D99AE
+external help file: azuread.help.xml
 online version: 
 schema: 2.0.0
-updated_at: 11/19/2016 5:55 PM
-ms.date: 11/19/2016
+updated_at: 11/21/2016 8:09 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDevice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDevice.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDevice.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,47 +20,44 @@ id: AzureAD_v2_Get_AzureADDevice_md
 # Get-AzureADDevice
 
 ## SYNOPSIS
-Gets a device from Active Directory.
+Retrieves a specific device from Azure Active Directory
 
 ## SYNTAX
 
-### GetQuery (Default)
+### UNNAMED_PARAMETER_SET_1
 ```
-Get-AzureADDevice [-Top <Int32>] [-Filter <String>] [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [<CommonParameters>]
-```
-
-### GetVague
-```
-Get-AzureADDevice [-SearchString <String>] [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [<CommonParameters>]
+Get-AzureADDevice [-Top <Nullable`1[Int32]>] [-Filter <String>]
 ```
 
-### GetById
+### UNNAMED_PARAMETER_SET_2
 ```
-Get-AzureADDevice -ObjectId <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
- [<CommonParameters>]
+Get-AzureADDevice [-SearchString <String>]
+```
+
+### UNNAMED_PARAMETER_SET_3
+```
+Get-AzureADDevice -ObjectId <String>
 ```
 
 ## DESCRIPTION
-The **Get-AzureADDevice** cmdlet gets a device from Azure Active Directory (AD).
 
 ## EXAMPLES
 
-### Example 1: Get a device by ID
+### Retrieve a device based on ObjectId
 ```
-PS C:\>Get-AzureADDevice -ObjectId "3cb87a8f-0a41-4ca8-8910-e56cc00114a3"
+$DeviceId = (Get-AzureADDevice -Top 1).ObjectId
+Get-AzureADDevice -ObjectId $DeviceId
 
 ObjectId                             DeviceId                             DisplayName
 --------                             --------                             -----------
 3cb87a8f-0a41-4ca8-8910-e56cc00114a3 48445467-033c-42ca-8e38-8d181db1d49c bastias_WindowsPhone_5/1/2016_12:53 PM
 ```
 
-This command gets the specified device.
-
-### Example 2: Get all devices
+### Retrieve all devices from your directory
 ```
-PS C:\>Get-AzureADDevice
+Get-AzureADDevice
+
+Output:
 
 ObjectId                             DeviceId                             DisplayName
 --------                             --------                             -----------
@@ -70,110 +66,79 @@ ObjectId                             DeviceId                             Displa
 d4fe7726-5966-431c-b3b8-cddc8fdb717d 293872f6-c006-4e6a-8629-07847c5ab078 New Device
 ```
 
-This command gets all available devices.
+### Retrieve a device from the directory, filter on DeviceId
+```
+Get-AzureADDevice -Filter "deviceId eq guid'85e05cd0-bbc8-4765-bee6-1ebcb667ccef'"
+```
 
 ## PARAMETERS
 
-### -Filter
-Specifies the oData v3.0 filter statement. This parameter controls which objects are returned.
+### -Top
+The maximum number of records to return.
+If no value is provided, 100 records are returned
 
 ```yaml
-Type: String
-Parameter Sets: GetQuery
+Type: Nullable`1[Int32]
+Parameter Sets: UNNAMED_PARAMETER_SET_1
 Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
+### -Filter
+The filter parameter can be used to filter returned objects of a cmdlet using an Odata filter statement.
+An example would be 
 
-The acceptable values for this parameter are:
+Get-AzureADDevice -Filter "DisplayName eq 'TestName'"
 
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
+which would only return device objects for which the DisplayName equals "TestName".
 
 ```yaml
 Type: String
-Parameter Sets: (All)
-Aliases: iv
+Parameter Sets: UNNAMED_PARAMETER_SET_1
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByValue, ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -SearchString
+The SearchString parameter allows you to search for specific objects.
+This includes the DisplayName and Description attribute as well as addtional string attributes for an object
+
+```yaml
+Type: String
+Parameter Sets: UNNAMED_PARAMETER_SET_2
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -ObjectId
-Specifies the ID of a device in Azure AD.
+The unique identifier of a device in Azure Active Directory (ObjectId)
 
 ```yaml
 Type: String
-Parameter Sets: GetById
+Parameter Sets: UNNAMED_PARAMETER_SET_3
 Aliases: 
 
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
-
-### -SearchString
-Specifies a search string.
-```yaml
-Type: String
-Parameter Sets: GetVague
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Top
-Specifies the maximum number of records to return.
-
-```yaml
-Type: Int32
-Parameter Sets: GetQuery
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -182,9 +147,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-[New-AzureADDevice](xref:AzureAD/v2/New-AzureADDevice.md)
-[Remove-AzureADDevice](xref:AzureAD/v2/Remove-AzureADDevice.md)
-[Set-AzureADDevice](xref:AzureAD/v2/Set-AzureADDevice.md)
-
 

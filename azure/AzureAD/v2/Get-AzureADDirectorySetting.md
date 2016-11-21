@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
-ms.assetid: FF1EF8E7-1372-42D8-966C-19FBE9603F5B
-online version: 
+external help file: azuread.help.xml
+online version: https://blogs.technet.microsoft.com/enterprisemobility/2016/07/18/azuread-certificate-based-authentication-for-ios-and-android-now-in-preview/
 schema: 2.0.0
-updated_at: 11/19/2016 5:55 PM
-ms.date: 11/19/2016
+updated_at: 11/21/2016 8:09 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectorySetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectorySetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectorySetting.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,72 +20,37 @@ id: AzureAD_v2_Get_AzureADDirectorySetting_md
 # Get-AzureADDirectorySetting
 
 ## SYNOPSIS
-Gets a directory setting.
+Retrieves a directory setting from Azure Active Directory.
 
 ## SYNTAX
 
-### GetQuery (Default)
+### UNNAMED_PARAMETER_SET_1
 ```
-Get-AzureADDirectorySetting [-Top <Int32>] [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [<CommonParameters>]
+Get-AzureADDirectorySetting -ObjectId <String>
 ```
 
-### GetById
+### UNNAMED_PARAMETER_SET_2
 ```
-Get-AzureADDirectorySetting -ObjectId <String> [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [<CommonParameters>]
+Get-AzureADDirectorySetting [-Top <Int32>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureADDirectorySetting** cmdlet gets a directory setting from Azure Active Directory (AD).
 
 ## EXAMPLES
 
+### Example 1
+```
+
+```
+
 ## PARAMETERS
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -ObjectId
-Specifies the ID of a directory in Azure AD.
+The unique identifier of a setting in Azure Active Directory
 
 ```yaml
 Type: String
-Parameter Sets: GetById
+Parameter Sets: UNNAMED_PARAMETER_SET_1
 Aliases: 
 
 Required: True
@@ -97,11 +61,12 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-Specifies the maximum number of records to return.
+The maximum number of records to return.
+If no value is provided, 100 records are returned
 
 ```yaml
 Type: Int32
-Parameter Sets: GetQuery
+Parameter Sets: UNNAMED_PARAMETER_SET_2
 Aliases: 
 
 Required: False
@@ -111,18 +76,14 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
-
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
+Please note that this cmdlet is currently in Public Preview.
+While a cmdlet is in Public Preview we may still need to make changes to the cmdlet which could potentially cause unexpected effects.
+We discourage customers from using this cmdlet in a production environment.
 
 ## RELATED LINKS
-
-[New-AzureADDirectorySetting](xref:AzureAD/v2/New-AzureADDirectorySetting.md)
-[Remove-AzureADDirectorySetting](xref:AzureAD/v2/Remove-AzureADDirectorySetting.md)
-[Set-AzureADDirectorySetting](xref:AzureAD/v2/Set-AzureADDirectorySetting.md)
 

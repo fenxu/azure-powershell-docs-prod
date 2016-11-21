@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
-ms.assetid: 186B4EE1-A85A-45C0-B480-ABB4FBEF9AE0
+external help file: azuread.help.xml
 online version: 
 schema: 2.0.0
-updated_at: 11/19/2016 5:55 PM
-ms.date: 11/19/2016
+updated_at: 11/21/2016 8:09 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleTemplate.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,23 +20,23 @@ id: AzureAD_v2_Get_AzureADDirectoryRoleTemplate_md
 # Get-AzureADDirectoryRoleTemplate
 
 ## SYNOPSIS
-Gets directory role templates.
+Retrieves a list of directory role templates in Azure Active Directory
 
 ## SYNTAX
 
 ```
-Get-AzureADDirectoryRoleTemplate [-InformationAction <ActionPreference>] [-InformationVariable <String>]
- [<CommonParameters>]
+Get-AzureADDirectoryRoleTemplate
 ```
 
 ## DESCRIPTION
-The **Get-AzureADDirectoryRoleTemplate** cmdlet gets directory role templates in Azure Active Directory (AD).
 
 ## EXAMPLES
 
-### Example 1: Get role templates
+### Retrieve all directory role templates
 ```
-PS C:\>Get-AzureADDirectoryRoleTemplate
+Get-AzureADDirectoryRoleTemplate
+
+Output: 
 
 ObjectId                             DisplayName                             Description
 --------                             -----------                             -----------
@@ -76,49 +75,16 @@ e8611ab8-c189-46e8-94e1-60213ab1f814 Privileged Role Administrator           Pri
 a9ea8996-122f-4c74-9520-8edcd192826c Power BI Service Administrator          Full access in the Power BI Service.
 ```
 
-This command gets the role templates in Azure AD.
+### Get a specific directory role template by the display name of the role
+```
+Get-AzureADDirectoryRoleTemplate | Where-Object {$_.DisplayName -eq "Guest Inviter"}
+
+ObjectId                             DisplayName   Description
+--------                             -----------   -----------
+95e79109-95c0-4d8e-aee3-d01accf2d47b Guest Inviter Guest Inviter has access to invite guest users.
+```
 
 ## PARAMETERS
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

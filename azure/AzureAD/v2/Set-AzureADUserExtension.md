@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xml
-ms.assetid: DFEF698C-93D2-4D67-A8B2-4A1D3ADDCBBA
-online version: 
+external help file: azuread.help.xml
+online version: https://blogs.technet.microsoft.com/enterprisemobility/2016/07/18/azuread-certificate-based-authentication-for-ios-and-android-now-in-preview/
 schema: 2.0.0
-updated_at: 11/19/2016 5:55 PM
-ms.date: 11/19/2016
+updated_at: 11/21/2016 8:09 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/78576a00e7eab32d13180fb832c5e222accdc9ce/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserExtension.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,74 +20,39 @@ id: AzureAD_v2_Set_AzureADUserExtension_md
 # Set-AzureADUserExtension
 
 ## SYNOPSIS
-Sets a user extension.
 
 ## SYNTAX
 
-### SetSingle
+### UNNAMED_PARAMETER_SET_1
 ```
 Set-AzureADUserExtension -ObjectId <String> -ExtensionName <String> -ExtensionValue <String>
- [<CommonParameters>]
 ```
 
-### SetMultiple
+### UNNAMED_PARAMETER_SET_2
 ```
-Set-AzureADUserExtension -ObjectId <String>
- -ExtensionNameValues <System.Collections.Generic.Dictionary`2[System.String,System.String]>
- [<CommonParameters>]
+Set-AzureADUserExtension -ObjectId <String> -ExtensionNameValues <Dictionary`2[String]>
 ```
 
 ## DESCRIPTION
-The **Set-AzureADUserExtension** cmdlet sets a user extension in Azure Active Directory (AD).
 
 ## EXAMPLES
 
+### Set the value of an extension attribute for a user
+```
+$User = Get-AzureADUser -top 1
+Set-AzureADUserExtension -ObjectId $User.ObjectId -ExtensionName extension_e5e29b8a85d941eab8d12162bd004528_extensionAttribute8 -ExtensionValue "New Value"
+```
+
+This cmdlet sets the value of the extension attriute with name extension_e5e29b8a85d941eab8d12162bd004528_extensionAttribute8 to the value "New Value".
+
+
+Note that extension attribute names can be found by using the Get-AzureAdExtensionProperty cmdlet
+
 ## PARAMETERS
 
-### -ExtensionName
-Specifies the name of an extension.
-```yaml
-Type: String
-Parameter Sets: SetSingle
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -ExtensionNameValues
-Specifies extension name values.
-```yaml
-Type: System.Collections.Generic.Dictionary`2[System.String,System.String]
-Parameter Sets: SetMultiple
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -ExtensionValue
-Specifies an extension value.
-```yaml
-Type: String
-Parameter Sets: SetSingle
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
 ### -ObjectId
-Specifies the ID of an object.
+@{Text=}
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -97,12 +61,54 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+### -ExtensionName
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: UNNAMED_PARAMETER_SET_1
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue, ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ExtensionValue
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: UNNAMED_PARAMETER_SET_1
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue, ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ExtensionNameValues
+@{Text=}
+
+```yaml
+Type: Dictionary`2[String]
+Parameter Sets: UNNAMED_PARAMETER_SET_2
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue, ByPropertyName)
+Accept wildcard characters: False
+```
 
 ## INPUTS
 
@@ -111,8 +117,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-[Get-AzureADUserExtension](xref:AzureAD/v2/Get-AzureADUserExtension.md)
-
-[Remove-AzureADUserExtension](xref:AzureAD/v2/Remove-AzureADUserExtension.md)
 
