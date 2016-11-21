@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 5C86545A-93DD-4B3C-96B2-FA6ED740448D
-updated_at: 11/11/2016 8:57 PM
-ms.date: 11/11/2016
+updated_at: 11/16/2016 9:49 PM
+ms.date: 11/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b70933406f78665b72437893f6f77021d4229032/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b17b340bf6f86e171391e04bd9e832a6b8ef49c/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Start-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -122,6 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -RunOn
+Specifies which Hybrid Worker Group on which to run the runbook.
 
 ```yaml
 Type: String
@@ -174,8 +175,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### Microsoft.Azure.Commands.Automation.Model.Job
-This cmdlet returns a Job object, unless you specify the _Wait_ parameter.
-If you specify _Wait_, Azure PowerShell completes the job, and then returns the results.
+This cmdlet returns a **Job** object, unless you specify the _Wait_ parameter.
+
+If you do not specify _Wait_, Azure PowerShell returns a **Job** object immediately.
+If you specify _Wait_, Azure PowerShell completes the job, and then returns the result.
+The result is not a **Job** object.
+
 
 ## NOTES
 

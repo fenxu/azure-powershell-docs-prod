@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 595C26F0-6401-43D4-A70C-491FB2EF2696
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v0.9.8/Set-AzureAutomationRunbookDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v0.9.8/Set-AzureAutomationRunbookDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v0.9.8/Set-AzureAutomationRunbookDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -32,7 +32,7 @@ Set-AzureAutomationRunbookDefinition [-Name] <String> [-Path] <String> [-Overwri
 
 ## DESCRIPTION
 The **Set-AzureAutomationRunbookDefinition** cmdlet updates the draft definition of a Microsoft Azure Automation runbook.
-Provide a Windows PowerShell ‚Â® script (.ps1) file that contains a runbook which becomes the draft runbook.
+Provide a Windows PowerShell script (.ps1) file that contains a runbook which becomes the draft runbook.
 If a draft already exists, use the *Overwrite* parameter to force the cmdlet to overwrite the existing draft.
 
 ## EXAMPLES

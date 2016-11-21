@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 36F9B108-258A-4B15-B200-AD5E1F18F09B
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageFileContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageFileContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageFileContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -53,7 +53,7 @@ The **Set-AzureStorageFileContent** cmdlet uploads the contents of a file to a f
 
 ### Example 1: Upload a file in the current folder
 ```
-PS C:\>Set-AzureStorageFileContent  ¢â‚¬"ShareName "ContosoShare06"  ¢â‚¬"Source "DataFile37"  ¢â‚¬"Path "ContosoWorkingFolder/CurrentDataFile"
+PS C:\>Set-AzureStorageFileContent -ShareName "ContosoShare06" -Source "DataFile37" -Path "ContosoWorkingFolder/CurrentDataFile"
 ```
 
 This command uploads a file that is named DataFile37 in the current folder as a file that is named CurrentDataFile in the folder named ContosoWorkingFolder.

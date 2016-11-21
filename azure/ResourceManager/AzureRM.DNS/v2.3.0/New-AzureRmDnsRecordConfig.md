@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 ms.assetid: AD97BCAF-69BA-4C16-8B57-AB243D796B71
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 9:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsRecordConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsRecordConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsRecordConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -77,11 +77,11 @@ An array of these objects is passed to the New-AzureRmDnsRecordSet cmdlet using 
 ```
 PS C:\> $Records = @()
 PS C:\> $Records += New-AzureRmDnsRecordConfig -IPv4Address 1.2.3.4
-PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com"  Â¢ ¢â€šÂ¬"DnsRecords $Records
+PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords $Records
 
 # When creating a RecordSet containing a single record, the above sequence can also be condensed into a single line:
 
-PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com"  Â¢ ¢â€šÂ¬"DnsRecords (New-AzureRmDnsRecordConfig -IPv4Address 1.2.3.4)
+PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords (New-AzureRmDnsRecordConfig -IPv4Address 1.2.3.4)
 
 # To create a record set containing multiple records, use New-AzureRmDnsRecordConfig to add each record to the $Records array, 
 # then call New-AzureRmDnsRecordSet, as follows:
@@ -89,7 +89,7 @@ PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -Resource
 PS C:\> $Records = @()
 PS C:\> $Records += New-AzureRmDnsRecordConfig -IPv4Address 1.2.3.4
 PS C:\> $Records += New-AzureRmDnsRecordConfig -IPv4Address 5.6.7.8
-PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com"  Â¢ ¢â€šÂ¬"DnsRecords $Records
+PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords $Records
 ```
 
 This example creates a **RecordSet** named www in the zone myzone.com.
@@ -100,7 +100,7 @@ It contains a single DNS record.
 ```
 PS C:\> $Records = @()
 PS C:\> $Records += New-AzureRmDnsRecordConfig -Ipv6Address 2001:db8::1
-PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType AAAA -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com"  Â¢ ¢â€šÂ¬"DnsRecords $Records
+PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType AAAA -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords $Records
 ```
 
 This example creates a **RecordSet** named www in the zone myzone.com.
@@ -113,7 +113,7 @@ To create a **RecordSet** using only one line of pn_PowerShell_short, or to crea
 ```
 PS C:\> $Records = @()
 PS C:\> $Records += New-AzureRmDnsRecordConfig -Cname www.contoso.com
-PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType CNAME -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com"  Â¢ ¢â€šÂ¬"DnsRecords $Records
+PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType CNAME -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords $Records
 ```
 
 This example creates a **RecordSet** named www in the zone myzone.com.
@@ -126,7 +126,7 @@ To create a **RecordSet** using only one line of pn_PowerShell_short, or to crea
 ```
 PS C:\> $Records = @()
 PS C:\> $Records += New-AzureRmDnsRecordConfig -Exchange "mail.microsoft.com" -Preference 5
-PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType AAAA -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com"  Â¢ ¢â€šÂ¬"DnsRecords $Records
+PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType AAAA -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords $Records
 ```
 
 This command creates a **RecordSet** named www in the zone myzone.com.
@@ -139,7 +139,7 @@ To create a **RecordSet** using only one line of pn_PowerShell_short, or to crea
 ```
 PS C:\> $Records = @()
 PS C:\> $Records += New-AzureRmDnsRecordConfig -Nsdname ns1-01.azure-dns.com
-PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "ns1" -RecordType NS -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com"  Â¢ ¢â€šÂ¬"DnsRecords $Records
+PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "ns1" -RecordType NS -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords $Records
 ```
 
 This command creates a **RecordSet** named ns1 in the zone myzone.com.
@@ -151,8 +151,8 @@ To create a **RecordSet** using only one line of pn_PowerShell_short, or to crea
 ### Example 6: Create a RecordSet of type PTR
 ```
 PS C:\> $Records = @()
-PS C:\> $Records += New-AzureRmDnsRecordConfig  Â¢ ¢â€šÂ¬"Ptrdname www.contoso.com
-PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "4" -RecordType PTR -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "3.2.1.in-addr.arpa"  Â¢ ¢â€šÂ¬"DnsRecords $Records
+PS C:\> $Records += New-AzureRmDnsRecordConfig -Ptrdname www.contoso.com
+PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "4" -RecordType PTR -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "3.2.1.in-addr.arpa" -DnsRecords $Records
 ```
 
 This command creates a **RecordSet** named 4 in the zone 3.2.1.in-addr.arpa.
@@ -165,7 +165,7 @@ To create a **RecordSet** using only one line of pn_PowerShell_short, or to crea
 ```
 PS C:\> $Records = @()
 PS C:\> $Records += New-AzureRmDnsRecordConfig -Priority 0 -Weight 5 -Port 8080 -Target sipservice.contoso.com
-PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "_sip._tcp" -RecordType SRV -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com"  Â¢ ¢â€šÂ¬"DnsRecords $Records
+PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "_sip._tcp" -RecordType SRV -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords $Records
 ```
 
 This command creates a **RecordSet** named _sip._tcp in the zone myzone.com.
@@ -180,7 +180,7 @@ To create a **RecordSet** using only one line of pn_PowerShell_short, or to crea
 ```
 PS C:\> $Records = @()
 PS C:\> $Records += New-AzureRmDnsRecordConfig -Value "This is a TXT Record"
-PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "text" -RecordType TXT -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com"  Â¢ ¢â€šÂ¬"DnsRecords $Records
+PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "text" -RecordType TXT -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords $Records
 ```
 
 This command creates a **RecordSet** named text in the zone myzone.com.

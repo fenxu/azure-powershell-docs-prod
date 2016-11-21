@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 06BB9F62-1D99-4471-A11C-326D0A46C5A3
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Set-AzureSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Set-AzureSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Set-AzureSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -66,21 +66,21 @@ powershell_prelim
 ```
 C:\PS> $thumbprint = <Thumbprint-2>
 C:\PS> $differentCert = Get-Item cert:\\CurrentUser\My\$thumbprint 
-C:\PS> Set-AzureSubscription  ¢â‚¬"SubscriptionName ContosoEngineering -Certificate $differentCert
+C:\PS> Set-AzureSubscription -SubscriptionName ContosoEngineering -Certificate $differentCert
 ```
 
 This example changes the certificate for the subscription named ContosoEngineering.
 
 ### Example 2: Change the service endpoint
 ```
-C:\PS> Set-AzureSubscription  ¢â‚¬"SubscriptionName ContosoEngineering -ServiceEndpoint "https://management.core.contoso.com"
+C:\PS> Set-AzureSubscription -SubscriptionName ContosoEngineering -ServiceEndpoint "https://management.core.contoso.com"
 ```
 
 This command adds or changes a custom service endpoint for the ContosoEngineering subscription.
 
 ### Example 3: Clear property values
 ```
-C:\PS> Set-AzureSubscription  ¢â‚¬"SubscriptionName ContosoEngineering  ¢â‚¬"Certificate $null -ResourceManagerEndpoint $null
+C:\PS> Set-AzureSubscription -SubscriptionName ContosoEngineering -Certificate $null -ResourceManagerEndpoint $null
 ```
 
 This command sets the values of the Certificate and ResourceManagerEndpoint properties to null ($null).

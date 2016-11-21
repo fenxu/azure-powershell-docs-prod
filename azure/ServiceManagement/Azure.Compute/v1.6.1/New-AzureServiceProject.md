@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 68B3E4A9-7AFF-4274-BD8C-0F664CB6E65D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/18/2016 11:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureServiceProject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureServiceProject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-AzureServiceProject.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -41,7 +41,7 @@ The **New-AzureServiceProject** cmdlet creates the required files and configurat
 PS C:\>New-AzureServiceProject MyService1
 ```
 
-This example creates scaffolding for a new Azure service named  ¢â‚¬Å"MyService1 ¢â‚¬Â in the current directory.
+This example creates scaffolding for a new Azure service named "MyService1" in the current directory.
 
 ## PARAMETERS
 

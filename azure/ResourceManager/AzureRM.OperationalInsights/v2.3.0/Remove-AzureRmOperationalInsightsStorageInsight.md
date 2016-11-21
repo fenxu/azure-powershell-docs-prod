@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 ms.assetid: 92261663-CF50-4EBD-85D2-C2E254F39B41
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 9:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.3.0/Remove-AzureRmOperationalInsightsStorageInsight.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.3.0/Remove-AzureRmOperationalInsightsStorageInsight.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.3.0/Remove-AzureRmOperationalInsightsStorageInsight.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,7 +46,7 @@ The **Remove-AzureRmOperationalInsightsStorageInsight** cmdlet deletes a Storage
 
 ### Example 1: Remove a Storage Insight by name
 ```
-PS C:\>Remove-AzureRmOperationalInsightsStorageInsight  Â¢ ¢â€šÂ¬"ResourceGroupName "ContosoResourceGroup"  Â¢ ¢â€šÂ¬"WorkspaceName "MyWorkspace"  Â¢ ¢â€šÂ¬"Name "MyStorageInsight"
+PS C:\>Remove-AzureRmOperationalInsightsStorageInsight -ResourceGroupName "ContosoResourceGroup" -WorkspaceName "MyWorkspace" -Name "MyStorageInsight"
 ```
 
 This command removes the Storage Insight named MyStorageInsight from the workspace named MyWorkspace in the specified resource group.
@@ -54,9 +54,9 @@ The command does not specify the *Force* parameter, so it prompts you for confir
 
 ### Example 2: Remove a Storage Insight without confirmation
 ```
-PS C:\>$Workspace = Get-AzureRmOperationalInsightsWorkspace  Â¢ ¢â€šÂ¬"ResourceGroupName "ContosoResourceGroup"  Â¢ ¢â€šÂ¬"Name "MyWorkspace"
+PS C:\>$Workspace = Get-AzureRmOperationalInsightsWorkspace -ResourceGroupName "ContosoResourceGroup" -Name "MyWorkspace"
 
-PS C:\>Remove-AzureRmOperationalInsightsStorageInsight  Â¢ ¢â€šÂ¬"Workspace $Workspace  Â¢ ¢â€šÂ¬"Name "MyStorageInsight" -Force
+PS C:\>Remove-AzureRmOperationalInsightsStorageInsight -Workspace $Workspace -Name "MyStorageInsight" -Force
 ```
 
 The first command uses the Get-AzureRmOperationalInsightsWorkspace cmdlet to get the workspace named MyWorkspace, and then stores it in the $Workspace variable.The second command removes the storage insight named MyStorageInsight from $Workspace without prompting you for confirmation.

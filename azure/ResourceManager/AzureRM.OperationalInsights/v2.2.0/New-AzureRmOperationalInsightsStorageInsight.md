@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E400158F-2D4D-4B38-8850-56E38110FC68
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/New-AzureRmOperationalInsightsStorageInsight.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/New-AzureRmOperationalInsightsStorageInsight.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/New-AzureRmOperationalInsightsStorageInsight.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -46,11 +46,11 @@ The **New-AzureRmOperationalInsightsStorageInsight** cmdlet creates a new Storag
 
 ### Example 1: Create a Storage Insight by name
 ```
-PS C:\>$Storage = Get-AzureRmStorageAccount  ¢â‚¬"ResourceGroupName "ContosoResourceGroup"  ¢â‚¬"Name "ContosoStorage"
+PS C:\>$Storage = Get-AzureRmStorageAccount -ResourceGroupName "ContosoResourceGroup" -Name "ContosoStorage"
 
 PS C:\>$StorageKey = ($Storage | Get-AzureRmStorageAccountKey).Key1
 
-PS C:\>New-AzureRmOperationalInsightsStorageInsight  ¢â‚¬"ResourceGroupName "ContosoResourceGroup"  ¢â‚¬"WorkspaceName "MyWorkspace"  ¢â‚¬"Name "MyStorageInsight"  ¢â‚¬"StorageAccountResourceId $Storage.Id  ¢â‚¬"StorageAccountKey $StorageKey  ¢â‚¬"Tables @("WADWindowsEventLogsTable")
+PS C:\>New-AzureRmOperationalInsightsStorageInsight -ResourceGroupName "ContosoResourceGroup" -WorkspaceName "MyWorkspace" -Name "MyStorageInsight" -StorageAccountResourceId $Storage.Id -StorageAccountKey $StorageKey -Tables @("WADWindowsEventLogsTable")
 ```
 
 The first command uses the Get-AzureRmStorageAccount cmdlet to get the storage account named ContosoStorage, and then stores it in the $Storage variable.
@@ -62,13 +62,13 @@ This storage insight consumes data from the WADWindowsEventLogsTable table in th
 
 ### Example 2: Create a Storage Insight by using a workspace object
 ```
-PS C:\>$Workspace = Get-AzureRmOperationalInsightsWorkspace  ¢â‚¬"ResourceGroupName "ContosoResourceGroup"  ¢â‚¬"Name "MyWorkspace"
+PS C:\>$Workspace = Get-AzureRmOperationalInsightsWorkspace -ResourceGroupName "ContosoResourceGroup" -Name "MyWorkspace"
 
-PS C:\>$Storage = Get-AzureRmStorageAccount  ¢â‚¬"ResourceGroupName "ContosoResourceGroup"  ¢â‚¬"Name "ContosoStorage"
+PS C:\>$Storage = Get-AzureRmStorageAccount -ResourceGroupName "ContosoResourceGroup" -Name "ContosoStorage"
 
 PS C:\>$StorageKey = ($Storage | Get-AzureRmStorageAccountKey).Key1
 
-PS C:\>New-AzureRmOperationalInsightsStorageInsight  ¢â‚¬"Workspace $Workspace  ¢â‚¬"Name "MyStorageInsight"  ¢â‚¬"StorageAccountResourceId $Storage.Id  ¢â‚¬"StorageAccountKey $StorageKey  ¢â‚¬"Tables @("WADWindowsEventLogsTable")
+PS C:\>New-AzureRmOperationalInsightsStorageInsight -Workspace $Workspace -Name "MyStorageInsight" -StorageAccountResourceId $Storage.Id -StorageAccountKey $StorageKey -Tables @("WADWindowsEventLogsTable")
 ```
 
 The first command uses the Get-AzureRmOperationalInsightsWorkspace cmdlet to get the workspace named MyWorkspace, and then stores it in the $Workspace variable.

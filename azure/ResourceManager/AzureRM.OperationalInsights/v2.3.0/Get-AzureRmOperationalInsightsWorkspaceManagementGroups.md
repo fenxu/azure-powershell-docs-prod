@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml
 ms.assetid: F29E0B9C-2479-44FB-B196-EAF97B69E6A6
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 9:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.3.0/Get-AzureRmOperationalInsightsWorkspaceManagementGroups.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.3.0/Get-AzureRmOperationalInsightsWorkspaceManagementGroups.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.3.0/Get-AzureRmOperationalInsightsWorkspaceManagementGroups.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -37,14 +37,14 @@ The **Get-AzureRmOperationalInsightsWorkspaceManagementGroups** cmdlet lists the
 
 ### Example 1: Get management groups by workspace name
 ```
-PS C:\>Get-AzureRmOperationalInsightsWorkspaceManagementGroups  Â¢ ¢â€šÂ¬"ResourceGroupName "ContosoResourceGroup"  Â¢ ¢â€šÂ¬"Name "MyWorkspace"
+PS C:\>Get-AzureRmOperationalInsightsWorkspaceManagementGroups -ResourceGroupName "ContosoResourceGroup" -Name "MyWorkspace"
 ```
 
 This command gets the management groups for the workspace named MyWorkspace in the resource group named ContosoResourceGroup.
 
 ### Example 2: Get management groups by using the pipeline
 ```
-PS C:\>Get-AzureRmOperationalInsightsWorkspace  Â¢ ¢â€šÂ¬"ResourceGroupName "ContosoResourceGroup"  Â¢ ¢â€šÂ¬"Name "MyWorkspace" | Get-AzureOperationalInsightsWorkspaceManagementGroups
+PS C:\>Get-AzureRmOperationalInsightsWorkspace -ResourceGroupName "ContosoResourceGroup" -Name "MyWorkspace" | Get-AzureOperationalInsightsWorkspaceManagementGroups
 ```
 
 This command uses the Get-AzureRmOperationalInsightsWorkspace cmdlet to get the workspace named MyWorkspace, and then passes the workspace to the current cmdlet, which gets the management groups for that workspace.

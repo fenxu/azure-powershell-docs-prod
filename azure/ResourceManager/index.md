@@ -1,9 +1,9 @@
 ---
 ms.assetid: BB5EBF08-3264-4DDB-A1DC-BD5BA1805E0A
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 11:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ResourceManager/index.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -53,7 +53,7 @@ PS C:\> Import-Module AzureRM.Compute
 To see all of the Azure Resource Manager modules installed and their versions, run the following command:
 
 ```PowerShell
-PS C:\> Get-Module –ListAvailable AzureRM*
+PS C:\> Get-Module -ListAvailable AzureRM*
 ```
 
 ## To use the cmdlets
@@ -77,13 +77,13 @@ PS C:\> Get-AzureRmSubscription
 To select a default subscription for your current session, run the following command:
 
 ```PowerShell
-PS C:\> Get-AzureRmSubscription –SubscriptionName "your subscription" | Select-AzureRmSubscription
+PS C:\> Get-AzureRmSubscription -SubscriptionName "your subscription" | Select-AzureRmSubscription
 ```
 
 To select the default storage context for your current session, run the following command:
 
 ```PowerShell
-PS C:\> Set-AzureRmCurrentStorageAccount –ResourceGroupName "your resource group" –StorageAccountName "your storage account name"
+PS C:\> Set-AzureRmCurrentStorageAccount -ResourceGroupName "your resource group" -StorageAccountName "your storage account name"
 ```
 
 To import the **Azure.Storage** data plane module (blob, queue, table), run the following command:

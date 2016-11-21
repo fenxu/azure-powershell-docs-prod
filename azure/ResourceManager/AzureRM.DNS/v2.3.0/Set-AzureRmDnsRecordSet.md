@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 ms.assetid: 99E6C4DD-11AF-4DC0-848B-39811240BE06
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 9:58 PM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Set-AzureRmDnsRecordSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Set-AzureRmDnsRecordSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Set-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -43,9 +43,9 @@ You can suppress this behavior using the *Overwrite* parameter, which updates th
 ### Example 1: Update a record set
 ```
 PS C:\>$RecordSet = Get-AzureRmDnsRecordSet -ResourceGroupName MyResourceGroup -ZoneName myzone.com -Name www -RecordType A
-PS C:\> Add-AzureRmDnsRecordConfig  Â¢ ¢â€šÂ¬"RecordSet $RecordSet -Ipv4Address 172.16.0.0
-PS C:\> Add-AzureRmDnsRecordConfig  Â¢ ¢â€šÂ¬"RecordSet $RecordSet -Ipv4Address 172.31.255.255
-PS C:\> Set-AzureRmDnsRecordSet  Â¢ ¢â€šÂ¬"RecordSet $RecordSet
+PS C:\> Add-AzureRmDnsRecordConfig -RecordSet $RecordSet -Ipv4Address 172.16.0.0
+PS C:\> Add-AzureRmDnsRecordConfig -RecordSet $RecordSet -Ipv4Address 172.31.255.255
+PS C:\> Set-AzureRmDnsRecordSet -RecordSet $RecordSet
 
 # These cmdlets can also be piped: 
 

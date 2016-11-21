@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: DD3A6862-1AF2-44A3-8D0D-7B48D7C8C6FC
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/New-AzureAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/New-AzureAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/New-AzureAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -41,8 +41,8 @@ New-AzureAutomationRunbook [-Path] <String> [-Description <String>] [-Tags <Stri
 The **New-AzureAutomationRunbook** cmdlet creates a new, empty Microsoft Azure Automation runbook.
 Specify a name to create a new runbook.
 
-You can also specify the path to a Windows PowerShell ‚Â® script (.ps1 ) file to import a runbook.
-The script to import must contain a single Windows PowerShell ‚Â® Workflow definition.
+You can also specify the path to a Windows PowerShell script (.ps1 ) file to import a runbook.
+The script to import must contain a single Windows PowerShell Workflow definition.
 The name of this Windows PowerShell Workflow becomes the name of the runbook.
 
 ## EXAMPLES

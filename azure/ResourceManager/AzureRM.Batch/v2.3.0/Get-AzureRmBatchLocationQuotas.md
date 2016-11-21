@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 ms.assetid: A39A415A-B403-48D3-AF80-CF7CFE382577
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 11/17/2016 12:05 AM
+ms.date: 11/17/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.3.0/Get-AzureRmBatchLocationQuotas.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.3.0/Get-AzureRmBatchLocationQuotas.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e571c04f9a934d1d758a5e8cee0c6c5b87856e76/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.3.0/Get-AzureRmBatchLocationQuotas.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,8 +34,7 @@ Gets the Batch service quotas for the specified subscription at the given locati
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Get the Batch service quotas for the subscription in the West US region --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Get the Batch service quotas for the subscription in the West US region 
 
 ```
 PS C:\>Get-AzureRmBatchLocationQuotas -Location "westus"
@@ -75,5 +74,4 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Azure Batch Cmdlets]()
 

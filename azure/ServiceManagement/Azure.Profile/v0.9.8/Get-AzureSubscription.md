@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 510AF9AE-6D22-4550-B221-376A0CA626C2
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/18/2016 8:33 AM
+ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Get-AzureSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Get-AzureSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Get-AzureSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -68,7 +68,7 @@ This command gets all subscriptions in the account.
 
 ### Example 2: Get a subscription by name
 ```
-C:\PS>Get-AzureSubscription  ¢â‚¬"SubscriptionName "MyProdSubscription"
+C:\PS>Get-AzureSubscription -SubscriptionName "MyProdSubscription"
 ```
 
 This command gets only the "MyProdSubsciption" subscription.
