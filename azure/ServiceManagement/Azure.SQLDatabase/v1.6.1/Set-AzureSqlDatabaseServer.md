@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 9002901A-BE80-40C2-8EDC-E864ABE3C4AF
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabaseServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabaseServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabaseServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_Set_AzureSqlDatabaseServer_md
 # Set-AzureSqlDatabaseServer
 
 ## SYNOPSIS
-Modifies the properties of an ssSDS server.
+Modifies the properties of an Azure SQL Database server.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Set-AzureSqlDatabaseServer [-ServerName] <String> -AdminPassword <String> [-Forc
 ```
 
 ## DESCRIPTION
-The **Set-AzureSqlDatabaseServer** cmdlet modifies the properties of the specified instance of ssSDS Server.
+The **Set-AzureSqlDatabaseServer** cmdlet modifies the properties of the specified instance of Azure SQL Database Server.
 In the current release, you can only update the administrator account password for a server.
 
 ## EXAMPLES
@@ -41,7 +41,7 @@ In the current release, you can only update the administrator account password f
 PS C:\>Set-AzureSqlDatabaseServer -ServerName "lpqd0zbr8y" -AdminPassword "NewPassword"
 ```
 
-This command changes the administrator account password for the ssSDS server named lpqd0zbr8y.
+This command changes the administrator account password for the Azure SQL Database server named lpqd0zbr8y.
 
 ## PARAMETERS
 
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -AdminPassword
-Specifies the administrator account password for the ssSDS server.
+Specifies the administrator account password for the Azure SQL Database server.
 You must specify a strong password.
 For more information, see Strong Passwordshttp://go.microsoft.com/fwlink/p/?LinkId=154152 (http://go.microsoft.com/fwlink/p/?LinkId=154152) at the Microsoft Developer Network.
 

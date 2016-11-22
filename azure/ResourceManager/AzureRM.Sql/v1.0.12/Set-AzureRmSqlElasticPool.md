@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 166F3CFF-13A1-45F4-AF29-79E59FC33C13
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlElasticPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlElasticPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlElasticPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_Set_AzureRmSqlElasticPool_md
 # Set-AzureRmSqlElasticPool
 
 ## SYNOPSIS
-Modifies properties of an elastic database pool in a nextref_database.
+Modifies properties of an elastic database pool in a SQL Database.
 
 ## SYNTAX
 
@@ -34,7 +34,7 @@ Set-AzureRmSqlElasticPool [-ElasticPoolName] <String> [-Edition <DatabaseEdition
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmSqlElasticPool** cmdlet modifies properties for an elastic database pool in an ssSDS.
+The **Set-AzureRmSqlElasticPool** cmdlet modifies properties for an elastic database pool in an Azure SQL Database.
 This cmdlet can modify the minimum Database Throughput Units (DTUs) per database in addition to the maximum DTUs per database, the number of DTUs for the pool, and the storage limit for the pool.
 
 ## EXAMPLES
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -Edition
-Specifies the edition of the ssSDS for the elastic pool.
+Specifies the edition of the Azure SQL Database for the elastic pool.
 You cannot change the edition.
 psdx_paramvalues
 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 5944EDB2-DC4D-40C3-9123-A33011CB7032
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabaseServerFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabaseServerFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabaseServerFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_Set_AzureSqlDatabaseServerFirewal
 # Set-AzureSqlDatabaseServerFirewallRule
 
 ## SYNOPSIS
-Modifies an existing firewall rule in an ssSDS Server.
+Modifies an existing firewall rule in an Azure SQL Database Server.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Set-AzureSqlDatabaseServerFirewallRule [-ServerName] <String> -RuleName <String>
 ```
 
 ## DESCRIPTION
-The **Set-AzureSqlDatabaseServerFirewallRule** cmdlet modifies the start IP address and end IP address values of an existing firewall rule in the specified instance of ssSDS Server.
+The **Set-AzureSqlDatabaseServerFirewallRule** cmdlet modifies the start IP address and end IP address values of an existing firewall rule in the specified instance of Azure SQL Database Server.
 
 ## EXAMPLES
 
@@ -40,7 +40,7 @@ The **Set-AzureSqlDatabaseServerFirewallRule** cmdlet modifies the start IP addr
 PS C:\>Set-AzureSqlDatabaseServerFirewallRule -ServerName "lpqd0zbr8y" -RuleName "FirewallRule24" -StartIpAddress 10.1.1.2 -EndIpAddress 10.1.1.4
 ```
 
-This command modifies the start IP address and end IP address of the firewall rule named FirewallRule24 on the ssSDS server named lpqd0zbr8y.
+This command modifies the start IP address and end IP address of the firewall rule named FirewallRule24 on the Azure SQL Database server named lpqd0zbr8y.
 
 ## PARAMETERS
 

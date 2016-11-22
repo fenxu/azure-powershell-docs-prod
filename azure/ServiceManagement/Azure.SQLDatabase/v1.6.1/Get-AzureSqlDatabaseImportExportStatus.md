@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E18CC360-6C25-490F-AB9F-AFA3FD93384D
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseImportExportStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseImportExportStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseImportExportStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -57,7 +57,7 @@ The second command gets the status of the export request stored in $ExportReques
 ## PARAMETERS
 
 ### -Username
-Specifies the user name required to connect to the ssSDS server.
+Specifies the user name required to connect to the Azure SQL Database server.
 You must specify this parameter if you specified the *RequestId* parameter.
 
 ```yaml
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -Password
-Specifies the password that is required to connect to the ssSDS server.
+Specifies the password that is required to connect to the Azure SQL Database server.
 You must specify this parameter if you specified the *RequestId* parameter.
 
 ```yaml
@@ -89,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of the ssSDS server.
+Specifies the name of the Azure SQL Database server.
 You must specify this parameter if you specified the *RequestId* parameter.
 
 ```yaml

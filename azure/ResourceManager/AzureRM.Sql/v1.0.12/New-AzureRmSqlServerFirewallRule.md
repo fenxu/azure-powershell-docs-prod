@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: AB7DE118-2471-4396-AED4-CF6B1DE13F04
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlServerFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlServerFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlServerFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_New_AzureRmSqlServerFirewallRule_md
 # New-AzureRmSqlServerFirewallRule
 
 ## SYNOPSIS
-Creates a firewall rule for a nextref_database server.
+Creates a firewall rule for a SQL Database server.
 
 ## SYNTAX
 
@@ -39,7 +39,7 @@ New-AzureRmSqlServerFirewallRule [-AllowAllAzureIPs] [-ServerName] <String> [-Re
 ```
 
 ## DESCRIPTION
-The **New-AzureRmSqlServerFirewallRule** cmdlet creates a firewall rule for the specified ssSDS server.
+The **New-AzureRmSqlServerFirewallRule** cmdlet creates a firewall rule for the specified Azure SQL Database server.
 
 ## EXAMPLES
 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 78423815-46CD-43C3-9EAD-3A51E0480124
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRMVMSqlServerExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRMVMSqlServerExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRMVMSqlServerExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Compute_v1_3_4_Remove_AzureRMVMSqlServerExtension_md
 # Remove-AzureRmVMSqlServerExtension
 
 ## SYNOPSIS
-Removes a ssNoVersion extension from a virtual machine.
+Removes a SQL Server extension from a virtual machine.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Remove-AzureRmVMSqlServerExtension [-ResourceGroupName] <String> [-VMName] <Stri
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmVMSqlServerExtension** cmdlet removes an AzuressNoVersion extension from a virtual machine.
+The **Remove-AzureRmVMSqlServerExtension** cmdlet removes an AzureSQL Server extension from a virtual machine.
 
 ## EXAMPLES
 
@@ -40,7 +40,7 @@ The **Remove-AzureRmVMSqlServerExtension** cmdlet removes an AzuressNoVersion ex
 PS C:\>Remove-AzureRMVMSqlServerExtension -ResourceGroupName "ResourceGroup11" -VMName "ContosoVM22" -Name "SqlIaaSAgent"
 ```
 
-This command removes a ssNoVersion extension from the virtual machine named ContosoVM22.
+This command removes a SQL Server extension from the virtual machine named ContosoVM22.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -VMName
-Specifies the name of the virtual machine from which this cmdlet removes the ssNoVersion extension.
+Specifies the name of the virtual machine from which this cmdlet removes the SQL Server extension.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the ssNoVersion the extension that this cmdlet removes.
+Specifies the name of the SQL Server the extension that this cmdlet removes.
 
 ```yaml
 Type: String

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 8D214DCA-3BED-470D-B360-611805D28408
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Set-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_Set_AzureSqlDatabase_md
 # Set-AzureSqlDatabase
 
 ## SYNOPSIS
-Sets properties for an ssSDS.
+Sets properties for an Azure SQL Database.
 
 ## SYNTAX
 
@@ -58,9 +58,9 @@ Set-AzureSqlDatabase [-ServerName] <String> [-DatabaseName] <String> [-NewDataba
 ```
 
 ## DESCRIPTION
-The **Set-AzureSqlDatabase** cmdlet sets properties for an ssSDS.
-You can specify the database by name, or pass an ssSDS object through the pipeline.
-You can specify the server by name, or pass an ssSDS server connection context.
+The **Set-AzureSqlDatabase** cmdlet sets properties for an Azure SQL Database.
+You can specify the database by name, or pass an Azure SQL Database object through the pipeline.
+You can specify the server by name, or pass an Azure SQL Database server connection context.
 Create a connection context by running the New-AzureSqlDatabaseServerContext cmdlet.
 If you specify the server by name, the cmdlet uses the current Azure subscription information to authenticate the request.
 
@@ -72,7 +72,7 @@ PS C:\>$Database01 = Get-AzureSqlDatabase -ConnectionContext $Context -DatabaseN
 PS C:\> Set-AzureSqlDatabase -ConnectionContext $Context -Database $Database01 -MaxSizeGB 20
 ```
 
-This example changes the size of the database named Database01 to 20 GB, in the ssSDS server connection context $Context.
+This example changes the size of the database named Database01 to 20 GB, in the Azure SQL Database server connection context $Context.
 
 ### Example 2: Change the size of a database by using a server name
 ```
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -Database
-Specifies an object that represents the ssSDS that this cmdlet modifies.
+Specifies an object that represents the Azure SQL Database that this cmdlet modifies.
 
 ```yaml
 Type: Database
@@ -130,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -Edition
-Specifies the new edition for the ssSDS.
+Specifies the new edition for the Azure SQL Database.
 Valid values are: 
 
 - None
@@ -225,7 +225,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Returns the updated ssSDS.
+Returns the updated Azure SQL Database.
 
 ```yaml
 Type: SwitchParameter

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D83879BE-919A-4C1B-854B-E366CCAB5D8C
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Start-AzureRmSqlServerUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Start-AzureRmSqlServerUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Start-AzureRmSqlServerUpgrade.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_Start_AzureRmSqlServerUpgrade_md
 # Start-AzureRmSqlServerUpgrade
 
 ## SYNOPSIS
-Starts the upgrade of a nextref_database server.
+Starts the upgrade of a SQL Database server.
 
 ## SYNTAX
 
@@ -34,7 +34,7 @@ Start-AzureRmSqlServerUpgrade -ServerVersion <String> [-ScheduleUpgradeAfterUtcD
 ```
 
 ## DESCRIPTION
-The **Start-AzureRmSqlServerUpgrade** cmdlet starts the upgrade of an ssSDS server version 11 to version 12.
+The **Start-AzureRmSqlServerUpgrade** cmdlet starts the upgrade of an Azure SQL Database server version 11 to version 12.
 You can monitor the progress of an upgrade by using the Get-AzureRmSqlServerUpgrade cmdlet.
 
 ## EXAMPLES

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: ABC7E620-0FBB-45FD-99C5-2D3C87C7D045
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -40,9 +40,9 @@ Get-AzureSqlDatabase [-ServerName] <String> [-Database <Database>] [-DatabaseNam
 ```
 
 ## DESCRIPTION
-The **Get-AzureSqlDatabase** cmdlet retrieves one or more instances of an ssSDS from an ssSDS server.
-You can specify the server with an ssSDS server connection context that you create using the **New-AzureSqlDatabaseServerContext** cmdlet.
-Or, if you specify the ssSDS server name, the cmdlet uses the current Azure subscription information to authenticate the request to access the server.
+The **Get-AzureSqlDatabase** cmdlet retrieves one or more instances of an Azure SQL Database from an Azure SQL Database server.
+You can specify the server with an Azure SQL Database server connection context that you create using the **New-AzureSqlDatabaseServerContext** cmdlet.
+Or, if you specify the Azure SQL Database server name, the cmdlet uses the current Azure subscription information to authenticate the request to access the server.
 
 If you do not specify a database, the **Get-AzureSqlDatabase** cmdlet returns all databases from the specified server.
 

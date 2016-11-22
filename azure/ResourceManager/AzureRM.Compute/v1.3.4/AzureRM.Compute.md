@@ -5,10 +5,10 @@ Download Help Link: http://go.microsoft.com/fwlink/?linkid=390762
 Help Version: 2.0.8.0
 Locale: en-US
 ms.assetid: 3FF02FCF-7E39-4DA0-AD1B-7F982B60A867
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
 uid: ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -161,7 +161,7 @@ Gets available virtual machine sizes.
 
 
 ### [Get-AzureRMVMSqlServerExtension](./Get-AzureRMVMSqlServerExtension.md)
-Gets the settings for a ssNoVersion extension on a virtual machine.
+Gets the settings for a SQL Server extension on a virtual machine.
 
 
 ### [Get-AzureRmVmssSku](./Get-AzureRmVmssSku.md)
@@ -221,7 +221,7 @@ Creates a virtual machine.
 
 
 ### [New-AzureVMSqlServerAutoBackupConfig](./New-AzureVMSqlServerAutoBackupConfig.md)
-Creates a configuration object for ssNoVersion automatic backup.
+Creates a configuration object for SQL Server automatic backup.
 
 
 ### [New-AzureVMSqlServerAutoPatchingConfig](./New-AzureVMSqlServerAutoPatchingConfig.md)
@@ -288,7 +288,7 @@ Removes a network interface from a virtual machine.
 
 
 ### [Remove-AzureRMVMSqlServerExtension](./Remove-AzureRMVMSqlServerExtension.md)
-Removes a ssNoVersion extension from a virtual machine.
+Removes a SQL Server extension from a virtual machine.
 
 ### [Remove-AzureRmVmssExtension](./Remove-AzureRmVmssExtension.md)
 Removes an extension from the VMSS.

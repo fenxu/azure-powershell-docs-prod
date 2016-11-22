@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 932421FF-3AD3-4179-B550-604408F633AC
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerUpgradeHint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerUpgradeHint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerUpgradeHint.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_Get_AzureRmSqlServerUpgradeHint_md
 # Get-AzureRmSqlServerUpgradeHint
 
 ## SYNOPSIS
-Gets pricing tier hints for upgrading an ssSDS server.
+Gets pricing tier hints for upgrading an Azure SQL Database server.
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ Get-AzureRmSqlServerUpgradeHint [-ServerName] <String> [-ExcludeElasticPools <Bo
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSqlServerUpgradeHint** cmdlet gets pricing tier hints for upgrading an ssSDS server.
+The **Get-AzureRmSqlServerUpgradeHint** cmdlet gets pricing tier hints for upgrading an Azure SQL Database server.
 Hints may contain the elastic database pool and stand-alone database hints.
 Databases that are still in Web and Business pricing tiers get a hint to upgrade to the new Basic, Standard, or Premium pricing tiers, or to go into the elastic database pool.
 This cmdlet returns hints for all databases hosted on the specified server.

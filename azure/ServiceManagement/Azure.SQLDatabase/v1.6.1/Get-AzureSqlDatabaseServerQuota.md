@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D84357D2-7581-4F76-9FA7-5C0714790F7C
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseServerQuota.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseServerQuota.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseServerQuota.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_Get_AzureSqlDatabaseServerQuota_m
 # Get-AzureSqlDatabaseServerQuota
 
 ## SYNOPSIS
-Gets quota information for an ssSDS server.
+Gets quota information for an Azure SQL Database server.
 
 ## SYNTAX
 
@@ -38,7 +38,7 @@ Get-AzureSqlDatabaseServerQuota [-ServerName] <String> [[-QuotaName] <String>] [
 ```
 
 ## DESCRIPTION
-The **Get-AzureSqlDatabaseServerQuota** cmdlet gets the quota information for a specified instance of ssSDS Server.
+The **Get-AzureSqlDatabaseServerQuota** cmdlet gets the quota information for a specified instance of Azure SQL Database Server.
 Specify a connection context or the server name.
 If you do not specify a quota name, this cmdlet gets all the quota information for the server.
 
@@ -49,7 +49,7 @@ If you do not specify a quota name, this cmdlet gets all the quota information f
 PS C:\>$QuotaPremium = GetAzureSqlDatabaseServerQuota $Context -QuotaName "Premium_Databases"
 ```
 
-This command gets the quota named Premium_Databases from the ssSDS server specified by the connection stored in the $Context variable.
+This command gets the quota named Premium_Databases from the Azure SQL Database server specified by the connection stored in the $Context variable.
 
 ### Example 2: Get information for all quotas
 ```

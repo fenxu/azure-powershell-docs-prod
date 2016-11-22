@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 9F77E3D1-EAE1-4ED2-A16E-C593BDD1C907
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,7 +34,7 @@ Set-AzureRmVMSqlServerExtension [[-Version] <String>] [-ResourceGroupName] <Stri
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmVMSqlServerExtension** cmdlet sets the AzuressNoVersion extension on a virtual machine.
+The **Set-AzureRmVMSqlServerExtension** cmdlet sets the AzureSQL Server extension on a virtual machine.
 
 ## EXAMPLES
 
@@ -73,7 +73,7 @@ PS C:\>Get-AzureRmVM -ServiceName "Service03" -Name "VirtualMachine08" | Set-Azu
 ```
 
 This command gets a virtual machine named VirtualMachine08 on Service03, and then passes it to the current cmdlet.
-The command disables ssNoVersion virtual machine extension on that virtual machine.
+The command disables SQL Server virtual machine extension on that virtual machine.
 
 ### Example 4: Uninstall a SQL Server extension on a specific virtual machine
 ```
@@ -81,12 +81,12 @@ PS C:\>Get-AzureRmVM -ServiceName "Service03" -Name "VirtualMachine08" | Set-Azu
 ```
 
 This command gets a virtual machine named VirtualMachine08 on Service03, and then passes it to the current cmdlet.
-The command uninstalls a ssNoVersion virtual machine extension on that virtual machine.
+The command uninstalls a SQL Server virtual machine extension on that virtual machine.
 
 ## PARAMETERS
 
 ### -Version
-Specifies the version of the ssNoVersion extension.
+Specifies the version of the SQL Server extension.
 
 ```yaml
 Type: String
@@ -116,7 +116,7 @@ Accept wildcard characters: False
 ```
 
 ### -VMName
-Specifies the name of the virtual machine on which this cmdlet sets the ssNoVersion extension.
+Specifies the name of the virtual machine on which this cmdlet sets the SQL Server extension.
 
 ```yaml
 Type: String
@@ -131,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the ssNoVersion the extension.
+Specifies the name of the SQL Server the extension.
 
 ```yaml
 Type: String
@@ -146,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -AutoPatchingSettings
-Specifies the automatic ssNoVersion patching settings.
+Specifies the automatic SQL Server patching settings.
 To create an **AutoPatchingSettings** object , use the New-AzureVMSqlServerAutoPatchingConfig cmdlet.
 
 ```yaml
@@ -162,7 +162,7 @@ Accept wildcard characters: False
 ```
 
 ### -AutoBackupSettings
-Specifies the automatic ssNoVersion backup settings.
+Specifies the automatic SQL Server backup settings.
 To create an **AutoBackupSettings** object , use the New-AzureVMSqlServerAutoBackupConfig cmdlet.
 
 ```yaml

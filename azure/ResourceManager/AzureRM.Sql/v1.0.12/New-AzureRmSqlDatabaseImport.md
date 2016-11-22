@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 39EF07C6-DBF7-42D9-A15E-082FFD4F29C2
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseImport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseImport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseImport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -34,7 +34,7 @@ New-AzureRmSqlDatabaseImport -DatabaseName <String> -Edition <DatabaseEdition> -
 ```
 
 ## DESCRIPTION
-The **New-AzureRmSqlDatabaseImport** cmdlet imports a bacpac file from an Azure storage account to a new ssSDS.
+The **New-AzureRmSqlDatabaseImport** cmdlet imports a bacpac file from an Azure storage account to a new Azure SQL Database.
 The get import database status request may be sent to retrieve status information for this request.
 
 ## EXAMPLES
@@ -62,7 +62,7 @@ This command creates an import request to import a .bacpac to a new database.
 ## PARAMETERS
 
 ### -DatabaseName
-Specifies the name of the nextref_database.
+Specifies the name of the SQL Database.
 
 ```yaml
 Type: String
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServiceObjectiveName
-Specifies the name of the service objective to assign to the ssSDS.
+Specifies the name of the service objective to assign to the Azure SQL Database.
 
 ```yaml
 Type: String
@@ -130,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of the nextref_database server.
+Specifies the name of the SQL Database server.
 
 ```yaml
 Type: String
@@ -239,7 +239,7 @@ Set the *AdministratorLogin* and *AdministratorLoginPassword* parameters to the 
 Azure Active Directory authentication.
 Set *AdministratorLogin* and *AdministratorLoginPassword* to the Azure Active Directory administrator username and password.
 
-This parameter is only available on nextref_database V12 servers.
+This parameter is only available on SQL Database V12 servers.
 
 ```yaml
 Type: AuthenticationType
@@ -254,7 +254,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group for the nextref_database server.
+Specifies the name of the resource group for the SQL Database server.
 
 ```yaml
 Type: String
