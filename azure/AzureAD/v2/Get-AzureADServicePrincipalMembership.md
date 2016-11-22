@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+external help file: azuread.help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 21466FB1-EC5D-4045-B94C-FF8B7E6B5158
-updated_at: 11/7/2016 7:50 PM
-ms.date: 11/7/2016
+updated_at: 11/21/2016 8:09 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalMembership.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/331a79252fb80f60e0da51838f45fd3652ca27d0/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalMembership.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalMembership.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,22 +20,28 @@ id: AzureAD_v2_Get_AzureADServicePrincipalMembership_md
 # Get-AzureADServicePrincipalMembership
 
 ## SYNOPSIS
-Get a service principal membership.
+Get service principal memberships.
 
 ## SYNTAX
 
 ```
-Get-AzureADServicePrincipalMembership -ObjectId <String> [-Top <Int32>] [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [<CommonParameters>]
+Get-AzureADServicePrincipalMembership -ObjectId <String> [-Top <Nullable`1[Int32]>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureADServicePrincipalMembership** cmdlet gets the memberships of a service principal in Azure Active Directory (AD).
+
+## EXAMPLES
+
+### Retrieve the memberships of a Service Principal
+```
+$ServicePrincipalId = (Get-AzureADServicePrincipal -Top 1).ObjectId
+Get-AzureADServicePrincipalMembership -ObjectId $ServicePrincipalId
+```
 
 ## PARAMETERS
 
 ### -ObjectId
-Specifies the ID of a service principal in Azure AD.
+The unique idenfier of an service principal in Azure Active Directory
 
 ```yaml
 Type: String
@@ -46,64 +51,25 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -Top
-Specifies the maximum number of records to return.
+The maximum number of records to return.
+If no value is provided, 100 records are returned
 
 ```yaml
-Type: Int32
+Type: Nullable`1[Int32]
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -112,5 +78,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
 

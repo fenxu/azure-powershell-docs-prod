@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
-online version: 
+external help file: azuread.help.xml
+online version: https://go.microsoft.com/fwLink/?LinkID=519265&clcid=0x409
 schema: 2.0.0
-ms.assetid: 81048EAD-48BE-4972-8942-8FA44F3D7979
-updated_at: 11/9/2016 4:38 PM
-ms.date: 11/9/2016
+updated_at: 11/21/2016 8:09 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADObjectSetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d2a0d55feba78d79e687675d049100836fa46141/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADObjectSetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADObjectSetting.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -26,17 +25,22 @@ Deletes settings in Azure Active Directory.
 ## SYNTAX
 
 ```
-Remove-AzureADObjectSetting [-Confirm] -TargetType <String> -TargetObjectId <String> [-ObjectId <String>]
- [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
+Remove-AzureADObjectSetting -TargetType <String> -TargetObjectId <String> [-ObjectId <String>] [-Confirm]
 ```
 
 ## DESCRIPTION
-The **Remove-AzureADObjectSetting** cmdlet removes object settings in Azure Active Directory (AD).
+
+## EXAMPLES
+
+### Example 1
+```
+
+```
 
 ## PARAMETERS
 
 ### -TargetType
-Specifies the target type.
+object type name of directory object that will be assigned settings
 
 ```yaml
 Type: String
@@ -51,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -TargetObjectId
-Specifies the object ID of the target. 
+of a setting that will be assigned settings
 
 ```yaml
 Type: String
@@ -66,7 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-Specfies the ID of a settings object in Azure AD.
+The unique identifier of a setting in Azure Active Directory
 
 ```yaml
 Type: String
@@ -80,45 +84,8 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -132,20 +99,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
-
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
+Please note that this cmdlet is currently in Public Preview.
+While a cmdlet is in Public Preview we may still need to make changes to the cmdlet which could potentially cause unexpected effects.
+We discourage customers from using this cmdlet in a production environment.
 
 ## RELATED LINKS
-[Get-AzureADObjectSetting](xref:AzureAD/v2/Get-AzureADObjectSetting.md)
-
-[New-AzureADObjectSetting](xref:AzureAD/v2/New-AzureADObjectSetting.md)
-
-[Set-AzureADObjectSetting](xref:AzureAD/v2/Set-AzureADObjectSetting.md)
-
 

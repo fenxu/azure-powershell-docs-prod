@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xml
-online version: 
+external help file: azuread.help.xml
+online version: http://www.cloudidentity.com/blog/2013/09/12/active-directory-authentication-library-adal-v1-for-net-general-availability/
 schema: 2.0.0
-ms.assetid: 8F7770B8-E39E-45F9-AE8E-B03883B77756
-updated_at: 11/8/2016 7:07 PM
-ms.date: 11/8/2016
+updated_at: 11/21/2016 8:09 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalPasswordCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8d6f523dd0fd57129c60fd0779cc3f8a0c5e36a3/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalPasswordCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalPasswordCredential.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,23 +20,29 @@ id: AzureAD_v2_New_AzureADServicePrincipalPasswordCredential_md
 # New-AzureADServicePrincipalPasswordCredential
 
 ## SYNOPSIS
-Creates a password credential for a service principal.
+Create a new password credential for a service principal
 
 ## SYNTAX
 
 ```
 New-AzureADServicePrincipalPasswordCredential -ObjectId <String> [-CustomKeyIdentifier <String>]
- [-StartDate <DateTime>] [-EndDate <DateTime>] [-Value <String>] [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [<CommonParameters>]
+ [-StartDate <Nullable`1[DateTime]>] [-EndDate <Nullable`1[DateTime]>] [-Value <String>]
 ```
 
 ## DESCRIPTION
-The **New-AzureADServicePrincipalPasswordCredential** cmdlet creates a password credential for a service principal in Azure Active Directory (AD).
+
+## EXAMPLES
+
+### Example 1
+```
+
+```
 
 ## PARAMETERS
 
 ### -ObjectId
-Specifies an object ID.
+The object ID of the service principal
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -46,11 +51,12 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -CustomKeyIdentifier
+@{Text=}
 
 ```yaml
 Type: String
@@ -60,39 +66,42 @@ Aliases:
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -StartDate
+The date and time at which the credential becomes valid
 
 ```yaml
-Type: DateTime
+Type: Nullable`1[DateTime]
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -EndDate
+The date and time at which the credential expires.
 
 ```yaml
-Type: DateTime
+Type: Nullable`1[DateTime]
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -Value
+@{Text=}
 
 ```yaml
 Type: String
@@ -102,49 +111,9 @@ Aliases:
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -153,8 +122,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Get-AzureADServicePrincipalPasswordCredential](xref:AzureAD/v2/Get-AzureADServicePrincipalPasswordCredential.md)
-
-[Remove-AzureADServicePrincipalPasswordCredential](xref:AzureAD/v2/Remove-AzureADServicePrincipalPasswordCredential.md)
-
 

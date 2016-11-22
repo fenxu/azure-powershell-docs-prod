@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+external help file: azuread.help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: CAA240EC-E380-4CDB-A1CC-56BBD28DFB82
-updated_at: 11/4/2016 7:31 PM
-ms.date: 11/4/2016
+updated_at: 11/21/2016 8:09 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/83ab73284cb5ffafb4df09512dc4dc2b8c40bf42/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRole.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,37 +20,35 @@ id: AzureAD_v2_Get_AzureADDirectoryRole_md
 # Get-AzureADDirectoryRole
 
 ## SYNOPSIS
-Gets a directory role.
+Retrieves a specific directory role from Azure Active Directory
 
 ## SYNTAX
 
-### GetQuery (Default)
 ```
-Get-AzureADDirectoryRole [-InformationAction <ActionPreference>] [-InformationVariable <String>]
- [<CommonParameters>]
-```
-
-### GetById
-```
-Get-AzureADDirectoryRole -ObjectId <String> [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [<CommonParameters>]
+Get-AzureADDirectoryRole -ObjectId <String>
 ```
 
 ## DESCRIPTION
-The **Get-AzureADDirectoryRole** cmdlet gets a directory role from Azure Active Directory (AD).
+
 ## EXAMPLES
 
-### Example 1: Get a directory role by ID
-```PowerShell
-PS C:\>Get-AzureADDirectoryRole -ObjectId "019ea7a2-1613-47c9-81cb-20ba35b1ae48"
+### Retrieve a directory role
+```
+$Roles = Get-AzureADDirectoryRole
+Get-AzureADDirectoryRole -ObjectId $Roles[0].ObjectId
+
+Output:
 
 ObjectId                             DisplayName                        Description
 --------                             -----------                        -----------
 019ea7a2-1613-47c9-81cb-20ba35b1ae48 Company Administrator              Company Administrator role has full access to perform any operation in the company scope.
 ```
-### Example 2: Get all directory roles
-```PowerShell
-PS C:\>Get-AzureADDirectoryRole
+
+### Retrieve all Roles from the directory
+```
+Get-AzureADDirectoryRole
+
+Output:
 
 ObjectId                             DisplayName                        Description
 --------                             -----------                        -----------
@@ -65,64 +62,23 @@ ObjectId                             DisplayName                        Descript
 b89a48d4-7595-48d0-bb36-69fe4b220668 Device Administrators              Device Administrators
 d96eb2b3-0970-4827-8f26-6008efd86511 Security Administrator             Security Administrator allows ability to read and manage security configuration and reports.
 ```
+
 ## PARAMETERS
 
 ### -ObjectId
-Specifies the ID of a directory role in Azure AD.
+The unique identifier of a directory role in Azure Active Directory (ObjectId)
 
 ```yaml
 Type: String
-Parameter Sets: GetById
+Parameter Sets: (All)
 Aliases: 
 
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -131,5 +87,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Enable-AzureADDirectoryRole](xref:AzureAD/v2/Enable-AzureADDirectoryRole.md)
 

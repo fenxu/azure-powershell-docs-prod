@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
-online version: 
+external help file: azuread.help.xml
+online version: https://blogs.technet.microsoft.com/enterprisemobility/2016/07/18/azuread-certificate-based-authentication-for-ios-and-android-now-in-preview/
 schema: 2.0.0
-ms.assetid: 547BE76A-9D1F-4DF2-A3FB-BA6E735CD556
-updated_at: 11/9/2016 11:17 PM
-ms.date: 11/9/2016
+updated_at: 11/21/2016 8:09 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0aed31d15264efe3e8065f93e496ea88de61dcd3/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADApplication.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,41 +20,36 @@ id: AzureAD_v2_Set_AzureADApplication_md
 # Set-AzureADApplication
 
 ## SYNOPSIS
-Updates an application.
+Updates a specific application in Azure Active Directory
 
 ## SYNTAX
 
 ```
-Set-AzureADApplication -ObjectId <String> [-InformationAction <ActionPreference>]
- [-InformationVariable <String>]
- [-AppRoles <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.AppRole]>]
- [-AvailableToOtherTenants <Boolean>] [-DisplayName <String>] [-ErrorUrl <String>] [-Homepage <String>]
- [-IdentifierUris <System.Collections.Generic.List`1[System.String]>]
- [-KeyCredentials <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.KeyCredential]>]
- [-KnownClientApplications <System.Collections.Generic.List`1[System.String]>] [-LogoutUrl <String>]
- [-MainLogo <Byte[]>] [-Oauth2AllowImplicitFlow <Boolean>] [-Oauth2AllowUrlPathMatching <Boolean>]
- [-Oauth2Permissions <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.OAuth2Permission]>]
- [-OAuth2RequiredPostResponse <Boolean>]
- [-PasswordCredentials <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.PasswordCredential]>]
- [-PublicClient <Boolean>] [-ReplyUrls <System.Collections.Generic.List`1[System.String]>]
- [-RequiredResourceAccess <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.RequiredResourceAccess]>]
- [-SamlMetadataUrl <String>] [<CommonParameters>]
+Set-AzureADApplication -ObjectId <String> [-AppRoles <List`1[AppRole]>]
+ [-AvailableToOtherTenants <Nullable`1[Boolean]>] [-DisplayName <String>] [-ErrorUrl <String>]
+ [-Homepage <String>] [-IdentifierUris <List`1[String]>] [-KeyCredentials <List`1[KeyCredential]>]
+ [-KnownClientApplications <List`1[String]>] [-LogoutUrl <String>] [-MainLogo <Byte[]>]
+ [-Oauth2AllowImplicitFlow <Nullable`1[Boolean]>] [-Oauth2AllowUrlPathMatching <Nullable`1[Boolean]>]
+ [-Oauth2Permissions <List`1[OAuth2Permission]>] [-OAuth2RequiredPostResponse <Nullable`1[Boolean]>]
+ [-PasswordCredentials <List`1[PasswordCredential]>] [-PublicClient <Nullable`1[Boolean]>]
+ [-ReplyUrls <List`1[String]>] [-RequiredResourceAccess <List`1[RequiredResourceAccess]>]
+ [-SamlMetadataUrl <String>]
 ```
 
 ## DESCRIPTION
 
 ## EXAMPLES
 
-### Example 1: Update an application
-```PowerShell
-PS C:\>Set-AzureADApplication -ObjectId "3ddd22e7-a150-4bb3-b100-e410dea1cb84" -DisplayName "New Name"
+### Set a new display name for an application
 ```
-This command updates the specified application.
+$AppId = (Get-AzureADApplication -top 1).ObjectId
+Set-AzureADApplication -ObjectId $AppId -DisplayName "New Name"
+```
 
 ## PARAMETERS
 
 ### -ObjectId
-Specifies the ID of an application in Azure AD.
+The unique idenfier of an application in Azure Active Directory
 
 ```yaml
 Type: String
@@ -65,51 +59,15 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -AppRoles
+@{Text=}
 
 ```yaml
-Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.AppRole]
+Type: List`1[AppRole]
 Parameter Sets: (All)
 Aliases: 
 
@@ -121,9 +79,10 @@ Accept wildcard characters: False
 ```
 
 ### -AvailableToOtherTenants
+@{Text=}
 
 ```yaml
-Type: Boolean
+Type: Nullable`1[Boolean]
 Parameter Sets: (All)
 Aliases: 
 
@@ -135,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-Specifies the display name.
+@{Text=}
 
 ```yaml
 Type: String
@@ -150,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorUrl
-Specifies an error URL.
+@{Text=}
 
 ```yaml
 Type: String
@@ -165,7 +124,7 @@ Accept wildcard characters: False
 ```
 
 ### -Homepage
-Specifies the home page.
+@{Text=}
 
 ```yaml
 Type: String
@@ -180,10 +139,10 @@ Accept wildcard characters: False
 ```
 
 ### -IdentifierUris
-Specifies identifier URIs.
+@{Text=}
 
 ```yaml
-Type: System.Collections.Generic.List`1[System.String]
+Type: List`1[String]
 Parameter Sets: (All)
 Aliases: 
 
@@ -195,10 +154,10 @@ Accept wildcard characters: False
 ```
 
 ### -KeyCredentials
-Specifies key credentials.
+@{Text=}
 
 ```yaml
-Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.KeyCredential]
+Type: List`1[KeyCredential]
 Parameter Sets: (All)
 Aliases: 
 
@@ -210,10 +169,10 @@ Accept wildcard characters: False
 ```
 
 ### -KnownClientApplications
-Specifies known client applications.
+@{Text=}
 
 ```yaml
-Type: System.Collections.Generic.List`1[System.String]
+Type: List`1[String]
 Parameter Sets: (All)
 Aliases: 
 
@@ -225,7 +184,7 @@ Accept wildcard characters: False
 ```
 
 ### -LogoutUrl
-Specifies the logout URL.
+@{Text=}
 
 ```yaml
 Type: String
@@ -240,7 +199,7 @@ Accept wildcard characters: False
 ```
 
 ### -MainLogo
-Specifies the main logo.
+@{Text=}
 
 ```yaml
 Type: Byte[]
@@ -255,9 +214,10 @@ Accept wildcard characters: False
 ```
 
 ### -Oauth2AllowImplicitFlow
+@{Text=}
 
 ```yaml
-Type: Boolean
+Type: Nullable`1[Boolean]
 Parameter Sets: (All)
 Aliases: 
 
@@ -269,9 +229,10 @@ Accept wildcard characters: False
 ```
 
 ### -Oauth2AllowUrlPathMatching
+@{Text=}
 
 ```yaml
-Type: Boolean
+Type: Nullable`1[Boolean]
 Parameter Sets: (All)
 Aliases: 
 
@@ -283,9 +244,10 @@ Accept wildcard characters: False
 ```
 
 ### -Oauth2Permissions
+@{Text=}
 
 ```yaml
-Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.OAuth2Permission]
+Type: List`1[OAuth2Permission]
 Parameter Sets: (All)
 Aliases: 
 
@@ -297,9 +259,10 @@ Accept wildcard characters: False
 ```
 
 ### -OAuth2RequiredPostResponse
+@{Text=}
 
 ```yaml
-Type: Boolean
+Type: Nullable`1[Boolean]
 Parameter Sets: (All)
 Aliases: 
 
@@ -311,10 +274,10 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordCredentials
-Specifies password credentials.
+@{Text=}
 
 ```yaml
-Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.PasswordCredential]
+Type: List`1[PasswordCredential]
 Parameter Sets: (All)
 Aliases: 
 
@@ -326,9 +289,10 @@ Accept wildcard characters: False
 ```
 
 ### -PublicClient
+@{Text=}
 
 ```yaml
-Type: Boolean
+Type: Nullable`1[Boolean]
 Parameter Sets: (All)
 Aliases: 
 
@@ -340,9 +304,10 @@ Accept wildcard characters: False
 ```
 
 ### -ReplyUrls
+@{Text=}
 
 ```yaml
-Type: System.Collections.Generic.List`1[System.String]
+Type: List`1[String]
 Parameter Sets: (All)
 Aliases: 
 
@@ -354,9 +319,10 @@ Accept wildcard characters: False
 ```
 
 ### -RequiredResourceAccess
+@{Text=}
 
 ```yaml
-Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.RequiredResourceAccess]
+Type: List`1[RequiredResourceAccess]
 Parameter Sets: (All)
 Aliases: 
 
@@ -368,6 +334,7 @@ Accept wildcard characters: False
 ```
 
 ### -SamlMetadataUrl
+@{Text=}
 
 ```yaml
 Type: String
@@ -381,9 +348,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
-
 ## INPUTS
 
 ## OUTPUTS
@@ -391,8 +355,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Get-AzureADApplication](xref:AzureAD/v2/Get-AzureADApplication.md)
 
-[New-AzureADApplication](xref:AzureAD/v2/New-AzureADApplication.md)
-
-[Remove-AzureADApplication](xref:AzureAD/v2/Remove-AzureADApplication.md)

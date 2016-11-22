@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+external help file: azuread.help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 944E709A-0F66-485C-86E4-1CB4C998C71D
-updated_at: 11/4/2016 6:19 PM
-ms.date: 11/4/2016
+updated_at: 11/21/2016 8:09 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeviceRegisteredUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c431b84d727dce9e575f6b216a3cb4e26d32b99/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeviceRegisteredUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeviceRegisteredUser.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,20 +20,31 @@ id: AzureAD_v2_Get_AzureADDeviceRegisteredUser_md
 # Get-AzureADDeviceRegisteredUser
 
 ## SYNOPSIS
-Gets a registered user.
+Get users that are marked as users on the device.
+
 ## SYNTAX
 
 ```
-Get-AzureADDeviceRegisteredUser -ObjectId <String> [-Top <Int32>] [<CommonParameters>]
+Get-AzureADDeviceRegisteredUser -ObjectId <String> [-Top <Nullable`1[Int32]>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureADDeviceRegisteredUser** cmdlet gets a registered user for an Azure Active Directory device.
+
+## EXAMPLES
+
+### Retrieve the registered users of a device
+```
+$DevId = (get-azureaddevice -top 1).objectid
+Get-AzureADDeviceRegisteredUser -ObjectId $DevId
+```
+
+This example retrieves the registered user of a device
 
 ## PARAMETERS
 
 ### -ObjectId
-Specifies an object ID.
+The unique identifier of the device
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -43,25 +53,25 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -Top
+The maximum number of records to return.
+If no value is provided, 100 records are returned
+
 ```yaml
-Type: Int32
+Type: Nullable`1[Int32]
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
-
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -70,6 +80,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Add-AzureADDeviceRegisteredUser](xref:AzureAD/v2/Add-AzureADDeviceRegisteredUser.md)
 
-[Remove-AzureADDeviceRegisteredUser](xref:AzureAD/v2/Remove-AzureADDeviceRegisteredUser.md)

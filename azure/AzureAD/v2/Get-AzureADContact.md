@@ -1,12 +1,11 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+external help file: azuread.help.xml
 online version: 
 schema: 2.0.0
-ms.assetid: 393B2C82-CB87-4892-872E-6E6285DFF955
-updated_at: 11/7/2016 5:40 AM
-ms.date: 11/7/2016
+updated_at: 11/21/2016 8:09 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContact.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c4c481f39484ac5af35c0c2455444e3f4e618eed/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContact.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContact.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -21,113 +20,87 @@ id: AzureAD_v2_Get_AzureADContact_md
 # Get-AzureADContact
 
 ## SYNOPSIS
-Gets a  contact from Azure Active Directory.
+Retrieves a specific contact from Azure Active Directory
 
 ## SYNTAX
 
-### GetQuery (Default)
+### UNNAMED_PARAMETER_SET_1
 ```
-Get-AzureADContact [-Top <Int32>] [-Filter <String>] [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [<CommonParameters>]
+Get-AzureADContact [-Top <Nullable`1[Int32]>] [-Filter <String>]
 ```
 
-### GetById
+### UNNAMED_PARAMETER_SET_2
 ```
-Get-AzureADContact -ObjectId <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
- [<CommonParameters>]
+Get-AzureADContact -ObjectId <String>
 ```
 
 ## DESCRIPTION
-The **Get-AzureADContact** cmdlet gets a contact from Azure Active Directory.
+
+## EXAMPLES
+
+### Retrieves all contact objects in the directory
+```
+Get-AzureADContact
+
+ObjectId                             Mail               DisplayName
+--------                             ----               -----------
+b052db07-e7ec-4c0e-b481-a5ba550b9ee7 contact@person.com Contact Person
+```
 
 ## PARAMETERS
 
-### -ObjectId
-Specifies the ID of a contact in Azure Active Directory.
+### -Top
+The maximum number of records to return.
+If no value is provided, 100 records are returned
+
+```yaml
+Type: Nullable`1[Int32]
+Parameter Sets: UNNAMED_PARAMETER_SET_1
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue, ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Filter
+The filter parameter can be used to filter returned objects of a cmdlet using an Odata filter statement.
+An example would be 
+
+Get-AzureADContact -Filter "DisplayName eq 'Mr.
+Contact'"
+
+which would only return contact objects for which the DisplayName equals "Mr.
+Contact".
 
 ```yaml
 Type: String
-Parameter Sets: GetById
+Parameter Sets: UNNAMED_PARAMETER_SET_1
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue, ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ObjectId
+The unique identifier of a contact in Azure Active Directory (ObjectId)
+
+```yaml
+Type: String
+Parameter Sets: UNNAMED_PARAMETER_SET_2
 Aliases: 
 
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByValue, ByPropertyName)
 Accept wildcard characters: False
 ```
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies a variable in which to store an information event message.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Top
-Specifies the maximum number of records to return.
-
-```yaml
-Type: Int32
-Parameter Sets: GetQuery
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Filter
-Specifies an oData v3.0 filter statement. This parameter controls which objects are returned.
-
-```yaml
-Type: String
-Parameter Sets: GetQuery
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -137,5 +110,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Remove-AzureADContact](xref:AzureAD/v2/Remove-AzureADContact.md)
-[Set-AzureADContact](xref:AzureAD/v2/Set-AzureADContact.md)
