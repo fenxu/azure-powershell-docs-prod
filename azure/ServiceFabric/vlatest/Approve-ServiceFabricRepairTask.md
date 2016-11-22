@@ -3,18 +3,18 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: EF6C08E7-6811-4F74-84FB-D4FCE4D6FAFD
-updated_at: 11/2/2016 4:42 PM
-ms.date: 11/2/2016
+updated_at: 11/22/2016 8:59 PM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0fd9fb4ce9179d4ff591e7539b0bcbbb544795ab/Service-Fabric-cmdlets/ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/2a5ea82fb26724d20409558b5656bffc61dfe3b3/Service-Fabric-cmdlets/ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md
 ms.topic: reference
 ms.prod: 
 ms.service: service-fabric
 ms.technology: Azure Powershell
-author: visual-studio-china
+author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
+manager: vipulm
 id: ServiceFabric_vlatest_Approve_ServiceFabricRepairTask_md
 ---
 
@@ -133,7 +133,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
