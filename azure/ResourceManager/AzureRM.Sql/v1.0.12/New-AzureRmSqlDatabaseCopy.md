@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 52740669-7E10-4AB0-A4E2-03961F80BB4B
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_New_AzureRmSqlDatabaseCopy_md
 # New-AzureRmSqlDatabaseCopy
 
 ## SYNOPSIS
-Creates a copy of a nextref_database that uses the snapshot at the current time.
+Creates a copy of a SQL Database that uses the snapshot at the current time.
 
 ## SYNTAX
 
@@ -34,7 +34,7 @@ New-AzureRmSqlDatabaseCopy [-DatabaseName] <String> [-ServiceObjectiveName <Stri
 ```
 
 ## DESCRIPTION
-The **New-AzureRmSqlDatabaseCopy** cmdlet creates a copy of an ssSDS that uses the snapshot of the data at the current time.
+The **New-AzureRmSqlDatabaseCopy** cmdlet creates a copy of an Azure SQL Database that uses the snapshot of the data at the current time.
 Use this cmdlet instead of the Start-AzureSqlDatabaseCopy cmdlet to create a one-time database copy.
 This cmdlet returns the **Database** object of the copy.
 
@@ -52,7 +52,7 @@ This cmdlet is also supported by the SQL Server Stretch Database service on Azur
 ## PARAMETERS
 
 ### -DatabaseName
-Specifies the name of the nextref_database to copy.
+Specifies the name of the SQL Database to copy.
 
 ```yaml
 Type: String
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -CopyServerName
-Specifies the name of the ssNoVersion which hosts the copy.
+Specifies the name of the SQL Server which hosts the copy.
 
 ```yaml
 Type: String
@@ -142,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -CopyDatabaseName
-Specifies the name of the nextref_database copy.
+Specifies the name of the SQL Database copy.
 
 ```yaml
 Type: String
@@ -157,7 +157,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of the  ssNoVersion that contains the database to copy.
+Specifies the name of the  SQL Server that contains the database to copy.
 
 ```yaml
 Type: String

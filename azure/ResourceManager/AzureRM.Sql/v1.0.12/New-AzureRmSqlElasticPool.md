@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C37650CE-7B6A-4833-AA7A-1D44E3A1C13C
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlElasticPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlElasticPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlElasticPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_New_AzureRmSqlElasticPool_md
 # New-AzureRmSqlElasticPool
 
 ## SYNOPSIS
-Creates an elastic database pool for a nextref_database.
+Creates an elastic database pool for a SQL Database.
 
 ## SYNTAX
 
@@ -34,7 +34,7 @@ New-AzureRmSqlElasticPool -ElasticPoolName <String> [-Edition <DatabaseEdition>]
 ```
 
 ## DESCRIPTION
-The **New-AzureRmSqlElasticPool** cmdlet creates an elastic database pool for an ssSDS.
+The **New-AzureRmSqlElasticPool** cmdlet creates an elastic database pool for an Azure SQL Database.
 
 ## EXAMPLES
 

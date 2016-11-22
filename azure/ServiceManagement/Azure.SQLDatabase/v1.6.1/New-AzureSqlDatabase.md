@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 100C508F-3871-4BE1-B7E5-ADDB6869DA24
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_New_AzureSqlDatabase_md
 # New-AzureSqlDatabase
 
 ## SYNOPSIS
-Creates an ssSDS.
+Creates an Azure SQL Database.
 
 ## SYNTAX
 
@@ -40,11 +40,11 @@ New-AzureSqlDatabase [-ServerName] <String> [-DatabaseName] <String> [-Collation
 ```
 
 ## DESCRIPTION
-The **New-AzureSqlDatabase** cmdlet creates an ssSDS.
-You can specify the server by using an ssSDS server connection context that you create using the **New-AzureSqlDatabaseServerContext** cmdlet.
+The **New-AzureSqlDatabase** cmdlet creates an Azure SQL Database.
+You can specify the server by using an Azure SQL Database server connection context that you create using the **New-AzureSqlDatabaseServerContext** cmdlet.
 Or, if you specify the server name, the cmdlet uses the current Azure subscription information to authenticate the request to access the server.
 
-When you create a new database by specifying an ssSDS server, the **New-AzureSqlDatabase** cmdlet creates a temporary connection context using the specified server name and the current Azure subscription information to perform the operation.
+When you create a new database by specifying an Azure SQL Database server, the **New-AzureSqlDatabase** cmdlet creates a temporary connection context using the specified server name and the current Azure subscription information to perform the operation.
 
 ## EXAMPLES
 
@@ -53,14 +53,14 @@ When you create a new database by specifying an ssSDS server, the **New-AzureSql
 PS C:\>$Database01 = New-AzureSqlDatabase -ConnectionContext $Context -DatabaseName "Database01" -Edition "Business" -MaxSizeGB 50 -Collation "SQL_Latin1_General_CP1_CI_AS"
 ```
 
-This command creates an ssSDS named Database1, for the ssSDS server connection context $Context.
+This command creates an Azure SQL Database named Database1, for the Azure SQL Database server connection context $Context.
 
 ### Example 2: Create a database in the current subscription
 ```
 PS C:\>$Database01 = New-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName "Database01" -Edition "Business" -MaxSizeGB 50 -Collation "SQL_Latin1_General_CP1_CI_AS"
 ```
 
-This example creates a database named Database1, in the specified ssSDS server named lpqd0zbr8y.
+This example creates a database named Database1, in the specified Azure SQL Database server named lpqd0zbr8y.
 The cmdlet uses the current Azure subscription information to authenticate the request to access the server.
 
 ## PARAMETERS
@@ -111,7 +111,7 @@ Accept wildcard characters: False
 ```
 
 ### -Edition
-Specifies the edition for the new ssSDS.
+Specifies the edition for the new Azure SQL Database.
 Valid values are: 
 
 - None
@@ -256,7 +256,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of the ssSDS server to contain the new database.
+Specifies the name of the Azure SQL Database server to contain the new database.
 
 ```yaml
 Type: String

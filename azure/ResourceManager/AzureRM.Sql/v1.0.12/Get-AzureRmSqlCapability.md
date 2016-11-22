@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 43FD17DE-3A90-49CE-89C5-5F1A66545FC9
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlCapability.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlCapability.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlCapability.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_Get_AzureRmSqlCapability_md
 # Get-AzureRmSqlCapability
 
 ## SYNOPSIS
-Gets nextref_database capabilities for the current subscription.
+Gets SQL Database capabilities for the current subscription.
 
 ## SYNTAX
 
@@ -39,7 +39,7 @@ Get-AzureRmSqlCapability [-LocationName] <String> [-Defaults] [-InformationActio
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSqlCapability** cmdlet gets the ssSDS capabilities available on the current subscription for a region.
+The **Get-AzureRmSqlCapability** cmdlet gets the Azure SQL Database capabilities available on the current subscription for a region.
 If you specify the *ServerVersionName*, *EditionName*, or *ServiceObjectiveName* parameters, this cmdlet returns the specified values and their predecessors.
 
 ## EXAMPLES
@@ -52,7 +52,7 @@ Status                  : Available
 SupportedServerVersions : {12.0, 2.0}
 ```
 
-This command returns the capabilities for nextref_database instances on the current subscription for the Central US region.
+This command returns the capabilities for SQL Database instances on the current subscription for the Central US region.
 
 ### Example 2: Get default capabilities for the current subscription for a region
 ```

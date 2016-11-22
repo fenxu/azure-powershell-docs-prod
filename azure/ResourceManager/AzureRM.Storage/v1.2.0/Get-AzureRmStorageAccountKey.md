@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 49A6EFCC-B273-40C0-AD5B-9EF9689F9AE9
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageAccountKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageAccountKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageAccountKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -44,10 +44,10 @@ This command gets the keys for the specified Azure Storage account.
 
 ### Example 2: Get a specific access key for a Storage account
 ```
-This command gets a specific key for a Storage account. This command works for azurepowershell version 1.4, and later versions.
+This command gets a specific key for a Storage account. This command works for Azure PowerShell version 1.4, and later versions.
 PS C:\>(Get-AzureRmStorageAccountKey -ResourceGroupName "RG01" -AccountName "MyStorageAccount").Value[0]
 
-This command gets a specific key for a Storage account. This command works for azurepowershell version 1.3.2, and previous versions.
+This command gets a specific key for a Storage account. This command works for Azure PowerShell version 1.3.2, and previous versions.
 PS C:\>(Get-AzureRmStorageAccountKey -ResourceGroupName "RG01" -AccountName "MyStorageAccount").Key1
 ```
 

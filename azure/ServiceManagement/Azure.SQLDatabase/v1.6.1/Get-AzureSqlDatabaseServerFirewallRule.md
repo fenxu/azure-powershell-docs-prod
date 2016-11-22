@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B5E0137C-5777-4CD6-A505-35BAA8845E4F
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseServerFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseServerFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseServerFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_Get_AzureSqlDatabaseServerFirewal
 # Get-AzureSqlDatabaseServerFirewallRule
 
 ## SYNOPSIS
-Gets firewall rules for ssSDS Server.
+Gets firewall rules for Azure SQL Database Server.
 
 ## SYNTAX
 
@@ -31,9 +31,9 @@ Get-AzureSqlDatabaseServerFirewallRule [-ServerName] <String> [-RuleName <String
 ```
 
 ## DESCRIPTION
-The **Get-AzureSqlDatabaseServerFirewallRule** cmdlet gets firewall rules for an instance of ssSDS Server.
+The **Get-AzureSqlDatabaseServerFirewallRule** cmdlet gets firewall rules for an instance of Azure SQL Database Server.
 If you specify a firewall rule by name, this cmdlet returns information about that firewall rule.
-Otherwise, the cmdlet returns information about all the firewall rules on the specified ssSDS server.
+Otherwise, the cmdlet returns information about all the firewall rules on the specified Azure SQL Database server.
 
 ## EXAMPLES
 
@@ -42,7 +42,7 @@ Otherwise, the cmdlet returns information about all the firewall rules on the sp
 PS C:\>Get-AzureSqlDatabaseServerFirewallRule -ServerName "lpqd0zbr8y"
 ```
 
-This command gets all the firewall rules on the ssSDS server named lpqd0zbr8y.
+This command gets all the firewall rules on the Azure SQL Database server named lpqd0zbr8y.
 
 ### Example 2: Get a firewall rule by using its name
 ```

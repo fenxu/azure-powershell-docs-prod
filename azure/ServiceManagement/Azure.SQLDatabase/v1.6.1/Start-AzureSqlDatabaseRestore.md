@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B1A0470B-6F2F-4951-BA0E-42D6463E2B5A
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseRestore.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseRestore.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseRestore.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -55,11 +55,11 @@ Start-AzureSqlDatabaseRestore [-SourceServerName] <String> [-SourceDatabaseName]
 
 ## DESCRIPTION
 The **Start-AzureSqlDatabaseRestore** cmdlet performs a point in time restore of a Basic, Standard or Premium database.
-ssSDS retains Basic database backups 7 days, Standard for 14 days, and Premium for 35 days.
+Azure SQL Database retains Basic database backups 7 days, Standard for 14 days, and Premium for 35 days.
 The restore operation creates a new database.
 If the source database is not deleted, the *SourceDatabaseName* and *TargetDatabaseName* parameter must have different values.
 
-ssSDS does not currently support cross server restore.
+Azure SQL Database does not currently support cross server restore.
 The source and target server names must be the same.
 
 ## EXAMPLES
@@ -160,7 +160,7 @@ Accept wildcard characters: False
 ### -TargetServerName
 Specifies the name of the server to which this cmdlet restores the database.
 
-ssSDS does not currently support cross server restore.
+Azure SQL Database does not currently support cross server restore.
 The source and target server names must be the same.
 
 ```yaml

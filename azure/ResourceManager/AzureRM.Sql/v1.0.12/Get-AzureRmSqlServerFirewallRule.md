@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 349CE481-B007-4D28-A470-C3C658FE3078
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_Get_AzureRmSqlServerFirewallRule_md
 # Get-AzureRmSqlServerFirewallRule
 
 ## SYNOPSIS
-Gets firewall rules for a nextref_database server.
+Gets firewall rules for a SQL Database server.
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ Get-AzureRmSqlServerFirewallRule [[-FirewallRuleName] <String>] [-ServerName] <S
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSqlServerFirewallRule** cmdlet gets firewall rules for an ssSDS server.
+The **Get-AzureRmSqlServerFirewallRule** cmdlet gets firewall rules for an Azure SQL Database server.
 If you specify the name of a firewall rule, this cmdlet gets information about that specific firewall rule.
 
 ## EXAMPLES
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of the ssNoVersion.
+Specifies the name of the SQL Server.
 
 ```yaml
 Type: String
@@ -88,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group to which the ssNoVersion is assigned.
+Specifies the name of the resource group to which the SQL Server is assigned.
 
 ```yaml
 Type: String

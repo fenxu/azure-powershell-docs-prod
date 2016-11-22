@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E7FAD077-5B9A-4A56-91F4-3F768354ECB9
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlServerCommunicationLink.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlServerCommunicationLink.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlServerCommunicationLink.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_New_AzureRmSqlServerCommunicationLink_md
 # New-AzureRmSqlServerCommunicationLink
 
 ## SYNOPSIS
-Creates a communication link for elastic database transactions between two nextref_database servers.
+Creates a communication link for elastic database transactions between two SQL Database servers.
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ New-AzureRmSqlServerCommunicationLink -LinkName <String> -PartnerServer <String>
 ```
 
 ## DESCRIPTION
-The **New-AzureRmSqlServerCommunicationLink** cmdlet creates a communication link for elastic database transactions between two logical servers in ssSDS.
+The **New-AzureRmSqlServerCommunicationLink** cmdlet creates a communication link for elastic database transactions between two logical servers in Azure SQL Database.
 Elastic database transactions can span databases in either of the paired servers.
 You can create more than one link on a server.
 Therefore, elastic database transactions can span across a larger number of servers.

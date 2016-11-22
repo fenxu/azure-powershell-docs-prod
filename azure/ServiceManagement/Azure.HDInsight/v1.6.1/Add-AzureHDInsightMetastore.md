@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 38D4E127-BD27-48BD-BDD1-D525E6741074
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Add-AzureHDInsightMetastore.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Add-AzureHDInsightMetastore.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Add-AzureHDInsightMetastore.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_HDInsight_v1_6_1_Add_AzureHDInsightMetastore_md
 # Add-AzureHDInsightMetastore
 
 ## SYNOPSIS
-Adds a ssNoVersion database account to an HDInsight cluster configuration.
+Adds a SQL Server database account to an HDInsight cluster configuration.
 
 ## SYNTAX
 
@@ -40,7 +40,7 @@ For information about how to use the new HDInsight to create a cluster, see Crea
 For information about how to submit jobs by using APS and other approaches, see Submit Hadoop jobs in HDInsighthttps://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/.
 For reference information about APS HDInsight, see Azure HDInsight Cmdletshttps://msdn.microsoft.com/en-us/library/mt438705.aspx.
 
-The **Add-AzureHDInsightMetastore** cmdlet adds a Microsoft ssNoVersion database to an Azure HDInsight configuration that is created by the New-AzureHDInsightClusterConfig cmdlet.
+The **Add-AzureHDInsightMetastore** cmdlet adds a Microsoft SQL Server database to an Azure HDInsight configuration that is created by the New-AzureHDInsightClusterConfig cmdlet.
 The database is used to store metadata for Hive or Oozie, or both.
 
 ## EXAMPLES
@@ -50,7 +50,7 @@ The database is used to store metadata for Hive or Oozie, or both.
 PS C:\>$Metaconfig = Add-AzureHDInsightMetastore -Config $Config -SqlAzureServerName "ContosoSQLServer" -DatabaseName "DBname" -Credential (Get-Credential) -MetastoreType HiveMetaStore
 ```
 
-This command adds a ssNoVersion database named ContosoSQLServer to serve as a Hive metastore for an HDInsight cluster.
+This command adds a SQL Server database named ContosoSQLServer to serve as a Hive metastore for an HDInsight cluster.
 
 ### Example 2: Configure storage and add metastores
 ```
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-Specifies the credentials that are used to access a ssNoVersion database.
+Specifies the credentials that are used to access a SQL Server database.
 
 ```yaml
 Type: PSCredential
@@ -147,7 +147,7 @@ Accept wildcard characters: False
 ```
 
 ### -SqlAzureServerName
-Specifies the fully qualified domain name (FQDN) of the ssNoVersion that contains the database to store metadata.
+Specifies the fully qualified domain name (FQDN) of the SQL Server that contains the database to store metadata.
 
 ```yaml
 Type: String

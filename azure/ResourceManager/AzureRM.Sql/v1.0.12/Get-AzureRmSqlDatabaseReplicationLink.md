@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B518AB6E-F4B8-4FD5-98AE-A1D75BDB12A7
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseReplicationLink.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseReplicationLink.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseReplicationLink.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_Get_AzureRmSqlDatabaseReplicationLink_md
 # Get-AzureRmSqlDatabaseReplicationLink
 
 ## SYNOPSIS
-Gets the geo-replication links between an ssSDS and a resource group or ssNoVersion.
+Gets the geo-replication links between an Azure SQL Database and a resource group or SQL Server.
 
 ## SYNTAX
 
@@ -41,7 +41,7 @@ Get-AzureRmSqlDatabaseReplicationLink [-DatabaseName] <String> -PartnerResourceG
 
 ## DESCRIPTION
 The **Get-AzureRMSqlDatabaseReplicationLink** cmdlet replaces the **Get-AzureSqlDatabaseCopy** cmdlet.
-It gets all geo-replication links between the specified ssSDS and a resource group or AzuressNoVersion.
+It gets all geo-replication links between the specified Azure SQL Database and a resource group or AzureSQL Server.
 
 ## EXAMPLES
 
@@ -53,7 +53,7 @@ It gets all geo-replication links between the specified ssSDS and a resource gro
 ## PARAMETERS
 
 ### -DatabaseName
-Specifies the name of the nextref_database for which to retrieve links.
+Specifies the name of the SQL Database for which to retrieve links.
 
 ```yaml
 Type: String
@@ -83,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of the ssNoVersion for the database to retrieve links for.
+Specifies the name of the SQL Server for the database to retrieve links for.
 
 ```yaml
 Type: String

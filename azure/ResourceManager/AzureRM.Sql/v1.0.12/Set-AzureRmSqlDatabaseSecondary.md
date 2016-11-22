@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D194CEAB-47E7-46F0-8AF3-68F8E514E6C6
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseSecondary.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseSecondary.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseSecondary.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -56,7 +56,7 @@ In the latter case, the secondary database is synchronized with the primary befo
 ## PARAMETERS
 
 ### -DatabaseName
-Specifies the name of the ssSDS Secondary.
+Specifies the name of the Azure SQL Database Secondary.
 
 ```yaml
 Type: String
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartnerResourceGroupName
-Specifies the name of the resource group to which the partner ssSDS is assigned.
+Specifies the name of the resource group to which the partner Azure SQL Database is assigned.
 
 ```yaml
 Type: String
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of the ssNoVersion that hosts the ssSDS Secondary.
+Specifies the name of the SQL Server that hosts the Azure SQL Database Secondary.
 
 ```yaml
 Type: String
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group to which the ssSDS Secondary is assigned.
+Specifies the name of the resource group to which the Azure SQL Database Secondary is assigned.
 
 ```yaml
 Type: String

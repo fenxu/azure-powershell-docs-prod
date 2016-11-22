@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 57874E1C-3C62-4BFE-AADC-1689DAB9AD0C
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_Set_AzureRmSqlServer_md
 # Set-AzureRmSqlServer
 
 ## SYNOPSIS
-Modifies properties of a nextref_database server.
+Modifies properties of a SQL Database server.
 
 ## SYNTAX
 
@@ -33,7 +33,7 @@ Set-AzureRmSqlServer [-ServerName] <String> [-SqlAdministratorPassword <SecureSt
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmSqlServer** cmdlet modifies properties of an ssSDS server.
+The **Set-AzureRmSqlServer** cmdlet modifies properties of an Azure SQL Database server.
 
 ## EXAMPLES
 
@@ -51,7 +51,7 @@ ServerVersion            : 12.0
 Tags                     :
 ```
 
-This command resets the administrator password on the AzuressNoVersion named server01.
+This command resets the administrator password on the AzureSQL Server named server01.
 
 ## PARAMETERS
 

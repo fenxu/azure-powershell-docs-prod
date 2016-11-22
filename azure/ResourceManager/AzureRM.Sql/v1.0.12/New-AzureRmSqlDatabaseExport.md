@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: FD473C08-CD63-463C-A263-1C05FD06463F
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseExport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseExport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseExport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_New_AzureRmSqlDatabaseExport_md
 # New-AzureRmSqlDatabaseExport
 
 ## SYNOPSIS
-Exports an ssSDS as a .bacpac file to a storage account.
+Exports an Azure SQL Database as a .bacpac file to a storage account.
 
 ## SYNTAX
 
@@ -33,7 +33,7 @@ New-AzureRmSqlDatabaseExport [-DatabaseName] <String> [-ServerName] <String> -St
 ```
 
 ## DESCRIPTION
-The **New-AzureRmSqlDatabaseExport** cmdlet exports an ssSDS as a .bacpac file to a storage account.
+The **New-AzureRmSqlDatabaseExport** cmdlet exports an Azure SQL Database as a .bacpac file to a storage account.
 The get export database status request may be sent to retrieve status information for this request.
 
 This cmdlet is also supported by the SQL Server Stretch Database service on Azure.
@@ -63,7 +63,7 @@ This command creates an export request for the specified database.
 ## PARAMETERS
 
 ### -DatabaseName
-Specifies the name of the nextref_database.
+Specifies the name of the SQL Database.
 
 ```yaml
 Type: String
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of the nextref_database server.
+Specifies the name of the SQL Database server.
 
 ```yaml
 Type: String
@@ -187,7 +187,7 @@ Set the *AdministratorLogin* and *AdministratorLoginPassword* to the SQL adminis
 Azure Active Directory authentication.
 Set *AdministratorLogin* and *AdministratorLoginPassword* to the Azure AD administrator username and password.
 
-This parameter is only available on nextref_database V12 servers.
+This parameter is only available on SQL Database V12 servers.
 
 ```yaml
 Type: AuthenticationType
@@ -202,7 +202,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group for the nextref_database server.
+Specifies the name of the resource group for the SQL Database server.
 
 ```yaml
 Type: String

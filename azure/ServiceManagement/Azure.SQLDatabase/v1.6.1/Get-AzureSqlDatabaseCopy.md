@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D4E23BCC-EE8B-45F2-A950-3D8FE48392A6
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -50,7 +50,7 @@ You can check a specific copy relationship, all copy relationships, or a filtere
 You can run this cmdlet on the server that hosts the source or target database.
 
 This cmdlet is synchronous.
-The cmdlet blocks the azurepowershell console until it returns a status object.
+The cmdlet blocks the Azure PowerShell console until it returns a status object.
 
 The *PartnerServer* and *PartnerDatabase* parameters are optional.
 If you do not specify either parameter, this cmdlet returns a table of results.
@@ -156,7 +156,7 @@ Accept wildcard characters: False
 ```
 
 ### -Database
-Specifies an object that represents the source ssSDS.
+Specifies an object that represents the source Azure SQL Database.
 This cmdlet gets the copy status of the database that this parameter specifies.
 
 ```yaml

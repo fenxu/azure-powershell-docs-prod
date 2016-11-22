@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 5ADACC19-C60C-4822-9D37-95FFD055336B
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Remove-AzureSqlDatabaseServerFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Remove-AzureSqlDatabaseServerFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Remove-AzureSqlDatabaseServerFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_Remove_AzureSqlDatabaseServerFire
 # Remove-AzureSqlDatabaseServerFirewallRule
 
 ## SYNOPSIS
-Removes a firewall rule from an ssSDS server.
+Removes a firewall rule from an Azure SQL Database server.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Remove-AzureSqlDatabaseServerFirewallRule [-ServerName] <String> [-RuleName] <St
 ```
 
 ## DESCRIPTION
-The **Remove-AzureSqlDatabaseServerFirewallRule** cmdlet removes a firewall rule from an instance of ssSDS Server in the current subscription.
+The **Remove-AzureSqlDatabaseServerFirewallRule** cmdlet removes a firewall rule from an instance of Azure SQL Database Server in the current subscription.
 
 ## EXAMPLES
 
@@ -40,7 +40,7 @@ The **Remove-AzureSqlDatabaseServerFirewallRule** cmdlet removes a firewall rule
 PS C:\>Remove-AzureSqlDatabaseServerFirewallRule -ServerName "lpqd0zbr8y" -RuleName "FirewallRule24"
 ```
 
-This command removes the firewall rule named FirewallRule24 from the ssSDS server named lpqd0zbr8y.
+This command removes the firewall rule named FirewallRule24 from the Azure SQL Database server named lpqd0zbr8y.
 
 ## PARAMETERS
 

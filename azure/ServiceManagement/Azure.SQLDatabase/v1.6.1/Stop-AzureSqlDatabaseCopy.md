@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 8A2D0A06-3C21-45F2-9FEE-9F59351C5A3B
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Stop-AzureSqlDatabaseCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Stop-AzureSqlDatabaseCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Stop-AzureSqlDatabaseCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -178,7 +178,7 @@ Accept wildcard characters: False
 ```
 
 ### -Database
-Specifies an object that represents the source ssSDS.
+Specifies an object that represents the source Azure SQL Database.
 This cmdlet terminates the continuous copy relationship of the database that this parameter specifies.
 
 ```yaml

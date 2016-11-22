@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 2962F4C8-6128-4B04-801C-5923E1B6A75D
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseExport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseExport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseExport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_Start_AzureSqlDatabaseExport_md
 # Start-AzureSqlDatabaseExport
 
 ## SYNOPSIS
-Starts an export operation from an ssSDS to Blob storage.
+Starts an export operation from an Azure SQL Database to Blob storage.
 
 ## SYNTAX
 
@@ -40,7 +40,7 @@ Start-AzureSqlDatabaseExport [-SqlConnectionContext] <ISqlServerConnectionInform
 ```
 
 ## DESCRIPTION
-The **Start-AzureSqlDatabaseExport** cmdlet starts an export operation from an ssSDS to Blob storage.
+The **Start-AzureSqlDatabaseExport** cmdlet starts an export operation from an Azure SQL Database to Blob storage.
 The operation requires a database server connection context.
 Use the Get-AzureSqlDatabaseImportExportStatus cmdlet to get the status of the export operation.
 
@@ -55,7 +55,7 @@ PS C:\> $Container = Get-AzureStorageContainer -Name $ContainerName -Context $St
 PS C:\> $exportRequest = Start-AzureSqlDatabaseExport -SqlConnectionContext $SqlContext -StorageContainer $Container -DatabaseName $DatabaseName -BlobName $BlobName
 ```
 
-This example initiates an export process from the ssSDS that has the name stored in the $DatabaseName variable to the Blob storage stored in the $BlobName variable.
+This example initiates an export process from the Azure SQL Database that has the name stored in the $DatabaseName variable to the Blob storage stored in the $BlobName variable.
 
 ## PARAMETERS
 

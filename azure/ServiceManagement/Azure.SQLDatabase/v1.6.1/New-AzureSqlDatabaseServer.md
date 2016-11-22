@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B05EE557-5FD5-417A-B6D5-AC484595E87D
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/New-AzureSqlDatabaseServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_New_AzureSqlDatabaseServer_md
 # New-AzureSqlDatabaseServer
 
 ## SYNOPSIS
-Creates an ssSDS server.
+Creates an Azure SQL Database server.
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ New-AzureSqlDatabaseServer [-AdministratorLogin] <String> -AdministratorLoginPas
 ```
 
 ## DESCRIPTION
-The **New-AzureSqlDatabaseServer** cmdlet creates an instance of ssSDS Server in the current subscription.
+The **New-AzureSqlDatabaseServer** cmdlet creates an instance of Azure SQL Database Server in the current subscription.
 
 ## EXAMPLES
 
@@ -41,7 +41,7 @@ The **New-AzureSqlDatabaseServer** cmdlet creates an instance of ssSDS Server in
 PS C:\>New-AzureSqlDatabaseServer -Location "East US" -AdministratorLogin "AdminLogin" -AdministratorLoginPassword "AdminPassword"
 ```
 
-This command creates a version 11 ssSDS server.
+This command creates a version 11 Azure SQL Database server.
 
 ### Example 2: Create a version 12 server
 ```
@@ -53,7 +53,7 @@ This command creates a version 12 server.
 ## PARAMETERS
 
 ### -AdministratorLogin
-Specifies the administrator account name for the new ssSDS server.
+Specifies the administrator account name for the new Azure SQL Database server.
 
 ```yaml
 Type: String
@@ -68,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -AdministratorLoginPassword
-Specifies the administrator account password for the ssSDS server.
+Specifies the administrator account password for the Azure SQL Database server.
 You must specify a strong password.
 For more information, see Strong Passwordshttp://go.microsoft.com/fwlink/p/?LinkId=154152 (http://go.microsoft.com/fwlink/p/?LinkId=154152) in MSDN.
 

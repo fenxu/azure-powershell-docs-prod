@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 8ED6F48C-5480-4C24-A3CE-6A7EE6D29FB4
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServerFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServerFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServerFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_Set_AzureRmSqlServerFirewallRule_md
 # Set-AzureRmSqlServerFirewallRule
 
 ## SYNOPSIS
-Modifies a firewall rule in ssSDS server.
+Modifies a firewall rule in Azure SQL Database server.
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ Set-AzureRmSqlServerFirewallRule [-FirewallRuleName] <String> -StartIpAddress <S
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmSqlServerFirewallRule** cmdlet modifies a firewall rule in an ssSDS server.
+The **Set-AzureRmSqlServerFirewallRule** cmdlet modifies a firewall rule in an Azure SQL Database server.
 
 ## EXAMPLES
 

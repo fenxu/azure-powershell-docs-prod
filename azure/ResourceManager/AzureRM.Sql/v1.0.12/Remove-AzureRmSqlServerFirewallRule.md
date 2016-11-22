@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 350D0F9F-05D4-448F-BE25-6F9A1E3B529D
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServerFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServerFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServerFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_Remove_AzureRmSqlServerFirewallRule_md
 # Remove-AzureRmSqlServerFirewallRule
 
 ## SYNOPSIS
-Deletes a firewall rule from a nextref_database server.
+Deletes a firewall rule from a SQL Database server.
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ Remove-AzureRmSqlServerFirewallRule [-FirewallRuleName] <String> [-Force] [-Serv
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmSqlServerFirewallRule** cmdlet deletes a firewall rule from the specified ssSDS server.
+The **Remove-AzureRmSqlServerFirewallRule** cmdlet deletes a firewall rule from the specified Azure SQL Database server.
 
 ## EXAMPLES
 

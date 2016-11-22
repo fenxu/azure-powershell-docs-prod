@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B9AECE59-FD64-4A10-93F4-0824001ACA4A
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerServiceObjective.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerServiceObjective.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlServerServiceObjective.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Sql_v1_0_12_Get_AzureRmSqlServerServiceObjective_md
 # Get-AzureRmSqlServerServiceObjective
 
 ## SYNOPSIS
-Gets service objectives for an ssSDS server.
+Gets service objectives for an Azure SQL Database server.
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ Get-AzureRmSqlServerServiceObjective [[-ServiceObjectiveName] <String>] [-Server
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSqlServerServiceObjective** cmdlet gets the available service objectives for an ssSDS server.
+The **Get-AzureRmSqlServerServiceObjective** cmdlet gets the available service objectives for an Azure SQL Database server.
 
 ## EXAMPLES
 
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of a nextref_database SQL Database server.
+Specifies the name of a SQL Database SQL Database server.
 
 ```yaml
 Type: String
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -DatabaseName
-Specifies the name of an ssSDS.
+Specifies the name of an Azure SQL Database.
 
 ```yaml
 Type: String
@@ -109,7 +109,7 @@ Accept wildcard characters: False
 
 ### -ResourceGroupName
 Specifies the name of a resource group.
-This cmdlet gets service objectives for a nextref_database server assigned to this resource.
+This cmdlet gets service objectives for a SQL Database server assigned to this resource.
 
 ```yaml
 Type: String

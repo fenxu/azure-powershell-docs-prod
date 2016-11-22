@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: FE570D5A-7C94-4058-AF61-12AA368D21B0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Remove-AzureSqlDatabaseServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Remove-AzureSqlDatabaseServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Remove-AzureSqlDatabaseServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_Remove_AzureSqlDatabaseServer_md
 # Remove-AzureSqlDatabaseServer
 
 ## SYNOPSIS
-Removes an ssSDS server.
+Removes an Azure SQL Database server.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Remove-AzureSqlDatabaseServer [-ServerName] <String> [-Force] [-Profile <AzureSM
 ```
 
 ## DESCRIPTION
-The **Remove-AzureSqlDatabaseServer** cmdlet removes the specified instance of ssSDS Server from the current subscription.
+The **Remove-AzureSqlDatabaseServer** cmdlet removes the specified instance of Azure SQL Database Server from the current subscription.
 This cmdlet deletes all databases on the server.
 
 ## EXAMPLES
@@ -41,7 +41,7 @@ This cmdlet deletes all databases on the server.
 PS C:\>Remove-AzureSqlDatabaseServer -ServerName "lpqd0zbr8y"
 ```
 
-This command removes the ssSDS server named lpqd0zbr8y.
+This command removes the Azure SQL Database server named lpqd0zbr8y.
 
 ## PARAMETERS
 

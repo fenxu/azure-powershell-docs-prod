@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: FF1357E5-9D90-4B10-B125-A38BA91FC324
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightSqoopJobDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightSqoopJobDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightSqoopJobDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -42,7 +42,7 @@ For reference information about APS HDInsight, see Azure HDInsight Cmdletshttps:
 The **New-AzureHDInsightSqoopJobDefinition** cmdlet creates a Sqoop job to run on an Azure HDInsight cluster.
 
 Sqoop is a tool to transfer data between Hadoop clusters and relational databases.
-You can use Sqoop to import data from a ssNoVersion database to a Hadoop Distributed File System (HDFS), transform the data with Hadoop MapReduce, and then export the data from the HDFS back to the ssNoVersion database.
+You can use Sqoop to import data from a SQL Server database to a Hadoop Distributed File System (HDFS), transform the data with Hadoop MapReduce, and then export the data from the HDFS back to the SQL Server database.
 
 ## EXAMPLES
 
@@ -51,7 +51,7 @@ You can use Sqoop to import data from a ssNoVersion database to a Hadoop Distrib
 PS C:\>$SqoopJobDef = New-AzureHDInsightSqoopJobDefinition -Command "import --connect jdbc:sqlserver://<SQLDatabaseServerName>.database.windows.net:1433;username=<SQLDatabasUsername>@<SQLDatabaseServerName>; password=<SQLDatabasePassword>; database=<SQLDatabaseDatabaseName> --table <TableName> --target-dir wasb://<ContainerName>@<WindowsAzureStorageAccountName>.blob.core.windows.net/<Path>"
 ```
 
-This command defines a Sqoop job that imports all of the rows in a table from an AzuressNoVersion database to an HDInsight cluster, and then stores the job definition in the $SqoopJobDef variable.
+This command defines a Sqoop job that imports all of the rows in a table from an AzureSQL Server database to an HDInsight cluster, and then stores the job definition in the $SqoopJobDef variable.
 
 ## PARAMETERS
 

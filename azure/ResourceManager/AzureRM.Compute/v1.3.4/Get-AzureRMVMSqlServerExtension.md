@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 99E46F51-29C0-4035-A42D-5E60AE654CC4
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRMVMSqlServerExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRMVMSqlServerExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRMVMSqlServerExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ResourceManager_AzureRM_Compute_v1_3_4_Get_AzureRMVMSqlServerExtension_md
 # Get-AzureRmVMSqlServerExtension
 
 ## SYNOPSIS
-Gets the settings for a ssNoVersion extension on a virtual machine.
+Gets the settings for a SQL Server extension on a virtual machine.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Get-AzureRmVMSqlServerExtension [-ResourceGroupName] <String> [-VMName] <String>
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmVMSqlServerExtension** cmdlet gets the settings of the ssNoVersion infrastructure as a service (IaaS) Agent on a virtual machine.
+The **Get-AzureRmVMSqlServerExtension** cmdlet gets the settings of the SQL Server infrastructure as a service (IaaS) Agent on a virtual machine.
 
 ## EXAMPLES
 
@@ -47,7 +47,7 @@ AutoPatchingSettings : Microsoft.WindowsAzure.Commands.ServiceManagement.IaaS.Ex
 AutoBackupSettings   : Microsoft.WindowsAzure.Commands.ServiceManagement.IaaS.Extensions.AutoBackupSettings
 ```
 
-This command gets the settings of the ssNoVersion extension on a virtual machine named ContosoVM07.
+This command gets the settings of the SQL Server extension on a virtual machine named ContosoVM07.
 
 ### Example 2: Get the settings by using the pipeline
 ```
@@ -64,7 +64,7 @@ AutoBackupSettings   : Microsoft.WindowsAzure.Commands.ServiceManagement.IaaS.Ex
 This command gets the virtual machine named ContosoVM22 on the service Service08 by using the Get-AzureRmVM cmdlet.
 The command passes the results to the current cmdlet by using the pipeline operator.
 
-The current command gets the settings of the ssNoVersion IaaS Agent on that virtual machine.
+The current command gets the settings of the SQL Server IaaS Agent on that virtual machine.
 
 ### Example 3: Get the settings of specific SQL Server version
 ```
@@ -78,7 +78,7 @@ AutoPatchingSettings : Microsoft.WindowsAzure.Commands.ServiceManagement.IaaS.Ex
 AutoBackupSettings   : Microsoft.WindowsAzure.Commands.ServiceManagement.IaaS.Extensions.AutoBackupSettings
 ```
 
-This command gets the settings of version 1.0 of the ssNoVersion extension on a virtual machine named ContosoVM07.
+This command gets the settings of version 1.0 of the SQL Server extension on a virtual machine named ContosoVM07.
 
 ## PARAMETERS
 
@@ -113,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the ssNoVersion the extension.
+Specifies the name of the SQL Server the extension.
 
 ```yaml
 Type: String

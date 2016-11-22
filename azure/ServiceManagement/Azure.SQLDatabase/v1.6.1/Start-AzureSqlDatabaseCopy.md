@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: FCD2F36D-CF64-4D0D-830D-F3A93806416B
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_Start_AzureSqlDatabaseCopy_md
 # Start-AzureSqlDatabaseCopy
 
 ## SYNOPSIS
-Starts a copy operation of an ssSDS.
+Starts a copy operation of an Azure SQL Database.
 
 ## SYNTAX
 
@@ -52,7 +52,7 @@ Start-AzureSqlDatabaseCopy [-ServerName] <String> [-DatabaseName] <String> [-Par
 ```
 
 ## DESCRIPTION
-The **Start-AzureSqlDatabaseCopy** cmdlet starts a one-time copy operation or a continuous copy operation of a specific ssSDS.
+The **Start-AzureSqlDatabaseCopy** cmdlet starts a one-time copy operation or a continuous copy operation of a specific Azure SQL Database.
 This cmdlet is not transactional.
 
 The original database is the source database.
@@ -115,7 +115,7 @@ Accept wildcard characters: False
 ```
 
 ### -Database
-Specifies an object that represents the source ssSDS.
+Specifies an object that represents the source Azure SQL Database.
 This parameter accepts pipeline input.
 
 ```yaml

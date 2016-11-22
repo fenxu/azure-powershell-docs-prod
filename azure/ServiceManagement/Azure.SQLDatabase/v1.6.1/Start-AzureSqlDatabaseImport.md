@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 03E9B67D-BF98-446C-8B24-1A4E9E9B8297
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseImport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseImport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseImport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -21,7 +21,7 @@ id: ServiceManagement_Azure_SQLDatabase_v1_6_1_Start_AzureSqlDatabaseImport_md
 # Start-AzureSqlDatabaseImport
 
 ## SYNOPSIS
-Starts an import operation from blob storage to an ssSDS.
+Starts an import operation from blob storage to an Azure SQL Database.
 
 ## SYNTAX
 
@@ -41,7 +41,7 @@ Start-AzureSqlDatabaseImport [-SqlConnectionContext] <ISqlServerConnectionInform
 ```
 
 ## DESCRIPTION
-The **Start-AzureSqlDatabaseImport** cmdlet starts an import operation from Azure Blob storage to an ssSDS.
+The **Start-AzureSqlDatabaseImport** cmdlet starts an import operation from Azure Blob storage to an Azure SQL Database.
 If the database does not exist, this cmdlet creates it by using the size and edition values that you specify.
 The operation requires a database server connection context.
 Use the Get-AzureSqlDatabaseImportExportStatus cmdlet to get the status of the import operation.
@@ -57,7 +57,7 @@ PS C:\> $Container = Get-AzureStorageContainer -Name $ContainerName -Context $St
 PS C:\> $ImportRequest = Start-AzureSqlDatabaseImport -SqlConnectionContext $SqlContext -StorageContainer $Container -DatabaseName $DatabaseName -BlobName $BlobName
 ```
 
-This example initiates an import process from the Blob storage in the $BlobName variable into the ssSDS named DatabaseName.
+This example initiates an import process from the Blob storage in the $BlobName variable into the Azure SQL Database named DatabaseName.
 
 ## PARAMETERS
 

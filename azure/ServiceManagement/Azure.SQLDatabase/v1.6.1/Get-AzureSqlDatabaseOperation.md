@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C75C29A7-A26A-4D75-B068-C5440F2C1158
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseOperation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Get-AzureSqlDatabaseOperation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -77,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -Database
-Specifies an object that represents an ssSDS.
+Specifies an object that represents an Azure SQL Database.
 If you specify this parameter, you must specify the *ServerName* parameter or *ConnectionContext* parameter.
 
 ```yaml
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 
 ### -OperationGuid
 Specifies the operation ID that represents a specific database operation for which this cmdlet gets status.
-You can obtain operation IDs by requesting all the database operations for a ssSDS or server.
+You can obtain operation IDs by requesting all the database operations for a Azure SQL Database or server.
 If you specify this parameter, you must specify the *ServerName* parameter or the *ConnectionContext* parameter.
 
 ```yaml

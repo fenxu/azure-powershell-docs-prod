@@ -5,10 +5,10 @@ Download Help Link: Please enter FwLink manually
 Help Version: 1.0.0.0
 Locale: en-US
 ms.assetid: D5AE53BB-9251-439F-941E-61A8911798C2
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 12:25 AM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Azure.HDInsight.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Azure.HDInsight.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Azure.HDInsight.md
 uid: ServiceManagement/Azure.HDInsight/v1.6.1/Azure.HDInsight.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -31,7 +31,7 @@ Adds a Hadoop configuration value customization or a Hive shared library customi
 
 
 ### [Add-AzureHDInsightMetastore](./Add-AzureHDInsightMetastore.md)
-Adds a ssNoVersion database account to an HDInsight cluster configuration.
+Adds a SQL Server database account to an HDInsight cluster configuration.
 
 
 ### [Add-AzureHDInsightScriptAction](./Add-AzureHDInsightScriptAction.md)
