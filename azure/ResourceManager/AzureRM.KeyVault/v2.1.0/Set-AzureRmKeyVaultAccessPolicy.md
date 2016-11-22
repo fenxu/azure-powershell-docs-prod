@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 434D8535-E2A4-4A2A-B9DD-36DB76EB6933
-updated_at: 11/14/2016 6:53 PM
-ms.date: 11/14/2016
+updated_at: 11/22/2016 8:52 PM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Set-AzureRmKeyVaultAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5dc9ca1739b053c66ea815ee23ea4b9d5dbf4de0/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Set-AzureRmKeyVaultAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Set-AzureRmKeyVaultAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -401,7 +401,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -417,7 +417,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml

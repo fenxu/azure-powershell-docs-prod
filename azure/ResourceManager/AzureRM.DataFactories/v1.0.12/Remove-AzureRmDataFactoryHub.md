@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 280CB9EF-614F-46E6-93A1-19F3B5562384
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 11/22/2016 8:52 PM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Remove-AzureRmDataFactoryHub.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Remove-AzureRmDataFactoryHub.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Remove-AzureRmDataFactoryHub.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -131,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -147,7 +147,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml

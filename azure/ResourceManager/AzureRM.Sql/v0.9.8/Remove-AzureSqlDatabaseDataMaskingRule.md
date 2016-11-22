@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 6C103C51-1DA0-48CE-BB63-8371441B666E
-updated_at: 11/18/2016 8:33 AM
-ms.date: 11/18/2016
+updated_at: 11/22/2016 8:52 PM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlDatabaseDataMaskingRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlDatabaseDataMaskingRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlDatabaseDataMaskingRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -155,7 +155,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -171,7 +170,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: DC78CF76-8C32-4028-BF99-6E8936C65DA8
-updated_at: 11/18/2016 8:33 AM
-ms.date: 11/18/2016
+updated_at: 11/22/2016 8:52 PM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Set-AzureRmDnsRecordSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Set-AzureRmDnsRecordSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.2.0/Set-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -108,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
