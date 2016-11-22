@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400631
 schema: 2.0.0
 ms.assetid: 7A85A84D-9022-452D-A428-FD0C9400C71A
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 11/21/2016 6:01 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/509e3e297cffef326ee90167ad75069fe7bc8f47/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -148,7 +148,7 @@ $descriptions = @{}
 
 $descriptions\[1033\] = "This content is confidential and should not be shared externally"
 
-$descriptions\[1034\] = "Este contenido es confidencial y no debe ser compartido fuera de la organizaci Â³n"
+$descriptions\[1034\] = "Este contenido es confidencial y no debe ser compartido fuera de la organizaci�n"
 
 ```yaml
 Type: Hashtable

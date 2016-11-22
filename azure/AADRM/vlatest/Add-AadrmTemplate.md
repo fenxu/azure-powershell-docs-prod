@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400624
 schema: 2.0.0
 ms.assetid: 1CBB5251-7084-4545-B71A-670AC19DC5E4
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 11/21/2016 6:01 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/509e3e297cffef326ee90167ad75069fe7bc8f47/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: rights-management
@@ -53,7 +53,7 @@ PS C:\> $names[1033] = "New Launch - Confidential content"
 PS C:\> $names[1034] = " Nuevo Lanzamiento - Contenido confidencial"
 PS C:\> $descriptions = @{}
 PS C:\> $descriptions[1033] = "This content is confidential for people working on the New Launch project and should not be shared externally"
-PS C:\> $descriptions[1034] = "Este contenido es confidencial para empleados trabajando en el proyecto Nuevo Lanzamiento y no debe ser compartido fuera de la organizaci Â³n"
+PS C:\> $descriptions[1034] = "Este contenido es confidencial para empleados trabajando en el proyecto Nuevo Lanzamiento y no debe ser compartido fuera de la organizaci�n"
 PS C:\> $r1 = New-AadrmRightsDefinition -EmailAddress marketing@contoso.com -Rights "VIEW","EXPORT"
 PS C:\> $r2 = New-AadrmRightsDefinition -EmailAddress engineering@contoso.com -Rights "VIEW","DOCEDIT"
 PS C:\> Add-AadrmTemplate -Names $names -Descriptions $Descriptions -LicenseValidityDuration 5 -RightsDefinitions $r1, $r2 -ScopedIdentities engineering@contoso.com -Status Published
@@ -131,7 +131,7 @@ $descriptions = @{}
 
 $descriptions\[1033\] = "This content is confidential and should not be shared externally"
 
-$descriptions\[1034\] = "Este contenido es confidencial y no debe ser compartido fuera de la organizaci Â³n"
+$descriptions\[1034\] = "Este contenido es confidencial y no debe ser compartido fuera de la organizaci�n"
 
 ```yaml
 Type: Hashtable
@@ -147,7 +147,7 @@ Accept wildcard characters: False
 
 ### -EnableInLegacyApps
 Determines the behavior of a departmental template in applications that do not support departmental templates (see the *ScopedIdentities* parameter).
-If set to True and the template is a departmental template, all users trying to protect content from an application that does not support departmental templates will see the template and therefore be able to select it, regardless of whether the users are members of the template ¢â‚¬â"¢s target scope or not.
+If set to True and the template is a departmental template, all users trying to protect content from an application that does not support departmental templates will see the template and therefore be able to select it, regardless of whether the users are members of the template's target scope or not.
 If set to False, no users see and therefore cannot select the template in applications that do not support departmental templates, even if the users are members of the template's target scope.
 
 This setting has no effect on templates that are not departmental templates and also has no effect on applications that natively support departmental templates.
@@ -322,7 +322,7 @@ $descriptions = @{}
 
 $descriptions\[1033\] = "This content is confidential and should not be shared externally"
 
-$descriptions\[1034\] = "Este contenido es confidencial y no debe ser compartido fuera de la organizaci Â³n"
+$descriptions\[1034\] = "Este contenido es confidencial y no debe ser compartido fuera de la organizaci�n"
 
 The rights are specified as a list of **Rights Definition** objects that contain the email address for the identity and the rights to assign to it.
 
