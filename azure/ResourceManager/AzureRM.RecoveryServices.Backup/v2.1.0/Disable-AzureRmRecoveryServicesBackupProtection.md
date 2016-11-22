@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: 52E016B5-5045-47AF-895B-F2F4F288EE33
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/22/2016 8:52 PM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Disable-AzureRmRecoveryServicesBackupProtection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Disable-AzureRmRecoveryServicesBackupProtection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Disable-AzureRmRecoveryServicesBackupProtection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -142,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -158,7 +158,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
