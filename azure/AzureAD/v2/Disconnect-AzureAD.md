@@ -2,10 +2,10 @@
 external help file: azuread.help.xml
 online version: 
 schema: 2.0.0
-updated_at: 11/21/2016 8:09 PM
-ms.date: 11/21/2016
+updated_at: 11/22/2016 8:58 PM
+ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Disconnect-AzureAD.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Disconnect-AzureAD.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/084dca1f44ff9660c6e98edffec310a585c649e4/Azure%20AD%20Cmdlets/AzureAD/v2/Disconnect-AzureAD.md
 ms.topic: reference
 ms.prod: 
 ms.service: active-directory
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-@{Text=}
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
