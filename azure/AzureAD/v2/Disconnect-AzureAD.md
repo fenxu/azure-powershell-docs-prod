@@ -7,14 +7,13 @@ ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Disconnect-AzureAD.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/084dca1f44ff9660c6e98edffec310a585c649e4/Azure%20AD%20Cmdlets/AzureAD/v2/Disconnect-AzureAD.md
 ms.topic: reference
-ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-id: AzureAD_v2_Disconnect_AzureAD_md
+open_to_public_contributors: True
 ---
 
 # Disconnect-AzureAD

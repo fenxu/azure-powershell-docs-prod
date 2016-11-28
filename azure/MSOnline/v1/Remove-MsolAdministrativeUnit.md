@@ -8,14 +8,13 @@ ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolAdministrativeUnit.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c22ad9f927dcfe00a363b1a2c343fc086da2ac5/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolAdministrativeUnit.md
 ms.topic: reference
-ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-id: MSOnline_v1_Remove_MsolAdministrativeUnit_md
+open_to_public_contributors: True
 ---
 
 # Remove-MsolAdministrativeUnit

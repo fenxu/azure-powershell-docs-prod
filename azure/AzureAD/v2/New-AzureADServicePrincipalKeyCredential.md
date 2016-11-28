@@ -7,14 +7,13 @@ ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalKeyCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalKeyCredential.md
 ms.topic: reference
-ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-id: AzureAD_v2_New_AzureADServicePrincipalKeyCredential_md
+open_to_public_contributors: True
 ---
 
 # New-AzureADServicePrincipalKeyCredential

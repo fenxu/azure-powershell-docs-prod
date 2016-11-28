@@ -4,14 +4,13 @@ ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/index.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e81535cdf2d724dc278ac5bb6bdee1b52f150bcd/Azure%20AD%20Cmdlets/index.md
 ms.topic: conceptual
-ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-id: index_md
+open_to_public_contributors: True
 ---
 # Azure Active Directory
 

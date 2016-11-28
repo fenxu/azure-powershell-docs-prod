@@ -11,14 +11,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e81535cdf2d724dc278ac5bb6bdee1b52f150bcd/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
 uid: MSOnline/v1/AzureActiveDirectory.md
 ms.topic: conceptual
-ms.prod: 
 ms.service: active-directory
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-id: MSOnline_v1_AzureActiveDirectory_md
+open_to_public_contributors: True
 ---
 
 # AzureActiveDirectory Module
