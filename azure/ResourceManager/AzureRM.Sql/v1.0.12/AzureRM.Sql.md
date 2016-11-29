@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Sql_v1_0_12_AzureRM_Sql_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.Sql Module

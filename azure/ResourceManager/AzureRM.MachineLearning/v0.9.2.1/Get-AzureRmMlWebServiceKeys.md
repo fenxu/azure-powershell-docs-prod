@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_MachineLearning_v0_9_2_1_Get_AzureRmMlWebServiceKeys_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureRmMlWebServiceKeys

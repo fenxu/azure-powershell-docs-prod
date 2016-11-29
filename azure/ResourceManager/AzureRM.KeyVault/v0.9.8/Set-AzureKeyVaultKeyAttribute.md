@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_KeyVault_v0_9_8_Set_AzureKeyVaultKeyAttribute_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureKeyVaultKeyAttribute

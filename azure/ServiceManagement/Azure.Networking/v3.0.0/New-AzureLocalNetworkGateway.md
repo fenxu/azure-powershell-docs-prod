@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_Networking_v3_0_0_New_AzureLocalNetworkGateway_md
+open_to_public_contributors: False
 ---
 
 # New-AzureLocalNetworkGateway

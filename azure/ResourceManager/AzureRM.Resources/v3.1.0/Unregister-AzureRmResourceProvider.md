@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Resources_v3_1_0_Unregister_AzureRmResourceProvider_md
+open_to_public_contributors: False
 ---
 
 # Unregister-AzureRmResourceProvider

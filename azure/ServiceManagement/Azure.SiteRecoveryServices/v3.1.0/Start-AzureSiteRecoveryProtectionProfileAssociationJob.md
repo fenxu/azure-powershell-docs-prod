@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_SiteRecoveryServices_v3_1_0_Start_AzureSiteRecoveryProtectionProfileAssociationJob_md
+open_to_public_contributors: False
 ---
 
 # Start-AzureSiteRecoveryProtectionProfileAssociationJob

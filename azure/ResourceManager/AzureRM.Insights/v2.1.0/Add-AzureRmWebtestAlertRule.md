@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Insights_v2_1_0_Add_AzureRmWebtestAlertRule_md
+open_to_public_contributors: False
 ---
 
 # Add-AzureRmWebtestAlertRule

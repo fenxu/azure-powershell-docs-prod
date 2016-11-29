@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_SiteRecovery_v2_1_0_Update_AzureSiteRecoveryProtectionDirection_md
+open_to_public_contributors: False
 ---
 
 # Update-AzureSiteRecoveryProtectionDirection

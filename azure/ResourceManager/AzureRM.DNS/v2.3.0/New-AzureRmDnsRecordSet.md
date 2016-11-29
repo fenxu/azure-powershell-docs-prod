@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 ms.assetid: 45DF71E0-77E1-4D20-AD09-2C06680F659F
-online version: 
+online version:
 schema: 2.0.0
-updated_at: 11/18/2016 9:58 PM
-ms.date: 11/18/2016
+updated_at: 11/21/2016 9:55 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsRecordSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsRecordSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ae52c90f776d988caa5d17017eef83e274af9eb7/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DNS_v2_3_0_New_AzureRmDnsRecordSet_md
+open_to_public_contributors: False
 ---
 
 # New-AzureRmDnsRecordSet
@@ -49,7 +49,7 @@ This parameter takes an array of DNS records, constructed using New-AzureRmDnsRe
 
 You can use the pipeline operator to pass a **DnsZone** object to this cmdlet, or you can pass a **DnsZone** object as the *Zone* parameter, or alternatively you can specify the zone by name.
 
-You can use the *Confirm* parameter and $ConfirmPreference PowerShell variable to control the standard PowerShell confirmation behavior.
+You can use the *Confirm* parameter and $ConfirmPreference Windows PowerShell variable to control whether the cmdlet prompts you for confirmation.
 
 If a matching **RecordSet** already exists (same name and record type), you must specify the *Overwrite* parameter, otherwise the cmdlet will not create a new **RecordSet** .
 
@@ -65,7 +65,7 @@ PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -Resource
 
 PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords (New-AzureRmDnsRecordConfig -IPv4Address 1.2.3.4)
 
-# To create a record set containing multiple records, use New-AzureRmDnsRecordConfig to add each record to the $Records array, 
+# To create a record set containing multiple records, use New-AzureRmDnsRecordConfig to add each record to the $Records array,
 # then call New-AzureRmDnsRecordSet, as follows:
 
 PS C:\> $Records = @()
@@ -209,12 +209,12 @@ This is an empty record set, which acts as a placeholder to which you can later 
 
 ### Example 12: Create a record set and suppress all confirmation
 ```
-PS C:\>$RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords (New-AzureRmDnsRecordConfig -Ipv4Address 1.2.3.4) -Confirm:$False -Overwrite -Force
+PS C:\>$RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords (New-AzureRmDnsRecordConfig -Ipv4Address 1.2.3.4) -Confirm:$False -Overwrite
 ```
 
 This command creates a **RecordSet**.
 The *Overwrite* parameter ensures that this record set overwrites any pre-existing record set with the same name and type (existing records in that record set are lost).
-The *Force* parameter suppresses the overwrite confirmation prompt, and the *Confirm* parameter with a value of $False suppresses the normal PowerShell confirmation prompt.
+The *Confirm* parameter with a value of $False suppresses the confirmation prompt.
 
 ## PARAMETERS
 
@@ -226,7 +226,7 @@ See the examples for more information.
 ```yaml
 Type: DnsRecordBase[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -236,14 +236,15 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-When used with the *Overwrite* parameter, forces the command to run without asking for user confirmation before overwriting any existing DNS records with the same name and type.
+This parameter is deprecated for this cmdlet.
+It will be removed in a future release.
 
-This overwrite confirmation is in addition to the standard PowerShell confirmation controlled via the *Confirm* parameter and $ConfirmPreference PowerShell variable.
+To control whether this cmdlet prompts you for comfirmation, use the *Confirm* parameter.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -259,7 +260,7 @@ Metadata is specified using name-value pairs that are represented as hash tables
 ```yaml
 Type: Hashtable
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -274,7 +275,7 @@ Specifies the name of the **RecordSet** to create.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -285,14 +286,11 @@ Accept wildcard characters: False
 
 ### -Overwrite
 Indicates that this cmdlet overwrites the specified **RecordSet** if it already exists.
-You will be prompted to confirm the operation unless you also specify the *Force* parameter.
-
-This overwrite confirmation is in addition to the standard PowerShell confirmation controlled via the *Confirm* parameter and $ConfirmPreference PowerShell variable.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -304,15 +302,15 @@ Accept wildcard characters: False
 ### -RecordType
 Specifies the type of DNS record to create.
 
-Valid values are: 
+Valid values are:
 
-- A 
+- A
 - AAAA
 - CNAME
 - MX
 - NS
 - PTR
-- SRV 
+- SRV
 - TXT
 
 SOA records are created automatically when the zone is created and cannot be created manually.
@@ -320,7 +318,7 @@ SOA records are created automatically when the zone is created and cannot be cre
 ```yaml
 Type: RecordType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: A, AAAA, CNAME, MX, NS, PTR, SOA, SRV, TXT
 
 Required: True
@@ -339,7 +337,7 @@ Alternatively, you can specify the zone and resource group by passing in a DNS Z
 ```yaml
 Type: String
 Parameter Sets: Fields
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -354,7 +352,7 @@ Specifies the Time to Live (TTL) for the DNS RecordSet.
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -370,7 +368,7 @@ Alternatively, you can specify the zone using the *ZoneName* and *ResourceGroupN
 ```yaml
 Type: DnsZone
 Parameter Sets: Object
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -388,7 +386,7 @@ Alternatively, you can specify the zone and resource group by passing in a DNS Z
 ```yaml
 Type: String
 Parameter Sets: Fields
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -442,6 +440,11 @@ You can pipe a DnsZone object to this cmdlet.
 This cmdlet returns a **RecordSet** object.
 
 ## NOTES
+You can use the *Confirm* parameter to control whether this cmdlet prompts you for confirmation.
+By default, the cmdlet prompts you for confirmation if the $ConfirmPreference Windows PowerShell variable has a value of Medium or lower.
+
+If you specify *Confirm* or *Confirm:$True*, this cmdlet prompts you for confirmation before it runs.
+If you specify *Confirm:$False*, the cmdlet does not prompt you for confirmation.
 
 ## RELATED LINKS
 
@@ -454,5 +457,3 @@ This cmdlet returns a **RecordSet** object.
 [Remove-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.3.0/Remove-AzureRmDnsRecordSet.md)
 
 [Set-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.3.0/Set-AzureRmDnsRecordSet.md)
-
-

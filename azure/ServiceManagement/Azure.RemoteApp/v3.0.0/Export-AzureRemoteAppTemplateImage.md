@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_RemoteApp_v3_0_0_Export_AzureRemoteAppTemplateImage_md
+open_to_public_contributors: False
 ---
 
 # Export-AzureRemoteAppTemplateImage

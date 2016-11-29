@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_StorSimple_v2_1_0_Remove_AzureStorSimpleStorageAccountCredential_md
+open_to_public_contributors: False
 ---
 
 # Remove-AzureStorSimpleStorageAccountCredential

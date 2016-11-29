@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_ServerManagement_v2_3_0_Install_AzureRmServerManagementGatewayProfile_md
+open_to_public_contributors: False
 ---
 
 # Install-AzureRmServerManagementGatewayProfile

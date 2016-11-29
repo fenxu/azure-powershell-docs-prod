@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_MachineLearning_v0_11_0_AzureRM_MachineLearning_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.MachineLearning Module

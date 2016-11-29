@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_HDInsight_v2_1_0_Invoke_AzureRmHDInsightHiveJob_md
+open_to_public_contributors: False
 ---
 
 # Invoke-AzureRmHDInsightHiveJob

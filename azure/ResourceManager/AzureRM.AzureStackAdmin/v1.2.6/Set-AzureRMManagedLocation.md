@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_AzureStackAdmin_v1_2_6_Set_AzureRMManagedLocation_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureRMManagedLocation

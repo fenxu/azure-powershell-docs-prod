@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_Profile_v0_9_8_Get_AzureAccount_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureAccount

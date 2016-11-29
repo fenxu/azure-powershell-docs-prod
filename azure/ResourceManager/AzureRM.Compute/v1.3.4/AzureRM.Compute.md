@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Compute_v1_3_4_AzureRM_Compute_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.Compute Module

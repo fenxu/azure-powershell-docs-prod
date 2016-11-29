@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_Automation_v1_6_1_Get_AzureAutomationSchedule_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureAutomationSchedule

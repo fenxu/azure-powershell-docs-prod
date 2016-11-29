@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_RecoveryServices_Backup_v1_0_4_Get_AzureRmRecoveryServicesBackupSchedulePolicyObject_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureRmRecoveryServicesBackupSchedulePolicyObject

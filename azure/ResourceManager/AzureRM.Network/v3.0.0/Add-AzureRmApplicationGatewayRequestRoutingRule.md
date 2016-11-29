@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Network_v3_0_0_Add_AzureRmApplicationGatewayRequestRoutingRule_md
+open_to_public_contributors: False
 ---
 
 # Add-AzureRmApplicationGatewayRequestRoutingRule

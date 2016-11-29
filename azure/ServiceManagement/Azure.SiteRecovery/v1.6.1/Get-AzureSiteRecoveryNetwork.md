@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_SiteRecovery_v1_6_1_Get_AzureSiteRecoveryNetwork_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureSiteRecoveryNetwork

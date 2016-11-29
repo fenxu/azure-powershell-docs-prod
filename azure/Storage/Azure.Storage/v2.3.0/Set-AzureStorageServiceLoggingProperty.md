@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: Storage_Azure_Storage_v2_3_0_Set_AzureStorageServiceLoggingProperty_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureStorageServiceLoggingProperty

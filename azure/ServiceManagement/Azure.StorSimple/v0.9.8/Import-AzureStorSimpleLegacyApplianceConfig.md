@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_StorSimple_v0_9_8_Import_AzureStorSimpleLegacyApplianceConfig_md
+open_to_public_contributors: False
 ---
 
 # Import-AzureStorSimpleLegacyApplianceConfig

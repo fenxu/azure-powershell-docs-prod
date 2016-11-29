@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_SiteRecovery_v1_1_11_Remove_AzureRmSiteRecoverySite_md
+open_to_public_contributors: False
 ---
 
 # Remove-AzureRmSiteRecoverySite

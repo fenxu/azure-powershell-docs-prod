@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DevTestLabs_v1_0_3_Set_AzureRmDtlAutoShutdownPolicy_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureRmDtlAutoShutdownPolicy

@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_PowerBIEmbedded_v1_0_1_AzureRM_PowerBIEmbedded_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.PowerBIEmbedded Module

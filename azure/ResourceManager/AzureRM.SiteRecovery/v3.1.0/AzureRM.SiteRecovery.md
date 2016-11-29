@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_SiteRecovery_v3_1_0_AzureRM_SiteRecovery_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.SiteRecovery Module

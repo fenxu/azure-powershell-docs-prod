@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_RecoveryServices_Backup_v2_1_0_Stop_AzureRmRecoveryServicesBackupJob_md
+open_to_public_contributors: False
 ---
 
 # Stop-AzureRmRecoveryServicesBackupJob

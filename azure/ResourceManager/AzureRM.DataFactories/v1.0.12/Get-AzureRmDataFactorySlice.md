@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DataFactories_v1_0_12_Get_AzureRmDataFactorySlice_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureRmDataFactorySlice

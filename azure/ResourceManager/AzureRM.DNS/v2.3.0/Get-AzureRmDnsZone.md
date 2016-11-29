@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 ms.assetid: B831ABE6-348C-4DD6-9295-18D23A1FDF63
-online version: 
+online version:
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/21/2016 9:55 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Get-AzureRmDnsZone.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Get-AzureRmDnsZone.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ae52c90f776d988caa5d17017eef83e274af9eb7/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Get-AzureRmDnsZone.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DNS_v2_3_0_Get_AzureRmDnsZone_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureRmDnsZone
@@ -75,7 +75,7 @@ If you also omit the *ResourceGroupName* parameter, this cmdlet gets all DNS zon
 ```yaml
 Type: String
 Parameter Sets: ResourceGroup
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -87,13 +87,13 @@ Accept wildcard characters: False
 ### -ResourceGroupName
 Specifies the name of the resource group that contains the DNS zone to get.
 
-If you do not specify the *ResourceGroupName*, then you mus also omit the *Name* parameter.
+If you do not specify the *ResourceGroupName*, then you must also omit the *Name* parameter.
 In this case, this cmdlet gets all DNS zones in the current Azure subscription.
 
 ```yaml
 Type: String
 Parameter Sets: ResourceGroup
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -125,5 +125,3 @@ If the zone name is not specified, an array of zone objects is returned.
 [Remove-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.3.0/Remove-AzureRmDnsZone.md)
 
 [Set-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.3.0/Set-AzureRmDnsZone.md)
-
-

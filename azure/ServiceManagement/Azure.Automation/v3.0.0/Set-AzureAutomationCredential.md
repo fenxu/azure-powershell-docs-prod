@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_Automation_v3_0_0_Set_AzureAutomationCredential_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureAutomationCredential

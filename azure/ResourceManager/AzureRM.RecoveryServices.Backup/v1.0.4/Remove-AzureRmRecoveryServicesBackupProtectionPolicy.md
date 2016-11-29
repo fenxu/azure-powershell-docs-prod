@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_RecoveryServices_Backup_v1_0_4_Remove_AzureRmRecoveryServicesBackupProtectionPolicy_md
+open_to_public_contributors: False
 ---
 
 # Remove-AzureRmRecoveryServicesBackupProtectionPolicy

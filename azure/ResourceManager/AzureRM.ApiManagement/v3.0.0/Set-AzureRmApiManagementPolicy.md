@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_ApiManagement_v3_0_0_Set_AzureRmApiManagementPolicy_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureRmApiManagementPolicy

@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Websites_v2_3_0_Start_AzureRmWebApp_md
+open_to_public_contributors: False
 ---
 
 # Start-AzureRmWebApp

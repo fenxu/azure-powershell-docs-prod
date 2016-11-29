@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_OperationalInsights_v0_9_8_Get_AzureOperationalInsightsWorkspace_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureOperationalInsightsWorkspace

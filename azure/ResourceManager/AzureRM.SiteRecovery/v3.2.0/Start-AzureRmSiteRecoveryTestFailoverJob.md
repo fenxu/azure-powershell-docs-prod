@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_SiteRecovery_v3_2_0_Start_AzureRmSiteRecoveryTestFailoverJob_md
+open_to_public_contributors: False
 ---
 
 # Start-AzureRmSiteRecoveryTestFailoverJob

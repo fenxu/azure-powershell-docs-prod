@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Batch_v1_1_4_Stop_AzureBatchPoolResize_md
+open_to_public_contributors: False
 ---
 
 # Stop-AzureBatchPoolResize

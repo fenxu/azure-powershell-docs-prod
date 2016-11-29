@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_HDInsight_v1_1_4_AzureRM_HDInsight_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.HDInsight Module

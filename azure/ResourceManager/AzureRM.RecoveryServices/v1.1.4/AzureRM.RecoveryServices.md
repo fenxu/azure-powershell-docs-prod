@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_RecoveryServices_v1_1_4_AzureRM_RecoveryServices_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.RecoveryServices Module

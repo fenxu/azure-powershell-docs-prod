@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_AzureStackStorage_v0_9_9_1_Set_ACSManagementService_md
+open_to_public_contributors: False
 ---
 
 # Set-ACSManagementService

@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_RedisCache_v2_3_0_Export_AzureRmRedisCache_md
+open_to_public_contributors: False
 ---
 
 # Export-AzureRmRedisCache

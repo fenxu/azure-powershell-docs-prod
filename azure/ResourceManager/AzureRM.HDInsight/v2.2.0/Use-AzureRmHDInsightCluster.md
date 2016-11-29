@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_HDInsight_v2_2_0_Use_AzureRmHDInsightCluster_md
+open_to_public_contributors: False
 ---
 
 # Use-AzureRmHDInsightCluster

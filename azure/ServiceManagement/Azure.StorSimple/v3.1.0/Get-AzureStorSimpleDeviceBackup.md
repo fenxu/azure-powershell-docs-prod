@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_StorSimple_v3_1_0_Get_AzureStorSimpleDeviceBackup_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureStorSimpleDeviceBackup

@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_Service_v3_1_0_Add_AzureDataDisk_md
+open_to_public_contributors: False
 ---
 
 # Add-AzureDataDisk
