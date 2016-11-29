@@ -2,10 +2,10 @@
 external help file: azuread.help.xml
 online version: http://www.cloudidentity.com/blog/2013/09/12/active-directory-authentication-library-adal-v1-for-net-general-availability/
 schema: 2.0.0
-updated_at: 11/22/2016 3:48 AM
-ms.date: 11/22/2016
+updated_at: 11/29/2016 10:04 PM
+ms.date: 11/29/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationKeyCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/65c0ce4dcd6696590eb74a2238e546b5b6ded281/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationKeyCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/70634c76dd45e8ba886fa7b14411126a37fdce5c/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplicationKeyCredential.md
 ms.topic: reference
 ms.service: active-directory
 ms.technology: Azure PowerShell
@@ -176,5 +176,8 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADApplicationKeyCredential](xref:AzureAD/v2/Get-AzureADApplicationKeyCredential.md)
+
+[Remove-AzureADApplicationKeyCredential](xref:AzureAD/v2/Remove-AzureADApplicationKeyCredential.md)
 
 [This cmdlet uses the adal library in azure Active Directory. To learn more about ADAL, please follow this link:](http://www.cloudidentity.com/blog/2013/09/12/active-directory-authentication-library-adal-v1-for-net-general-availability/)

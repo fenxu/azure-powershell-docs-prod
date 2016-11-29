@@ -2,10 +2,10 @@
 external help file: azuread.help.xml
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:58 PM
-ms.date: 11/22/2016
+updated_at: 11/29/2016 10:10 PM
+ms.date: 11/29/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/084dca1f44ff9660c6e98edffec310a585c649e4/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a701a1cef7ce65cd0092ec26c65518807d56366f/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
 ms.topic: reference
 ms.service: active-directory
 ms.technology: Azure PowerShell
@@ -272,4 +272,4 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-
+[Disconnet-AzureAD](xref:AzureAD/v2/Disconnect-AzureAD.md)
