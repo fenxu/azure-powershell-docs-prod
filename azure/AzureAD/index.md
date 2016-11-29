@@ -1,8 +1,8 @@
 ---
-updated_at: 11/28/2016 11:43 PM
-ms.date: 11/28/2016
+updated_at: 11/29/2016 1:02 AM
+ms.date: 11/29/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/61b3ed89f2d91d1d9224e219f284b99787103faf/Azure%20AD%20Cmdlets/AzureAD/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f33c71b38e27313f3e842da0f9ce4cbfaa656dc4/Azure%20AD%20Cmdlets/AzureAD/index.md
 ms.topic: conceptual
 ms.service: active-directory
 ms.technology: Azure PowerShell
@@ -14,7 +14,7 @@ open_to_public_contributors: True
 ---
 # Azure Active Directory 
 
-You can use the Azure Active Directory PowerShell Module Version 2.0 for Azure AD administrative tasks such as user management, domain management and for configuring single sign-on. These topics are related to using the version of Azure Active Directory released to preview June 30, 2016. The cmdlets listed here are different than the MSOL cmdlets which are part of Azure Active Directory Version 1.0.
+You can use the Azure Active Directory PowerShell Module Version 2.0 for Azure AD administrative tasks such as user management, domain management and for configuring single sign-on. The cmdlets listed here are different than the MSOL cmdlets which are part of Azure Active Directory Version 1.0.
 
 The Azure AD PowerShell Version 2 module has two versions: a Public preview version and a general Availability version. It is not recommended to use the Public Preview version for production scenarios.
 
