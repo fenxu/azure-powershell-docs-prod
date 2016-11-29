@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_HDInsight_v1_1_4_Add_AzureRmHDInsightClusterIdentity_md
+open_to_public_contributors: False
 ---
 
 # Add-AzureRmHDInsightClusterIdentity

@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_CognitiveServices_v0_3_0_Set_AzureRmCognitiveServicesAccount_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureRmCognitiveServicesAccount

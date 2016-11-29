@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_ApiManagement_ServiceManagement_v1_1_4_Save_AzureRmApiManagementTenantGitConfiguration_md
+open_to_public_contributors: False
 ---
 
 # Save-AzureRmApiManagementTenantGitConfiguration

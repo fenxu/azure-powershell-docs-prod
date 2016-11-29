@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: Storage_Azure_Storage_v1_1_6_Stop_AzureStorageBlobCopy_md
+open_to_public_contributors: False
 ---
 
 # Stop-AzureStorageBlobCopy

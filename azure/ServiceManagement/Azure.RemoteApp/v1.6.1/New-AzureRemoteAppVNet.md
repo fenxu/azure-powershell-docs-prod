@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_RemoteApp_v1_6_1_New_AzureRemoteAppVNet_md
+open_to_public_contributors: False
 ---
 
 # New-AzureRemoteAppVNet

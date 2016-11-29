@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_SQLDatabase_v0_9_8_Get_AzureSqlDatabaseOperation_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureSqlDatabaseOperation

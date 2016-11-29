@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Media_v0_2_0_Sync_AzureRmMediaServiceStorageKeys_md
+open_to_public_contributors: False
 ---
 
 # Sync-AzureRmMediaServiceStorageKeys

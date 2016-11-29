@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_TrafficManager_v1_6_1_Azure_TrafficManager_md
+open_to_public_contributors: False
 ---
 
 # Azure.TrafficManager Module

@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_StorSimple_v1_6_1_Azure_StorSimple_md
+open_to_public_contributors: False
 ---
 
 # Azure.StorSimple Module

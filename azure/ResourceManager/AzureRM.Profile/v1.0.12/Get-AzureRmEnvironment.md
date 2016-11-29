@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Profile_v1_0_12_Get_AzureRmEnvironment_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureRmEnvironment

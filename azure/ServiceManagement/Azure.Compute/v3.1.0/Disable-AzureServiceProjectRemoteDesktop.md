@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_Compute_v3_1_0_Disable_AzureServiceProjectRemoteDesktop_md
+open_to_public_contributors: False
 ---
 
 # Disable-AzureServiceProjectRemoteDesktop

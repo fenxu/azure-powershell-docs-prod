@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Scheduler_v0_11_0_Remove_AzureRmSchedulerJob_md
+open_to_public_contributors: False
 ---
 
 # Remove-AzureRmSchedulerJob

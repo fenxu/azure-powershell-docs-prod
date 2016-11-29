@@ -5,10 +5,10 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 81574D24-6FD4-4A2B-AE87-C938DEDB57DF
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/21/2016 9:55 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/AzureRM.DNS.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/AzureRM.DNS.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ae52c90f776d988caa5d17017eef83e274af9eb7/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/AzureRM.DNS.md
 uid: ResourceManager/AzureRM.DNS/v2.3.0/AzureRM.DNS.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DNS_v2_3_0_AzureRM_DNS_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.DNS Module
@@ -27,7 +27,7 @@ This topic displays help topics for the Azure DNS Cmdlets.
 
 ## AzureRM.DNS Cmdlets
 ### [Add-AzureRmDnsRecordConfig](Add-AzureRmDnsRecordConfig.md)
-Adds a DNS record to a record set.
+Adds a DNS record to a local record set object.
 
 ### [Get-AzureRmDnsRecordSet](Get-AzureRmDnsRecordSet.md)
 Gets a DNS record set.
@@ -37,7 +37,6 @@ Gets a DNS zone.
 
 ### [New-AzureRmDnsRecordConfig](New-AzureRmDnsRecordConfig.md)
 Creates a new DNS record local object.
-This cmdlet is used in conjunction with New-AzureRmDnsRecordSet.
 
 ### [New-AzureRmDnsRecordSet](New-AzureRmDnsRecordSet.md)
 Creates a DNS record set.
@@ -46,7 +45,7 @@ Creates a DNS record set.
 Creates a new DNS zone.
 
 ### [Remove-AzureRmDnsRecordConfig](Remove-AzureRmDnsRecordConfig.md)
-Removes a DNS record from a record set.
+Removes a DNS record from a local record set.
 
 ### [Remove-AzureRmDnsRecordSet](Remove-AzureRmDnsRecordSet.md)
 Deletes a record set.
@@ -59,5 +58,3 @@ Updates a DNS record set.
 
 ### [Set-AzureRmDnsZone](Set-AzureRmDnsZone.md)
 Updates the properties of a DNS zone.
-Does not update DNS records within the zone.
-

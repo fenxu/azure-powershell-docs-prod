@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_RemoteApp_v3_0_0_Azure_RemoteApp_md
+open_to_public_contributors: False
 ---
 
 # Azure.RemoteApp Module

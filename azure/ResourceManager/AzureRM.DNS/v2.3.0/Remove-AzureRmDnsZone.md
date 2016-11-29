@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 ms.assetid: A8E230A0-5057-40BC-81CD-6D397A503A84
-online version: 
+online version:
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 11/21/2016 9:55 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Remove-AzureRmDnsZone.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Remove-AzureRmDnsZone.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ae52c90f776d988caa5d17017eef83e274af9eb7/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Remove-AzureRmDnsZone.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DNS_v2_3_0_Remove_AzureRmDnsZone_md
+open_to_public_contributors: False
 ---
 
 # Remove-AzureRmDnsZone
@@ -43,10 +43,7 @@ All record sets contained in the zone are also deleted.
 
 You can pass a **DnsZone** object using the *Name* parameter or by using the pipeline operator, or alternatively you can specify the *ZoneName* and *ResourceGroupName* parameters.
 
-The *Confirm* parameter and $ConfirmPreference pn_PowerShell_short variable can be used to control the standard pn_PowerShell_short confirmation behavior.
-
-Because of the potential impact of deleting an in-use zone, a second level of confirmation is used in addition to the standard pn_PowerShell_short behavior described above.
-This is controlled using the *Force* parameter.
+You can use the Confirm parameter and $ConfirmPreference Windows PowerShell variable to control whether the cmdlet prompts you for confirmation.
 
 When specifying the zone using a **DnsZone** object (passed via the pipeline or *Zone* parameter), the zone is not deleted if it has been changed in Azure DNS since the local **DnsZone** object was retrieved (only operations directly on the DNS zone resource count as changes, operations on record sets within the zone do not).
 This provides protection for concurrent zone changes.
@@ -64,14 +61,15 @@ This command removes the zone named myzone.com from the resource group named MyR
 ## PARAMETERS
 
 ### -Force
-ps_force
+This parameter is deprecated for this cmdlet.
+It will be removed in a future release.
 
-This confirmation is in addition to the standard pn_PowerShell_short confirmation controlled via the *Confirm* parameter and $ConfirmPreference pn_PowerShell_short variable.
+To control whether this cmdlet prompts you for confirmation, use the *Confirm* parameter.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -89,7 +87,7 @@ Alternatively, you can specify the DNS zone using the *Zone* parameter.
 ```yaml
 Type: String
 Parameter Sets: Fields
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -107,7 +105,7 @@ This can be suppressed using the *Overwrite* parameter, which deletes the zone r
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Object
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -122,7 +120,7 @@ passthru
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -140,7 +138,7 @@ Alternatively, you can specify the DNS zone using a **DnsZone** object, passed v
 ```yaml
 Type: String
 Parameter Sets: Fields
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -158,7 +156,7 @@ Alternatively, you can specify the DNS zone to delete by using the *ZoneName* an
 ```yaml
 Type: DnsZone
 Parameter Sets: Object
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -212,6 +210,11 @@ You can pipe a **DnsZone** object to this cmdlet.
 This cmdlet does not generate any output.
 
 ## NOTES
+Due to the potentially high impact of deleting a DNS zone, by default, this cmdlet prompts for confirmation if the $ConfirmPreference Windows PowerShell variable has any value other than None.
+
+If you specify *Confirm* or *Confirm:$True*, this cmdlet prompts you for confirmation before it runs.
+If you specify *Confirm:$False*, the cmdlet does not prompt you for confirmation. 
+
 
 ## RELATED LINKS
 
@@ -220,5 +223,3 @@ This cmdlet does not generate any output.
 [New-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsZone.md)
 
 [Set-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.3.0/Set-AzureRmDnsZone.md)
-
-

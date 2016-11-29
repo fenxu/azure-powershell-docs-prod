@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Scheduler_v0_11_1_Get_AzureRmSchedulerJobCollection_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureRmSchedulerJobCollection

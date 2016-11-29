@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_MachineLearning_v0_9_2_1_Remove_AzureRmMlWebService_md
+open_to_public_contributors: False
 ---
 
 # Remove-AzureRmMlWebService

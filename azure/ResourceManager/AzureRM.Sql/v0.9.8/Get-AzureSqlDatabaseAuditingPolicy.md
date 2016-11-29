@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Sql_v0_9_8_Get_AzureSqlDatabaseAuditingPolicy_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureSqlDatabaseAuditingPolicy

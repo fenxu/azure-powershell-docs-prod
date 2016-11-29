@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DNS_v1_0_12_AzureRM_DNS_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.DNS Module

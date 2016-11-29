@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Network_v1_0_13_Add_AzureRmNetworkSecurityRuleConfig_md
+open_to_public_contributors: False
 ---
 
 # Add-AzureRmNetworkSecurityRuleConfig

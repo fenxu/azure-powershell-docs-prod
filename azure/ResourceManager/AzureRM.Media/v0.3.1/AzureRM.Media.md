@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Media_v0_3_1_AzureRM_Media_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.Media Module

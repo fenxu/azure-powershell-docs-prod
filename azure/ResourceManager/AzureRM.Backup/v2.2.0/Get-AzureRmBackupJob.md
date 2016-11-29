@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Backup_v2_2_0_Get_AzureRmBackupJob_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureRmBackupJob

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 ms.assetid: AD97BCAF-69BA-4C16-8B57-AB243D796B71
-online version: 
+online version:
 schema: 2.0.0
-updated_at: 11/18/2016 9:58 PM
-ms.date: 11/18/2016
+updated_at: 11/21/2016 9:55 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsRecordConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsRecordConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ae52c90f776d988caa5d17017eef83e274af9eb7/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsRecordConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -15,14 +15,13 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DNS_v2_3_0_New_AzureRmDnsRecordConfig_md
+open_to_public_contributors: False
 ---
 
 # New-AzureRmDnsRecordConfig
 
 ## SYNOPSIS
 Creates a new DNS record local object.
-This cmdlet is used in conjunction with New-AzureRmDnsRecordSet.
 
 ## SYNTAX
 
@@ -83,7 +82,7 @@ PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -Resource
 
 PS C:\> $RecordSet = New-AzureRmDnsRecordSet -Name "www" -RecordType A -ResourceGroupName "MyResourceGroup" -TTL 3600 -ZoneName "myzone.com" -DnsRecords (New-AzureRmDnsRecordConfig -IPv4Address 1.2.3.4)
 
-# To create a record set containing multiple records, use New-AzureRmDnsRecordConfig to add each record to the $Records array, 
+# To create a record set containing multiple records, use New-AzureRmDnsRecordConfig to add each record to the $Records array,
 # then call New-AzureRmDnsRecordSet, as follows:
 
 PS C:\> $Records = @()
@@ -197,7 +196,7 @@ Specifies the domain name for a canonical name (CNAME) record.
 ```yaml
 Type: String
 Parameter Sets: CName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -212,7 +211,7 @@ Specifies the mail exchange server name for a mail exchange (MX) record.
 ```yaml
 Type: String
 Parameter Sets: Mx
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -227,7 +226,7 @@ Specifies an IPv4 address for an A record.
 ```yaml
 Type: String
 Parameter Sets: A
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -242,7 +241,7 @@ Specifies an IPv6 address for an AAAA record.
 ```yaml
 Type: String
 Parameter Sets: Aaaa
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -257,7 +256,7 @@ Specifies the name server name for a name server (NS) record.
 ```yaml
 Type: String
 Parameter Sets: Ns
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -272,7 +271,7 @@ Specifies the port for a service (SRV) record.
 ```yaml
 Type: UInt16
 Parameter Sets: Srv
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -287,7 +286,7 @@ Specifies the preference for an MX record.
 ```yaml
 Type: UInt16
 Parameter Sets: Mx
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -302,7 +301,7 @@ Specifies the priority for an SRV record.
 ```yaml
 Type: UInt16
 Parameter Sets: Srv
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -317,7 +316,7 @@ Specifies the target domain name of a pointer resource (PTR) record.
 ```yaml
 Type: String
 Parameter Sets: Ptr
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -332,7 +331,7 @@ Specifies the target for an SRV record.
 ```yaml
 Type: String
 Parameter Sets: Srv
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -347,7 +346,7 @@ Specifies the value for a TXT record.
 ```yaml
 Type: String
 Parameter Sets: Txt
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -362,7 +361,7 @@ Specifies the weight for an SRV record.
 ```yaml
 Type: UInt16
 Parameter Sets: Srv
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -389,5 +388,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsRecordSet.md)
 
 [Remove-AzureRmDnsRecordConfig](xref:ResourceManager/AzureRM.DNS/v2.3.0/Remove-AzureRmDnsRecordConfig.md)
-
-

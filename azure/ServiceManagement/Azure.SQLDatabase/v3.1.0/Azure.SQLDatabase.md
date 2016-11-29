@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_SQLDatabase_v3_1_0_Azure_SQLDatabase_md
+open_to_public_contributors: False
 ---
 
 # Azure.SQLDatabase Module

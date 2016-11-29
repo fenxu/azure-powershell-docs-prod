@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_KeyVault_v1_1_11_AzureRM_KeyVault_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.KeyVault Module

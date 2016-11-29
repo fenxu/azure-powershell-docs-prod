@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_RemoteApp_v0_9_8_Set_AzureRemoteAppCollection_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureRemoteAppCollection

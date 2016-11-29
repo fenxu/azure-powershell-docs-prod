@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Automation_v2_1_0_Import_AzureRMAutomationRunbook_md
+open_to_public_contributors: False
 ---
 
 # Import-AzureRmAutomationRunbook

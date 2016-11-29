@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_HDInsight_v1_6_1_Start_AzureHDInsightJob_md
+open_to_public_contributors: False
 ---
 
 # Start-AzureHDInsightJob

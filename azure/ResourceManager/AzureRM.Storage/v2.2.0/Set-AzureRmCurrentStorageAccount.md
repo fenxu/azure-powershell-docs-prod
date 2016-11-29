@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Storage_v2_2_0_Set_AzureRmCurrentStorageAccount_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureRmCurrentStorageAccount

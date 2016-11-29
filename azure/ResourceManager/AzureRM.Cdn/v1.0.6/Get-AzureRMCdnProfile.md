@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Cdn_v1_0_6_Get_AzureRMCdnProfile_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureRMCdnProfile

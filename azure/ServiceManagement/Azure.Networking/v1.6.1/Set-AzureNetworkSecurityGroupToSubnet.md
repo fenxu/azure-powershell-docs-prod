@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_Networking_v1_6_1_Set_AzureNetworkSecurityGroupToSubnet_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureNetworkSecurityGroupToSubnet

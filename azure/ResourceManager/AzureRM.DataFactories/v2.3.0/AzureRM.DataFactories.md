@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DataFactories_v2_3_0_AzureRM_DataFactories_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.DataFactories Module

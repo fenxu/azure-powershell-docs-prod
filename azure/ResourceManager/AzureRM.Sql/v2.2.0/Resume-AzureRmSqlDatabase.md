@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Sql_v2_2_0_Resume_AzureRmSqlDatabase_md
+open_to_public_contributors: False
 ---
 
 # Resume-AzureRmSqlDatabase

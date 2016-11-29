@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 ms.assetid: E37ADC54-A37B-41BF-BE94-9E4052C234BB
-online version: 
+online version:
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 11/29/2016 4:48 PM
+ms.date: 11/29/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Set-AzureRmDnsZone.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Set-AzureRmDnsZone.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e15e5cc8741e43a0c53d0b7dee6fb6631c42c4fa/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Set-AzureRmDnsZone.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -15,14 +15,13 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DNS_v2_3_0_Set_AzureRmDnsZone_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureRmDnsZone
 
 ## SYNOPSIS
 Updates the properties of a DNS zone.
-Does not update DNS records within the zone.
 
 ## SYNTAX
 
@@ -42,6 +41,8 @@ The **Set-AzureRmDnsZone** cmdlet updates the specified DNS zone in the Azure DN
 This cmdlet does not update the record sets in the zone.
 
 You can pass a **DnsZone** object as a parameter or by using the pipeline operator, or alternatively you can specify the *ZoneName* and *ResourceGroupName* parameters.
+
+You can use the *Confirm* parameter and $ConfirmPreference Windows PowerShell variable to control whether the cmdlet prompts you for confirmation.
 
 When passing a DNS zone as an object (using the Zone object or via the pipeline), it is not updated if it has been changed in Azure DNS since the local DnsZone object was retrieved.
 This provides protection for concurrent changes.
@@ -77,7 +78,7 @@ Specifies the name of the DNS zone to update.
 ```yaml
 Type: String
 Parameter Sets: Fields
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -94,7 +95,7 @@ You can suppress this behavior with the *Overwrite* parameter, which updates the
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Object
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -112,7 +113,7 @@ Alternatively, you can specify the zone using a DnsZone object with the *Zone* p
 ```yaml
 Type: String
 Parameter Sets: Fields
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -145,7 +146,7 @@ Alternatively, you can specify the zone using the *ZoneName* and *ResourceGroupN
 ```yaml
 Type: DnsZone
 Parameter Sets: Object
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -198,6 +199,12 @@ You can pipe a DnsZone object to this cmdlet.
 This cmdlet returns a DnsZone object that represents the updated DNS zone with a new Etag.
 
 ## NOTES
+You can use the *Confirm* parameter to control whether this cmdlet prompts you for confirmation.
+By default, the cmdlet prompts you for confirmation if the $ConfirmPreference Windows PowerShell variable has a value of Medium or lower.
+
+If you specify *Confirm* or *Confirm:$True*, this cmdlet prompts you for confirmation before it runs.
+If you specify *Confirm:$False*, the cmdlet does not prompt you for confirmation. 
+
 
 ## RELATED LINKS
 
@@ -206,5 +213,3 @@ This cmdlet returns a DnsZone object that represents the updated DNS zone with a
 [New-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsZone.md)
 
 [Remove-AzureRmDnsZone](xref:ResourceManager/AzureRM.DNS/v2.3.0/Remove-AzureRmDnsZone.md)
-
-

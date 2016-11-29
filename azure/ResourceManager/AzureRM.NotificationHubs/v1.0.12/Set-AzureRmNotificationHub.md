@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_NotificationHubs_v1_0_12_Set_AzureRmNotificationHub_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureRmNotificationHub

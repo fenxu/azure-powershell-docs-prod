@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: Storage_Azure_Storage_v2_2_0_Get_AzureStorageServiceMetricsProperty_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureStorageServiceMetricsProperty

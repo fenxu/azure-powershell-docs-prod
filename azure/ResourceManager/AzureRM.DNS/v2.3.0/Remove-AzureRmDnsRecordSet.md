@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Dns.dll-Help.xml
 ms.assetid: 505562A4-30BC-44E7-94EF-579763B8D794
-online version: 
+online version:
 schema: 2.0.0
-updated_at: 11/18/2016 9:58 PM
-ms.date: 11/18/2016
+updated_at: 11/21/2016 9:55 PM
+ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Remove-AzureRmDnsRecordSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Remove-AzureRmDnsRecordSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ae52c90f776d988caa5d17017eef83e274af9eb7/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Remove-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: azure-powershell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DNS_v2_3_0_Remove_AzureRmDnsRecordSet_md
+open_to_public_contributors: False
 ---
 
 # Remove-AzureRmDnsRecordSet
@@ -50,10 +50,7 @@ You cannot delete SOA or name server (NS) records that are automatically created
 You can pass a **RecordSet** object to this cmdlet by using the pipeline operator or as a parameter.
 To identify a record set by name and type without using a **RecordSet** object, you must pass the zone as a **DnsZone** object to this cmdlet by using the pipeline operator or as a parameter, or alternatively you can specify the *ZoneName* and *ResourceGroupName* parameters.
 
-The *Confirm* parameter and $ConfirmPreference pn_PowerShell_short variable can be used to control the standard pn_PowerShell_short confirmation behavior.
-
-Because of the potential impact of deleting an in-use zone, a second level of confirmation is used in addition to the standard pn_PowerShell_short behavior.
-This can be suppressed using the *Force* parameter.
+You can use the Confirm parameter and $ConfirmPreference Windows PowerShell variable to control whether the cmdlet prompts you for confirmation.
 
 When specifying the record set using a **RecordSet** object, the record set is not deleted if it has been changed in Azure DNS since the local **RecordSet** object was retrieved.
 This provides protection for concurrent changes.
@@ -71,14 +68,14 @@ The first command gets the specified record set, and then stores it in the $Reco
 
 ### Example 2: Remove a record set and suppress all confirmation
 ```
-PS C:\> $RecordSet = Get-AzureRmDnsRecordSet -Name "www" -ZoneName "myzone.com" -ResourceGroupName "MyResourceGroup" 
-PS C:\> Remove-AzureRmDnsRecordSet -RecordSet $RecordSet -Confirm:$False -Force -Overwrite 
+PS C:\> $RecordSet = Get-AzureRmDnsRecordSet -Name "www" -ZoneName "myzone.com" -ResourceGroupName "MyResourceGroup"
+PS C:\> Remove-AzureRmDnsRecordSet -RecordSet $RecordSet -Confirm:$False -Overwrite
 
-# Alternatively, the record set can be removed as follows.  In this case, 
-# because the record set is specified by name rather than by object, the 
+# Alternatively, the record set can be removed as follows.  In this case,
+# because the record set is specified by name rather than by object, the
 # Overwrite parameter is not applicable.
 
-PS C:\> Remove-AzureRmDnsRecordSet -Name "www" -ZoneName "myzone.com" -ResourceGroupName "MyResourceGroup" -Confirm:$False -Force
+PS C:\> Remove-AzureRmDnsRecordSet -Name "www" -ZoneName "myzone.com" -ResourceGroupName "MyResourceGroup" -Confirm:$False 
 ```
 
 The first command gets the specified record set.
@@ -89,14 +86,15 @@ Confirmation prompts are suppressed.
 ## PARAMETERS
 
 ### -Force
-ps_force
+This parameter is deprecated for this cmdlet.
+It will be removed in a future release.
 
-This confirmation is in addition to the standard pn_PowerShell_short confirmation controlled via the *Confirm* parameter and $ConfirmPreference pn_PowerShell_short variable.
+To control whether this cmdlet prompts you for confirmation, use the *Confirm* parameter.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -114,7 +112,7 @@ Alternatively, the record set can be specified using a **RecordSet** object, pas
 ```yaml
 Type: String
 Parameter Sets: Fields, Mixed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -131,7 +129,7 @@ This can be suppressed using the *Overwrite* parameter, which deletes the record
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Object
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -146,7 +144,7 @@ passthru
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -163,7 +161,7 @@ Alternatively, the record set can be specified using the *Name* and *Zone* param
 ```yaml
 Type: DnsRecordSet
 Parameter Sets: Object
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -175,15 +173,15 @@ Accept wildcard characters: False
 ### -RecordType
 Specifies the type of DNS record.
 
-Valid values are: 
+Valid values are:
 
-- A 
+- A
 - AAAA
 - CNAME
 - MX
 - NS
 - PTR
-- SRV 
+- SRV
 - TXT
 
 SOA records are deleted automatically when the zone is deleted.
@@ -192,7 +190,7 @@ You cannot manually delete SOA records.
 ```yaml
 Type: RecordType
 Parameter Sets: Fields, Mixed
-Aliases: 
+Aliases:
 Accepted values: A, AAAA, CNAME, MX, NS, PTR, SOA, SRV, TXT
 
 Required: True
@@ -211,7 +209,7 @@ Alternatively, you can specify the record set using either the *RecordSet* param
 ```yaml
 Type: String
 Parameter Sets: Fields
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -229,7 +227,7 @@ Alternatively, you can specify the record set using either the *RecordSet* param
 ```yaml
 Type: DnsZone
 Parameter Sets: Mixed
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -247,7 +245,7 @@ Alternatively, the record set can be specified using either the *RecordSet* para
 ```yaml
 Type: String
 Parameter Sets: Fields
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -301,6 +299,11 @@ You can pipe a **RecordSet** object to this cmdlet.
 This cmdlet does not generate any output.
 
 ## NOTES
+You can use the *Confirm* parameter to control whether this cmdlet prompts you for confirmation.
+By default, the cmdlet prompts you for confirmation if the $ConfirmPreference Windows PowerShell variable has a value of Medium or lower.
+
+If you specify *Confirm* or *Confirm:$True*, this cmdlet prompts you for confirmation before it runs.
+If you specify *Confirm:$False*, the cmdlet does not prompt you for confirmation.
 
 ## RELATED LINKS
 
@@ -309,5 +312,3 @@ This cmdlet does not generate any output.
 [New-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsRecordSet.md)
 
 [Set-AzureRmDnsRecordSet](xref:ResourceManager/AzureRM.DNS/v2.3.0/Set-AzureRmDnsRecordSet.md)
-
-

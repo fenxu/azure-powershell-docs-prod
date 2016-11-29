@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_ServerManagement_v1_0_3_New_AzureRmServerManagementGateway_md
+open_to_public_contributors: False
 ---
 
 # New-AzureRmServerManagementGateway

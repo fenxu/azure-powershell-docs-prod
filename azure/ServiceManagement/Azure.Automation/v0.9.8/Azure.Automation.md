@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ServiceManagement_Azure_Automation_v0_9_8_Azure_Automation_md
+open_to_public_contributors: False
 ---
 
 # Azure.Automation Module

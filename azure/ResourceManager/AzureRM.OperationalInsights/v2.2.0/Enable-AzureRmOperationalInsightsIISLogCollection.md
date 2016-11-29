@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_OperationalInsights_v2_2_0_Enable_AzureRmOperationalInsightsIISLogCollection_md
+open_to_public_contributors: False
 ---
 
 # Enable-AzureRmOperationalInsightsIISLogCollection

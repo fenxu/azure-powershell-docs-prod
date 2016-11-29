@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_LogicApp_v1_0_8_Get_AzureRmIntegrationAccountCertificate_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureRmIntegrationAccountCertificate

@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_ApiManagement_ServiceManagement_v1_1_4_Get_AzureRmApiManagementTenantSyncState_md
+open_to_public_contributors: False
 ---
 
 # Get-AzureRmApiManagementTenantSyncState

@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Resources_v3_3_0_Register_AzureRmProviderFeature_md
+open_to_public_contributors: False
 ---
 
 # Register-AzureRmProviderFeature

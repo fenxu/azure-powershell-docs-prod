@@ -18,7 +18,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_DataLakeStore_v3_0_0_AzureRM_DataLakeStore_md
+open_to_public_contributors: False
 ---
 
 # AzureRM.DataLakeStore Module

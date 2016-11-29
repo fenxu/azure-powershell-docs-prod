@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-id: ResourceManager_AzureRM_Compute_v2_1_0_Set_AzureRmVmssOsProfile_md
+open_to_public_contributors: False
 ---
 
 # Set-AzureRmVmssOsProfile
