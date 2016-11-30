@@ -12,13 +12,13 @@ gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16dcbb293b24fa241
 uid: ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/AzureRM.AzureStackStorage.md
 ms.topic: conceptual
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # AzureRM.AzureStackStorage Module

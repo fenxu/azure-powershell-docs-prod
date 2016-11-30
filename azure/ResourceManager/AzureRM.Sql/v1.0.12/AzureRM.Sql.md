@@ -12,13 +12,13 @@ gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca
 uid: ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md
 ms.topic: conceptual
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # AzureRM.Sql Module

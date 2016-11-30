@@ -12,13 +12,13 @@ gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f706d2c1618dbb78
 uid: ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/AzureRM.AzureStackAdmin.md
 ms.topic: conceptual
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # AzureRM.AzureStackAdmin Module

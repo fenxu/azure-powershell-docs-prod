@@ -12,13 +12,13 @@ gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea4809793
 uid: ResourceManager/AzureRM.Scheduler/v0.11.1/AzureRM.Scheduler.md
 ms.topic: conceptual
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # AzureRM.Scheduler Module

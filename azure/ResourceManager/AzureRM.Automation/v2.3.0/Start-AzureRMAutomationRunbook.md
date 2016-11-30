@@ -9,13 +9,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azurep
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b17b340bf6f86e171391e04bd9e832a6b8ef49c/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # Start-AzureRmAutomationRunbook

@@ -12,13 +12,13 @@ gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca
 uid: ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
 ms.topic: conceptual
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # AzureRM.Compute Module
