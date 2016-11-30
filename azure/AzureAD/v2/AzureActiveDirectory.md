@@ -5,10 +5,10 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 7D9D9507-ADE5-45BD-97F8-0CCCDA3D3B58
-updated_at: 11/18/2016 5:33 AM
-ms.date: 11/18/2016
+updated_at: 11/30/2016 12:39 AM
+ms.date: 11/30/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e81535cdf2d724dc278ac5bb6bdee1b52f150bcd/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0b415f02150858fc9d7828c1f06a3deba853b1ff/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
 uid: AzureAD/v2/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.service: active-directory
@@ -20,12 +20,12 @@ manager: carolz
 open_to_public_contributors: True
 ---
 
-# AzureActiveDirectory Module
+# Azure Active Directory V2 Module
 
 ## Description
 This topic displays help topics for the Azure Active Directory module.
 
-## AzureActiveDirectory Cmdlets
+## Azure Active Directory V2 Cmdlets
 ### [Add-AzureADAdministrativeUnitMember](./Add-AzureADAdministrativeUnitMember.md)
 Add an administrativeUnit member
 
