@@ -9,13 +9,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Resume-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # Resume-AzureSqlDatabase

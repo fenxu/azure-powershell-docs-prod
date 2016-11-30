@@ -9,13 +9,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/caa9306a418b5a3d9e30c316ba11340ca2c42bfa/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVMDataDisk.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # Add-AzureRmVMDataDisk

@@ -9,13 +9,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Set-AzureServiceProjectRole.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # Set-AzureServiceProjectRole

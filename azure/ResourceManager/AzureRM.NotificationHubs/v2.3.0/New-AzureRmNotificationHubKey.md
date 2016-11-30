@@ -9,13 +9,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.3.0/New-AzureRmNotificationHubKey.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # New-AzureRmNotificationHubKey

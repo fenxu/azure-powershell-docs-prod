@@ -9,13 +9,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Set-AzureSubscription.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # Set-AzureSubscription

@@ -9,13 +9,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b624b76ac916118d802160e3fc3515124a551b/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.3.0/Set-AzureRmKeyVaultAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: azure-powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
+ms.service: azure-powershell
 ---
 
 # Set-AzureRmKeyVaultAccessPolicy
