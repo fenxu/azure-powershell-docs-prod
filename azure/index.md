@@ -7,10 +7,10 @@ ms.topic: conceptual
 ms.prod: powershell
 ms.service: azure-powershell
 ms.technology: Azure PowerShell
-author: czeumault
-ms.author: carolz
+author: sdwheeler
+ms.author: sewhee
 keywords: powershell, cmdlet
-manager: carolz
+manager: carmonm
 ms.assetid: 44b61754-cb15-4e5a-bf62-4bf865353ab8
 ---
 
