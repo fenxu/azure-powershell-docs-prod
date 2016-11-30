@@ -1,9 +1,9 @@
 ---
 ms.assetid: BB5EBF08-3264-4DDB-A1DC-BD5BA1805E0A
-updated_at: 11/18/2016 11:58 PM
-ms.date: 11/18/2016
+updated_at: 11/30/2016 4:17 PM
+ms.date: 11/30/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ResourceManager/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bae29942280aa8a3d98c43f4709821bf7452f869/azureps-cmdlets-docs/ResourceManager/index.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ The cmdlets in the __AzureRM.*__ modules let you use Resource Manager in Azure P
 
 ## To install the cmdlets
 
-To install the cmdlets by using PowerShell Gallery using **PowerShellGet**, you must have Windows Management Framework (WMF) 5.0. For more information, see [Windows Management Framework 5.0 Production Preview](https://www.microsoft.com/en-us/download/details.aspx?id=48729).
+To install the cmdlets by using PowerShell Gallery using **PowerShellGet**, you must have Windows Management Framework (WMF) 5.0. For more information, see [Windows Management Framework 5.0 Production Preview](https://www.microsoft.com/en-us/download/details.aspx?id=50395).
 By default, WMF 5.0 comes installed on Windows 10.
 Run the following commands from the Windows PowerShell console running as Administrator:
 
