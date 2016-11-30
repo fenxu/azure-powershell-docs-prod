@@ -11,14 +11,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/m
 gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/64699f630725ddbaf121a7306fb3e87efd8687b9/ElasticDB/ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
 uid: ElasticDatabaseJobs/v0.8.33/ElasticDatabaseJobs.md
 ms.topic: conceptual
-ms.prod: 
 ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-id: ElasticDatabaseJobs_v0_8_33_ElasticDatabaseJobs_md
+open_to_public_contributors: False
 ---
 
 # ElasticDatabaseJobs Module
