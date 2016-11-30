@@ -4,13 +4,13 @@ ms.date: 11/30/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/index.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/58c8015db063cdca30de0b478f49c5a2d1b66c12/Azure%20AD%20Cmdlets/AzureAD/index.md
 ms.topic: conceptual
-ms.service: active-directory
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
 open_to_public_contributors: True
+ms.service: active-directory
 ---
 # Azure Active Directory PowerShell Version 2
 

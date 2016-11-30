@@ -3,18 +3,18 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 5EFA8894-F622-48D0-97D4-3D673E08FF37
-updated_at: 11/10/2016 6:25 PM
-ms.date: 11/10/2016
+updated_at: 11/30/2016 6:17 PM
+ms.date: 11/30/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySecurityComplianceContactInformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySecurityComplianceContactInformation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e24cdb68b92d63446912256cd39cf10e38784bc4/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySecurityComplianceContactInformation.md
 ms.topic: reference
-ms.service: active-directory
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
 open_to_public_contributors: True
+ms.service: active-directory
 ---
 
 # Set-MsolCompanySecurityComplianceContactInformation
@@ -30,6 +30,9 @@ Set-MsolCompanySecurityComplianceContactInformation [-SecurityComplianceNotifica
 ```
 
 ## DESCRIPTION
+This cmdlet is not in use by any online service, so please consider it deprecated.  
+For more information about how to properly configure security contact details in Azure Security Center, see [Provide security contact details in Azure Security Center](https://aka.ms/azuresecuritycontact).
+
 The **Set-MsolCompanySecurityComplianceContactInformation** cmdlet sets company-level security and compliance contact preferences.
 These preferences include email addresses and phone numbers of the tenant’s security and compliance contacts.
 The contact is used for notification purposes.
