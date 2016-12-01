@@ -8,14 +8,13 @@ ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncConfiguration.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncConfiguration.md
 ms.topic: reference
-ms.prod: 
-ms.service: active-directory
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-id: MSOnline_v1_Get_MsolDirSyncConfiguration_md
+open_to_public_contributors: True
+ms.service: active-directory
 ---
 
 # Get-MsolDirSyncConfiguration

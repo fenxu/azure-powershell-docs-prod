@@ -8,14 +8,13 @@ ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
 ms.topic: reference
-ms.prod: 
-ms.service: active-directory
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-id: MSOnline_v1_Get_MsolUserRole_md
+open_to_public_contributors: True
+ms.service: active-directory
 ---
 
 # Get-MsolUserRole

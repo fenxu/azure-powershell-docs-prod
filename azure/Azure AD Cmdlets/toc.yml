@@ -174,6 +174,8 @@
           href: ../AzureAD/v2/New-AzureADGroupAppRoleAssignment.md
         - name: New-AzureADMSGroup
           href: ../AzureAD/v2/New-AzureADMSGroup.md
+        - name: New-AzureADMSInvitation
+          href: ../AzureAD/v2/New-AzureADMSInvitation.md
         - name: New-AzureADObjectSetting
           href: ../AzureAD/v2/New-AzureADObjectSetting.md
         - name: New-AzureADPolicy
