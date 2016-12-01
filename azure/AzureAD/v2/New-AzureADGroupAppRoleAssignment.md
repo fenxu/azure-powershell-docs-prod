@@ -1,11 +1,12 @@
 ---
-external help file: azuread.help.xml
-online version: http://www.cloudidentity.com/blog/2013/09/12/active-directory-authentication-library-adal-v1-for-net-general-availability/
+external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: B2EE39EC-3CD7-4F55-8D27-9E32E4E152C3
+online version: 
 schema: 2.0.0
-updated_at: 11/21/2016 8:09 PM
-ms.date: 11/21/2016
+updated_at: 12/1/2016 5:36 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroupAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroupAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroupAppRoleAssignment.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -24,43 +25,19 @@ Assign a group of users to an application role.
 ## SYNTAX
 
 ```
-New-AzureADGroupAppRoleAssignment -ObjectId <String> -Id <String> -PrincipalId <String> -ResourceId <String>
+New-AzureADGroupAppRoleAssignment -ObjectId <String> [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] -Id <String> -PrincipalId <String> -ResourceId <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
+The **New-AzureADGroupAppRoleAssignment** cmdlet assigns a group of users to an application role in Azure Active Directory (AD).
 
 ## EXAMPLES
 
-### Example 1
-```
-$OwnerAppRole = new-object Microsoft.Open.AzureAD.Model.AppRole -Property @{IsEnabled = $True; Description = "Owner Role"; AllowedMemberTypes = "user"; DisplayName = "MyApp Owner"; Id = [guid]::NewGuid(); Value="MyAppOwner"} 
-$MyApp = New-AzureADApplication -DisplayName "MyApp" -IdentifierUris "http://MyNewApp.contoso.com" -AppRoles $OwnerAppRole
-$ServicePrincipal = new-azureadserviceprincipal -AccountEnabled $true -AppId $MyApp.Id -ApproleAsignmentRequired $True -DisplayName "MyApp"
-$Group = get-azureadgroup -top 1
-New-AzureADUserAppRoleAssignment -ObjectId $Group.ObjectId -PrincipalId $Group.ObjectId -ResourceId $ServicePrincipal.ObjectId -Id $Role.Id
-```
-
 ## PARAMETERS
 
-### -ObjectId
-The unique identifier of a group in Azure Active Directory (ObjectId)
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -Id
-The role id that was assigned to the principal.
-This role must be declared by the target resource application resourceId in its appRoles property.
-Where the resource does not declare any permissions, a default id (zero GUID) must be specified.
+Specifies the ID.
 
 ```yaml
 Type: String
@@ -74,8 +51,62 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -InformationAction
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies an information variable.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ObjectId
+Specifies the ID of a user (as a UPN or ObjectId) in Azure AD.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### -PrincipalId
-The unique identifier (objectId) for the principal being granted the access.
+Specifies the principal ID.
 
 ```yaml
 Type: String
@@ -90,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceId
-The unique identifier (objectId) for the target resource (service principal) for which the assignment was made
+Specifies the resource ID.
 
 ```yaml
 Type: String
@@ -104,6 +135,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -111,4 +145,9 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-AzureADGroupAppRoleAssignment](xref:AzureAD/v2/Get-AzureADGroupAppRoleAssignment.md)
+
+[Remove-AzureADGroupAppRoleAssignment](xref:AzureAD/v2/Remove-AzureADGroupAppRoleAssignment.md)
+
 

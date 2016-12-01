@@ -1,11 +1,12 @@
 ---
-external help file: azuread.help.xml
+external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 31B92E0F-E46C-4371-8AC9-6C2B497C979B
 online version: 
 schema: 2.0.0
-updated_at: 11/21/2016 8:09 PM
-ms.date: 11/21/2016
+updated_at: 12/1/2016 5:36 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDeviceRegisteredOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDeviceRegisteredOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDeviceRegisteredOwner.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -19,30 +20,23 @@ ms.service: active-directory
 # Add-AzureADDeviceRegisteredOwner
 
 ## SYNOPSIS
-Add an owner to a device
+Adds a registered owner for a device.
 
 ## SYNTAX
 
 ```
-Add-AzureADDeviceRegisteredOwner -ObjectId <String> -RefObjectId <String>
+Add-AzureADDeviceRegisteredOwner -ObjectId <String> -RefObjectId <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
+The **Add-AzureADDeviceRegisteredOwner** cmdlet adds a registerd owner for an Azure Active Directory device.
 
 ## EXAMPLES
-
-### Add a user as an owner of a device
-```
-$User = get-azureaduser -top 1
-$Device = Get-AzureADDevice -top 1
-Add-AzureADDeviceRegisteredOwner -ObjectId $Device.ObjectId -RefObjectId $User.ObjectId
-```
 
 ## PARAMETERS
 
 ### -ObjectId
-The unique identifier of the device
-
+Specifies the object ID. 
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -51,13 +45,12 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
 ### -RefObjectId
-The unique identifier of the specific Azure Active Directory object that will be assigned as owner
-
+Specifies the ID of the Active Directory object to add.
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -66,9 +59,12 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -78,3 +74,6 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
+[Get-AzureADDeviceRegisteredOwner](xref:AzureAD/v2/Get-AzureADDeviceRegisteredOwner.md)
+
+[Remove-AzureADDeviceRegisteredOwner](xref:AzureAD/v2/Remove-AzureADDeviceRegisteredOwner.md)

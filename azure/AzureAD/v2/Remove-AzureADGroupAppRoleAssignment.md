@@ -1,11 +1,12 @@
 ---
-external help file: azuread.help.xml
-online version: https://blogs.technet.microsoft.com/enterprisemobility/2016/07/18/azuread-certificate-based-authentication-for-ios-and-android-now-in-preview/
+external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: F65ACCCF-86C4-4438-920F-289F5C69444E
+online version: 
 schema: 2.0.0
-updated_at: 11/21/2016 8:09 PM
-ms.date: 11/21/2016
+updated_at: 12/1/2016 5:36 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroupAppRoleAssignment.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -25,36 +26,18 @@ Delete a group application role assignment.
 
 ```
 Remove-AzureADGroupAppRoleAssignment -ObjectId <String> -AppRoleAssignmentId <String>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
+The **Remove-AzureADGroupAppRoleAssignment** cmdlet removes a group application role assignment from Azure Active Directory (AD).
 
 ## EXAMPLES
 
-### Remove a group from an app role assginment
-```
-
-```
-
 ## PARAMETERS
 
-### -ObjectId
-The unique identifier of a group in Azure Active Directory (ObjectId)
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -AppRoleAssignmentId
-The unique identifier of the App role assignment
+Specifies the object ID of the group application role assignment.
 
 ```yaml
 Type: String
@@ -64,9 +47,64 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
+
+### -InformationAction
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies an information variable.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ObjectId
+Specifies the object ID of a group in Azure AD.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -76,3 +114,6 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
+[Get-AzureADGroupAppRoleAssignment](xref:AzureAD/v2/Get-AzureADGroupAppRoleAssignment.md)
+
+[New-AzureADGroupAppRoleAssignment](xref:AzureAD/v2/New-AzureADGroupAppRoleAssignment.md)

@@ -1,11 +1,12 @@
 ---
-external help file: azuread.help.xml
-online version: https://blogs.technet.microsoft.com/enterprisemobility/2016/07/18/azuread-certificate-based-authentication-for-ios-and-android-now-in-preview/
+external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+ms.assetid: 1E76B8D2-A7DF-49EE-8E22-6BFEE24A8B7F
+online version: 
 schema: 2.0.0
-updated_at: 11/21/2016 8:09 PM
-ms.date: 11/21/2016
+updated_at: 12/1/2016 5:36 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationPolicy.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -19,26 +20,67 @@ ms.service: active-directory
 # Add-AzureADApplicationPolicy
 
 ## SYNOPSIS
+Adds an application policy.
 
 ## SYNTAX
 
 ```
-Add-AzureADApplicationPolicy -ObjectId <String> -RefObjectId <String>
+Add-AzureADApplicationPolicy -ObjectId <String> -RefObjectId <String> [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
+The **Add-AzureADApplicationPolicy** cmdlet adds an Azure Active Directory application policy.
 
 ## EXAMPLES
 
-### EXAMPLE 1
+### Example 1: Add an applicaton policy
 ```
-Add-AzureADApplicationPolicy -ObjectId <object id of application> -RefObjectId <object id of policy>
+PS C:\>Add-AzureADApplicationPolicy -ObjectId <object id of application> -RefObjectId <object id of policy>
 ```
+
+This command adds an application policy.
 
 ## PARAMETERS
 
+### -InformationAction
+Specifies how this cmdlet responds to an information event.
+The acceptable values for this parameter are:
+* Continue
+* Ignore
+* Inquire
+* SilentlyContinue
+* Stop
+* Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies a variable in which to store an information event message.
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -ObjectId
-The object Id of the Application
+Specifies the ID of the application.
 
 ```yaml
 Type: String
@@ -53,7 +95,7 @@ Accept wildcard characters: False
 ```
 
 ### -RefObjectId
-The object Id of the Policy
+Specifies the ID of the policy.
 
 ```yaml
 Type: String
@@ -67,14 +109,18 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
-Please note that this cmdlet is currently in Public Preview.
-While a cmdlet is in Public Preview we may still need to make changes to the cmdlet which could potentially cause unexpected effects.
-We discourage customers from using this cmdlet in a production environment.
 
 ## RELATED LINKS
+
+[Get-AzureADApplicationPolicy](xref:AzureAD/v2/Get-AzureADApplicationPolicy.md)
+
+[Remove-AzureADApplicationPolicy](xref:AzureAD/v2/Remove-AzureADApplicationPolicy.md)
 

@@ -1,11 +1,12 @@
 ---
-external help file: azuread.help.xml
-online version: http://www.cloudidentity.com/blog/2013/09/12/active-directory-authentication-library-adal-v1-for-net-general-availability/
+external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xml
+ms.assetid: D6EA0D4D-6643-4F11-A94C-2A71827C2774
+online version: 
 schema: 2.0.0
-updated_at: 11/21/2016 8:09 PM
-ms.date: 11/21/2016
+updated_at: 12/1/2016 5:36 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalKeyCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e79870303c4a5b18f88c61a5fe206bd45af8c480/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalKeyCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipalKeyCredential.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -25,23 +26,89 @@ Create a new key credential for a service principal
 
 ```
 New-AzureADServicePrincipalKeyCredential -ObjectId <String> [-CustomKeyIdentifier <String>]
- [-StartDate <Nullable`1[DateTime]>] [-EndDate <Nullable`1[DateTime]>] [-Type <Nullable`1[KeyType]>]
- [-Usage <Nullable`1[KeyUsage]>] [-Value <String>]
+ [-StartDate <DateTime>] [-EndDate <DateTime>] [-Type <KeyType>] [-Usage <KeyUsage>] [-Value <String>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
+The **New-AzureADServicePrincipalKeyCredential** cmdlet creates a key credential for a service principal in Azure Active Directory (AD).
 
 ## EXAMPLES
 
-### EXAMPLE 1
+### Example 1: Create a key credential
 ```
-New-AzureADServicePrincipalKeyCredential
+PS C:\>New-AzureADServicePrincipalKeyCredential
 ```
+
+This command creates a key credential for a service principal.
 
 ## PARAMETERS
 
+### -CustomKeyIdentifier
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -EndDate
+```yaml
+Type: DateTime
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -InformationAction
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies an information variable.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -ObjectId
-The object Id of the service principal
+Specifies an object ID.
 
 ```yaml
 Type: String
@@ -51,88 +118,50 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -CustomKeyIdentifier
-@{Text=}
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
 ### -StartDate
-The date and time at which the credential becomes valid
-
 ```yaml
-Type: Nullable`1[DateTime]
+Type: DateTime
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -EndDate
-The date and time at which the credential expires.
-
-```yaml
-Type: Nullable`1[DateTime]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
 ### -Type
-The type of key credential; for example, "Symmetric".
-
 ```yaml
-Type: Nullable`1[KeyType]
+Type: KeyType
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
 ### -Usage
-A string that describes the purpose for which the key can be used; for example, "Verify".
-
 ```yaml
-Type: Nullable`1[KeyUsage]
+Type: KeyUsage
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
 ### -Value
-@{Text=}
-
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -141,9 +170,12 @@ Aliases:
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -153,3 +185,6 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
+[Get-AzureADServicePrincipalKeyCredential](xref:AzureAD/v2/Get-AzureADServicePrincipalKeyCredential.md)
+
+[Remove-AzureADServicePrincipalKeyCredential](xref:AzureAD/v2/Remove-AzureADServicePrincipalKeyCredential.md)
