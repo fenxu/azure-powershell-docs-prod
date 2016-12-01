@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: D83879BE-919A-4C1B-854B-E366CCAB5D8C
-updated_at: 11/22/2016 12:25 AM
-ms.date: 11/22/2016
+updated_at: 12/1/2016 5:56 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Start-AzureRmSqlServerUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Start-AzureRmSqlServerUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9f3e28b44df59189552012578d9f989dd5598d4f/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Start-AzureRmSqlServerUpgrade.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,8 +34,9 @@ Start-AzureRmSqlServerUpgrade -ServerVersion <String> [-ScheduleUpgradeAfterUtcD
 ```
 
 ## DESCRIPTION
-The **Start-AzureRmSqlServerUpgrade** cmdlet starts the upgrade of an Azure SQL Database server version 11 to version 12.
-You can monitor the progress of an upgrade by using the Get-AzureRmSqlServerUpgrade cmdlet.
+The **Start-AzureRmSqlServerUpgrade** cmdlet starts the upgrade of an ssSDS server version 11 to version 12.
+You can monitor the progress of an upgrade by using the [Get-AzureRmSqlServerUpgrade](./Get-AzureRmSqlServerUpgrade.md) cmdlet.
+
 
 ## EXAMPLES
 
@@ -45,7 +46,7 @@ PS C:\>Start-AzureRmSqlServerUpgrade -ResourceGroupName "ResourceGroup01" -Serve
 ResourceGroupName               : ResourceGroup01
 ServerName                      : Server01
 ServerVersion                   : 12.0
-ScheduleUpgradeAfterUtcDateTime : 
+ScheduleUpgradeAfterUtcDateTime :
 DatabaseCollection              :
 ```
 
@@ -82,7 +83,7 @@ The only valid value is 12.0.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -99,7 +100,7 @@ For more information, type `Get-Help Get-Date`.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -114,7 +115,7 @@ Specifies an array of **RecommendedDatabaseProperties** objects that this cmdlet
 ```yaml
 Type: RecommendedDatabaseProperties[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -129,7 +130,7 @@ Specifies an array of **UpgradeRecommendedElasticPoolProperties** objects to use
 ```yaml
 Type: UpgradeRecommendedElasticPoolProperties[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -144,7 +145,7 @@ Specifies the name of the server that this cmdlet upgrades.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -159,7 +160,7 @@ Specifies the name of the resource group to which the server is assigned.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -225,5 +226,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Stop-AzureRmSqlServerUpgrade](xref:ResourceManager/AzureRM.Sql/v1.0.12/Stop-AzureRmSqlServerUpgrade.md)
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
-
-

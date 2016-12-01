@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 4F1BE5F2-3886-49C0-A557-537C42EFF7AA
-updated_at: 11/22/2016 12:25 AM
-ms.date: 11/22/2016
+updated_at: 12/1/2016 5:56 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9f3e28b44df59189552012578d9f989dd5598d4f/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,17 +47,17 @@ Location                      : Central US
 DatabaseId                    : a2a7f2db-7526-4d86-a7b2-36276ee10dc6
 Edition                       : None
 CollationName                 : SQL_Latin1_General_CP1_CI_AS
-CatalogCollation              : 
+CatalogCollation              :
 MaxSizeBytes                  : 5368709120
 Status                        : Online
 CreationDate                  : 7/3/2015 7:32:44 AM
 CurrentServiceObjectiveId     : c99ac918-dbea-463f-a475-16ec020fdc12
 CurrentServiceObjectiveName   : System1
 RequestedServiceObjectiveId   : c99ac918-dbea-463f-a475-16ec020fdc12
-RequestedServiceObjectiveName : 
-ElasticPoolName               : 
-EarliestRestoreDate           : 
-Tags                          : 
+RequestedServiceObjectiveName :
+ElasticPoolName               :
+EarliestRestoreDate           :
+Tags                          :
 
 ResourceGroupName             : resourcegroup01
 ServerName                    : server01
@@ -66,16 +66,16 @@ Location                      : Central US
 DatabaseId                    : a1e6bd1a-735a-4d48-8b98-afead5ef1218
 Edition                       : Standard
 CollationName                 : SQL_Latin1_General_CP1_CI_AS
-CatalogCollation              : 
+CatalogCollation              :
 MaxSizeBytes                  : 268435456000
 Status                        : Online
 CreationDate                  : 7/3/2015 7:33:37 AM
 CurrentServiceObjectiveId     : f1173c43-91bd-4aaa-973c-54e79e15235b
 CurrentServiceObjectiveName   : S0
 RequestedServiceObjectiveId   : f1173c43-91bd-4aaa-973c-54e79e15235b
-RequestedServiceObjectiveName : 
-ElasticPoolName               : 
-EarliestRestoreDate           : 
+RequestedServiceObjectiveName :
+ElasticPoolName               :
+EarliestRestoreDate           :
 Tags                          :
 ```
 
@@ -83,7 +83,7 @@ This command gets all databases on the server named server01.
 
 ### Example 2: Get a database by name on a server
 ```
-PS C:\>Get-AzureRmSqlDatabase -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -DatabaseName "Database02"
+PS C:\>Get-AzureRRSqlDatabase -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -DatabaseName "Database02"
 ResourceGroupName             : resourcegroup01
 ServerName                    : server01
 DatabaseName                  : database01
@@ -91,16 +91,16 @@ Location                      : Central US
 DatabaseId                    : a1e6bd1a-735a-4d48-8b98-afead5ef1218
 Edition                       : Standard
 CollationName                 : SQL_Latin1_General_CP1_CI_AS
-CatalogCollation              : 
+CatalogCollation              :
 MaxSizeBytes                  : 268435456000
 Status                        : Online
 CreationDate                  : 7/3/2015 7:33:37 AM
 CurrentServiceObjectiveId     : f1173c43-91bd-4aaa-973c-54e79e15235b
 CurrentServiceObjectiveName   : S0
 RequestedServiceObjectiveId   : f1173c43-91bd-4aaa-973c-54e79e15235b
-RequestedServiceObjectiveName : 
-ElasticPoolName               : 
-EarliestRestoreDate           : 
+RequestedServiceObjectiveName :
+ElasticPoolName               :
+EarliestRestoreDate           :
 Tags                          :
 ```
 
@@ -109,12 +109,12 @@ This command gets a database named Database02 from a server named Server01.
 ## PARAMETERS
 
 ### -DatabaseName
-Specifies the name of the database to retrieve.
+Specifies the name of the database that this cmdlet gets.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -129,7 +129,7 @@ Specifies the name of the server to which the database is assigned.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -144,7 +144,7 @@ Specifies the name of the resource group to which the database server is assigne
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -216,5 +216,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Suspend-AzureRmSqlDatabase](xref:ResourceManager/AzureRM.Sql/v1.0.12/Suspend-AzureRmSqlDatabase.md)
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
-
-

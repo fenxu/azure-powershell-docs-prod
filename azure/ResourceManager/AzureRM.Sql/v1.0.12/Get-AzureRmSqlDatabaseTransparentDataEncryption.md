@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: E0C4E19D-97EC-405E-BEA4-5975ED8678E3
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 12/1/2016 1:28 AM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseTransparentDataEncryption.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseTransparentDataEncryption.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0fe78393ce81c49dbd2203c82a10d23db2610c2b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseTransparentDataEncryption.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,9 +33,9 @@ Get-AzureRmSqlDatabaseTransparentDataEncryption [-ServerName] <String> [-Databas
 
 ## DESCRIPTION
 The **Get-AzureRmSqlDatabaseTransparentDataEncryption** cmdlet gets the state of Transparent Data Encryption (TDE) for an Azure SQL database.
-For more information, see Transparent Data Encryption with Azure SQL Databasehttps://msdn.microsoft.com/library/dn948096 (https://msdn.microsoft.com/library/dn948096) in the Microsoft Developer Network Library.
+For more information, see [Transparent Data Encryption with Azure SQL Database](https://msdn.microsoft.com/library/dn948096) (https://msdn.microsoft.com/library/dn948096) in the Microsoft Developer Network Library.
 This cmdlet gets the current state of TDE, but both encryption and decryption can be long-running operations.
-To see the encryption scan progress, run the Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity cmdlet.
+To see the encryption scan progress, run the [Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity](./Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity.md) cmdlet.
 
 This cmdlet is also supported by the SQL Server Stretch Database service on Azure.
 
@@ -59,7 +59,7 @@ Specifies the name of the server that hosts the database for which this cmdlet g
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -74,7 +74,7 @@ Specifies the name of the database for which this cmdlet gets TDE status.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -89,7 +89,7 @@ Specifies the name of the resource group to which the database is assigned.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -155,5 +155,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-AzureRmSqlDatabaseTransparentDataEncryption](xref:ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseTransparentDataEncryption.md)
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
-
-

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: D194CEAB-47E7-46F0-8AF3-68F8E514E6C6
-updated_at: 11/22/2016 12:25 AM
-ms.date: 11/22/2016
+updated_at: 12/1/2016 5:56 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseSecondary.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseSecondary.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9f3e28b44df59189552012578d9f989dd5598d4f/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseSecondary.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -61,7 +61,7 @@ Specifies the name of the Azure SQL Database Secondary.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -76,7 +76,7 @@ Specifies the name of the resource group to which the partner Azure SQL Database
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -91,7 +91,7 @@ Specifies the name of the SQL Server that hosts the Azure SQL Database Secondary
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -106,7 +106,7 @@ Specifies the name of the resource group to which the Azure SQL Database Seconda
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -160,7 +160,7 @@ Indicates that this operation is a failover.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ByFailoverParams
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -175,7 +175,7 @@ Indicates that this failover operation permits data loss.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ByFailoverParams
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -206,5 +206,3 @@ This cmdlet returns a **ReplicationLink**.
 [New-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseSecondary.md)
 
 [Remove-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlDatabaseSecondary.md)
-
-

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 39EF07C6-DBF7-42D9-A15E-082FFD4F29C2
-updated_at: 11/22/2016 12:25 AM
-ms.date: 11/22/2016
+updated_at: 12/1/2016 5:56 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseImport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseImport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9f3e28b44df59189552012578d9f989dd5598d4f/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseImport.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,10 +46,10 @@ ResourceGroupName          : RG01
 ServerName                 : Server01
 DatabaseName               : Database01
 StorageKeyType             : StorageAccessKey
-StorageKey                 : 
+StorageKey                 :
 StorageUri                 : http://account01.blob.core.contoso.net/bacpacs/database01.bacpac
 AdministratorLogin         : User
-AdministratorLoginPassword : 
+AdministratorLoginPassword :
 AuthenticationType         : None
 OperationStatusLink        : https://management.contoso.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/resource01/providers/Microsoft.Sql/servers/server01/databases/database01/importExportOperationResults/00000000-00
                              0-0000-0000-000000000000?api-version=2014-04-01
@@ -67,7 +67,7 @@ Specifies the name of the SQL Database.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -90,7 +90,7 @@ psdx_paramvalues
 ```yaml
 Type: DatabaseEdition
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -105,7 +105,7 @@ Specifies the name of the service objective to assign to the Azure SQL Database.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -120,7 +120,7 @@ Specifies the maximum size for the newly imported database.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -135,7 +135,7 @@ Specifies the name of the SQL Database server.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -147,17 +147,17 @@ Accept wildcard characters: False
 ### -StorageKeyType
 Specifies the type of access key for the storage account.
 
-psdx_paramvalues
+The acceptable values for this parameter are:
 
 - StorageAccessKey.
-Uses the storage account key. 
+Uses the storage account key.
 - SharedAccessKey.
 Uses the Shared Access Signature (SAS) key.
 
 ```yaml
 Type: StorageKeyType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -172,7 +172,7 @@ Specifies the access key for the storage account.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -187,7 +187,7 @@ Specifies the blob URI of the .bacpac file.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -202,7 +202,7 @@ Specifies the name of the SQL administrator.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -217,7 +217,7 @@ Specifies the password of the SQL administrator.
 ```yaml
 Type: SecureString
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -230,11 +230,11 @@ Accept wildcard characters: False
 Specifies the type of authentication used to access the server.
 This parameter defaults to SQL if no authentication type is set.
 
-psdx_paramvalues
+The acceptable values for this parameter are:
 
 - SQL.
 SQL authentication.
-Set the *AdministratorLogin* and *AdministratorLoginPassword* parameters to the SQL administrator username and password. 
+Set the *AdministratorLogin* and *AdministratorLoginPassword* parameters to the SQL administrator username and password.
 - ADPassword.
 Azure Active Directory authentication.
 Set *AdministratorLogin* and *AdministratorLoginPassword* to the Azure Active Directory administrator username and password.
@@ -244,7 +244,7 @@ This parameter is only available on SQL Database V12 servers.
 ```yaml
 Type: AuthenticationType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -259,7 +259,7 @@ Specifies the name of the resource group for the SQL Database server.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -324,5 +324,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmSqlDatabaseImportExportStatus](xref:ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseImportExportStatus.md)
 
 [New-AzureRmSqlDatabaseExport](xref:ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseExport.md)
-
-

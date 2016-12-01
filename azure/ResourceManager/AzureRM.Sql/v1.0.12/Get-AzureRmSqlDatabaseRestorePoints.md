@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 4DA71FCA-502C-4CAD-93FB-5AFC26B26DF2
-updated_at: 11/22/2016 12:25 AM
-ms.date: 11/22/2016
+updated_at: 12/1/2016 5:56 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseRestorePoints.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseRestorePoints.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9f3e28b44df59189552012578d9f989dd5598d4f/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseRestorePoints.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # Get-AzureRmSqlDatabaseRestorePoints
 
 ## SYNOPSIS
-Retrieves the distinct restore points from which a SQL Data Warehouse can be restored.
+Gets the distinct restore points from which a SQL Data Warehouse can be restored.
 
 ## SYNTAX
 
@@ -32,8 +32,10 @@ Get-AzureRmSqlDatabaseRestorePoints [-ServerName] <String> [-DatabaseName] <Stri
 ```
 
 ## DESCRIPTION
+
 The **Get-AzureRmSqlDatabaseRestorePoints** cmdlet retrieves the distinct restore points that an Azure SQL Data Warehouse can be restored from.
 For an Azure SQL Database, the restore window is continuous.
+
 This means that any point in time in the backup retention period of the database can be used as a restore point.
 
 This cmdlet is also supported by the SQL Server Stretch Database service on Azure.
@@ -48,11 +50,12 @@ ServerName               : server01
 DatabaseName             : database01
 Location                 : Central US
 RestorePointType         : CONTINUOUS
-RestorePointCreationDate : 
+RestorePointCreationDate :
 EarliestRestoreDate      : 8/12/2015 12:00:00 AM
 ```
 
 This command returns all available restore points for the Azure SQL Database named Database01.
+
 
 ## PARAMETERS
 
@@ -62,7 +65,7 @@ Specifies the name of the AzureSQL Server that hosts the database.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -77,7 +80,7 @@ Specifies the name of the SQL Database.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -92,7 +95,7 @@ Specifies the name of the resource group to which the SQL Database is assigned.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -152,5 +155,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
-
-

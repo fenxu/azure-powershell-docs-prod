@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 8A40DE11-385A-4B50-8709-CCC4FD77F9C7
-updated_at: 11/22/2016 12:25 AM
-ms.date: 11/22/2016
+updated_at: 12/1/2016 5:56 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServerAuditingPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServerAuditingPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9f3e28b44df59189552012578d9f989dd5598d4f/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServerAuditingPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -70,12 +70,12 @@ This command does not modify any other setting.
 ## PARAMETERS
 
 ### -PassThru
-passthru
+Returns an object representing the item with which you are working. By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 
 ### -EventType
 Specifies the event types to audit.
-psdx_paramvalues
+The acceptable values for this parameter are:
 
 - PlainSQL_Success
 - PlainSQL_Failure
@@ -95,7 +95,7 @@ psdx_paramvalues
 - StoredProcedure_Success
 - StoredProcedure_Failure
 - Login_Success
-- Login_Failure 
+- Login_Failure
 - TransactionManagement_Success
 - TransactionManagement_Failure
 - All
@@ -108,7 +108,7 @@ If you specify All or None at the same time, the command fails.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -126,7 +126,7 @@ If this is the first time a database auditing policy is defined and you do not s
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -137,7 +137,7 @@ Accept wildcard characters: False
 
 ### -StorageKeyType
 Specifies which of the storage access keys to use.
-psdx_paramvalues
+The acceptable values for this parameter are:
 
 - Primary
 - Secondary
@@ -147,7 +147,7 @@ The default value is Primary.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -165,7 +165,7 @@ If you specify a value greater than zero, you must also specify a value for the 
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -181,7 +181,7 @@ Specify this value if you specify a value greater than zero for the *RetentionIn
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -196,7 +196,7 @@ Specifies the name of the server that contains the database.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -211,7 +211,7 @@ Specifies the name of the resource group that contains the database.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -277,5 +277,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Use-AzureRmSqlServerAuditingPolicy](xref:ResourceManager/AzureRM.Sql/v1.0.12/Use-AzureRmSqlServerAuditingPolicy.md)
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
-
-

@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 62F0C48F-09A6-4AE3-943F-C0A51FC100BA
-updated_at: 11/22/2016 12:25 AM
-ms.date: 11/22/2016
+updated_at: 12/1/2016 5:56 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseSecondary.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseSecondary.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9f3e28b44df59189552012578d9f989dd5598d4f/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseSecondary.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,7 +35,7 @@ New-AzureRmSqlDatabaseSecondary [-DatabaseName] <String> [-SecondaryServiceObjec
 ```
 
 ## DESCRIPTION
-The **New-AzureRMSqlDatabaseSecondary** cmdlet replaces the Start-AzureSqlDatabaseCopy cmdlet when used for setting up geo-replication for a database.
+The **New-AzureRmSqlDatabaseSecondary** cmdlet replaces the [Start-AzureSqlDatabaseCopy](./Start-AzureSqlDatabaseCopy.md) cmdlet when used for setting up geo-replication for a database.
 It returns the geo-replication link object from the primary to the secondary database.
 
 ## EXAMPLES
@@ -53,7 +53,7 @@ Specifies the name of the database to act as primary.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -68,7 +68,7 @@ Specifies the name of the service objective to assign to the secondary database.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -83,7 +83,7 @@ Specifies the name of the elastic pool in which to put the secondary database.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -98,7 +98,7 @@ Specifies the tags to associate with the SQL Database replication link.
 ```yaml
 Type: System.Collections.Generic.Dictionary`2[System.String,System.String]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -113,7 +113,7 @@ Specifies the name of the Azure Resource Group to which this cmdlet assigns the 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -128,7 +128,7 @@ Specifies the name of the Azure SQL database server to act as secondary.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -139,7 +139,8 @@ Accept wildcard characters: False
 
 ### -AllowConnections
 Specifies the read intent of the secondary Azure SQL Database.
-psdx_paramvalues
+
+The acceptable values for this parameter are:
 
 - No
 - All
@@ -147,7 +148,7 @@ psdx_paramvalues
 ```yaml
 Type: AllowConnections
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -157,12 +158,12 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-Specifies the name of the SQL Server of the primary  SQL Database.
+Specifies the name of the SQL Server of the primary SQL Database.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -177,7 +178,7 @@ Specifies the name of the Azure Resource Group to which this cmdlet assigns the 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -247,5 +248,3 @@ This cmdlet returns **ReplicationLink** objects.
 [Remove-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlDatabaseSecondary.md)
 
 [Set-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseSecondary.md)
-
-

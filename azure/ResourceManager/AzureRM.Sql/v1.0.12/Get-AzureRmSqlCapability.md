@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 43FD17DE-3A90-49CE-89C5-5F1A66545FC9
-updated_at: 11/22/2016 12:25 AM
-ms.date: 11/22/2016
+updated_at: 12/1/2016 5:56 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlCapability.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlCapability.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9f3e28b44df59189552012578d9f989dd5598d4f/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlCapability.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -69,7 +69,7 @@ This command returns the default capabilities for SQL Databases on the current s
 PS C:\>Get-AzureRmSqlCapability -LocationName "Central US" -ServiceObjectiveName "S1"
 Location        : Central US
 Status          : Available
-ExpandedDetails : Version: 12.0 (Available) -> Edition: Standard (Default) -> Service Objective: S1 (Available) 
+ExpandedDetails : Version: 12.0 (Available) -> Edition: Standard (Default) -> Service Objective: S1 (Available)
                   Version: 2.0 (Default) -> Edition: Standard (Default) -> Service Objective: S1 (Available)
 ```
 
@@ -79,12 +79,12 @@ This command gets default capabilities for SQL Databases for the specified servi
 
 ### -LocationName
 Specifies the name of the Location for which this cmdlet gets capabilities.
-For more information, see Azure Regionshttp://azure.microsoft.com/en-us/regions/ (http://azure.microsoft.com/en-us/regions/).
+For more information, see [Azure Regions](http://azure.microsoft.com/en-us/regions/) (http://azure.microsoft.com/en-us/regions/).
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -99,7 +99,7 @@ Specifies the name of the server version for which this cmdlet gets capabilities
 ```yaml
 Type: String
 Parameter Sets: FilterResults
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -114,7 +114,7 @@ Specifies the name of the database edition for which this cmdlet gets capabiliti
 ```yaml
 Type: String
 Parameter Sets: FilterResults
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -129,7 +129,7 @@ Specifies the name of the service objective for which this cmdlet gets capabilit
 ```yaml
 Type: String
 Parameter Sets: FilterResults
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -183,7 +183,7 @@ Indicates that this cmdlet gets only defaults.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: DefaultResults
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -206,5 +206,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
-
-
