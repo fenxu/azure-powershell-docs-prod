@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 8583FC19-66A5-4BCE-9BB4-76962345E969
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 12/1/2016 1:28 AM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0fe78393ce81c49dbd2203c82a10d23db2610c2b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -52,12 +52,12 @@ This command sets the threat detection policy for a database named Database01 on
 ## PARAMETERS
 
 ### -PassThru
-passthru
+Returns an object representing the item with which you are working. By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -72,7 +72,7 @@ Specifies a semicolon-separated list of email addresses to which the policy send
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -87,7 +87,7 @@ Specifies whether the threat detection policy contacts administrators by using e
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -98,18 +98,19 @@ Accept wildcard characters: False
 
 ### -ExcludedDetectionType
 Specifies an array of detection types to exclude from the policy.
-psdx_paramvalues
 
-- Sql_Injection 
-- Sql_Injection_Vulnerability 
-- Access_Anomaly 
-- Usage_Anomaly 
+The acceptable values for this parameter are:
+
+- Sql_Injection
+- Sql_Injection_Vulnerability
+- Access_Anomaly
+- Usage_Anomaly
 - None
 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -124,7 +125,7 @@ Specifies the name of the server.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -139,7 +140,7 @@ Specifies the name of the database where the policy is set.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -154,7 +155,7 @@ Specifies the name of the resource group to which the server is assigned.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -224,5 +225,3 @@ This cmdlet returns a **Model.DatabaseThreatDetectionPolicyModel** object.
 [Remove-AzureRmSqlDatabaseThreatDetectionPolicy](xref:ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlDatabaseThreatDetectionPolicy.md)
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
-
-

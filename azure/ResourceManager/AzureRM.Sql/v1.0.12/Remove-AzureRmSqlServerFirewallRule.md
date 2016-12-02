@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ms.assetid: 350D0F9F-05D4-448F-BE25-6F9A1E3B529D
-updated_at: 11/22/2016 12:25 AM
-ms.date: 11/22/2016
+updated_at: 12/1/2016 5:56 PM
+ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServerFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServerFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9f3e28b44df59189552012578d9f989dd5598d4f/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Remove-AzureRmSqlServerFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,8 @@ ms.service: azure-powershell
 # Remove-AzureRmSqlServerFirewallRule
 
 ## SYNOPSIS
-Deletes a firewall rule from a SQL Database server.
+Removes a firewall rule from a SQL Database server.
+
 
 ## SYNTAX
 
@@ -32,26 +33,27 @@ Remove-AzureRmSqlServerFirewallRule [-FirewallRuleName] <String> [-Force] [-Serv
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmSqlServerFirewallRule** cmdlet deletes a firewall rule from the specified Azure SQL Database server.
+The **Remove-AzureRmSqlServerFirewallRule** cmdlet removes a firewall rule from the specified Azure SQL Database server.
+
 
 ## EXAMPLES
 
-### Example 1: Delete a rule
+### Example 1: Remove a rule
 ```
 PS C:\>Remove-AzureRmSqlServerFirewallRule -FirewallRuleName "Rule01" -ResourceGroupName "RresourceGroup01" -ServerName "Server01"
 ```
 
-This command deletes a firewall rule named Rule01 on the server named Server01.
+This command removes a firewall rule named Rule01 on the server named Server01.
 
 ## PARAMETERS
 
 ### -FirewallRuleName
-Specifies the name of the firewall rule that this cmdlet deletes.
+Specifies the name of the firewall rule that this cmdlet removes.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -61,12 +63,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -81,7 +83,7 @@ Specifies the name of the server.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -96,7 +98,7 @@ Specifies the name of a resource group to which the server is assigned.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -195,5 +197,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-AzureRmSqlServerFirewallRule](xref:ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServerFirewallRule.md)
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/v1.0.12/AzureRM.Sql.md)
-
-
