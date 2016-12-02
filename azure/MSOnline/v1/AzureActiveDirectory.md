@@ -5,10 +5,10 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: BB86A603-6CD9-4299-89B8-30A2B4A011A0
-updated_at: 11/30/2016 6:17 PM
-ms.date: 11/30/2016
+updated_at: 12/2/2016 4:22 PM
+ms.date: 12/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e24cdb68b92d63446912256cd39cf10e38784bc4/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4023b179c462035af0fff119e56601be772929f9/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
 uid: MSOnline/v1/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.technology: Azure PowerShell
@@ -362,7 +362,7 @@ Enables the multinational feature for a service type for a company with Azure Ac
 
 
 ### [Set-MsolCompanySecurityComplianceContactInformation](./Set-MsolCompanySecurityComplianceContactInformation.md)
-This cmdlet is not in use by any online service, so please consider it deprecated.  
+**This cmdlet is not in use by any online service, so please consider it deprecated.**  
 For more information about how to properly configure security contact details in Azure Security Center, see [Provide security contact details in Azure Security Center](https://aka.ms/azuresecuritycontact).
 
 Sets company-level security and compliance contact preferences.
