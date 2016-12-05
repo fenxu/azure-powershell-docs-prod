@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: FC0F8815-DEEC-4672-81A1-68A1095E5543
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 11:45 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/344af16eaf1a3967d7ba6754e985abf324f178f2/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -71,6 +71,10 @@ Output:
     --------                             -----                                -----------  
     ed192e92-84d4-4baf-997d-1e190a81f28e 36ee4c6c-0812-40a2-b820-b22ebd02bce3 MyNewApp
 
+### Retrieve an application by identifierUris
+```
+Get-AzureADApplication -Filter "identifierUris/any(uri:uri eq 'http://wingtips.wingtiptoysonline.com')"
+```
 ## PARAMETERS
 
 ### -Filter
