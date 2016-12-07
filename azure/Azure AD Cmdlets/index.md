@@ -9,7 +9,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-open_to_public_contributors: True
+open_to_public_contributors: true
 ms.service: active-directory
 ---
 # Azure Active Directory PowerShell

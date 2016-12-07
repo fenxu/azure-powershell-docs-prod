@@ -5,10 +5,10 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 7D9D9507-ADE5-45BD-97F8-0CCCDA3D3B58
-updated_at: 11/30/2016 7:36 PM
-ms.date: 11/30/2016
+updated_at: 12/7/2016 5:30 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/38fa148f777c671178245e03793a156b03d165eb/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0954d3a998f357d6eba39613a0aa5ab131b1f1f5/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
 uid: AzureAD/v2/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.technology: Azure PowerShell
@@ -16,12 +16,14 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-open_to_public_contributors: True
+open_to_public_contributors: true
 ms.service: active-directory
 ---
 # Azure Active Directory V2 PowerShell module
 ## Description
-These are the cmdlets in the Azure Active Directory V2 PowerShell module
+The Azure Active Directory version 2 PowerShell module can be downloaded from the PowerShell Gallery at the AzureAD page. For more detailed info on installation of the AzureAD cmdlets please see: [Azure Active Directory PowerShell version 2](https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/index.md).
+
+These are the cmdlets in the Azure Active Directory v2 PowerShell module.
 
 ## Azure Active Directory V2 PowerShell Cmdlets
 ### [Add-AzureADAdministrativeUnitMember](Add-AzureADAdministrativeUnitMember.md)
@@ -470,4 +472,3 @@ Sets the password of a user in Azure AD
 
 ### [Update-AzureADSignedInUserPassword](Update-AzureADSignedInUserPassword.md)
 Updates the password for the signed in user in Azure AD
-
