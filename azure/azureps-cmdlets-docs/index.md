@@ -6,15 +6,15 @@ ms.service: powershell
 author: sdwheeler
 ms.author: sewhee
 ms.manager: carmonm
-updated_at: 11/30/2016 11:14 PM
-ms.date: 11/30/2016
+updated_at: 12/6/2016 9:34 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e28d1e88f86a64234dd161a74c86436bb3ce7aa/azureps-cmdlets-docs/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7daf989cb2b3653832f335c4fa656bf7740ac29c/azureps-cmdlets-docs/index.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: False
+open_to_public_contributors: false
 ---
 
 # Get started with Azure PowerShell cmdlets
@@ -301,7 +301,5 @@ See the following resources to learn more about using the cmdlets:
 
 * For basic instructions about using Windows PowerShell, see
   [Using Windows PowerShell](https://msdn.microsoft.com/powershell/scripting/getting-started/fundamental/using-windows-powershell).
-* For reference information about the cmdlets, see
-  [Azure Cmdlet Reference](/powershell/azureps-cmdlets-docs/).
 * For sample scripts and instructions to help you learn to use scripting to manage Azure, see the
-  [Script Center](/documentation/scripts/).
+  [Script Center](https://gallery.technet.microsoft.com/scriptcenter/site/search?f%5B0%5D.Type=RootCategory&f%5B0%5D.Value=WindowsAzure&f%5B0%5D.Text=Windows%20Azure).
