@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 3FA60E42-BD4A-40C9-B3FC-CEE205E7DB4D
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 8:34 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsServicePrincipalIsMemberOf.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsServicePrincipalIsMemberOf.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsServicePrincipalIsMemberOf.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -34,6 +34,26 @@ Select-AzureADGroupIdsServicePrincipalIsMemberOf -ObjectId <String>
 The **Select-AzureADGroupIdsServicePrincipalIsMemberOf** cmdlet selects the groups in which a service principal is a member in Azure Active Directory (AD).
 
 ## EXAMPLES
+
+### Example 1: Get the group membership of a group for a service principal
+```
+PS C:\> $Groups = New-Object Microsoft.Open.AzureAD.Model.GroupIdsForMembershipCheck
+PS C:\> $Groups.GroupIds = (Get-AzureADGroup -Top 1).ObjectId
+PS C:\> $SPId = (Get-AzureADServicePrincipal -Top 1).ObjectId
+PS C:\> Select-AzureADGroupIdsServicePrincipalIsMemberOf -ObjectId $SPId -GroupIdsForMembershipCheck $Groups
+
+OdataMetadata                                                                                   Value
+-------------                                                                                   -----
+https://graph.windows.net/85b5ff1e-0402-400c-9e3c-0f9e965325d1/$metadata#Collection(Edm.String) {093fc0e2-1d6e-4a1b-9bf8-effa0196f1f7}
+```
+
+The first command creates a **GroupIdsForMembershipCheck** object, and then stores it in the $Groups variable.
+
+The second command gets an ID for a group by using the [Get-AzureADGroup](./Get-AzureADGroup.md) cmdlet, and then stores it as a property of $Groups.
+
+The third command gets the ID of a service principal by using the [Get-AzureADServicePrincipal](./Get-AzureADServicePrincipal.md) cmdlet, and then stores it in the $SPId variable.
+
+The final command gets the group membership of a group for a service principal identified by $SPId.
 
 ## PARAMETERS
 
@@ -114,4 +134,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

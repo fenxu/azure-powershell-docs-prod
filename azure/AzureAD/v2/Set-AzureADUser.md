@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 56657391-43D9-4939-B5AE-BB44EF00BE6E
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 8:34 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -47,7 +47,7 @@ The **Set-AzureADUser** cmdlet updates a user in Azure Active Directory (AD).
 ### Example 1: Update a user
 ```
 PS C:\> $user = Get-AzureADUser -ObjectId TestUser@example.com 
-PS C:\> $user.DisplayName = 'YetAnotherTestUser 
+PS C:\> $user.DisplayName = 'YetAnotherTestUser' 
 PS C:\> Set-AzureADUser -ObjectId TestUser@example.com -User $user
 ```
 

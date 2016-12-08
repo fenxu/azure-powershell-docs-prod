@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: B2EE39EC-3CD7-4F55-8D27-9E32E4E152C3
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/2/2016 7:14 PM
+ms.date: 12/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroupAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroupAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8a6006bfbb125ef762d392190731fe5cd90df181/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroupAppRoleAssignment.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -150,4 +150,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Remove-AzureADGroupAppRoleAssignment](xref:AzureAD/v2/Remove-AzureADGroupAppRoleAssignment.md)
 
-
+[Managing applications in Azure Active Directory using PowerShell](https://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/ManageAppsAzureADPowerShell) 

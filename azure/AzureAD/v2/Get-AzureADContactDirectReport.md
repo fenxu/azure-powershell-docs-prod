@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 041BAC4C-2588-471C-9358-BC9199B37503
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 8:34 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactDirectReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactDirectReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContactDirectReport.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -33,6 +33,16 @@ Get-AzureADContactDirectReport -ObjectId <String> [-Top <Int32>] [-InformationAc
 The **Get-AzureADContactDirectReport** cmdlet gets the direct reports for a contact.
 
 ## EXAMPLES
+
+### Example 1: Get the direct reports of a contact
+```
+PS C:\> $Contact = Get-AzureADContact -Top 1
+PS C:\> Get-AzureADContactDirectReport -ObjectId $Contact.ObjectId
+```
+
+The first command gets a contact by using the [Get-AzureADContact](./Get-AzureADContact.md) cmdlet, and then stores it in the $Contact variable.
+
+The second command gets the direct reports for $Contact.
 
 ## PARAMETERS
 
@@ -116,3 +126,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureADContact](xref:AzureAD/v2/Get-AzureADContact.md)

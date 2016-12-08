@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 52681E27-7FE6-43CE-B2BF-8516C21E04CB
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 8:34 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUser.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -60,6 +60,18 @@ PS C:\>Get-AzureADUser -ObjectId "testUpn@tenant.com"
 ```
 
 This command gets the specified user.
+
+### Example 3: Search among retrieved users
+```
+PS C:\> Get-AzureADUser -SearchString "New"
+
+ObjectId                             DisplayName UserPrincipalName                   UserType
+--------                             ----------- -----------------                   --------
+5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0 New user    NewUser@contoso.onmicrosoft.com     Member
+2b450b8e-1db6-42cb-a545-1b05eb8a358b New user    NewTestUser@contoso.onmicrosoft.com Member
+```
+
+This cmdlet gets all users that match the value of *SearchString* against the first characters in **DisplayName** or **UserPrincipalName** .
 
 ## PARAMETERS
 
@@ -175,5 +187,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureADUser](xref:AzureAD/v2/Remove-AzureADUser.md)
 
 [Set-AzureADUser](xref:AzureAD/v2/Set-AzureADUser.md)
-
-

@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 22D71474-34F5-4646-BB68-A929B211D283
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 8:34 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalOwner.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -33,6 +33,19 @@ Add-AzureADServicePrincipalOwner -ObjectId <String> -RefObjectId <String>
 The **Add-AzureADServicePrincipalOwner** cmdlet adds an owner to a service principal in Azure Active Directory.
 
 ## EXAMPLES
+
+### Example 1: Add a user as an owner to a service principal
+```
+PS C:\> $ServicePrincipalId = (Get-AzureADServicePrincipal -Top 1).ObjectId
+PS C:\> $OwnerId = (Get-AzureADUser -Top 1).ObjectId
+PS C:\> Add-AzureADServicePrincipalOwner -ObjectId $ServicePrincipalId -RefObjectId -$OwnerId
+```
+
+The first command gets the object ID of a service principal by using the [Get-AzureADServicePrincipal](./Get-AzureADServicePrincipal.md) cmdlet, and then stores it in the $ServicePrincipalId variable. 
+
+The second command gets the object ID a user by using the [Get-AzureADUser](./Get-AzureADUser.md) cmdlet, and then stores it in the $OwnerId variable. 
+
+The final command adds the user specified by $OwnerId an owner to a service principal specified by $ServicePrincipalId.
 
 ## PARAMETERS
 
@@ -114,7 +127,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureADServicePrincipal](xref:AzureAD/v2/Get-AzureADServicePrincipal.md)
+
 [Get-AzureADServicePrincipalOwner](xref:AzureAD/v2/Get-AzureADServicePrincipalOwner.md)
 
-[Remove-AzureADServicePrincipalOwner](xref:AzureAD/v2/Remove-AzureADServicePrincipalOwner.md)
+[Get-AzureADUser](xref:AzureAD/v2/Get-AzureADUser.md)
 
+[Remove-AzureADServicePrincipalOwner](xref:AzureAD/v2/Remove-AzureADServicePrincipalOwner.md)

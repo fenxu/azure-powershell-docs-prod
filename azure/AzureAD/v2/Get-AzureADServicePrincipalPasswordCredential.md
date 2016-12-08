@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 ms.assetid: DE20FBC9-0786-4EA6-834F-93AF173350C0
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 8:34 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalPasswordCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalPasswordCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipalPasswordCredential.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -33,6 +33,18 @@ Get-AzureADServicePrincipalPasswordCredential -ObjectId <String> [-InformationAc
 The **Get-AzureADServicePrincipalPasswordCredential** cmdlet gets the password credentials for a service principal in Azure Active Directory (AD).
 
 ## EXAMPLES
+
+### Example 1: Retrieve the password credential of a service principal
+```
+PS C:\> $ServicePrincipalId = (Get-AzureADServicePrincipal -Top 1).ObjectId
+PS C:\> Get-AzureADServicePrincipalPasswordCredential -ObjectId $ServicePrincipalId
+```
+
+The first command gets the ID of a service principal by using the [Get-AzureADServicePrincipal](./Get-AzureADServicePrincipal.md) cmdlet. 
+The command stores the ID in the $ServicePrincipalId variable.
+
+The second command gets the password credential of a service principal identified by $ServicePrincipalId.
+
 
 ## PARAMETERS
 
@@ -98,8 +110,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADServicePrincipal](xref:AzureAD/v2/Get-AzureADServicePrincipal.md)
 
 [New-AzureADServicePrincipalPasswordCredential](xref:AzureAD/v2/New-AzureADServicePrincipalPasswordCredential.md)
 
 [Remove-AzureADServicePrincipalPasswordCredential](xref:AzureAD/v2/Remove-AzureADServicePrincipalPasswordCredential.md)
-

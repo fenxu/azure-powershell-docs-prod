@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 ms.assetid: EAD7BC01-298D-427D-A0AF-5610021D1BE8
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 8:34 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADApplicationPasswordCredential.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -33,6 +33,20 @@ Remove-AzureADApplicationPasswordCredential -ObjectId <String> -KeyId <String>
 The **Remove-AzureADApplicationPasswordCredential** cmdlet removes a password credential from an application in Azure Active Directory (AD).
 
 ## EXAMPLES
+
+### Example 1: Remove an application password credential
+```
+PS C:\> $AppID = (Get-AzureADApplication -Top 1).objectId
+PS C:\> $KeyIDs = Get-AzureADApplicationPasswordCredential -ObjectId $AppId
+PS C:\> Remove-AzureADApplicationPasswordCredential -ObjectId $AppId -KeyId $KeyIds[0].KeyId
+```
+
+The first command gets the ID of an application by using the [Get-AzureADApplication](./Get-AzureADApplication.md) cmdlet, and then stores it in the $AppID variable.
+
+The second command gets the password credential for the application identified by $AppID by using the [Get-AzureADApplicationPasswordCredential](./ Get-AzureADApplicationPasswordCredential.md) cmdlet. 
+The command stores it in the $KeyId variable.
+
+The final command removes the application password credential for the application identified by $AppID.
 
 ## PARAMETERS
 
@@ -113,6 +127,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+[Get-AzureADApplication](xref:AzureAD/v2/Get-AzureADApplication.md)
 
 [Get-AzureADApplicationPasswordCredential](xref:AzureAD/v2/Get-AzureADApplicationPasswordCredential.md)
 

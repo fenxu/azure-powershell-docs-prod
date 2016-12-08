@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 2CFAF4EB-D639-4B11-8A1F-6D011BBE4ACA
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 8:34 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDeviceRegisteredUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDeviceRegisteredUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDeviceRegisteredUser.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -32,6 +32,21 @@ Add-AzureADDeviceRegisteredUser -ObjectId <String> -RefObjectId <String> [<Commo
 The **Add-AzureADDeviceRegisteredUser** cmdlet adds a registered user for an Azure Active Directory device.
 
 ## EXAMPLES
+
+### Example 1: Add a user as a registered user
+```
+PS C:\> $User = Get-AzureADUser -Top 1
+PS C:\> $Device = Get-AzureADDevice -Top 1
+PS C:\> Add-AzureADDeviceRegisteredUser -ObjectId $Device.ObjectId -RefObjectId $User.ObjectId
+```
+
+The first command gets a user by using the [Get-AzureADUser](./Get-AzureADUser.md) cmdlet, and then stores it in the $User variable. 
+
+The second command gets a device by using the [Get-AzureADDevice](./Get-AzureADDevice.md) cmdlet, and then stores it in the $Device variable.
+
+The final command adds the user in $User as the registered user for the device in $Device. 
+Both parameters use the **ObjectId** property of specified object. 
+
 
 ## PARAMETERS
 
@@ -72,6 +87,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureADDevice](xref:AzureAD/v2/Get-AzureADDevice.md)
+
 [Get-AzureADDeviceRegisteredUser](xref:AzureAD/v2/Get-AzureADDeviceRegisteredUser.md)
+
+[Get-AzureADUser](xref:AzureAD/v2/Get-AzureADUser.md)
 
 [Remove-AzureADDeviceRegisteredUser](xref:AzureAD/v2/Remove-AzureADDeviceRegisteredUser.md)
