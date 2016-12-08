@@ -12,13 +12,13 @@ gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5
 uid: AADRM/vlatest/RightsManagement.md
 ms.topic: conceptual
 ms.prod: powershell
-ms.service: rights-management
 ms.technology: Azure Powershell
 author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: cabailey
-id: AADRM_vlatest_RightsManagement_md
+open_to_public_contributors: false
+ms.service: rights-management
 ---
 
 # RightsManagement Module

@@ -9,13 +9,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/509e3e297cffef326ee90167ad75069fe7bc8f47/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: rights-management
 ms.technology: Azure Powershell
 author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: cabailey
-id: AADRM_vlatest_Add_AadrmTemplate_md
+open_to_public_contributors: false
+ms.service: rights-management
 ---
 
 # Add-AadrmTemplate
