@@ -1,11 +1,11 @@
 ---
-external help file: AzureAD.Help.xml
-online version: https://go.microsoft.com/fwLink/?LinkID=519265&clcid=0x409
+external help file: azuread.help.xml
+online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/2/2016 6:50 PM
+ms.date: 12/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/9d73de920ad3690865797cee4594d4633c9b692d/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -19,6 +19,7 @@ ms.service: active-directory
 # New-AzureADMSGroup
 
 ## SYNOPSIS
+Creates an Azure AD group.
 
 ## SYNTAX
 
@@ -29,27 +30,47 @@ New-AzureADMSGroup [-Description <String>] -DisplayName <String> -MailEnabled <B
 ```
 
 ## DESCRIPTION
+The **New-AzureADMSGroup** cmdlet creates an Azure Active Directory (Azure AD) group.
+
+For information about creating dynamic groups, see [Using attributes to create advanced rules](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/).
 
 ## EXAMPLES
 
-### Create a new Dynamic group
+### Example 1: Create a dynamic group
 ```
-New-AzureADMSGroup -DisplayName "My first Dynamic Group" -Description "Dynamic group created from PS" -MailEnabled $false -MailNickName "group" -SecurityEnabled $true -GroupTypes "DynamicMembership" -MembershipRule "(user.department -contains ""Marketing"")" -MembershipRuleProcessingState "On"
+PS C:\> New-AzureADMSGroup -DisplayName "Dynamic Group 01" -Description "Dynamic group created from PS" -MailEnabled $False -MailNickName "group" -SecurityEnabled $True -GroupTypes "DynamicMembership" -MembershipRule "(user.department -contains ""Marketing"")" -MembershipRuleProcessingState "On"
+
+Id                            : 9126185e-25df-4522-a380-7ab697a7241c
+Description                   : Dynamic group created from PS
+OnPremisesSyncEnabled         : 
+DisplayName                   : Dynamic Group 01
+OnPremisesLastSyncDateTime    : 
+Mail                          : 
+MailEnabled                   : False 
+MailNickname                  : group 
+OnPremisesSecurityIdentifier  : 
+ProxyAddresses                : {} 
+SecurityEnabled               : True 
+GroupTypes                    : {} 
+MembershipRule                : (user.department -eq "Marketing") MembershipRuleProcessingState : Paused
 ```
 
-This cmdlet creates a new dynamic group with the rule 'user.department -contains "Marketing"'.
-The processing state is set ot "On", which means that all users in the directory that qualify the rule will get added as members to the group and any users that do not qualify are removed from the group.
+This command creates a new dynamic group with the following rule:
+
+`user.department -contains "Marketing"`
 
 
-You can learn more about dynamic groups here: https://go.microsoft.com/fwLink/?LinkID=519265&clcid=0x409
+The double quotation marks are replaced with single quotation marks. 
 
+The processing state is On. 
+This means that all users in the directory that qualify the rule are added as members to the group.
+Any users that do not qualify are removed from the group.
 
-Id                            : 9126185e-25df-4522-a380-7ab697a7241c Description                   : Dynamic group created from PS OnPremisesSyncEnabled         : DisplayName                   : My first Dynamic Group OnPremisesLastSyncDateTime    : Mail                          : MailEnabled                   : False MailNickname                  : group OnPremisesSecurityIdentifier  : ProxyAddresses                : {} SecurityEnabled               : True GroupTypes                    : {} MembershipRule                : (user.department -eq "Marketing") MembershipRuleProcessingState : Paused
 
 ## PARAMETERS
 
 ### -Description
-The description of the group
+Specifies a description for the group.
 
 ```yaml
 Type: String
@@ -64,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-The displayname of the group
+Specifies a display name for the group.
 
 ```yaml
 Type: String
@@ -79,8 +100,9 @@ Accept wildcard characters: False
 ```
 
 ### -MailEnabled
-Boolean value indicating whether or not this group is mail enabled.
-Note that creation of mail enabled groups is currently not possible in Azure AD
+Specifies whether this group is mail enabled.
+
+Currently, you cannot create mail enabled groups in Azure AD.
 
 ```yaml
 Type: Boolean
@@ -95,8 +117,8 @@ Accept wildcard characters: False
 ```
 
 ### -MailNickname
-The mail naickname of the group.
-This is a mandatory value even when Mailenabled is false
+Specifies a mail nickname for the group.
+If _MailEnabled_ is $False, you must specify a mail nickname.
 
 ```yaml
 Type: String
@@ -111,8 +133,8 @@ Accept wildcard characters: False
 ```
 
 ### -SecurityEnabled
-This paramter indicated that the group is security enabled.
-For security groups this value must be set to True
+Specifies whether the group is security enabled.
+For security groups, this value must be $True.
 
 ```yaml
 Type: Boolean
@@ -127,8 +149,8 @@ Accept wildcard characters: False
 ```
 
 ### -GroupTypes
-This parameter indicates that the group is a dynamic group. 
-To create a dynamic group, set this value to "DynamicMembership"
+Specifies that the group is a dynamic group. 
+To create a dynamic group, specify a value of DynamicMembership.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -143,8 +165,9 @@ Accept wildcard characters: False
 ```
 
 ### -MembershipRule
-This parameter contains the membership rule for a dynamic group.
-Learn more about the rules you can use for dynamic groups here: https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/
+Specifies the membership rule for a dynamic group.
+
+For more information about the rules that you can use for dynamic groups, see [Using attributes to create advanced rules](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/).
 
 ```yaml
 Type: String
@@ -159,10 +182,12 @@ Accept wildcard characters: False
 ```
 
 ### -MembershipRuleProcessingState
-This paramter indicates the rule processing state.
-Set this to "Paused" to stop processing the group's rule.
-The members list will remain unchanged.
-Set this to "On" to process the rule.
+Specifies the rule processing state.
+The acceptable values for this parameter are:
+
+* On. Process the group rule.
+* Paused. Stop processing the group rule. 
+The members list remains unchanged.
 
 ```yaml
 Type: String
@@ -185,8 +210,15 @@ Accept wildcard characters: False
 ### System.Object
 
 ## NOTES
+This cmdlet is currently in Public Preview.
+While a cmdlet is in Public Preview, we may make changes to the cmdlet which could have unexpected effects.
+We recommend that you do not use this cmdlet in a production environment.
 
 ## RELATED LINKS
+[Get-AzureADMSGroup](xref:AzureAD/v2/Get-AzureADMSGroup.md)
 
-[More information about dynamic group rules](https://go.microsoft.com/fwLink/?LinkID=519265&clcid=0x409)
+[Remove-AzureADMSGroup](xref:AzureAD/v2/Remove-AzureADMSGroup.md)
 
+[Set-AzureADMSGroup](xref:AzureAD/v2/Set-AzureADMSGroup.md)
+
+[Using attributes to create advanced rules](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/)

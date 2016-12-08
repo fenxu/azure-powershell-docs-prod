@@ -3,10 +3,10 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: B6BE96C3-7409-4AE2-AF70-823BEF4BFC62
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 8:34 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDeviceRegisteredOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDeviceRegisteredOwner.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDeviceRegisteredOwner.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -32,6 +32,20 @@ Remove-AzureADDeviceRegisteredOwner -ObjectId <String> -OwnerId <String> [<Commo
 The **Remove-AzureADDeviceRegisteredOwner** cmdlet removes the registered owner of a device in Azure Active Directory (AD).
 
 ## EXAMPLES
+
+### Example 1: Remove an owner from a device
+```
+PS C:\> $Device = Get-AzureADDevice -Top 1
+PS C:\> $Owner = Get-AzureADDeviceRegisteredOwner -ObjectId $Device.ObjectId
+PS C:\> Remove-AzureADDeviceRegisteredOwner -ObjectId $Device.ObjectId -OwnerId $Owner.ObjectId
+```
+
+The first command gets a device by using the [Get-AzureADDevice](./Get-AzureADDevice.md) cmdlet, and then stores it in the $Device variable.
+
+The second command gets the registered owner for the device in $Device by using the [Get-AzureADDeviceRegisteredOwner](./Get-AzureADDeviceRegisteredOwner.md) cmdlet.
+The command stores it in the $Owner variable.
+
+The final command removes the owner in $Owner from the device in $Device.
 
 ## PARAMETERS
 
@@ -75,5 +89,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Add-AzureADDeviceRegisteredOwner](xref:AzureAD/v2/Add-AzureADDeviceRegisteredOwner.md)
+
+[Get-AzureADDevice](xref:AzureAD/v2/Get-AzureADDevice.md)
 
 [Get-AzureADDeviceRegisteredOwner](xref:AzureAD/v2/Get-AzureADDeviceRegisteredOwner.md)
