@@ -11,14 +11,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/bl
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/f13132d9850fcdd56cb5052cd757319e874eb566/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 uid: ServiceFabric/vlatest/ServiceFabric.md
 ms.topic: conceptual
-ms.prod: 
-ms.service: service-fabric
 ms.technology: Azure Powershell
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
-id: ServiceFabric_vlatest_ServiceFabric_md
+open_to_public_contributors: false
+ms.service: service-fabric
 ---
 
 # ServiceFabric Module
