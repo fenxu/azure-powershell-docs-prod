@@ -8,14 +8,13 @@ ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a3759ddf1f1f1ba503e1480f257a7293a1f4c23a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
 ms.topic: reference
-ms.prod: 
-ms.service: service-fabric
 ms.technology: Azure Powershell
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
-id: ServiceFabric_vlatest_Test_ServiceFabricService_md
+open_to_public_contributors: false
+ms.service: service-fabric
 ---
 
 # Test-ServiceFabricService

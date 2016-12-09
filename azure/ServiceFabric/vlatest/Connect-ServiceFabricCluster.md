@@ -8,14 +8,13 @@ ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1e386f2c4d3f0d7aa5edba5cc7deaac957310f26/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 ms.topic: reference
-ms.prod: 
-ms.service: service-fabric
 ms.technology: Azure Powershell
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
-id: ServiceFabric_vlatest_Connect_ServiceFabricCluster_md
+open_to_public_contributors: false
+ms.service: service-fabric
 ---
 
 # Connect-ServiceFabricCluster

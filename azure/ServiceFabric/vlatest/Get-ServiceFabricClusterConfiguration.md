@@ -3,19 +3,18 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 13C206CD-D1A4-4BAE-8014-4D7AB68D147D
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+updated_at: 12/9/2016 12:50 AM
+ms.date: 12/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a2cafec0ea322c59ce3aa32653eb317583abf8c5/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
 ms.topic: reference
-ms.prod: 
-ms.service: service-fabric
 ms.technology: Azure Powershell
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
-id: ServiceFabric_vlatest_Get_ServiceFabricClusterConfiguration_md
+open_to_public_contributors: false
+ms.service: service-fabric
 ---
 
 # Get-ServiceFabricClusterConfiguration
@@ -32,6 +31,8 @@ Get-ServiceFabricClusterConfiguration [-TimeoutSec <Int32>] [<CommonParameters>]
 ## DESCRIPTION
 The **Get-ServiceFabricClusterConfiguration** cmdlet gets the latest cluster configuration in JavaScript Object Notation (JSON) format.
 To run this cmdlet, you must first establish a connection by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
+
+Note: At this time this cmdlet only applicable to on-premise Standalone deployments. If executed against a cluster which does not have the UpgradeOrchestrationService Fabric system service, the request will time out. 
 
 ## EXAMPLES
 

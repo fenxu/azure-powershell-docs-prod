@@ -8,14 +8,13 @@ ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceType.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceType.md
 ms.topic: reference
-ms.prod: 
-ms.service: service-fabric
 ms.technology: Azure Powershell
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
-id: ServiceFabric_vlatest_Get_ServiceFabricServiceType_md
+open_to_public_contributors: false
+ms.service: service-fabric
 ---
 
 # Get-ServiceFabricServiceType

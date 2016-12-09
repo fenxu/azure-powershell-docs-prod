@@ -8,14 +8,13 @@ ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/2a5ea82fb26724d20409558b5656bffc61dfe3b3/Service-Fabric-cmdlets/ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md
 ms.topic: reference
-ms.prod: 
-ms.service: service-fabric
 ms.technology: Azure Powershell
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
-id: ServiceFabric_vlatest_Approve_ServiceFabricRepairTask_md
+open_to_public_contributors: false
+ms.service: service-fabric
 ---
 
 # Approve-ServiceFabricRepairTask
