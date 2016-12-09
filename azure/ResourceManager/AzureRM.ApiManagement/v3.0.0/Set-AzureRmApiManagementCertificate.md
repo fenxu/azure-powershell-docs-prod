@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: 7DA940A7-6CE1-4282-BF43-1CC881B2E011
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/8/2016 5:59 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d83562f79d01886ecd716d79ce086d2b009f21d3/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # Set-AzureRmApiManagementCertificate
 
 ## SYNOPSIS
-Modifies an API Management certificate.
+Modifies an API Management certificate which is configured for authentication with backend.
 
 ## SYNTAX
 
@@ -38,7 +38,7 @@ Set-AzureRmApiManagementCertificate -Context <PsApiManagementContext> -Certifica
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmApiManagementCertificate** cmdlet modifies an Azure API Management certificate.
+The **Set-AzureRmApiManagementCertificate** cmdlet modifies an Azure API Management certificate which is configured for authentication with backend.
 
 ## EXAMPLES
 

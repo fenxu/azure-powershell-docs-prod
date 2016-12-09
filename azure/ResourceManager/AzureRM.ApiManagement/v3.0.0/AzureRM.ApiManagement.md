@@ -5,10 +5,10 @@ Download Help Link: None
 Help Version: 4.0.0.0
 Locale: en-US
 ms.assetid: 7D9738BD-FEDE-43DE-B5D1-561EAB071AAF
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/8/2016 5:59 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/AzureRM.ApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/AzureRM.ApiManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d83562f79d01886ecd716d79ce086d2b009f21d3/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/AzureRM.ApiManagement.md
 uid: ResourceManager/AzureRM.ApiManagement/v3.0.0/AzureRM.ApiManagement.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -114,7 +114,7 @@ Creates an API.
 Creates an authorization server.
 
 ### [New-AzureRmApiManagementCertificate](New-AzureRmApiManagementCertificate.md)
-Creates an API Management certificate.
+Creates an API Management certificate for authentication with backend.
 
 ### [New-AzureRmApiManagementContext](New-AzureRmApiManagementContext.md)
 Creates an instance of PsAzureApiManagementContext.
@@ -165,7 +165,7 @@ Removes an API from a product.
 Removes an authorization server.
 
 ### [Remove-AzureRmApiManagementCertificate](Remove-AzureRmApiManagementCertificate.md)
-Removes an API Management certificate.
+Removes an API Management certificate configured for authentication with backend.
 
 ### [Remove-AzureRmApiManagementGroup](Remove-AzureRmApiManagementGroup.md)
 Removes an existing API management group.
@@ -216,7 +216,7 @@ Modifies an API.
 Modifies an authorization server.
 
 ### [Set-AzureRmApiManagementCertificate](Set-AzureRmApiManagementCertificate.md)
-Modifies an API Management certificate.
+Modifies an API Management certificate which is configured for authentication with backend.
 
 ### [Set-AzureRmApiManagementGroup](Set-AzureRmApiManagementGroup.md)
 Configures an API management group.
