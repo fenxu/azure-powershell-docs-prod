@@ -6,6 +6,7 @@ ms.assetid: A41324CE-63FC-4802-8589-344C52732E49
 updated_at: 11/9/2016 6:37 PM
 ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySettings.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySettings.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7986fb4880d0ee292c289166871e4b25df1ad4b8/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySettings.md
 ms.topic: reference
 ms.technology: Azure PowerShell

@@ -6,6 +6,7 @@ ms.assetid: 74BD0C15-D7F3-40CE-8D53-4C6C8E3BAA5F
 updated_at: 11/10/2016 6:25 PM
 ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Restore-MsolUser.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Restore-MsolUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Restore-MsolUser.md
 ms.topic: reference
 ms.technology: Azure PowerShell

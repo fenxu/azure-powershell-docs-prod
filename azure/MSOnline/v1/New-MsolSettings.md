@@ -6,6 +6,7 @@ ms.assetid: 2FE0B98E-77B0-4122-A5D0-3ED553F83B36
 updated_at: 11/7/2016 11:36 PM
 ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolSettings.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolSettings.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolSettings.md
 ms.topic: reference
 ms.technology: Azure PowerShell

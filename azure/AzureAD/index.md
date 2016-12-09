@@ -2,6 +2,7 @@
 updated_at: 11/30/2016 12:29 AM
 ms.date: 11/30/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/index.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/index.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/58c8015db063cdca30de0b478f49c5a2d1b66c12/Azure%20AD%20Cmdlets/AzureAD/index.md
 ms.topic: conceptual
 ms.technology: Azure PowerShell

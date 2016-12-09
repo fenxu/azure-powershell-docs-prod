@@ -6,6 +6,7 @@ ms.assetid: B11640A7-18C4-475A-B6BE-D16957C4F58C
 updated_at: 11/1/2016 10:25 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDevice.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDevice.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6600f52fb9e8494968164be77a39809bf8320873/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDevice.md
 ms.topic: reference
 ms.technology: Azure PowerShell

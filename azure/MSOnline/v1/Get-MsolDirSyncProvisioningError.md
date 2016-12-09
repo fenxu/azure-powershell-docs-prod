@@ -6,6 +6,7 @@ ms.assetid: FF8B1BBA-6FF1-4739-A554-B83079EA4FEC
 updated_at: 11/1/2016 10:25 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncProvisioningError.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncProvisioningError.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6600f52fb9e8494968164be77a39809bf8320873/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncProvisioningError.md
 ms.topic: reference
 ms.technology: Azure PowerShell

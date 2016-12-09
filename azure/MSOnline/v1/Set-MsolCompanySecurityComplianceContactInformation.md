@@ -6,6 +6,7 @@ ms.assetid: 5EFA8894-F622-48D0-97D4-3D673E08FF37
 updated_at: 12/2/2016 4:22 PM
 ms.date: 12/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySecurityComplianceContactInformation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySecurityComplianceContactInformation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4023b179c462035af0fff119e56601be772929f9/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySecurityComplianceContactInformation.md
 ms.topic: reference
 ms.technology: Azure PowerShell

@@ -6,6 +6,7 @@ ms.assetid: 4A83B1B7-7B08-4983-9E41-BD873F8DB2F8
 updated_at: 11/7/2016 11:36 PM
 ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolSettingTemplate.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolSettingTemplate.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolSettingTemplate.md
 ms.topic: reference
 ms.technology: Azure PowerShell

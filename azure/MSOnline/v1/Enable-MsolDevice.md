@@ -6,6 +6,7 @@ ms.assetid: 5810982A-C9A8-4A13-BE28-5D9CB053DB1A
 updated_at: 11/8/2016 9:01 PM
 ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Enable-MsolDevice.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Enable-MsolDevice.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Enable-MsolDevice.md
 ms.topic: reference
 ms.technology: Azure PowerShell

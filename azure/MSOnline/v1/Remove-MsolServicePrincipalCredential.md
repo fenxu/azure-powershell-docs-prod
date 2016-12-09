@@ -6,6 +6,7 @@ ms.assetid: AD722FB5-9280-479F-8CDA-2A4572FDCA4F
 updated_at: 11/8/2016 9:01 PM
 ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipalCredential.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipalCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipalCredential.md
 ms.topic: reference
 ms.technology: Azure PowerShell

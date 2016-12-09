@@ -6,6 +6,7 @@ ms.assetid: FE736AD3-BE42-47C0-A41A-05E01D1DD7A9
 updated_at: 11/9/2016 10:36 PM
 ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserPassword.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserPassword.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a602340dee47e7edf41f6c5af3edb93e03ac1b45/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserPassword.md
 ms.topic: reference
 ms.technology: Azure PowerShell

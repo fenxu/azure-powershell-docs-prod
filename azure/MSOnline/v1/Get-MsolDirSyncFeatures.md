@@ -6,6 +6,7 @@ ms.assetid: F2ED75F9-4313-418D-8B3A-EED1DE39B9DB
 updated_at: 11/1/2016 10:25 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncFeatures.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncFeatures.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6600f52fb9e8494968164be77a39809bf8320873/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncFeatures.md
 ms.topic: reference
 ms.technology: Azure PowerShell

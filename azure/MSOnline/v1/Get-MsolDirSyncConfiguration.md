@@ -6,6 +6,7 @@ ms.assetid: 174960FD-00BB-461F-B8C9-DDA519E24F00
 updated_at: 11/14/2016 9:14 PM
 ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncConfiguration.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncConfiguration.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDirSyncConfiguration.md
 ms.topic: reference
 ms.technology: Azure PowerShell

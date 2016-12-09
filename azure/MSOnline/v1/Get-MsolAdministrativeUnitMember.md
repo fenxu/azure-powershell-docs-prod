@@ -6,6 +6,7 @@ ms.assetid: F432C01F-578C-47DE-A3FA-9CCAA42F4814
 updated_at: 11/10/2016 6:25 PM
 ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAdministrativeUnitMember.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAdministrativeUnitMember.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAdministrativeUnitMember.md
 ms.topic: reference
 ms.technology: Azure PowerShell

@@ -6,6 +6,7 @@ ms.assetid: ACEA9C06-7619-4EAE-967D-280F982ECE7A
 updated_at: 11/14/2016 9:14 PM
 ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalAddresses.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalAddresses.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalAddresses.md
 ms.topic: reference
 ms.technology: Azure PowerShell

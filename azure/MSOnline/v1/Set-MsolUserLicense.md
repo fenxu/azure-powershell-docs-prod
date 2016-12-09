@@ -6,6 +6,7 @@ ms.assetid: 0A3B58FA-9320-4E23-90AA-A75842492AC9
 updated_at: 11/9/2016 10:36 PM
 ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserLicense.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserLicense.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a602340dee47e7edf41f6c5af3edb93e03ac1b45/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolUserLicense.md
 ms.topic: reference
 ms.technology: Azure PowerShell

@@ -6,6 +6,7 @@ ms.assetid: 8D9F4A29-671A-468A-9B20-B985DF1B4EC2
 updated_at: 11/10/2016 6:25 PM
 ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
 ms.topic: reference
 ms.technology: Azure PowerShell

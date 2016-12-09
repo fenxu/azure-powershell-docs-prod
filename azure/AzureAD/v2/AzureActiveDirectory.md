@@ -1,14 +1,15 @@
 ---
-Module Name: AzureActiveDirectory
+Module Name: AzureAD
 Module Guid: b433e830-b479-4f7f-9c80-9cc6c28e1b51
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 7D9D9507-ADE5-45BD-97F8-0CCCDA3D3B58
-updated_at: 12/8/2016 4:10 AM
-ms.date: 12/8/2016
+updated_at: 12/9/2016 8:01 PM
+ms.date: 12/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1f7d15ef64695741bb47c0abfcf9d571a35a9eb5/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4d020b46946469cc48cef5839f73dd9cb96dfff1/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
 uid: AzureAD/v2/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.technology: Azure PowerShell

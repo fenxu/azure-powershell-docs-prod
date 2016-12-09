@@ -6,6 +6,7 @@ ms.assetid: CED5BB55-E2BA-4400-9777-6589B6B29355
 updated_at: 11/9/2016 7:55 PM
 ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUser.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2ed1dc4a4cad9328c634640b8f50d00798f6278b/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUser.md
 ms.topic: reference
 ms.technology: Azure PowerShell

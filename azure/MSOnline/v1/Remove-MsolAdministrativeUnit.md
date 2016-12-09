@@ -6,6 +6,7 @@ ms.assetid: BA22F11F-5010-421E-A9A9-680C9EA014B4
 updated_at: 11/4/2016 10:40 PM
 ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolAdministrativeUnit.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolAdministrativeUnit.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c22ad9f927dcfe00a363b1a2c343fc086da2ac5/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolAdministrativeUnit.md
 ms.topic: reference
 ms.technology: Azure PowerShell

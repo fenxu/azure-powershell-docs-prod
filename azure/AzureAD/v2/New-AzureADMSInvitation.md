@@ -5,6 +5,7 @@ schema: 2.0.0
 updated_at: 11/30/2016 7:41 PM
 ms.date: 11/30/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSInvitation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSInvitation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f2b8baba25fd629824407394e7a301177d8f9960/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSInvitation.md
 ms.topic: reference
 ms.technology: Azure PowerShell

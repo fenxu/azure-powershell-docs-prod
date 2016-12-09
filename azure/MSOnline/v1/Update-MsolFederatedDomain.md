@@ -6,6 +6,7 @@ ms.assetid: 3433FAB9-DA26-483D-BE3C-406FD0C0F746
 updated_at: 11/8/2016 9:01 PM
 ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Update-MsolFederatedDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Update-MsolFederatedDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3/Azure%20AD%20Cmdlets/MSOnline/v1/Update-MsolFederatedDomain.md
 ms.topic: reference
 ms.technology: Azure PowerShell
