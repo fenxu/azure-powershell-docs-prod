@@ -9,13 +9,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Az
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/509e3e297cffef326ee90167ad75069fe7bc8f47/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSTemplate.md
 ms.topic: reference
 ms.prod: powershell
-ms.service: rights-management
 ms.technology: Azure Powershell
 author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: cabailey
-id: RMSProtection_vlatest_Get_RMSTemplate_md
+open_to_public_contributors: false
+ms.service: rights-management
 ---
 
 # Get-RMSTemplate

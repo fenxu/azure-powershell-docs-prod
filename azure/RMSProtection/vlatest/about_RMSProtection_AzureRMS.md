@@ -6,13 +6,13 @@ gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad982222
 uid: RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
 ms.topic: conceptual
 ms.prod: powershell
-ms.service: rights-management
 ms.technology: Azure Powershell
 author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: cabailey
-id: RMSProtection_vlatest_about_RMSProtection_AzureRMS_md
+open_to_public_contributors: false
+ms.service: rights-management
 ---
 
 # TOPIC
