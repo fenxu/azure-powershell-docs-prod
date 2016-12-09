@@ -3,10 +3,10 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=400595
 schema: 2.0.0
 ms.assetid: 857D8EFC-9D6E-4756-A9A2-B90FF8E02A1F
-updated_at: 12/8/2016 6:43 PM
+updated_at: 12/8/2016 11:09 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/a726970d13bf953648464ae981714a22b7f964a6/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/9e560ef5ae0eee7cd768e8418f7e1e48be2252fa/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -119,8 +119,8 @@ Accept wildcard characters: False
 
 ### -Credential
 Specifies a **PSCredential** object.
-To obtain a **PSCredential** object, use the [Get-Credential](http://go.microsoft.com/fwlink/?LinkID=293936) cmdlet.
-For more information, type `Get-Help Get-Cmdlet`.
+To obtain a **PSCredential** object, use the [Get-Credential](http://go.microsoft.com/fwlink/?LinkID=293936) cmdlet. For more information, type `Get-Help Get-Cmdlet`.
+
 The cmdlet prompts you for a password.
 
 You cannot use this parameter with the *AccessToken* parameter and do not use it if your account is configured to use multi-factor authentication (MFA).
