@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400629
 schema: 2.0.0
 ms.assetid: BE20B1AF-4D47-4182-A46A-2FB0AB504A93
-updated_at: 12/8/2016 11:09 PM
-ms.date: 12/8/2016
+updated_at: 12/14/2016 3:02 AM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/9e560ef5ae0eee7cd768e8418f7e1e48be2252fa/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b57abf5e3bc09ecdcab451d90da166a10219742f/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -78,29 +78,29 @@ Accept wildcard characters: False
 ```
 
 ### -Rights
-Specifies a list of rights.The list contains one or more of the following:
+Specifies a list of rights. The list contains one or more of the following:
 
-**VIEW**: Interpreted by most applications as allowed to present the data on the screen.
+- **VIEW**: Interpreted by most applications as allowed to present the data on the screen.
 
-**EDIT**: Interpreted by most applications as allowed to modify content in the document and save it.
+- **EDIT**: Interpreted by most applications as allowed to modify content in the document and save it.
 
-**DOCEDIT**: Interpreted by most applications as allowed to modify the content of the document.
+- **DOCEDIT**: Interpreted by most applications as allowed to modify the content of the document.
 
-**EXTRACT**: Interpreted by most applications as allowed to copy the content to the clipboard or otherwise extract the content in unencrypted form.
+- **EXTRACT**: Interpreted by most applications as allowed to copy the content to the clipboard or otherwise extract the content in unencrypted form.
 
-**OBJMODEL**: Interpreted by most applications as allowed to access the document programmatically; for example, by using macros.
+- **OBJMODEL**: Interpreted by most applications as allowed to access the document programmatically; for example, by using macros.
 
-**EXPORT**: Interpreted by most applications as allowed to save the file in unencrypted form. For example, this right allows you to save in a different file format that does not support protection.
+- **EXPORT**: Interpreted by most applications as allowed to save the file in unencrypted form. For example, this right allows you to save in a different file format that does not support protection.
 
-**PRINT**: Interpreted by most applications as allowed to print the document.
+- **PRINT**: Interpreted by most applications as allowed to print the document.
 
-**OWNER**: User has all rights on the document, including the ability to remove protection.
+- **OWNER**: User has all rights on the document, including the ability to remove protection.
 
-**FORWARD**: Interpreted by most applications as allowed to forward an email message, and to add recipients to the To and Cc lines.
+- **FORWARD**: Interpreted by most applications as allowed to forward an email message, and to add recipients to the To and Cc lines.
 
-**REPLY**: Interpreted by most applications as allowed to select reply to an email message, without allowing changes in the To or Cc lines.
+- **REPLY**: Interpreted by most applications as allowed to select reply to an email message, without allowing changes in the To or Cc lines.
 
-**REPLYALL**: Interpreted by most applications as allowed to reply to all recipients of an email message, but does not allow the user to add recipients to the To or Cc lines.
+- **REPLYALL**: Interpreted by most applications as allowed to reply to all recipients of an email message, but does not allow the user to add recipients to the To or Cc lines.
 
 Note: For clarity, the documentation and display text from the module shows these rights as all upper-case letters. However, the values are not case-sensitive and you can specify them in lower or upper case.
 

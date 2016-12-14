@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=722835
 schema: 2.0.0
 ms.assetid: 7C339803-9C45-4B06-B741-DB8CD43EF886
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 12/14/2016 3:02 AM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUserLog.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUserLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUserLog.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b57abf5e3bc09ecdcab451d90da166a10219742f/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUserLog.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -97,7 +97,7 @@ Accept wildcard characters: False
 ### -ForDate
 Specifies a date (and optionally, a time) for the log file as a **DateTime** object.
 Use this parameter when you do not use the *FromDate* parameter.
-To obtain a **DateTime** object, use the **Get-Date** cmdlet.
+To obtain a **DateTime** object, use the [Get-Date](http://go.microsoft.com/fwlink/?LinkID=293966) cmdlet.
 
 ```yaml
 Type: DateTime
@@ -190,3 +190,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage)
+
+[Get-Date](http://go.microsoft.com/fwlink/?LinkID=293966)

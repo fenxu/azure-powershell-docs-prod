@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400627
 schema: 2.0.0
 ms.assetid: E7942746-0F62-4D15-AD46-5DB8235FAF62
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 12/14/2016 3:02 AM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplateProperty.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplateProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplateProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b57abf5e3bc09ecdcab451d90da166a10219742f/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplateProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -245,7 +245,7 @@ Accept wildcard characters: False
 
 ### -TemplateId
 Specifies the GUID of a Rights Management template.
-You can use the **Get-AadrmTemplate** cmdlet to obtain the template ID of all templates.
+You can use the [Get-AadrmTemplate](./Get-AadrmTemplate.md) cmdlet to obtain the template ID of all templates.
 
 ```yaml
 Type: Guid
