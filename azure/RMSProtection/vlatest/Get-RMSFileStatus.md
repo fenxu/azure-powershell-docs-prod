@@ -6,6 +6,7 @@ ms.assetid: 074F42BF-D30C-45C4-88F9-E445A7DFEA41
 updated_at: 11/4/2016 7:56 PM
 ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
 ms.topic: reference
 ms.prod: powershell

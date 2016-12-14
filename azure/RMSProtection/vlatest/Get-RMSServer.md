@@ -6,6 +6,7 @@ ms.assetid: 3E2190DA-3B41-4107-8F45-9EEA7A3DF3AA
 updated_at: 11/4/2016 7:56 PM
 ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServer.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServer.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServer.md
 ms.topic: reference
 ms.prod: powershell

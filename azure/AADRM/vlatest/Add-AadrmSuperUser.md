@@ -3,10 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400594
 schema: 2.0.0
 ms.assetid: 5B7E7380-C8F4-4113-84D9-B9825F9F2240
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 12/14/2016 2:30 AM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c641f678e6a73163c6577c4fec362f4c3a0ae304/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -83,7 +84,7 @@ Accept wildcard characters: False
 
 ### -ServicePrincipalId
 Specifies the **AppPrincipalId** of the service principal to which to grant super user privileges.
-Use the **Get-MsolServicePrincipal** cmdlet to get an existing service principal, or the **New-MsolServicePrincipalCredential** cmdlet to create a new service principal.
+Use the **Get-MsolServicePrincipal** cmdlet to get an existing service principal, or the [New-MsolServicePrincipalCredential](./New-MsolServicePrincipalCredential.md) cmdlet to create a new service principal.
 
 The service principal ID is converted to a pseudo-email address and added to the super users list for the organization.
 For example, `Add-AadrmSuperUser -ServicePrincipalId "3C367900-44D1-4865-9379-9A3227042C25"` adds 3C367900-44D1-4865-9379-9A3227042C25@\<rms tenant ID\>.rms.na.aadrm.com to the super user list.
@@ -117,6 +118,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Enable-AadrmSuperUserFeature](xref:AADRM/vlatest/Enable-AadrmSuperUserFeature.md)
 
 [Get-AadrmSuperUser](xref:AADRM/vlatest/Get-AadrmSuperUser.md)
+
+[New-MsolServicePrincipalCredential](xref:AADRM/vlatest/New-MsolServicePrincipalCredential.md)
 
 [Remove-AadrmSuperUser](xref:AADRM/vlatest/Remove-AadrmSuperUser.md)
 

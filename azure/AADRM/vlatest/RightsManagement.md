@@ -8,6 +8,7 @@ ms.assetid: 0B91D740-D2BD-4D57-9E21-C582C9BE2CCA
 updated_at: 11/3/2016 6:06 AM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 uid: AADRM/vlatest/RightsManagement.md
 ms.topic: conceptual

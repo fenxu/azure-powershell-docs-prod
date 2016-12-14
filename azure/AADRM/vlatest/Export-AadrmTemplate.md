@@ -6,6 +6,7 @@ ms.assetid: 7B9098EE-CE4B-4033-AB04-2F53B6238CE2
 updated_at: 11/4/2016 7:56 PM
 ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell

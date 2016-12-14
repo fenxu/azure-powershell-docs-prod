@@ -6,6 +6,7 @@ ms.assetid: 60B3F42C-4FEF-435B-AE28-771932FA6251
 updated_at: 11/4/2016 7:56 PM
 ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-Aadrm.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-Aadrm.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Enable-Aadrm.md
 ms.topic: reference
 ms.prod: powershell

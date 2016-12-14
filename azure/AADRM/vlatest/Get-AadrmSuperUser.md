@@ -6,6 +6,7 @@ ms.assetid: 508FBF5B-A405-4FCB-9EB3-39183F46F60A
 updated_at: 11/4/2016 7:56 PM
 ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmSuperUser.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmSuperUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmSuperUser.md
 ms.topic: reference
 ms.prod: powershell

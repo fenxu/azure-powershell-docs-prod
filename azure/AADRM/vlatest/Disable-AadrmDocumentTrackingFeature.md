@@ -6,6 +6,7 @@ ms.assetid: 5C8ED12E-4A84-446E-962F-5E886CB40DF9
 updated_at: 11/16/2016 8:23 PM
 ms.date: 11/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/56178c1d77dab4dfbc76ca870a0af4e5d994362b/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
 ms.topic: reference
 ms.prod: powershell

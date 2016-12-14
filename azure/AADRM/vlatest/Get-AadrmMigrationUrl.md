@@ -6,6 +6,7 @@ ms.assetid: 46D00FBB-EB69-463B-BFE2-CC754BF71FA4
 updated_at: 11/3/2016 6:06 AM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmMigrationUrl.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmMigrationUrl.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmMigrationUrl.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 569C89B8-0A48-492F-BC48-8D8214F35C71
 updated_at: 11/21/2016 6:01 PM
 ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSTemplate.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSTemplate.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/509e3e297cffef326ee90167ad75069fe7bc8f47/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSTemplate.md
 ms.topic: reference
 ms.prod: powershell

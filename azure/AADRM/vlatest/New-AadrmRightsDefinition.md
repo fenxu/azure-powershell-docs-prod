@@ -6,6 +6,7 @@ ms.assetid: BE20B1AF-4D47-4182-A46A-2FB0AB504A93
 updated_at: 12/8/2016 11:09 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/9e560ef5ae0eee7cd768e8418f7e1e48be2252fa/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
 ms.topic: reference
 ms.prod: powershell

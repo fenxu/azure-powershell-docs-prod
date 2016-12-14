@@ -6,6 +6,7 @@ ms.assetid: 7A85A84D-9022-452D-A428-FD0C9400C71A
 updated_at: 11/21/2016 6:01 PM
 ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/509e3e297cffef326ee90167ad75069fe7bc8f47/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
 ms.topic: reference
 ms.prod: powershell
