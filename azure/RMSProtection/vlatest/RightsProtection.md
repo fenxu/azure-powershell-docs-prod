@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 35D99F89-BD73-457E-95C7-73857656FB59
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 12/14/2016 6:30 PM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/816e19b625f1a45bab7406e8f5b65661a1489ff6/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
 uid: RMSProtection/vlatest/RightsProtection.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -46,13 +46,13 @@ The current release of the RMS Protection module has the following limitations:
 
 - For Windows 7 SP1 and Windows Server 2012:
 
- - The RMS Protection module does not automatically import when you first run the cmdlets in a Windows PowerShell session. For these operating system versions, you must manually import the module before you run the cmdlets: Import-Module "%ProgramFiles%\WindowsPowerShell\Modules\RMSProtection\RMSProtection.dll"
+ - The RMS Protection module does not automatically import when you first run the cmdlets in a Windows PowerShell session. For these operating system versions, you must manually import the module before you run the cmdlets: `Import-Module "%ProgramFiles%\WindowsPowerShell\Modules\RMSProtection\RMSProtection.dll"`
 
- - If the %*ProgramFiles*% environment variable does not work for you, specify the full path. For example, **Import-Module "C:\Program Files\WindowsPowerShell\Modules\RMSProtection\RMSProtection.dll"**.
+ - If the %*ProgramFiles*% environment variable does not work for you, specify the full path. For example, `Import-Module "C:\Program Files\WindowsPowerShell\Modules\RMSProtection\RMSProtection.dll"`.
 
 To unprotect container files (.msf, .pst, .rar, .pst, .zip, and .7z), and to use multi-factor authentication with Azure Rights Management, you must have at least version **2.1.0.0** of the RMS Protection module. To unprotect .eml files requires a minimum version of **2.2.0.0**.
 
-**Breaking change in version 2.2.0.0**: If you are upgrading from a previous version of the RMS Protection module, version 2.2.0.0 introduces the new **-InPlace** parameter, which overwrites the existing file if you do not specify an output folder. In previous versions, this was the default behavior. To retain the same behavior as before, you might need to add the -InPlace parameter to commands and scripts.
+**Breaking change in version 2.2.0.0**: If you are upgrading from a previous version of the RMS Protection module, version 2.2.0.0 introduces the new *InPlace* parameter, which overwrites the existing file if you do not specify an output folder. In previous versions, this was the default behavior. To retain the same behavior as before, you might need to add the *InPlace* parameter to commands and scripts.
 
 >**Important**
 >
