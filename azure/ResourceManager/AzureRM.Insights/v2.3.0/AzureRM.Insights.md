@@ -8,6 +8,7 @@ ms.assetid: E2C6E8E4-0324-415E-AF25-4237D6101C9F
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.3.0/AzureRM.Insights.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.3.0/AzureRM.Insights.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.3.0/AzureRM.Insights.md
 uid: ResourceManager/AzureRM.Insights/v2.3.0/AzureRM.Insights.md
 ms.topic: conceptual

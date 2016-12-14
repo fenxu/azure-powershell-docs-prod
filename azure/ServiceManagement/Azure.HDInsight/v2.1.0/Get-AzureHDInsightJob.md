@@ -6,6 +6,7 @@ ms.assetid: 08CADDE1-6CC6-4A94-BBE1-8BB4D73E3DE7
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/Get-AzureHDInsightJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/Get-AzureHDInsightJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/Get-AzureHDInsightJob.md
 ms.topic: reference
 ms.prod: powershell

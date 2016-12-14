@@ -8,6 +8,7 @@ ms.assetid: 10EC7A5E-8647-41FB-9C91-6A1F17F0A7DA
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md
 uid: ResourceManager/AzureRM.Sql/v2.2.0/AzureRM.Sql.md
 ms.topic: conceptual

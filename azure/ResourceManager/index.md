@@ -3,6 +3,7 @@ ms.assetid: BB5EBF08-3264-4DDB-A1DC-BD5BA1805E0A
 updated_at: 11/30/2016 4:17 PM
 ms.date: 11/30/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/index.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/index.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bae29942280aa8a3d98c43f4709821bf7452f869/azureps-cmdlets-docs/ResourceManager/index.md
 ms.topic: reference
 ms.prod: powershell

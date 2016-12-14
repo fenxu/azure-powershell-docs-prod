@@ -6,6 +6,7 @@ ms.assetid: D30A62C1-CC76-47AD-9A2D-882AA6E5098E
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/New-AzureRmHDInsightClusterConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/New-AzureRmHDInsightClusterConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/New-AzureRmHDInsightClusterConfig.md
 ms.topic: reference
 ms.prod: powershell

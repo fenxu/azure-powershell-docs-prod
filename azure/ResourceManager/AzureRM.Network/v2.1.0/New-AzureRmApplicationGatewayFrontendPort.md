@@ -6,6 +6,7 @@ ms.assetid: 0A32CAF1-F4D7-4928-BA19-37469E23C43C
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayFrontendPort.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayFrontendPort.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/New-AzureRmApplicationGatewayFrontendPort.md
 ms.topic: reference
 ms.prod: powershell

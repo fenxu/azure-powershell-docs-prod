@@ -6,6 +6,7 @@ ms.assetid: 57FAC800-280F-4CF6-8B02-33A14F073D76
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Add-AzureHDInsightScriptAction.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Add-AzureHDInsightScriptAction.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Add-AzureHDInsightScriptAction.md
 ms.topic: reference
 ms.prod: powershell

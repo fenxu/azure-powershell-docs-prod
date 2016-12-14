@@ -6,6 +6,7 @@ ms.assetid: F7DFC5F3-C42A-4430-88EE-86289B3A739C
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Sync-ACSStorageAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Sync-ACSStorageAccount.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Sync-ACSStorageAccount.md
 ms.topic: reference
 ms.prod: powershell

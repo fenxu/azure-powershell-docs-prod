@@ -6,6 +6,7 @@ ms.assetid: 8CE8D034-CF66-413D-B901-CADA5BC072B7
 updated_at: 10/18/2016 9:38 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlElasticPoolDatabase.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlElasticPoolDatabase.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlElasticPoolDatabase.md
 ms.topic: reference
 ms.prod: powershell

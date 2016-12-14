@@ -6,6 +6,7 @@ ms.assetid: E0B53F06-6DC2-4916-B7B2-D8AA199DD12B
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Remove-AzureStorSimpleDeviceBackup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Remove-AzureStorSimpleDeviceBackup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Remove-AzureStorSimpleDeviceBackup.md
 ms.topic: reference
 ms.prod: powershell

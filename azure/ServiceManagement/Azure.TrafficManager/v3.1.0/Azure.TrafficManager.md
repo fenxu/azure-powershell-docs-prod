@@ -8,6 +8,7 @@ ms.assetid: D46E22C0-7E65-43D1-B37E-0F5ED24B4CC0
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Azure.TrafficManager.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Azure.TrafficManager.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Azure.TrafficManager.md
 uid: ServiceManagement/Azure.TrafficManager/v3.1.0/Azure.TrafficManager.md
 ms.topic: conceptual

@@ -6,6 +6,7 @@ ms.assetid: 44403CE2-686F-46D0-A0E0-F12D62B9C342
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v2.1.0/Test-AzureTrafficManagerDomainName.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v2.1.0/Test-AzureTrafficManagerDomainName.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v2.1.0/Test-AzureTrafficManagerDomainName.md
 ms.topic: reference
 ms.prod: powershell

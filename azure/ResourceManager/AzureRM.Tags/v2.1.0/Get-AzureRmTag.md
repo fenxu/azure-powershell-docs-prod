@@ -6,6 +6,7 @@ ms.assetid: 4A43AF5D-6359-46BF-9C51-FDF399A5FDC6
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.1.0/Get-AzureRmTag.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.1.0/Get-AzureRmTag.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.1.0/Get-AzureRmTag.md
 ms.topic: reference
 ms.prod: powershell

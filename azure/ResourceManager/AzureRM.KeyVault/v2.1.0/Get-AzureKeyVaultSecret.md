@@ -6,6 +6,7 @@ ms.assetid: B0CA62C1-6A08-4C07-91BF-A0AAB7774E8F
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultSecret.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultSecret.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultSecret.md
 ms.topic: reference
 ms.prod: powershell

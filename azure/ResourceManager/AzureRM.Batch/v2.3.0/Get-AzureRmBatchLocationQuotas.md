@@ -6,6 +6,7 @@ schema: 2.0.0
 updated_at: 11/17/2016 12:05 AM
 ms.date: 11/17/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.3.0/Get-AzureRmBatchLocationQuotas.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.3.0/Get-AzureRmBatchLocationQuotas.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e571c04f9a934d1d758a5e8cee0c6c5b87856e76/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.3.0/Get-AzureRmBatchLocationQuotas.md
 ms.topic: reference
 ms.prod: powershell

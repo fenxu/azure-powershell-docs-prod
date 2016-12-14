@@ -6,6 +6,7 @@ ms.assetid: 4E80585A-6CC5-49B5-9C2A-2A108403B5AC
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Start-AzureSqlDatabaseExecuteIndexRecommendation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Start-AzureSqlDatabaseExecuteIndexRecommendation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Start-AzureSqlDatabaseExecuteIndexRecommendation.md
 ms.topic: reference
 ms.prod: powershell

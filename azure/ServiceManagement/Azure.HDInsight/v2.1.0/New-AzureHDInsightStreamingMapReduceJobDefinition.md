@@ -6,6 +6,7 @@ ms.assetid: FE7F2FF4-A1C5-4D10-B47B-B411A2042D8C
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/New-AzureHDInsightStreamingMapReduceJobDefinition.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/New-AzureHDInsightStreamingMapReduceJobDefinition.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v2.1.0/New-AzureHDInsightStreamingMapReduceJobDefinition.md
 ms.topic: reference
 ms.prod: powershell

@@ -8,6 +8,7 @@ ms.assetid: 722D0E2C-E95A-455D-A100-2A1E79889DFA
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.1.0/AzureRM.NotificationHubs.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.1.0/AzureRM.NotificationHubs.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.1.0/AzureRM.NotificationHubs.md
 uid: ResourceManager/AzureRM.NotificationHubs/v2.1.0/AzureRM.NotificationHubs.md
 ms.topic: conceptual

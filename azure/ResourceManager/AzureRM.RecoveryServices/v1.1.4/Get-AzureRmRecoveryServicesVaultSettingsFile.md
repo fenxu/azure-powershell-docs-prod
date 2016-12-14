@@ -6,6 +6,7 @@ ms.assetid: 392A4537-0698-40AC-9569-026CC453D26C
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v1.1.4/Get-AzureRmRecoveryServicesVaultSettingsFile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v1.1.4/Get-AzureRmRecoveryServicesVaultSettingsFile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v1.1.4/Get-AzureRmRecoveryServicesVaultSettingsFile.md
 ms.topic: reference
 ms.prod: powershell

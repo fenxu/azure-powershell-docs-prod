@@ -6,6 +6,7 @@ ms.assetid: 2FD2C5C0-5A5A-4CF0-9260-21B9E3DE52B9
 updated_at: 11/3/2016 10:58 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementProductFromGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementProductFromGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b0dc3fda3721a600f2fff31599b45845d71f44f4/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementProductFromGroup.md
 ms.topic: reference
 ms.prod: powershell

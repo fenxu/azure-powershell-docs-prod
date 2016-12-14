@@ -6,6 +6,7 @@ ms.assetid: F4F4295B-A0D9-4C52-86C8-61BC3BD27579
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v1.1.4/Remove-AzureRmRecoveryServicesVault.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v1.1.4/Remove-AzureRmRecoveryServicesVault.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v1.1.4/Remove-AzureRmRecoveryServicesVault.md
 ms.topic: reference
 ms.prod: powershell

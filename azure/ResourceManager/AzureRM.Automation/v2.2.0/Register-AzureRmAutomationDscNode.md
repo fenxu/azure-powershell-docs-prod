@@ -6,6 +6,7 @@ ms.assetid: F0392C3E-7320-4C88-AF3F-DA0AAABC54EE
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRmAutomationDscNode.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRmAutomationDscNode.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRmAutomationDscNode.md
 ms.topic: reference
 ms.prod: powershell

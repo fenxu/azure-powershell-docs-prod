@@ -6,6 +6,7 @@ ms.assetid: 52F7D8A7-93A2-41F9-9B8B-1A561985B66F
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Add-AzureRmHDInsightScriptAction.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Add-AzureRmHDInsightScriptAction.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Add-AzureRmHDInsightScriptAction.md
 ms.topic: reference
 ms.prod: powershell

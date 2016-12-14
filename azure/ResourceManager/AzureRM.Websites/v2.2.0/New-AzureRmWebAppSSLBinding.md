@@ -6,6 +6,7 @@ ms.assetid: C1809B90-7162-4B7A-B684-6E8D9D445EEC
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/New-AzureRmWebAppSSLBinding.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/New-AzureRmWebAppSSLBinding.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/New-AzureRmWebAppSSLBinding.md
 ms.topic: reference
 ms.prod: powershell

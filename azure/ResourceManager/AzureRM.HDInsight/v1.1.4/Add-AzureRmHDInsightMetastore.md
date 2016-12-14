@@ -6,6 +6,7 @@ ms.assetid: 5EE6E2C7-0FA3-43CD-A509-E8DC56179792
 updated_at: 11/22/2016 12:25 AM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightMetastore.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightMetastore.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightMetastore.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 506D8C77-9CC1-46CD-8A62-3ABD3FC3698F
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Save-AzureRmDataFactoryLog.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Save-AzureRmDataFactoryLog.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Save-AzureRmDataFactoryLog.md
 ms.topic: reference
 ms.prod: powershell

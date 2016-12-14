@@ -8,6 +8,7 @@ ms.assetid: 1E6118A5-1DC3-4EA2-87AE-F1412B036114
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Azure.Compute.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Azure.Compute.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Azure.Compute.md
 uid: ServiceManagement/Azure.Compute/v3.0.0/Azure.Compute.md
 ms.topic: conceptual

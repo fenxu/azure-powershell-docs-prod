@@ -6,6 +6,7 @@ ms.assetid: 4E4B99E1-12FB-4A7D-92EB-4E274955EEA7
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureBatchNodeFileContent.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureBatchNodeFileContent.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureBatchNodeFileContent.md
 ms.topic: reference
 ms.prod: powershell

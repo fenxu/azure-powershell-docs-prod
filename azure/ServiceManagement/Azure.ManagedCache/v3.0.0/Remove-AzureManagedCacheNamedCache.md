@@ -6,6 +6,7 @@ ms.assetid: 7FC770E5-1F8A-429A-9A39-82276337A2AE
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Remove-AzureManagedCacheNamedCache.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Remove-AzureManagedCacheNamedCache.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Remove-AzureManagedCacheNamedCache.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 253B7E3B-2E11-43D8-8882-8DBECE55DF8B
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/Test-AzureRmPrivateIPAddressAvailability.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/Test-AzureRmPrivateIPAddressAvailability.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.1.0/Test-AzureRmPrivateIPAddressAvailability.md
 ms.topic: reference
 ms.prod: powershell

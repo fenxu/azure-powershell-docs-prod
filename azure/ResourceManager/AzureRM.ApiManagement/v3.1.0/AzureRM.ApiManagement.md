@@ -8,6 +8,7 @@ ms.assetid: B24D0651-01BA-4DD6-9816-EC960880A605
 updated_at: 12/8/2016 5:59 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/AzureRM.ApiManagement.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/AzureRM.ApiManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d83562f79d01886ecd716d79ce086d2b009f21d3/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/AzureRM.ApiManagement.md
 uid: ResourceManager/AzureRM.ApiManagement/v3.1.0/AzureRM.ApiManagement.md
 ms.topic: conceptual

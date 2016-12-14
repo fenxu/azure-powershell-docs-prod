@@ -6,6 +6,7 @@ ms.assetid: D7B03598-B1B7-448B-B336-B65CB4243BD1
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/Start-AzureSiteRecoveryPlannedFailoverJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/Start-AzureSiteRecoveryPlannedFailoverJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/Start-AzureSiteRecoveryPlannedFailoverJob.md
 ms.topic: reference
 ms.prod: powershell

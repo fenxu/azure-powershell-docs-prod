@@ -6,6 +6,7 @@ ms.assetid: C2CC10DE-1D36-4937-8A3E-9776BE80DF9A
 updated_at: 11/15/2016 8:49 PM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementAuthorizationServer.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementAuthorizationServer.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/230ca41f5c07de17490a9aad1633801041349629/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementAuthorizationServer.md
 ms.topic: reference
 ms.prod: powershell

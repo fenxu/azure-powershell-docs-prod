@@ -8,6 +8,7 @@ ms.assetid: 869A177A-5F3C-414B-BE38-A0D366AF0664
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Azure.RemoteApp.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Azure.RemoteApp.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Azure.RemoteApp.md
 uid: ServiceManagement/Azure.RemoteApp/v3.1.0/Azure.RemoteApp.md
 ms.topic: conceptual

@@ -6,6 +6,7 @@ ms.assetid: 408BBFED-7598-412A-B378-7C12987AB23F
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Set-AzureHDInsightDefaultStorage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Set-AzureHDInsightDefaultStorage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Set-AzureHDInsightDefaultStorage.md
 ms.topic: reference
 ms.prod: powershell

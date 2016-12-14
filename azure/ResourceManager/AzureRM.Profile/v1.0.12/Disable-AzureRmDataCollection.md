@@ -6,6 +6,7 @@ ms.assetid: 3E0927A7-EBB9-4463-826E-9B6A3F52E0C9
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Disable-AzureRmDataCollection.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Disable-AzureRmDataCollection.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Disable-AzureRmDataCollection.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 199F88C9-DB95-4B85-9295-B768C30FFE7D
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.1.0/Remove-AzureRmAutoscaleSetting.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.1.0/Remove-AzureRmAutoscaleSetting.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.1.0/Remove-AzureRmAutoscaleSetting.md
 ms.topic: reference
 ms.prod: powershell

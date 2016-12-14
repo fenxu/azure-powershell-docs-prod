@@ -6,6 +6,7 @@ ms.assetid: 27472C0E-7787-44D1-BC02-176955FF86F9
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Set-AzureNetworkSecurityGroupToSubnet.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Set-AzureNetworkSecurityGroupToSubnet.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Set-AzureNetworkSecurityGroupToSubnet.md
 ms.topic: reference
 ms.prod: powershell

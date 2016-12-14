@@ -6,6 +6,7 @@ ms.assetid: F94191AE-668D-42EF-9ECF-33FF3EA3DDD8
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryStorage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryStorage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryStorage.md
 ms.topic: reference
 ms.prod: powershell

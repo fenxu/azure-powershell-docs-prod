@@ -6,6 +6,7 @@ ms.assetid: AE72E6B6-5D3A-4E44-9C4A-1C0ADA66AB0F
 updated_at: 12/1/2016 1:28 AM
 ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRMSqlDatabaseGeoBackup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRMSqlDatabaseGeoBackup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0fe78393ce81c49dbd2203c82a10d23db2610c2b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRMSqlDatabaseGeoBackup.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: D5A5A17A-14B2-466F-B1F8-320FFB3A5E71
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v2.1.0/Copy-AzureRemoteAppUserDisk.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v2.1.0/Copy-AzureRemoteAppUserDisk.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v2.1.0/Copy-AzureRemoteAppUserDisk.md
 ms.topic: reference
 ms.prod: powershell

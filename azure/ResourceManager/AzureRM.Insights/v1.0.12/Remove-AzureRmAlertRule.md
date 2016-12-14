@@ -6,6 +6,7 @@ ms.assetid: 74319657-1FCD-4A7B-B0FF-7C993F0972E1
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Remove-AzureRmAlertRule.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Remove-AzureRmAlertRule.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Remove-AzureRmAlertRule.md
 ms.topic: reference
 ms.prod: powershell

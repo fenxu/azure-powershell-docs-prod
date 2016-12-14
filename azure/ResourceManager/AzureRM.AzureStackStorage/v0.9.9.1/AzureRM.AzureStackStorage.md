@@ -8,6 +8,7 @@ ms.assetid: C800D3C8-370D-4604-B016-E1DAF05C1DDD
 updated_at: 11/15/2016 8:02 AM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/AzureRM.AzureStackStorage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/AzureRM.AzureStackStorage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16dcbb293b24fa241864048736125047ff62e2ea/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/AzureRM.AzureStackStorage.md
 uid: ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/AzureRM.AzureStackStorage.md
 ms.topic: conceptual

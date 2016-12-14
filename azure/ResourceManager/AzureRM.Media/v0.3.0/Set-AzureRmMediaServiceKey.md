@@ -6,6 +6,7 @@ ms.assetid: 54D094DC-043B-4D25-93D4-2F4FFE8D7081
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/Set-AzureRmMediaServiceKey.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/Set-AzureRmMediaServiceKey.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/Set-AzureRmMediaServiceKey.md
 ms.topic: reference
 ms.prod: powershell

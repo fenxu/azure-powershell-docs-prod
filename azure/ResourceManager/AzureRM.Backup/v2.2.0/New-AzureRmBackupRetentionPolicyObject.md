@@ -6,6 +6,7 @@ ms.assetid: 71ACC3FF-86D7-40DB-849B-C429F3FC8FEC
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/New-AzureRmBackupRetentionPolicyObject.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/New-AzureRmBackupRetentionPolicyObject.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/New-AzureRmBackupRetentionPolicyObject.md
 ms.topic: reference
 ms.prod: powershell

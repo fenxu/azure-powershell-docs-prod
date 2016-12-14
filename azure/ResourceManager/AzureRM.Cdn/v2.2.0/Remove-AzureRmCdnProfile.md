@@ -6,6 +6,7 @@ ms.assetid: D76A3561-A7AE-4180-A35E-BF8421D1DCAD
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Remove-AzureRmCdnProfile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Remove-AzureRmCdnProfile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Remove-AzureRmCdnProfile.md
 ms.topic: reference
 ms.prod: powershell

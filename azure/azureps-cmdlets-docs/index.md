@@ -9,6 +9,7 @@ ms.manager: carmonm
 updated_at: 12/6/2016 9:34 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/index.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/index.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7daf989cb2b3653832f335c4fa656bf7740ac29c/azureps-cmdlets-docs/index.md
 ms.topic: reference
 ms.technology: Azure PowerShell

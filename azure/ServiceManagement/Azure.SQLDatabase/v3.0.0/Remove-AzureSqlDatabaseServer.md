@@ -6,6 +6,7 @@ ms.assetid: BD1A8EF0-1B85-4E3B-BC75-93F08B18E880
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Remove-AzureSqlDatabaseServer.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Remove-AzureSqlDatabaseServer.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Remove-AzureSqlDatabaseServer.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 851398C2-2DAF-4F3D-ACAD-E440C8AE736E
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v0.9.8/New-AzureStreamAnalyticsOutput.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v0.9.8/New-AzureStreamAnalyticsOutput.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v0.9.8/New-AzureStreamAnalyticsOutput.md
 ms.topic: reference
 ms.prod: powershell

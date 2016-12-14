@@ -6,6 +6,7 @@ ms.assetid: 51F0EEB1-A4B3-46BC-8E59-6E266033CB10
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Unregister-AzureAutomationScheduledRunbook.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Unregister-AzureAutomationScheduledRunbook.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Unregister-AzureAutomationScheduledRunbook.md
 ms.topic: reference
 ms.prod: powershell

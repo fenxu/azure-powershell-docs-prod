@@ -8,6 +8,7 @@ ms.assetid: 78381D7C-8BF3-4E7A-BCA3-A83854386DDA
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/AzureRM.DevTestLabs.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/AzureRM.DevTestLabs.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v2.2.0/AzureRM.DevTestLabs.md
 uid: ResourceManager/AzureRM.DevTestLabs/v2.2.0/AzureRM.DevTestLabs.md
 ms.topic: conceptual

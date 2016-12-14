@@ -8,6 +8,7 @@ ms.assetid: DCCB7042-758D-476B-9B9C-41BA6A02FE40
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v1.0/AzureRM.UsageAggregates.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v1.0/AzureRM.UsageAggregates.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v1.0/AzureRM.UsageAggregates.md
 uid: ResourceManager/AzureRM.UsageAggregates/v1.0/AzureRM.UsageAggregates.md
 ms.topic: conceptual

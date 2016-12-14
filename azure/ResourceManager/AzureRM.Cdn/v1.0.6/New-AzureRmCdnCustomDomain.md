@@ -6,6 +6,7 @@ ms.assetid: 8918C8E8-9324-4928-B5F8-BFC9119B6C92
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/New-AzureRmCdnCustomDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/New-AzureRmCdnCustomDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/New-AzureRmCdnCustomDomain.md
 ms.topic: reference
 ms.prod: powershell

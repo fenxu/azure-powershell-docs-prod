@@ -6,6 +6,7 @@ ms.assetid: 3B5FC8E3-5A02-4F3B-81F0-51DFE47A201B
 updated_at: 11/3/2016 10:58 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementTenantAccess.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementTenantAccess.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b0dc3fda3721a600f2fff31599b45845d71f44f4/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementTenantAccess.md
 ms.topic: reference
 ms.prod: powershell

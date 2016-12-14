@@ -6,6 +6,7 @@ ms.assetid: 0B5E1282-1CE1-4783-AEAD-BC75781814AE
 updated_at: 11/22/2016 12:25 AM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureVMSqlServerAutoBackupConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureVMSqlServerAutoBackupConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureVMSqlServerAutoBackupConfig.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 3F79F8D3-4A70-440C-9485-508921287AC4
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Remove-AzureSiteRecoveryRecoveryPlan.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Remove-AzureSiteRecoveryRecoveryPlan.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Remove-AzureSiteRecoveryRecoveryPlan.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 32758490-E856-4E55-94CB-DAE75DF5010B
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/New-AzureRmMediaService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/New-AzureRmMediaService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.3.0/New-AzureRmMediaService.md
 ms.topic: reference
 ms.prod: powershell

@@ -8,6 +8,7 @@ ms.assetid: BA2D13D3-F6D6-4F07-A157-6F67A7E55864
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v2.2.0/AzureRM.PowerBIEmbedded.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v2.2.0/AzureRM.PowerBIEmbedded.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v2.2.0/AzureRM.PowerBIEmbedded.md
 uid: ResourceManager/AzureRM.PowerBIEmbedded/v2.2.0/AzureRM.PowerBIEmbedded.md
 ms.topic: conceptual

@@ -6,6 +6,7 @@ ms.assetid: ED5EBF0B-0CE0-4692-A288-F3B1205ED84B
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificateAdministratorDetails.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificateAdministratorDetails.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificateAdministratorDetails.md
 ms.topic: reference
 ms.prod: powershell

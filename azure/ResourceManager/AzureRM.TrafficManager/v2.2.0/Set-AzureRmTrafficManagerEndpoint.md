@@ -6,6 +6,7 @@ ms.assetid: 730F4710-2E99-45BB-B610-2937F467BAB2
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Set-AzureRmTrafficManagerEndpoint.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Set-AzureRmTrafficManagerEndpoint.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Set-AzureRmTrafficManagerEndpoint.md
 ms.topic: reference
 ms.prod: powershell

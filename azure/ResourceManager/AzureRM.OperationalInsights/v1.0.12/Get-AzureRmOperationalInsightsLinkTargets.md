@@ -6,6 +6,7 @@ ms.assetid: 30F5EA63-971D-40C8-BCB6-F60B10E8B3E5
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/Get-AzureRmOperationalInsightsLinkTargets.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/Get-AzureRmOperationalInsightsLinkTargets.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/Get-AzureRmOperationalInsightsLinkTargets.md
 ms.topic: reference
 ms.prod: powershell

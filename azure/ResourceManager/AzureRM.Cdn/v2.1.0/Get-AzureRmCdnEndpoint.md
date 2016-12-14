@@ -6,6 +6,7 @@ ms.assetid: 11035A1D-9B13-4F60-9CFB-558E0A383346
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnEndpoint.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnEndpoint.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnEndpoint.md
 ms.topic: reference
 ms.prod: powershell

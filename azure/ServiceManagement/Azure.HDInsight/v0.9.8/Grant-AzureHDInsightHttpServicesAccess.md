@@ -6,6 +6,7 @@ ms.assetid: CEE49093-E4F2-4189-B947-F947F43C9627
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Grant-AzureHDInsightHttpServicesAccess.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Grant-AzureHDInsightHttpServicesAccess.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Grant-AzureHDInsightHttpServicesAccess.md
 ms.topic: reference
 ms.prod: powershell

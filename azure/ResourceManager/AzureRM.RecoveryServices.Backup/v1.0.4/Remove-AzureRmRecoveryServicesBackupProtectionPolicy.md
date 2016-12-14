@@ -6,6 +6,7 @@ ms.assetid: 2F43F4CD-54D2-4A3D-9EB4-3C34FD02F160
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Remove-AzureRmRecoveryServicesBackupProtectionPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Remove-AzureRmRecoveryServicesBackupProtectionPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Remove-AzureRmRecoveryServicesBackupProtectionPolicy.md
 ms.topic: reference
 ms.prod: powershell

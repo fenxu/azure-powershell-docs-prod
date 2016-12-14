@@ -8,6 +8,7 @@ ms.assetid: E1688F0D-8CE4-4837-B0D8-FE997947557A
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/AzureRM.Storage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/AzureRM.Storage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/AzureRM.Storage.md
 uid: ResourceManager/AzureRM.Storage/v1.2.0/AzureRM.Storage.md
 ms.topic: conceptual

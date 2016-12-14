@@ -6,6 +6,7 @@ schema: 2.0.0
 updated_at: 11/29/2016 4:48 PM
 ms.date: 11/29/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsZone.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsZone.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e15e5cc8741e43a0c53d0b7dee6fb6631c42c4fa/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/New-AzureRmDnsZone.md
 ms.topic: reference
 ms.prod: powershell

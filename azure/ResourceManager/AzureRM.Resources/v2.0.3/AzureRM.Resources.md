@@ -8,6 +8,7 @@ ms.assetid: 7A55B21F-12D7-46BB-933E-0977F9F770BA
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/AzureRM.Resources.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/AzureRM.Resources.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/AzureRM.Resources.md
 uid: ResourceManager/AzureRM.Resources/v2.0.3/AzureRM.Resources.md
 ms.topic: conceptual

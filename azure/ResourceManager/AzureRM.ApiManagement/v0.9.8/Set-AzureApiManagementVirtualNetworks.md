@@ -6,6 +6,7 @@ ms.assetid: 508E4B40-2A7F-4E4B-9B5C-810D725D86BF
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Set-AzureApiManagementVirtualNetworks.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Set-AzureApiManagementVirtualNetworks.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Set-AzureApiManagementVirtualNetworks.md
 ms.topic: reference
 ms.prod: powershell

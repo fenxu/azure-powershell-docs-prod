@@ -6,6 +6,7 @@ ms.assetid: DEDE38D3-4628-4C4F-A9B2-8198974EACDA
 updated_at: 11/22/2016 12:25 AM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-AzureRoleTemplate.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-AzureRoleTemplate.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-AzureRoleTemplate.md
 ms.topic: reference
 ms.prod: powershell

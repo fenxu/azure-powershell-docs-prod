@@ -6,6 +6,7 @@ ms.assetid: 40EE5EC0-7008-4BA5-8D06-C49CC08B2243
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Import-AzureStorSimpleLegacyApplianceConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Import-AzureStorSimpleLegacyApplianceConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Import-AzureStorSimpleLegacyApplianceConfig.md
 ms.topic: reference
 ms.prod: powershell

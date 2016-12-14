@@ -6,6 +6,7 @@ ms.assetid: 81C0642A-B6B4-4E11-B63A-6EA70F29689F
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Remove-AzureSiteRecoveryStorageMapping.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Remove-AzureSiteRecoveryStorageMapping.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Remove-AzureSiteRecoveryStorageMapping.md
 ms.topic: reference
 ms.prod: powershell

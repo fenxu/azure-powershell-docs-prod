@@ -6,6 +6,7 @@ ms.assetid: 07733C27-505B-4DD2-945E-EF2496437C80
 updated_at: 11/18/2016 11:58 PM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Add-AzurePHPWorkerRole.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Add-AzurePHPWorkerRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Add-AzurePHPWorkerRole.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 798D363E-D429-4E5B-B301-B5792D36C3A6
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Invoke-AzureRmHDInsightHiveJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Invoke-AzureRmHDInsightHiveJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Invoke-AzureRmHDInsightHiveJob.md
 ms.topic: reference
 ms.prod: powershell

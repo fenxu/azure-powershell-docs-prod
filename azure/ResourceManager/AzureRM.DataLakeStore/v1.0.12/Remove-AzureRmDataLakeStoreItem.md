@@ -6,6 +6,7 @@ ms.assetid: 91A4F5C8-2902-451B-8A25-115C8B5AD551
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Remove-AzureRmDataLakeStoreItem.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Remove-AzureRmDataLakeStoreItem.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Remove-AzureRmDataLakeStoreItem.md
 ms.topic: reference
 ms.prod: powershell

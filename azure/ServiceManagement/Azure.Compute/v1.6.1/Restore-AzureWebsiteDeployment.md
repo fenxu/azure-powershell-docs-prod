@@ -6,6 +6,7 @@ ms.assetid: 05B24030-FF70-48D2-8BED-D17D0451D4CA
 updated_at: 10/31/2016 9:17 PM
 ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Restore-AzureWebsiteDeployment.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Restore-AzureWebsiteDeployment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Restore-AzureWebsiteDeployment.md
 ms.topic: reference
 ms.prod: powershell

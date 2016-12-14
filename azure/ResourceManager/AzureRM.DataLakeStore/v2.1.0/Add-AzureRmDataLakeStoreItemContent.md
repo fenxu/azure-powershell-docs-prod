@@ -6,6 +6,7 @@ ms.assetid: 2CE347D9-A5F3-4AB0-BD4C-4B3F1B666473
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v2.1.0/Add-AzureRmDataLakeStoreItemContent.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v2.1.0/Add-AzureRmDataLakeStoreItemContent.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v2.1.0/Add-AzureRmDataLakeStoreItemContent.md
 ms.topic: reference
 ms.prod: powershell

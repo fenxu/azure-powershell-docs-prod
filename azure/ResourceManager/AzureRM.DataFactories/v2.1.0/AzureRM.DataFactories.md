@@ -8,6 +8,7 @@ ms.assetid: D2FBED66-97D6-4950-B252-312A06C55BA4
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.1.0/AzureRM.DataFactories.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.1.0/AzureRM.DataFactories.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.1.0/AzureRM.DataFactories.md
 uid: ResourceManager/AzureRM.DataFactories/v2.1.0/AzureRM.DataFactories.md
 ms.topic: conceptual

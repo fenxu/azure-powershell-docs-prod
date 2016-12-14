@@ -6,6 +6,7 @@ ms.assetid: 28765C04-36D4-4D20-AE5A-934F563E5A95
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Get-AzureRmRedisCachePatchSchedule.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Get-AzureRmRedisCachePatchSchedule.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Get-AzureRmRedisCachePatchSchedule.md
 ms.topic: reference
 ms.prod: powershell

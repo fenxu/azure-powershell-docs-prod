@@ -6,6 +6,7 @@ ms.assetid: 23134752-495E-43F7-B25D-CDDB4D475D55
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Get-AzureRmDataLakeStoreChildItem.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Get-AzureRmDataLakeStoreChildItem.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Get-AzureRmDataLakeStoreChildItem.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 4933C308-BC06-4B97-9C33-AEFF63D0C859
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.2.0/Get-AzureRmMediaServiceNameAvailability.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.2.0/Get-AzureRmMediaServiceNameAvailability.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.2.0/Get-AzureRmMediaServiceNameAvailability.md
 ms.topic: reference
 ms.prod: powershell

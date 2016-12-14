@@ -6,6 +6,7 @@ schema: 2.0.0
 updated_at: 11/18/2016 9:58 PM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Get-AzureRmDnsRecordSet.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Get-AzureRmDnsRecordSet.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Get-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell

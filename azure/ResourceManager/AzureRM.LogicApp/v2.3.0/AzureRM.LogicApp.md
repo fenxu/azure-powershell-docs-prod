@@ -8,6 +8,7 @@ ms.assetid: 41DB973E-CAE3-409D-8B02-367AEF6180FA
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.3.0/AzureRM.LogicApp.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.3.0/AzureRM.LogicApp.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.3.0/AzureRM.LogicApp.md
 uid: ResourceManager/AzureRM.LogicApp/v2.3.0/AzureRM.LogicApp.md
 ms.topic: conceptual

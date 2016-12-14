@@ -6,6 +6,7 @@ ms.assetid: 60B09082-B905-426D-B3D9-EB55FAC3FF16
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Enable-AzureRmTrafficManagerEndpoint.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Enable-AzureRmTrafficManagerEndpoint.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/Enable-AzureRmTrafficManagerEndpoint.md
 ms.topic: reference
 ms.prod: powershell

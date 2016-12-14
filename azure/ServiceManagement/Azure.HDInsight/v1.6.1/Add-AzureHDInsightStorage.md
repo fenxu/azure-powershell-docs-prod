@@ -6,6 +6,7 @@ ms.assetid: F4C4FCC8-66FD-4931-8BBC-4CC2BA951FA6
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Add-AzureHDInsightStorage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Add-AzureHDInsightStorage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Add-AzureHDInsightStorage.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 66AD8A8A-1097-4806-89E0-B31F6CC71C82
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Remove-AzureNetworkSecurityGroupFromSubnet.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Remove-AzureNetworkSecurityGroupFromSubnet.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Remove-AzureNetworkSecurityGroupFromSubnet.md
 ms.topic: reference
 ms.prod: powershell

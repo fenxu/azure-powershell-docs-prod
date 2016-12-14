@@ -6,6 +6,7 @@ ms.assetid: 8A2D0A06-3C21-45F2-9FEE-9F59351C5A3B
 updated_at: 11/22/2016 12:25 AM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Stop-AzureSqlDatabaseCopy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Stop-AzureSqlDatabaseCopy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Stop-AzureSqlDatabaseCopy.md
 ms.topic: reference
 ms.prod: powershell

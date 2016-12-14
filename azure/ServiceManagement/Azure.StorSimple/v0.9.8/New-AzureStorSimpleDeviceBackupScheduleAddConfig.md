@@ -6,6 +6,7 @@ ms.assetid: 32BC1F7A-D56D-4F02-A358-DFF1DC4A6A56
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/New-AzureStorSimpleDeviceBackupScheduleAddConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/New-AzureStorSimpleDeviceBackupScheduleAddConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/New-AzureStorSimpleDeviceBackupScheduleAddConfig.md
 ms.topic: reference
 ms.prod: powershell

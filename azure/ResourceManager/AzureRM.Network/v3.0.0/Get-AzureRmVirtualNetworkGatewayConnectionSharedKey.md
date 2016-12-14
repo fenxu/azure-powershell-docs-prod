@@ -6,6 +6,7 @@ ms.assetid: ACD0B54A-C217-4944-AD7C-1065E2AD8BFB
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.0.0/Get-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
 ms.topic: reference
 ms.prod: powershell
