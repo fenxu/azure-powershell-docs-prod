@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=529559
 schema: 2.0.0
 ms.assetid: E04D855C-C9AF-42DA-A1B4-9D51FE4045D9
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 12/14/2016 5:48 PM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmMaxUseLicenseValidityTime.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmMaxUseLicenseValidityTime.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmMaxUseLicenseValidityTime.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/bf1ec7f395e431d328ab3c31f81b3049de3de196/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmMaxUseLicenseValidityTime.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -53,7 +53,7 @@ John can continue to re-open and read the file even if he does not have an Inter
 --Amelia opens the file a week after it arrives, and then does not open it again for two months.
 When she tries to open it this second time, she does not have an Internet access and cannot open the file.
 
-This setting at the Azure RMS tenant level can be overridden by a more restrictive setting in a rights policy template because of the **LicenseValidityDuration** parameter in the [Set-AadrmTemplateProperty](./Set-AadrmTemplateProperty.md) and [Add-AadrmTemplate](./Add-AadrmTemplate.md) cmdlets, which administrators can also set in the Azure classic portal by configuring the offline access option, Number of days the content is available without an Internet connection.
+This setting at the Azure RMS tenant level can be overridden by a more restrictive setting in a rights policy template because of the *LicenseValidityDuration* parameter in the [Set-AadrmTemplateProperty](./Set-AadrmTemplateProperty.md) and [Add-AadrmTemplate](./Add-AadrmTemplate.md) cmdlets, which administrators can also set in the Azure classic portal by configuring the offline access option, Number of days the content is available without an Internet connection.
 This setting can also be overridden by a user for a document when they use the RMS sharing application, and select the Allow me to instantly revoke access to these documents option, which effectively sets the use license validity time to 0.
 When there are different values like this, Azure RMS uses the most restrictive value.
 

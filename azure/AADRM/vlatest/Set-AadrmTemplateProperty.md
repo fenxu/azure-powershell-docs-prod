@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400631
 schema: 2.0.0
 ms.assetid: 7A85A84D-9022-452D-A428-FD0C9400C71A
-updated_at: 11/21/2016 6:01 PM
-ms.date: 11/21/2016
+updated_at: 12/14/2016 5:48 PM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/509e3e297cffef326ee90167ad75069fe7bc8f47/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/bf1ec7f395e431d328ab3c31f81b3049de3de196/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -70,15 +70,15 @@ Because specifying the RightsDefinitions parameter overwrites the existing setti
 ### Example 3: Add new users and rights to a custom template
 ```
 PS C:\> $templateid = "7b1db17a-cb1a-41cf-bad7-b452f9d384c1"
-PS C:\> [array]$r = New-AadrmRightsDefinition -EmailAddress nhollida1@contoso.com -Rights "DOCEDIT", "EXTRACT"
-PS C:\> $r += New-AadrmRightsDefinition -EmailAddress rsimone@vanarsdelltd.com -Rights "VIEW"
+PS C:\> [array]$r = New-AadrmRightsDefinition -EmailAddress pattiful@contoso.com -Rights "DOCEDIT", "EXTRACT"
+PS C:\> $r += New-AadrmRightsDefinition -EmailAddress evannar@vanarsdelltd.com -Rights "VIEW"
 PS C:\> $CurrentRightsDefinitions = [array]((get-aadrmtemplate -templateid $templateid).RightsDefinitions)
 PS C:\> $ResultingRightsDefinitions = $CurrentRightsDefinitions + $r
 PS C:\> Set-AadrmTemplateProperty -TemplateId $templateid -RightsDefinition $ResultingRightsDefinitions
 ```
 
 This set of command adds two new users and their different rights to an existing template, without overwriting the existing users and rights already defined in the template.
-The new users and their rights are **nhollida1.contoso.com** (a user within the organization) who is granted DOCEDIT and EXTRACT rights; and **rsimone@vanarsdelltd.com** (a user from another organization) who is granted VIEW rights.
+The new users and their rights are pattiful.contoso.com (a user within the organization) who is granted DOCEDIT and EXTRACT rights; and evannar@vanarsdelltd.com (a user from another organization) who is granted VIEW rights.
 These users and their rights are added to rights definition objects using an array, which is then added to the existing rights definitions for the template.
 
 ## PARAMETERS
@@ -124,7 +124,7 @@ Accept wildcard characters: False
 
 ### -ContentValidityDuration
 Specifies the number of days from the first day of protection after which content protected with the template expires.
-Use this parameter only if *ContentExpirationOption* is set to AfterDays.
+Use this parameter only if the *ContentExpirationOption* parameter is set to AfterDays.
 
 ```yaml
 Type: Int32

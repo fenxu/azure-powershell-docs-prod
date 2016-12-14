@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400620
 schema: 2.0.0
 ms.assetid: C019DD8B-8C2C-487C-B730-38E50A170180
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 12/14/2016 5:48 PM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/bf1ec7f395e431d328ab3c31f81b3049de3de196/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -48,14 +48,14 @@ Note: One of the parameters for this cmdlet uses the ObjectId (GUID).
 Because the Office 365 admin center and the Azure Management Portal does not display the GUIDs that are used to identify specific user or groups objects, use the following two steps to find the values that you need to specify the GUIDs.:
 
 1.
-If you have not already done so, download and install the Azure AD Windows PowerShell module, connect to the service by running **Connect-MsolService**, and then run the **Get-MsolGroup** cmdlet to lookup the GUID of the security group you created to administer role-based administrative rights for Rights Management.
-To install the Azure AD module, see the Install the Windows Azure AD Module section from the Manage Azure AD using Windows PowerShell (http://msdn.microsoft.com/library/windowsazure/jj151815.aspx) topic.
+If you have not already done so, download and install the Azure AD Windows PowerShell module, connect to the service by running [Connect-MsolService](./Connect-MsolService.md), and then run the [Get-MsolGroup](./Get-MsolGroup.md) cmdlet to lookup the GUID of the security group you created to administer role-based administrative rights for Rights Management.
+To install the Azure AD module, see the [Install the Windows Azure AD Module section from the Manage Azure AD using Windows PowerShell](http://msdn.microsoft.com/library/windowsazure/jj151815.aspx) (http://msdn.microsoft.com/library/windowsazure/jj151815.aspx) topic.
 
 Tip: If you have many groups, use the **Where-Object** cmdlet in Windows PowerShell to filter results.
 For example, you might enter the following cmdlet to filter and return only groups that start with "Rights": **Get-MsolGroup | where {$_.DisplayName -like "Rights*" }**
 
 2.
-In the output of the **Get-MsolGroup** cmdlet, copy the GUID value that was returned and use (paste) that value into the value of the -ObjectId parameter when you run the **Add-RoleBased Administrator** or [Remove-AadrmRoleBasedAdministrator](./Remove-AadrmRoleBasedAdministrator) cmdlet.
+In the output of the **Get-MsolGroup** cmdlet, copy the GUID value that was returned and use (paste) that value into the value of the *ObjectId* parameter when you run the **Add-RoleBased Administrator** or [Remove-AadrmRoleBasedAdministrator](./Remove-AadrmRoleBasedAdministrator) cmdlet.
 
 ## EXAMPLES
 
