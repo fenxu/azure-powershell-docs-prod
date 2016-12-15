@@ -6,6 +6,7 @@ ms.assetid: F126ABB0-F4D4-4301-B8A4-2E0509461F83
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureApplicationGatewayConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureApplicationGatewayConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Get-AzureApplicationGatewayConfig.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: FAED2C30-926E-48C9-A477-8438C4F83F8D
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/New-AzureVM.md
 ms.topic: reference
 ms.prod: powershell

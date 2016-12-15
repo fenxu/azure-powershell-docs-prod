@@ -6,6 +6,7 @@ ms.assetid: 311D7889-4D4D-42D5-A8D0-6FE9A6C2C372
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseSecureConnectionPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseSecureConnectionPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseSecureConnectionPolicy.md
 ms.topic: reference
 ms.prod: powershell

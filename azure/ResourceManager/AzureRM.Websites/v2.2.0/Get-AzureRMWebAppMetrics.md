@@ -6,6 +6,7 @@ ms.assetid: 9E9F90B3-14B2-46B6-897C-24FE147DC886
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRMWebAppMetrics.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRMWebAppMetrics.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Get-AzureRMWebAppMetrics.md
 ms.topic: reference
 ms.prod: powershell

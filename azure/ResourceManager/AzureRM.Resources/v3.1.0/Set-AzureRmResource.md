@@ -6,6 +6,7 @@ ms.assetid: 4FB3E36C-F39F-4DCA-AC85-907361175182
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Set-AzureRmResource.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Set-AzureRmResource.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Set-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell

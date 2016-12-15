@@ -6,6 +6,7 @@ ms.assetid: DB964D79-4861-4FE7-BB73-BF89864C573B
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v0.9.8/Set-AzureAutomationRunbook.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v0.9.8/Set-AzureAutomationRunbook.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v0.9.8/Set-AzureAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell

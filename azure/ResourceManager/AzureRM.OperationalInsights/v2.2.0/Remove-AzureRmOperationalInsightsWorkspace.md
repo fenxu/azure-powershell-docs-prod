@@ -6,6 +6,7 @@ ms.assetid: 43285739-74C8-4DBF-ADD8-70266BB46FCB
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Remove-AzureRmOperationalInsightsWorkspace.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Remove-AzureRmOperationalInsightsWorkspace.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.2.0/Remove-AzureRmOperationalInsightsWorkspace.md
 ms.topic: reference
 ms.prod: powershell

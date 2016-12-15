@@ -6,6 +6,7 @@ ms.assetid: 5EA61880-2207-4B32-B83F-EAFCD281D9B4
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Set-AzureVMAccessExtension.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Set-AzureVMAccessExtension.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Set-AzureVMAccessExtension.md
 ms.topic: reference
 ms.prod: powershell

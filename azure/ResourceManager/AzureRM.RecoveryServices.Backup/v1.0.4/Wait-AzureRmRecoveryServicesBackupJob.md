@@ -6,6 +6,7 @@ ms.assetid: FD26D1CD-C9F8-4CA3-8ACD-94D3986D2328
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Wait-AzureRmRecoveryServicesBackupJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Wait-AzureRmRecoveryServicesBackupJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Wait-AzureRmRecoveryServicesBackupJob.md
 ms.topic: reference
 ms.prod: powershell

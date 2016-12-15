@@ -6,6 +6,7 @@ ms.assetid: 4E542B2F-A7A2-4B59-9E3C-504D62568053
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Save-AzureVhd.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Save-AzureVhd.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Save-AzureVhd.md
 ms.topic: reference
 ms.prod: powershell

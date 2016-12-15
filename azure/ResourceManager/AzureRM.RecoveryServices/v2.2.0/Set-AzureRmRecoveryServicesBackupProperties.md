@@ -6,6 +6,7 @@ ms.assetid: EACA77DA-0313-4C70-9A2C-649D92EC8DF3
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Set-AzureRmRecoveryServicesBackupProperties.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Set-AzureRmRecoveryServicesBackupProperties.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.2.0/Set-AzureRmRecoveryServicesBackupProperties.md
 ms.topic: reference
 ms.prod: powershell

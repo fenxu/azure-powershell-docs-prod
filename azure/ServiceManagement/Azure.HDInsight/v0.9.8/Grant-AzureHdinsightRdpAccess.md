@@ -6,6 +6,7 @@ ms.assetid: 483B28A6-77A6-4D63-8A28-4D29CFDE1DBA
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Grant-AzureHdinsightRdpAccess.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Grant-AzureHdinsightRdpAccess.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/Grant-AzureHdinsightRdpAccess.md
 ms.topic: reference
 ms.prod: powershell

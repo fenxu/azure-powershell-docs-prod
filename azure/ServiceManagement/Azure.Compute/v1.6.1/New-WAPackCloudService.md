@@ -6,6 +6,7 @@ ms.assetid: 8F98D377-F074-4E77-80A9-33A1939345B6
 updated_at: 10/31/2016 9:17 PM
 ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-WAPackCloudService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-WAPackCloudService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/New-WAPackCloudService.md
 ms.topic: reference
 ms.prod: powershell

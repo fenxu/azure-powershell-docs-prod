@@ -6,6 +6,7 @@ ms.assetid: 64AF6667-3A53-4D92-AE74-343A5B85782B
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureNetworkSecurityGroupForSubnet.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureNetworkSecurityGroupForSubnet.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureNetworkSecurityGroupForSubnet.md
 ms.topic: reference
 ms.prod: powershell

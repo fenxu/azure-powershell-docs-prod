@@ -6,6 +6,7 @@ ms.assetid: 8C3D4D1C-6B5E-4ABE-BE56-E912070E37DC
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmLoadBalancerFrontendIpConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmLoadBalancerFrontendIpConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmLoadBalancerFrontendIpConfig.md
 ms.topic: reference
 ms.prod: powershell

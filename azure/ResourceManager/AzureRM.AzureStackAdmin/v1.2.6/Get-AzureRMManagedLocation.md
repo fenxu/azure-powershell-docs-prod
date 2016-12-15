@@ -6,6 +6,7 @@ ms.assetid: 41175494-1F84-492C-9C5A-C5EFC68C5842
 updated_at: 11/15/2016 11:04 PM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMManagedLocation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMManagedLocation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0fc201e069c7389d9c830720fb027c45afabb0ac/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMManagedLocation.md
 ms.topic: reference
 ms.prod: powershell

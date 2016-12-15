@@ -6,6 +6,7 @@ ms.assetid: E35A6458-8A4F-4FE3-B1E4-B74B4F89B370
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Enable-AzureDataCollection.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Enable-AzureDataCollection.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v2.1.0/Enable-AzureDataCollection.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: A5C825A3-BC9E-4B84-9CDC-60CA2112B95A
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-AzureSchedulerJobCollection.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-AzureSchedulerJobCollection.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Set-AzureSchedulerJobCollection.md
 ms.topic: reference
 ms.prod: powershell

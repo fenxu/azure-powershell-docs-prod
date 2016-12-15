@@ -6,6 +6,7 @@ ms.assetid: 7C912962-1961-457E-B413-3297C561681B
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleNetworkConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleNetworkConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleNetworkConfig.md
 ms.topic: reference
 ms.prod: powershell

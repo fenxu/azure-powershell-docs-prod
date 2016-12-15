@@ -6,6 +6,7 @@ ms.assetid: D4C2FC80-4CC7-45ED-9799-82A7BFEA2C47
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Stop-AzureRmRecoveryServicesBackupJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Stop-AzureRmRecoveryServicesBackupJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.1.0/Stop-AzureRmRecoveryServicesBackupJob.md
 ms.topic: reference
 ms.prod: powershell

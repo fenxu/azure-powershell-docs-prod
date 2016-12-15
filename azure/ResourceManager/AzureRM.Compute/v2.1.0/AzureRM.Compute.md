@@ -8,6 +8,7 @@ ms.assetid: B5E5563C-F1BA-4DC3-A854-07D64467A300
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/AzureRM.Compute.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/AzureRM.Compute.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/AzureRM.Compute.md
 uid: ResourceManager/AzureRM.Compute/v2.1.0/AzureRM.Compute.md
 ms.topic: conceptual

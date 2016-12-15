@@ -6,6 +6,7 @@ ms.assetid: 269E0B3F-5645-40A6-96E2-1315B19D1A1A
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/New-AzureRmNotificationHubAuthorizationRules.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/New-AzureRmNotificationHubAuthorizationRules.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/New-AzureRmNotificationHubAuthorizationRules.md
 ms.topic: reference
 ms.prod: powershell

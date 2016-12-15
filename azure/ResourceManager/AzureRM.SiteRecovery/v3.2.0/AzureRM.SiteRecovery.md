@@ -8,6 +8,7 @@ ms.assetid: 899E85FD-2163-4088-B806-CCF165B8FAF7
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/AzureRM.SiteRecovery.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/AzureRM.SiteRecovery.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/AzureRM.SiteRecovery.md
 uid: ResourceManager/AzureRM.SiteRecovery/v3.2.0/AzureRM.SiteRecovery.md
 ms.topic: conceptual

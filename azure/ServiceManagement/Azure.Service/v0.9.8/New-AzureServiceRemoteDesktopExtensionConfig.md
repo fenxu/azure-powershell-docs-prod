@@ -6,6 +6,7 @@ ms.assetid: 1EE9D77A-FAA7-4A52-939E-203A01828148
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/New-AzureServiceRemoteDesktopExtensionConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/New-AzureServiceRemoteDesktopExtensionConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/New-AzureServiceRemoteDesktopExtensionConfig.md
 ms.topic: reference
 ms.prod: powershell

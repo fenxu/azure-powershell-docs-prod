@@ -6,6 +6,7 @@ ms.assetid: 0292D567-DC64-45CB-9CA1-73D5EDECA5D7
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/Get-AzureSiteRecoveryProtectionContainer.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/Get-AzureSiteRecoveryProtectionContainer.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v0.9.8/Get-AzureSiteRecoveryProtectionContainer.md
 ms.topic: reference
 ms.prod: powershell

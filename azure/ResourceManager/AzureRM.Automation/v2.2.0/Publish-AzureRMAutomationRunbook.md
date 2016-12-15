@@ -6,6 +6,7 @@ ms.assetid: 3BCA4A1A-90B8-49AE-BF19-A730F09C2D40
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Publish-AzureRMAutomationRunbook.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Publish-AzureRMAutomationRunbook.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Publish-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell

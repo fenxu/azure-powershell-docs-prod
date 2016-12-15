@@ -6,6 +6,7 @@ ms.assetid: B85BF332-503D-41CB-A3B7-221B85B9BE30
 updated_at: 11/3/2016 10:58 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementSubscription.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementSubscription.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b0dc3fda3721a600f2fff31599b45845d71f44f4/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementSubscription.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 932BAF2D-E210-4BB5-8FCC-40B6532BB9D0
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Remove-AzureRmHDInsightPersistedScriptAction.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Remove-AzureRmHDInsightPersistedScriptAction.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Remove-AzureRmHDInsightPersistedScriptAction.md
 ms.topic: reference
 ms.prod: powershell

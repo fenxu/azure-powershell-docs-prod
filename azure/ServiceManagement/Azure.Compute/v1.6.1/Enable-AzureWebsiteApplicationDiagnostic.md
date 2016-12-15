@@ -6,6 +6,7 @@ ms.assetid: 5E0E5009-A69F-4621-A317-68A8109AABF8
 updated_at: 11/18/2016 11:58 PM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Enable-AzureWebsiteApplicationDiagnostic.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Enable-AzureWebsiteApplicationDiagnostic.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Enable-AzureWebsiteApplicationDiagnostic.md
 ms.topic: reference
 ms.prod: powershell

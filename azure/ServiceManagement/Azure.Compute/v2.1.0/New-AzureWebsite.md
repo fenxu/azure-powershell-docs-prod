@@ -6,6 +6,7 @@ ms.assetid: 13B44C28-AA66-4132-9610-92738485E6E0
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-AzureWebsite.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-AzureWebsite.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/New-AzureWebsite.md
 ms.topic: reference
 ms.prod: powershell

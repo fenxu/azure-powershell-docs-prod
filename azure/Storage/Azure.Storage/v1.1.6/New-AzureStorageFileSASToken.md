@@ -6,6 +6,7 @@ ms.assetid: 4FB064F5-94BC-4D8F-9EF6-2611F8AAB99C
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageFileSASToken.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageFileSASToken.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageFileSASToken.md
 ms.topic: reference
 ms.prod: powershell

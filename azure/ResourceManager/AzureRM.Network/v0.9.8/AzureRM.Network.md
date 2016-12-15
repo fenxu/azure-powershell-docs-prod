@@ -8,6 +8,7 @@ ms.assetid: AA4A66D3-5721-4808-9BB1-B80570CE5EA3
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/AzureRM.Network.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/AzureRM.Network.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/AzureRM.Network.md
 uid: ResourceManager/AzureRM.Network/v0.9.8/AzureRM.Network.md
 ms.topic: conceptual

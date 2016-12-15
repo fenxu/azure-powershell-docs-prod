@@ -8,6 +8,7 @@ ms.assetid: 45A9A6FB-BF76-4B8F-B960-424EFC9F3782
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Azure.StorSimple.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Azure.StorSimple.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Azure.StorSimple.md
 uid: ServiceManagement/Azure.StorSimple/v2.1.0/Azure.StorSimple.md
 ms.topic: conceptual

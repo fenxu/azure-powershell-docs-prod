@@ -6,6 +6,7 @@ ms.assetid: 934FBC42-A6FB-49A1-8DED-AA6B5D5E9615
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v0.9.8/Set-AzureManagedCacheNamedCache.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v0.9.8/Set-AzureManagedCacheNamedCache.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v0.9.8/Set-AzureManagedCacheNamedCache.md
 ms.topic: reference
 ms.prod: powershell

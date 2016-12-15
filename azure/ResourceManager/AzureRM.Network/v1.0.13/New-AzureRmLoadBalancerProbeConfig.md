@@ -6,6 +6,7 @@ ms.assetid: ADC71628-4F1C-42BD-8C91-DA7DCE3F786C
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmLoadBalancerProbeConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmLoadBalancerProbeConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmLoadBalancerProbeConfig.md
 ms.topic: reference
 ms.prod: powershell

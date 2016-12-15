@@ -6,6 +6,7 @@ ms.assetid: 968264E6-6CE1-49FF-A45C-C9075E34376A
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.2.0/Get-AzureRmServerManagementGateway.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.2.0/Get-AzureRmServerManagementGateway.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.2.0/Get-AzureRmServerManagementGateway.md
 ms.topic: reference
 ms.prod: powershell

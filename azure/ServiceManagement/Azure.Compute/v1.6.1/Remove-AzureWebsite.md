@@ -6,6 +6,7 @@ ms.assetid: 3997C3B8-37CE-4135-A17D-63AE3BDD8E74
 updated_at: 10/31/2016 9:17 PM
 ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureWebsite.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureWebsite.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureWebsite.md
 ms.topic: reference
 ms.prod: powershell

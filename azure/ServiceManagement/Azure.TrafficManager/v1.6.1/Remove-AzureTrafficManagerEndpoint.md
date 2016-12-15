@@ -6,6 +6,7 @@ ms.assetid: 665BCAD4-D3A2-4290-B288-8D66CDC35105
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Remove-AzureTrafficManagerEndpoint.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Remove-AzureTrafficManagerEndpoint.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Remove-AzureTrafficManagerEndpoint.md
 ms.topic: reference
 ms.prod: powershell

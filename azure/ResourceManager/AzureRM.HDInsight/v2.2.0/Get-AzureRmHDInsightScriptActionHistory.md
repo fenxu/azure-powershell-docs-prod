@@ -6,6 +6,7 @@ ms.assetid: FE6ECB27-E34D-427A-A172-10EC4C06FD15
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightScriptActionHistory.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightScriptActionHistory.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Get-AzureRmHDInsightScriptActionHistory.md
 ms.topic: reference
 ms.prod: powershell

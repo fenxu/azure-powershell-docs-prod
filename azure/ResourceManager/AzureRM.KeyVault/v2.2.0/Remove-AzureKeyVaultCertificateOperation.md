@@ -6,6 +6,7 @@ ms.assetid: 1A051BBC-EC82-48B0-A34A-8FF67B1D7634
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultCertificateOperation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultCertificateOperation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultCertificateOperation.md
 ms.topic: reference
 ms.prod: powershell

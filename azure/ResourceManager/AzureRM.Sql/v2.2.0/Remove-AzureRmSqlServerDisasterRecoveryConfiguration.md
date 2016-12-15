@@ -6,6 +6,7 @@ ms.assetid: 93A26D66-7204-46BE-8E6F-BC3F098E0E52
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Remove-AzureRmSqlServerDisasterRecoveryConfiguration.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Remove-AzureRmSqlServerDisasterRecoveryConfiguration.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Remove-AzureRmSqlServerDisasterRecoveryConfiguration.md
 ms.topic: reference
 ms.prod: powershell

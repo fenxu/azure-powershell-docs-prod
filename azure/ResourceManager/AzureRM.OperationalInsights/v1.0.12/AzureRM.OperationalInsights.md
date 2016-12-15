@@ -8,6 +8,7 @@ ms.assetid: A5235078-BB51-402D-BD63-560D5A07A3FE
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/AzureRM.OperationalInsights.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/AzureRM.OperationalInsights.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/AzureRM.OperationalInsights.md
 uid: ResourceManager/AzureRM.OperationalInsights/v1.0.12/AzureRM.OperationalInsights.md
 ms.topic: conceptual

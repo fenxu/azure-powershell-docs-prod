@@ -8,6 +8,7 @@ ms.assetid: D2092CB4-FCAE-4DC3-A0D6-C54BFD2A8963
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Azure.Automation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Azure.Automation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Azure.Automation.md
 uid: ServiceManagement/Azure.Automation/v3.0.0/Azure.Automation.md
 ms.topic: conceptual

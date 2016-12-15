@@ -6,6 +6,7 @@ ms.assetid: 51DB90E5-B740-48DE-AEE1-37796352D861
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/New-AzureStorSimpleDeviceBackupPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/New-AzureStorSimpleDeviceBackupPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/New-AzureStorSimpleDeviceBackupPolicy.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 4CCE9AA8-4EFA-4399-B814-480A09E26F77
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/New-AzureRmSiteRecoveryPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/New-AzureRmSiteRecoveryPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/New-AzureRmSiteRecoveryPolicy.md
 ms.topic: reference
 ms.prod: powershell

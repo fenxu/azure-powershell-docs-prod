@@ -6,6 +6,7 @@ ms.assetid: 71357C7C-C3F4-44ED-8DCA-954025179A67
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Unregister-AzureRmRecoveryServicesBackupContainer.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Unregister-AzureRmRecoveryServicesBackupContainer.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Unregister-AzureRmRecoveryServicesBackupContainer.md
 ms.topic: reference
 ms.prod: powershell

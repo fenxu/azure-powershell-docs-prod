@@ -6,6 +6,7 @@ ms.assetid: AE016D63-9EDE-4EF7-880D-C99AFD19879F
 updated_at: 10/31/2016 9:17 PM
 ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureNetworkSecurityGroupConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureNetworkSecurityGroupConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureNetworkSecurityGroupConfig.md
 ms.topic: reference
 ms.prod: powershell

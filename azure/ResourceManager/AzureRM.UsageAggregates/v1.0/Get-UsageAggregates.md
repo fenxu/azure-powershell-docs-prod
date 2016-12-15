@@ -6,6 +6,7 @@ ms.assetid: BC7092A8-72ED-48E9-BA38-55866B5B6F08
 updated_at: 10/31/2016 9:17 PM
 ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v1.0/Get-UsageAggregates.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v1.0/Get-UsageAggregates.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v1.0/Get-UsageAggregates.md
 ms.topic: reference
 ms.prod: powershell

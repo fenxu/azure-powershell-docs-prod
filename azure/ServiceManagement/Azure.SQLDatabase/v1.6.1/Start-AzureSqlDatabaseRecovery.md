@@ -6,6 +6,7 @@ ms.assetid: 9FDF2E1D-ED2C-4C1E-B00F-6CEBD43D5F1E
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseRecovery.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseRecovery.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v1.6.1/Start-AzureSqlDatabaseRecovery.md
 ms.topic: reference
 ms.prod: powershell

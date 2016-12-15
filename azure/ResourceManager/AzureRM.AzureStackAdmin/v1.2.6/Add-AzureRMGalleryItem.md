@@ -6,6 +6,7 @@ ms.assetid: CD5B7E02-85E8-4419-BF24-AC1CF0F58BDD
 updated_at: 11/15/2016 9:52 PM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Add-AzureRMGalleryItem.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Add-AzureRMGalleryItem.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f706d2c1618dbb78e7ccf2f58b90336813a13f1/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Add-AzureRMGalleryItem.md
 ms.topic: reference
 ms.prod: powershell

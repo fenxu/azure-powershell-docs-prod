@@ -6,6 +6,7 @@ ms.assetid: B87E6A45-B345-43BB-88D3-69A1B5F1EB9D
 updated_at: 11/15/2016 8:02 AM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSShareMetric.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSShareMetric.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16dcbb293b24fa241864048736125047ff62e2ea/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSShareMetric.md
 ms.topic: reference
 ms.prod: powershell

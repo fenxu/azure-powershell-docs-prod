@@ -6,6 +6,7 @@ ms.assetid: C5D29B6C-7490-4B97-826A-EAD0E261FA7C
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Clear-AzureProfile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Clear-AzureProfile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Clear-AzureProfile.md
 ms.topic: reference
 ms.prod: powershell

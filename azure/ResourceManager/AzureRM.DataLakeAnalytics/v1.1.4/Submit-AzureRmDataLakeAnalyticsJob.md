@@ -6,6 +6,7 @@ ms.assetid: 430C9A6C-916A-443B-B536-BBC2F943B0D9
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Submit-AzureRmDataLakeAnalyticsJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Submit-AzureRmDataLakeAnalyticsJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Submit-AzureRmDataLakeAnalyticsJob.md
 ms.topic: reference
 ms.prod: powershell

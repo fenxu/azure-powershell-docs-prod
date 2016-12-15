@@ -6,6 +6,7 @@ ms.assetid: 7E2818A9-3745-4689-B7DA-A3511E1FE382
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v2.1.0/New-AzureRemoteAppVNet.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v2.1.0/New-AzureRemoteAppVNet.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v2.1.0/New-AzureRemoteAppVNet.md
 ms.topic: reference
 ms.prod: powershell

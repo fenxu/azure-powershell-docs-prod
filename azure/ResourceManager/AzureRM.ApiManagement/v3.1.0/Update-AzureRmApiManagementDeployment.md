@@ -3,10 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: 56604912-53A0-496D-9BDC-472BCE45A6A2
 online version: 
 schema: 2.0.0
-updated_at: 11/18/2016 11:58 PM
-ms.date: 11/18/2016
+updated_at: 12/14/2016 5:41 PM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementDeployment.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f65526030e1e522df77064a57010d734c2a1856a/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -63,14 +64,32 @@ PS C:\> Update-AzureRmApiManagementDeployment -ApiManagement $ApiManagement
 
 This example gets an Api Management instance, scales it to five premium units and then adds an additional three units to the premium region.
 
-### Example 3: Update deployment (external VNET)
+### Example 3: Move API Management instance inside a Virtual Network
+```PowerShell
+PS C:\># Create a Virtual Network Object
+PS C:\>$virtualNetwork = New-AzureRmApiManagementVirtualNetwork -Location "North Central US" -SubnetResourceId
+"/subscriptions/20010444-2b48-4245-a95c-090db6312d5f/resourceGroups/ContosoGroup/providers/Microsoft.Network/virtualNe
+tworks/contosoVnet/subnets/default"
+
+PS C:\># Get the service
+PS C:\>$service = Get-AzureRmApiManagement -ResourceGroupName "ContosoGroup" -Name "contosoapim"
+
+PS C:\>$service.VirtualNetwork = $virtualNetwork
+PS C:\>$service.VpnType = "External"
+
+PS C:\># Update the Deployment with Virtual Network
+PS C:\>Update-AzureRmApiManagementDeployment -ApiManagement $service
+```
+This example moves an existing API Management deployment inside a Virtual Network configures external *VpnType*.
+
+### Example 4: Update deployment (external VNET)
 ```PowerShell
 PS C:\> $virtualNetwork = New-AzureRmApiManagementVirtualNetwork -Location "East US" -SubnetResourceId "/subscriptions/a8ff56dc-3bc7-4174-a1e8-3726ab15d0e2/resourceGroups/Api-Default-West-US/providers/Microsoft.ClassicNetwork/virtualNetworks/dfVirtualNetwork/subnets/backendSubnet"
 PS C:\> Update-AzureRmApiManagementDeployment -ResourceGroupName "ContosoGroup" -Name "ContosoApi" -VirtualNetwork $virtualNetwork -VpnType "External"
 ```
 This command updates an existing API Management deployment and joins to an external *VpnType*.
 
-### Example 4: Update deployment (internal VNET)
+### Example 5: Update deployment (internal VNET)
 ```PowerShell
 PS C:\> $virtualNetwork = New-AzureRmApiManagementVirtualNetwork -Location "East US" -SubnetResourceId "/subscriptions/a8ff56dc-3bc7-4174-a1e8-3726ab15d0e2/resourceGroups/Api-Default-West-US/providers/Microsoft.ClassicNetwork/virtualNetworks/dfVirtualNetwork/subnets/backendSubnet"
 PS C:\> Update-AzureRmApiManagementDeployment -ResourceGroupName "ContosoGroup" -Name "ContosoApi" -VirtualNetwork $virtualNetwork -VpnType "Internal"

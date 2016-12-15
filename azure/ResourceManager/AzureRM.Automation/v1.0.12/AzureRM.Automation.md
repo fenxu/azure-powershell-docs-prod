@@ -8,6 +8,7 @@ ms.assetid: A4EB645E-F36F-491F-AA09-858E7CBB3EC5
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/AzureRM.Automation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/AzureRM.Automation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/AzureRM.Automation.md
 uid: ResourceManager/AzureRM.Automation/v1.0.12/AzureRM.Automation.md
 ms.topic: conceptual

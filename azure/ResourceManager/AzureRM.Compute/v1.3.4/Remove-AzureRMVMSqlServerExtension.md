@@ -6,6 +6,7 @@ ms.assetid: 78423815-46CD-43C3-9EAD-3A51E0480124
 updated_at: 11/22/2016 12:25 AM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRMVMSqlServerExtension.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRMVMSqlServerExtension.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Remove-AzureRMVMSqlServerExtension.md
 ms.topic: reference
 ms.prod: powershell

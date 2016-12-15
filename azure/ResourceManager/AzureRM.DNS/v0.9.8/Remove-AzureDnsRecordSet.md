@@ -6,6 +6,7 @@ ms.assetid: 33D919C6-C159-433E-99F4-604D420EC2BE
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/Remove-AzureDnsRecordSet.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/Remove-AzureDnsRecordSet.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v0.9.8/Remove-AzureDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell

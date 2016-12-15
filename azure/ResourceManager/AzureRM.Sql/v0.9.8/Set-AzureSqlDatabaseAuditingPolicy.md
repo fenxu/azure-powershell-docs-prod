@@ -6,6 +6,7 @@ ms.assetid: 36FAE49A-3E80-4073-BFCA-C94EAD5C97C5
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseAuditingPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseAuditingPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseAuditingPolicy.md
 ms.topic: reference
 ms.prod: powershell

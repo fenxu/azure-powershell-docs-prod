@@ -6,6 +6,7 @@ ms.assetid: DA1CEF3C-0019-4B62-88D6-1F6D942B5048
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Revoke-AzureHdinsightRdpAccess.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Revoke-AzureHdinsightRdpAccess.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/Revoke-AzureHdinsightRdpAccess.md
 ms.topic: reference
 ms.prod: powershell

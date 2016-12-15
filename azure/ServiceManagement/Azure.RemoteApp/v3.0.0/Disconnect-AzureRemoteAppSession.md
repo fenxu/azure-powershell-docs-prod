@@ -6,6 +6,7 @@ ms.assetid: 15A73A92-03E9-4AFC-966E-5B6F671C60E2
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Disconnect-AzureRemoteAppSession.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Disconnect-AzureRemoteAppSession.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Disconnect-AzureRemoteAppSession.md
 ms.topic: reference
 ms.prod: powershell

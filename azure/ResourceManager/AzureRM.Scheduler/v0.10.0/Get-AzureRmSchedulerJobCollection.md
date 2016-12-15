@@ -6,6 +6,7 @@ ms.assetid: 8BDC10B6-663E-48F4-BBCD-5AF84E1EC470
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/Get-AzureRmSchedulerJobCollection.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/Get-AzureRmSchedulerJobCollection.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/Get-AzureRmSchedulerJobCollection.md
 ms.topic: reference
 ms.prod: powershell

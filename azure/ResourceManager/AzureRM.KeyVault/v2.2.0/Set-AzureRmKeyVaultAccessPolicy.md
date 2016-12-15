@@ -6,6 +6,7 @@ ms.assetid: 6379B7BE-E1FE-4DC1-8FC1-2DA6A3FB232C
 updated_at: 11/14/2016 6:53 PM
 ms.date: 11/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureRmKeyVaultAccessPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureRmKeyVaultAccessPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5dc9ca1739b053c66ea815ee23ea4b9d5dbf4de0/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureRmKeyVaultAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell

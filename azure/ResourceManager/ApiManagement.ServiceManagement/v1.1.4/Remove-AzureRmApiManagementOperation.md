@@ -6,6 +6,7 @@ ms.assetid: A4A8D996-72A2-4154-98DA-5F84CAA010B9
 updated_at: 11/3/2016 10:58 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementOperation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementOperation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b0dc3fda3721a600f2fff31599b45845d71f44f4/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Remove-AzureRmApiManagementOperation.md
 ms.topic: reference
 ms.prod: powershell

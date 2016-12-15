@@ -6,6 +6,7 @@ ms.assetid: 598DBB6F-2002-4E02-B93E-31E6A5336CC2
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Test-AzureStreamAnalyticsInput.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Test-AzureStreamAnalyticsInput.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Test-AzureStreamAnalyticsInput.md
 ms.topic: reference
 ms.prod: powershell

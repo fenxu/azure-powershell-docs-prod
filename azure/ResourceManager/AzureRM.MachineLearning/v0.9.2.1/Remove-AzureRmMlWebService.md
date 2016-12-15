@@ -6,6 +6,7 @@ ms.assetid: D407A0B9-BB75-4771-AFB6-787342986B54
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Remove-AzureRmMlWebService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Remove-AzureRmMlWebService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Remove-AzureRmMlWebService.md
 ms.topic: reference
 ms.prod: powershell

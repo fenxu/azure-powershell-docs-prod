@@ -6,6 +6,7 @@ ms.assetid: DAC1DC34-B7C5-44D8-B629-1398928830D5
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultKeyAttribute.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultKeyAttribute.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Set-AzureKeyVaultKeyAttribute.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: EB4C10A5-1698-4A67-9387-DF099D120442
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Remove-AzureStorSimpleAccessControlRecord.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Remove-AzureStorSimpleAccessControlRecord.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Remove-AzureStorSimpleAccessControlRecord.md
 ms.topic: reference
 ms.prod: powershell

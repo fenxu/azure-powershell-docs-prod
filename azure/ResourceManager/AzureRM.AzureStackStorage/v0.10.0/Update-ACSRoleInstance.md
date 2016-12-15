@@ -6,6 +6,7 @@ ms.assetid: 6D85E2D5-0D21-42A7-B026-548FFB4795A4
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Update-ACSRoleInstance.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Update-ACSRoleInstance.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Update-ACSRoleInstance.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 9DB5BA0B-6CEA-4EE4-B6D3-BF1997C9A3F8
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Move-AzureRmDataLakeStoreItem.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Move-AzureRmDataLakeStoreItem.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Move-AzureRmDataLakeStoreItem.md
 ms.topic: reference
 ms.prod: powershell

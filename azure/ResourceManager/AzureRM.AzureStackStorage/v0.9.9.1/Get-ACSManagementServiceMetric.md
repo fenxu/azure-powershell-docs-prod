@@ -6,6 +6,7 @@ ms.assetid: 79502042-7862-4BF6-8AD7-C63989642C35
 updated_at: 11/15/2016 8:02 AM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSManagementServiceMetric.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSManagementServiceMetric.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16dcbb293b24fa241864048736125047ff62e2ea/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSManagementServiceMetric.md
 ms.topic: reference
 ms.prod: powershell

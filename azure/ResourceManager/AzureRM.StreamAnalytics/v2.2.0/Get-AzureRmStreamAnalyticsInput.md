@@ -6,6 +6,7 @@ ms.assetid: B3C84760-1506-44CD-B66F-C42AFD9FC0C8
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Get-AzureRmStreamAnalyticsInput.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Get-AzureRmStreamAnalyticsInput.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Get-AzureRmStreamAnalyticsInput.md
 ms.topic: reference
 ms.prod: powershell

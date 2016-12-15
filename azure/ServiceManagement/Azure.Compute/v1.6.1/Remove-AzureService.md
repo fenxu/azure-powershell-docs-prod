@@ -6,6 +6,7 @@ ms.assetid: 19376209-6C0D-46E0-AD98-B8E2F13C0893
 updated_at: 10/31/2016 9:17 PM
 ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Remove-AzureService.md
 ms.topic: reference
 ms.prod: powershell

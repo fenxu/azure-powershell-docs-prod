@@ -6,6 +6,7 @@ ms.assetid: 9F77E3D1-EAE1-4ED2-A16E-C593BDD1C907
 updated_at: 11/22/2016 12:25 AM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRMVMSqlServerExtension.md
 ms.topic: reference
 ms.prod: powershell

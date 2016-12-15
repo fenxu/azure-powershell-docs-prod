@@ -6,6 +6,7 @@ ms.assetid: 5CC145D9-3D18-4710-8A8A-B4DB1C1F9011
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Restore-AzureRmSqlDatabase.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Restore-AzureRmSqlDatabase.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.2.0/Restore-AzureRmSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: D4593D2D-DB1D-4C2B-9AA7-1BFD05CBA6B5
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Update-AzureRemoteAppCollection.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Update-AzureRemoteAppCollection.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v1.6.1/Update-AzureRemoteAppCollection.md
 ms.topic: reference
 ms.prod: powershell

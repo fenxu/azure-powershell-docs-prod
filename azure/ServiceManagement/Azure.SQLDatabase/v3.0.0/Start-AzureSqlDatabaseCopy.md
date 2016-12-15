@@ -6,6 +6,7 @@ ms.assetid: 2E29FB84-01AF-40C1-B692-2DF663DA6663
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Start-AzureSqlDatabaseCopy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Start-AzureSqlDatabaseCopy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Start-AzureSqlDatabaseCopy.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 7EDCE1E8-1235-4B9A-A1EB-03C442D78AAC
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Set-AzureSiteRecoveryProtectionEntity.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Set-AzureSiteRecoveryProtectionEntity.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Set-AzureSiteRecoveryProtectionEntity.md
 ms.topic: reference
 ms.prod: powershell

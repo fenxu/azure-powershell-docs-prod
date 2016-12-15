@@ -6,6 +6,7 @@ ms.assetid: 798D3B87-2A3D-4C5B-9925-031CFE6B5F64
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageUsage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageUsage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageUsage.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: A56FC467-F64D-4453-9B55-CDD5CAD1AA98
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRMAutomationScheduledRunbook.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRMAutomationScheduledRunbook.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRMAutomationScheduledRunbook.md
 ms.topic: reference
 ms.prod: powershell

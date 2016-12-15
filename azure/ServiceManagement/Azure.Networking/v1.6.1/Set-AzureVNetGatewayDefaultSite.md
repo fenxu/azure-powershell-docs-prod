@@ -6,6 +6,7 @@ ms.assetid: 36CE0EB6-73F6-4D51-A6A9-8B3F22A2F34D
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVNetGatewayDefaultSite.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVNetGatewayDefaultSite.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Set-AzureVNetGatewayDefaultSite.md
 ms.topic: reference
 ms.prod: powershell

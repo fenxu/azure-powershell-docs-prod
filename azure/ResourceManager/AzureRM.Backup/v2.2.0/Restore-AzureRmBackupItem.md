@@ -6,6 +6,7 @@ ms.assetid: C0E6E7CB-0FD9-4062-AEF1-DB64BBA58D40
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Restore-AzureRmBackupItem.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Restore-AzureRmBackupItem.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Restore-AzureRmBackupItem.md
 ms.topic: reference
 ms.prod: powershell

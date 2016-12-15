@@ -8,6 +8,7 @@ ms.assetid: 0F3FB162-8EE5-4E77-8C4A-8993E85A08DD
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.1.0/AzureRM.DNS.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.1.0/AzureRM.DNS.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.1.0/AzureRM.DNS.md
 uid: ResourceManager/AzureRM.DNS/v2.1.0/AzureRM.DNS.md
 ms.topic: conceptual

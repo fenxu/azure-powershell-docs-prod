@@ -8,6 +8,7 @@ ms.assetid: BACFF41E-C7B8-4215-ADD6-5953BA707E83
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v0.9.8/Azure.ManagedCache.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v0.9.8/Azure.ManagedCache.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v0.9.8/Azure.ManagedCache.md
 uid: ServiceManagement/Azure.ManagedCache/v0.9.8/Azure.ManagedCache.md
 ms.topic: conceptual

@@ -6,6 +6,7 @@ ms.assetid: A2F231A2-4EAB-4750-8209-C63C0AD653BB
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Enable-AzureRmBackupProtection.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Enable-AzureRmBackupProtection.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Enable-AzureRmBackupProtection.md
 ms.topic: reference
 ms.prod: powershell

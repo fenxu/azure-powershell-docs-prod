@@ -6,6 +6,7 @@ ms.assetid: 5D854BC0-56A1-4699-BD51-314BC586E979
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Set-AzureRmDiagnosticSetting.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Set-AzureRmDiagnosticSetting.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.2.0/Set-AzureRmDiagnosticSetting.md
 ms.topic: reference
 ms.prod: powershell

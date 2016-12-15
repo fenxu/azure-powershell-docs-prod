@@ -6,6 +6,7 @@ ms.assetid: 36AE8BF7-2DB7-4E42-A53F-2F9E8D6D534A
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Remove-AzureRmStreamAnalyticsFunction.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Remove-AzureRmStreamAnalyticsFunction.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Remove-AzureRmStreamAnalyticsFunction.md
 ms.topic: reference
 ms.prod: powershell

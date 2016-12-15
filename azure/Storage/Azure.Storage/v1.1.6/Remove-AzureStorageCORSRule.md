@@ -6,6 +6,7 @@ ms.assetid: EA872C93-797E-49A5-8E97-640A56AADCEB
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Remove-AzureStorageCORSRule.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Remove-AzureStorageCORSRule.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Remove-AzureStorageCORSRule.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: FB2C58FD-03CF-457D-B9C6-FDABADF0049F
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Set-AzureStorSimpleDeviceVolume.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Set-AzureStorSimpleDeviceVolume.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Set-AzureStorSimpleDeviceVolume.md
 ms.topic: reference
 ms.prod: powershell

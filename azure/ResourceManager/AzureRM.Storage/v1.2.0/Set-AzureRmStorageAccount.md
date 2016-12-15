@@ -6,6 +6,7 @@ ms.assetid: BEA384E0-C930-442C-A7F9-0FDCE87E7871
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Set-AzureRmStorageAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Set-AzureRmStorageAccount.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Set-AzureRmStorageAccount.md
 ms.topic: reference
 ms.prod: powershell

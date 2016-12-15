@@ -6,6 +6,7 @@ ms.assetid: 8B2D071B-E879-418C-A187-2B5FC295502A
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Get-AzureNetworkSecurityGroupAssociation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Get-AzureNetworkSecurityGroupAssociation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Get-AzureNetworkSecurityGroupAssociation.md
 ms.topic: reference
 ms.prod: powershell

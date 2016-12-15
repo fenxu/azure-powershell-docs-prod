@@ -6,6 +6,7 @@ ms.assetid: 3915C87A-02DE-43AE-B95B-ACC6AD573D65
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Get-AzureRmDataFactoryPipeline.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Get-AzureRmDataFactoryPipeline.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v2.2.0/Get-AzureRmDataFactoryPipeline.md
 ms.topic: reference
 ms.prod: powershell

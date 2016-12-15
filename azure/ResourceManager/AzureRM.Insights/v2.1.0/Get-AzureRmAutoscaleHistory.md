@@ -6,6 +6,7 @@ ms.assetid: 046EC89F-9C61-455B-A276-33D76DAD54BA
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.1.0/Get-AzureRmAutoscaleHistory.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.1.0/Get-AzureRmAutoscaleHistory.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.1.0/Get-AzureRmAutoscaleHistory.md
 ms.topic: reference
 ms.prod: powershell

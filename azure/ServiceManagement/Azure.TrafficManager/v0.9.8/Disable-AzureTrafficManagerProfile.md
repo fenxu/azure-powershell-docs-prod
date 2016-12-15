@@ -6,6 +6,7 @@ ms.assetid: 438A2B48-3200-45C5-80A0-D62E66096465
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/Disable-AzureTrafficManagerProfile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/Disable-AzureTrafficManagerProfile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/Disable-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell

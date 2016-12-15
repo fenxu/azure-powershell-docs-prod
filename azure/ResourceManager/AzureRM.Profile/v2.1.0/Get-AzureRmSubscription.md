@@ -6,6 +6,7 @@ ms.assetid: D6327A7C-C24A-42D1-B4D6-B026D23C89E3
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Get-AzureRmSubscription.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Get-AzureRmSubscription.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.1.0/Get-AzureRmSubscription.md
 ms.topic: reference
 ms.prod: powershell

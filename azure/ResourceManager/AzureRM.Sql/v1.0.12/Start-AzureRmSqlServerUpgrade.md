@@ -6,6 +6,7 @@ ms.assetid: D83879BE-919A-4C1B-854B-E366CCAB5D8C
 updated_at: 12/1/2016 5:56 PM
 ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Start-AzureRmSqlServerUpgrade.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Start-AzureRmSqlServerUpgrade.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9f3e28b44df59189552012578d9f989dd5598d4f/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Start-AzureRmSqlServerUpgrade.md
 ms.topic: reference
 ms.prod: powershell

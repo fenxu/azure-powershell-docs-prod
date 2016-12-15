@@ -6,6 +6,7 @@ ms.assetid: 13B34B1F-CB0B-447B-8E4B-52116E128EF0
 updated_at: 11/18/2016 11:58 PM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Set-AzureRmOperationalInsightsWorkspace.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Set-AzureRmOperationalInsightsWorkspace.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Set-AzureRmOperationalInsightsWorkspace.md
 ms.topic: reference
 ms.prod: powershell

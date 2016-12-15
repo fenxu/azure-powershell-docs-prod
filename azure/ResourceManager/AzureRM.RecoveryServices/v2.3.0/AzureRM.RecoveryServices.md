@@ -8,6 +8,7 @@ ms.assetid: DC5E0ECC-BFFA-4030-8BCB-BD180CAD77B8
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.3.0/AzureRM.RecoveryServices.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.3.0/AzureRM.RecoveryServices.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.3.0/AzureRM.RecoveryServices.md
 uid: ResourceManager/AzureRM.RecoveryServices/v2.3.0/AzureRM.RecoveryServices.md
 ms.topic: conceptual

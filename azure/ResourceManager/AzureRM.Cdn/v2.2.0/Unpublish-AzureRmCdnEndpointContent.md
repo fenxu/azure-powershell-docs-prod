@@ -6,6 +6,7 @@ ms.assetid: E8BA5B5C-78F9-4397-A39A-84C7B36BCF5C
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Unpublish-AzureRmCdnEndpointContent.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Unpublish-AzureRmCdnEndpointContent.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Unpublish-AzureRmCdnEndpointContent.md
 ms.topic: reference
 ms.prod: powershell

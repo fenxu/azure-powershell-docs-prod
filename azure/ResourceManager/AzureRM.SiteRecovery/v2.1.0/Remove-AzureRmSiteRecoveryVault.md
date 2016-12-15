@@ -6,6 +6,7 @@ ms.assetid: 38397E20-400E-4D86-B9D2-0F4F00B00A23
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Remove-AzureRmSiteRecoveryVault.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Remove-AzureRmSiteRecoveryVault.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Remove-AzureRmSiteRecoveryVault.md
 ms.topic: reference
 ms.prod: powershell

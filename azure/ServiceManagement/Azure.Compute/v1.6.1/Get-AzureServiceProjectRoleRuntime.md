@@ -6,6 +6,7 @@ ms.assetid: 4ECF99B3-AFB5-49E1-A5BA-F1699A412F8E
 updated_at: 10/24/2016 11:55 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureServiceProjectRoleRuntime.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureServiceProjectRoleRuntime.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureServiceProjectRoleRuntime.md
 ms.topic: reference
 ms.prod: powershell

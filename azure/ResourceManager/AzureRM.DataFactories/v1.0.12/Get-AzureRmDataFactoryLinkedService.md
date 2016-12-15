@@ -6,6 +6,7 @@ ms.assetid: ED29001F-47C2-4D30-B6D3-87E0362362CF
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryLinkedService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryLinkedService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryLinkedService.md
 ms.topic: reference
 ms.prod: powershell

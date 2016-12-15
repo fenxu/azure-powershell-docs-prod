@@ -6,6 +6,7 @@ ms.assetid: C69F6F69-1B7E-4733-8BF4-EE34DA1A5B6E
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureRmKeyVault.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureRmKeyVault.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureRmKeyVault.md
 ms.topic: reference
 ms.prod: powershell

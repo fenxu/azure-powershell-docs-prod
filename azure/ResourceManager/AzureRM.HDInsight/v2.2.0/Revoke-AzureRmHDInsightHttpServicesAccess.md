@@ -6,6 +6,7 @@ ms.assetid: 25389828-C6EB-4597-84DA-71FDFD5048EB
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Revoke-AzureRmHDInsightHttpServicesAccess.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Revoke-AzureRmHDInsightHttpServicesAccess.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/Revoke-AzureRmHDInsightHttpServicesAccess.md
 ms.topic: reference
 ms.prod: powershell

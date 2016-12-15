@@ -6,6 +6,7 @@ ms.assetid: D91AAA87-9458-44A9-B332-DF8BA0322290
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Invoke-AzureRmServerManagementPowerShellCommand.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Invoke-AzureRmServerManagementPowerShellCommand.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Invoke-AzureRmServerManagementPowerShellCommand.md
 ms.topic: reference
 ms.prod: powershell

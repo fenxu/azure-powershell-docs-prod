@@ -6,6 +6,7 @@ ms.assetid: C8E92AFB-2733-45C5-B41B-0D74479078DE
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Start-AzureRmStreamAnalyticsJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Start-AzureRmStreamAnalyticsJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.2.0/Start-AzureRmStreamAnalyticsJob.md
 ms.topic: reference
 ms.prod: powershell

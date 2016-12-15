@@ -6,6 +6,7 @@ ms.assetid: FB551EA5-4159-4D77-8733-025AE66A13AF
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Remove-AzureRmStorageAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Remove-AzureRmStorageAccount.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Remove-AzureRmStorageAccount.md
 ms.topic: reference
 ms.prod: powershell

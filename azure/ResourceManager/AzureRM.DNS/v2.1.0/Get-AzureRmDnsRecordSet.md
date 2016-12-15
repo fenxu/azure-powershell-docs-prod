@@ -6,6 +6,7 @@ ms.assetid: D330CEBD-B0C2-43DC-B48A-DB5142D9A57A
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.1.0/Get-AzureRmDnsRecordSet.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.1.0/Get-AzureRmDnsRecordSet.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.1.0/Get-AzureRmDnsRecordSet.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 18B88F0F-2FFB-4CDB-8952-9E6C5F064E22
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/Import-AzureRmMlWebService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/Import-AzureRmMlWebService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/Import-AzureRmMlWebService.md
 ms.topic: reference
 ms.prod: powershell

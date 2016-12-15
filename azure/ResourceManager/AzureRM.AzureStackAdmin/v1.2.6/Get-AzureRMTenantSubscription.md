@@ -6,6 +6,7 @@ ms.assetid: 346CA4A0-3ABF-4257-8F04-E7651ACD0A06
 updated_at: 11/15/2016 9:52 PM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMTenantSubscription.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMTenantSubscription.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f706d2c1618dbb78e7ccf2f58b90336813a13f1/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMTenantSubscription.md
 ms.topic: reference
 ms.prod: powershell

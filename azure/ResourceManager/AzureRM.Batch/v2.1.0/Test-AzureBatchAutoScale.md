@@ -6,6 +6,7 @@ ms.assetid: F24F1C56-EA1C-40C9-B357-89F7C07C7823
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Test-AzureBatchAutoScale.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Test-AzureBatchAutoScale.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Test-AzureBatchAutoScale.md
 ms.topic: reference
 ms.prod: powershell

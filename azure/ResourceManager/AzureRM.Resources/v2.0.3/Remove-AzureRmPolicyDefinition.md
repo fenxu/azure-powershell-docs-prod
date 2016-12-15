@@ -6,6 +6,7 @@ ms.assetid: A5D5B971-75F4-40D1-B3BD-51817E96BD30
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmPolicyDefinition.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmPolicyDefinition.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmPolicyDefinition.md
 ms.topic: reference
 ms.prod: powershell

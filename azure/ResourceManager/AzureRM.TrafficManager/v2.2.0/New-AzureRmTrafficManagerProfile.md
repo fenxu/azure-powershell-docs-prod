@@ -6,6 +6,7 @@ ms.assetid: 1EC820D2-F81B-402A-A2B9-138A9C7000B9
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/New-AzureRmTrafficManagerProfile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/New-AzureRmTrafficManagerProfile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.2.0/New-AzureRmTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell

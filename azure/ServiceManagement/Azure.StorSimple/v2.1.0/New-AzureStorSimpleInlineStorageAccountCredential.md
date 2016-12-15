@@ -6,6 +6,7 @@ ms.assetid: 9F8630CA-9457-43DC-A5D0-FB0252B0416C
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleInlineStorageAccountCredential.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleInlineStorageAccountCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleInlineStorageAccountCredential.md
 ms.topic: reference
 ms.prod: powershell

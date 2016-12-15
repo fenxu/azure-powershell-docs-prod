@@ -6,6 +6,7 @@ ms.assetid: 0033FF6E-1205-4BD4-ABE7-8D43153D2925
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Remove-WAPackVMRole.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Remove-WAPackVMRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Remove-WAPackVMRole.md
 ms.topic: reference
 ms.prod: powershell

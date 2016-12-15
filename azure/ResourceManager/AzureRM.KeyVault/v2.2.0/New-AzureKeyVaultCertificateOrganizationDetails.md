@@ -6,6 +6,7 @@ ms.assetid: DA932944-348A-4D91-9E78-D2E1DB130A61
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificateOrganizationDetails.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificateOrganizationDetails.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/New-AzureKeyVaultCertificateOrganizationDetails.md
 ms.topic: reference
 ms.prod: powershell

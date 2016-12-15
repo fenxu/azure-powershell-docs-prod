@@ -6,6 +6,7 @@ ms.assetid: E5A90AE9-C139-4D39-A405-04A2CA77B290
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageServiceLoggingProperty.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageServiceLoggingProperty.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageServiceLoggingProperty.md
 ms.topic: reference
 ms.prod: powershell

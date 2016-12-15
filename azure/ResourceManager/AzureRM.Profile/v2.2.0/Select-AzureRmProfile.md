@@ -6,6 +6,7 @@ ms.assetid: 0424B069-01F1-4640-A554-D185BCC9A37F
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/Select-AzureRmProfile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/Select-AzureRmProfile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.2.0/Select-AzureRmProfile.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: F71D74B0-4C9D-40FC-934E-45950E36052F
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/New-AzureStorageQueueStoredAccessPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/New-AzureStorageQueueStoredAccessPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/New-AzureStorageQueueStoredAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 89D7ED7C-1DB6-4E01-8981-8F34483039FD
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Remove-AzureStorageContainer.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Remove-AzureStorageContainer.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Remove-AzureStorageContainer.md
 ms.topic: reference
 ms.prod: powershell

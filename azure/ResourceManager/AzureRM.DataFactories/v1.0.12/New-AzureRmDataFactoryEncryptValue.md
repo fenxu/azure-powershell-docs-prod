@@ -6,6 +6,7 @@ ms.assetid: 8350C2EF-E464-45F0-8D73-529D254FB031
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/New-AzureRmDataFactoryEncryptValue.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/New-AzureRmDataFactoryEncryptValue.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/New-AzureRmDataFactoryEncryptValue.md
 ms.topic: reference
 ms.prod: powershell

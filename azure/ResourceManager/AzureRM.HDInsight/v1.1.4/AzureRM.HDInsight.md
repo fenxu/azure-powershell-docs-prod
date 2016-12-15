@@ -8,6 +8,7 @@ ms.assetid: 14AE1A77-6013-4A31-8105-778DA9CCF66F
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/AzureRM.HDInsight.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/AzureRM.HDInsight.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/AzureRM.HDInsight.md
 uid: ResourceManager/AzureRM.HDInsight/v1.1.4/AzureRM.HDInsight.md
 ms.topic: conceptual

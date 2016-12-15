@@ -6,6 +6,7 @@ ms.assetid: 0DF1FDF3-2601-47E1-A728-1D5DA9588B09
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/New-AzureCertificateSetting.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/New-AzureCertificateSetting.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/New-AzureCertificateSetting.md
 ms.topic: reference
 ms.prod: powershell

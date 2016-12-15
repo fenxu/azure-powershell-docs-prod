@@ -6,6 +6,7 @@ ms.assetid: E100DBF0-13C3-4458-9ED8-1D559FABE85E
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v0.9.8/New-AzureOperationalInsightsStorageInsight.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v0.9.8/New-AzureOperationalInsightsStorageInsight.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v0.9.8/New-AzureOperationalInsightsStorageInsight.md
 ms.topic: reference
 ms.prod: powershell

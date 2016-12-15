@@ -6,6 +6,7 @@ ms.assetid: 8BDF61D7-AB75-473C-B02B-AF031AAC36AD
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Set-AzureStorSimpleStorageAccountCredential.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Set-AzureStorSimpleStorageAccountCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Set-AzureStorSimpleStorageAccountCredential.md
 ms.topic: reference
 ms.prod: powershell

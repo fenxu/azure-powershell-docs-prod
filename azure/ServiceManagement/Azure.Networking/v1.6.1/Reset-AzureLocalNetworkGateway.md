@@ -6,6 +6,7 @@ ms.assetid: 3CA47707-8A9E-4EFA-A375-194AFDBBBA3A
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Reset-AzureLocalNetworkGateway.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Reset-AzureLocalNetworkGateway.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v1.6.1/Reset-AzureLocalNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell

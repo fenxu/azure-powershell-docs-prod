@@ -6,6 +6,7 @@ ms.assetid: 80232E12-07AF-49D2-A7A3-9CC486DDDF9C
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Get-AzureRmLogicAppRunHistory.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Get-AzureRmLogicAppRunHistory.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/Get-AzureRmLogicAppRunHistory.md
 ms.topic: reference
 ms.prod: powershell

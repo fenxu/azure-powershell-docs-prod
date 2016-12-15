@@ -6,6 +6,7 @@ ms.assetid: 42255891-AD31-477E-A3E8-6D5F904A84A7
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Wait-AzureRmBackupJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Wait-AzureRmBackupJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Backup/v2.2.0/Wait-AzureRmBackupJob.md
 ms.topic: reference
 ms.prod: powershell

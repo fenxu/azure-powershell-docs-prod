@@ -6,6 +6,7 @@ ms.assetid: 9EC9310A-3E2C-46F9-B387-8572B3F24C29
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageContainerAcl.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageContainerAcl.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Set-AzureStorageContainerAcl.md
 ms.topic: reference
 ms.prod: powershell

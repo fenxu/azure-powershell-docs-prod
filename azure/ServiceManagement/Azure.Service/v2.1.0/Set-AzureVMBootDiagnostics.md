@@ -6,6 +6,7 @@ ms.assetid: 79EEB9CD-1548-4594-9769-07B2C080DB8D
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Set-AzureVMBootDiagnostics.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Set-AzureVMBootDiagnostics.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Set-AzureVMBootDiagnostics.md
 ms.topic: reference
 ms.prod: powershell

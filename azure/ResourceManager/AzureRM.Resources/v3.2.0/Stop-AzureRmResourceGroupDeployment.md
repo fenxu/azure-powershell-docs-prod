@@ -6,6 +6,7 @@ ms.assetid: 64A6680A-18E0-45B1-84DE-8B1193000BD0
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Stop-AzureRmResourceGroupDeployment.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Stop-AzureRmResourceGroupDeployment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Stop-AzureRmResourceGroupDeployment.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: C19B6038-FC32-46FF-9ECC-8A4BBD4C942B
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmPolicyAssignment.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmPolicyAssignment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmPolicyAssignment.md
 ms.topic: reference
 ms.prod: powershell

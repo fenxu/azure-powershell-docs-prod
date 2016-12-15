@@ -6,6 +6,7 @@ ms.assetid: ADB3C3CB-6CC2-4394-BBE0-117E3E13CE8D
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Resume-AzureRmSiteRecoveryJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Resume-AzureRmSiteRecoveryJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Resume-AzureRmSiteRecoveryJob.md
 ms.topic: reference
 ms.prod: powershell

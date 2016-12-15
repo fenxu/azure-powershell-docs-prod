@@ -6,6 +6,7 @@ ms.assetid: 19ACF10C-CF4B-4857-8E21-FED826A8A2A9
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultSecret.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultSecret.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.2.0/Remove-AzureKeyVaultSecret.md
 ms.topic: reference
 ms.prod: powershell

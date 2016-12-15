@@ -6,6 +6,7 @@ ms.assetid: 613467B7-5F05-42D9-8539-B37E906375DA
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/New-AzureRmWebApp.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/New-AzureRmWebApp.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/New-AzureRmWebApp.md
 ms.topic: reference
 ms.prod: powershell

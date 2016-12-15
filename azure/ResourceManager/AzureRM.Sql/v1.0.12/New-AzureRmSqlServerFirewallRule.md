@@ -6,6 +6,7 @@ ms.assetid: AB7DE118-2471-4396-AED4-CF6B1DE13F04
 updated_at: 11/22/2016 12:25 AM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlServerFirewallRule.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlServerFirewallRule.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlServerFirewallRule.md
 ms.topic: reference
 ms.prod: powershell

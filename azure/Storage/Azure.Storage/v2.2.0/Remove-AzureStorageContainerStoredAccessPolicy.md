@@ -6,6 +6,7 @@ ms.assetid: 63AD4234-60FE-4D7F-9FD6-45381A484BBF
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Remove-AzureStorageContainerStoredAccessPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Remove-AzureStorageContainerStoredAccessPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Remove-AzureStorageContainerStoredAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell

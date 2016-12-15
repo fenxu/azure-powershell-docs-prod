@@ -6,6 +6,7 @@ ms.assetid: E29E2FA1-E3C9-4DE2-8F6B-18C26A9E845D
 updated_at: 10/24/2016 11:18 PM
 ms.date: 10/24/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebHostingPlan.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebHostingPlan.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebHostingPlan.md
 ms.topic: reference
 ms.prod: powershell

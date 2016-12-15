@@ -6,6 +6,7 @@ ms.assetid: D5B18FF4-3294-4561-A4CD-CF0FA5E4A59B
 updated_at: 11/3/2016 10:58 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementOpenIdConnectProvider.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementOpenIdConnectProvider.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b0dc3fda3721a600f2fff31599b45845d71f44f4/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementOpenIdConnectProvider.md
 ms.topic: reference
 ms.prod: powershell

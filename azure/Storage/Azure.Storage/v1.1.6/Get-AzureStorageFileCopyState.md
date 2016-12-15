@@ -6,6 +6,7 @@ ms.assetid: 248556E1-291F-4D27-B2E1-E00CC895B3A9
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageFileCopyState.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageFileCopyState.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/Get-AzureStorageFileCopyState.md
 ms.topic: reference
 ms.prod: powershell

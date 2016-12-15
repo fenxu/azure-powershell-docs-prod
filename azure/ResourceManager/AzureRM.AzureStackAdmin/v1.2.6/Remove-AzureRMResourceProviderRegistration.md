@@ -6,6 +6,7 @@ ms.assetid: D30CC47A-FE6D-43A8-8602-26CCF145438F
 updated_at: 11/15/2016 9:52 PM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMResourceProviderRegistration.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMResourceProviderRegistration.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f706d2c1618dbb78e7ccf2f58b90336813a13f1/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMResourceProviderRegistration.md
 ms.topic: reference
 ms.prod: powershell

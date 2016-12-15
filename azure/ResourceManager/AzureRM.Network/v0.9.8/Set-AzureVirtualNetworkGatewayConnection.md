@@ -6,6 +6,7 @@ ms.assetid: FB8A9CB6-C102-4056-A5C3-7192F440B2E4
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Set-AzureVirtualNetworkGatewayConnection.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Set-AzureVirtualNetworkGatewayConnection.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Set-AzureVirtualNetworkGatewayConnection.md
 ms.topic: reference
 ms.prod: powershell

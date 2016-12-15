@@ -6,6 +6,7 @@ ms.assetid: BF1FD228-182A-403D-8A61-45148E08B5DB
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.1.0/Grant-AzureRmHDInsightRdpServicesAccess.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.1.0/Grant-AzureRmHDInsightRdpServicesAccess.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.1.0/Grant-AzureRmHDInsightRdpServicesAccess.md
 ms.topic: reference
 ms.prod: powershell

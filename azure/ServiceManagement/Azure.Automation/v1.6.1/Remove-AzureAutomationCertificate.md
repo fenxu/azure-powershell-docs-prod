@@ -6,6 +6,7 @@ ms.assetid: A2F21F67-8F29-427A-8670-B190A626C332
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Remove-AzureAutomationCertificate.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Remove-AzureAutomationCertificate.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Remove-AzureAutomationCertificate.md
 ms.topic: reference
 ms.prod: powershell

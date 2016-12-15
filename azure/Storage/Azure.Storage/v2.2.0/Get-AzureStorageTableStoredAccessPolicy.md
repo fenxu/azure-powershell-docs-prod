@@ -6,6 +6,7 @@ ms.assetid: 17485023-B5B0-44EB-A7D4-7C67E8D60DFC
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageTableStoredAccessPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageTableStoredAccessPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.2.0/Get-AzureStorageTableStoredAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell

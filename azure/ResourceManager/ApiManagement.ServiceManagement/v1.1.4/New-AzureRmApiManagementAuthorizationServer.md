@@ -6,6 +6,7 @@ ms.assetid: 45B96AB0-ACE3-4754-B162-88027AC8CA41
 updated_at: 11/3/2016 10:58 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementAuthorizationServer.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementAuthorizationServer.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b0dc3fda3721a600f2fff31599b45845d71f44f4/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/New-AzureRmApiManagementAuthorizationServer.md
 ms.topic: reference
 ms.prod: powershell

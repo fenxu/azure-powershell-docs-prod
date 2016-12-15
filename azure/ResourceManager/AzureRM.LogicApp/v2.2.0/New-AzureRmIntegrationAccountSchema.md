@@ -6,6 +6,7 @@ ms.assetid: 67379537-3408-459F-B2BE-5ADF86445F2A
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/New-AzureRmIntegrationAccountSchema.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/New-AzureRmIntegrationAccountSchema.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.2.0/New-AzureRmIntegrationAccountSchema.md
 ms.topic: reference
 ms.prod: powershell

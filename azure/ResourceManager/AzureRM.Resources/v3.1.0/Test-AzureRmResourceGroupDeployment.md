@@ -6,6 +6,7 @@ ms.assetid: 10C10A29-5B9C-4799-B58A-DA2D08B9DBFA
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Test-AzureRmResourceGroupDeployment.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Test-AzureRmResourceGroupDeployment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Test-AzureRmResourceGroupDeployment.md
 ms.topic: reference
 ms.prod: powershell

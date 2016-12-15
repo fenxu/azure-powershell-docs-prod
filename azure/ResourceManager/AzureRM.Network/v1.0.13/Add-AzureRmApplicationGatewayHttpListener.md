@@ -6,6 +6,7 @@ ms.assetid: 666BD93B-69D0-4CAE-BCD3-1496EB60FD65
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayHttpListener.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayHttpListener.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayHttpListener.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 9C7AD219-728E-418D-A611-F0E2B0F29ACD
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Set-AzureAutomationVariable.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Set-AzureAutomationVariable.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Set-AzureAutomationVariable.md
 ms.topic: reference
 ms.prod: powershell

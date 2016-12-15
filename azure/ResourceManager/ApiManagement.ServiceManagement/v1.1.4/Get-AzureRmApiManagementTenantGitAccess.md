@@ -6,6 +6,7 @@ ms.assetid: 6F01F494-CD1D-483A-9E57-BF693B1F2FC1
 updated_at: 11/3/2016 10:58 PM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementTenantGitAccess.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementTenantGitAccess.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b0dc3fda3721a600f2fff31599b45845d71f44f4/azureps-cmdlets-docs/ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Get-AzureRmApiManagementTenantGitAccess.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: C7351898-F226-4934-ABD0-B880B58ACD43
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/Add-AzureRmDataLakeAnalyticsDataSource.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/Add-AzureRmDataLakeAnalyticsDataSource.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.2.0/Add-AzureRmDataLakeAnalyticsDataSource.md
 ms.topic: reference
 ms.prod: powershell

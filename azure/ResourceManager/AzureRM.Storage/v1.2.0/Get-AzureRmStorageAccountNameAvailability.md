@@ -6,6 +6,7 @@ ms.assetid: F11035A8-7E3A-4B66-AD06-874C7C4AD40C
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageAccountNameAvailability.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageAccountNameAvailability.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageAccountNameAvailability.md
 ms.topic: reference
 ms.prod: powershell

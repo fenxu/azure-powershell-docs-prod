@@ -6,6 +6,7 @@ ms.assetid: 2E4E1DAC-D71F-4A1F-8994-653876519B37
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Remove-AzureAutomationModule.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Remove-AzureAutomationModule.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v1.6.1/Remove-AzureAutomationModule.md
 ms.topic: reference
 ms.prod: powershell

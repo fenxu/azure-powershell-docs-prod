@@ -6,6 +6,7 @@ ms.assetid: 01BF699F-24F3-49DB-BF7E-35F11BAA34A6
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Remove-AzureStorageFile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Remove-AzureStorageFile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Remove-AzureStorageFile.md
 ms.topic: reference
 ms.prod: powershell

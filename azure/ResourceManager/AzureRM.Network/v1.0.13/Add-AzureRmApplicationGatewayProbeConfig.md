@@ -6,6 +6,7 @@ ms.assetid: 31FC5898-6BC5-420B-82A9-2C2761580AC5
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayProbeConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayProbeConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayProbeConfig.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: A144D2BB-19CB-464E-8505-423AF3CD24FD
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.2.0/Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.2.0/Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.2.0/Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md
 ms.topic: reference
 ms.prod: powershell

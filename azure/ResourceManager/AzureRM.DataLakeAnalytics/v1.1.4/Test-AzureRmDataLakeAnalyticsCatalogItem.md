@@ -6,6 +6,7 @@ ms.assetid: 006D22AF-7A2A-45A1-BD38-35E1B750A7E5
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Test-AzureRmDataLakeAnalyticsCatalogItem.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Test-AzureRmDataLakeAnalyticsCatalogItem.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Test-AzureRmDataLakeAnalyticsCatalogItem.md
 ms.topic: reference
 ms.prod: powershell

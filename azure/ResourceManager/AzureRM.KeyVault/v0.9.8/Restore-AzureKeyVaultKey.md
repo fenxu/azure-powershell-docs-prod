@@ -6,6 +6,7 @@ ms.assetid: 9781A7D4-50B7-493A-9D4A-90ED291BD15A
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v0.9.8/Restore-AzureKeyVaultKey.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v0.9.8/Restore-AzureKeyVaultKey.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v0.9.8/Restore-AzureKeyVaultKey.md
 ms.topic: reference
 ms.prod: powershell

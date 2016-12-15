@@ -6,6 +6,7 @@ ms.assetid: A5F39475-AD90-457A-B55E-7B3AF5AABE82
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/New-AzureVMSqlServerAutoPatchingConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/New-AzureVMSqlServerAutoPatchingConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/New-AzureVMSqlServerAutoPatchingConfig.md
 ms.topic: reference
 ms.prod: powershell

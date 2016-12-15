@@ -6,6 +6,7 @@ ms.assetid: 5F5BC94D-FE0A-4E49-BDD6-F3EC46C94B69
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Remove-AzureAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Remove-AzureAccount.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Remove-AzureAccount.md
 ms.topic: reference
 ms.prod: powershell

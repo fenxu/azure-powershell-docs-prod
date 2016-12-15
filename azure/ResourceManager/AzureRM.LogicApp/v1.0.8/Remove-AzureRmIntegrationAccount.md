@@ -6,6 +6,7 @@ ms.assetid: 4833B347-F318-4B33-A5D0-C624EE7147F1
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Remove-AzureRmIntegrationAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Remove-AzureRmIntegrationAccount.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Remove-AzureRmIntegrationAccount.md
 ms.topic: reference
 ms.prod: powershell

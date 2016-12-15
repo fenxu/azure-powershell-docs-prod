@@ -6,6 +6,7 @@ ms.assetid: 5166E2A7-5B01-48BF-BAD8-0F0EA4949805
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Import-AzureRmAutomationDscConfiguration.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Import-AzureRmAutomationDscConfiguration.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Import-AzureRmAutomationDscConfiguration.md
 ms.topic: reference
 ms.prod: powershell

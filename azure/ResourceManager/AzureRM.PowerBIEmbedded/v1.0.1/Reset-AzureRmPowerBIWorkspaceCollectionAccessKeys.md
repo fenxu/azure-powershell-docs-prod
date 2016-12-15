@@ -6,6 +6,7 @@ ms.assetid: 8B3C0B00-093D-402E-BC92-FB25A66C767B
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v1.0.1/Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v1.0.1/Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v1.0.1/Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys.md
 ms.topic: reference
 ms.prod: powershell

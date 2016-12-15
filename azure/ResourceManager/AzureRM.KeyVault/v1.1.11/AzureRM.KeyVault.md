@@ -8,6 +8,7 @@ ms.assetid: 01D2E8BE-C0AC-47D5-AE01-72F365AE29E9
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/AzureRM.KeyVault.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/AzureRM.KeyVault.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/AzureRM.KeyVault.md
 uid: ResourceManager/AzureRM.KeyVault/v1.1.11/AzureRM.KeyVault.md
 ms.topic: conceptual

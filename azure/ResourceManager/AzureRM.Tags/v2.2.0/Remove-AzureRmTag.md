@@ -6,6 +6,7 @@ ms.assetid: 670FA1EE-1449-4797-8001-D5E4F8D8E43D
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/Remove-AzureRmTag.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/Remove-AzureRmTag.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.2.0/Remove-AzureRmTag.md
 ms.topic: reference
 ms.prod: powershell

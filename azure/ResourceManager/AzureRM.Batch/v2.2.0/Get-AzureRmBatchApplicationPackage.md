@@ -6,6 +6,7 @@ ms.assetid: 46FC6B63-D599-42D2-AA7E-A862E61C0D13
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureRmBatchApplicationPackage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureRmBatchApplicationPackage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.2.0/Get-AzureRmBatchApplicationPackage.md
 ms.topic: reference
 ms.prod: powershell

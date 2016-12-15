@@ -6,6 +6,7 @@ ms.assetid: F5BB8312-98FC-4D4D-BC62-C9E3DBD5D549
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRMAutomationScheduledRunbook.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRMAutomationScheduledRunbook.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.2.0/Register-AzureRMAutomationScheduledRunbook.md
 ms.topic: reference
 ms.prod: powershell

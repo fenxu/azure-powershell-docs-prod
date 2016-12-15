@@ -6,6 +6,7 @@ ms.assetid: 9E7590C3-320C-4384-9E37-5DD4EC43A9F4
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/Get-AzureAutomationModule.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/Get-AzureAutomationModule.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v2.1.0/Get-AzureAutomationModule.md
 ms.topic: reference
 ms.prod: powershell

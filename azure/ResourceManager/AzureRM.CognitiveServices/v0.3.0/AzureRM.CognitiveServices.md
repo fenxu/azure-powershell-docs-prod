@@ -8,6 +8,7 @@ ms.assetid: 9A1050AC-B9D5-45C7-A92C-29357992CFDA
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/AzureRM.CognitiveServices.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/AzureRM.CognitiveServices.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/AzureRM.CognitiveServices.md
 uid: ResourceManager/AzureRM.CognitiveServices/v0.3.0/AzureRM.CognitiveServices.md
 ms.topic: conceptual

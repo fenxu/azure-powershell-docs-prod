@@ -6,6 +6,7 @@ ms.assetid: 4A633049-A6F7-46D8-BF78-387F415E5936
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Get-WAPackStaticIPAddressPool.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Get-WAPackStaticIPAddressPool.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Get-WAPackStaticIPAddressPool.md
 ms.topic: reference
 ms.prod: powershell

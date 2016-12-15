@@ -6,6 +6,7 @@ ms.assetid: 7EA68613-FF7B-4DD6-AE17-207467CCC60A
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Remove-AzureVirtualNetworkGateway.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Remove-AzureVirtualNetworkGateway.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Remove-AzureVirtualNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell

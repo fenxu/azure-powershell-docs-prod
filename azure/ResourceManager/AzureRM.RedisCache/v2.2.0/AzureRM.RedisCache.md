@@ -8,6 +8,7 @@ ms.assetid: 42A9AF8F-A79F-4A1E-B147-DBB6E89E24D3
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/AzureRM.RedisCache.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/AzureRM.RedisCache.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.2.0/AzureRM.RedisCache.md
 uid: ResourceManager/AzureRM.RedisCache/v2.2.0/AzureRM.RedisCache.md
 ms.topic: conceptual

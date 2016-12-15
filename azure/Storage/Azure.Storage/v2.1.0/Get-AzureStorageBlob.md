@@ -6,6 +6,7 @@ ms.assetid: ECF885CF-A0F7-4F0D-8258-99B71926354C
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.1.0/Get-AzureStorageBlob.md
 ms.topic: reference
 ms.prod: powershell

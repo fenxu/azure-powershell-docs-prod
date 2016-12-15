@@ -6,6 +6,7 @@ ms.assetid: 5BB95A2A-83BD-4ACB-B9F3-8858E768048D
 updated_at: 11/10/2016 10:39 PM
 ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVMDataDisk.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVMDataDisk.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/caa9306a418b5a3d9e30c316ba11340ca2c42bfa/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVMDataDisk.md
 ms.topic: reference
 ms.prod: powershell

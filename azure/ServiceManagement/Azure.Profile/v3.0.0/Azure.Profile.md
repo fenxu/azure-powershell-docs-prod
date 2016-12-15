@@ -8,6 +8,7 @@ ms.assetid: F2A01AD1-9180-44B9-82CA-90AB9AE75661
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Azure.Profile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Azure.Profile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Azure.Profile.md
 uid: ServiceManagement/Azure.Profile/v3.0.0/Azure.Profile.md
 ms.topic: conceptual

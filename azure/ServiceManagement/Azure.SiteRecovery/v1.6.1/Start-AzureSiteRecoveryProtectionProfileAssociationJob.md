@@ -6,6 +6,7 @@ ms.assetid: 6861375D-9A39-452C-BCE5-A6C9E5703539
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Start-AzureSiteRecoveryProtectionProfileAssociationJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Start-AzureSiteRecoveryProtectionProfileAssociationJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Start-AzureSiteRecoveryProtectionProfileAssociationJob.md
 ms.topic: reference
 ms.prod: powershell

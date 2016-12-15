@@ -6,6 +6,7 @@ ms.assetid: 80FB7E11-389D-4341-9568-E1A1BC1789DF
 updated_at: 11/18/2016 11:58 PM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Set-AzureServiceProjectRole.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Set-AzureServiceProjectRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Set-AzureServiceProjectRole.md
 ms.topic: reference
 ms.prod: powershell

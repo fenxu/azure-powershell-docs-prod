@@ -6,6 +6,7 @@ ms.assetid: 7277FCD4-ECC8-420C-B952-AD10EE0D3162
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.1.0/Remove-AzureRmHDInsightCluster.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.1.0/Remove-AzureRmHDInsightCluster.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.1.0/Remove-AzureRmHDInsightCluster.md
 ms.topic: reference
 ms.prod: powershell

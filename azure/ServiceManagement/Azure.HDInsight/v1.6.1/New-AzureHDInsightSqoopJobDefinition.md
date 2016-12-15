@@ -6,6 +6,7 @@ ms.assetid: FF1357E5-9D90-4B10-B125-A38BA91FC324
 updated_at: 11/22/2016 12:25 AM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightSqoopJobDefinition.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightSqoopJobDefinition.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v1.6.1/New-AzureHDInsightSqoopJobDefinition.md
 ms.topic: reference
 ms.prod: powershell

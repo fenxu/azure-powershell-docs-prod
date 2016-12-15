@@ -6,6 +6,7 @@ ms.assetid: C1701B31-9AAC-4F6D-BB9F-414D8794C1B8
 updated_at: 11/15/2016 11:04 PM
 ms.date: 11/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMManagedLocation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMManagedLocation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0fc201e069c7389d9c830720fb027c45afabb0ac/azureps-cmdlets-docs/ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMManagedLocation.md
 ms.topic: reference
 ms.prod: powershell

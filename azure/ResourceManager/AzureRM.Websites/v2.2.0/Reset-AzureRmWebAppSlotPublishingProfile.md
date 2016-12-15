@@ -6,6 +6,7 @@ ms.assetid: 909EA78D-1926-4F50-A9A9-FA28194AE35F
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Reset-AzureRmWebAppSlotPublishingProfile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Reset-AzureRmWebAppSlotPublishingProfile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.2.0/Reset-AzureRmWebAppSlotPublishingProfile.md
 ms.topic: reference
 ms.prod: powershell

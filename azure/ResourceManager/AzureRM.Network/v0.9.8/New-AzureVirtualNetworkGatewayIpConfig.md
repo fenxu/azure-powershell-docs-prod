@@ -6,6 +6,7 @@ ms.assetid: 306CB0D0-EA38-4F40-982F-3C12B7DB13BB
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkGatewayIpConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkGatewayIpConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkGatewayIpConfig.md
 ms.topic: reference
 ms.prod: powershell

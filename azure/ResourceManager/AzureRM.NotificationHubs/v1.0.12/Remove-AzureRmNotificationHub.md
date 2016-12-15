@@ -6,6 +6,7 @@ ms.assetid: FEBB2EBF-3525-4D89-BB76-A38FAF40FCB7
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/Remove-AzureRmNotificationHub.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/Remove-AzureRmNotificationHub.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/Remove-AzureRmNotificationHub.md
 ms.topic: reference
 ms.prod: powershell

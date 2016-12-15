@@ -6,6 +6,7 @@ ms.assetid: 4A38B6BC-1590-4269-B635-3B787682FFAB
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Stop-AzureBatchTask.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Stop-AzureBatchTask.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Stop-AzureBatchTask.md
 ms.topic: reference
 ms.prod: powershell

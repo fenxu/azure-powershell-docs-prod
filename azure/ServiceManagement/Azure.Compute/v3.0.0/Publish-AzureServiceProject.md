@@ -6,6 +6,7 @@ ms.assetid: 2B68E952-EBA6-4E9D-BF97-A753BACF263B
 updated_at: 10/31/2016 9:17 PM
 ms.date: 10/31/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureServiceProject.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureServiceProject.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureServiceProject.md
 ms.topic: reference
 ms.prod: powershell

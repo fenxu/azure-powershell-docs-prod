@@ -6,6 +6,7 @@ schema: 2.0.0
 updated_at: 11/21/2016 9:55 PM
 ms.date: 11/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Add-AzureRmDnsRecordConfig.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Add-AzureRmDnsRecordConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ae52c90f776d988caa5d17017eef83e274af9eb7/azureps-cmdlets-docs/ResourceManager/AzureRM.DNS/v2.3.0/Add-AzureRmDnsRecordConfig.md
 ms.topic: reference
 ms.prod: powershell

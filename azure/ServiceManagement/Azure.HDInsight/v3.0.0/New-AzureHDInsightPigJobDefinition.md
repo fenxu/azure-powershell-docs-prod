@@ -6,6 +6,7 @@ ms.assetid: 3B2FD997-D26B-4E87-81A0-A72EB8875FF7
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/New-AzureHDInsightPigJobDefinition.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/New-AzureHDInsightPigJobDefinition.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/New-AzureHDInsightPigJobDefinition.md
 ms.topic: reference
 ms.prod: powershell

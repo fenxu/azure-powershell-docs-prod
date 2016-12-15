@@ -6,6 +6,7 @@ ms.assetid: A9EE8B1A-1101-45C4-AE74-E8D353A8A44E
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Get-AzureSubscription.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Get-AzureSubscription.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Get-AzureSubscription.md
 ms.topic: reference
 ms.prod: powershell

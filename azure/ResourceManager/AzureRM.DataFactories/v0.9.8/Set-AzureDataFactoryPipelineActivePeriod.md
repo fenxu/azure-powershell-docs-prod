@@ -6,6 +6,7 @@ ms.assetid: A6F65DD6-C5B2-49D2-A8BF-28124E378057
 updated_at: 10/18/2016 9:38 PM
 ms.date: 10/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Set-AzureDataFactoryPipelineActivePeriod.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Set-AzureDataFactoryPipelineActivePeriod.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v0.9.8/Set-AzureDataFactoryPipelineActivePeriod.md
 ms.topic: reference
 ms.prod: powershell

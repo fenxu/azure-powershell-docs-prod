@@ -6,6 +6,7 @@ ms.assetid: A61A447F-022D-490D-820F-910EFD6199B8
 updated_at: 11/22/2016 8:52 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v2.1.0/Restart-AzureRemoteAppVM.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v2.1.0/Restart-AzureRemoteAppVM.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v2.1.0/Restart-AzureRemoteAppVM.md
 ms.topic: reference
 ms.prod: powershell

@@ -8,6 +8,7 @@ ms.assetid: 6E941B4F-6D9B-43BE-BC2A-D87F1D7AABAC
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/AzureRM.ServerManagement.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/AzureRM.ServerManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/AzureRM.ServerManagement.md
 uid: ResourceManager/AzureRM.ServerManagement/v2.3.0/AzureRM.ServerManagement.md
 ms.topic: conceptual

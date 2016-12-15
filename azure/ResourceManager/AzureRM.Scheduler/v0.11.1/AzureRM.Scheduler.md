@@ -8,6 +8,7 @@ ms.assetid: 504EBFF2-43E4-4FB7-A394-F0650B0DA131
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.1/AzureRM.Scheduler.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.1/AzureRM.Scheduler.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.11.1/AzureRM.Scheduler.md
 uid: ResourceManager/AzureRM.Scheduler/v0.11.1/AzureRM.Scheduler.md
 ms.topic: conceptual

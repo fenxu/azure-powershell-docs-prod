@@ -6,6 +6,7 @@ ms.assetid: CCAC292B-326B-40F4-ACCC-3946C870F655
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/New-AzureRmHDInsightSqoopJobDefinition.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/New-AzureRmHDInsightSqoopJobDefinition.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.2.0/New-AzureRmHDInsightSqoopJobDefinition.md
 ms.topic: reference
 ms.prod: powershell

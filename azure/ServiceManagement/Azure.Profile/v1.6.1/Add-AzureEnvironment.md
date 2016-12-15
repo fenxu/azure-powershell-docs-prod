@@ -6,6 +6,7 @@ ms.assetid: 93FEA522-35F2-4C20-963A-A0EEAEA1E184
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Add-AzureEnvironment.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Add-AzureEnvironment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v1.6.1/Add-AzureEnvironment.md
 ms.topic: reference
 ms.prod: powershell

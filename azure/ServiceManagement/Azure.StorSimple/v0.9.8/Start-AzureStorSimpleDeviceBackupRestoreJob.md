@@ -6,6 +6,7 @@ ms.assetid: 78B86759-9D0D-4A87-B2C9-BAA32D83A49E
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Start-AzureStorSimpleDeviceBackupRestoreJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Start-AzureStorSimpleDeviceBackupRestoreJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v0.9.8/Start-AzureStorSimpleDeviceBackupRestoreJob.md
 ms.topic: reference
 ms.prod: powershell

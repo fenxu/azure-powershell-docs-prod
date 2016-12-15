@@ -8,6 +8,7 @@ ms.assetid: AF650721-349E-40D9-9A7F-64336F7B8E60
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/AzureRM.DataLakeStore.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/AzureRM.DataLakeStore.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/AzureRM.DataLakeStore.md
 uid: ResourceManager/AzureRM.DataLakeStore/v1.0.12/AzureRM.DataLakeStore.md
 ms.topic: conceptual

@@ -6,6 +6,7 @@ ms.assetid: 7D8B6162-ECD4-4B7E-8F17-1E63B6D47FBF
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Enable-AzureWebsiteDebug.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Enable-AzureWebsiteDebug.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Enable-AzureWebsiteDebug.md
 ms.topic: reference
 ms.prod: powershell

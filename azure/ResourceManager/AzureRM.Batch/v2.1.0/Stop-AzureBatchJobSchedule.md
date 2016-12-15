@@ -6,6 +6,7 @@ ms.assetid: 5EDB0CA8-FA83-40DE-B8E3-BA84AEB490EC
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Stop-AzureBatchJobSchedule.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Stop-AzureBatchJobSchedule.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Stop-AzureBatchJobSchedule.md
 ms.topic: reference
 ms.prod: powershell

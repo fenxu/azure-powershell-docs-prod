@@ -6,6 +6,7 @@ ms.assetid: 6E8A4327-CBCF-45BA-99E4-0DF0DE18C289
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Get-AzureAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Get-AzureAccount.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v0.9.8/Get-AzureAccount.md
 ms.topic: reference
 ms.prod: powershell

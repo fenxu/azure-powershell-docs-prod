@@ -6,6 +6,7 @@ ms.assetid: 42984693-703D-4C82-B8F3-CAEC15C6950D
 updated_at: 11/11/2016 11:03 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Set-AzureRmCdnOrigin.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Set-AzureRmCdnOrigin.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.2.0/Set-AzureRmCdnOrigin.md
 ms.topic: reference
 ms.prod: powershell

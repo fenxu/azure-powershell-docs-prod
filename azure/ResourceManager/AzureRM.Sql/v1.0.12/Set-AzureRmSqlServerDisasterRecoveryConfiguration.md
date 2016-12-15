@@ -6,6 +6,7 @@ ms.assetid: DBBF4FB7-FF79-426B-90A6-1904205E6E6E
 updated_at: 12/1/2016 1:28 AM
 ms.date: 12/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServerDisasterRecoveryConfiguration.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServerDisasterRecoveryConfiguration.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0fe78393ce81c49dbd2203c82a10d23db2610c2b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Set-AzureRmSqlServerDisasterRecoveryConfiguration.md
 ms.topic: reference
 ms.prod: powershell

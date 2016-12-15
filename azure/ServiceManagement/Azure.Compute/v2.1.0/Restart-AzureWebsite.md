@@ -6,6 +6,7 @@ ms.assetid: 45CACEDA-B133-4C6B-8763-226BE9A9ACCB
 updated_at: 11/18/2016 8:33 AM
 ms.date: 11/18/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Restart-AzureWebsite.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Restart-AzureWebsite.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Restart-AzureWebsite.md
 ms.topic: reference
 ms.prod: powershell

@@ -6,6 +6,7 @@ ms.assetid: 0DDE27B6-BDA5-45C4-8635-C094B9E92CC2
 updated_at: 11/1/2016 10:24 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/New-AzureRmSiteRecoveryVault.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/New-AzureRmSiteRecoveryVault.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/New-AzureRmSiteRecoveryVault.md
 ms.topic: reference
 ms.prod: powershell
