@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=722836
 schema: 2.0.0
 ms.assetid: F4A1DD4B-C8B9-4FA8-A809-388F01C0A0F0
-updated_at: 12/15/2016 1:18 AM
+updated_at: 12/15/2016 1:20 AM
 ms.date: 12/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Clear-AadrmSuperUserGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Clear-AadrmSuperUserGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6c9f0455dfca859d7f826e242d4d2b21fab65689/Azure%20Information%20Protection/AADRM/vlatest/Clear-AadrmSuperUserGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ae0ca3cf036af63b63933217a6218a232f5be618/Azure%20Information%20Protection/AADRM/vlatest/Clear-AadrmSuperUserGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -41,7 +41,7 @@ This cmdlet does not affect users that are individually assigned the super user 
 PS C:\>Clear-AadrmSuperUserGroup
 ```
 
-This command clears the super user group, if one exists, for the organization.
+This command removes the super user group, if one exists, for the organization.
 
 ## PARAMETERS
 
