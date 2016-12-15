@@ -6,6 +6,7 @@ ms.assetid: DF116EAD-6AC1-44CF-89E6-5E63D72FF58C
 updated_at: 11/3/2016 6:06 AM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-Aadrm.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-Aadrm.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/Get-Aadrm.md
 ms.topic: reference
 ms.prod: powershell

@@ -3,10 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400624
 schema: 2.0.0
 ms.assetid: 1CBB5251-7084-4545-B71A-670AC19DC5E4
-updated_at: 11/21/2016 6:01 PM
-ms.date: 11/21/2016
+updated_at: 12/14/2016 2:32 AM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/509e3e297cffef326ee90167ad75069fe7bc8f47/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3d5425b62845bed9497a9f6767e5de6deb355217/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -37,7 +38,7 @@ Add-AadrmTemplate -Names <Hashtable> [-Descriptions <Hashtable>]
 ## DESCRIPTION
 The **Add-AadrmTemplate** cmdlet creates an Azure Rights Management custom template with the specified name, description, and policy, and sets the status of the template to archived or published.
 
-Important: Before you use this cmdlet, you must first create a rights definition object that specifies the rights that you want to grant and to whom, by using the New-AadrmRightsDefinition cmdlet.
+Important: Before you use this cmdlet, you must first create a rights definition object that specifies the rights that you want to grant and to whom, by using the [New-AadrmRightsDefinition](./New-AadrmRightsDefinition.md) cmdlet.
 
 You can store a maximum of 500 custom templates (published or archived) in Azure.
 If you can't add new templates because you have reached this limit as a result of keeping many archived templates, consider exporting them to save the information locally and then removing these templates in Azure.
@@ -106,7 +107,7 @@ Accept wildcard characters: False
 
 ### -ContentValidityDuration
 Specifies the number of days from the first day of protection after which content protected with the template expires.
-Use this parameter only if *ContentExpirationOption* is set to AfterDays.
+Use this parameter only if the *ContentExpirationOption* parameter is set to AfterDays.
 
 ```yaml
 Type: Int32
@@ -248,7 +249,7 @@ Accept wildcard characters: False
 
 ### -ScopedIdentities
 Lists the users by email address (account or group) that can see and therefore select departmental templates from applications.
-For the specified users to see the templates, the application must support departmental templates or the EnableInLegacyApps parameter must be set to True.
+For the specified users to see the templates, the application must support departmental templates or the *EnableInLegacyApps* parameter must be set to True.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]

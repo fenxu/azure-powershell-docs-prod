@@ -3,10 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400625
 schema: 2.0.0
 ms.assetid: 7B9098EE-CE4B-4033-AB04-2F53B6238CE2
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 12/14/2016 3:02 AM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b57abf5e3bc09ecdcab451d90da166a10219742f/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -34,7 +35,7 @@ The **Export-AadrmTemplate** cmdlet exports all the properties of a rights polic
 You can then import the template to another Azure Rights Management tenant or you can edit it and import it back to the original tenant.
 You can use this technique to perform bulk edits of complex properties in templates, such as multilingual names and descriptions.
 
-Tip: Consider using this cmdlet as a way to back up your custom templates, so that you can revert to a known-good version if required..
+Tip: Consider using this cmdlet as a way to back up your custom templates, so that you can revert to a known-good version if required.
 
 The export process does not automatically append a file name extension, so you can specify a file name extension to match the application that you will use to view and edit the resulting data.
 

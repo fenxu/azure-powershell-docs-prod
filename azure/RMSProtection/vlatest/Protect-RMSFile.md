@@ -3,10 +3,11 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623207
 schema: 2.0.0
 ms.assetid: D0B8B71F-85E0-481B-B615-CE8D34EF564A
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 12/14/2016 6:30 PM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/816e19b625f1a45bab7406e8f5b65661a1489ff6/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -280,7 +281,7 @@ Accept wildcard characters: False
 ```
 
 ### -TemplateID
-Specifies the ID of the template to use to protect the specified file or files if you do not use the *-License* parameter for an ad-hoc policy.
+Specifies the ID of the template to use to protect the specified file or files if you do not use the *License* parameter for an ad-hoc policy.
 If you do not know the ID of the template that you want to use, use the [Get-RMSTemplate](./Get-RMSTemplate.md) cmdlet.
 
 ```yaml

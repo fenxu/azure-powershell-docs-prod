@@ -3,10 +3,11 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623209
 schema: 2.0.0
 ms.assetid: C07C0831-92B3-43CE-B18F-F2A12F3283DC
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 12/14/2016 6:38 PM
+ms.date: 12/14/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/103371525660e491f91e43e12d545f32310de3db/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -144,7 +145,12 @@ Accept wildcard characters: False
 
 ### -LogFile
 Specifies the path for log files that list the files that are successfully or unsuccessfully unprotected.
-Three log files are created: Success; Failure; and Debug.
+Three log files are created: 
+
+- Success
+- Failure
+- Debug
+
 For container files, these log files also include nested files.
 
 For the path, you can specify a drive letter or UNC.
