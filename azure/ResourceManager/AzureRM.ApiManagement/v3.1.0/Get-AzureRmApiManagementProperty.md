@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 57296F1E-C0CB-4FEC-8885-FA80C07C9484
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/15/2016 10:08 PM
+ms.date: 12/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementProperty.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b786cde0d2ec0899d0ad5d31000d0bdea023b70b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmApiManagementProperty
 
 ## SYNOPSIS
+Gets a list or a particular management property.
 
 ## SYNTAX
 
@@ -53,14 +54,11 @@ Get-AzureRmApiManagementProperty -Context <PsApiManagementContext> [-Tag <String
 
 ## EXAMPLES
 
-### 1:
-```
-PS C:\>
-```
-
 ## PARAMETERS
 
 ### -Context
+Specifies an instance of **PsApiManagementContext**.
+
 ```yaml
 Type: PsApiManagementContext
 Parameter Sets: (All)
@@ -113,6 +111,8 @@ Accept wildcard characters: False
 ```
 
 ### -PropertyId
+Specifies the identifier of the property that this cmdlet searches for.
+
 ```yaml
 Type: String
 Parameter Sets: Get by property ID
@@ -126,6 +126,8 @@ Accept wildcard characters: False
 ```
 
 ### -Name
+Specifies the name of the property.
+
 ```yaml
 Type: String
 Parameter Sets: Find properties containing Name
@@ -139,6 +141,8 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
+Specifies a tag that this cmdlet associates to the property.
+
 ```yaml
 Type: String
 Parameter Sets: Find properties by Tag
@@ -161,4 +165,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

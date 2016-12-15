@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: 164C5205-01BA-47BB-B780-D0B9AE614A4B
 online version: 
 schema: 2.0.0
-updated_at: 11/18/2016 11:58 PM
-ms.date: 11/18/2016
+updated_at: 12/15/2016 10:08 PM
+ms.date: 12/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b786cde0d2ec0899d0ad5d31000d0bdea023b70b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagement.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,7 @@ PS C:\>New-AzureRmApiManagement -ResourceGroupName "ContosoGroup02" -Name "Conto
 
 This command creates a Developer tier API Management service.
 The command specifies the organization and the administrator address.
-The command does not specify the *SKU* parameter.
+The command does not specify the *Sku* parameter.
 Therefore, the cmdlet uses the default value of Developer.
 
 ### Example 2: Create a Standard tier service that has three units
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 
 ### -Location
 Specifies the location in which this cmdlet creates an API Management deployment.
-To obtain valid locations, use the Get-AzureLocation cmdlets.
+To obtain valid locations, use the **Get-AzureLocation** cmdlets.
 
 Valid values are: 
 
@@ -221,8 +221,11 @@ Accept wildcard characters: False
 ```
 
 ### -VpnType
-Virtual Network Type of the ApiManagement Deployment. Valid Values are 
-- "None" (Default Value. ApiManagement is not part of any Virtual Network")
+Virtual Network Type of the ApiManagement Deployment. 
+
+The acceptable values for this parameter are:
+  
+- "None" (Default Value. ApiManagement is not part of any Virtual Network)
 - "External" (ApiManagement Deployment is setup inside a Virtual Network having an Internet Facing Endpoint)
 - "Internal" (ApiManagement Deployment is setup inside a Virtual Network having an Intranet Facing Endpoint)
 
@@ -325,5 +328,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagement.md)
 
 [Restore-AzureRmApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Restore-AzureRmApiManagement.md)
-
-

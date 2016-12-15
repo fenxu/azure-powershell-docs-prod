@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 9A97726A-1C8C-47AD-A265-926E20DD5560
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/15/2016 10:08 PM
+ms.date: 12/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Import-AzureRmApiManagementApi.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Import-AzureRmApiManagementApi.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Import-AzureRmApiManagementApi.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b786cde0d2ec0899d0ad5d31000d0bdea023b70b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Import-AzureRmApiManagementApi.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -103,7 +103,11 @@ Accept wildcard characters: False
 
 ### -SpecificationFormat
 Specifies the specification format.
-The acceptable values for this parameter are: Wadl, Wsdl, and Swagger.
+The acceptable values for this parameter are: 
+  
+- Wadl
+- Wsdl
+- Swagger
 
 ```yaml
 Type: PsApiManagementApiFormat
@@ -206,7 +210,7 @@ Accept wildcard characters: False
 
 ### -WsdlServiceName
 Specifies the local name of WSDL Service that this cmdlet imports.
-Specify this parameter if you specify Wsdl for *SpecificationFormat*.
+Specify this parameter if you specify Wsdl for the *SpecificationFormat* parameter.
 
 ```yaml
 Type: String
@@ -259,5 +263,3 @@ This cmdlet returns the imported API as a **PsApiManagementApi** object.
 [Remove-AzureRmApiManagementApi](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementApi.md)
 
 [Set-AzureRmApiManagementApi](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementApi.md)
-
-
