@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: EE84B745-4C13-40B8-B428-95C2E1E6EF44
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/16/2016 8:13 PM
+ms.date: 12/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4685d3cd09af2684c68de27776eda8bc3b66ca29/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -163,7 +163,7 @@ Accept wildcard characters: False
 ### -Note
 Specifies a note about the user.
 This parameter is optional.
-The default value of this parameter is $null.
+The default value of this parameter is $Null.
 
 ```yaml
 Type: String
@@ -250,5 +250,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementUser](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementUser.md)
 
 [Remove-AzureRmApiManagementUser](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementUser.md)
-
-

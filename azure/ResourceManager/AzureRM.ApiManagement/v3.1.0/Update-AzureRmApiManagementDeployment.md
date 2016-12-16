@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: 56604912-53A0-496D-9BDC-472BCE45A6A2
 online version: 
 schema: 2.0.0
-updated_at: 12/14/2016 5:41 PM
-ms.date: 12/14/2016
+updated_at: 12/16/2016 8:13 PM
+ms.date: 12/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f65526030e1e522df77064a57010d734c2a1856a/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4685d3cd09af2684c68de27776eda8bc3b66ca29/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -333,5 +333,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagement.md)
-
-

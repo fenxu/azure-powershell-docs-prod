@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 0A1F4C05-A2FA-44FC-9052-A2FE54BEB72D
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/16/2016 8:13 PM
+ms.date: 12/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementAuthorizationServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementAuthorizationServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementAuthorizationServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4685d3cd09af2684c68de27776eda8bc3b66ca29/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementAuthorizationServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -84,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the authorization server to modify.
+Specifies the name of the authorization server that this cmdlet modifies.
 
 ```yaml
 Type: String
@@ -408,5 +408,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementAuthorizationServer](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementAuthorizationServer.md)
 
 [Remove-AzureRmApiManagementAuthorizationServer](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementAuthorizationServer.md)
-
-
