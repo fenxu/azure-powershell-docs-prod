@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: 17D7EBD2-FE3F-4D24-A1AA-8C45B9B1FEF5
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/15/2016 11:11 PM
+ms.date: 12/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementRegion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementRegion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementRegion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/09d77fe04dadec70394dc03b69cb24dee37546de/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementRegion.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ### -Location
 Specifies the location of the region that this cmdlet removes.
 
-Valid values are: 
+The acceptable values for this parameter are:
 
 - North Central US
 - South Central US
@@ -156,5 +156,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Add-AzureRmApiManagementRegion](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Add-AzureRmApiManagementRegion.md)
 
 [Update-AzureRmApiManagementRegion](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementRegion.md)
-
-

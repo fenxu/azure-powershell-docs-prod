@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: EEAFC34D-C0B4-47BF-8167-21CD6E9CB826
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 12/15/2016 11:11 PM
+ms.date: 12/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/09d77fe04dadec70394dc03b69cb24dee37546de/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmApiManagementUser
 
 ## SYNOPSIS
-Deletes an existing user.
+Removes an existing user.
 
 ## SYNTAX
 
@@ -33,7 +33,7 @@ Remove-AzureRmApiManagementUser -Context <PsApiManagementContext> -UserId <Strin
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmApiManagementUser** cmdlet deletes an existing user.
+The **Remove-AzureRmApiManagementUser** cmdlet removes an existing user.
 
 ## EXAMPLES
 
@@ -42,7 +42,7 @@ The **Remove-AzureRmApiManagementUser** cmdlet deletes an existing user.
 PS C:\>Remove-AzureRmApiManagementUser -Context $apimContext -UserId "0123456789" -Force
 ```
 
-This command deletes an existing user.
+This command removes an existing user.
 
 ## PARAMETERS
 
@@ -95,7 +95,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Indicates that this cmdlet returns a value of $Ture, if it succeeds, or a value of $False, otherwise.
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -197,5 +198,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementUser](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementUser.md)
 
 [Set-AzureRmApiManagementUser](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementUser.md)
-
-

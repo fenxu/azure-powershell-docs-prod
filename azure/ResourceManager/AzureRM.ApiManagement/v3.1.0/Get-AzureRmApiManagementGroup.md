@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: A9D4D235-4558-4190-BE36-FB85A955B893
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/15/2016 10:08 PM
+ms.date: 12/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b786cde0d2ec0899d0ad5d31000d0bdea023b70b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -86,7 +86,7 @@ This command gets all user groups with the user ID named 0123456789.
 ## PARAMETERS
 
 ### -Context
-Specifies an instance of PsApiManagementContext.
+Specifies a **PsApiManagementContext** object.
 
 ```yaml
 Type: PsApiManagementContext
@@ -148,8 +148,8 @@ Accept wildcard characters: False
 ```
 
 ### -ProductId
-Identifier of existing product.
-If specified will return all groups the product assigned to.
+Specifies the identifier of an existing product.
+If specified this cmdlet returns all groups the product is assigned to.
 This parameter is optional.
 
 ```yaml
@@ -221,5 +221,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApiManagementGroup](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementGroup.md)
 
 [Set-AzureRmApiManagementGroup](xref:ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementGroup.md)
-
-

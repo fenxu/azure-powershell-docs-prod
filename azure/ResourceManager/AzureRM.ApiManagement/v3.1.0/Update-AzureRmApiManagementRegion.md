@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: 5B7B285A-6418-44D7-BD78-E14AFFAA7765
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/16/2016 8:13 PM
+ms.date: 12/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementRegion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementRegion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementRegion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4685d3cd09af2684c68de27776eda8bc3b66ca29/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Update-AzureRmApiManagementRegion.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,7 +35,7 @@ Update-AzureRmApiManagementRegion -ApiManagement <PsApiManagement> -Location <St
 ## DESCRIPTION
 The **Update-AzureRmApiManagementRegion** cmdlet updates an existing instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagementRegion** in a collection of **AdditionalRegions** objects of a provided instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagement**.
 This cmdlet does not deploy anything but updates an instance of **PsApiManagement** in-memory.
-To update a deployment of an API Management use the modified **PsApiManagementInstance** to the Update-AzureRmApiManagementDeployment cmdlet.
+To update a deployment of an API Management use the modified **PsApiManagementInstance** to the [Update-AzureRmApiManagementDeployment](./Update-AzureRmApiManagementDeployment.md) cmdlet.
 
 ## EXAMPLES
 
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ### -Location
 Specifies the location of the deployment region to update.
 
-Valid values are:
+The acceptable values for this parameter are:
 
 - North Central US
 - South Central US
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 ### -Sku
 Specifies the new tier value for the deployment region.
 
-Valid values are:
+The acceptable values for this parameter are:
 
 - Developer
 - Standard

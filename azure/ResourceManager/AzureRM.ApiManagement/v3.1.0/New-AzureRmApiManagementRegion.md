@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: A4226BFB-AB3B-4883-9D52-5EB7F29D8A71
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 12/15/2016 11:11 PM
+ms.date: 12/15/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementRegion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementRegion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementRegion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/09d77fe04dadec70394dc03b69cb24dee37546de/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementRegion.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,24 +33,24 @@ New-AzureRmApiManagementRegion -Location <String> [-Capacity <Int32>]
 ```
 
 ## DESCRIPTION
-Helper command to create an instance of PsApiManagementRegion.
-This command is to be used with New-AzureRmApiManagement command.
+Helper command to create an instance of **PsApiManagementRegion**.
+This command is to be used with [New-AzureRmApiManagement](./New-AzureRmApiManagement.md) command.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Create an ApiManagement service
 
 ```
 $apimRegion = New-AzureRmApiManagementRegion -Location "Central US" 
 
 $additionalRegions = @($apimRegion)
 
-New-AzureRmApiManagement -ResourceGroupName ContosoGroup -Location "West US" -Name ContosoApi -Organization Contoso -AdminEmail admin@contoso.com -AdditionalRegions $additionalRegions -Sku "Premium"
+New-AzureRmApiManagement -ResourceGroupName ContosoGroup -Location "West US" -Name ContosoApi -Organization "Contoso" -AdminEmail "admin@contoso.com" -AdditionalRegions $additionalRegions -Sku "Premium"
 ```
 
-### --------------------------  Example 2  --------------------------
-@{paragraph=PS C:\\\>}
+This example creates an ApiManagement service in West US Region, with an Additional Region in Central US that has a Premium Sku and an organization named Contoso.
+
+### Example 2: Create an ApiManagement service with an external VpnType
 
 ```
 $apimRegionVirtualNetwork = New-AzureRmApiManagementVirtualNetwork -Location "Central US" -SubnetResourceId "/subscriptions/a8ff56dc-3bc7-4174-a1e8-3726ab15d0e2/resourceGroups/ContosoGroup/providers/Microsoft.Network/virtualNetworks/centralusvirtualNetwork/subnets/backendSubnet"
@@ -64,12 +64,12 @@ $virtualNetwork = New-AzureRmApiManagementVirtualNetwork -Location "West US" -Su
 New-AzureRmApiManagement -ResourceGroupName ContosoGroup -Location "West US" -Name ContosoApi -Organization Contoso -AdminEmail admin@contoso.com -AdditionalRegions $additionalRegions -VirtualNetwork $virtualNetwork -VpnType "External" -Sku "Premium"
 ```
 
-Creates an ApiManagement service of External VpnType in West US Region, with an Additional Region in Central US.
+This example creates an ApiManagement service of External VpnType in West US Region, with an Additional Region in Central US.
 
 ## PARAMETERS
 
 ### -Location
-Location of the additional deployment region.
+Specifies the location of the additional deployment region.
 
 ```yaml
 Type: String
@@ -84,8 +84,8 @@ Accept wildcard characters: False
 ```
 
 ### -Capacity
-Sku capacity of the Azure API Management service additional region.
-Default value is 1.
+Specifies the Sku capacity of the Azure API Management service additional region.
+The default value is 1.
 
 ```yaml
 Type: Int32
@@ -100,8 +100,8 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualNetwork
-Virtual Network Configuration of Azure API Management deployment region.
-Default value is $null.
+Specifies the Virtual Network Configuration of Azure API Management deployment region.
+The default value is $Null.
 
 ```yaml
 Type: PsApiManagementVirtualNetwork
@@ -161,4 +161,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-
