@@ -1,9 +1,9 @@
 ---
-updated_at: 11/18/2016 5:33 AM
-ms.date: 11/18/2016
+updated_at: 12/22/2016 11:25 AM
+ms.date: 12/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/index.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e81535cdf2d724dc278ac5bb6bdee1b52f150bcd/Azure%20AD%20Cmdlets/MSOnline/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/00dc143b0b3fa358c197c8cc8a66545a866e8f83/Azure%20AD%20Cmdlets/MSOnline/index.md
 ms.topic: conceptual
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -17,6 +17,8 @@ ms.service: active-directory
 
 You can use the Azure Active Directory Module for Windows PowerShell cmdlets for Azure AD administrative tasks such as user management, domain management and for configuring single sign-on.
 This topic includes information about how to install these cmdlets for use with your directory.
+
+Please note that we will begin to deprecate this module when the functionality of this module is migrated to the newer [Azure Active Directory PowerShell V2 Module](https://docs.microsoft.com/en-us/powershell/azuread/v2/azureactivedirectory). We advise customers who are creating new PowerShell scripts to use the newer module instead of this module.
 
 
 ## Install the Azure AD Module
