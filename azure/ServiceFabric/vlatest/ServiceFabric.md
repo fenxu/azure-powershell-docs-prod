@@ -8,6 +8,7 @@ ms.assetid: 8FE06792-E775-4575-8C55-12A66ED66383
 updated_at: 11/11/2016 11:37 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/f13132d9850fcdd56cb5052cd757319e874eb566/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 uid: ServiceFabric/vlatest/ServiceFabric.md
 ms.topic: conceptual

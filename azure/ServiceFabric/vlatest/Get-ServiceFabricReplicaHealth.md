@@ -6,6 +6,7 @@ ms.assetid: 03B1C1AE-DF27-4EA0-8423-7224A9174AA3
 updated_at: 11/3/2016 12:09 AM
 ms.date: 11/3/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
 ms.topic: reference
 ms.technology: Azure Powershell

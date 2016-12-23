@@ -6,6 +6,7 @@ ms.assetid: EF6C08E7-6811-4F74-84FB-D4FCE4D6FAFD
 updated_at: 11/22/2016 8:59 PM
 ms.date: 11/22/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/2a5ea82fb26724d20409558b5656bffc61dfe3b3/Service-Fabric-cmdlets/ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md
 ms.topic: reference
 ms.technology: Azure Powershell
