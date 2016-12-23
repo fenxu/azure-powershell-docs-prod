@@ -279,6 +279,8 @@
           href: ../ServiceFabric/vlatest/Update-ServiceFabricClusterUpgrade.md
         - name: Update-ServiceFabricNodeConfiguration
           href: ../ServiceFabric/vlatest/Update-ServiceFabricNodeConfiguration.md
+        - name: Update-ServiceFabricRepairTaskHealthPolicy
+          href: ../ServiceFabric/vlatest/Update-ServiceFabricRepairTaskHealthPolicy.md
         - name: Update-ServiceFabricService
           href: ../ServiceFabric/vlatest/Update-ServiceFabricService.md
         - name: Update-ServiceFabricServiceGroup
