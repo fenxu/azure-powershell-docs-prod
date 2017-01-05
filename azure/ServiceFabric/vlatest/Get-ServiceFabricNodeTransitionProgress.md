@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 12/22/2016 9:13 PM
-ms.date: 12/22/2016
+updated_at: 1/5/2017 9:35 AM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/07b482c8e4942beb406aa22a0ce587e0d3c0a8ac/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/03aee89eb616a23e79b1299ebf31adce69ba5582/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -29,8 +29,8 @@ Get-ServiceFabricNodeTransitionProgress -OperationId <Guid> [-TimeoutSec <Int32>
 ```
 
 ## DESCRIPTION
-Gets the progress of a node transition operation started using Get-ServiceFabricNodeTransitionProgress.
-This cmdlet returns an object of type System.Fabric.NodeTransitionProgress.  The State property indicates the current state of the operation.  For example, Running means it is in progress, and Completed means it finished successfully.  See the example below for usage.
+Gets the progress of a node transition operation started using **Get-ServiceFabricNodeTransitionProgress**.
+This cmdlet returns an object of type **System.Fabric.NodeTransitionProgress**.  The State property indicates the current state of the operation.  For example, Running means it is in progress, and Completed means it finished successfully.  See the example below for usage.
 ## EXAMPLES
 
 ### Example 1
@@ -58,7 +58,7 @@ InstanceIdMismatch
 ## PARAMETERS
 
 ### -OperationId
-A Guid used to track the operation.  The value of the parameter should be the same value that was passed into Start-ServiceFabricNodeTransition, which started the operation.
+A Guid used to track the operation.  The value of the parameter should be the same value that was passed into **Start-ServiceFabricNodeTransition**, which started the operation.
 
 ```yaml
 Type: Guid
