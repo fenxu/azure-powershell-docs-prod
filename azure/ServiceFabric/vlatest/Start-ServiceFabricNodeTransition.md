@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 1/5/2017 9:35 AM
-ms.date: 1/5/2017
+updated_at: 1/6/2017 4:05 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/03aee89eb616a23e79b1299ebf31adce69ba5582/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/6bca44f3dba8260569d7266eafaa664c8154bb93/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -174,15 +174,15 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-See parameters above.
+### See parameters above.
 
 
 ## OUTPUTS
 
-None
+### None
 
 ## NOTES
 
 ## RELATED LINKS
 
-https://docs.microsoft.com/azure/service-fabric/service-fabric-node-transition-apis
+[Replacing the Start Node and Stop node APIs with the Node Transition API](https://docs.microsoft.com/azure/service-fabric/service-fabric-node-transition-apis)
