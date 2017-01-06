@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 ms.assetid: AC73119B-BB76-425B-AA44-44502028ECC4
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 10:08 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Start-AzureSiteRecoveryUnplannedFailoverJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Start-AzureSiteRecoveryUnplannedFailoverJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Start-AzureSiteRecoveryUnplannedFailoverJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04695beed9bb4c0eefd59fe6dd1cdccc28b6a259/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Start-AzureSiteRecoveryUnplannedFailoverJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -58,13 +58,13 @@ Start-AzureSiteRecoveryUnplannedFailoverJob -ProtectionEntity <ASRProtectionEnti
 
 ## DESCRIPTION
 The **Start-AzureSiteRecoveryUnplannedFailoverJob** cmdlet starts the unplanned failover of an Azure Site Recovery protection entity or recovery plan.
-You can check whether the job succeeds by using the Get-AzureSiteRecoveryJob cmdlet.
+You can check whether the job succeeds by using the **Get-AzureSiteRecoveryJob** cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Start an unplanned failover job
 ```
-PS C:\>$ProtectionContainer = Get-AzureSiteRecoveryProtectionContainer
+PS C:\> $ProtectionContainer = Get-AzureSiteRecoveryProtectionContainer
 PS C:\> $ProtectionEntity = Get-AzureSiteRecoveryProtectionEntity -ProtectionContainer $ProtectionContainer 
 PS C:\> Start-AzureSiteRecoveryUnplannedFailoverJob -ProtectionEntity $ProtectionEntity -Direction "PrimaryToRecovery"
 ID               : c38eecdc-731c-405b-a61c-08db99aae2fe
@@ -79,9 +79,9 @@ Tasks            : {}
 Errors           : {}
 ```
 
-The first command gets a protected container by using the Get-AzureSiteRecoveryProtectionContainer cmdlet, and then stores it in the $ProtectionContainer variable.
+The first command gets a protected container by using the **Get-AzureSiteRecoveryProtectionContainer** cmdlet, and then stores it in the $ProtectionContainer variable.
 
-The second command gets the protected entities that belong to the protected container stored in $ProtectionContainer by using the Get-AzureSiteRecoveryProtectionEntity cmdlet.
+The second command gets the protected entities that belong to the protected container stored in $ProtectionContainer by using the **Get-AzureSiteRecoveryProtectionEntity** cmdlet.
 The command stores the results in the $ProtectionEntity variable.
 
 The final command starts the failover for the protected entities stored in $ProtectionEntity and specifies the direction of the failover.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 ms.assetid: 6C435518-06EA-41B7-9585-44107B026FF1
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 10:41 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Add-AzureEnvironment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Add-AzureEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Add-AzureEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379557ccffccbfa288c09f905962979254b5a124/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Add-AzureEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Add-AzureEnvironment
 
 ## SYNOPSIS
-Creates an Azure environment
+Creates an Azure environment.
 
 ## SYNTAX
 
@@ -44,23 +44,24 @@ When the command completes, you can use the environment in Windows PowerShell.
 
 An Azure environment an independent deployment of Microsoft Azure, such as AzureCloud for global Azure and AzureChinaCloud for Azure operated by 21Vianet in China.
 You can also create on-premises Azure environments by using Azure Pack and the WAPack cmdlets.
-For more information, see Azure Packhttp://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx (http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx).
+For more information, see [Azure Pack](http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx) (http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx).
 
 Only the **Name** parameter of this cmdlet is mandatory.
-If you omit a parameter, its value is null ($null), and the service that uses that endpoint might not function properly.
+If you omit a parameter, its value is null ($Null), and the service that uses that endpoint might not function properly.
 To add or change the value of an environment property, use the **Set-AzureEnvironment** cmdlet.
 
 NOTE: Changing your environment can cause your account to fail.
 Typically, environments are added only for testing or troubleshooting.
 
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 ## EXAMPLES
 
 ### Example 1: Add an Azure environment
 ```
-PS C:\>Add-AzureEnvironment -Name ContosoEnv -PublishSettingsFileUrl https://contoso.com/fwlink/?LinkID=101 -ServiceEndpoint https://contoso.com/fwlink/?LinkID=102
+PS C:\> Add-AzureEnvironment -Name ContosoEnv -PublishSettingsFileUrl https://contoso.com/fwlink/?LinkID=101 -ServiceEndpoint https://contoso.com/fwlink/?LinkID=102
+
 Name                          : ContosoEnv
 
 PublishSettingsFileUrl        : https://contoso.com/fwlink/?LinkID=101
@@ -186,7 +187,7 @@ Accept wildcard characters: False
 
 ### -ResourceManagerEndpoint
 Specifies the endpoint for Azure Resource Manager data, including data about resource groups associated with the account.
-For more information about Azure Resource Manager, see Azure Resource Manager Cmdletshttp://go.microsoft.com/fwlink/?LinkID=394765 (http://go.microsoft.com/fwlink/?LinkID=394765) and  Using Windows PowerShell with Resource Managerhttp://go.microsoft.com/fwlink/?LinkID=394767 (http://go.microsoft.com/fwlink/?LinkID=394767).
+For more information about Azure Resource Manager, see [Azure Resource Manager Cmdlets](http://go.microsoft.com/fwlink/?LinkID=394765)  (http://go.microsoft.com/fwlink/?LinkID=394765) and [Using Windows PowerShell with Resource Manager](http://go.microsoft.com/fwlink/?LinkID=394767)  (http://go.microsoft.com/fwlink/?LinkID=394767).
 
 ```yaml
 Type: String
@@ -323,6 +324,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
+
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)

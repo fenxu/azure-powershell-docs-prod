@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 ms.assetid: 43E5EC54-5DF4-4D32-8657-D7039DD04513
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 9:56 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/New-AzureSiteRecoverySite.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/New-AzureSiteRecoverySite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/New-AzureSiteRecoverySite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5de5c3508c54977d862f546f41ff111633de6ee9/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/New-AzureSiteRecoverySite.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **New-AzureSiteRecoverySite** cmdlet creates an Azure Site Recovery site in 
 
 ### Example 1: Create a Site Recovery site
 ```
-PS C:\>New-AzureSiteRecoverySite -Name "RecoverySite07"
+PS C:\> New-AzureSiteRecoverySite -Name "RecoverySite07"
 ```
 
 This command creates a site recovery site named RecoverySite07.
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 
 ### -Vault
 Specifies a vault for which to create the site.
-To obtain an **ASRVault** object, use the Get-AzureSiteRecoveryVault cmdlet.
+To obtain an **ASRVault** object, use the **Get-AzureSiteRecoveryVault** cmdlet.
 
 ```yaml
 Type: ASRVault

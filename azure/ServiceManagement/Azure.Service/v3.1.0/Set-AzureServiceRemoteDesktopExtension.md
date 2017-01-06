@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 5C8B1482-80B0-4060-A35D-E9D394156886
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureServiceRemoteDesktopExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureServiceRemoteDesktopExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureServiceRemoteDesktopExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureServiceRemoteDesktopExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,14 +49,14 @@ The **Set-AzureServiceRemoteDesktopExtension** cmdlet enables remote desktop ext
 
 ### Example 1: Enable remote desktop extension
 ```
-PS C:\>Set-AzureServiceRemoteDesktopExtension -ServiceName $svc -Credentials $creds
+PS C:\> Set-AzureServiceRemoteDesktopExtension -ServiceName $svc -Credentials $creds
 ```
 
 This command enables the remote desktop extension for the specified service.
 
 ### Example 2: Enable remote desktop extension for a specified role
 ```
-PS C:\>Set-AzureServiceRemoteDesktopExtension -ServiceName $svc -Credentials $creds -Role "WebRole1"
+PS C:\> Set-AzureServiceRemoteDesktopExtension -ServiceName $svc -Credentials $creds -Role "WebRole1"
 ```
 
 This command enables the remote desktop extension for the specified service and role.

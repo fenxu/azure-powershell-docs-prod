@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 ms.assetid: 7A45DCAD-88DC-40F0-BBF7-0F531A571CA6
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 10:41 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Select-AzureSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Select-AzureSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Select-AzureSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379557ccffccbfa288c09f905962979254b5a124/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Select-AzureSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Select-AzureSubscription
 
 ## SYNOPSIS
-Changes the current and default Azure subscriptions
+Changes the current and default Azure subscriptions.
 
 ## SYNTAX
 
@@ -77,7 +77,7 @@ The "default" subscription designation is saved in your subscription data file.
 The session-specific "current" designation is not saved.
 
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 ## EXAMPLES
 
@@ -137,6 +137,9 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
+Returns $True if the command succeeds and $False if it fails.
+By default, this cmdlet does not return any output.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -150,6 +153,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
+
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
@@ -264,7 +270,7 @@ You can pipe input to this cmdlet by property name, but not by value.
 ## OUTPUTS
 
 ### None or System.Boolean
-If you use the **PassThru** parameter, this cmdlet returns a Boolean value.
+If you use the *PassThru* parameter, this cmdlet returns a Boolean value.
 By default, it does not generate any output.
 
 ## NOTES

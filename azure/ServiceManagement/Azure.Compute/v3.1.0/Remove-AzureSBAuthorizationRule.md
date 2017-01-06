@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: E246C177-EAEE-4D7A-A544-664F47862FC7
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-AzureSBAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-AzureSBAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-AzureSBAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-AzureSBAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureSBAuthorizationRule
 
 ## SYNOPSIS
-Removes existing Service Bus authorization rule
+Removes existing Service Bus authorization rule.
 
 ## SYNTAX
 
@@ -44,16 +44,16 @@ Removes existing Service Bus authorization rule.
 
 ## EXAMPLES
 
-### 1: Remove authorization rule at namespace level
+### Example 1: Remove authorization rule at namespace level
 ```
-C:\PS>Remove-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace
+PS C:\> Remove-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace
 ```
 
 Removes authorization rule MyRule from MyNamespace.
 
-### 2: Remove authorization rule for a Queue
+### Example 2: Remove authorization rule for a Queue
 ```
-C:\PS>Remove-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace -EntityName MyEntity -EntityType Queue
+PS C:\> Remove-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace -EntityName MyEntity -EntityType Queue
 ```
 
 Removes authorization rule called MyRule for a MyEntity Queue on MyNamespace.

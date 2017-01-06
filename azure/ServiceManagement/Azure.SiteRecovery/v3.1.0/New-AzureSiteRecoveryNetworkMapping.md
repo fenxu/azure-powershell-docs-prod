@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 ms.assetid: ABBE1803-D143-4296-9E2B-9F799CE3D95F
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:17 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/New-AzureSiteRecoveryNetworkMapping.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/New-AzureSiteRecoveryNetworkMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/New-AzureSiteRecoveryNetworkMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bd8ec477a0b6485d65a52916888b2406cac81232/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/New-AzureSiteRecoveryNetworkMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,7 +49,7 @@ This cmdlet returns an Azure Site Recovery job.
 
 ### Example 1: Create a mapping between a network and a recovery network
 ```
-PS C:\>$Servers = Get-AzureSiteRecoveryServer
+PS C:\> $Servers = Get-AzureSiteRecoveryServer
 PS C:\> $Networks = Get-AzureSiteRecoveryNetwork -Server $Servers[0]
 PS C:\> New-AzureSiteRecoveryNetworkMapping -PrimaryNetwork $Networks[0] -RecoveryNetwork $Networks[1]
 ```
@@ -66,7 +66,7 @@ The command specifies the recovery network as the second element of $Networks.
 
 ### Example 2: Create a mapping between a network and an Azure virtual machine network
 ```
-PS C:\>$Servers = Get-AzureSiteRecoveryServer
+PS C:\> $Servers = Get-AzureSiteRecoveryServer
 PS C:\> $Networks = Get-AzureSiteRecoveryNetwork -Server $Servers[0]
 PS C:\> $Subscriptions = Get-AzureSubscription
 PS C:\> $AzureVmNetworks = Get-AzureVNetSite
@@ -74,7 +74,7 @@ PS C:\> New-AzureSiteRecoveryNetworkMapping -PrimaryNetwork $Networks[0] -AzureS
 ```
 
 The first command cmdlet gets servers for the current Azure Site Recovery vault.
-The command stores the Microsoft Azure Site Recovery servers in the **$Servers** array variable.
+The command stores the Microsoft Azure Site Recovery servers in the $Servers array variable.
 
 The second command gets the site recovery network for the first server in the $Servers array.
 The command stores the networks in the $Networks variable.
@@ -193,7 +193,8 @@ Accept wildcard characters: False
 ```
 
 ### -AzureVMNetworkId
-Specifies the ID of your Azure virtual machine network.This cmdlet maps the primary network to the network that this parameter specifies.
+Specifies the ID of your Azure virtual machine network.
+This cmdlet maps the primary network to the network that this parameter specifies.
 
 ```yaml
 Type: String

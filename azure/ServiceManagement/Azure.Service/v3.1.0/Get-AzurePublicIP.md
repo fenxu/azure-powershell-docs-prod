@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 5BEE9430-D6BF-49F1-A23D-32784C6C818E
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:47 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzurePublicIP.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzurePublicIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzurePublicIP.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c17253ff7f696fb211814185df5f94106c4534a8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzurePublicIP.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,16 +33,16 @@ Get-AzurePublicIP [[-PublicIPName] <String>] -VM <IPersistentVM> [-Profile <Azur
 
 ## DESCRIPTION
 The **Get-AzurePublicIP** cmdlet gets the Public IP information for an Azure virtual machine.
-To obtain the IP address of the Public IP, use the Get-AzureVM cmdlet.
+To obtain the IP address of the Public IP, use the **Get-AzureVM** cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Get Public IP configuration
 ```
-PS C:\>Get-AzureVM -ServiceName "FTPInAzure" -Name "FTPInstance" | Get-AzurePublicIP
+PS C:\> Get-AzureVM -ServiceName "FTPInAzure" -Name "FTPInstance" | Get-AzurePublicIP
 ```
 
-This command gets the virtual machine named FTPInstance in the service named FTPInAzure by using the Get-AzureVM cmdlet.
+This command gets the virtual machine named FTPInstance in the service named FTPInAzure by using the **Get-AzureVM** cmdlet.
 The command passes that virtual machine to the current cmdlet by using the pipeline operator.
 The current cmdlet gets Public IP configuration from the virtual machine.
 

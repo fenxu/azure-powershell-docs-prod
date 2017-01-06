@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 ms.assetid: 7B2D9768-919B-4F54-BBC7-8882CC2C973A
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 7:33 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3c119b6c79abfdf15aa7736c17ff4df9df4548d3/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ Automation resources include runbooks, jobs, and assets.
 
 ### Example 1: Get an Automation account
 ```
-PS C:\>Get-AzureAutomationAccount -Name "Contoso17"
+PS C:\> Get-AzureAutomationAccount -Name "Contoso17"
 ```
 
 This command gets the Automation account named Contoso17.

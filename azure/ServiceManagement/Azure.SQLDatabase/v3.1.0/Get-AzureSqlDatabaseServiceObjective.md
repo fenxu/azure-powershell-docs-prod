@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 ms.assetid: A2C22A8A-EF50-4BE3-82DF-5ED6F69C00CA
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 9:17 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseServiceObjective.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseServiceObjective.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseServiceObjective.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8bbe11a32244ebde0ad865d340e59d85ee67d16e/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseServiceObjective.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -51,14 +51,14 @@ This cmdlet applies to Basic, Standard, and Premium service tiers.
 
 ### Example 1: Get all the service objectives by using a connection context
 ```
-PS C:\>Get-AzureSqlDatabaseServiceObjective -Context $Context
+PS C:\> Get-AzureSqlDatabaseServiceObjective -Context $Context
 ```
 
 This command gets all the service objectives for the server that the connection context $Context specifies.
 
 ### Example 2: Get all the service objectives by using a server name
 ```
-PS C:\>Get-AzureSqlDatabaseServiceObjective -ServerName "Server01"
+PS C:\> Get-AzureSqlDatabaseServiceObjective -ServerName "Server01"
 ```
 
 This command gets all the service objectives for the server named Server01.
@@ -95,7 +95,7 @@ Valid values are:
 - Premium (P3): a7c4c615-cfb1-464b-b252-925be0a19446
 
 *Standard (S3) is part of the Latest SQL Database Update V12 (preview).
-For more information, see What's New in the Azure SQL Database V12 Previewhttp://azure.microsoft.com/documentation/articles/sql-database-preview-whats-new/.
+For more information, see [What's New in the Azure SQL Database V12 Preview](http://azure.microsoft.com/documentation/articles/sql-database-preview-whats-new/) (`http://azure.microsoft.com/documentation/articles/sql-database-preview-whats-new/`) in the Azure library.
 
 ```yaml
 Type: ServiceObjective
@@ -204,7 +204,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## OUTPUTS
 
-### IEnumerable<Microsoft.WindowsAzure.Commands.SqlDatabase.Services.Server.ServiceObjective>
+### IEnumerable\<Microsoft.WindowsAzure.Commands.SqlDatabase.Services.Server.ServiceObjective\>
 
 ## NOTES
 

@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 2D55EE4A-D67B-4C86-B0AC-81F3EAA79DE3
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 6:13 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Azure.Compute.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Azure.Compute.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Azure.Compute.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/10d5db95c5649f79b4844462bb63e71dfc0bd195/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Azure.Compute.md
 uid: ServiceManagement/Azure.Compute/v3.1.0/Azure.Compute.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -36,11 +36,11 @@ Creates the required files and folders for a Node.js application to be hosted in
 
 
 ### [Add-AzurePHPWebRole](./Add-AzurePHPWebRole.md)
-Creates the required files and configuration (sometimes referred to as scaffolding) for a PHP application.
+Creates the required files and configuration for a PHP application.
 
 
 ### [Add-AzurePHPWorkerRole](./Add-AzurePHPWorkerRole.md)
-Creates the required files and configuration (sometimes referred to as scaffolding) for a PHP application that will be hosted in Azure through php.exe.
+Creates the required files and configuration for a PHP application that will be hosted in Azure through php.exe.
 
 
 ### [Add-AzureWebRole](./Add-AzureWebRole.md)
@@ -48,7 +48,7 @@ Adds a web worker role.
 
 
 ### [Add-AzureWorkerRole](./Add-AzureWorkerRole.md)
-Creates required files and configuration (sometimes referred to as scaffolding) for a custom worker role.
+Creates required files and configuration for a custom worker role.
 
 
 ### [Disable-AzureServiceProjectRemoteDesktop](./Disable-AzureServiceProjectRemoteDesktop.md)
@@ -60,7 +60,7 @@ Disables application diagnostics for an Azure website.
 
 
 ### [Disable-AzureWebsiteDebug](./Disable-AzureWebsiteDebug.md)
-Disables the website's debugging
+Disables the website's debugging.
 
 
 ### [Enable-AzureServiceProjectRemoteDesktop](./Enable-AzureServiceProjectRemoteDesktop.md)
@@ -132,7 +132,7 @@ Gets a web job history.
 
 
 ### [Get-AzureWebsiteJob](./Get-AzureWebsiteJob.md)
-Gets the web jobs associated with a website
+Gets the web jobs associated with a website.
 
 
 ### [Get-AzureWebsiteLocation](./Get-AzureWebsiteLocation.md)
@@ -228,7 +228,7 @@ Creates a scheduler job that has a Storage action.
 
 
 ### [New-AzureServiceProject](./New-AzureServiceProject.md)
-Creates the required files and configuration (sometimes referred to as scaffolding) for a new service.
+Creates the required files and configuration for a new service.
 
 
 ### [New-AzureStoreAddOn](./New-AzureStoreAddOn.md)
@@ -284,7 +284,7 @@ Removes the specified Azure Media Services account.
 
 
 ### [Remove-AzureSBAuthorizationRule](./Remove-AzureSBAuthorizationRule.md)
-Removes existing Service Bus authorization rule
+Removes existing Service Bus authorization rule.
 
 
 ### [Remove-AzureSBNamespace](./Remove-AzureSBNamespace.md)
@@ -356,7 +356,7 @@ Resumes paused virtual machines.
 
 
 ### [Save-AzureServiceProjectPackage](./Save-AzureServiceProjectPackage.md)
-Packages the service project into Azure cloud package (*.cspkg).
+Packages the service project into Azure cloud package.
 
 
 ### [Save-AzureWebsiteLog](./Save-AzureWebsiteLog.md)
@@ -364,7 +364,7 @@ Downloads and saves the logs for a specified website.
 
 
 ### [Set-AzureSBAuthorizationRule](./Set-AzureSBAuthorizationRule.md)
-Updates existing Service Bus authorization rule
+Updates existing Service Bus authorization rule.
 
 
 ### [Set-AzureSchedulerHttpJob](./Set-AzureSchedulerHttpJob.md)
@@ -384,7 +384,7 @@ Sets the number of instances or the runtime version of a role.
 
 
 ### [Set-AzureServiceProject](./Set-AzureServiceProject.md)
-Sets default location, subscription, slot, and storage account for the current service
+Sets default location, subscription, slot, and storage account for the current service.
 
 
 ### [Set-AzureStoreAddOn](./Set-AzureStoreAddOn.md)

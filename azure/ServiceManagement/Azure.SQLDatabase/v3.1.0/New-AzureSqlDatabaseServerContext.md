@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 ms.assetid: B7B29875-D2E5-4E96-AD4B-83032AB18D02
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 9:17 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/New-AzureSqlDatabaseServerContext.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/New-AzureSqlDatabaseServerContext.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/New-AzureSqlDatabaseServerContext.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8bbe11a32244ebde0ad865d340e59d85ee67d16e/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/New-AzureSqlDatabaseServerContext.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -76,7 +76,7 @@ Use the Select-AzureSubscriptionhttp://msdn.microsoft.com/library/windowsazure/j
 
 ### Example 1: Create a context by using SQL Server authentication
 ```
-PS C:\>$Credential = Get-Credential
+PS C:\> $Credential = Get-Credential
 PS C:\> $Context = New-AzureSqlDatabaseServerContext -ServerName "lpqd0zbr8y" -Credential $Credential
 PS C:\> $Database17 = New-AzureSqlDatabase -ConnectionContext $Context -DatabaseName "Database17" -MaxSizeGB 50 -Collation "SQL_Latin1_General_CP1_CI_AS"
 ```
@@ -91,7 +91,7 @@ The final command creates a database named Database17 on the server that is part
 
 ### Example 2: Create a context by using certificate based authentication
 ```
-PS C:\>$SubscriptionId = <Subscription ID>
+PS C:\> $SubscriptionId = <Subscription ID>
 PS C:\> $Thumbprint = <Certificate Thumbprint>
 PS C:\> $Certificate = Get-Item "Cert:\CurrentUser\My\$Thumbprint"
 PS C:\> Set-AzureSubscription -SubscriptionName "Subscription07" -SubscriptionId $SubscriptionId -Certificate $Certificate

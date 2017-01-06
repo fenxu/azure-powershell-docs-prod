@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 8F881112-3603-4EE7-88A4-ED45040A60AC
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:47 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureVMAccessExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureVMAccessExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureVMAccessExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c17253ff7f696fb211814185df5f94106c4534a8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureVMAccessExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -54,7 +54,7 @@ The **Set-AzureVMAccessExtension** cmdlet sets the VMAccess extension for the vi
 
 ### Example 1: Set the VMAccess extension applied to a specified virtual machine
 ```
-PS C:\>Set-AzureVMAccessExtension -VM $VM -UserName $User -Password $PWD;
+PS C:\> Set-AzureVMAccessExtension -VM $VM -UserName $User -Password $PWD;
 ```
 
 This command sets the VMAccess extension applied to the specified virtual machine as stored in the variable $VM.
@@ -97,7 +97,7 @@ Specifies the reference name of the access extension.
 This is a user-defined string that is used to refer to an extension.
 It is specified when the extension is added to the virtual machine for the first time.
 For subsequent updates, you should specify the previously used reference name while updating the extension.
-The *ReferenceName* assigned to an extension is returned using the Get-AzureVM cmdlet.
+The *ReferenceName* assigned to an extension is returned using the **Get-AzureVM** cmdlet.
 
 ```yaml
 Type: String

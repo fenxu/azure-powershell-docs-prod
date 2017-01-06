@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: 739EB137-E4A8-4E85-96BD-4CF26D2C5763
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **New-AzureRmAutomationCredential** cmdlet creates a credential as a **PSCre
 
 ### Example 1: Create a credential
 ```
-PS C:\>$User = "Contoso\PFuller"
+PS C:\> $User = "Contoso\PFuller"
 PS C:\> $Password = ConvertTo-SecureString "Password" -AsPlainText -Force
 PS C:\> $Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User, $Password
 PS C:\> New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -Name "ContosoCredential" -Value $Credential -ResourceGroupName "ResourceGroup01"
@@ -46,7 +46,7 @@ PS C:\> New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -Name
 
 The first command assigns a user name to the $User variable.
 
-The second command converts a plain text password into a secure string by using the ConvertTo-SecureString cmdlet.
+The second command converts a plain text password into a secure string by using the **ConvertTo-SecureString** cmdlet.
 The command stores that object in the $Password variable.
 
 The third command creates a credential based on $User and $Password, and then stores it in the $Credential variable.
@@ -148,5 +148,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmAutomationCredential](xref:ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRMAutomationCredential.md)
 
 [Set-AzureRmAutomationCredential](xref:ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRMAutomationCredential.md)
-
-

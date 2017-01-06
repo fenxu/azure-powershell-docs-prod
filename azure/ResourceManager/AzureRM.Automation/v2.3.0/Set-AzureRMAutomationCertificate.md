@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: F1A2861F-14EF-4F67-8452-31FD498528BB
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRMAutomationCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRMAutomationCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRMAutomationCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRMAutomationCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,11 +39,11 @@ The **Set-AzureRmAutomationCertificate** cmdlet modifies the configuration of a 
 
 ### Example 1: Modify a certificate
 ```
-PS C:\>$Password = ConvertTo-SecureString -String "Password" -AsPlainText -Force
+PS C:\> $Password = ConvertTo-SecureString -String "Password" -AsPlainText -Force
 PS C:\> Set-AzureAutomationCertificate -AutomationAccountName "Contos17" -Name "ContosoCertificate" -Path "./cert.pfx" -Password $Password -ResourceGroupName "ResourceGroup01"
 ```
 
-The first command converts a plain text password to be a secure string by using the ConvertTo-SecureString cmdlet.
+The first command converts a plain text password to be a secure string by using the **ConvertTo-SecureString** cmdlet.
 The command stores that object in the $Password variable.
 
 The second command modifies a certificate named ContosoCertificate.
@@ -176,5 +176,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmAutomationCertificate](xref:ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationCertificate.md)
 
 [Remove-AzureRmAutomationCertificate](xref:ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRMAutomationCertificate.md)
-
-

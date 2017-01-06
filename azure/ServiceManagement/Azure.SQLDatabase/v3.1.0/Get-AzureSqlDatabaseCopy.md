@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 ms.assetid: 5AEF7D44-624D-4794-86FF-156E6729BB56
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 9:17 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseCopy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8bbe11a32244ebde0ad865d340e59d85ee67d16e/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -63,7 +63,7 @@ To see the status for only a particular database, specify both parameters.
 
 ### Example 1: Get the copy status of a database
 ```
-PS C:\>Get-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y" -DatabaseName "Orders" -PartnerServer "bk0b8kf658"
+PS C:\> Get-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y" -DatabaseName "Orders" -PartnerServer "bk0b8kf658"
 ```
 
 This command gets the status of the database named Orders on the server named lpqd0zbr8y.
@@ -71,7 +71,7 @@ The *PartnerServer* parameter restricts this command to the bk0b8kf658 server.
 
 ### Example 2: Get the status of all copies on a serverGet the status of all copies on a server
 ```
-PS C:\>Get-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y"
+PS C:\> Get-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y"
 ```
 
 This command gets the status of all active copies on the server named lpqd0zbr8y.

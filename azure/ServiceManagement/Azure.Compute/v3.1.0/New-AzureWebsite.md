@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: FBB55071-454D-4473-93BA-D97F33067785
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/New-AzureWebsite.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/New-AzureWebsite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/New-AzureWebsite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/New-AzureWebsite.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,22 +35,22 @@ New-AzureWebsite [[-Location] <String>] [[-Hostname] <String>] [[-PublishingUser
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The cmdlet creates a new website to run in Azure and prepares for deployment through Github.
 
 ## EXAMPLES
 
-### 1: Create a new website with Git
+### Example 1: Create a new website with Git
 ```
-PS C:\>New-AzureWebsite mySite -Git
+PS C:\> New-AzureWebsite mySite -Git
 ```
 
 This example creates a new website in Azure and a local Git repository to use for deploying files to the new website.
 
-### 2: Create website integrated with Github
+### Example 2: Create website integrated with Github
 ```
-PS C:\>New-AzureWebsite mysite -Github -GithubRepository myaccount/myrepo
+PS C:\> New-AzureWebsite mysite -Github -GithubRepository myaccount/myrepo
 ```
 
 This example creates a new website linked to a Github repository named myaccount/myrepo.
@@ -89,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -PublishingUsername
-The user name you have specified in the Azure Portal for Git deployment.
+Specifies the user name you have specified in the Azure Portal for Git deployment.
 
 ```yaml
 Type: String
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -GitHub
-If enabled, this parameter links the new website to an existing Github repository.
+Indicates that this cmdlet links the new website to an existing Github repository.
 Commits to the Giuthub repository are pushed to the website in Azure.
 
 ```yaml
@@ -152,7 +152,7 @@ Accept wildcard characters: False
 
 ### -GithubRepository
 Specifies the full name of the Github repository to link to this website.
-For example, myaccount/myrepo.
+For example, `myaccount/myrepo`.
 
 ```yaml
 Type: String

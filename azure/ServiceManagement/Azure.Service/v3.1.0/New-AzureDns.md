@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 1085388B-0855-4E29-9043-3FE2C638F58D
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:47 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/New-AzureDns.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/New-AzureDns.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/New-AzureDns.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c17253ff7f696fb211814185df5f94106c4534a8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/New-AzureDns.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,13 +33,13 @@ New-AzureDns [-Name] <String> [-IPAddress] <String> [-InformationAction <ActionP
 
 ## DESCRIPTION
 The **New-AzureDns** cmdlet creates an Azure DNS settings object.
-You can use a DNS settings object when you create a virtual machine by using the New-AzureVM cmdlet.
+You can use a DNS settings object when you create a virtual machine by using the **New-AzureVM** cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Create a DNS settings object
 ```
-PS C:\>$Dns = New-AzureDns -Name "Dns01" -IPAddress "10.1.2.4"
+PS C:\> $Dns = New-AzureDns -Name "Dns01" -IPAddress "10.1.2.4"
 ```
 
 This command creates an Azure DNS settings object.

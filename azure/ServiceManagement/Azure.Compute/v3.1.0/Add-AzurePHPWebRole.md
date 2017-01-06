@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: F9A06B8B-55DB-48A5-B246-53347E759E64
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzurePHPWebRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzurePHPWebRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzurePHPWebRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzurePHPWebRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Add-AzurePHPWebRole
 
 ## SYNOPSIS
-Creates the required files and configuration (sometimes referred to as scaffolding) for a PHP application.
+Creates the required files and configuration for a PHP application.
 
 ## SYNTAX
 
@@ -33,22 +33,22 @@ Add-AzurePHPWebRole [[-Name] <String>] [[-Instances] <Int32>] [-Profile <AzureSM
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
-The **Add-AzurePHPWebRole** cmdlet creates the files and configuration (sometimes referred to as scaffolding) for a PHP application that will be hosted in Azure through IIS.
+The **Add-AzurePHPWebRole** cmdlet creates the files and configuration, sometimes referred to as scaffolding, for a PHP application that will be hosted in Azure through IIS.
 
 ## EXAMPLES
 
-### 1: Add a web role using default values
+### Example 1: Add a web role using default values
 ```
-PS C:\>Add-AzurePHPWebRole
+PS C:\> Add-AzurePHPWebRole
 ```
 
 This example adds the required files and configuration for new web role using the default values of a service named "WebRole1" with 1 instance.
 
-### 2: Add a web role with multiple instances
+### Example 2: Add a web role with multiple instances
 ```
-PS C:\>Add-AzurePHPWebRole MyWebRole -I 2
+PS C:\> Add-AzurePHPWebRole MyWebRole -I 2
 ```
 
 This example adds the required files and configuration for a new web role to the current application, using the name "MyWebRole" and a role instance count of 2.

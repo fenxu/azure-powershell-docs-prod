@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: E712421A-FA69-46E7-A0DE-F2734D767F2D
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMImage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,21 +39,21 @@ The cmdlet returns information for all images in the repository, or about a spec
 
 ### Example 1: Get a specific image object from the current image repository.
 ```
-PS C:\>Get-AzureVMImage -ImageName Image001
+PS C:\> Get-AzureVMImage -ImageName Image001
 ```
 
 This command gets the image object named Image001 from the current image repository.
 
 ### Example 2: Get all images from the current image repository
 ```
-PS C:\>Get-AzureVMImage
+PS C:\> Get-AzureVMImage
 ```
 
 This command retrieves all the images from the current image repository.
 
 ### Example 3: Set the subscription context and then get all the images
 ```
-PS C:\>$SubsId = <MySubscriptionID>
+PS C:\> $SubsId = <MySubscriptionID>
 C:\PS>$Cert = Get-AzureCertificate cert:\LocalMachine\MY\<CertificateThumbprint>
 C:\PS>$MyOSImages = Get-AzureVMImage
 ```

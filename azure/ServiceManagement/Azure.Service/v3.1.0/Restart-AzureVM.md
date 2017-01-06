@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 596B8A6F-D3C2-4170-BCD7-B7A1CDB656D8
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Restart-AzureVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Restart-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Restart-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Restart-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -63,14 +63,14 @@ The **Restart-AzureVM** cmdlet requests a restart of an Azure virtual machine.
 
 ### Example 1: Restart a virtual machine
 ```
-PS C:\>Restart-AzureVM -ServiceName "MyService01" -Name "MyVM"
+PS C:\> Restart-AzureVM -ServiceName "MyService01" -Name "MyVM"
 ```
 
 This command restarts the VirtualMachine27 virtual machine running in the Azure service named Service01.
 
 ### Example 2: Restart a virtual machine by using a virtual machine object
 ```
-PS C:\>Get-AzureVM -ServiceName "MyService01" -Name "VirtualMachine27" | Restart-AzureVM
+PS C:\> Get-AzureVM -ServiceName "MyService01" -Name "VirtualMachine27" | Restart-AzureVM
 ```
 
 This command retrieves the virtual machine object for the virtual machine named MyVM and then restarts it.

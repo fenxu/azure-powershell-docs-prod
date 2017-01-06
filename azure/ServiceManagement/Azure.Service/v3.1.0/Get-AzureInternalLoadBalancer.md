@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: A439ADC4-991E-4860-82AA-7BED315991B9
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:47 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureInternalLoadBalancer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureInternalLoadBalancer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureInternalLoadBalancer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c17253ff7f696fb211814185df5f94106c4534a8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureInternalLoadBalancer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,10 +38,10 @@ The **Get-AzureInternalLoadBalancer** cmdlet gets the details of the internal lo
 
 ### Example 1: Get details for an internal load balancer
 ```
-PS C:\>Get-AzureService -ServiceName "ContosoService" | Get-AzureInternalLoadBalancer
+PS C:\> Get-AzureService -ServiceName "ContosoService" | Get-AzureInternalLoadBalancer
 ```
 
-This command gets the service named ContosoService by using the Get-AzureService cmdlet.
+This command gets the service named ContosoService by using the **Get-AzureService** cmdlet.
 The command passes that service to the current cmdlet by using the pipeline operator.
 The current cmdlet gets details for the internal load balancer for that service.
 

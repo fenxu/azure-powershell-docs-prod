@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 48211644-1B92-443D-A992-BDF517D89341
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMSizeProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMSizeProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMSizeProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMSizeProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,9 +46,9 @@ Get-WAPackVMSizeProfile [[-Name] <String>] [-Profile <AzureSMProfile>] [-Informa
 
 ## DESCRIPTION
 These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
+For the updated topics, see [Azure WAPack Cmdlets](http://msdn.microsoft.com/library/dn776450.aspx) (http://msdn.microsoft.com/library/dn776450.aspx).
 This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+To find out the version of the module you're using, from the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Get-WAPackVMSizeProfile** cmdlet gets size profile objects for virtual machines.
 
@@ -56,21 +56,21 @@ The **Get-WAPackVMSizeProfile** cmdlet gets size profile objects for virtual mac
 
 ### Example 1: Get a size profile by using a name
 ```
-PS C:\>Get-WAPackVMSizeProfile -Name "ContosoSizeProfile07"
+PS C:\> Get-WAPackVMSizeProfile -Name "ContosoSizeProfile07"
 ```
 
 This command gets the size profile named ContosoSizeProfile07.
 
 ### Example 2: Get a size profile by using an ID
 ```
-PS C:\>Get-WAPackVMSizeProfile -ID 66242D17-189F-480D-87CF-8E1D749998C8
+PS C:\> Get-WAPackVMSizeProfile -ID 66242D17-189F-480D-87CF-8E1D749998C8
 ```
 
 This command gets the size profile that has the specified ID.
 
 ### Example 3: Get all size profiles
 ```
-PS C:\>Get-WAPackVMSizeProfile
+PS C:\> Get-WAPackVMSizeProfile
 ```
 
 This command gets all the size profiles.

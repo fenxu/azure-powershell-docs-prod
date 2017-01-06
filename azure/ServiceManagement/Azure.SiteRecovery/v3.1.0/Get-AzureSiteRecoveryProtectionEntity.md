@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 ms.assetid: FFA85777-A515-485C-8651-AB23A341E709
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 10:39 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/Get-AzureSiteRecoveryProtectionEntity.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/Get-AzureSiteRecoveryProtectionEntity.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/Get-AzureSiteRecoveryProtectionEntity.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bcb224594133377f2ad233f8cea763847777a6c9/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/Get-AzureSiteRecoveryProtectionEntity.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -72,7 +72,7 @@ The **Get-AzureSiteRecoveryProtectionEntity** cmdlet gets protected objects in M
 
 ### Example 1: Display a protected virtual machine in a container
 ```
-PS C:\>$Container = Get-AzureSiteRecoveryProtectionContainer
+PS C:\> $Container = Get-AzureSiteRecoveryProtectionContainer
 PS C:\> Get-AzureSiteRecoveryProtectionEntity -ProtectionContainer $Container 
 ID                           : 43aaab46-1cb0-4c39-8077-9a091c3b05ce
 ServerId                     : 4a94c4a9-c856-4577-afbd-367fe9b3ce9c

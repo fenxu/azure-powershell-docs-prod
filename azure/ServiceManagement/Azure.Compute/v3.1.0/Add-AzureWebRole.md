@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: FB5CD696-108D-4A3E-8983-1C6562E8795A
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzureWebRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzureWebRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzureWebRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzureWebRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,7 +34,7 @@ Add-AzureWebRole [[-TemplateFolder] <String>] [[-Name] <String>] [[-Instances] <
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Add-AzureWebRole** cmdlet adds a web worker role.
 
@@ -42,21 +42,21 @@ The **Add-AzureWebRole** cmdlet adds a web worker role.
 
 ### Example 1: Add a default role
 ```
-PS C:\>Add-AzureWebRole
+PS C:\> Add-AzureWebRole
 ```
 
 This command add web role that has the default configuration of Webrole1 as the name and a single instance.
 
 ### Example 2: Add a role with a name
 ```
-PS C:\>Add-AzureWebRole -Name "MyWebRole"
+PS C:\> Add-AzureWebRole -Name "MyWebRole"
 ```
 
 This command adds a single web role named MyWebRole to the current application.
 
 ### Example 3: Add a role with a name and instance count
 ```
-PS C:\>Add-AzureWebRole -Name "MyWebRole" -Instance 2
+PS C:\> Add-AzureWebRole -Name "MyWebRole" -Instance 2
 ```
 
 This command adds a web role named MyWebRole to the current application.
@@ -64,7 +64,7 @@ The cmdlet has a role instance count of 2.
 
 ### Example 4: Add a role with a name and template
 ```
-PS C:\>Add-AzureWebRole -Name "MyWebRole" -TemplateFolder ".\MyWebTemplateFolder"
+PS C:\> Add-AzureWebRole -Name "MyWebRole" -TemplateFolder ".\MyWebTemplateFolder"
 ```
 
 This command adds a single web role named MyWebRole to the current application.

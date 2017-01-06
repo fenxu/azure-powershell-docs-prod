@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 ms.assetid: 608B4B5E-5DB2-4291-966C-0B25F8D4FA13
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 9:26 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Set-AzureRemoteAppWorkspace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Set-AzureRemoteAppWorkspace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Set-AzureRemoteAppWorkspace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/46112aec682e15fb5cef6419ae8f28f4b6e5a8d9/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Set-AzureRemoteAppWorkspace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,8 @@ The **Set-AzureRemoteAppWorkspace** cmdlet sets the properties of an Azure Remot
 
 ### Example 1: Set the workspace name
 ```
-PS C:\>Set-AzureRemoteAppWorkspace -WorkspaceName "Contoso Work Applications"
+PS C:\> Set-AzureRemoteAppWorkspace -WorkspaceName "Contoso Work Applications"
+
 TrackingId
 ----------
 12345

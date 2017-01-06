@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 ms.assetid: DD881317-7366-4B55-B1CC-6AF0286F1C5D
 online version: 
 schema: 2.0.0
-updated_at: 11/18/2016 9:58 PM
-ms.date: 11/18/2016
+updated_at: 1/6/2017 7:33 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationConnection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3c119b6c79abfdf15aa7736c17ff4df9df4548d3/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -55,21 +55,21 @@ To get all connections of a certain type, specify the connection type name.
 
 ### Example 1: Get all connections
 ```
-PS C:\>Get-AzureAutomationConnection -AutomationAccountName "Contoso17"
+PS C:\> Get-AzureAutomationConnection -AutomationAccountName "Contoso17"
 ```
 
 This command gets all connections in the Automation account named Contoso17.
 
 ### Example 2: Get all connections of a type
 ```
-PS C:\>Get-AzureAutomationConnection -AutomationAccountName "Contoso17" -ConnectionTypeName "Azure"
+PS C:\> Get-AzureAutomationConnection -AutomationAccountName "Contoso17" -ConnectionTypeName "Azure"
 ```
 
 This command gets all Azure connections in the Automation account named Contoso17.
 
 ### Example 3: Get a connection
 ```
-PS C:\>Get-AzureAutomationConnection -AutomationAccountName "Contoso17" -Name "Azure"
+PS C:\> Get-AzureAutomationConnection -AutomationAccountName "Contoso17" -Name "Azure"
 ```
 
 This command gets the connection named MyConnection.

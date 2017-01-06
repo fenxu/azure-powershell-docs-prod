@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: D40BA2E2-50DF-4D51-A4D2-2D02AECBF20F
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationDscCompilationJobOutput.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationDscCompilationJobOutput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationDscCompilationJobOutput.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationDscCompilationJobOutput.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,7 +43,7 @@ PS C:\>$Jobs = Get-AzureRmAutomationDscCompilationJob -ResourceGroupName "Resour
 PS C:\> $Jobs[0] | Get-AzureRmAutomationDscCompilationJobOutput -Stream "Any"
 ```
 
-The first command gets the compilation jobs in the Automation account named Contoso17 by using the Get-AzureRmAutomationDscCompilationJob cmdlet.
+The first command gets the compilation jobs in the Automation account named Contoso17 by using the [Get-AzureRmAutomationDscCompilationJob](./Get-AzureRmAutomationDscCompilationJob.md) cmdlet.
 The command stores those objects in the $Jobs variable.
 
 The second command gets the compilation job output for any stream for the first member of the $Jobs array.
@@ -147,5 +147,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmAutomationDscCompilationJob](xref:ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationDscCompilationJob.md)
 
 [Start-AzureRmAutomationDscCompilationJob](xref:ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRmAutomationDscCompilationJob.md)
-
-

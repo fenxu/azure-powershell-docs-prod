@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 2BF5BDF8-3743-46FC-8E04-1A4EA920A2AF
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureSchedulerJobHistory.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureSchedulerJobHistory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureSchedulerJobHistory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureSchedulerJobHistory.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,7 +34,7 @@ Get-AzureSchedulerJobHistory [-Location] <String> [-JobCollectionName] <String> 
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Get-AzureSchedulerJobHistory** cmdlet gets the history for a scheduler job.
 
@@ -42,7 +42,7 @@ The **Get-AzureSchedulerJobHistory** cmdlet gets the history for a scheduler job
 
 ### Example 1: Get history for a job by using its name
 ```
-PS C:\>Get-AzureSchedulerJobHistory -Location "North Central US" -JobCollectionName "JobCollection01" -JobName "Job01"
+PS C:\> Get-AzureSchedulerJobHistory -Location "North Central US" -JobCollectionName "JobCollection01" -JobName "Job01"
 ```
 
 This command gets the history of the job named Job01.
@@ -50,7 +50,7 @@ That job belongs to the job collection named JobCollection01 in the specified lo
 
 ### Example 2: Get history for a failed job by using its name
 ```
-PS C:\>Get-AzureSchedulerJobHistory -Location "North Central US" -JobCollectionName "JobCollection01" -JobName "Job12" -JobStatus "Failed"
+PS C:\> Get-AzureSchedulerJobHistory -Location "North Central US" -JobCollectionName "JobCollection01" -JobName "Job12" -JobStatus "Failed"
 ```
 
 This command gets the history of the job named Job12 that has a status of Failed.
@@ -193,7 +193,8 @@ Accept wildcard characters: False
 
 ### -IncludeTotalCount
 Reports the total number of objects in the data set (an integer) followed by the selected objects.
-If the cmdlet cannot determine the total count, it displays "Unknown total count." The integer has an Accuracy property that indicates the reliability of the total count value.
+If the cmdlet cannot determine the total count, it displays "Unknown total count." 
+The integer has an Accuracy property that indicates the reliability of the total count value.
 The value of Accuracy ranges from 0.0 to 1.0 where 0.0 means that the cmdlet could not count the objects, 1.0 means that the count is exact, and a value between 0.0 and 1.0 indicates an increasingly reliable estimate.
 
 ```yaml

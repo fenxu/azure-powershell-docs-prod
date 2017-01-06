@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 9999E0EE-4A32-4C18-A6EC-2A073DC08710
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/6/2017 6:13 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackVMRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackVMRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackVMRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/10d5db95c5649f79b4844462bb63e71dfc0bd195/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackVMRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -42,9 +42,9 @@ Remove-WAPackVMRole [-VMRole] <VMRole> [-CloudServiceName] <String> [-PassThru] 
 
 ## DESCRIPTION
 These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
+For the updated topics, see [Azure WAPack Cmdlets](http://msdn.microsoft.com/library/dn776450.aspx) (http://msdn.microsoft.com/library/dn776450.aspx).
 This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+To find out the version of the module you're using, from the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Remove-WAPackVMRole** cmdlet removes virtual machine role objects.
 
@@ -52,21 +52,23 @@ The **Remove-WAPackVMRole** cmdlet removes virtual machine role objects.
 
 ### Example 1: Remove a virtual machine role (which was created using the WAP portal)
 ```
-PS C:\>$VMRole = Get-WAPackVMRole -Name ?ContosoVMRole01?
-PS C:\>Remove-WAPackVMRole -VMRole $VMRole
+PS C:\> $VMRole = Get-WAPackVMRole -Name "ContosoVMRole01"
+PS C:\> Remove-WAPackVMRole -VMRole $VMRole
 ```
 
 The first command gets the virtual machine role named ContosoVMRole01 by using the **Get-WAPackVMRole** cmdlet, and then stores that object in the $VMRole variable.
+
 The second command removes the virtual machine role stored in $VMRole.
 The command prompts you for confirmation.Assuming this virtual machine role was created using the WAP portal, there's no need to specify the cloud service name.
 
 ### Example 2: Remove a virtual machine role which was created after manually creating a cloud service
 ```
-PS C:\>$VMRole = Get-WAPackVMRole -Name "ContosoVMRole02"
-PS C:\>Remove-WAPackVMRole -VMRole $VMRole -CloudServiceName "ContosoCloudService02"
+PS C:\> $VMRole = Get-WAPackVMRole -Name "ContosoVMRole02"
+PS C:\> Remove-WAPackVMRole -VMRole $VMRole -CloudServiceName "ContosoCloudService02"
 ```
 
 The first command gets the virtual machine role named "ContosoVMRole02" by using the **Get-WAPackVMRole** cmdlet, and then stores that object in the $VMRole variable.
+
 The second command removes the virtual machine role stored in $VMRole.
 The command prompts you for confirmation.
 Assuming this virtual machine role was not created using the portal, the user needs to specify the cloud service name.
@@ -74,11 +76,12 @@ In this case named "ContosoCloudService02".
 
 ### Example 3: Remove a virtual machine role without confirmation
 ```
-PS C:\>$VMRole = Get-WAPackVMRole -Name "ContosoVMRole03"
-PS C:\>Remove-WAPackVMRole -VMRole $VMRole -Force
+PS C:\> $VMRole = Get-WAPackVMRole -Name "ContosoVMRole03"
+PS C:\> Remove-WAPackVMRole -VMRole $VMRole -Force
 ```
 
 The first command gets the cloud service named ContosoVMRole03 by using the **Get-WAPackVMRole** cmdlet, and then stores that object in the $VMRole variable.
+
 The second command removes the virtual machine role stored in $VMRole.
 This command includes the *Force* parameter.
 The command does not prompt you for confirmation.
@@ -87,7 +90,7 @@ The command does not prompt you for confirmation.
 
 ### -VMRole
 Specifies a virtual machine role.
-To get a virtual machine role, use the Get-WAPackVMRole cmdlet.
+To get a virtual machine role, use the **Get-WAPackVMRole** cmdlet.
 
 ```yaml
 Type: VMRole

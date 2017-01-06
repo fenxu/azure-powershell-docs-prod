@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 ms.assetid: CB1A36E9-75BE-43CF-9092-9713DFEB96F8
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 9:56 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryProtectionEntity.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryProtectionEntity.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryProtectionEntity.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5de5c3508c54977d862f546f41ff111633de6ee9/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryProtectionEntity.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -72,7 +72,7 @@ The **Get-AzureSiteRecoveryProtectionEntity** cmdlet gets the protectable or pro
 
 ### Example 1: Display a protected virtual machine in a container
 ```
-PS C:\>$Container = Get-AzureSiteRecoveryProtectionContainer
+PS C:\> $Container = Get-AzureSiteRecoveryProtectionContainer
 PS C:\> Get-AzureSiteRecoveryProtectionEntity -ProtectionContainer $Container 
 ID                           : 43aaab46-1cb0-4c39-8077-9a091c3b05ce
 ServerId                     : 4a94c4a9-c856-4577-afbd-367fe9b3ce9c
@@ -91,7 +91,7 @@ TestFailoverStateDescription : Nonev
 ReplicationProvider          : HyperVReplica
 ```
 
-The first command gets a protected container by using the Get-AzureSiteRecoveryProtectionContainer cmdlet, and then stores that object in the $Container variable.
+The first command gets a protected container by using the **Get-AzureSiteRecoveryProtectionContainer** cmdlet, and then stores that object in the $Container variable.
 
 The second command gets the protected virtual machine that belongs to the container in $Container, and then displays it.
 

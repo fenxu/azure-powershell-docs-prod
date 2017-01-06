@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 ms.assetid: 82F4DB8F-8DAF-40D2-8031-3EDBF5D08417
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 12/19/2016 9:17 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Set-AzureSqlDatabase.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Set-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Set-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8bbe11a32244ebde0ad865d340e59d85ee67d16e/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Set-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -66,14 +66,14 @@ Set-AzureSqlDatabase [-ServerName] <String> [-DatabaseName] <String> [-NewDataba
 The **Set-AzureSqlDatabase** cmdlet sets properties for an Azure SQL Database.
 You can specify the database by name, or pass an Azure SQL Database object through the pipeline.
 You can specify the server by name, or pass an Azure SQL Database server connection context.
-Create a connection context by running the New-AzureSqlDatabaseServerContext cmdlet.
+Create a connection context by running the **New-AzureSqlDatabaseServerContext** cmdlet.
 If you specify the server by name, the cmdlet uses the current Azure subscription information to authenticate the request.
 
 ## EXAMPLES
 
 ### Example 1: Change the size of a database by using a connection context
 ```
-PS C:\>$Database01 = Get-AzureSqlDatabase -ConnectionContext $Context -DatabaseName "Database01"
+PS C:\> $Database01 = Get-AzureSqlDatabase -ConnectionContext $Context -DatabaseName "Database01"
 PS C:\> Set-AzureSqlDatabase -ConnectionContext $Context -Database $Database01 -MaxSizeGB 20
 ```
 
@@ -81,7 +81,7 @@ This example changes the size of the database named Database01 to 20 GB, in the 
 
 ### Example 2: Change the size of a database by using a server name
 ```
-PS C:\>$Database01 = Get-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName "Database01"
+PS C:\> $Database01 = Get-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName "Database01"
 PS C:\> Set-AzureSqlDatabase -ServerName "lpqd0zbr8y" -Database $Database01 -MaxSizeGB 20
 ```
 

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: D12007E8-8693-45B9-8919-CF8A4BA63AAA
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRMAutomationConnection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRMAutomationConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRMAutomationConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRMAutomationConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionTypeName
-Specifies the name of a connection type for which this cmdlet retrieves connections.
+Specifies the name of a connection type for which this cmdlet gets connections.
 
 ```yaml
 Type: String
@@ -107,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of a connection that this cmdlet retrieves.
+Specifies the name of a connection that this cmdlet gets.
 
 ```yaml
 Type: String
@@ -152,5 +152,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmAutomationConnection](xref:ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationConnection.md)
 
 [Remove-AzureRmAutomationConnection](xref:ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRMAutomationConnection.md)
-
-

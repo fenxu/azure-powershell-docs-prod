@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: A504099E-BA96-45C9-A7A6-195E7087A0D4
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,11 +40,11 @@ Provide the path to a certificate file to upload.
 
 ### Example 1: Create a new certificate
 ```
-PS C:\>$Password = ConvertTo-SecureString -String "Password" -AsPlainText -Force
+PS C:\> $Password = ConvertTo-SecureString -String "Password" -AsPlainText -Force
 PS C:\> New-AzureRmAutomationCertificate -AutomationAccountName "Contoso17" -Name "ContosoCertificate" -Path "./cert.pfx" -Password $Password -ResourceGroupName "ResourceGroup01"
 ```
 
-The first command converts a plain text password to be a secure string by using the ConvertTo-SecureString cmdlet.
+The first command converts a plain text password to be a secure string by using the **ConvertTo-SecureString** cmdlet.
 The command stores that object in the $Password variable.
 
 The second command creates a certificate named ContosoCertificate.
@@ -177,5 +177,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmAutomationCertificate](xref:ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRMAutomationCertificate.md)
 
 [Set-AzureRmAutomationCertificate](xref:ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRMAutomationCertificate.md)
-
-

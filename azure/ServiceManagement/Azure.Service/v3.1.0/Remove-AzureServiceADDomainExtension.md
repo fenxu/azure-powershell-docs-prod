@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 6A280C0B-5F55-4575-9B11-596F497C4305
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureServiceADDomainExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureServiceADDomainExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureServiceADDomainExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureServiceADDomainExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,14 +47,14 @@ The **Remove-AzureServiceADDomainExtension** cmdlet removes the cloud service Ac
 
 ### Example 1: Remove an AD domain extension
 ```
-PS C:\>Remove-AzureServiceADDomainExtension -ServiceName $Svc
+PS C:\> Remove-AzureServiceADDomainExtension -ServiceName $Svc
 ```
 
 This command removes the extension specified by the $Svc variable.
 
 ### Example 2: Remove an AD Domain extension for a specified role
 ```
-PS C:\>Remove-AzureServiceADDomainExtension -ServiceName $Svc -Role "WebRole1"
+PS C:\> Remove-AzureServiceADDomainExtension -ServiceName $Svc -Role "WebRole1"
 ```
 
 This command removes the service extension for the specified role.

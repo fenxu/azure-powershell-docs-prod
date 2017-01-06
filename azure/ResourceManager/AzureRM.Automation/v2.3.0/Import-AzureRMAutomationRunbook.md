@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: B6487D26-2B6A-4938-B1CD-48EADD8D0C3C
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Import-AzureRMAutomationRunbook.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Import-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Import-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Import-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,15 +34,15 @@ Import-AzureRmAutomationRunbook [-Path] <String> [-Description <String>] [-Name 
 
 ## DESCRIPTION
 The **Import-AzureRmAutomationRunbook** cmdlet imports an Azure Automation runbook.
-Specify the path to a wps_2 script (.ps1 ) file to import for wps_2 and wps_2 Workflow runbooks, or to a graphical runbook (.graphrunbook) file for graphical runbooks.
+Specify the path to a Windows PowerShell script (.ps1 ) file to import for Windows PowerShell and Windows PowerShell Workflow runbooks, or to a graphical runbook (.graphrunbook) file for graphical runbooks.
 The name of the file becomes the name of the runbook.
-For wps_2 Workflow runbooks, the script must contain a single wps_2 Workflow definition that matches the name of the file.
+For Windows PowerShell Workflow runbooks, the script must contain a single Windows PowerShellWorkflow definition that matches the name of the file.
 
 ## EXAMPLES
 
 ### Example 1: Import a runbook from a file
 ```
-PS C:\>$Tags = @{"tag01"='value01"; "tag02"="value02"}
+PS C:\> $Tags = @{"tag01"='value01"; "tag02"="value02"}
 PS C:\> Import-AzureRmAutomationRunbook -Path .\GraphicalRunbook06.graphrunbook -Tags $Tags -ResourceGroup "ResourceGroup01" -AutomationAccountName "AutomationAccount01" -Type GraphicalPowershell
 ```
 
@@ -84,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -286,5 +286,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRMAutomationRunbook.md)
 
 [Start-AzureRmAutomationRunbook](xref:ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRMAutomationRunbook.md)
-
-

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: D7EB9FE4-BDEB-43A5-B6D3-FEAB16BC2711
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,29 +45,29 @@ Get-WAPackVMRole [-Name] <String> [-Profile <AzureSMProfile>] [-InformationActio
 
 ## DESCRIPTION
 These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
+For the updated topics, see [Azure WAPack Cmdlets](http://msdn.microsoft.com/library/dn776450.aspx) (http://msdn.microsoft.com/library/dn776450.aspx).
 This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+To find out the version of the module you're using, from the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 ## EXAMPLES
 
 ### Example 1: Get a virtual machine role (created through the portal)
 ```
-PS C:\>Get-WAPackVMRole -Name "ContosoVMRole01"
+PS C:\> Get-WAPackVMRole -Name "ContosoVMRole01"
 ```
 
 This command gets a virtual machine role which has been created through the portal named ContosoVMRole01.
 
 ### Example 2: Get a virtual machine role by using a name and a cloud service name
 ```
-PS C:\>Get-WAPackVMRole -CloudServiceName "ContosoCloudService01" -Name "ContosoVMRole02"
+PS C:\> Get-WAPackVMRole -CloudServiceName "ContosoCloudService01" -Name "ContosoVMRole02"
 ```
 
 This command gets a virtual machine role named ContosoVMRole02 which stand on a cloud service named ContosoCloudService01.
 
 ### Example 3: Get all virtual machine role
 ```
-PS C:\>Get-WAPackVMRole
+PS C:\> Get-WAPackVMRole
 ```
 
 This command gets all existing virtual machine role.

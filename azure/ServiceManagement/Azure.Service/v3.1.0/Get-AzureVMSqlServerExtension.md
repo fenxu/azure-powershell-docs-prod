@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 8CE8F4E9-93D4-41E5-8B43-F886C018D9FB
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMSqlServerExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMSqlServerExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMSqlServerExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMSqlServerExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Get-AzureVMSqlServerExtension** cmdlet gets the settings of the SQL Server
 
 ### Example 1: Get the settings of a SQL Server extension on a virtual machine
 ```
-PS C:\>Get-AzureVMSqlServerExtension-VM $VM
+PS C:\> Get-AzureVMSqlServerExtension-VM $VM
           ExtensionName        : SqlIaaSAgent
           Publisher            : Microsoft.SqlServer.Management
           Version              : 1.0
@@ -52,7 +52,7 @@ Gets the settings of the SQL Server extension on a particular virtual machine.
 
 ### Example 2: Get the settings of a SQL Server IaaS Agent on a virtual machine
 ```
-PS C:\>Get-AzureVM -ServiceName "Service" -Name "VMName" | Get-AzureVMSqlServerExtension
+PS C:\> Get-AzureVM -ServiceName "Service" -Name "VMName" | Get-AzureVMSqlServerExtension
           ExtensionName        : SqlIaaSAgent
           Publisher            : Microsoft.SqlServer.Management
           Version              : 1.0
@@ -66,7 +66,7 @@ Gets the settings of the SQL Server IaaS Agent on a particular virtual machine u
 
 ### Example 3: Get the settings of specific SQL Server version IaaS Agent on a virtual machine
 ```
-PS C:\>Get-AzureVMSqlServerExtension -VM $VM -Version "1.0"
+PS C:\> Get-AzureVMSqlServerExtension -VM $VM -Version "1.0"
           ExtensionName        : SqlIaaSAgent
           Publisher            : Microsoft.SqlServer.Management
           Version              : 1.0

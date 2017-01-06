@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: FEFBF1EF-FBCE-45D8-8455-F3F8662F1F36
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzurePHPWorkerRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzurePHPWorkerRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzurePHPWorkerRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Add-AzurePHPWorkerRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Add-AzurePHPWorkerRole
 
 ## SYNOPSIS
-Creates the required files and configuration (sometimes referred to as scaffolding) for a PHP application that will be hosted in Azure through php.exe.
+Creates the required files and configuration for a PHP application that will be hosted in Azure through php.exe.
 
 ## SYNTAX
 
@@ -33,22 +33,22 @@ Add-AzurePHPWorkerRole [[-Name] <String>] [[-Instances] <Int32>] [-Profile <Azur
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
-Creates the required files and configuration (sometimes referred to as scaffolding) for a PHP application that will be hosted in Azure through php.exe.
+Creates the required files and configuration, sometimes referred to as scaffolding, for a PHP application that will be hosted in Azure through php.exe.
 
 ## EXAMPLES
 
-### 1: Create a worker role with a single instance
+### Example 1: Create a worker role with a single instance
 ```
-PS C:\>Add-AzurePHPWorkerRole MyWorkerRole
+PS C:\> Add-AzurePHPWorkerRole MyWorkerRole
 ```
 
 This example adds the required files and configuration for a single worker role named MyWorkerRole to the current application.
 
-### 2: Create a worker role with multiple instances
+### Example 2: Create a worker role with multiple instances
 ```
-PS C:\>Add-AzurePHPWorkerRole MyWorkerRole -I 2
+PS C:\> Add-AzurePHPWorkerRole MyWorkerRole -I 2
 ```
 
 This example adds the required files and configuration for a new worker role to the current application, using the name MyWorkerRole with a role instance count of 2.

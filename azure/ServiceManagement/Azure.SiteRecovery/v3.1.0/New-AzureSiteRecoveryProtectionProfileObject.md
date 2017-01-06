@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 ms.assetid: 40CB7891-AC15-43BD-B26E-F22F3AEA87FB
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 10:39 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/New-AzureSiteRecoveryProtectionProfileObject.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/New-AzureSiteRecoveryProtectionProfileObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/New-AzureSiteRecoveryProtectionProfileObject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bcb224594133377f2ad233f8cea763847777a6c9/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.1.0/New-AzureSiteRecoveryProtectionProfileObject.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -54,7 +54,7 @@ This cmdlet creates an **ASRProtectionProfile** object to use with other cmdlets
 
 ### Example 1: Create a protection profile
 ```
-PS C:\>New-AzureSiteRecoveryProtectionProfileObject -ReplicationProvider HyperVReplica -AllowReplicaDeletion -ApplicationConsistentSnapshotFrequencyInHours 1 -CompressionEnabled -RecoveryPoints 2 -ReplicationFrequencyInSeconds 30 -ReplicationMethod Online -ReplicationPort 8085 -ReplicationStartTime 1
+PS C:\> New-AzureSiteRecoveryProtectionProfileObject -ReplicationProvider HyperVReplica -AllowReplicaDeletion -ApplicationConsistentSnapshotFrequencyInHours 1 -CompressionEnabled -RecoveryPoints 2 -ReplicationFrequencyInSeconds 30 -ReplicationMethod Online -ReplicationPort 8085 -ReplicationStartTime 1
 Name                                     : 
 ID                                       : 
 ReplicationProvider                      : HyperVReplica
@@ -66,7 +66,7 @@ This command creates a protection profile object.
 
 ### Example 2: Create a protection profile for HyperVReplicaAzure provider
 ```
-PS C:\>New-AzureSiteRecoveryProtectionProfileObject -Name "ProtectionProfile" -ReplicationProvider HyperVReplicaAzure -RecoveryAzureSubscription "cb53d0c3-bd59-4721-89bc-06916a9147ef" -RecoveryAzureStorageAccount "Contoso01" -ReplicationFrequencyInSeconds 30 -RecoveryPoints 1 -Force
+PS C:\> New-AzureSiteRecoveryProtectionProfileObject -Name "ProtectionProfile" -ReplicationProvider HyperVReplicaAzure -RecoveryAzureSubscription "cb53d0c3-bd59-4721-89bc-06916a9147ef" -RecoveryAzureStorageAccount "Contoso01" -ReplicationFrequencyInSeconds 30 -RecoveryPoints 1 -Force
 
 Name                                     : ProtectionProfile
 ID                                       : 

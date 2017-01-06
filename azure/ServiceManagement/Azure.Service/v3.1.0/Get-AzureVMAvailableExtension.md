@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: FAC3DABB-8230-4E86-9936-0F1848980EA2
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMAvailableExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMAvailableExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMAvailableExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMAvailableExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -53,7 +53,7 @@ The **Get-AzureVMAvailableExtension** cmdlet gets information for the latest ava
 
 ### Example 1: Get information for the latest available extensions
 ```
-PS C:\>Get-AzureVMAvailableExtension
+PS C:\> Get-AzureVMAvailableExtension
           Publisher                  : Contoso.Compute
           ExtensionName              : VMAccessAgent
           Version                    : 1.0
@@ -89,7 +89,7 @@ This command gets information for the latest available extensions for all virtua
 
 ### Example 2: Get information from a specified extension name
 ```
-PS C:\>Get-AzureVMAvailableExtension -Publisher Contoso.Compute -ExtensionName "VMAccessAgent" -AllVersions
+PS C:\> Get-AzureVMAvailableExtension -Publisher Contoso.Compute -ExtensionName "VMAccessAgent" -AllVersions
           Publisher                  : Contoso.Compute
           ExtensionName              : VMAccessAgent
           Version                    : 1.0.2
@@ -159,7 +159,7 @@ This command gets information from all versions of the extension named VMAccessA
 
 ### Example 3: Get information from a specific virtual machine extension by version number
 ```
-PS C:\>Get-AzureVMAvailableExtension -Publisher Contoso.Compute -ExtensionName VMAccessAgent -Version 1.0.3
+PS C:\> Get-AzureVMAvailableExtension -Publisher Contoso.Compute -ExtensionName VMAccessAgent -Version 1.0.3
           Publisher                  : Contoso.Compute
           ExtensionName              : VMAccessAgent
           Version                    : 1.0.3

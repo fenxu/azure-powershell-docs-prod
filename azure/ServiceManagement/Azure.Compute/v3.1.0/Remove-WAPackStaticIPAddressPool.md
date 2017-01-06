@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: CE618AD2-7E28-4012-BF3C-B932B95FFDD5
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 6:13 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackStaticIPAddressPool.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackStaticIPAddressPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackStaticIPAddressPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/10d5db95c5649f79b4844462bb63e71dfc0bd195/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackStaticIPAddressPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,9 +34,9 @@ Remove-WAPackStaticIPAddressPool -StaticIPAddressPool <StaticIPAddressPool> [-Pa
 
 ## DESCRIPTION
 These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
+For the updated topics, see [Azure WAPack Cmdlets](http://msdn.microsoft.com/library/dn776450.aspx) (http://msdn.microsoft.com/library/dn776450.aspx).
 This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+To find out the version of the module you're using, from the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Remove-WAPackStaticIPAddressPool** cmdlet removes static IP address pool objects.
 
@@ -44,21 +44,23 @@ The **Remove-WAPackStaticIPAddressPool** cmdlet removes static IP address pool o
 
 ### Example 1: Remove a static IP address pool
 ```
-PS C:\>$StaticIPAddressPool = Get-WAPackStaticIPAddressPool -Name "ContosoStaticIPAddressPool01"
-PS C:\>Remove-WAPackStaticIPAddressPool -StaticIPAddressPool $StaticIPAddressPool
+PS C:\> $StaticIPAddressPool = Get-WAPackStaticIPAddressPool -Name "ContosoStaticIPAddressPool01"
+PS C:\> Remove-WAPackStaticIPAddressPool -StaticIPAddressPool $StaticIPAddressPool
 ```
 
 The first command gets the static IP address pool named ContosoStaticIPAddressPool01 by using the **Get-WAPackStaticIPAddressPool** cmdlet, and then stores that object in the $StaticIPAddressPool variable.
+
 The second command removes the static IP address pool stored in $StaticIPAddressPool.
 The command prompts you for confirmation.
 
 ### Example 2: Remove a static IP address pool without confirmation
 ```
-PS C:\>$StaticIPAddressPool = Get-WAPackStaticIPAddressPool -Name "ContosoStaticIPAddressPool02"
-PS C:\>Remove-WAPackStaticIPAddressPool -StaticIPAddressPool $StaticIPAddressPool -Force
+PS C:\> $StaticIPAddressPool = Get-WAPackStaticIPAddressPool -Name "ContosoStaticIPAddressPool02"
+PS C:\> Remove-WAPackStaticIPAddressPool -StaticIPAddressPool $StaticIPAddressPool -Force
 ```
 
 The first command gets the static IP address pool named ContosoStaticIPAddressPool02 by using the **Get-WAPackStaticIPAddressPool** cmdlet, and then stores that object in the $ StaticIPAddressPool variable.
+
 The second command removes the static IP address pool stored in $StaticIPAddressPool.
 This command includes the *Force* parameter.
 The command does not prompt you for confirmation.
@@ -67,7 +69,7 @@ The command does not prompt you for confirmation.
 
 ### -StaticIPAddressPool
 Specifies a StaticIPAddressPool.
-To obtain a static IP address pool, use the Get-WAPackStaticIPAddressPool cmdlet.
+To obtain a static IP address pool, use the **Get-WAPackStaticIPAddressPool** cmdlet.
 
 ```yaml
 Type: StaticIPAddressPool

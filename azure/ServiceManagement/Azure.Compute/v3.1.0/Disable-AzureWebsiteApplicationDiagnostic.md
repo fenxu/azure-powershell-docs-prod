@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 3422EFD0-88DC-4DF0-868C-5C63C9FA95EF
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Disable-AzureWebsiteApplicationDiagnostic.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Disable-AzureWebsiteApplicationDiagnostic.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Disable-AzureWebsiteApplicationDiagnostic.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Disable-AzureWebsiteApplicationDiagnostic.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,23 +34,23 @@ Disable-AzureWebsiteApplicationDiagnostic [-PassThru] [-File] [-TableStorage] [-
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 Disables application diagnostics for an Azure website.
 Disables logging configured to be stored on a file system or on Azure.
 
 ## EXAMPLES
 
-### 1:  Disable application logging file
+### Example 1:  Disable application logging file
 ```
-C:\PS>Disable-AzureWebsiteApplicationDiagnostic -Name MyWebsite -File
+PS C:\> Disable-AzureWebsiteApplicationDiagnostic -Name MyWebsite -File
 ```
 
 The following example disables application logging on the file system.
 
-### 2:  Disable logging using Azure storage
+### Example 2:  Disable logging using Azure storage
 ```
-C:\PS>Disable-AzureWebsiteApplicationDiagnostic -Name MyWebsite -Storage
+PS C:\> Disable-AzureWebsiteApplicationDiagnostic -Name MyWebsite -Storage
 ```
 
 The following example disables application logging using storage.
