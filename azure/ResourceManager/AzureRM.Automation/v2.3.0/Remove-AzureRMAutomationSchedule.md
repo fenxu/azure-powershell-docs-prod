@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: EAD39EE1-C66F-4092-8876-E7F9FA612481
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRMAutomationSchedule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRMAutomationSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRMAutomationSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRMAutomationSchedule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Remove-AzureRmAutomationSchedule** cmdlet deletes a schedule from Azure Au
 
 ### Example 1: Remove a schedule
 ```
-PS C:\>Remove-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "Schedule01" -ResourceGroupName "ResourceGroup01"
+PS C:\> Remove-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "Schedule01" -ResourceGroupName "ResourceGroup01"
 ```
 
 This command modifies the description of the schedule named Schedule01.
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -152,5 +152,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationSchedule.md)
 
 [Set-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRMAutomationSchedule.md)
-
-

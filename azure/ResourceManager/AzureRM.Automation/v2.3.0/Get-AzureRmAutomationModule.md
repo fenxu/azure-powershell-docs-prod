@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: A73B388A-E859-40D3-BA63-0E231CF1E81D
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationModule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationModule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationModule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationModule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,14 +45,14 @@ The **Get-AzureRmAutomationModule** cmdlet gets metadata for modules from Azure 
 
 ### Example 1: Get all modules
 ```
-PS C:\>Get-AzureRmAutomationModule -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01"
+PS C:\> Get-AzureRmAutomationModule -AutomationAccountName "Contoso17" -ResourceGroupName "ResourceGroup01"
 ```
 
 This command gets all modules in the Automation account named Contoso17.
 
 ### Example 2: Get a module
 ```
-PS C:\>Get-AzureRmAutomationModule -AutomationAccountName "Contoso17" -Name "ContosoModule" -ResourceGroupName "ResourceGroup01"
+PS C:\> Get-AzureRmAutomationModule -AutomationAccountName "Contoso17" -Name "ContosoModule" -ResourceGroupName "ResourceGroup01"
 ```
 
 This command gets a module named ContosoModule in the Automation account named Contoso17.
@@ -120,5 +120,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRmAutomationModule.md)
 
 [Set-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationModule.md)
-
-

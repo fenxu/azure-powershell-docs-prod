@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 5D093C10-F8B6-4F4A-ABD7-CC4D7AB7AFFA
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureServiceProjectRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureServiceProjectRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureServiceProjectRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureServiceProjectRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,29 +47,29 @@ Set-AzureServiceProjectRole [[-RoleName] <String>] [-PassThru] -VMSize <String> 
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Set-AzureServiceProjectRole** cmdlet sets the number of role instances for the specified role.
 
 ## EXAMPLES
 
-### 1: Set instances for a web role
+### Example 1: Set instances for a web role
 ```
-PS C:\>Set-AzureServiceProjectRole "MyWebRole" 2
+PS C:\> Set-AzureServiceProjectRole "MyWebRole" 2
 ```
 
 Sets the number of instances for the web role named MyWebRole1 to 2.
 
-### 2: Set instances for a worker role
+### Example 2: Set instances for a worker role
 ```
-PS C:\>Set-AzureServiceProjectRole "MyWorkerRole1" 2
+PS C:\> Set-AzureServiceProjectRole "MyWorkerRole1" 2
 ```
 
 Sets the role instance count for the worker role named WorkerRole1 to 2.
 
-### 3: Set the runtime version for a role service
+### Example 3: Set the runtime version for a role service
 ```
-PS C:\>Set-AzureServiceProjectRole "MyRole1" node 0.6.20
+PS C:\> Set-AzureServiceProjectRole "MyRole1" node 0.6.20
 ```
 
 Sets the node.exe runtime version for role MyRole1 to 0.6.20.

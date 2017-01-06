@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 453AEA42-E29C-4FF2-9210-0DD88B77DC07
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 8:40 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackCloudVMRoleSizeProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackCloudVMRoleSizeProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackCloudVMRoleSizeProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/097a409400ba725b4bf1f83609198f3885666ac4/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackCloudVMRoleSizeProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,14 +45,14 @@ The **Get-WAPackCloudVMRoleSizeProfile** cmdlet gets Cloud VM Role size profile 
 
 ### Example 1: Get a Cloud VM Role size profile by using a name
 ```
-PS C:\>Get-WAPackCloudVMRoleSizeProfile -Name "Small"
+PS C:\> Get-WAPackCloudVMRoleSizeProfile -Name "Small"
 ```
 
 This command gets the size profile named Small.
 
 ### Example 2: Get all Cloud VM Role size profiles
 ```
-PS C:\>Get-WAPackCloudVMRoleSizeProfile
+PS C:\> Get-WAPackCloudVMRoleSizeProfile
 ```
 
 This command gets all the size profiles.

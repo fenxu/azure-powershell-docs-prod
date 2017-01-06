@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 35588231-CBAC-4411-9531-9A06BD298ACA
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureStorageKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureStorageKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureStorageKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureStorageKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,14 +38,14 @@ The **Get-AzureStorageKey** cmdlet returns an object with the Azure Storage acco
 
 ### Example 1: Get an object that contains primary and secondary storage keys
 ```
-PS C:\>Get-AzureStorageKey -StorageAccountName "ContosoStore01"
+PS C:\> Get-AzureStorageKey -StorageAccountName "ContosoStore01"
 ```
 
 This command gets an object with the primary and secondary storage keys for the ContosoStore01 storage account.
 
 ### Example 2: Get the primary storage account key and store it in a variable
 ```
-PS C:\>$ContosoStoreKey = (Get-AzureStorageKey -StorageAccountName "ContosoStore01").Primary
+PS C:\> $ContosoStoreKey = (Get-AzureStorageKey -StorageAccountName "ContosoStore01").Primary
 ```
 
 This command puts the primary storage account key for the ContosoStore01 storage account in the $ContosoStoreKey variable.

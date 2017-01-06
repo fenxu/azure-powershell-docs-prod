@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 ms.assetid: EC6AB7E9-BC9F-4FA2-8172-144C9842D74C
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 9:26 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppVmStaleAdObject.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppVmStaleAdObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppVmStaleAdObject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/46112aec682e15fb5cef6419ae8f28f4b6e5a8d9/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppVmStaleAdObject.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ This cmdlet displays the name of each object that it gets.
 
 ### Example 1: Get stale objects for a collection
 ```
-PS C:\>Clear-AzureRemoteAppVmStaleAdObject -CollectionName "Contoso"
+PS C:\> Clear-AzureRemoteAppVmStaleAdObject -CollectionName "Contoso"
 ```
 
 This second command gets the stale objects for the collection named Contoso.
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 
 ### -Credential
 Specifies a credential that has rights to perform this action.
-To obtain a **Credential** object, use the Get-Credential cmdlet.
+To obtain a **PSCredential** object, use the **Get-Credential** cmdlet.
 If you do not specify this parameter, this cmdlet uses the current user credentials.
 
 ```yaml

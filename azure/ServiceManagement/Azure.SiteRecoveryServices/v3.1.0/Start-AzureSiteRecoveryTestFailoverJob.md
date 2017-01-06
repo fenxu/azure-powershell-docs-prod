@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 ms.assetid: 9AE41884-C39F-4AEB-8030-96167F98C8DD
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 9:56 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Start-AzureSiteRecoveryTestFailoverJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Start-AzureSiteRecoveryTestFailoverJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Start-AzureSiteRecoveryTestFailoverJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5de5c3508c54977d862f546f41ff111633de6ee9/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Start-AzureSiteRecoveryTestFailoverJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -145,13 +145,13 @@ Start-AzureSiteRecoveryTestFailoverJob [-Network <ASRNetwork>] [-NetworkType <St
 
 ## DESCRIPTION
 The **Start-AzureSiteRecoveryTestFailoverJob** cmdlet starts test failover of an Azure Site Recovery protection entity or recovery plan.
-You can check whether the job succeeded by using the Get-AzureRMSiteRecoveryJob cmdlet.
+You can check whether the job succeeded by using the **Get-AzureRMSiteRecoveryJob** cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Start a test failover
 ```
-PS C:\>$ProtectionContainer = Get-AzureSiteRecoveryProtectionContainer
+PS C:\> $ProtectionContainer = Get-AzureSiteRecoveryProtectionContainer
 PS C:\> $ProtectionEntity = Get-AzureSiteRecoveryProtectionEntity -ProtectionContainer $ProtectionContainer
 PS C:\> Start-AzureSiteRecoveryTestFailoverJob -ProtectionEntity $ProtectionEntity -Direction "PrimaryToRecovery"
 ID               : c38eecdc-731c-405b-a61c-08db99aae2fe
@@ -166,20 +166,20 @@ Tasks            : {}
 Errors           : {}
 ```
 
-The first command uses the Get-AzureSiteRecoveryProtectionContainer cmdlet to get a protected container, and then stores it in the $ProtectionContainer variable.
+The first command uses the **Get-AzureSiteRecoveryProtectionContainer** cmdlet to get a protected container, and then stores it in the $ProtectionContainer variable.
 
-The second command gets the protected entities that belong to the protected container stored in $ProtectionContainer by using the Get-AzureSiteRecoveryProtectionEntity cmdlet.
+The second command gets the protected entities that belong to the protected container stored in $ProtectionContainer by using the **Get-AzureSiteRecoveryProtectionEntity** cmdlet.
 The command stores the results in the $ProtectionEntity variable.
 
 The final command starts the test failover operation for the protected entities stored in $ProtectionEntity and specifies the direction of the failover.
 
 ### Example 2: Start a test failover using a recovery plan
 ```
-PS C:\>$RecoveryPlan = Get-AzureSiteRecoveryRecoveryPlan -Name "RecoveryPlan01"
+PS C:\> $RecoveryPlan = Get-AzureSiteRecoveryRecoveryPlan -Name "RecoveryPlan01"
 Start-AzureSiteRecoveryTestFailoverJob -Direction PrimaryToRecovery -RecoveryPlan $RecoveryPlan
 ```
 
-This command gets the recovery plan named RecoveryPlan01 for the current Azure Site Recovery vault by using the Get-AzureSiteRecoveryRecoveryPlan cmdlet.
+This command gets the recovery plan named RecoveryPlan01 for the current Azure Site Recovery vault by using the **Get-AzureSiteRecoveryRecoveryPlan** cmdlet.
 The command stores the plan in the $RecoveryPlan variable.
 
 The second command starts the test failover operation for the recovery plan stored in $RecoveryPlan and specifies the direction of the failover.
@@ -188,7 +188,7 @@ The second command starts the test failover operation for the recovery plan stor
 
 ### -Network
 Specifies the network object to use for test failover.
-To obtain a network, use the Get-AzureSiteRecoveryNetwork cmdlet.
+To obtain a network, use the **Get-AzureSiteRecoveryNetwork** cmdlet.
 
 ```yaml
 Type: ASRNetwork

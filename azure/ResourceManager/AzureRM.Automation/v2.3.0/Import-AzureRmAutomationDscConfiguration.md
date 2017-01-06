@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: BA508F0B-847F-4531-9D5D-A5A044A2D207
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Import-AzureRmAutomationDscConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Import-AzureRmAutomationDscConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Import-AzureRmAutomationDscConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Import-AzureRmAutomationDscConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ Specify the path of an APS script that contains a single DSC configuration.
 
 ### Example 1: Import a DSC configuration into Automation
 ```
-PS C:\>Import-AzureRmAutomationDscConfiguration -AutomationAccountName "Contoso17"-ResourceGroupName "ResourceGroup01" -SourcePath "C:\DSC\client.ps1" -Force
+PS C:\> Import-AzureRmAutomationDscConfiguration -AutomationAccountName "Contoso17"-ResourceGroupName "ResourceGroup01" -SourcePath "C:\DSC\client.ps1" -Force
 ```
 
 This command imports the DSC configuration in the file named client.ps1 into the Automation account named Contoso17.
@@ -141,7 +141,7 @@ Accept wildcard characters: False
 ```
 
 ### -SourcePath
-Specifies the path of the wps_2 script that contains the DSC configuration that this cmdlet imports.
+Specifies the path of the Windows PowerShell script that contains the DSC configuration that this cmdlet imports.
 
 ```yaml
 Type: String
@@ -215,5 +215,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Export-AzureRmAutomationDscConfiguration](xref:ResourceManager/AzureRM.Automation/v2.3.0/Export-AzureRmAutomationDscConfiguration.md)
 
 [Get-AzureRmAutomationDscConfiguration](xref:ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationDscConfiguration.md)
-
-

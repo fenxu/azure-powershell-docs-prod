@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 ms.assetid: A6F2CC9F-8C95-484D-8676-7DAA5E0AA617
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 9:26 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/46112aec682e15fb5cef6419ae8f28f4b6e5a8d9/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Get-AzureRemoteAppUser** cmdlet lists the users in an Azure RemoteApp coll
 
 ### Example 1: List the users of a collection
 ```
-PS C:\>Get-AzureRemoteAppUser -CollectionName "Contoso"
+PS C:\> Get-AzureRemoteAppUser -CollectionName "Contoso"
 ```
 
 This command lists the users who have access to the Azure RemoteApp collection named Contoso.

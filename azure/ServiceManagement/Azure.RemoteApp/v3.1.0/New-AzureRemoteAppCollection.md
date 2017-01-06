@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 ms.assetid: 2021B6BC-7B59-4A88-B1DF-598203F58901
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 9:26 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/New-AzureRemoteAppCollection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/New-AzureRemoteAppCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/New-AzureRemoteAppCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/46112aec682e15fb5cef6419ae8f28f4b6e5a8d9/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/New-AzureRemoteAppCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,14 +49,14 @@ The **New-AzureRemoteAppCollection** cmdlet creates an Azure RemoteApp collectio
 
 ### Example 1: Create a collection
 ```
-PS C:\>New-AzureRemoteAppCollection -CollectionName "Contoso" -ImageName "Windows Server 2012 R2" -Plan Standard -Location "West US" -Description CloudOnly
+PS C:\> New-AzureRemoteAppCollection -CollectionName "Contoso" -ImageName "Windows Server 2012 R2" -Plan Standard -Location "West US" -Description CloudOnly
 ```
 
 This command creates an Azure RemoteApp collection.
 
 ### Example 2: Create a collection using credentials
 ```
-PS C:\>$cred = Get-Credential corp.contoso.com\admin
+PS C:\> $cred = Get-Credential corp.contoso.com\admin
 PS C:\> New-AzureRemoteAppCollection -CollectionName "ContosoHybrid" -ImageName "Windows Server 2012 R2" -Plan Standard -VNetName azureVNet -Domain Contoso.com -Credential $cred -Description Hybrid
 ```
 
@@ -81,7 +81,7 @@ Accept wildcard characters: False
 
 ### -Credential
 Specifies the credentials of a service account that has permission to join the Azure RemoteApp servers to your domain.
-To obtain a **Credential** object, use the Get-Credential cmdlet.
+To obtain a **PSCredential** object, use the **Get-Credential** cmdlet.
 
 ```yaml
 Type: PSCredential
@@ -97,7 +97,7 @@ Accept wildcard characters: False
 
 ### -CustomRdpProperty
 Specifies custom Remote Desktop Protocal (RDP) properties which can be used to configure drive redirection and other settings.
-See RDP Settings for Remote Desktop Services in Windows Serverhttps://technet.microsoft.com/library/ff393699(v=ws.10).aspx (https://technet.microsoft.com/library/ff393699(v=ws.10).aspx) for details.
+See [RDP Settings for Remote Desktop Services in Windows Server](https://technet.microsoft.com/library/ff393699(v=ws.10).aspx)  `(https://technet.microsoft.com/library/ff393699(v=ws.10).aspx)` for details.
 
 ```yaml
 Type: String

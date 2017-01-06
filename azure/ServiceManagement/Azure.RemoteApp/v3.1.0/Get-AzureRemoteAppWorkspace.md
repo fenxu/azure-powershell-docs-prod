@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 ms.assetid: 035B294E-6A1B-41E9-ACFF-D66F9C1A0B11
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 9:26 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppWorkspace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppWorkspace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppWorkspace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/46112aec682e15fb5cef6419ae8f28f4b6e5a8d9/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppWorkspace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,7 @@ The **Get-AzureRemoteAppWorkspace** cmdlet retrieves information about an Azure 
 
 ### Example 1: Retrieve information about a workspace
 ```
-PS C:\>Get-AzureRemoteAppWorkspace
+PS C:\> Get-AzureRemoteAppWorkspace
 ClientUrl                               EndUserFeedName
 ---------                               ---------------
 https://www.remoteapp.windowsazure.com/ Contoso Work Applications

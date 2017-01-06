@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: D927B159-AD68-4071-ADE3-FA2430750D72
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-AzureStoreAddOn.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-AzureStoreAddOn.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-AzureStoreAddOn.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-AzureStoreAddOn.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,7 +33,7 @@ Remove-AzureStoreAddOn [-Name] <String> [-PassThru] [-Profile <AzureSMProfile>]
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 Removes an existing add-on instance from the current subscription.
 
@@ -41,7 +41,7 @@ Removes an existing add-on instance from the current subscription.
 
 ### Example 1
 ```
-PS C:\>Remove-AzureStoreAddOn MyAddOn
+PS C:\> Remove-AzureStoreAddOn MyAddOn
 ```
 
 This example removes an add-on named MyAddOn from the current subscription.

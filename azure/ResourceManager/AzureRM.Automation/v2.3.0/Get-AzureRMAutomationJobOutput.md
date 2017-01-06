@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: B39C4D6B-392A-4C8D-A6FB-886DA1A2BA58
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRMAutomationJobOutput.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRMAutomationJobOutput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRMAutomationJobOutput.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRMAutomationJobOutput.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -109,7 +109,8 @@ Accept wildcard characters: False
 
 ### -Stream
 Specifies the type of output.
-Valid values are: 
+
+The acceptable values for this parameter are:
 
 - Any
 - Debug
@@ -150,5 +151,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Stop-AzureRmAutomationJob](xref:ResourceManager/AzureRM.Automation/v2.3.0/Stop-AzureRMAutomationJob.md)
 
 [Suspend-AzureRmAutomationJob](xref:ResourceManager/AzureRM.Automation/v2.3.0/Suspend-AzureRMAutomationJob.md)
-
-

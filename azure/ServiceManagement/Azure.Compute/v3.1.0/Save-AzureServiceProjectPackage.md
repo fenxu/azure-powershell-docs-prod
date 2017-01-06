@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 9445B7FA-FC72-4F71-BD44-8AA55BE9BA0E
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 6:13 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Save-AzureServiceProjectPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Save-AzureServiceProjectPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Save-AzureServiceProjectPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/10d5db95c5649f79b4844462bb63e71dfc0bd195/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Save-AzureServiceProjectPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Save-AzureServiceProjectPackage
 
 ## SYNOPSIS
-Packages the service project into Azure cloud package (*.cspkg).
+Packages the service project into Azure cloud package.
 
 ## SYNTAX
 
@@ -33,15 +33,15 @@ Save-AzureServiceProjectPackage [-Local] [-Profile <AzureSMProfile>] [-Informati
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Save-AzureServiceProjectPackage** cmdlet packages the service project into an Azure cloud package (*.cspkg).
 
 ## EXAMPLES
 
-### 1: Create a service project package
+### Example 1: Create a service project package
 ```
-PS C:\>Save-AzureServiceProjectPackage
+PS C:\> Save-AzureServiceProjectPackage
 ```
 
 This example creates a *.cspgk for a service project named MyAzureServiceProject.

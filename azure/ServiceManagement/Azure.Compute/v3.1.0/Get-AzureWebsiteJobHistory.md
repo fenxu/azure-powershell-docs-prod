@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: A2CBF963-1FAE-41B0-964E-EFF52076AB32
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureWebsiteJobHistory.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureWebsiteJobHistory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureWebsiteJobHistory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureWebsiteJobHistory.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -51,23 +51,23 @@ Gets a web job history.
 
 ## EXAMPLES
 
-### 1: Get complete history for a web job
+### Example 1: Get complete history for a web job
 ```
-C:\PS>Get-AzureWebsiteJobHistory -Name MyWebsite -JobName MyWebJob
+PS C:\> Get-AzureWebsiteJobHistory -Name MyWebsite -JobName MyWebJob
 ```
 
 Gets complete history for MyWebJob.
 
-### 2: Get latest run for a web job
+### Example 2: Get latest run for a web job
 ```
-C:\PS>Get-AzureWebsiteJobHistory -Name MyWebsite -JobName MyWebJob -Latest
+PS C:\> Get-AzureWebsiteJobHistory -Name MyWebsite -JobName MyWebJob -Latest
 ```
 
 Gets latest run info for MyWebJob.
 
-### 3: Get specific run for a web job
+### Example 3: Get specific run for a web job
 ```
-C:\PS>Get-AzureWebsiteJobHistory -Name MyWebsite -JobName MyWebJob -RunId 10
+PS C:\> Get-AzureWebsiteJobHistory -Name MyWebsite -JobName MyWebJob -RunId 10
 ```
 
 Gets all info about run with id 10 for MyWebJob.
@@ -190,7 +190,7 @@ Accept wildcard characters: False
 ```
 
 ### -RunId
-The ID of the run history you want to see.
+Specifies the ID of the run history you want to see.
 
 ```yaml
 Type: String

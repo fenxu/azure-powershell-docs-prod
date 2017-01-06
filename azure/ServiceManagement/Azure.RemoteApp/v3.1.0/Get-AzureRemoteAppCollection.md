@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 ms.assetid: 8F00099A-042A-4450-B6CF-9EDA2350CBFC
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 9:26 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppCollection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/46112aec682e15fb5cef6419ae8f28f4b6e5a8d9/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Get-AzureRemoteAppCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,21 +38,21 @@ It returns an object with information on a specific collection, or if no collect
 
 ### Example 1: Get a list of all collections
 ```
-PS C:\>Get-AzureRemoteAppCollection
+PS C:\> Get-AzureRemoteAppCollection
 ```
 
 This command returns a list of all Azure RemoteApp collections in the subscription.
 
 ### Example 2: Get information about a specified collection
 ```
-PS C:\>Get-AzureRemoteAppCollection ContosoApps
+PS C:\> Get-AzureRemoteAppCollection ContosoApps
 ```
 
 This command returns information about the Azure RemoteApp collection named ContosoApps.
 
 ### Example 3: Get a list of collections by using a wildcard
 ```
-PS C:\>Get-AzureRemoteAppCollection Finance*
+PS C:\> Get-AzureRemoteAppCollection Finance*
 ```
 
 This command returns a list of all Azure RemoteApp collections matching Finance*.

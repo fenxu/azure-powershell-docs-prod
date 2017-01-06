@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: B1897EFC-0184-4A8B-B8E4-203CC8E3B179
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,13 +34,13 @@ Set-AzureRmAutomationAccount [-ResourceGroupName] <String> [-Name] <String> [-Pl
 ## DESCRIPTION
 The **Set-AzureRmAutomationAccount** cmdlet modifies an Azure Automation account.
 
-For more information about Automation accounts, see the New-AzureRmAutomationAccount cmdlet.
+For more information about Automation accounts, see the [New-AzureRmAutomationAccount](./New-AzureRmAutomationAccount.md) cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Set the tags for an Automation account
 ```
-PS C:\>$Tags = @{"tag01"="value01";"tag02"="value02"}
+PS C:\> $Tags = @{"tag01"="value01";"tag02"="value02"}
 PS C:\> Set-AzureRmAutomationAccount -Name "AutomationAccount01" -ResourceGroupName "ResourceGroup01" -Tags $Tags
 ```
 
@@ -50,7 +50,7 @@ The second command sets tags in $Tags for the Automation account named Automatio
 
 ### Example 2: Change the plan for an Automation account
 ```
-PS C:\>Set-AzureRmAutomationAccount -Name "AutomationAccount01" -ResourceGroupName "ResourceGroup01" -Plan Basic
+PS C:\> Set-AzureRmAutomationAccount -Name "AutomationAccount01" -ResourceGroupName "ResourceGroup01" -Plan Basic
 ```
 
 This command changes the plan to Basic for the Automation account named AutomationAccount01.
@@ -138,5 +138,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmAutomationAccount](xref:ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRmAutomationAccount.md)
 
 [Remove-AzureRmAutomationAccount](xref:ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRmAutomationAccount.md)
-
-

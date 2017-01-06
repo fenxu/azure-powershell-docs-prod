@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 ms.assetid: 79D64D7C-6671-4F03-8776-70A716F36512
 online version: 
 schema: 2.0.0
-updated_at: 11/18/2016 9:58 PM
-ms.date: 11/18/2016
+updated_at: 1/4/2017 10:41 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Import-AzurePublishSettingsFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Import-AzurePublishSettingsFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Import-AzurePublishSettingsFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379557ccffccbfa288c09f905962979254b5a124/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Import-AzurePublishSettingsFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -41,7 +41,7 @@ Before running **Import-AzurePublishSettingsFile**, run **Get-AzurePublishSettin
 To make your Azure account available to Windows PowerShell, you can use a publish settings file or the **Add-AzureAccount** cmdlet.
 Publish settings files let you prepare the session in advance so you can run scripts and background jobs unattended.
 However, not all services support publish settings files.
-For example, the AzureResourceManager module does not support publish settings files.
+For example, the **AzureResourceManager** module does not support publish settings files.
 
 **Security Note:** Publish settings files contain a management certificate that is encoded, but not encrypted.
 If  malicious users access your publish settings file,  they might be able to edit, create, and delete your Azure services.
@@ -49,16 +49,16 @@ As a security best practice, save the file to a location in your Downloads or Do
 
 ## EXAMPLES
 
-### --------------  Example 1 --------------
+### Example 1: Import a file 
 ```
-PS C:\>Import-AzurePublishSettingsFile -PublishSettingsFile C:\Temp\MyAccount.publishsettings
+PS C:\> Import-AzurePublishSettingsFile -PublishSettingsFile C:\Temp\MyAccount.publishsettings
 ```
 
 This command imports the "C:\Temp\MyAccount.publishsettings" file.
 
-### --------------  Example 2 --------------
+### Example 2: Import a file and save subscription data 
 ```
-PS C:\>Import-AzurePublishSettingsFile -PublishSettingsFile C:\Temp\MyAccount.publishsettings -SubscriptionDataFile C:\Subs\Subscriptions.xml
+PS C:\> Import-AzurePublishSettingsFile -PublishSettingsFile C:\Temp\MyAccount.publishsettings -SubscriptionDataFile C:\Subs\Subscriptions.xml
 ```
 
 This command imports the "C:\Temp\MyAccountName-date-credentials.publishsettings" file and then saves the subscription data file in C:\Subs\Subscriptions.xml.
@@ -81,6 +81,12 @@ Accept wildcard characters: False
 ```
 
 ### -Environment
+Specifies an Azure environment.
+
+An Azure environment an independent deployment of Microsoft Azure, such as AzureCloud for global Azure and AzureChinaCloud for Azure operated by 21Vianet in China.
+You can also create on-premises Azure environments by using Azure Pack and the WAPack cmdlets.
+For more information, see [Azure Pack](http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx)  (http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx).
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -94,6 +100,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
+
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
@@ -160,7 +169,7 @@ This cmdlet does not generate any output.
 
 ## NOTES
 * A "publish settings file" is an XML file with a .publishsettings file name extension. The file contains an encoded certificate that provides management credentials for your Azure subscriptions. After you import this file, delete it to avoid security risks.
-* A "subscription data file" is an XML file that can be saved on your computer safely. By default, it's saved in your roaming user profile ($home/AppData/Roaming)
+* A "subscription data file" is an XML file that can be saved on your computer safely. By default, it's saved in your roaming user profile ($home/AppData/Roaming).
 
 ## RELATED LINKS
 

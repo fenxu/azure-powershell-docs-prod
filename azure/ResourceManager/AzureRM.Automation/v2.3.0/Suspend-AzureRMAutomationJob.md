@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: FF44BCD2-AD8E-4F5C-AB10-BD6BD69E7F45
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Suspend-AzureRMAutomationJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Suspend-AzureRMAutomationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Suspend-AzureRMAutomationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Suspend-AzureRMAutomationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,13 +35,13 @@ Suspend-AzureRmAutomationJob [-Id] <Guid> [-ResourceGroupName] <String> [-Automa
 The **Suspend-AzureRmAutomationJob** cmdlet suspends an Azure Automation job.
 Specify a running Automation job.
 
-To resume a suspended job, use the Resume-AzureRmAutomationJob cmdlet.
+To resume a suspended job, use the **Resume-AzureRmAutomationJob** cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Suspend a job
 ```
-PS C:\>Suspend-AzureRmAutomationJob -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b64 -ResourceGroupName "ResourceGroup01"
+PS C:\> Suspend-AzureRmAutomationJob -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b64 -ResourceGroupName "ResourceGroup01"
 ```
 
 This command suspends the job that has the specified ID.
@@ -111,5 +111,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Resume-AzureRmAutomationJob](xref:ResourceManager/AzureRM.Automation/v2.3.0/Resume-AzureRMAutomationJob.md)
 
 [Stop-AzureRmAutomationJob](xref:ResourceManager/AzureRM.Automation/v2.3.0/Stop-AzureRMAutomationJob.md)
-
-

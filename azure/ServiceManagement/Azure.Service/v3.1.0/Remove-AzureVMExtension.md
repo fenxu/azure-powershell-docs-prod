@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: B98FCF46-A5D6-4CC9-B82A-60B429A21A8B
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureVMExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureVMExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureVMExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureVMExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -52,14 +52,14 @@ The **Remove-AzureVMExtension** cmdlet removes resource extensions from a virtua
 
 ### Example 1: Remove an extension using a specific name and publisher
 ```
-PS C:\>$VM = Remove-AzureVMExtension -VM $VM -ExtensionName $EXT -Publisher $PUB;
+PS C:\> $VM = Remove-AzureVMExtension -VM $VM -ExtensionName $EXT -Publisher $PUB;
 ```
 
 This command removes an extension with the specified name and publisher.
 
 ### Example 2: Remove all extensions from a specific virtual machine
 ```
-PS C:\>$VM = Remove-AzureVMExtension -VM $VM -RemoveAll;
+PS C:\> $VM = Remove-AzureVMExtension -VM $VM -RemoveAll;
 ```
 
 This command removes all extensions from the specified virtual machine as stored in the variable $VM.

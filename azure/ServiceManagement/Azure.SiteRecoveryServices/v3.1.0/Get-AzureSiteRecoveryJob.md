@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 ms.assetid: 2957C0DE-3A2F-4337-A778-2B95654972E7
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 9:56 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5de5c3508c54977d862f546f41ff111633de6ee9/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -53,7 +53,7 @@ You can use this cmdlet to view the operation information for the current Site R
 
 ### Example 1: Get a job by specifying an ID
 ```
-PS C:\>Get-AzureSiteRecoveryJob -Id "033785cc-9f72-4f07-8e78-e4d1e942a7ae" 
+PS C:\> Get-AzureSiteRecoveryJob -Id "033785cc-9f72-4f07-8e78-e4d1e942a7ae" 
 Name             : SaveRecoveryPlan
 ID               : 033785cc-9f72-4f07-8e78-e4d1e942a7ae
 ClientRequestId  : d604206b-32e1-4d5b-9a23-32b118d14a1e-2015-02-20 07:20:42Z-P
@@ -73,7 +73,7 @@ This command gets the  Azure Site Recovery job that has the specified ID.
 
 ### Example 2: Gets a job based on time
 ```
-PS C:\>Get-AzureSiteRecoveryJob -StartTime "20-02-2015 01:00:00" -EndTime "21-02-2015 01:00:00"
+PS C:\> Get-AzureSiteRecoveryJob -StartTime "20-02-2015 01:00:00" -EndTime "21-02-2015 01:00:00"
 Name             : SaveRecoveryPlan
 ID               : 033785cc-9f72-4f07-8e78-e4d1e942a7ae
 ClientRequestId  : d604206b-32e1-4d5b-9a23-32b118d14a1e-2015-02-20 07:20:42Z-P
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 ### -EndTime
 Specifies the end time for the jobs.
 This cmdlet gets all jobs that started before the specified time.
-To obtain a **DateTime** object, use the Get-Date cmdlet.
+To obtain a **DateTime** object, use the **Get-Date** cmdlet.
 For more information, type `Get-Help Get-Date`.
 
 ```yaml

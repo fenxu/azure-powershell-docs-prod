@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: F5EC8E00-E504-436A-96FF-4E886579AEA4
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureStoreAddOn.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureStoreAddOn.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureStoreAddOn.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureStoreAddOn.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,7 +34,7 @@ Set-AzureStoreAddOn [-Name] <String> [-Plan] <String> [[-PromotionCode] <String>
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 This cmdlet updates an existing add-on instance from the current subscription.
 
@@ -42,14 +42,14 @@ This cmdlet updates an existing add-on instance from the current subscription.
 
 ### Example 1
 ```
-PS C:\>Set-AzureStoreAddOn MyAddOn NewPlanId
+PS C:\> Set-AzureStoreAddOn MyAddOn NewPlanId
 ```
 
 This example updates an add-on with a new plan ID.
 
 ### Example 2
 ```
-PS C:\>Set-AzureStoreAddOn MyAddOn NewPlanId MyPromoCode
+PS C:\> Set-AzureStoreAddOn MyAddOn NewPlanId MyPromoCode
 ```
 
 This example updates an add-on with a new plan ID and promotional code.

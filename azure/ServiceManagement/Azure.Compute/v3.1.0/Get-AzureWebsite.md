@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: E4B1AA31-1185-4035-86E6-2BB2587285C6
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureWebsite.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureWebsite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureWebsite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureWebsite.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,24 +37,24 @@ The **Get-AzureWebsite** cmdlet gets information about Azure websites in the cur
 By default, **Get-AzureWebsite** gets all Azure websites in the current subscription and returns an object that provides basic information about the sites.
 When you use the *Name* parameter, **Get-AzureWebsite** returns an object with extensive information, including configuration details.
 
-The current subscription is the subscription that is designated as "current." To find the current subscription, use the *Current* parameter of the Get-AzureSubscriptionhttp://go.microsoft.com/fwlink/?LinkID=397623 cmdlet.
-To change the current subscription, use the Select-AzureSubscriptionhttp://go.microsoft.com/fwlink/?LinkID=397628 cmdlet.
+The current subscription is the subscription that is designated as "current." To find the current subscription, use the *Current* parameter of the [Get-AzureSubscription](http://go.microsoft.com/fwlink/?LinkID=397623) cmdlet.
+To change the current subscription, use the [Select-AzureSubscription](http://go.microsoft.com/fwlink/?LinkID=397628) cmdlet.
 
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 ## EXAMPLES
 
 ### Example 1: Get all websites in the subscription
 ```
-PS C:\>Get-AzureWebsite
+PS C:\> Get-AzureWebsite
 ```
 
 This command gets all Azure websites in the current subscription.
 
 ### Example 2: Get a website by name
 ```
-PS C:\>Get-AzureWebsite -Name ContosoWeb
+PS C:\> Get-AzureWebsite -Name ContosoWeb
 ```
 
 This command gets detailed information about the ContosoWeb Azure website, including configuration information.
@@ -62,7 +62,7 @@ When you use the *Name* parameter, **Get-AzureWebsite** returns a **SiteWithConf
 
 ### Example 3: Get detailed information about all websites
 ```
-PS C:\>Get-AzureWebsite | ForEach-Object {Get-AzureWebsite -Name $_.Name}
+PS C:\> Get-AzureWebsite | ForEach-Object {Get-AzureWebsite -Name $_.Name}
 ```
 
 This command gets detailed information about all websites in the subscription.
@@ -70,7 +70,7 @@ It uses a **Get-AzureWebsite** command to get all websites and then uses the **F
 
 ### Example 4: Get information about a deployment slot
 ```
-PS C:\>Get-AzureWebsite -Name ContosoWeb -Slot Staging
+PS C:\> Get-AzureWebsite -Name ContosoWeb -Slot Staging
 ```
 
 This command gets the Staging deployment slot of the ContosoWeb website.
@@ -94,7 +94,7 @@ The **Instances** property was added to the **SiteWithConfig** object in version
 
 The first command gets the instance IDs of all currently running instances of a website.
 The second command gets the number of running instances of the website.
-(You can use the **Count** property on any array.)
+You can use the **Count** property on any array.
 
 ## PARAMETERS
 

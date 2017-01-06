@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 79F694A6-CB25-420A-81A1-118F016D3303
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 10:41 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Azure.Profile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Azure.Profile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Azure.Profile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379557ccffccbfa288c09f905962979254b5a124/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Azure.Profile.md
 uid: ServiceManagement/Azure.Profile/v3.1.0/Azure.Profile.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -28,11 +28,11 @@ The cmdlets in the Azure Profile module (AzureProfile) enable you to manage your
 
 ## Azure.Profile Cmdlets
 ### [Add-AzureAccount](./Add-AzureAccount.md)
-Adds the Azure account to Windows PowerShell
+Adds the Azure account to Windows PowerShell.
 
 
 ### [Add-AzureEnvironment](./Add-AzureEnvironment.md)
-Creates an Azure environment
+Creates an Azure environment.
 
 
 ### [Clear-AzureProfile](./Clear-AzureProfile.md)
@@ -52,7 +52,7 @@ Gets Azure accounts that are available to Azure PowerShell.
 
 
 ### [Get-AzureEnvironment](./Get-AzureEnvironment.md)
-Gets Azure environments
+Gets Azure environments.
 
 
 ### [Get-AzurePublishSettingsFile](./Get-AzurePublishSettingsFile.md)
@@ -76,7 +76,7 @@ Deletes an Azure account from Windows PowerShell.
 
 
 ### [Remove-AzureEnvironment](./Remove-AzureEnvironment.md)
-Deletes an Azure environment from Windows PowerShell
+Deletes an Azure environment from Windows PowerShell.
 
 
 ### [Remove-AzureSubscription](./Remove-AzureSubscription.md)
@@ -88,15 +88,15 @@ Deletes an Azure subscription from Windows PowerShell.
 
 
 ### [Select-AzureSubscription](./Select-AzureSubscription.md)
-Changes the current and default Azure subscriptions
+Changes the current and default Azure subscriptions.
 
 
 ### [Set-AzureEnvironment](./Set-AzureEnvironment.md)
-Changes the properties of an Azure environment
+Changes the properties of an Azure environment.
 
 
 ### [Set-AzureSubscription](./Set-AzureSubscription.md)
-Creates or changes an Azure subscription
+Creates or changes an Azure subscription.
 
 
 

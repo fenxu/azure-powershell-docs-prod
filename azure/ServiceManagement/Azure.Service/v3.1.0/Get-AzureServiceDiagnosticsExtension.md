@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 235DD5D7-BE24-4FBE-88E2-40D1943ED155
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureServiceDiagnosticsExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureServiceDiagnosticsExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureServiceDiagnosticsExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureServiceDiagnosticsExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Get-AzureServiceDiagnosticsExtension** cmdlet gets the cloud service diagn
 
 ### Example 1: Enable a diagnostic extension
 ```
-PS C:\>Get-AzureServiceDiagnosticsExtension -ServiceName $Svc
+PS C:\> Get-AzureServiceDiagnosticsExtension -ServiceName $Svc
 ```
 
 This command enables a diagnostic service across all roles.

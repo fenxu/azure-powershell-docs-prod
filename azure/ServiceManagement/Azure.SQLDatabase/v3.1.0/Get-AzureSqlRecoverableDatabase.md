@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 ms.assetid: 83E8DAD8-151A-408D-819F-274CB813ABDA
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 9:17 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlRecoverableDatabase.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlRecoverableDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlRecoverableDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8bbe11a32244ebde0ad865d340e59d85ee67d16e/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlRecoverableDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -52,14 +52,14 @@ This cmdlet gets a specific recoverable database or all recoverable databases on
 
 ### Example 1: Get all recoverable databases
 ```
-PS C:\>Get-AzureSqlRecoverableDatabase -ServerName "server1"
+PS C:\> Get-AzureSqlRecoverableDatabase -ServerName "Server01"
 ```
 
 This command gets all recoverable databases on the server named Server01.
 
 ### Example 2: Get a specific recoverable database
 ```
-PS C:\>Get-AzureSqlRecoverableDatabase -ServerName "Server01" -DatabaseName "Database17"
+PS C:\> Get-AzureSqlRecoverableDatabase -ServerName "Server01" -DatabaseName "Database17"
 ```
 
 This command gets retrieves the database named Database17 on the server named Server01.
@@ -175,7 +175,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## OUTPUTS
 
-### IEnumerable<Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabase>
+### IEnumerable\<Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabase\>
 
 ## NOTES
 * You must use certificate-based authentication to run this cmdlet. Run the following commands on the computer where run this cmdlet: 

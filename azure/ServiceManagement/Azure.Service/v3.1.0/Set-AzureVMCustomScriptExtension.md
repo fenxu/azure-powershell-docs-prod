@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 6A8F07D1-AC20-4950-9019-BDFB4FD3CF69
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:47 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureVMCustomScriptExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureVMCustomScriptExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureVMCustomScriptExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c17253ff7f696fb211814185df5f94106c4534a8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureVMCustomScriptExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -63,7 +63,7 @@ The **Set-AzureVMCustomScriptExtension** cmdlet sets information for an Azure vi
 
 ### Example 1: Set information for a virtual machine custom script extension
 ```
-PS C:\>$VM = Set-AzureVMCustomScriptExtension -VM $VM -ContainerName "Container01" -FileName "script1.ps1","script2.ps1" -Run "script1.ps1" -Argument "arg1 arg2";
+PS C:\> $VM = Set-AzureVMCustomScriptExtension -VM $VM -ContainerName "Container01" -FileName "script1.ps1","script2.ps1" -Run "script1.ps1" -Argument "arg1 arg2";
 PS C:\> New-AzureVM -Location "West US" -ServiceName $SVC -VM $VM;
 ```
 
@@ -71,7 +71,7 @@ This command sets information for a virtual machine custom script extension.
 
 ### Example 2: Set information for a virtual machine custom script extension using a file path
 ```
-PS C:\>Set-AzureVMCustomScriptExtension -VM $VM -FileUri "http://www.blob.core.contoso.net/bar/script1.ps1","http://www.blob.core.contoso.net/baz/script2.ps1" -Run "script1.ps1" -Argument "arg1 arg2";
+PS C:\> Set-AzureVMCustomScriptExtension -VM $VM -FileUri "http://www.blob.core.contoso.net/bar/script1.ps1","http://www.blob.core.contoso.net/baz/script2.ps1" -Run "script1.ps1" -Argument "arg1 arg2";
 PS C:\> Update-AzureVM -ServiceName $SVC -Name $Name -VM VM;
 ```
 
@@ -85,7 +85,7 @@ Specifies the reference name for the extension.
 This parameter is a user-defined string that can be used to refer to an extension.
 It is specified when the extension is added to the virtual machine for the first time.
 For subsequent updates, you need to specify the previously used reference name while updating the extension.
-The *ReferenceName* assigned to an extension is returned using the Get-AzureVM cmdlet.
+The *ReferenceName* assigned to an extension is returned using the **Get-AzureVM** cmdlet.
 
 ```yaml
 Type: String

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 6AFD3971-460D-4F6A-B266-6ED98DC81CD4
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Move-AzureStorageAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Move-AzureStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Move-AzureStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Move-AzureStorageAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -57,21 +57,21 @@ The **Move-AzureStorageAccount** cmdlet migrates a storage account to a resource
 
 ### Example 1: Prepare storage account migration
 ```
-PS C:\>Move-AzureStorageAccount -Prepare -StorageAccountName "ContosoStorageName"
+PS C:\> Move-AzureStorageAccount -Prepare -StorageAccountName "ContosoStorageName"
 ```
 
 This command prepares the storage account named ContosoStorageName for migration to the Azure Resource Manager stack.
 
 ### Example 2: Start storage account migration
 ```
-PS C:\>Move-AzureStorageAccount -Commit -StorageAccountName "ContosoStorageName"
+PS C:\> Move-AzureStorageAccount -Commit -StorageAccountName "ContosoStorageName"
 ```
 
 This command starts migration of the storage account named ContosoStorageName to the Azure Resource Manager stack.
 
 ### Example 3: Validate storage account migration
 ```
-PS C:\>Move-AzureStorageAccount -Validate -StorageAccountName "ContosoStorageName"
+PS C:\> Move-AzureStorageAccount -Validate -StorageAccountName "ContosoStorageName"
 ```
 
 This command validates migration for the storage account named ContosoStorageName to the Azure Resource Manager stack.

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: 515933DF-5DB1-452A-808B-0198A3A2EA8B
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRmAutomationAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRmAutomationAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRmAutomationAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRmAutomationAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,13 +34,13 @@ Remove-AzureRmAutomationAccount [-ResourceGroupName] <String> [-Name] <String> [
 ## DESCRIPTION
 The **Remove-AzureRmAutomationAccount** cmdlet removes an Azure Automation account from a resource group.
 
-For more information about Automation accounts, see the New-AzureRmAutomationAccount cmdlet.
+For more information about Automation accounts, see the **New-AzureRmAutomationAccount** cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Remove an automation account
 ```
-PS C:\>Remove-AzureRmAutomationAccount -Name "ContosoAutomationAccount" -Force -ResourceGroupName "ResourceGroup01"
+PS C:\> Remove-AzureRmAutomationAccount -Name "ContosoAutomationAccount" -Force -ResourceGroupName "ResourceGroup01"
 ```
 
 This command removes an automation account named ContosoAutomationAccount without prompting for user validation.
@@ -139,5 +139,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmAutomationAccount](xref:ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRmAutomationAccount.md)
 
 [Set-AzureRmAutomationAccount](xref:ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationAccount.md)
-
-

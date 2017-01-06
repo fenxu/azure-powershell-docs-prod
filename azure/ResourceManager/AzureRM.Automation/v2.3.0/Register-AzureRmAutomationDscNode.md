@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: 73E6DF02-7171-481B-966F-DECEC122A602
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Register-AzureRmAutomationDscNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Register-AzureRmAutomationDscNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Register-AzureRmAutomationDscNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Register-AzureRmAutomationDscNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -41,7 +41,7 @@ The **Register-AzureRmAutomationDscNode** cmdlet registers an Azure virtual mach
 
 ### Example 1: Register an Azure virtual machine as an Azure DSC node
 ```
-PS C:\>Register-AzureAutomationDscNode -AutomationAccountName "Contoso17" -AzureVMName "VirtualMachine01" -ResourceGroupName "ResourceGroup01"-NodeConfigurationName "ContosoConfiguration.webserver"
+PS C:\> Register-AzureAutomationDscNode -AutomationAccountName "Contoso17" -AzureVMName "VirtualMachine01" -ResourceGroupName "ResourceGroup01"-NodeConfigurationName "ContosoConfiguration.webserver"
 ```
 
 This command registers the Azure virtual machine named VirtualMachine01 as a DSC node in the Automation account named Contoso17.
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 
 ### -AzureVMLocation
 Specifies the location in which this cmdlet registers a virtual machine.
-To obtain valid locations, use the Get-AzureRMLocation cmdlet.
+To obtain valid locations, use the **Get-AzureRMLocation** cmdlet.
 
 ```yaml
 Type: String
@@ -257,5 +257,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationDscNode.md)
 
 [Unregister-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v2.3.0/Unregister-AzureRmAutomationDscNode.md)
-
-

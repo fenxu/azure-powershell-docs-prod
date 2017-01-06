@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 ms.assetid: F83D698B-DC48-4ACD-AD2E-4AAECBDA196B
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/4/2017 9:26 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Restart-AzureRemoteAppVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Restart-AzureRemoteAppVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Restart-AzureRemoteAppVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/46112aec682e15fb5cef6419ae8f28f4b6e5a8d9/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Restart-AzureRemoteAppVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Restart-AzureRemoteAppVM** cmdlet restarts a virtual machine in an Azure R
 
 ### Example 1: Restart a virtual machine
 ```
-PS C:\>Restart-AzureRemoteAppVM -CollectionName "ContosoVNet" -UserUPN "PattiFuller@contoso.com"
+PS C:\> Restart-AzureRemoteAppVM -CollectionName "ContosoVNet" -UserUPN "PattiFuller@contoso.com"
 ```
 
 This command restarts a virtual machine in an Azure RemoteApp collection named Contoso.
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 
 ### -UserUpn
 Specifies the user principal name (UPN) of the user for whom this cmdlet restarts the virtual machine.
-To obtain virtual machines in the collection and connected UPNs, use the Get-AzureRemoteAppVM cmdlet.
+To obtain virtual machines in the collection and connected UPNs, use the **Get-AzureRemoteAppVM** cmdlet.
 
 ```yaml
 Type: String

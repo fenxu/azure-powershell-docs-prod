@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 ms.assetid: B35979E5-94C4-4DCC-B87D-D6915464CF69
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/4/2017 9:26 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Remove-AzureRemoteAppTemplateImage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Remove-AzureRemoteAppTemplateImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Remove-AzureRemoteAppTemplateImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/46112aec682e15fb5cef6419ae8f28f4b6e5a8d9/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.1.0/Remove-AzureRemoteAppTemplateImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ A template image can deleted only if it is not linked to any Azure RemoteApp col
 
 ### Example 1: Delete a template image
 ```
-PS C:\>Remove-AzureRemoteAppTemplateImage -ImageName "ContosoApps"
+PS C:\> Remove-AzureRemoteAppTemplateImage -ImageName "ContosoApps"
 ```
 
 This command deletes the template image named ContosoApps.

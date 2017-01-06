@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: CB621890-EF8A-4F14-8F18-D8806E624DAB
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationSchedule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRMAutomationSchedule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -75,7 +75,7 @@ The **New-AzureRmAutomationSchedule** cmdlet creates a schedule in Azure Automat
 
 ### Example 1: Create a one-time schedule in local time
 ```
-PS C:\>$TimeZone = ([System.TimeZoneInfo]::Local)Id
+PS C:\> $TimeZone = ([System.TimeZoneInfo]::Local)Id
 PS C:\> New-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "Schedule01" -StartTime "23:00" -OneTime -ResourceGroupName "ResourceGroup01" -TimeZone $TimeZone
 ```
 
@@ -84,7 +84,7 @@ The second command creates a schedule that runs one time on the current date at 
 
 ### Example 2: Create a recurring schedule
 ```
-PS C:\>$StartTime = Get-Date "13:00:00"
+PS C:\> $StartTime = Get-Date "13:00:00"
 PS C:\> $EndTime = $StartTime.AddYears(1)
 PS C:\> New-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "Schedule02" -StartTime $StartTime -ExpiryTime $EndTime -DailyInterval 1 -ResourceGroupName "ResourceGroup01"
 ```
@@ -374,5 +374,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRMAutomationSchedule.md)
 
 [Set-AzureRmAutomationSchedule](xref:ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRMAutomationSchedule.md)
-
-

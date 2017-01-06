@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: E6E40D1B-A5BC-4B38-9D22-F06A8E4DABDF
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMOSDisk.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMOSDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMOSDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackVMOSDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,9 +46,9 @@ Get-WAPackVMOSDisk [[-Name] <String>] [-Profile <AzureSMProfile>] [-InformationA
 
 ## DESCRIPTION
 These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
+For the updated topics, see [Azure WAPack Cmdlets](http://msdn.microsoft.com/library/dn776450.aspx) (http://msdn.microsoft.com/library/dn776450.aspx).
 This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+To find out the version of the module you're using, from the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Get-WAPackVMOSDisk** cmdlet gets operating system disk objects for virtual machines.
 
@@ -56,21 +56,21 @@ The **Get-WAPackVMOSDisk** cmdlet gets operating system disk objects for virtual
 
 ### Example 1: Get an operating system disk by using a name
 ```
-PS C:\>Get-WAPackVMOSDisk -Name "ContosoOSDisk"
+PS C:\> Get-WAPackVMOSDisk -Name "ContosoOSDisk"
 ```
 
 This command gets an operating system disk named ContosoOSDisk.
 
 ### Example 2: Get an operating system disk by using an ID
 ```
-PS C:\>Get-WAPackVMOSDisk -Id 66242D17-189F-480D-87CF-8E1D749998C8
+PS C:\> Get-WAPackVMOSDisk -Id 66242D17-189F-480D-87CF-8E1D749998C8
 ```
 
 This command gets the operating system disk that has the specified ID.
 
 ### Example 3: Get all operating system disks
 ```
-PS C:\>Get-WAPackVMOSDisk
+PS C:\> Get-WAPackVMOSDisk
 ```
 
 This command gets all operating system disks.

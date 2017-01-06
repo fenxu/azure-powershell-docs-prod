@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: BB216903-B2BB-4948-AC28-408ED6C768F2
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/New-AzureService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/New-AzureService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/New-AzureService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/New-AzureService.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,14 +47,14 @@ The **New-AzureService** cmdlet creates a new Azure service in the current subsc
 
 ### Example 1: Create a service
 ```
-PS C:\>New-AzureService -ServiceName "MySvc01" -Label "MyTestService" -Location "South Central US"
+PS C:\> New-AzureService -ServiceName "MySvc01" -Label "MyTestService" -Location "South Central US"
 ```
 
 This command creates a new service named MySvc01 in the South Central US location.
 
 ### Example 2: Create a service in an affinity group
 ```
-PS C:\>New-AzureService -ServiceName "MySvc01" -AffinityGroup NorthRegion
+PS C:\> New-AzureService -ServiceName "MySvc01" -AffinityGroup NorthRegion
 ```
 
 This command creates a new service named MySvc01 using the NorthRegion affinity group.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 ms.assetid: 79EE846E-D5BE-4808-BC6F-E3B16A308AB0
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 8:06 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceVolume.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceVolume.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceVolume.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42a873a36748963f5f6496c41e9c5490d6e1bd81/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceVolume.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -238,7 +238,7 @@ This cmdlet accepts a **DataContainer** object that contains the volume to get.
 
 ## OUTPUTS
 
-### VirtualDisk, IList<VirtualDisk>
+### VirtualDisk, IList\<VirtualDisk\>
 This cmdlet returns a **VirtualDisk** object if you specify the *VolumeName* parameter.
 If you specify the *VolumeContainer*, this cmdlet returns an **IList\<VirtualDisk\>** object.
 

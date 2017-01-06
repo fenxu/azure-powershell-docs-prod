@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 ms.assetid: 6527FF45-9C16-47E8-8E70-619A0581D2F8
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 7:33 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3c119b6c79abfdf15aa7736c17ff4df9df4548d3/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Get-AzureAutomationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -53,21 +53,21 @@ The **Get-AzureAutomationJob** cmdlet gets one or more runbook jobs in Microsoft
 
 ### Example 1: Get a specific runbook job
 ```
-PS C:\>Get-AzureAutomationJob -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b647
+PS C:\> Get-AzureAutomationJob -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b647
 ```
 
 This command gets the job that has the specified GUID.
 
 ### Example 2: Get all jobs for a runbook
 ```
-PS C:\>Get-AzureAutomationJob -AutomationAccountName "Contoso17" -RunbookName "MyRunbook"
+PS C:\> Get-AzureAutomationJob -AutomationAccountName "Contoso17" -RunbookName "MyRunbook"
 ```
 
 This command gets all jobs associated with a runbook named MyRunbook.
 
 ### Example 2: Get all running jobs
 ```
-PS C:\>Get-AzureAutomationJob -AutomationAccountName "Contoso17" -Status "Running"
+PS C:\> Get-AzureAutomationJob -AutomationAccountName "Contoso17" -Status "Running"
 ```
 
 This command gets all running jobs in the automation account with the name Contoso17.

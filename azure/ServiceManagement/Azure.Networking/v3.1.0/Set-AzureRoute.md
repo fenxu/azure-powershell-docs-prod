@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 ms.assetid: A7DFF559-188D-4CF9-9315-CA327E0C5C0B
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 5:15 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Set-AzureRoute.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Set-AzureRoute.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Set-AzureRoute.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/36d1914bec7a0c7ac53722746483f7a293ced1c5/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Set-AzureRoute.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,8 @@ The new route takes effect almost immediately on the virtual machines that are a
 
 ### Example 1: Add a virtual appliance next hop route
 ```
-PS C:\>New-AzureRouteTable -Name "ApplianceRouteTable" -Location "Central US" -Label "Appliance Route Table" | Set-AzureRoute -RouteName "ApplianceRoute03" -AddressPrefix "10.0.0.0/24" -NextHopType VirtualAppliance -NextHopIpAddress "10.0.1.5"
+PS C:\> New-AzureRouteTable -Name "ApplianceRouteTable" -Location "Central US" -Label "Appliance Route Table" | Set-AzureRoute -RouteName "ApplianceRoute03" -AddressPrefix "10.0.0.0/24" -NextHopType VirtualAppliance -NextHopIpAddress "10.0.1.5"
+
 Routes                        Name                          Location                      Label
 ------                        ----                          --------                      -----
 {approute}                    AppRT                         Central US                    Appliance Route Table
@@ -53,7 +54,8 @@ The command specifies the next hop IP address and the address prefix for the rou
 
 ### Example 2: Add an Internet next hop route
 ```
-PS C:\>Get-AzureRouteTable -Name "ApplianceRouteTable" | Set-AzureRoute -RouteName "InternetRoute" -AddressPrefix "0.0.0.0/0" -NextHopType Internet
+PS C:\> Get-AzureRouteTable -Name "ApplianceRouteTable" | Set-AzureRoute -RouteName "InternetRoute" -AddressPrefix "0.0.0.0/0" -NextHopType Internet
+
 Routes                        Name                          Location                      Label
 ------                        ----                          --------                      -----
 {approute, internetroute}     AppRT                         Central US                    Appliance Route Table
@@ -152,7 +154,6 @@ Accept wildcard characters: False
 ### -Profile
 Specifies the Azure profile from which this cmdlet reads. 
 If you do not specify a profile, this cmdlet reads from the local default profile.
-By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: AzureSMProfile

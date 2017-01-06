@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 97E1A3FF-E479-44CD-8147-15408DF3F79A
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMDiagnosticsExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMDiagnosticsExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMDiagnosticsExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVMDiagnosticsExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Get-AzureVMDiagnosticsExtension** cmdlet gets the settings of the Microsof
 
 ### Example 1: Get the diagnostics extension applied to a virtual machine
 ```
-PS C:\>Get-AzureVMDiagnosticsExtension -VM $VM
+PS C:\> Get-AzureVMDiagnosticsExtension -VM $VM
 ```
 
 This command gets the diagnostics extension applied to the specified virtual machine as stored in the variable $VM.

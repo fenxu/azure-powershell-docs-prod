@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ManagedCache.dll-Help.xml
 ms.assetid: AD8157BB-3FAF-43BF-89D0-B9FDC9045522
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 6:49 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.1.0/Set-AzureManagedCache.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.1.0/Set-AzureManagedCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.1.0/Set-AzureManagedCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0f25a678d148c9b541a7b52e63124fa1e3a3b071/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.1.0/Set-AzureManagedCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,8 +37,9 @@ The **Set-AzureManagedCache** cmdlet changes the properties of an Azure Cache an
 Use the *Name* and *Location* parameters to identify the Azure Cache, and the *Sku* and *Memory* parameters to change its properties.
 An Azure Cache is a secure, dedicated cache that provides extremely fast access to data.
 This distributed, in-memory, scalable solution enables you to build highly scalable and responsive applications.
-For more information about Azure Cache, see Azure Cachehttp://azure.microsoft.com/en-us/services/cache/.
-WARNING: When you change the *SKU* of an Azure Cache, all data in the cache is deleted and a new, empty Azure Cache is created for you with the same name and location.
+For more information about Azure Cache, see [Azure Cache](http://azure.microsoft.com/en-us/services/cache/) (http://azure.microsoft.com/en-us/services/cache/).
+
+**WARNING** When you change the *SKU* of an Azure Cache, all data in the cache is deleted and a new, empty Azure Cache is created for you with the same name and location.
 
 ## EXAMPLES
 
@@ -52,6 +53,7 @@ This command increases the size of the Azure Cache named ContosoCache to 256 MB.
 ### Example 2: Change the SKU of an Azure Cache
 ```
 PS C:\>Set-AzureManagedCache -Name "ContosoCache" -Location "West Europe" -Sku Standard -Size 10GB
+
 Confirm
 Are you sure you want to perform this action? 
 Performing the operation "Delete" on target "ContosoCache".
@@ -84,9 +86,9 @@ Specifies the tier of the Azure Cache.
 
 The acceptable values for this parameter are:
 
-- Basic (128MB - 1GB) 
-- Standard (1GB - 10GB) 
-- Premium (5GB - 150GB)
+- Basic (128 MB - 1 GB) 
+- Standard (1 GB - 10 GB) 
+- Premium (5 GB - 150 GB)
 
 ```yaml
 Type: CacheServiceSkuType
@@ -173,13 +175,13 @@ Accept wildcard characters: False
 ### -Memory
 Specifies the new size of the Azure Cache.
 The cache size might affect the cost of the service.
-Enter a value followed by MB or GB, such as 128MB or 8GB.
+Enter a value followed by MB or GB, such as `128MB` or `8GB`.
 This value must be compatible with the Sku of the Azure Cache.
 This parameter has the following considerations: 
 
-- When the value of Sku is Basic, the value of Memory must be divisible by 128MB.
-- When the value of Sku is Standard, the value of Memory must be divisible by 1GB.
-- When the value of Sku is Premium, the value of Memory must be divisible by 5GB.
+- When the value of Sku is Basic, the value of Memory must be divisible by 128 MB.
+- When the value of Sku is Standard, the value of Memory must be divisible by 1 GB.
+- When the value of Sku is Premium, the value of Memory must be divisible by 5 GB.
 
 ```yaml
 Type: String
@@ -205,7 +207,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### Microsoft.Azure.Commands.ManagedCache.Models.PsCacheService
 
 ## NOTES
-* Use the Add-AzureAccount or Import-AzurePublishSettingsFile cmdlet to make your Azure account available to Windows PowerShell before using this cmdlet. For more information, see How to install and configure Azure PowerShellhttp://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/.
+* Use the **Add-AzureAccount** or **Import-AzurePublishSettingsFile** cmdlet to make your Azure account available to Windows PowerShell before using this cmdlet. 
+For more information, see [How to install and configure Azure PowerShell](http://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/) (http://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/).
 
 ## RELATED LINKS
 

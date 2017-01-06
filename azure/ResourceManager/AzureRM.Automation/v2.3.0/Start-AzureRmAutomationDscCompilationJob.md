@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: 32CF9BF7-519F-4B5D-9F2B-3CC556A77A48
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRmAutomationDscCompilationJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRmAutomationDscCompilationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRmAutomationDscCompilationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRmAutomationDscCompilationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Start-AzureRmAutomationDscCompilationJob** cmdlet compiles an APS Desired 
 
 ### Example 1: Compile an Azure DSC configuration in Automation
 ```
-PS C:\>$Params = @{"StringParam"="Hello World";"IntegerParam"=32}
+PS C:\> $Params = @{"StringParam"="Hello World";"IntegerParam"=32}
 PS C:\> Start-AzureRmAutomationDscCompilationJob -ConfigurationName "Config01" -Parameters $Params -ResourceGroupName "ResourceGroup01"
 ```
 
@@ -139,5 +139,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmAutomationDscCompilationJob](xref:ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationDscCompilationJob.md)
 
 [Get-AzureRmAutomationDscCompilationJobOutput](xref:ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationDscCompilationJobOutput.md)
-
-

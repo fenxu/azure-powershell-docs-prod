@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: CF7E7C62-88FC-48CA-940F-9A6C7442BEF2
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 6:13 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Publish-AzureServiceProject.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Publish-AzureServiceProject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Publish-AzureServiceProject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/10d5db95c5649f79b4844462bb63e71dfc0bd195/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Publish-AzureServiceProject.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -44,26 +44,26 @@ Publish-AzureServiceProject [[-Package] <String>] [-Configuration] <String> [-St
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Publish-AzureServiceProject** cmdlet publishes the current service to the cloud.
 You can specify publishing configuration (such as **Subscription**, **StorageAccountName**, **Location**, **Slot**) on the command line, or in local settings through the **Set-AzureServiceProject** cmdlet.
 
 ## EXAMPLES
 
-### 1: Publish a service project with default values
+### Example 1: Publish a service project with default values
 ```
-PS C:\>Publish-AzureServiceProject
+PS C:\> Publish-AzureServiceProject
 ```
 
 This example publishes the current service, using the current service settings and the current Azure publish profile.
 
-### 2: Create a deployment package
+### Example 2: Create a deployment package
 ```
-PS C:\>Publish-AzureServiceProject -PackageOnly
+PS C:\> Publish-AzureServiceProject -PackageOnly
 ```
 
-Creates a deployment package (.cspkg) file in the service directory and does not publish to Windows Azure.
+This example creates a deployment package (.cspkg) file in the service directory and does not publish to Windows Azure.
 
 ## PARAMETERS
 
@@ -71,7 +71,7 @@ Creates a deployment package (.cspkg) file in the service directory and does not
 Specifies the name to be used for the service when publishing to Windows Azure.
 The name determines part of the label in the cloudapp.net subdomain that is used to address the service when hosted in Windows Azure (that is, **name**.cloudapp.net).
 Any name specified while publishing the service overrides the name given when the service was created.
-(See the New-AzureServiceProject cmdlet).
+(See the **New-AzureServiceProject** cmdlet).
 
 ```yaml
 Type: String
@@ -107,8 +107,21 @@ Accept wildcard characters: False
 
 ### -Location
 The region in which the application will be hosted.
-Possible values are: Anywhere Asia, Anywhere Europe, Anywhere US, East Asia, East US, North Central US, North Europe, South Central US, Southeast Asia, West Europe, West US. 
-If no Location is specified, the location specified in the last call to Set-AzureServiceProject will be used. 
+Possible values are: 
+  
+- Anywhere Asia
+- Anywhere Europe
+- Anywhere US
+- East Asia
+- East US
+- North Central US
+- North Europe
+- South Central US
+- Southeast Asia
+- West Europe
+- West US
+ 
+If no Location is specified, the location specified in the last call to **Set-AzureServiceProject** will be used. 
 If no Location was ever specified, the Location will be randomly chosen from 'North Central US' and 'South Central US' locations.
 
 ```yaml

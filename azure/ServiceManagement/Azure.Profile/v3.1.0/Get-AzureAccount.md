@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 ms.assetid: 70ADAF16-BC52-47BF-A85A-A84DEACDA027
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 10:41 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Get-AzureAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Get-AzureAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Get-AzureAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379557ccffccbfa288c09f905962979254b5a124/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Get-AzureAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,8 @@ To make your accounts available to Windows PowerShell, use the **Add-AzureAccoun
 
 ### Example 1: Get all accounts
 ```
-PS C:\>Get-AzureAccount
+PS C:\> Get-AzureAccount
+
 Name                         ActiveDirectories
 ----                         -----------------
 contosoadmin@outlook.com     {{ ActiveDirectoryTenantId = abcde5cd-bcc3-441a-bd86-e6a...
@@ -50,7 +51,8 @@ This command gets all accounts associated with the specified user.
 
 ### Example 2: Get an account by name
 ```
-PS C:\>Get-AzureAccount -Name contosoadmin@outlook.com
+PS C:\> Get-AzureAccount -Name contosoadmin@outlook.com
+
 Name                         ActiveDirectories
 ----                         -----------------
 contosoadmin@outlook.com     {{ ActiveDirectoryTenantId = abcde5cd-bcc3-441a-bd86-e6a...
@@ -80,6 +82,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
+
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)

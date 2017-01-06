@@ -1,15 +1,15 @@
 ---
 Module Name: Azure.ManagedCache
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
-Download Help Link: Please enter FwLink manually
-Help Version: Please enter version of help manually (X.X.X.X) format
+Download Help Link: 
+Help Version: 
 Locale: en-US
 ms.assetid: 07D686BC-721E-4178-BA04-8EEBA483FAF6
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 6:49 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.1.0/Azure.ManagedCache.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.1.0/Azure.ManagedCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.1.0/Azure.ManagedCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0f25a678d148c9b541a7b52e63124fa1e3a3b071/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.1.0/Azure.ManagedCache.md
 uid: ServiceManagement/Azure.ManagedCache/v3.1.0/Azure.ManagedCache.md
 ms.topic: conceptual
 ms.prod: powershell

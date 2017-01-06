@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 ms.assetid: 0B194605-F6B2-4FBC-ABF8-E49876EC7CFD
 online version: 
 schema: 2.0.0
-updated_at: 11/18/2016 9:58 PM
-ms.date: 11/18/2016
+updated_at: 1/5/2017 7:56 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.1.0/Get-AzureHDInsightJobOutput.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.1.0/Get-AzureHDInsightJobOutput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.1.0/Get-AzureHDInsightJobOutput.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/19a5b1f717d293af155ba9dab1b9ac6b733992fc/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.1.0/Get-AzureHDInsightJobOutput.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -63,8 +63,8 @@ The first command gets the ID of the current subscription, and then stores it in
 The second command stores the name MyCluster in the $Clustername variable.
 
 The third command creates a MapReduce job definition, and then stores it in the $WordCountJob variable.
-The command passes the job in $WordCountJob to the Start-AzureHDInsightJob cmdlet to start the job.
-It also passes $WordCountJob to the Wait-AzureHDInsightJob cmdlet to wait for the job to finish, and then it uses **Get-AzureHDInsightJobOutput** to get the job output.
+The command passes the job in $WordCountJob to the **Start-AzureHDInsightJob** cmdlet to start the job.
+It also passes $WordCountJob to the **Wait-AzureHDInsightJob** cmdlet to wait for the job to finish, and then it uses **Get-AzureHDInsightJobOutput** to get the job output.
 
 ## PARAMETERS
 

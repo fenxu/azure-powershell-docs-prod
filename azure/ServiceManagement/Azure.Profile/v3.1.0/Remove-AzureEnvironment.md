@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 ms.assetid: 4B8B56B4-511B-45BD-9595-B47187C76E03
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 10:41 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Remove-AzureEnvironment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Remove-AzureEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Remove-AzureEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379557ccffccbfa288c09f905962979254b5a124/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.1.0/Remove-AzureEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureEnvironment
 
 ## SYNOPSIS
-Deletes an Azure environment from Windows PowerShell
+Deletes an Azure environment from Windows PowerShell.
 
 ## SYNTAX
 
@@ -37,20 +37,20 @@ This cmdlet does not delete the environment from Microsoft Azure, or change the 
 
 An Azure environment an independent deployment of Microsoft Azure, such as AzureCloud for global Azure and AzureChinaCloud for Azure operated by 21Vianet in China.
 You can also create on-premises Azure environments by using Azure Pack and the WAPack cmdlets.
-For more information, see Azure Packhttp://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx (http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx).
+For more information, see [Azure Pack](http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx) (http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx).
 
 ## EXAMPLES
 
 ### Example 1: Delete an environment
 ```
-PS C:\>Remove-AzureEnvironment -Name ContosoEnv
+PS C:\> Remove-AzureEnvironment -Name ContosoEnv
 ```
 
 This command deletes the ContosoEnv environment from Windows PowerShell.
 
 ### Example 2: Delete multiple environments
 ```
-PS C:\>Get-AzureEnvironment | Where-Object EnvironmentName -like "Contoso*" | ForEach-Object {Remove-AzureEnvironment -Name $_.EnvironmentName }
+PS C:\> Get-AzureEnvironment | Where-Object EnvironmentName -like "Contoso*" | ForEach-Object {Remove-AzureEnvironment -Name $_.EnvironmentName }
 ```
 
 This command deletes environments whose names begin with "Contoso" from Windows PowerShell.
@@ -76,6 +76,8 @@ Accept wildcard characters: False
 ```
 
 ### -Force
+Suppresses the confirmation prompt.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -89,6 +91,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
+
 ```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
@@ -151,7 +156,7 @@ You can pipe input to this cmdlet by property name, but not by value.
 ## OUTPUTS
 
 ### None or System.Boolean
-If you use the **PassThru** parameter, this cmdlet returns a Boolean value.
+If you use the *PassThru* parameter, this cmdlet returns a Boolean value.
 Otherwise, it does not return any output.
 
 ## NOTES

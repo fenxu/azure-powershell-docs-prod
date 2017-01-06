@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 ms.assetid: 6723557D-8052-4BFA-872C-384B1423B3AE
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 9:17 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseServerQuota.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseServerQuota.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseServerQuota.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8bbe11a32244ebde0ad865d340e59d85ee67d16e/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Get-AzureSqlDatabaseServerQuota.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,14 +48,14 @@ If you do not specify a quota name, this cmdlet gets all the quota information f
 
 ### Example 1: Get information for a specific quota
 ```
-PS C:\>$QuotaPremium = GetAzureSqlDatabaseServerQuota $Context -QuotaName "Premium_Databases"
+PS C:\> $QuotaPremium = GetAzureSqlDatabaseServerQuota $Context -QuotaName "Premium_Databases"
 ```
 
 This command gets the quota named Premium_Databases from the Azure SQL Database server specified by the connection stored in the $Context variable.
 
 ### Example 2: Get information for all quotas
 ```
-PS C:\>$QuotaList = GetAzureSqlDatabaseServerQuota $Context
+PS C:\> $QuotaList = GetAzureSqlDatabaseServerQuota $Context
 ```
 
 This command gets all quota values from the server specified by the connection $Context.

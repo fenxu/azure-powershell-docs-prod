@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 7D51BE56-C0A2-4A32-BB7F-8FA9CC67F8F9
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackLogicalNetwork.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackLogicalNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackLogicalNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-WAPackLogicalNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,9 +40,9 @@ Get-WAPackLogicalNetwork [[-Name] <String>] [-Profile <AzureSMProfile>] [-Inform
 
 ## DESCRIPTION
 These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
+For the updated topics, see [Azure WAPack Cmdlets](http://msdn.microsoft.com/library/dn776450.aspx) (http://msdn.microsoft.com/library/dn776450.aspx).
 This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+To find out the version of the module you're using, from the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Get-WAPackLogicalNetwork** cmdlet gets logical network objects.
 
@@ -50,14 +50,14 @@ The **Get-WAPackLogicalNetwork** cmdlet gets logical network objects.
 
 ### Example 1: Get a logical network by using a name
 ```
-PS C:\>Get-WAPackLogicalNetwork -Name "ContosoLogicalNetwork01"
+PS C:\> Get-WAPackLogicalNetwork -Name "ContosoLogicalNetwork01"
 ```
 
 This command gets a logical network named ContosoLogicalNetwork01.
 
 ### Example 2: Get all logical networks
 ```
-PS C:\>Get-WAPackLogicalNetwork
+PS C:\> Get-WAPackLogicalNetwork
 ```
 
 This command gets all logical networks.

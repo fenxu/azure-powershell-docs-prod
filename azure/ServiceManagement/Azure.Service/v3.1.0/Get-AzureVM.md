@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: BBA0D5D3-29A5-4E00-9075-702E2F81CA52
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Get-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,21 +46,21 @@ It returns an object with information on a specific virtual machine, or if no vi
 
 ### Example 1: Retrieve information on a specified virtual machine
 ```
-PS C:\>Get-AzureVM -ServiceName "ContosoService01" -Name "VirtualMachine02"
+PS C:\> Get-AzureVM -ServiceName "ContosoService01" -Name "VirtualMachine02"
 ```
 
 This command returns an object with information on the VirtualMachine02 virtual machine running in the ContosoService01 cloud service.
 
 ### Example 2: Retrieve information on all virtual machines
 ```
-PS C:\>Get-AzureVM -ServiceName "ContosoService01"
+PS C:\> Get-AzureVM -ServiceName "ContosoService01"
 ```
 
 This command retrieves a list object with information on all of the virtual machines running in the ContosoService01 cloud service.
 
 ### Example 3: Display a table of virtual machine statuses
 ```
-PS C:\>Get-AzureVM -ServiceName "ContosoService01"  | Format-Table AutoSize -Property "Name",@{Expression={$_.InstanceUpgradeDomain};Label="UpgDom";Align="Right"},"InstanceStatus"
+PS C:\> Get-AzureVM -ServiceName "ContosoService01"  | Format-Table AutoSize -Property "Name",@{Expression={$_.InstanceUpgradeDomain};Label="UpgDom";Align="Right"},"InstanceStatus"
 ```
 
 This command displays a table showing the virtual machines running on the ContosoService01 service, their Upgrade Domain, and the current status of each virtual machine.

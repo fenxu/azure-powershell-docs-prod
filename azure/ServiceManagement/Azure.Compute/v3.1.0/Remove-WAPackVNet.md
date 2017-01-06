@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 42042533-9F84-4189-8C9F-01FD62F89DC3
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackVNet.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackVNet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackVNet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Remove-WAPackVNet.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,9 +33,9 @@ Remove-WAPackVNet [-VNet] <VMNetwork> [-PassThru] [-Force] [-Profile <AzureSMPro
 
 ## DESCRIPTION
 These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
+For the updated topics, see [Azure WAPack Cmdlets](http://msdn.microsoft.com/library/dn776450.aspx) (http://msdn.microsoft.com/library/dn776450.aspx).
 This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+To find out the version of the module you're using, from the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Remove-WAPackVNet** cmdlet removes virtual network objects.
 
@@ -43,8 +43,8 @@ The **Remove-WAPackVNet** cmdlet removes virtual network objects.
 
 ### Example 1: Remove a virtualized network
 ```
-PS C:\>$VNet = Get-WAPackVNet -Name "ContosoVNet01"
-PS C:\>Remove-WAPackVM -VNet $VNet
+PS C:\> $VNet = Get-WAPackVNet -Name "ContosoVNet01"
+PS C:\> Remove-WAPackVM -VNet $VNet
 ```
 
 The first command gets the virtualized network named ContosoVNet01 by using the **Get-WAPackVNet** cmdlet, and then stores that object in the $VNet variable.
@@ -53,8 +53,8 @@ The command prompts you for confirmation.
 
 ### Example 2: Remove a virtualized network without confirmation
 ```
-PS C:\>$VNet = Get-WAPackVNet -Name "ContosoVNet02"
-PS C:\>Remove-WAPackVNet -VNet $VNet -Force
+PS C:\> $VNet = Get-WAPackVNet -Name "ContosoVNet02"
+PS C:\> Remove-WAPackVNet -VNet $VNet -Force
 ```
 
 The first command gets the cloud service named ContosoVNet02 by using the **Get-WAPackVNet** cmdlet, and then stores that object in the $VNet variable.

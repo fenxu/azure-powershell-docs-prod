@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: EFBC8DCD-00CC-4BBF-9383-EA15376535F3
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Update-AzureWebsiteRepository.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Update-AzureWebsiteRepository.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Update-AzureWebsiteRepository.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Update-AzureWebsiteRepository.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Update-AzureWebsiteRepository** cmdlet updates the remote repositories of 
 
 ### Example 1: Update Website Remote Repositories
 ```
-C:\PS>Update-AzureWebsiteRepository -Name MyWebsite
+PS C:\> Update-AzureWebsiteRepository -Name MyWebsite
 ```
 
 Updates the remote repositories of a local git repository for all the slots for website MyWebsite.

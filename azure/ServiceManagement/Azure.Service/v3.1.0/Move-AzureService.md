@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: F8418A93-8E6B-4A1C-B319-7CACE95AB600
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Move-AzureService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Move-AzureService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Move-AzureService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Move-AzureService.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -75,7 +75,7 @@ The **Move-AzureService** cmdlet migrates a cloud service and a deployment insid
 
 ### Example 1: Prepare service migration
 ```
-PS C:\>Move-AzureService -Prepare -ServiceName "ContosoService" -DeploymentName "ContosoVM" -CreateNewVirtualNetwork
+PS C:\> Move-AzureService -Prepare -ServiceName "ContosoService" -DeploymentName "ContosoVM" -CreateNewVirtualNetwork
 ```
 
 This command prepares the service named ContosoService for migration to the Azure Resource Manager stack.
@@ -83,7 +83,7 @@ The migration includes the deployment named ContosoVM.
 
 ### Example 2: Start service migration
 ```
-PS C:\>Move-AzureService -Commit -ServiceName "ContosoService" -DeploymentName "ContosoVM"
+PS C:\> Move-AzureService -Commit -ServiceName "ContosoService" -DeploymentName "ContosoVM"
 ```
 
 This command starts migration of the service named ContosoService to the Azure Resource Manager stack.
@@ -91,14 +91,14 @@ The migration includes the deployment named ContosoVM.
 
 ### Example 3: Cancel service migration
 ```
-PS C:\>Move-AzureService -Abort -ServiceName "ContosoService" -DeploymentName "ContosoVM"
+PS C:\> Move-AzureService -Abort -ServiceName "ContosoService" -DeploymentName "ContosoVM"
 ```
 
 This command cancels migration of the service named ContosoService to the Azure Resource Manager stack.
 
 ### Example 4: Prepare service migration to an existing virtual network
 ```
-PS C:\>Move-AzureService -Prepare -ServiceName "ContosoService" -DeploymentName "ContosoVM" -UseExistingVirtualNetwork -VirtualNetworkResourceGroupName "VnetRG" -VirtualNetworkName "ContosoVNET" -SubnetName "ContosoSubnet"
+PS C:\> Move-AzureService -Prepare -ServiceName "ContosoService" -DeploymentName "ContosoVM" -UseExistingVirtualNetwork -VirtualNetworkResourceGroupName "VnetRG" -VirtualNetworkName "ContosoVNET" -SubnetName "ContosoSubnet"
 ```
 
 This command prepares the service named ContosoService for migration to the Azure Resource Manager stack.
@@ -107,7 +107,7 @@ The migration uses a virtual network that was previously created.
 
 ### Example 5: Validate service migration
 ```
-PS C:\>Move-AzureService -Validate -ServiceName "ContosoService" -DeploymentName "ContosoVM" -CreateNewVirtualNetwork
+PS C:\> Move-AzureService -Validate -ServiceName "ContosoService" -DeploymentName "ContosoVM" -CreateNewVirtualNetwork
 ```
 
 This command validates migration for the service named ContosoService to the Azure Resource Manager stack.
@@ -115,7 +115,7 @@ The migration includes the deployment named ContosoVM.
 
 ### Example 6: Validate service migration to an existing virtual network
 ```
-PS C:\>Move-AzureService -Validate -ServiceName "contosoService" -DeploymentName "contosoVM" -UseExistingVirtualNetwork -VirtualNetworkResourceGroupName "vnetRG" -VirtualNetworkName "contosoVNET" -SubnetName "contosoSubnet"
+PS C:\> Move-AzureService -Validate -ServiceName "contosoService" -DeploymentName "contosoVM" -UseExistingVirtualNetwork -VirtualNetworkResourceGroupName "vnetRG" -VirtualNetworkName "contosoVNET" -SubnetName "contosoSubnet"
 ```
 
 This command validates migration for the service named ContosoService to the Azure Resource Manager stack.

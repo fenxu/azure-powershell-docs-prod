@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: 2DC97415-D59A-428E-8FFE-56B17B320DAF
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRmAutomationModule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRmAutomationModule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRmAutomationModule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/New-AzureRmAutomationModule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,14 +36,14 @@ The **New-AzureRmAutomationModule** cmdlet imports a module into Azure Automatio
 This command accepts a compressed file that has a .zip file name extension.
 The file contains a folder that includes a file that is one of the following types: 
 
-- wps_2 module, which has a .psm1 or .dll file name extension 
-- wps_2 module manifest, which has a .psd1 file name extension
+- Windows PowerShell module, which has a .psm1 or .dll file name extension 
+- Windows PowerShell module manifest, which has a .psd1 file name extension
 
 The name of the .zip file, the name of the folder, and the name of the file in the folder must be the same.
 
 Specify the .zip file as a URL that the Automation service can access.
 
-If you import a wps_2 module into Automation by using this cmdlet or the Set-AzureRmAutomationModule cmdlet, the operation is asynchronous.
+If you import a Windows PowerShell module into Automation by using this cmdlet or the **Set-AzureRmAutomationModule** cmdlet, the operation is asynchronous.
 The command finishes whether the import succeeds or fails.
 To check whether it succeeded, run the following command:
 
@@ -55,7 +55,7 @@ Check the **ProvisioningState** property for a value of Succeeded.
 
 ### Example 1: Import a module
 ```
-PS C:\>New-AzureRmAutomationModule -AutomationAccountName "Contoso17" -Name "ContosoModule" -ContentLink "http://contosostorage.blob.core.windows.net/modules/ContosoModule.zip" -ResourceGroupName "ResourceGroup01"
+PS C:\> New-AzureRmAutomationModule -AutomationAccountName "Contoso17" -Name "ContosoModule" -ContentLink "http://contosostorage.blob.core.windows.net/modules/ContosoModule.zip" -ResourceGroupName "ResourceGroup01"
 ```
 
 This command imports a module named ContosoModule into the Automation account named Contoso17.
@@ -139,5 +139,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v2.3.0/Remove-AzureRmAutomationModule.md)
 
 [Set-AzureRmAutomationModule](xref:ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationModule.md)
-
-

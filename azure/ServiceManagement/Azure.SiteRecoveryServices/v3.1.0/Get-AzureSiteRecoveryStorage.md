@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 ms.assetid: 78DE0AD2-6210-4604-89A8-41915D58BD68
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 9:56 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryStorage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryStorage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryStorage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5de5c3508c54977d862f546f41ff111633de6ee9/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Get-AzureSiteRecoveryStorage.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Get-AzureSiteRecoveryStorage** cmdlet gets Azure Site Recovery Storages fo
 
 ### Example 1: Get site recovery storage
 ```
-PS C:\>$Servers = Get-AzureSiteRecoveryServer
+PS C:\> $Servers = Get-AzureSiteRecoveryServer
 PS C:\> Get-AzureSiteRecoveryStorage -Server $Servers[0]
 Name           : phase2PrimaryStorageClassification
 ID             : 1c1d0c0b-0c50-4675-af1a-1fdac70dbb6d
@@ -64,7 +64,7 @@ The second command gets the site recovery storage for the first server in the $S
 
 ### -Server
 Specifies a server for Azure Site Recovery Storage.
-To obtain an **ASRServer** object, use the Get-AzureSiteRecoveryServer cmdlet.
+To obtain an **ASRServer** object, use the **Get-AzureSiteRecoveryServer** cmdlet.
 
 ```yaml
 Type: ASRServer

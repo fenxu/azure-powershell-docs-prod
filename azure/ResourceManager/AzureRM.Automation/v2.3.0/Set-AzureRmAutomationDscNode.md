@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: 60023C8D-EA37-41DA-97E6-AF89F7F9BADD
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationDscNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationDscNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationDscNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Set-AzureRmAutomationDscNode.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force the command to run without asking for user confirmation.
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -168,5 +168,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Register-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v2.3.0/Register-AzureRmAutomationDscNode.md)
 
 [Unregister-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v2.3.0/Unregister-AzureRmAutomationDscNode.md)
-
-

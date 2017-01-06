@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: 3F3BC5AF-8D7B-40BF-A072-A11C7BDCB6B3
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:47 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureWalkUpgradeDomain.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureWalkUpgradeDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureWalkUpgradeDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c17253ff7f696fb211814185df5f94106c4534a8/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Set-AzureWalkUpgradeDomain.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,13 +34,13 @@ Set-AzureWalkUpgradeDomain [-ServiceName] <String> [-Slot] <String> [-DomainNumb
 
 ## DESCRIPTION
 The **Set-AzureWalkUpgradeDomain** cmdlet initiates the actual upgrade of an Azure deployment.
-The upgrade package and configuration are set by using the Set-AzureDeployment cmdlet with the -Upgrade switch.
+The upgrade package and configuration are set by using the **Set-AzureDeployment** cmdlet with the -Upgrade switch.
 
 ## EXAMPLES
 
 ### Example 1: Initiate an upgrade of a production deployment
 ```
-PS C:\>Set-AzureWalkUpgradeDomain -ServiceName "MySvc1" -slot "Production" -UpgradeDomain 2
+PS C:\> Set-AzureWalkUpgradeDomain -ServiceName "MySvc1" -slot "Production" -UpgradeDomain 2
 ```
 
 This command initiates the upgrade of Upgrade Domain 2 of the production deployment of the MySvc1 service.

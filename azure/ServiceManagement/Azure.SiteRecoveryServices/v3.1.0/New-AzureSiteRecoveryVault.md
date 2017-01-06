@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 ms.assetid: FD43AFDA-E37D-4B5E-8EB5-CC2CF1E36AFA
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 9:27 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/New-AzureSiteRecoveryVault.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/New-AzureSiteRecoveryVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/New-AzureSiteRecoveryVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1456e1c8196ec59d7c952e852f57d2182faf76da/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/New-AzureSiteRecoveryVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **New-AzureSiteRecoveryVault** cmdlet creates an Azure Site Recovery service
 
 ### Example 1: Create a vault
 ```
-PS C:\>New-AzureSiteRecoveryVault -Location "West US" -Name "ContosoVault" 
+PS C:\> New-AzureSiteRecoveryVault -Location "West US" -Name "ContosoVault" 
 Response
 --------
 Vault has been created

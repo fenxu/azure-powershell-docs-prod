@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 ms.assetid: 8099942A-B6EB-4C01-9F57-378B0EB7B3C9
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 5:15 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Set-AzureVirtualNetworkGatewayKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Set-AzureVirtualNetworkGatewayKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Set-AzureVirtualNetworkGatewayKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/36d1914bec7a0c7ac53722746483f7a293ced1c5/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Set-AzureVirtualNetworkGatewayKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,15 +37,11 @@ The **Set-AzureVirtualNetworkGatewayKey** cmdlet sets the key for an Azure virtu
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
 ### -GatewayId
-Specifies the ID of a gateway
+Specifies the ID of a gateway.
 
 ```yaml
 Type: String
@@ -92,7 +88,6 @@ Accept wildcard characters: False
 ### -Profile
 Specifies the Azure profile from which this cmdlet reads. 
 If you do not specify a profile, this cmdlet reads from the local default profile.
-By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: AzureSMProfile

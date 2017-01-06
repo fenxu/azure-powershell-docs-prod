@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 496ABC97-A493-4E42-B998-28A907DFBC19
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/6/2017 6:13 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Switch-AzureWebsiteSlot.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Switch-AzureWebsiteSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Switch-AzureWebsiteSlot.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/10d5db95c5649f79b4844462bb63e71dfc0bd195/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Switch-AzureWebsiteSlot.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -23,7 +23,6 @@ ms.service: azure-powershell
 
 ## SYNOPSIS
 Swaps the production slot for a website with another slot.
-This works on websites with two slots only
 
 ## SYNTAX
 
@@ -39,9 +38,9 @@ This works on websites with two slots only.
 
 ## EXAMPLES
 
-### 1: Switch Website Slot
+### Example 1: Switch Website Slot
 ```
-C:\PS>Switch-AzureWebsiteSlot -Name MyWebsite
+PS C:\> Switch-AzureWebsiteSlot -Name MyWebsite
 ```
 
 Switch the azure website MyWebsite backup slot with production slot.

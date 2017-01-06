@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: D0A2B454-7BFF-4D4D-8A85-FDB47249758F
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 6:13 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureServiceProject.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureServiceProject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureServiceProject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/10d5db95c5649f79b4844462bb63e71dfc0bd195/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Set-AzureServiceProject.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Set-AzureServiceProject
 
 ## SYNOPSIS
-Sets default location, subscription, slot, and storage account for the current service
+Sets default location, subscription, slot, and storage account for the current service.
 
 ## SYNTAX
 
@@ -40,12 +40,12 @@ These values are used whenever the service is published to the cloud.
 
 ### Example 1: Basic settings
 ```
-C:\PS>Set-AzureServiceProject -Location "North Central US" -Slot Production -Storage myStorageAccount -Subscription myAzureSubscription
+PS C:\> Set-AzureServiceProject -Location "North Central US" -Slot Production -Storage myStorageAccount -Subscription myAzureSubscription
 ```
 
 Sets the deployment location for the service to the North Central US region.
-Sets the deloyment slot to Production. 
-Sets the storage account ahat will be used to stage the service definition to myStorageAccount.
+Sets the deployment slot to Production. 
+Sets the storage account that will be used to stage the service definition to myStorageAccount.
 Sets the subscription that will host the service to mySubscription.
 Whenever the service is published to the cloud, it will be hosted in a data center in the North Central US region, it will update the deployment slot, and it will use the specified subscription and storage account.
 

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 2480FA03-09C6-4A4F-8DDD-01F6AFF6117E
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Disable-AzureWebsiteDebug.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Disable-AzureWebsiteDebug.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Disable-AzureWebsiteDebug.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Disable-AzureWebsiteDebug.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Disable-AzureWebsiteDebug
 
 ## SYNOPSIS
-Disables the website's debugging
+Disables the website's debugging.
 
 ## SYNTAX
 
@@ -38,7 +38,7 @@ Disables the website's debugging in Visual Studio.
 
 ### --------------  Disable website debugging --------------
 ```
-C:\PS>Disable-AzureWebsiteDebug -Name MyWebsite
+PS C:\> Disable-AzureWebsiteDebug -Name MyWebsite
 ```
 
 Disables website debugging on website MyWebsite

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 ms.assetid: 4370FF88-E34F-499D-AF57-53C15B4EB6E9
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 7:33 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Remove-AzureAutomationConnectionType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Remove-AzureAutomationConnectionType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Remove-AzureAutomationConnectionType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3c119b6c79abfdf15aa7736c17ff4df9df4548d3/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.1.0/Remove-AzureAutomationConnectionType.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,10 +37,6 @@ The **Remove-AzureAutomationConnectionType** cmdlet removes an Azure Automation 
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 

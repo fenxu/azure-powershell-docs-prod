@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: 0C806C0A-C199-4AF4-AE2A-11A2467A0873
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/New-AzureSBNamespace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/New-AzureSBNamespace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/New-AzureSBNamespace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/New-AzureSBNamespace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,18 +34,19 @@ New-AzureSBNamespace [-Name] <String> [[-Location] <String>] [[-CreateACSNamespa
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **New-AzureSBNamespace** cmdlet creates a service namespace for use with Service Bus in Azure.
 
 ## EXAMPLES
 
-### 1: Create a service namespace
+### Example 1: Create a service namespace
 ```
-PS C:\> New-AzureSBNamespace -Name myNameSpace -Location East US PS C:\> New-AzureSBNamespace myNameSpace 'East US'
+PS C:\> New-AzureSBNamespace -Name myNameSpace -Location East US 
+PS C:\> New-AzureSBNamespace myNameSpace 'East US'
 ```
 
-The following examples create a service namespace for use with Service Bus in Azure.
+The examples create a service namespace for use with Service Bus in Azure.
 Both examples include the required parameter values, but only the first includes the parameter names.
 The second example can be used because both parameters are positional and their values are given in the required order.
 

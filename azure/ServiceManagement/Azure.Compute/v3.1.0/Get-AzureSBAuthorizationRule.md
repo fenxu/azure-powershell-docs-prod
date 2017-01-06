@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 ms.assetid: D7B2CDFF-D9A2-48C7-B331-132A6A6843CA
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/5/2017 11:58 PM
+ms.date: 1/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureSBAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureSBAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureSBAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/708031d6bfe230ef535b9f1da2a6bf5f01dca5a2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.1.0/Get-AzureSBAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,30 +45,30 @@ Gets Service bus authorization rules.
 
 ## EXAMPLES
 
-### 1: Get authorization rule at namespace level
+### Example 1: Get authorization rule at namespace level
 ```
-C:\PS>Get-AzureSBAuthorizationRule -Namespace MyNamespace
+PS C:\> Get-AzureSBAuthorizationRule -Namespace MyNamespace
 ```
 
 Gets all available authorization rules at MyNamespace.
 
-### 2: Get authorization rule for a Queue
+### Example 2: Get authorization rule for a Queue
 ```
-C:\PS>Get-AzureSBAuthorizationRule -Namespace MyNamespace -EntityName MyEntity -EntityType Queue
+PS C:\> Get-AzureSBAuthorizationRule -Namespace MyNamespace -EntityName MyEntity -EntityType Queue
 ```
 
 Gets all available authorization rules a MyEntity Queue on MyNamespace.
 
-### 3: Get authorization rule by name
+### Example 3: Get authorization rule by name
 ```
-C:\PS>Get-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace
+PS C:\> Get-AzureSBAuthorizationRule -Name MyRule -Namespace MyNamespace
 ```
 
 Gets an authorization rule called MyRule on MyNamespace level.
 
-### 4: Get authorization rule by permission
+### Example 4: Get authorization rule by permission
 ```
-C:\PS>Get-AzureSBAuthorizationRule -Namespace MyNamespace -Permission $("Send")
+PS C:\> Get-AzureSBAuthorizationRule -Namespace MyNamespace -Permission $("Send")
 ```
 
 Gets all authorization rules that have send permission on namespace level.

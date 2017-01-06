@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: 4285EF77-FA70-4BE7-96E0-89E2E8FC5AD6
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Export-AzureRmAutomationDscNodeReportContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Export-AzureRmAutomationDscNodeReportContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Export-AzureRmAutomationDscNodeReportContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Export-AzureRmAutomationDscNodeReportContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Indicates that this cmdlet replaces an existing local file with a new file that has the same name.
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -187,5 +187,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmAutomationDscNode](xref:ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationDscNode.md)
 
 [Get-AzureRmAutomationDscNodeReport](xref:ResourceManager/AzureRM.Automation/v2.3.0/Get-AzureRmAutomationDscNodeReport.md)
-
-

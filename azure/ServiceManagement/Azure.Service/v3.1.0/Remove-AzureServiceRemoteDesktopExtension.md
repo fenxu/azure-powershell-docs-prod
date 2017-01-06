@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: C263CCAD-E51F-420E-9AD4-4FAC09C99CB1
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureServiceRemoteDesktopExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureServiceRemoteDesktopExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureServiceRemoteDesktopExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Remove-AzureServiceRemoteDesktopExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,14 +47,14 @@ The **Remove-AzureServiceRemoteDesktopExtension** cmdlet removes the cloud servi
 
 ### Example 1: Remove the remote desktop extension
 ```
-PS C:\>Remove-AzureServiceRemoteDesktopExtension -ServiceName $svc
+PS C:\> Remove-AzureServiceRemoteDesktopExtension -ServiceName $svc
 ```
 
 This command removes the remote desktop extension.
 
 ### Example 2: Remove the remote desktop extension from a specified role
 ```
-PS C:\>Remove-AzureServiceRemoteDesktopExtension -ServiceName $svc -Role "WebRole1"
+PS C:\> Remove-AzureServiceRemoteDesktopExtension -ServiceName $svc -Role "WebRole1"
 ```
 
 This command removes the remote desktop extension from a specified role.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 ms.assetid: 0AED21E8-A638-4019-9B23-447472E56C7A
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/4/2017 11:37 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Get-AzureApplicationGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Get-AzureApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Get-AzureApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0c59c9462eb813ce66cc14c55f718ee3e362646f/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.1.0/Get-AzureApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,14 +38,14 @@ The **Get-AzureApplicationGateway** cmdlet gets an existing Azure Application Ga
 
 ### Example 1: Get an Application Gateway
 ```
-PS C:\>Get-AzureApplicationGateway -Name "ApplicationGateway06"
+PS C:\> Get-AzureApplicationGateway -Name "ApplicationGateway06"
 ```
 
 This command gets the Application Gateway named ApplicationGateway06.
 
 ### Example 2: Get all Application Gateways
 ```
-PS C:\>Get-AzureApplicationGateway
+PS C:\> Get-AzureApplicationGateway
 ```
 
 This command gets all the Application Gateways under your subscription.
@@ -70,7 +70,6 @@ Accept wildcard characters: False
 ### -Profile
 Specifies the Azure profile from which this cmdlet reads. 
 If you do not specify a profile, this cmdlet reads from the local default profile.
-By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: AzureSMProfile

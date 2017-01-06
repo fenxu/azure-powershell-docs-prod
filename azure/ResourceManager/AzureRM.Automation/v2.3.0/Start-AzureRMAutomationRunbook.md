@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 ms.assetid: B2D9FF7B-EA3B-4853-814C-00FC4E328957
 online version:
 schema: 2.0.0
-updated_at: 11/16/2016 9:49 PM
-ms.date: 11/16/2016
+updated_at: 1/6/2017 9:04 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRMAutomationRunbook.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRMAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b17b340bf6f86e171391e04bd9e832a6b8ef49c/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRMAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/388d497f000b2d0b30cc6d96b79e170751d7ecd6/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.3.0/Start-AzureRMAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,7 +46,7 @@ Specify the ID or name of a runbook.
 
 ### Example 1: Start a runbook job
 ```
-PS C:\>Start-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" -ResourceGroupName "ResourceGroup01"
+PS C:\> Start-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" -ResourceGroupName "ResourceGroup01"
 ```
 
 This command starts a runbook job for the runbook named Runbk01 in the Azure Automation account named Contoso17.
@@ -57,7 +57,7 @@ Start-AzureRmAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01
 ```
 
 This command starts a runbook job for the runbook named Runbk01 in the Azure Automation account named Contoso17.
-This command specifies the _Wait_ parameter.
+This command specifies the *Wait* parameter.
 Therefore, it returns results after the job is completed.
 The cmdlet waits up to 1000 seconds for the results.
 

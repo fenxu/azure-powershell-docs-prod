@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 ms.assetid: C60F78AE-3803-4D9F-A4F3-EAA42052C0E4
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 12/19/2016 11:23 PM
+ms.date: 12/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Start-AzureVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Start-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Start-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b56b3462496e95231571c08a11cb4a133d515348/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.1.0/Start-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,14 +45,14 @@ The **Start-AzureVM** cmdlet requests the start of an Azure virtual machine.
 
 ### Example 1: Start a virtual machine
 ```
-PS C:\>Start-AzureVM -ServiceName "ContosoService03" -Name "VirtualMachine04"
+PS C:\> Start-AzureVM -ServiceName "ContosoService03" -Name "VirtualMachine04"
 ```
 
 This command starts the virtual machine named VirtualMachine04 that runs in the Azure service named ContosoService03.
 
 ### Example 2: Start a virtual machine by using a virtual machine object
 ```
-PS C:\>Get-AzureVM -ServiceName "ContosoService03" -Name "DatabaseServer" | Start-AzureVM
+PS C:\> Get-AzureVM -ServiceName "ContosoService03" -Name "DatabaseServer" | Start-AzureVM
 ```
 
 This command retrieves the virtual machine object for the virtual machine whose name is DatabaseServer, and then requests to start it.
