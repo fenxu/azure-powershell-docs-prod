@@ -124,6 +124,8 @@
           href: ../RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
         - name: Clear-RMSAuthentication
           href: ../RMSProtection/vlatest/Clear-RMSAuthentication.md
+        - name: Get-AIPFileStatus
+          href: ../RMSProtection/vlatest/Get-AIPFileStatus.md
         - name: Get-RMSFileStatus
           href: ../RMSProtection/vlatest/Get-RMSFileStatus.md
         - name: Get-RMSServer
@@ -136,6 +138,8 @@
           href: ../RMSProtection/vlatest/New-RMSProtectionLicense.md
         - name: Protect-RMSFile
           href: ../RMSProtection/vlatest/Protect-RMSFile.md
+        - name: Set-AIPFileLabel
+          href: ../RMSProtection/vlatest/Set-AIPFileLabel.md
         - name: Set-RMSServerAuthentication
           href: ../RMSProtection/vlatest/Set-RMSServerAuthentication.md
         - name: Unprotect-RMSFile

@@ -1,9 +1,9 @@
 ---
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 12/21/2016 4:07 PM
+ms.date: 12/21/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/487e0d210835a57f5fd2fd38752b2fd90d410b1e/Azure%20Information%20Protection/RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
 uid: RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -15,33 +15,33 @@ manager: cabailey
 open_to_public_contributors: false
 ms.service: rights-management
 ---
+```
+TOPIC
+about_RMSProtection_AzureRMS
 
-# TOPIC
-## about_RMSProtection_AzureRMS
-
-## SHORT DESCRIPTION
+SHORT DESCRIPTION
 Information to get started with the RMS Protection tool for an organization
 that uses Azure Rights Management (Azure RMS) data protection.
 
-## LONG DESCRIPTION
+LONG DESCRIPTION
 This topic describes how to start using the RMS Protection tool to protect
 or unprotect files if your organization uses the Azure Rights Management
 service from Azure Information Protection. The information includes:
+
 - Additional prerequisites that are specific to Azure RMS
 - Using RMS Protection cmdlets - example scenarios
 
-## PREREQUISITES:
+PREREQUISITES:
 In addition to any prerequisites for the RMS Protection tool (see
-RMS Protection Cmdlets on MSDN
-- https://msdn.microsoft.com/library/azure/mt433195.aspx) there are
-additional prerequisite for Azure RMS:
+RMS Protection Cmdlets on MSDN (https://msdn.microsoft.com/library/azure/mt433195.aspx) 
+There are additional prerequisite for Azure RMS:
 
 1: The Azure Rights Management service must be activated
 2: To unprotect files for others using your own account: The
 super user feature must be enabled for your organization and your
 account must be configured to be a super user for Azure RMS.
 3: To protect or unprotect files without interaction: Create a service
-principal account, run [Set-RMSServerAuthentication](./Set-RMSServerAuthentication.md), and consider
+principal account, run Set-RMSServerAuthentication, and consider
 making this service principal a super user for Azure RMS.
 4: For regions outside North America: Edit the registry.
 
@@ -57,7 +57,7 @@ on the Microsoft documentation site.
 
 For the third prerequisite, to use the cmdlets without user interaction
 you must authenticate with the Azure RMS service by using a service principal,
-which you do by using the **Set-RMSServerAuthentication** cmdlet. You must do this
+which you do by using the Set-RMSServerAuthentication cmdlet. You must do this
 for each Windows PowerShell session that runs cmdlets that contact the
 Azure RMS service. Before you run this cmdlet, make sure that you have
 these three identifiers:
@@ -77,6 +77,7 @@ Installing Windows PowerShell for Azure Rights Management
 2. Start Windows PowerShell with the Run as Administrator option.
 
 3. Use the Connect-AadrmService cmdlet to connect to the Azure RMS service:
+
 C:\PS> Connect-AadrmService
 
 When prompted, enter your Azure Information Protection tenant
@@ -98,8 +99,10 @@ CertificationIntranetDistributionPointUrl: https://1s302373-f233-4406-9090-4cdf3
 2e76.rms.na.aadrm.com/_wmcs/certification
 CertificationExtranetDistributionPointUrl: https://1s302373-f233-4406-9090-4cdf305e
 2e76.rms.na.aadrm.com/_wmcs/certification
-6. Disconnect from the service:
-C:\PS>Disconnect-AadrmService
+
+5. Disconnect from the service:
+
+C:\PS> Disconnect-AadrmService
 
 To get AppPrincipalId and Symmetric Key:
 - Run the New-MsolServicePrincipal cmdlet from the Azure Active Directory
@@ -112,13 +115,16 @@ Install the Azure AD Module
 2. Start Windows PowerShell with the Run as Administrator option.
 
 3. Use the Connect-MsolService cmdlet to connect to Azure AD:
+
 C:\PS> Connect-MsolService
+
 When prompted, enter your Azure AD tenant administrator
 credentials (typically, you will use an account that is a global
 administrator for Azure Active Directory or Office 365).
 
 4. Run the New-MsolServicePrincipal cmdlet to create a new
 service principal:
+
 C:\PS> New-MsolServicePrincipal
 
 When prompted, enter your choice of a display name for this
@@ -129,6 +135,7 @@ that you can protect and unprotect files.
 An example of the output of New-MsolServicePrincipal is shown here:
 
 Supply values for the following parameters:
+
 DisplayName: AzureRMSProtectionServicePrincipal
 The following symmetric key was created as one was not supplied
 zIeMu8zNJ6U377CLtppkhkbl4gjodmYSXUVwAO5ycgA=
@@ -155,11 +162,13 @@ to authenticate to the Azure Rights Management service.
 
 From these instructions and our examples, we have the three identifiers
 required to run Set-RMSServerAuthentication:
+
 * Tenant Id: 23976bc6-dcd4-4173-9d96-dad1f48efd42
 * Symmetric key: zIeMu8zNJ6U377CLtppkhkbl4gjodmYSXUVwAO5ycgA=
 * AppPrincipalId: b5e3f76a-b5c2-4c96-a594-a0807f65bba4
 
 Our example command would then look like this:
+
 C:\PS> Set-RMSServerAuthentication
 -Key zIeMu8zNJ6U377CLtppkhkbl4gjodmYSXUVwAO5ycgA=
 -AppPrincipalId b5e3f76a-b5c2-4c96-a594-a0807f65bba4
@@ -217,7 +226,7 @@ if you are using a service principal account rather than your own user account,
 you must run the Set-RMSServerAuthentication command after making this registry
 edit.
 
-## USING RMS PROTECTION CMDLETS - EXAMPLE SCENARIOS
+USING RMS PROTECTION CMDLETS - EXAMPLE SCENARIOS
 A typical scenario for these cmdlets is to protect all files in a folder
 by using a rights policy template, or to unprotect a file.
 
@@ -309,12 +318,17 @@ Get-Help <cmdlet name> cmdlet, where <cmdlet name> is the name of the cmdlet
 that you want to research. For example:
 
 C:\PS> Get-Help Get-RMSTemplate
-
+```
 ## SEE ALSO
 
-Clear-RMSAuthentication
-Get-RMSFileStatus
-Get-RMSTemplate
-Protect-RMSFile
-Unprotect-RMSFile
-Set-RMSServerAuthentication
+[Clear-RMSAuthentication](./Clear-RMSAuthentication.md)
+
+[Get-RMSFileStatus](./Get-RMSFileStatus.md)
+
+[Get-RMSTemplate](./Get-RMSTemplate.md)
+
+[Protect-RMSFile](./Protect-RMSFile.md)
+
+[Unprotect-RMSFile](./Unprotect-RMSFile.md)
+
+[Set-RMSServerAuthentication](./Set-RMSServerAuthentication.md)
