@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 239A882B-8E31-4404-AB35-2A39D8ABC600
-updated_at: 11/13/2016 6:54 AM
-ms.date: 11/13/2016
+updated_at: 1/3/2017 6:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricRepairTaskHealthPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricRepairTaskHealthPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/731eeb0f4b30091950f993229d2356c76ea229a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricRepairTaskHealthPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bd7e7939d172a05060cf108dbdf6b48bdb486cf0/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricRepairTaskHealthPolicy.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Update-ServiceFabricRepairTaskHealthPolicy
 
 ## SYNOPSIS
-Updates the health policy of the given repair task.
+Updates the health policy of a repair task.
 
 ## SYNTAX
 
@@ -42,15 +42,22 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ## EXAMPLES
 
-### Example 1: Update the repair task's health policy to perform a cluster health check in the Preparing and Restoring states.
+### Example 1: Update a repair task health policy to perform a cluster health check
 ```
-PS C:\>Update-ServiceFabricRepairTaskHealthPolicy -TaskId "MyRepairTaskId" -PerformPreparingHealthCheck $true -PerformRestoringHealthCheck $true
+PS C:\> Update-ServiceFabricRepairTaskHealthPolicy -TaskId "MyRepairTaskId" -PerformPreparingHealthCheck $True -PerformRestoringHealthCheck $True
 ```
 
-### Example 2: Update the repair task's health policy to perform a cluster health check in just the Restoring state (and leave the Preparing state as-is).
+This command updates the health policy of the repair task. 
+This command performs a cluster health check for the Preparing and Restoring states.
+
+### Example 2: Update the repair task health policy to perform a cluster health check in the Restoring state
 ```
 PS C:\>Update-ServiceFabricRepairTaskHealthPolicy -TaskId "MyRepairTaskId" -PerformRestoringHealthCheck $true
 ```
+
+This command updates the health policy of the repair task. 
+This command performs a cluster health check for Restoring state.
+This example leaves the Preparing state as it is.
 
 ## PARAMETERS
 
@@ -68,7 +75,6 @@ Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
-
 
 ### -Version
 Specifies the current version of the repair task.
@@ -88,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -PerformPreparingHealthCheck
-Specifies if a cluster health check is to be performed in the Preparing state of the repair task.
+Specifies whether a cluster health check is to be performed in the Preparing state of the repair task.
 
 ```yaml
 Type: bool
@@ -103,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -PerformRestoringHealthCheck
-Specifies if a cluster health check is to be performed in the Restoring state of the repair task.
+Specifies whether a cluster health check is to be performed in the Restoring state of the repair task.
 
 ```yaml
 Type: bool

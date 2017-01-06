@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 1/6/2017 4:05 PM
+updated_at: 1/6/2017 8:51 PM
 ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/6bca44f3dba8260569d7266eafaa664c8154bb93/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1205960f3e642997d2b65af9c23efcff0628fbb/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -38,34 +38,55 @@ Start-ServiceFabricNodeTransition -Start -OperationId <Guid> -NodeName <String> 
 
 ## DESCRIPTION
 
-This cmdlet initiates an asynchronous operation to start or stop a Service Fabric node.  A Service Fabric node is process, not a VM or machine – the VM or machine will still be running.  Specifying -Stop puts it into a *stopped* state where it is not a member of the cluster and cannot host services, thus simulating a *down* node.  Specifying -Start will start a node that was stopped.
+The **Start-ServiceFabricNodeTransition** cmdlet initiates an asynchronous operation to start or stop a Service Fabric node. 
 
-When this cmdlet returns successfully, it means the system has accepted the operation.  A successful call does not imply the operation is finished yet.  To get information about the current state of the operation, call use [Get-ServiceFabricNodeTransitionProgress](./Get-ServiceFabricNodeTransitionProgress.md), which will return the current state of the operation.  
+A Service Fabric node is process, not a virtual machine or computer. 
+A virtual machine or computer continues to run. 
+Specifying the *Stop* parameter puts a node into a Stopped state.
+In the Stopped state, the node is not a member of the cluster and cannot host services.
+A stopped node simulates a *down* node. 
 
-This cmdlet should be preferred over **Start-ServiceFabricNode** and **Stop-ServiceFabricNode**.  Avoid mixing usages of this cmdlet with **Start-ServiceFabricNode** and **Stop-ServiceFabricNode**.  If a node is has already been stopped using **Stop-ServiceFabricNode**, start it using **Start-ServiceFabricNode** first before using **Start-ServiceFabricNodeTransition**, and then only use **Start-ServiceFabricNodeTransition** from then on.
+Specifying the *Start* parameter starts a node that was stopped.
 
-See https://docs.microsoft.com/azure/service-fabric/service-fabric-node-transition-apis for for more details on **Start-ServiceFabricNodeTransition**.
+When this cmdlet returns successfully, the system has accepted the operation.  
+Running this cmdlet does not imply that the operation finishes. 
+To get information about the current state of the operation, run the [Get-ServiceFabricNodeTransitionProgress](./Get-ServiceFabricNodeTransitionProgress.md) cmdlet. 
+
+This cmdlet is preferred over the [Start-ServiceFabricNode](./Start-ServiceFabricNode.md) and [Stop-ServiceFabricNode](./Stop-ServiceFabricNode.md) cmdlets.  
+
+Avoid mixing usage of this cmdlet with **Start-ServiceFabricNode** and **Stop-ServiceFabricNode**. 
+If a node is has already been stopped by using **Stop-ServiceFabricNode**, start it using **Start-ServiceFabricNode** before using **Start-ServiceFabricNodeTransition**.
+Use Start-ServiceFabricNodeTransition from then on.
+
+For more information, see [Replacing the Start Node and Stop node APIs with the Node Transition API](https://docs.microsoft.com/azure/service-fabric/service-fabric-node-transition-apis). 
+
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Stop a Service Fabric node
 ```
 PS C:\> Start-ServiceFabricNodeTransition -Stop -OperationId 097b03e3-760a-419c-9fce-e83f8cc0894b -NodeName N0050 -NodeInstanceId 131242467532403195 -StopDurationInSeconds 3600
 ```
 
-This example initiates an operation to stop a Service Fabric node for 1 hour.  After 1 hour has passed, the node will automatically start itself.  You should keep track of the Guid, as it will be needed to invoke Get-ServiceFabricNodeTransitionProgress.
+This command initiates an operation to stop a Service Fabric node for one hour.  
+After one hour, the node automatically starts itself.  
+Keep track of the *OperationId* value. 
+You can use it to run **Get-ServiceFabricNodeTransitionProgress**.
 
-### Example 2
+### Example 2: Stop a Service Fabric node
 ```
 PS C:\> Start-ServiceFabricNodeTransition -Start -OperationId 6d1bf9a1-9733-4d83-be59-0acea3be57a7 -NodeName N0050 -NodeInstanceId 131242467532403195
 ```
 
-This example initiates an operation to start a *stopped* Service Fabric node.  You should keep track of the Guid, as it will be needed to invoke **Get-ServiceFabricNodeTransitionProgress**.
+
+This command initiates an operation to start a Stopped Service Fabric node. 
+
 
 ## PARAMETERS
 
 ### -OperationId
-This is a Guid used to identify the operation.  It should both be passed into this cmdlet, which initiates the operation, as well as **Get-ServiceFabricNodeTransitionProgress**, which is used to view the progress of the operation started by Start-ServiceFabricNodeTransition.
+Specifies a unique ID that identifies the operation. 
+Use the same value for this cmdlet, which initiates the operation, and  **Get-ServiceFabricNodeTransitionProgress**, which gets operation progress. 
 
 ```yaml
 Type: Guid
@@ -79,9 +100,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-
 ### -NodeName
-This is the name of the Service Fabric node to target with this cmdlet.  A list of the Service Fabric nodes in your cluster can be found by invoking **Get-ServiceFabricNode**.
+Specifies the name of the Service Fabric node that this cmdlet starts or stops. 
+To obtain Service Fabric nodes in your cluster, run the [Get-ServiceFabricNode](./Get-ServiceFabricNode.md) cmdlet.
 
 ```yaml
 Type: String
@@ -96,8 +117,9 @@ Accept wildcard characters: False
 ```
 
 ### -NodeInstanceId
-
-This is the NodeInstanceId of the target node.  This value can be found by calling **Get-ServiceFabricNode** on the target node.  For example, if the target node is "N0050", invoking "Get-ServiceFabricNode N0050" will return a Node object that has the NodeInstanceId inside.
+Specifies ID of the node instance that this cmdlet starts or stops. 
+To obtain node instance IDs, run **Get-ServiceFabricNode** on the target node. 
+For example, for the node N0050, the command `Get-ServiceFabricNode -NodeName "N0050"` returns a **Node** object that contains the node instance ID.
 
 ```yaml
 Type: BigInteger
@@ -113,7 +135,7 @@ Accept wildcard characters: False
 
 
 ### -Start
-This SwitchParameter indicates the transition is to start a stopped node.
+Indicates that this cmdlet starts a stopped node.
 
 ```yaml
 Type: SwitchParameter
@@ -128,7 +150,7 @@ Accept wildcard characters: False
 ```
 
 ### -Stop
-This SwitchParameter indicates the transition is to stop an Up node.
+Indicates that this cmdlet stops a running node.
 
 ```yaml
 Type: SwitchParameter
@@ -143,7 +165,14 @@ Accept wildcard characters: False
 ```
 
 ### -StopDurationInSeconds
-The duration, measured in seconds, to keep the target node stopped after the operation to stop is complete.  After this duration passes, the node will automatically start.  The minimum value is 600, the maximum is 14400.  This parameter only applies if the *Stop* parameter is specified.
+Specifies the duration, in seconds, to keep a stopped node stopped after the operation to stop is completed. 
+After this time, the node automatically starts.  
+
+The minimum value is 600. 
+The maximum value is 14400.  
+
+You must specify the *Stop* parameter in order to specify a stop duration.
+
 
 ```yaml
 Type: Int32
@@ -158,7 +187,10 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-The timeout to use for this cmdlet call.  This is not the same as the *StopDurationInSeconds* parameter.
+Specifies the time-out value, in seconds, for this cmdlet.
+
+This is not the length of time that the stopped node remains stopped. 
+To control how long a node is stopped, use the *StopDurationInSeconds* parameter.
 
 ```yaml
 Type: Int32
@@ -174,8 +206,6 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### See parameters above.
-
 
 ## OUTPUTS
 
@@ -184,5 +214,13 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricNode](xref:ServiceFabric/vlatest/Get-ServiceFabricNode.md)
+
+[Get-ServiceFabricNodeTransitionProgress](xref:ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md)
+
+[Start-ServiceFabricNode](xref:ServiceFabric/vlatest/Start-ServiceFabricNode.md)
+
+[Stop-ServiceFabricNode](xref:ServiceFabric/vlatest/Stop-ServiceFabricNode.md)
 
 [Replacing the Start Node and Stop node APIs with the Node Transition API](https://docs.microsoft.com/azure/service-fabric/service-fabric-node-transition-apis)

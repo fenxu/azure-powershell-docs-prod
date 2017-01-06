@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 1/6/2017 3:57 PM
+updated_at: 1/6/2017 8:51 PM
 ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/905b8170726945a3f066b6b8ed8223d84979c957/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1205960f3e642997d2b65af9c23efcff0628fbb/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -20,7 +20,7 @@ ms.service: service-fabric
 # Get-ServiceFabricNodeTransitionProgress
 
 ## SYNOPSIS
-Gets the progress of a node transition operation started using Get-ServiceFabricNodeTransitionProgress.
+Gets the progress of a node transition operation.
 
 ## SYNTAX
 
@@ -29,33 +29,63 @@ Get-ServiceFabricNodeTransitionProgress -OperationId <Guid> [-TimeoutSec <Int32>
 ```
 
 ## DESCRIPTION
-Gets the progress of a node transition operation started using **Get-ServiceFabricNodeTransitionProgress**.
-This cmdlet returns an object of type **System.Fabric.NodeTransitionProgress**.  The State property indicates the current state of the operation.  For example, Running means it is in progress, and Completed means it finished successfully.  See the example below for usage.
+The **Get-ServiceFabricNodeTransitionProgress** cmdlet gets the progress of a node transition operation that is started by using the [Start-ServiceFabricNodeTransition](./Start-ServiceFabricNodeTransition.md). 
+This cmdlet returns an object of type **System.Fabric.NodeTransitionProgress**. 
+The **State** property of that object indicates the current state of the operation. 
+For example, Running means the operation is in progress. 
+Completed means it finished successfully. 
+
 ## EXAMPLES
 
-### Example 1
+### Example 1: Check progress of an operation 
 ```
 PS C:\> $currentProgress = Get-ServiceFabricNodeTransitionProgress -OperationId c645433e-a68f-4c8a-8cfb-076d339726a8
-
-This example gets the progress of operation c645433e-a68f-4c8a-8cfb-076d339726a8, which was started using Start-ServiceFabricNodeTransition.  You can see the current state by inspecting the State object.  In this example, it's Running:
-
-PS C:\> $currentProgress.State
 
   State Result
   ----- ------
 Running
-
-If the operation fails, the State property will have a value of Faulted.  More information about why it failed will be in the Result.Exception.ErrorCode object.  Note that the Result object is null until the operation has reached a terminal state.  The example below shows this object after the operation has failed.  The issue in this case is that an incorrect NodeInstanceId was provided when initiating the operation through Start-ServiceFabricNodeTransition.
 ```
 
-PS C:\> $currentProgress.Result.Exception.ErrorCode
+The first command gets the progress of operation that has the specified ID. 
+The operation was started by using **Start-ServiceFabricNodeTransition**. 
+The command stores the result in the $CurrentProgress variable.
+  
+The second command displays the state of $CurrentProgress. 
+In this example, the state is Running.
+
+### Example 2: Troubleshoot failed operation
+```
+PS C:\> $CurrentProgress = Get-ServiceFabricNodeTransitionProgress -OperationId 6f2bedbe-72c7-4d25-891d-4e070e8809a0
+
+PS C:\> $CurrentProgress.State
+
+  State Result
+  ----- ------
+Faulted
+
+PS C:\> $CurrentProgress.Result.Exception.ErrorCode
+
 InstanceIdMismatch
+
+```
+
+The first command gets the progress of operation that has the specified ID.
+The command stores the result in $CurrentProgress.
+
+The second command displays the state of $CurrentProgress. 
+In this example, the operation fails. 
+The value of **State** property is Faulted. 
+
+The third command displays the **Result.Exception.ErrorCode** value of the **State**. 
+Until the operation reaches a terminal state, the result object is $Null. 
+In this example, an incorrect *NodeInstanceId* was provided.
 
 
 ## PARAMETERS
 
 ### -OperationId
-A Guid used to track the operation.  The value of the parameter should be the same value that was passed into **Start-ServiceFabricNodeTransition**, which started the operation.
+Specifies the unique ID used to track an operation.  
+Specify the same value that you used to start the operation by using **Start-ServiceFabricNodeTransition**.
 
 ```yaml
 Type: Guid
@@ -70,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-The timeout for this cmdlet.
+Specifies the time-out value, in seconds, for this cmdlet.
 
 ```yaml
 Type: Int32
@@ -86,8 +116,6 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### See parameters above.
-
 
 ## OUTPUTS
 
@@ -96,5 +124,7 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+
+[Start-ServiceFabricNodeTransition](xref:ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md)
 
 [Replacing the Start Node and Stop node APIs with the Node Transition API](https://docs.microsoft.com/azure/service-fabric/service-fabric-node-transition-apis)
