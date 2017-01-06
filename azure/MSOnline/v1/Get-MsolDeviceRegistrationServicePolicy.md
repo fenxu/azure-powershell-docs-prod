@@ -6,6 +6,7 @@ ms.assetid: 65F06302-DB2D-4507-86B9-752471F47030
 updated_at: 11/1/2016 10:25 PM
 ms.date: 11/1/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDeviceRegistrationServicePolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDeviceRegistrationServicePolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6600f52fb9e8494968164be77a39809bf8320873/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDeviceRegistrationServicePolicy.md
 ms.topic: reference
 ms.technology: Azure PowerShell

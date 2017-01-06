@@ -6,6 +6,7 @@ ms.assetid: 85832284-6D5C-4003-BE79-DA7D985B9056
 updated_at: 11/8/2016 10:57 PM
 ms.date: 11/8/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolCompanyAllowedDataLocation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolCompanyAllowedDataLocation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1f9ce90a071efd51795186ba3f8b8d76905a96c3/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolCompanyAllowedDataLocation.md
 ms.topic: reference
 ms.technology: Azure PowerShell

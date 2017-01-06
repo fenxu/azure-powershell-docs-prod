@@ -6,6 +6,7 @@ ms.assetid: 3C941FE3-032E-4160-8693-F68165A6E36C
 updated_at: 11/10/2016 6:25 PM
 ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Convert-MsolFederatedUser.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Convert-MsolFederatedUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/Convert-MsolFederatedUser.md
 ms.topic: reference
 ms.technology: Azure PowerShell

@@ -6,6 +6,7 @@ ms.assetid: 87A60137-58ED-473B-9D1E-BB7C0CD8F8A2
 updated_at: 11/7/2016 8:50 PM
 ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipal.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipal.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e45b51fd816f025d32fa17a27b0e7eafee1289da/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipal.md
 ms.topic: reference
 ms.technology: Azure PowerShell

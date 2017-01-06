@@ -6,6 +6,7 @@ schema: 2.0.0
 updated_at: 12/5/2016 11:45 PM
 ms.date: 12/5/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/344af16eaf1a3967d7ba6754e985abf324f178f2/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADApplication.md
 ms.topic: reference
 ms.technology: Azure PowerShell

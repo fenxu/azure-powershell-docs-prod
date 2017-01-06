@@ -6,6 +6,7 @@ ms.assetid: B44214C0-6CFA-4169-8E09-8C4065DFAB2E
 updated_at: 11/4/2016 10:40 PM
 ms.date: 11/4/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c22ad9f927dcfe00a363b1a2c343fc086da2ac5/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDomain.md
 ms.topic: reference
 ms.technology: Azure PowerShell

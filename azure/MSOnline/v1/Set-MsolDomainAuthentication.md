@@ -6,6 +6,7 @@ ms.assetid: 7428E3E3-B66F-4EBF-9566-B5B2C9BC5DE1
 updated_at: 11/9/2016 6:37 PM
 ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDomainAuthentication.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDomainAuthentication.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7986fb4880d0ee292c289166871e4b25df1ad4b8/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDomainAuthentication.md
 ms.topic: reference
 ms.technology: Azure PowerShell

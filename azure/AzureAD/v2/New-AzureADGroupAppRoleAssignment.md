@@ -6,6 +6,7 @@ schema: 2.0.0
 updated_at: 12/2/2016 7:14 PM
 ms.date: 12/2/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroupAppRoleAssignment.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroupAppRoleAssignment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8a6006bfbb125ef762d392190731fe5cd90df181/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADGroupAppRoleAssignment.md
 ms.topic: reference
 ms.technology: Azure PowerShell

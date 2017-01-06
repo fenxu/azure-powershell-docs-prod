@@ -6,6 +6,7 @@ ms.assetid: A5A10B0B-7C64-4778-8B42-EB073E2ADA92
 updated_at: 11/9/2016 7:55 PM
 ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Connect-MsolService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Connect-MsolService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2ed1dc4a4cad9328c634640b8f50d00798f6278b/Azure%20AD%20Cmdlets/MSOnline/v1/Connect-MsolService.md
 ms.topic: reference
 ms.technology: Azure PowerShell

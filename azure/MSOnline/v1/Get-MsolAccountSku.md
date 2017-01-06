@@ -6,6 +6,7 @@ ms.assetid: 843652E4-266F-4F05-A1C5-8E8EBC86241D
 updated_at: 11/9/2016 6:37 PM
 ms.date: 11/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAccountSku.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAccountSku.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7986fb4880d0ee292c289166871e4b25df1ad4b8/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolAccountSku.md
 ms.topic: reference
 ms.technology: Azure PowerShell

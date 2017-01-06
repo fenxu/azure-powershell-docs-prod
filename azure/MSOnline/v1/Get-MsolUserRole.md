@@ -6,6 +6,7 @@ ms.assetid: 13C8D948-E093-45E7-A5B5-BC38FAFCCEC7
 updated_at: 11/10/2016 12:31 AM
 ms.date: 11/10/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
 ms.topic: reference
 ms.technology: Azure PowerShell

@@ -6,6 +6,7 @@ ms.assetid: 1D23EC9E-30E3-4B23-82E8-6B5C91F523A4
 updated_at: 11/7/2016 11:36 PM
 ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolGroup.md
 ms.topic: reference
 ms.technology: Azure PowerShell
