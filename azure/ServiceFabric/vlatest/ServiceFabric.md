@@ -5,11 +5,11 @@ Download Help Link: http://go.microsoft.com/fwlink/?LinkID=521412
 Help Version: 2.0.14.0
 Locale: en-US
 ms.assetid: 8FE06792-E775-4575-8C55-12A66ED66383
-updated_at: 11/11/2016 11:37 PM
-ms.date: 11/11/2016
+updated_at: 1/3/2017 6:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/f13132d9850fcdd56cb5052cd757319e874eb566/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bd7e7939d172a05060cf108dbdf6b48bdb486cf0/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 uid: ServiceFabric/vlatest/ServiceFabric.md
 ms.topic: conceptual
 ms.technology: Azure Powershell
@@ -205,6 +205,10 @@ Gets detailed metrics load information for a Service Fabric node.
 
 ### [Get-ServiceFabricNode](./Get-ServiceFabricNode.md)
 Gets information about the Service Fabric nodes in a cluster.
+
+
+### [Get-ServiceFabricNodeTransitionProgress](./Get-ServiceFabricNodeTransitionProgress.md) 
+Gets the progress of a node transition operation.
 
 
 ### [Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress.md)
@@ -523,6 +527,10 @@ Upgrades a Service Fabric cluster.
 Starts a Service Fabric node.
 
 
+### [Start-ServiceFabricNodeTransition](./Start-ServiceFabricNodeTransition.md)
+Initiates an operation to start or stop a Service Fabric node.
+
+
 ### [Start-ServiceFabricPartitionDataLoss](./Start-ServiceFabricPartitionDataLoss.md)
 Starts to perform a data loss test on a partition.
 
@@ -601,6 +609,10 @@ Modifies the upgrade description of an active Cluster upgrade.
 
 ### [Update-ServiceFabricNodeConfiguration](./Update-ServiceFabricNodeConfiguration.md)
 Updates a Service Fabric cluster configuration.
+
+
+### [Update-ServiceFabricRepairTaskHealthPolicy](./Update-ServiceFabricRepairTaskHealthPolicy.md) 
+Updates the health policy of a repair task.
 
 
 ### [Update-ServiceFabricServiceGroup](./Update-ServiceFabricServiceGroup.md)
