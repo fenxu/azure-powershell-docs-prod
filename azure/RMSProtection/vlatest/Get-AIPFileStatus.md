@@ -2,11 +2,11 @@
 external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=734985
 schema: 2.0.0
-updated_at: 12/21/2016 4:01 PM
-ms.date: 12/21/2016
+updated_at: 1/6/2017 5:11 AM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-AIPFileStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-AIPFileStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b0c970cbf288d50e30f57517406faa8def5aab53/Azure%20Information%20Protection/RMSProtection/vlatest/Get-AIPFileStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/dc91e032c1bf1fc21e1f1ef62bc17924d468e333/Azure%20Information%20Protection/RMSProtection/vlatest/Get-AIPFileStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -30,7 +30,7 @@ Get-AIPFileStatus [-Path] <String[]> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-AIPFileStatus cmdlet returns the AIP status, which consists of the RMS status (whether the file has RMS protection and if relevant the RMS template information)
+The **Get-AIPFileStatus** cmdlet returns the AIP status, which consists of the RMS status (whether the file has RMS protection and if relevant the RMS template information)
 as well as the Labeling status (whether the file is labeled, and the file labels) of a specified file.
 
 ## EXAMPLES
@@ -53,7 +53,7 @@ RMSTemplateId   : e6ee2481-26b9-45e5-b34a-f744eacd53b0
 RMSTemplateName : Contoso, Ltd - Confidential View Only
 ```
 
-This example gets the AIP status of the file Test.docx. This file has a main lable Confidential, and a SubLabel Microsoft FTE. It is RMS protected with the template "Contoso, Ltd - Confidential View Only".
+This command gets the AIP status of the file Test.docx. This file has a main lable Confidential, and a SubLabel Microsoft FTE. It is RMS protected with the template Contoso, Ltd - Confidential View Only.
 
 ### Example 2 Prepare a report of the status of files in a folder.
 ```
@@ -100,4 +100,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
