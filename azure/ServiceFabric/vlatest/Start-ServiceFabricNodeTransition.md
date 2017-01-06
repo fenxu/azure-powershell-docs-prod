@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 1/6/2017 8:51 PM
+updated_at: 1/6/2017 9:04 PM
 ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1205960f3e642997d2b65af9c23efcff0628fbb/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/eb308dd471400263264adbb79d1c32e357dd1049/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -37,7 +37,6 @@ Start-ServiceFabricNodeTransition -Start -OperationId <Guid> -NodeName <String> 
 ```
 
 ## DESCRIPTION
-
 The **Start-ServiceFabricNodeTransition** cmdlet initiates an asynchronous operation to start or stop a Service Fabric node. 
 
 A Service Fabric node is process, not a virtual machine or computer. 
@@ -48,11 +47,11 @@ A stopped node simulates a *down* node.
 
 Specifying the *Start* parameter starts a node that was stopped.
 
-When this cmdlet returns successfully, the system has accepted the operation.  
+When this cmdlet returns successfully, the system has accepted the operation. 
 Running this cmdlet does not imply that the operation finishes. 
 To get information about the current state of the operation, run the [Get-ServiceFabricNodeTransitionProgress](./Get-ServiceFabricNodeTransitionProgress.md) cmdlet. 
 
-This cmdlet is preferred over the [Start-ServiceFabricNode](./Start-ServiceFabricNode.md) and [Stop-ServiceFabricNode](./Stop-ServiceFabricNode.md) cmdlets.  
+This cmdlet is preferred over the [Start-ServiceFabricNode](./Start-ServiceFabricNode.md) and [Stop-ServiceFabricNode](./Stop-ServiceFabricNode.md) cmdlets. 
 
 Avoid mixing usage of this cmdlet with **Start-ServiceFabricNode** and **Stop-ServiceFabricNode**. 
 If a node is has already been stopped by using **Stop-ServiceFabricNode**, start it using **Start-ServiceFabricNode** before using **Start-ServiceFabricNodeTransition**.
@@ -68,8 +67,8 @@ For more information, see [Replacing the Start Node and Stop node APIs with the 
 PS C:\> Start-ServiceFabricNodeTransition -Stop -OperationId 097b03e3-760a-419c-9fce-e83f8cc0894b -NodeName N0050 -NodeInstanceId 131242467532403195 -StopDurationInSeconds 3600
 ```
 
-This command initiates an operation to stop a Service Fabric node for one hour.  
-After one hour, the node automatically starts itself.  
+This command initiates an operation to stop a Service Fabric node for one hour. 
+After one hour, the node automatically starts itself. 
 Keep track of the *OperationId* value. 
 You can use it to run **Get-ServiceFabricNodeTransitionProgress**.
 
@@ -86,7 +85,7 @@ This command initiates an operation to start a Stopped Service Fabric node.
 
 ### -OperationId
 Specifies a unique ID that identifies the operation. 
-Use the same value for this cmdlet, which initiates the operation, and  **Get-ServiceFabricNodeTransitionProgress**, which gets operation progress. 
+Use the same value for this cmdlet, which initiates the operation, and **Get-ServiceFabricNodeTransitionProgress**, which gets operation progress. 
 
 ```yaml
 Type: Guid
@@ -166,10 +165,10 @@ Accept wildcard characters: False
 
 ### -StopDurationInSeconds
 Specifies the duration, in seconds, to keep a stopped node stopped after the operation to stop is completed. 
-After this time, the node automatically starts.  
+After this time, the node automatically starts. 
 
 The minimum value is 600. 
-The maximum value is 14400.  
+The maximum value is 14400. 
 
 You must specify the *Stop* parameter in order to specify a stop duration.
 

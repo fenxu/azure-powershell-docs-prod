@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 1/6/2017 8:51 PM
+updated_at: 1/6/2017 9:04 PM
 ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a1205960f3e642997d2b65af9c23efcff0628fbb/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/eb308dd471400263264adbb79d1c32e357dd1049/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -29,7 +29,7 @@ Get-ServiceFabricNodeTransitionProgress -OperationId <Guid> [-TimeoutSec <Int32>
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricNodeTransitionProgress** cmdlet gets the progress of a node transition operation that is started by using the [Start-ServiceFabricNodeTransition](./Start-ServiceFabricNodeTransition.md). 
+The **Get-ServiceFabricNodeTransitionProgress** cmdlet gets the progress of a node transition operation that is started by using the [Start-ServiceFabricNodeTransition](./Start-ServiceFabricNodeTransition.md) cmdlet. 
 This cmdlet returns an object of type **System.Fabric.NodeTransitionProgress**. 
 The **State** property of that object indicates the current state of the operation. 
 For example, Running means the operation is in progress. 
@@ -49,7 +49,7 @@ Running
 The first command gets the progress of operation that has the specified ID. 
 The operation was started by using **Start-ServiceFabricNodeTransition**. 
 The command stores the result in the $CurrentProgress variable.
-  
+ 
 The second command displays the state of $CurrentProgress. 
 In this example, the state is Running.
 
@@ -84,7 +84,7 @@ In this example, an incorrect *NodeInstanceId* was provided.
 ## PARAMETERS
 
 ### -OperationId
-Specifies the unique ID used to track an operation.  
+Specifies the unique ID used to track an operation. 
 Specify the same value that you used to start the operation by using **Start-ServiceFabricNodeTransition**.
 
 ```yaml
