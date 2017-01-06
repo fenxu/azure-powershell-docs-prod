@@ -6,6 +6,7 @@ ms.assetid: 7370AD41-FB09-4948-9BB7-8FD67B5E99E4
 updated_at: 11/11/2016 12:41 AM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1e386f2c4d3f0d7aa5edba5cc7deaac957310f26/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 ms.topic: reference
 ms.technology: Azure Powershell

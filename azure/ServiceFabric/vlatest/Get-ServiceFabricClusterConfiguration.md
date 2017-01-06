@@ -6,6 +6,7 @@ ms.assetid: 13C206CD-D1A4-4BAE-8014-4D7AB68D147D
 updated_at: 12/9/2016 12:50 AM
 ms.date: 12/9/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a2cafec0ea322c59ce3aa32653eb317583abf8c5/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
 ms.topic: reference
 ms.technology: Azure Powershell

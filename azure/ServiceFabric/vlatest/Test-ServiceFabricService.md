@@ -6,6 +6,7 @@ ms.assetid: 0F403FD1-EA91-4040-BD9E-D289B59F0E01
 updated_at: 11/11/2016 10:52 PM
 ms.date: 11/11/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a3759ddf1f1f1ba503e1480f257a7293a1f4c23a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
 ms.topic: reference
 ms.technology: Azure Powershell
