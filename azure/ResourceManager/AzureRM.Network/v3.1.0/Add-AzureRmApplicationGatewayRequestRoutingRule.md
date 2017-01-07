@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: BBA600C2-4813-4C12-8447-E770A949DA32
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/7/2017 12:34 AM
+ms.date: 1/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayRequestRoutingRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayRequestRoutingRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayRequestRoutingRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e4e009f39ab5f375c2b4081b67a72235d198ef74/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayRequestRoutingRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -50,7 +50,7 @@ The **Add-AzureRmApplicationGatewayRequestRoutingRule** cmdlet adds a request ro
 
 ### Example 1: Add a request routing rule to an application gateway
 ```
-PS C:\>$AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $Appgw = Add-AzureApplicationGatewayRequestRoutingRule -ApplicationGateway $AppGw -Name "Rule01" -RuleType Basic -BackendHttpSettings $Setting -HttpListener $Listener -BackendAddressPool $Pool
 ```
 
@@ -249,6 +249,8 @@ Accept wildcard characters: False
 ```
 
 ### -UrlPathMap
+Specifies the URL path map to the application gateway.
+
 ```yaml
 Type: PSApplicationGatewayUrlPathMap
 Parameter Sets: SetByResource
@@ -283,5 +285,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApplicationGatewayRequestRoutingRule](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayRequestRoutingRule.md)
 
 [Set-AzureRmApplicationGatewayRequestRoutingRule](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayRequestRoutingRule.md)
-
-

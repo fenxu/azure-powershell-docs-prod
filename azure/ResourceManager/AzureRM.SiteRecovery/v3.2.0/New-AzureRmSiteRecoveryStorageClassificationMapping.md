@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 ms.assetid: 4B4CB198-ABD3-4926-808D-2087151EA06B
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 11:10 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/New-AzureRmSiteRecoveryStorageClassificationMapping.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/New-AzureRmSiteRecoveryStorageClassificationMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/New-AzureRmSiteRecoveryStorageClassificationMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64a26768a35531d5351db0799e3ff1e8eee31312/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/New-AzureRmSiteRecoveryStorageClassificationMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,6 +40,8 @@ The **New-AzureRmSiteRecoveryStorageClassificationMapping** cmdlet creates a sto
 ## PARAMETERS
 
 ### -Name
+Specifies a name. 
+
 ```yaml
 Type: String
 Parameter Sets: (All)

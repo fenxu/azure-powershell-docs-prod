@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 9D9D079C-5557-40DC-8CFB-1DCD446D9109
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/7/2017 12:34 AM
+ms.date: 1/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayUrlPathMapConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayUrlPathMapConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayUrlPathMapConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e4e009f39ab5f375c2b4081b67a72235d198ef74/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayUrlPathMapConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,11 +47,6 @@ Add-AzureRmApplicationGatewayUrlPathMapConfig -ApplicationGateway <PSApplication
 The **Add-AzureRmApplicationGatewayUrlPathMapConfig** cmdlet adds an array of URL path mappings to a back end server pool.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -171,7 +166,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultBackendAddressPool
-Specifies the default backend address pool to route in case none of the rules specified in the *pathRules* parameter match.
+Specifies the default backend address pool to route in case none of the rules specified in the *PathRules* parameter match.
 
 ```yaml
 Type: PSApplicationGatewayBackendAddressPool
@@ -186,7 +181,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultBackendHttpSettings
-Specifies the default backend HTTP settings to use in case none of the rules specified in the *pathRules* parameter match.
+Specifies the default backend HTTP settings to use in case none of the rules specified in the *PathRules* parameter match.
 
 ```yaml
 Type: PSApplicationGatewayBackendHttpSettings
@@ -218,5 +213,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md)
 
 [Set-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayUrlPathMapConfig.md)
-
-
