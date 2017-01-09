@@ -15,7 +15,7 @@ ms.topic: reference
 ms.technology: Azure PowerShell
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ---
 
 # Get started with Azure PowerShell cmdlets
