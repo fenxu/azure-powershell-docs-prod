@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 176294FA-BB08-4A63-AD45-1E6C6D67A5D8
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageShareQuota.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageShareQuota.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageShareQuota.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageShareQuota.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -47,7 +47,7 @@ The **Set-AzureStorageShareQuota** cmdlet sets the storage capacity for a specif
 
 ### Example 1: Set the storage capacity of a share
 ```
-PS C:\>Set-AzureStorageShareQuota -ShareName "ContosoShare01" -Quota 1024
+PS C:\> Set-AzureStorageShareQuota -ShareName "ContosoShare01" -Quota 1024
 ```
 
 This command sets the storage capacity for a share named ContosoShare01 to 1024 GB.
@@ -192,7 +192,7 @@ Accept wildcard characters: False
 
 ### -Share
 Specifies a **CloudFileShare** object to represent the share for which this cmdlets sets a quota.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
+To obtain a **CloudFileShare** object, use the **Get-AzureStorageShare** cmdlet.
 
 ```yaml
 Type: CloudFileShare

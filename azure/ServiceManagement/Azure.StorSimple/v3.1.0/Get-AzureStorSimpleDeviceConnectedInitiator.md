@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 ms.assetid: 9436E1AB-870F-4717-ABE0-55A90C07F7E4
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 8:06 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceConnectedInitiator.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceConnectedInitiator.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42a873a36748963f5f6496c41e9c5490d6e1bd81/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceConnectedInitiator.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceConnectedInitiator.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -57,7 +57,7 @@ By default, connections are turned off.
 
 ### Example 1: Get all connections for a device
 ```
-PS C:\>Get-AzureStorSimpleDeviceConnectedInitiator -DeviceName "Contoso63-AppVm"
+PS C:\> Get-AzureStorSimpleDeviceConnectedInitiator -DeviceName "Contoso63-AppVm"
 VERBOSE: ClientRequestId: bec615b9-79ab-4671-88b0-287adeb6bf68_PS
 VERBOSE: ClientRequestId: ef976c58-2660-41c8-aa15-c84e70c9d01c_PS
 VERBOSE: ClientRequestId: 9b306b96-8e76-47ed-beda-d3bd2fb2bb82_PS

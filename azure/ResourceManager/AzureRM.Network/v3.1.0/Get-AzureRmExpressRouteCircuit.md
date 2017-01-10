@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: C9954E3D-8645-473E-A6D4-86278C2F6BC1
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:05 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuit.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51009e6d95f4d0586cdd2345451b9e509be8767e/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuit.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,13 +15,14 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
 # Get-AzureRmExpressRouteCircuit
 
 ## SYNOPSIS
+Gets the express route circuit.
 
 ## SYNTAX
 
@@ -31,17 +32,14 @@ Get-AzureRmExpressRouteCircuit [-Name <String>] [-ResourceGroupName <String>]
 ```
 
 ## DESCRIPTION
-
+The **Get-AzureRmExpressRouteCircuit** cmdlet gets the express route circuit.
 ## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 
 ### -Name
+Specifies the name of the express route circuit this cmdlet gets.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -55,6 +53,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
+Specifies the resource group the express route circuit belongs to.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -116,4 +116,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

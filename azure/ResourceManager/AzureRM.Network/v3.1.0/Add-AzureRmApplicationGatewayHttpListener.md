@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 1E192553-61D8-4449-936B-68CF866C710C
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/7/2017 12:34 AM
+ms.date: 1/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayHttpListener.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayHttpListener.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayHttpListener.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e4e009f39ab5f375c2b4081b67a72235d198ef74/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmApplicationGatewayHttpListener.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -50,7 +50,7 @@ The **Add-AzureRmApplicationGatewayHttpListener** cmdlet adds a HTTP listener to
 
 ### Example 1: Add a HTTP listener
 ```
-PS C:\>$AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $Appgw = Add-AzureRmApplicationGatewayHttpListener -ApplicationGateway $AppGw -Name "listener01" -Protocol "Http" -FrontendIpConfiguration $FIP01 -FrontendPort $FP01
 ```
 
@@ -58,7 +58,7 @@ The first command gets the application gateway and stores it in the $AppGw varia
 
 ### Example 2: Add a HTTPS listener with SSL
 ```
-PS C:\>$AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $AppGw = Add-AzureRmApplicationGatewayHttpListener -ApplicationGateway $AppGw -Name "Listener01" -Protocol "Https" -FrontendIpConfiguration $FIP01 -FrontendPort $FP01 -SslCertificate $SSLCert01
 ```
 
@@ -294,5 +294,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayHttpListener.md)
 
 [Set-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayHttpListener.md)
-
-

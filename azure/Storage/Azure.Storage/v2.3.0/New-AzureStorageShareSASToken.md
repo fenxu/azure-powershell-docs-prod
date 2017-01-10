@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: BDF42420-3616-4A64-9562-1A896F828728
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageShareSASToken.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageShareSASToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageShareSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageShareSASToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -49,14 +49,14 @@ The **New-AzureStorageShareSASToken** cmdlet generates a shared access signature
 
 ### Example 1: Generate a shared access signature token for a share
 ```
-PS C:\>New-AzureStorageShareSASToken -ShareName "ContosoShare" -Permission "rwdl"
+PS C:\> New-AzureStorageShareSASToken -ShareName "ContosoShare" -Permission "rwdl"
 ```
 
 This command creates a shared access signature token for the share named ContosoShare.
 
 ### Example 2: Generate multiple shared access signature token by using the pipeline
 ```
-PS C:\>Get-AzureStorageShare -Prefix "test" | New-AzureStorageShareSASToken -Permission "rwdl"
+PS C:\> Get-AzureStorageShare -Prefix "test" | New-AzureStorageShareSASToken -Permission "rwdl"
 ```
 
 This command gets all the Storage shares that match the prefix test.
@@ -65,7 +65,7 @@ The current cmdlet creates a shared access token for each Storage share that has
 
 ### Example 3: Generate a shared access signature token that uses a shared access policy
 ```
-PS C:\>New-AzureStorageShareSASToken -ShareName "ContosoShare" -Policy "ContosoPolicy03"
+PS C:\> New-AzureStorageShareSASToken -ShareName "ContosoShare" -Policy "ContosoPolicy03"
 ```
 
 This command creates a shared access signature token for the Storage share named ContosoShare that has the policy named ContosoPolicy03.
@@ -185,7 +185,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies an Azure Storage context.
-To obtain a context, use the New-AzureStorageContext cmdlet.
+To obtain a context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: A1F949A9-7AEF-41C1-B757-114421B79493
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 9:48 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayPathRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayPathRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayPathRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c0fd83660f69ea874ddf8d07b989b3cce509386e/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayPathRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -53,7 +53,7 @@ Path map configuration settings are used in application gateway load balancing.
 
 ### Example 1
 ```
-PS C:\>$Gateway = Get-AzureRmApplicationGateway -Name "ContosoApplicationGateway"
+PS C:\> $Gateway = Get-AzureRmApplicationGateway -Name "ContosoApplicationGateway"
 PS C:\> $AddressPool = New-AzureRmApplicationGatewayBackendAddressPool -Name "ContosoAddressPool" -BackendIPAddresses "192.168.1.1", "192.168.1.2"
 PS C:\> $HttpSettings = New-AzureRmApplicationGatewayBackendHttpSettings -Name "ContosoHttpSetings" -Port 80 -Protocol "Http" -CookieBasedAffinity "Disabled"
 PS C:\> $PathRuleConfig = New-AzureRmApplicationGatewayPathRuleConfig -Paths "/"-BackendAddressPool $AddressPool -BackendHttpSettings $HttpSettings
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 
 ### -BackendAddressPoolId
 Specifies the ID of an existing backend address pool that can be added to the gateway path rule configuration settings.
-Address pool IDs can be returned by using the Get-AzureRmApplicationGatewayBackendAddressPool cmdlet.
+Address pool IDs can be returned by using the [Get-AzureRmApplicationGatewayBackendAddressPool](./Get-AzureRmApplicationGatewayBackendAddressPool.md) cmdlet.
 After you have the ID you can then use the *DefaultBackendAddressPoolId* parameter instead of the *DefaultBackendAddressPool* parameter.
 For instance:
 
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 
 ### -BackendHttpSettingsId
 Specifies the ID of an existing backend HTTP settings collection that can be added to the gateway path rule configuration settings.
-HTTP setting IDs can be returned by using the Get-AzureRmApplicationGatewayBackendHttpSettings cmdlet.
+HTTP setting IDs can be returned by using the [Get-AzureRmApplicationGatewayBackendHttpSettings](./Get-AzureRmApplicationGatewayBackendHttpSettings.md) cmdlet.
 After you have the ID you can then use the *DefaultBackendHttpSettingsId* parameter instead of the *DefaultBackendHttpSettings* parameter.
 For instance:
 
@@ -189,7 +189,7 @@ Accept wildcard characters: False
 
 ### -BackendAddressPool
 Specifies an object reference to a collection of backend address pool settings to be added to the gateway path rules configuration settings.
-You can create this object reference by using the New-AzureRmApplicationGatewayBackendAddressPool cmdlet and syntax similar to this:
+You can create this object reference by using the [New-AzureRmApplicationGatewayBackendAddressPool](./New-AzureRmApplicationGatewayBackendAddressPool.md) cmdlet and syntax similar to this:
 
 `$AddressPool = New-AzureRmApplicationGatewayBackendAddressPool -Name "ContosoAddressPool" -BackendIPAddresses "192.168.1.1", "192.168.1.2"`
 
@@ -273,5 +273,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md)
 
 [Set-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayUrlPathMapConfig.md)
-
-

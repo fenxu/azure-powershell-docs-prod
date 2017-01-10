@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F825E13B-9261-470C-A859-0A91440DB3B4
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 5:30 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Remove-AzureTrafficManagerProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Remove-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Remove-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a52d084404064a01f0b46e94449192dfa0ce45b1/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Remove-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -38,14 +38,14 @@ The **Remove-AzureTrafficManagerProfile** cmdlet removes a Microsoft Azure Traff
 
 ### Example 1: Remove a Traffic Manager profile
 ```
-PS C:\>Remove-AzureTrafficManagerProfile -Name "MyProfile"
+PS C:\> Remove-AzureTrafficManagerProfile -Name "MyProfile"
 ```
 
 This command removes the Traffic Manager profile named MyProfile.
 
 ### Example 2: Remove a Traffic Manager profile
 ```
-PS C:\>Remove-AzureTrafficManagerProfile -Name "MyProfile" -Force -PassThru
+PS C:\> Remove-AzureTrafficManagerProfile -Name "MyProfile" -Force -PassThru
 ```
 
 This command removes the Traffic Manager profile named MyProfile without prompting you for confirmation, and returns the results.
@@ -99,6 +99,8 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
 
 ```yaml
 Type: AzureSMProfile

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: A96A1A67-6C9C-499F-9935-B90F7ACEB50E
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Start-AzureStorageFileCopy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Start-AzureStorageFileCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Start-AzureStorageFileCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Start-AzureStorageFileCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -115,7 +115,7 @@ The **Start-AzureStorageFileCopy** cmdlet starts to copy a source file to a dest
 
 ### Example 1: Start copy operation from file to file by using share name and file name
 ```
-PS C:\>Start-AzureStorageFileCopy -SrcShareName "ContosoShare01" -SrcFilePath "FilePath01" -DestShareName "ContosoShare02" -DestFilePath "FilePath02"
+PS C:\> Start-AzureStorageFileCopy -SrcShareName "ContosoShare01" -SrcFilePath "FilePath01" -DestShareName "ContosoShare02" -DestFilePath "FilePath02"
 ```
 
 This command starts a copy operation from file to file.
@@ -123,7 +123,7 @@ The command specifies share name and file name
 
 ### Example 2: Start copy operation from blob to file by using container name and blob name
 ```
-PS C:\>Start-AzureStorageFileCopy -SrcContainerName "ContosoContainer01" -SrcBlobName "ContosoBlob01" -DestShareName "ContosoShare" -DestFilePath "FilePath02"
+PS C:\> Start-AzureStorageFileCopy -SrcContainerName "ContosoContainer01" -SrcBlobName "ContosoBlob01" -DestShareName "ContosoShare" -DestFilePath "FilePath02"
 ```
 
 This command starts a copy operation from blob to file.
@@ -193,7 +193,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies an Azure Storage context.
-To obtain a context, use the New-AzureStorageContext cmdlet.
+To obtain a context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext
@@ -393,7 +393,7 @@ Accept wildcard characters: False
 
 ### -DestFile
 Specifies a **CloudFile** object.
-You can create a cloud file or obtain one by using the Get-AzureStorageFile cmdlet.
+You can create a cloud file or obtain one by using the **Get-AzureStorageFile** cmdlet.
 
 ```yaml
 Type: CloudFile
@@ -439,7 +439,7 @@ Accept wildcard characters: False
 
 ### -SrcShare
 Specifies a cloud file share object.
-You can create a cloud file share or obtain one by using the Get-AzureStorageShare cmdlet.
+You can create a cloud file share or obtain one by using the **Get-AzureStorageShare** cmdlet.
 
 ```yaml
 Type: CloudFileShare

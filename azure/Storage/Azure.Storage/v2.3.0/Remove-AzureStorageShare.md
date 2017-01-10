@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: FF3AD436-CA33-4A52-8580-D2345D80A231
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageShare.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageShare.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageShare.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageShare.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -48,7 +48,7 @@ The **Remove-AzureStorageShare** cmdlet deletes a file share.
 
 ### Example 1: Remove a file share
 ```
-PS C:\>Remove-AzureStorageShare -Name "ContosoShare06"
+PS C:\> Remove-AzureStorageShare -Name "ContosoShare06"
 ```
 
 This command removes the file share named ContosoShare06.
@@ -242,7 +242,7 @@ Accept wildcard characters: False
 ### -Share
 Specifies a **CloudFileShare** object.
 This cmdlet removes the object that this parameter specifies.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
+To obtain a **CloudFileShare** object, use the **Get-AzureStorageShare** cmdlet.
 This object contains the storage context.
 If you specify this parameter, do not specify the *Context* parameter.
 

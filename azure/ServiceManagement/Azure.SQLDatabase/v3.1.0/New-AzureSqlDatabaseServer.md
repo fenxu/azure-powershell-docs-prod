@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 ms.assetid: A0C674FC-A1D8-4068-8CAB-2EE0AECB8E68
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 9:17 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/New-AzureSqlDatabaseServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/New-AzureSqlDatabaseServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8bbe11a32244ebde0ad865d340e59d85ee67d16e/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/New-AzureSqlDatabaseServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/New-AzureSqlDatabaseServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -40,14 +40,14 @@ The **New-AzureSqlDatabaseServer** cmdlet creates an instance of Azure SQL Datab
 
 ### Example 1: Create a server
 ```
-PS C:\>New-AzureSqlDatabaseServer -Location "East US" -AdministratorLogin "AdminLogin" -AdministratorLoginPassword "AdminPassword"
+PS C:\> New-AzureSqlDatabaseServer -Location "East US" -AdministratorLogin "AdminLogin" -AdministratorLoginPassword "AdminPassword"
 ```
 
 This command creates a version 11 Azure SQL Database server.
 
 ### Example 2: Create a version 12 server
 ```
-PS C:\>New-AzureSqlDatabaseServer -Location "East US" -AdministratorLogin "AdminLogin" -AdministratorLoginPassword "AdminPassword" -Version "12.0"
+PS C:\> New-AzureSqlDatabaseServer -Location "East US" -AdministratorLogin "AdminLogin" -AdministratorLoginPassword "AdminPassword" -Version "12.0"
 ```
 
 This command creates a version 12 server.

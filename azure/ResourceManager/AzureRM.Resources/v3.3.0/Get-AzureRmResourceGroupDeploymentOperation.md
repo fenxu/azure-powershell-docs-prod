@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 9F29DFCB-A02B-45A5-99B9-C054BF4FCA6C
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 5:08 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeploymentOperation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeploymentOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeploymentOperation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0ad0bf34919ba087d528c6264dbeb3b2ec5cfcdb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeploymentOperation.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -45,7 +45,7 @@ For more on this setting and how to enable it, see New-AzureRmResourceGroupDeplo
 
 ### --------------------------  Get1  --------------------------
 ```
-PS C:\>Get-AzureRmResourceGroupDeploymentOperation -DeploymentName test -ResourceGroupName test
+PS C:\> Get-AzureRmResourceGroupDeploymentOperation -DeploymentName test -ResourceGroupName test
 ```
 
 Gets deployment operation with name "test" under resource group "test"

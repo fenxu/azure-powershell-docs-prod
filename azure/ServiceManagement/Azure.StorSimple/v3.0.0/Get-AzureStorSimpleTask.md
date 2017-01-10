@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 8AACD749-BC01-467D-8FF6-585896342275
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 6:53 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleTask.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2aa2c6b171a81049ff40feeada5894cd7badff85/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleTask.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -41,7 +41,7 @@ Use the ID to get the current status of the task.
 
 ### Example 1: Get the status of a task
 ```
-PS C:\>Get-AzureStorSimpleTask -TaskId "53816d8d-a8b5-4c1d-a177-e59007608d6d"
+PS C:\> Get-AzureStorSimpleTask -TaskId "53816d8d-a8b5-4c1d-a177-e59007608d6d"
 VERBOSE: ClientRequestId: d9c1e8a7-994f-4698-8b42-064600b45cad_PS
 VERBOSE: ClientRequestId: aae17c82-6fd3-435e-a965-1c66b3c955fe_PS
 

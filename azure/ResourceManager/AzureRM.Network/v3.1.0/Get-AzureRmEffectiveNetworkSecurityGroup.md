@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: B9409AD6-F761-4B80-8E08-DBB2356F567D
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:05 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmEffectiveNetworkSecurityGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmEffectiveNetworkSecurityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmEffectiveNetworkSecurityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51009e6d95f4d0586cdd2345451b9e509be8767e/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmEffectiveNetworkSecurityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -38,7 +38,7 @@ The **Get-AzureRmEffectiveNetworkSecurityGroup** cmdlet returns the effective ne
 
 ### Example 1: Get the effective network security group on a network interface
 ```
-PS C:\>Get-AzureRmEffectiveNetworkSecurityGroup -NetworkInterfaceName "MyNetworkInterface" -ResourceGroupName "myResourceGroup"
+PS C:\> Get-AzureRmEffectiveNetworkSecurityGroup -NetworkInterfaceName "MyNetworkInterface" -ResourceGroupName "myResourceGroup"
 ```
 
 This command gets all of the effective network security rules associated with the network interface named MyNetworkInterface in the resource group named myResourceGroup.
@@ -126,5 +126,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmEffectiveRouteTable](xref:ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmEffectiveRouteTable.md)
-
-

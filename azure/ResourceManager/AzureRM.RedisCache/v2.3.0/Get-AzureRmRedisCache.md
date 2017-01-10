@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 ms.assetid: 8EF45FCE-5475-4A18-BFB0-C016E239612E
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 11:50 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Get-AzureRmRedisCache.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Get-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Get-AzureRmRedisCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2064c07c5673a0ddcf2a15b98755432d9e77a277/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Get-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -49,7 +49,7 @@ If you specify no parameters, this operation gets every Redis Cache for the curr
 
 ### Example 1: Get a Redis Cache by name
 ```
-PS C:\>Get-AzureRmRedisCache -ResourceGroupName "myGroup" -Name "myexists"
+PS C:\> Get-AzureRmRedisCache -ResourceGroupName "myGroup" -Name "myexists"
 
           ResourceGroupName  : myGroup
 
@@ -77,7 +77,7 @@ This command gets the Redis Cache named myexists.
 
 ### Example 2: Get every Redis Cache in a resource group
 ```
-PS C:\>Get-AzureRmRedisCache -ResourceGroupName "myGroup"
+PS C:\> Get-AzureRmRedisCache -ResourceGroupName "myGroup"
 
 
           ResourceGroupName  : myGroup
@@ -115,7 +115,7 @@ This command gets every Redis Cache in the specified resource group.
 
 ### Example 3: Get every Redis Cache in the current subscription
 ```
-PS C:\>Get-AzureRmRedisCache
+PS C:\> Get-AzureRmRedisCache
 
 
           ResourceGroupName  : myGroup

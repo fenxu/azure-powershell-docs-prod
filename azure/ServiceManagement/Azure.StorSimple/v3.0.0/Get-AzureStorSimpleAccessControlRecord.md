@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F4194D80-10F6-42AE-B421-03EFF465F9EA
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 6:53 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleAccessControlRecord.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleAccessControlRecord.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleAccessControlRecord.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2aa2c6b171a81049ff40feeada5894cd7badff85/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleAccessControlRecord.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -43,7 +43,8 @@ If the iSCSI initiator parameters match one of the entries in an access control 
 
 ### Example 1: Get all access control records
 ```
-PS C:\>Get-AzureStorSimpleAccessControlRecord
+PS C:\> Get-AzureStorSimpleAccessControlRecord
+
 InstanceId                           Name                        InitiatorName               VolumeCount
 ----------                           ----                        -------------               -----------
 01a31aa5-14de-4b77-b926-2842577f540e Windows_XYUSFL718-RV_ACR    iqn.1991-05.com.microsof... 3
@@ -56,7 +57,7 @@ This command gets all access control records.
 
 ### Example 2: Get a specific access control record
 ```
-PS C:\>Get-AzureStorSimpleAccessControlRecord -ACRName "Acr11"
+PS C:\> Get-AzureStorSimpleAccessControlRecord -ACRName "Acr11"
 VERBOSE: ClientRequestId: 61f261c7-acd3-4bcc-922a-ddfd85eb767b_PS
 VERBOSE: ClientRequestId: 49c6a4c7-d299-46fd-a553-034c52b47487_PS
 

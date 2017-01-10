@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 ms.assetid: A1E143A8-70F2-4158-9A10-F2082AD62A73
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Stop-AzureStorSimpleJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Stop-AzureStorSimpleJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Stop-AzureStorSimpleJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Stop-AzureStorSimpleJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -39,7 +39,7 @@ You can specify a jobs by supplying an instance ID or a job name.
 
 ### Example 1: Stop jobs for a device
 ```
-PS C:\>Get-AzureStorSimpleJob -DeviceName "Device07" | Stop-AzureStorSimpleJob -Force
+PS C:\> Get-AzureStorSimpleJob -DeviceName "Device07" | Stop-AzureStorSimpleJob -Force
 ```
 
 This command gets the jobs for the device named Device07, by using the **Get-AzureStorSimpleJob** cmdlet.
@@ -49,7 +49,7 @@ The command specifies the *Force* parameter, and, so, it does not prompt you for
 
 ### Example 2: Stop a specific job
 ```
-PS C:\>Stop-AzureStorSimpleJob -InstanceId "574f47e0-44e9-495c-b8a5-0203c57ebf6d" -Force
+PS C:\> Stop-AzureStorSimpleJob -InstanceId "574f47e0-44e9-495c-b8a5-0203c57ebf6d" -Force
 ```
 
 This command stops the job that has the specified instance ID.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 11A271F1-E11B-4992-A666-557E1D6FEE11
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 5:30 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/New-AzureTrafficManagerProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/New-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/New-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a52d084404064a01f0b46e94449192dfa0ce45b1/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/New-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -35,21 +35,21 @@ New-AzureTrafficManagerProfile [-Name] <String> [-DomainName] <String> -LoadBala
 ## DESCRIPTION
 The **New-AzureTrafficManagerProfile** cmdlet creates a Microsoft Azure Traffic Manager profile.
 
-After you create a profile where you set the *LoadBalancingMethod* value to "Failover", you can determine the failover order of the endpoints you add to your profile with the Add-AzureTrafficManagerEndpoint cmdlet.
+After you create a profile where you set the *LoadBalancingMethod* value to "Failover", you can determine the failover order of the endpoints you add to your profile with the **Add-AzureTrafficManagerEndpoint** cmdlet.
 For more information, see Example 2 below.
 
 ## EXAMPLES
 
 ### Example 1: Create a Traffic Manager profile
 ```
-PS C:\>New-AzureTrafficManagerProfile -Name "MyProfile" -DomainName "My.profile.trafficmanager.net" -LoadBalancingMethod "RoundRobin" -Ttl 30 -MonitorProtocol "Http" -MonitorPort 80 -MonitorRelativePath "/"
+PS C:\> New-AzureTrafficManagerProfile -Name "MyProfile" -DomainName "My.profile.trafficmanager.net" -LoadBalancingMethod "RoundRobin" -Ttl 30 -MonitorProtocol "Http" -MonitorPort 80 -MonitorRelativePath "/"
 ```
 
 This command creates a Traffic Manager profile named MyProfile in the specified Traffic Manager domain with a Round Robin load balancing method, a TTL of 30 seconds, HTTP monitoring protocol, monitoring port 80, and with the specified path.
 
 ### Example 2: Reorder endpoints to desired failover order
 ```
-PS C:\>$Profile = Get-AzureTrafficManagerProfile -Name "MyProfile"
+PS C:\> $Profile = Get-AzureTrafficManagerProfile -Name "MyProfile"
 PS C:\> $Profile.Endpoints[0],$Profile.Endpoints[1] = $Profile.Endpoints[1],$Profile.Endpoints[0]
 PS C:\> $Profile = Set-AzureTrafficManagerProfile
 ```
@@ -136,7 +136,6 @@ Specifies the protocol to use to monitor endpoint health.
 Valid values are: 
 
 - Http
-
 - Https
 
 ```yaml
@@ -156,13 +155,9 @@ Specifies the path relative to the endpoint domain name to probe for health stat
 The path must meet the following restrictions: 
 
 - The path must be from 1 through 1000 characters.
-
 - It must start with a forward slash, /.
-
 - It must contain no XML elements, \<\>.
-
 - It must contain no double slashes, //.
-
 - It must contain no invalid HTML escape characters.
 For example, %XY.
 
@@ -195,6 +190,8 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
 
 ```yaml
 Type: AzureSMProfile

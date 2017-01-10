@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: FA98E64B-D589-4653-9ACC-86573FAF4550
 online version: 
 schema: 2.0.0
-updated_at: 11/18/2016 9:58 PM
-ms.date: 11/18/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageFileContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageFileContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageFileContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageFileContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -57,14 +57,14 @@ The **Set-AzureStorageFileContent** cmdlet uploads the contents of a file to a f
 
 ### Example 1: Upload a file in the current folder
 ```
-PS C:\>Set-AzureStorageFileContent -ShareName "ContosoShare06" -Source "DataFile37" -Path "ContosoWorkingFolder/CurrentDataFile"
+PS C:\> Set-AzureStorageFileContent -ShareName "ContosoShare06" -Source "DataFile37" -Path "ContosoWorkingFolder/CurrentDataFile"
 ```
 
 This command uploads a file that is named DataFile37 in the current folder as a file that is named CurrentDataFile in the folder named ContosoWorkingFolder.
 
 ### Example 2: Upload all the files in the current folder
 ```
-PS C:\>$CurrentFolder = (Get-Item .).FullName
+PS C:\> $CurrentFolder = (Get-Item .).FullName
 PS C:\> $Container = Get-AzureStorageShare -Name "ContosoShare06"
 PS C:\> Get-ChildItem -Recurse | Where-Object { $_.GetType().Name -eq "FileInfo"} | ForEach-Object {
     $path=$_.FullName.Substring($Currentfolder.Length+1).Replace("\","/")
@@ -312,7 +312,7 @@ Accept wildcard characters: False
 ### -Share
 Specifies a **CloudFileShare** object.
 This cmdlet uploads to a file in the file share this parameter specifies.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
+To obtain a **CloudFileShare** object, use the **Get-AzureStorageShare** cmdlet.
 This object contains the storage context.
 If you specify this parameter, do not specify the *Context* parameter.
 
@@ -331,8 +331,8 @@ Accept wildcard characters: False
 ### -Directory
 Specifies a folder as a **CloudFileDirectory** object.
 This cmdlet uploads the file to the folder that this parameter specifies.
-To obtain a directory, use the New-AzureStorageDirectory cmdlet.
-You can also use the Get-AzureStorageFile cmdlet to obtain a directory.
+To obtain a directory, use the **New-AzureStorageDirectory** cmdlet.
+You can also use the **Get-AzureStorageFile** cmdlet to obtain a directory.
 
 ```yaml
 Type: CloudFileDirectory

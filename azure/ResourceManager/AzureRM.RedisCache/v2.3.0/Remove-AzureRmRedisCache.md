@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 ms.assetid: A22D930B-5026-4915-B498-EE31153E1E9A
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/9/2017 11:50 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Remove-AzureRmRedisCache.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Remove-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Remove-AzureRmRedisCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2064c07c5673a0ddcf2a15b98755432d9e77a277/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Remove-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -38,7 +38,7 @@ The **Remove-AzureRmRedisCache** cmdlet removes an Azure Redis Cache.
 
 ### Example 1: Remove a Redis Cache and return the result
 ```
-PS C:\>Remove-AzureRmRedisCache -ResourceGroupName "ResourceGroup03" -Name "myCache" -Force -PassThru
+PS C:\> Remove-AzureRmRedisCache -ResourceGroupName "ResourceGroup03" -Name "myCache" -Force -PassThru
 True
 ```
 
@@ -46,7 +46,7 @@ This command removes a Redis Cache and displays whether the operation is success
 
 ### Example 2: Remove a Redis Cache and do not display the result
 ```
-PS C:\>Remove-AzureRmRedisCache -ResourceGroupName "ResourceGroup03" -Name "myCache" -Force
+PS C:\> Remove-AzureRmRedisCache -ResourceGroupName "ResourceGroup03" -Name "myCache" -Force
 ```
 
 This command removes a Redis Cache.

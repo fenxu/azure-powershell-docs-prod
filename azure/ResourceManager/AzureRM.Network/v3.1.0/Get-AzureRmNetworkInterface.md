@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: E066BBFA-2E03-431D-85D1-99F230B6AC59
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:05 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmNetworkInterface.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmNetworkInterface.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmNetworkInterface.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51009e6d95f4d0586cdd2345451b9e509be8767e/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmNetworkInterface.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -59,14 +59,14 @@ The **Get-AzureRmNetworkInterface** cmdlet gets an Azure network interface or a 
 
 ### Example 1: Get all network interfaces
 ```
-PS C:\>Get-AzureRmNetworkInterface
+PS C:\> Get-AzureRmNetworkInterface
 ```
 
 This command gets all network interfaces for the current subscription.
 
 ### Example 2: Get all network interfaces with a specific provisioning state
 ```
-PS C:\>Get-AzureRmNetworkInterface -ResourceGroupName "ResourceGroup1" | Where-Object {$_.ProvisioningState -eq 'Succeeded'}
+PS C:\> Get-AzureRmNetworkInterface -ResourceGroupName "ResourceGroup1" | Where-Object {$_.ProvisioningState -eq 'Succeeded'}
 ```
 
 This command gets all network interfaces in the resource group named ResourceGroup1 that has a provisioning state of succeeded.
@@ -249,5 +249,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmNetworkInterface.md)
 
 [Set-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmNetworkInterface.md)
-
-

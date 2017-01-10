@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 69F0CF63-06A0-4764-8659-6218993C0B70
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/10/2017 8:46 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/New-AzureSqlDatabase.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/New-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/New-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5a93ffeed580e8a3cca4c5cac3aefb5da20ba4ee/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/New-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -51,14 +51,14 @@ When you create a new database by specifying an Azure SQL Database server, the *
 
 ### Example 1: Create a database
 ```
-PS C:\>$Database01 = New-AzureSqlDatabase -ConnectionContext $Context -DatabaseName "Database01" -Edition "Business" -MaxSizeGB 50 -Collation "SQL_Latin1_General_CP1_CI_AS"
+PS C:\> $Database01 = New-AzureSqlDatabase -ConnectionContext $Context -DatabaseName "Database01" -Edition "Business" -MaxSizeGB 50 -Collation "SQL_Latin1_General_CP1_CI_AS"
 ```
 
 This command creates an Azure SQL Database named Database1, for the Azure SQL Database server connection context $Context.
 
 ### Example 2: Create a database in the current subscription
 ```
-PS C:\>$Database01 = New-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName "Database01" -Edition "Business" -MaxSizeGB 50 -Collation "SQL_Latin1_General_CP1_CI_AS"
+PS C:\> $Database01 = New-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName "Database01" -Edition "Business" -MaxSizeGB 50 -Collation "SQL_Latin1_General_CP1_CI_AS"
 ```
 
 This example creates a database named Database1, in the specified Azure SQL Database server named lpqd0zbr8y.
@@ -120,7 +120,7 @@ Valid values are:
 - Business
 - Basic
 - Standard
--  Premium
+- Premium
 
 The default value is Web.
 
@@ -141,18 +141,17 @@ Specifies an object that represent the new service objective (performance level)
 This value represents the level of resources assigned to this database.
 Valid values are: 
 
-Basic: dd6d99bb-f193-4ec1-86f2-43d3bccbc49c
-Standard (S0): f1173c43-91bd-4aaa-973c-54e79e15235b
-Standard (S1): 1b1ebd4d-d903-4baa-97f9-4ea675f5e928
-Standard (S2): 455330e1-00cd-488b-b5fa-177c226f28b7
-*Standard (S3): 789681b8-ca10-4eb0-bdf2-e0b050601b40
-Premium (P1): 7203483a-c4fb-4304-9e9f-17c71c904f5d
-Premium (P1): 7203483a-c4fb-4304-9e9f-17c71c904f5d
-Premium (P2): a7d1b92d-c987-4375-b54d-2b1d0e0f5bb0
-Premium (P3): a7c4c615-cfb1-464b-b252-925be0a19446
+- Basic: dd6d99bb-f193-4ec1-86f2-43d3bccbc49c
+- Standard (S0): f1173c43-91bd-4aaa-973c-54e79e15235b
+- Standard (S1): 1b1ebd4d-d903-4baa-97f9-4ea675f5e928
+- Standard (S2): 455330e1-00cd-488b-b5fa-177c226f28b7
+- *Standard (S3): 789681b8-ca10-4eb0-bdf2-e0b050601b40
+- Premium (P1): 7203483a-c4fb-4304-9e9f-17c71c904f5d
+- Premium (P2): a7d1b92d-c987-4375-b54d-2b1d0e0f5bb0
+- Premium (P3): a7c4c615-cfb1-464b-b252-925be0a19446
 
 *Standard (S3) is part of the Latest SQL Database Update V12 (preview).
-For more information, see What's New in the Azure SQL Database V12 Previewhttp://azure.microsoft.com/documentation/articles/sql-database-preview-whats-new/.
+For more information, see [What's New in the Azure SQL Database V12 Preview](http://azure.microsoft.com/documentation/articles/sql-database-preview-whats-new/) (http://azure.microsoft.com/documentation/articles/sql-database-preview-whats-new/).
 
 ```yaml
 Type: ServiceObjective
@@ -171,15 +170,11 @@ Specifies the maximum size of the database in gigabytes.
 You can specify either this parameter or the *MaxSizeBytes* parameter.
 The acceptable values differ based on edition.
 
-Basic Edition values: 1 or 2
-
-Standard Edition values: 1, 2, 5, 10, 20, 30, 40, 50, 100, 150, 200, or 250
-
-Premium Edition values: 1, 2, 5, 10, 20, 30, 40, 50, 100, 150, 200, 250, 300, 400, or 500
-
-Web Edition values: 1 or 5
-
-Business Edition values: 10, 20, 30, 40, 50, 100, or 150
+- Basic Edition values: 1 or 2
+- Standard Edition values: 1, 2, 5, 10, 20, 30, 40, 50, 100, 150, 200, or 250
+- Premium Edition values: 1, 2, 5, 10, 20, 30, 40, 50, 100, 150, 200, 250, 300, 400, or 500
+- Web Edition values: 1 or 5
+- Business Edition values: 10, 20, 30, 40, 50, 100, or 150
 
 ```yaml
 Type: Int32
@@ -297,7 +292,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### Microsoft.WindowsAzure.Commands.SqlDatabase.Services.Server.Database
 
 ## NOTES
-* To delete a database that was created by **New-AzureSqlDatabase**, use the Remove-AzureSqlDatabase cmdlet.
+* To delete a database that was created by **New-AzureSqlDatabase**, use the **Remove-AzureSqlDatabase** cmdlet.
 
 ## RELATED LINKS
 

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 65962F9A-CC79-4B8B-9208-A993708FD36F
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageDirectory.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageDirectory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageDirectory.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -56,14 +56,14 @@ This cmdlet returns a **CloudFileDirectory** object.
 
 ### Example 1: Create a folder in a file share
 ```
-PS C:\>New-AzureStorageDirectory -ShareName "ContosoShare06" -Path "ContosoWorkingFolder"
+PS C:\> New-AzureStorageDirectory -ShareName "ContosoShare06" -Path "ContosoWorkingFolder"
 ```
 
 This command creates a folder named ContosoWorkingFolder in the file share named ContosoShare06.
 
 ### Example 2: Create a folder in a file share specified in a file share object
 ```
-PS C:\>Get-AzureStorageShare -Name "ContosoShare06" | New-AzureStorageDirectory -Path "ContosoWorkingFolder"
+PS C:\> Get-AzureStorageShare -Name "ContosoShare06" | New-AzureStorageDirectory -Path "ContosoWorkingFolder"
 ```
 
 This command uses the **Get-AzureStorageShare** cmdlet to get the file share named ContosoShare06, and then passes it to the current cmdlet by using the pipeline operator.
@@ -212,7 +212,7 @@ Accept wildcard characters: False
 ### -Share
 Specifies a **CloudFileShare** object.
 This cmdlet creates a folder in the file share that this parameter specifies.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
+To obtain a **CloudFileShare** object, use the **Get-AzureStorageShare** cmdlet.
 This object contains the storage context.
 If you specify this parameter, do not specify the *Context* parameter.
 
@@ -231,8 +231,8 @@ Accept wildcard characters: False
 ### -Directory
 Specifies a folder as a **CloudFileDirectory** object.
 This cmdlet creates the folder in the location that this parameter specifies.
-To obtain a directory, use the New-AzureStorageDirectory cmdlet.
-You can also use the Get-AzureStorageFile cmdlet to obtain a directory.
+To obtain a directory, use the **New-AzureStorageDirectory** cmdlet.
+You can also use the **Get-AzureStorageFile** cmdlet to obtain a directory.
 
 ```yaml
 Type: CloudFileDirectory

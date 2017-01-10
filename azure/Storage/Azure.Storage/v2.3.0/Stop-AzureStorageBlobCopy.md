@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: C274DFBD-6C93-4043-AF93-DAF7BEA1F11F
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Stop-AzureStorageBlobCopy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Stop-AzureStorageBlobCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Stop-AzureStorageBlobCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Stop-AzureStorageBlobCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -57,21 +57,21 @@ The **Stop-AzureStorageBlobCopy** cmdlet stops a copy operation to the specified
 
 ### Example 1: Stop copy operation by name
 ```
-PS C:\>Stop-AzureStorageBlobCopy -Container "ContainerName" -Blob "BlobName" -CopyId "CopyID"
+PS C:\> Stop-AzureStorageBlobCopy -Container "ContainerName" -Blob "BlobName" -CopyId "CopyID"
 ```
 
 This command stops the copy operation by name.
 
 ### Example 2: Stop copy operation by using the pipeline
 ```
-PS C:\>Get-AzureStorageContainer container* | Stop-AzureStorageBlobCopy -Blob "BlobName"
+PS C:\> Get-AzureStorageContainer container* | Stop-AzureStorageBlobCopy -Blob "BlobName"
 ```
 
 This command stops the copy operation by passing the container on the pipeline from **Get-AzureStorageContainer**.
 
 ### Example 3: Stop copy operation by using the pipeline and Get-AzureStorageBlob
 ```
-PS C:\>Get-AzureStorageBlob -Container "ContainerName" | Stop-AzureStorageBlobCopy -Force
+PS C:\> Get-AzureStorageBlob -Container "ContainerName" | Stop-AzureStorageBlobCopy -Force
 ```
 
 This example stops the copy operation by passing the container on the pipeline from the Get-AzureStorageBlob cmdlet.
@@ -140,7 +140,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies the Azure storage context.
-You can create the context by using the New-AzureStorageContext cmdlet.
+You can create the context by using the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext

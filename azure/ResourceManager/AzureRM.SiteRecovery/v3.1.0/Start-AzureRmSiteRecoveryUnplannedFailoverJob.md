@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 023B4A70-FD5F-409C-8F3F-10C069BE924D
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 11:54 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4abcf16ad04a20708d1ba686982ef3c842fa593/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.1.0/Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -49,14 +49,10 @@ Start-AzureRmSiteRecoveryUnplannedFailoverJob -ReplicationProtectedItem <ASRRepl
 
 ## DESCRIPTION
 The **Start-AzureRmSiteRecoveryUnplannedFailoverJob** cmdlet starts the unplanned failover of an Azure Site Recovery protection entity or recovery plan.
-You can check whether the job succeeds by using the Get-AzureRmSiteRecoveryJob cmdlet.
+You can check whether the job succeeds by using the **Get-AzureRmSiteRecoveryJob** cmdlet.
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 

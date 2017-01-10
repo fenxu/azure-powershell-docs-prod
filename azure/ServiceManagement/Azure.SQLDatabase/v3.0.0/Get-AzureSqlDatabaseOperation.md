@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 918D3CE6-C4EF-47B8-A8A0-8139220E04C8
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:46 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseOperation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseOperation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5a93ffeed580e8a3cca4c5cac3aefb5da20ba4ee/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseOperation.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -48,14 +48,14 @@ If you specify an operation GUID, and *ServerName* or *ConnectionContext*, the c
 
 ### Example 1: Get the status of all database operations for a database
 ```
-PS C:\>$Operations = Get-AzureSqlDatabaseOperation -ConnectionContext $Context -DatabaseName "Database17"
+PS C:\> $Operations = Get-AzureSqlDatabaseOperation -ConnectionContext $Context -DatabaseName "Database17"
 ```
 
 This command gets the status of all database operations on the database named Database17 on the server that the connection context $Context specifies.
 
 ### Example 2: Get the status of all database operations for a server
 ```
-PS C:\>$Operations = Get-AzureSqlDatabaseOperation -ConnectionContext $Context
+PS C:\> $Operations = Get-AzureSqlDatabaseOperation -ConnectionContext $Context
 ```
 
 This command gets the status of all database operations on the server that the connection context $Context specifies.

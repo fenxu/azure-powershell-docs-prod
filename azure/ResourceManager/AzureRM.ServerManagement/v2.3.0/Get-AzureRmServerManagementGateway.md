@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
 ms.assetid: C579BF90-FD8B-4384-96EB-46154E308492
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 4:02 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Get-AzureRmServerManagementGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Get-AzureRmServerManagementGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Get-AzureRmServerManagementGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bf9d765043905923ff550c2c280499b4acb9eed6/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Get-AzureRmServerManagementGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -57,7 +57,8 @@ The **Get-AzureRmServerManagementGateway** cmdlet gets one or more Azure Server 
 
 ### Example 1: Get all gateways in a subscription
 ```
-PS C:\>Get-AzureRmServerManagementGateway
+PS C:\> Get-AzureRmServerManagementGateway
+
 Resource Group Location       Auto Upgrade Gateway Name
 -------------- --------       ------------ ------------
 groupOne       centralus      Off          mygateway
@@ -69,7 +70,8 @@ This command gets all Server Management Gateways in the subscription.
 
 ### Example 2: Get gateways in a resource group
 ```
-PS C:\>Get-AzureRmServerManagementGateway -ResourceGroupName "Group001"
+PS C:\> Get-AzureRmServerManagementGateway -ResourceGroupName "Group001"
+
 Resource Group Location       Auto Upgrade Gateway Name
 -------------- --------       ------------ ------------
 myGroup        centralus      Off          mygateway

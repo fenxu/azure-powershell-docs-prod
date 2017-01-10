@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: 13CDD3B3-1470-4986-A435-1EF0753963DE
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/9/2017 9:52 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroupDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroupDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f60f66b5229674cbde5c80b99ac704ad8318378/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/New-AzureRmResourceGroupDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -89,7 +89,7 @@ This includes the resources that the deployment requires.
 An Azure resource is a user-managed Azure entity, such as a database server, database, website, virtual machine, or Storage account.
 An Azure resource group is a collection of Azure resources that are deployed as a unit, such as the website, database server, and databases that are required for a financial website.
 A resource group deployment uses a template to add resources to a resource group and publishes them so that they are available in Azure.
-To add resources to a resource group without using a template, use the New-AzureRmResource cmdlet.
+To add resources to a resource group without using a template, use the **New-AzureRmResource** cmdlet.
 
 To add a resource group deployment, specify the name of an existing resource group and a resource group template.
 A resource group template is a JSON string that represents a resource group for a complex cloud-based service, such as a web portal.
@@ -108,7 +108,7 @@ Template parameter values that you enter at the command prompt take precedence o
 
 ### Example 1: Use a custom template and parameter file to create a deployment
 ```
-PS C:\>New-AzureRmResourceGroupDeployment -ResourceGroupName "ContosoEngineering" -TemplateFile "D:\Azure\Templates\EngineeringSite.json" -TemplateParameterFile "D:\Azure\Templates\EngSiteParms.json" -TemplateVersion "2.1"
+PS C:\> New-AzureRmResourceGroupDeployment -ResourceGroupName "ContosoEngineering" -TemplateFile "D:\Azure\Templates\EngineeringSite.json" -TemplateParameterFile "D:\Azure\Templates\EngSiteParms.json" -TemplateVersion "2.1"
 ```
 
 This command creates a new deployment by using a custom template and a template file on disk.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 5FA8A3F3-F52C-40BC-94C2-4CDA00C6F32F
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageCORSRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageCORSRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageCORSRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageCORSRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -39,7 +39,7 @@ The **Get-AzureStorageCORSRule** cmdlet gets Cross-Origin Resource Sharing (CORS
 
 ### Example 1: Get CORS rules of blob service
 ```
-PS C:\>Get-AzureStorageCORSRule -ServiceType Blob
+PS C:\> Get-AzureStorageCORSRule -ServiceType Blob
 ```
 
 This command gets the CORS rules for the Blob service type.
@@ -69,7 +69,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies an Azure Storage context.
-To obtain a context, use the New-AzureStorageContext cmdlet.
+To obtain a context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext

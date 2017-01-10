@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: 15606175-50F8-4D4B-B8F7-055A03790FCC
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 11:25 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Set-AzureRmPolicyDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Set-AzureRmPolicyDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Set-AzureRmPolicyDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/909020b7dbd03ec23a61b4fe16ccd2762277084c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Set-AzureRmPolicyDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -47,11 +47,11 @@ The **Set-AzureRmPolicyDefinition** cmdlet modifies a policy definition.
 
 ### Example 1: Update the description of a policy definition
 ```
-PS C:\>$PolicyDefinition = Get-AzureRmPolicyDefinition -Name "VMPolicyDefinition"
+PS C:\> $PolicyDefinition = Get-AzureRmPolicyDefinition -Name "VMPolicyDefinition"
 PS C:\> Set-AzureRmPolicyDefinition -Id $Policy.ResourceId -Description "Updated policy to not allow virtual machine creation"
 ```
 
-The first command gets a policy definition named VMPolicyDefinition by using the Get-AzureRmPolicyDefinition cmdlet.
+The first command gets a policy definition named VMPolicyDefinition by using the **Get-AzureRmPolicyDefinition** cmdlet.
 The command stores that object in the $PolicyDefinition variable.
 
 The second command updates the description of the policy definition identified by the **ResourceId** property of $PolicyDefinition.

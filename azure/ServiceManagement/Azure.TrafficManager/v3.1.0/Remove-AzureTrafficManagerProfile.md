@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 ms.assetid: B96A64DD-9005-4B04-A720-6FCF33797E8D
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 6:59 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Remove-AzureTrafficManagerProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Remove-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa9a583805f2cfda8b85c2ba2c8fcdca664a5f0f/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Remove-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Remove-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -38,14 +38,14 @@ The **Remove-AzureTrafficManagerProfile** cmdlet removes a Microsoft Azure Traff
 
 ### Example 1: Remove a Traffic Manager profile
 ```
-PS C:\>Remove-AzureTrafficManagerProfile -Name "MyProfile"
+PS C:\> Remove-AzureTrafficManagerProfile -Name "MyProfile"
 ```
 
 This command removes the Traffic Manager profile named MyProfile.
 
 ### Example 2: Remove a Traffic Manager profile
 ```
-PS C:\>Remove-AzureTrafficManagerProfile -Name "MyProfile" -Force -PassThru
+PS C:\> Remove-AzureTrafficManagerProfile -Name "MyProfile" -Force -PassThru
 ```
 
 This command removes the Traffic Manager profile named MyProfile without prompting you for confirmation, and returns the results.

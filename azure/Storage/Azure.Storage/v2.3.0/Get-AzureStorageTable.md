@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 4631D36F-926A-4279-AA4D-5F694C18081E
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageTable.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -46,21 +46,21 @@ The **Get-AzureStorageTable** cmdlet lists the storage tables associated with th
 
 ### Example 1: List all Azure Storage tables
 ```
-PS C:\>Get-AzureStorageTable
+PS C:\> Get-AzureStorageTable
 ```
 
 This command gets all storage tables for a Storage account.
 
 ### Example 2: List Azure Storage tables using a wildcard character
 ```
-PS C:\>Get-AzureStorageTable -Name table*
+PS C:\> Get-AzureStorageTable -Name table*
 ```
 
 This command uses a wildcard character to get storage tables whose name starts with table.
 
 ### Example 3: List Azure Storage tables using table name prefix
 ```
-PS C:\>Get-AzureStorageTable -Prefix "table"
+PS C:\> Get-AzureStorageTable -Prefix "table"
 ```
 
 This command uses the *Prefix* parameter to get storage tables whose name starts with table.
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies the storage context.
-To create it, you can use the New-AzureStorageContext cmdlet.
+To create it, you can use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext

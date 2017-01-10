@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: C324F28A-7215-4F10-A012-92B4F6544BC0
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageContainerStoredAccessPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageContainerStoredAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageContainerStoredAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageContainerStoredAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -41,7 +41,7 @@ The **New-AzureStorageContainerStoredAccessPolicy** cmdlet creates a stored acce
 
 ### Example 1: Create a stored access policy in a storage container
 ```
-PS C:\>New-AzureStorageContainerStoredAccessPolicy -Container "MyContainer" -Policy "Policy01"
+PS C:\> New-AzureStorageContainerStoredAccessPolicy -Container "MyContainer" -Policy "Policy01"
 ```
 
 This command creates an access policy named Policy01 in the storage container named MyContainer.
@@ -125,7 +125,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies an Azure storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+To obtain a storage context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: BB90E6BB-7F53-4441-A7B2-EDA940621D49
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 5:08 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Find-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Find-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Find-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0ad0bf34919ba087d528c6264dbeb3b2ec5cfcdb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Find-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -56,14 +56,14 @@ The **Find-AzureRmResource** cmdlet searches for resources based on specified pa
 
 ### Example 1: Search for resources by type and resource group name
 ```
-PS C:\>Find-AzureRmResource -ResourceType "microsoft.web/sites" -ResourceGroupNameContains "ResourceGroup"
+PS C:\> Find-AzureRmResource -ResourceType "microsoft.web/sites" -ResourceGroupNameContains "ResourceGroup"
 ```
 
 This command searches for resources of the type microsoft.web/sites under resource groups that have names that match the string ResourceGroup.
 
 ### Example 2: Search for resources by type and resource name
 ```
-PS C:\>Find-AzureRmResource -ResourceType "microsoft.web/sites" -ResourceNameContains "test"
+PS C:\> Find-AzureRmResource -ResourceType "microsoft.web/sites" -ResourceNameContains "test"
 ```
 
 This command searches for resources of the type microsoft.web/sites that have a resource name that matches the string test.

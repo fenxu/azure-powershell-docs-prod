@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: CEEA13B6-9D2E-44CA-906F-76EC883A8051
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 11:25 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmPolicyAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/909020b7dbd03ec23a61b4fe16ccd2762277084c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmPolicyAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -40,15 +40,15 @@ Specify a policy and scope.
 
 ### Example 1: Policy assignment at resource group level
 ```
-PS C:\>$ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11"
+PS C:\> $ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11"
 PS C:\> $Policy = Get-AzureRmPolicyDefinition -Name "VirtualMachinePolicy"
 PS C:\> New-AzureRmPolicyAssignment -Name "VirtualMachinePolicyAssignment" -PolicyDefinition $Policy -Scope $ResourceGroup.ResourceId
 ```
 
-The first command gets a resource group named ResourceGroup11 by using the Get-AzureRMResourceGroup cmdlet.
+The first command gets a resource group named ResourceGroup11 by using the **Get-AzureRMResourceGroup** cmdlet.
 The command stores that object in the $ResourceGroup variable.
 
-The second command gets the policy definition named VirtualMachinePolicy by using the Get-AzureRmPolicyDefinition cmdlet.
+The second command gets the policy definition named VirtualMachinePolicy by using the **Get-AzureRmPolicyDefinition** cmdlet.
 The command stores that object in the $Policy variable.
 
 The final command assigns the policy in $Policy at the level of a resource group.
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 Specifies the scope at which to assign the policy.
 For instance, to assign a policy to a resource group, specify the following:
 
-`/subscriptions/`subscription ID`/resourcegroups/`resource group name
+`/subscriptions/<subscription ID>/resourcegroups/<resource group name>`
 
 ```yaml
 Type: String

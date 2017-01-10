@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: C091D654-E113-4AE0-A6C8-24630D1294A4
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageBlobContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageBlobContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageBlobContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageBlobContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -58,21 +58,21 @@ If the blob name is not valid for the local computer, this cmdlet automatically 
 
 ### Example 1: Download blob content by name
 ```
-PS C:\>Get-AzureStorageBlobContent -Container "ContainerName" -Blob "Blob" -Destination "C:\test\"
+PS C:\> Get-AzureStorageBlobContent -Container "ContainerName" -Blob "Blob" -Destination "C:\test\"
 ```
 
 This command downloads a blob by name.
 
 ### Example 2: Download blob content using the pipeline
 ```
-PS C:\>Get-AzureStorageBlob -Container containername -Blob blobname | Get-AzureStorageBlobContent
+PS C:\> Get-AzureStorageBlob -Container containername -Blob blobname | Get-AzureStorageBlobContent
 ```
 
 This command uses the pipeline to find and download blob content.
 
 ### Example 3: Download blob content using the pipeline and a wildcard character
 ```
-PS C:\>Get-AzureStorageContainer container* | Get-AzureStorageBlobContent -Blob "cbox.exe" -Destination "C:\test"
+PS C:\> Get-AzureStorageContainer container* | Get-AzureStorageBlobContent -Blob "cbox.exe" -Destination "C:\test"
 ```
 
 This example uses the asterisk wildcard character and the pipeline to find and download blob content.
@@ -156,7 +156,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies the Azure storage account from which you want to download blob content.
-You can use the New-AzureStorageContext cmdlet to create a storage context.
+You can use the **New-AzureStorageContext** cmdlet to create a storage context.
 
 ```yaml
 Type: AzureStorageContext

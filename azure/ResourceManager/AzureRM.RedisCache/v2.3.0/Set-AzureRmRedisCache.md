@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 ms.assetid: 6234F211-6ED4-443F-9B83-DEB9AC51B763
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 11:50 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Set-AzureRmRedisCache.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Set-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Set-AzureRmRedisCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2064c07c5673a0ddcf2a15b98755432d9e77a277/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Set-AzureRmRedisCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -39,7 +39,7 @@ The **Set-AzureRmRedisCache** cmdlet modifies an Azure Redis Cache.
 
 ### Example 1: Modify a Redis Cache
 ```
-PS C:\>Set-AzureRmRedisCache -ResourceGroupName "MyGroup" -Name "MyCache" -RedisConfiguration @{"maxmemory-policy" = "allkeys-random"}
+PS C:\> Set-AzureRmRedisCache -ResourceGroupName "MyGroup" -Name "MyCache" -RedisConfiguration @{"maxmemory-policy" = "allkeys-random"}
 
           PrimaryKey         : pJ+jruGKPHDKsEC8kmoybobH3TZx2njBR3ipEsquZFo=
           SecondaryKey       : sJ+jruGKPHDKsEC8kmoybobH3TZx2njBR3ipEsquZFo=
@@ -213,7 +213,7 @@ Configures the number of databases.
 This property can be configured only at cache creation.
 Standard and Premium tiers.
 
-For more information, see Manage Azure Redis Cache with Azure PowerShellhttp://go.microsoft.com/fwlink/?LinkId=800051 (http://go.microsoft.com/fwlink/?LinkId=800051).
+For more information, see [Manage Azure Redis Cache with Azure PowerShell](http://go.microsoft.com/fwlink/?LinkId=800051) (http://go.microsoft.com/fwlink/?LinkId=800051).
 
 ```yaml
 Type: Hashtable

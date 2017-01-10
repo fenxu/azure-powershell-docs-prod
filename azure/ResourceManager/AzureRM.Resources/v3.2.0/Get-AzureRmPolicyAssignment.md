@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: A8AD85D6-5EC3-4754-970C-979446582FEC
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 9:52 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmPolicyAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f60f66b5229674cbde5c80b99ac704ad8318378/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Get-AzureRmPolicyAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -51,18 +51,18 @@ Identify a policy assignment to get by name and scope or by ID.
 
 ### Example 1: Get all policy assignments
 ```
-PS C:\>Get-AzureRmPolicyAssignment
+PS C:\> Get-AzureRmPolicyAssignment
 ```
 
 This command gets all the policy assignments.
 
 ### Example 2: Get a specific policy assignment
 ```
-PS C:\>$ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11"
+PS C:\> $ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11"
 PS C:\> Get-AzureRmPolicyAssignment -Name "PolicyAssignment07" -Scope $ResourceGroup.ResourceId
 ```
 
-The first command gets a resource group named ResourceGroup11 by using the Get-AzureRMResourceGroup cmdlet.
+The first command gets a resource group named ResourceGroup11 by using the **Get-AzureRMResourceGroup** cmdlet.
 The command stores that object in the $ResourceGroup variable.
 
 The second command get the policy assignment named PolicyAssignment07 for the scope that the **ResourceId** property of $ResourceGroup identifies.

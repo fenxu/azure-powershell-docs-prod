@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 288B7B56-B934-45AF-BF56-4EB0DD827522
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageCORSRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageCORSRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageCORSRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageCORSRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -43,7 +43,7 @@ To see the current rules, use the Get-AzureStorageCORSRule cmdlet.
 
 ### Example 1: Assign CORS rules to the blob service
 ```
-PS C:\>$CorsRules = (@{
+PS C:\> $CorsRules = (@{
     AllowedHeaders=@("x-ms-blob-content-type","x-ms-blob-content-disposition");
     AllowedOrigins=@("*");
     MaxAgeInSeconds=30;
@@ -64,7 +64,7 @@ The second command assigns the rules in $CorsRules to the Blob service type.
 
 ### Example 2: Change properties of a CORS rule for blob service
 ```
-PS C:\>$CorsRules = Get-AzureStorageCORSRule -ServiceType Blob
+PS C:\> $CorsRules = Get-AzureStorageCORSRule -ServiceType Blob
 PS C:\> $CorsRules[0].AllowedHeaders = @("x-ms-blob-content-type", "x-ms-blob-content-disposition")
 PS C:\> $CorsRules[0].AllowedMethods = @("Get", "Connect", "Merge")
 PS C:\> Set-AzureStorageCORSRule -ServiceType Blob -CorsRules $CorsRules
@@ -135,7 +135,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies an Azure Storage context.
-To obtain a context, use the New-AzureStorageContext cmdlet.
+To obtain a context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext

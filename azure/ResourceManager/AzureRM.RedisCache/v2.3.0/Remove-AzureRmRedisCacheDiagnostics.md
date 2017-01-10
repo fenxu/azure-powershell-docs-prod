@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 ms.assetid: BCF989AE-A718-4AFE-B7C0-8B148468D4EE
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/9/2017 11:50 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Remove-AzureRmRedisCacheDiagnostics.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Remove-AzureRmRedisCacheDiagnostics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Remove-AzureRmRedisCacheDiagnostics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2064c07c5673a0ddcf2a15b98755432d9e77a277/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/Remove-AzureRmRedisCacheDiagnostics.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -38,7 +38,7 @@ The **Remove-AzureRmRedisCacheDiagnostics** cmdlet disables diagnostics on an Az
 
 ### Example 1: Disable diagnostics
 ```
-PS C:\>Remove-AzureRmRedisCacheDiagnostics -ResourceGroupName "ContosoResourceGroup" -Name "PeakCache" -Force
+PS C:\> Remove-AzureRmRedisCacheDiagnostics -ResourceGroupName "ContosoResourceGroup" -Name "PeakCache" -Force
 ```
 
 This command disables diagnostics on specified Azure Redis Cache.

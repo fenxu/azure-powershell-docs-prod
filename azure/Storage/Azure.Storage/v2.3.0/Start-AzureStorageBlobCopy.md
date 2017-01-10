@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 54585346-04E2-4FB4-B5FD-833A85C46ACB
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Start-AzureStorageBlobCopy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Start-AzureStorageBlobCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Start-AzureStorageBlobCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Start-AzureStorageBlobCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -247,7 +247,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies an Azure storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+To obtain a storage context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext
@@ -275,7 +275,7 @@ Accept wildcard characters: False
 
 ### -DestContext
 Specifies an Azure storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+To obtain a storage context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext
@@ -475,7 +475,7 @@ Accept wildcard characters: False
 
 ### -SrcShare
 Specifies a **CloudFileShare** object from Azure Storage Client library.
-You can create it or use Get-AzureStorageShare cmdlet.
+You can create it or use **Get-AzureStorageShare** cmdlet.
 
 ```yaml
 Type: CloudFileShare
@@ -506,7 +506,7 @@ Accept wildcard characters: False
 
 ### -SrcFile
 Specifes a **CloudFile** object from Azure Storage Client library.
-You can create it or use Get-AzureStorageFile cmdlet.
+You can create it or use **Get-AzureStorageFile** cmdlet.
 
 ```yaml
 Type: CloudFile

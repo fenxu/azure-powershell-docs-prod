@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 9994E2B2-20A1-4E95-9A9F-379B8B63F7F5
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/7/2017 12:34 AM
+ms.date: 1/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmExpressRouteCircuitAuthorization.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmExpressRouteCircuitAuthorization.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmExpressRouteCircuitAuthorization.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e4e009f39ab5f375c2b4081b67a72235d198ef74/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmExpressRouteCircuitAuthorization.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -36,16 +36,16 @@ The **Add-AzureRmExpressRouteCircuitAuthorization** cmdlet adds an authorization
 ExpressRoute circuits connect your on-premises network to the Microsoft cloud by using a connectivity provider instead of the public Internet.
 The owner of an ExpressRoute circuit can create as many as 10 authorizations for each circuit; these authorizations generate an authorization key that can be used by a virtual network owner to connect his or her network to the circuit (one authorization per virtual network).
 **Add-AzureRmExpressRouteCircuitAuthorization** adds a new authorization to a circuit and, at the same time, generates the corresponding authorization key.
-These keys can be viewed at any time by running the Get-AzureRmExpressRouteCircuitAuthorization cmdlet and, as needed, can then be copied and forwarded to the appropriate network owner.
+These keys can be viewed at any time by running the [Get-AzureRmExpressRouteCircuitAuthorization](./Get-AzureRmExpressRouteCircuitAuthorization.md) cmdlet and, as needed, can then be copied and forwarded to the appropriate network owner.
 
-Note that, after running **Add-AzureRmExpressRouteCircuitAuthorization**, you must call the Set-AzureRmExpressRouteCircuit cmdlet to activate the key.
+Note that, after running **Add-AzureRmExpressRouteCircuitAuthorization**, you must call the [Set-AzureRmExpressRouteCircuit](./Set-AzureRmExpressRouteCircuit.md) cmdlet to activate the key.
 If you do not call **Set-AzureRmExpressRouteCircuit** the authorization will be added to the circuit but will not be enabled for use.
 
 ## EXAMPLES
 
 ### Example 1: Add an authorization to the specified ExpressRoute circuit
 ```
-PS C:\>$Circuit = Get-AzureRmExpressRouteCircuit -Name "ContosoCircuit" -ResourceGroupName "ContosoResourceGroup"
+PS C:\> $Circuit = Get-AzureRmExpressRouteCircuit -Name "ContosoCircuit" -ResourceGroupName "ContosoResourceGroup"
 PS C:\> Add-AzureRmExpressRouteCircuitAuthorization -Name "ContosoCircuitAuthorization" -Circuit $Circuit
 PS C:\> Set-AzureRmExpressRouteCircuit -ExpressRouteCircuit $Circuit
 ```
@@ -156,5 +156,3 @@ The output type is the type of the objects that the cmdlet emits.
 [Remove-AzureRmExpressRouteCircuitAuthorization](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmExpressRouteCircuitAuthorization.md)
 
 [Set-AzureRmExpressRouteCircuit](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmExpressRouteCircuit.md)
-
-

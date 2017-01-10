@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 907928F6-B215-4EC9-954F-C2E6D3FAA273
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:46 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseServerQuota.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseServerQuota.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseServerQuota.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5a93ffeed580e8a3cca4c5cac3aefb5da20ba4ee/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseServerQuota.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -47,14 +47,14 @@ If you do not specify a quota name, this cmdlet gets all the quota information f
 
 ### Example 1: Get information for a specific quota
 ```
-PS C:\>$QuotaPremium = GetAzureSqlDatabaseServerQuota $Context -QuotaName "Premium_Databases"
+PS C:\> $QuotaPremium = GetAzureSqlDatabaseServerQuota $Context -QuotaName "Premium_Databases"
 ```
 
 This command gets the quota named Premium_Databases from the Azure SQL Database server specified by the connection stored in the $Context variable.
 
 ### Example 2: Get information for all quotas
 ```
-PS C:\>$QuotaList = GetAzureSqlDatabaseServerQuota $Context
+PS C:\> $QuotaList = GetAzureSqlDatabaseServerQuota $Context
 ```
 
 This command gets all quota values from the server specified by the connection $Context.
@@ -132,7 +132,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### Microsoft.WindowsAzure.Commands.SqlDatabase.Services.Server.ServerQuota[]
 
 ## NOTES
-* Authentication: This cmdlet can use either SQL Server authentication or certificate-based authentication. For examples of setting up authentication, see the New-AzureSqlDatabaseServerContext cmdlet.
+* Authentication: This cmdlet can use either SQL Server authentication or certificate-based authentication. For examples of setting up authentication, see the **New-AzureSqlDatabaseServerContext** cmdlet.
 
 ## RELATED LINKS
 

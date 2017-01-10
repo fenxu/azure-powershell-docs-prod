@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: FF2BFE34-4A12-49F9-9BE5-4084A36BC272
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageTableStoredAccessPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageTableStoredAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageTableStoredAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageTableStoredAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -40,7 +40,7 @@ The **Set-AzureStorageTableStoredAccessPolicy** cmdlet set the stored access pol
 
 ### Example 1: Set a stored access policy in table with full permission
 ```
-PS C:\>Set-AzureStorageTableStoredAccessPolicy -Table "MyTable" -Policy "Policy08"
+PS C:\> Set-AzureStorageTableStoredAccessPolicy -Table "MyTable" -Policy "Policy08"
 ```
 
 This command sets an access policy named Policy08 for storage table named MyTable.
@@ -154,7 +154,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies an Azure storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+To obtain a storage context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext

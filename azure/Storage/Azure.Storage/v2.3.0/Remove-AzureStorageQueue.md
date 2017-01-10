@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 22975A89-CAFF-4F18-8DCE-B695413FBAC7
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageQueue.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageQueue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageQueue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageQueue.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -39,14 +39,14 @@ The **Remove-AzureStorageQueue** cmdlet removes a storage queue.
 
 ### Example 1: Remove a storage queue by name
 ```
-PS C:\>Remove-AzureStorageQueue "ContosoQueue01"
+PS C:\> Remove-AzureStorageQueue "ContosoQueue01"
 ```
 
 This command removes a queue named ContosoQueue01.
 
 ### Example 2: Remove multiple storage queues
 ```
-PS C:\>Get-AzureStorageQueue "Contoso*" | Remove-AzureStorageQueue
+PS C:\> Get-AzureStorageQueue "Contoso*" | Remove-AzureStorageQueue
 ```
 
 This command removes all queues with names that start with Contoso.
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies the Azure storage context.
-To obtain the storage context, the New-AzureStorageContext cmdlet.
+To obtain the storage context, the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext

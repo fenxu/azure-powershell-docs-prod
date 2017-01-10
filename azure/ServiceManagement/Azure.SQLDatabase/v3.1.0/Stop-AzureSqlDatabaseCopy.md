@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 ms.assetid: CB601E21-424D-4B09-85E5-A4B2A5068267
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 9:17 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Stop-AzureSqlDatabaseCopy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Stop-AzureSqlDatabaseCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8bbe11a32244ebde0ad865d340e59d85ee67d16e/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Stop-AzureSqlDatabaseCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Stop-AzureSqlDatabaseCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -67,7 +67,7 @@ If the replication status is PENDING, termination that is not forced is not supp
 
 ### Example 1: Terminate a continuous copy relationship
 ```
-PS C:\>Stop-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y" -DatabaseName "Orders" -PartnerServer "bk0b8kf658"
+PS C:\> Stop-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y" -DatabaseName "Orders" -PartnerServer "bk0b8kf658"
 ```
 
 This command terminates the continuous copy relationship of database named Orders on the server named lpqd0zbr8y.
@@ -75,7 +75,7 @@ The server named bk0b8kf658 hosts the secondary database.
 
 ### Example 2: Forcibly terminate a continuous copy relationship
 ```
-PS C:\>$DatabaseCopy = Get-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y" -DatabaseName "Orders"
+PS C:\> $DatabaseCopy = Get-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y" -DatabaseName "Orders"
 PS C:\> $DatabaseCopy | Stop-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y" -ForcedTermination
 ```
 

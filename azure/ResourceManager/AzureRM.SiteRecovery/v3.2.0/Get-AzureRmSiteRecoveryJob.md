@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 ms.assetid: B5CA6FD9-49EE-4115-8477-551CE5D8E6CE
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 11:10 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/Get-AzureRmSiteRecoveryJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/Get-AzureRmSiteRecoveryJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/Get-AzureRmSiteRecoveryJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64a26768a35531d5351db0799e3ff1e8eee31312/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/Get-AzureRmSiteRecoveryJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -69,7 +69,7 @@ Accept wildcard characters: False
 ### -EndTime
 Specifies the end time for the jobs.
 This cmdlet gets all jobs that started before the specified time.
-To obtain a **DateTime** object for this parameter, use the Get-Date cmdlet.
+To obtain a **DateTime** object for this parameter, use the **Get-Date** cmdlet.
 For more information, type `Get-Help Get-Date`.
 
 ```yaml

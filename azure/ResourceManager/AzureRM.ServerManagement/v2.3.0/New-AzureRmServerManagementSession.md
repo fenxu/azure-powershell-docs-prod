@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
 ms.assetid: 5981D3D8-E2E7-4905-8CD0-8BDC35BB39AC
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 4:02 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/New-AzureRmServerManagementSession.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/New-AzureRmServerManagementSession.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/New-AzureRmServerManagementSession.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bf9d765043905923ff550c2c280499b4acb9eed6/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/New-AzureRmServerManagementSession.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -44,10 +44,6 @@ The **New-AzureRmServerManagementSession** cmdlet creates an Azure Server Manage
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 

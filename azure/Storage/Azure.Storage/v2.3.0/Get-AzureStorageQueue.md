@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: C2EBCCF0-56CE-4D49-A138-74E52FC3A9AC
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageQueue.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageQueue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageQueue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageQueue.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -46,21 +46,21 @@ The **Get-AzureStorageQueue** cmdlet lists storage queues associated with an Azu
 
 ### Example 1: List all Azure Storage queues
 ```
-PS C:\>Get-AzureStorageQueue
+PS C:\> Get-AzureStorageQueue
 ```
 
 This command gets a list of all storage queues for the current Storage account.
 
 ### Example 2: List Azure Storage queues using a wildcard character
 ```
-PS C:\>Get-AzureStorageQueue -Name queue*
+PS C:\> Get-AzureStorageQueue -Name queue*
 ```
 
 This command uses a wildcard character to get a list of storage queues whose name starts with queue.
 
 ### Example 3: List Azure Storage queues using queue name prefix
 ```
-PS C:\>Get-AzureStorageQueue -Prefix "queue"
+PS C:\> Get-AzureStorageQueue -Prefix "queue"
 ```
 
 This example uses the *Prefix* parameter to get a list of storage queues whose name starts with queue.

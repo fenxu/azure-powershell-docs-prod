@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 36399302-3EA5-45A3-A042-536CC7EC2E6D
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/9/2017 7:56 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmPolicyAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5988bf32e3ff01c5800597ecc3a6ae8a6be33061/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmPolicyAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -47,11 +47,11 @@ The **Remove-AzureRmPolicyAssignment** cmdlet removes the specified policy assig
 
 ### Example 1: Remove policy assignment by name and scope
 ```
-PS C:\>$ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11"
+PS C:\> $ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11"
 PS C:\> Remove-AzureRmPolicyAssignment -Name "PolicyAssignment07" -Scope $ResourceGroup.ResourceId -Force
 ```
 
-The first command gets a resource group named ResourceGroup11 by using the Get-AzureRMResourceGroup cmdlet.
+The first command gets a resource group named ResourceGroup11 by using the **Get-AzureRMResourceGroup** cmdlet.
 The command stores that object in the $ResourceGroup variable.
 
 The second command removes the policy assignment named PolicyAssignment07 that was assigned at a resource group level.
@@ -59,7 +59,7 @@ The **ResourceId** property of $ResourceGroup identifies the resource group.
 
 ### Example 2: Remove policy assignment by ID
 ```
-PS C:\>$ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11" 
+PS C:\> $ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11" 
 PS C:\> $PolicyAssignment = Get-AzureRmPolicyAssignment -Name "PolicyAssignment07" -Scope $ResourceGroup.ResourceId
 PS C:\> Remove-AzureRmPolicyAssignment -Id $PolicyAssignment.ResourceId -Force
 ```

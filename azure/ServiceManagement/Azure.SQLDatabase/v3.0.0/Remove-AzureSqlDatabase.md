@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: BB3DD198-01C0-4746-9480-5330096C5973
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/10/2017 8:46 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Remove-AzureSqlDatabase.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Remove-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Remove-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5a93ffeed580e8a3cca4c5cac3aefb5da20ba4ee/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Remove-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -52,7 +52,7 @@ Remove-AzureSqlDatabase [-ServerName] <String> [-Database] <Database> [-Force] [
 
 ## DESCRIPTION
 The **Remove-AzureSqlDatabase** cmdlet deletes an Azure SQL Database by server connection context or server name.
-You can create an Azure SQL Database server connection context using the New-AzureSqlDatabaseServerContext cmdlet, and then use it with this cmdlet.
+You can create an Azure SQL Database server connection context using the **New-AzureSqlDatabaseServerContext** cmdlet, and then use it with this cmdlet.
 
 When you delete a database by specifying an Azure SQL Database server name, the **Remove-AzureSqlDatabase** cmdlet uses the name and the current Azure subscription information to perform the operation.
 
@@ -60,21 +60,21 @@ When you delete a database by specifying an Azure SQL Database server name, the 
 
 ### Example 1: Remove a database
 ```
-PS C:\>Remove-AzureSqlDatabase -ConnectionContext $Context -DatabaseName "Database01"
+PS C:\> Remove-AzureSqlDatabase -ConnectionContext $Context -DatabaseName "Database01"
 ```
 
 This command removes the database named Database01 from the Azure SQL Database server connection context $Context.
 
 ### Example 2: Remove a database by using a server name
 ```
-PS C:\>Remove-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName "Database01"
+PS C:\> Remove-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName "Database01"
 ```
 
 This command removes the database named Database01 from the Azure SQL Database server namedlpqd0zbr8y.
 
 ### Example 3: Remove a database by using the pipeline
 ```
-PS C:\>$Database01 | Remove-AzureSqlDatabase -ConnectionContext $Context
+PS C:\> $Database01 | Remove-AzureSqlDatabase -ConnectionContext $Context
 PS C:\> $Database01 | Remove-AzureSqlDatabase -ServerName "lpqd0zbr8y"
 ```
 

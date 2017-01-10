@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 ms.assetid: B087194B-DA3F-4E45-BD2D-788F9E6F03EA
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/6/2017 11:10 PM
+ms.date: 1/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/New-AzureRmSiteRecoveryFabric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/New-AzureRmSiteRecoveryFabric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/New-AzureRmSiteRecoveryFabric.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64a26768a35531d5351db0799e3ff1e8eee31312/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.2.0/New-AzureRmSiteRecoveryFabric.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -38,7 +38,7 @@ The **New-AzureRmSiteRecoveryFabric** cmdlet creates an Azure Site Recovery Fabr
 ## PARAMETERS
 
 ### -Name
-Specifies the name of the Azure Site Recovery Fabric
+Specifies the name of the Azure Site Recovery Fabric.
 
 ```yaml
 Type: String

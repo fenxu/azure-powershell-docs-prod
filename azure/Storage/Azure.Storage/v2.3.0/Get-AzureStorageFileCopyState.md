@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: C1648DC3-8CFD-4487-A080-D9BE25DAD258
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageFileCopyState.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageFileCopyState.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageFileCopyState.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageFileCopyState.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -48,7 +48,7 @@ The **Get-AzureStorageFileCopyState** cmdlet gets the state of an Azure Storage 
 
 ### Example 1: Get the copy state by file name
 ```
-PS C:\>Get-AzureStorageFileCopyState -ShareName "ContosoShare" -FilePath "ContosoFile"
+PS C:\> Get-AzureStorageFileCopyState -ShareName "ContosoShare" -FilePath "ContosoFile"
 ```
 
 This command gets the state of the copy operation for a file that has the specified name.
@@ -209,7 +209,7 @@ Accept wildcard characters: False
 
 ### -File
 Specifies a **CloudFile** object.
-You can create a cloud file or obtain one by using the Get-AzureStorageFile cmdlet.
+You can create a cloud file or obtain one by using the **Get-AzureStorageFile** cmdlet.
 
 ```yaml
 Type: CloudFile

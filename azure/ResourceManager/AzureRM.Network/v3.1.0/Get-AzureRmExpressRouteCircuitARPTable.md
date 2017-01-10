@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: F0370845-13D9-4FB5-B30E-826A22EBC5E0
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:05 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuitARPTable.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuitARPTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuitARPTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51009e6d95f4d0586cdd2345451b9e509be8767e/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuitARPTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,13 +15,14 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
 # Get-AzureRmExpressRouteCircuitARPTable
 
 ## SYNOPSIS
+Gets the express route circuit ARP Table.
 
 ## SYNTAX
 
@@ -32,13 +33,9 @@ Get-AzureRmExpressRouteCircuitARPTable [-Name <String>] -ResourceGroupName <Stri
 ```
 
 ## DESCRIPTION
+The **Get-AzureRmExpressRouteCircuitARPTable** cmdlet gets the express route circuit ARP Table.
 
 ## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 
@@ -156,4 +153,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

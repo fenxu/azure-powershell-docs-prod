@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 ms.assetid: F7FAFF52-5E07-4D88-B48F-BC70C43E8691
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 11:50 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/New-AzureRmRedisCachePatchSchedule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/New-AzureRmRedisCachePatchSchedule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/New-AzureRmRedisCachePatchSchedule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2064c07c5673a0ddcf2a15b98755432d9e77a277/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/New-AzureRmRedisCachePatchSchedule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -38,7 +38,7 @@ The **New-AzureRmRedisCachePatchSchedule** cmdlet adds a patch schedule to a cac
 
 ### Example 1: Create and add a patch schedule on a cache
 ```
-PS C:\>New-AzureRmRedisCachePatchSchedule -ResourceGroupName "ResourceGroup13" -Name "RedisCache06" -Entries @(New-AzureRmRedisCacheScheduleEntry -DayOfWeek "Weekend" -StartHourUtc 2 -MaintenanceWindow "06:00:00")
+PS C:\> New-AzureRmRedisCachePatchSchedule -ResourceGroupName "ResourceGroup13" -Name "RedisCache06" -Entries @(New-AzureRmRedisCacheScheduleEntry -DayOfWeek "Weekend" -StartHourUtc 2 -MaintenanceWindow "06:00:00")
 ```
 
 This command adds a patch schedule to the cache named RedisCache06.
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 
 ### -Entries
 Specifies an array of schedules that this cmdlet sets on a cache. 
-To obtain a **PSScheduleEntry** object, use the New-AzureRmRedisCacheScheduleEntry cmdlet.
+To obtain a **PSScheduleEntry** object, use the **New-AzureRmRedisCacheScheduleEntry** cmdlet.
 
 ```yaml
 Type: PSScheduleEntry[]

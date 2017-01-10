@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: CD03B969-C144-4EB2-8260-6FDD8D972422
-updated_at: 11/18/2016 8:33 AM
-ms.date: 11/18/2016
+updated_at: 1/10/2017 6:53 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/New-AzureStorSimpleAccessControlRecord.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/New-AzureStorSimpleAccessControlRecord.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/New-AzureStorSimpleAccessControlRecord.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2aa2c6b171a81049ff40feeada5894cd7badff85/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/New-AzureStorSimpleAccessControlRecord.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -39,7 +39,7 @@ You can use an **AccessControlRecord** object to configure volumes.
 
 ### Example 1: Create an Access Controlaccess control record and wait for the resultaccess control
 ```
-PS C:\>New-AzureStorSimpleAccessControlRecord -ACRName "Acr10" -IQNInitiatorName "Iqn10" -WaitForComplete
+PS C:\> New-AzureStorSimpleAccessControlRecord -ACRName "Acr10" -IQNInitiatorName "Iqn10" -WaitForComplete
 Error      : Microsoft.WindowsAzure.Management.StorSimple.Models.ErrorDetails
 JobId      : 08719243-3a76-43a5-a88b-e5f2b63ed3d9
 JobSteps   : {}
@@ -55,7 +55,7 @@ This command specifies the *WaitForComplete* parameter, and, therefore, the comm
 
 ### Example 2: Create an Access Controlaccess control recordaccess control
 ```
-PS C:\>New-AzureStorSimpleAccessControlRecord -ACRName "Acr11" -IQNInitiatorName "Iqn11"
+PS C:\> New-AzureStorSimpleAccessControlRecord -ACRName "Acr11" -IQNInitiatorName "Iqn11"
 VERBOSE: The create job is submitted successfully. Please use the command Get-AzureStorSimpleTask -InstanceId
 2bd56fbb-4b95-4f2c-b99f-6321231a018d for tracking the job status
 ```

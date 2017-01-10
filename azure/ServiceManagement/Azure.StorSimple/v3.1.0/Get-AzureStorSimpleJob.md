@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 ms.assetid: 2001E040-5551-40C3-81D2-9A8334DE02BF
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 8:06 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42a873a36748963f5f6496c41e9c5490d6e1bd81/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -47,7 +47,7 @@ It returns the next 50 results after the 100 that it skips.
 
 ### Example 1: Get a job by using an ID
 ```
-PS C:\>Get-AzureStorSimpleJob -InstanceId "574f47e0-44e9-495c-b8a5-0203c57ebf6d"
+PS C:\> Get-AzureStorSimpleJob -InstanceId "574f47e0-44e9-495c-b8a5-0203c57ebf6d"
 BackupPolicy             : 
 BackupTimeStamp          : 1/1/0001 12:00:00 AM
 BackupType               : CloudSnapshot
@@ -75,7 +75,7 @@ This command gets information for the job that has the specified ID.
 
 ### Example 2: Get jobs by using a device name
 ```
-PS C:\>Get-AzureStorSimpleJob -DeviceName "8600-Bravo 001" -First 2
+PS C:\> Get-AzureStorSimpleJob -DeviceName "8600-Bravo 001" -First 2
 InstanceId                           Type                         Status                                          DeviceName                                      StartTime                                       Progress                                       
 ----------                           ----                         ------                                          ----------                                      ---------                                       --------                                       
 1997c33f-bfcc-4d08-9aba-28068340a1f9 Backup                       Running                                         8600-Bravo 001                                  4/15/2015 1:30:02 PM                            92                                             
@@ -87,7 +87,7 @@ The command gets the first two jobs for the device.
 
 ### Example 3: Get completed jobs
 ```
-PS C:\>Get-AzureStorSimpleJob -Status "Completed" -Skip 10 -First 2
+PS C:\> Get-AzureStorSimpleJob -Status "Completed" -Skip 10 -First 2
 ```
 
 This command gets completed jobs.
@@ -95,16 +95,16 @@ The command gets only the first two jobs after it skips the first ten jobs.
 
 ### Example 4: Get manual backup jobs
 ```
-PS C:\>Get-AzureStorSimpleJob -Type "ManualBackup"
+PS C:\> Get-AzureStorSimpleJob -Type "ManualBackup"
 ```
 
 This command gets jobs of the manual backup type.
 
 ### Example 5: Get jobs between specified times
 ```
-PS C:\>$StartTime = Get-Date -Year 2015 -Month 3 -Day 10
+PS C:\> $StartTime = Get-Date -Year 2015 -Month 3 -Day 10
 PS C:\> $EndTime = Get-Date -Year 2015 -Month 3 -Day 11 -Hour 12 -Minute 15
-PS C:\>Get-AzureStorSimpleJob -DeviceName "Device07" -From $StartTime -To $EndTime
+PS C:\> Get-AzureStorSimpleJob -DeviceName "Device07" -From $StartTime -To $EndTime
 ```
 
 The first two commands create **DateTime** objects by using the Get-Date cmdlet.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 6A46DA60-2ACF-4842-B5B3-58944264854A
 online version: 
 schema: 2.0.0
-updated_at: 11/18/2016 9:58 PM
-ms.date: 11/18/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageContainer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Remove-AzureStorageContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -40,7 +40,7 @@ The **Remove-AzureStorageContainer** cmdlet removes the specified storage contai
 
 ### Example 1: Remove a container
 ```
-PS C:\>Remove-AzureStorageContainer -Name "MyTestContainer"
+PS C:\> Remove-AzureStorageContainer -Name "MyTestContainer"
 ```
 
 This example removes a container named MyTestContainer.
@@ -95,7 +95,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies a context for the container you want to remove.
-You can use the New-AzureStorageContext cmdlet to create it.
+You can use the **New-AzureStorageContext** cmdlet to create it.
 
 ```yaml
 Type: AzureStorageContext

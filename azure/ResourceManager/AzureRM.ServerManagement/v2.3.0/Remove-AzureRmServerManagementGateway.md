@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
 ms.assetid: 41F8F851-6F9F-4DA4-8CE6-D8C9B7CF68D7
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 4:02 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Remove-AzureRmServerManagementGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Remove-AzureRmServerManagementGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Remove-AzureRmServerManagementGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bf9d765043905923ff550c2c280499b4acb9eed6/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Remove-AzureRmServerManagementGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -43,10 +43,6 @@ The **Remove-AzureRmServerManagementGateway** cmdlet removes an Azure Server Man
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 

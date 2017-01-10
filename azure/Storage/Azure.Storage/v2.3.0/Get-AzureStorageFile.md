@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 38207027-FD76-45EE-8817-88599735C0B0
 online version: 
 schema: 2.0.0
-updated_at: 11/18/2016 9:58 PM
-ms.date: 11/18/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -59,7 +59,7 @@ You can use the **IsDirectory** property to distinguish between folders and file
 
 ### Example 1: List directories in a share
 ```
-PS C:\>Get-AzureStorageFile -ShareName "share1" | where {$_.GetType().Name -eq "CloudFileDirectory"}
+PS C:\> Get-AzureStorageFile -ShareName "share1" | where {$_.GetType().Name -eq "CloudFileDirectory"}
 ```
 
 This command lists only the directories in the share ContosoShare06.
@@ -111,7 +111,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies an Azure Storage context.
-To obtain a Storage context, use the New-AzureStorageContext cmdlet.
+To obtain a Storage context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext
@@ -219,7 +219,7 @@ Accept wildcard characters: False
 ### -Share
 Specifies a **CloudFileShare** object.
 This cmdlet gets a file or directory from the file share that this parameter specifies.
-To obtain a **CloudFileShare** object, use the Get-AzureStorageShare cmdlet.
+To obtain a **CloudFileShare** object, use the **Get-AzureStorageShare** cmdlet.
 This object contains the Storage context.
 If you specify this parameter, do not specify the *Context* parameter.
 
@@ -238,7 +238,7 @@ Accept wildcard characters: False
 ### -Directory
 Specifies a folder as a **CloudFileDirectory** object.
 This cmdlet gets the folder that this parameter specifies.
-To obtain a directory, use the New-AzureStorageDirectory cmdlet.
+To obtain a directory, use the **New-AzureStorageDirectory** cmdlet.
 You can also use the **Get-AzureStorageFile** cmdlet to obtain a directory.
 
 ```yaml

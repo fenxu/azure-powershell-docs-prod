@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: BA7F6BAC-6047-42B0-B8CA-0B36302951B0
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:05 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuitRouteTable.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuitRouteTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuitRouteTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51009e6d95f4d0586cdd2345451b9e509be8767e/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuitRouteTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -35,14 +35,11 @@ Get-AzureRmExpressRouteCircuitRouteTable [-Name <String>] -ResourceGroupName <St
 
 ## EXAMPLES
 
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 
 ### -Name
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -56,6 +53,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
+Specifies the resource group of a circuit route table.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -156,4 +155,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

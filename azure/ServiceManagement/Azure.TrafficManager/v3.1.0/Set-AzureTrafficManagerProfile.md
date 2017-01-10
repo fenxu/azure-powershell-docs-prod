@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 ms.assetid: 700AC44E-4FD5-4516-80F3-B8C9E4DF6ABC
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 6:59 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Set-AzureTrafficManagerProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Set-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa9a583805f2cfda8b85c2ba2c8fcdca664a5f0f/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Set-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Set-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -43,14 +43,14 @@ For more information, see Example 3 below.
 
 ### Example 1: Set the TTL for a Traffic Manager profile
 ```
-PS C:\>Set-AzureTrafficManagerProfile -TrafficManagerProfile $MyTrafficManagerProfile -Ttl 60
+PS C:\> Set-AzureTrafficManagerProfile -TrafficManagerProfile $MyTrafficManagerProfile -Ttl 60
 ```
 
 This command sets the TTL to 60 seconds for the Traffic Manager profile object MyTrafficManagerProfile.
 
 ### Example 2: Set several values for a profile
 ```
-PS C:\>Get-AzureTrafficManagerProfile -Name "MyProfile" | Set-AzureTrafficManagerProfile -LoadBalancingMethod "RoundRobin" -Ttl 30 -MonitorProtocol "Http" -MonitorPort 80 -MonitorRelativePath "/"
+PS C:\> Get-AzureTrafficManagerProfile -Name "MyProfile" | Set-AzureTrafficManagerProfile -LoadBalancingMethod "RoundRobin" -Ttl 30 -MonitorProtocol "Http" -MonitorPort 80 -MonitorRelativePath "/"
 ```
 
 This command gets a Traffic Manager profile named MyProfile by using the **Get-AzureTrafficManagerProfile** cmdlet.
@@ -58,7 +58,7 @@ The profile uses the RoundRobin load balancing method, a TTL of 30 seconds,  the
 
 ### Example 3: Reorder endpoints to desired failover order
 ```
-PS C:\>$Profile = Get-AzureTrafficManagerProfile -Name "MyProfile"
+PS C:\> $Profile = Get-AzureTrafficManagerProfile -Name "MyProfile"
 PS C:\> $Profile.Endpoints[0],$Profile.Endpoints[1] = $Profile.Endpoints[1],$Profile.Endpoints[0]
 PS C:\> $Profile = Set-AzureTrafficManagerProfile
 ```

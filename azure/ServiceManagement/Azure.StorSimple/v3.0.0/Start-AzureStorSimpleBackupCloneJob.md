@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3F82EECA-3573-4270-AF4B-349F332786B0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 6:53 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Start-AzureStorSimpleBackupCloneJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Start-AzureStorSimpleBackupCloneJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Start-AzureStorSimpleBackupCloneJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2aa2c6b171a81049ff40feeada5894cd7badff85/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Start-AzureStorSimpleBackupCloneJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -56,7 +56,7 @@ The **Start-AzureStorSimpleBackupCloneJob** cmdlet starts a job that clones an e
 
 ### Example 1: Clone a backup to a different volume by using device names
 ```
-PS C:\>$Backup = Get-AzureStorSimpleDeviceBackup -DeviceName "ContosoDev07" -First 1
+PS C:\> $Backup = Get-AzureStorSimpleDeviceBackup -DeviceName "ContosoDev07" -First 1
 PS C:\> $Acrs = Get-AzureStorSimpleAccessControlRecord -ACRName "Acr01"
 PS C:\> Start-AzureStorSimpleBackupCloneJob -SourceDeviceName "ContosoDev07 -TargetDeviceName "ContosoDev07" -BackupId $Backup.InstanceId -Snapshot $Backup.Snapshots[0] -CloneVolumeName "cloned_volume11" -TargetAccessControlRecords $Acrs
 VERBOSE: ClientRequestId: 43d8b4dc-39da-4ec5-92f6-be1f499155e9_PS
@@ -84,7 +84,7 @@ The command returns the ID of the job.
 
 ### Example 2: Clone a backup to a different volume by using device IDs
 ```
-PS C:\>$Backup = Get-AzureStorSimpleDeviceBackup -DeviceName ContosoDev07 -First 1
+PS C:\> $Backup = Get-AzureStorSimpleDeviceBackup -DeviceName ContosoDev07 -First 1
 PS C:\> $Acrs = Get-AzureStorSimpleAccessControlRecord -ACRName "Acr01"
 PS C:\> Start-AzureStorSimpleBackupCloneJob -SourceDeviceId "be7a73a7-980c-4ba2-82d4-f6a7ee0eacbb" -TargetDeviceId "be7a73a7-980c-4ba2-82d4-f6a7ee0eacbb" -BackupId $Backup.InstanceId -Snapshot $Backup.Snapshots[0] -CloneVolumeName "cloned_volume11" -TargetAccessControlRecords $Acrs
 VERBOSE: ClientRequestId: 43d8b4dc-39da-4ec5-92f6-be1f499155e9_PS
@@ -112,7 +112,7 @@ The command returns the ID of the job.
 
 ### Example 3: Clone a backup to a volume on a different device by using device names
 ```
-PS C:\>$Backup = Get-AzureStorSimpleDeviceBackup -DeviceName "ContosoDev07" -First 1
+PS C:\> $Backup = Get-AzureStorSimpleDeviceBackup -DeviceName "ContosoDev07" -First 1
 PS C:\> $Acrs = Get-AzureStorSimpleAccessControlRecord -ACRName "Acr01"
 PS C:\> Start-AzureStorSimpleBackupCloneJob -SourceDeviceName "ContosoDev07" -TargetDeviceName "ContosoDev12" -BackupId $Backup.InstanceId -Snapshot $Backup.Snapshots[0] -CloneVolumeName "cloned_volume11" -TargetAccessControlRecords $Acrs
 VERBOSE: ClientRequestId: 43d8b4dc-39da-4ec5-92f6-be1f499155e9_PS
@@ -140,7 +140,7 @@ The command returns the ID of the job.
 
 ### Example 4: Clone a backup to a different volume by using device names and the pipeline operator
 ```
-PS C:\>$Backup = Get-AzureStorSimpleDeviceBackup -DeviceName ContosoDev1 -First 1
+PS C:\> $Backup = Get-AzureStorSimpleDeviceBackup -DeviceName ContosoDev1 -First 1
 PS C:\> Get-AzureStorSimpleAccessControlRecord -ACRName acr1 | Start-AzureStorSimpleBackupCloneJob -SourceDeviceName ContosoDev1 -TargetDeviceName ContosoDev1 -BackupId $backup.InstanceId -Snapshot $backup.Snapshots[0] -CloneVolumeName "cloned_vol1" 
 VERBOSE: ClientRequestId: 1183a29d-63a9-408a-9065-032c92d317ee_PS
 VERBOSE: ClientRequestId: e195717c-5920-4133-bdf0-c1201ebabf6f_PS

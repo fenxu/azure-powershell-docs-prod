@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 13901193-8C68-4969-ADCD-2E82EA714354
 online version: 
 schema: 2.0.0
-updated_at: 11/18/2016 9:58 PM
-ms.date: 11/18/2016
+updated_at: 1/10/2017 8:05 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmVirtualNetworkPeering.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmVirtualNetworkPeering.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2247b36603f325b11bf6cc5cb27f5f58bfa2f0b9/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmVirtualNetworkPeering.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51009e6d95f4d0586cdd2345451b9e509be8767e/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmVirtualNetworkPeering.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -40,7 +40,7 @@ The **Add-AzureRmVirtualNetworkPeering** cmdlet creates a peering between two vi
 
 ### Example 1: Create a peering between two virtual networks
 ```
-PS C:\>$vnet1 = Get-AzureRmVirtualNetwork -ResourceGroupName "MyResourceGroup" -Name "vnet1"
+PS C:\> $vnet1 = Get-AzureRmVirtualNetwork -ResourceGroupName "MyResourceGroup" -Name "vnet1"
 PS C:\> $vnet2 = Get-AzureRmVirtualNetwork -ResourceGroupName "MyResourceGroup" -Name "vnet2"
 PS C:\> Add-AzureRmVirtualNetworkPeering -Name "LinkToVNet2" -VirtualNetwork "MyVirtualNetwork" -RemoteVirtualNetworkId $vnet2.id
 PS C:\> Add-AzureRmVirtualNetworkPeering -Name "LinkToVNet1" -VirtualNetwork "MyVirtualNetwork" -RemoteVirtualNetworkId $vnet1.id
@@ -222,5 +222,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmVirtualNetworkPeering](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkPeering.md)
 
 [Set-AzureRmVirtualNetworkPeering](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkPeering.md)
-
-

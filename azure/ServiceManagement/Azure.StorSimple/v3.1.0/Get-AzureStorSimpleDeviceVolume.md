@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 ms.assetid: 79EE846E-D5BE-4808-BC6F-E3B16A308AB0
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 8:06 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceVolume.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceVolume.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42a873a36748963f5f6496c41e9c5490d6e1bd81/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceVolume.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDeviceVolume.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -62,7 +62,7 @@ The returned object contains the following properties:
 
 ### Example 1: Get volumes in a specified container
 ```
-PS C:\>Get-AzureStorSimpleDeviceVolumeContainer -DeviceName "Contoso63-AppVm" -VolumeContainerName "Container03" | Get-AzureStorSimpleDeviceVolume -DeviceName "Contoso63-AppVm"
+PS C:\> Get-AzureStorSimpleDeviceVolumeContainer -DeviceName "Contoso63-AppVm" -VolumeContainerName "Container03" | Get-AzureStorSimpleDeviceVolume -DeviceName "Contoso63-AppVm"
 InstanceId             : BA-1503262017214433280-ade42af6-dabb-449d-b66b-4f5d06891d4c
 Name                   : Volume 1 Clone
 Online                 : True
@@ -109,7 +109,7 @@ That cmdlet gets all the volumes in that container for the device named Contoso6
 
 ### Example 2: Get a volume by using its name
 ```
-PS C:\>Get-AzureStorSimpleDeviceVolume -DeviceName "Contoso63-AppVm" -VolumeName "Volume18"
+PS C:\> Get-AzureStorSimpleDeviceVolume -DeviceName "Contoso63-AppVm" -VolumeName "Volume18"
 InstanceId             : SS-VOL-c75e9636-1dcf-43db-92df-3af1ecf3f18a
 Name                   : Volume18
 Online                 : True

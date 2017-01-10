@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: AF8CC409-2EA7-4EC1-86C9-E7A773DE9201
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 9:48 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayHttpListener.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayHttpListener.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayHttpListener.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c0fd83660f69ea874ddf8d07b989b3cce509386e/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayHttpListener.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -50,14 +50,14 @@ The **New-AzureRmApplicationGatewayHttpListener** cmdlet creates an HTTP listene
 
 ### Example 1: Create an HTTP listener
 ```
-PS C:\>$Listener = New-AzureRmApplicationGatewayHttpListener -Name "Listener01" -Protocol "Http" -FrontendIpConfiguration $FIp01 -FrontendPort $FP01
+PS C:\> $Listener = New-AzureRmApplicationGatewayHttpListener -Name "Listener01" -Protocol "Http" -FrontendIpConfiguration $FIp01 -FrontendPort $FP01
 ```
 
 This command creates an HTTP listener named Listener01 and stores the result in the variable named $Listener.
 
 ### Example 2: Create an HTTP listener with SSL
 ```
-PS C:\>$Listener = New-AzureRmApplicationGatewayHttpListener -Name "Listener01" -Protocol "Https" -FrontendIpConfiguration $FIp01 -FrontendPort $FP01 -SslCertificate $SSLCert01
+PS C:\> $Listener = New-AzureRmApplicationGatewayHttpListener -Name "Listener01" -Protocol "Https" -FrontendIpConfiguration $FIp01 -FrontendPort $FP01 -SslCertificate $SSLCert01
 ```
 
 This command creates an HTTP listener that uses SSL offload and provides the SSL certificate in the $SSLCert01 variable.
@@ -141,6 +141,8 @@ Accept wildcard characters: False
 ```
 
 ### -RequireServerNameIndication
+Specifies the server name indication.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -274,5 +276,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayHttpListener.md)
 
 [Set-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayHttpListener.md)
-
-

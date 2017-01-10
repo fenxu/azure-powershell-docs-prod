@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 ms.assetid: 28136DC3-520B-4134-8736-93D86EEABAE1
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 6:59 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Get-AzureTrafficManagerProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Get-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa9a583805f2cfda8b85c2ba2c8fcdca664a5f0f/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Get-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Get-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -15,7 +15,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: azure-powershell
 ---
 
@@ -39,21 +39,21 @@ If you do not specify the *Name* parameter, the cmdlet lists the Traffic Manager
 
 ### Example 1: Get the list of Traffic Manager profiles in a subscription
 ```
-PS C:\>Get-AzureTrafficManagerProfile
+PS C:\> Get-AzureTrafficManagerProfile
 ```
 
 This command gets the list of Traffic Manager profiles in your subscription.
 
 ### Example 2: Get a Traffic Manager profile
 ```
-PS C:\>Get-AzureTrafficManagerProfile -Name "MyProfile"
+PS C:\> Get-AzureTrafficManagerProfile -Name "MyProfile"
 ```
 
 This command gets the Traffic Manager profile named MyProfile.
 
 ### Example 3: Add an endpoint to a Traffic Manager profile
 ```
-PS C:\>Get-AzureTrafficManagerProfile -Name "MyProfile" | Add-AzureTrafficManagerEndpoint -DomainName "Myapp2.cloudapp.net" -TrafficManagerProfile $MyTrafficManagerProfile -Type "CloudService" -Status "Enabled" | Set-AzureTrafficManagerProfile
+PS C:\> Get-AzureTrafficManagerProfile -Name "MyProfile" | Add-AzureTrafficManagerEndpoint -DomainName "Myapp2.cloudapp.net" -TrafficManagerProfile $MyTrafficManagerProfile -Type "CloudService" -Status "Enabled" | Set-AzureTrafficManagerProfile
 ```
 
 This command adds an endpoint to a Traffic Manager profile, and then saves the profile.
