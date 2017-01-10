@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 92345716-095C-4AAA-93DC-AEED491A5E84
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:46 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseCopy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5a93ffeed580e8a3cca4c5cac3aefb5da20ba4ee/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabaseCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,7 +46,7 @@ Get-AzureSqlDatabaseCopy [-ServerName] <String> [-Database] <Database> [-Partner
 
 ## DESCRIPTION
 The **Get-AzureSqlDatabaseCopy** cmdlet checks the status of one or more active copy relationships.
-Run this cmdlet after you run the Start-AzureSqlDatabaseCopy or Stop-AzureSqlDatabaseCopy cmdlet.
+Run this cmdlet after you run the **Start-AzureSqlDatabaseCopy** or **Stop-AzureSqlDatabaseCopy** cmdlet.
 You can check a specific copy relationship, all copy relationships, or a filtered list of copy relationships, such as all copies on a specific target server.
 You can run this cmdlet on the server that hosts the source or target database.
 
@@ -61,15 +61,15 @@ To see the status for only a particular database, specify both parameters.
 
 ### Example 1: Get the copy status of a database
 ```
-PS C:\>Get-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y" -DatabaseName "Orders" -PartnerServer "bk0b8kf658"
+PS C:\> Get-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y" -DatabaseName "Orders" -PartnerServer "bk0b8kf658"
 ```
 
 This command gets the status of the database named Orders on the server named lpqd0zbr8y.
 The *PartnerServer* parameter restricts this command to the bk0b8kf658 server.
 
-### Example 2: Get the status of all copies on a serverGet the status of all copies on a server
+### Example 2: Get the status of all copies on a server
 ```
-PS C:\>Get-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y"
+PS C:\> Get-AzureSqlDatabaseCopy -ServerName "lpqd0zbr8y"
 ```
 
 This command gets the status of all active copies on the server named lpqd0zbr8y.
@@ -202,7 +202,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### Microsoft.WindowsAzure.Commands.SqlDatabase.Model.DatabaseCopy
 
 ## NOTES
-* Authentication: This cmdlet requires certificate-based authentication. For an example of how to use certificate-based authentication to set the current subscription, see the New-AzureSqlDatabaseServerContext cmdlet.
+* Authentication: This cmdlet requires certificate-based authentication. For an example of how to use certificate-based authentication to set the current subscription, see the **New-AzureSqlDatabaseServerContext** cmdlet.
 
 ## RELATED LINKS
 

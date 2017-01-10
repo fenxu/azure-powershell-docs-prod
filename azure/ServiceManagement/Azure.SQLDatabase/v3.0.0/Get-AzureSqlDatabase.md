@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D8DB0EEC-6CEC-4A14-8167-073EB16133FF
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:46 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabase.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5a93ffeed580e8a3cca4c5cac3aefb5da20ba4ee/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/Get-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,10 +49,10 @@ If you do not specify a database, the **Get-AzureSqlDatabase** cmdlet returns al
 
 Retrieving restorable dropped databases:
 
-Retrieve restorable dropped databases by using the *RestorableDropped* parameter.
-To return all restorable dropped databases use the *RestorableDropped* parameter without *DatabaseName* and *DatabaseDeletionDate*.
-To return a specific restorable dropped database use the *RestorableDropped* parameter with the *DatabaseName* and *DatabaseDeletionDate* parameters.
-When retrieving a specific restorable dropped database by using the *DatabaseName* parameter you must also include the *DatabaseDeletionDate* parameter and the specified *DatabaseDeletionDate* value must include milliseconds to match the desired database.
+- Retrieve restorable dropped databases by using the *RestorableDropped* parameter.
+- To return all restorable dropped databases use the *RestorableDropped* parameter without *DatabaseName* and *DatabaseDeletionDate*.
+- To return a specific restorable dropped database use the *RestorableDropped* parameter with the *DatabaseName* and *DatabaseDeletionDate* parameters.
+- When retrieving a specific restorable dropped database by using the *DatabaseName* parameter you must also include the *DatabaseDeletionDate* parameter and the specified *DatabaseDeletionDate* value must include milliseconds to match the desired database.
 
 The **Get-AzureSqlDatabase** cmdlet returns either all restorable dropped databases on a server, or one specific database that matches both *DatabaseName* and *DatabaseDeletionDate*.
 To return restorable dropped databases that satisfy different criteria, such as all restorable dropped databases of a specific name, you must return all restorable dropped databases, and then filter the results on the client.
@@ -61,28 +61,28 @@ To return restorable dropped databases that satisfy different criteria, such as 
 
 ### Example 1: Retrieve all databases on a server
 ```
-PS C:\>Get-AzureSqlDatabase -ServerName "lpqd0zbr8y"
+PS C:\> Get-AzureSqlDatabase -ServerName "lpqd0zbr8y"
 ```
 
 This command retrieves all databases on the server named lpqd0zbr8y.
 
 ### Example 2: Retrieve all restorable dropped databases on a server
 ```
-PS C:\>Get-AzureSqlDatabase -ServerName "lpqd0zbr8y" -RestorableDropped
+PS C:\> Get-AzureSqlDatabase -ServerName "lpqd0zbr8y" -RestorableDropped
 ```
 
 This command retrieves all restorable dropped databases on the server named lpqd0zbr8y.
 
 ### Example 3: Retrieve a database from a server specified by a connection context
 ```
-PS C:\>$Database01 = Get-AzureSqlDatabase -ConnectionContext $Context -DatabaseName "Database01"
+PS C:\> $Database01 = Get-AzureSqlDatabase -ConnectionContext $Context -DatabaseName "Database01"
 ```
 
 This command retrieves database named Database01 from the server specified by the connection context $Context.
 
 ### Example 4: Store a database object in a variable
 ```
-PS C:\>$Database01 = Get-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName "Database01"
+PS C:\> $Database01 = Get-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName "Database01"
 ```
 
 This command retrieves database named Database01 from the server named lpqd0zbr8y.
@@ -90,7 +90,7 @@ The command stores the database object in the $Database01 variable.
 
 ### Example 5: Retrieve a restorable dropped database
 ```
-PS C:\>$DroppedDB = Get-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName "Database01" -DatabaseDeletionDate "2012-11-09T22:59:43.000Z" -RestorableDropped
+PS C:\> $DroppedDB = Get-AzureSqlDatabase -ServerName "lpqd0zbr8y" -DatabaseName "Database01" -DatabaseDeletionDate "2012-11-09T22:59:43.000Z" -RestorableDropped
 ```
 
 This command retrieves the restorable dropped database named Database01 that was deleted on 11/9/2012 from the server named lpqd0zbr8y.
@@ -98,7 +98,7 @@ This command stores the results in the $DroppedDB variable.
 
 ### Example 6: Retrieve all restorable dropped databases on a server and filter the results
 ```
-PS C:\>Get-AzureSqlDatabase -ServerName "lpqd0zbr8y" -RestorableDropped | Where-Object {$_.Name -eq "ContactDB"}
+PS C:\> Get-AzureSqlDatabase -ServerName "lpqd0zbr8y" -RestorableDropped | Where-Object {$_.Name -eq "ContactDB"}
 ```
 
 This command retrieves all restorable dropped databases on the server named lpqd0zbr8y, and then filters the results to only the databases named ContactDB.
@@ -244,10 +244,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### IEnumerable<Microsoft.WindowsAzure.Commands.SqlDatabase.Services.Server.Database>
-This cmdlet returns a *Database* object if you do not specify the *RestorableDropped* parameter.
+This cmdlet returns a **Database** object if you do not specify the *RestorableDropped* parameter.
 
 ### IEnumerable<Microsoft.WindowsAzure.Commands.SqlDatabase.Services.Server.RestorableDroppedDatabase>
-This cmdlet returns a *RestorableDroppedDatabase* object if you specify the *RestorableDropped* parameter.
+This cmdlet returns a **RestorableDroppedDatabase** object if you specify the *RestorableDropped* parameter.
 
 ## NOTES
 

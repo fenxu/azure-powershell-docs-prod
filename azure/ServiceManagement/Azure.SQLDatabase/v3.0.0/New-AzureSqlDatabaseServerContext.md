@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 641D9BE5-281D-4E4C-9CF1-F908E8D0AD22
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:46 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/New-AzureSqlDatabaseServerContext.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/New-AzureSqlDatabaseServerContext.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/New-AzureSqlDatabaseServerContext.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5a93ffeed580e8a3cca4c5cac3aefb5da20ba4ee/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.0.0/New-AzureSqlDatabaseServerContext.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -65,13 +65,13 @@ To obtain a credential, use the Get-Credential cmdlet that prompts you to specif
 Use the **New-AzureSqlDatabaseServerContext** cmdlet with certificate based authentication to create a connection context to the specified SQL Database server by using the specified Azure subscription data.
 You can specify SQL Database server by name or by the fully qualified name.
 You can specify the subscription data as a parameter or it can be retrieved from the current Azure subscription.
-Use the Select-AzureSubscriptionhttp://msdn.microsoft.com/library/windowsazure/jj152833.aspx cmdlet to select the current Azure subscription.
+Use the [Select-AzureSubscription](http://msdn.microsoft.com/library/windowsazure/jj152833.aspx) (http://msdn.microsoft.com/library/windowsazure/jj152833.aspx) cmdlet to select the current Azure subscription.
 
 ## EXAMPLES
 
 ### Example 1: Create a context by using SQL Server authentication
 ```
-PS C:\>$Credential = Get-Credential
+PS C:\> $Credential = Get-Credential
 PS C:\> $Context = New-AzureSqlDatabaseServerContext -ServerName "lpqd0zbr8y" -Credential $Credential
 PS C:\> $Database17 = New-AzureSqlDatabase -ConnectionContext $Context -DatabaseName "Database17" -MaxSizeGB 50 -Collation "SQL_Latin1_General_CP1_CI_AS"
 ```
@@ -86,7 +86,7 @@ The final command creates a database named Database17 on the server that is part
 
 ### Example 2: Create a context by using certificate based authentication
 ```
-PS C:\>$SubscriptionId = <Subscription ID>
+PS C:\> $SubscriptionId = <Subscription ID>
 PS C:\> $Thumbprint = <Certificate Thumbprint>
 PS C:\> $Certificate = Get-Item "Cert:\CurrentUser\My\$Thumbprint"
 PS C:\> Set-AzureSubscription -SubscriptionName "Subscription07" -SubscriptionId $SubscriptionId -Certificate $Certificate
@@ -166,7 +166,7 @@ Accept wildcard characters: False
 ### -SubscriptionName
 Specifies the name of the Azure subscription that this cmdlet uses to create the connection context.
 If you do not specify a value for this parameter, the cmdlet uses the current subscription.
-Run the Select-AzureSubscription cmdlet to change the current subscription.
+Run the **Select-AzureSubscription** cmdlet to change the current subscription.
 
 ```yaml
 Type: String
@@ -239,8 +239,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 * If you authenticate without specifying a domain, and if you use Windows PowerShell 2.0, the Get-Credential cmdlet returns a backslash (\\) prepended to the username, for example, \user. Windows PowerShell 3.0 does not add the backslash. This backslash is not recognized by the *Credential* parameter of the **New-AzureSqlDatabaseServerContext** cmdlet. To remove it, use commands similar to the following:
 
-  `PS C:\\\> $Credential = Get-Credential`
-`PS C:\\\> $Credential = New-Object -TypeName 'System.Management.Automation.PSCredential' -ArgumentList $Credential.Username.Replace("\",""),$Credential.Password`
+PS C:\\\> $Credential = Get-Credential
+
+PS C:\\\> $Credential = New-Object -TypeName 'System.Management.Automation.PSCredential' -ArgumentList $Credential.Username.Replace("\",""),$Credential.Password
 
 ## RELATED LINKS
 
