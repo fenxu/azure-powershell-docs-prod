@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 ms.assetid: 2287E103-442D-47FB-8279-0AE5936412C9
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 6:59 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/New-AzureTrafficManagerProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/New-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa9a583805f2cfda8b85c2ba2c8fcdca664a5f0f/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/New-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/New-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,14 +43,14 @@ For more information, see Example 2 below.
 
 ### Example 1: Create a Traffic Manager profile
 ```
-PS C:\>New-AzureTrafficManagerProfile -Name "MyProfile" -DomainName "My.profile.trafficmanager.net" -LoadBalancingMethod "RoundRobin" -Ttl 30 -MonitorProtocol "Http" -MonitorPort 80 -MonitorRelativePath "/"
+PS C:\> New-AzureTrafficManagerProfile -Name "MyProfile" -DomainName "My.profile.trafficmanager.net" -LoadBalancingMethod "RoundRobin" -Ttl 30 -MonitorProtocol "Http" -MonitorPort 80 -MonitorRelativePath "/"
 ```
 
 This command creates a Traffic Manager profile named MyProfile in the specified Traffic Manager domain with a Round Robin load balancing method, a TTL of 30 seconds, HTTP monitoring protocol, monitoring port 80, and with the specified path.
 
 ### Example 2: Reorder endpoints to desired failover order
 ```
-PS C:\>$Profile = Get-AzureTrafficManagerProfile -Name "MyProfile"
+PS C:\> $Profile = Get-AzureTrafficManagerProfile -Name "MyProfile"
 PS C:\> $Profile.Endpoints[0],$Profile.Endpoints[1] = $Profile.Endpoints[1],$Profile.Endpoints[0]
 PS C:\> $Profile = Set-AzureTrafficManagerProfile
 ```

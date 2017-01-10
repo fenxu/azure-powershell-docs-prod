@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 42C669B6-B621-454C-B897-262E1C8E76E3
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageQueueSASToken.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageQueueSASToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageQueueSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageQueueSASToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,7 +49,7 @@ The **New-AzureStorageQueueSASToken** cmdlet generates shared access signature t
 
 ### Example 1: Generate a queue SAS token with full permission
 ```
-PS C:\>New-AzureStorageQueueSASToken -Name "Test" -Permission raup
+PS C:\> New-AzureStorageQueueSASToken -Name "Test" -Permission raup
 ```
 
 This example generates a queue SAS token with full permission.

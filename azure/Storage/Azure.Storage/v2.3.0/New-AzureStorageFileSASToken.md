@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: BB139312-A536-4B61-A005-6CAF02BE1637
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageFileSASToken.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageFileSASToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageFileSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageFileSASToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -75,7 +75,7 @@ PS C:\> $EndTime = $StartTime.AddHours(2.0)
 PS C:\> New-AzureStorageFileSASToken -ShareName "ContosoShare" -Path "FilePath" -Permission "rwd" -StartTime $StartTime -ExpiryTime $EndTime
 ```
 
-The first command creates a **DateTime** object by using the Get-Date cmdlet.
+The first command creates a **DateTime** object by using the **Get-Date** cmdlet.
 The command stores the current time in the $StartTime variable.
 
 The second command adds two hours to the object in $StartTime, and then stores the result in the $EndTime variable.
@@ -215,7 +215,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies an Azure Storage context.
-To obtain a context, use the New-AzureStorageContext cmdlet.
+To obtain a context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext
@@ -285,7 +285,7 @@ Accept wildcard characters: False
 
 ### -File
 Specifies a **CloudFile** object.
-You can create a cloud file or obtain one by using the Get-AzureStorageFile cmdlet.
+You can create a cloud file or obtain one by using the **Get-AzureStorageFile** cmdlet.
 
 ```yaml
 Type: CloudFile

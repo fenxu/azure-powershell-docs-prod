@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 90C3DF13-0010-49B6-A8CD-C6AC34BC3EFA
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageContainer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,14 +49,14 @@ The **Get-AzureStorageContainer** cmdlet lists the storage containers associated
 
 ### Example 1: Get Azure Storage blob by name
 ```
-PS C:\>Get-AzureStorageContainer -Name container*
+PS C:\> Get-AzureStorageContainer -Name container*
 ```
 
 This example uses a wildcard character to return a list of all containers with a name that starts with container.
 
 ### Example 2: Get Azure Storage container by container name prefix
 ```
-PS C:\>Get-AzureStorageContainer -Prefix "container"
+PS C:\> Get-AzureStorageContainer -Prefix "container"
 ```
 
 This example uses the *Prefix* parameter to return a list of all containers with a name that starts with container.
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies the storage context.
-To create it, you can use the New-AzureStorageContext cmdlet.
+To create it, you can use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext

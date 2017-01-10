@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
 ms.assetid: 22B63259-799B-4F25-A06B-7A818D295870
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 4:02 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Reset-AzureRmServerManagementGatewayProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Reset-AzureRmServerManagementGatewayProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Reset-AzureRmServerManagementGatewayProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bf9d765043905923ff550c2c280499b4acb9eed6/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.3.0/Reset-AzureRmServerManagementGatewayProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -41,14 +41,10 @@ Reset-AzureRmServerManagementGatewayProfile [-Gateway] <Gateway> [-InformationAc
 ## DESCRIPTION
 The **Reset-AzureRmServerManagementGatewayProfile** cmdlet resets the profile for an Azure Server Management Gateway.
 
-You will need to use the Save-AzureRmServerManagementGatewayProfile cmdlet to download the profile and then the Install-AzureRmServerManagementGatewayProfile cmdlet to save it after you reset the profile.
+You will need to use the **Save-AzureRmServerManagementGatewayProfile** cmdlet to download the profile and then the **Install-AzureRmServerManagementGatewayProfile** cmdlet to save it after you reset the profile.
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -124,7 +120,7 @@ Accept wildcard characters: False
 ### -Gateway
 Specifies the gateway for which the cmdlet resets the profile for.
 
-May be specified instead of ResourceGoupName and GatewayName
+May be specified instead of *ResourceGoupName* and *GatewayName*.
 
 ```yaml
 Type: Gateway

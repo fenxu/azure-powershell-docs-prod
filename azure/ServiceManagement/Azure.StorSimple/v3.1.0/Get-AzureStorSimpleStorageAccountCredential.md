@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 ms.assetid: BF054CA4-B0A4-4BFC-A657-92A0D3ABBCB5
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 8:06 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleStorageAccountCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleStorageAccountCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42a873a36748963f5f6496c41e9c5490d6e1bd81/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleStorageAccountCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleStorageAccountCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ This cmdlet gets all **StorageAccountCredential** objects configured in the serv
 
 ### Example 1: Get all credentials for a resource
 ```
-PS C:\>Get-AzureStorSimpleStorageAccountCredential
+PS C:\> Get-AzureStorSimpleStorageAccountCredential
 InstanceId                           Login           Name            UseSSL VolumeCount     CloudType    Location
 ----------                           -----           ----            ------ -----------     ---------    --------
 b5e0857f-82ef-4426-883b-a612889ebee4 qwertyuiopa     AdminAccount    True   24              Azure
@@ -49,7 +49,7 @@ This command gets all available credentials for storage accounts for the current
 
 ### Example 2: Get the credential for a specific storage account
 ```
-PS C:\>Get-AzureStorSimpleStorageAccountCredential -StorageAccountName "ContosoCloudStorage"
+PS C:\> Get-AzureStorSimpleStorageAccountCredential -StorageAccountName "ContosoCloudStorage"
 VERBOSE: ClientRequestId: 16551af6-3398-4d30-a389-1b8eb01ce92c_PS
 VERBOSE: ClientRequestId: 5041277d-4044-4b6c-ae19-4ea9e7ae135a_PS
 VERBOSE: Storage Access Credential with name ContosoCloudStorage found! 

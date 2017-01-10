@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: F20A5FD3-6EC3-4EFE-988C-75F8583961A4
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageBlobContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageBlobContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageBlobContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Set-AzureStorageBlobContent.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -60,14 +60,14 @@ The **Set-AzureStorageBlobContent** cmdlet uploads a local file to an Azure Stor
 
 ### Example 1: Upload a named file
 ```
-PS C:\>Set-AzureStorageBlobContent -Container "ContosoUpload" -File ".\PlanningData" -Blob "Planning2015"
+PS C:\> Set-AzureStorageBlobContent -Container "ContosoUpload" -File ".\PlanningData" -Blob "Planning2015"
 ```
 
 This command uploads the file that is named PlanningData to a blob named Planning2015.
 
 ### Example 2: Upload all files under the current folder
 ```
-PS C:\>Get-ChildItem -File -Recurse | Set-AzureStorageBlobContent -Container "ContosoUploads"
+PS C:\> Get-ChildItem -File -Recurse | Set-AzureStorageBlobContent -Container "ContosoUploads"
 ```
 
 This command uses the core Windows PowerShell cmdlet Get-ChildItem to get all the files in the current folder and in subfolders, and then passes them to the current cmdlet by using the pipeline operator.
@@ -75,7 +75,7 @@ The **Set-AzureStorageBlobContent** cmdlet uploads the files to the container na
 
 ### Example 3: Overwrite an existing blob
 ```
-PS C:\>Get-AzureStorageBlob -Container "ContosoUploads" -Blob "Planning2015" | Set-AzureStorageBlobContent -File "ContosoPlanning"
+PS C:\> Get-AzureStorageBlob -Container "ContosoUploads" -Blob "Planning2015" | Set-AzureStorageBlobContent -File "ContosoPlanning"
 ```
 
 This command gets the blob named Planning2015 in the ContosoUploads container by using the Get-AzureStorageBlob cmdlet, and then passes that blob to the current cmdlet.
@@ -86,7 +86,7 @@ If you confirm the command, the cmdlet overwrites the existing blob.
 
 ### Example 4: Upload a file to a container by using the pipeline
 ```
-PS C:\>Get-AzureStorageContainer -Container "ContosoUpload*" | Set-AzureStorageBlobContent -File "ContosoPlanning" -Blob "Planning2015"
+PS C:\> Get-AzureStorageContainer -Container "ContosoUpload*" | Set-AzureStorageBlobContent -File "ContosoPlanning" -Blob "Planning2015"
 ```
 
 This command gets the container that starts with the string ContosoUpload by using the **Get-AzureStorageContainer** cmdlet, and then passes that blob to the current cmdlet.
@@ -94,7 +94,7 @@ The command uploads the file that is named ContosoPlanning as Planning2015.
 
 ### Example 5: Upload a file and metadata
 ```
-PS C:\>$Metadata = @{"key" = "value"; "name" = "test"}
+PS C:\> $Metadata = @{"key" = "value"; "name" = "test"}
 PS C:\> Set-AzureStorageBlobContent -File "ContosoPlanning" -Container "ContosoUploads" -Metadata $Metadata
 ```
 
@@ -232,7 +232,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies an Azure storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+To obtain a storage context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext

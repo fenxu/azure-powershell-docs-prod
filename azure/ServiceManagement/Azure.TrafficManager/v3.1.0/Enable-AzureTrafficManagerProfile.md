@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 ms.assetid: 51A1B699-03F6-4BB9-9186-FDFFB094F16A
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 6:59 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Enable-AzureTrafficManagerProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Enable-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa9a583805f2cfda8b85c2ba2c8fcdca664a5f0f/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Enable-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Enable-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,14 +39,14 @@ Specify the *PassThru* parameter to display whether the operation succeeds.
 
 ### Example 1: Enable a Traffic Manager profile
 ```
-PS C:\>Enable-AzureTrafficManagerProfile -Name "MyProfile"
+PS C:\> Enable-AzureTrafficManagerProfile -Name "MyProfile"
 ```
 
 This command enables the Traffic Manager profile named MyProfile.
 
 ### Example 2: Enable a Traffic Manager profile and display the results
 ```
-PS C:\>Enable-AzureTrafficManagerProfile -Name "MyProfile" -PassThru
+PS C:\> Enable-AzureTrafficManagerProfile -Name "MyProfile" -PassThru
 True
 ```
 

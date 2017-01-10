@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 ms.assetid: ECE9C2A6-7DA2-4477-B877-9970FBE26D7C
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 6:59 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Disable-AzureTrafficManagerProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Disable-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa9a583805f2cfda8b85c2ba2c8fcdca664a5f0f/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Disable-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.1.0/Disable-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ You can use the *PassThru* parameter to display whether the operation succeeds.
 
 ### Example 1: Disable a Traffic Manager profile and display the results
 ```
-PS C:\>Disable-AzureTrafficManagerProfile -Name "MyProfile" -PassThru
+PS C:\> Disable-AzureTrafficManagerProfile -Name "MyProfile" -PassThru
 True
 ```
 
@@ -48,7 +48,7 @@ The command specifies the *PassThru* parameter to display whether the command su
 
 ### Example 2: Disable a Traffic Manager profile and display no results
 ```
-PS C:\>Disable-AzureTrafficManagerProfile -Name "MyProfile"
+PS C:\> Disable-AzureTrafficManagerProfile -Name "MyProfile"
 ```
 
 This command disables the Traffic Manager profile named MyProfile but does not display whether the command succeeded.

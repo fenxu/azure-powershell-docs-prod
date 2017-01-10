@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: E54BFD3A-CD54-4E6B-9574-92B8D3E88FF3
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageBlob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageBlob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageBlob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageBlob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -51,28 +51,28 @@ The **Get-AzureStorageBlob** cmdlet lists blobs in the specified container in an
 
 ### Example 1: Get a blob by blob name
 ```
-PS C:\>Get-AzureStorageBlob -Container "ContainerName" -Blob blob*
+PS C:\> Get-AzureStorageBlob -Container "ContainerName" -Blob blob*
 ```
 
 This command uses a blob name and wildcard to get a blob.
 
 ### Example 2: Get a blob by using the pipeline
 ```
-PS C:\>Get-AzureStorageContainer -Name container* | Get-AzureStorageBlob
+PS C:\> Get-AzureStorageContainer -Name container* | Get-AzureStorageBlob
 ```
 
 This command uses the pipeline to get a blob.
 
 ### Example 3: Get a blob by name prefix
 ```
-PS C:\>Get-AzureStorageBlob -Container "ContainerName" -Prefix "blob"
+PS C:\> Get-AzureStorageBlob -Container "ContainerName" -Prefix "blob"
 ```
 
 This command uses a name prefix to get a blob.
 
 ### Example 4: List blobs in multiple batches
 ```
-PS C:\>$MaxReturn = 10000
+PS C:\> $MaxReturn = 10000
 PS C:\> $ContainerName = "abc"
 PS C:\> $Total = 0
 PS C:\> $Token = $Null
@@ -164,7 +164,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies the Azure storage account from which you want to get a list of blobs.
-You can use the New-AzureStorageContext cmdlet to create a storage context.
+You can use the **New-AzureStorageContext** cmdlet to create a storage context.
 
 ```yaml
 Type: AzureStorageContext

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: BF5526C1-11B9-47A8-A5A6-CB275B470A9E
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageTableStoredAccessPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageTableStoredAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageTableStoredAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageTableStoredAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,14 +39,14 @@ The **Get-AzureStorageTableStoredAccessPolicy** cmdlet lists the stored access p
 
 ### Example 1: Get a stored access policy in a storage table
 ```
-PS C:\>Get-AzureStorageTableStoredAccessPolicy -Table "Table02" -Policy "Policy50"
+PS C:\> Get-AzureStorageTableStoredAccessPolicy -Table "Table02" -Policy "Policy50"
 ```
 
 This command gets the access policy named Policy50 in the storage table named Table02.
 
 ### Example 2: Get all stored access policies in a storage table
 ```
-PS C:\>Get-AzureStorageTableStoredAccessPolicy -Table "Table02"
+PS C:\> Get-AzureStorageTableStoredAccessPolicy -Table "Table02"
 ```
 
 This command gets all access policies in the table named Table02.
@@ -85,7 +85,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies the Azure storage context.
-To obtain a storage context, use the New-AzureStorageContext cmdlet.
+To obtain a storage context, use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext

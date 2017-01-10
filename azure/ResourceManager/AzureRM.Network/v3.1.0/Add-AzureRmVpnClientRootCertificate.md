@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: B9153CA9-06D1-4EF3-9863-D649C2EBAEAA
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:05 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmVpnClientRootCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmVpnClientRootCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmVpnClientRootCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51009e6d95f4d0586cdd2345451b9e509be8767e/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmVpnClientRootCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,7 +48,7 @@ Multiple root certificates are often deployed by organizations that include user
 
 ### Example 1: Add a client root certificate to a virtual gateway
 ```
-PS C:\>$Text = Get-Content -Path "C:\Azure\Certificates\ExportedCertficate.cer"
+PS C:\> $Text = Get-Content -Path "C:\Azure\Certificates\ExportedCertficate.cer"
 PS C:\> $CertificateText = for ($i=1; $i -lt $Text.Length -1 ; $i++){$Text[$i]}
 PS C:\> Add-AzureRmVpnClientRootCertificate -PublicCertData $CertificateText -ResourceGroupName "ContosoResourceGroup" -VirtualNetworkGatewayName "ContosoVirtualGateway" -VpnClientRootCertificateName "ContosoClientRootCertificate"
 ```
@@ -191,5 +191,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVpnClientRootCertificate.md)
 
 [Remove-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVpnClientRootCertificate.md)
-
-

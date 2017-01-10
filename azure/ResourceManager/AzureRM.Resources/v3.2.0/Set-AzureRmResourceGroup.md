@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: B13521A5-BAC5-4FE3-AC3E-3299148DC9AA
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 9:52 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Set-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Set-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Set-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4f60f66b5229674cbde5c80b99ac704ad8318378/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.2.0/Set-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,14 +47,14 @@ You cannot use this cmdlet to change the name of a resource group.
 
 ### Example 1: Apply a tag to a resource group
 ```
-PS C:\>Set-AzureRmResourceGroup -Name "ContosoRG" -Tag @{Name="Department";Value="IT"}
+PS C:\> Set-AzureRmResourceGroup -Name "ContosoRG" -Tag @{Name="Department";Value="IT"}
 ```
 
 This command applies a Department tag with a value of IT to a resource group that has no existing tags.
 
 ### Example 2: Add tags to a resource group
 ```
-PS C:\>$Tags = (Get-AzureRmResourceGroup -Name "ContosoRG").Tags
+PS C:\> $Tags = (Get-AzureRmResourceGroup -Name "ContosoRG").Tags
 PS C:\> $Tags
 PS C:\> $Tags += @{Name="Status";Value="Approved"}, @{Name="FY2016"}
 PS C:\> Set-AzureRmResourceGroup -Name "ContosoRG" -Tag $Tags
@@ -78,7 +78,7 @@ The output shows that the resource group has the Department tag and the two new 
 
 ### Example 3: Delete all tags for a resource group
 ```
-PS C:\>Set-AzureRmResourceGroup -Name "ContosoRG" -Tag @{}
+PS C:\> Set-AzureRmResourceGroup -Name "ContosoRG" -Tag @{}
 ```
 
 This command specifies the *Tag* parameter with an empty hash table value to delete all tags from the ContosoRG resource group.
@@ -120,7 +120,7 @@ Specifies a hash table of tags.
 To add or change a tag, you must replace the collection of tags for the resource group.
 
 A tag is a name-value pair that you can create and apply to resources and resource groups.
-After you assign tags to resources and groups, you can use the *Tag* parameter of Get-AzureRmResource and Get-AzureRmResourceGroup to search for resources and groups by tag name or name and value.
+After you assign tags to resources and groups, you can use the *Tag* parameter of **Get-AzureRmResource** and **Get-AzureRmResourceGroup** to search for resources and groups by tag name or name and value.
 You can use tags to categorize your resources, such as by department or cost center, or to track notes or comments about the resources.
 
 Each tag must have a Name key.

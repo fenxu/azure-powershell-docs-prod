@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 ms.assetid: E771D1F2-A06B-44BB-AAFF-9459DC6303E6
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 8:29 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Select-AzureStorSimpleResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Select-AzureStorSimpleResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/be22656268e808c652b1f323c99768fd1c714d32/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Select-AzureStorSimpleResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Select-AzureStorSimpleResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ After you select a resource, other cmdlets apply within that resource context.
 
 ### Example 1: Select a resource for the first time
 ```
-PS C:\>Select-AzureStorSimpleResource -ResourceName "Contoso64-Tsqa" -RegistrationKey "<your registration key>"
+PS C:\> Select-AzureStorSimpleResource -ResourceName "Contoso64-Tsqa" -RegistrationKey "<your registration key>"
 ResourceId           ResourceName
 ----------           ------------
 1909806764156522689  Contoso64-Tsqa
@@ -52,20 +52,20 @@ In this example, the computer has not had this context initialized previously, a
 ### Example 2: Attempt to select a resource
 ```
 This command gets the current context for this computer by using the **Get-AzureStorSimpleResourceContext** cmdlet. The current selected resource is Contoso64-Tsqa. This is consistent with the previous example. 
-PS C:\>Get-AzureStorSimpleResourceContext
+PS C:\> Get-AzureStorSimpleResourceContext
 ResourceId           ResourceName
 ----------           ------------
 1909806764156522689  Contoso64-Tsqa 
 
 This command attempts to reset the resource to be Contoso02-Resource. For this example, this resource has not been previously selected. The registration key is not saved or included in the command. The command cannot select the resource. 
-PS C:\>Select-AzureStorSimpleResource -ResourceName "Contoso02-Resource"
+PS C:\> Select-AzureStorSimpleResource -ResourceName "Contoso02-Resource"
 Select-AzureStorSimpleResource : Could not find the persisted secret. Please use Select-AzureStorSimpleResource and
 provide the Registration key once again.
 ```
 
 ### Example 3: Select a previously selected resource
 ```
-PS C:\>Select-AzureStorSimpleResource -ResourceName "Contoso64-Tsqa"
+PS C:\> Select-AzureStorSimpleResource -ResourceName "Contoso64-Tsqa"
 ResourceId           ResourceName
 ----------           ------------
 1909806764156522689  Contoso64-Tsqa

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 614B0634-154A-449A-83E7-051DEF5A3BEE
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 8:05 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmLoadBalancerInboundNatPoolConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmLoadBalancerInboundNatPoolConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmLoadBalancerInboundNatPoolConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51009e6d95f4d0586cdd2345451b9e509be8767e/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmLoadBalancerInboundNatPoolConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmLoadBalancerInboundNatPoolConfig
 
 ## SYNOPSIS
+Gets an inbound NAT pool configuration for a load balancer.
 
 ## SYNTAX
 
@@ -31,17 +32,15 @@ Get-AzureRmLoadBalancerInboundNatPoolConfig [-Name <String>] -LoadBalancer <PSLo
 ```
 
 ## DESCRIPTION
+The **Get-AzureRmLoadBalancerInboundNatPoolConfig** cmdlet gets an inbound NAT pool configuration for a load balancer.
 
 ## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 
 ### -Name
+Specifies the name of the inbound NAT pool configuration to get.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -55,6 +54,8 @@ Accept wildcard characters: False
 ```
 
 ### -LoadBalancer
+Specifies the load balancer that is associated with the inbound NAT pool configuration to get.
+
 ```yaml
 Type: PSLoadBalancer
 Parameter Sets: (All)
@@ -117,3 +118,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmLoadBalancerInboundNatRuleConfig](./Get-AzureRmLoadBalancerInboundNatRuleConfig)

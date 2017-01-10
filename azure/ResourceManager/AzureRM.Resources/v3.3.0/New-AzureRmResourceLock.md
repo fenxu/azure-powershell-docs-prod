@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 6847ECFD-2E3D-46F6-ABE9-9D8E08C7858F
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/9/2017 7:56 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResourceLock.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResourceLock.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResourceLock.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5988bf32e3ff01c5800597ecc3a6ae8a6be33061/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResourceLock.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -85,7 +85,7 @@ The **New-AzureRmResourceLock** cmdlet creates a resource lock.
 
 ### Example 1: Create a resource lock on a website
 ```
-PS C:\>New-AzureRmResourceLock -LockLevel CanNotDelete -LockNotes "My lock notes" -LockName "ContosoSiteLock" -ResourceName "ContosoSite" -ResourceType "microsoft.web/sites"
+PS C:\> New-AzureRmResourceLock -LockLevel CanNotDelete -LockNotes "My lock notes" -LockName "ContosoSiteLock" -ResourceName "ContosoSite" -ResourceType "microsoft.web/sites"
 ```
 
 This command creates a resource lock on a website.
@@ -291,11 +291,11 @@ Accept wildcard characters: False
 Specifies the scope to which the lock applies.
 For instance, to specify a database, use the following format: 
 
-`/subscriptions/`subscription ID`/resourceGroups/`resource group name`/providers/Microsoft.Sql/servers/`server name`/databases/`database name
+`/subscriptions/<subscription ID>/resourceGroups/<resource group name>/providers/Microsoft.Sql/servers/<server name>/databases/<database name>`
 
 To specify a resource group, use the following format: 
 
-`/subscriptions/`subscription ID`/resourceGroups/`resource group name
+`/subscriptions/<subscription ID>/resourceGroups/<resource group name>`
 
 ```yaml
 Type: String

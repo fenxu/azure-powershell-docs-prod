@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 0ED1CB37-4D44-4385-A6D8-68000E0E25F6
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 6:53 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleDeviceBackup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleDeviceBackup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleDeviceBackup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2aa2c6b171a81049ff40feeada5894cd7badff85/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Get-AzureStorSimpleDeviceBackup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -69,7 +69,8 @@ It returns the next 50 results after the 100 that it skips.
 
 ### Example 1: Get all backups on a device
 ```
-PS C:\>Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm"
+PS C:\> Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm"
+
 InstanceId                           Name                               Type          BackupJobCreationType              CreatedOn                          SizeInBytes                       Snapshots                         SSMHostName                      
 ----------                           ----                               ----          ---------------------              ---------                          -----------                       ---------                         -----------                      
 85074062-ef6a-408a-b6c9-2a0904bb99ca Snapshot_vg-all                    LocalSnapshot BySchedule                         4/15/2015 1:30:02 PM               9375913607168                     {Volume 1, Volume 4, Volume 3,                                     
@@ -89,7 +90,8 @@ If there are more than the maximum of 100 backups allowed for the first page, us
 
 ### Example 2: Get backups created between two dates
 ```
-PS C:\>Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -From "9/7/2014" -To "10/7/2014" -First 2 -Skip 1
+PS C:\> Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -From "9/7/2014" -To "10/7/2014" -First 2 -Skip 1
+
 BackupJobCreationType : BySchedule
 CreatedOn             : 10/5/2014 11:00:04 AM
 SizeInBytes           : 10737418240
@@ -116,7 +118,8 @@ Modify values for *First* and *Skip* to view other results.
 
 ### Example 3: Get backups for a backup policy ID
 ```
-PS C:\>Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -BackupPolicyId "de088eac-b283-4d92-b501-a759845fdf3f" -First 10 -From "9/7/2014"
+PS C:\> Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -BackupPolicyId "de088eac-b283-4d92-b501-a759845fdf3f" -First 10 -From "9/7/2014"
+
 BackupJobCreationType : BySchedule
 CreatedOn             : 10/1/2014 11:00:12 AM
 SizeInBytes           : 10737418240
@@ -146,7 +149,8 @@ This command specifies the *First* parameter, so it returns only the first 10 re
 
 ### Example 4: Get backups for a backup policy object
 ```
-PS C:\>Get-AzureStorSimpleDeviceBackupPolicy -DeviceName "Contoso63-AppVm" -BackupPolicyName "TSQATest_Default" | Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -First 10 -From "9/7/2014"
+PS C:\> Get-AzureStorSimpleDeviceBackupPolicy -DeviceName "Contoso63-AppVm" -BackupPolicyName "TSQATest_Default" | Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -First 10 -From "9/7/2014"
+
 BackupJobCreationType : BySchedule
 CreatedOn             : 10/1/2014 11:00:12 AM
 SizeInBytes           : 10737418240
@@ -177,7 +181,8 @@ This command returns only the first 10 results.
 
 ### Example 5: Get a backup for a volume ID
 ```
-PS C:\>Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -VolumeId "SS-VOL-246b9df1-11bb-4071-8043-f955cc406446" -First 1
+PS C:\> Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -VolumeId "SS-VOL-246b9df1-11bb-4071-8043-f955cc406446" -First 1
+
 BackupJobCreationType : BySchedule
 CreatedOn             : 10/9/2014 11:00:10 AM
 SizeInBytes           : 10737418240
@@ -196,7 +201,8 @@ This command specifies the *First* parameter, so it returns only the first one r
 
 ### Example 6: Get a backup for a volume name
 ```
-PS C:\>Get-AzureStorSimpleDeviceVolume -DeviceName "Contoso63-AppVm" -VolumeName "TSQATest03" | Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -First 1
+PS C:\> Get-AzureStorSimpleDeviceVolume -DeviceName "Contoso63-AppVm" -VolumeName "TSQATest03" | Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -First 1
+
 BackupJobCreationType : BySchedule
 CreatedOn             : 10/9/2014 11:00:10 AM
 SizeInBytes           : 10737418240

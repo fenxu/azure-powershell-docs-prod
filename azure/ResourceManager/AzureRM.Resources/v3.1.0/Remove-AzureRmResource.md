@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: 5CC7A6D3-8B23-427F-985E-9BBB11EE4226
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/9/2017 11:25 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Remove-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Remove-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Remove-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/909020b7dbd03ec23a61b4fe16ccd2762277084c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Remove-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -53,7 +53,7 @@ The **Remove-AzureRmResource** cmdlet removes an Azure resource.
 
 ### Example 1: Remove a website resource
 ```
-PS C:\>Remove-AzureRmResource -ResourceId "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/ResourceGroup11/providers/Microsoft.Web/sites/ContosoSite" -Force
+PS C:\> Remove-AzureRmResource -ResourceId "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/ResourceGroup11/providers/Microsoft.Web/sites/ContosoSite" -Force
 ```
 
 This command removes the website resource named ContosoSite.
@@ -162,7 +162,7 @@ Accept wildcard characters: False
 Specifies the name of an extension resource of the resource that this cmdlet removes.
 For instance, to specify a database, use the following format: 
 
-server name`/`database name
+`server name/database name`
 
 ```yaml
 Type: String
@@ -230,7 +230,7 @@ Accept wildcard characters: False
 Specifies the fully qualified resource ID of the resource that this cmdlet removes.
 The ID includes the subscription, as in the following example: 
 
-`/subscriptions/`subscription ID`/providers/Microsoft.Sql/servers/ContosoServer/databases/ContosoDatabase`
+`/subscriptions/<subscription ID>/providers/Microsoft.Sql/servers/ContosoServer/databases/ContosoDatabase`
 
 ```yaml
 Type: String

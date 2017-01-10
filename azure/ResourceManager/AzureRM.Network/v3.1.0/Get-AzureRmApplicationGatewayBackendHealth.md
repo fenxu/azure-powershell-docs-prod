@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: D5E928C3-26B6-4B7C-8A9C-F1F602BABF75
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 1/10/2017 8:05 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmApplicationGatewayBackendHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmApplicationGatewayBackendHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmApplicationGatewayBackendHealth.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51009e6d95f4d0586cdd2345451b9e509be8767e/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmApplicationGatewayBackendHealth.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -32,24 +32,22 @@ Get-AzureRmApplicationGatewayBackendHealth -Name <String> -ResourceGroupName <St
 ```
 
 ## DESCRIPTION
-The Get-AzureRmApplicationGatewayBackendHealth cmdlet gets application gateway backend health.
+The **Get-AzureRmApplicationGatewayBackendHealth** cmdlet gets application gateway backend health.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Gets backend health without expanded resources.  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Get a backend health without expanded resources
 
 ```
-PS C:\>$BackendHealth = Get-AzureRmApplicationGatewayBackendHealth -Name ApplicationGateway01 -ResourceGroupName ResourceGroup01
+PS C:\> $BackendHealth = Get-AzureRmApplicationGatewayBackendHealth -Name ApplicationGateway01 -ResourceGroupName ResourceGroup01
 ```
 
 This command gets the backend health of application gateway named ApplicationGateway01 that belongs to the resource group named ResourceGroup01 and stores it in the $BackendHealth variable.
 
-### --------------------------  Example 1: Gets backend health with expanded resources.  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Gets backend health with expanded resources
 
 ```
-PS C:\>$BackendHealth = Get-AzureRmApplicationGatewayBackendHealth -Name ApplicationGateway01 -ResourceGroupName ResourceGroup01 -ExpandResource "backendhealth/applicationgatewayresource"
+PS C:\> $BackendHealth = Get-AzureRmApplicationGatewayBackendHealth -Name ApplicationGateway01 -ResourceGroupName ResourceGroup01 -ExpandResource "backendhealth/applicationgatewayresource"
 ```
 
 This command gets the backend health (with expanded resources) of application gateway named ApplicationGateway01 that belongs to the resource group named ResourceGroup01 and stores it in the $BackendHealth variable.
@@ -87,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -ExpandResource
-
+Specifies the name of the resource that is expanded.
 
 ```yaml
 Type: String
@@ -115,4 +113,3 @@ Keywords: azure, azurerm, arm, resource, management, manager, network, networkin
 ## RELATED LINKS
 
 [Get-AzureRmApplicationGateway]()
-

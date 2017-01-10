@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 ms.assetid: F73A078E-F9F2-4520-BF55-DFFE82BE4466
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Remove-AzureSqlDatabaseServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Remove-AzureSqlDatabaseServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Remove-AzureSqlDatabaseServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v3.1.0/Remove-AzureSqlDatabaseServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ This cmdlet deletes all databases on the server.
 
 ### Example 1: Remove a database server
 ```
-PS C:\>Remove-AzureSqlDatabaseServer -ServerName "lpqd0zbr8y"
+PS C:\> Remove-AzureSqlDatabaseServer -ServerName "lpqd0zbr8y"
 ```
 
 This command removes the Azure SQL Database server named lpqd0zbr8y.

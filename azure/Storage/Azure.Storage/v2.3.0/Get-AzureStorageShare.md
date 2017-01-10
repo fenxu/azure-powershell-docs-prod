@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: FD3A0013-4365-4E65-891C-5C50A9D5658C
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageShare.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageShare.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageShare.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageShare.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,21 +47,21 @@ The **Get-AzureStorageShare** cmdlet gets a list of file shares for a storage ac
 
 ### Example 1: Get a file share
 ```
-PS C:\>Get-AzureStorageShare -Name "ContosoShare06"
+PS C:\> Get-AzureStorageShare -Name "ContosoShare06"
 ```
 
 This command gets the file share named ContosoShare06.
 
 ### Example 2: Get all file shares that begin with a string
 ```
-PS C:\>Get-AzureStorageShare -Prefix "Contoso"
+PS C:\> Get-AzureStorageShare -Prefix "Contoso"
 ```
 
 This command gets all file shares that have names that begin with Contoso.
 
 ### Example 3: Get all file shares in a specified context
 ```
-PS C:\>$Context = New-AzureStorageContext -Local
+PS C:\> $Context = New-AzureStorageContext -Local
 PS C:\> Get-AzureStorageShare -Context $Context
 ```
 

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 10D5B7E0-242B-4DC0-A527-8F6388E72E0A
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageContainerStoredAccessPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageContainerStoredAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageContainerStoredAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/Get-AzureStorageContainerStoredAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,14 +40,14 @@ The **Get-AzureStorageContainerStoredAccessPolicy** cmdlet lists the stored acce
 
 ### Example 1: Get a stored access policy in a storage container
 ```
-PS C:\>Get-AzureStorageContainerStoredAccessPolicy -Container "Container07" -Policy "Policy22"
+PS C:\> Get-AzureStorageContainerStoredAccessPolicy -Container "Container07" -Policy "Policy22"
 ```
 
 This command gets the access policy named Policy22 in the storage container named Container07.
 
 ### Example 2: Get all the stored access policies in a storage container
 ```
-PS C:\>Get-AzureStorageContainerStoredAccessPolicy -Container "Container07"
+PS C:\> Get-AzureStorageContainerStoredAccessPolicy -Container "Container07"
 ```
 
 This command gets all access policies in the storage container named Container07.

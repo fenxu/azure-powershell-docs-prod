@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 online version: 
 schema: 2.0.0
 ms.assetid: 8A9FC0CE-8259-4544-BBC2-778CDE4EF12A
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 11:25 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Find-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Find-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Find-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/909020b7dbd03ec23a61b4fe16ccd2762277084c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Find-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,21 +37,21 @@ The **Find-AzureRmResourceGroup** cmdlet searches for resource groups using the 
 
 ### Example 1: Find all resource groups
 ```
-PS C:\>Find-AzureRmResourceGroup
+PS C:\> Find-AzureRmResourceGroup
 ```
 
 This command finds all resource groups.
 
 ### Example 2: Find resource groups by tag name
 ```
-PS C:\>Find-AzureRmResourceGroup -Tag @{ Name = "testtag" }
+PS C:\> Find-AzureRmResourceGroup -Tag @{ Name = "testtag" }
 ```
 
 This command finds all resource groups that have a tag named testtag.
 
 ### Example 3: Find resource groups by tag name and value
 ```
-PS C:\>Find-AzureRmResourceGroup -Tag @{ Name = "testtag"; Value = "testval" }
+PS C:\> Find-AzureRmResourceGroup -Tag @{ Name = "testtag"; Value = "testval" }
 ```
 
 This command finds all resource groups that have a tag named testtag and the value testval.
@@ -62,8 +62,9 @@ This command finds all resource groups that have a tag named testtag and the val
 Specifies tag information, as a hash table, to filter your results.
 Use the following formats: 
 
-`@{Name = '`tagName`'}`
-`@{Name = '`tagName`'; Value = '`tagValue`'}`
+`@{Name = 'tagName'}`
+
+`@{Name = 'tagName'; Value = 'tagValue'}`
 
 ```yaml
 Type: Hashtable

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 ms.assetid: 76826524-480F-458E-A996-A9DBACB8BA9E
 online version: 
 schema: 2.0.0
-updated_at: 11/18/2016 8:33 AM
-ms.date: 11/18/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Start-AzureStorSimpleDeviceBackupJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Start-AzureStorSimpleDeviceBackupJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Start-AzureStorSimpleDeviceBackupJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Start-AzureStorSimpleDeviceBackupJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,7 +49,7 @@ To create a cloud backup, specify a value of CloudSnapshot for the *BackupType* 
 
 ### Example 1: Create a local snapshot backup
 ```
-PS C:\>Start-AzureStorSimpleDeviceBackupJob -DeviceName "Contoso63-AppVm" -BackupPolicyId "de088eac-b283-4d92-b501-a759845fdf3f"
+PS C:\> Start-AzureStorSimpleDeviceBackupJob -DeviceName "Contoso63-AppVm" -BackupPolicyId "de088eac-b283-4d92-b501-a759845fdf3f"
 JobId                                                                StatusCode RequestId
 -----                                                                ---------- ---------
 fb9acdca-ed6f-4b69-93f2-5c0bce0a1e08                                 Accepted   456cf6bafd427103b71c07145e26d35c
@@ -64,7 +64,7 @@ To see the status of the job, use the **Get-AzureStorSimpleTask** cmdlet.
 
 ### Example 2: Create a cloud snapshot backup and wait to finish
 ```
-PS C:\>Start-AzureStorSimpleDeviceBackupJob -DeviceName "Contoso63-AppVm" -BackupPolicyId "de088eac-b283-4d92-b501-a759845fdf3f" -BackupType CloudSnapshot -WaitForComplete
+PS C:\> Start-AzureStorSimpleDeviceBackupJob -DeviceName "Contoso63-AppVm" -BackupPolicyId "de088eac-b283-4d92-b501-a759845fdf3f" -BackupType CloudSnapshot -WaitForComplete
 Error      : Microsoft.WindowsAzure.Management.StorSimple.Models.ErrorDetails
 JobId      : fb9acdca-ed6f-4b69-93f2-5c0bce0a1e08
 JobSteps   : {}

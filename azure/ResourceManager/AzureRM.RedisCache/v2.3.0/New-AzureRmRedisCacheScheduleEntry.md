@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
 ms.assetid: ACB53C23-99E0-4A0A-A44E-0D3FDB12450B
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 11:50 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/New-AzureRmRedisCacheScheduleEntry.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/New-AzureRmRedisCacheScheduleEntry.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/New-AzureRmRedisCacheScheduleEntry.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2064c07c5673a0ddcf2a15b98755432d9e77a277/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.3.0/New-AzureRmRedisCacheScheduleEntry.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,13 +33,13 @@ New-AzureRmRedisCacheScheduleEntry -DayOfWeek <String> -StartHourUtc <Int32> [-M
 
 ## DESCRIPTION
 The **New-AzureRmRedisCacheScheduleEntry** cmdlet creates a **PSScheduleEntry** object.
-Azure Redis Cache patch schedule cmdlets, such as the New-AzureRmRedisCachePatchSchedule cmdlet, require schedule entry objects.
+Azure Redis Cache patch schedule cmdlets, such as the **New-AzureRmRedisCachePatchSchedule** cmdlet, require schedule entry objects.
 
 ## EXAMPLES
 
 ### Example 1: Create a schedule entry for weekends
 ```
-PS C:\>New-AzureRmRedisCacheScheduleEntry -DayOfWeek "Weekend" -StartHourUtc 2 -MaintenanceWindow "06:00:00"
+PS C:\> New-AzureRmRedisCacheScheduleEntry -DayOfWeek "Weekend" -StartHourUtc 2 -MaintenanceWindow "06:00:00"
 ```
 
 This command creates a **PSScheduleEntry** object that represents a weekend schedule that has the specified start time and window.

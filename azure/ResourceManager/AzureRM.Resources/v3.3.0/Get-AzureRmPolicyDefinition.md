@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 6396AEC3-DFE6-45DA-BCF4-69C55C5D051B
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/9/2017 5:08 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmPolicyDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmPolicyDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmPolicyDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0ad0bf34919ba087d528c6264dbeb3b2ec5cfcdb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmPolicyDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -51,14 +51,14 @@ The **Get-AzureRmPolicyDefinition** cmdlet gets all the policy definitions or a 
 
 ### Example 1: Get all policy definition
 ```
-PS C:\>Get-AzureRmPolicyDefinition
+PS C:\> Get-AzureRmPolicyDefinition
 ```
 
 This command gets all the policy definitions.
 
 ### Example 2: Get policy definition by name
 ```
-PS C:\>Get-AzureRmPolicyDefinition -Name "VMPolicyDefinition"
+PS C:\> Get-AzureRmPolicyDefinition -Name "VMPolicyDefinition"
 ```
 
 This command gets the policy definition named VMPolicyDefinition.

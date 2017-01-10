@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 ms.assetid: 8FF1362B-C7AB-4769-A88B-D1B6E214A006
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 9:56 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Stop-AzureSiteRecoveryJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Stop-AzureSiteRecoveryJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5de5c3508c54977d862f546f41ff111633de6ee9/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Stop-AzureSiteRecoveryJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Stop-AzureSiteRecoveryJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,7 +45,7 @@ The **Stop-AzureSiteRecoveryJob** cmdlet stops an Azure Site Recovery job.
 
 ### Example 1: Stop all jobs
 ```
-PS C:\>$Jobs = Get-AzureSiteRecoveryJob 
+PS C:\> $Jobs = Get-AzureSiteRecoveryJob 
 PS C:\> Stop-AzureSiteRecoveryJob -Job $Jobs
 ```
 

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: BCCBB05B-A5D7-4796-BE55-6BE5E18E07FC
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageAccountSASToken.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageAccountSASToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageAccountSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageAccountSASToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -102,7 +102,7 @@ Accept wildcard characters: False
 ### -Permission
 Specifies the permissions for Storage account.
 Permissions are valid only if they match the specified resource type.
-For more information about acceptable permission values, see Constructing an Account SAShttp://go.microsoft.com/fwlink/?LinkId=799514
+For more information about acceptable permission values, see [Constructing an Account SAS](http://go.microsoft.com/fwlink/?LinkId=799514) (http://go.microsoft.com/fwlink/?LinkId=799514).
 
 ```yaml
 Type: String
@@ -155,7 +155,7 @@ Accept wildcard characters: False
 
 ### -StartTime
 Specifies the time, as a **DateTime** object, at which the SAS becomes valid.
-To get a **DateTime** object, use the Get-Date cmdlet.
+To get a **DateTime** object, use the **Get-Date** cmdlet.
 
 ```yaml
 Type: DateTime
@@ -186,7 +186,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies the Azure storage context.
-You can use the New-AzureStorageContext cmdlet to get an **AzureStorageContext** object.
+You can use the **New-AzureStorageContext** cmdlet to get an **AzureStorageContext** object.
 
 ```yaml
 Type: AzureStorageContext

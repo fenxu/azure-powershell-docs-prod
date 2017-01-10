@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: A00160B9-831F-4A20-8D9D-9E89BC4F5C91
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/9/2017 5:08 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0ad0bf34919ba087d528c6264dbeb3b2ec5cfcdb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -57,12 +57,12 @@ Specify a resource to modify by name and type or by ID.
 
 ### Example 1: Modify a resource
 ```
-PS C:\>$Resource = Get-AzureRmResource -ResourceType "microsoft.web/sites" -ResourceGroupName "ResourceGroup11" -ResourceName "ContosoSite" 
+PS C:\> $Resource = Get-AzureRmResource -ResourceType "microsoft.web/sites" -ResourceGroupName "ResourceGroup11" -ResourceName "ContosoSite" 
 PS C:\> $Resource.Properties.Enabled = "False"
 PS C:\> $Resource | Set-AzureRmResource -Force
 ```
 
-The first command gets the resource named ContosoSite by using the Get-AzureRmResource cmdlet, and then stores it in the $Resource variable.
+The first command gets the resource named ContosoSite by using the **Get-AzureRmResource** cmdlet, and then stores it in the $Resource variable.
 
 The second command modifies a property of $Resource.
 
@@ -153,7 +153,7 @@ Accept wildcard characters: False
 Specifies the name of an extension resource for the resource.
 For instance, to specify a database, use the following format: 
 
-server name`/`database name
+`server name/database name`
 
 ```yaml
 Type: String
@@ -279,7 +279,7 @@ Accept wildcard characters: False
 ### -ResourceId
 Specifies the fully qualified resource ID, including the subscription, as in the following example: 
 
-`/subscriptions/`subscription ID`/providers/Microsoft.Sql/servers/ContosoServer/databases/ContosoDatabase`
+`/subscriptions/<subscription ID>/providers/Microsoft.Sql/servers/ContosoServer/databases/ContosoDatabase`
 
 ```yaml
 Type: String

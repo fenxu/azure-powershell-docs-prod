@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 2DF33351-1081-4167-8C6C-64C8C021C49A
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 6:53 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Confirm-AzureStorSimpleLegacyVolumeContainerStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Confirm-AzureStorSimpleLegacyVolumeContainerStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Confirm-AzureStorSimpleLegacyVolumeContainerStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2aa2c6b171a81049ff40feeada5894cd7badff85/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.0.0/Confirm-AzureStorSimpleLegacyVolumeContainerStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,8 @@ The commit assigns the ownership to the target appliance.
 
 ### Example 1: Initiate a commit operation on a specific volume container
 ```
-PS C:\>Confirm-AzureStorSimpleLegacyVolumeContainerStatus -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -LegacyContainerNames "OneSDKAzureCloud" -MigrationOperation Commit
+PS C:\> Confirm-AzureStorSimpleLegacyVolumeContainerStatus -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -LegacyContainerNames "OneSDKAzureCloud" -MigrationOperation Commit
+
 Please check the commit/discard status using Get-AzureStorSimpleLegacyVolumeContainerConfirmStatus
 ```
 
@@ -56,7 +57,8 @@ To see the status of the operation, use the **Get-AzureStorSimpleLegacyVolumeCon
 
 ### Example 2: Initiate a rollback operation on a specific volume container
 ```
-PS C:\>Confirm-AzureStorSimpleLegacyVolumeContainerStatus -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -LegacyContainerNames "OneSDKAzureCloud" -MigrationOperation Rollback
+PS C:\> Confirm-AzureStorSimpleLegacyVolumeContainerStatus -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -LegacyContainerNames "OneSDKAzureCloud" -MigrationOperation Rollback
+
 Please check the commit/discard status using Get-AzureStorSimpleLegacyVolumeContainerConfirmStatus
 ```
 
@@ -64,7 +66,8 @@ This command initiates a rollback operation on the specified volume container fo
 
 ### Example 3: Initiate a commit operation on all volume containers
 ```
-PS C:\>Confirm-AzureStorSimpleLegacyVolumeContainerStatus -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -MigrationOperation Commit -All
+PS C:\> Confirm-AzureStorSimpleLegacyVolumeContainerStatus -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -MigrationOperation Commit -All
+
 Please check the commit/discard status using Get-AzureStorSimpleLegacyVolumeContainerConfirmStatus
 ```
 
@@ -72,7 +75,8 @@ This command initiates a commit operation on all volume container for the specif
 
 ### Example 4: Initiate a rollback operation on all volume containers
 ```
-PS C:\>Confirm-AzureStorSimpleLegacyVolumeContainerStatus -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -MigrationOperation Rollback -All
+PS C:\> Confirm-AzureStorSimpleLegacyVolumeContainerStatus -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -MigrationOperation Rollback -All
+
 Please check the commit/discard status using Get-AzureStorSimpleLegacyVolumeContainerConfirmStatus
 ```
 

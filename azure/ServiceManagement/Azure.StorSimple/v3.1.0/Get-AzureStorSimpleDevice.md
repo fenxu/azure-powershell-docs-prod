@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 ms.assetid: C5A2A8D2-A840-4712-A8BD-F49C6063D193
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 8:06 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDevice.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDevice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42a873a36748963f5f6496c41e9c5490d6e1bd81/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDevice.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleDevice.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -55,7 +55,7 @@ Use the **DeviceID** property obtained by using this cmdlet to specify devices f
 
 ### Example 1: Get available devices on a resource
 ```
-PS C:\>Get-AzureStorSimpleDevice
+PS C:\> Get-AzureStorSimpleDevice
 DeviceId                  : 6f9ab151-39c7-4ded-b7d0-f5b0968f2766
 DeviceName                : 8600-: SHX0881018G88
 SerialNumber              : SHX0881018G88
@@ -110,7 +110,7 @@ In this example, only one device is available.
 
 ### Example 2: Get specific available devices on a resource
 ```
-PS C:\>Get-AzureStorSimpleDevice -DeviceName "8600-SHX90193XXXXXXX" -Type Appliance -ModelId "8600"
+PS C:\> Get-AzureStorSimpleDevice -DeviceName "8600-SHX90193XXXXXXX" -Type Appliance -ModelId "8600"
 DeviceId                  : f9db31da-8a6c-4718-8f5b-5ce89e600f28
 DeviceName                : 8600-SHX90193XXXXXXX
 SerialNumber              : SHX90193XXXXXXX
@@ -132,7 +132,7 @@ This command gets all available devices on a resource that have the specified na
 
 ### Example 3: Get details for a device
 ```
-PS C:\>Get-AzureStorSimpleDevice -Name "8600-SHX90193XXXXXXX" -Type Appliance -Detailed
+PS C:\> Get-AzureStorSimpleDevice -Name "8600-SHX90193XXXXXXX" -Type Appliance -Detailed
 AlertNotification              : Microsoft.WindowsAzure.Management.StorSimple.Models.AlertNotificationSettings
 Chap                           : Microsoft.WindowsAzure.Management.StorSimple.Models.ChapSettings
 DeviceProperties               : Microsoft.WindowsAzure.Management.StorSimple.Models.DeviceInfo

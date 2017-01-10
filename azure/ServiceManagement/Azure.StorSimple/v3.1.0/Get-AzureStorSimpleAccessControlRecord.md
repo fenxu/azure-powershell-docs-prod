@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 ms.assetid: 71302FB6-7E2B-4972-A743-AB537AC7CD79
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 8:06 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleAccessControlRecord.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleAccessControlRecord.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42a873a36748963f5f6496c41e9c5490d6e1bd81/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleAccessControlRecord.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleAccessControlRecord.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -44,7 +44,7 @@ If the iSCSI initiator parameters match one of the entries in an access control 
 
 ### Example 1: Get all access control records
 ```
-PS C:\>Get-AzureStorSimpleAccessControlRecord
+PS C:\> Get-AzureStorSimpleAccessControlRecord
 InstanceId                           Name                        InitiatorName               VolumeCount
 ----------                           ----                        -------------               -----------
 01a31aa5-14de-4b77-b926-2842577f540e Windows_XYUSFL718-RV_ACR    iqn.1991-05.com.microsof... 3
@@ -57,7 +57,7 @@ This command gets all access control records.
 
 ### Example 2: Get a specific access control record
 ```
-PS C:\>Get-AzureStorSimpleAccessControlRecord -ACRName "Acr11"
+PS C:\> Get-AzureStorSimpleAccessControlRecord -ACRName "Acr11"
 VERBOSE: ClientRequestId: 61f261c7-acd3-4bcc-922a-ddfd85eb767b_PS
 VERBOSE: ClientRequestId: 49c6a4c7-d299-46fd-a553-034c52b47487_PS
 

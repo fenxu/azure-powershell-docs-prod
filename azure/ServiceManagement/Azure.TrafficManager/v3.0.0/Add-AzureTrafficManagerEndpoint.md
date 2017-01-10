@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B6CA04F2-75CA-4525-A788-E78BBDD5B6D9
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 5:30 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Add-AzureTrafficManagerEndpoint.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Add-AzureTrafficManagerEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Add-AzureTrafficManagerEndpoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a52d084404064a01f0b46e94449192dfa0ce45b1/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v3.0.0/Add-AzureTrafficManagerEndpoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -41,7 +41,7 @@ That cmdlet connects to Azure to save your changes.
 
 ### Example 1: Add an endpoint to a profile
 ```
-PS C:\>$TrafficManagerProfile = Get-AzureTrafficManagerProfile -Name "ContosoProfile"
+PS C:\> $TrafficManagerProfile = Get-AzureTrafficManagerProfile -Name "ContosoProfile"
 PS C:\> Add-AzureTrafficManagerEndpoint -TrafficManagerProfile $TrafficManagerProfile -DomainName "Contoso02App.cloudapp.net" -Status "Enabled" -Type "CloudService" | Set-AzureTrafficManagerProfile
 ```
 
@@ -54,7 +54,7 @@ The command passes the profile object to the **Set-AzureTrafficManagerProfile** 
 
 ### Example 2: Add an endpoint that has a specified location and weight
 ```
-PS C:\>Add-AzureTrafficManagerEndpoint -TrafficManagerProfile ContosoTrafficManagerProfile -DomainName " Contoso02App.cloudapp.net" -Status Enabled -Type CloudService -Weight 2 -Location myLocation | Set-AzureTrafficManagerProfile
+PS C:\> Add-AzureTrafficManagerEndpoint -TrafficManagerProfile ContosoTrafficManagerProfile -DomainName " Contoso02App.cloudapp.net" -Status Enabled -Type CloudService -Weight 2 -Location myLocation | Set-AzureTrafficManagerProfile
 ```
 
 This command adds an endpoint to a Traffic Manager profile.
@@ -85,7 +85,7 @@ Specifies the location of the endpoint the cmdlet adds.
 This must be an Azure location.
 
 This parameter must contain a value for endpoints of the type "Any" or of type "TrafficManager" in a profile that has the load balancing method set to "Performance".
-The possible values are the Azure region names, as listed at  http://azure.microsoft.com/regions/http://azure.microsoft.com/regions/.
+The possible values are the Azure region names, as listed at  [Azure regions](http://azure.microsoft.com/regions/) (http://azure.microsoft.com/regions/).
 
 ```yaml
 Type: String
@@ -106,7 +106,6 @@ Valid values are:
 - CloudService
 - AzureWebsite
 - TrafficManager
-
 - Any 
 
 If there is more than one AzureWebsite endpoint, the endpoints must be in different datacenters.
@@ -193,6 +192,8 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
 
 ```yaml
 Type: AzureSMProfile

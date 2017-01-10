@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 ms.assetid: 482E8CD6-C38F-4BD5-8214-016D0D8C7FD0
 online version: 
 schema: 2.0.0
-updated_at: 12/19/2016 8:06 PM
-ms.date: 12/19/2016
+updated_at: 1/10/2017 4:41 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/42a873a36748963f5f6496c41e9c5490d6e1bd81/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9684c1f009f3792937fd2c56f696dc26f8986a83/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v3.1.0/Get-AzureStorSimpleResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The cmdlet gets details you can use to connect to the resources.
 
 ### Example 1: Get all resources
 ```
-PS C:\>Get-AzureStorSimpleResource
+PS C:\> Get-AzureStorSimpleResource
 VERBOSE: ClientRequestId: 5cd61b91-ef40-43b4-986d-156e06d2ed65_PS
 
 ResourceName                                      ResourceId           ResourceState
@@ -56,7 +56,7 @@ In this example, there are three resources.
 
 ### Example 2: Get a resource by using its name
 ```
-PS C:\>Get-AzureStorSimpleResource -ResourceName "Contoso63-Tsqa"
+PS C:\> Get-AzureStorSimpleResource -ResourceName "Contoso63-Tsqa"
 VERBOSE: ClientRequestId: efc3c85c-12aa-4345-b6eb-ccc532de4825_PS
 
 ResourceName                                      ResourceId           ResourceState
@@ -69,7 +69,7 @@ This command gets the resource named Contoso63-Tsqa.
 
 ### Example 3: Attempt to get a nonexistent resource
 ```
-PS C:\>Get-AzureStorSimpleResource -ResourceName "Contoso64-Tsqa"
+PS C:\> Get-AzureStorSimpleResource -ResourceName "Contoso64-Tsqa"
 VERBOSE: ClientRequestId: 5d08d40b-f9d7-4d43-956f-13f01e89625b_PS
 VERBOSE: Invalid input : Could not find a resource named Contoso64-Tsqa in your subscription.
 ```

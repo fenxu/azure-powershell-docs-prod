@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 3B4F32F3-51ED-4851-B38F-172658186C96
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 4:32 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageTable.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56f672cd09f3587bf91de449556b8f3fc7173049/azureps-cmdlets-docs/Storage/Azure.Storage/v2.3.0/New-AzureStorageTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **New-AzureStorageTable** cmdlet creates a storage table associated with the
 
 ### Example 1: Create an azure storage table
 ```
-PS C:\>New-AzureStorageTable -Name "tableabc"
+PS C:\> New-AzureStorageTable -Name "tableabc"
 ```
 
 This command creates a storage table with a name of tableabc.
@@ -70,7 +70,7 @@ Accept wildcard characters: False
 
 ### -Context
 Specifies the storage context.
-To create it, you can use the New-AzureStorageContext cmdlet.
+To create it, you can use the **New-AzureStorageContext** cmdlet.
 
 ```yaml
 Type: AzureStorageContext
