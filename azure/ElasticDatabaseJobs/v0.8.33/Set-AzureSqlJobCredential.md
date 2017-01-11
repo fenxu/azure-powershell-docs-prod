@@ -6,16 +6,16 @@ ms.assetid: 2123018B-F7F8-42CE-82AD-30BFA0B52EE5
 updated_at: 11/7/2016 6:39 PM
 ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Set-AzureSqlJobCredential.md
 ms.topic: reference
-ms.prod: 
-ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
-id: ElasticDatabaseJobs_v0_8_33_Set_AzureSqlJobCredential_md
+manager: carolz
+open_to_public_contributors: False
+ms.service: sql-data-warehouse
 ---
 
 # Set-AzureSqlJobCredential

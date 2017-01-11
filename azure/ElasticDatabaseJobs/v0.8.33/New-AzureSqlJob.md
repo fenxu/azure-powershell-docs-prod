@@ -6,16 +6,16 @@ ms.assetid: EAA47557-0286-4A6E-BC2C-7A74DA74B8A6
 updated_at: 11/7/2016 6:45 PM
 ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/4b0ea6957de1341f1677064c4aad86313b6b5a33/ElasticDB/ElasticDatabaseJobs/v0.8.33/New-AzureSqlJob.md
 ms.topic: reference
-ms.prod: 
-ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
-id: ElasticDatabaseJobs_v0_8_33_New_AzureSqlJob_md
+manager: carolz
+open_to_public_contributors: False
+ms.service: sql-data-warehouse
 ---
 
 # New-AzureSqlJob

@@ -6,16 +6,16 @@ ms.assetid: CB5ED4E0-F9AE-449A-91C1-C67D383E3103
 updated_at: 11/7/2016 6:39 PM
 ms.date: 11/7/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobSchedule.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/live/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobSchedule.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/d819015b3c9ed8795d9959ab855df108d2be7d9c/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobSchedule.md
 ms.topic: reference
-ms.prod: 
-ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
-author: visual-studio-china
+author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: visual-studio-china
-id: ElasticDatabaseJobs_v0_8_33_Get_AzureSqlJobSchedule_md
+manager: carolz
+open_to_public_contributors: False
+ms.service: sql-data-warehouse
 ---
 
 # Get-AzureSqlJobSchedule
