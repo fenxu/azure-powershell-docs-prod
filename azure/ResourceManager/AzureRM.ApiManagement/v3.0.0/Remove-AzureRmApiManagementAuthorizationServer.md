@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: 650E2861-35DD-4500-B57C-84E4DADC6BFA
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 10:40 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementAuthorizationServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementAuthorizationServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementAuthorizationServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/053af8004c353b7e798073894cdf70355549517b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementAuthorizationServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,11 +35,6 @@ Remove-AzureRmApiManagementAuthorizationServer -Context <PsApiManagementContext>
 The **Remove-AzureRmApiManagementAuthorizationServer** cmdlet removes an Azure API Management authorization server.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -138,5 +133,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementAuthorizationServer](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementAuthorizationServer.md)
 
 [Set-AzureRmApiManagementAuthorizationServer](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementAuthorizationServer.md)
-
-

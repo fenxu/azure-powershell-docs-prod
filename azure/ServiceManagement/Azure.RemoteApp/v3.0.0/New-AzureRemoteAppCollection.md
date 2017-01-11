@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: ADC05D11-B91D-46A0-9435-01BABD511243
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 10:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/New-AzureRemoteAppCollection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/New-AzureRemoteAppCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/New-AzureRemoteAppCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/45f0d6967fa74d25a9f1429acae86d4dfc7d3f01/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/New-AzureRemoteAppCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,14 +49,14 @@ The **New-AzureRemoteAppCollection** cmdlet creates an Azure RemoteApp collectio
 
 ### Example 1: Create a collection
 ```
-PS C:\>New-AzureRemoteAppCollection -CollectionName "Contoso" -ImageName "Windows Server 2012 R2" -Plan Standard -Location "West US" -Description CloudOnly
+PS C:\> New-AzureRemoteAppCollection -CollectionName "Contoso" -ImageName "Windows Server 2012 R2" -Plan Standard -Location "West US" -Description CloudOnly
 ```
 
 This command creates an Azure RemoteApp collection.
 
 ### Example 2: Create a collection using credentials
 ```
-PS C:\>$cred = Get-Credential corp.contoso.com\admin
+PS C:\> $cred = Get-Credential corp.contoso.com\admin
 PS C:\> New-AzureRemoteAppCollection -CollectionName "ContosoHybrid" -ImageName "Windows Server 2012 R2" -Plan Standard -VNetName azureVNet -Domain Contoso.com -Credential $cred -Description Hybrid
 ```
 
@@ -97,7 +97,7 @@ Accept wildcard characters: False
 
 ### -CustomRdpProperty
 Specifies custom Remote Desktop Protocal (RDP) properties which can be used to configure drive redirection and other settings.
-See RDP Settings for Remote Desktop Services in Windows Serverhttps://technet.microsoft.com/library/ff393699(v=ws.10).aspx (https://technet.microsoft.com/library/ff393699(v=ws.10).aspx) for details.
+See [RDP Settings for Remote Desktop Services in Windows Server](https://technet.microsoft.com/library/ff393699.aspx) (https://technet.microsoft.com/library/ff393699.aspx) for details.
 
 ```yaml
 Type: String
