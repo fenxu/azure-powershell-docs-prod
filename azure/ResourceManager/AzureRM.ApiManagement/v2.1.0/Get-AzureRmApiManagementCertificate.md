@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: A26EC1C9-93B9-455E-B55E-AF0F8AB69688
-updated_at: 12/8/2016 5:59 PM
-ms.date: 12/8/2016
+updated_at: 1/11/2017 10:43 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d83562f79d01886ecd716d79ce086d2b009f21d3/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4df6f2abe31d9c0d1b6b5e609631a0b750350f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,14 +46,14 @@ The **Get-AzureRmApiManagementCertificate** cmdlet gets all Azure API Management
 
 ### Example 1: Get all certificates
 ```
-PS C:\>Get-AzureRmApiManagementCertificate -Context $ApiMgmtContext
+PS C:\> Get-AzureRmApiManagementCertificate -Context $ApiMgmtContext
 ```
 
 This command gets all API Management certificates.
 
 ### Example 2: Get a certificate by its ID
 ```
-PS C:\>Get-AzureRmApiManagementCertificate -Context $ApiMgmtContext -CertificateId "0123456789"
+PS C:\> Get-AzureRmApiManagementCertificate -Context $ApiMgmtContext -CertificateId "0123456789"
 ```
 
 This command gets the API Management certificate with the specified ID.
