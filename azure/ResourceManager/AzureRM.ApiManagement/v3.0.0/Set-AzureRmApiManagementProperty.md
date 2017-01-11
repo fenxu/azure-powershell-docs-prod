@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: 04881F15-1998-4BFA-9AB4-18F2FA3F7341
-updated_at: 1/11/2017 8:34 PM
+updated_at: 1/11/2017 9:45 PM
 ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementProperty.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1e1f15e9dfe7a1d13d21733b3111880550e35887/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ecefa3a481a03bbc48780f89a552511570cb53/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Set-AzureRmApiManagementProperty** cmdlet modifies an Azure API Management
 ### Example 1: Change the tags on a property
 ```
 PS C:\> $Tags = 'sdk', 'powershell'
-PS C:\>  Set-AzureRmApiManagementProperty -Context $ApimContext -PropertyId "Property11" -Tags $Tags -PassThru
+PS C:\> Set-AzureRmApiManagementProperty -Context $ApimContext -PropertyId "Property11" -Tags $Tags -PassThru
 ```
 
 The first command assigns two values to the $Tags variable.

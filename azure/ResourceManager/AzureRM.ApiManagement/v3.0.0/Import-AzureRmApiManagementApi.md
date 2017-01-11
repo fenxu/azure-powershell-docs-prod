@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: DA9D0566-483C-4243-A3AE-9BB521F9F201
-updated_at: 1/11/2017 8:34 PM
+updated_at: 1/11/2017 9:45 PM
 ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Import-AzureRmApiManagementApi.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Import-AzureRmApiManagementApi.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1e1f15e9dfe7a1d13d21733b3111880550e35887/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Import-AzureRmApiManagementApi.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ecefa3a481a03bbc48780f89a552511570cb53/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Import-AzureRmApiManagementApi.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -101,7 +101,11 @@ Accept wildcard characters: False
 
 ### -SpecificationFormat
 Specifies the specification format.
-The acceptable values for this parameter are: Wadl, Wsdl, and Swagger.
+The acceptable values for this parameter are: 
+  
+- Wadl
+- Wsdl
+- Swagger
 
 ```yaml
 Type: PsApiManagementApiFormat
@@ -218,5 +222,3 @@ This cmdlet returns the imported API as a **PsApiManagementApi** object.
 [Remove-AzureRmApiManagementApi](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementApi.md)
 
 [Set-AzureRmApiManagementApi](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementApi.md)
-
-

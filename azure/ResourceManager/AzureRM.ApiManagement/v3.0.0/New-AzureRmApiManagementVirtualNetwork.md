@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D85043F6-41BC-4D9D-80AA-793E90840CE6
-updated_at: 1/11/2017 8:34 PM
+updated_at: 1/11/2017 9:45 PM
 ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementVirtualNetwork.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementVirtualNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1e1f15e9dfe7a1d13d21733b3111880550e35887/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementVirtualNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ecefa3a481a03bbc48780f89a552511570cb53/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementVirtualNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,8 +39,8 @@ This command is used with **Set-AzureRMApiManagementVirtualNetworks** cmdlet.
 ### Example 1: Create a virtual network
 ```
 PS C:\> $VirtualNetworks = @()
-PS C:\>  $VirtualNetworks += New-AzureRmApiManagementVirtualNetwork -Location "East US" -SubtenName "ContosoNet" -VnetId "089D3F4D-B986-4DFD-9259-9112BA7A1F03"
-PS C:\>  Set-AzureRmApiManagementVirtualNetworks -ResourceGroupName "ContosoGroup" -Name "ContosoApi" -VirtualNetworks $VirtualNetworks
+PS C:\> $VirtualNetworks += New-AzureRmApiManagementVirtualNetwork -Location "East US" -SubtenName "ContosoNet" -VnetId "089D3F4D-B986-4DFD-9259-9112BA7A1F03"
+PS C:\> Set-AzureRmApiManagementVirtualNetworks -ResourceGroupName "ContosoGroup" -Name "ContosoApi" -VirtualNetworks $VirtualNetworks
 ```
 
 This example creates a virtual network and then calls the **Set-AzureRmApiManagementVirtualNetworks** cmdlet.
@@ -105,5 +105,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

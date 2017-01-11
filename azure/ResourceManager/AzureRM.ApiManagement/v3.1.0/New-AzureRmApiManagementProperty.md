@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: B6297463-BE37-4FEC-944D-2F05DCC48282
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 8:44 PM
+updated_at: 1/11/2017 9:45 PM
 ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementProperty.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e6a0656340eb7c14dba7902e574fdb3e8917955/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ecefa3a481a03bbc48780f89a552511570cb53/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ The **New-AzureRmApiManagementProperty** cmdlet creates an Azure API Management 
 ### Example 1: Create a property that includes tags
 ```
 PS C:\> $Tags = 'sdk', 'powershell'
-PS C:\>  New-AzureRmApiManagementProperty -Context $ApimContext -PropertyId "Property11" -Name "Property Name" -Value "Property Value" -Tags $Tags
+PS C:\> New-AzureRmApiManagementProperty -Context $ApimContext -PropertyId "Property11" -Name "Property Name" -Value "Property Value" -Tags $Tags
 ```
 
 The first command assigns two values to the $Tags variable.

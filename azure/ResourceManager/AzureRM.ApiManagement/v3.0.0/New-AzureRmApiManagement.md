@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A4DA352D-297B-46E0-9BE5-4281BF99380C
-updated_at: 1/11/2017 8:34 PM
+updated_at: 1/11/2017 9:45 PM
 ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1e1f15e9dfe7a1d13d21733b3111880550e35887/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ecefa3a481a03bbc48780f89a552511570cb53/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagement.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -88,7 +88,7 @@ Accept wildcard characters: False
 
 ### -Location
 Specifies the location in which this cmdlet creates an API Management deployment.
-To obtain valid locations, use the Get-AzureLocation cmdlets.
+To obtain valid locations, use the **Get-AzureLocation** cmdlets.
 
 Valid values are: 
 
@@ -222,5 +222,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagement.md)
 
 [Restore-AzureRmApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/Restore-AzureRmApiManagement.md)
-
-
