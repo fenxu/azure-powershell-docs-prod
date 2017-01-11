@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 61C34433-A16A-4ACF-A318-1C7D9E49579F
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 3:25 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerInboundNatPoolConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerInboundNatPoolConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerInboundNatPoolConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5e931f72f809b581bf043f7510139dd0ba2cf0a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerInboundNatPoolConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # New-AzureRmLoadBalancerInboundNatPoolConfig
 
 ## SYNOPSIS
+Creates an inbound NAT pool configuration for a load balancer.
 
 ## SYNTAX
 
@@ -41,17 +42,15 @@ New-AzureRmLoadBalancerInboundNatPoolConfig -Name <String>
 ```
 
 ## DESCRIPTION
+The **New-AzureRmLoadBalancerInboundNatPoolConfig** cmdlet creates an inbound network address translation (NAT) pool configuration for an Azure load balancer.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
 ### -Name
+Specifies the name of the pool configuration that this cmdlet creates.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -65,6 +64,8 @@ Accept wildcard characters: False
 ```
 
 ### -FrontendIpConfigurationId
+Specifies the ID for a front-end IP address configuration.
+
 ```yaml
 Type: String
 Parameter Sets: SetByResourceId
@@ -78,6 +79,8 @@ Accept wildcard characters: False
 ```
 
 ### -Protocol
+Specifies a protocol.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -192,3 +195,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Add-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmLoadBalancerInboundNatPoolConfig.md)
+
+[Get-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmLoadBalancerInboundNatPoolConfig.md)

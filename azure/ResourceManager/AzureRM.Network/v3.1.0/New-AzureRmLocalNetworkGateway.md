@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 59BE802E-C061-4E25-A446-B00B0BA36019
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 3:25 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLocalNetworkGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLocalNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLocalNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5e931f72f809b581bf043f7510139dd0ba2cf0a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLocalNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # New-AzureRmLocalNetworkGateway
 
 ## SYNOPSIS
+Creates a local network gateway.
 
 ## SYNTAX
 
@@ -34,17 +35,15 @@ New-AzureRmLocalNetworkGateway -Name <String> -ResourceGroupName <String> -Locat
 ```
 
 ## DESCRIPTION
+The **New-AzureRmLocalNetworkGateway** cmdlet creates a local network gateway.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
 ### -Name
+Specifies the local network gateway that this cmdlet creates.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -264,5 +263,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmLocalNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmLocalNetworkGateway.md)
 
 [Set-AzureRmLocalNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmLocalNetworkGateway.md)
-
-

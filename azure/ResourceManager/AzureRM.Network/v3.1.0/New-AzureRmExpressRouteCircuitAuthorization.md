@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: B6E55944-1B78-463F-9FC9-98097FEEC278
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 3:25 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmExpressRouteCircuitAuthorization.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmExpressRouteCircuitAuthorization.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmExpressRouteCircuitAuthorization.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5e931f72f809b581bf043f7510139dd0ba2cf0a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmExpressRouteCircuitAuthorization.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,14 +43,14 @@ Alternatively, you can use **New-AzureRmExpressRouteCircuitAuthorization** to cr
 
 ### Example 1: Create a new circuit authorization
 ```
-PS C:\>$Authorization = New-AzureRmExpressRouteCircuitAuthorization -Name "ContosoCircuitAuthorization"
+PS C:\> $Authorization = New-AzureRmExpressRouteCircuitAuthorization -Name "ContosoCircuitAuthorization"
 ```
 
 This command creates a new circuit authorization named ContosoCircuitAuthorization and then stores that object in a variable named $Authorization.
 Saving the object to a variable is important: although **New-AzureRmExpressRouteCircuitAuthorization** can create a circuit authorization it cannot add that authorization to a circuit route.
-Instead, the variable $Authorization is used New-AzureRmExpressRouteCircuit when creating a brand-new ExpressRoute circuit.
+Instead, the variable $Authorization is used [New-AzureRmExpressRouteCircuit](./New-AzureRmExpressRouteCircuit.md) when creating a brand-new ExpressRoute circuit.
 
-For more information, see the documentation for the New-AzureRmExpressRouteCircuit cmdlet.
+For more information, see the documentation for the **New-AzureRmExpressRouteCircuit** cmdlet.
 
 ## PARAMETERS
 
@@ -130,5 +130,3 @@ This cmdlet creates instances of the **Microsoft.Azure.Commands.Network.Models.P
 [Get-AzureRmExpressRouteCircuitAuthorization](xref:ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmExpressRouteCircuitAuthorization.md)
 
 [Remove-AzureRmExpressRouteCircuitAuthorization](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmExpressRouteCircuitAuthorization.md)
-
-
