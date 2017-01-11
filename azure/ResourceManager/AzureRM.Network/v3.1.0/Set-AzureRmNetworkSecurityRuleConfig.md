@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 7EFFFF43-501E-4955-A4EE-2C09B8863B30
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 4:58 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmNetworkSecurityRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmNetworkSecurityRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmNetworkSecurityRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/019d55e5427f1b23a116603492cb2a1977604795/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmNetworkSecurityRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -41,14 +41,14 @@ The **Set-AzureRmNetworkSecurityRuleConfig** cmdlet sets the goal state for an A
 
 ### Example 1: Change the access configuration in a network security rule
 ```
-PS C:\>$nsg = Get-AzureRmNetworkSecurityGroup -Name "NSG-FrontEnd" -ResourceGroupName "TestRG"
+PS C:\> $nsg = Get-AzureRmNetworkSecurityGroup -Name "NSG-FrontEnd" -ResourceGroupName "TestRG"
 PS C:\> $nsg | Get-AzureRmNetworkSecurityRuleConfig -Name "rdp-rule"
 PS C:\> Set-AzureRmNetworkSecurityRuleConfig -Name "rdp-rule" -NetworkSecurityGroup $nsg -Access "Deny"
 ```
 
 The first command gets the network security group named NSG-FrontEnd, and then stores it in the variable $nsg.
 
-The second command uses the pipeline operator to pass the security group in $nsg to Get-AzureRmNetworkSecurityRuleConfig, which gets the security rule configuration named rdp-rule.
+The second command uses the pipeline operator to pass the security group in $nsg to [Get-AzureRmNetworkSecurityRuleConfig](./Get-AzureRmNetworkSecurityRuleConfig.md), which gets the security rule configuration named rdp-rule.
 
 The third command changes the access configuration of rdp-rule to Deny.
 
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 Specifies the network protocol that a rule configuration applies to.
 The acceptable values for this parameter are:
 
- --Tcp
+- Tcp
 - Udp
 - A wildcard character (*) to match both
 
@@ -222,7 +222,7 @@ Accept wildcard characters: False
 
 ### -Priority
 Specifies the priority of a rule configuration.
-The acceptable values for this parameter are:An integer between 100 and 4096.
+The acceptable values for this parameter are: An integer between 100 and 4096.
 
 The priority number must be unique for each rule in the collection.
 The lower the priority number, the higher the priority of the rule.
@@ -312,5 +312,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmNetworkSecurityRuleConfig.md)
 
 [Remove-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmNetworkSecurityRuleConfig.md)
-
-
