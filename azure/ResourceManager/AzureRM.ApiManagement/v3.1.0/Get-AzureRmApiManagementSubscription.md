@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 24F19253-C5EF-4692-A8BC-CA9A6BA66221
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 8:44 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e6a0656340eb7c14dba7902e574fdb3e8917955/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -57,28 +57,28 @@ The **Get-AzureRmApiManagementSubscription** cmdlet gets a specified subscriptio
 
 ### Example 1: Get all subscriptions
 ```
-PS C:\>Get-AzureRmApiManagementSubscription -Context $apimContext
+PS C:\> Get-AzureRmApiManagementSubscription -Context $apimContext
 ```
 
 This command gets all subscriptions.
 
 ### Example 2: Get a subscription with a specified ID
 ```
-PS C:\>Get-AzureRmApiManagementSubscription -Context $apimContext -SubscriptionId "0123456789"
+PS C:\> Get-AzureRmApiManagementSubscription -Context $apimContext -SubscriptionId "0123456789"
 ```
 
 This command gets a subscription by ID.
 
 ### Example 3: Get all subscriptions for a user
 ```
-PS C:\>Get-AzureRmApiManagementSubscription -Context $apimContext -UserId "777"
+PS C:\> Get-AzureRmApiManagementSubscription -Context $apimContext -UserId "777"
 ```
 
 This command gets a user's subscriptions.
 
 ### Example 4: Get all subscriptions for a product
 ```
-PS C:\>Get-AzureRmApiManagementSubscription -Context $apimContext -ProductId "999"
+PS C:\> Get-AzureRmApiManagementSubscription -Context $apimContext -ProductId "999"
 ```
 
 This command gets all subscriptions for the product.

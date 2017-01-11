@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 9FF91FEB-1061-4B52-8C2A-ED6C69682064
 online version: 
 schema: 2.0.0
-updated_at: 12/15/2016 10:08 PM
-ms.date: 12/15/2016
+updated_at: 1/11/2017 8:44 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementProduct.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementProduct.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b786cde0d2ec0899d0ad5d31000d0bdea023b70b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementProduct.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e6a0656340eb7c14dba7902e574fdb3e8917955/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementProduct.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -51,14 +51,14 @@ The **Get-AzureRmApiManagementProduct** cmdlet gets a list or a particular produ
 
 ### Example 1: Get all products
 ```
-PS C:\>Get-AzureRmApiManagementProduct -Context $APImContext
+PS C:\> Get-AzureRmApiManagementProduct -Context $APImContext
 ```
 
 This command get all API Management products.
 
 ### Example 2: Get a product by ID
 ```
-PS C:\>Get-AzureRmApiManagementProduct -Context $APImContext -ProductId "0123456789"
+PS C:\> Get-AzureRmApiManagementProduct -Context $APImContext -ProductId "0123456789"
 ```
 
 This command get an API Management product by ID.
