@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: CB3F84DC-4CCE-4307-B5BD-96F5DEDBCA0D
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/New-AzureQuickVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/New-AzureQuickVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/New-AzureQuickVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/New-AzureQuickVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -57,7 +57,7 @@ This cmdlet can alternatively create an Azure service that hosts the new virtual
 
 ### Example 1: Create a virtual machine
 ```
-PS C:\>New-AzureQuickVM -Windows -ServiceName "ContosoService17" -Name "VirutalMachine01" -ImageName "Image07" -Password "password" -AdminUsername "AdminMain" -WaitForBoot
+PS C:\> New-AzureQuickVM -Windows -ServiceName "ContosoService17" -Name "VirutalMachine01" -ImageName "Image07" -Password "password" -AdminUsername "AdminMain" -WaitForBoot
 ```
 
 This command creates a virtual machine that runs the Windows operating system in an existing service.
@@ -67,7 +67,7 @@ Therefore, the cmdlet waits for the virtual machine to start.
 
 ### Example 2: Create a virtual machine that by using certificates
 ```
-PS C:\>$certs = Get-ChildItem Cert:\CurrentUser\My
+PS C:\> $certs = Get-ChildItem Cert:\CurrentUser\My
 PS C:\> New-AzureQuickVM -Windows -ServiceName "MySvc1" -name "MyWinVM1" -ImageName "Image07" -Password "password" -AdminUserName "AdminMain" -WinRMCertificate $certs[0] -X509Certificates $certs[1], $certs[2] -WaitForBoot
 ```
 
@@ -81,7 +81,7 @@ The command uploads a WinRM Certificate and X509Certificates to the hosted servi
 
 ### Example 3: Create a virtual machine that runs the Linux operating system
 ```
-PS C:\>New-AzureQuickVM -Linux -ServiceName "ContosoServiceLinux01" -Name "LinuxVirtualMachine01" -ImageName "LinuxImage01" -LinuxUser "RootMain" -Password "password" -Location "Central US"
+PS C:\> New-AzureQuickVM -Linux -ServiceName "ContosoServiceLinux01" -Name "LinuxVirtualMachine01" -ImageName "LinuxImage01" -LinuxUser "RootMain" -Password "password" -Location "Central US"
 ```
 
 This command creates a virtual machine that runs the Linux operating system from an image.
@@ -90,7 +90,7 @@ The command specifies a location for the service.
 
 ### Example 4: Create a virtual machine and create a service to host the new virtual machine
 ```
-PS C:\>$Locations = Get-AzureLocation
+PS C:\> $Locations = Get-AzureLocation
 PS C:\> $Images = Get-AzureVMImage
 PS C:\> New-AzureQuickVM -Windows -InstanceSize "Large" -ServiceName "ContosoService03" -Name " VirtualMachine25" -ImageName $images[4].imagename -Password "password" -AdminUsername "AdminMain" -Location $Locations[0].name
 ```
@@ -107,7 +107,7 @@ The service is in a location in $Locations.
 
 ### Example 5: Create a virtual machine that has a reserved IP name
 ```
-PS C:\>$Locations = Get-AzureLocation
+PS C:\> $Locations = Get-AzureLocation
 PS C:\> $Images = Get-AzureVMImage
 PS C:\> New-AzureQuickVM -Windows -InstanceSize "Large" -ServiceName "ContosoService04" -Name "VirtualMachine27" -ImageName $Images[4].imagename -Password "password" -AdminUsername "AdminMain" -Location $Locations[0].name -ReservedIPName $ipName
 ```

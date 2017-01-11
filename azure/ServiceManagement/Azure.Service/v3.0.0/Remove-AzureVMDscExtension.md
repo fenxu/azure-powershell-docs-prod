@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 8D86E7FE-B644-468D-990F-F70F7FBA3006
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMDscExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMDscExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMDscExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMDscExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,13 +33,13 @@ Remove-AzureVMDscExtension -VM <IPersistentVM> [-Profile <AzureSMProfile>] [-Wha
 
 ## DESCRIPTION
 The **Remove-AzureVMDscExtension** cmdlet removes an Azure DSC extension from a virtual machine.
-The output of this cmdlet needs to be piped to the Update-AzureVM cmdlet.
+The output of this cmdlet needs to be piped to the **Update-AzureVM** cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Remove a DSC extension from a virtual machine
 ```
-PS C:\>Remove-AzureVMDscExtension -VM $VM | Update-AzureVM
+PS C:\> Remove-AzureVMDscExtension -VM $VM | Update-AzureVM
 ```
 
 This command removes an Azure DSC extension from a virtual machine.

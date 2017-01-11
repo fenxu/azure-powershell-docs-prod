@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 0DD149B2-85C8-42DE-83DB-B2D8A086A480
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureStorageAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureStorageAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,21 +38,21 @@ If the *StorageAccountName* parameter is specified, then only information about 
 
 ### Example 1: Return all storage accounts
 ```
-PS C:\>Get-AzureStorageAccount
+PS C:\> Get-AzureStorageAccount
 ```
 
 This command returns an object with all the storage accounts associated with the current subscription.
 
 ### Example 2: Return account information for a specified account
 ```
-PS C:\>Get-AzureStorageAccount -StorageAccountName "ContosoStore01"
+PS C:\> Get-AzureStorageAccount -StorageAccountName "ContosoStore01"
 ```
 
 This command returns an object with only the ContosoStore01 account information.
 
 ### Example 3: Display a table of storage accounts
 ```
-PS C:\>Get-AzureStorageAccount | Format-Table -AutoSize -Property @{Label="Name";Expression={$_.StorageAccountName}},"Label","Location"
+PS C:\> Get-AzureStorageAccount | Format-Table -AutoSize -Property @{Label="Name";Expression={$_.StorageAccountName}},"Label","Location"
 ```
 
 This command returns an object with all the storage accounts associated with the current subscription, and outputs them as a table showing the account name, the account label, and the storage location.

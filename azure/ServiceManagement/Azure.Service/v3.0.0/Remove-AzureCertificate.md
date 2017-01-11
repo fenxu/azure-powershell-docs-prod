@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 2909BABD-D928-42B0-AA52-B603F21294A4
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,14 +38,14 @@ The **Remove-AzureCertificate** cmdlet removes a certificate from an Azure servi
 
 ### Example 1: Remove a certificate from a service
 ```
-PS C:\>Remove-AzureCertificate -ServiceName "ContosoService" -Thumbprint '5383CE0343CB6563281CA97C1D4D712209CFFA97'
+PS C:\> Remove-AzureCertificate -ServiceName "ContosoService" -Thumbprint '5383CE0343CB6563281CA97C1D4D712209CFFA97'
 ```
 
 This command removes the certificate object that has the specified thumbprint from the cloud service.
 
 ### Example 2: Remove all certificates from a service
 ```
-PS C:\>Get-AzureCertificate -ServiceName "ContosoService" | Remove-AzureCertificate
+PS C:\> Get-AzureCertificate -ServiceName "ContosoService" | Remove-AzureCertificate
 ```
 
 This command gets all the certificates from the service named ContosoService by using the Get-AzureCertificate cmdlet.
@@ -54,7 +54,7 @@ That cmdlet removes each certificate from the cloud service.
 
 ### Example 3: Remove all certificates from a service that use a specific thumbprint algorithm
 ```
-PS C:\>Get-AzureCertificate -ServiceName "ContosoService" -ThumbprintAlgorithm "sha1" | Remove-AzureCertificate
+PS C:\> Get-AzureCertificate -ServiceName "ContosoService" -ThumbprintAlgorithm "sha1" | Remove-AzureCertificate
 ```
 
 This command gets all the certificates from the service named ContosoService that use the sha1 thumbprint algorithm.

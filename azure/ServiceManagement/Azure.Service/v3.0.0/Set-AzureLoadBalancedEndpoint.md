@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: C3C119E7-AAE3-4168-BCFF-8EAEC55E80BA
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 7:45 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureLoadBalancedEndpoint.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureLoadBalancedEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureLoadBalancedEndpoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/89f87b90cfeff351b6e775a4dc30d353f5e08a1a/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureLoadBalancedEndpoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -59,7 +59,7 @@ The **Set-AzureLoadBalancedEndpoint** cmdlet modifies all of the endpoints in a 
 
 ### Example 1: Modify the endpoints in a load balancer set
 ```
-PS C:\>Set-AzureLoadBalancedEndpoint -ServiceName "ContosoService" -LBSetName "LBSet01" -Protocol "TCP" -LocalPort 80 -ProbeProtocolTCP -ProbePort 8080
+PS C:\> Set-AzureLoadBalancedEndpoint -ServiceName "ContosoService" -LBSetName "LBSet01" -Protocol "TCP" -LocalPort 80 -ProbeProtocolTCP -ProbePort 8080
 ```
 
 This command modifies all endpoints in the load balancer set named LBSet01 to use the TCP protocol and private port 80.
@@ -67,7 +67,7 @@ The command sets the load balancer probe to use the TCP protocol on port 8080.
 
 ### Example 2: Specify a different virtual IP
 ```
-PS C:\>Set-AzureLoadBalancedEndpoint -ServiceName "ContosoService" -LBSetName "LBSet02" -VirtualIPName "Vip01"
+PS C:\> Set-AzureLoadBalancedEndpoint -ServiceName "ContosoService" -LBSetName "LBSet02" -VirtualIPName "Vip01"
 ```
 
 This command modifies the load balancer that has the load balancer set name to use a virtual IP named Vip01.
@@ -228,7 +228,7 @@ Accept wildcard characters: False
 
 ### -VirtualIPName
 Specifies the name of a virtual IP address that Azure associates to the endpoints.
-To add virtual IPs to your service, use the Add-AzureVirtualIP cmdlet.
+To add virtual IPs to your service, use the **Add-AzureVirtualIP** cmdlet.
 
 ```yaml
 Type: String
