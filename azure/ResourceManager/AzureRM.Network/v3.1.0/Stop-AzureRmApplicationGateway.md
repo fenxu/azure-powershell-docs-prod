@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 2C9609E8-0D8B-471B-9F0E-672BF55C3A0E
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 5:03 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Stop-AzureRmApplicationGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Stop-AzureRmApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Stop-AzureRmApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/250906d968edb12911f0c987961d4bfa82e26116/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Stop-AzureRmApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Stop-AzureRmApplicationGateway
 
 ## SYNOPSIS
-Stops an application gateway
+Stops an application gateway.
 
 ## SYNTAX
 
@@ -38,7 +38,7 @@ The **Stop-AzureRmApplicationGateway** cmdlet stops an application gateway.
 
 ### Example 1: Stop an application gateway
 ```
-PS C:\>Stop-AzureRmApplicationGateway -ApplicationGateway $AppGw
+PS C:\> Stop-AzureRmApplicationGateway -ApplicationGateway $AppGw
 ```
 
 This command stops the application gateway stored in the $AppGw variable.
@@ -121,5 +121,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-AzureRmApplicationGateway](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGateway.md)
 
 [Start-AzureRmApplicationGateway](xref:ResourceManager/AzureRM.Network/v3.1.0/Start-AzureRmApplicationGateway.md)
-
-

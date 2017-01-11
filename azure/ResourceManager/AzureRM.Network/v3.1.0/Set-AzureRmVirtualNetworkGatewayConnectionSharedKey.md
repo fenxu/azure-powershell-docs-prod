@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 78BADAF3-6001-4A25-A74D-F6B50079FCB4
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 4:58 PM
+updated_at: 1/11/2017 5:03 PM
 ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/019d55e5427f1b23a116603492cb2a1977604795/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/250906d968edb12911f0c987961d4bfa82e26116/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group that the virtual network gateway belongs to
+Specifies the name of the resource group that the virtual network gateway belongs to.
 
 ```yaml
 Type: String

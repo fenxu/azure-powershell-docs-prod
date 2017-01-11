@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 95731734-EDCA-432A-A7BF-94D1E3725FB2
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 5:03 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Start-AzureRmApplicationGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Start-AzureRmApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Start-AzureRmApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/250906d968edb12911f0c987961d4bfa82e26116/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Start-AzureRmApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Start-AzureRmApplicationGateway** cmdlet starts an Azure application gatew
 
 ### Example1: Start an application gateway
 ```
-PS C:\>$AppGw = Start-AzureRmApplicationGateway -ApplicationGateway $AppGw
+PS C:\> $AppGw = Start-AzureRmApplicationGateway -ApplicationGateway $AppGw
 ```
 
 This command starts the application gateway stored in the $AppGw variable.
@@ -113,5 +113,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Stop-AzureRmApplicationGateway](xref:ResourceManager/AzureRM.Network/v3.1.0/Stop-AzureRmApplicationGateway.md)
-
-
