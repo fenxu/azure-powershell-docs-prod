@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 5D857FF6-A27D-4031-948D-8A69D24B4AD4
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 4:26 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVpnClientRootCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVpnClientRootCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVpnClientRootCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d25b2832812152582a1c440155e6033f127b60be/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVpnClientRootCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -44,7 +44,7 @@ For more information about the text representation of a certificate see the *Pub
 
 ### Example 1: Remove a client root certificate from a virtual network gateway
 ```
-PS C:\>$Text = Get-Content -Path "C:\Azure\Certificates\ExportedCertficate.cer"
+PS C:\> $Text = Get-Content -Path "C:\Azure\Certificates\ExportedCertficate.cer"
 PS C:\> $CertificateText = for ($i=1; $i -lt $Text.Length -1 ; $i++){$Text[$i]}
 PS C:\> Remove-AzureRmVpnClientRootCertificate -PublicCertData $CertificateText -ResourceGroupName "ContosoResourceGroup" -VirtualNetworkGatewayName "ContosoVirtualGateway"-VpnClientRootCertificateName "ContosoRootCertificate"
 ```
@@ -189,5 +189,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmVpnClientRootCertificate.md)
 
 [New-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVpnClientRootCertificate.md)
-
-
