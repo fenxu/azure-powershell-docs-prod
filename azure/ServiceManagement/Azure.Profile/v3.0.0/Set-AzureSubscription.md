@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 5F60EE5F-8D1E-4EF9-8CC8-C4203000468D
-updated_at: 11/18/2016 8:33 AM
-ms.date: 11/18/2016
+updated_at: 1/11/2017 11:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Set-AzureSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Set-AzureSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Set-AzureSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/68d83b5dbd450a91137dc6ad741d942ed49f8f43/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Set-AzureSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Set-AzureSubscription
 
 ## SYNOPSIS
-Creates or changes an Azure subscription
+Creates or changes an Azure subscription.
 
 ## SYNTAX
 
@@ -52,19 +52,19 @@ Set-AzureSubscription [-SubscriptionName] <String> [-Certificate <X509Certificat
 ## DESCRIPTION
 The **Set-AzureSubscription** cmdlet establishes and changes the properties of an Azure subscription object.
 You can use this cmdlet to work in an Azure subscription that is not your default subscription or to change your current storage account.
-For information about current and default subscriptions, see the Select-AzureSubscription cmdlet.
+For information about current and default subscriptions, see the **Select-AzureSubscription** cmdlet.
 
 This cmdlet operates on an Azure subscription object, not your actual Azure subscription.
-To create and provision an Azure subscription, visit the Azure Portalhttps://azure.microsoft.com/ (https://azure.microsoft.com/).
+To create and provision an Azure subscription, visit the [Azure Portal](https://azure.microsoft.com/) (https://azure.microsoft.com/).
 
 This cmdlet changes the data in the subscription data file that you create when you use the **Add-AzureAccount** or **Import-AzurePublishSettingsFile** cmdlet to add an Azure account to Windows PowerShell.
 
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 ## EXAMPLES
 
-### Example 12: Change an existing subscription1
+### Example 1: Change an existing subscription
 ```
 C:\PS> $thumbprint = <Thumbprint-2>
 C:\PS> $differentCert = Get-Item cert:\\CurrentUser\My\$thumbprint 
@@ -95,7 +95,7 @@ C:\PS> Set-AzureSubscription -SubscriptionName ContosoFinance -SubscriptionDataF
 
 This command changes the current storage account of the ContosoFinance subscription to ContosoStorage01.
 The command uses the **SubscriptionDataFile** parameter to change the data in the C:\Azure\SubscriptionData.xml subscription data file.
-By default, Set-AzureSubscription uses the default subscription data file in your roaming user profile.
+By default, **Set-AzureSubscription** uses the default subscription data file in your roaming user profile.
 
 ## PARAMETERS
 

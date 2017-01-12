@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A349FD94-5C6E-4EED-AB05-F4866F7D38CA
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 11:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Get-AzureAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Get-AzureAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Get-AzureAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/68d83b5dbd450a91137dc6ad741d942ed49f8f43/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Get-AzureAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ To make your accounts available to Windows PowerShell, use the **Add-AzureAccoun
 
 ### Example 1: Get all accounts
 ```
-PS C:\>Get-AzureAccount
+PS C:\> Get-AzureAccount
 Name                         ActiveDirectories
 ----                         -----------------
 contosoadmin@outlook.com     {{ ActiveDirectoryTenantId = abcde5cd-bcc3-441a-bd86-e6a...
@@ -49,7 +49,7 @@ This command gets all accounts associated with the specified user.
 
 ### Example 2: Get an account by name
 ```
-PS C:\>Get-AzureAccount -Name contosoadmin@outlook.com
+PS C:\> Get-AzureAccount -Name contosoadmin@outlook.com
 Name                         ActiveDirectories
 ----                         -----------------
 contosoadmin@outlook.com     {{ ActiveDirectoryTenantId = abcde5cd-bcc3-441a-bd86-e6a...

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 483E39BE-750E-43F4-B296-6036CDB7142B
-updated_at: 1/11/2017 10:43 PM
-ms.date: 1/11/2017
+updated_at: 1/12/2017 1:09 AM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Add-AzureRmApiManagementRegion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Add-AzureRmApiManagementRegion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4df6f2abe31d9c0d1b6b5e609631a0b750350f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Add-AzureRmApiManagementRegion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/744a3daf267d93d9084ba9f20bf25d56439bcc7f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Add-AzureRmApiManagementRegion.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,7 +35,7 @@ Add-AzureRmApiManagementRegion -ApiManagement <PsApiManagement> -Location <Strin
 ## DESCRIPTION
 The **Add-AzureRmApiManagementRegion** cmdlet adds new instance of type **PsApiManagementRegion** to the collection of **AdditionalRegions** of provided instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagement**.
 This cmdlet does not deploy anything by itself but updates instance of **PsApiManagement** in-memory.
-To update a deployment of an API Management pass the modified **PsApiManagement** Instance to Update-AzureRmApiManagementDeployment.
+To update a deployment of an API Management pass the modified **PsApiManagement** Instance to [Update-AzureRmApiManagementDeployment](./Update-AzureRmApiManagementDeployment.md).
 
 ## EXAMPLES
 
@@ -209,5 +209,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Update-AzureRmApiManagementRegion](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/Update-AzureRmApiManagementRegion.md)
 
 [Update-AzureRmApiManagementDeployment](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/Update-AzureRmApiManagementDeployment.md)
-
-

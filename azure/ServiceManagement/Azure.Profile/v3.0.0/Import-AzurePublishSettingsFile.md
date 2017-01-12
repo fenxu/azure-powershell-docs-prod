@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 171A4524-B9A0-41D3-B65D-F4898BDD0077
-updated_at: 11/18/2016 8:33 AM
-ms.date: 11/18/2016
+updated_at: 1/11/2017 11:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Import-AzurePublishSettingsFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Import-AzurePublishSettingsFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Import-AzurePublishSettingsFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/68d83b5dbd450a91137dc6ad741d942ed49f8f43/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Import-AzurePublishSettingsFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,16 +48,16 @@ As a security best practice, save the file to a location in your Downloads or Do
 
 ## EXAMPLES
 
-### --------------  Example 1 --------------
+### Example 1: Import a settings file
 ```
-PS C:\>Import-AzurePublishSettingsFile -PublishSettingsFile C:\Temp\MyAccount.publishsettings
+PS C:\> Import-AzurePublishSettingsFile -PublishSettingsFile C:\Temp\MyAccount.publishsettings
 ```
 
 This command imports the "C:\Temp\MyAccount.publishsettings" file.
 
-### --------------  Example 2 --------------
+### Example 2: Import a settings file and save subscription data 
 ```
-PS C:\>Import-AzurePublishSettingsFile -PublishSettingsFile C:\Temp\MyAccount.publishsettings -SubscriptionDataFile C:\Subs\Subscriptions.xml
+PS C:\> Import-AzurePublishSettingsFile -PublishSettingsFile C:\Temp\MyAccount.publishsettings -SubscriptionDataFile C:\Subs\Subscriptions.xml
 ```
 
 This command imports the "C:\Temp\MyAccountName-date-credentials.publishsettings" file and then saves the subscription data file in C:\Subs\Subscriptions.xml.

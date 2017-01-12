@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 00238612-5A56-43D6-B96D-E9EB4957CFDA
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/12/2017 1:09 AM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Add-AzureApiManagementRegion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Add-AzureApiManagementRegion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Add-AzureApiManagementRegion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/744a3daf267d93d9084ba9f20bf25d56439bcc7f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Add-AzureApiManagementRegion.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -41,14 +41,14 @@ To update the deployment of API Management, pass the modified **PsApiManagementI
 
 ### Example 1: Add new deployment regions to a PsApiManagement instance
 ```
-PS C:\>Add-AzureApiManagementRegion -ApiManagement $ApiManagement -Location "East US" -Sku "Premium" -Capacity 2
+PS C:\> Add-AzureApiManagementRegion -ApiManagement $ApiManagement -Location "East US" -Sku "Premium" -Capacity 2
 ```
 
 This command adds two premium SKU units and the region named East US to the **PsApiManagement** instance.
 
 ### Example 2: Add new deployment regions to a PsApiManagement instance and then update deployment
 ```
-PS C:\>Get-AzureApiManagement -ResourceGroupName "Contoso" -Name "ContosoApi" | Add-AzureApiManagementRegion -Location "East US" -Sku "Premium" -Capacity 2
+PS C:\> Get-AzureApiManagement -ResourceGroupName "Contoso" -Name "ContosoApi" | Add-AzureApiManagementRegion -Location "East US" -Sku "Premium" -Capacity 2
 ```
 
 This command gets a **PsApiManagement** object, adds two premium SKU units for the region named East US, and then updates deployment.
