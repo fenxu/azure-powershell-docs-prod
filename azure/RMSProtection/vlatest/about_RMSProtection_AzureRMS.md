@@ -1,9 +1,9 @@
 ---
-updated_at: 12/21/2016 4:07 PM
-ms.date: 12/21/2016
+updated_at: 1/12/2017 9:53 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/487e0d210835a57f5fd2fd38752b2fd90d410b1e/Azure%20Information%20Protection/RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/087faf8c417e9932695abcb2cb9df84782cf61f9/Azure%20Information%20Protection/RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
 uid: RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -318,17 +318,14 @@ Get-Help <cmdlet name> cmdlet, where <cmdlet name> is the name of the cmdlet
 that you want to research. For example:
 
 C:\PS> Get-Help Get-RMSTemplate
+
+SEE ALSO
+
+Clear-RMSAuthentication
+Get-RMSFileStatus
+Get-RMSTemplate
+Protect-RMSFile
+Unprotect-RMSFile
+Set-RMSServerAuthentication
+
 ```
-## SEE ALSO
-
-[Clear-RMSAuthentication](./Clear-RMSAuthentication.md)
-
-[Get-RMSFileStatus](./Get-RMSFileStatus.md)
-
-[Get-RMSTemplate](./Get-RMSTemplate.md)
-
-[Protect-RMSFile](./Protect-RMSFile.md)
-
-[Unprotect-RMSFile](./Unprotect-RMSFile.md)
-
-[Set-RMSServerAuthentication](./Set-RMSServerAuthentication.md)
