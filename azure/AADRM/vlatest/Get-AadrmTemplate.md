@@ -15,7 +15,7 @@ author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: cabailey
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: rights-management
 ---
 

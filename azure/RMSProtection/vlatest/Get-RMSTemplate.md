@@ -1,13 +1,13 @@
 ---
 external help file: RMSProtection.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkID=623205
+online version: https://go.microsoft.com/fwlink/?LinkID=623205
 schema: 2.0.0
 ms.assetid: 569C89B8-0A48-492F-BC48-8D8214F35C71
-updated_at: 11/21/2016 6:01 PM
-ms.date: 11/21/2016
+updated_at: 1/10/2017 5:25 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/509e3e297cffef326ee90167ad75069fe7bc8f47/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/a47766183826a8f04db131bb723a9f382466cce4/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -15,7 +15,7 @@ author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: cabailey
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: rights-management
 ---
 
@@ -86,7 +86,7 @@ PS C:\>Get-RMSTemplate -Culture "fr-fr"
 TemplateId        : {e6ee2481-26b9-45e5-b34a-f744eacd53b0}
 CultureInfo       : fr-FR
 Description       : Ce document contient des informations confidentielles destinees a un usage interne uniquement. Il
-                    peut etre modifiÈ, mais ne peut etre ni copie ni imprime.
+                    peut etre modifi√©, mais ne peut etre ni copie ni imprime.
 Name              : Contoso, Ltd - Confidentiel
 IssuerDisplayName : Contoso, Ltd
 FromTemplate      : True
@@ -108,7 +108,7 @@ This command gets a list of templates for the French locale.
 Specifies the templates to load by locale by using a language-region code-pair, where language is an ISO-639 language code and region is an ISO 3166-1 country or region identifier (for instance, en-us, fr-fr, or es-es).
 If you do not specify this parameter, or you specify this parameter without a value, all available language versions for the same template are returned.
 To load templates for a different locale, specify it as a value with this parameter by using the language-region code-pair.
-For instance, if you are in Canada and your current system locale is set to English but you want to see the template names and description in French, specify -Culture "fr-fr"ù.
+For instance, if you are in Canada and your current system locale is set to English but you want to see the template names and description in French, specify -Culture "fr-fr"¬ù.
 
 ```yaml
 Type: String
@@ -166,5 +166,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-RMSServer](xref:RMSProtection/vlatest/Get-RMSServer.md)
+
+[Set-AIPFileLabel](xref:RMSProtection/vlatest/Set-AIPFileLabel.md)
 
 [Protect-RMSFile](xref:RMSProtection/vlatest/Protect-RMSFile.md)
