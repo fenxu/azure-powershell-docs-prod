@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F28F869D-FA1D-4B7D-A2F8-2F6AA13D2C67
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Show-AzurePortal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Show-AzurePortal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Show-AzurePortal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Show-AzurePortal.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,15 +33,15 @@ Show-AzurePortal [[-Name] <String>] [-Realm <String>] [-Environment <String>] [-
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Show-AzurePortal** cmdlet shows the Azure Management Portal.
 
 ## EXAMPLES
 
-### 1:
+### Example 1: View information about a site
 ```
-PS C:\>Show-AzurePortal -Name mySite
+PS C:\> Show-AzurePortal -Name mySite
 ```
 
 This example opens a browser on the Azure portal, showing information about a website named mySite.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 59F480FE-AE7E-4C38-A541-3541C4D2A0B5
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-AzureSchedulerHttpJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-AzureSchedulerHttpJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-AzureSchedulerHttpJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-AzureSchedulerHttpJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -60,7 +60,7 @@ Set-AzureSchedulerHttpJob [-JobState <String>] [-Headers <Hashtable>] [-ErrorAct
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Set-AzureSchedulerHttpJob** cmdlet updates a scheduler job that has an HTTP action.
 
@@ -68,7 +68,7 @@ The **Set-AzureSchedulerHttpJob** cmdlet updates a scheduler job that has an HTT
 
 ### Example 1: Change the state of a job to Disabled
 ```
-PS C:\>Set-AzureSchedulerHttpJob -Location "North Central US" -JobCollectionName "JobCollection01" -JobName "Job01" -JobState "Disabled"
+PS C:\> Set-AzureSchedulerHttpJob -Location "North Central US" -JobCollectionName "JobCollection01" -JobName "Job01" -JobState "Disabled"
 ```
 
 This command changes the state of the job named Job01 to Disabled.
@@ -76,7 +76,7 @@ That job is part of the job collection named JobColleciton01 for the specified l
 
 ### Example 2: Update the URI of a job
 ```
-PS C:\>Set-AzureSchedulerHttpJob -Location "North Central US" -JobCollectionName "JobCollection02" -JobName "Job37" -URI http://www.contoso.com
+PS C:\> Set-AzureSchedulerHttpJob -Location "North Central US" -JobCollectionName "JobCollection02" -JobName "Job37" -URI http://www.contoso.com
 ```
 
 This command updates the URI of the job named Job01 to be http://www.contoso.com.

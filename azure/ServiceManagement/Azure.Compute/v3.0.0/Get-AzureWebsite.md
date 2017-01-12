@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 1004AB50-2F0C-4D72-8B20-6C1EDAF52E97
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsite.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsite.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,20 +40,20 @@ The current subscription is the subscription that is designated as "current." To
 To change the current subscription, use the Select-AzureSubscriptionhttp://go.microsoft.com/fwlink/?LinkID=397628 cmdlet.
 
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 ## EXAMPLES
 
 ### Example 1: Get all websites in the subscription
 ```
-PS C:\>Get-AzureWebsite
+PS C:\> Get-AzureWebsite
 ```
 
 This command gets all Azure websites in the current subscription.
 
 ### Example 2: Get a website by name
 ```
-PS C:\>Get-AzureWebsite -Name ContosoWeb
+PS C:\> Get-AzureWebsite -Name ContosoWeb
 ```
 
 This command gets detailed information about the ContosoWeb Azure website, including configuration information.
@@ -61,7 +61,7 @@ When you use the *Name* parameter, **Get-AzureWebsite** returns a **SiteWithConf
 
 ### Example 3: Get detailed information about all websites
 ```
-PS C:\>Get-AzureWebsite | ForEach-Object {Get-AzureWebsite -Name $_.Name}
+PS C:\> Get-AzureWebsite | ForEach-Object {Get-AzureWebsite -Name $_.Name}
 ```
 
 This command gets detailed information about all websites in the subscription.
@@ -69,7 +69,7 @@ It uses a **Get-AzureWebsite** command to get all websites and then uses the **F
 
 ### Example 4: Get information about a deployment slot
 ```
-PS C:\>Get-AzureWebsite -Name ContosoWeb -Slot Staging
+PS C:\> Get-AzureWebsite -Name ContosoWeb -Slot Staging
 ```
 
 This command gets the Staging deployment slot of the ContosoWeb website.
@@ -77,14 +77,14 @@ Deployment slots let you test different versions of your Azure website without r
 
 ### Example 5: Get website instances
 ```
-PS C:\>(Get-AzureWebsite -Name ContosoWeb).Instances
+PS C:\> (Get-AzureWebsite -Name ContosoWeb).Instances
 
 InstanceId
 ----------
 2d8e712fb8f85d061c30fd793a534e6700a175f9a9ab12ca55cb3b0edfcc10ee
 5834916b8cef49249b18187708223a33fbbc4352d33b48369f3166644bdd3445
 
-PS C:\>(Get-AzureWebsite -Name ContosoWeb).Instances.Count
+PS C:\> (Get-AzureWebsite -Name ContosoWeb).Instances.Count
 2
 ```
 

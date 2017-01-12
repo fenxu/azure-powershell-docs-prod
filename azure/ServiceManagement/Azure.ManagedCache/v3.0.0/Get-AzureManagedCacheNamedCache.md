@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ManagedCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 19866FD4-A87F-4ED9-BFB1-69588E5F748D
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 4:03 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Get-AzureManagedCacheNamedCache.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Get-AzureManagedCacheNamedCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Get-AzureManagedCacheNamedCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e93aae28f7db29b03bee109dc6d1c4b57c1937c2/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Get-AzureManagedCacheNamedCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,14 +38,14 @@ The **Get-AzureManagedCacheNamedCache** cmdlet gets a specific named cache or al
 
 ### Example 1: Get the details of a specific named cache
 ```
-PS C:\>Get-AzureManagedCacheNamedCache -Name contosocache -NamedCache "ContosoNamedCache"
+PS C:\> Get-AzureManagedCacheNamedCache -Name contosocache -NamedCache "ContosoNamedCache"
 ```
 
 This command gets details about the cache named ContosoNamedCache.
 
 ### Example 2: Get the details of all Named Caches in a Managed Cache Service
 ```
-PS C:\>Get-AzureManagedCacheNamedCache -Name "ContosoCache"
+PS C:\> Get-AzureManagedCacheNamedCache -Name "ContosoCache"
 ```
 
 This command gets details about all Named Caches in the Managed Cache Service instance named ContosoCache.
@@ -111,7 +111,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### Microsoft.Azure.Commands.ManagedCache.Models.PSCacheServiceWithNamedCaches
 
 ## NOTES
-* Use Add-AzureAccount or Import-AzurePublishSettingsFile to make your Azure account available to Windows PowerShell before using this cmdlet. For more information, see How to install and configure Azure PowerShellhttp://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/.
+* Use **Add-AzureAccount** or **Import-AzurePublishSettingsFile** to make your Azure account available to Windows PowerShell before using this cmdlet. For more information, see [How to install and configure Azure PowerShell](http://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/) (http://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/).
 
 ## RELATED LINKS
 

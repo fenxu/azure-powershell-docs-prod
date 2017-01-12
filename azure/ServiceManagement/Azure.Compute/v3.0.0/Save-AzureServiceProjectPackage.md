@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A0E57099-60FA-4675-A06D-874FCED38DD2
-updated_at: 10/31/2016 9:17 PM
-ms.date: 10/31/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Save-AzureServiceProjectPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Save-AzureServiceProjectPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Save-AzureServiceProjectPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Save-AzureServiceProjectPackage.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -32,15 +32,15 @@ Save-AzureServiceProjectPackage [-Local] [-Profile <AzureSMProfile>] [<CommonPar
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Save-AzureServiceProjectPackage** cmdlet packages the service project into an Azure cloud package (*.cspkg).
 
 ## EXAMPLES
 
-### 1: Create a service project package
+### Example 1: Create a service project package
 ```
-PS C:\>Save-AzureServiceProjectPackage
+PS C:\> Save-AzureServiceProjectPackage
 ```
 
 This example creates a *.cspgk for a service project named MyAzureServiceProject.

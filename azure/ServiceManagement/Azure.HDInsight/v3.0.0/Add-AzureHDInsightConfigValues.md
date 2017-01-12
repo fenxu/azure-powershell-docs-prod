@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 6C9662D0-3F58-44C9-A1F5-C14FCD917022
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 5:02 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Add-AzureHDInsightConfigValues.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Add-AzureHDInsightConfigValues.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Add-AzureHDInsightConfigValues.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f45f2181ae36eaa69f472d0ddef24cb39587757b/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Add-AzureHDInsightConfigValues.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -52,7 +52,7 @@ The custom settings are added to the configuration files of the relevant Hadoop 
 
 ### Example 1: Configure a cluster
 ```
-PS C:\>$HiveConfigValues = New-Object 'Microsoft.WindowsAzure.Management.HDInsight.Cmdlet.DataObjects.AzureHDInsightHiveConfiguration'
+PS C:\> $HiveConfigValues = New-Object 'Microsoft.WindowsAzure.Management.HDInsight.Cmdlet.DataObjects.AzureHDInsightHiveConfiguration'
 PS C:\> $HiveConfigValues.Configuration = @{ hive.exec.compress.output = true }
 PS C:\> $HiveConfigValues.AdditionalLibraries = New-Object 'Microsoft.WindowsAzure.Management.HDInsight.Cmdlet.DataObjects.AzureHDInsightDefaultStorageAccount'
 PS C:\> $HiveConfigValues.AdditionalLibraries.StorageAccountName = "MyStorageAccount.blob.core.windows.net"
@@ -78,10 +78,10 @@ The eighth command creates a configuration value for Oozie, and then stores that
 The ninth command creates an **AzureHDInsightMapReduceConfiguration** object, and then stores it in the $MapredConfigValues variable.
 The next two commands create configuration values for MapReduce and store those values as members of $MapredConfigValues.
 
-The twelfth command uses the New-AzureHDInsightClusterConfig cmdlet to create an HDInsight cluster configuration, and then stores it in the $Config variable.
-The command uses the pipeline operator to pass $Config to the Set-AzureHDInsightDefaultStorage cmdlet to update the default storage setting and to the **Add-AzureHDInsightConfigValues** cmdlet to add the new configuration values to the cluster configuration.
+The twelfth command uses the **New-AzureHDInsightClusterConfig** cmdlet to create an HDInsight cluster configuration, and then stores it in the $Config variable.
+The command uses the pipeline operator to pass $Config to the **Set-AzureHDInsightDefaultStorage** cmdlet to update the default storage setting and to the **Add-AzureHDInsightConfigValues** cmdlet to add the new configuration values to the cluster configuration.
 
-The final command uses the pipeline operator to pass $Config to the New-AzureHDInsightCluster cmdlet to create a new HDInsight cluster with the customized settings.
+The final command uses the pipeline operator to pass $Config to the **New-AzureHDInsightCluster** cmdlet to create a new HDInsight cluster with the customized settings.
 
 ## PARAMETERS
 

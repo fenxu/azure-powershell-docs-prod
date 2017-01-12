@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: DF246880-A433-4853-B0EB-F70D2A15AEED
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsiteLog.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsiteLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsiteLog.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsiteLog.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ Get-AzureWebsiteLog [-ListPath] [[-Name] <String>] [[-Slot] <String>] [-Profile 
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 Gets log for the specified website.
 
@@ -48,28 +48,28 @@ Gets log for the specified website.
 
 ### Example 1
 ```
-C:\PS>Get-AzureWebsiteLog -Tail
+PS C:\> Get-AzureWebsiteLog -Tail
 ```
 
 This example starts log streaming for all application logs.
 
 ### Example 2
 ```
-C:\PS>Get-AzureWebsiteLog -Tail -Path http
+PS C:\> Get-AzureWebsiteLog -Tail -Path http
 ```
 
 This example starts log streaming for http logs.
 
 ### Example 3
 ```
-C:\PS>Get-AzureWebsiteLog -Tail -Message Error
+PS C:\> Get-AzureWebsiteLog -Tail -Message Error
 ```
 
 This example starts log streaming and show error logs only.
 
 ### Example 4
 ```
-C:\PS>Get-AzureWebsiteLog -Name MyWebsite -ListPath
+PS C:\> Get-AzureWebsiteLog -Name MyWebsite -ListPath
 ```
 
 This example lists all available log paths in the website.

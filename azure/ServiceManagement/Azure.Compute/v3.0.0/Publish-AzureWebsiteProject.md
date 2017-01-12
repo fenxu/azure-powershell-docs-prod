@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 533E00D4-80F7-4920-B12A-7F848667DAB3
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureWebsiteProject.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureWebsiteProject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureWebsiteProject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Publish-AzureWebsiteProject.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,35 +49,35 @@ It can also replace the connection strings in the Web.config during publish.
 
 ### Example 1
 ```
-C:\PS>Publish-AzureWebsiteProject -Name site1 -ProjectFile .\WebApplication1.csproj -Configuration Debug
+PS C:\> Publish-AzureWebsiteProject -Name site1 -ProjectFile .\WebApplication1.csproj -Configuration Debug
 ```
 
 Build a Visual Studio web project with "Debug" configuration (meaning use Web.Debug.config) and publish to a Microsoft Azure Web Site using WebDeploy.
 
 ### Example 2
 ```
-C:\PS>Publish-AzureWebsiteProject -Name site1 -Package .\WebApplication1.zip
+PS C:\> Publish-AzureWebsiteProject -Name site1 -Package .\WebApplication1.zip
 ```
 
 Publish a WebDeploy Pacakge .zip file to a Microsoft Azure Web Site using WebDeploy.
 
 ### Example 3
 ```
-C:\PS>Publish-AzureWebsiteProject -Name site1 -Package .\WebApplication1
+PS C:\> Publish-AzureWebsiteProject -Name site1 -Package .\WebApplication1
 ```
 
 Publish a WebDeploy Pacakge folder to a Microsoft Azure Web Site using WebDeploy.
 
 ### Example 4
 ```
-C:\PS>Publish-AzureWebsiteProject -Name site1 -ProjectFile .\WebApplication1.csproj -ConnectionString @{ DefaultConnection = "my connection string" }
+PS C:\> Publish-AzureWebsiteProject -Name site1 -ProjectFile .\WebApplication1.csproj -ConnectionString @{ DefaultConnection = "my connection string" }
 ```
 
 Build a Visual Studio web project, overwrite the "DefaultConnection" connection string in Web.config and publish to a Microsoft Azure Web Site using WebDeploy.
 
 ### Example 5
 ```
-C:\PS>Publish-AzureWebsiteProject -Name site1 -ProjectFile .\WebApplication1.csproj -DefaultConnection "my connection string"
+PS C:\> Publish-AzureWebsiteProject -Name site1 -ProjectFile .\WebApplication1.csproj -DefaultConnection "my connection string"
 ```
 
 Build a Visual Studio web project, overwrite the "DefaultConnection" connection string in Web.config and publish to a Microsoft Azure Web Site using WebDeploy.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 23FBBEBC-1EC5-4D15-A14C-E267B2AC1ED7
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzurePHPWorkerRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzurePHPWorkerRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzurePHPWorkerRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzurePHPWorkerRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,22 +33,22 @@ Add-AzurePHPWorkerRole [[-Name] <String>] [[-Instances] <Int32>] [-Profile <Azur
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 Creates the required files and configuration (sometimes referred to as scaffolding) for a PHP application that will be hosted in Azure through php.exe.
 
 ## EXAMPLES
 
-### 1: Create a worker role with a single instance
+### Example 1: Create a worker role with a single instance
 ```
-PS C:\>Add-AzurePHPWorkerRole MyWorkerRole
+PS C:\> Add-AzurePHPWorkerRole MyWorkerRole
 ```
 
 This example adds the required files and configuration for a single worker role named MyWorkerRole to the current application.
 
-### 2: Create a worker role with multiple instances
+### Example 2: Create a worker role with multiple instances
 ```
-PS C:\>Add-AzurePHPWorkerRole MyWorkerRole -I 2
+PS C:\> Add-AzurePHPWorkerRole MyWorkerRole -I 2
 ```
 
 This example adds the required files and configuration for a new worker role to the current application, using the name MyWorkerRole with a role instance count of 2.

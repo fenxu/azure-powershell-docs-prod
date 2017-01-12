@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 2EDBE43B-5C20-4119-B976-021AB591DFDE
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureStoreAddOn.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureStoreAddOn.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureStoreAddOn.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureStoreAddOn.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ Get-AzureStoreAddOn [[-Name] <String>] [-Profile <AzureSMProfile>] [<CommonParam
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 Gets all the available add-ons for purchasing from the Azure Store, or gets the existing add-on instances for the current subscription.
 
@@ -46,21 +46,21 @@ Gets all the available add-ons for purchasing from the Azure Store, or gets the 
 
 ### Example 1
 ```
-PS C:\>Get-AzureStoreAddOn
+PS C:\> Get-AzureStoreAddOn
 ```
 
 This example gets all purchased add-on instances for the current subscription.
 
 ### Example 2
 ```
-PS C:\>Get-AzureStoreAddOn -ListAvailable
+PS C:\> Get-AzureStoreAddOn -ListAvailable
 ```
 
 This example gets all the available add-ons for purchasing in United States from the Azure Store.
 
 ### Example 3
 ```
-PS C:\>Get-AzureStoreAddOn -Name MyAddOn
+PS C:\> Get-AzureStoreAddOn -Name MyAddOn
 ```
 
 This example gets an add-on named MyAddOn from the purchased add-on instance in the current subscription.

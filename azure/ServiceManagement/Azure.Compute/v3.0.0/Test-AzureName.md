@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 2F7C7C8F-5B25-4BB1-BFCB-3505088DCA71
-updated_at: 11/18/2016 8:33 AM
-ms.date: 11/18/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Test-AzureName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Test-AzureName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Test-AzureName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Test-AzureName.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -52,23 +52,23 @@ If the name does not exist, it returns $False.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1 
 ```
-PS C:\>Test-AzureName -Service "MyNameService1"
+PS C:\> Test-AzureName -Service "MyNameService1"
 ```
 
 This command tests to see if the "MyNameService1" is an existing Microsoft Azure cloud service name.
 
 ### Example 2
 ```
-PS C:\>Test-AzureName -Storage "mystorename1"
+PS C:\> Test-AzureName -Storage "mystorename1"
 ```
 
 This command tests to see if the "mystorename1" is an existing Microsoft Azure storage service name.
 
 ### Example 3
 ```
-PS C:\>Test-AzureName -ServiceBusNamespace "mynamespace"
+PS C:\> Test-AzureName -ServiceBusNamespace "mynamespace"
 ```
 
 This command tests to see if the "mynamespace" is an existing Microsoft Azure service bus namespace name.
