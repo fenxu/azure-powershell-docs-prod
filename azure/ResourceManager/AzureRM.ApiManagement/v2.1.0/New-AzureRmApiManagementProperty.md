@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: 3D9FA1D0-8B2D-4821-AF36-DB58D7AD3CCC
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 10:43 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementProperty.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4df6f2abe31d9c0d1b6b5e609631a0b750350f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **New-AzureRmApiManagementProperty** cmdlet creates an Azure API Management 
 
 ### Example 1: Create a property that includes tags
 ```
-PS C:\>$Tags = 'sdk', 'powershell'
+PS C:\> $Tags = 'sdk', 'powershell'
 PS C:\> New-AzureRmApiManagementProperty -Context $ApimContext -PropertyId "Property11" -Name "Property Name" -Value "Property Value" -Tags $Tags
 ```
 
@@ -49,7 +49,7 @@ The second command creates a property and assigns the strings in $Tags as tags o
 
 ### Example 2: Create a property that has a secret value
 ```
-PS C:\>New-AzureRmApiManagementProperty -Context $apimContext -PropertyId "Property12" -Name "Secret Property -Value "Secret Property Value" -Secret
+PS C:\> New-AzureRmApiManagementProperty -Context $apimContext -PropertyId "Property12" -Name "Secret Property -Value "Secret Property Value" -Secret
 ```
 
 This command creates a **Property** that has a value that is encrypted.

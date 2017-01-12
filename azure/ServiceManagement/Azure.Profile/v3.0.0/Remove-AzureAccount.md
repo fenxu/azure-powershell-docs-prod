@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 280F5678-FF7B-4457-AC4E-F6A93F45DACC
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 11:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/68d83b5dbd450a91137dc6ad741d942ed49f8f43/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,13 +45,13 @@ When **Remove-AzureAccount** finds both a management certificate and an access t
 The management certificate is still there, so account is still available to Windows PowerShell.
 
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 ## EXAMPLES
 
 ### Example 1: Remove an account
 ```
-PS C:\>Remove-AzureAccount -Name admin@contoso.com
+PS C:\> Remove-AzureAccount -Name admin@contoso.com
 ```
 
 This command removes the admin@contoso.com from your subscription data file.

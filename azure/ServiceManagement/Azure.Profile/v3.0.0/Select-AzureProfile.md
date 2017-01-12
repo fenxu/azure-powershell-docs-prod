@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3AD42349-3A99-49A0-A810-B9388672E560
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 11:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Select-AzureProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Select-AzureProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Select-AzureProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/68d83b5dbd450a91137dc6ad741d942ed49f8f43/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Select-AzureProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,10 +39,6 @@ Select-AzureProfile [-Default] [<CommonParameters>]
 
 ## EXAMPLES
 
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 

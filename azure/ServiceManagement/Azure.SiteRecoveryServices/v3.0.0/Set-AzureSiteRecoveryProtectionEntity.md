@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 68F6DC68-FDDF-49CF-97B6-B0711286FB19
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/10/2017 10:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Set-AzureSiteRecoveryProtectionEntity.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Set-AzureSiteRecoveryProtectionEntity.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Set-AzureSiteRecoveryProtectionEntity.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e460734ba591f3a2e82060724b596fbf2dcb96b3/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Set-AzureSiteRecoveryProtectionEntity.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,14 +47,14 @@ The **Set-AzureSiteRecoveryProtectionEntity** cmdlet enables or disables protect
 
 ### Example 1: Enable protection for objects in a container
 ```
-PS C:\>$ProtectionContainer = Get-AzureSiteRecoveryProtectionContainer -Name "Cloud17"
+PS C:\> $ProtectionContainer = Get-AzureSiteRecoveryProtectionContainer -Name "Cloud17"
 PS C:\> $ProtectionEntity = Get-AzureSiteRecoveryProtectionEntity -ProtectionContainer $ProtectionContainer -Name "VM01"
 PS C:\> Set-AzureSiteRecoveryProtectionEntity -ProtectionEntity $ ProtectionEntity -Protection Enable -ProtectionProfile $ProtectionContainer.AvailableProtectionProfiles[0] -OS Windows
 ```
 
-The first command gets containers for the current Azure Site vault by using the Get-AzureSiteRecoveryProtectionContainer cmdlet, and then stores it in the $ProtectionContainer variable.
+The first command gets containers for the current Azure Site vault by using the **Get-AzureSiteRecoveryProtectionContainer** cmdlet, and then stores it in the $ProtectionContainer variable.
 
-The second command gets the protected virtual machines that belong to the container stored in $ProtectionContainer by using the Get-AzureSiteRecoveryProtectionEntity cmdlet.
+The second command gets the protected virtual machines that belong to the container stored in $ProtectionContainer by using the **Get-AzureSiteRecoveryProtectionEntity** cmdlet.
 The command stores the results in the $ProtectionEntity variable.
 
 The final command enables protection for the entities stored in $ProtectionEntity.

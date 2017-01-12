@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 0780CB09-9C3B-468A-A718-3A646FE3D152
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 5:03 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Test-AzureRmPrivateIPAddressAvailability.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Test-AzureRmPrivateIPAddressAvailability.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Test-AzureRmPrivateIPAddressAvailability.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/250906d968edb12911f0c987961d4bfa82e26116/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Test-AzureRmPrivateIPAddressAvailability.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,7 @@ This cmdlet returns a list of available private IP addresses if the requested pr
 
 ### Example 1: Test whether an IP address is available using the pipeline
 ```
-PS C:\>Get-AzureRmVirtualNetwork -Name $vnetName -ResourceGroupName $rgname | Test-AzureRmPrivateIPAddressAvailability -IPAddress "10.0.1.10"
+PS C:\> Get-AzureRmVirtualNetwork -Name $vnetName -ResourceGroupName $rgname | Test-AzureRmPrivateIPAddressAvailability -IPAddress "10.0.1.10"
 ```
 
 This command gets a virtual network and uses the pipeline operator to pass it to **Test-AzureRmPrivateIPAddressAvailability**, which tests whether the specified private IP address is available.
@@ -165,5 +165,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmVirtualNetwork.md)
-
-

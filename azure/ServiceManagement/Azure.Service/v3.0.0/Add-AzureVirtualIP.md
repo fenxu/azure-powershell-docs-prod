@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: A621FEB7-5E88-483A-8467-4D4C3908D8A9
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 7:45 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Add-AzureVirtualIP.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Add-AzureVirtualIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Add-AzureVirtualIP.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/89f87b90cfeff351b6e775a4dc30d353f5e08a1a/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Add-AzureVirtualIP.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,7 +36,7 @@ The **Add-AzureVirtualIP** cmdlet adds a new virtual IP (VIP) to your Azure serv
 The new virtual IP has a name but is not allocated an IP address.
 
 The IP address is allocated only when you associate an endpoint to the VIP.
-See Add-AzureEndpoint for more details.
+See **Add-AzureEndpoint** for more details.
 
 Your subscription is charged for extra VIPs only once they are associated with an endpoint.
 
@@ -44,7 +44,8 @@ Your subscription is charged for extra VIPs only once they are associated with a
 
 ### Example 1: Add a virtual IP to a service
 ```
-PS C:\>Add-AzureVirtualIP -VirtualIPName "Vip01" -ServiceName "ContosoService03"
+PS C:\> Add-AzureVirtualIP -VirtualIPName "Vip01" -ServiceName "ContosoService03"
+
 OperationDescription OperationId                          OperationStatus
 -------------------- -----------                          ---------------
 Add-AzureVirtualIP   4bd7b638-d2e7-216f-ba38-5221233d70ce Succeeded

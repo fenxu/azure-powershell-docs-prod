@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: CDEE60E6-B78F-44D1-A5F0-CEF940A2B3D4
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 10:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryVaultSettingsFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryVaultSettingsFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryVaultSettingsFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e460734ba591f3a2e82060724b596fbf2dcb96b3/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Get-AzureSiteRecoveryVaultSettingsFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,14 +45,15 @@ The **Get-AzureSiteRecoveryVaultSettingsFile** cmdlet gets the settings file for
 
 ### Example 1: Get the settings file for a vault
 ```
-PS C:\>$Vault = Get-AzureSiteRecoveryVault -Name "ContosoVault"
+PS C:\> $Vault = Get-AzureSiteRecoveryVault -Name "ContosoVault"
 PS C:\> Get-AzureSiteRecoveryVaultSettingsFile -Vault $Vault
+
 FilePath 
 -------- 
 C:\Users\ContosoAdmin\ContosoVault_2015-02-02T05-39-23.VaultCredentials
 ```
 
-The first command gets the active Azure Site Recovery vault named ContosoVault by using the Get-AzureSiteRecoveryVault cmdlet.
+The first command gets the active Azure Site Recovery vault named ContosoVault by using the **Get-AzureSiteRecoveryVault** cmdlet.
 The command stores that vault in the $Vault variable.
 
 The second command gets the settings file for the vault stored in $Vault.
@@ -91,7 +92,7 @@ Accept wildcard characters: False
 
 ### -Site
 Specifies a site for which to get a settings file.
-To obtain a **Site** object, use the Get-AzureSiteRecoverySite cmdlet.
+To obtain a **Site** object, use the **Get-AzureSiteRecoverySite** cmdlet.
 
 ```yaml
 Type: ASRSite

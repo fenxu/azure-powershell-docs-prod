@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: FB3A388C-5A68-4CF6-9551-3410AC3397B7
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 10:40 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementOperation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementOperation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/053af8004c353b7e798073894cdf70355549517b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementOperation.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ The **Set-AzureRmApiManagementOperation** cmdlet sets API operation details.
 
 ### Example 1: Set the operation details
 ```
-PS C:\>New-AzureRmApiManagementOperation -Context $APImContext -ApiId $APIID -OperationId $OperationId -Name "Get Resource" -Method GET -UrlTemplate "/newresource" -Description "Use this operation to get newresource"
+PS C:\> New-AzureRmApiManagementOperation -Context $APImContext -ApiId $APIID -OperationId $OperationId -Name "Get Resource" -Method GET -UrlTemplate "/newresource" -Description "Use this operation to get newresource"
 ```
 
 This command sets the operation details for API management.
@@ -155,7 +155,7 @@ Accept wildcard characters: False
 
 ### -TemplateParameters
 Specifies an array or parameters defined in parameter *UrlTemplate*.
-If you do not specify a value, a default value will be generated based on the UrlTemplate.
+If you do not specify a value, a default value will be generated based on the *UrlTemplate*.
 Use the parameter to give more details on parameters such as description, type, and other possible values.
 
 ```yaml
@@ -234,5 +234,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementOperation](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementOperation.md)
 
 [Remove-AzureRmApiManagementOperation](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementOperation.md)
-
-

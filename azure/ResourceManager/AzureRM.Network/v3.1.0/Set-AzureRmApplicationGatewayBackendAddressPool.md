@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: C2C5E0C0-E212-4554-966B-940B1B6FE235
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 4:26 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayBackendAddressPool.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayBackendAddressPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayBackendAddressPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d25b2832812152582a1c440155e6033f127b60be/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayBackendAddressPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -41,7 +41,7 @@ Back-end addresses can be specified as IP addresses, fully-qualified domain name
 
 ### Example 1: Setting a back-end address pool by using FQDNs
 ```
-PS C:\>$AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $AppGw = Set-AzureRmApplicationGatewayBackendAddressPool -ApplicationGateway $ AppGw -Name "Pool02" -BackendFqdns "contoso1.com", "contoso2.com"
 ```
 
@@ -51,7 +51,7 @@ The second command updates the back-end address pool of the application gateway 
 
 ### Example 2: Setting a back-end address pool by using backend server IP addresses
 ```
-PS C:\>$AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $AppGw = Set-AzureRmApplicationGatewayBackendAddressPool -ApplicationGateway $ AppGw -Name "Pool02" -BackendIPAddresses "10.10.10.10", "10.10.10.11"
 ```
 
@@ -61,7 +61,7 @@ The second command updates the back-end address pool of the application gateway 
 
 ### Example 3: Setting a back-end address pool by using the ID of the backend server?s IP address
 ```
-PS C:\>$Nic01 = Get-AzureRmNetworkInterface -Name "Nic01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $Nic01 = Get-AzureRmNetworkInterface -Name "Nic01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $Nic02 = Get-AzureRmNetworkInterface -Name "Nic02" -ResourceGroupName "ResourceGroup01"
 PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $AppGw = Set-AzureRmApplicationGatewayBackendAddressPool -ApplicationGateway $ AppGw -Name "Pool02" -BackendIPConfigurationIds $nic01.Properties.IpConfigurations[0].Id, $nic02.Properties.IpConfiguration[0].Id
@@ -109,6 +109,8 @@ Accept wildcard characters: False
 ```
 
 ### -BackendIPAddresses
+Specifies a list of back-end IP addresses which this cmdlet adds as a back-end server pool.
+
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
@@ -228,5 +230,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayBackendAddressPool.md)
 
 [Remove-AzureRmApplicationGatewayBackendAddressPool](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayBackendAddressPool.md)
-
-

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 0F043726-40EC-4DAB-8B1D-32CE33F14D25
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDataDisk.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDataDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDataDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDataDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,16 +38,16 @@ To get a specific data disk object, specify the logical unit number (LUN) of the
 
 ### Example 1: Get all data disks for a virtual machine
 ```
-PS C:\>Get-AzureVM "ContosoService" -Name "VirtualMachine07" | Get-AzureDataDisk
+PS C:\> Get-AzureVM "ContosoService" -Name "VirtualMachine07" | Get-AzureDataDisk
 ```
 
-This command gets the virtual machine named VirtualMachine07 in the service named ContosoService by using the Get-AzureVM cmdlet.
+This command gets the virtual machine named VirtualMachine07 in the service named ContosoService by using the **Get-AzureVM** cmdlet.
 The command passes the virtual machine to the current cmdlet by using the pipeline operator.
 The current cmdlet gets all the data disks for this virtual machine.
 
 ### Example 2: Get a specific data disk for a vituralvirtual machinevirtual
 ```
-PS C:\>Get-AzureVM "ContosoService" -Name "VirtualMachine07" | Get-AzureDataDisk -LUN 2
+PS C:\> Get-AzureVM "ContosoService" -Name "VirtualMachine07" | Get-AzureDataDisk -LUN 2
 ```
 
 This command gets the virtual machine named VirtualMachine07 in the service named ContosoService.
@@ -74,7 +74,7 @@ Accept wildcard characters: False
 
 ### -VM
 Specifies the virtual machine object for which this cmdlet gets data disks.
-To obtain a virtual machine object, use the Get-AzureVM cmdlet.
+To obtain a virtual machine object, use the **Get-AzureVM** cmdlet.
 
 ```yaml
 Type: IPersistentVM

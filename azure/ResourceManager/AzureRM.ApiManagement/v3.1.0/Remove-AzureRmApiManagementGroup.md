@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 7723A213-13BC-4F97-A15F-88D819AEADCD
 online version: 
 schema: 2.0.0
-updated_at: 12/15/2016 11:11 PM
-ms.date: 12/15/2016
+updated_at: 1/11/2017 8:44 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/09d77fe04dadec70394dc03b69cb24dee37546de/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e6a0656340eb7c14dba7902e574fdb3e8917955/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Remove-AzureRmApiManagementGroup** cmdlet removes an existing API manageme
 
 ### Example 1: Remove an existing management group
 ```
-PS C:\>Remove-AzureRmApiManagementGroup -Context $APImContext -GroupId "Group0001" -Force
+PS C:\> Remove-AzureRmApiManagementGroup -Context $APImContext -GroupId "Group0001" -Force
 ```
 
 This command removes an existing management group named Group0001 and does not prompt the user for confirmation.

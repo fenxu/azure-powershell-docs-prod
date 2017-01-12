@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 7EFF0328-FA0F-46D9-BF36-519B0D5DBBD5
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureAclConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureAclConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureAclConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureAclConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,10 +38,10 @@ The **Get-AzureAclConfig** cmdlet gets the access control list (ACL) configurati
 
 ### Example 1: Get an ACL configuration object for a virtual machine endpoint
 ```
-PS C:\>$Acl = Get-AzureVM -ServiceName "ContosoService" -Name "VirtualMachine07" | Get-AzureAclConfig -EndpointName "Web"
+PS C:\> $Acl = Get-AzureVM -ServiceName "ContosoService" -Name "VirtualMachine07" | Get-AzureAclConfig -EndpointName "Web"
 ```
 
-The first command gets the virtual machine named VirtualMachine07 in the service named ContosoService by using the Get-AzureVM cmdlet.
+The first command gets the virtual machine named VirtualMachine07 in the service named ContosoService by using the **Get-AzureVM** cmdlet.
 The command passes that object to the Get-AzureAclConfig cmdlet by using the pipeline operator.
 That cmdlet gets the ACL configuration for the endpoint named Web.
 The command stores that ACL configuration object in the $Acl variable.

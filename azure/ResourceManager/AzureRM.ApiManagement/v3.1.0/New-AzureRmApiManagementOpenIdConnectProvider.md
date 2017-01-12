@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 845F1E9E-D29D-47C1-AD31-1910478ECB39
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 8:44 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementOpenIdConnectProvider.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementOpenIdConnectProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementOpenIdConnectProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e6a0656340eb7c14dba7902e574fdb3e8917955/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/New-AzureRmApiManagementOpenIdConnectProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ The **New-AzureRmApiManagementOpenIdConnectProvider** cmdlet creates an OpenID C
 
 ### Example 1: Create a provider
 ```
-PS C:\>New-AzureRmApiManagementOpenIdConnectProvider -Context $ApimContext -OpenIdConnectProviderId "OICProvicer01" -Name "Contoso OpenID Connect Provider" -MetadataEndpointUri "https://openid.provider/configuration" -ClientId "12432143" -Description "OpenID Connect provider description"
+PS C:\> New-AzureRmApiManagementOpenIdConnectProvider -Context $ApimContext -OpenIdConnectProviderId "OICProvicer01" -Name "Contoso OpenID Connect Provider" -MetadataEndpointUri "https://openid.provider/configuration" -ClientId "12432143" -Description "OpenID Connect provider description"
 ```
 
 This command creates an OpenID Connect **Provider** named Contoso OpenID Connect Provider

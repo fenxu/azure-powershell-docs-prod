@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 28EB989D-6D40-4ECA-BDCE-978544EDC050
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 11:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Resume-AzureSiteRecoveryJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Resume-AzureSiteRecoveryJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Resume-AzureSiteRecoveryJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/980a24e01d9dd1158e819b034a40be469f1f1b06/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Resume-AzureSiteRecoveryJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,8 +45,9 @@ To see which actions you can take on a job, look at the **AllowedActions** prope
 
 ### Example 1: Resume all jobs
 ```
-PS C:\>$Jobs = Get-AzureSiteRecoveryJob  
+PS C:\> $Jobs = Get-AzureSiteRecoveryJob  
 PS C:\> Resume-AzureSiteRecoveryJob -Job $Jobs
+
 ID               : d16397fb-cdf1-4972-b677-c333f3c557b4
 ClientRequestId  : 32ace403-0916-4967-83a1-529176bd6e88-2014-49-06 15:49:24Z-P
 State            : Suspended

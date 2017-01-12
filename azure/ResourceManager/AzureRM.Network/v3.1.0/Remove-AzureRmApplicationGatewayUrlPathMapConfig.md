@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: E43C8D2A-A6B5-4259-94B9-353FBC15F5A8
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 3:50 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9fd0ccc312405e56f32bf397ccc83e3511675dfb/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,11 +35,6 @@ Remove-AzureRmApplicationGatewayUrlPathMapConfig -Name <String> -ApplicationGate
 The **Remove-AzureRmApplicationGatewayUrlPathMapConfig** cmdlet removes URL path mappings to a backend server pool.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -130,5 +125,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayUrlPathMapConfig.md)
 
 [Set-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayUrlPathMapConfig.md)
-
-

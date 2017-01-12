@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: C54AC64C-DA21-443E-8CFE-6CCAC6152C2B
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 3:50 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVpnClientRootCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVpnClientRootCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVpnClientRootCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9fd0ccc312405e56f32bf397ccc83e3511675dfb/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVpnClientRootCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,7 +36,7 @@ The **New-AzureRmVpnClientRootCertificate** cmdlet creates a new VPN root certif
 Root certificates are X.509 certificates that identify your Root Certification Authority: all other certificates used on the gateway trust the root certificate.
 
 This cmdlet creates a stand-alone certificate that is not assigned to a virtual gateway.
-Instead, the certificate created by **New-AzureRmVpnClientRootCertificate** is used in conjunction with the New-AzureRmVirtualNetworkGateway cmdlet when creating a new gateway.
+Instead, the certificate created by **New-AzureRmVpnClientRootCertificate** is used in conjunction with the [New-AzureRmVirtualNetworkGateway](./New-AzureRmVirtualNetworkGateway.md) cmdlet when creating a new gateway.
 For example, suppose you create a new certificate and store it in a variable named $Certificate.
 You can then use that certificate object when creating a new virtual gateway.
 For instance,
@@ -47,7 +47,7 @@ For more information, see the documentation for the New-AzureRmVirtualNetworkGat
 
 ## EXAMPLES
 
-### Example 1: Create aclient root certificate
+### Example 1: Create a client root certificate
 ```
 PS C:\> $Text = Get-Content -Path "C:\Azure\Certificates\ExportedCertficate.cer"
 PS C:\> $CertificateText = for ($i=1; $i -lt $Text.Length -1 ; $i++){$Text[$i]}
@@ -168,5 +168,3 @@ This cmdlet creates new instances of the **Microsoft.Azure.Commands.Network.Mode
 [Get-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmVpnClientRootCertificate.md)
 
 [Remove-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVpnClientRootCertificate.md)
-
-

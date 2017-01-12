@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 
 schema: 2.0.0
 ms.assetid: C5CD7B95-055A-4776-B68F-EC1B0D3358CF
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 12:24 AM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureApplicationGatewayConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureApplicationGatewayConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureApplicationGatewayConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e57471ccf6c62263125f4c01fc0b0ce8ed76d386/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Set-AzureApplicationGatewayConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,30 +45,30 @@ The **Set-AzureApplicationGatewayConfig** cmdlet configures an application gatew
 
 ### Example 1: Configure an application gateway by using a configuration object
 ```
-PS C:\>$ConfigReturnObject = Get-AzureApplicationGatewayConfig -Name "ApplicationGateway02"
+PS C:\> $ConfigReturnObject = Get-AzureApplicationGatewayConfig -Name "ApplicationGateway02"
 PS C:\> Set-AzureApplicationGatewayConfig -Name "ApplicationGateway06" -Config $ConfigReturnObject
 ```
 
-The first command gets the configuration object for the application gateway named ApplicationGateway02 by using the Get-AzureApplicationGatewayConfig cmdlet.
+The first command gets the configuration object for the application gateway named ApplicationGateway02 by using the **Get-AzureApplicationGatewayConfig** cmdlet.
 The command stores it in the $ConfigReturnObject variable.
 
 The second command sets the configuration for the application named ApplicationGateway06 by using an application gateway configuration object stored in the $ConfigReturnObject variable.
 
 ### Example 2: Configure an application gateway by using a configuration file
 ```
-PS C:\>Set-AzureApplicationGatewayConfig -Name "ApplicationGateway06" -ConfigFile "D:\config.xml"
+PS C:\> Set-AzureApplicationGatewayConfig -Name "ApplicationGateway06" -ConfigFile "D:\config.xml"
 ```
 
 This command sets the configuration for the application named ApplicationGateway06 by using an application gateway configuration file in the specified location.
 
 ### Example 3: Modify a configuration by using a configuration object
 ```
-PS C:\>$ConfigReturnObject = Get-AzureApplicationGatewayConfig -Name "ApplicationGateway06"
+PS C:\> $ConfigReturnObject = Get-AzureApplicationGatewayConfig -Name "ApplicationGateway06"
 PS C:\> $ConfigReturnObject.Config.FrontendPorts[0].Port = 443
 PS C:\> $ConfigReturnObject | Set-AzureApplicationGatewayConfig -Name "ApplicationGateway06"
 ```
 
-The first command gets the configuration object for the application gateway named ApplicationGateway06 by using the Get-AzureApplicationGatewayConfig cmdlet.
+The first command gets the configuration object for the application gateway named ApplicationGateway06 by using the **Get-AzureApplicationGatewayConfig** cmdlet.
 The command stores it in the $ConfigReturnObject variable.
 
 The second command assigns a port value to a **Port** property in the object stored in $ConfigReturnObject.

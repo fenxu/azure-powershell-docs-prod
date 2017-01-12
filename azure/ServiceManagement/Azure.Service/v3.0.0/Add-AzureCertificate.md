@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: F6225A40-9FA2-4985-84D9-37B68D40EB94
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Add-AzureCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Add-AzureCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Add-AzureCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Add-AzureCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Add-AzureCertificate** cmdlet uploads a certificate for an Azure service.
 
 ### Example 1: Upload a certificate and password
 ```
-PS C:\>Add-AzureCertificate -ServiceName "ContosoService" -CertToDeploy ContosoCertificate.pfx -Password "password"
+PS C:\> Add-AzureCertificate -ServiceName "ContosoService" -CertToDeploy ContosoCertificate.pfx -Password "password"
 ```
 
 This command uploads the certificate file ContosoCertificate.pfx to a cloud service.
@@ -46,7 +46,7 @@ The command specifies the password for the certificate.
 
 ### Example 2: Upload a certificate file
 ```
-PS C:\>Add-AzureCertificate -serviceName "MyService" -CertToDeploy ContosoCertificate.cer
+PS C:\> Add-AzureCertificate -serviceName "MyService" -CertToDeploy ContosoCertificate.cer
 ```
 
 This command uploads the certificate file ContosoCertificate.cer to a cloud service.
@@ -54,7 +54,7 @@ The command specifies the password for the certificate.
 
 ### Example 3: Upload a certificate object
 ```
-PS C:\>$Certificate = Get-Item cert:\PATTIFULLER\MY\1D6E34B526723E06C235BE8E5457784BF12C9F39
+PS C:\> $Certificate = Get-Item cert:\PATTIFULLER\MY\1D6E34B526723E06C235BE8E5457784BF12C9F39
 PS C:\> Add-AzureCertificate -ServiceName "ContosoService" -CertToDeploy $Certificate
 ```
 

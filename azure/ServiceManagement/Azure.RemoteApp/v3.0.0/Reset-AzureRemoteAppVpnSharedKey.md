@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 16C0E7F5-9DB4-4AC7-8B55-FD2E6A6D0566
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 10:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Reset-AzureRemoteAppVpnSharedKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Reset-AzureRemoteAppVpnSharedKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Reset-AzureRemoteAppVpnSharedKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/45f0d6967fa74d25a9f1429acae86d4dfc7d3f01/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Reset-AzureRemoteAppVpnSharedKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Reset-AzureRemoteAppVpnSharedKey** cmdlet resets the Azure RemoteApp virtu
 
 ### Example 1: Reset the shared key on a virtual network
 ```
-PS C:\>Reset-AzureRemoteAppVpnSharedKey -VNetName "ContosoVNet"
+PS C:\> Reset-AzureRemoteAppVpnSharedKey -VNetName "ContosoVNet"
 ```
 
 This command resets the shared key on the virtual network named ContosoVNet.

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: D7C275E5-BC43-454B-BF1E-48D639C4B4F0
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 4:58 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewaySslCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewaySslCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewaySslCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/019d55e5427f1b23a116603492cb2a1977604795/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewaySslCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Set-AzureRmApplicationGatewaySslCertificate** cmdlet sets the goal state o
 
 ### Example 1: Set the goal state of an SSL certificate
 ```
-PS C:\>$AppGW = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $AppGW = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $Cert = Set-AzureRmApplicationGatewaySslCertificate -ApplicationGateway $AppGW -Name "Cert01" -CertificateFile "D:\cert01.pfx" -Password "Password01"
 ```
 
@@ -168,5 +168,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApplicationGatewaySslCertificate](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewaySslCertificate.md)
 
 [Remove-AzureRmApplicationGatewaySslCertificate](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewaySslCertificate.md)
-
-

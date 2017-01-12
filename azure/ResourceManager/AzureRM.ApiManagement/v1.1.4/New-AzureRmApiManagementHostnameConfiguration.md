@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 73F73A6F-470C-4DD6-95C4-A1302FABB0DD
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/12/2017 1:09 AM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/New-AzureRmApiManagementHostnameConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/New-AzureRmApiManagementHostnameConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/New-AzureRmApiManagementHostnameConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/744a3daf267d93d9084ba9f20bf25d56439bcc7f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/New-AzureRmApiManagementHostnameConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ This command is used with the Set-AzureRmApiManagementHostnames cmdlet.
 
 ### Example 1: Create and initialize an instance of PsApiManagementHostnameConfiguration
 ```
-PS C:\>New-AzureRmApiManagementHostnameConfiguration -Hostname "portal.contoso.com" -CertificateThumbprint "33CC47C6FCA848DC9B14A6F071C1EF7C"
+PS C:\> New-AzureRmApiManagementHostnameConfiguration -Hostname "portal.contoso.com" -CertificateThumbprint "33CC47C6FCA848DC9B14A6F071C1EF7C"
 ```
 
 This command creates and initializes an instance of **PsApiManagementHostnameConfiguration**.

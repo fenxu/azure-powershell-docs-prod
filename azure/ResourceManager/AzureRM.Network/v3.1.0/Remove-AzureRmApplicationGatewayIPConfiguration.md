@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 6943BB5C-D709-4A80-AF5E-DC9501C20680
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 3:50 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayIPConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayIPConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayIPConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9fd0ccc312405e56f32bf397ccc83e3511675dfb/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayIPConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Remove-AzureRmApplicationGatewayIPConfiguration** cmdlet removes an IP con
 
 ### Example 1: Remove an IP configuration from an Azure application gateway
 ```
-PS C:\>$AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> Remove-AzureRmApplicationGatewayIPConfiguration -ApplicationGateway $AppGw -Name "Subnet02"
 ```
 
@@ -137,5 +137,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApplicationGatewayIPConfiguration](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayIPConfiguration.md)
 
 [Set-AzureRmApplicationGatewayIPConfiguration](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayIPConfiguration.md)
-
-

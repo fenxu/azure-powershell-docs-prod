@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: 4FBD0F2D-5AF5-411E-B039-8A132C6B81AA
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 8:34 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Export-AzureRmApiManagementApi.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Export-AzureRmApiManagementApi.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Export-AzureRmApiManagementApi.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1e1f15e9dfe7a1d13d21733b3111880550e35887/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Export-AzureRmApiManagementApi.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,7 +46,7 @@ The **Export-AzureRmApiManagementApi** cmdlet exports an Azure API Management AP
 
 ### Example 1: Export an API in Web Application Description Language (WADL) format
 ```
-PS C:\>Export-AzureRmApiManagementApi -Context $ApiMgmtContext -ApiId "0123456789" -SpecificationFormat "Wadl" -SaveAs "C:\contoso\specifications\0123456789.wadl"
+PS C:\> Export-AzureRmApiManagementApi -Context $ApiMgmtContext -ApiId "0123456789" -SpecificationFormat "Wadl" -SaveAs "C:\contoso\specifications\0123456789.wadl"
 ```
 
 This command exports an API to a WADL file.

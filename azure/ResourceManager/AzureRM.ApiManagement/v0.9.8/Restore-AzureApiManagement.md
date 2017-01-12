@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 50B7B72D-8158-46CA-A4B2-CBA6A97499C9
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/12/2017 1:09 AM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Restore-AzureApiManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Restore-AzureApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Restore-AzureApiManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/744a3daf267d93d9084ba9f20bf25d56439bcc7f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Restore-AzureApiManagement.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Restore-AzureApiManagement** cmdlet restores an API Management Service fro
 
 ### Example 1: Restore an API Management service
 ```
-PS C:\>Restore-AzureApiManagement -ResourceGroupName "ContosoGroup" -Name "RestoredContosoApi" -StorageContext $StorageContext -SourceContainerName "ContosoBackups" -SourceBlobName "ContosoBackup.apimbackup"
+PS C:\> Restore-AzureApiManagement -ResourceGroupName "ContosoGroup" -Name "RestoredContosoApi" -StorageContext $StorageContext -SourceContainerName "ContosoBackups" -SourceBlobName "ContosoBackup.apimbackup"
 ```
 
 This command restores an API Management service from Azure storage blob.

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 9A32354F-A995-4D47-B152-527761B5E22A
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 11:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryStorageMapping.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryStorageMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryStorageMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/980a24e01d9dd1158e819b034a40be469f1f1b06/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryStorageMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,8 +38,9 @@ The **Get-AzureSiteRecoveryStorageMapping** cmdlet gets mappings of Azure Site R
 
 ### Example 1: Get the mapping between a Storage object and a recovery Storage object
 ```
-PS C:\>$Servers = Get-AzureSiteRecoveryServer
+PS C:\> $Servers = Get-AzureSiteRecoveryServer
 PS C:\> Get-AzureSiteRecoveryStorageMapping -PrimaryServer $Servers[0] -RecoveryServer $Servers[1]
+
 PrimaryServerId     : 774859b0-1966-48cc-9df7-759c441b7a8c
 PrimaryStorageId    : 1c1d0c0b-0c50-4675-af1a-1fdac70dbb6d
 PrimaryStorageName  : phase2PrimaryStorageClassification

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: 7DA940A7-6CE1-4282-BF43-1CC881B2E011
-updated_at: 12/8/2016 5:59 PM
-ms.date: 12/8/2016
+updated_at: 1/11/2017 10:40 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d83562f79d01886ecd716d79ce086d2b009f21d3/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/053af8004c353b7e798073894cdf70355549517b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,7 +45,7 @@ The **Set-AzureRmApiManagementCertificate** cmdlet modifies an Azure API Managem
 
 ### Example 1: Modify a certificate
 ```
-PS C:\>Set-AzureRmApiManagementCertificate -Context $ApiMgmtContext -CertificateId "0123456789" -PfxFilePath "C:\contoso\certificates\apimanagementnew.pfx" -PfxPassword "2222"
+PS C:\> Set-AzureRmApiManagementCertificate -Context $ApiMgmtContext -CertificateId "0123456789" -PfxFilePath "C:\contoso\certificates\apimanagementnew.pfx" -PfxPassword "2222"
 ```
 
 This command modifies the specified API Management certificate.
@@ -163,5 +163,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementCertificate](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementCertificate.md)
 
 [Remove-AzureRmApiManagementCertificate](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementCertificate.md)
-
-

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C682A13B-872B-4113-AD0A-6E286E6CCA0B
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 11:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/New-AzureSiteRecoveryNetworkMapping.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/New-AzureSiteRecoveryNetworkMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/New-AzureSiteRecoveryNetworkMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/980a24e01d9dd1158e819b034a40be469f1f1b06/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/New-AzureSiteRecoveryNetworkMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,7 @@ This cmdlet returns an Azure Site Recovery job.
 
 ### Example 1: Create a mapping between a network and a recovery network
 ```
-PS C:\>$Servers = Get-AzureSiteRecoveryServer
+PS C:\> $Servers = Get-AzureSiteRecoveryServer
 PS C:\> $Networks = Get-AzureSiteRecoveryNetwork -Server $Servers[0]
 PS C:\> New-AzureSiteRecoveryNetworkMapping -PrimaryNetwork $Networks[0] -RecoveryNetwork $Networks[1]
 ```
@@ -64,7 +64,7 @@ The command specifies the recovery network as the second element of $Networks.
 
 ### Example 2: Create a mapping between a network and an Azure virtual machine network
 ```
-PS C:\>$Servers = Get-AzureSiteRecoveryServer
+PS C:\> $Servers = Get-AzureSiteRecoveryServer
 PS C:\> $Networks = Get-AzureSiteRecoveryNetwork -Server $Servers[0]
 PS C:\> $Subscriptions = Get-AzureSubscription
 PS C:\> $AzureVmNetworks = Get-AzureVNetSite

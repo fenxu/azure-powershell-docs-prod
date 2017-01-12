@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 7E00ADE6-C173-4F03-AC75-91F1E5F4A4ED
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,14 +39,14 @@ This process does not delete the underlying .vhd files of the disks mounted on t
 
 ### Example 1: Remove a virtual machine from a service
 ```
-PS C:\>Remove-AzureVM -ServiceName "ContosoService03" -Name "VirtualMachine03"
+PS C:\> Remove-AzureVM -ServiceName "ContosoService03" -Name "VirtualMachine03"
 ```
 
 This command removes the virtual machine named VirtualMachine03 that runs in the ContosoService03 service.
 
 ### Example 2: Remove a virtual machine and delete the .vhd files
 ```
-PS C:\>Remove-AzureVM -ServiceName "ContosoService03" -Name "VirtualMachine04" -DeleteVHD
+PS C:\> Remove-AzureVM -ServiceName "ContosoService03" -Name "VirtualMachine04" -DeleteVHD
 ```
 
 This command removes the VirtualMachine04 virtual machine that runs in the ContosoService03 service, and specifies to remove the .vhd files using the *DeleteVHD* parameter.

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 38D57CE4-6994-4BDA-A50E-28680EF4E568
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 3:50 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmExpressRouteCircuitAuthorization.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmExpressRouteCircuitAuthorization.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmExpressRouteCircuitAuthorization.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9fd0ccc312405e56f32bf397ccc83e3511675dfb/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmExpressRouteCircuitAuthorization.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,7 +43,7 @@ When that happens the corresponding virtual network is no longer able to use the
 
 ### Example 1: Remove a circuit authorization from an ExpressRoute circuit
 ```
-PS C:\>$Circuit = Get-AzureRmExpressRouteCircuit -Name "ContosoCircuit" -ResourceGroupName "ContosoResourceGroup"
+PS C:\> $Circuit = Get-AzureRmExpressRouteCircuit -Name "ContosoCircuit" -ResourceGroupName "ContosoResourceGroup"
 PS C:\> Remove-AzureRmExpressRouteCircuitAuthorization -Name "ContosoCircuitAuthorization" -Circuit $Circuit
 PS C:\> Set-AzureRmExpressRouteCircuit -ExpressRouteCircuit $Circuit
 ```
@@ -53,7 +53,7 @@ The first command uses the **Get-AzureRmExpressRouteCircuit** cmdlet to create a
 
 The second command marks the circuit authorization ContosoCircuitAuthorization for removal.
 
-The third command uses the Set-AzureRmExpressRouteCircuit cmdlet to confirm the removal of the ExpressRoute circuit stored in the $Circuit variable.
+The third command uses the [Set-AzureRmExpressRouteCircuit](./Set-AzureRmExpressRouteCircuit.md) cmdlet to confirm the removal of the ExpressRoute circuit stored in the $Circuit variable.
 
 ## PARAMETERS
 
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -ExpressRouteCircuit
-Specifies the ExpressRouteCircuit object that this cmdlet removes.
+Specifies the **ExpressRouteCircuit** object that this cmdlet removes.
 
 ```yaml
 Type: PSExpressRouteCircuit
@@ -152,5 +152,3 @@ This cmdlet modifies existing instances of the **Microsoft.Azure.Commands.Networ
 [New-AzureRmExpressRouteCircuitAuthorization](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmExpressRouteCircuitAuthorization.md)
 
 [Set-AzureRmExpressRouteCircuit](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmExpressRouteCircuit.md)
-
-

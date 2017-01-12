@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 5EAC75F0-B8E9-44B6-9F7E-020AC1B6B27F
-updated_at: 11/18/2016 8:33 AM
-ms.date: 11/18/2016
+updated_at: 1/11/2017 10:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppCollectionUsageDetails.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppCollectionUsageDetails.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppCollectionUsageDetails.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/45f0d6967fa74d25a9f1429acae86d4dfc7d3f01/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppCollectionUsageDetails.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Get-AzureRemoteAppCollectionUsageDetails** cmdlet retrieves usage details 
 
 ### Example 1: Get usage details for a collection
 ```
-PS C:\>Get-AzureRemoteAppCollectionUsageDetails -CollectionName Contoso -UsageMonth 12 -UsageYear 2014
+PS C:\> Get-AzureRemoteAppCollectionUsageDetails -CollectionName Contoso -UsageMonth 12 -UsageYear 2014
 ```
 
 This command gets usage details for the month of December in the year 2014, for an Azure RemoteApp collection named Contoso.

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: C6E65138-CD14-4A54-A901-8E944201F2AE
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 3:50 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVirtualNetworkGatewayIpConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVirtualNetworkGatewayIpConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVirtualNetworkGatewayIpConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9fd0ccc312405e56f32bf397ccc83e3511675dfb/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVirtualNetworkGatewayIpConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -42,11 +42,6 @@ New-AzureRmVirtualNetworkGatewayIpConfig -Name <String> [-PrivateIpAddress <Stri
 ## DESCRIPTION
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -177,4 +172,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

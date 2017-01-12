@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 03285628-6BD3-4F2F-8129-E3CAE4C70EC8
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 4:26 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmRouteConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmRouteConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmRouteConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d25b2832812152582a1c440155e6033f127b60be/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmRouteConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Remove-AzureRmRouteConfig** cmdlet removes a route from an Azure route tab
 
 ### Example 1: Remove a route
 ```
-PS C:\>Get-AzureRmRouteTable -ResourceGroupName "ResourceGroup11" -Name "RouteTable01" | Remove-AzureRmRouteConfig -Name "Route02" | Set-AzureRmRouteTable
+PS C:\> Get-AzureRmRouteTable -ResourceGroupName "ResourceGroup11" -Name "RouteTable01" | Remove-AzureRmRouteConfig -Name "Route02" | Set-AzureRmRouteTable
 Name              : RouteTable01
 ResourceGroupName : ResourceGroup11
 Location          : eastus
@@ -85,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -RouteTable
-Specifies the route table that contains the route that this cmdlet deletes.
+Specifies the route table that contains the route that this cmdlet removes.
 
 ```yaml
 Type: PSRouteTable
@@ -156,5 +156,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmRouteConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmRouteConfig.md)
 
 [Set-AzureRmRouteConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmRouteConfig.md)
-
-

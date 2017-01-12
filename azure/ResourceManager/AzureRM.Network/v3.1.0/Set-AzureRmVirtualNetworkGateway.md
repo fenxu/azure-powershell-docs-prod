@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 5C309071-A2ED-464C-9197-0A77859C8FBB
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 4:58 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/019d55e5427f1b23a116603492cb2a1977604795/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,7 +43,7 @@ The **Set-AzureRmVirtualNetworkGateway** cmdlet updates a virtual network gatewa
 
 ### Example 1: Set the goal state a virtual network gateway
 ```
-PS C:\>$Gateway = Get-AzureRmVirtualNetworkGateway -ResourceGroupName "ResourceGroup001" -Name "Gateway001"
+PS C:\> $Gateway = Get-AzureRmVirtualNetworkGateway -ResourceGroupName "ResourceGroup001" -Name "Gateway001"
 PS C:\> Set-AzureRmVirtualNetworkGateway -VirtualNetworkGateway $Gateway -Asn 1337
 ```
 
@@ -56,7 +56,7 @@ The command also sets the ASN to 1337.
 
 ### -VirtualNetworkGateway
 Specifies the virtual network gateway object to base modifications off of.
-You can use the Get-AzureRmVirtualNetworkGateway cmdlet to get the virtual network gateway object.
+You can use the [Get-AzureRmVirtualNetworkGateway](./Get-AzureRmVirtualNetworkGateway.md) cmdlet to get the virtual network gateway object.
 
 ```yaml
 Type: PSVirtualNetworkGateway
@@ -170,7 +170,7 @@ Accept wildcard characters: False
 ```
 
 ### -PeerWeight
-Specifies the weight added to routes learned over BGP from this virtual network gateway
+Specifies the weight added to routes learned over BGP from this virtual network gateway.
 
 ```yaml
 Type: Int32
@@ -185,7 +185,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnableActiveActiveFeature
-Enables the active-active feature.
+Indicates that the cmdlet enables the active-active feature.
 
 ```yaml
 Type: SwitchParameter
@@ -200,7 +200,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisableActiveActiveFeature
-Disables the active-active feature.
+Indicates that the cmdlet disables the active-active feature.
 
 ```yaml
 Type: SwitchParameter
@@ -274,5 +274,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Reset-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.1.0/Reset-AzureRmVirtualNetworkGateway.md)
 
 [Resize-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.1.0/Resize-AzureRmVirtualNetworkGateway.md)
-
-

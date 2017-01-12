@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 124055A6-181B-4BC1-BEAC-B5D43E5541FA
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureDataDisk.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureDataDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureDataDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureDataDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,17 +46,17 @@ Specify which data disk to update by its logical unit number (LUN).
 
 ### Example 1: Modify the host caching for a data disk
 ```
-PS C:\>Get-AzureVM "ContosoService" | Set-AzureDataDisk -VM "VirtualMachine07" -LUN 2 -HostCaching ReadOnly | Update-AzureVM
+PS C:\> Get-AzureVM "ContosoService" | Set-AzureDataDisk -VM "VirtualMachine07" -LUN 2 -HostCaching ReadOnly | Update-AzureVM
 ```
 
-This command gets the virtual machines that run on the service named ContosoService by using the Get-AzureVM cmdlet.
+This command gets the virtual machines that run on the service named ContosoService by using the **Get-AzureVM** cmdlet.
 The command passes them to the current cmdlet by using the pipeline operator.
 That cmdlet sets the data disk at LUN 2 of the virtual machine named VirtualMachine07 to use ReadOnly host caching.
-The command updates the virtual machine to reflect your changes by using the Update-AzureVM cmdlet.
+The command updates the virtual machine to reflect your changes by using the **Update-AzureVM** cmdlet.
 
 ### Example 2: Modify the host caching for all data disks on a virtual machine
 ```
-PS C:\>Get-AzureVM "ContosoService" -Name "VirtualMachine07" | Get-AzureDataDisk | Set-AzureDataDisk -HostCaching ReadWrite | Update-AzureVM
+PS C:\> Get-AzureVM "ContosoService" -Name "VirtualMachine07" | Get-AzureDataDisk | Set-AzureDataDisk -HostCaching ReadWrite | Update-AzureVM
 ```
 
 This command gets an object for the virtual machine named VirtualMachine07 on the ContosoService cloud service.
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 
 ### -VM
 Specifies the virtual machine object that is attached to the data disk.
-To obtain a virtual machine object, use the Get-AzureVM cmdlet.
+To obtain a virtual machine object, use the **Get-AzureVM** cmdlet.
 
 ```yaml
 Type: IPersistentVM

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 1DDFF4D9-39F5-429D-8E1C-A3170DFB2AE2
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMBGInfoExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMBGInfoExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMBGInfoExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureVMBGInfoExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,7 @@ The **Remove-AzureVMBGInfoExtension** cmdlet removes the BGInfo extension applie
 
 ### Example 1: Remove the BGInfo extension on a virtual machine
 ```
-PS C:\>Remove-AzureVMBGInfoExtension -VM $VM;
+PS C:\> Remove-AzureVMBGInfoExtension -VM $VM;
 ```
 
 This command removes the BGInfo extension applied on a virtual machine.

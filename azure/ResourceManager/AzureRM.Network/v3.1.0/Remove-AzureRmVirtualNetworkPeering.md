@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 1CE08F0F-A59E-46AC-B470-F1DCCD46513E
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 4:26 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkPeering.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkPeering.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkPeering.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d25b2832812152582a1c440155e6033f127b60be/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkPeering.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmVirtualNetworkPeering
 
 ## SYNOPSIS
-
+Removes the virtual network peering.
 ## SYNTAX
 
 ```
@@ -37,7 +37,7 @@ Remove-AzureRmVirtualNetworkPeering -VirtualNetworkName <String> -Name <String> 
 
 ### Example 1: Remove a virtual network peering
 ```
-PS C:\>Remove-AzureRmVirtualNetworkPeering -Name "LinkToVNet2" -VirtualNetworkName "MyVirtualNetwork" -ResourceGroupName "MyResourceGroup"
+PS C:\> Remove-AzureRmVirtualNetworkPeering -Name "LinkToVNet2" -VirtualNetworkName "MyVirtualNetwork" -ResourceGroupName "MyResourceGroup"
 ```
 
 This command removes the virtual network peering named LinkToVNet2 located in MyVirtualNetwork in the resource group named MyResourceGroup.
@@ -45,7 +45,7 @@ This command removes the virtual network peering named LinkToVNet2 located in My
 ## PARAMETERS
 
 ### -VirtualNetworkName
-The virtual network name.
+Specifies the virtual network name.
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The virtual network peering name.
+Specifies the virtual network peering name.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The resource group name
+Specifies the resource group name.
 
 ```yaml
 Type: String
@@ -200,4 +200,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

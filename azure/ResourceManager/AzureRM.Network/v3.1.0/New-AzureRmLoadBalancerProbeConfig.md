@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 2049CB74-E3CB-4294-B97C-B41E91209A1E
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 3:25 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerProbeConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerProbeConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerProbeConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5e931f72f809b581bf043f7510139dd0ba2cf0a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerProbeConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **New-AzureRmLoadBalancerProbeConfig** cmdlet creates a probe configuration 
 
 ### Example 1: Create a probe configuration
 ```
-PS C:\>New-AzureRmLoadBalancerProbeConfig -Name "MyProbe" -Protocol "http" -Port 80 -IntervalInSeconds 15 -ProbeCount 15
+PS C:\> New-AzureRmLoadBalancerProbeConfig -Name "MyProbe" -Protocol "http" -Port 80 -IntervalInSeconds 15 -ProbeCount 15
 ```
 
 This command creates a probe configuration named MyProbe using the HTTP protocol.
@@ -195,5 +195,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmLoadBalancerProbeConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmLoadBalancerProbeConfig.md)
 
 [Set-AzureRmLoadBalancerProbeConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmLoadBalancerProbeConfig.md)
-
-

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 93D8A341-540A-43F1-8C62-28323EAA58E0
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 4:58 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetwork.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/019d55e5427f1b23a116603492cb2a1977604795/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,11 +35,6 @@ Set-AzureRmVirtualNetwork -VirtualNetwork <PSVirtualNetwork> [-InformationAction
 The **Set-AzureRmVirtualNetwork** cmdlet sets the goal state for an Azure virtual network.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -115,5 +110,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVirtualNetwork.md)
 
 [Remove-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetwork.md)
-
-

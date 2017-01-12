@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: DCA352B1-6592-4E00-A7A0-087E823F2FE2
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 11:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryVaultSettings.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryVaultSettings.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryVaultSettings.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/980a24e01d9dd1158e819b034a40be469f1f1b06/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryVaultSettings.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,8 @@ The **Get-AzureSiteRecoveryVaultSettings** cmdlet gets settings information abou
 
 ### Example 1: Get settings information
 ```
-PS C:\>Get-AzureSiteRecoveryVaultSettings
+PS C:\> Get-AzureSiteRecoveryVaultSettings
+
 ResourceName                                                CloudServiceName
 ------------                                                ----------------
 ContosoVault                                                RecoveryServices-6JP23WE3SKKOM5AFQG2YQAI22MNOWK52QDKWMUP...

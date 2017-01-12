@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 2C0F66BB-E4F8-4384-AE80-178280CB4CFC
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMChefExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMChefExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMChefExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMChefExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,7 +49,7 @@ The **Set-AzureVMChefExtension** cmdlet adds the Chef extension to the virtual m
 
 ### Example 1: Add a Chef extension to a Windows virtual machine
 ```
-PS C:\>Set-AzureVMChefExtension -VM $VM -ValidationPem "C:\\myorg-validator.pem" -ClientRb "C:\\client.rb" -RunList "Apache" -Windows;
+PS C:\> Set-AzureVMChefExtension -VM $VM -ValidationPem "C:\\myorg-validator.pem" -ClientRb "C:\\client.rb" -RunList "Apache" -Windows;
 ```
 
 This command adds a Chef extension to a Windows virtual machine.
@@ -57,7 +57,7 @@ When the virtual machine comes up, it is bootstrapped with Chef and runs Apache 
 
 ### Example 2: Add a Chef extension to a Windows virtual machine with bootstrapping
 ```
-PS C:\>Set-AzureVMChefExtension -VM $VM -ValidationPem "C:\\myorg-validator.pem" -BootstrapOptions '{"chef_node_name":"your_node_name","chef_server_url":"https://api.opscode.com/organizations/some-org", "validation_client_name":"some-org-validator"}' -RunList "Apache" -Windows;
+PS C:\> Set-AzureVMChefExtension -VM $VM -ValidationPem "C:\\myorg-validator.pem" -BootstrapOptions '{"chef_node_name":"your_node_name","chef_server_url":"https://api.opscode.com/organizations/some-org", "validation_client_name":"some-org-validator"}' -RunList "Apache" -Windows;
 ```
 
 This command adds the Chef extension to a Windows virtual machine.
@@ -66,7 +66,7 @@ After bootstrapping, the virtual machine refers to the *BootstrapOptions* specif
 
 ### Example 3: Add a Chef extension to a Windows virtual machine and install Apache and GIT
 ```
-PS C:\>Set-AzureVMChefExtension -VM $VM -ValidationPem "C:\\myorg-validator.pem" -ChefServerUrl "http://ipaddress:port" -ValidationClientName "MyOrg-Validator" -RunList "apache, git" -Windows;
+PS C:\> Set-AzureVMChefExtension -VM $VM -ValidationPem "C:\\myorg-validator.pem" -ChefServerUrl "http://ipaddress:port" -ValidationClientName "MyOrg-Validator" -RunList "apache, git" -Windows;
 ```
 
 This command adds the Chef extension to a Windows virtual machine.
@@ -75,7 +75,7 @@ If you do not provide the client.rb, you need to provide the Chef server URL and
 
 ### Example 4: Add a Chef extension to a Linux virtual machine
 ```
-PS C:\>Set-AzureVMChefExtension -VM $VM -ValidationPem "C:\\myorg-validator.pem" -ChefServerUrl "http://ipaddress:port" -OrganizationName "MyOrg" -Linux;
+PS C:\> Set-AzureVMChefExtension -VM $VM -ValidationPem "C:\\myorg-validator.pem" -ChefServerUrl "http://ipaddress:port" -OrganizationName "MyOrg" -Linux;
 ```
 
 This command adds the Chef extension to a Linux virtual machine.

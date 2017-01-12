@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 958159CE-EFD3-4CA6-963C-ECC47A679007
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/12/2017 1:09 AM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Update-AzureApiManagementRegion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Update-AzureApiManagementRegion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Update-AzureApiManagementRegion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/744a3daf267d93d9084ba9f20bf25d56439bcc7f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Update-AzureApiManagementRegion.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,11 +38,6 @@ This cmdlet does not deploy anything but updates an instance of **PsApiManagemen
 To update a deployment of an API Management use the modified **PsApiManagementInstance** with the Update-AzureApiManagementDeployment cmdlet.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -175,5 +170,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Update-AzureApiManagementDeployment](xref:ResourceManager/AzureRM.ApiManagement/v0.9.8/Update-AzureApiManagementDeployment.md)
-
-

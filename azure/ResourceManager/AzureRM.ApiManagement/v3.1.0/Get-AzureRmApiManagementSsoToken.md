@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: A7CABC63-2E9C-474B-A4F0-69F13A16F65A
 online version: 
 schema: 2.0.0
-updated_at: 12/15/2016 10:08 PM
-ms.date: 12/15/2016
+updated_at: 1/11/2017 8:44 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementSsoToken.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementSsoToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b786cde0d2ec0899d0ad5d31000d0bdea023b70b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementSsoToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e6a0656340eb7c14dba7902e574fdb3e8917955/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementSsoToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Get-AzureRmApiManagementSsoToken** cmdlet returns a link (URL) containing 
 
 ### Example 1: Get the SSO token of an API Management service
 ```
-PS C:\>Get-AzureRmApiManagementSsoToken -ResourceGroupName "Contoso" -Name "ContosoApi"
+PS C:\> Get-AzureRmApiManagementSsoToken -ResourceGroupName "Contoso" -Name "ContosoApi"
 ```
 
 This command gets the SSO token of an API Management service.

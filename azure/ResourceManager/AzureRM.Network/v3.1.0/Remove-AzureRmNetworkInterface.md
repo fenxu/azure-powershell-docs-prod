@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: C83A0465-45EF-4FCC-B706-D5DF819664F0
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 4:26 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmNetworkInterface.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmNetworkInterface.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmNetworkInterface.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d25b2832812152582a1c440155e6033f127b60be/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmNetworkInterface.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Remove-AzureRmNetworkInterface** cmdlet removes an Azure network interface
 
 ### Example 1: Remove a network interface
 ```
-PS C:\>Remove-AzureRmNetworkInterface -Name "NetworkInterface1" -ResourceGroup "ResourceGroup1"
+PS C:\> Remove-AzureRmNetworkInterface -Name "NetworkInterface1" -ResourceGroup "ResourceGroup1"
 ```
 
 This command removes the network interface NetworkInterface1 in resource group ResourceGroup1.
@@ -47,7 +47,7 @@ Because the *Force* parameter is not used, the user will be prompted to confirm 
 
 ### Example 2: Remove a network interface
 ```
-PS C:\>Get-AzureRmNetworkInterface -ResourceGroupName "ResourceGroup1" | Remove-AzureRmNetworkInterface -Force
+PS C:\> Get-AzureRmNetworkInterface -ResourceGroupName "ResourceGroup1" | Remove-AzureRmNetworkInterface -Force
 ```
 
 This command removes all network interfaces in resource group ResourceGroup1.
@@ -202,5 +202,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmNetworkInterface.md)
 
 [Set-AzureRmNetworkInterface](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmNetworkInterface.md)
-
-

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 55D36D75-46AB-4D66-B3EB-A1DC635D0D4A
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 8:44 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementApi.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementApi.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementApi.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e6a0656340eb7c14dba7902e574fdb3e8917955/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementApi.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -57,21 +57,21 @@ The **Get-AzureRmApiManagementApi** cmdlet gets one or more Azure API Management
 
 ### Example 1: Get all management APIs
 ```
-PS C:\>Get-AzureRmApiManagementApi -Context $ApiMgmtContext
+PS C:\> Get-AzureRmApiManagementApi -Context $ApiMgmtContext
 ```
 
 This command gets all of the APIs for the specified context.
 
 ### Example 2: Get a management API by ID
 ```
-PS C:\>Get-AzureRmApiManagementApi -Context $ApiMgmtContext -ApiId $ApiId
+PS C:\> Get-AzureRmApiManagementApi -Context $ApiMgmtContext -ApiId $ApiId
 ```
 
 This command gets the API with the specified ID.
 
 ### Example 3: Get a management API by name
 ```
-PS C:\>Get-AzureRmApiManagementApi -Context $ApiMgmtContext -Name "EchoApi"
+PS C:\> Get-AzureRmApiManagementApi -Context $ApiMgmtContext -Name "EchoApi"
 ```
 
 This command gets the API with the specified name.

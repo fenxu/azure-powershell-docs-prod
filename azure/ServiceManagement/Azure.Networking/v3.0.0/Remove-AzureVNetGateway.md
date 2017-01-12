@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 
 schema: 2.0.0
 ms.assetid: 49F7AE40-49FE-4406-ADB2-FF1935128D0D
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 12:24 AM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureVNetGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureVNetGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureVNetGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e57471ccf6c62263125f4c01fc0b0ce8ed76d386/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Remove-AzureVNetGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,7 @@ The **Remove-AzureVNetGateway** cmdlet deletes an existing virtual private netwo
 
 ### Example 1: Remove a virtual network gateway
 ```
-PS C:\>Remove-AzureVNetGateway -VNetName "ContosoVN07"
+PS C:\> Remove-AzureVNetGateway -VNetName "ContosoVN07"
 ```
 
 This command removes the virtual network gateway from the virtual network named ContosoVN07.

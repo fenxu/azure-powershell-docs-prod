@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: 64E1D29F-E0CD-4301-81C1-87ED5EFB3161
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 10:43 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4df6f2abe31d9c0d1b6b5e609631a0b750350f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -61,28 +61,28 @@ The **Get-AzureRmApiManagementPolicy** cmdlet gets the specified scope policy.
 
 ### Example 1: Get the tenant level policy
 ```
-PS C:\>Get-AzureRmApiManagementPolicy -Context $APImContext -SaveAs "C:\contoso\policies\tenantpolicy.xml"
+PS C:\> Get-AzureRmApiManagementPolicy -Context $APImContext -SaveAs "C:\contoso\policies\tenantpolicy.xml"
 ```
 
 This command gets tenant level policy and saves it to a file named tenantpolicy.xml.
 
 ### Example 2: Get the product-scope policy
 ```
-PS C:\>Get-AzureRmApiManagementPolicy -Context $APImContext -ProductId "0123456789"
+PS C:\> Get-AzureRmApiManagementPolicy -Context $APImContext -ProductId "0123456789"
 ```
 
 This command gets product-scope policy
 
 ### Example 3: Get the API-scope policy
 ```
-PS C:\>Get-AzureRmApiManagementPolicy -Context $APImContext -ApiId "9876543210"
+PS C:\> Get-AzureRmApiManagementPolicy -Context $APImContext -ApiId "9876543210"
 ```
 
 This command gets API-scope policy.
 
 ### Example 4: Get the operation-scope policy
 ```
-PS C:\>Get-AzureRmApiManagementPolicy -Context $APImContext -ApiId "9876543210" -OperationId "777"
+PS C:\> Get-AzureRmApiManagementPolicy -Context $APImContext -ApiId "9876543210" -OperationId "777"
 ```
 
 This command gets the operation-scope policy.

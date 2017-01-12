@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A7AE3270-17A2-46DD-9E0D-7A245BB9876D
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 10:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppTemplateImage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppTemplateImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppTemplateImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/45f0d6967fa74d25a9f1429acae86d4dfc7d3f01/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Get-AzureRemoteAppTemplateImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,14 +39,14 @@ If no template image is specified, it retrieves information about all the templa
 
 ### Example 1: Get a list of all template images
 ```
-PS C:\>Get-AzureRemoteAppTemplateImage
+PS C:\> Get-AzureRemoteAppTemplateImage
 ```
 
 This command returns the list of all template images.
 
 ### Example 2: Retrieve information about a specified template image
 ```
-PS C:\>Get-AzureRemoteAppTemplateImage -ImageName "ContosoApps"
+PS C:\> Get-AzureRemoteAppTemplateImage -ImageName "ContosoApps"
 ```
 
 This command retrieves information about the template image named ContosoApps.

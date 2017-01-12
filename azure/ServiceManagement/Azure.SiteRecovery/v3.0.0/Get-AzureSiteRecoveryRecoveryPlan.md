@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B631E512-731C-4024-A1AA-239D4CC2B8DF
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 11:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryRecoveryPlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryRecoveryPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryRecoveryPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/980a24e01d9dd1158e819b034a40be469f1f1b06/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryRecoveryPlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -50,7 +50,8 @@ A recovery plan gathers virtual machines in a group for the purposes of failover
 
 ### Example 1: Get a recovery plan
 ```
-PS C:\>Get-AzureSiteRecoveryRecoveryPlan
+PS C:\> Get-AzureSiteRecoveryRecoveryPlan
+
 ID                            Name                          ServerId                      TargetServerId
 --                            ----                          --------                      --------------
 71de8ebc-1e9a-4242-aec3-ee... ContosoPlan                   4a94c4a9-c856-4577-afbd-36... 78facf56-b273-4941-82fd-cc...

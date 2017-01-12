@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: F8068AF1-3380-4E60-B6CF-CC584BD053A7
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 4:26 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayHttpListener.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayHttpListener.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayHttpListener.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d25b2832812152582a1c440155e6033f127b60be/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmApplicationGatewayHttpListener.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -50,7 +50,7 @@ The **Set-AzureRmApplicationGatewayHttpListener** cmdlet modifies an HTTP listen
 
 ### Example 1: Set an HTTP listener
 ```
-PS C:\>$AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $AppGw = Set-AzureRmApplicationGatewayHttpListener -ApplicationGateway $AppGw -Name "Listener01" -Protocol Http -FrontendIpConfiguration $FIP01 -FrontendPort 80
 ```
 
@@ -291,5 +291,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmApplicationGatewayHttpListener.md)
 
 [Remove-AzureRmApplicationGatewayHttpListener](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewayHttpListener.md)
-
-

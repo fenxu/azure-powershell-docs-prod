@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 35283A6C-F27D-4B85-ABB6-FCEDC86D2157
 online version: 
 schema: 2.0.0
-updated_at: 12/15/2016 11:11 PM
-ms.date: 12/15/2016
+updated_at: 1/11/2017 8:44 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementOpenIdConnectProvider.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementOpenIdConnectProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/09d77fe04dadec70394dc03b69cb24dee37546de/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementOpenIdConnectProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e6a0656340eb7c14dba7902e574fdb3e8917955/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementOpenIdConnectProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Remove-AzureRmApiManagementOpenIdConnectProvider** cmdlet removes an OpenI
 
 ### Example 1: Remove a provider
 ```
-PS C:\>Remove-AzureRmApiManagementOpenIdConnectProvider -Context $ApimContext -OpenIdConnectProviderId "OICProvicer01" -PassThru
+PS C:\> Remove-AzureRmApiManagementOpenIdConnectProvider -Context $ApimContext -OpenIdConnectProviderId "OICProvicer01" -PassThru
 ```
 
 This command removes a provider that has the ID OICProvicer01.

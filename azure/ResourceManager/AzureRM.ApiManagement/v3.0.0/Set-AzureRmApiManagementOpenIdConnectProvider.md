@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: E9900305-36BC-4D7B-8B1E-7A498378FCE4
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 10:40 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/053af8004c353b7e798073894cdf70355549517b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Set-AzureRmApiManagementOpenIdConnectProvider** cmdlet modifies an OpenID 
 
 ### Example 1: Change the client secret for a provider
 ```
-PS C:\>Set-AzureRmApiManagementOpenIdConnectProvider -Context $ApimContext -OpenIdConnectProviderId "OICProvicer01" -ClientSecret "q2w3e43r45" -PassThru
+PS C:\> Set-AzureRmApiManagementOpenIdConnectProvider -Context $ApimContext -OpenIdConnectProviderId "OICProvicer01" -ClientSecret "q2w3e43r45" -PassThru
 ```
 
 This command modifies the provider that has the ID OICProvicer01.
@@ -139,7 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-Specifies a description.
+Specifies a description for the provider.
 
 ```yaml
 Type: String
@@ -186,5 +186,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementOpenIdConnectProvider](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementOpenIdConnectProvider.md)
 
 [Remove-AzureRmApiManagementOpenIdConnectProvider](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/Remove-AzureRmApiManagementOpenIdConnectProvider.md)
-
-

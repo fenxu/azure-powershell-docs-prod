@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 04C28866-B197-47C3-9C1A-79C95B9F52D5
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 10:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/New-AzureSiteRecoveryNetworkMapping.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/New-AzureSiteRecoveryNetworkMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/New-AzureSiteRecoveryNetworkMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e460734ba591f3a2e82060724b596fbf2dcb96b3/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/New-AzureSiteRecoveryNetworkMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,15 +45,15 @@ The **New-AzureSiteRecoveryNetworkMapping** cmdlet creates a mapping between two
 
 ### Example 1: Create a mapping between a network and a recovery network
 ```
-PS C:\>$Servers = Get-AzureSiteRecoveryServer
+PS C:\> $Servers = Get-AzureSiteRecoveryServer
 PS C:\> $Networks = Get-AzureSiteRecoveryNetwork -Server $Servers[0]
 PS C:\> New-AzureSiteRecoveryNetworkMapping -PrimaryNetwork $Networks[0] -RecoveryNetwork $Networks[1]
 ```
 
-The first command cmdlet gets servers for the current Azure Site Recovery vault by using the Get-AzureSiteRecoveryServer cmdlet.
+The first command cmdlet gets servers for the current Azure Site Recovery vault by using the **Get-AzureSiteRecoveryServer** cmdlet.
 The command stores the Site Recovery servers in the $Servers array variable.
 
-The second command gets the site recovery network for the first server in the $Servers array by using the Get-AzureSiteRecoveryNetwork cmdlet.
+The second command gets the site recovery network for the first server in the $Servers array by using the **Get-AzureSiteRecoveryNetwork** cmdlet.
 The command stores the networks in the $Networks variable.
 
 The final command creates a mapping between the primary network and the recovery network.

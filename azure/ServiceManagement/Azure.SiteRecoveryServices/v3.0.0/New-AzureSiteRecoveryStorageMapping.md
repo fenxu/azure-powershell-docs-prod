@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 999C1BCD-B73A-4DE5-909D-B2B7D1DB5347
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 10:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/New-AzureSiteRecoveryStorageMapping.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/New-AzureSiteRecoveryStorageMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/New-AzureSiteRecoveryStorageMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e460734ba591f3a2e82060724b596fbf2dcb96b3/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/New-AzureSiteRecoveryStorageMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,12 +38,12 @@ The **New-AzureSiteRecoveryStorageMapping** cmdlet creates a mapping between an 
 
 ### Example 1: Create a mapping between a storage object and a recovery storage object
 ```
-PS C:\>$Servers = Get-AzureSiteRecoveryServer
+PS C:\> $Servers = Get-AzureSiteRecoveryServer
 PS C:\> $Storages = Get-AzureSiteRecoveryStorage -Server $Servers[0]
 PS C:\> New-AzureSiteRecoveryStorageMapping -PrimaryStorage $Storages[0] -RecoveryStorage $Storages[1]
 ```
 
-The first command cmdlet gets servers for the current Azure Site Recovery vault by using the **Get-AzureSiteRecoveryServer** cmdlet.
+The first command gets servers for the current Azure Site Recovery vault by using the **Get-AzureSiteRecoveryServer** cmdlet.
 The command stores the Site Recovery servers in the $Servers array variable.
 
 The second command gets the site recovery storage for the first server in the $Servers array, and then stores it in the $Storages.

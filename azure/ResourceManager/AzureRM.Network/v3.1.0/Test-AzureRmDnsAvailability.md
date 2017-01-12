@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 556A9F12-DF72-468F-9C3F-A747CC70BD2F
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 5:03 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Test-AzureRmDnsAvailability.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Test-AzureRmDnsAvailability.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Test-AzureRmDnsAvailability.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/250906d968edb12911f0c987961d4bfa82e26116/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Test-AzureRmDnsAvailability.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,11 +33,6 @@ Test-AzureRmDnsAvailability -DomainNameLabel <String> -Location <String>
 ## DESCRIPTION
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -116,4 +111,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

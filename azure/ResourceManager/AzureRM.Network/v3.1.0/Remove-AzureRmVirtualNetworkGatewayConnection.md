@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 15958F3D-291A-4E49-A667-9792E9A1577A
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 4:26 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkGatewayConnection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkGatewayConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkGatewayConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d25b2832812152582a1c440155e6033f127b60be/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkGatewayConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,11 +36,6 @@ Remove-AzureRmVirtualNetworkGatewayConnection -Name <String> -ResourceGroupName 
 The **Remove-AzureRmVirtualNetworkGatewayConnection** cmdlet removes a virtual network gateway connection.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -191,5 +186,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmVirtualNetworkGatewayConnection](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmVirtualNetworkGatewayConnection.md)
 
 [Set-AzureRmVirtualNetworkGatewayConnection](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkGatewayConnection.md)
-
-

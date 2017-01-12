@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 98D2EB70-440F-45C4-A79A-EB87BBDC6256
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 4:26 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmLoadBalancerInboundNatPoolConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmLoadBalancerInboundNatPoolConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmLoadBalancerInboundNatPoolConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d25b2832812152582a1c440155e6033f127b60be/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmLoadBalancerInboundNatPoolConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmLoadBalancerInboundNatPoolConfig
 
 ## SYNOPSIS
+Removes an inbound NAT pool configuration from a load balancer.
 
 ## SYNTAX
 
@@ -31,17 +32,15 @@ Remove-AzureRmLoadBalancerInboundNatPoolConfig [-Name <String>] -LoadBalancer <P
 ```
 
 ## DESCRIPTION
+The **Remove-AzureRmLoadBalancerInboundNatPoolConfig** cmdlet removes an inbound network address translation (NAT) pool configuration from an Azure load balancer.
 
 ## EXAMPLES
-
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 
 ### -Name
+Specifies the name of the inbound NAT pool configuration that this cmdlet removes.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -55,6 +54,8 @@ Accept wildcard characters: False
 ```
 
 ### -LoadBalancer
+Specifies the **LoadBalancer** object that contains the inbound NAT pool configuration that this cmdlet removes.
+
 ```yaml
 Type: PSLoadBalancer
 Parameter Sets: (All)
@@ -117,3 +118,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Add-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Add-AzureRmLoadBalancerInboundNatPoolConfig.md)
+
+[Get-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmLoadBalancerInboundNatPoolConfig.md)
+
+[New-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerInboundNatPoolConfig.md)
+
+[Set-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmLoadBalancerInboundNatPoolConfig.md)

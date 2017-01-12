@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.RemoteApp.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: DB10F5F5-1A53-4631-9A35-A3C86F1F8F3D
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 10:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Set-AzureRemoteAppCollection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Set-AzureRemoteAppCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Set-AzureRemoteAppCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/45f0d6967fa74d25a9f1429acae86d4dfc7d3f01/azureps-cmdlets-docs/ServiceManagement/Azure.RemoteApp/v3.0.0/Set-AzureRemoteAppCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -61,10 +61,6 @@ The **Set-AzureRemoteAppCollection** cmdlet sets the properties of an Azure Remo
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -101,7 +97,7 @@ Accept wildcard characters: False
 
 ### -CustomRdpProperty
 Specifies custom Remote Desktop Protocol (RDP) properties which can be used to configure drive redirection and other settings. 
-See RDP Settings for Remote Desktop Services in Windows Serverhttps://technet.microsoft.com/library/ff393699(v=ws.10).aspx (https://technet.microsoft.com/library/ff393699(v=ws.10).aspx) for details.
+See [RDP Settings for Remote Desktop Services in Windows Server](https://technet.microsoft.com/library/ff393699.aspx) (https://technet.microsoft.com/library/ff393699.aspx) for details.
 
 ```yaml
 Type: String

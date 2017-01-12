@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 
 schema: 2.0.0
 ms.assetid: 89F8ED69-05A2-44E1-86D9-C75F61653D25
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 12:24 AM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVNetGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVNetGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVNetGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e57471ccf6c62263125f4c01fc0b0ce8ed76d386/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureVNetGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,7 @@ The **Get-AzureVNetGateway** cmdlet gets the status of an existing virtual netwo
 
 ### Example 1: Get the status of a virtual network gateway
 ```
-PS C:\>Get-AzureVNetGateway -VNetName "ContosoVN07"
+PS C:\> Get-AzureVNetGateway -VNetName "ContosoVN07"
 ```
 
 This command gets that status of the virtual network gateway for the virtual network named ContosoVN07.

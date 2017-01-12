@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 65E9C4D5-4D2C-4039-A87B-4E693B97C4CB
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 4:26 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkGatewayDefaultSite.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkGatewayDefaultSite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkGatewayDefaultSite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d25b2832812152582a1c440155e6033f127b60be/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmVirtualNetworkGatewayDefaultSite.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,13 +37,13 @@ Forced tunneling provides a way for you to redirect Internet-bound traffic from 
 Forced tunneling is carried out by using a virtual private network (VPN) tunnel; this tunnel requires a default site, a local gateway where all the Azure Internet-bound traffic is redirected.
 
 **Remove-AzureRmVirtualNetworkGatewayDefaultSite** removes the default site assigned to a gateway.
-If you do this you will need to use Set-AzureRmVirtualNetworkGatewayDefaultSite to assign a new default site before the gateway can be used for forced tunneling.
+If you do this you will need to use [Set-AzureRmVirtualNetworkGatewayDefaultSite](./Set-AzureRmVirtualNetworkGatewayDefaultSite.md) to assign a new default site before the gateway can be used for forced tunneling.
 
 ## EXAMPLES
 
 ### Example 1: Remove the default site assigned to a virtual network gateway
 ```
-PS C:\>$Gateway = Get-AzureRmVirtualNetworkGateway -Name "ContosoVirtualGateway"
+PS C:\> $Gateway = Get-AzureRmVirtualNetworkGateway -Name "ContosoVirtualGateway"
 PS C:\> Remove-AzureRmVirtualNetworkGatewayDefaultSite -VirtualNetworknGateway $Gateway
 ```
 
@@ -57,7 +57,7 @@ The second command then uses **Remove-AzureRmVirtualNetworkGatewayDefaultSite** 
 
 ### -VirtualNetworkGateway
 Specifies an object reference to the virtual network gateway containing the default site to be removed.
-You can create an object reference to a virtual network gateway by using the Get-AzureRmVirtualNetworkGateway and specifying the name of the gateway.
+You can create an object reference to a virtual network gateway by using the [Get-AzureRmVirtualNetworkGateway](./Get-AzureRmVirtualNetworkGateway.md) and specifying the name of the gateway.
 
 ```yaml
 Type: PSVirtualNetworkGateway
@@ -130,5 +130,3 @@ This cmdlet modifies existing instances of the **Microsoft.Azure.Commands.Networ
 [Get-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.1.0/Get-AzureRmVirtualNetworkGateway.md)
 
 [Set-AzureRmVirtualNetworkGatewayDefaultSite](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkGatewayDefaultSite.md)
-
-

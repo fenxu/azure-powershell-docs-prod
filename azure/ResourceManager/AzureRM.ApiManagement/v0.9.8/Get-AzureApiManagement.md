@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: ACBDA593-929B-4D8A-B082-6518467E37CD
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/12/2017 1:09 AM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/744a3daf267d93d9084ba9f20bf25d56439bcc7f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagement.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,14 +49,14 @@ The **Get-AzureApiManagement** cmdlet gets a list of all API Management services
 
 ### Example 1: Get all API Management services
 ```
-PS C:\>Get-AzureApiManagement
+PS C:\> Get-AzureApiManagement
 ```
 
 This command gets all API Management services within a subscription.
 
 ### Example 2: Get all API Management services by a specific name
 ```
-PS C:\>Get-AzureApiManagement -ResourceGroupName "ContosoGroup" -Name "ContosoApi"
+PS C:\> Get-AzureApiManagement -ResourceGroupName "ContosoGroup" -Name "ContosoApi"
 ```
 
 This command gets all API Management service by name.

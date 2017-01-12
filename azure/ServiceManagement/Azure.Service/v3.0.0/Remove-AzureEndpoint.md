@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 078056DF-25CB-41C9-9E1C-F57866526315
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureEndpoint.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureEndpoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureEndpoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,13 +37,13 @@ The **Remove-AzureEndpoint** cmdlet deletes an endpoint from an Azure virtual ma
 
 ### Example 1: Remove an endpoint
 ```
-PS C:\>Get-AzureVM -ServiceName "ContosoService" -Name "VirutalMachine01" | Remove-AzureEndpoint -Name "HttpIn" | Update-AzureVM
+PS C:\> Get-AzureVM -ServiceName "ContosoService" -Name "VirutalMachine01" | Remove-AzureEndpoint -Name "HttpIn" | Update-AzureVM
 ```
 
-This command retrieves the configuration of a virtual machine named VirtualMachine01 by using the Get-AzureVM cmdlet.
+This command retrieves the configuration of a virtual machine named VirtualMachine01 by using the **Get-AzureVM** cmdlet.
 The command passes it to the current cmdlet by using the pipeline operator.
 This cmdlet removes an endpoint named HttpIn.
-The command passes the virtual machine object to the Update-AzureVM cmdlet, which implements your changes.
+The command passes the virtual machine object to the **Update-AzureVM** cmdlet, which implements your changes.
 
 ## PARAMETERS
 

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: E40CAF2F-ED57-4AC1-8B9A-E48042DD8F91
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 3:25 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmExpressRouteCircuit.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmExpressRouteCircuit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmExpressRouteCircuit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5e931f72f809b581bf043f7510139dd0ba2cf0a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmExpressRouteCircuit.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -41,14 +41,11 @@ The **New-AzureRmExpressRouteCircuit** cmdlet creates an Azure express route cir
 
 ## EXAMPLES
 
-### 1:
-```
-PS C:\>
-```
-
 ## PARAMETERS
 
 ### -Name
+Specifies the name of the express route circuit this cmdlet creates.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -62,6 +59,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
+Specifies the name of the resource group that contains the express route circuit.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -299,4 +298,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

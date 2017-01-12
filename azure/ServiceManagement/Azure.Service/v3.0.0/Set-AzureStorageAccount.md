@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: E3DD9FF9-1C44-4408-B4A1-A73DE075FE9C
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureStorageAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureStorageAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,21 +46,21 @@ Properties that can be set are: **Label**, **Description**, **Type** and **GeoRe
 
 ### Example 1: Update the label for a storage account
 ```
-PS C:\>Set-AzureStorageAccount -StorageAccountName "ContosoStorage01" -Label "ContosoAccnt" -Description "Contoso storage account"
+PS C:\> Set-AzureStorageAccount -StorageAccountName "ContosoStorage01" -Label "ContosoAccnt" -Description "Contoso storage account"
 ```
 
 This command updates the **Label** and **Description** properties for the storage account named ContosoStorage01.
 
 ### Example 2: Enable geo-replication for a storage account
 ```
-PS C:\>Set-AzureStorageAccount -StorageAccountName "ContosoStorage01" -GeoReplicationEnabled $False
+PS C:\> Set-AzureStorageAccount -StorageAccountName "ContosoStorage01" -GeoReplicationEnabled $False
 ```
 
 This command sets the **GeoReplicationEnabled** property to $False for the storage account named ContosoStorage01.
 
 ### Example 3: Disable geo-replication for a storage account
 ```
-PS C:\>Set-AzureStorageAccount -StorageAccountName "ContosoStorage01" -GeoReplicationEnabled $True
+PS C:\> Set-AzureStorageAccount -StorageAccountName "ContosoStorage01" -GeoReplicationEnabled $True
 ```
 
 This command sets the **GeoReplicationEnabled** property to $True for the storage account named ContosoStorage01.

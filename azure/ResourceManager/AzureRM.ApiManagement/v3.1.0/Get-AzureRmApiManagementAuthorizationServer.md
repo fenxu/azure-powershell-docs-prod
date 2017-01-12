@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 048C3D55-FAD9-4755-AE85-3A8DA76018B0
 online version: 
 schema: 2.0.0
-updated_at: 12/15/2016 10:08 PM
-ms.date: 12/15/2016
+updated_at: 1/11/2017 8:44 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementAuthorizationServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementAuthorizationServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b786cde0d2ec0899d0ad5d31000d0bdea023b70b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementAuthorizationServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e6a0656340eb7c14dba7902e574fdb3e8917955/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Get-AzureRmApiManagementAuthorizationServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,14 +45,14 @@ The **Get-AzureRmApiManagementAuthorizationServer** cmdlet gets all Azure API Ma
 
 ### Example 1: Get all authorization servers
 ```
-PS C:\>Get-AzureRmApiManagementAuthrizarionServer -Context $ApiMgmtContext
+PS C:\> Get-AzureRmApiManagementAuthrizarionServer -Context $ApiMgmtContext
 ```
 
 This command gets all API Management authorization servers.
 
 ### Example 2: Get a specified authorization server
 ```
-PS C:\>Get-AzureRmApiManagementCertificate -Context $ApiMgmtContext -ServerId "0123456789"
+PS C:\> Get-AzureRmApiManagementCertificate -Context $ApiMgmtContext -ServerId "0123456789"
 ```
 
 This command gets the specified authorization server.

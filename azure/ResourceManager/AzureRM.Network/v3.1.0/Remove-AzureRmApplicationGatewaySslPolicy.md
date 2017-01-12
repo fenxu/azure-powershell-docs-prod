@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: A308E4DD-49FA-4905-94A7-CEA3AAEC3959
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 1/11/2017 3:50 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewaySslPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewaySslPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewaySslPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9fd0ccc312405e56f32bf397ccc83e3511675dfb/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmApplicationGatewaySslPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -32,15 +32,14 @@ Remove-AzureRmApplicationGatewaySslPolicy -ApplicationGateway <PSApplicationGate
 ```
 
 ## DESCRIPTION
-The Remove-AzureRmApplicationGatewaySslPolicy cmdlet removes SSL policy from an Azure application gateway.
+The **Remove-AzureRmApplicationGatewaySslPolicy** cmdlet removes SSL policy from an Azure application gateway.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Remove an SSL policy from an application gateway  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Remove an SSL policy from an application gateway
 
 ```
-PS C:\>$AppGW = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $AppGW = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $AppGW = Remove-AzureRmApplicationGatewaySslPolicy -ApplicationGateway $AppGW
 ```
 
@@ -79,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Do not ask for confirmation.
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -127,4 +126,3 @@ Keywords: azure, azurerm, arm, resource, management, manager, network, networkin
 [New-AzureRmApplicationGatewaySslPolicy]()
 
 [Get-AzureRmApplicationGatewaySslPolicy]()
-

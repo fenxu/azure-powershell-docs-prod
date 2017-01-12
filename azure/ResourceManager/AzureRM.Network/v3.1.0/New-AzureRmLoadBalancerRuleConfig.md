@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: FD84D530-491B-4075-A6B4-2E1C46AD92D4
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 3:25 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5e931f72f809b581bf043f7510139dd0ba2cf0a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmLoadBalancerRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,11 +46,6 @@ New-AzureRmLoadBalancerRuleConfig -Name <String> [-FrontendIpConfiguration <PSFr
 The **New-AzureRmLoadBalancerRuleConfig** cmdlet creates a rule configuration for an Azure load balancer.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -312,5 +307,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmLoadBalancerRuleConfig.md)
 
 [Set-AzureRmLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmLoadBalancerRuleConfig.md)
-
-

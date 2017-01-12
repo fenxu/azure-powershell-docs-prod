@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 443F6492-EFA7-4417-943A-3A8D47F8C83C
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 4:26 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Reset-AzureRmVirtualNetworkGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Reset-AzureRmVirtualNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Reset-AzureRmVirtualNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d25b2832812152582a1c440155e6033f127b60be/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Reset-AzureRmVirtualNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,14 +34,10 @@ Reset-AzureRmVirtualNetworkGateway -VirtualNetworkGateway <PSVirtualNetworkGatew
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
-
 ## PARAMETERS
 
 ### -VirtualNetworkGateway
+
 ```yaml
 Type: PSVirtualNetworkGateway
 Parameter Sets: (All)
@@ -113,5 +109,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Resize-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.1.0/Resize-AzureRmVirtualNetworkGateway.md)
 
 [Set-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmVirtualNetworkGateway.md)
-
-

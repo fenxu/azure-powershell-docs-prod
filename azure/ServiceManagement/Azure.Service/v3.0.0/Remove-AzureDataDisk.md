@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: C5AB74C6-B1BD-4CFD-8848-A41F8C5CFE80
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureDataDisk.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureDataDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureDataDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Remove-AzureDataDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,16 +39,16 @@ By default, this cmdlet does not remove the data disk blob from the storage acco
 
 ### Example 1: Remove a data disk
 ```
-PS C:\>Get-AzureVM -ServiceName "ContosoService" -Name "VirtualMachine07" | Remove-AzureDataDisk -LUN 0
+PS C:\> Get-AzureVM -ServiceName "ContosoService" -Name "VirtualMachine07" | Remove-AzureDataDisk -LUN 0
 ```
 
-This command gets the virtual machine named VirtualMachine07 in the service named ContosoService by using the Get-AzureVM cmdlet.
+This command gets the virtual machine named VirtualMachine07 in the service named ContosoService by using the **Get-AzureVM** cmdlet.
 The command passes the virtual machine to the current cmdlet by using the pipeline operator.
 The current cmdlet removes the data disk that has the LUN 0.
 
 ### Example 2: Remove a data disk and the virtual hard disk file
 ```
-PS C:\>Get-AzureVM -ServiceName "ContosoService" -Name "VirtualMachine07" | Remove-AzureDataDisk -LUN 0 -DeleteVHD | Update-AzureVM
+PS C:\> Get-AzureVM -ServiceName "ContosoService" -Name "VirtualMachine07" | Remove-AzureDataDisk -LUN 0 -DeleteVHD | Update-AzureVM
 ```
 
 This command gets the virtual machine named VirtualMachine07 in the service named ContosoService.
@@ -56,7 +56,7 @@ The command passes the virtual machine to the current cmdlet.
 The current cmdlet removes the data disk that has the LUN 0.
 The command includes the *DeleteVHD* parameter.
 Therefore, it also deletes the underlying virtual hard disk.
-The command updates the virtual machine to reflect your changes by using the Update-AzureVM cmdlet.
+The command updates the virtual machine to reflect your changes by using the **Update-AzureVM** cmdlet.
 
 ## PARAMETERS
 
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 
 ### -VM
 Specifies the virtual machine object that is attached to the data disk.
-To obtain a virtual machine object, use the Get-AzureVM cmdlet.
+To obtain a virtual machine object, use the **Get-AzureVM** cmdlet.
 
 ```yaml
 Type: IPersistentVM

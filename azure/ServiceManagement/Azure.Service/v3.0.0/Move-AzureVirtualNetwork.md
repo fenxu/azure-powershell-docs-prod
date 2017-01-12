@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 292C2890-2148-4E3A-B4A1-16D46181B78F
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/11/2017 7:45 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Move-AzureVirtualNetwork.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Move-AzureVirtualNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Move-AzureVirtualNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/89f87b90cfeff351b6e775a4dc30d353f5e08a1a/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Move-AzureVirtualNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -57,21 +57,21 @@ The **Move-AzureVirtualNetwork** cmdlet migrates a virtual network to a resource
 
 ### Example 1: Prepare virtual network migration
 ```
-PS C:\>Move-AzureVirtualNetwork -Prepare -VirtualNetworkName "ContosoVNET"
+PS C:\> Move-AzureVirtualNetwork -Prepare -VirtualNetworkName "ContosoVNET"
 ```
 
 This command prepares the virtual network named ContosoVNET for migration to the Azure Resource Manager stack.
 
 ### Example 2: Start virtual network migration
 ```
-PS C:\>Move-AzureVirtualNetwork -Commit -VirtualNetworkName "ContosoVNET"
+PS C:\> Move-AzureVirtualNetwork -Commit -VirtualNetworkName "ContosoVNET"
 ```
 
 This command starts migration of the virtual network named ContosoVNET to the Azure Resource Manager stack.
 
 ### Example 3: Validate virtual network migration
 ```
-PS C:\>Move-AzureVirtualNetwork -Validate -VirtualNetworkName "ContosoVNET"
+PS C:\> Move-AzureVirtualNetwork -Validate -VirtualNetworkName "ContosoVNET"
 ```
 
 This command validates migration for the virtual network named ContosoVNET to the Azure Resource Manager stack.
@@ -79,7 +79,7 @@ This command validates migration for the virtual network named ContosoVNET to th
 ## PARAMETERS
 
 ### -VirtualNetworkName
-Name of the Virtual Network to migrate
+Specifies the name of the Virtual Network to migrate.
 
 ```yaml
 Type: String

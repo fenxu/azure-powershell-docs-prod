@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E8FDAD38-0717-431D-B297-6E772D8529A4
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 11:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Disable-AzureDataCollection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Disable-AzureDataCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Disable-AzureDataCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/68d83b5dbd450a91137dc6ad741d942ed49f8f43/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Disable-AzureDataCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,10 +33,6 @@ Disable-AzureDataCollection [-Profile <AzureSMProfile>] [<CommonParameters>]
 
 ## EXAMPLES
 
-### 1:
-```
-PS C:\>
-```
 
 ## PARAMETERS
 

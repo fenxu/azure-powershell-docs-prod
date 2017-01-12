@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 
 schema: 2.0.0
 ms.assetid: 0CE63ADA-A08D-4BC3-8112-9F6677D7F822
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 12:24 AM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Update-AzureApplicationGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Update-AzureApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Update-AzureApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e57471ccf6c62263125f4c01fc0b0ce8ed76d386/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Update-AzureApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Update-AzureApplicationGateway** cmdlet updates an existing application ga
 
 ### Example 1: Modify an application gateway by using its name
 ```
-PS C:\>Stop-AzureApplicationGateway -Name "ApplicationGateway06"
+PS C:\> Stop-AzureApplicationGateway -Name "ApplicationGateway06"
 PS C:\> Update-AzureApplicationGateway -Name "ApplicationGateway06" -VnetName "VirutalNetwork18" -Subnets @("Subnet05", "Subnet06")
 ```
 
@@ -50,7 +50,7 @@ The second command modifies the virtual subnet and subnets for the application g
 
 ### Example 2: Modify additional properties of an application gateway
 ```
-PS C:\>Update-AzureApplicationGateway -Name "ApplicationGateway06" -InstanceCount 2 -GatewaySize "Large" -Description "Updated application gateway"
+PS C:\> Update-AzureApplicationGateway -Name "ApplicationGateway06" -InstanceCount 2 -GatewaySize "Large" -Description "Updated application gateway"
 ```
 
 This command modifies the instance count, gateway size, and description for the application gateway named ApplicationGateway06.
@@ -59,7 +59,7 @@ Therefore, you do not have to stop the application gateway before you run this c
 
 ### Example 3: Modify an application gateway by using the pipeline
 ```
-PS C:\>$ApplicationGateway = Get-AzureApplicationGateway -Name "ApplicationGateway06"
+PS C:\> $ApplicationGateway = Get-AzureApplicationGateway -Name "ApplicationGateway06"
 PS C:\> $ApplicationGateway.GatewaySize = "Medium"
 PS C:\> $ApplicationGateway | Update-AzureApplicationGateway
 ```
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 Specifies an array of subnets in which this cmdlet deploys the application gateway.
 
 You cannot update subnets while the application gateway is running.
-To stop the application gateway, use the Stop-AzureApplicationGateway cmdlet.
+To stop the application gateway, use the **Stop-AzureApplicationGateway** cmdlet.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]

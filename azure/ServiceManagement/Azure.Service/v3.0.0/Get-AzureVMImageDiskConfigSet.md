@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 8AFE5531-9968-4777-AED1-68ED28F1FB4B
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureVMImageDiskConfigSet.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureVMImageDiskConfigSet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureVMImageDiskConfigSet.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureVMImageDiskConfigSet.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,7 @@ The **Get-AzureVMImageDiskConfigSet** cmdlet gets a disk configuration set objec
 
 ### Example 1: Get a disk configuration set object from a virtual machine
 ```
-PS C:\>Get-AzureVMImage -ImageName $Img | Get-AzureVMImageDiskConfigSet
+PS C:\> Get-AzureVMImage -ImageName $Img | Get-AzureVMImageDiskConfigSet
 ```
 
 This command gets a disk configuration set object from a virtual machine.

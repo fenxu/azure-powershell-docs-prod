@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 8A90E4D9-8349-45EE-BA8D-7DA85E711102
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMPuppetExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMPuppetExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMPuppetExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Set-AzureVMPuppetExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Set-AzureVMPuppetExtension** cmdlet sets the Puppet extension for a virtua
 
 ### Example 1: Set the Puppet extension for a virtual machine
 ```
-PS C:\>Set-AzureVMPuppetExtension -VM $VM
+PS C:\> Set-AzureVMPuppetExtension -VM $VM
 ```
 
 This example sets the Puppet extension for the specified virtual machine as stored in the variable $VM.
@@ -96,7 +96,7 @@ Specifies the reference name of the extension.
 This is a user-defined string that is used to refer to an extension.
 It is specified when the extension is added to the virtual machine for the first time.
 For subsequent updates, you need to specify the previously used reference name when you update the extension.
-The ReferenceName assigned to an extension is returned using the Get-AzureVM cmdlet.
+The ReferenceName assigned to an extension is returned using the **Get-AzureVM** cmdlet.
 
 ```yaml
 Type: String

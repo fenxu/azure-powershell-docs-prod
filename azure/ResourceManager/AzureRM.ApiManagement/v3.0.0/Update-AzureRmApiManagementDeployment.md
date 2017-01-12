@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 6CADDECD-843D-4E1B-93F8-8F4D8D3E44D5
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 9:45 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Update-AzureRmApiManagementDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Update-AzureRmApiManagementDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Update-AzureRmApiManagementDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ecefa3a481a03bbc48780f89a552511570cb53/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/Update-AzureRmApiManagementDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,14 +47,14 @@ The **Update-AzureRmApiManagementDeployment** cmdlet updates current deployments
 
 ### Example 1: Update a deployment of an ApiManagement instance
 ```
-PS C:\>Update-AzureRmApiManagementDeployment -ResourceGroupName "Contoso" -Name "ContosoApi" -Sku "Standard" -Capacity 3
+PS C:\> Update-AzureRmApiManagementDeployment -ResourceGroupName "Contoso" -Name "ContosoApi" -Sku "Standard" -Capacity 3
 ```
 
 This command updates deployment of an API Management instance to a three unit capacity standard.
 
 ### Example 2: Get an ApiManagement instance and rescale it
 ```
-PS C:\>$ApiManagement = Get-AzureRmApiManagement -ResourceGroupName "Contoso" -Name "ContosoApi"
+PS C:\> $ApiManagement = Get-AzureRmApiManagement -ResourceGroupName "Contoso" -Name "ContosoApi"
 PS C:\> $ApiManagement.Sku = "Premium"
 PS C:\> $ApiManagement.Capacity = 5
 PS C:\> $ApiManagement.AddRegion("Central US", "Premium", 3)

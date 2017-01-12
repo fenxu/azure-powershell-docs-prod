@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 61031D74-22B4-409D-9ADC-D9D4D408A073
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 10:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Update-AzureSiteRecoveryProtectionDirection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Update-AzureSiteRecoveryProtectionDirection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Update-AzureSiteRecoveryProtectionDirection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e460734ba591f3a2e82060724b596fbf2dcb96b3/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Update-AzureSiteRecoveryProtectionDirection.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -57,7 +57,7 @@ The **Update-AzureSiteRecoveryProtectionDirection** cmdlet updates the source an
 
 ### Example 1: Modify the direction for a protected object in a container
 ```
-PS C:\>$Container = Get-AzureSiteRecoveryProtectionContainer 
+PS C:\> $Container = Get-AzureSiteRecoveryProtectionContainer 
 PS C:\> $Protected = Get-AzureSiteRecoveryProtectionEntity -ProtectionContainer $Container  
 PS C:\> Update-AzureSiteRecoveryProtectionDirection -Direction RecoveryToPrimary -ProtectionEntity $Protected 
 ID               : c38eecdc-731c-405b-a61c-08db99aae2fe
@@ -72,9 +72,9 @@ Tasks            : {}
 Errors           : {}
 ```
 
-The first command gets the protected containers in the current Azure Site Recovery vault by using the Get-AzureSiteRecoveryProtectionContainer cmdlet, and then stores it in the $Container variable.
+The first command gets the protected containers in the current Azure Site Recovery vault by using the **Get-AzureSiteRecoveryProtectionContainer** cmdlet, and then stores it in the $Container variable.
 
-The second command gets the virtual machines that belong to the container stored in $Container by using the Get-AzureSiteRecoveryProtectionEntity cmdlet.
+The second command gets the virtual machines that belong to the container stored in $Container by using the **Get-AzureSiteRecoveryProtectionEntity** cmdlet.
 The command stores the results in the $Protected variable.
 
 The final command sets the direction to RecoverToPrimary for the objects stored in $Protected.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 96E3B440-0BC6-4C20-B870-0859B40E50A0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureService.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,21 +38,21 @@ If you specify the *ServiceName* parameter, **Get-AzureService** returns informa
 
 ### Example 1: Get information about all services
 ```
-PS C:\>Get-AzureService
+PS C:\> Get-AzureService
 ```
 
 This command returns an object that contains information about all of the Azure services associated with the current subscription.
 
 ### Example 2: Get information about a specified service
 ```
-PS C:\>Get-AzureService -ServiceName $MySvc
+PS C:\> Get-AzureService -ServiceName $MySvc
 ```
 
 This command returns information about the $MySvc service.
 
 ### Example 3: Display available methods and properties
 ```
-PS C:\>Get-AzureService | Get-Member
+PS C:\> Get-AzureService | Get-Member
 ```
 
 This command displays the properties and methods that are available from the **Get-AzureService** cmdlet.

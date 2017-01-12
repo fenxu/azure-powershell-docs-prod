@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 2A3B7343-9AA0-4505-AEDE-31C0C5B98694
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 4:58 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmExpressRouteCircuit.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmExpressRouteCircuit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmExpressRouteCircuit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/019d55e5427f1b23a116603492cb2a1977604795/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmExpressRouteCircuit.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,11 +35,6 @@ Set-AzureRmExpressRouteCircuit -ExpressRouteCircuit <PSExpressRouteCircuit>
 The **Set-AzureRmExpressRouteCircuit** cmdlet modifies an ExpressRoute circuit.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -115,5 +110,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmExpressRouteCircuit](xref:ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmExpressRouteCircuit.md)
 
 [Remove-AzureRmExpressRouteCircuit](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmExpressRouteCircuit.md)
-
-

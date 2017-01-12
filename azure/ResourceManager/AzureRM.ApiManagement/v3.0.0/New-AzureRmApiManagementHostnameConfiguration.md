@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 329D4B5C-2675-4E61-87AF-C896A8FA034D
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 9:45 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementHostnameConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementHostnameConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementHostnameConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ecefa3a481a03bbc48780f89a552511570cb53/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.0.0/New-AzureRmApiManagementHostnameConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,13 +33,13 @@ New-AzureRmApiManagementHostnameConfiguration -CertificateThumbprint <String> -H
 
 ## DESCRIPTION
 The **New-AzureRmApiManagementHostnameConfiguration** cmdlet is a helper command that creates an instance of **PsApiManagementHostnameConfiguration**.
-This command is used with the Set-AzureRmApiManagementHostnames cmdlet.
+This command is used with the [Set-AzureRmApiManagementHostnames](./Set-AzureRmApiManagementHostnames.md) cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Create and initialize an instance of PsApiManagementHostnameConfiguration
 ```
-PS C:\>New-AzureRmApiManagementHostnameConfiguration -Hostname "portal.contoso.com" -CertificateThumbprint "33CC47C6FCA848DC9B14A6F071C1EF7C"
+PS C:\> New-AzureRmApiManagementHostnameConfiguration -Hostname "portal.contoso.com" -CertificateThumbprint "33CC47C6FCA848DC9B14A6F071C1EF7C"
 ```
 
 This command creates and initializes an instance of **PsApiManagementHostnameConfiguration**.
@@ -48,7 +48,7 @@ This command creates and initializes an instance of **PsApiManagementHostnameCon
 
 ### -CertificateThumbprint
 Specifies the certificate thumbprint.
-The certificate must be first imported with the Import-AzureRmApiManagementHostnameCertificate cmdlet.
+The certificate must be first imported with the [Import-AzureRmApiManagementHostnameCertificate](./Import-AzureRmApiManagementHostnameCertificate.md) cmdlet.
 
 ```yaml
 Type: String
@@ -91,5 +91,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Import-AzureRmApiManagementHostnameCertificate](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/Import-AzureRmApiManagementHostnameCertificate.md)
 
 [Set-AzureRmApiManagementHostnames](xref:ResourceManager/AzureRM.ApiManagement/v3.0.0/Set-AzureRmApiManagementHostnames.md)
-
-

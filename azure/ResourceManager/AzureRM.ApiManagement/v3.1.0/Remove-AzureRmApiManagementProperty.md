@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: BFA8497A-D3BB-4F6C-AABC-6EB792A9BA6A
 online version: 
 schema: 2.0.0
-updated_at: 12/15/2016 11:11 PM
-ms.date: 12/15/2016
+updated_at: 1/11/2017 8:44 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementProperty.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/09d77fe04dadec70394dc03b69cb24dee37546de/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e6a0656340eb7c14dba7902e574fdb3e8917955/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Remove-AzureRmApiManagementProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Remove-AzureRmApiManagementProperty** cmdlet removes an Azure API Manageme
 
 ### Example 1: Remove a property
 ```
-PS C:\>Remove-AzureRmApiManagementProperty -Context $ApimContext -PropertyId "Property11" -PassThru
+PS C:\> Remove-AzureRmApiManagementProperty -Context $ApimContext -PropertyId "Property11" -PassThru
 ```
 
 This command removes the property that has the ID Property11.

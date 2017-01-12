@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 897AB373-B85D-40EC-9112-89FEA9EEFFA9
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 8:44 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementTenantAccess.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementTenantAccess.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementTenantAccess.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6e6a0656340eb7c14dba7902e574fdb3e8917955/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.1.0/Set-AzureRmApiManagementTenantAccess.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Set-AzureRmApiManagementTenantAccess** cmdlet enables or disables tenant a
 
 ### Example 1: Enable tenant access
 ```
-PS C:\>Set-AzureRmApiManagementTenantAccess -Context $ApimContext -Enabled $True
+PS C:\> Set-AzureRmApiManagementTenantAccess -Context $ApimContext -Enabled $True
 ```
 
 This command enables tenant access in the specified context.

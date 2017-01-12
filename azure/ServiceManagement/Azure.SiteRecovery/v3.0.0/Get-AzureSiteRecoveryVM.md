@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 550FAE3C-1D34-4421-8B1D-CB144B607477
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 11:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/980a24e01d9dd1158e819b034a40be469f1f1b06/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v3.0.0/Get-AzureSiteRecoveryVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -68,8 +68,9 @@ The **Get-AzureSiteRecoveryVM** cmdlet gets information about virtual machines m
 
 ### Example 1: Get information about a virtual machine
 ```
-PS C:\>$ProtectionContainer = Get-AzureSiteRecoveryProtectionContainer
+PS C:\> $ProtectionContainer = Get-AzureSiteRecoveryProtectionContainer
 PS C:\> Get-AzureSiteRecoveryVM -ProtectionContainer $ProtectionContainer
+
 ID                          : a205fd17-3848-4896-bab6-9dbccc3cd8ed
 ServerId                    : 4a94c4a9-c856-4577-afbd-367fe9b3ce9c
 ProtectionContainerId       : 4a94c4a9-c856-4577-afbd-367fe9b3ce9c_1c513d45-645d-4ed0-b9ae-e7b869a1f7fc

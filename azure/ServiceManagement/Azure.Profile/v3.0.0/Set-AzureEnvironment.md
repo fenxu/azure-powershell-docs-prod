@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 55C22818-B69C-45DD-8A22-C6D6DB016A25
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 11:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Set-AzureEnvironment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Set-AzureEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Set-AzureEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/68d83b5dbd450a91137dc6ad741d942ed49f8f43/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Set-AzureEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Set-AzureEnvironment
 
 ## SYNOPSIS
-Changes the properties of an Azure environment
+Changes the properties of an Azure environment.
 
 ## SYNTAX
 
@@ -44,7 +44,7 @@ You cannot use **Set-AzureEnvironment** to change the name of an Azure environme
 
 An Azure environment an independent deployment of Microsoft Azure, such as AzureCloud for global Azure and AzureChinaCloud for Azure operated by 21Vianet in China.
 You can also create on-premises Azure environments by using Azure Pack and the WAPack cmdlets.
-For more information, see Azure Packhttp://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx (http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx).
+For more information, see [Azure Pack](http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx) (http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx).
 
 NOTE:  Do not change the properties of the AzureCloud or AzureChinaCloud environments.
 Use this cmdlet to change the values of private environments that you create.
@@ -53,7 +53,7 @@ Use this cmdlet to change the values of private environments that you create.
 
 ### Example 1: Change environment properties
 ```
-PS C:\>Set-AzureEnvironment -Name ContosoEnv -PublishSettingsFileUrl "https://contoso.com" -StorageEndpoint "contoso.com"
+PS C:\> Set-AzureEnvironment -Name ContosoEnv -PublishSettingsFileUrl "https://contoso.com" -StorageEndpoint "contoso.com"
 ```
 
 This command changes the values of the PublishSettingsFileUrl and StorageEndpoint properties of the ContosoEnv environment.
@@ -157,7 +157,7 @@ Accept wildcard characters: False
 
 ### -ResourceManagerEndpoint
 Changes the endpoint for Azure Resource Manager data, including data about resource groups associated with the account.
-For more information about Azure Resource Manager, see Azure Resource Manager Cmdletshttp://go.microsoft.com/fwlink/?LinkID=394765 (http://go.microsoft.com/fwlink/?LinkID=394765) and  Using Windows PowerShell with Resource Managerhttp://go.microsoft.com/fwlink/?LinkID=394767 (http://go.microsoft.com/fwlink/?LinkID=394767).
+For more information about Azure Resource Manager, see [Azure Resource Manager Cmdlets](http://go.microsoft.com/fwlink/?LinkID=394765) (http://go.microsoft.com/fwlink/?LinkID=394765) and [Using Windows PowerShell with Resource Manager](http://go.microsoft.com/fwlink/?LinkID=394767) (http://go.microsoft.com/fwlink/?LinkID=394767).
 
 ```yaml
 Type: String
@@ -174,7 +174,7 @@ Accept wildcard characters: False
 ### -GalleryEndpoint
 Changes the endpoint for the Azure Resource Manager gallery to the specified value.
 The gallery endpoint is the location for resource group gallery templates.
-For more information about Azure resource groups and gallery templates, see the help topic for Get-AzureResourceGroupGalleryTemplatehttp://go.microsoft.com/fwlink/?LinkID=393052.
+For more information about Azure resource groups and gallery templates, see the help topic for [Get-AzureResourceGroupGalleryTemplate](http://go.microsoft.com/fwlink/?LinkID=393052) (http://go.microsoft.com/fwlink/?LinkID=393052).
 
 ```yaml
 Type: String

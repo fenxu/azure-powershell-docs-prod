@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 05D5B12E-9FD6-4513-B80C-48ADB5732DCE
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ Specify the name of the Azure service and the slot of the deployment.
 
 ### Example 1: Get details for a production deployment
 ```
-PS C:\>Get-AzureDeployment -ServiceName "ContosoService"
+PS C:\> Get-AzureDeployment -ServiceName "ContosoService"
 ```
 
 This command returns the details of the deployment for the service named ContosoService.
@@ -47,7 +47,7 @@ Therefore, the command uses the default value of Production.
 
 ### Example 2: Get details for a staging deployment
 ```
-PS C:\>Get-AzureDeployment -ServiceName "ContosoService" -Slot "Staging"
+PS C:\> Get-AzureDeployment -ServiceName "ContosoService" -Slot "Staging"
 ```
 
 This command returns the details of the staging deployment of ContosoService.

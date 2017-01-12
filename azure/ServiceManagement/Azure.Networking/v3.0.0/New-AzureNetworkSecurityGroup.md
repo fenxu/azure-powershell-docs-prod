@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: 
 schema: 2.0.0
 ms.assetid: 3A0C4280-58B0-4031-A4D4-870A969039D2
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 12:24 AM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/New-AzureNetworkSecurityGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/New-AzureNetworkSecurityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/New-AzureNetworkSecurityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e57471ccf6c62263125f4c01fc0b0ce8ed76d386/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/New-AzureNetworkSecurityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,10 +36,6 @@ The **New-AzureNetworkSecurityGroup** cmdlet creates an Azure network security g
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -60,7 +56,7 @@ Accept wildcard characters: False
 
 ### -Location
 Specifies the Azure location in which this cmdlet creates a network security group.
-To obtain valid locations, use the Get-AzureLocation cmdlet.
+To obtain valid locations, use the **Get-AzureLocation** cmdlet.
 
 ```yaml
 Type: String

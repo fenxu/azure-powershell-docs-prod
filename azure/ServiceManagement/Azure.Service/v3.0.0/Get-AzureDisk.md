@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: BF6A2477-23DE-4BE1-971E-9605DD0D39E0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 6:32 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDisk.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/34e1c9880d0370f1dd5f83ea8d5ee7f59cb5e559/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v3.0.0/Get-AzureDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,21 +39,21 @@ To view information for a specific disk, specify the name of the disk.
 
 ### Example 1: Get information about a disk
 ```
-PS C:\>Get-AzureDisk -DiskName "ContosoDataDisk"
+PS C:\> Get-AzureDisk -DiskName "ContosoDataDisk"
 ```
 
 This command gets information data about the disk named ContosoDataDisk from the disk repository.
 
 ### Example 2: Get information about all disks
 ```
-PS C:\>Get-AzureDisk
+PS C:\> Get-AzureDisk
 ```
 
 This command gets information about all the disks in the disk repository.
 
 ### Example 3: Get information about a disk
 ```
-PS C:\>Get-AzureDisk | Where-Object {$_.AttachedTo -eq $Null } | Format-Table -AutoSize -Property "DiskName","DiskSizeInGB","MediaLink"
+PS C:\> Get-AzureDisk | Where-Object {$_.AttachedTo -eq $Null } | Format-Table -AutoSize -Property "DiskName","DiskSizeInGB","MediaLink"
 ```
 
 This command gets data for all of the disks in the disk repository that are not currently attached to a virtual machine.

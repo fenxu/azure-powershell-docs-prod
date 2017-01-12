@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Profile.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E9653C03-621A-4A3D-AF99-3604E9BE7473
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 11:09 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureEnvironment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureEnvironment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureEnvironment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/68d83b5dbd450a91137dc6ad741d942ed49f8f43/azureps-cmdlets-docs/ServiceManagement/Azure.Profile/v3.0.0/Remove-AzureEnvironment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureEnvironment
 
 ## SYNOPSIS
-Deletes an Azure environment from Windows PowerShell
+Deletes an Azure environment from Windows PowerShell.
 
 ## SYNTAX
 
@@ -36,20 +36,20 @@ This cmdlet does not delete the environment from Microsoft Azure, or change the 
 
 An Azure environment an independent deployment of Microsoft Azure, such as AzureCloud for global Azure and AzureChinaCloud for Azure operated by 21Vianet in China.
 You can also create on-premises Azure environments by using Azure Pack and the WAPack cmdlets.
-For more information, see Azure Packhttp://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx (http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx).
+For more information, see [Azure Pack](http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx) (http://www.microsoft.com/server-cloud/products/windows-azure-pack/default.aspx).
 
 ## EXAMPLES
 
 ### Example 1: Delete an environment
 ```
-PS C:\>Remove-AzureEnvironment -Name ContosoEnv
+PS C:\> Remove-AzureEnvironment -Name ContosoEnv
 ```
 
 This command deletes the ContosoEnv environment from Windows PowerShell.
 
 ### Example 2: Delete multiple environments
 ```
-PS C:\>Get-AzureEnvironment | Where-Object EnvironmentName -like "Contoso*" | ForEach-Object {Remove-AzureEnvironment -Name $_.EnvironmentName }
+PS C:\> Get-AzureEnvironment | Where-Object EnvironmentName -like "Contoso*" | ForEach-Object {Remove-AzureEnvironment -Name $_.EnvironmentName }
 ```
 
 This command deletes environments whose names begin with "Contoso" from Windows PowerShell.

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D5DC7E04-BAB1-4D25-84BB-8D82D4A4E941
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/10/2017 10:37 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Set-AzureSiteRecoveryVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Set-AzureSiteRecoveryVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Set-AzureSiteRecoveryVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e460734ba591f3a2e82060724b596fbf2dcb96b3/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Set-AzureSiteRecoveryVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,9 +38,10 @@ The **Set-AzureSiteRecoveryVM** cmdlet sets the recovery-side protection options
 
 ### Example 1: Allow the update on a protected virtual machine
 ```
-PS C:\>$ProtectionContainer = Get-AzureSiteRecoveryProtectionContainer
+PS C:\> $ProtectionContainer = Get-AzureSiteRecoveryProtectionContainer
 PS C:\> $VirtualMachines = Get-AzureSiteRecoveryVM -ProtectionContainer $ProtectionContainer 
 PS C:\> Set-AzureSiteRecoveryVM -VirtualMachine $VirtualMachines[0] -Name "NewVirtualMachine05"
+
 Name             : 
 ID               : 8170d274-1e48-404a-b080-172ada140bc3
 ClientRequestId  : 09354052-8430-4fa8-9a35-63196dd4b2b4-2015-02-03 04:19:06Z-P
@@ -53,9 +54,9 @@ Tasks            : {}
 Errors           : {}
 ```
 
-The first command uses the Get-AzureSiteRecoveryProtectionContainer cmdlet to get a protected container, and then stores it in the $ProtectionContainer variable.
+The first command uses the **Get-AzureSiteRecoveryProtectionContainer** cmdlet to get a protected container, and then stores it in the $ProtectionContainer variable.
 
-The second command gets the virtual machines in $ProtectionContainer, by using the Get-AzureSiteRecoveryVM cmdlet, and then stores them in the $VitrualMachines variable.
+The second command gets the virtual machines in $ProtectionContainer, by using the **Get-AzureSiteRecoveryVM** cmdlet, and then stores them in the $VitrualMachines variable.
 
 The final command allows updates for the first virtual machine in the $VitrualMachines array, named NewVirtualMachine05.
 

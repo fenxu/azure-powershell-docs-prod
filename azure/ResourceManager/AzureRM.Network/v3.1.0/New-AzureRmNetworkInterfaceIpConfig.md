@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: D29C82CC-2080-48DA-880A-1AA83007E552
 online version: 
 schema: 2.0.0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/11/2017 3:50 PM
+ms.date: 1/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmNetworkInterfaceIpConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmNetworkInterfaceIpConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmNetworkInterfaceIpConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9fd0ccc312405e56f32bf397ccc83e3511675dfb/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.1.0/New-AzureRmNetworkInterfaceIpConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -50,11 +50,6 @@ New-AzureRmNetworkInterfaceIpConfig -Name <String> [-PrivateIpAddressVersion <St
 The **New-AzureRmNetworkInterfaceIpConfig** cmdlet creates an Azure network interface IP configuration for a network interface.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -109,6 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -Primary
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -331,5 +327,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Remove-AzureRmNetworkInterfaceIpConfig.md)
 
 [Set-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v3.1.0/Set-AzureRmNetworkInterfaceIpConfig.md)
-
-
