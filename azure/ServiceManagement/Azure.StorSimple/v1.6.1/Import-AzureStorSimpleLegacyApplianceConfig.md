@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: B64B3034-8557-4FAD-8B67-45E169A07365
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 8:31 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Import-AzureStorSimpleLegacyApplianceConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Import-AzureStorSimpleLegacyApplianceConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Import-AzureStorSimpleLegacyApplianceConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4df29933055c067f66dd8427e7818e4e4ab777eb/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Import-AzureStorSimpleLegacyApplianceConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,8 @@ This cmdlet returns the legacy appliance configuration metadata.
 
 ### Example 1: Import a configuration file
 ```
-PS C:\>Import-AzureStorSimpleLegacyApplianceConfig -ConfigFilePath "C:\MigrationData\LegacyStorSimpleConfig.sse" -TargetDeviceName "8100-123456789" -ConfigDecryptionKey "fWs793hHVhR90NKdDYTeNq"
+PS C:\> Import-AzureStorSimpleLegacyApplianceConfig -ConfigFilePath "C:\MigrationData\LegacyStorSimpleConfig.sse" -TargetDeviceName "8100-123456789" -ConfigDecryptionKey "fWs793hHVhR90NKdDYTeNq"
+
 LegacyConfigId      : e2d5c9b1-b528-4c21-b8ae-533feefc8a41
 ImportedOn          : 4/8/2015 7:23:04 PM
 ConfigFile          : D:\configs\StorSimpleConfig_27_Mar_15_12_19.xml.sse

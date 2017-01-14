@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: CD15743F-77B9-4D1A-8A92-F15C06DBD887
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 8:31 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleDeviceVolume.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleDeviceVolume.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleDeviceVolume.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4df29933055c067f66dd8427e7818e4e4ab777eb/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleDeviceVolume.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -53,7 +53,7 @@ Also, update whether to create the volume online.
 
 ### Example 1: Update online value for a volume
 ```
-PS C:\>Set-AzureStorSimpleDeviceVolume -DeviceName "Contoso63-AppVm" -VolumeName "Volume18" -Online $False
+PS C:\> Set-AzureStorSimpleDeviceVolume -DeviceName "Contoso63-AppVm" -VolumeName "Volume18" -Online $False
 VERBOSE: ClientRequestId: f2869570-ea47-4be7-801e-9c0f22f2600d_PS
 VERBOSE: ClientRequestId: c70bb86a-51d3-4390-be17-4d0847641dc3_PS
 VERBOSE: ClientRequestId: d20cb5b2-6b3c-4e06-af99-cada28c5e50a_PS
@@ -69,7 +69,7 @@ To see the status of the task, use the **Get-AzureStorSimpleTask** cmdlet.
 
 ### Example 2: Modify online value and type
 ```
-PS C:\>Set-AzureStorSimpleDeviceVolume -DeviceName "Contoso63-AppVm" -VolumeName "Volume18" -Online $True -VolumeAppType ArchiveVolume 
+PS C:\> Set-AzureStorSimpleDeviceVolume -DeviceName "Contoso63-AppVm" -VolumeName "Volume18" -Online $True -VolumeAppType ArchiveVolume 
 VERBOSE: ClientRequestId: af42b02a-645e-4801-a2d7-4197511c68cf_PS
 VERBOSE: ClientRequestId: 7cb4f3b4-548e-42dc-a38c-0df0911c5206_PS
 VERBOSE: ClientRequestId: 7cc706ad-a58f-4939-8e78-cabae8379a51_PS
@@ -222,7 +222,7 @@ Accept wildcard characters: False
 ```
 
 ### -WaitForComplete
-Indicates that this cmdlet waits for the operation to complete before it returns control to the wps_1 console.
+Indicates that this cmdlet waits for the operation to complete before it returns control to the Windows PowerShell console.
 
 ```yaml
 Type: SwitchParameter

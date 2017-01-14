@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 4F9BCC00-4ECF-4CCB-BD93-EF71939BDB82
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 7:06 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleNetworkConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleNetworkConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleNetworkConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e7a120a2ee01bf4c44bb7fca528ffdea69e8b122/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/New-AzureStorSimpleNetworkConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -42,7 +42,7 @@ Data0 supports only three settings: *Controller0IPAddress*, *Controller1IPAdress
 
 ### Example 1: Configure a Data0 interface
 ```
-PS C:\>New-AzureStorSimpleNetworkConfig -InterfaceAlias Data0 -EnableIscsi $True -Controller0IPv4Address "10.67.64.48" -Controller1IPv4Address "10.67.64.49"
+PS C:\> New-AzureStorSimpleNetworkConfig -InterfaceAlias Data0 -EnableIscsi $True -Controller0IPv4Address "10.67.64.48" -Controller1IPv4Address "10.67.64.49"
 VERBOSE: ClientRequestId: 0621d220-a460-48ec-84ec-02a3a82f88b2_PS
 
 
@@ -66,7 +66,7 @@ This cmdlet can configure Data0 for only these three parameters.
 
 ### Example 2: Configuren an interface other than Data0 an
 ```
-PS C:\>New-AzureStorSimpleNetworkConfig -InterfaceAlias Data1 -EnableIscsi $True -EnableCloud $True -IPv6Gateway "db8:421e:9a8::a4:1c50" -IPv4Gateway "10.67.64.1" -IPv4Address "10.67.64.48" -IPv6Prefix "2001:db8:a::123/64" -IPv4Netmask "255.255.0.0"
+PS C:\> New-AzureStorSimpleNetworkConfig -InterfaceAlias Data1 -EnableIscsi $True -EnableCloud $True -IPv6Gateway "db8:421e:9a8::a4:1c50" -IPv4Gateway "10.67.64.1" -IPv4Address "10.67.64.48" -IPv6Prefix "2001:db8:a::123/64" -IPv4Netmask "255.255.0.0"
 VERBOSE: ClientRequestId: 3a15ff0e-b769-4329-9147-676b1e0acd7d_PS
 
 
@@ -87,7 +87,7 @@ This command configures the Data1 interface.
 
 ### Example 3: Modify a configuration for a device
 ```
-PS C:\>$NetworkConfigData0 = New-AzureStorSimpleNetworkConfig -InterfaceAlias Data0 -EnableIscsi $True -Controller0IPv4Address "10.67.64.48" -Controller1IPv4Address "10.67.64.49"
+PS C:\> $NetworkConfigData0 = New-AzureStorSimpleNetworkConfig -InterfaceAlias Data0 -EnableIscsi $True -Controller0IPv4Address "10.67.64.48" -Controller1IPv4Address "10.67.64.49"
 $OnlineDevice = @(Get-AzureStorSimpleDevice | Where { $_.Status -eq "Online"})[0]
 $UpdatedDetails = Set-AzureStorSimpleDevice -DeviceId $OnlineDevice.DeviceId -StorSimpleNetworkConfig $NetworkConfigData0
 VERBOSE: ClientRequestId: 0f163163-5ad0-4635-a7b5-870d47297f66_PS

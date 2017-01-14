@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E0F7F635-E2B9-4EEE-AFE7-6C92E92AA702
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 8:31 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleStorageAccountCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleStorageAccountCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleStorageAccountCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4df29933055c067f66dd8427e7818e4e4ab777eb/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Set-AzureStorSimpleStorageAccountCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,13 +33,13 @@ Set-AzureStorSimpleStorageAccountCredential [-StorageAccountName] <String> [[-St
 
 ## DESCRIPTION
 The **Set-AzureStorSimpleStorageAccountCredential** cmdlet update an existing Azure storage access credential for use by StorSimple OneSDK cmdlets.
-For more information about how StorSimple cmdlets work with storage accounts, see the help topic for the New-AzureStorSimpleStorageAccountCredential cmdlet.
+For more information about how StorSimple cmdlets work with storage accounts, see the help topic for the **New-AzureStorSimpleStorageAccountCredential** cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Modify a credential
 ```
-PS C:\>Set-AzureStorSimpleStorageAccountCredential -StorageAccountName "ContosoStorage01" -UseSSL $False -StorageAccountKey "h9ldH4LlHJB3GujcNwgdxJACy1DaQ1Hak1bfoUBzrDqZ5DPK8+0XGbsgD+jrKfQy5PBepKpYobMViLaOC2XMdg==" -Force -WaitForComplete
+PS C:\> Set-AzureStorSimpleStorageAccountCredential -StorageAccountName "ContosoStorage01" -UseSSL $False -StorageAccountKey "h9ldH4LlHJB3GujcNwgdxJACy1DaQ1Hak1bfoUBzrDqZ5DPK8+0XGbsgD+jrKfQy5PBepKpYobMViLaOC2XMdg==" -Force -WaitForComplete
 VERBOSE: ClientRequestId: 20cd2b17-9cff-4ab4-a034-96d60d946295_PS
 VERBOSE: ClientRequestId: a75ed193-1da5-491f-96f5-572b5461d466_PS
 VERBOSE: ClientRequestId: db612c9e-e89a-404f-8406-e66e7f697cd5_PS
@@ -141,7 +141,7 @@ Accept wildcard characters: False
 ```
 
 ### -WaitForComplete
-Indicates that this cmdlet waits for the operation to complete before it returns control to the wps_1 console.
+Indicates that this cmdlet waits for the operation to complete before it returns control to the Windows PowerShell console.
 
 ```yaml
 Type: SwitchParameter

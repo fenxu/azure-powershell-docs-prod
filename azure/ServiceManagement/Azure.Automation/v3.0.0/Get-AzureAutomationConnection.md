@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: EC99F058-7DB4-4987-8115-59F3CC1D1B6A
-updated_at: 11/18/2016 8:33 AM
-ms.date: 11/18/2016
+updated_at: 1/12/2017 11:14 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Get-AzureAutomationConnection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Get-AzureAutomationConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Get-AzureAutomationConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e37a9558a1813d4efba2a6ddbb733e45d88789da/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Get-AzureAutomationConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -54,21 +54,21 @@ To get all connections of a certain type, specify the connection type name.
 
 ### Example 1: Get all connections
 ```
-PS C:\>Get-AzureAutomationConnection -AutomationAccountName "Contoso17"
+PS C:\> Get-AzureAutomationConnection -AutomationAccountName "Contoso17"
 ```
 
 This command gets all connections in the Automation account named Contoso17.
 
 ### Example 2: Get all connections of a type
 ```
-PS C:\>Get-AzureAutomationConnection -AutomationAccountName "Contoso17" -ConnectionTypeName "Azure"
+PS C:\> Get-AzureAutomationConnection -AutomationAccountName "Contoso17" -ConnectionTypeName "Azure"
 ```
 
 This command gets all Azure connections in the Automation account named Contoso17.
 
 ### Example 3: Get a connection
 ```
-PS C:\>Get-AzureAutomationConnection -AutomationAccountName "Contoso17" -Name "Azure"
+PS C:\> Get-AzureAutomationConnection -AutomationAccountName "Contoso17" -Name "Azure"
 ```
 
 This command gets the connection named MyConnection.

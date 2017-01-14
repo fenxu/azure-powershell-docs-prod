@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D094E0FD-63B7-44B4-943D-0CAE23A75E61
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSchedulerJobCollection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSchedulerJobCollection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSchedulerJobCollection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureSchedulerJobCollection.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,7 +33,7 @@ Get-AzureSchedulerJobCollection [-Location <String>] [-JobCollectionName <String
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Get-AzureSchedulerJobCollection** cmdlet gets one or more scheduler job collections.
 
@@ -41,21 +41,21 @@ The **Get-AzureSchedulerJobCollection** cmdlet gets one or more scheduler job co
 
 ### Example 1: Get all collections
 ```
-PS C:\>Get-AzureSchedulerJobCollection
+PS C:\> Get-AzureSchedulerJobCollection
 ```
 
 This command gets all scheduler job collections across all locations in the current subscription.
 
 ### Example 2: Get all collections for a location
 ```
-PS C:\>Get-AzureSchedulerJobCollection -Location "North Central US"
+PS C:\> Get-AzureSchedulerJobCollection -Location "North Central US"
 ```
 
 This command gets all scheduler job collections in the location named North Central US.
 
 ### Example 3: Get a collection by using a name
 ```
-PS C:\>Get-AzureSchedulerJobCollection -Location "North Central US" -JobCollectionName "JobCollection01"
+PS C:\> Get-AzureSchedulerJobCollection -Location "North Central US" -JobCollectionName "JobCollection01"
 ```
 
 This command gets the scheduler job collection named JobCollection01.

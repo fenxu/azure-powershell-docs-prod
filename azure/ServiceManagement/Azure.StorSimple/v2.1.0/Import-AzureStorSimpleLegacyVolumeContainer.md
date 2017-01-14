@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A5D9F231-5DF8-4F91-A345-3F97C91D1CEC
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 7:06 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Import-AzureStorSimpleLegacyVolumeContainer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Import-AzureStorSimpleLegacyVolumeContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Import-AzureStorSimpleLegacyVolumeContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e7a120a2ee01bf4c44bb7fca528ffdea69e8b122/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Import-AzureStorSimpleLegacyVolumeContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,7 +45,7 @@ The **Import-AzureStorSimpleLegacyVolumeContainer** cmdlet starts the migration 
 
 ### Example 1: Import a legacy volume container
 ```
-PS C:\>Import-AzureStorSimpleLegacyVolumeContainer -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -LegacyContainerNames "OneSDKAzureCloud"
+PS C:\> Import-AzureStorSimpleLegacyVolumeContainer -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -LegacyContainerNames "OneSDKAzureCloud"
 Import started, Please check status with Get-AzureStorSimpleLegacyVolumeContainerStatus commandlet
 ```
 
@@ -54,7 +54,7 @@ The cmdlet starts the import, and then returns a message.
 
 ### Example 2: Import all legacy volume containers
 ```
-PS C:\>Import-AzureStorSimpleLegacyVolumeContainer -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -All
+PS C:\> Import-AzureStorSimpleLegacyVolumeContainer -LegacyConfigId "c5a831e1-7888-44f4-adf1-92994be630c3" -All
 Import started, Please check status with Get-AzureStorSimpleLegacyVolumeContainerStatus commandlet
 ```
 

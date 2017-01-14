@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 8FCF9519-4DA5-4DD2-8586-7A3833E91F0B
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 8:31 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleDeviceVolumeContainer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleDeviceVolumeContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleDeviceVolumeContainer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4df29933055c067f66dd8427e7818e4e4ab777eb/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/New-AzureStorSimpleDeviceVolumeContainer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -42,7 +42,7 @@ To obtain a storage account credential, use the **Get-AzureStorSimpleStorageAcco
 
 ### Example 1: Create a container
 ```
-PS C:\>Get-AzureStorSimpleStorageAccountCredential -StorageAccountName "ContosoAccount" | New-AzureStorSimpleDeviceVolumeContainer -DeviceName "Contoso63-AppVm" -VolumeContainerName "Container08" -BandWidthRateInMbps 256
+PS C:\> Get-AzureStorSimpleStorageAccountCredential -StorageAccountName "ContosoAccount" | New-AzureStorSimpleDeviceVolumeContainer -DeviceName "Contoso63-AppVm" -VolumeContainerName "Container08" -BandWidthRateInMbps 256
 VERBOSE: ClientRequestId: 96a4ccd4-f2a9-4820-8bc8-e6b7b56dce0d_PS
 VERBOSE: ClientRequestId: 90be20db-098a-4f2b-a6da-9da6f533a846_PS
 VERBOSE: ClientRequestId: 410fd33a-8fa3-4ae5-a1bf-1b6da9b34ffc_PS
@@ -170,7 +170,7 @@ Accept wildcard characters: False
 ```
 
 ### -WaitForComplete
-Indicates that this cmdlet waits for the operation to complete before it returns control to the wps_1 console.
+Indicates that this cmdlet waits for the operation to complete before it returns control to the Windows PowerShell console.
 
 ```yaml
 Type: SwitchParameter

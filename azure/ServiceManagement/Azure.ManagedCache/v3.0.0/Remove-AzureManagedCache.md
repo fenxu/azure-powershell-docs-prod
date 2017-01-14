@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ManagedCache.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 146C436F-8CF3-45CD-9A7E-927C968289AB
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 4:03 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Remove-AzureManagedCache.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Remove-AzureManagedCache.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Remove-AzureManagedCache.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e93aae28f7db29b03bee109dc6d1c4b57c1937c2/azureps-cmdlets-docs/ServiceManagement/Azure.ManagedCache/v3.0.0/Remove-AzureManagedCache.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,13 +36,13 @@ It returns $True if the operation was successful and $False if it failed.
 By default, **Remove-AzureManagedCache** will prompt you for confirmation before it removes the Azure Cache, but you can use the *Force* parameter to suppress the prompt.
 An Azure Cache is a secure, dedicated cache that provides extremely fast access to data.
 This distributed, in-memory, scalable solution enables you to build highly scalable and responsive applications.
-For more information about Azure Cache, see Azure Cachehttp://azure.microsoft.com/en-us/services/cache/.
+For more information about Azure Cache, see [Azure Cache](http://azure.microsoft.com/en-us/services/cache/) (http://azure.microsoft.com/en-us/services/cache/).
 
 ## EXAMPLES
 
 ### Example 1: Remove an Azure Cache
 ```
-PS C:\>Remove-AzureManagedCache -Name "ContosoCache"
+PS C:\> Remove-AzureManagedCache -Name "ContosoCache"
 Confirm
 Are you sure you want to perform this action? 
 Performing the operation "Delete" on target "ContosoCache".
@@ -58,12 +58,12 @@ It returns a value of $True to indicate that the Cache was removed.
 
 ### Example 2: Remove all test caches
 ```
-PS C:\>Get-AzureManagedCache | Where-Object Name -like Test* | Remove-AzureManagedCache -Force
+PS C:\> Get-AzureManagedCache | Where-Object Name -like Test* | Remove-AzureManagedCache -Force
 ```
 
 This command removes all Azure Caches that have names that begin with Test.
-It uses the Get-AzureManagedCache cmdlet to get the Azure Caches in your account.
-It pipes them to the Where-Object cmdlet, which returns only the Azure Caches that have names that begin with Test.
+It uses the **Get-AzureManagedCache** cmdlet to get the Azure Caches in your account.
+It pipes them to the **Where-Object** cmdlet, which returns only the Azure Caches that have names that begin with Test.
 Then, it pipes the test caches to the **Remove-AzureManagedCache** cmdlet with the *Force* parameter, which removes them without prompting for confirmation.
 
 ## PARAMETERS
@@ -144,7 +144,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### System.Boolean
 
 ## NOTES
-* Use the Add-AzureAccount or Import-AzurePublishSettingsFile cmdlet to make your Azure account available to Windows PowerShell before using this cmdlet. For more information, see How to install and configure Azure PowerShellhttp://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/.
+* Use the **Add-AzureAccount** or **Import-AzurePublishSettingsFile** cmdlet to make your Azure account available to Windows PowerShell before using this cmdlet. For more information, see [How to install and configure Azure PowerShell](http://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/) (http://azure.microsoft.com/en-us/documentation/articles/install-configure-powershell/).
 
 ## RELATED LINKS
 

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 43666415-3746-4526-B294-5FA1B3780D4B
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 4:58 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Disable-AzureTrafficManagerProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Disable-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Disable-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/35d16d9546f09e8b59379118de62703cd21e8393/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Disable-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ You can use the *PassThru* parameter to display whether the operation succeeds.
 
 ### Example 1: Disable a Traffic Manager profile and display the results
 ```
-PS C:\>Disable-AzureTrafficManagerProfile -Name "MyProfile" -PassThru
+PS C:\> Disable-AzureTrafficManagerProfile -Name "MyProfile" -PassThru
 True
 ```
 
@@ -48,7 +48,7 @@ The command specifies the *PassThru* parameter to display whether the command su
 
 ### Example 2: Disable a Traffic Manager profile and display no results
 ```
-PS C:\>Disable-AzureTrafficManagerProfile -Name "MyProfile"
+PS C:\> Disable-AzureTrafficManagerProfile -Name "MyProfile"
 ```
 
 This command disables the Traffic Manager profile named MyProfile but does not display whether the command succeeded.
@@ -87,7 +87,8 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-In-memory profile.
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
 
 ```yaml
 Type: AzureSMProfile

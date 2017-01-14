@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 1909BCA5-948A-42ED-ACC0-A9BC52A10231
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 8:31 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Start-AzureStorSimpleDeviceBackupRestoreJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Start-AzureStorSimpleDeviceBackupRestoreJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Start-AzureStorSimpleDeviceBackupRestoreJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4df29933055c067f66dd8427e7818e4e4ab777eb/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Start-AzureStorSimpleDeviceBackupRestoreJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,7 +46,7 @@ Specify a backup ID and an optional snapshot ID.
 
 ### Example 1: Start a job to restore a backup
 ```
-PS C:\>Start-AzureStorSimpleDeviceBackupRestoreJob -DeviceName "Contoso63-AppVm" -BackupId "b3b50534-763c-4b05-9724-5ecf62bde721" -WaitForComplete
+PS C:\> Start-AzureStorSimpleDeviceBackupRestoreJob -DeviceName "Contoso63-AppVm" -BackupId "b3b50534-763c-4b05-9724-5ecf62bde721" -WaitForComplete
 Confirm
 Are you sure you want to restore the backup with backupId b3b50534-763c-4b05-9724-5ecf62bde721? 
 [Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"): Y
@@ -67,7 +67,7 @@ The command specifies the *WaitForComplete* parameter, so the job finishes befor
 
 ### Example 2: Start a job to restore a specific snapshot
 ```
-PS C:\>Start-AzureStorSimpleDeviceBackupRestoreJob -DeviceName "Contoso63-AppVm" -BackupId "b3b50534-763c-4b05-9724-5ecf62bde721" -SnapshotId "2d0cfad7-46bf-4266-8859-96549646e947_0000000000000000" -Force
+PS C:\> Start-AzureStorSimpleDeviceBackupRestoreJob -DeviceName "Contoso63-AppVm" -BackupId "b3b50534-763c-4b05-9724-5ecf62bde721" -SnapshotId "2d0cfad7-46bf-4266-8859-96549646e947_0000000000000000" -Force
 
 The start job is submitted successfully. Please use the command Get-AzureStorSimpleTask -InstanceId 9102ed9a-078f-4648-a
 721-3cffbba31336 for tracking the job status
@@ -155,7 +155,7 @@ Accept wildcard characters: False
 ```
 
 ### -WaitForComplete
-Indicates that this cmdlet waits for the operation to complete before it returns control to the wps_1 console.
+Indicates that this cmdlet waits for the operation to complete before it returns control to the Windows PowerShell console.
 
 ```yaml
 Type: SwitchParameter

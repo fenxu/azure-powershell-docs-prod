@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 3319A457-5246-4328-A8F3-5CE415BB15FE
-updated_at: 1/11/2017 10:43 PM
-ms.date: 1/11/2017
+updated_at: 1/14/2017 12:36 AM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementVirtualNetwork.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementVirtualNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4df6f2abe31d9c0d1b6b5e609631a0b750350f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementVirtualNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da8eb594c0f0a447468b6e82a18c708dac6b5b28/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementVirtualNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,7 +33,7 @@ New-AzureRmApiManagementVirtualNetwork -Location <String> -SubnetName <String> -
 
 ## DESCRIPTION
 The **New-AzureRmApiManagementVirtualNetwork** cmdlet is a helper command to create an instance of **PsApiManagementVirtualNetwork**.
-This command is used with Set-AzureRmApiManagementVirtualNetworks cmdlet.
+This command is used with [Set-AzureRmApiManagementVirtualNetworks](./Set-AzureRmApiManagementVirtualNetworks.md) cmdlet.
 
 ## EXAMPLES
 
@@ -162,5 +162,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Set-AzureRmApiManagementVirtualNetworks](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementVirtualNetworks.md)
-
-

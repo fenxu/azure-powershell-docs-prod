@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 9B57D7E8-73A4-4FA6-A924-B0926D383C7A
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 8:31 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Remove-AzureStorSimpleDeviceBackup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Remove-AzureStorSimpleDeviceBackup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Remove-AzureStorSimpleDeviceBackup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4df29933055c067f66dd8427e7818e4e4ab777eb/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Remove-AzureStorSimpleDeviceBackup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,7 +46,7 @@ If you attempt to delete a backup that has already been deleted, this cmdlet ret
 
 ### Example 1: Remove a backup for a device
 ```
-PS C:\>Remove-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -BackupId "dcb5c991-0485-400f-8d0a-03a1341ee989" -Force
+PS C:\> Remove-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -BackupId "dcb5c991-0485-400f-8d0a-03a1341ee989" -Force
 The remove job is submitted successfully. Please use the command Get-AzureStorSimpleTask -InstanceId 6c73aff2-f5a1-4b5e-
 9a4e-857e128dc216 for tracking the job status
 ```
@@ -57,7 +57,7 @@ To see the status of the task, use the **Get-AzureStorSimpleTask** cmdlet.
 
 ### Example 2: Remove the first backup for a device by using its ID
 ```
-PS C:\>$Backup = Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm"
+PS C:\> $Backup = Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm"
 PS C:\> Remove-AzureStorSimpleDeviceBackup -DeviceName "Contoso63-AppVm" -BackupId $Backup[0].InstanceId -WaitForComplete
 Error      : Microsoft.WindowsAzure.Management.StorSimple.Models.ErrorDetails
 JobId      : 53a656c3-c082-4e1f-afb7-bff3db45c791
@@ -77,7 +77,7 @@ This command specifies the *WaitForComplete* parameter, and, therefore, the comm
 
 ### Example 3: Remove the first backup for a device by using the pipeline
 ```
-PS C:\>$Backup = Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso-AppVm" -WaitForComplete
+PS C:\> $Backup = Get-AzureStorSimpleDeviceBackup -DeviceName "Contoso-AppVm" -WaitForComplete
 PS C:\> $Backup[0] | Remove-AzureStorSimpleDeviceBackup -DeviceName "Contoso-AppVm" -Force -WaitForComplete
 Error      : Microsoft.WindowsAzure.Management.StorSimple.Models.ErrorDetails
 JobId      : 48059fd8-e355-4b91-9385-630d24f31df6
@@ -174,7 +174,7 @@ Accept wildcard characters: False
 ```
 
 ### -WaitForComplete
-Indicates that this cmdlet waits for the operation to complete before it returns control to the wps_1 console.
+Indicates that this cmdlet waits for the operation to complete before it returns control to the Windows PowerShell console.
 
 ```yaml
 Type: SwitchParameter

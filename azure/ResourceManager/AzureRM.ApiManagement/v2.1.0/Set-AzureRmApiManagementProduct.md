@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: 77DE2EA4-7121-42C9-BDB4-39C351489083
-updated_at: 1/11/2017 10:43 PM
-ms.date: 1/11/2017
+updated_at: 1/14/2017 12:36 AM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementProduct.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementProduct.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4df6f2abe31d9c0d1b6b5e609631a0b750350f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementProduct.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da8eb594c0f0a447468b6e82a18c708dac6b5b28/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementProduct.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -124,7 +124,7 @@ Accept wildcard characters: False
 
 ### -SubscriptionRequired
 Indicates whether the product requires a subscription.
-The default value for this parameter is **$True**.
+The default value for this parameter is $True.
 
 ```yaml
 Type: Boolean
@@ -140,7 +140,7 @@ Accept wildcard characters: False
 
 ### -ApprovalRequired
 Indicates whether the subscription to the product requires approval.
-The default value is **$False**.
+The default value is $False.
 
 ```yaml
 Type: Boolean
@@ -262,5 +262,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementProduct](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementProduct.md)
 
 [Remove-AzureRmApiManagementProduct](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementProduct.md)
-
-

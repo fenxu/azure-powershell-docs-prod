@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E0CC0D9F-4D92-434D-9300-A083E2E9F401
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 11:14 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Publish-AzureAutomationRunbook.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Publish-AzureAutomationRunbook.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Publish-AzureAutomationRunbook.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e37a9558a1813d4efba2a6ddbb733e45d88789da/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Publish-AzureAutomationRunbook.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Publish-AzureAutomationRunbook** cmdlet publishes a runbook for use in the
 
 ### Example 1: Publish a runbook
 ```
-PS C:\>Publish-AzureAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01"
+PS C:\> Publish-AzureAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01"
 ```
 
 This command publishes the runbook named Runbk01 in the Automation account named Contoso17.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: E4D90297-FAE8-4A77-BCD7-6B32A99E9917
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Start-AzureWebsiteJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Start-AzureWebsiteJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Start-AzureWebsiteJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Start-AzureWebsiteJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,9 +36,9 @@ The **Start-AzureWebsiteJob** cmdlet starts a web job for a website.
 
 ## EXAMPLES
 
-### 1: Start a web job for a website
+### Example 1: Start a web job for a website
 ```
-C:\PS>Start-AzureWebsiteJob -Name MyWebsite -JobName MyWebJob -JobType Continuous
+PS C:\> Start-AzureWebsiteJob -Name MyWebsite -JobName MyWebJob -JobType Continuous
 ```
 
 Starts a web job called MyWebJob for MyWebSite.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 0CE86921-A610-4D5C-BF16-B447D96B59F2
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 9:33 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-WAPackVMRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-WAPackVMRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-WAPackVMRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/817209bd3dedabf8802f944c485cfcf1fb5d7c19/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Set-WAPackVMRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,9 +33,9 @@ Set-WAPackVMRole [-VMRole] <VMRole> [-InstanceCount] <Int32> [-PassThru] [-Profi
 
 ## DESCRIPTION
 These topics are deprecated and will be removed in the future.
-For the updated topics, see  Azure WAPack Cmdletshttp://msdn.microsoft.com/library/dn776450.aspx.
+For the updated topics, see  [Azure WAPack Cmdlets](http://msdn.microsoft.com/library/dn776450.aspx) (http://msdn.microsoft.com/library/dn776450.aspx).
 This topic describes the cmdlet in the 0.8.1 version of the Microsoft Azure PowerShell module.
-To find out the version of the module you're using, from the Azure PowerShell console, type (get-module azure).version.
+To find out the version of the module you're using, from the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Set-WAPackVMRole** cmdlet changes the instance count property of a virtual machine role.
 
@@ -43,18 +43,18 @@ The **Set-WAPackVMRole** cmdlet changes the instance count property of a virtual
 
 ### Example 1: Specify the instance count for a virtual machine role
 ```
-PS C:\>$VMRole = Get-WAPackVMRole -Name "ContosoVMRole01"
-PS C:\>Set-WAPackVMRole -VMRole $VMRole -InstanceCount 3
+PS C:\> $VMRole = Get-WAPackVMRole -Name "ContosoVMRole01"
+PS C:\> Set-WAPackVMRole -VMRole $VMRole -InstanceCount 3
 ```
 
-The first command gets the virtual machine role named ContosoVMRole01 by using the Get-WAPackVMRole cmdlet, and then stores that object in the $VMRole variable.
+The first command gets the virtual machine role named ContosoVMRole01 by using the **Get-WAPackVMRole** cmdlet, and then stores that object in the $VMRole variable.
 The second and final command sets the new instance count of the virtual machine role stored in $VMRole to 3.
 
 ## PARAMETERS
 
 ### -VMRole
 Specifies a virtual machine role.
-To obtain a virtual machine role, use the Get-WAPackVMRole cmdlet.
+To obtain a virtual machine role, use the **Get-WAPackVMRole** cmdlet.
 
 ```yaml
 Type: VMRole

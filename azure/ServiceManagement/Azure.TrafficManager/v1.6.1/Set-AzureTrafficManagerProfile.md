@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 9829C1FF-6489-49A5-AB8B-B822D03D01A9
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 4:58 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Set-AzureTrafficManagerProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Set-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Set-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/35d16d9546f09e8b59379118de62703cd21e8393/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Set-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,21 +35,21 @@ Set-AzureTrafficManagerProfile [-Name <String>] [-LoadBalancingMethod <String>] 
 ## DESCRIPTION
 The **Set-AzureTrafficManagerProfile** cmdlet updates the properties of a Microsoft Azure Traffic Manager profile.
 
-For profiles for which you have set the *LoadBalancingMethod* value to "Failover", you can determine the failover order of the endpoints you have added to your profile with the Add-AzureTrafficManagerEndpoint cmdlet.
+For profiles for which you have set the *LoadBalancingMethod* value to "Failover", you can determine the failover order of the endpoints you have added to your profile with the **Add-AzureTrafficManagerEndpoint** cmdlet.
 For more information, see Example 3 below.
 
 ## EXAMPLES
 
 ### Example 1: Set the TTL for a Traffic Manager profile
 ```
-PS C:\>Set-AzureTrafficManagerProfile -TrafficManagerProfile $MyTrafficManagerProfile -Ttl 60
+PS C:\> Set-AzureTrafficManagerProfile -TrafficManagerProfile $MyTrafficManagerProfile -Ttl 60
 ```
 
 This command sets the TTL to 60 seconds for the Traffic Manager profile object MyTrafficManagerProfile.
 
 ### Example 2: Set several values for a profile
 ```
-PS C:\>Get-AzureTrafficManagerProfile -Name "MyProfile" | Set-AzureTrafficManagerProfile -LoadBalancingMethod "RoundRobin" -Ttl 30 -MonitorProtocol "Http" -MonitorPort 80 -MonitorRelativePath "/"
+PS C:\> Get-AzureTrafficManagerProfile -Name "MyProfile" | Set-AzureTrafficManagerProfile -LoadBalancingMethod "RoundRobin" -Ttl 30 -MonitorProtocol "Http" -MonitorPort 80 -MonitorRelativePath "/"
 ```
 
 This command gets a Traffic Manager profile named MyProfile by using the **Get-AzureTrafficManagerProfile** cmdlet.
@@ -57,7 +57,7 @@ The profile uses the RoundRobin load balancing method, a TTL of 30 seconds,  the
 
 ### Example 3: Reorder endpoints to desired failover order
 ```
-PS C:\>$Profile = Get-AzureTrafficManagerProfile -Name "MyProfile"
+PS C:\> $Profile = Get-AzureTrafficManagerProfile -Name "MyProfile"
 PS C:\> $Profile.Endpoints[0],$Profile.Endpoints[1] = $Profile.Endpoints[1],$Profile.Endpoints[0]
 PS C:\> $Profile = Set-AzureTrafficManagerProfile
 ```
@@ -197,7 +197,8 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-In-memory profile.
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
 
 ```yaml
 Type: AzureSMProfile

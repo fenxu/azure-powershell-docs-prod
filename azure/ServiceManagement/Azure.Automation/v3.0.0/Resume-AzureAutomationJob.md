@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 01301A1B-F236-41A5-8D63-153CA56885BD
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 11:14 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Resume-AzureAutomationJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Resume-AzureAutomationJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Resume-AzureAutomationJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e37a9558a1813d4efba2a6ddbb733e45d88789da/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v3.0.0/Resume-AzureAutomationJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,7 +35,7 @@ Resume-AzureAutomationJob [-Id] <Guid> [-AutomationAccountName] <String> [-Profi
 The **Resume-AzureAutomationJob** cmdlet resumes a suspended Microsoft Azure Automation job.
 Use the *Id* parameter to specify the suspended job.
 
-To suspend a job, use the Suspend-AzureAutomationJob cmdlet.
+To suspend a job, use the **Suspend-AzureAutomationJob** cmdlet.
 
 ## EXAMPLES
 

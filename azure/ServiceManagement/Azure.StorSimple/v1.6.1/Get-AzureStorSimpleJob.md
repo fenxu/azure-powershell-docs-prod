@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: AC66E128-A7E8-43BE-BAD2-3DE10AD7AEFB
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 8:31 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4df29933055c067f66dd8427e7818e4e4ab777eb/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v1.6.1/Get-AzureStorSimpleJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,7 +46,8 @@ It returns the next 50 results after the 100 that it skips.
 
 ### Example 1: Get a job by using an ID
 ```
-PS C:\>Get-AzureStorSimpleJob -InstanceId "574f47e0-44e9-495c-b8a5-0203c57ebf6d"
+PS C:\> Get-AzureStorSimpleJob -InstanceId "574f47e0-44e9-495c-b8a5-0203c57ebf6d"
+
 BackupPolicy             : 
 BackupTimeStamp          : 1/1/0001 12:00:00 AM
 BackupType               : CloudSnapshot
@@ -74,7 +75,8 @@ This command gets information for the job that has the specified ID.
 
 ### Example 2: Get jobs by using a device name
 ```
-PS C:\>Get-AzureStorSimpleJob -DeviceName "8600-Bravo 001" -First 2
+PS C:\> Get-AzureStorSimpleJob -DeviceName "8600-Bravo 001" -First 2
+
 InstanceId                           Type                         Status                                          DeviceName                                      StartTime                                       Progress                                       
 ----------                           ----                         ------                                          ----------                                      ---------                                       --------                                       
 1997c33f-bfcc-4d08-9aba-28068340a1f9 Backup                       Running                                         8600-Bravo 001                                  4/15/2015 1:30:02 PM                            92                                             
@@ -86,7 +88,7 @@ The command gets the first two jobs for the device.
 
 ### Example 3: Get completed jobs
 ```
-PS C:\>Get-AzureStorSimpleJob -Status "Completed" -Skip 10 -First 2
+PS C:\> Get-AzureStorSimpleJob -Status "Completed" -Skip 10 -First 2
 ```
 
 This command gets completed jobs.
@@ -94,19 +96,19 @@ The command gets only the first two jobs after it skips the first ten jobs.
 
 ### Example 4: Get manual backup jobs
 ```
-PS C:\>Get-AzureStorSimpleJob -Type "ManualBackup"
+PS C:\> Get-AzureStorSimpleJob -Type "ManualBackup"
 ```
 
 This command gets jobs of the manual backup type.
 
 ### Example 5: Get jobs between specified times
 ```
-PS C:\>$StartTime = Get-Date -Year 2015 -Month 3 -Day 10
+PS C:\> $StartTime = Get-Date -Year 2015 -Month 3 -Day 10
 PS C:\> $EndTime = Get-Date -Year 2015 -Month 3 -Day 11 -Hour 12 -Minute 15
-PS C:\>Get-AzureStorSimpleJob -DeviceName "Device07" -From $StartTime -To $EndTime
+PS C:\> Get-AzureStorSimpleJob -DeviceName "Device07" -From $StartTime -To $EndTime
 ```
 
-The first two commands create **DateTime** objects by using the Get-Date cmdlet.
+The first two commands create **DateTime** objects by using the **Get-Date** cmdlet.
 The commands store the new times in the $StartTime and $EndTime variables.
 For more information, type `Get-Help Get-Date`.
 
@@ -160,7 +162,7 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-ps_azureprofile_description
+Specifies an Azure profile.
 
 ```yaml
 Type: AzureSMProfile
@@ -176,7 +178,7 @@ Accept wildcard characters: False
 
 ### -Status
 Specifies the status.
-psdx_paramvalues
+The acceptable values for this parameter are: 
 
 - Running
 - Completed
@@ -215,7 +217,7 @@ Accept wildcard characters: False
 
 ### -Type
 Specifies the job type.
-psdx_paramvalues
+The acceptable values for this parameter are: 
 
 - Backup
 - ManualBackup
@@ -240,7 +242,8 @@ Accept wildcard characters: False
 ```
 
 ### -First
-psdx_firstdesc
+Gets only the specified number of objects.
+Enter the number of objects to get.
 
 ```yaml
 Type: Int32
@@ -255,7 +258,8 @@ Accept wildcard characters: False
 ```
 
 ### -Skip
-psdx_skipdesc
+Ignores the specified number of objects and then gets the remaining objects.
+Enter the number of objects to skip.
 
 ```yaml
 Type: Int32

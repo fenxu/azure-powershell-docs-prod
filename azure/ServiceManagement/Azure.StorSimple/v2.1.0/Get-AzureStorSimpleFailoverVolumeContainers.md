@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 611E7B76-2736-48C4-AE01-C0F665A0FABE
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 7:06 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleFailoverVolumeContainers.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleFailoverVolumeContainers.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleFailoverVolumeContainers.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e7a120a2ee01bf4c44bb7fca528ffdea69e8b122/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleFailoverVolumeContainers.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,7 @@ Only groups that have a value of $True for the **IsDCGroupEligibleForDR** proper
 
 ### Example 1: Get failover volume containers
 ```
-PS C:\>Get-AzureStorSimpleFailoverVolumeContainers -DeviceName "ChewD_App7"
+PS C:\> Get-AzureStorSimpleFailoverVolumeContainers -DeviceName "ChewD_App7"
 
 DCGroup                    IneligibilityMessage          IsDCGroupEligibleForDR
 -------                    --------------------          ----------------------

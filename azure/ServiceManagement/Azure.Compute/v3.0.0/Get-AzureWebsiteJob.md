@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 035D290D-3C38-495B-9F09-2862D84AB0B0
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsiteJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsiteJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsiteJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Get-AzureWebsiteJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,23 +36,23 @@ Gets the web jobs associated with a website
 
 ## EXAMPLES
 
-### 1: Get specific web job info
+### Example 1: Get specific web job info
 ```
-C:\PS>Get-AzureWebsiteJob -Name MyWebsite -JobName MyWebJob
+PS C:\> Get-AzureWebsiteJob -Name MyWebsite -JobName MyWebJob
 ```
 
 Gets a web job called MyWebJob from MyWebsite production slot.
 
-### 2: Get all web jobs for a website
+### Example 2: Get all web jobs for a website
 ```
-C:\PS>Get-AzureWebsiteJob -Name MyWebsite
+PS C:\> Get-AzureWebsiteJob -Name MyWebsite
 ```
 
 Gets all web jobs associated with MyWebsite production slot.
 
-### 3: Get all triggered web jobs
+### Example 3: Get all triggered web jobs
 ```
-C:\PS>Get-AzureWebsiteJob -Name MyWebsite -Slot staging -Type Triggered
+PS C:\> Get-AzureWebsiteJob -Name MyWebsite -Slot staging -Type Triggered
 ```
 
 Gets all triggered web jobs from staging slot of MyWebsite.

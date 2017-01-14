@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 31BD880B-5E8F-4A84-A422-3C14E648AB2D
-updated_at: 10/24/2016 11:55 PM
-ms.date: 10/24/2016
+updated_at: 1/12/2017 6:01 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzureNodeWorkerRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzureNodeWorkerRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzureNodeWorkerRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzureNodeWorkerRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,22 +33,22 @@ Add-AzureNodeWorkerRole [[-Name] <String>] [[-Instances] <Int32>] [-Profile <Azu
 
 ## DESCRIPTION
 This topic describes the cmdlet in the 0.8.10 version of the Microsoft Azure PowerShell module.
-To get the version of the module you're using, in the Azure PowerShell console, type (Get-Module -Name Azure).Version.
+To get the version of the module you're using, in the Azure PowerShell console, type `(Get-Module -Name Azure).Version`.
 
 The **Add-AzureNodeWorkerRole** cmdlet creates the required files and folders (sometimes referred to as scaffolding) for a Node.js application to be hosted in the cloud via node.exe.
 
 ## EXAMPLES
 
-### 1: Single instance worker role
+### Example 1: Single instance worker role
 ```
-PS C:\>Add-AzureWorkerRole MyWorkerRole
+PS C:\> Add-AzureWorkerRole MyWorkerRole
 ```
 
 This example adds scaffolding for a single worker role named **MyWorkerRole** to the current application.
 
-### 2: Multiple instance worker role
+### Example 2: Multiple instance worker role
 ```
-PS C:\>Add-AzureNodeWorkerRole MyWorkerRole -I 2
+PS C:\> Add-AzureNodeWorkerRole MyWorkerRole -I 2
 ```
 
 This example adds scaffolding for a single worker role named **MyWorkerRole** to the current application, with a role instance count of 2.

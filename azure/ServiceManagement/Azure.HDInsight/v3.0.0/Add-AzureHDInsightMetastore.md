@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: B672794C-8D10-4E55-A828-56EA18C5583C
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/12/2017 5:02 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Add-AzureHDInsightMetastore.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Add-AzureHDInsightMetastore.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Add-AzureHDInsightMetastore.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f45f2181ae36eaa69f472d0ddef24cb39587757b/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v3.0.0/Add-AzureHDInsightMetastore.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,25 +37,25 @@ This version of Azure PowerShell HDInsight is deprecated.
 These cmdlets will be removed by January 1, 2017.
 Please use the newer version of Azure PowerShell HDInsight.
 
-For information about how to use the new HDInsight to create a cluster, see Create Linux-based clusters in HDInsight using Azure PowerShellhttps://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-create-linux-clusters-azure-powershell/.
-For information about how to submit jobs by using Azure PowerShell and other approaches, see Submit Hadoop jobs in HDInsighthttps://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/.
-For reference information about Azure PowerShell HDInsight, see Azure HDInsight Cmdletshttps://msdn.microsoft.com/en-us/library/mt438705.aspx.
+For information about how to use the new HDInsight to create a cluster, see [Create Linux-based clusters in HDInsight using Azure PowerShell](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-create-linux-clusters-azure-powershell/) (https://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-create-linux-clusters-azure-powershell/).
+For information about how to submit jobs by using Azure PowerShell and other approaches, see [Submit Hadoop jobs in HDInsight](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/) (https://azure.microsoft.com/en-us/documentation/articles/hdinsight-submit-hadoop-jobs-programmatically/).
+For reference information about Azure PowerShell HDInsight, see [Azure HDInsight Cmdlets](https://msdn.microsoft.com/en-us/library/mt438705.aspx) (https://msdn.microsoft.com/en-us/library/mt438705.aspx).
 
-The **Add-AzureHDInsightMetastore** cmdlet adds a Microsoft SQL Server database to an Azure HDInsight configuration that is created by the New-AzureHDInsightClusterConfig cmdlet.
+The **Add-AzureHDInsightMetastore** cmdlet adds a Microsoft SQL Server database to an Azure HDInsight configuration that is created by the **New-AzureHDInsightClusterConfig** cmdlet.
 The database is used to store metadata for Hive or Oozie, or both.
 
 ## EXAMPLES
 
 ### Example 1: Add a metastore
 ```
-PS C:\>$Metaconfig = Add-AzureHDInsightMetastore -Config $Config -SqlAzureServerName "ContosoSQLServer" -DatabaseName "DBname" -Credential (Get-Credential) -MetastoreType HiveMetaStore
+PS C:\> $Metaconfig = Add-AzureHDInsightMetastore -Config $Config -SqlAzureServerName "ContosoSQLServer" -DatabaseName "DBname" -Credential (Get-Credential) -MetastoreType HiveMetaStore
 ```
 
 This command adds a SQL Server database named ContosoSQLServer to serve as a Hive metastore for an HDInsight cluster.
 
 ### Example 2: Configure storage and add metastores
 ```
-PS C:\>$SubId = (Get-AzureSubscription -Current).SubscriptionId
+PS C:\> $SubId = (Get-AzureSubscription -Current).SubscriptionId
 PS C:\> $Key1 = Get-AzureStorageKey -StorageAccountName "MyBlobStorage" | %{ $_.Primary }
 PS C:\> $Key2 = Get-AzureStorageKey -StorageAccountName "MySecondBlobStorage" | %{ $_.Primary }
 PS C:\> $Creds = Get-Credential
@@ -69,11 +69,11 @@ PS C:\> New-AzureHDInsightClusterConfig -ClusterSizeInNodes 4
     | New-AzureHDInsightCluster -Subscription $SubId -Credential $Creds
 ```
 
-The first command uses the Get-AzureSubscription cmdlet to get the current subscription ID, and then stores it in the $SubId variable.
+The first command uses the **Get-AzureSubscription** cmdlet to get the current subscription ID, and then stores it in the $SubId variable.
 
-The second and third commands use the Get-AzureStorageKey cmdlet to get the primary storage keys for MyBlobStorage and MySecondBlobStorage, and then store the keys in the $Key1 and $Key2 variables, respectively.
+The second and third commands use the **Get-AzureStorageKey** cmdlet to get the primary storage keys for MyBlobStorage and MySecondBlobStorage, and then store the keys in the $Key1 and $Key2 variables, respectively.
 
-The fourth, fifth, and sixth commands use the Get-Credential cmdlet to get credentials for the current subscription and for Oozie and Hive, and then store the credentials in variables.
+The fourth, fifth, and sixth commands use the **Get-Credential** cmdlet to get credentials for the current subscription and for Oozie and Hive, and then store the credentials in variables.
 
 The final command performs a sequence of operations by using these cmdlets:
 

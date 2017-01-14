@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D113375A-BE10-458E-9103-7EBC63309259
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 4:58 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Test-AzureTrafficManagerDomainName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Test-AzureTrafficManagerDomainName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Test-AzureTrafficManagerDomainName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/35d16d9546f09e8b59379118de62703cd21e8393/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v1.6.1/Test-AzureTrafficManagerDomainName.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ If the domain name is available, this cmdlet returns a value of $True.
 
 ### Example 1: Check whether a domain name is available
 ```
-PS C:\>Test-AzureTrafficManagerDomainName -DomainName "ContosoApp.trafficmanager.net"
+PS C:\> Test-AzureTrafficManagerDomainName -DomainName "ContosoApp.trafficmanager.net"
 $True
 ```
 
@@ -50,7 +50,7 @@ This command checks whether the domain name ContosoApp.trafficmanager.net is ava
 Specifies the domain name to test.
 You must include the following string: 
 
-.trafficmanager.net
+`.trafficmanager.net`
 
 ```yaml
 Type: String
@@ -65,7 +65,8 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-In-memory profile.
+Specifies the Azure profile from which this cmdlet reads. 
+If you do not specify a profile, this cmdlet reads from the local default profile.
 
 ```yaml
 Type: AzureSMProfile
