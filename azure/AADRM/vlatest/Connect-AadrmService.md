@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=400595
 schema: 2.0.0
 ms.assetid: 857D8EFC-9D6E-4756-A9A2-B90FF8E02A1F
-updated_at: 12/14/2016 2:32 AM
-ms.date: 12/14/2016
+updated_at: 1/9/2017 9:53 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3d5425b62845bed9497a9f6767e5de6deb355217/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/7b697fa1c13e48b2d4266db027722e43aee4fa0e/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -15,7 +15,7 @@ author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: cabailey
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: rights-management
 ---
 
@@ -120,8 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-Specifies a **PSCredential** object.
-To obtain a **PSCredential** object, use the [Get-Credential](http://go.microsoft.com/fwlink/?LinkID=293936) cmdlet. For more information, type `Get-Help Get-Cmdlet`.
+Specifies a **PSCredential** object. To obtain a **PSCredential** object, use the [Get-Credential](http://go.microsoft.com/fwlink/?LinkID=293936) cmdlet. For more information, type `Get-Help Get-Cmdlet`.
 
 The cmdlet prompts you for a password.
 
