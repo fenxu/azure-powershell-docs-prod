@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 17DF2C26-D2C6-4157-8BDE-57EAA9E4EF40
-updated_at: 1/12/2017 6:01 PM
+updated_at: 1/12/2017 9:33 PM
 ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzureNodeWebRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzureNodeWebRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzureNodeWebRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/817209bd3dedabf8802f944c485cfcf1fb5d7c19/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Add-AzureNodeWebRole.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ The **Add-AzureNodeWebRole** creates required files and folders (sometimes refer
 
 ### Example 1: Single instance web role
 ```
-PS C:\>>Add-AzureNodeWebRole -Name MyWebRole
+PS C:\> Add-AzureNodeWebRole -Name MyWebRole
 ```
 
 This example adds scaffolding for a single web role named **MyWebRole** to the current application.

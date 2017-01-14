@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.StorSimple.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 97845EFB-B56F-4DC2-8067-A4DE97C76C37
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/13/2017 7:06 PM
+ms.date: 1/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleResourceContext.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleResourceContext.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleResourceContext.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e7a120a2ee01bf4c44bb7fca528ffdea69e8b122/azureps-cmdlets-docs/ServiceManagement/Azure.StorSimple/v2.1.0/Get-AzureStorSimpleResourceContext.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,7 @@ The **Get-AzureStorSimpleResourceContext** cmdlet gets the current resource cont
 
 ### Example 1: Get the current context
 ```
-PS C:\>Select-AzureStorSimpleResource -ResourceName "Contoso63-Tsqa" 
+PS C:\> Select-AzureStorSimpleResource -ResourceName "Contoso63-Tsqa" 
 PS C:\> Get-AzureStorSimpleResourceContext
 ResourceId           ResourceName
 ----------           ------------
@@ -50,7 +50,7 @@ The second command gets the current resource context.
 
 ### Example 2: Attempt to get the current context
 ```
-PS C:\>Get-AzureStorSimpleResourceContext
+PS C:\> Get-AzureStorSimpleResourceContext
 Get-AzureStorSimpleResourceContext : Resource Context is not set for your subscription. Please use
 Select-AzureStorSimpleResource -ResourceName <<name>> to set
 ```

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: 7BD63F30-F68A-4BC4-B118-A9D5194F8551
-updated_at: 1/11/2017 10:43 PM
-ms.date: 1/11/2017
+updated_at: 1/14/2017 12:36 AM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4df6f2abe31d9c0d1b6b5e609631a0b750350f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da8eb594c0f0a447468b6e82a18c708dac6b5b28/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmApiManagementSubscription
 
 ## SYNOPSIS
-Deletes an existing subscription.
+Removes an existing subscription.
 
 ## SYNTAX
 
@@ -33,7 +33,7 @@ Remove-AzureRmApiManagementSubscription -Context <PsApiManagementContext> -Subsc
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmApiManagementSubscription** cmdlet deletes an existing subscription.
+The **Remove-AzureRmApiManagementSubscription** cmdlet removes an existing subscription.
 
 ## EXAMPLES
 
@@ -42,7 +42,7 @@ The **Remove-AzureRmApiManagementSubscription** cmdlet deletes an existing subsc
 PS C:\> Remove-AzureRmApiManagementSubscription -Context $apimContext -SubscriptionId "0123456789" -Force
 ```
 
-This command deletes an existing subscription.
+This command removes an existing subscription.
 
 ## PARAMETERS
 
@@ -179,5 +179,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementSubscription](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementSubscription.md)
 
 [Set-AzureRmApiManagementSubscription](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementSubscription.md)
-
-

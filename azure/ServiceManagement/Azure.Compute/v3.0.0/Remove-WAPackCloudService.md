@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 0900A20E-FBF5-4B80-8396-403E2CA024C0
-updated_at: 1/12/2017 6:01 PM
+updated_at: 1/12/2017 9:33 PM
 ms.date: 1/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackCloudService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackCloudService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a72a97ed452f82624cbe43d1ad240418d55beae2/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackCloudService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/817209bd3dedabf8802f944c485cfcf1fb5d7c19/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v3.0.0/Remove-WAPackCloudService.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,6 +48,7 @@ PS C:\> Remove-WAPackVM -VM $CloudService
 ```
 
 The first command gets the cloud service named ContosoCloudService01 by using the **Get-WAPackCloudService** cmdlet, and then stores that object in the $CloudService variable.
+
 The second command removes the cloudservice stored in $CloudService.
 The command prompts you for confirmation.
 
@@ -58,6 +59,7 @@ PS C:\> Remove-WAPackCloudService -VM $CloudService -Force
 ```
 
 The first command gets the cloud service named ContosoCloudService02 by using the **Get-WAPackCloudService** cmdlet, and then stores that object in the $CloudService variable.
+
 The second command removes the cloud service stored in $CloudService.
 This command includes the *Force* parameter.
 The command does not prompt you for confirmation.
@@ -97,7 +99,7 @@ Accept wildcard characters: False
 
 ### -CloudService
 Specifies a cloud service object.
-To obtain a cloud service, use the Get-WAPackCloudService cmdlet.
+To obtain a cloud service, use the **Get-WAPackCloudService** cmdlet.
 
 ```yaml
 Type: CloudService

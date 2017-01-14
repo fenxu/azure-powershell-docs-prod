@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: D990961D-90EA-4969-BDC0-40B30B49E917
-updated_at: 1/11/2017 10:43 PM
-ms.date: 1/11/2017
+updated_at: 1/14/2017 12:36 AM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4df6f2abe31d9c0d1b6b5e609631a0b750350f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da8eb594c0f0a447468b6e82a18c708dac6b5b28/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -52,28 +52,28 @@ The **Get-AzureRmApiManagementUser** cmdlet gets a specified user, or all users,
 
 ### Example 1: Get all users
 ```
-PS C:\> Get-AzureRmApiManagementUser -Context $apimContext
+PS C:\> Get-AzureRmApiManagementUser -Context $ApiMContext
 ```
 
 This command gets all users.
 
 ### Example 2: Get a user by ID
 ```
-PS C:\> Get-AzureRmApiManagementUser -Context $apimContext -UserId "0123456789"
+PS C:\> Get-AzureRmApiManagementUser -Context $ApiMContext -UserId "0123456789"
 ```
 
 This command gets a user by ID.
 
 ### Example: Get users by last name
 ```
-PS C:\> Get-AzureRmApiManagementUser -Context $apimContext -LastName "Fuller"
+PS C:\> Get-AzureRmApiManagementUser -Context $ApiMContext -LastName "Fuller"
 ```
 
 This command gets users that have a specified last name, Fuller.
 
 ### Example 4: Get a user by email address
 ```
-PS C:\> Get-AzureRmApiManagementUser -Context $apimContext -Email 
+PS C:\> Get-AzureRmApiManagementUser -Context $ApiMContext -Email 
 "user@contoso.com"
 ```
 
@@ -81,7 +81,7 @@ This command gets the user that has the specified email address.
 
 ### Example 5: Get all users within a group
 ```
-PS C:\> Get-AzureRmApiManagementUser -Context $apimContext -GroupId "0001"
+PS C:\> Get-AzureRmApiManagementUser -Context $ApiMContext -GroupId "0001"
 ```
 
 This command gets all users within the specified group.
@@ -262,5 +262,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApiManagementUser](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementUser.md)
 
 [Set-AzureRmApiManagementUser](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementUser.md)
-
-

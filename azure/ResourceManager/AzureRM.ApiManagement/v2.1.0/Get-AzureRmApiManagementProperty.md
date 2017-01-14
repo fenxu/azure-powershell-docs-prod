@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 online version: 
 schema: 2.0.0
 ms.assetid: ACAEA5F9-5CE5-47CC-B1A9-ECD38D6FA90A
-updated_at: 1/11/2017 10:43 PM
-ms.date: 1/11/2017
+updated_at: 1/14/2017 12:36 AM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementProperty.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4df6f2abe31d9c0d1b6b5e609631a0b750350f/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da8eb594c0f0a447468b6e82a18c708dac6b5b28/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -53,14 +53,11 @@ Get-AzureRmApiManagementProperty -Context <PsApiManagementContext> [-Tag <String
 
 ## EXAMPLES
 
-### 1:
-```
-PS C:\> 
-```
-
 ## PARAMETERS
 
 ### -Context
+Specifies a **PsApiManagementContext** object.
+
 ```yaml
 Type: PsApiManagementContext
 Parameter Sets: (All)
@@ -113,6 +110,10 @@ Accept wildcard characters: False
 ```
 
 ### -PropertyId
+Specifies an ID for the property.
+Maximum length is 256 characters.
+If you do not specify an ID, this cmdlet generates one.
+
 ```yaml
 Type: String
 Parameter Sets: Get by property ID
@@ -126,6 +127,8 @@ Accept wildcard characters: False
 ```
 
 ### -Name
+Specifies the name of the management property that this cmdlet gets.
+
 ```yaml
 Type: String
 Parameter Sets: Find properties containing Name
@@ -139,6 +142,8 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
+Specifies a tag.
+
 ```yaml
 Type: String
 Parameter Sets: Find properties by Tag
@@ -162,4 +167,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[New-AzureRmApiManagementProperty](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/New-AzureRmApiManagementProperty.md)
 
+[Remove-AzureRmApiManagementProperty](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementProperty.md)
+
+[Set-AzureRmApiManagementProperty](xref:ResourceManager/AzureRM.ApiManagement/v2.1.0/Set-AzureRmApiManagementProperty.md)
