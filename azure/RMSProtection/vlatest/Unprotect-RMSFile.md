@@ -3,11 +3,11 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623209
 schema: 2.0.0
 ms.assetid: C07C0831-92B3-43CE-B18F-F2A12F3283DC
-updated_at: 1/13/2017 11:09 PM
-ms.date: 1/13/2017
+updated_at: 1/16/2017 8:38 PM
+ms.date: 1/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/73fede5be8d73e5de67a785007346f27b5795709/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f3add26f82b59dcd515274b3f26c04749ed92ee0/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -75,7 +75,7 @@ C:\Protected\Test.ptxt     C:\Temp\Protected\Test.txt
 C:\Protected\Word.docx     C:\Temp\Protected\Word.docx
 ```
 
-This command unprotects a folder, retaining the original protected files and creating the unprotected versions in the folder location named C:\Temp and creates a corresponding subfolder of "Protected". This command can also be used with the *Recurse* parameter, which determines whether to include the processing of subfolders.
+This command unprotects a folder, retaining the original protected files and creating the unprotected versions in the folder location named C:\Temp and creates a corresponding subfolder of "Protected". This command can also be used with the Recurse parameter, which determines whether to include the processing of subfolders.
 
 ### Example 4: Unprotect a .PST file
 ```
@@ -101,8 +101,7 @@ Notice that for a .rar input file, the unprotected file is a .zip file.
 ## PARAMETERS
 
 ### -File
-Specifies the path and file to unprotect.
-For the path, you can specify a drive letter or UNC.
+Specifies the path and file to unprotect. For the path, you can specify a drive letter or UNC.
 
 ```yaml
 Type: String

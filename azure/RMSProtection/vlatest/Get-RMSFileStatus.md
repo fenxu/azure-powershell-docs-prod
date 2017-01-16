@@ -3,11 +3,11 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623199
 schema: 2.0.0
 ms.assetid: 074F42BF-D30C-45C4-88F9-E445A7DFEA41
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 1/16/2017 8:28 PM
+ms.date: 1/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f1352338bfee6b58a131e5d9723b53e5719e2276/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -48,7 +48,7 @@ C:\Test.docx         Unprotected
 ```
 
 This command lists the Rights Management protection status for the specified file C:\Test.docx.
-Because a file with a .docx file name extension supports native protection, the status returns **Protected (Native)** or **Unprotected**.
+Because a file with a .docx file name extension supports native protection, the status returns "Protected (Native)" or "Unprotected".
 
 ### Example 2: List the protection status for all files in a folder and any subfolders
 ```

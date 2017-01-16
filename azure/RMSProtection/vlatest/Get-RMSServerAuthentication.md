@@ -3,11 +3,11 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623204
 schema: 2.0.0
 ms.assetid: 015252D1-EF22-4060-84E5-619C8C66CEDF
-updated_at: 1/13/2017 11:09 PM
-ms.date: 1/13/2017
+updated_at: 1/16/2017 8:28 PM
+ms.date: 1/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServerAuthentication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServerAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/73fede5be8d73e5de67a785007346f27b5795709/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServerAuthentication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f1352338bfee6b58a131e5d9723b53e5719e2276/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServerAuthentication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -31,8 +31,7 @@ Get-RMSServerAuthentication [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-RMSServerAuthentication** cmdlet gets the status and details of your service principal authentication to Azure Rights Management (Azure  RMS) that was previous set by using [Set-RMSServerAuthentication](./Set-RMSServerAuthentication.md). The status must be ON for you to protect or unprotect files for Azure RMS by using a service principal rather than your user account.
-This status remains on for the duration of your Windows PowerShell session.
+The **Get-RMSServerAuthentication** cmdlet gets the status and details of your service principal authentication to Azure Rights Management (Azure  RMS) that was previous set by using [Set-RMSServerAuthentication](./Set-RMSServerAuthentication.md). The status must be ON for you to protect or unprotect files for Azure RMS by using a service principal rather than your user account. This status remains on for the duration of your Windows PowerShell session.
 
 This cmdlet applies to Azure  RMS only and does not apply to AD RMS. This cmdlet also does not apply if you are authenticating to Azure RMS by using your user account. For more information, see [about_RMSProtection_AzureRMS](./about_RMSProtection_AzureRMS.md).
 

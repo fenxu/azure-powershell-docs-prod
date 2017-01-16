@@ -3,11 +3,11 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623206
 schema: 2.0.0
 ms.assetid: 7ABE0E1B-354F-4017-B4B0-C13AD1FF7A6D
-updated_at: 1/13/2017 11:09 PM
-ms.date: 1/13/2017
+updated_at: 1/16/2017 8:28 PM
+ms.date: 1/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/New-RMSProtectionLicense.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/New-RMSProtectionLicense.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/73fede5be8d73e5de67a785007346f27b5795709/Azure%20Information%20Protection/RMSProtection/vlatest/New-RMSProtectionLicense.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f1352338bfee6b58a131e5d9723b53e5719e2276/Azure%20Information%20Protection/RMSProtection/vlatest/New-RMSProtectionLicense.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ### -OwnerEmail
 Specifies the Rights Management owner of the rights policy by email address, which can be a single account or a group account (distribution list or emailed-enabled security group). You can use this parameter to set an owner other than yourself.
 
-The Rights Management owner has Full Control Rights Management permissions and is independent from the Windows file system owner. 
+The Rights Management owner has all rights (Full Control) for the file. The  Rights Management owner is independent from the Windows file system owner. 
 
 If you do not specify a value, the cmdlet will use your email address to identify you as the Rights Management owner of this ad-hoc rights policy.
 
@@ -174,11 +174,9 @@ Accept wildcard characters: False
 ```
 
 ### -UserEmail
-Specifies users who will have rights to use the file or files that is protected by this ad-hoc policy.
-Use this parameter and the *Permission* parameter to grant rights to specified users.
+Specifies users who will have rights to use the file or files that is protected by this ad-hoc policy. Use this parameter and the *Permission* parameter to grant rights to specified users.
 
-You can specify single users, or specify a group of users from your organization by using an emailed-enabled security group or a distribution group.
-You can also specify users (but not groups) from another organization.
+You can specify single users, or specify a group of users from your organization by using an emailed-enabled security group or a distribution group. You can also specify users (but not groups) from another organization.
 
 ```yaml
 Type: String[]
