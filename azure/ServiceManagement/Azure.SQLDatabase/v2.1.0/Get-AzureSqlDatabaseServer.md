@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 95302515-8B40-4150-807F-E177487D4069
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 3:12 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Get-AzureSqlDatabaseServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Get-AzureSqlDatabaseServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Get-AzureSqlDatabaseServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e1727951dca2b21abd11583de9872813c9706050/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Get-AzureSqlDatabaseServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,14 +39,14 @@ Otherwise, the cmdlet returns information about all the servers.
 
 ### Example 1: Get information about all servers
 ```
-PS C:\>Get-AzureSqlDatabaseServer
+PS C:\> Get-AzureSqlDatabaseServer
 ```
 
 This command returns information about all instances of Azure SQL Database Server in the current subscription.
 
 ### Example 2: Get information about a specific server
 ```
-PS C:\>Get-AzureSqlDatabaseServer -ServerName "lpqd0zbr8y"
+PS C:\> Get-AzureSqlDatabaseServer -ServerName "lpqd0zbr8y"
 ```
 
 This command returns information about the server named lpqd0zbr8y.

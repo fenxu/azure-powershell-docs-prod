@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 3A9E61A7-0A35-45E0-8D4A-4490178DF5A0
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 6:46 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureServiceAvailableExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureServiceAvailableExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureServiceAvailableExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6555eb8cb2408f85e337832ad5b9d0adb06ce475/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureServiceAvailableExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -54,7 +54,7 @@ The **Get-AzureServiceAvailableExtension** cmdlet gets information for the lates
 
 ### Example 1: Get available extensions
 ```
-PS C:\>Get-AzureServiceAvailableExtension
+PS C:\> Get-AzureServiceAvailableExtension
 
           ProviderNameSpace          : Microsoft.Windows.Azure.Extensions
           ExtensionName              : RDP
@@ -79,7 +79,7 @@ This command gets all available extensions.
 
 ### Example 2: Get extensions in a specified namespace
 ```
-PS C:\>Get-AzureServiceAvailableExtension -ProviderNamespace Microsoft.Windows.Azure.Extensions -ExtensionName "RDP" -AllVersions
+PS C:\> Get-AzureServiceAvailableExtension -ProviderNamespace Microsoft.Windows.Azure.Extensions -ExtensionName "RDP" -AllVersions
 
           ProviderNameSpace          : Microsoft.Windows.Azure.Extensions
           ExtensionName              : RDP
@@ -104,7 +104,7 @@ This command gets the extensions with a specified name in a specified namespace.
 
 ### Example 3: Get a specific version of an extension
 ```
-PS C:\>Get-AzureServiceAvailableExtension -ProviderNamespace Microsoft.Windows.Azure.Extensions -ExtensionName "RDP" -Version 1.0.0.1
+PS C:\> Get-AzureServiceAvailableExtension -ProviderNamespace Microsoft.Windows.Azure.Extensions -ExtensionName "RDP" -Version 1.0.0.1
 
           ProviderNameSpace          : Microsoft.Windows.Azure.Extensions
           ExtensionName              : RDP

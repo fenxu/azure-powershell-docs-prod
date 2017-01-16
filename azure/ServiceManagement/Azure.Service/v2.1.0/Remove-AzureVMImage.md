@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: D7AD032C-DEBC-403E-B19C-81690939C131
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 6:46 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureVMImage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureVMImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureVMImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6555eb8cb2408f85e337832ad5b9d0adb06ce475/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureVMImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,23 +40,23 @@ To delete the associated virtual hard drive (VHD), use the **DeleteVHD** paramet
 
 ### Example 1: Remove an image from the image repository
 ```
-PS C:\>Remove-AzureVMImage -ImageName "Image001"
+PS C:\> Remove-AzureVMImage -ImageName "Image001"
 ```
 
 This command removes the image named Image001 from the image repository.
 
 ### Example 2: Remove an image from the image repository and also the VHD
 ```
-PS C:\>Remove-AzureVMImage -ImageName " Image001" -DeleteVHD
+PS C:\> Remove-AzureVMImage -ImageName " Image001" -DeleteVHD
 ```
 
 This command removes the image named Image001 from the image repository and also deletes the physical VHD image from the storage account.
 
 ### Example 3: Set a subscription context and then remove all the images
 ```
-PS C:\>$SubsId = &amp;lt;MySubscriptionID&amp;gt;
+PS C:\> $SubsId = &amp;lt;MySubscriptionID&amp;gt;
 PS C:\> $Cert = Get-AzureCertificate cert:\LocalMachine\MY\&amp;lt;CertificateThumbprint&amp;gt;
-PS C:\>Get-AzureVMImage `
+PS C:\> Get-AzureVMImage `
 | Where-Object {$_.Label -match "Beta" }`
 | Foreach-Object {Remove-AzureVMImage -ImageName $_.name }
 ```

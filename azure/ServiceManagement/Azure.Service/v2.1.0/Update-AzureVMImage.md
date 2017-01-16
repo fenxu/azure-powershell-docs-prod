@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: DB0F08FC-32E2-410A-A9E1-4B4DA7E0D1A4
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 6:46 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Update-AzureVMImage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Update-AzureVMImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Update-AzureVMImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6555eb8cb2408f85e337832ad5b9d0adb06ce475/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Update-AzureVMImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -42,14 +42,14 @@ It returns an image object with information about the updated image.
 
 ### Example 1: Update an image by changing the image label
 ```
-PS C:\>Update-AzureVMImage -ImageName "Windows-Server-2008-SP2" -Label "DoNotUse"
+PS C:\> Update-AzureVMImage -ImageName "Windows-Server-2008-SP2" -Label "DoNotUse"
 ```
 
 This command updates the image named Windows-Server-2008-SP2 by changing the image label to DoNotUse.
 
 ### Example 2: Get all operating systems by label and then update the label
 ```
-PS C:\>Get-AzureVMImage | Where-Object {$_.Label -eq "DoNotUse" } | Update-AzureVMImage -Label "Updated"
+PS C:\> Get-AzureVMImage | Where-Object {$_.Label -eq "DoNotUse" } | Update-AzureVMImage -Label "Updated"
 ```
 
 This command gets all the operating system images labeled DoNotUse and changes the label to Updated.
@@ -187,7 +187,7 @@ Accept wildcard characters: False
 ```
 
 ### -DiskConfig
-Specifies the operating system disk and data disk configuration for the virtual machine image created by using the New-AzureVMImageDiskConfigSet, Set-AzureVMImageOSDiskConfig, and Set-AzureVMImageDataDiskConfig cmdlets.
+Specifies the operating system disk and data disk configuration for the virtual machine image created by using the **New-AzureVMImageDiskConfigSet**, **Set-AzureVMImageOSDiskConfig**, and **Set-AzureVMImageDataDiskConfig** cmdlets.
 
 ```yaml
 Type: VirtualMachineImageDiskConfigSet

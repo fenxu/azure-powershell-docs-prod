@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 98834DB6-4D73-4067-B71B-9F7FF187B5A1
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 6:46 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureVNetSite.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureVNetSite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureVNetSite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6555eb8cb2408f85e337832ad5b9d0adb06ce475/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureVNetSite.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,14 +39,14 @@ If you specify a virtual network name, only information for that virtual network
 
 ### Example 1: Get information about all virtual networks in the current subscription
 ```
-PS C:\>Get-AzureVNetSite
+PS C:\> Get-AzureVNetSite
 ```
 
 This command gets information about all the virtual networks in the current subscription.
 
 ### Example 2: Get information about a specific virtual network in the current subscription
 ```
-PS C:\>Get-AzureVNetSite -VNetName "MyProductionNetwork"
+PS C:\> Get-AzureVNetSite -VNetName "MyProductionNetwork"
 ```
 
 This command retrieves information on the MyProductionNetwork virtual network only.

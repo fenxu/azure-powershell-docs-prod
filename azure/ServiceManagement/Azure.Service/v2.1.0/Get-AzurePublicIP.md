@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 1F542A2E-E352-4610-AA66-4A491DDB7CBA
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 6:46 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzurePublicIP.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzurePublicIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzurePublicIP.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6555eb8cb2408f85e337832ad5b9d0adb06ce475/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzurePublicIP.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,16 +33,16 @@ Get-AzurePublicIP [[-PublicIPName] <String>] -VM <IPersistentVM> [-Profile <Azur
 
 ## DESCRIPTION
 The **Get-AzurePublicIP** cmdlet gets the Public IP information for an Azure virtual machine.
-To obtain the IP address of the Public IP, use the Get-AzureVM cmdlet.
+To obtain the IP address of the Public IP, use the **Get-AzureVM** cmdlet.
 
 ## EXAMPLES
 
 ### Example 1: Get Public IP configuration
 ```
-PS C:\>Get-AzureVM -ServiceName "FTPInAzure" -Name "FTPInstance" | Get-AzurePublicIP
+PS C:\> Get-AzureVM -ServiceName "FTPInAzure" -Name "FTPInstance" | Get-AzurePublicIP
 ```
 
-This command gets the virtual machine named FTPInstance in the service named FTPInAzure by using the Get-AzureVM cmdlet.
+This command gets the virtual machine named FTPInstance in the service named FTPInAzure by using the **Get-AzureVM** cmdlet.
 The command passes that virtual machine to the current cmdlet by using the pipeline operator.
 The current cmdlet gets Public IP configuration from the virtual machine.
 

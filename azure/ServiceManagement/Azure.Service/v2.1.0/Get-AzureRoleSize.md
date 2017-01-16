@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: D25986D7-E129-4F59-9E00-D416272BEF56
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 6:46 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureRoleSize.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureRoleSize.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureRoleSize.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6555eb8cb2408f85e337832ad5b9d0adb06ce475/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureRoleSize.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -82,7 +82,7 @@ This command gets role size information for the specified role size.
 
 ### Example 3: Get role size information for all virtual machines in all of the Azure services
 ```
-PS C:\>Get-AzureService | Get-AzureVM | Get-AzureRoleSize
+PS C:\> Get-AzureService | Get-AzureVM | Get-AzureRoleSize
 ```
 
 This command gets role size information for all virtual machines in all of the Azure services.

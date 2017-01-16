@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: E7EE6BBC-8118-4B60-9D3A-F8E5C831534B
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 6:46 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6555eb8cb2408f85e337832ad5b9d0adb06ce475/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ To delete a deployment, first suspend it.
 
 ### Example 1: Remove a deployment
 ```
-PS C:\>Remove-AzureDeployment -ServiceName "ContosoService"
+PS C:\> Remove-AzureDeployment -ServiceName "ContosoService"
 ```
 
 This command removes the deployment of the Azure service named ContosoService.
@@ -48,7 +48,7 @@ Because this command does not specify a slot, it removes the service from the pr
 
 ### Example 2: Remove a deployment and virtual hard disks
 ```
-PS C:\>Remove-AzureDeployment -ServiceName "ContosoService" -DeleteVHD
+PS C:\> Remove-AzureDeployment -ServiceName "ContosoService" -DeleteVHD
 ```
 
 This command removes the deployment of the service named ContosoService from the production environment.
