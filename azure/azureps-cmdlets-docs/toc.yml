@@ -14179,8 +14179,6 @@
               href: ../ServiceManagement/Azure.Antimalware/v3.3.0/Remove-AzureVMMicrosoftAntimalwareExtension.md
             - name: Set-AzureServiceAntimalwareExtension
               href: ../ServiceManagement/Azure.Antimalware/v3.3.0/Set-AzureServiceAntimalwareExtension.md
-            - name: Set-AzureVMMicrosoftAntimalwareExtension
-              href: ../ServiceManagement/Azure.Antimalware/v3.3.0/Set-AzureVMMicrosoftAntimalwareExtension.md
         - name: v3.1.0
           href: ../ServiceManagement/Azure.Antimalware/v3.1.0/Azure.Antimalware.md
           items:
@@ -14190,12 +14188,8 @@
               href: ../ServiceManagement/Azure.Antimalware/v3.1.0/Get-AzureVMMicrosoftAntimalwareExtension.md
             - name: Remove-AzureServiceAntimalwareExtension
               href: ../ServiceManagement/Azure.Antimalware/v3.1.0/Remove-AzureServiceAntimalwareExtension.md
-            - name: Remove-AzureVMMicrosoftAntimalwareExtension
-              href: ../ServiceManagement/Azure.Antimalware/v3.1.0/Remove-AzureVMMicrosoftAntimalwareExtension.md
             - name: Set-AzureServiceAntimalwareExtension
               href: ../ServiceManagement/Azure.Antimalware/v3.1.0/Set-AzureServiceAntimalwareExtension.md
-            - name: Set-AzureVMMicrosoftAntimalwareExtension
-              href: ../ServiceManagement/Azure.Antimalware/v3.1.0/Set-AzureVMMicrosoftAntimalwareExtension.md
         - name: v1.6.1
           href: ../ServiceManagement/Azure.Antimalware/v1.6.1/Azure.Antimalware.md
           items:
