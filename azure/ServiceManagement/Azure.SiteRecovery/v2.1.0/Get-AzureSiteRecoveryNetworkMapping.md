@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 92A1220E-6209-434F-81BC-98DA78163171
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 5:21 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryNetworkMapping.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryNetworkMapping.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryNetworkMapping.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8b150e4b50ccfdd941f077b024dd06af0727c014/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v2.1.0/Get-AzureSiteRecoveryNetworkMapping.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,8 +45,9 @@ The **Get-AzureSiteRecoveryNetworkMapping** cmdlet gets mappings of Azure Site R
 
 ### Example 1: Get the mapping between a network and a recovery network
 ```
-PS C:\>$Servers = Get-AzureSiteRecoveryServer
+PS C:\> $Servers = Get-AzureSiteRecoveryServer
 PS C:\> Get-AzureSiteRecoveryNetworkMapping -PrimaryServer $Servers[0] -RecoveryServer $Servers[0]
+
 PrimaryServerId     : 774859b0-1966-48cc-9df7-759c441b7a8c
 PrimaryNetworkId    : 7cfd636e-5cc2-4e01-873b-8a7aa4962341
 PrimaryNetworkName  : phase2RecoveryVMNetwork
@@ -65,8 +66,9 @@ The command specifies the server for the recovery network as the second element 
 
 ### Example 2: Get the mapping between a network and an Azure virtual machine network
 ```
-PS C:\>$Servers = Get-AzureSiteRecoveryServer
+PS C:\> $Servers = Get-AzureSiteRecoveryServer
 PS C:\> Get-AzureSiteRecoveryNetworkMapping -PrimaryServer $Servers[0] -Azure
+
 PrimaryServerId     : 774859b0-1966-48cc-9df7-759c441b7a8c
 PrimaryNetworkId    : 7cfd636e-5cc2-4e01-873b-8a7aa4962341
 PrimaryNetworkName  : phase2RecoveryVMNetwork

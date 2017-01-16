@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: A1A47EB2-9DDF-4536-80F7-DEF6851469A7
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 1/14/2017 3:12 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/New-AzureSqlDatabaseServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/New-AzureSqlDatabaseServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/New-AzureSqlDatabaseServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e1727951dca2b21abd11583de9872813c9706050/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/New-AzureSqlDatabaseServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,14 +39,14 @@ The **New-AzureSqlDatabaseServer** cmdlet creates an instance of Azure SQL Datab
 
 ### Example 1: Create a server
 ```
-PS C:\>New-AzureSqlDatabaseServer -Location "East US" -AdministratorLogin "AdminLogin" -AdministratorLoginPassword "AdminPassword"
+PS C:\> New-AzureSqlDatabaseServer -Location "East US" -AdministratorLogin "AdminLogin" -AdministratorLoginPassword "AdminPassword"
 ```
 
 This command creates a version 11 Azure SQL Database server.
 
 ### Example 2: Create a version 12 server
 ```
-PS C:\>New-AzureSqlDatabaseServer -Location "East US" -AdministratorLogin "AdminLogin" -AdministratorLoginPassword "AdminPassword" -Version "12.0"
+PS C:\> New-AzureSqlDatabaseServer -Location "East US" -AdministratorLogin "AdminLogin" -AdministratorLoginPassword "AdminPassword" -Version "12.0"
 ```
 
 This command creates a version 12 server.
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 ### -AdministratorLoginPassword
 Specifies the administrator account password for the Azure SQL Database server.
 You must specify a strong password.
-For more information, see Strong Passwordshttp://go.microsoft.com/fwlink/p/?LinkId=154152 (http://go.microsoft.com/fwlink/p/?LinkId=154152) in MSDN.
+For more information, see [Strong Passwords](http://go.microsoft.com/fwlink/p/?LinkId=154152) (http://go.microsoft.com/fwlink/p/?LinkId=154152) in MSDN.
 
 ```yaml
 Type: String
@@ -87,7 +87,7 @@ Accept wildcard characters: False
 
 ### -Location
 Specifies the location of the data center where this cmdlet creates the server.
-For more information, see Azure Regionshttp://azure.microsoft.com/regions/ (http://azure.microsoft.com/regions/#services).
+For more information, see [Azure Regions](http://azure.microsoft.com/regions/) (http://azure.microsoft.com/regions/).
 
 ```yaml
 Type: String

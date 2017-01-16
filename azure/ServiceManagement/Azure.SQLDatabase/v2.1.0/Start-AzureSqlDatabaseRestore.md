@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 8DCC0AAC-6429-4A8C-804F-4C8FA3222937
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 3:12 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRestore.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRestore.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRestore.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e1727951dca2b21abd11583de9872813c9706050/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRestore.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -67,7 +67,7 @@ The source and target server names must be the same.
 
 ### Example 1: Restore a database specified as an object to a point in time
 ```
-PS C:\>$Database = Get-AzureSqlDatabase -ServerName "Server01" -DatabaseName "Database17" 
+PS C:\> $Database = Get-AzureSqlDatabase -ServerName "Server01" -DatabaseName "Database17" 
 PS C:\> $Operation = Start-AzureSqlDatabaseRestore -SourceDatabase $Database -TargetDatabaseName "DatabaseRestored" -PointInTime "2013-01-01 06:00:00"
 ```
 
@@ -78,7 +78,7 @@ The command specifies at name for the new database.
 
 ### Example 2: Restore a database specified by name to a point in time
 ```
-PS C:\>$Operation = Start-AzureSqlDatabaseRestore -SourceServerName "Server01" -SourceDatabaseName "Database17" -TargetDatabaseName "DatabaseRestored" -PointInTime "2013-01-01 06:00:00"
+PS C:\> $Operation = Start-AzureSqlDatabaseRestore -SourceServerName "Server01" -SourceDatabaseName "Database17" -TargetDatabaseName "DatabaseRestored" -PointInTime "2013-01-01 06:00:00"
 ```
 
 This command restores the database named Database17 to a specific point in time.
@@ -86,7 +86,7 @@ The command specifies at name for the new database.
 
 ### Example 3: Restore a dropped database specified as an object to a point in time
 ```
-PS C:\>$Database = Get-AzureSqlDatabase -RestorableDropped -ServerName "Server01" -DatabaseName "Database01" -DatabaseDeletionDate "2012-11-09T22:59:43.000Z" 
+PS C:\> $Database = Get-AzureSqlDatabase -RestorableDropped -ServerName "Server01" -DatabaseName "Database01" -DatabaseDeletionDate "2012-11-09T22:59:43.000Z" 
 PS C:\> $Operation = Start-AzureSqlDatabaseRestore -SourceRestorableDroppedDatabase $Database -TargetDatabaseName "DroppedDatabaseRestored"
 ```
 
@@ -240,7 +240,7 @@ Accept wildcard characters: False
 
 ### -SourceRestorableDroppedDatabase
 Specifies an object that represents the restorable dropped database that this cmdlet restores.
-To obtain a **RestorableDroppedDatabase** object, use the Get-AzureSqlDatabase cmdlet, and specify the *RestorableDropped* parameter.
+To obtain a **RestorableDroppedDatabase** object, use the **Get-AzureSqlDatabase** cmdlet, and specify the *RestorableDropped* parameter.
 
 ```yaml
 Type: RestorableDroppedDatabase
@@ -286,11 +286,15 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 * You must use certificate based authentication to run this cmdlet. Run the following commands on the computer where run this cmdlet: 
 
-`PS C:\\\> $subId = \<Subscription ID\>`
-`PS C:\\\> $thumbprint = \<Certificate Thumbprint\>`
-`PS C:\\\> $myCert = Get-Item Cert:\CurrentUser\My\$thumbprint`
-`PS C:\\\> Set-AzureSubscription -SubscriptionName "mySubscription" -SubscriptionId $subId -Certificate $myCert`
-`PS C:\\\> Select-AzureSubscription -SubscriptionName "mySubscription"`
+`PS C:\> $subId = <Subscription ID>`
+
+`PS C:\> $thumbprint = <Certificate Thumbprint>`
+
+`PS C:\> $myCert = Get-Item Cert:\CurrentUser\My\$thumbprint`
+
+`PS C:\> Set-AzureSubscription -SubscriptionName "mySubscription" -SubscriptionId $subId -Certificate $myCert`
+
+`PS C:\> Select-AzureSubscription -SubscriptionName "mySubscription"`
 
 ## RELATED LINKS
 

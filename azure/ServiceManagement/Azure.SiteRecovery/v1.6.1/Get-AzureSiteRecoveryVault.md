@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServicesRdfe.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 4751BFC5-5AFA-4CF9-A3CC-19E1561957D4
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 6:11 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryVault.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b2aea81f0846229c7b3ea0309bd2591c3b2941ff/azureps-cmdlets-docs/ServiceManagement/Azure.SiteRecovery/v1.6.1/Get-AzureSiteRecoveryVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,7 +43,8 @@ The **Get-AzureSiteRecoveryVault** cmdlet gets the active Azure Site Recovery va
 
 ### Example 1: Get the active vault
 ```
-PS C:\>Get-AzureSiteRecoveryVault
+PS C:\> Get-AzureSiteRecoveryVault
+
 Name             : ContosoVault
 ID               : 6467459117394545458
 CloudServiceName : CS-West-US-RecoveryServices

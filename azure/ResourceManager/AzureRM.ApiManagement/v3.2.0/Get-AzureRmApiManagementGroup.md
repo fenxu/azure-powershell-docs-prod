@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: A9D4D235-4558-4190-BE36-FB85A955B893
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 1/16/2017 5:36 PM
+ms.date: 1/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c7d6cc5a46847082b28a0458c4cf9c94d95adefd/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -57,28 +57,28 @@ The **Get-AzureRmApiManagementGroup** cmdlet gets all or specific API management
 
 ### Example 1: Get all groups
 ```
-PS C:\>Get-AzureRmApiManagementGroup -Context $APImContext
+PS C:\> Get-AzureRmApiManagementGroup -Context $APImContext
 ```
 
 This command gets all groups.
 
 ### Example 2: Get a group by ID
 ```
-PS C:\>Get-AzureRmApiManagementGroup -Context $APImContext -GroupId "0123456789"
+PS C:\> Get-AzureRmApiManagementGroup -Context $APImContext -GroupId "0123456789"
 ```
 
 This command gets  the group ID named 0123456789.
 
 ### Example 3: Get a group by name
 ```
-PS C:\>Get-AzureRmApiManagementGroup -Context $APImContext -Name "Group0002"
+PS C:\> Get-AzureRmApiManagementGroup -Context $APImContext -Name "Group0002"
 ```
 
 This command gets the group named Group0002.
 
 ### Example 4: Get all user groups
 ```
-PS C:\>Get-AzureRmApiManagementGroup -Context $APImContext -UserId "0123456789"
+PS C:\> Get-AzureRmApiManagementGroup -Context $APImContext -UserId "0123456789"
 ```
 
 This command gets all user groups with the user ID named 0123456789.

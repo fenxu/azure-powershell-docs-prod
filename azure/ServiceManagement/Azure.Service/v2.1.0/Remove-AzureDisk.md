@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: 4F6BA716-949B-4ED9-AE1E-527DDFE41131
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 6:46 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureDisk.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureDisk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureDisk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6555eb8cb2408f85e337832ad5b9d0adb06ce475/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Remove-AzureDisk.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ To delete the VHD, specify the *DeleteVHD* parameter.
 
 ### Example 1: Remove a disk
 ```
-PS C:\>Remove-AzureDisk -DiskName "ContosoDataDisk"
+PS C:\> Remove-AzureDisk -DiskName "ContosoDataDisk"
 ```
 
 This command removes the disk named ContosoDataDisk disk from the disk repository.
@@ -48,7 +48,7 @@ The command does not delete the VHD.
 
 ### Example 2: Remove and delete a disk
 ```
-PS C:\>Remove-AzureDisk -DiskName "ContosoDataDisk" -DeleteVHD
+PS C:\> Remove-AzureDisk -DiskName "ContosoDataDisk" -DeleteVHD
 ```
 
 This command removes the disk named ContosoDataDisk disk from the disk repository.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 7A794B80-64C7-4797-93E3-92BD07C5C6CA
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 3:12 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRecovery.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRecovery.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRecovery.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e1727951dca2b21abd11583de9872813c9706050/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v2.1.0/Start-AzureSqlDatabaseRecovery.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -44,13 +44,13 @@ This cmdlet supports basic recovery that uses the last known available backup fo
 The recovery operation creates a new database.
 If you recover a live database on the same server, you must specify a different name for the new database.
 
-To do a point in time restore for a database, use the Start-AzureSqlDatabaseRestore cmdlet instead.
+To do a point in time restore for a database, use the **Start-AzureSqlDatabaseRestore** cmdlet instead.
 
 ## EXAMPLES
 
 ### Example 1: Recover a database specified as an object
 ```
-PS C:\>$Database = Get-AzureSqlRecoverableDatabase -ServerName "Server01" -DatabaseName "Database17" 
+PS C:\> $Database = Get-AzureSqlRecoverableDatabase -ServerName "Server01" -DatabaseName "Database17" 
 PS C:\> $Operation = Start-AzureSqlDatabaseRecovery -SourceDatabase $Database -TargetDatabaseName "DatabaseRestored"
 ```
 
@@ -61,7 +61,7 @@ The second command recovers the database stored in $Database.
 
 ### Example 2: Recover a database specified by name
 ```
-PS C:\>$Operation = Start-AzureSqlDatabaseRecovery -SourceServerName "Server01" -SourceDatabaseName "Database17" -TargetDatabaseName "DatabaseRestored"
+PS C:\> $Operation = Start-AzureSqlDatabaseRecovery -SourceServerName "Server01" -SourceDatabaseName "Database17" -TargetDatabaseName "DatabaseRestored"
 ```
 
 This command recovers a database using the database name.
@@ -175,11 +175,15 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 * You must use certificate-based authentication to run this cmdlet. Run the following commands on the computer where you run this cmdlet: 
 
-`PS C:\\\> $subId = \<Subscription ID\>`
-`PS C:\\\> $thumbprint = \<Certificate Thumbprint\>`
-`PS C:\\\> $myCert = Get-Item Cert:\CurrentUser\My\$thumbprint`
-`PS C:\\\> Set-AzureSubscription -SubscriptionName "mySubscription" -SubscriptionId $subId -Certificate $myCert`
-`PS C:\\\> Select-AzureSubscription -SubscriptionName "mySubscription"`
+`PS C:\> $subId = <Subscription ID>`
+
+`PS C:\> $thumbprint = <Certificate Thumbprint>`
+
+`PS C:\> $myCert = Get-Item Cert:\CurrentUser\My\$thumbprint`
+
+`PS C:\> Set-AzureSubscription -SubscriptionName "mySubscription" -SubscriptionId $subId -Certificate $myCert`
+
+`PS C:\> Select-AzureSubscription -SubscriptionName "mySubscription"`
 
 ## RELATED LINKS
 

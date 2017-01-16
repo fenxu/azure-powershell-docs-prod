@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 0FCAF427-F80C-4B16-A7C5-02C69D5125B3
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 1/16/2017 5:36 PM
+ms.date: 1/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementLogger.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementLogger.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementLogger.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c7d6cc5a46847082b28a0458c4cf9c94d95adefd/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementLogger.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,14 +45,14 @@ The **Get-AzureRmApiManagementLogger** cmdlet gets an Azure API Management **Log
 
 ### Example 1: Get all loggers
 ```
-PS C:\>Get-AzureRmApiManagementLogger -Context $ApimContext
+PS C:\> Get-AzureRmApiManagementLogger -Context $ApimContext
 ```
 
 This command gets all the loggers for the specified context.
 
 ### Example 2: Get a specific logger
 ```
-PS C:\>Get-AzureRmApiManagementLogger -Context $ApimContext -LoggerId "Logger123"
+PS C:\> Get-AzureRmApiManagementLogger -Context $ApimContext -LoggerId "Logger123"
 ```
 
 This command removes a logger that has the ID Logger123.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: 
 schema: 2.0.0
 ms.assetid: A53AE758-252A-4C7F-890A-15149CD9BC3C
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 1/14/2017 6:46 PM
+ms.date: 1/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureReservedIP.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureReservedIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureReservedIP.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6555eb8cb2408f85e337832ad5b9d0adb06ce475/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Get-AzureReservedIP.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,14 +38,14 @@ The **Get-AzureReservedIP** cmdlet gets a reserved IP address by its name or lis
 
 ### Example 1: Get all reserved IP addresses
 ```
-PS C:\>Get-AzureReservedIP
+PS C:\> Get-AzureReservedIP
 ```
 
 This command gets all reserved IP addresses.
 
 ### Example 2: Get a reserved IP address with a specified name
 ```
-PS C:\>Get-AzureReservedIP -ReservedIPName $IpName
+PS C:\> Get-AzureReservedIP -ReservedIPName $IpName
 ```
 
 This command gets the reserved IP address that has the name specified by the $IpName variable.

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: 56604912-53A0-496D-9BDC-472BCE45A6A2
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 1/16/2017 5:36 PM
+ms.date: 1/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Update-AzureRmApiManagementDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Update-AzureRmApiManagementDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Update-AzureRmApiManagementDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c7d6cc5a46847082b28a0458c4cf9c94d95adefd/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Update-AzureRmApiManagementDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,14 +48,14 @@ The **Update-AzureRmApiManagementDeployment** cmdlet updates current deployments
 
 ### Example 1: Update a deployment of an ApiManagement instance
 ```
-PS C:\>Update-AzureRmApiManagementDeployment -ResourceGroupName "Contoso" -Name "ContosoApi" -Sku "Standard" -Capacity 3
+PS C:\> Update-AzureRmApiManagementDeployment -ResourceGroupName "Contoso" -Name "ContosoApi" -Sku "Standard" -Capacity 3
 ```
 
 This command updates deployment of an API Management instance to a three unit capacity standard.
 
 ### Example 2: Get an ApiManagement instance and rescale it
 ```
-PS C:\>$ApiManagement = Get-AzureRmApiManagement -ResourceGroupName "Contoso" -Name "ContosoApi"
+PS C:\> $ApiManagement = Get-AzureRmApiManagement -ResourceGroupName "Contoso" -Name "ContosoApi"
 PS C:\> $ApiManagement.Sku = "Premium"
 PS C:\> $ApiManagement.Capacity = 5
 PS C:\> $ApiManagement.AddRegion("Central US", "Premium", 3)
@@ -66,19 +66,19 @@ This example gets an Api Management instance, scales it to five premium units an
 
 ### Example 3: Move API Management instance inside a Virtual Network
 ```
-PS C:\># Create a Virtual Network Object
-PS C:\>$virtualNetwork = New-AzureRmApiManagementVirtualNetwork -Location "North Central US" -SubnetResourceId
+PS C:\> # Create a Virtual Network Object
+PS C:\> $virtualNetwork = New-AzureRmApiManagementVirtualNetwork -Location "North Central US" -SubnetResourceId
 "/subscriptions/20010444-2b48-4245-a95c-090db6312d5f/resourceGroups/ContosoGroup/providers/Microsoft.Network/virtualNe
 tworks/contosoVnet/subnets/default"
 
-PS C:\># Get the service
-PS C:\>$service = Get-AzureRmApiManagement -ResourceGroupName "ContosoGroup" -Name "contosoapim"
+PS C:\> # Get the service
+PS C:\> $service = Get-AzureRmApiManagement -ResourceGroupName "ContosoGroup" -Name "contosoapim"
 
-PS C:\>$service.VirtualNetwork = $virtualNetwork
-PS C:\>$service.VpnType = "External"
+PS C:\> $service.VirtualNetwork = $virtualNetwork
+PS C:\> $service.VpnType = "External"
 
-PS C:\># Update the Deployment with Virtual Network
-PS C:\>Update-AzureRmApiManagementDeployment -ApiManagement $service
+PS C:\> # Update the Deployment with Virtual Network
+PS C:\> Update-AzureRmApiManagementDeployment -ApiManagement $service
 ```
 
 This example moves an existing API Management deployment inside a Virtual Network configures external *VpnType*.
