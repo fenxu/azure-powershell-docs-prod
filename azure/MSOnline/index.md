@@ -1,19 +1,19 @@
 ---
-updated_at: 1/6/2017 3:45 PM
-ms.date: 1/6/2017
+updated_at: 1/16/2017 4:36 PM
+ms.date: 1/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/index.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e081c913064e7161b3144f234dba45859d042951/Azure%20AD%20Cmdlets/MSOnline/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/28060b577bdc8909618a7ad26bb193b9bfcf5ece/Azure%20AD%20Cmdlets/MSOnline/index.md
 ms.topic: conceptual
 ms.technology: Azure PowerShell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: active-directory
 ---
-# Azure ActiveDirectory (MSOnline)
+ # Azure ActiveDirectory (MSOnline)
 
 You can use the Azure Active Directory Module for Windows PowerShell cmdlets for Azure AD administrative tasks such as user management, domain management and for configuring single sign-on.
 This topic includes information about how to install these cmdlets for use with your directory.
@@ -24,6 +24,7 @@ Please note that we will begin to deprecate this module when the functionality o
 ## Install the Azure AD Module
 
 The Azure AD Module is supported on the following Windows operating systems with the default version of Microsoft .NET Framework and Windows PowerShell: Windows 8.1, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2.
+Requires powershell 3.0 or above
 
 There are two versions of the Azure Active Directory Module for Windows PowerShell available: a General Availability version and a Public Preview Version.
 The Public Preview version contains cmdlets that have not yet been released for General Availability.
