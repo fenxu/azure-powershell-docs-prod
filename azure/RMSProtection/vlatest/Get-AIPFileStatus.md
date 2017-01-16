@@ -2,11 +2,11 @@
 external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=838765
 schema: 2.0.0
-updated_at: 1/12/2017 4:34 AM
-ms.date: 1/12/2017
+updated_at: 1/15/2017 6:26 PM
+ms.date: 1/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-AIPFileStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-AIPFileStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/17f208a8470fb1bd1e6e1fac208371883ae62b19/Azure%20Information%20Protection/RMSProtection/vlatest/Get-AIPFileStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/07358b9468f610ba5083c3b869c51843b4563e35/Azure%20Information%20Protection/RMSProtection/vlatest/Get-AIPFileStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,7 +32,7 @@ Get-AIPFileStatus [-Path] <String[]> [<CommonParameters>]
 ## DESCRIPTION
 The **Get-AIPFileStatus** cmdlet returns the Azure Information Protection status of a specified file or all files in a specified path. This status includes whether the file has a label, and if it does, the label name, who applied it, how it was applied, and when. In addition, the status includes whether the file is protected by Rights Management, and if it is, what Rights Management template was used to apply this protection.  
 
-Note: This cmdlet is currently installed as part of the preview version of the Azure Information Protection client, and is not included in the RMS Protection tool.
+Note: This cmdlet is currently installed as part of the preview version of the Azure Information Protection client, and is not included in the RMS Protection tool. In addition, this cmdlet does not support a service principal account in Azure Active Directory; you must run it interactively with a user account. 
 
 ## EXAMPLES
 
