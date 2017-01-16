@@ -3,11 +3,11 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623207
 schema: 2.0.0
 ms.assetid: D0B8B71F-85E0-481B-B615-CE8D34EF564A
-updated_at: 1/13/2017 11:09 PM
-ms.date: 1/13/2017
+updated_at: 1/16/2017 8:28 PM
+ms.date: 1/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/73fede5be8d73e5de67a785007346f27b5795709/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f1352338bfee6b58a131e5d9723b53e5719e2276/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -66,7 +66,7 @@ InputFile             EncryptedFile
 C:\Test.docx          C:\Test-Copy.docx
 ```
 
-This command is the same as the previous example, except that it doesn't use the *InPlace* parameter. Because it also doesn't use the *OutputFolder* parameter, the protected file is created in the current folder with "-Copy" appended to the file name. The original, unprotected file remains in the current folder.
+This command is the same as the previous example, except that it doesn't use the InPlace parameter. Because it also doesn't use the OutputFolder parameter, the protected file is created in the current folder with "-Copy" appended to the file name. The original, unprotected file remains in the current folder.
 
 ### Example 3: Create a protected version of a file by using a template
 ```
