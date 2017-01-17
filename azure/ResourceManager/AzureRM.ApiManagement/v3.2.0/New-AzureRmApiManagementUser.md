@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: D53AC398-AFBF-4CAA-B541-D84A08AC45DF
 online version: 
 schema: 2.0.0
-updated_at: 1/16/2017 5:36 PM
-ms.date: 1/16/2017
+updated_at: 1/17/2017 4:08 PM
+ms.date: 1/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/New-AzureRmApiManagementUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/New-AzureRmApiManagementUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c7d6cc5a46847082b28a0458c4cf9c94d95adefd/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/New-AzureRmApiManagementUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/32750002412618caa85d2a9ed69a8c106cbe2257/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/New-AzureRmApiManagementUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **New-AzureRmApiManagementUser** cmdlet registers a new user.
 
 ### Example 1: Register a new user
 ```
-PS C:\> New-AzureRmApiManagementUser -Context $apimContext -FirstName "Patti" -LastName "Fuller" -Email "Patti.Fuller@contoso.com" -Password "qwerty"
+PS C:\> New-AzureRmApiManagementUser -Context $ApimContext -FirstName "Patti" -LastName "Fuller" -Email "Patti.Fuller@contoso.com" -Password "qwerty"
 ```
 
 This command registers a new user named Patti Fuller.
@@ -230,5 +230,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmApiManagementUser](xref:ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementUser.md)
 
 [Set-AzureRmApiManagementUser](xref:ResourceManager/AzureRM.ApiManagement/v3.2.0/Set-AzureRmApiManagementUser.md)
-
-

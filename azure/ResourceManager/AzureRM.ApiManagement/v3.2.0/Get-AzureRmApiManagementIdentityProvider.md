@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 1/17/2017 4:08 PM
+ms.date: 1/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementIdentityProvider.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementIdentityProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementIdentityProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/32750002412618caa85d2a9ed69a8c106cbe2257/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementIdentityProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,23 +43,21 @@ Get the identity provider configuration details.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Get all the identity provider configurations on the service.
 
 ```
-Get-AzureRmApiManagementIdentityProvider -Context $context
+Get-AzureRmApiManagementIdentityProvider -Context $Context
 ```
 
-Get all the identity provider Configuration on the service.
+This command gets all the identity provider configurations on the service.
 
-### --------------------------  Example 2  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 2: Get the Identity Provider configuration of Azure Active Directory.
 
 ```
-Get-AzureRmApiManagementIdentityProvider -Context $context -Type Aad
+Get-AzureRmApiManagementIdentityProvider -Context $Context -Type Aad
 ```
 
-Gets the Identity Provider Configuration of Azure Active Directory.
+This command gets the Identity Provider configuration of Azure Active Directory.
 
 ## PARAMETERS
 
@@ -80,7 +78,17 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
 
 ```yaml
 Type: ActionPreference
@@ -95,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -137,4 +145,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

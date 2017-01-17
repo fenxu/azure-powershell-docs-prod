@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 05D39DA8-BBDB-44E9-B9DC-0D963A2CB439
 online version: 
 schema: 2.0.0
-updated_at: 1/16/2017 5:36 PM
-ms.date: 1/16/2017
+updated_at: 1/17/2017 4:08 PM
+ms.date: 1/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementUserSsoUrl.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementUserSsoUrl.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c7d6cc5a46847082b28a0458c4cf9c94d95adefd/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementUserSsoUrl.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/32750002412618caa85d2a9ed69a8c106cbe2257/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementUserSsoUrl.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Get-AzureRmApiManagementUserSsoUrl** cmdlet generates a single sign-on (SS
 
 ### Example 1: Get a user's SSO URL
 ```
-PS C:\> Get-AzureRmApiManagementUserSsoUrl -Context $apimContext -UserId "0123456789"
+PS C:\> Get-AzureRmApiManagementUserSsoUrl -Context $APImContext -UserId "0123456789"
 ```
 
 This command gets a user's SSO URL.
@@ -130,5 +130,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmApiManagementUser](xref:ResourceManager/AzureRM.ApiManagement/v3.2.0/Get-AzureRmApiManagementUser.md)
-
-
