@@ -1,5 +1,3 @@
-- name: Overview
-  href: azureps-cmdlets-docs/index.md
 - name: Azure PowerShell
   href: azureps-cmdlets-docs/index.md
   tocHref: azureps-cmdlets-docs/toc.yml
