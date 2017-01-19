@@ -1,22 +1,22 @@
 - name: Overview
   href: azureps-cmdlets-docs/index.md
-  - name: Install
-    href: azureps-cmdlets-docs/index.md
-  - name: Getting Started
-    href: azureps-cmdlets-docs/index.md
+- name: Install
+  href: azureps-cmdlets-docs/index.md
+- name: Getting Started
+  href: azureps-cmdlets-docs/index.md
 - name: How Do I?
   href: azureps-cmdlets-docs/index.md
 - name: Reference
   href: azureps-cmdlets-docs/index.md
-  - name: Azure PowerShell
-    href: azureps-cmdlets-docs/index.md
-    tocHref: azureps-cmdlets-docs/toc.yml
-  - name: Azure AD PowerShell
-    href: Azure AD Cmdlets/index.md
-    tocHref: Azure AD Cmdlets/toc.yml
-  - name: Azure ElasticDB PowerShell
-    tocHref: ElasticDB/toc.yml
-  - name: Azure Service Fabric PowerShell
-    tocHref: Service-Fabric-cmdlets/toc.yml
-  - name: Azure Information Protection PowerShell
-    tocHref: Azure Information Protection/toc.yml
+- name: Azure PowerShell
+  href: azureps-cmdlets-docs/index.md
+  tocHref: azureps-cmdlets-docs/toc.yml
+- name: Azure AD PowerShell
+  href: Azure AD Cmdlets/index.md
+  tocHref: Azure AD Cmdlets/toc.yml
+- name: Azure ElasticDB PowerShell
+  tocHref: ElasticDB/toc.yml
+- name: Azure Service Fabric PowerShell
+  tocHref: Service-Fabric-cmdlets/toc.yml
+- name: Azure Information Protection PowerShell
+  tocHref: Azure Information Protection/toc.yml
