@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.dll-Help.xml
+ms.assetid: BE20B1AF-4D47-4182-A46A-2FB0AB504A93
 online version: http://go.microsoft.com/fwlink/?LinkID=400629
 schema: 2.0.0
-ms.assetid: BE20B1AF-4D47-4182-A46A-2FB0AB504A93
-updated_at: 12/14/2016 3:02 AM
-ms.date: 12/14/2016
+updated_at: 1/20/2017 11:34 PM
+ms.date: 1/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b57abf5e3bc09ecdcab451d90da166a10219742f/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/1cd0004939d8079134e22f0a7b63330141d03ca2/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -27,8 +27,8 @@ Creates a Rights Definition object for Rights Management.
 ## SYNTAX
 
 ```
-New-AadrmRightsDefinition -EmailAddress <String> -Rights <System.Collections.Generic.List`1[System.String]>
- [<CommonParameters>]
+New-AadrmRightsDefinition [-EmailAddress <String>] [-DomainName <String>]
+ -Rights <System.Collections.Generic.List`1[System.String]> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -47,30 +47,44 @@ This command creates a rights definition object for the specified user and store
 
 The command includes the rights VIEW and DOCEDIT for a user in the Contoso organization.
 
-### Example 2: Create a rights definition object for all users
+### Example 2: Create a rights definition object for all users 
 ```
-PS C:\>$R2 = New-AadrmRightsDefinition -EmailAddress "AllStaff-7184AB3F-CCD1-46F3-8233-3E09E9CF0E66@contoso.onmicrosoft.com" -Rights "VIEW"
+PS C:\>$R2 = New-AadrmRightsDefinition -DomainName "Contoso.com" -Rights "VIEW"
 ```
 
-This command creates a rights definition object for all users in the organization and stores this policy in a variable named R2, which can then be used to create or update a custom template.
-
-The command includes the VIEW right for all users in the Contoso organization, by using the automatically created "AllStaff-7184AB3F-CCD1-46F3-8233-3E09E9CF0E66@{tenant_name}.onmicrosoft.com" group that is created for the organization when the Azure Rights Management service is activated.
+This command creates a rights definition object for all users in the organization and stores this policy in a variable named R2, which can then be used to create or update a custom template.The command includes the VIEW right for all users in the Contoso organization.
 
 ## PARAMETERS
+
+### -DomainName
+Specifies the domain name of your or external organization. All members in given domain name will be included.
+
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ### -EmailAddress
 Specifies the email address of a user or group. You can specify external email addresses for users outside your organization but external email addresses for groups are not currently supported.
 
 The cmdlet associates the rights that the *Rights* parameter specifies to the user or group that the address specifies.
 
-Tip: If you want to specify all users in your organization, use the automatically created group, AllStaff-7184AB3F-CCD1-46F3-8233-3E09E9CF0E66@{tenant_name}.onmicrosoft.com. For example, this group might look like the following for Contoso: **AllStaff-7184AB3F-CCD1-46F3-8233-3E09E9CF0E66@contoso.onmicrosoft.com**. You can see your organization's automatically created email address if you copy one of the default rights policy templates in the Azure portal, and then identify the USER NAME on the RIGHTS page.
+Tip: If you want to specify all users in your organization, use the DomainName parameter. 
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -109,7 +123,7 @@ For more information about the usage rights, see Configuring usage rights for [A
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
