@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 0CD03BF8-8DB6-44BC-91F0-D863949DBD17
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 1/23/2017 7:04 PM
+ms.date: 1/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmPublicIpAddress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmPublicIpAddress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmPublicIpAddress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/53cc462344c18b308f8923f18bac25f1bef2c5de/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmPublicIpAddress.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,10 +43,11 @@ The **Get-AzureRmPublicIPAddress** cmdlet gets one or more public IP addresses i
 
 ## EXAMPLES
 
-### 1:
+### 1: Get a public IP resource
 ```
-
+$publicIp = Get-AzureRmPublicIpAddress -Name $publicIpName -ResourceGroupName $rgName $publicIp
 ```
+This command gets a public IP address resource with name $publicIPName in the resource group $rgName.
 
 ## PARAMETERS
 
