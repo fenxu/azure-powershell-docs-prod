@@ -17,7 +17,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: active-directory
 ---
 # Azure Active Directory V2 PowerShell module
