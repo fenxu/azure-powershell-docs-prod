@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 07C8AD4E-7A32-4407-9120-1432126B7376
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 1/19/2017 12:13 AM
+ms.date: 1/19/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageShareSASToken.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageShareSASToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageShareSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/43fef2841502bd11594a58e8fa4375a9d262d23b/azureps-cmdlets-docs/Storage/Azure.Storage/v1.1.6/New-AzureStorageShareSASToken.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -102,7 +102,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Protocol
 ### -Protocol
 Specifies the protocol permitted for a request.
 The acceptable values for this parameter are:
