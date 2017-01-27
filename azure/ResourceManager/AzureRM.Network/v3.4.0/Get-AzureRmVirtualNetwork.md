@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: CBDF4BCB-7EB3-4D64-B19C-1314D4AB84E4
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 1/26/2017 7:49 PM
+ms.date: 1/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmVirtualNetwork.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmVirtualNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmVirtualNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c8761da0028485557721e2932ceaad34f82bffaa/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmVirtualNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,10 +43,11 @@ The **Get-AzureRmVirtualNetwork** cmdlet gets one or more virtual networks n a r
 
 ## EXAMPLES
 
-### 1:
+### 1: Retrieve a virtual network
 ```
-
+Get-AzureRmVirtualNetwork -Name MyVirtualNetwork -ResourceGroupName TestResourceGroup
 ```
+This command gets the virtual network named MyVirtualNetwork in the resource group TestResourceGroup
 
 ## PARAMETERS
 

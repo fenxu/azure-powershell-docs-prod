@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: A420B3E7-2FE9-4D0B-803E-AC28E5F23C59
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 1/26/2017 7:49 PM
+ms.date: 1/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmNetworkSecurityGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmNetworkSecurityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmNetworkSecurityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c8761da0028485557721e2932ceaad34f82bffaa/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmNetworkSecurityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,10 +38,30 @@ The **New-AzureRmNetworkSecurityGroup** cmdlet creates an Azure network security
 
 ## EXAMPLES
 
-### 1:
+### 1: Create a new network securtiy group
 ```
+ New-AzureRmNetworkSecurityGroup -Name "nsg1" -ResourceGroupName "rg1"  -Location  "westus"
+    
+```
+This command ceates a new Azure network security group named "nsg1" in resource group "rg1" in location "westus".
 
+### 1: Create a detailed network security group
 ```
+$rule1 = New-AzureRmNetworkSecurityRuleConfig -Name rdp-rule -Description "Allow RDP" 
+    -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix 
+    Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
+    
+$rule2 = New-AzureRmNetworkSecurityRuleConfig -Name web-rule -Description "Allow HTTP" 
+    -Access Allow -Protocol Tcp -Direction Inbound -Priority 101 -SourceAddressPrefix 
+    Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 80
+    
+$nsg = New-AzureRmNetworkSecurityGroup -ResourceGroupName TestRG -Location westus -Name 
+    "NSG-FrontEnd" -SecurityRules $rule1,$rule2
+```
+Step:1 Create a security rule allowing access from the Internet to port 3389.
+Step:2 Create a security rule allowing access from the Internet to port 80.
+Step:3 Add the rules created above to a new NSG named NSG-FrontEnd.
+    
 
 ## PARAMETERS
 

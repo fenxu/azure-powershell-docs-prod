@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: EC798838-1850-4E88-B17F-D2F00F2D4EE9
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 1/26/2017 7:49 PM
+ms.date: 1/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmPublicIpAddress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmPublicIpAddress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmPublicIpAddress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c8761da0028485557721e2932ceaad34f82bffaa/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmPublicIpAddress.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,10 +36,39 @@ The **Set-AzureRmPublicIpAddress** cmdlet sets the goal state for a public IP ad
 
 ## EXAMPLES
 
-### 1:
+### 1: Change allocation method of a public IP address
 ```
+PS C:\> $publicIp = Get-AzureRmPublicIpAddress -Name $publicIpName -ResourceGroupName $rgName
 
+PS C:\> $publicIp.PublicIpAllocationMethod = "Dynamic"
+    
+PS C:\> Set-AzureRmPublicIpAddress -PublicIpAddress $publicIp
+
+PS C:\> $publicIp = Get-AzureRmPublicIpAddress -Name $publicIpName -ResourceGroupName $rgName
 ```
+ First command gets the public IP address resource with name $publicIPName in the resource 
+    group $rgName.
+    Second command sets the allocation method of the public IP address object to "Static".
+    Set-AzureRmPublicIPAddress command updates the public IP address resource with the 
+    updated object, and modifies the allocation method to 'Static'. A public IP address gets 
+    allocated immediately.
+
+### 2: Change DNS domain label of a public IP address
+```
+PS C:\> $publicIp = Get-AzureRmPublicIpAddress -Name $publicIpName -ResourceGroupName $rgName
+
+PS C:\> $publicIp.DnsSettings.DomainNameLabel = "newdnsprefix"
+    
+PS C:\> Set-AzureRmPublicIpAddress -PublicIpAddress $publicIp
+
+PS C:\> $publicIp = Get-AzureRmPublicIpAddress -Name $publicIpName -ResourceGroupName $rgName
+```
+First command gets the public IP address resource with name $publicIPName in the resource 
+    group $rgName.
+    Second command sets the DomainNameLabel property to the required dns prefix.
+    Set-AzureRmPublicIPAddress command updates the public IP address resource with the 
+    updated object. DomainNameLabel & Fqdn are modified as expected.
+    
 
 ## PARAMETERS
 

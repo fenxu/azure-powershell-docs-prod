@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: D1D51DEF-05DE-45C4-9013-A02A5B248EAC
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 1/26/2017 7:49 PM
+ms.date: 1/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmVirtualNetworkSubnetConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmVirtualNetworkSubnetConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmVirtualNetworkSubnetConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c8761da0028485557721e2932ceaad34f82bffaa/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmVirtualNetworkSubnetConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,10 +45,52 @@ The **Set-AzureRmVirtualNetworkSubnetConfig** cmdlet configures the goal state f
 
 ## EXAMPLES
 
-### 1:
+### 1: Modify the address prefix of a subnet
+```
+New-AzureRmResourceGroup -Name TestResourceGroup -Location centralus
+
+$frontendSubnet = New-AzureRmVirtualNetworkSubnetConfig -Name frontendSubnet -AddressPrefix "10.0.1.0/24"
+
+$virtualNetwork = New-AzureRmVirtualNetwork -Name MyVirtualNetwork -ResourceGroupName TestResourceGroup    
+    -Location centralus -AddressPrefix "10.0.0.0/16" -Subnet $frontendSubnet
+
+Set-AzureRmVirtualNetworkSubnetConfig -Name frontendSubnet -VirtualNetwork $virtualNetwork -AddressPrefix "10.0.3.0/23"
+
+$virtualNetwork | Set-AzureRmVirtualNetwork
+    
+```
+This example creates a virtual network with one subnet. Then is calls 
+    Set-AzureRmVirtualNetworkSubnetConfig to modify the AddressPrefix of the subnet. This 
+    only impacts the in-memory representation of the virtual network. 
+    Set-AzureRmVirtualNetwork is then called to modify the virtual network in Azure.
+
+### 2: Add a network security group to a subnet
+```
+New-AzureRmResourceGroup -Name TestResourceGroup -Location centralus
+
+$frontendSubnet = New-AzureRmVirtualNetworkSubnetConfig -Name frontendSubnet -AddressPrefix "10.0.1.0/24"
+
+$virtualNetwork = New-AzureRmVirtualNetwork -Name MyVirtualNetwork -ResourceGroupName TestResourceGroup 
+    -Location centralus -AddressPrefix "10.0.0.0/16" -Subnet $frontendSubnet
+
+$rdpRule = New-AzureRmNetworkSecurityRuleConfig -Name rdp-rule -Description "Allow RDP" -Access Allow 
+    -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
+
+$networkSecurityGroup = New-AzureRmNetworkSecurityGroup -ResourceGroupName 
+    TestResourceGroup -Location centralus -Name "NSG-FrontEnd" -SecurityRules $rdpRule
+
+Set-AzureRmVirtualNetworkSubnetConfig -Name frontendSubnet -VirtualNetwork $virtualNetwork -AddressPrefix 
+    "10.0.1.0/24" -NetworkSecurityGroup $networkSecurityGroup
+
+$virtualNetwork | Set-AzureRmVirtualNetwork
 ```
 
-```
+This example creates a resource group with one virtual network containing just one 
+    subnet. It then creates a network security group with an allow rule for RDP traffic. The 
+    Set-AzureRmVirtualNetworkSubnetConfig cmdlet is used to modify the in-memory 
+    representation of the frontend subnet so that it points to the newly created network 
+    security group. The Set-AzureRmVirtualNetwork cmdlet is then called to write the modified 
+    state back to the service.
 
 ## PARAMETERS
 

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: FD84D530-491B-4075-A6B4-2E1C46AD92D4
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 1/26/2017 7:49 PM
+ms.date: 1/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmLoadBalancerRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmLoadBalancerRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmLoadBalancerRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c8761da0028485557721e2932ceaad34f82bffaa/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmLoadBalancerRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,11 +47,21 @@ The **New-AzureRmLoadBalancerRuleConfig** cmdlet creates a rule configuration fo
 
 ## EXAMPLES
 
-### 1:
+### 1: Creating a rule configuration for an Azure Load Balancer
 ```
-
+PS C:\>  $publicip = New-AzureRmPublicIpAddress -ResourceGroupName "MyResourceGroup" 
+    -name MyPublicIP -location 'West US' -AllocationMethod Dynamic
+PS C:\>  $frontend = New-AzureRmLoadBalancerFrontendIpConfig -Name MyFrontEnd 
+    -PublicIpAddress $publicip
+PS C:\>  $probe = New-AzureRmLoadBalancerProbeConfig -Name MyProbe -Protocol http -Port 
+    80 -IntervalInSeconds 15 -ProbeCount 2 -RequestPath healthcheck.aspx
+PS C:\> New-AzureRmLoadBalancerRuleConfig -Name "MyLBrule" -FrontendIPConfiguration 
+    $frontend -BackendAddressPool $backendAddressPool -Probe $probe -Protocol Tcp 
+    -FrontendPort 80 -BackendPort 80 -IdleTimeoutInMinutes 15 -EnableFloatingIP 
+    -LoadDistribution SourceIP
 ```
-
+The first three commands set up a public IP, a front end, and a probe for the rule configuration in the forth command. The forth command creates a new rule called MyLBrule with certain specifications.
+    
 ## PARAMETERS
 
 ### -BackendAddressPool
