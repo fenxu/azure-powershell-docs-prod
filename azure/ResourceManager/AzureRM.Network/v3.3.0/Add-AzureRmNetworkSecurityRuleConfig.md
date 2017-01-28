@@ -1,14 +1,11 @@
 ---
-external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
-ms.assetid: 9160A21D-0F83-415B-830B-F35C8B863E90
-online version: 
-schema: 2.0.0
-updated_at: 1/23/2017 7:04 PM
-ms.date: 1/23/2017
+updated_at: 1/27/2017 6:11 PM
+ms.date: 1/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/53cc462344c18b308f8923f18bac25f1bef2c5de/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md
-ms.topic: reference
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2be82a62ef503cd7cb8d272796cc3045b15543c0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md
+uid: ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md
+ms.topic: conceptual
 ms.prod: powershell
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -17,6 +14,12 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: False
 ms.service: azure-powershell
+---
+pmax---
+external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
+ms.assetid: 9160A21D-0F83-415B-830B-F35C8B863E90
+online version: 
+schema: 2.0.0
 ---
 
 # Add-AzureRmNetworkSecurityRuleConfig
@@ -39,7 +42,7 @@ The **Add-AzureRmNetworkSecurityRuleConfig** cmdlet adds a network security rule
 
 ## EXAMPLES
 
-### 1: Adding a network security group
+### E1: Adding a network security group
 ```
 Get-AzureRmNetworkSecurityGroup -Name  nsg1 -ResourceGroupName rg1 | 
 Add-AzureRmNetworkSecurityRuleConfig -Name rdp-rule -Description "Allow RDP" -Access 
@@ -49,6 +52,7 @@ Add-AzureRmNetworkSecurityRuleConfig -Name rdp-rule -Description "Allow RDP" -Ac
 ```
 The first command retrieves an Azure network security group named "nsg1" from resource group "rg1". The second command dds a network security rule named "rdp-rule" that allows traffic from internet on port 3389 to the retrieved network security group object. Persists the modified Azure network security group.
     
+
 ## PARAMETERS
 
 ### -Access
@@ -298,12 +302,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmNetworkSecurityRuleConfig.md)
+[Get-AzureRmNetworkSecurityRuleConfig](./Get-AzureRmNetworkSecurityRuleConfig.md)
 
-[New-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md)
+[New-AzureRmNetworkSecurityRuleConfig](./New-AzureRmNetworkSecurityRuleConfig.md)
 
-[Remove-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmNetworkSecurityRuleConfig.md)
+[Remove-AzureRmNetworkSecurityRuleConfig](./Remove-AzureRmNetworkSecurityRuleConfig.md)
 
-[Set-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkSecurityRuleConfig.md)
-
-
+[Set-AzureRmNetworkSecurityRuleConfig](./Set-AzureRmNetworkSecurityRuleConfig.md)
