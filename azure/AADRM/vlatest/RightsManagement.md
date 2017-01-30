@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 0B91D740-D2BD-4D57-9E21-C582C9BE2CCA
-updated_at: 11/3/2016 6:06 AM
-ms.date: 11/3/2016
+updated_at: 1/28/2017 1:07 AM
+ms.date: 1/28/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c1e77f06e2ab5cf0e851dc3744ff83e69e84a33b/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c586b0331e200f76dc80c672239d1e23faba6098/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 uid: AADRM/vlatest/RightsManagement.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -34,7 +34,7 @@ For more information, see [Administering Azure Rights Management by Using Window
 >
 >If you do not see the cmdlet or options that are documented, make sure that you have [downloaded the latest version of the module](https://technet.microsoft.com/library/jj585012.aspx).
 >
->The current version is **2.5.0.0**. To check the version you have installed, run: (Get-Module aadrm -ListAvailable).Version
+>The current version is **2.7.0.0**. To check the version you have installed, run: (Get-Module aadrm -ListAvailable).Version
 
 The .dll file for this module is *Microsoft.RightsManagementServices.Online.Admin.PowerShell.dll*.
 
