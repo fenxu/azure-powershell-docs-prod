@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 633FB5C9-BEB3-42A3-AF4F-A54CC3F9E0F7
 online version: 
 schema: 2.0.0
-updated_at: 1/23/2017 7:04 PM
-ms.date: 1/23/2017
+updated_at: 1/30/2017 6:45 PM
+ms.date: 1/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/53cc462344c18b308f8923f18bac25f1bef2c5de/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b5c2e1c65c33123792ea2a6ec51df6c8b8237163/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **New-AzureRmNetworkSecurityRuleConfig** cmdlet creates an Azure network sec
 
 ## EXAMPLES
 
-### 1: Create a network security rule
+### 1: Create a network security rule to allow RDP
 ```
 $rule1 = New-AzureRmNetworkSecurityRuleConfig -Name rdp-rule -Description "Allow RDP" 
     -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix 
@@ -46,7 +46,7 @@ $rule1 = New-AzureRmNetworkSecurityRuleConfig -Name rdp-rule -Description "Allow
 ```
 This command creates a security rule allowing access from the Internet to port 3389
 
-### 1: Create a network security rule
+### 2: Create a network security rule that allows HTTP
 ```
 $rule2 = New-AzureRmNetworkSecurityRuleConfig -Name web-rule -Description "Allow HTTP" 
     -Access Allow -Protocol Tcp -Direction Inbound -Priority 101 -SourceAddressPrefix 
