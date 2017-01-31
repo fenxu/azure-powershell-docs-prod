@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: D29C82CC-2080-48DA-880A-1AA83007E552
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 1/30/2017 10:29 PM
+ms.date: 1/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmNetworkInterfaceIpConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmNetworkInterfaceIpConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmNetworkInterfaceIpConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d1f61977ad0abb098ff95206c0a1c3a35990b59b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmNetworkInterfaceIpConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -51,10 +51,39 @@ The **New-AzureRmNetworkInterfaceIpConfig** cmdlet creates an Azure network inte
 
 ## EXAMPLES
 
-### 1:
+### 1: Create an IP configuration with a public IP address for a network interface
 ```
+$vnet = Get-AzureRmVirtualNetwork -Name myvnet -ResourceGroupName myrg
+$Subnet = Get-AzureRmVirtualNetworkSubnetConfig -Name mysubnet -VirtualNetwork $vnet
+$PIP1 = Get-AzureRmPublicIPAddress -Name "PIP1" -ResourceGroupName "RG1"
 
+$IPConfig1 = New-AzureRmNetworkInterfaceIpConfig -Name "IPConfig-1" -Subnet $Subnet -PublicIpAddress $PIP1
+    -Primary
+
+$nic = New-AzureRmNetworkInterface -Name $NicName -ResourceGroupName myrg -Location westus
+    -IpConfiguration $IpConfig1
 ```
+   The first two commands get a virtual network called myvnet and a subnet called mysubnet respectively that were
+    previously created. These are stored in $vnet and $Subnet respectively. The third command gets a previously
+    created public IP address called PIP1. The forth command creates a new IP configuration called "IPConfig-1" as the
+    primary IP configuration with a public IP address associated with it.
+    The last command then creates a network interface called mynic1 using this IP configuration.
+
+### 2: Create an IP configuration with a private IP address
+```
+$vnet = Get-AzureRmVirtualNetwork -Name myvnet -ResourceGroupName myrg
+$Subnet = Get-AzureRmVirtualNetworkSubnetConfig -Name mysubnet -VirtualNetwork $vnet
+
+$IPConfig2 = New-AzureRmNetworkInterfaceIpConfig -Name "IP-Config2" -Subnet $Subnet -PrivateIpAddress
+    10.0.0.5
+
+$nic = New-AzureRmNetworkInterface -Name mynic1 -ResourceGroupName myrg -Location westus -IpConfiguration
+    $IpConfig2
+```
+The first two commands get a virtual network called myvnet and a subnet called mysubnet respectively that were
+    previously created. These are stored in $vnet and $Subnet respectively.  The third command creates a new IP
+    configuration called "IPConfig-2" with a private IP address 10.0.0.5 associated with it.
+    The last command then creates a network interface called mynic1 using this IP configuration.
 
 ## PARAMETERS
 

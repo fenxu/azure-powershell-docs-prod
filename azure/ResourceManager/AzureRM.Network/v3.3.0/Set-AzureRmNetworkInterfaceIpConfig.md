@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 13EF1028-43DE-424D-8185-EC45B5CEF2C1
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 1/30/2017 10:29 PM
+ms.date: 1/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkInterfaceIpConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkInterfaceIpConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkInterfaceIpConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d1f61977ad0abb098ff95206c0a1c3a35990b59b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkInterfaceIpConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -53,10 +53,27 @@ The **Set-AzureRmNetworkInterfaceIpConfig** cmdlet sets the goal state for an Az
 
 ## EXAMPLES
 
-### 1:
+### 1: Changing the IP address of an IP configuration
 ```
 
+
+$vnet = Get-AzureRmVirtualNetwork -Name myvnet -ResourceGroupName myrg
+
+$subnet = Get-AzureRmVirtualNetworkSubnetConfig -Name mysubnet -VirtualNetwork $vnet
+
+$nic = Get-AzureRmNetworkInterface -Name nic1 -ResourceGroupName myrg
+
+$nic | Set-AzureRmNetworkInterfaceIpConfig -Name ipconfig1 -PrivateIpAddress 10.0.0.11 -Subnet $subnet
+    -Primary
+
+$nic | Set-AzureRmNetworkInterface
 ```
+The first two commands get a virtual network called myvnet and a subnet called mysubnet and store it in the
+    variables $vnet and $subnet respectively. The third command gets the network interface nic1 associated with the IP
+    configuration that needs to be updated. The third command sets the private IP address of the primary IP
+    configuration ipconfig1 to 10.0.0.11. Finally, the last command updates the network interface ensuring the changes
+    have been made successfully.
+
 
 ## PARAMETERS
 

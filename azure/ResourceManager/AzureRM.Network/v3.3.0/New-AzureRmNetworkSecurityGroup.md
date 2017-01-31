@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: A420B3E7-2FE9-4D0B-803E-AC28E5F23C59
 online version: 
 schema: 2.0.0
-updated_at: 1/23/2017 7:04 PM
-ms.date: 1/23/2017
+updated_at: 1/30/2017 6:45 PM
+ms.date: 1/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/53cc462344c18b308f8923f18bac25f1bef2c5de/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b5c2e1c65c33123792ea2a6ec51df6c8b8237163/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,7 +45,7 @@ The **New-AzureRmNetworkSecurityGroup** cmdlet creates an Azure network security
 ```
 This command ceates a new Azure network security group named "nsg1" in resource group "rg1" in location "westus".
 
-### 1: Create a detailed network security group
+### 2: Create a detailed network security group
 ```
 $rule1 = New-AzureRmNetworkSecurityRuleConfig -Name rdp-rule -Description "Allow RDP" 
     -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix 
