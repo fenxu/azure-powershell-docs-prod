@@ -134,6 +134,23 @@
               href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementUser.md
     - name: AzureRM.AnalysisServices
       items:
+        - name: v3.0.0
+          href: ../ResourceManager/AzureRM.AnalysisServices/v3.0.0/AzureRM.AnalysisServices.md
+          items:
+            - name: Get-AzureRmAnalysisServicesServer
+              href: ../ResourceManager/AzureRM.AnalysisServices/v3.0.0/Get-AzureRmAnalysisServicesServer.md
+            - name: New-AzureRmAnalysisServicesServer
+              href: ../ResourceManager/AzureRM.AnalysisServices/v3.0.0/New-AzureRmAnalysisServicesServer.md
+            - name: Remove-AzureRmAnalysisServicesServer
+              href: ../ResourceManager/AzureRM.AnalysisServices/v3.0.0/Remove-AzureRmAnalysisServicesServer.md
+            - name: Resume-AzureRmAnalysisServicesServer
+              href: ../ResourceManager/AzureRM.AnalysisServices/v3.0.0/Resume-AzureRmAnalysisServicesServer.md
+            - name: Set-AzureRmAnalysisServicesServer
+              href: ../ResourceManager/AzureRM.AnalysisServices/v3.0.0/Set-AzureRmAnalysisServicesServer.md
+            - name: Suspend-AzureRmAnalysisServicesServer
+              href: ../ResourceManager/AzureRM.AnalysisServices/v3.0.0/Suspend-AzureRmAnalysisServicesServer.md
+            - name: Test-AzureRmAnalysisServicesServer
+              href: ../ResourceManager/AzureRM.AnalysisServices/v3.0.0/Test-AzureRmAnalysisServicesServer.md
         - name: v0.0.3
           href: ../ResourceManager/AzureRM.AnalysisServices/v0.0.3/AzureRM.AnalysisServices.md
           items:
