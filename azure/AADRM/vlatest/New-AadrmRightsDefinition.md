@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 ms.assetid: BE20B1AF-4D47-4182-A46A-2FB0AB504A93
 online version: http://go.microsoft.com/fwlink/?LinkID=400629
 schema: 2.0.0
-updated_at: 1/20/2017 11:34 PM
-ms.date: 1/20/2017
+updated_at: 1/31/2017 7:14 PM
+ms.date: 1/31/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/1cd0004939d8079134e22f0a7b63330141d03ca2/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/4f4fb89a9f66ac8b70228686375b2833eacc52b0/Azure%20Information%20Protection/AADRM/vlatest/New-AadrmRightsDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -47,17 +47,17 @@ This command creates a rights definition object for the specified user and store
 
 The command includes the rights VIEW and DOCEDIT for a user in the Contoso organization.
 
-### Example 2: Create a rights definition object for all users 
+### Example 2: Create a rights definition object for all members
 ```
 PS C:\>$R2 = New-AadrmRightsDefinition -DomainName "Contoso.com" -Rights "VIEW"
 ```
 
-This command creates a rights definition object for all users in the organization and stores this policy in a variable named R2, which can then be used to create or update a custom template.The command includes the VIEW right for all users in the Contoso organization.
+This command creates a rights definition object for all members in Contoso organization and stores this policy in a variable named R2, which can then be used to create or update a custom template.The command includes the VIEW right for all users in the Contoso organization.
 
 ## PARAMETERS
 
 ### -DomainName
-Specifies the domain name of your or external organization. All members in given domain name will be included.
+Specifies domain name for your organization or another organization, to be used for granting rights when you create or update a custom template. All verified domains for that organization are automatically included. To specify more than one organization, create another Rights Definition object.
 
 
 ```yaml
@@ -73,11 +73,11 @@ Accept wildcard characters: False
 ```
 
 ### -EmailAddress
-Specifies the email address of a user or group. You can specify external email addresses for users outside your organization but external email addresses for groups are not currently supported.
+Specifies the email address of a user or group. You can specify external email addresses for users outside your organization and external email addresses for groups are also supported.
 
 The cmdlet associates the rights that the *Rights* parameter specifies to the user or group that the address specifies.
 
-Tip: If you want to specify all users in your organization, use the DomainName parameter. 
+Tip: If you want to specify all users in your organization or all users in another organization, use the DomainName parameter. 
 
 ```yaml
 Type: String
