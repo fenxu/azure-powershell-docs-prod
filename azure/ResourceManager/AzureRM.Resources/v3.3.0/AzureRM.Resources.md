@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 07AB209D-A780-4EFC-A9E7-8D035F27C7EE
-updated_at: 11/11/2016 11:03 PM
-ms.date: 11/11/2016
+updated_at: 2/2/2017 5:07 PM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a97db0e30c3796fb34f72a2f76f8dcee2d69cb9a/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
 uid: ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -37,7 +37,7 @@ Searches for resources based on specified parameters.
 Searches for resource groups.
 
 ### [Get-AzureRmADAppCredential](Get-AzureRmADAppCredential.md)
-Retrieves a list of credentials associated with an application.
+Gets a list of credentials associated with an application.
 
 ### [Get-AzureRmADApplication](Get-AzureRmADApplication.md)
 Lists existing azure active directory applications.
@@ -224,4 +224,3 @@ Validates a resource group deployment.
 
 ### [Unregister-AzureRmResourceProvider](Unregister-AzureRmResourceProvider.md)
 Unregisters a resource provider.
-
