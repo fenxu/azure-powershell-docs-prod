@@ -3,11 +3,11 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 8D9F4A29-671A-468A-9B20-B985DF1B4EC2
-updated_at: 11/10/2016 6:25 PM
-ms.date: 11/10/2016
+updated_at: 2/2/2017 8:31 PM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e0bfd4ed6256e4318269090a1648ef8cdd0fc8e1/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -38,7 +38,7 @@ This cmdlet disables specific service plans when assigning a user a license usin
 
 ### Example 1: Create license options object
 ```
-PS C:\> New-MsolLicenseOption -AccountSkuId Contoso:BPOS_STANDARD -DisabledPlans EXCHANGE_STANDARD
+PS C:\> New-MsolLicenseOptions -AccountSkuId Contoso:BPOS_STANDARD -DisabledPlans EXCHANGE_STANDARD
 ```
 
 This command creates a license options object.

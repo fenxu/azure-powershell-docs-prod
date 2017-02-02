@@ -44,12 +44,16 @@
           href: ../AzureAD/v2/Get-AzureADApplicationExtensionProperty.md
         - name: Get-AzureADApplicationKeyCredential
           href: ../AzureAD/v2/Get-AzureADApplicationKeyCredential.md
+        - name: Get-AzureADApplicationLogo
+          href: ../AzureAD/v2/Get-AzureADApplicationLogo.md
         - name: Get-AzureADApplicationOwner
           href: ../AzureAD/v2/Get-AzureADApplicationOwner.md
         - name: Get-AzureADApplicationPasswordCredential
           href: ../AzureAD/v2/Get-AzureADApplicationPasswordCredential.md
         - name: Get-AzureADApplicationPolicy
           href: ../AzureAD/v2/Get-AzureADApplicationPolicy.md
+        - name: Get-AzureADApplicationServiceEndpoint
+          href: ../AzureAD/v2/Get-AzureADApplicationServiceEndpoint.md
         - name: Get-AzureADContact
           href: ../AzureAD/v2/Get-AzureADContact.md
         - name: Get-AzureADContactDirectReport
@@ -58,10 +62,16 @@
           href: ../AzureAD/v2/Get-AzureADContactManager.md
         - name: Get-AzureADContactMembership
           href: ../AzureAD/v2/Get-AzureADContactMembership.md
+        - name: Get-AzureADContactThumbnailPhoto
+          href: ../AzureAD/v2/Get-AzureADContactThumbnailPhoto.md
         - name: Get-AzureADContract
           href: ../AzureAD/v2/Get-AzureADContract.md
+        - name: Get-AzureADDeletedApplication
+          href: ../AzureAD/v2/Get-AzureADDeletedApplication.md
         - name: Get-AzureADDevice
           href: ../AzureAD/v2/Get-AzureADDevice.md
+        - name: Get-AzureADDeviceConfiguration
+          href: ../AzureAD/v2/Get-AzureADDeviceConfiguration.md
         - name: Get-AzureADDeviceRegisteredOwner
           href: ../AzureAD/v2/Get-AzureADDeviceRegisteredOwner.md
         - name: Get-AzureADDeviceRegisteredUser
@@ -78,6 +88,12 @@
           href: ../AzureAD/v2/Get-AzureADDirectorySettingTemplate.md
         - name: Get-AzureADDomain
           href: ../AzureAD/v2/Get-AzureADDomain.md
+        - name: Get-AzureADDomainNameReference
+          href: ../AzureAD/v2/Get-AzureADDomainNameReference.md
+        - name: Get-AzureADDomainServiceConfigurationRecord
+          href: ../AzureAD/v2/Get-AzureADDomainServiceConfigurationRecord.md
+        - name: Get-AzureADDomainVerificationDnsRecord
+          href: ../AzureAD/v2/Get-AzureADDomainVerificationDnsRecord.md
         - name: Get-AzureADExtensionProperty
           href: ../AzureAD/v2/Get-AzureADExtensionProperty.md
         - name: Get-AzureADGroup
@@ -92,6 +108,8 @@
           href: ../AzureAD/v2/Get-AzureADMSGroup.md
         - name: Get-AzureADOAuth2PermissionGrant
           href: ../AzureAD/v2/Get-AzureADOAuth2PermissionGrant.md
+        - name: Get-AzureADObjectByObjectId
+          href: ../AzureAD/v2/Get-AzureADObjectByObjectId.md
         - name: Get-AzureADObjectSetting
           href: ../AzureAD/v2/Get-AzureADObjectSetting.md
         - name: Get-AzureADPolicy
@@ -138,6 +156,8 @@
           href: ../AzureAD/v2/Get-AzureADUserDirectReport.md
         - name: Get-AzureADUserExtension
           href: ../AzureAD/v2/Get-AzureADUserExtension.md
+        - name: Get-AzureADUserLicenseDetail
+          href: ../AzureAD/v2/Get-AzureADUserLicenseDetail.md
         - name: Get-AzureADUserManager
           href: ../AzureAD/v2/Get-AzureADUserManager.md
         - name: Get-AzureADUserMembership
@@ -150,6 +170,8 @@
           href: ../AzureAD/v2/Get-AzureADUserOwnedObject.md
         - name: Get-AzureADUserRegisteredDevice
           href: ../AzureAD/v2/Get-AzureADUserRegisteredDevice.md
+        - name: Get-AzureADUserThumbnailPhoto
+          href: ../AzureAD/v2/Get-AzureADUserThumbnailPhoto.md
         - name: Get-AzureADVerificationDnsRecord
           href: ../AzureAD/v2/Get-AzureADVerificationDnsRecord.md
         - name: New-AzureADAdministrativeUnit
@@ -266,6 +288,8 @@
           href: ../AzureAD/v2/Remove-AzureADUserExtension.md
         - name: Remove-AzureADUserManager
           href: ../AzureAD/v2/Remove-AzureADUserManager.md
+        - name: Restore-AzureADDeletedApplication
+          href: ../AzureAD/v2/Restore-AzureADDeletedApplication.md
         - name: Revoke-AzureADSignedInUserAllRefreshToken
           href: ../AzureAD/v2/Revoke-AzureADSignedInUserAllRefreshToken.md
         - name: Revoke-AzureADUserAllRefreshToken
@@ -282,6 +306,8 @@
           href: ../AzureAD/v2/Set-AzureADAdministrativeUnit.md
         - name: Set-AzureADApplication
           href: ../AzureAD/v2/Set-AzureADApplication.md
+        - name: Set-AzureADApplicationLogo
+          href: ../AzureAD/v2/Set-AzureADApplicationLogo.md
         - name: Set-AzureADContact
           href: ../AzureAD/v2/Set-AzureADContact.md
         - name: Set-AzureADContactManager
@@ -302,6 +328,8 @@
           href: ../AzureAD/v2/Set-AzureADPolicy.md
         - name: Set-AzureADServicePrincipal
           href: ../AzureAD/v2/Set-AzureADServicePrincipal.md
+        - name: Set-AzureADTenantDetail
+          href: ../AzureAD/v2/Set-AzureADTenantDetail.md
         - name: Set-AzureADTrustedCertificateAuthority
           href: ../AzureAD/v2/Set-AzureADTrustedCertificateAuthority.md
         - name: Set-AzureADUser
@@ -314,6 +342,8 @@
           href: ../AzureAD/v2/Set-AzureADUserManager.md
         - name: Set-AzureADUserPassword
           href: ../AzureAD/v2/Set-AzureADUserPassword.md
+        - name: Set-AzureADUserThumbnailPhoto
+          href: ../AzureAD/v2/Set-AzureADUserThumbnailPhoto.md
         - name: Update-AzureADSignedInUserPassword
           href: ../AzureAD/v2/Update-AzureADSignedInUserPassword.md
 - name: MSOnline
