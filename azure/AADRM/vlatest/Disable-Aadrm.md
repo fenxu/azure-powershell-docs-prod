@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400596
 schema: 2.0.0
 ms.assetid: B0B5958B-F190-469F-8528-EDB9926792CF
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 2/3/2017 6:56 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disable-Aadrm.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disable-Aadrm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Disable-Aadrm.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Disable-Aadrm.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -35,9 +35,7 @@ The **Disable-Aadrm** cmdlet disables the capabilities of Azure Rights Managemen
 
 Deactivate Rights Management only if you no longer want to protect documents and emails by using Azure Rights Management  and you no longer need access to content that was previously protected by using Rights Management.
 
-If you accidentally deactivate Azure Rights Management or change your mind, you can simply activate it again by using the [Enable-Aadrm](./Enable-Aadrm.md) cmdlet to resume using the service.
-However, if you are deactivating Azure Rights Management because you no longer want to use the service, you might need to take additional steps.
-For more information, see Decommissioning and deactivating [Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/decommission-deactivate) (https://docs.microsoft.com/rights-management/deploy-use/decommission-deactivate) on the Microsoft documentation site.
+If you accidentally deactivate Azure Rights Management or change your mind, you can simply activate it again by using the [Enable-Aadrm](./Enable-Aadrm.md) cmdlet to resume using the service. However, if you are deactivating Azure Rights Management because you no longer want to use the service, you might need to take additional steps. For more information, see Decommissioning and deactivating [Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/decommission-deactivate) (https://docs.microsoft.com/rights-management/deploy-use/decommission-deactivate) on the Microsoft documentation site.
 
 ## EXAMPLES
 

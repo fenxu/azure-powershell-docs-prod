@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=623037
 schema: 2.0.0
 ms.assetid: 3F0BC472-41CC-41CA-A1B5-ACB84B1C2DA9
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 2/3/2017 6:56 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmDocumentTrackingFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmDocumentTrackingFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmDocumentTrackingFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmDocumentTrackingFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -22,7 +22,7 @@ ms.service: rights-management
 # Get-AadrmDocumentTrackingFeature
 
 ## SYNOPSIS
-Indicates whether document tracking is enabled or disabled for Rights Management.
+Indicates whether document tracking is enabled or disabled for Azure Information Protection.
 
 ## SYNTAX
 
@@ -31,16 +31,16 @@ Get-AadrmDocumentTrackingFeature [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AadrmDocumentTrackingFeature** cmdlet indicates whether the Azure Rights Management (Azure RMS) document tracking feature is enabled or disabled.
+The **Get-AadrmDocumentTrackingFeature** cmdlet indicates whether the Azure Information Protection document tracking feature is enabled or disabled.
 
 ## EXAMPLES
 
-### Example: Determine whether Azure RMS is enabled
+### Example: Determine whether the document tracking site is enabled
 ```
 PS C:\>Get-AadrmDocumentTrackingFeature
 ```
 
-This command determines whether the Azure RMS document tracking feature is enabled.
+This command determines whether the Azure Information Protection document tracking feature is enabled.
 
 ## PARAMETERS
 

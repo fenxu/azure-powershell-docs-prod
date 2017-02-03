@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400607
 schema: 2.0.0
 ms.assetid: D7136388-0197-4074-AC15-BA4DA07223C7
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 2/3/2017 6:56 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmAdminLog.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmAdminLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmAdminLog.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmAdminLog.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,8 +32,7 @@ Get-AadrmAdminLog -Path <String> [-FromTime <DateTime>] [-ToTime <DateTime>] [-F
 ```
 
 ## DESCRIPTION
-The **Get-AadrmAdminLog** cmdlet generates logs for all Rights Management administrative commands.
-You can specify a start time and stop time of entries to include.
+The **Get-AadrmAdminLog** cmdlet generates logs for all Rights Management administrative commands. You can specify a start time and stop time of entries to include.
 
 ## EXAMPLES
 
@@ -42,24 +41,21 @@ You can specify a start time and stop time of entries to include.
 PS C:\>Get-AadrmAdminLog -Path "C:\Temp\AdminLog.log"
 ```
 
-This command generates a log that contains all the Rights Management administrative commands that have been run for your Azure RMS tenant.
+This command generates a log that contains all the Rights Management administrative commands that have been run for your Azure Rights Management tenant.
 
 ### Example 2: Generate a log of commands for a specified time period
 ```
 PS C:\>Get-AadrmAdminLog -Path "C:\Temp\AdminLog.log" -FromTime "05/01/2015 00:00:00" -ToTime "05/31/2015 23:59:59"
 ```
 
-This command generates a log of administrative commands for your Azure RMS tenant, limited to items that fall within the specific time period by using the *FromTime* and *ToTime* parameters.
-In this example, the time period is all days in May 2015, using the US date format.
+This command generates a log of administrative commands for your Azure RMS tenant, limited to items that fall within the specific time period by using the *FromTime* and *ToTime* parameters. In this example, the time period is all days in May 2015, using the US date format.
 
 ### Example 3: Generate a log of commands for the last 45 days
 ```
 PS C:\>$days = (Get-Date).AddDays(-45) PS C:\>Get-AadrmAdminLog -Path "C:\Temp\AdminLog.log" -FromTime $days
 ```
 
-This command generates a log of administrative commands for your Azure RMS tenant, limited to items within the last 45 days (inclusive).
-The first command sets the variable for the *FromTime* parameter to be today's date minus 45 days.
-Then the second command gets the entries from the log for this time period, by using this variable.
+This command generates a log of administrative commands for your Azure RMS tenant, limited to items within the last 45 days (inclusive). The first command sets the variable for the *FromTime* parameter to be today's date minus 45 days. Then the second command gets the entries from the log for this time period, by using this variable.
 
 ## PARAMETERS
 
@@ -79,10 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -FromTime
-Specifies the start time (inclusive) for the log file as a **DateTime** object.
-To obtain a **DateTime** object, use the [Get-Date](http://go.microsoft.com/fwlink/?LinkID=293966) cmdlet.
-Specify the date and time according to your system locale settings.
-For more information, type `Get-Help Get-Date`.
+Specifies the start time (inclusive) for the log file as a **DateTime** object. To obtain a **DateTime** object, use the [Get-Date](http://go.microsoft.com/fwlink/?LinkID=293966) cmdlet. Specify the date and time according to your system locale settings. For more information, type `Get-Help Get-Date`.
 
 ```yaml
 Type: DateTime
@@ -112,10 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -ToTime
-Specifies the stop time (inclusive) for the log file as a **DateTime** object.
-To obtain a **DateTime** object, use the **Get-Date** cmdlet.
-Specify the date and time according to your system locale settings.
-For more information, type `Get-Help Get-Date`.
+Specifies the stop time (inclusive) for the log file as a **DateTime** object. To obtain a **DateTime** object, use the **Get-Date** cmdlet. Specify the date and time according to your system locale settings. For more information, type `Get-Help Get-Date`.
 
 ```yaml
 Type: DateTime
@@ -145,8 +135,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+Shows what would happen if the cmdlet runs. The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

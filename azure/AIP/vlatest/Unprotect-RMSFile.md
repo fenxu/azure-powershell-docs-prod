@@ -1,13 +1,13 @@
 ---
 external help file: AIP.dll-Help.xml
-online version: 
+online version: https://go.microsoft.com/fwlink/?linkid=841550
 schema: 2.0.0
 ms.assetid: 3A19FD31-4FAF-4B6F-B470-5054FCF05F9C
-updated_at: 1/18/2017 9:52 PM
-ms.date: 1/18/2017
+updated_at: 2/3/2017 3:57 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/Unprotect-RMSFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/Unprotect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/879092e82c9a7d8e1ce6b84a76a3b8f6d2b35b8f/Azure%20Information%20Protection/AIP/vlatest/Unprotect-RMSFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e1336b3bb1bef408441bf75eeb039ef49d5b9fec/Azure%20Information%20Protection/AIP/vlatest/Unprotect-RMSFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell

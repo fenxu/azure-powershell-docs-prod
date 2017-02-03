@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=529559
 schema: 2.0.0
 ms.assetid: E04D855C-C9AF-42DA-A1B4-9D51FE4045D9
-updated_at: 12/14/2016 5:48 PM
-ms.date: 12/14/2016
+updated_at: 2/3/2017 6:56 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmMaxUseLicenseValidityTime.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmMaxUseLicenseValidityTime.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/bf1ec7f395e431d328ab3c31f81b3049de3de196/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmMaxUseLicenseValidityTime.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmMaxUseLicenseValidityTime.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,13 +32,12 @@ Set-AadrmMaxUseLicenseValidityTime [-MaxUseLicenseValidityTime] <UInt16> [-Force
 ```
 
 ## DESCRIPTION
-The **Set-AadrmMaxUseLicenseValidityTime** cmdlet sets the maximum validity time for use licenses that Azure Rights Management grants for your organization when it protects files and email messages.
-The default value is 30 days.
+The **Set-AadrmMaxUseLicenseValidityTime** cmdlet sets the maximum validity time for use licenses that Azure Rights Management grants for your organization when it protects files and email messages. The default value is 30 days.
 
-A use license is a per-document certificate that is granted to a user who opens a protected file or email message.
-This certificate contains that user's rights for the file or email message and the encryption key that was used to encrypt the content, as well as additional access restrictions defined in the document's policy.
-When the validity period of the use license is expired for a file or email message, the user credentials must be submitted to Azure RMS again to open that content.
-If the credentials are cached, the user is not prompted, and this happens in the background but an Internet connection is still required to send the cached credentials.
+A use license is a per-document certificate that is granted to a user who opens a protected file or email message. This certificate contains that user's rights for the file or email message and the encryption key that was used to encrypt the content, as well as additional access restrictions defined in the document's policy.
+
+When the validity period of the use license is expired for a file or email message, the user credentials must be submitted to Azure RMS again to open that content. If the credentials are cached, the user is not prompted, and this happens in the background but an Internet connection is still required to send the cached credentials. 
+
 For example, if a user shares a protected file by email and the protected file has the default use license validity period of 30 days:
 
 --Anna opens the file immediately, authenticates to Azure RMS, and reads the file.
@@ -54,10 +53,11 @@ John can continue to re-open and read the file even if he does not have an Inter
 When she tries to open it this second time, she does not have an Internet access and cannot open the file.
 
 This setting at the Azure RMS tenant level can be overridden by a more restrictive setting in a rights policy template because of the *LicenseValidityDuration* parameter in the [Set-AadrmTemplateProperty](./Set-AadrmTemplateProperty.md) and [Add-AadrmTemplate](./Add-AadrmTemplate.md) cmdlets, which administrators can also set in the Azure classic portal by configuring the offline access option, Number of days the content is available without an Internet connection.
-This setting can also be overridden by a user for a document when they use the RMS sharing application, and select the Allow me to instantly revoke access to these documents option, which effectively sets the use license validity time to 0.
-When there are different values like this, Azure RMS uses the most restrictive value.
 
-Because the use license validity time can be overridden with more restrictive values, when you change the default value by using this cmdlet, choose a maximum value that best suits your organization.
+This setting can also be overridden by a user for a document when they use the RMS sharing application, and select the "Allow me to instantly revoke access to these documents" option, which effectively sets the use license validity time to 0. When there are different values like this, Azure RMS uses the most restrictive value.
+
+Because the use license validity time can be overridden with more restrictive values, when you change the default value by using this cmdlet, choose a maximum value that best suits your organization. 
+
 Decide on the best compromise between security and offline access for longer periods:
 
 --The lower the value, the more often users will be authenticated (which requires an Internet connection) but is a more secure setting because users will more quickly pick up changes such as the document has been revoked or the usage rights have changed for the protected document.
@@ -121,8 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+Shows what would happen if the cmdlet runs. The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

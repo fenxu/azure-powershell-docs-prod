@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400616
 schema: 2.0.0
 ms.assetid: 2EEF1510-4A63-4D3D-A707-541FC294DA33
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 2/3/2017 6:56 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLog.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLog.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLog.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -57,9 +57,9 @@ This command saves the specified range of usage logs to the E:\Logs\UsageLogRang
 ## PARAMETERS
 
 ### -FromCounter
-Specifies a counter value.
-The cmdlet gets entries as far back as this counter value.
-To obtain a counter value, use the [Get-AadrmUsageLogLastCounterValue](./Get-AadrmUsageLogLastCounterValue.md) cmdlet.
+Specifies a counter value. 
+
+The cmdlet gets entries as far back as this counter value. To obtain a counter value, use the [Get-AadrmUsageLogLastCounterValue](./Get-AadrmUsageLogLastCounterValue.md) cmdlet.
 
 ```yaml
 Type: Int32
@@ -90,6 +90,7 @@ Accept wildcard characters: False
 
 ### -ToCounter
 Specifies a counter value.
+
 The cmdlet gets entries as far forward as this counter value.
 
 ```yaml

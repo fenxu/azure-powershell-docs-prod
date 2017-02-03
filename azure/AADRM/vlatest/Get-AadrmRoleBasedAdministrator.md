@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400613
 schema: 2.0.0
 ms.assetid: 528FCC5D-F653-4B40-8D82-F036BAB66E5C
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 2/3/2017 6:56 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -31,8 +31,7 @@ Get-AadrmRoleBasedAdministrator [-Role <Role>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AadrmRoleBasedAdministrator** cmdlet gets the role-based administrators for Azure Rights Management.
-You can get the administrators for a specified role.
+The **Get-AadrmRoleBasedAdministrator** cmdlet gets the role-based administrators for Azure Rights Management. You can get the administrators for a specified role.
 
 ## EXAMPLES
 
@@ -46,8 +45,8 @@ This command lists the role-based administrators for Rights Management.
 ## PARAMETERS
 
 ### -Role
-Specifies a role.
-The cmdlet gets the administrators that belong to the role that you specify.
+Specifies a role. The cmdlet gets the administrators that belong to the role that you specify.
+
 The acceptable values for this parameter are:
 
 - ConnectorAdministrator

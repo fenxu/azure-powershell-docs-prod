@@ -1,15 +1,15 @@
 ---
-Module Name: RMSProtection
-Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
-Download Help Link: Please enter FwLink manually
-Help Version: Please enter version of help manually (X.X.X.X) format
+Module Name: AzureInformationProtectionn
+Module Guid: NA
+Download Help Link: NA
+Help Version: NA
 Locale: en-US
 ms.assetid: 35D99F89-BD73-457E-95C7-73857656FB59
-updated_at: 2/2/2017 2:35 AM
-ms.date: 2/2/2017
+updated_at: 2/3/2017 3:57 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/AIP.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/AIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/36864e6b9378d2ae9c82aba033f94ba08f308453/Azure%20Information%20Protection/AIP/vlatest/AIP.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e1336b3bb1bef408441bf75eeb039ef49d5b9fec/Azure%20Information%20Protection/AIP/vlatest/AIP.md
 uid: AIP/vlatest/AIP.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -30,7 +30,7 @@ These cmdlets can be used with the Azure Information Protection service, the Azu
 
 The current version of the AzureInformationProtection module is **1.3.155.2**. If you have previously installed this module, run the following command to check the version: `(Get-Module AzureInformationProtection -ListAvailable).Version`.
 
-For instructions to use these cmdlets, any current limitations, prerequisites, and examples, see the following documentation from the Azure Information Protection client administrator guide: 
+For instructions to use these cmdlets, any current limitations, prerequisites, and scenario examples, see the following documentation from the Azure Information Protection client administrator guide: 
 
 - [Using PowerShell with the Azure Information Protection client](/information-protection/rms-client/client-admin-guide-powershell)
 

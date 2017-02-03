@@ -1,13 +1,13 @@
 ---
 external help file: AIP.dll-Help.xml
-online version: 
+online version: https://go.microsoft.com/fwlink/?linkid=838766
 schema: 2.0.0
 ms.assetid: 566E595C-D574-4DED-AE38-CBCD75694B45
-updated_at: 1/31/2017 7:35 PM
-ms.date: 1/31/2017
+updated_at: 2/3/2017 3:57 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/Set-AIPFileLabel.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/Set-AIPFileLabel.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/2205364e36727d535cd8f5e2d84f8aebeff84133/Azure%20Information%20Protection/AIP/vlatest/Set-AIPFileLabel.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e1336b3bb1bef408441bf75eeb039ef49d5b9fec/Azure%20Information%20Protection/AIP/vlatest/Set-AIPFileLabel.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell

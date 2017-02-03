@@ -1,13 +1,13 @@
 ---
 external help file: AIP.dll-Help.xml
-online version: 
+online version: https://go.microsoft.com/fwlink/?linkid=838765
 schema: 2.0.0
 ms.assetid: ED3F3730-434E-4EDF-969B-0ABE30D68030
-updated_at: 1/31/2017 7:35 PM
-ms.date: 1/31/2017
+updated_at: 2/3/2017 3:57 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/Get-AIPFileStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/Get-AIPFileStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/2205364e36727d535cd8f5e2d84f8aebeff84133/Azure%20Information%20Protection/AIP/vlatest/Get-AIPFileStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e1336b3bb1bef408441bf75eeb039ef49d5b9fec/Azure%20Information%20Protection/AIP/vlatest/Get-AIPFileStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
