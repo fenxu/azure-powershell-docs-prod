@@ -1,12 +1,13 @@
 ---
 external help file: AIP.dll-Help.xml
-online version: https://go.microsoft.com/fwlink/?linkid=838766
+online version: 
 schema: 2.0.0
-updated_at: 1/15/2017 6:26 PM
-ms.date: 1/15/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Set-AIPFileLabel.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Set-AIPFileLabel.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/07358b9468f610ba5083c3b869c51843b4563e35/Azure%20Information%20Protection/RMSProtection/vlatest/Set-AIPFileLabel.md
+ms.assetid: 566E595C-D574-4DED-AE38-CBCD75694B45
+updated_at: 1/31/2017 7:35 PM
+ms.date: 1/31/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/Set-AIPFileLabel.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/Set-AIPFileLabel.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/2205364e36727d535cd8f5e2d84f8aebeff84133/Azure%20Information%20Protection/AIP/vlatest/Set-AIPFileLabel.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -38,7 +39,7 @@ Set-AIPFileLabel [-JustificationMessage <String>] [-RemoveLabel] [-Path] <String
 ## DESCRIPTION
 The **Set-AIPFileLabel** cmdlet sets or removes an Azure Information Protection label for one or more files. This action can automatically apply or remove protection when labels are configured for Rights Management protection in the Azure Information Protection policy. When the command runs successfully, any existing label or protection is replaced.
 
-Note: This cmdlet is currently installed as part of the preview version of the Azure Information Protection client, and is not included in the RMS Protection tool. In addition, this cmdlet does not support a service principal account in Azure Active Directory; you must run it interactively with a user account. 
+This cmdlet does not support a service principal account in Azure Active Directory; you must run it interactively with a user account. 
 
 ## EXAMPLES
 
@@ -187,4 +188,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AIPFileStatus](xref:RMSProtection/vlatest/Get-AIPFileStatus.md)
+[Get-AIPFileStatus](xref:AIP/vlatest/Get-AIPFileStatus.md)

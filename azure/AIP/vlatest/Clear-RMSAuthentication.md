@@ -1,13 +1,13 @@
 ---
 external help file: AIP.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkId=734985
+online version: 
 schema: 2.0.0
-ms.assetid: D0D6B294-8664-4E9A-8553-5031F452CC64
-updated_at: 1/20/2017 7:25 PM
-ms.date: 1/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/7b469886eeecbf6630b509d42f61c3f005e3c895/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
+ms.assetid: 2114B811-35D8-45E4-930B-52A636AC40E4
+updated_at: 1/18/2017 9:52 PM
+ms.date: 1/18/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/Clear-RMSAuthentication.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AIP/vlatest/Clear-RMSAuthentication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/879092e82c9a7d8e1ce6b84a76a3b8f6d2b35b8f/Azure%20Information%20Protection/AIP/vlatest/Clear-RMSAuthentication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -62,4 +62,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Set-RMSServerAuthentication](xref:RMSProtection/vlatest/Set-RMSServerAuthentication.md)
+[Set-RMSServerAuthentication](xref:AIP/vlatest/Set-RMSServerAuthentication.md)

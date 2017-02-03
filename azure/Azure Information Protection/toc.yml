@@ -113,6 +113,33 @@
           href: ../AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
         - name: Use-AadrmKeyVaultKey
           href: ../AADRM/vlatest/Use-AadrmKeyVaultKey.md
+- name: AIP
+  items:
+    - name: vlatest
+      href: ../AIP/vlatest/AIP.md
+      items:
+        - name: Clear-RMSAuthentication
+          href: ../AIP/vlatest/Clear-RMSAuthentication.md
+        - name: Get-AIPFileStatus
+          href: ../AIP/vlatest/Get-AIPFileStatus.md
+        - name: Get-RMSFileStatus
+          href: ../AIP/vlatest/Get-RMSFileStatus.md
+        - name: Get-RMSServer
+          href: ../AIP/vlatest/Get-RMSServer.md
+        - name: Get-RMSServerAuthentication
+          href: ../AIP/vlatest/Get-RMSServerAuthentication.md
+        - name: Get-RMSTemplate
+          href: ../AIP/vlatest/Get-RMSTemplate.md
+        - name: New-RMSProtectionLicense
+          href: ../AIP/vlatest/New-RMSProtectionLicense.md
+        - name: Protect-RMSFile
+          href: ../AIP/vlatest/Protect-RMSFile.md
+        - name: Set-AIPFileLabel
+          href: ../AIP/vlatest/Set-AIPFileLabel.md
+        - name: Set-RMSServerAuthentication
+          href: ../AIP/vlatest/Set-RMSServerAuthentication.md
+        - name: Unprotect-RMSFile
+          href: ../AIP/vlatest/Unprotect-RMSFile.md
 - name: RMSProtection
   items:
     - name: vlatest
@@ -124,8 +151,6 @@
           href: ../RMSProtection/vlatest/about_RMSProtection_AzureRMS.md
         - name: Clear-RMSAuthentication
           href: ../RMSProtection/vlatest/Clear-RMSAuthentication.md
-        - name: Get-AIPFileStatus
-          href: ../RMSProtection/vlatest/Get-AIPFileStatus.md
         - name: Get-RMSFileStatus
           href: ../RMSProtection/vlatest/Get-RMSFileStatus.md
         - name: Get-RMSServer
@@ -138,8 +163,6 @@
           href: ../RMSProtection/vlatest/New-RMSProtectionLicense.md
         - name: Protect-RMSFile
           href: ../RMSProtection/vlatest/Protect-RMSFile.md
-        - name: Set-AIPFileLabel
-          href: ../RMSProtection/vlatest/Set-AIPFileLabel.md
         - name: Set-RMSServerAuthentication
           href: ../RMSProtection/vlatest/Set-RMSServerAuthentication.md
         - name: Unprotect-RMSFile
