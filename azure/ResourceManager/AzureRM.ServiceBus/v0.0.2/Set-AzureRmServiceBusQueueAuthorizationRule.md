@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 2/3/2017 7:40 PM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Set-AzureRmServiceBusQueueAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Set-AzureRmServiceBusQueueAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Set-AzureRmServiceBusQueueAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/141ad4d0f36a215ecc79ef71aa0cc5b4c08a99d0/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Set-AzureRmServiceBusQueueAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # Set-AzureRmServiceBusQueueAuthorizationRule
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Updates the specified authorization rule description for the given Service Bus queue.
 
 ## SYNTAX
 
@@ -32,36 +32,25 @@ Set-AzureRmServiceBusQueueAuthorizationRule [-ResourceGroup] <String> [-Namespac
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Set-AzureRmServiceBusQueueAuthorizationRule** cmdlet updates the description for the specified authorization rule of the given Service Bus queue.
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> $authRuleObj = Get-AzureRmServiceBusQueueAuthorizationRule -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -QueueName SB-Queue_exampl1 -AuthorizationRuleName SBAuthoRule1
+
+PS C:\> $authRuleObj.Rights.Add("Manage")
+
+PS C:\> Set-AzureRmServiceBusQueueAuthorizationRule -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -QueueName SB-Queue_exampl1 -AuthRuleObj $authRuleObj
 ```
 
-{{ Add example description here }}
+Adds **Manage** to the access rights of the authorization rule `SBAuthoRule1` of the queue `SB-Queue_exampl1`.
 
 ## PARAMETERS
 
-### -AuthorizationRuleName
-AuthorizationRule Name - Required if 'AuthruleObj' not specified.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 3
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -AuthRuleObj
-ServiceBus Queue AuthorizationRule Object.
+The Service Bus queue authorization rule object.
 
 ```yaml
 Type: SharedAccessAuthorizationRuleAttributes
@@ -75,63 +64,16 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -NamespaceName
-Namespace Name.
+### -AuthorizationRuleName
+The authorization rule name. Required if **-AuthruleObj** is not specified.
 
 ```yaml
 Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -QueueName
-Queue Name.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceGroup
-The name of the resource group
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Rights
-Required if 'AuthruleObj' not specified.
-Rights - e.g. 
-@("Listen","Send","Manage")
-
-```yaml
-Type: String[]
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 4
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -149,6 +91,67 @@ Required: False
 Position: Named
 Default value: False
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -NamespaceName
+The Service Bus namespace name.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -QueueName
+The Service Bus queue name.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceGroup
+The name of the resource group.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Rights
+The rights; for example 
+@("Listen","Send","Manage"). Required if 'AuthruleObj' not specified.
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 4
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -173,8 +176,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-Microsoft.Azure.Commands.ServiceBus.Models.SharedAccessAuthorizationRuleAttributes System.String\[\]
+###-ResourceGroup
+ System.String
+###-NamespaceName
+ System.String
+###-QueueName
+ System.String
+###-AuthRuleObj
+ Microsoft.Azure.Commands.ServiceBus.Models.SharedAccessAuthorizationRuleAttributes
 
 ## OUTPUTS
 

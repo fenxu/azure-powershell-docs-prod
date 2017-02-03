@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 2/3/2017 7:40 PM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusTopicKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusTopicKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusTopicKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/141ad4d0f36a215ecc79ef71aa0cc5b4c08a99d0/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusTopicKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # New-AzureRmServiceBusTopicKey
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Regenerates the primary or secondary connection strings for the Service Bus topic.
 
 ## SYNTAX
 
@@ -31,21 +31,29 @@ New-AzureRmServiceBusTopicKey [-ResourceGroup] <String> [-NamespaceName] <String
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **New-AzureRmServiceBusTopicKey** cmdlet regenerates a new  primary or secondary connection string for the specified Service Bus topic and authorization rule.
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> New-AzureRmServiceBusTopicKey -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -AuthorizationRuleName SBTopicAuthoRule1 -RegenerateKeys PrimaryKey
 ```
 
-{{ Add example description here }}
+Regenerates the primary connection string for the namespace.
+
+### Example 2
+```
+PS C:\> New-AzureRmServiceBusTopicKey -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -AuthorizationRuleName SBTopicAuthoRule1 -RegenerateKeys SecondaryKey
+```
+
+Regenerates the secondary connection string for the namespace.
+
 
 ## PARAMETERS
 
 ### -AuthorizationRuleName
-Authorization Rule Name.
+The authorization rule name.
 
 ```yaml
 Type: String
@@ -60,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Namespace Name.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -75,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -RegenerateKeys
-Regenerate Keys - PrimaryKey/SecondaryKey.
+Specifies whether to regenerate the primary or secondary keys.
 
 ```yaml
 Type: String
@@ -91,7 +99,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-The name of the resource group
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -106,7 +114,7 @@ Accept wildcard characters: False
 ```
 
 ### -TopicName
-Topic Name.
+The Service Bus topic name.
 
 ```yaml
 Type: String
@@ -156,11 +164,32 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
+###-ResourceGroup
+ System.String
+ 
+###-NamespaceName
+ System.String
+ 
+###-AuthorizationRuleName
+ System.String
+ 
+###-TopicName
+ System.String
+ 
+###-RegenerateKeys
+ System.String
 
 ## OUTPUTS
 
 ### Microsoft.Azure.Commands.ServiceBus.Models.ListKeysAttributes
+
+PrimaryConnectionString   : Endpoint=sb://sb-example1.servicebus.windows.net/;SharedAccessKeyName=SBTopicAuthoRule1;SharedAccessKey={SharedAccessKey-value};EntityPath=SB-Topi
+                            c_exampl1
+SecondaryConnectionString : Endpoint=sb://sb-example1.servicebus.windows.net/;SharedAccessKeyName=SBTopicAuthoRule1;SharedAccessKey={SharedAccessKey-value};EntityPath=SB-Topi
+                            c_exampl1
+PrimaryKey                : {PrimaryKey value}
+SecondaryKey              : {SecondaryKey value}
+KeyName                   : SBTopicAuthoRule1
 
 ## NOTES
 

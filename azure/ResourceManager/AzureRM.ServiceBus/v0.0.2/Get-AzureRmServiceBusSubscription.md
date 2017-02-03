@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 2/3/2017 7:40 PM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Get-AzureRmServiceBusSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Get-AzureRmServiceBusSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Get-AzureRmServiceBusSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/141ad4d0f36a215ecc79ef71aa0cc5b4c08a99d0/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Get-AzureRmServiceBusSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # Get-AzureRmServiceBusSubscription
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Returns a subscription description for the specified topic.
 
 ## SYNTAX
 
@@ -31,21 +31,21 @@ Get-AzureRmServiceBusSubscription [-ResourceGroup] <String> [-NamespaceName] <St
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-AzureRmServiceBusSubscription** cmdlet returns a subscription description for the specified Service Bus topic.
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Get-AzureRmServiceBusSubscription -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -SubscriptionName SB-TopicSubscription-Example1
 ```
 
-{{ Add example description here }}
+Returns a subscription description for the specified Service Bus Topic.
 
 ## PARAMETERS
 
 ### -NamespaceName
-Namespace Name.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-The name of the resource group
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionName
-Subscription Name.
+The subscription name.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -TopicName
-Topic Name.
+The topic name.
 
 ```yaml
 Type: String
@@ -108,12 +108,42 @@ Accept wildcard characters: False
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
+###-ResourceGroup
+ System.String
+ 
+###-NamespaceName
+ System.String
+ 
+###-TopicName
+ System.String
+ 
+###-SubscriptionName
+ System.String
+ 
 
-### System.String
 
 ## OUTPUTS
 
 ### Microsoft.Azure.Commands.ServiceBus.Models.SubscriptionAttributes
+
+Name                                      : SB-TopicSubscription-Example1
+Location                                  : West US
+AccessedAt                                : 1/20/2017 3:18:54 AM
+AutoDeleteOnIdle                          : 10675199.02:48:05.4775807
+CountDetails                              : Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails
+CreatedAt                                 : 1/20/2017 3:18:52 AM
+DefaultMessageTimeToLive                  : 10675199.02:48:05.4775807
+DeadLetteringOnFilterEvaluationExceptions : True
+DeadLetteringOnMessageExpiration          : False
+EnableBatchedOperations                   : True
+EntityAvailabilityStatus                  : Available
+IsReadOnly                                : 
+LockDuration                              : 00:01:00
+MaxDeliveryCount                          : 10
+MessageCount                              : 0
+RequiresSession                           : False
+Status                                    : Active
+UpdatedAt                                 : 1/20/2017 3:18:54 AM
 
 ## NOTES
 

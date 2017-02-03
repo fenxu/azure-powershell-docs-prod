@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 2/3/2017 7:40 PM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Get-AzureRmServiceBusQueueKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Get-AzureRmServiceBusQueueKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Get-AzureRmServiceBusQueueKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/141ad4d0f36a215ecc79ef71aa0cc5b4c08a99d0/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/Get-AzureRmServiceBusQueueKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # Get-AzureRmServiceBusQueueKey
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the primary and secondary connection strings for the given Service Bus queue.
 
 ## SYNTAX
 
@@ -31,21 +31,21 @@ Get-AzureRmServiceBusQueueKey [-ResourceGroup] <String> [-NamespaceName] <String
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-AzureRmServiceBusQueueKey** cmdlet returns the primary and secondary connection strings for the given Service Bus queue. 
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Get-AzureRmServiceBusQueueKey -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -QueueName SB-Queue_exampl1 -AuthorizationRuleName SBAuthoRule1
 ```
 
-{{ Add example description here }}
+The primary and secondary connection strings are returned for the given Service Bus queue.
 
 ## PARAMETERS
 
 ### -AuthorizationRuleName
-ServiceBus Queue AuthorizationRule Name.
+The queue authorization rule name.
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-ServiceBus Namespace Name.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -QueueName
-ServiceBus Queue Name.
+The Service Bus queue name.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-The name of the resource group
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -109,11 +109,29 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
+###-ResourceGroup
+ System.String
+ 
+###-NamespaceName
+ System.String
+ 
+###-QueueName
+ System.String
+ 
+###-AuthorizationRuleName
+ System.String
 
 ## OUTPUTS
 
 ### Microsoft.Azure.Commands.ServiceBus.Models.ListKeysAttributes
+
+PrimaryConnectionString   : Endpoint=sb://sb-example1.servicebus.windows.net/;SharedAccessKeyName=SBAuthoRule1;SharedAccessKey={SharedAccessKey-value};EntityPath=SB-Queue_e
+                            xampl1
+SecondaryConnectionString : Endpoint=sb://sb-example1.servicebus.windows.net/;SharedAccessKeyName=SBAuthoRule1;SharedAccessKey={SharedAccessKey-value};EntityPath=SB-Queue_e
+                            xampl1
+PrimaryKey                : {PrimaryKey value}
+SecondaryKey              : {SecondaryKey value}
+KeyName                   : SBAuthoRule1
 
 ## NOTES
 
