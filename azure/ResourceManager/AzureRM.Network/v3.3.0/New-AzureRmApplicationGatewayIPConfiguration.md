@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 312AA609-7362-42A5-A889-C0784D5A2943
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
+updated_at: 1/27/2017 11:33 PM
 ms.date: 1/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGatewayIPConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGatewayIPConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGatewayIPConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75c2612a304afa30be3335526e5ebebc3156ed01/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGatewayIPConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,9 +46,10 @@ The IP configuration contains the subnet in which application gateway is deploye
 
 ### Example 1: Create an IP configuration for an application gateway.
 ```
+PS C:\> $VNet = Get-AzureRmVirtualNetwork -Name "VNet01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $VNet = Get-AzureRmvirtualNetwork -Name "VNet01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $Subnet = Get-AzureRmVirtualNetworkSubnetConfig -Name "Subnet01" -VirtualNetwork $VNet 
-PS C:\ $GatewayIpConfig = New-AzureRmApplicationGatewayIPConfiguration -Name "AppGwSubnet01" -Subnet $Subnet
+PS C:\> $GatewayIpConfig = New-AzureRmApplicationGatewayIPConfiguration -Name "AppGwSubnet01" -Subnet $Subnet
 ```
 
 The first command gets a virtual network named VNet01 that belongs to the resource group named ResourceGroup01.

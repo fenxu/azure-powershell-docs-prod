@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: FD84D530-491B-4075-A6B4-2E1C46AD92D4
 online version: 
 schema: 2.0.0
-updated_at: 1/23/2017 7:04 PM
-ms.date: 1/23/2017
+updated_at: 1/27/2017 5:12 PM
+ms.date: 1/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmLoadBalancerRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmLoadBalancerRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/53cc462344c18b308f8923f18bac25f1bef2c5de/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmLoadBalancerRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ef3e6f08e94eaea317c9834c9680310d7de7c4/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmLoadBalancerRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,20 +47,21 @@ The **New-AzureRmLoadBalancerRuleConfig** cmdlet creates a rule configuration fo
 
 ## EXAMPLES
 
-### 1: Creating a rule configuration for an Azure Load Balancer
+### Example 1: Creating a rule configuration for an Azure Load Balancer
 ```
-PS C:\>  $publicip = New-AzureRmPublicIpAddress -ResourceGroupName "MyResourceGroup" 
-    -name MyPublicIP -location 'West US' -AllocationMethod Dynamic
-PS C:\>  $frontend = New-AzureRmLoadBalancerFrontendIpConfig -Name MyFrontEnd 
-    -PublicIpAddress $publicip
-PS C:\>  $probe = New-AzureRmLoadBalancerProbeConfig -Name MyProbe -Protocol http -Port 
-    80 -IntervalInSeconds 15 -ProbeCount 2 -RequestPath healthcheck.aspx
-PS C:\> New-AzureRmLoadBalancerRuleConfig -Name "MyLBrule" -FrontendIPConfiguration 
-    $frontend -BackendAddressPool $backendAddressPool -Probe $probe -Protocol Tcp 
-    -FrontendPort 80 -BackendPort 80 -IdleTimeoutInMinutes 15 -EnableFloatingIP 
-    -LoadDistribution SourceIP
+PS C:\> $PublicIp = New-AzureRmPublicIpAddress -ResourceGroupName "ResourceGroup03" -Name MyPublicIP -Location 'West US' -AllocationMethod Dynamic
+PS C:\> $FrontEnd = New-AzureRmLoadBalancerFrontendIpConfig -Name "MyFrontEnd" -PublicIpAddress $PublicIp 
+PS C:\> $Probe = New-AzureRmLoadBalancerProbeConfig -Name "MyProbe" -Protocol http -Port 80 -IntervalInSeconds 15 -ProbeCount 2 -RequestPath healthcheck.aspx
+PS C:\> New-AzureRmLoadBalancerRuleConfig -Name "MyLBrule" -FrontendIPConfiguration $FrontEnd -BackendAddressPool $backendAddressPool -Probe $Probe -Protocol Tcp -FrontendPort 80 -BackendPort 80 -IdleTimeoutInMinutes 15 -EnableFloatingIP -LoadDistribution SourceIP
 ```
-The first three commands set up a public IP, a front end, and a probe for the rule configuration in the forth command. The forth command creates a new rule called MyLBrule with certain specifications.
+
+The first command creates a public IP address in the resource group named ResourceGroup03, and stores it in the $PublicIp variable.
+
+The second command creates a front end, and stores it in the $FrontEnd variable.
+
+The third command creates a probe, and stores it in the $Probe variable.
+
+The final command creates a rule called MyLBrule.
     
 ## PARAMETERS
 
@@ -318,6 +319,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Add-AzureRmLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmLoadBalancerRuleConfig.md)
 
 [Get-AzureRmLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmLoadBalancerRuleConfig.md)
+
+[New-AzureRmLoadBalancerFrontendIpConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmLoadBalancerFrontendIpConfig.md)
+
+[New-AzureRmLoadBalancerProbeConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmLoadBalancerProbeConfig.md)
+
+[New-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmPublicIpAddress.md)
 
 [Remove-AzureRmLoadBalancerRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmLoadBalancerRuleConfig.md)
 

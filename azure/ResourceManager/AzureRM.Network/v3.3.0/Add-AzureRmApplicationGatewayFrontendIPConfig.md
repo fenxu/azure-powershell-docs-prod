@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 0ECE4232-EA5D-46A0-8260-69646E27FA9A
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 1/27/2017 5:12 PM
+ms.date: 1/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmApplicationGatewayFrontendIPConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmApplicationGatewayFrontendIPConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmApplicationGatewayFrontendIPConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ef3e6f08e94eaea317c9834c9680310d7de7c4/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmApplicationGatewayFrontendIPConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -65,7 +65,7 @@ The third command adds the front-end IP configuration named FrontEndIp01, for th
 
 ### Example 2: Add a static private IP as the front-end IP address
 ```
-PS C:\> $VNet = Get-AzureRmvirtualNetwork -Name "VNet01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $VNet = Get-AzureRmVirtualNetwork -Name "VNet01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $Subnet = Get-AzureRmVirtualNetworkSubnetConfig -Name "Subnet01" -VirtualNetwork $VNet
 PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $AppGw = Add-AzureRmApplicationGatewayFrontendIPConfig -ApplicationGateway $AppGw -Name "FrontendIP02" -Subnet $Subnet -PrivateIPAddress 10.0.1.1
@@ -78,7 +78,7 @@ The fourth command adds a front-end IP configuration named FrontendIP02 using $S
 
 ### Example 3: Add a dynamic private IP as the front-end IP address
 ```
-PS C:\> $VNet = Get-AzureRmvirtualNetwork -Name "VNet01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $VNet = Get-AzureRmVirtualNetwork -Name "VNet01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $Subnet = Get-AzureRmVirtualNetworkSubnetConfig -Name "Subnet01" -VirtualNetwork $VNet
 PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $AppGw = Add-AzureRmApplicationGatewayFrontendIPConfig -ApplicationGateway $AppGw -Name "FrontendIP02" -Subnet $Subnet

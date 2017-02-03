@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: EC798838-1850-4E88-B17F-D2F00F2D4EE9
 online version: 
 schema: 2.0.0
-updated_at: 1/23/2017 7:04 PM
-ms.date: 1/23/2017
+updated_at: 1/27/2017 5:12 PM
+ms.date: 1/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmPublicIpAddress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmPublicIpAddress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/53cc462344c18b308f8923f18bac25f1bef2c5de/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmPublicIpAddress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ef3e6f08e94eaea317c9834c9680310d7de7c4/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmPublicIpAddress.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,39 +36,34 @@ The **Set-AzureRmPublicIpAddress** cmdlet sets the goal state for a public IP ad
 
 ## EXAMPLES
 
-### 1: Change allocation method of a public IP address
+### Example 1: Change allocation method of a public IP address
 ```
-PS C:\> $publicIp = Get-AzureRmPublicIpAddress -Name $publicIpName -ResourceGroupName $rgName
-
-PS C:\> $publicIp.PublicIpAllocationMethod = "Dynamic"
-    
-PS C:\> Set-AzureRmPublicIpAddress -PublicIpAddress $publicIp
-
-PS C:\> $publicIp = Get-AzureRmPublicIpAddress -Name $publicIpName -ResourceGroupName $rgName
+PS C:\> $PublicIp = Get-AzureRmPublicIpAddress -Name $PublicIpName -ResourceGroupName "ResourceGroup03"
+PS C:\> $PublicIp.PublicIpAllocationMethod = "Static"
+PS C:\> Set-AzureRmPublicIpAddress -PublicIpAddress $PublicIp
 ```
- First command gets the public IP address resource with name $publicIPName in the resource 
-    group $rgName.
-    Second command sets the allocation method of the public IP address object to "Static".
-    Set-AzureRmPublicIPAddress command updates the public IP address resource with the 
-    updated object, and modifies the allocation method to 'Static'. A public IP address gets 
-    allocated immediately.
 
-### 2: Change DNS domain label of a public IP address
+ The first command gets the public IP address resource with name $PublicIPName in the resource group ResourceGroup03 by using the **Get-AzureRmPublicIpAddress** cmdlet.
+ The command stores the result in the $PublicIp variable.
+ 
+ The second command sets the allocation method property of $PublicIp to be Static.
+ 
+ The third command updates the IP address resource to the new value of $PublicIp.
+ Because that value is now static, a public IP address is allocated immediately.
+
+### Example 2: Change DNS domain label of a public IP address
 ```
-PS C:\> $publicIp = Get-AzureRmPublicIpAddress -Name $publicIpName -ResourceGroupName $rgName
-
-PS C:\> $publicIp.DnsSettings.DomainNameLabel = "newdnsprefix"
-    
-PS C:\> Set-AzureRmPublicIpAddress -PublicIpAddress $publicIp
-
-PS C:\> $publicIp = Get-AzureRmPublicIpAddress -Name $publicIpName -ResourceGroupName $rgName
+PS C:\> $PublicIp = Get-AzureRmPublicIpAddress -Name $PublicIpName -ResourceGroupName "ResourceGroup03"
+PS C:\> $PublicIp.DnsSettings.DomainNameLabel = "newdnsprefix"
+PS C:\> Set-AzureRmPublicIpAddress -PublicIpAddress $PublicIp
 ```
-First command gets the public IP address resource with name $publicIPName in the resource 
-    group $rgName.
-    Second command sets the DomainNameLabel property to the required dns prefix.
-    Set-AzureRmPublicIPAddress command updates the public IP address resource with the 
-    updated object. DomainNameLabel & Fqdn are modified as expected.
-    
+
+The first command gets the public IP address resource with name $PublicIPName in the resource group ResourceGroup03, and stores it in the $PublicIp variable.
+
+The second command sets the DomainNameLabel property of $PublicIp to a different value.
+
+The third command updates the IP address resource to the new value of $PublicIp.
+This affects the fully qualified domain name. 
 
 ## PARAMETERS
 

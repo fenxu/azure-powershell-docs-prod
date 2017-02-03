@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 901FD38B-67FA-40D5-8D23-51E5544C25D8
 online version: 
 schema: 2.0.0
-updated_at: 1/23/2017 7:04 PM
-ms.date: 1/23/2017
+updated_at: 1/27/2017 5:12 PM
+ms.date: 1/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVirtualNetworkSubnetConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVirtualNetworkSubnetConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/53cc462344c18b308f8923f18bac25f1bef2c5de/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVirtualNetworkSubnetConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ef3e6f08e94eaea317c9834c9680310d7de7c4/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVirtualNetworkSubnetConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,27 +45,32 @@ New-AzureRmVirtualNetworkSubnetConfig -Name <String> -AddressPrefix <String> [-N
 
 ## EXAMPLES
 
-### 1:  Create a virtual network with two subnets and a network security group
+### Example 1: Create a virtual network with two subnets and a network security group
 ```
-New-AzureRmResourceGroup -Name TestResourceGroup -Location centralus
-    $rdpRule = New-AzureRmNetworkSecurityRuleConfig -Name rdp-rule -Description "Allow RDP" 
-    -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix 
-    Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
-    $networkSecurityGroup = New-AzureRmNetworkSecurityGroup -ResourceGroupName 
-    TestResourceGroup -Location centralus -Name "NSG-FrontEnd" -SecurityRules $rdpRule
-    $frontendSubnet = New-AzureRmVirtualNetworkSubnetConfig -Name frontendSubnet 
-    -AddressPrefix "10.0.1.0/24" -NetworkSecurityGroup $networkSecurityGroup
-    $backendSubnet = New-AzureRmVirtualNetworkSubnetConfig -Name backendSubnet -AddressPrefix 
-    "10.0.2.0/24" -NetworkSecurityGroup $networkSecurityGroup
-    New-AzureRmVirtualNetwork -Name MyVirtualNetwork -ResourceGroupName TestResourceGroup 
-    -Location centralus -AddressPrefix "10.0.0.0/16" -Subnet $frontendSubnet,$backendSubnet
+PS C:\> New-AzureRmResourceGroup -Name "ResourceGroup03" -Location centralus
+PS C:\> $RdpRule = New-AzureRmNetworkSecurityRuleConfig -Name "rdp-rule" -Description "Allow RDP" -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
+PS C:\> $NetworkSecurityGroup = New-AzureRmNetworkSecurityGroup -ResourceGroupName "ResourceGroup03" -Location centralus -Name "NSG-FrontEnd" -SecurityRules $RdpRule
+PS C:\> $FrontendSubnet = New-AzureRmVirtualNetworkSubnetConfig -Name "FrontendSubnet" -AddressPrefix "10.0.1.0/24" -NetworkSecurityGroup $NetworkSecurityGroup
+PS C:\> $BackendSubnet = New-AzureRmVirtualNetworkSubnetConfig -Name "BackendSubnet" -AddressPrefix "10.0.2.0/24" -NetworkSecurityGroup $NetworkSecurityGroup
+PS C:\> New-AzureRmVirtualNetwork -Name MyVirtualNetwork -ResourceGroupName "ResourceGroup03" -Location centralus -AddressPrefix "10.0.0.0/16" -Subnet $FrontendSubnet,$BackendSubnet
 ```
-This example creates two new subnet configurations using the 
-    New-AzureRmVirtualSubnetConfig cmdlet, and then uses them to create a virtual network. 
-    The New-AzureRmVirtualSubnetConfig template only creates an in-memory representation of 
-    the subnet. In this example, the frontendSubnet has CIDR 10.0.1.0/24 and references a 
-    network security group that allows RDP access. The backendSubnet has CIDR 10.0.2.0/24 and 
-    references the same network security group.
+
+The first command creates a resource group named ResourceGroup03 in the centralus region by using the **New-AzureRmResourceGroup** cmdlet.
+
+The second command creates a rule that allows inbound RDP access.
+The command stores the rule in the $RdpRule variable.
+
+The third command creates a network security group that includes the rule in $RdpRule by using the **New-AzureRmNetworkSecurityGroup** cmdlet.
+The command stores the group in the $NetworkSecurityGroup variable.
+
+The fourth command creates a subnet called FrontendSubnet, and stores it in the $FrontendSubnet variable.
+
+The fifth command creates a subnet called BackendSubnet, and stores it in the $BackendSubnet variable. 
+
+The final command creates a virtual network that includes the two subnets created in the previous commands by using the **New-AzureRmVirtualNetwork** cmdlet. 
+The subnets both reference the security group stored in $NetworkSecurityGroup.
+That group includes the rule named rdp-rule.
+
 ## PARAMETERS
 
 ### -AddressPrefix
@@ -211,6 +216,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Add-AzureRmVirtualNetworkSubnetConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVirtualNetworkSubnetConfig.md)
 
 [Get-AzureRmVirtualNetworkSubnetConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmVirtualNetworkSubnetConfig.md)
+
+[New-AzureRmNetworkSecurityGroup](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md)
+
+[New-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmResourceGroup.md)
+
+[New-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVirtualNetwork.md)
+
+[New-AzureRmVirtualNetworkSubnetConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVirtualNetworkSubnetConfig.md)
 
 [Remove-AzureRmVirtualNetworkSubnetConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmVirtualNetworkSubnetConfig.md)
 
