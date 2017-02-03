@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: A420B3E7-2FE9-4D0B-803E-AC28E5F23C59
 online version: 
 schema: 2.0.0
-updated_at: 1/30/2017 6:45 PM
-ms.date: 1/30/2017
+updated_at: 2/3/2017 6:42 PM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b5c2e1c65c33123792ea2a6ec51df6c8b8237163/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bdb30d8f779addbbe0788ff324a6a8ce9c9f8c51/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,29 +38,27 @@ The **New-AzureRmNetworkSecurityGroup** cmdlet creates an Azure network security
 
 ## EXAMPLES
 
-### 1: Create a new network securtiy group
+### Example 1: Create a network security group
 ```
- New-AzureRmNetworkSecurityGroup -Name "nsg1" -ResourceGroupName "rg1"  -Location  "westus"
-    
+PS C:\> New-AzureRmNetworkSecurityGroup -Name "NSG01" -ResourceGroupName "ResourceGroup03"  -Location  "westus"
 ```
-This command ceates a new Azure network security group named "nsg1" in resource group "rg1" in location "westus".
 
-### 2: Create a detailed network security group
+
+This command creates an Azure network security group named NSG01 in the resource group named ResourceGroup03 in location westus.
+
+### Example 2: Create a detailed network security group
+
 ```
-$rule1 = New-AzureRmNetworkSecurityRuleConfig -Name rdp-rule -Description "Allow RDP" 
-    -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix 
-    Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
-    
-$rule2 = New-AzureRmNetworkSecurityRuleConfig -Name web-rule -Description "Allow HTTP" 
-    -Access Allow -Protocol Tcp -Direction Inbound -Priority 101 -SourceAddressPrefix 
-    Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 80
-    
-$nsg = New-AzureRmNetworkSecurityGroup -ResourceGroupName TestRG -Location westus -Name 
-    "NSG-FrontEnd" -SecurityRules $rule1,$rule2
+PS C:\> $Rule1 = New-AzureRmNetworkSecurityRuleConfig -Name "rdp-rule" -Description "Allow RDP" -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
+PS C:\> $Rule2 = New-AzureRmNetworkSecurityRuleConfig -Name "web-rule" -Description "Allow HTTP" -Access Allow -Protocol Tcp -Direction Inbound -Priority 101 -SourceAddressPrefix Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 80
+PS C:\> $NSG = New-AzureRmNetworkSecurityGroup -ResourceGroupName "ResourceGroup03" -Location westus -Name "NSG-FrontEnd" -SecurityRules $Rule1,$Rule2
 ```
-Step:1 Create a security rule allowing access from the Internet to port 3389.
-Step:2 Create a security rule allowing access from the Internet to port 80.
-Step:3 Add the rules created above to a new NSG named NSG-FrontEnd.
+
+The first command creates a security rule that allows access from the Internet to port 3389 by using the **New-AzureRmNetworkSecurityRuleConfig** cmdlet.
+
+The second command creates a security rule that allows access from the Internet to port 80.
+
+The final command adds the rules created in the first two commands to a new network security group named NSG-FrontEnd.
     
 
 ## PARAMETERS
@@ -238,6 +236,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmNetworkSecurityGroup](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmNetworkSecurityGroup.md)
+
+[New-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md)
 
 [Remove-AzureRmNetworkSecurityGroup](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmNetworkSecurityGroup.md)
 

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 6AC9DA05-756D-4D59-BD97-DBAAFBB3C7AC
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 2/2/2017 5:07 PM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a97db0e30c3796fb34f72a2f76f8dcee2d69cb9a/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmADAppCredential
 
 ## SYNOPSIS
-Retrieves a list of credentials associated with an application.
+Gets a list of credentials associated with an application.
 
 ## SYNTAX
 
@@ -39,20 +39,19 @@ Get-AzureRmADAppCredential -ApplicationId <String> [-InformationAction <ActionPr
 ```
 
 ## DESCRIPTION
-The Get-AzureRmADAppCredential cmdlet can be used to retrieve a list of credentials associated with an application.
+The **Get-AzureRmADAppCredential** cmdlet gets a list of credentials associated with an application.
 
-This command will retrieve all of the credential properties (but not the credential value) associated with the application.
+This command gets all of the credential properties (but not the credential value) associated with the application.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Get a list of credentials
 
 ```
-PS E:\> Get-AzureRmADAppCredential -ObjectId 1f99cf81-0146-4f4e-beae-2007d0668476
+PS C:\> Get-AzureRmADAppCredential -ObjectId 1f99cf81-0146-4f4e-beae-2007d0668476
 ```
 
-Returns a list of credentials associated with the application having object id '1f99cf81-0146-4f4e-beae-2007d0668476'.
+This command gets a list of credentials associated with the application with object ID 1f99cf81-0146-4f4e-beae-2007d0668476.
 
 ## PARAMETERS
 
@@ -138,4 +137,3 @@ Accept wildcard characters: False
 [Remove-AzureRmADAppCredential]()
 
 [Get-AzureRmADApplication]()
-

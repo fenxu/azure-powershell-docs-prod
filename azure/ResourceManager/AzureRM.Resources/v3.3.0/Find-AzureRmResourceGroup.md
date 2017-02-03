@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: EFBBFB60-D972-47B8-997E-B737F0CA007E
 online version: 
 schema: 2.0.0
-updated_at: 1/9/2017 5:08 PM
-ms.date: 1/9/2017
+updated_at: 2/2/2017 5:07 PM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Find-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Find-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0ad0bf34919ba087d528c6264dbeb3b2ec5cfcdb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Find-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a97db0e30c3796fb34f72a2f76f8dcee2d69cb9a/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Find-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -119,3 +119,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.2.0/.Get-AzureRmResourceGroup.md)
+
+[New-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.2.0/.New-AzureRmResourceGroup.md)
+
+[Remove-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.2.0/.Remove-AzureRmResourceGroup.md)
+
+[Set-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.2.0/.Set-AzureRmResourceGroup.md)

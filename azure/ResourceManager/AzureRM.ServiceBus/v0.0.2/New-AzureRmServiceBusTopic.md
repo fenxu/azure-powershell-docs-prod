@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 2/3/2017 7:40 PM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusTopic.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusTopic.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusTopic.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/141ad4d0f36a215ecc79ef71aa0cc5b4c08a99d0/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusTopic.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # New-AzureRmServiceBusTopic
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Create a new Service Bus topic in  the specified Service Bus namespace.
 
 ## SYNTAX
 
@@ -36,22 +36,21 @@ New-AzureRmServiceBusTopic [-ResourceGroup] <String> [-NamespaceName] <String> [
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **New-AzureRmServiceBusTopic** cmdlet creates a new Service Bus topic in the specified Service Bus namespace.
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> New-AzureRmServiceBusTopic -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -EnablePartitioning $True
 ```
 
-{{ Add example description here }}
+Creates a new Service Bus topic `SB-Topic_exampl1` in the specified Service Bus namespace `SB-Example1`.
 
 ## PARAMETERS
 
 ### -AutoDeleteOnIdle
-Auto Delete On Idle - the TimeSpan idle interval after which the queue is automatically deleted.
-The minimum duration is 5 minutes.
+Specifies the TimeSpan idle interval after which the topic is automatically deleted. The minimum duration is 5 minutes.
 
 ```yaml
 Type: String
@@ -66,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultMessageTimeToLive
-Default Message TimeTo Live
+Specifies the duration after which the message expires, starting from when the message is sent to Service Bus.
 
 ```yaml
 Type: String
@@ -81,8 +80,7 @@ Accept wildcard characters: False
 ```
 
 ### -DuplicateDetectionHistoryTimeWindow
-Duplicate Detection History Time Window - TimeSpan, that defines the duration of the duplicate detection history.
-The default value is 10 minutes.
+Specifies the TimeSpan structure that defines the duration of the duplicate detection history. The default value is 10 minutes.
 
 ```yaml
 Type: String
@@ -97,7 +95,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnableBatchedOperations
-Enable Batched Operations - value that indicates whether server-side batched operations are enabled
+Indicates whether server-side batched operations are enabled.
 
 ```yaml
 Type: Boolean
@@ -113,8 +111,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnableExpress
-EnableExpress - a value that indicates whether Express Entities are enabled.
-An express queue holds a message in memory temporarily before writing it to persistent storage.
+Indicates whether Express Entities are enabled. An express queue holds a message in memory temporarily before writing it to persistent storage.
 
 ```yaml
 Type: Boolean
@@ -130,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnablePartitioning
-EnablePartitioning
+Specifies whether to enable the topic to be partitioned across multiple message brokers. 
 
 ```yaml
 Type: Boolean
@@ -146,7 +143,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnableSubscriptionPartitioning
-Enable Subscription Partitioning
+Specifies whether to enable subscription partitioning.
 
 ```yaml
 Type: Boolean
@@ -162,7 +159,7 @@ Accept wildcard characters: False
 ```
 
 ### -FilteringMessagesBeforePublishing
-FilteringMessagesBeforePublishing - a value that indicates whether Filtering is enabled for Messages before publishing.
+Indicates whether filtering is enabled for messages before publishing.
 
 ```yaml
 Type: Boolean
@@ -178,7 +175,7 @@ Accept wildcard characters: False
 ```
 
 ### -IsAnonymousAccessible
-IsAnonymousAccessible - a value that indicates whether the message is anonymous accessible.
+Indicates whether the message allows anonymous access.
 
 ```yaml
 Type: Boolean
@@ -194,7 +191,7 @@ Accept wildcard characters: False
 ```
 
 ### -IsExpress
-IsExpress - a value that indicates whether Topic is Express.
+Indicates whether the topic is express enabled.
 
 ```yaml
 Type: Boolean
@@ -210,7 +207,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaxSizeInMegabytes
-MaxSizeInMegabytes - the maximum size of the queue in megabytes, which is the size of memory allocated for the queue.
+The maximum size of the topic in megabytes, which is the size of memory allocated for the topic.
 
 ```yaml
 Type: Int64
@@ -225,7 +222,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Namespace Name.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -240,7 +237,7 @@ Accept wildcard characters: False
 ```
 
 ### -RequiresDuplicateDetection
-RequiresDuplicateDetection - a value that indicates whether the queue supports the concept of session
+Indicates whether the topic requires duplication detection.
 
 ```yaml
 Type: Boolean
@@ -256,7 +253,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-The name of the resource group
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -271,7 +268,7 @@ Accept wildcard characters: False
 ```
 
 ### -SizeInBytes
-SizeInBytes - the size of the queue in bytes.
+Specifies the size of the topic in bytes.
 
 ```yaml
 Type: Int64
@@ -286,7 +283,7 @@ Accept wildcard characters: False
 ```
 
 ### -SupportOrdering
-SupportOrdering - the value indicating it supports ordering.
+Indicates whether the topic supports ordering.
 
 ```yaml
 Type: Boolean
@@ -302,7 +299,7 @@ Accept wildcard characters: False
 ```
 
 ### -TopicName
-Topic Name.
+The Service Bus topic name.
 
 ```yaml
 Type: String
@@ -355,9 +352,49 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### System.String
 System.Nullable\`1\[\[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\]\] System.Nullable\`1\[\[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\]\]
 
+###-ResourceGroup
+ System.String
+
+###-NamespaceName
+ System.String
+
+###-TopicName
+ System.String
+
+###-EnablePartitioning
+ System.Boolean?
+
+
 ## OUTPUTS
 
 ### Microsoft.Azure.Commands.ServiceBus.Models.TopicAttributes
+
+Name                                : SB-Topic_exampl1
+Location                            : West US
+Id                                  : /subscriptions/854d368f-1828-428f-8f3c-f2affa9b2f7d/resourceGroups/Default-ServiceBus-WestUS/providers/Microsoft.ServiceBus/namespaces/SB-Example1/topics/S
+                                      B-Topic_exampl1
+Type                                : Microsoft.ServiceBus/Topic
+AccessedAt                          : 
+AutoDeleteOnIdle                    : 10675199.02:48:05.4775807
+EntityAvailabilityStatus            : 
+CreatedAt                           : 1/20/2017 3:16:42 AM
+CountDetails                        : 
+DefaultMessageTimeToLive            : 10675199.02:48:05.4775807
+DuplicateDetectionHistoryTimeWindow : 
+EnableBatchedOperations             : True
+EnableExpress                       : False
+EnablePartitioning                  : True
+EnableSubscriptionPartitioning      : False
+FilteringMessagesBeforePublishing   : False
+IsAnonymousAccessible               : False
+IsExpress                           : False
+MaxSizeInMegabytes                  : 16384
+RequiresDuplicateDetection          : False
+SizeInBytes                         : 0
+Status                              : Active
+SubscriptionCount                   : 
+SupportOrdering                     : False
+UpdatedAt                           : 1/20/2017 3:16:43 AM
 
 ## NOTES
 

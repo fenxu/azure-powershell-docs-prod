@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 5A0D9326-3A8A-4156-8372-EBA93C1BB4E4
 online version: 
 schema: 2.0.0
-updated_at: 1/23/2017 7:04 PM
-ms.date: 1/23/2017
+updated_at: 1/27/2017 5:12 PM
+ms.date: 1/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmNetworkSecurityRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmNetworkSecurityRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/53cc462344c18b308f8923f18bac25f1bef2c5de/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmNetworkSecurityRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ef3e6f08e94eaea317c9834c9680310d7de7c4/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmNetworkSecurityRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,20 +36,21 @@ The **Get-AzureRmNetworkSecurityRuleConfig** cmdlet gets a network security rule
 
 ## EXAMPLES
 
-### 1: Retrieving a network security rule config
+### Example 1: Get a network security rule configuration
 ```
-Get-AzureRmNetworkSecurityGroup -Name  nsg1 -ResourceGroupName rg1 
-    | Get-AzureRmNetworkSecurityRuleConfig -Name AllowInternetOutBound -DefaultRules
+PS C:\> Get-AzureRmNetworkSecurityGroup -Name  "NSG01" -ResourceGroupName "ResourceGroup03" | Get-AzureRmNetworkSecurityRuleConfig -Name "AllowInternetOutBound" -DefaultRules
 ```
-This command retrieves the default rule named "AllowInternetOutBound" from Azure network security group named "nsg1" in resource group "rg1"
 
+This command gets a network security group named NSG01 in ResourceGroup03, and then passes it to the current cmdlet. 
+The command retrieves the default rule named AllowInternetOutBound from that group.
 
-### 2: Retrieving a network security rule config using only the name
+### Example 2: Retrieving a network security rule config using only the name
 ```
- Get-AzureRmNetworkSecurityGroup -Name  nsg1 -ResourceGroupName rg1 
-    | Get-AzureRmNetworkSecurityRuleConfig -Name "rdp-rule"
+PS C:\> Get-AzureRmNetworkSecurityGroup -Name  "NSG01" -ResourceGroupName ResourceGroup03 | Get-AzureRmNetworkSecurityRuleConfig -Name "rdp-rule"
 ```
-This command retrieves user defined rule named "rdp-rule" from Azure network security group named "nsg1" in resource group "rg1"
+
+This command gets a network security group named NSG01 in ResourceGroup03, and then passes it to the current cmdlet. 
+The command retrieves user defined rule named rdp-rule from that group.
 
 ## PARAMETERS
 
@@ -149,6 +150,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Add-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md)
+
+[Get-AzureRmNetworkSecurityGroup](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmNetworkSecurityGroup.md)
 
 [New-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md)
 

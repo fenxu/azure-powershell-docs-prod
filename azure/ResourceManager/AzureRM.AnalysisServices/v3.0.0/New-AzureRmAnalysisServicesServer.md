@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.AnalysisServices.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 1/24/2017 7:09 PM
-ms.date: 1/24/2017
+updated_at: 2/3/2017 7:21 PM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AnalysisServices/v3.0.0/New-AzureRmAnalysisServicesServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.AnalysisServices/v3.0.0/New-AzureRmAnalysisServicesServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d59f24a1f9cba84b6ab4adbaf9536a5c4661ea02/azureps-cmdlets-docs/ResourceManager/AzureRM.AnalysisServices/v3.0.0/New-AzureRmAnalysisServicesServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/22250ca6e752543bc5f30f9f71644979e8e5cace/azureps-cmdlets-docs/ResourceManager/AzureRM.AnalysisServices/v3.0.0/New-AzureRmAnalysisServicesServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -31,7 +31,7 @@ New-AzureRmAnalysisServicesServer [-ResourceGroupName] <String> [-Name] <String>
 ```
 
 ## DESCRIPTION
-The **New-AzureRmAnalysisServicesServer** cmdlet creates a Microsoft SQL Server Analysis Services server.
+The **New-AzureRmAnalysisServicesServer** cmdlet creates an Azure Server Analysis Services server.
 
 ## EXAMPLES
 

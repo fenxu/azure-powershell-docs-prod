@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 00236BC2-61D8-49C2-91BE-923C567153F3
 online version: 
 schema: 2.0.0
-updated_at: 1/23/2017 7:04 PM
-ms.date: 1/23/2017
+updated_at: 1/27/2017 5:12 PM
+ms.date: 1/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmPublicIpAddress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmPublicIpAddress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/53cc462344c18b308f8923f18bac25f1bef2c5de/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmPublicIpAddress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ef3e6f08e94eaea317c9834c9680310d7de7c4/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmPublicIpAddress.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,11 +37,12 @@ The **Remove-AzureRmPublicIpAddress** cmdlet removes an Azure public IP address.
 
 ## EXAMPLES
 
-### 1: Remove a public IP address resource
+### Example 1: Remove a public IP address resource
 ```
-Remove-AzureRmPublicIpAddress -Name $publicIpName -ResourceGroupName $rgName
+PS C:\> Remove-AzureRmPublicIpAddress -Name $PublicIpName -ResourceGroupName "ResourceGroup03"
 ```
-This command removes the public IP address resource named $publicIpName in the resource group $rgName.
+
+This command removes the public IP address resource named $PublicIpName in the resource group ResourceGroup03.
 
 ## PARAMETERS
 
