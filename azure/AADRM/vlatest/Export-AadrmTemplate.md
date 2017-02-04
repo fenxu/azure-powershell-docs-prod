@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400625
 schema: 2.0.0
 ms.assetid: 7B9098EE-CE4B-4033-AB04-2F53B6238CE2
-updated_at: 12/14/2016 3:02 AM
-ms.date: 12/14/2016
+updated_at: 2/3/2017 6:56 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b57abf5e3bc09ecdcab451d90da166a10219742f/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -31,9 +31,7 @@ Export-AadrmTemplate -TemplateId <Guid> -Path <String> [-Force] [<CommonParamete
 ```
 
 ## DESCRIPTION
-The **Export-AadrmTemplate** cmdlet exports all the properties of a rights policy template to a file.
-You can then import the template to another Azure Rights Management tenant or you can edit it and import it back to the original tenant.
-You can use this technique to perform bulk edits of complex properties in templates, such as multilingual names and descriptions.
+The **Export-AadrmTemplate** cmdlet exports all the properties of a rights policy template to a file. You can then import the template to another Azure Rights Management tenant or you can edit it and import it back to the original tenant. You can use this technique to perform bulk edits of complex properties in templates, such as multilingual names and descriptions.
 
 Tip: Consider using this cmdlet as a way to back up your custom templates, so that you can revert to a known-good version if required.
 

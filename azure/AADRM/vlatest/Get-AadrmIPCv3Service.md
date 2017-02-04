@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400610
 schema: 2.0.0
 ms.assetid: 3875D0F4-EAB2-43B3-945E-46FD86810E9B
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 2/3/2017 6:56 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmIPCv3Service.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmIPCv3Service.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmIPCv3Service.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmIPCv3Service.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -31,8 +31,7 @@ Get-AadrmIPCv3Service [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AadrmIPCv3Service** cmdlets displays the status of the MSIPC v3 platform on mobile devices such as iOS and Android.
-This platform must be enabled to support Rights Management.
+The **Get-AadrmIPCv3Service** cmdlets displays the status of the MSIPC v3 platform on mobile devices such as iOS and Android. This platform must be enabled to support Rights Management.
 
 ## EXAMPLES
 
@@ -41,8 +40,7 @@ This platform must be enabled to support Rights Management.
 PS C:\>Get-AadrmIPCv3Service
 ```
 
-This command displays whether the MSIPC v3 platform is enabled or disabled.
-This platform must be enabled on iOS and Android mobile devices to support Azure Rights Management.
+This command displays whether the MSIPC v3 platform is enabled or disabled. This platform must be enabled on iOS and Android mobile devices to support Azure Rights Management.
 
 ## PARAMETERS
 

@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400611
 schema: 2.0.0
 ms.assetid: 9B4056B1-7BEB-4DD2-A0C7-2F9400EDB3E5
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 2/3/2017 6:56 AM
+ms.date: 2/3/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmKeys.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmKeys.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmKeys.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmKeys.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -31,22 +31,17 @@ Get-AadrmKeys [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AadrmKeys** cmdlet lists all tenant keys associated with your tenant for the Azure Rights Management service.
-The tenant keys include the initial tenant key that Microsoft generates for you, and any tenant keys that are stored in Azure Key Vault.
-For more information about Azure RMS tenant keys, see Planning and implementing your [Azure Rights Management tenant key](https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) (https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) on the Microsoft documentation site.
+The **Get-AadrmKeys** cmdlet lists all tenant keys associated with your tenant for the Azure Rights Management service. The tenant keys include the initial tenant key that Microsoft generates for you, and any tenant keys that are stored in Azure Key Vault. For more information, see [Planning and implementing your Azure Rights Management tenant key](https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) (https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) on the Microsoft documentation site.
+
 For security reasons, the cmdlet does not display the value of the tenant keys.
 
 When you run this cmdlet, you will see **Status** and **KeyType**:
 
-- The **Status** value shows **Archived** or **Active**.
-Archived identifies a tenant key that can be used to open previously protected content.
-Active identities the tenant key is currently in use to protect content.
+- The **Status** value shows **Archived** or **Active**. Archived identifies a tenant key that can be used to open previously protected content. Active identities the tenant key is currently in use to protect content.
 
-- The **KeyType** value shows **Microsoft-managed** or **Customer-managed (BYOK)**.
-Microsoft-managed identifies the tenant key as managed by Microsoft (the default).
-Customer-managed identifies the tenant key as managed by your organization in Azure Key Vault.
+- The **KeyType** value shows **Microsoft-managed** or **Customer-managed (BYOK)**. Microsoft-managed identifies the tenant key as managed by Microsoft (the default). Customer-managed identifies the tenant key as managed by your organization in Azure Key Vault. For a customer-managed key, you also see **Publickey**, which shows the base-64 encoded public key that is associated with the KeyIdentifier and that corresponds to the same information that Azure Key Vault provides for your key.
 
-For security reasons, the cmdlet does not display the value of the tenant keys.
+For security reasons, the cmdlet does not display the value of the Microsoft-managed key and displays only the public key information of customer-managed (BYOK) keys.
 
 ## EXAMPLES
 
