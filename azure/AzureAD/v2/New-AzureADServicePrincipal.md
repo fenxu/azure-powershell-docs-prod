@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 7DC1958A-D7DE-44AF-A5B1-9C90ABF0B89A
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 2/4/2017 12:05 AM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -26,15 +26,16 @@ Creates a service principal.
 ## SYNTAX
 
 ```
-New-AzureADServicePrincipal [-InformationAction <ActionPreference>] [-InformationVariable <String>]
- [-AccountEnabled <String>] -AppId <String> [-AppRoleAssignmentRequired <Boolean>] [-DisplayName <String>]
- [-ErrorUrl <String>] [-Homepage <String>]
+New-AzureADServicePrincipal [-AccountEnabled <String>]
+ [-AlternativeNames <System.Collections.Generic.List`1[System.String]>] -AppId <String>
+ [-AppRoleAssignmentRequired <Boolean>] [-DisplayName <String>] [-ErrorUrl <String>] [-Homepage <String>]
  [-KeyCredentials <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.KeyCredential]>]
  [-LogoutUrl <String>]
  [-PasswordCredentials <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.PasswordCredential]>]
- [-PublisherName <String>] [-ReplyUrl <System.Collections.Generic.List`1[System.String]>]
+ [-PublisherName <String>] [-ReplyUrls <System.Collections.Generic.List`1[System.String]>]
  [-SamlMetadataUrl <String>] [-ServicePrincipalNames <System.Collections.Generic.List`1[System.String]>]
- [-Tags <System.Collections.Generic.List`1[System.String]>] [<CommonParameters>]
+ [-ServicePrincipalType <String>] [-Tags <System.Collections.Generic.List`1[System.String]>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -51,6 +52,8 @@ This command creates a service principal.
 ## PARAMETERS
 
 ### -AccountEnabled
+true if the service principal account is enabled; otherwise, false.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -63,7 +66,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -AlternativeNames
+The atlernative names for this service principal
+
+```yaml
+Type: System.Collections.Generic.List`1[System.String]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -AppId
+The unique identifier for the associated application (its appId property).
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -136,44 +155,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -KeyCredentials
+The collection of key credentials associated with the service principal.
+
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.KeyCredential]
 Parameter Sets: (All)
@@ -230,7 +214,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ReplyUrl
+### -ReplyUrls
+The URLs that user tokens are sent to for sign in with the associated application, or the redirect URIs that OAuth 2.0 authorization codes and access tokens are sent to for the associated application.
+
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
@@ -244,6 +230,8 @@ Accept wildcard characters: False
 ```
 
 ### -SamlMetadataUrl
+The URL for the SAML metadata
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -257,7 +245,11 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalNames
-Specifies an array of service principal names.
+Specifies an array of service principal names. Based on the identifierURIs collection, plus the application's appId property, these URIs are used to reference an application's service principal. A client will use these to:
+
+• populate requiredResourceAccess, via "Permissions to other applications” in the Azure classic portal.
+• specify a resource URI to acquire an access token, which is the URI returned in the “aud” claim.
+
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -271,7 +263,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ServicePrincipalType
+THe type of the service principal
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Tags
+Tags linked to this service principal
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)

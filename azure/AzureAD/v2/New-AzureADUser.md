@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: A5DDAF58-A04C-4B8F-8AFE-A491387ABCB0
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 2/4/2017 12:05 AM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -26,18 +26,16 @@ Creates an AD user.
 ## SYNTAX
 
 ```
-New-AzureADUser [-InformationAction <ActionPreference>] [-InformationVariable <String>]
- [-ExtensionProperty <System.Collections.Generic.Dictionary`2[System.String,System.String]>]
- -AccountEnabled <Boolean>
- [-AssignedLicenses <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.AssignedLicense]>]
- [-City <String>] [-Country <String>] [-Department <String>] -DisplayName <String>
- [-FacsimilieTelephoneNumber <String>] [-GivenName <String>] [-ImmutableId <String>] [-JobTitle <String>]
- [-Mail <String>] [-MailNickName <String>] [-Mobile <String>]
+New-AzureADUser [-ExtensionProperty <System.Collections.Generic.Dictionary`2[System.String,System.String]>]
+ -AccountEnabled <Boolean> [-City <String>] [-Country <String>] [-CreationType <String>] [-Department <String>]
+ -DisplayName <String> [-FacsimilieTelephoneNumber <String>] [-GivenName <String>] [-IsCompromised <Boolean>]
+ [-ImmutableId <String>] [-JobTitle <String>] [-MailNickName <String>] [-Mobile <String>]
  [-OtherMails <System.Collections.Generic.List`1[System.String]>] [-PasswordPolicies <String>]
  -PasswordProfile <PasswordProfile> [-PhysicalDeliveryOfficeName <String>] [-PostalCode <String>]
- [-PreferredLanguage <String>] [-State <String>] [-StreetAddress <String>] [-Surname <String>]
- [-TelephoneNumber <String>] [-ThumbnailPhoto <Byte[]>] [-UsageLocation <String>] [-UserPrincipalName <String>]
- [-UserType <String>] [<CommonParameters>]
+ [-PreferredLanguage <String>] [-ShowInAddressList <Boolean>]
+ [-SignInNames <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.SignInName]>] [-State <String>]
+ [-StreetAddress <String>] [-Surname <String>] [-TelephoneNumber <String>] [-UsageLocation <String>]
+ [-UserPrincipalName <String>] [-UserType <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -73,21 +71,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -AssignedLicenses
-Specifies the user's assigned licenses.
-
-```yaml
-Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.AssignedLicense]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -City
 Specifies the user's city.
 
@@ -105,6 +88,21 @@ Accept wildcard characters: False
 
 ### -Country
 Specifies the user's country.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -CreationType
+Indicates whether the user account is a local account for an Azure Active Directory B2C tenant. Possible values are "LocalAccount" and null. When creating a local account, the property is required and you must set it to "LocalAccount". When creating a work or school account, do not specify the property or set it to null.
 
 ```yaml
 Type: String
@@ -149,6 +147,9 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionProperty
+
+
+
 ```yaml
 Type: System.Collections.Generic.Dictionary`2[System.String,System.String]
 Parameter Sets: (All)
@@ -192,6 +193,10 @@ Accept wildcard characters: False
 ```
 
 ### -ImmutableId
+This property is used to associate an on-premises Active Directory user account to their Azure AD user object. This property must be specified when creating a new user account in the Graph if you are using a federated domain for the user's userPrincipalName (UPN) property.
+
+Important: The $ and _ characters cannot be used when specifying this property. 
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -204,35 +209,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+### -IsCompromised
+Indicates whether this user is compromised.
 
 ```yaml
-Type: ActionPreference
+Type: Boolean
 Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
+Aliases: 
 
 Required: False
 Position: Named
@@ -243,21 +226,6 @@ Accept wildcard characters: False
 
 ### -JobTitle
 Specifies the user's job title.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Mail
-Specifies the user's email address.
 
 ```yaml
 Type: String
@@ -302,6 +270,8 @@ Accept wildcard characters: False
 ```
 
 ### -OtherMails
+A list of additional email addresses for the user; for example: "bob@contoso.com", "Robert@fabrikam.com".
+
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
@@ -389,6 +359,36 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ShowInAddressList
+If True, show this user in the address list.
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -SignInNames
+Specifies the collection of sign-in names for a local account in an Azure Active Directory B2C tenant. Each sign-in name must be unique across the company/tenant. The property must be specified when you create a local account user; do not specify it when you create a work or school account.
+
+```yaml
+Type: System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.SignInName]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -State
 Specifies the user's state.
 
@@ -449,20 +449,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ThumbnailPhoto
-```yaml
-Type: Byte[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -UsageLocation
+A two letter country code (ISO standard 3166). Required for users that will be assigned licenses due to legal requirement to check for availability of services in countries. Examples include: "US", "JP", and "GB".
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -476,6 +465,8 @@ Accept wildcard characters: False
 ```
 
 ### -UserPrincipalName
+The user principal name (UPN) of the user. The UPN is an Internet-style login name for the user based on the Internet standard RFC 822. By convention, this should map to the user's email name. The general format is "alias@domain". For work or school accounts, the domain must be present in the tenant's collection of verified domains. This property is required when a work or school account is created; it is optional for local accounts. 
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -489,6 +480,8 @@ Accept wildcard characters: False
 ```
 
 ### -UserType
+A string value that can be used to classify user types in your directory, such as "Member" and "Guest".
+
 ```yaml
 Type: String
 Parameter Sets: (All)
