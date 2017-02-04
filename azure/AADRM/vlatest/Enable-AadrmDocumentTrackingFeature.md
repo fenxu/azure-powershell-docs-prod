@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=623036
 schema: 2.0.0
 ms.assetid: 0D84EE44-D412-40CA-A106-576E23CB81E8
-updated_at: 2/3/2017 6:56 AM
-ms.date: 2/3/2017
+updated_at: 2/4/2017 5:39 PM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ffafc7c33a2088f5b1357f508b53e2bb981e987/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -31,11 +31,13 @@ Enable-AadrmDocumentTrackingFeature [-Force] [-WhatIf] [-Confirm] [<CommonParame
 ```
 
 ## DESCRIPTION
-The **Enable-AadrmDocumentTrackingFeature** cmdlet enables the document tracking feature for Azure Information Protection. This cmdlet enables access to the document tracking site so that users can track or revoke access to documents that they have protected. This setting is organization-wide; you cannot enable document tracking for some users in your organization and not for others.
+The **Enable-AadrmDocumentTrackingFeature** cmdlet enables the document tracking feature for Azure Rights Management (Azure RMS).
+This cmdlet enables access to the document tracking site so that users can track or revoke access to protected documents that they have shared.
+This setting is organization-wide; you cannot enable document tracking for some users in your organization and not for others.
 
 By default, document tracking is enabled, so you would run this cmdlet only if somebody had previously disabled document tracking for your organization. When document tracking is enabled, users can access the document tracking site to see the protected documents that they have shared to date. Activity related to shared documents (who opened them, when, from which location) is shown for only when the document tracking site is enabled. For example, a user could revoke a document that they shared when document tracking was disabled but they cannot not see who opened this document when document tracking was disabled.
 
-For more information about document tracking and revocation, see [Track and revoke your documents](https://docs.microsoft.com/information-protection/rms-client/track-and-revoke) (https://docs.microsoft.com/information-protection/rms-client/track-and-revoke) from the Azure Information Protection user guide.
+For more information about document tracking and revocation, see Track and revoke your documents when you use the [RMS sharing application](https://docs.microsoft.com/rights-management/rms-client/sharing-app-track-revoke) (https://docs.microsoft.com/rights-management/rms-client/sharing-app-track-revoke) from the Rights Management sharing application user guide.
 
 ## EXAMPLES
 
@@ -44,7 +46,7 @@ For more information about document tracking and revocation, see [Track and revo
 PS C:\>EnableAadrmDocumentTrackingFeature
 ```
 
-This command enables document tracking for Azure Information Protection.
+This command enables document tracking for Azure RMS.
 
 ## PARAMETERS
 
@@ -79,7 +81,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs. The cmdlet is not run.
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -108,3 +111,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AadrmDocumentTrackingFeature](xref:AADRM/vlatest/Get-AadrmDocumentTrackingFeature.md)
 
+[RMS sharing application](https://docs.microsoft.com/rights-management/rms-client/sharing-app-track-revoke) (https://docs.microsoft.com/rights-management/rms-client/sharing-app-track-revoke)

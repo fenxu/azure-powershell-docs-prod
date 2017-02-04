@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400625
 schema: 2.0.0
 ms.assetid: 7B9098EE-CE4B-4033-AB04-2F53B6238CE2
-updated_at: 2/3/2017 6:56 AM
-ms.date: 2/3/2017
+updated_at: 2/4/2017 5:39 PM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ffafc7c33a2088f5b1357f508b53e2bb981e987/Azure%20Information%20Protection/AADRM/vlatest/Export-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -31,7 +31,9 @@ Export-AadrmTemplate -TemplateId <Guid> -Path <String> [-Force] [<CommonParamete
 ```
 
 ## DESCRIPTION
-The **Export-AadrmTemplate** cmdlet exports all the properties of a rights policy template to a file. You can then import the template to another Azure Rights Management tenant or you can edit it and import it back to the original tenant. You can use this technique to perform bulk edits of complex properties in templates, such as multilingual names and descriptions.
+The **Export-AadrmTemplate** cmdlet exports all the properties of a rights policy template to a file.
+You can then import the template to another Azure Rights Management tenant or you can edit it and import it back to the original tenant.
+You can use this technique to perform bulk edits of complex properties in templates, such as multilingual names and descriptions.
 
 Tip: Consider using this cmdlet as a way to back up your custom templates, so that you can revert to a known-good version if required.
 

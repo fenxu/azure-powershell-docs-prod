@@ -1,13 +1,13 @@
 ---
-external help file: AIP.dll-Help.xml
+external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=734985
 schema: 2.0.0
-ms.assetid: D0D6B294-8664-4E9A-8553-5031F452CC64
-updated_at: 1/20/2017 7:25 PM
-ms.date: 1/20/2017
+ms.assetid: ED6B146C-069C-4DB2-9477-65D9783BC002
+updated_at: 2/4/2017 5:39 PM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/7b469886eeecbf6630b509d42f61c3f005e3c895/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ffafc7c33a2088f5b1357f508b53e2bb981e987/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell

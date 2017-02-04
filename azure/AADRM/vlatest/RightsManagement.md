@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 0B91D740-D2BD-4D57-9E21-C582C9BE2CCA
-updated_at: 2/3/2017 6:56 AM
-ms.date: 2/3/2017
+updated_at: 2/4/2017 5:39 PM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ffafc7c33a2088f5b1357f508b53e2bb981e987/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 uid: AADRM/vlatest/RightsManagement.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -26,7 +26,7 @@ ms.service: rights-management
 ## Description
 This topic displays help topics for the Azure Rights Management (RMS) Cmdlets.
 
-The Azure PowerShell cmdlets for Azure RMS let you administer the Azure Rights Management service from the command line. Although this enables automation, it also supports reliable and repeated processes to help reduce administrative overheads. In addition, some Azure Rights Management service advanced configurations and operations require Azure PowerShell.
+The Azure PowerShell cmdlets for Azure RMS let you administer Azure RMS from the command line. Although this enables automation, it also supports reliable and repeated processes to help reduce administrative overheads. In addition, some Azure RMS advanced configurations and operations require Azure PowerShell.
 
 For more information, see [Administering Azure Rights Management by Using Windows PowerShell](https://technet.microsoft.com/library/jj585027.aspx).
 
@@ -34,7 +34,7 @@ For more information, see [Administering Azure Rights Management by Using Window
 >
 >If you do not see the cmdlet or options that are documented, make sure that you have [downloaded the latest version of the module](https://technet.microsoft.com/library/jj585012.aspx).
 >
->The current version is **2.7.0.0**. To check the version you have installed, run: (Get-Module aadrm -ListAvailable).Version
+>The current version is **2.5.0.0**. To check the version you have installed, run: (Get-Module aadrm -ListAvailable).Version
 
 The .dll file for this module is *Microsoft.RightsManagementServices.Online.Admin.PowerShell.dll*.
 

@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400601
 schema: 2.0.0
 ms.assetid: 91DD14FF-0033-4A7F-9738-87BD2A989FED
-updated_at: 2/3/2017 6:56 AM
-ms.date: 2/3/2017
+updated_at: 2/4/2017 5:39 PM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Disconnect-AadrmService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Disconnect-AadrmService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Disconnect-AadrmService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ffafc7c33a2088f5b1357f508b53e2bb981e987/Azure%20Information%20Protection/AADRM/vlatest/Disconnect-AadrmService.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -31,7 +31,8 @@ Disconnect-AadrmService [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Disconnect-AadrmService** cmdlet disconnects you from the Azure Rights Management service. Use this cmdlet to end a connection that you previously established by using the [Connect-AadrmService](./Connect-AadrmService.md) cmdlet.
+The **Disconnect-AadrmService** cmdlet disconnects you from the Azure Rights Management service.
+Use this cmdlet to end a connection that you previously established by using the [Connect-AadrmService](./Connect-AadrmService.md) cmdlet.
 
 ## EXAMPLES
 
