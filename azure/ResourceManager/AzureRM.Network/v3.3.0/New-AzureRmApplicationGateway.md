@@ -7,7 +7,7 @@ updated_at: 2/6/2017 2:08 PM
 ms.date: 2/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/30c8c151ea05d3efd8cbf7ad861415cbc6a14e12/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7b379f3ab8915a3fa52f552c0b210e9aa45d9a4c/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -25,7 +25,7 @@ ms.service: azure-powershell
 Creates an application gateway.
 
 ## SYNTAX
--``
+```
 New-AzureRmApplicationGateway -Name <String> -ResourceGroupName <String> -Location <String>
  -Sku <PSApplicationGatewaySku> [-SslPolicy <PSApplicationGatewaySslPolicy>]
  -GatewayIPConfigurations <System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSApplicationGatewayIPConfiguration]>
