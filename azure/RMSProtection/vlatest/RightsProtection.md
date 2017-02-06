@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 35D99F89-BD73-457E-95C7-73857656FB59
-updated_at: 1/16/2017 8:28 PM
-ms.date: 1/16/2017
+updated_at: 2/5/2017 8:33 PM
+ms.date: 2/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f1352338bfee6b58a131e5d9723b53e5719e2276/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/9e8d03eb755301409a160fcbe692a6cbfd19e9e0/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
 uid: RMSProtection/vlatest/RightsProtection.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -24,7 +24,9 @@ ms.service: rights-management
 
 # RMSProtection Module
 ## Description
-The following list contains links to the help topics for the Microsoft Rights Management services (RMS) Protection cmdlets, which are installed with the [RMS Protection Tool](https://www.microsoft.com/en-us/download/details.aspx?id=47256). The RMS Protection Tool replaces the AD RMS Bulk Protection Tool. Support for the AD RMS Bulk Protection Tool will stop March 1, 2017.
+The following list contains links to the help topics for the Microsoft Rights Management services (RMS) Protection cmdlets, which are installed with the [RMS Protection Tool](https://www.microsoft.com/en-us/download/details.aspx?id=47256). The RMS Protection tool is now replaced by the [Azure Information Protection client](/information-protection/rms-client/aip-client.md), which includes a new PowerShell module, [AzureInformationProtection](/powershell/azureinformationprotection/vlatest/aip).
+
+In turn, the RMS Protection Tool replaced the AD RMS Bulk Protection Tool. Support for the AD RMS Bulk Protection Tool will stop March 1, 2017.
 
 These RMS Protection cmdlets can be used with Azure Rights Management (Azure RMS) data protection from Azure Information Protection, or with Active Directory Rights Management Services (AD RMS) and these cmdlets supplement other PowerShell modules for these Rights Management deployments. Use these RMS Protection cmdlets to bulk protect and unprotect files for any file type.
 

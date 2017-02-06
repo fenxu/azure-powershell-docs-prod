@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400631
 schema: 2.0.0
 ms.assetid: 7A85A84D-9022-452D-A428-FD0C9400C71A
-updated_at: 2/3/2017 6:56 AM
-ms.date: 2/3/2017
+updated_at: 2/5/2017 7:47 PM
+ms.date: 2/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/8fc9a590bbdc5e84695786a99b679820fdb8cacd/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmTemplateProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -174,7 +174,7 @@ If set to False, no users see and therefore cannot select the template in applic
 
 This setting has no effect on templates that are not departmental templates and also has no effect on applications that natively support departmental templates.
 
-The Rights Management sharing application supports departmental templates whereas Exchange Outlook Web Access and Exchange ActiveSync are examples of applications that do not currently support departmental templates. For these Exchange applications (and all other applications that cannot support departmental templates), you must decide whether all users can select a departmental template from the list of available templates, or no users can select a departmental template from the list.
+The Azure Information Protection client and the Rights Management sharing application support departmental templates whereas Exchange Outlook Web Access and Exchange ActiveSync are examples of applications that do not currently support departmental templates. For these Exchange applications (and all other applications that cannot support departmental templates), you must decide whether all users can select a departmental template from the list of available templates, or no users can select a departmental template from the list.
 
 This setting does not affect whether a user can access content that is protected by a departmental template; it only affects the ability for a user to select the template itself.
 
