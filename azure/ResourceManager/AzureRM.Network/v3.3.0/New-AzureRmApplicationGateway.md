@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 1F5066C6-9756-47B4-886C-C52755809926
 online version: 
 schema: 2.0.0
-updated_at: 2/4/2017 6:38 PM
-ms.date: 2/4/2017
+updated_at: 2/6/2017 2:08 PM
+ms.date: 2/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ab85a1e7cee7b11a0b612c67f10e9e3fb7ee54b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/30c8c151ea05d3efd8cbf7ad861415cbc6a14e12/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -25,7 +25,7 @@ ms.service: azure-powershell
 Creates an application gateway.
 
 ## SYNTAX
-
+-``
 New-AzureRmApplicationGateway -Name <String> -ResourceGroupName <String> -Location <String>
  -Sku <PSApplicationGatewaySku> [-SslPolicy <PSApplicationGatewaySslPolicy>]
  -GatewayIPConfigurations <System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSApplicationGatewayIPConfiguration]>
