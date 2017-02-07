@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 9145CA7E-1FF1-44C0-BB40-452161DCB15A
-updated_at: 2/7/2017 5:49 PM
+updated_at: 2/7/2017 6:49 PM
 ms.date: 2/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/d4ef8f84d012efc61d5c963e780a21dce49f99f9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/b64ab304b822e4fde70815e4d7253d5a15e3311e/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -60,21 +60,6 @@ Aliases:
 Required: True
 Position: 0
 Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Async
-The command returns as soon as the registration request has been accepted by the cluster. The [Get-ServiceFabricApplicationType](./Get-ServiceFabricApplicationType.md) command can be used to query the status of the registration request. Using this switch avoids having to provide large -TimeoutSec values when registering large application packages.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
