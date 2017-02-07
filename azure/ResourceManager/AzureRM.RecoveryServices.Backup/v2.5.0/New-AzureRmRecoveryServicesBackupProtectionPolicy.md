@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xm
 ms.assetid: C2A7F37B-5713-4430-B83F-C6745692396D
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 2/7/2017 9:29 AM
+ms.date: 2/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.5.0/New-AzureRmRecoveryServicesBackupProtectionPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.5.0/New-AzureRmRecoveryServicesBackupProtectionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.5.0/New-AzureRmRecoveryServicesBackupProtectionPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/736e662739c5e4f84276b68c92eed8da46d5467b/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v2.5.0/New-AzureRmRecoveryServicesBackupProtectionPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,7 +49,7 @@ Set the vault context by using the Set-AzureRmRecoveryServicesVaultContext cmdle
 ### Example 1: Create a Backup protection policy
 ```
 PS C:\> $SchPol = Get-AzureRmRecoveryServicesBackupSchedulePolicyObject -WorkloadType "AzureVM" 
-PS C:\> $SchPol.ScheduleRunTimes.RemoveAll()
+PS C:\> $SchPol.ScheduleRunTimes.Clear()
 PS C:\> $Dt = Get-Date
 PS C:\> $SchPol.ScheduleRunTimes.Add($Dt.ToUniversalTime())
 PS C:\> $RetPol = Get-AzureRmRecoveryServicesBackupRetentionPolicyObject -WorkloadType "AzureVM" 
