@@ -1,10 +1,10 @@
 ---
 ms.assetid: BB5EBF08-3264-4DDB-A1DC-BD5BA1805E0A
-updated_at: 11/30/2016 4:17 PM
-ms.date: 11/30/2016
+updated_at: 2/7/2017 1:21 AM
+ms.date: 2/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/index.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bae29942280aa8a3d98c43f4709821bf7452f869/azureps-cmdlets-docs/ResourceManager/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8884fc4a2fd06d1fcb031e21fb14c2e09949c6e0/azureps-cmdlets-docs/ResourceManager/index.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -29,7 +29,6 @@ Run the following commands from the Windows PowerShell console running as Admini
 
 ```PowerShell
 PS C:\> Install-Module AzureRM
-PS C:\> Install-AzureRM
 ```
 
 The first command installs the **AzureRM** module from the PowerShell Gallery.
@@ -42,7 +41,7 @@ To import all of the **AzureRM** modules into the current run space run the foll
 To import all of the __AzureRM.*__ modules within the known semantic version range, run this command:
 
 ```PowerShell
-PS C:\> Import-AzureRM
+PS C:\> Import-Module AzureRM
 ```
 
 To import a single **AzureRM** module, specify the module by name, as in the following example for the **AzureRM.Compute** module:
