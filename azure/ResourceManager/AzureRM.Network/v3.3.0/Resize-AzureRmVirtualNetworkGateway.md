@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: DE2441FC-9504-4F3F-AEAF-37EDCD9B7275
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Resize-AzureRmVirtualNetworkGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Resize-AzureRmVirtualNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Resize-AzureRmVirtualNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Resize-AzureRmVirtualNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,10 +35,10 @@ Resize-AzureRmVirtualNetworkGateway -VirtualNetworkGateway <PSVirtualNetworkGate
 The **Resize-AzureRmVirtualNetworkGateway** cmdlet enables you to change the stock-keeping unit (SKU) for a virtual network gateway.
 SKUs determine the capabilities of a gateway, including such things as throughput and the maximum number of IP tunnels that are allowed.
 Azure supports Basic, Standard, and High-Performance SKUs (sometimes referred to as Small, Medium, and Large SKUs).
-For detailed information about the capabilities of each SKU type, see https://azure.microsoft.com/en-us/documentation/articles/vpn-gateway-about-vpngateways/.https://azure.microsoft.com/en-us/documentation/articles/vpn-gateway-about-vpngateways/.
+For detailed information about the capabilities of each SKU type, see [https://azure.microsoft.com/en-us/documentation/articles/vpn-gateway-about-vpngateways/](https://azure.microsoft.com/en-us/documentation/articles/vpn-gateway-about-vpngateways/).
 
 Keep in mind that SKUs differ in pricing as well as capabilities.
-For more information, see https://azure.microsoft.com/en-us/pricing/details/vpn-gateway/https://azure.microsoft.com/en-us/pricing/details/vpn-gateway/.
+For more information, see [https://azure.microsoft.com/en-us/pricing/details/vpn-gateway/](https://azure.microsoft.com/en-us/pricing/details/vpn-gateway/).
 
 ## EXAMPLES
 
@@ -117,7 +117,7 @@ Accept wildcard characters: False
 
 ### -VirtualNetworkGateway
 Specifies an object reference to the virtual network gateway to be resized.
-You can create this object reference by using the Get-AzureRmVirtualNetworkGateway and specifying the name of the gateway.
+You can create this object reference by using the [Get-AzureRmVirtualNetworkGateway](./Get-AzureRmVirtualNetworkGateway.md) and specifying the name of the gateway.
 
 ```yaml
 Type: PSVirtualNetworkGateway
@@ -153,5 +153,3 @@ This cmdlet modifies existing instances of the **Microsoft.Azure.Commands.Networ
 [Get-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmVirtualNetworkGateway.md)
 
 [Set-AzureRmVirtualNetworkGatewayVpnClientConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayVpnClientConfig.md)
-
-

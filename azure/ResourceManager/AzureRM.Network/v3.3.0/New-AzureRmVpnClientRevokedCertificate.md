@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 973E1E53-983F-45A7-A7CF-18A8D96EC4E6
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVpnClientRevokedCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVpnClientRevokedCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVpnClientRevokedCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVpnClientRevokedCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,14 +36,14 @@ The **New-AzureRmVpnClientRevokedCertificate** cmdlet creates a new virtual priv
 Client-revocation certificates prevent client computers from using the specified certificate for authentication.
 
 This cmdlet creates a stand-alone certificate that is not assigned to a virtual gateway.
-Instead, the certificate created by **New-AzureRmVpnClientRevokedCertificate** is used in conjunction with the New-AzureRmVirtualNetworkGateway cmdlet when it creates a new gateway.
+Instead, the certificate created by **New-AzureRmVpnClientRevokedCertificate** is used in conjunction with the [New-AzureRmVirtualNetworkGateway](./New-AzureRmVirtualNetworkGateway.md) cmdlet when it creates a new gateway.
 For instance, suppose you create a new certificate and store it in a variable named $Certificate.
 You can then use that certificate object when you create a new virtual gateway.
 For instance,
 
 `New-AzureRmVirtualNetworkGateway -Name "ContosoVirtualGateway" -ResourceGroupName "ContosoResourceGroup" -Location "West US" -GatewayType "VPN" -IpConfigurations $Ipconfig  -VPNType "RouteBased" -VpnClientRevokedCertificates $Certificate`
 
-For more information, see the documentation for the New-AzureRmVirtualNetworkGateway cmdlet.
+For more information, see the documentation for the [New-AzureRmVirtualNetworkGateway](./New-AzureRmVirtualNetworkGateway.md) cmdlet.
 
 ## EXAMPLES
 
@@ -154,5 +154,3 @@ This cmdlet creates new instances of the **Microsoft.Azure.Commands.Network.Mode
 [Get-AzureRmVpnClientRevokedCertificate](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmVpnClientRevokedCertificate.md)
 
 [Remove-AzureRmVpnClientRevokedCertificate](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmVpnClientRevokedCertificate.md)
-
-

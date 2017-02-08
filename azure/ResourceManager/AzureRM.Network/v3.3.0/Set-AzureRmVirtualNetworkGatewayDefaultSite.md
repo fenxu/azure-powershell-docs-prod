@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: A27EE9C0-C7F5-4BF6-AE52-58087BD1B1C3
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -61,7 +61,7 @@ The third command uses the **Set-AzureRmVirtualNetworkGatewayDefaultSite** cmdle
 
 ### -GatewayDefaultSite
 Specifies an object reference to the local network gateway to be assigned as the default site for the specified virtual network.
-You can use the Get-AzureRmLocalNetworkGateway cmdlet to create an object reference to a local gateway.
+You can use the [Get-AzureRmLocalNetworkGateway](./Get-AzureRmLocalNetworkGateway.md) cmdlet to create an object reference to a local gateway.
 
 ```yaml
 Type: PSLocalNetworkGateway
@@ -154,5 +154,3 @@ This cmdlet modifies existing instances of the **Microsoft.Azure.Commands.Networ
 [Get-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmVirtualNetworkGateway.md)
 
 [Remove-AzureRmVirtualNetworkGatewayDefaultSite](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmVirtualNetworkGatewayDefaultSite.md)
-
-

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: D29C82CC-2080-48DA-880A-1AA83007E552
 online version: 
 schema: 2.0.0
-updated_at: 1/30/2017 10:29 PM
-ms.date: 1/30/2017
+updated_at: 2/8/2017 5:57 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkInterfaceIpConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkInterfaceIpConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d1f61977ad0abb098ff95206c0a1c3a35990b59b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkInterfaceIpConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2e14c401885f4d09875d76bbfaed9ed2f4a506a8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkInterfaceIpConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -51,6 +51,7 @@ The **New-AzureRmNetworkInterfaceIpConfig** cmdlet creates an Azure network inte
 
 ## EXAMPLES
 
+
 ### 1: Create an IP configuration with a public IP address for a network interface
 ```
 $vnet = Get-AzureRmVirtualNetwork -Name myvnet -ResourceGroupName myrg
@@ -84,6 +85,7 @@ The first two commands get a virtual network called myvnet and a subnet called m
     previously created. These are stored in $vnet and $Subnet respectively.  The third command creates a new IP
     configuration called "IPConfig-2" with a private IP address 10.0.0.5 associated with it.
     The last command then creates a network interface called mynic1 using this IP configuration.
+
 
 ## PARAMETERS
 
@@ -360,5 +362,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmNetworkInterfaceIpConfig.md)
 
 [Set-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkInterfaceIpConfig.md)
-
-

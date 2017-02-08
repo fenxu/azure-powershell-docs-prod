@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 7EFFFF43-501E-4955-A4EE-2C09B8863B30
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkSecurityRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkSecurityRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkSecurityRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkSecurityRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,7 +48,7 @@ PS C:\> Set-AzureRmNetworkSecurityRuleConfig -Name "rdp-rule" -NetworkSecurityGr
 
 The first command gets the network security group named NSG-FrontEnd, and then stores it in the variable $nsg.
 
-The second command uses the pipeline operator to pass the security group in $nsg to Get-AzureRmNetworkSecurityRuleConfig, which gets the security rule configuration named rdp-rule.
+The second command uses the pipeline operator to pass the security group in $nsg to [Get-AzureRmNetworkSecurityRuleConfig](./Get-AzureRmNetworkSecurityRuleConfig.md), which gets the security rule configuration named rdp-rule.
 
 The third command changes the access configuration of rdp-rule to Deny.
 
@@ -215,7 +215,7 @@ Accept wildcard characters: False
 
 ### -Priority
 Specifies the priority of a rule configuration.
-The acceptable values for this parameter are:An integer between 100 and 4096.
+The acceptable values for this parameter are: An integer between 100 and 4096.
 
 The priority number must be unique for each rule in the collection.
 The lower the priority number, the higher the priority of the rule.
@@ -236,7 +236,7 @@ Accept wildcard characters: False
 Specifies the network protocol that a rule configuration applies to.
 The acceptable values for this parameter are:
 
- --Tcp
+- Tcp
 - Udp
 - A wildcard character (*) to match both
 
@@ -312,5 +312,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md)
 
 [Remove-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmNetworkSecurityRuleConfig.md)
-
-

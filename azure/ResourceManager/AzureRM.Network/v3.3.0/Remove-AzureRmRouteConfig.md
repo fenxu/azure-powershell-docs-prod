@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 03285628-6BD3-4F2F-8129-E3CAE4C70EC8
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmRouteConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmRouteConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmRouteConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmRouteConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -62,7 +62,7 @@ Routes            : [
 Subnets           : []
 ```
 
-This command gets the route table named RouteTable01 by using the **Get-AzureRmRouteTable** cmdlet.
+This command gets the route table named RouteTable01 by using the [Get-AzureRmRouteTable](./Get-AzureRmRouteTable.md) cmdlet.
 The command passes that table to the current cmdlet by using the pipeline operator.
 The current cmdlet remove the route named Route02, and the passes the result to the **Set-AzureRmRouteTable** cmdlet, which updates the table to reflect your changes.
 The table no longer contains the route named Route02.
@@ -156,5 +156,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmRouteConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmRouteConfig.md)
 
 [Set-AzureRmRouteConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmRouteConfig.md)
-
-

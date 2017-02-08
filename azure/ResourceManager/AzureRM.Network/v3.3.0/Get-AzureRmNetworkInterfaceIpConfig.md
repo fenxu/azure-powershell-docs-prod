@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 1B39809C-90DA-4ECB-B949-D4A9A54ED982
 online version: 
 schema: 2.0.0
-updated_at: 1/30/2017 10:29 PM
-ms.date: 1/30/2017
+updated_at: 2/8/2017 5:57 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmNetworkInterfaceIpConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmNetworkInterfaceIpConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d1f61977ad0abb098ff95206c0a1c3a35990b59b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmNetworkInterfaceIpConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2e14c401885f4d09875d76bbfaed9ed2f4a506a8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmNetworkInterfaceIpConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,7 +36,7 @@ The **Get-AzureRmNetworkInterfaceIPConfig** cmdlet gets a network interface IP c
 
 ## EXAMPLES
 
-### 1: Get an IP configuration of a network interface
+### E1: Get an IP configuration of a network interface
 ```
 $nic1 = Get-AzureRmNetworkInterface -Name mynic -ResourceGroupName $myrg
 
@@ -45,6 +45,7 @@ Get-AzureRmNetworkInterfaceIpConfig -Name ipconfig1 -NetworkInterface $nic1
 The first command gets an existing network interface called mynic and stores it in the
     variable $nic1. The second command gets the IP configuration called ipconfig1 of this
     network interface.
+
 
 ## PARAMETERS
 
@@ -136,5 +137,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmNetworkInterfaceIpConfig.md)
 
 [Set-AzureRmNetworkInterfaceIpConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkInterfaceIpConfig.md)
-
-

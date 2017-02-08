@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: F1522074-7EEA-4DCF-AC16-26FE8E654720
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmLoadBalancer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmLoadBalancer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmLoadBalancer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmLoadBalancer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -64,7 +64,7 @@ The eighth command creates a load balancer named MyLoadBalancer in the resource 
 The ninth and last command gets the new load balancer to ensure it was successfully created.
 
 Note that this example only shows how to create a load balancer.
-You must also configure it using the Add-AzureRmNetworkInterfaceIpConfig cmdlet to assign the NICs to different virtual machines.
+You must also configure it using the [Add-AzureRmNetworkInterfaceIpConfig](./Add-AzureRmNetworkInterfaceIpConfig.md) cmdlet to assign the NICs to different virtual machines.
 
 ## PARAMETERS
 
@@ -319,5 +319,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmLoadBalancer](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmLoadBalancer.md)
 
 [Set-AzureRmLoadBalancer](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmLoadBalancer.md)
-
-

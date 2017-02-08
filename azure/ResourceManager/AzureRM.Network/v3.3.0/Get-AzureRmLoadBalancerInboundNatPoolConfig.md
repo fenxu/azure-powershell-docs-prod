@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 614B0634-154A-449A-83E7-051DEF5A3BEE
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmLoadBalancerInboundNatPoolConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmLoadBalancerInboundNatPoolConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmLoadBalancerInboundNatPoolConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmLoadBalancerInboundNatPoolConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmLoadBalancerInboundNatPoolConfig
 
 ## SYNOPSIS
+Gets an inbound NAT pool configuration for a load balancer.
 
 ## SYNTAX
 
@@ -31,13 +32,9 @@ Get-AzureRmLoadBalancerInboundNatPoolConfig [-Name <String>] -LoadBalancer <PSLo
 ```
 
 ## DESCRIPTION
+The **Get-AzureRmLoadBalancerInboundNatPoolConfig** cmdlet gets one or more inbound network address translation (NAT) pool configurations in an Azure load balancer.
 
 ## EXAMPLES
-
-### 1:
-```
-PS C:\> 
-```
 
 ## PARAMETERS
 
@@ -81,6 +78,8 @@ Accept wildcard characters: False
 ```
 
 ### -LoadBalancer
+Specifies the load balancer that is associated with the inbound NAT pool configuration to get.
+
 ```yaml
 Type: PSLoadBalancer
 Parameter Sets: (All)
@@ -94,6 +93,8 @@ Accept wildcard characters: False
 ```
 
 ### -Name
+Specifies the name of the inbound NAT pool configuration to get.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -117,3 +118,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmLoadBalancer](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmLoadBalancer.md)
+
+[New-AzureRmLoadBalancerInboundPoolRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmLoadBalancerInboundPoolRuleConfig.md)
+
+[Remove-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmLoadBalancerInboundNatPoolConfig.md)
+
+[Set-AzureRmLoadBalancerInboundNatPoolConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmLoadBalancerInboundNatPoolConfig.md)

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: EC798838-1850-4E88-B17F-D2F00F2D4EE9
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 5:12 PM
-ms.date: 1/27/2017
+updated_at: 2/8/2017 5:57 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmPublicIpAddress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmPublicIpAddress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ef3e6f08e94eaea317c9834c9680310d7de7c4/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmPublicIpAddress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2e14c401885f4d09875d76bbfaed9ed2f4a506a8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmPublicIpAddress.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,6 +37,7 @@ The **Set-AzureRmPublicIpAddress** cmdlet sets the goal state for a public IP ad
 ## EXAMPLES
 
 ### Example 1: Change allocation method of a public IP address
+
 ```
 PS C:\> $PublicIp = Get-AzureRmPublicIpAddress -Name $PublicIpName -ResourceGroupName "ResourceGroup03"
 PS C:\> $PublicIp.PublicIpAllocationMethod = "Static"
@@ -53,12 +54,14 @@ PS C:\> Set-AzureRmPublicIpAddress -PublicIpAddress $PublicIp
 
 ### Example 2: Change DNS domain label of a public IP address
 ```
+
 PS C:\> $PublicIp = Get-AzureRmPublicIpAddress -Name $PublicIpName -ResourceGroupName "ResourceGroup03"
 PS C:\> $PublicIp.DnsSettings.DomainNameLabel = "newdnsprefix"
 PS C:\> Set-AzureRmPublicIpAddress -PublicIpAddress $PublicIp
 ```
 
 The first command gets the public IP address resource with name $PublicIPName in the resource group ResourceGroup03, and stores it in the $PublicIp variable.
+
 
 The second command sets the DomainNameLabel property of $PublicIp to a different value.
 
@@ -139,5 +142,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmPublicIpAddress.md)
 
 [Remove-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmPublicIpAddress.md)
-
-

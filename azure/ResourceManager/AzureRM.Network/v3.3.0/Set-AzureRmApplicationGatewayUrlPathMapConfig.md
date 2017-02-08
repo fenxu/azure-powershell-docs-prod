@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 9F5EC8E7-12E9-40E5-B98D-AAFD8F9F3C37
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmApplicationGatewayUrlPathMapConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmApplicationGatewayUrlPathMapConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmApplicationGatewayUrlPathMapConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmApplicationGatewayUrlPathMapConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,11 +48,6 @@ The **Set-AzureRmApplicationGatewayUrlPathMapConfig** cmdlet sets configuration 
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
-
 ## PARAMETERS
 
 ### -ApplicationGateway
@@ -71,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultBackendAddressPool
-Specifies the default backend address pool to route in case none of the rules specified in the *pathRules* parameter match.
+Specifies the default backend address pool to route in case none of the rules specified in the *PathRules* parameter match.
 
 ```yaml
 Type: PSApplicationGatewayBackendAddressPool
@@ -101,7 +96,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultBackendHttpSettings
-Specifies the default backend HTTP settings to use in case none of the rules specified in the *pathRules* parameter match.
+Specifies the default backend HTTP settings to use in case none of the rules specified in the *PathRules* parameter match.
 
 ```yaml
 Type: PSApplicationGatewayBackendHttpSettings
@@ -218,5 +213,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmApplicationGatewayUrlPathMapConfig.md)
 
 [Remove-AzureRmApplicationGatewayUrlPathMapConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md)
-
-

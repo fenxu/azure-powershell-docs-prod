@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 6AC9DA05-756D-4D59-BD97-DBAAFBB3C7AC
 online version: 
 schema: 2.0.0
-updated_at: 2/2/2017 5:07 PM
-ms.date: 2/2/2017
+updated_at: 2/8/2017 5:37 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a97db0e30c3796fb34f72a2f76f8dcee2d69cb9a/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a574fd51c9bb6e03657bea852620f4b4f492ac8c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -56,7 +56,7 @@ This command gets a list of credentials associated with the application with obj
 ## PARAMETERS
 
 ### -ObjectId
-The object id of the application to retrieve credentials from.
+Specifies the object ID of the application that this cmdlet gets credentials from.
 
 ```yaml
 Type: String

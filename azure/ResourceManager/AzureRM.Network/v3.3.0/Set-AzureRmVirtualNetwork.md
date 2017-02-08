@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 93D8A341-540A-43F1-8C62-28323EAA58E0
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 5:12 PM
-ms.date: 1/27/2017
+updated_at: 2/8/2017 5:57 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetwork.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetwork.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ef3e6f08e94eaea317c9834c9680310d7de7c4/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetwork.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2e14c401885f4d09875d76bbfaed9ed2f4a506a8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetwork.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,6 +37,7 @@ The **Set-AzureRmVirtualNetwork** cmdlet sets the goal state for an Azure virtua
 ## EXAMPLES
 
 ### Example 1: Creates a virtual network and removes one of its subnets
+
 ```
 PS C:\> $VirtualNetwork = Get-AzureRmVirtualNetwork -Name "MyVirtualNetwork" -ResourceGroupName "ResourceGroup03"
 PS C:\> Remove-AzureRmVirtualNetworkSubnetConfig -Name "BackendSubnet" -VirtualNetwork $VirtualNetwork
@@ -48,8 +49,10 @@ The command stores this value in the $VirtualNetwork variable.
 
 The second command removes a subnet from the in-memory representation stored in $VirtualNetwork.
 
+
 The final command persists the change to the virtual network to the service side. 
     
+
 ## PARAMETERS
 
 ### -InformationAction
@@ -124,5 +127,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVirtualNetwork.md)
 
 [Remove-AzureRmVirtualNetwork](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmVirtualNetwork.md)
-
-
