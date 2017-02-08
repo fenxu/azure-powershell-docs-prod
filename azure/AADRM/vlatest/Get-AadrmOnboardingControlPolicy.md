@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=521418
 schema: 2.0.0
 ms.assetid: A5384868-65D1-46A8-A1E0-7050F607131C
-updated_at: 2/4/2017 5:39 PM
-ms.date: 2/4/2017
+updated_at: 2/8/2017 6:01 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmOnboardingControlPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmOnboardingControlPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ffafc7c33a2088f5b1357f508b53e2bb981e987/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmOnboardingControlPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmOnboardingControlPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,9 +32,9 @@ Get-AadrmOnboardingControlPolicy [<CommonParameters>]
 
 ## DESCRIPTION
 The **Get-AadrmOnboardingControlPolicy** cmdlet obtains your Azure Rights Management user on-boarding control policy to support a gradual deployment by controlling which users in your organization can protect content by using Azure Rights Management.
+
 This control can be based on assigned user licenses for the service or membership in a designated security group.
-You can also define whether the policy applies to just mobile devices, just Windows clients, or mobile devices and Windows clients.
-For more information, see [Set-AadrmOnboardingControlPolicy](./Set-AadrmOnboardingControlPolicy.md).
+You can also define whether the policy applies to just mobile devices, just Windows clients, or mobile devices and Windows clients. For more information, see [Set-AadrmOnboardingControlPolicy](./Set-AadrmOnboardingControlPolicy.md).
 
 ## EXAMPLES
 

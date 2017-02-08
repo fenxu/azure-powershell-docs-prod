@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400626
 schema: 2.0.0
 ms.assetid: 89C3B584-6401-46D5-BB40-5DCB41A149B4
-updated_at: 2/4/2017 5:39 PM
-ms.date: 2/4/2017
+updated_at: 2/8/2017 6:01 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ffafc7c33a2088f5b1357f508b53e2bb981e987/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -31,13 +31,9 @@ Get-AadrmTemplate [-TemplateId <Guid>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AadrmTemplate** cmdlet gets all existing or selected templates from the active Azure Rights Management tenant.
-Use the *TemplateID* parameter to get a specific template.
-If you do not specify the *TemplateId*, all templates are retrieved.
+The **Get-AadrmTemplate** cmdlet gets all existing or selected templates from the active Azure Rights Management tenant. Use the *TemplateID* parameter to get a specific template. If you do not specify the *TemplateId*, all templates are retrieved.
 
-The cmdlet output is a list of template objects that contain all the template properties that you can use for further processing.
-The output of this command displays the template GUID, name, and description in the current locale.
-For additional template properties, such as usage rights and whether the template is published or archived, use the [Get-AadrmTemplateProperty](./Get-AadrmTemplateProperty.md) cmdlets.
+The cmdlet output is a list of template objects that contain all the template properties that you can use for further processing. The output of this command displays the template GUID, name, and description in the current locale. For additional template properties, such as usage rights and whether the template is published or archived, use the [Get-AadrmTemplateProperty](./Get-AadrmTemplateProperty.md) cmdlets.
 
 For more information about custom templates, see [Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
 

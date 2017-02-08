@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400623
 schema: 2.0.0
 ms.assetid: D4615C3C-F6B3-42EF-BE69-C4CD4B6BD5A2
-updated_at: 2/4/2017 5:39 PM
-ms.date: 2/4/2017
+updated_at: 2/8/2017 6:01 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ffafc7c33a2088f5b1357f508b53e2bb981e987/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -33,8 +33,7 @@ Set-AadrmUsageLogStorageAccount -StorageAccount <String> -AccessKey <SecureStrin
 ## DESCRIPTION
 The **Set-AadrmUsageLogStorageAccount** cmdlet sets the Azure storage location for usage logs for Azure Rights Management.
 
-This cmdlet should be used only if you have usage logs prior to the usage logging change in February 2016.
-After this date, the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is Get-AadrmUserLog.
+This cmdlet should be used only if you have usage logs prior to the usage logging change in February 2016. After this date, the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is Get-AadrmUserLog.
 
 For more information about usage logging, see [Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) (https://docs.microsoft.com/en-us/rights-management/deploy-use/log-analyze-usage) on the Microsoft documentation site.
 
@@ -55,6 +54,7 @@ The second command specifies the location for your usage logs.
 
 ### -AccessKey
 Specifies your access key as a secure string.
+
 To view your access key, connect to the Azure Management Portal.
 
 ```yaml
@@ -71,6 +71,7 @@ Accept wildcard characters: False
 
 ### -StorageAccount
 Specifies a storage account.
+
 To obtain the name of this account, use the Management Portal.
 
 ```yaml
