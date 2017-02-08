@@ -113,6 +113,12 @@
           href: ../AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
         - name: Use-AadrmKeyVaultKey
           href: ../AADRM/vlatest/Use-AadrmKeyVaultKey.md
+- name: AzureInformationProtection
+  items:
+    - name: vlatest
+      items:
+        - name: Protect-RMSFile
+          href: ../AzureInformationProtection/vlatest/Protect-RMSFile.md
 - name: RMSProtection
   items:
     - name: vlatest
