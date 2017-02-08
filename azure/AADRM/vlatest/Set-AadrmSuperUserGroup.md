@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=722838
 schema: 2.0.0
 ms.assetid: 23E946A0-E6FC-4F8C-8F3B-352AD48CE426
-updated_at: 2/3/2017 6:56 AM
-ms.date: 2/3/2017
+updated_at: 2/4/2017 5:39 PM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ffafc7c33a2088f5b1357f508b53e2bb981e987/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,8 +32,8 @@ Set-AadrmSuperUserGroup -GroupEmailAddress <String> [<CommonParameters>]
 
 ## DESCRIPTION
 The **Set-AadrmSuperUserGroup** cmdlet sets the super user group for your organization in Azure Rights Management.
-
-If a super user group already exists, this operation overwrites it. This cmdlet does not affect users that are individually assigned as super users with the [Add-AadrmSuperUser](./Add-AadrmSuperUser.md) cmdlet.
+If a super user group already exists, this operation overwrites it.
+This cmdlet does not affect users that are individually assigned as super users with the [Add-AadrmSuperUser](./Add-AadrmSuperUser.md) cmdlet.
 
 An organization can have only one super user group in addition to multiple users who are assigned the privilege individually, but you can nest groups.
 
@@ -52,7 +52,6 @@ This command sets the super user group for the organization to SuperUserGroup@co
 
 ### -GroupEmailAddress
 Specifies the group email address for the super user group.
-
 *GroupEmailAddress* can specify a group that contains individual users or other nested groups.
 
 The *GroupEmailAddress* must be a valid group email address in the organization.

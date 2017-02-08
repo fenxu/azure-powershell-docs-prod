@@ -289,10 +289,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-RMSTemplate](xref:AzureInformationProtection/vlatest/Get-RMSTemplate.md)
+[Get-RMSTemplate](xref:AADRM/vlatest/Get-RMSTemplate.md)
 
-[Get-RMSFileStatus](xref:AzureInformationProtection/vlatest/Get-RMSFileStatus.md)
+[Get-RMSFileStatus](xref:AADRM/vlatest/Get-RMSFileStatus.md)
 
-[New-RMSProtectionLicense](xref:AzureInformationProtection/vlatest/New-RMSProtectionLicense.md)
+[New-RMSProtectionLicense](xref:AADRM/vlatest/New-RMSProtectionLicense.md)
 
-[Unprotect-RMSFile](xref:AzureInformationProtection/vlatest/Unprotect-RMSFile.md)
+[Unprotect-RMSFile](xref:AADRM/vlatest/Unprotect-RMSFile.md)

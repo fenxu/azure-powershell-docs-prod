@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400630
 schema: 2.0.0
 ms.assetid: EAC26502-ECB3-43A0-B468-D166C1E4A9C4
-updated_at: 2/3/2017 6:56 AM
-ms.date: 2/3/2017
+updated_at: 2/4/2017 5:39 PM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba84639f300e10f61bbcbd7bb31f28d4c37ad7b5/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ffafc7c33a2088f5b1357f508b53e2bb981e987/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,10 +32,11 @@ Remove-AadrmTemplate -TemplateId <Guid> [<CommonParameters>]
 
 ## DESCRIPTION
 The **Remove-AadrmTemplate** cmdlet deletes an Azure Rights Management rights policy template.
-
-You can delete only custom templates. You can set default templates to an archived state but you cannot delete them.
-
-After a template is deleted, content protected with that template might become inaccessible. Users who are super users can continue to access content that was previously protected with a template that is now deleted. For more information about super users, see [Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/rights-management/deploy-use/configure-super-users) (https://docs.microsoft.com/rights-management/deploy-use/configure-super-users) on the Microsoft documentation site.
+You can delete only custom templates.
+You can set default templates to an archived state but you cannot delete them.
+After a template is deleted, content protected with that template might become inaccessible.
+Users who are super users can continue to access content that was previously protected with a template that is now deleted.
+For more information about super users, see [Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/rights-management/deploy-use/configure-super-users) (https://docs.microsoft.com/rights-management/deploy-use/configure-super-users) on the Microsoft documentation site.
 
 This cmdlet requires the template ID, which you can get with the [Get-AadrmTemplate](./Get-AadrmTemplate.md) cmdlet.
 
