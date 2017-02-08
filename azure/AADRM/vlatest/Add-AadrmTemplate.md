@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400624
 schema: 2.0.0
 ms.assetid: 1CBB5251-7084-4545-B71A-670AC19DC5E4
-updated_at: 2/8/2017 5:54 PM
+updated_at: 2/8/2017 6:01 PM
 ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/1933c166b727f5e010f7f36e5543d9a81d03083a/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -40,10 +40,9 @@ The **Add-AadrmTemplate** cmdlet creates an Azure Rights Management custom templ
 
 Important: Before you use this cmdlet, you must first create a rights definition object that specifies the rights that you want to grant and to whom, by using the [New-AadrmRightsDefinition](./New-AadrmRightsDefinition.md) cmdlet.
 
-You can store a maximum of 500 custom templates (published or archived) in Azure.
-If you can't add new templates because you have reached this limit as a result of keeping many archived templates, consider exporting them to save the information locally and then removing these templates in Azure.
+You can store a maximum of 500 custom templates (published or archived) in Azure. If you can't add new templates because you have reached this limit as a result of keeping many archived templates, consider exporting them to save the information locally and then removing these templates in Azure.
 
-For more information about custom templates, see [Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates)  (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
+For more information about custom templates, see [Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -54,20 +53,19 @@ PS C:\> $names[1033] = "New Launch - Confidential content"
 PS C:\> $names[1034] = " Nuevo Lanzamiento - Contenido confidencial"
 PS C:\> $descriptions = @{}
 PS C:\> $descriptions[1033] = "This content is confidential for people working on the New Launch project and should not be shared externally"
-PS C:\> $descriptions[1034] = "Este contenido es confidencial para empleados trabajando en el proyecto Nuevo Lanzamiento y no debe ser compartido fuera de la organización"
+PS C:\> $descriptions[1034] = "Este contenido es confidencial para empleados trabajando en el proyecto Nuevo Lanzamiento y no debe ser compartido fuera de la organizaciÃ³n"
 PS C:\> $r1 = New-AadrmRightsDefinition -EmailAddress marketing@contoso.com -Rights "VIEW","EXPORT"
 PS C:\> $r2 = New-AadrmRightsDefinition -EmailAddress engineering@contoso.com -Rights "VIEW","DOCEDIT"
 PS C:\> Add-AadrmTemplate -Names $names -Descriptions $Descriptions -LicenseValidityDuration 5 -RightsDefinitions $r1, $r2 -ScopedIdentities engineering@contoso.com -Status Published
 ```
 
-This example creates a departmental template for engineers when they are working on the New Launch project.
-The template is named **New Launch - Confidential Content** and has names and descriptions in English and in Spanish.
-It grants View and Export rights to the marketing department (lets them view and save to a non-protected file) by using the marketing@contoso.com group, and View and DocEdit rights (lets them view and edit the contents but not save the changes) to the engineering department by using the engineering@contoso.com group.
+This example creates a departmental template for engineers when they are working on the New Launch project. The template is named **New Launch - Confidential Content** and has names and descriptions in English and in Spanish. It grants View and Export rights to the marketing department (lets them view and save to a non-protected file) by using the marketing@contoso.com group, and View and DocEdit rights (lets them view and edit the contents but not save the changes) to the engineering department by using the engineering@contoso.com group.
 
 ## PARAMETERS
 
 ### -ContentExpirationDate
 Specifies the date on which content protected with the template expires.
+
 Use this parameter only if the *ContentExpirationOption* parameter is set to OnDate.
 
 ```yaml
@@ -83,7 +81,8 @@ Accept wildcard characters: False
 ```
 
 ### -ContentExpirationOption
-Specifies the type of content expiration for content protected with the template.
+Specifies the type of content expiration for content protected with the template. 
+
 The acceptable values for this parameter are:
 
 - Never.
@@ -107,6 +106,7 @@ Accept wildcard characters: False
 
 ### -ContentValidityDuration
 Specifies the number of days from the first day of protection after which content protected with the template expires.
+
 Use this parameter only if the *ContentExpirationOption* parameter is set to AfterDays.
 
 ```yaml
@@ -124,15 +124,13 @@ Accept wildcard characters: False
 ### -Descriptions
 Specifies a list of descriptions for the template.
 
-Create names and descriptions for multiple locale IDs by using the hash-table syntax in Windows PowerShell.
-There must be at least one name/description pair.
-The locale IDs for names and descriptions must match each other.
+Create names and descriptions for multiple locale IDs by using the hash-table syntax in Windows PowerShell. There must be at least one name/description pair. The locale IDs for names and descriptions must match each other.
 
 $descriptions = @{}
 
 $descriptions\[1033\] = "This content is confidential and should not be shared externally"
 
-$descriptions\[1034\] = "Este contenido es confidencial y no debe ser compartido fuera de la organización"
+$descriptions\[1034\] = "Este contenido es confidencial y no debe ser compartido fuera de la organizaciÃ³n"
 
 ```yaml
 Type: Hashtable
@@ -148,7 +146,9 @@ Accept wildcard characters: False
 
 ### -EnableInLegacyApps
 Determines the behavior of a departmental template in applications that do not support departmental templates (see the *ScopedIdentities* parameter).
+
 If set to True and the template is a departmental template, all users trying to protect content from an application that does not support departmental templates will see the template and therefore be able to select it, regardless of whether the users are members of the template's target scope or not.
+
 If set to False, no users see and therefore cannot select the template in applications that do not support departmental templates, even if the users are members of the template's target scope.
 
 This setting has no effect on templates that are not departmental templates and also has no effect on applications that natively support departmental templates.
@@ -159,8 +159,7 @@ The Azure Information Protection client and the Rights Management sharing applic
 
 This setting does not affect whether a user can access content that is protected by a departmental template; it only affects the ability for a user to select the template itself.
 
-If you have applications that do not yet natively support departmental templates, you can use a custom RMS template download script http://go.microsoft.com/fwlink/?LinkId=524506 (http://go.microsoft.com/fwlink/?LinkId=524506) or other tools to deploy these templates to the local RMS client folder.
-Then, these applications will correctly display the departmental templates:
+If you have applications that do not yet natively support departmental templates, you can use a custom RMS template download script http://go.microsoft.com/fwlink/?LinkId=524506 (http://go.microsoft.com/fwlink/?LinkId=524506) or other tools to deploy these templates to the local RMS client folder. Then, these applications will correctly display the departmental templates:
 
  -- For Office 2010, the client folder is %localappdata%\Microsoft\DRM\Templates.
 
@@ -180,17 +179,18 @@ Accept wildcard characters: False
 
 ### -LicenseValidityDuration
 Specifies the validity period of use licenses for content that is protected with this template.
-The value is specified as the number of days that content is available offline after a use license is acquired (0-9999).
-During this period users can re-open content they previously accessed without requiring an Internet network connection.
-Reducing this value gives more control to document owners by helping ensure that content that has been revoked or for which the policy has changed cannot be accessed for too long after these changes.
-Increasing this value gives more freedom to users to access the content without requiring an Internet network connection.
-To specify unlimited access, use -1.
-To specify that a use license must be obtained each time the protected content is accessed and that content is available only with an Internet connection, specify 0.
 
-Each organization has a maximum use license validity time, which is 30 days by default and can be configured by using the [Set-AadrmMaxUseLicenseValidityTime](./Set-AadrmMaxUseLicenseValidityTime.md).
-The value that you specify for the *LicenseValidityDuration* parameter must be lower than that value.
-This setting can also be overridden by a user for a document when they use the RMS sharing application, and select the **Allow me to instantly revoke access to these documents** option, which effectively sets the use license validity time to 0.
-When there are different values like this, Azure RMS uses the most restrictive value.
+The value is specified as the number of days that content is available offline after a use license is acquired (0-9999). During this period users can re-open content they previously accessed without requiring an Internet network connection.
+
+Reducing this value gives more control to document owners by helping ensure that content that has been revoked or for which the policy has changed cannot be accessed for too long after these changes.
+
+Increasing this value gives more freedom to users to access the content without requiring an Internet network connection.
+
+To specify unlimited access, use -1. To specify that a use license must be obtained each time the protected content is accessed and that content is available only with an Internet connection, specify 0.
+
+Each organization has a maximum use license validity time, which is 30 days by default and can be configured by using the [Set-AadrmMaxUseLicenseValidityTime](./Set-AadrmMaxUseLicenseValidityTime.md). The value that you specify for the *LicenseValidityDuration* parameter must be lower than that value.
+
+This setting can also be overridden by a user for a document when they use the RMS sharing application, and select the **Allow me to instantly revoke access to these documents** option, which effectively sets the use license validity time to 0. When there are different values like this, Azure RMS uses the most restrictive value.
 
 ```yaml
 Type: Int32
@@ -207,9 +207,7 @@ Accept wildcard characters: False
 ### -Names
 Specifies a list of names for the template.
 
-Create names and descriptions for multiple locale IDs by using the hash-table syntax in Windows PowerShell.
-There must be at least one name/description pair.
-The locale IDs for names and descriptions must match each other.
+Create names and descriptions for multiple locale IDs by using the hash-table syntax in Windows PowerShell. There must be at least one name/description pair.The locale IDs for names and descriptions must match each other.
 
 $names = @{}
 
@@ -231,6 +229,7 @@ Accept wildcard characters: False
 
 ### -RightsDefinitions
 Specifies a list of rights definition objects that are specified by using the [New-AadrmRightsDefinition](./New-AadrmRightsDefinition.md) cmdlet.
+
 These rights definition objects express the rights to grant individual users or groups to content that is protected by applying the template.
 
 Rights definition objects contain the email address for the identity and the rights to assign to it.
@@ -249,6 +248,7 @@ Accept wildcard characters: False
 
 ### -ScopedIdentities
 Lists the users by email address (account or group) that can see and therefore select departmental templates from applications.
+
 For the specified users to see the templates, the application must support departmental templates or the *EnableInLegacyApps* parameter must be set to True.
 
 ```yaml
@@ -268,8 +268,9 @@ Specifies the status of the template.
 
 Allowed values are Archived and Published.
 
-Archived templates are available to consume previously protected content but are not visible to users.
-Published templates are distributed to users and made available to protect content.
+- Archived templates are available to consume previously protected content but are not visible to users. 
+
+- Published templates are distributed to users and made available to protect content.
 
 ```yaml
 Type: TemplateStatus
@@ -309,9 +310,7 @@ To specify that a license must be obtained for each use and that content is avai
 Archived templates are available to consume previously protected content but are not presented to users.
 Published templates are distributed to users and made available for protecting content.
 
-Create names and descriptions for multiple locale IDs by using the hash-table syntax in Windows PowerShell.
-There must be at least one name/description pair.
-The locale IDs for names and descriptions must match each other.
+Create names and descriptions for multiple locale IDs by using the hash-table syntax in Windows PowerShell. There must be at least one name/description pair. The locale IDs for names and descriptions must match each other.
 
 $names = @{}
 
@@ -323,7 +322,7 @@ $descriptions = @{}
 
 $descriptions\[1033\] = "This content is confidential and should not be shared externally"
 
-$descriptions\[1034\] = "Este contenido es confidencial y no debe ser compartido fuera de la organización"
+$descriptions\[1034\] = "Este contenido es confidencial y no debe ser compartido fuera de la organizaciÃ³n"
 
 The rights are specified as a list of **Rights Definition** objects that contain the email address for the identity and the rights to assign to it.
 

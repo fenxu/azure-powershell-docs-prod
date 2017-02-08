@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=400595
 schema: 2.0.0
 ms.assetid: 857D8EFC-9D6E-4756-A9A2-B90FF8E02A1F
-updated_at: 2/4/2017 5:39 PM
-ms.date: 2/4/2017
+updated_at: 2/8/2017 6:01 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ffafc7c33a2088f5b1357f508b53e2bb981e987/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -58,8 +58,7 @@ Tip: If you are not prompted for your credentials, and you see an error message 
 PS C:\> Connect-AadrmService
 ```
 
-This command connects to the Rights Management service.
-This is the simplest way to connect to Azure Rights Management, by running the cmdlet with no parameters.
+This command connects to the Rights Management service. This is the simplest way to connect to Azure Rights Management, by running the cmdlet with no parameters.
 
 You are prompted for your user name and password. If your account is configured to use multi-factor authentication, you are then prompted for your alternative method of authentication, and then connected to the service.
 
