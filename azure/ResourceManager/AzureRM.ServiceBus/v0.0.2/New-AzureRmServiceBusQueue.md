@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/3/2017 7:40 PM
-ms.date: 2/3/2017
+updated_at: 2/8/2017 7:00 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusQueue.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusQueue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/141ad4d0f36a215ecc79ef71aa0cc5b4c08a99d0/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusQueue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c9593d01ba646e2cb87d03d018bea3630b026ef2/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusQueue.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # New-AzureRmServiceBusQueue
 
 ## SYNOPSIS
-Create a new Service Bus queue in the specified Service Bus namespace.
+Creates a Service Bus queue in the specified Service Bus namespace.
 
 ## SYNTAX
 
@@ -36,7 +36,7 @@ New-AzureRmServiceBusQueue [-ResourceGroup] <String> [-NamespaceName] <String> [
 ```
 
 ## DESCRIPTION
-The **New-AzureRmServiceBusQueue** cmdlet creates a new Service Bus queue in the specified Service Bus namespace.
+The **New-AzureRmServiceBusQueue** cmdlet creates a Service Bus queue in the specified Service Bus namespace.
 
 ## EXAMPLES
 
@@ -50,7 +50,7 @@ Creates a new Service Bus queue `SB-Queue_exampl1` in the specified Service Bus 
 ## PARAMETERS
 
 ### -AutoDeleteOnIdle
-Specifies the [TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) idle interval after which the queue is automatically deleted. The minimum duration is 5 minutes.
+Specifies the [TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) idle interval, after which the queue is automatically deleted. The minimum duration is 5 minutes.
 
 ```yaml
 Type: String
