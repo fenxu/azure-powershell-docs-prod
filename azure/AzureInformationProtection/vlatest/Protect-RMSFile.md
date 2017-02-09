@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841548
 schema: 2.0.0
 ms.assetid: 0F28BB73-D550-416D-BA5D-9ECE1E92E5D9
-updated_at: 2/5/2017 7:47 PM
-ms.date: 2/5/2017
+updated_at: 2/8/2017 10:07 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Protect-RMSFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Protect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/8fc9a590bbdc5e84695786a99b679820fdb8cacd/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Protect-RMSFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/87961c0d87ff723ef20d834b6ab21865437c6fcd/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Protect-RMSFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -39,13 +39,12 @@ Multiple file types can be protected in the same way that the Azure Information 
 
 
 When you run this cmdlet, you have the following options:
-
 - The file is protected in the current location, replacing the original file that was unprotected.
 - The original file remains unprotected and a protected version of the file is created in another location.
-- - All files in the specified folder are protected in the current location, replacing the original files that were unprotected.
+- All files in the specified folder are protected in the current location, replacing the original files that were unprotected.
 - All files in the specified folder remains unprotected and a protected version of each file is created in another location.
 
-Tip: For step-by-step instructions to use this cmdlet to protect files on a Windows Server file share, using File Resource Manager and File Classification Infrastructure, see [RMS Protection with Windows Server File Classification Infrastructure (FCI)](https://docs.microsoft.com/information-protection/rms-client/configure-fci) (https://docs.microsoft.com/information-protection/rms-client/configure-fci) on the Microsoft documentation site.
+Tip: For step-by-step instructions to use this cmdlet to protect files on a Windows Server file share, using File Resource Manager and File Classification Infrastructure, see "RMS Protection with Windows Server File Classification Infrastructure (FCI)" (https://docs.microsoft.com/information-protection/rms-client/configure-fci) on the Microsoft documentation site.
 
 ## EXAMPLES
 

@@ -5,11 +5,11 @@ Download Help Link: NA
 Help Version: NA
 Locale: en-US
 ms.assetid: 35D99F89-BD73-457E-95C7-73857656FB59
-updated_at: 2/8/2017 6:01 PM
+updated_at: 2/8/2017 9:16 PM
 ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6304f1d8f65314886b6934bd144a9dffdd6a3375/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
 uid: AzureInformationProtection/vlatest/AIP.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -24,7 +24,7 @@ ms.service: rights-management
 
 # AzureInformationProtection Module
 ## Description
-The following list contains links to the help topics for the Microsoft Azure Information Protection (AIP) cmdlets, which are installed with the [Azure Information Protection client](/information-protection/aip-client). This PowerShell module replaces the RMS Protection Tool and the AD RMS Bulk Protection Tool. 
+The following list contains links to the help topics for the Microsoft Azure Information Protection (AIP) cmdlets, which are installed with the [Azure Information Protection client](/information-protection/rms-client/aip-client). This PowerShell module replaces the RMS Protection Tool and the AD RMS Bulk Protection Tool. 
 
 These cmdlets can be used with the Azure Information Protection service, the Azure Rights Management service (Azure RMS), and Active Directory Rights Management Services (AD RMS). 
 
