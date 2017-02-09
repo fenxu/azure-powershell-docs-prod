@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 66AC5120-80B1-46F2-AA51-132BF361602E
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 2/8/2017 5:37 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a574fd51c9bb6e03657bea852620f4b4f492ac8c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmADApplication
 
 ## SYNOPSIS
-Lists existing azure active directory applications.
+Gets existing Azure Active Directory applications.
 
 ## SYNTAX
 
@@ -56,9 +56,9 @@ Get-AzureRmADApplication -IdentifierUri <String> [-InformationAction <ActionPref
 ```
 
 ## DESCRIPTION
-Lists existing azure active directory applications.
-Application lookup can be done by ObjectId, ApplicationId, IdentifierUri or DisplayName.
-If no parameter is provided, it fetches all applications under the tenant.
+The **Get-AzureRmADApplication** cmdlet get existing Azure Active Directory (AAD) applications.
+Application lookup can be done by the *ObjectId*, *ApplicationId*, *IdentifierUri*, or *DisplayName* parameters.
+If no parameter is provided, the cmdlet gets all applications under the tenant.
 
 ## EXAMPLES
 
@@ -200,4 +200,3 @@ Accept wildcard characters: False
 [Set-AzureRmADApplication]()
 
 [New-AzureRmADApplication]()
-

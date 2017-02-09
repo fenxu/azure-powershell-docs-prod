@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 1CE2A30A-6DF8-4C4C-8348-C3C1CD4D0146
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmRouteTable.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmRouteTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmRouteTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmRouteTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -81,8 +81,8 @@ Routes            : [
 Subnets           : []
 ```
 
-This command gets the route table named RouteTable01 by using Get-AzureRmRouteTable cmdlet.
-The command passes that table to the Add-AzureRmRouteConfig cmdlet by using the pipeline operator.
+This command gets the route table named RouteTable01 by using [Get-AzureRmRouteTable](./Get-AzureRmRouteTable.md) cmdlet.
+The command passes that table to the [Add-AzureRmRouteConfig](./Add-AzureRmRouteConfig.md) cmdlet by using the pipeline operator.
 **Add-AzureRmRouteConfig** adds the route named Route07, and then passes the result to the current cmdlet, which updates the table to reflect your changes.
 
 ## PARAMETERS
@@ -159,5 +159,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmRouteTable](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmRouteTable.md)
 
 [Remove-AzureRmRouteTable](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmRouteTable.md)
-
-

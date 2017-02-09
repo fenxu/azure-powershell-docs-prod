@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 78BADAF3-6001-4A25-A74D-F6B50079FCB4
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,11 +36,6 @@ Set-AzureRmVirtualNetworkGatewayConnectionSharedKey -Name <String> -ResourceGrou
 The **Set-AzureRmVirtualNetworkGatewayConnectionSharedKey** cmdlet configures the shared key of the virtual network gateway connection.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -114,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group that the virtual network gateway belongs to
+Specifies the name of the resource group that the virtual network gateway belongs to.
 
 ```yaml
 Type: String
@@ -188,5 +183,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmVirtualNetworkGatewayConnectionSharedKey](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmVirtualNetworkGatewayConnectionSharedKey.md)
 
 [Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey](xref:ResourceManager/AzureRM.Network/v3.3.0/Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey.md)
-
-

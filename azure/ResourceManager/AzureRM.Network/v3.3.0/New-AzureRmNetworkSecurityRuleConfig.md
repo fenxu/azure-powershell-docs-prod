@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 633FB5C9-BEB3-42A3-AF4F-A54CC3F9E0F7
 online version: 
 schema: 2.0.0
-updated_at: 2/3/2017 6:42 PM
-ms.date: 2/3/2017
+updated_at: 2/8/2017 5:57 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bdb30d8f779addbbe0788ff324a6a8ce9c9f8c51/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2e14c401885f4d09875d76bbfaed9ed2f4a506a8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityRuleConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,16 +40,17 @@ The **New-AzureRmNetworkSecurityRuleConfig** cmdlet creates an Azure network sec
 
 ### Example 1: Create a network security rule
 ```
+
 PS C:\> $Rule01 = New-AzureRmNetworkSecurityRuleConfig -Name "rdp-rule" -Description "Allow RDP" -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
+
 ```
 
-This command creates a security rule that allows access from the Internet to port 3389.
-The command stores the rule in the $Rule01 variable.
 
 ### Example 2: Create a network security rule for web access
 
 ```
 PS C:\> $Rule02 = New-AzureRmNetworkSecurityRuleConfig -Name web-rule -Description "Allow HTTP" -Access Allow -Protocol Tcp -Direction Inbound -Priority 101 -SourceAddressPrefix Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 80
+
 ```
 
 This command creates a security rule that allows access from the Internet to port 80.
@@ -298,5 +299,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmNetworkSecurityRuleConfig.md)
 
 [Set-AzureRmNetworkSecurityRuleConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkSecurityRuleConfig.md)
-
-

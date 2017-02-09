@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: B6E55944-1B78-463F-9FC9-98097FEEC278
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmExpressRouteCircuitAuthorization.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmExpressRouteCircuitAuthorization.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmExpressRouteCircuitAuthorization.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmExpressRouteCircuitAuthorization.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,9 +48,9 @@ PS C:\> $Authorization = New-AzureRmExpressRouteCircuitAuthorization -Name "Cont
 
 This command creates a new circuit authorization named ContosoCircuitAuthorization and then stores that object in a variable named $Authorization.
 Saving the object to a variable is important: although **New-AzureRmExpressRouteCircuitAuthorization** can create a circuit authorization it cannot add that authorization to a circuit route.
-Instead, the variable $Authorization is used New-AzureRmExpressRouteCircuit when creating a brand-new ExpressRoute circuit.
+Instead, the variable $Authorization is used [New-AzureRmExpressRouteCircuit](./New-AzureRmExpressRouteCircuit.md) when creating a brand-new ExpressRoute circuit.
 
-For more information, see the documentation for the New-AzureRmExpressRouteCircuit cmdlet.
+For more information, see the documentation for the **New-AzureRmExpressRouteCircuit** cmdlet.
 
 ## PARAMETERS
 
@@ -130,5 +130,3 @@ This cmdlet creates instances of the **Microsoft.Azure.Commands.Network.Models.P
 [Get-AzureRmExpressRouteCircuitAuthorization](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmExpressRouteCircuitAuthorization.md)
 
 [Remove-AzureRmExpressRouteCircuitAuthorization](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmExpressRouteCircuitAuthorization.md)
-
-

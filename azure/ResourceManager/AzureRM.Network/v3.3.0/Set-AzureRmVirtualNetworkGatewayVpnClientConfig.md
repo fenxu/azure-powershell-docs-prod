@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: EFB0D7A6-0C8A-4514-873D-672641CCCAF3
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayVpnClientConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayVpnClientConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayVpnClientConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGatewayVpnClientConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 
 ### -VirtualNetworkGateway
 Specifies an object reference to the virtual network gateway that contains the VPN client configuration settings that this cmdlet modifies.
-You can create an object reference to a virtual network gateway by using the Get-AzureRmVirtualNetworkGateway and specifying the name of the gateway.
+You can create an object reference to a virtual network gateway by using the [Get-AzureRmVirtualNetworkGateway](./Get-AzureRmVirtualNetworkGateway.md) and specifying the name of the gateway.
 
 ```yaml
 Type: PSVirtualNetworkGateway
@@ -108,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -VpnClientAddressPool
-Specifies the IP addresses to be assigned to clients connecting to this gateway
+Specifies the IP addresses to be assigned to clients connecting to this gateway.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -144,5 +144,3 @@ This cmdlet modifies existing instances of the **Microsoft.Azure.Commands.Networ
 [Get-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmVirtualNetworkGateway.md)
 
 [Resize-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.3.0/Resize-AzureRmVirtualNetworkGateway.md)
-
-

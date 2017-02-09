@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/3/2017 7:40 PM
-ms.date: 2/3/2017
+updated_at: 2/8/2017 7:00 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusQueueKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusQueueKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/141ad4d0f36a215ecc79ef71aa0cc5b4c08a99d0/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusQueueKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c9593d01ba646e2cb87d03d018bea3630b026ef2/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.0.2/New-AzureRmServiceBusQueueKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -31,7 +31,7 @@ New-AzureRmServiceBusQueueKey [-ResourceGroup] <String> [-NamespaceName] <String
 ```
 
 ## DESCRIPTION
-The **New-AzureRmServiceBusQueueKey** cmdlet regenerates new primary or secondary connection strings for the specified Service Bus queue and authorization rule.
+The **New-AzureRmServiceBusQueueKey** cmdlet regenerates the primary or secondary connection strings for the specified Service Bus queue and authorization rule.
 
 ## EXAMPLES
 

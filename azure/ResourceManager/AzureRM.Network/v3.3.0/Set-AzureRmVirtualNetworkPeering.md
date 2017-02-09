@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 06DAD751-3A43-4EF6-94C5-AA7AC1A67FC8
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkPeering.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkPeering.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkPeering.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkPeering.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,7 +45,7 @@ PS C:\> Set-AzureRmVirtualNetworkPeering -VirtualNetworkPeering $LinkToVNet2
 
 This example changes the forwarded traffic configuration to $True from the default value $False on a previously established VNet peering link.
 
-The first command gets the link named LinkToVNet2 in ResourceGroup001 in the virtual network named VirtualNetwork17 by using the Get-AzureRmVirtualNetworkPeering cmdlet.
+The first command gets the link named LinkToVNet2 in ResourceGroup001 in the virtual network named VirtualNetwork17 by using the [Get-AzureRmVirtualNetworkPeering](./Get-AzureRmVirtualNetworkPeering.md) cmdlet.
 The command stores the result in the $LinkToVNet2 variable.
 
 The second command changes the **AllowForwardedTraffic** property to $True.
@@ -177,5 +177,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmVirtualNetworkPeering](xref:ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmVirtualNetworkPeering.md)
 
 [Remove-AzureRmVirtualNetworkPeering](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmVirtualNetworkPeering.md)
-
-

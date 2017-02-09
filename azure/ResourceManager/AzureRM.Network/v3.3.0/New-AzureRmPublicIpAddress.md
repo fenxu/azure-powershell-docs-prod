@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 8D84F81A-F6B5-413D-B349-50947FCD5CFC
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 5:12 PM
-ms.date: 1/27/2017
+updated_at: 2/8/2017 5:57 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmPublicIpAddress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmPublicIpAddress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84ef3e6f08e94eaea317c9834c9680310d7de7c4/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmPublicIpAddress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2e14c401885f4d09875d76bbfaed9ed2f4a506a8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmPublicIpAddress.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,9 @@ The **New-AzureRmPublicIpAddress** cmdlet creates a public IP address.
 
 ### Example 1: Create a new public IP address
 ```
+
 PS C:\> $PublicIp = New-AzureRmPublicIpAddress -Name $PublicIpName -ResourceGroupName "ResourceGroup03" -AllocationMethod Static -DomainNameLabel $dnsPrefix -Location $location
+
 ```
 
 This command creates a public IP address resource.
@@ -54,11 +56,13 @@ If you specify a value of Dynamic, a public IP address is allocated only when yo
 PS C:\> $PublicIp = New-AzureRmPublicIpAddress -Name $PublicIpName -ResourceGroupName "ResourceGroup03" -AllocationMethod Static -DomainNameLabel $dnsPrefix -Location $location -ReverseFqdn $customFqdn
 ```
 
+
 This command creates a public IP address resource.
 
 This command specifies a value for the *ReverseFqdn* parameter, therefore, Azure creates a DNS PTR record, for reverse-lookup for the public IP address allocated to this resource. 
 The reverse-lookup points to the value stored in the $customFqdn variable.
 As a pre-requisite, the $customFqdn, for example, webapp.contoso.com, should have a DNS CNAME record, or forward-lookup record, that points to $dnsPrefix.$location.cloudapp.azure.com.
+
 
 ## PARAMETERS
 
@@ -299,5 +303,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmPublicIpAddress.md)
 
 [Set-AzureRmPublicIpAddress](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmPublicIpAddress.md)
-
-

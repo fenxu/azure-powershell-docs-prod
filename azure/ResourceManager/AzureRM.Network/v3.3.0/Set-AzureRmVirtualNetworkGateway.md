@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 5C309071-A2ED-464C-9197-0A77859C8FBB
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 2/2/2017 1:40 AM
+ms.date: 2/2/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ff6de49e111b7febd4cfa6ea44fe6beb0abd5f2/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -175,7 +175,7 @@ Accept wildcard characters: False
 ```
 
 ### -PeerWeight
-Specifies the weight added to routes learned over BGP from this virtual network gateway
+Specifies the weight added to routes learned over BGP from this virtual network gateway.
 
 ```yaml
 Type: Int32
@@ -191,7 +191,7 @@ Accept wildcard characters: False
 
 ### -VirtualNetworkGateway
 Specifies the virtual network gateway object to base modifications off of.
-You can use the Get-AzureRmVirtualNetworkGateway cmdlet to get the virtual network gateway object.
+You can use the [Get-AzureRmVirtualNetworkGateway](./Get-AzureRmVirtualNetworkGateway.md) cmdlet to get the virtual network gateway object.
 
 ```yaml
 Type: PSVirtualNetworkGateway
@@ -274,5 +274,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Reset-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.3.0/Reset-AzureRmVirtualNetworkGateway.md)
 
 [Resize-AzureRmVirtualNetworkGateway](xref:ResourceManager/AzureRM.Network/v3.3.0/Resize-AzureRmVirtualNetworkGateway.md)
-
-

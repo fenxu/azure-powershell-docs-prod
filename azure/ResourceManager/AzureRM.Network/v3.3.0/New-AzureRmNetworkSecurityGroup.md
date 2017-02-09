@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: A420B3E7-2FE9-4D0B-803E-AC28E5F23C59
 online version: 
 schema: 2.0.0
-updated_at: 2/3/2017 6:42 PM
-ms.date: 2/3/2017
+updated_at: 2/8/2017 5:57 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bdb30d8f779addbbe0788ff324a6a8ce9c9f8c51/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2e14c401885f4d09875d76bbfaed9ed2f4a506a8/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmNetworkSecurityGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,10 +38,13 @@ The **New-AzureRmNetworkSecurityGroup** cmdlet creates an Azure network security
 
 ## EXAMPLES
 
+
 ### Example 1: Create a network security group
 ```
 PS C:\> New-AzureRmNetworkSecurityGroup -Name "NSG01" -ResourceGroupName "ResourceGroup03"  -Location  "westus"
+
 ```
+
 
 
 This command creates an Azure network security group named NSG01 in the resource group named ResourceGroup03 in location westus.
@@ -59,7 +62,8 @@ The first command creates a security rule that allows access from the Internet t
 The second command creates a security rule that allows access from the Internet to port 80.
 
 The final command adds the rules created in the first two commands to a new network security group named NSG-FrontEnd.
-    
+   
+
 
 ## PARAMETERS
 
@@ -242,5 +246,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmNetworkSecurityGroup](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmNetworkSecurityGroup.md)
 
 [Set-AzureRmNetworkSecurityGroup](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmNetworkSecurityGroup.md)
-
-

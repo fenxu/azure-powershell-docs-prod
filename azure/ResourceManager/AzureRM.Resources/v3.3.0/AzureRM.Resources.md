@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 07AB209D-A780-4EFC-A9E7-8D035F27C7EE
-updated_at: 2/2/2017 5:07 PM
-ms.date: 2/2/2017
+updated_at: 2/8/2017 5:37 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a97db0e30c3796fb34f72a2f76f8dcee2d69cb9a/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a574fd51c9bb6e03657bea852620f4b4f492ac8c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
 uid: ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -40,7 +40,7 @@ Searches for resource groups.
 Gets a list of credentials associated with an application.
 
 ### [Get-AzureRmADApplication](Get-AzureRmADApplication.md)
-Lists existing azure active directory applications.
+Lists existing Azure active directory applications.
 
 ### [Get-AzureRmADGroup](Get-AzureRmADGroup.md)
 Filters active directory groups.
