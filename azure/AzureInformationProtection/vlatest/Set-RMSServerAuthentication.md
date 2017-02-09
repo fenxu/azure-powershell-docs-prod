@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841549
 schema: 2.0.0
 ms.assetid: 83B4D09E-ADAE-4DF9-9924-132A9FE47DFF
-updated_at: 2/8/2017 6:01 PM
+updated_at: 2/8/2017 10:11 PM
 ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-RMSServerAuthentication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-RMSServerAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-RMSServerAuthentication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/20428bdb1457b334fae7fa22045d0657e2927336/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-RMSServerAuthentication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -33,7 +33,7 @@ Set-RMSServerAuthentication -Key <String> -AppPrincipalId <String> -BposTenantId
 ## DESCRIPTION
 The **Set-RMSServerAuthentication** cmdlet specifies identifiers for a service principal to authenticate with Azure RMS, so that you can then protect or unprotect files by using Azure RMS. Use a service principal when you need to protect or unprotect files without interaction, for example, a script that automatically protects files on a file server. You need run this command just one time for your Windows PowerShell session.
 
-This cmdlet is for Azure RMS only and is not used for AD RMS. This cmdlet also does not apply if you are authenticating to Azure RMS by using your user account. For more information about this cmdlet and how to get the identifiers that it requires, see [about_RMSProtection_AzureRMS](http://go.microsoft.com/fwlink/?LinkId=620287).
+This cmdlet is for Azure RMS only and is not used for AD RMS. This cmdlet also does not apply if you are authenticating to Azure RMS by using your user account. For more information about this cmdlet and how to get the identifiers that it requires, see "Using PowerShell with the Azure Information Protection client" (https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-powershell) from the Azure Information Protection client admin guide.
 
 ## EXAMPLES
 

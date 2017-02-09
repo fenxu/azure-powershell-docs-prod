@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841543
 schema: 2.0.0
 ms.assetid: 104C7431-A41A-4178-AA0B-74FF1A5B51AA
-updated_at: 2/8/2017 6:01 PM
+updated_at: 2/8/2017 10:01 PM
 ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSFileStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSFileStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSFileStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/9bf7ca6a52ad2962d10d27637cf9c9f07e19a7d8/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSFileStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -99,3 +99,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Protect-RMSFile](xref:AzureInformationProtection/vlatest/Protect-RMSFile.md)
 
 [Unprotect-RMSFile](xref:AzureInformationProtection/vlatest/Unprotect-RMSFile.md)
+

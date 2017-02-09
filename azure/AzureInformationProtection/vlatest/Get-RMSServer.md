@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841544
 schema: 2.0.0
 ms.assetid: 37E0B181-C3DA-4FF7-8232-2619C4EBC6B6
-updated_at: 2/8/2017 6:01 PM
+updated_at: 2/8/2017 10:01 PM
 ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/9bf7ca6a52ad2962d10d27637cf9c9f07e19a7d8/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -71,3 +71,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-RMSTemplate](xref:AzureInformationProtection/vlatest/Get-RMSTemplate.md)
+
