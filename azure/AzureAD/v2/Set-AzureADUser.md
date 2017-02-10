@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 56657391-43D9-4939-B5AE-BB44EF00BE6E
 online version: 
 schema: 2.0.0
-updated_at: 2/4/2017 12:05 AM
-ms.date: 2/4/2017
+updated_at: 2/10/2017 6:54 PM
+ms.date: 2/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d3a4bf78b21bbe92ea504e28cdf6fd0ecb57bfac/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -48,7 +48,7 @@ The **Set-AzureADUser** cmdlet updates a user in Azure Active Directory (AD).
 ```
 PS C:\> $user = Get-AzureADUser -ObjectId TestUser@example.com 
 PS C:\> $user.DisplayName = 'YetAnotherTestUser' 
-PS C:\> Set-AzureADUser -ObjectId TestUser@example.com -User $user
+PS C:\> Set-AzureADUser -ObjectId TestUser@example.com -Displayname $user.Displayname
 ```
 
 This command updates the specified user's property.
