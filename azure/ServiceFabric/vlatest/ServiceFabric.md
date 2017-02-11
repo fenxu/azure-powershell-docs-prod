@@ -17,7 +17,7 @@ author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
-open_to_public_contributors: false
+open_to_public_contributors: False
 ms.service: service-fabric
 ---
 

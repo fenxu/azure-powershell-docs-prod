@@ -29,6 +29,8 @@
           href: ../ServiceFabric/vlatest/Get-ServiceFabricApplicationLoadInformation.md
         - name: Get-ServiceFabricApplicationManifest
           href: ../ServiceFabric/vlatest/Get-ServiceFabricApplicationManifest.md
+        - name: Get-ServiceFabricApplicationName
+          href: ../ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
         - name: Get-ServiceFabricApplicationType
           href: ../ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
         - name: Get-ServiceFabricApplicationUpgrade
@@ -117,6 +119,8 @@
           href: ../ServiceFabric/vlatest/Get-ServiceFabricServiceHealth.md
         - name: Get-ServiceFabricServiceManifest
           href: ../ServiceFabric/vlatest/Get-ServiceFabricServiceManifest.md
+        - name: Get-ServiceFabricServiceName
+          href: ../ServiceFabric/vlatest/Get-ServiceFabricServiceName.md
         - name: Get-ServiceFabricServiceType
           href: ../ServiceFabric/vlatest/Get-ServiceFabricServiceType.md
         - name: Get-ServiceFabricTestCommandStatusList
