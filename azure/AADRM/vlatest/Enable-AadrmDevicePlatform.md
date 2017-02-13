@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400603
 schema: 2.0.0
 ms.assetid: 1D21A18B-1E3D-434C-A283-E65B810EF1B4
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/12/2017 9:57 PM
+ms.date: 2/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDevicePlatform.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDevicePlatform.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDevicePlatform.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDevicePlatform.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -39,7 +39,6 @@ Enable-AadrmDevicePlatform [-Windows] [-WindowsStore] [-WindowsPhone] [-Mac] [-i
 
 ## DESCRIPTION
 The **Enable-AadrmDevicePlatform** cmdlet enables Rights Management support for device platforms. Your organization can support any combination of the following device platforms:
-
 - Android
 - iOS
 - Macintosh operating system
@@ -49,6 +48,8 @@ The **Enable-AadrmDevicePlatform** cmdlet enables Rights Management support for 
 - Windows Store
 
 To support all platforms, specify the **All** parameter.
+
+You must use PowerShell to do this configuration; you cannot do this configuration by using a management portal.
 
 ## EXAMPLES
 

@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=400595
 schema: 2.0.0
 ms.assetid: 857D8EFC-9D6E-4756-A9A2-B90FF8E02A1F
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/13/2017 4:04 AM
+ms.date: 2/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ca3a334d2d345bf1565d13869b0587b50bde3b6/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -37,17 +37,14 @@ Connect-AadrmService [-AccessToken <String>] [-TenantId <Guid>] [<CommonParamete
 ```
 
 ## DESCRIPTION
-The **Connect-AadrmService** cmdlet connects you to the Azure Rights Management service so that you can then run administrative commands for your Azure RMS tenant. This cmdlet can also be used by a partner company that manages your tenant.
+The **Connect-AadrmService** cmdlet connects you to the Azure Rights Management service for your tenant so that you can then run administrative commands for this service. This cmdlet can also be used by a partner company that manages your tenant.
 
 You must run this cmdlet before you can run the other Rights Management cmdlets in this module.
 
-To connect to Azure RMS, use an account that is one of the following:
-
+To connect to the Azure Rights Management service, use an account that is one of the following:
 - A global admin for your Office 365 tenant.
-
 - A global administrator for your Azure tenant. However, this account cannot be a Microsoft account (MSA) or from another Azure tenant.
-
-- A user account from your tenant that has been granted administrative rights to Azure RMS by using the [Add-AadrmRoleBasedAdministrator](./Add-AadrmRoleBasedAdministrator) cmdlet.
+- A user account from your tenant that has been granted administrative rights to Azure Rights Management by using the [Add-AadrmRoleBasedAdministrator](./Add-AadrmRoleBasedAdministrator) cmdlet.
 
 Tip: If you are not prompted for your credentials, and you see an error message such as **Cannot use this feature without credentials**, verify that Internet Explorer is configured to use Windows integrated authentication. If this setting is not enabled, enable it, restart Internet Explorer, and then retry authentication to the Rights Management service.
 

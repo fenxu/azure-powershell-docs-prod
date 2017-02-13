@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400606
 schema: 2.0.0
 ms.assetid: DF116EAD-6AC1-44CF-89E6-5E63D72FF58C
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/13/2017 9:47 PM
+ms.date: 2/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-Aadrm.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-Aadrm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Get-Aadrm.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/22a102658f1b1c573e607b7c05590c1e292e41e2/Azure%20Information%20Protection/AADRM/vlatest/Get-Aadrm.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,6 +32,8 @@ Get-Aadrm [<CommonParameters>]
 
 ## DESCRIPTION
 The **Get-Aadrm** cmdlet gets the activation status of Azure Rights Management for your organization. The status of Rights Management is enabled (activated) or disabled (deactivated).
+
+You can also view this information in a management portal. For more information, see [Activating Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/decommission-deactivate) on the Microsoft documentation site).
 
 ## EXAMPLES
 

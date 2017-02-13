@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400627
 schema: 2.0.0
 ms.assetid: E7942746-0F62-4D15-AD46-5DB8235FAF62
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/13/2017 9:47 PM
+ms.date: 2/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplateProperty.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplateProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplateProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/22a102658f1b1c573e607b7c05590c1e292e41e2/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmTemplateProperty.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -35,7 +35,9 @@ Get-AadrmTemplateProperty -TemplateId <Guid> [-Names] [-Descriptions] [-RightsDe
 ## DESCRIPTION
 The **Get-AadrmTemplateProperty** cmdlet gets specified properties of an Azure Rights Management template, by using the *TemplateId* parameter.
 
-You can query properties of a default template, or a custom template. For more information about custom templates, see [Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
+Similar configuration information can also be viewed in the Azure classic portal, but this cmdlet also includes the template GUID.
+
+You can query properties of a default template, or a custom template. For more information about custom templates, including how to configure them in the Azure classic portal, see [Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
 
 ## EXAMPLES
 
@@ -76,12 +78,11 @@ Accept wildcard characters: False
 Gets the content expiration configuration setting for content that is protected with the template.
 
 One of the following values is returned:
-
-- Never.
+-- Never.
 Indicates that content is available indefinitely.
-- OnDate.
+-- OnDate.
 Indicates that content expires at a certain fixed date.
-- AfterDays.
+-- AfterDays.
 Indicates that content is available for the indicated number of days after it is protected.
 
 ```yaml
@@ -137,7 +138,7 @@ If set to False, no users see and therefore cannot select the template in applic
 
 This setting has no effect on templates that are not departmental templates and also has no effect on applications that natively support departmental templates.
 
-This parameter is functionally the equivalent of the **Show this template to all users when the applications do not support user identity** check box when you configure **APPLICATION COMPATIBILITY** in the Azure Management Portal.
+This parameter is functionally the equivalent of the **Show this template to all users when the applications do not support user identity** check box when you configure **APPLICATION COMPATIBILITY** in the Azure classic portal.
 
 ```yaml
 Type: SwitchParameter
@@ -233,10 +234,8 @@ Accept wildcard characters: False
 
 ### -Status
 Indicates that this cmdlet displays the status of the template.
-
-- Archived templates are available to consume previously protected content but are not presented to users.
-
-- Published templates are distributed to users and made available to protect content.
+-- Archived templates are available to consume previously protected content but are not presented to users.
+-- Published templates are distributed to users and made available to protect content.
 
 ```yaml
 Type: SwitchParameter

@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400594
 schema: 2.0.0
 ms.assetid: 5B7E7380-C8F4-4113-84D9-B9825F9F2240
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/12/2017 9:57 PM
+ms.date: 2/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -46,6 +46,8 @@ When you add a super user, that super user is granted full control over all righ
 To specify a group whose members have super user privileges, use the [Set-AadrmSuperUserGroup](./Set-AadrmSuperUserGroup.md) cmdlet instead of this **Add-AadrmSuperUser** cmdlet.
 
 Rights Management grants full owner rights to super users for all use licenses that are issued by the subscriber organization. Super users can decrypt any rights-protected content file and remove rights-protection for it, even if an expiration date has been set and expired. Typically, this level of access is required for legal eDiscovery and by auditing teams.
+
+You must use PowerShell to configure super users; you cannot do this configuration by using a management portal.
 
 ## EXAMPLES
 

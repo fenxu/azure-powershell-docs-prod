@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=799849
 schema: 2.0.0
 ms.assetid: 2EC79F48-DC64-42D0-B317-89397A72243D
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/13/2017 9:47 PM
+ms.date: 2/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Use-AadrmKeyVaultKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Use-AadrmKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Use-AadrmKeyVaultKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/22a102658f1b1c573e607b7c05590c1e292e41e2/Azure%20Information%20Protection/AADRM/vlatest/Use-AadrmKeyVaultKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -33,12 +33,15 @@ Use-AadrmKeyVaultKey -KeyVaultKeyUrl <String> [-Force] [-WhatIf] [-Confirm] [<Co
 ## DESCRIPTION
 The **Use-AadrmKeyVaultKey** cmdlet tells Azure RMS to use a customer-managed key (BYOK) that has been created by an administrator in your organization who is responsible for managing Azure Key Vault. This key then becomes the customer-managed tenant key for Azure RMS in your organization.
 
+You must use PowerShell to configure your tenant key; you cannot do this configuration by using a management portal.
+
 You can run this cmdlet before or after Azure RMS is activated. In either case, your Azure RMS tenant key in Azure Key Vault will automatically include the initial key that Microsoft generated (a Microsoft-managed key) when the Azure RMS tenant was first created.
 
 After you run this cmdlet, Azure RMS uses Azure Key Vault to centrally manage and monitor use of your Azure RMS tenant key. All calls to your Azure RMS tenant key will be made to and from a key vault that your organization owns. You can confirm which key you are using in Key Vault by using the [Get-AadrmKeys](./Get-AadrmKeys.md) cmdlet.
 
-For more information about the types of tenant keys that Azure RMS supports, see [Planning and implementing your Azure Rights Management tenant key](https://docs.microsoft.com/en-us/rights-management/plan-design/plan-implement-tenant-key) (https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key).
-For more information about Azure Key Vault, see [What is Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-whatis) (https://azure.microsoft.com/documentation/articles/key-vault-whatis/).
+For more information about the types of tenant keys that Azure RMS supports, see [Planning and implementing your Azure Rights Management tenant key](https://docs.microsoft.com/en-us/rights-management/plan-design/plan-implement-tenant-key).
+
+For more information about Azure Key Vault, see [What is Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-whatis).
 
 For security reasons, this cmdlet does not let you set or change the access control for your Azure RMS tenant key in Key Vault. Instead, this must be done by your organization's administrator for Azure Key Vault. After that access is granted, run this cmdlet to tell Azure RMS to use the key and version that you specify with the *KeyVaultKeyUrl* parameter.
 

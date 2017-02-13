@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400608
 schema: 2.0.0
 ms.assetid: 57CD3929-8922-43C2-9056-B5543F1FD0BB
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 2/12/2017 9:57 PM
+ms.date: 2/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,6 +32,8 @@ Get-AadrmConfiguration [<CommonParameters>]
 
 ## DESCRIPTION
 The **Get-AadrmConfiguration** cmdlet gets the current Rights Management configuration of your tenant.
+
+You must use PowerShell to see a full list of configuration values for your tenant; you cannot get this configuration by using a management portal.
 
 ## EXAMPLES
 

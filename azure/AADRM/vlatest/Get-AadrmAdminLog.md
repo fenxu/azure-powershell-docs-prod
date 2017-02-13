@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400607
 schema: 2.0.0
 ms.assetid: D7136388-0197-4074-AC15-BA4DA07223C7
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/12/2017 9:57 PM
+ms.date: 2/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmAdminLog.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmAdminLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmAdminLog.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmAdminLog.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -22,7 +22,7 @@ ms.service: rights-management
 # Get-AadrmAdminLog
 
 ## SYNOPSIS
-Generates logs for all Rights Management  administrative commands.
+Generates logs for all Rights Management administrative commands.
 
 ## SYNTAX
 
@@ -33,6 +33,8 @@ Get-AadrmAdminLog -Path <String> [-FromTime <DateTime>] [-ToTime <DateTime>] [-F
 
 ## DESCRIPTION
 The **Get-AadrmAdminLog** cmdlet generates logs for all Rights Management administrative commands. You can specify a start time and stop time of entries to include.
+
+You must use PowerShell to get these admin logs; you cannot do this action by using a management portal.
 
 ## EXAMPLES
 

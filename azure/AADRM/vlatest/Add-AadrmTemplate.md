@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400624
 schema: 2.0.0
 ms.assetid: 1CBB5251-7084-4545-B71A-670AC19DC5E4
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/13/2017 9:47 PM
+ms.date: 2/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/22a102658f1b1c573e607b7c05590c1e292e41e2/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmTemplate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -38,11 +38,13 @@ Add-AadrmTemplate -Names <Hashtable> [-Descriptions <Hashtable>]
 ## DESCRIPTION
 The **Add-AadrmTemplate** cmdlet creates an Azure Rights Management custom template with the specified name, description, and policy, and sets the status of the template to archived or published.
 
+The same configuration actions can also be done in the Azure classic portal. 
+
 Important: Before you use this cmdlet, you must first create a rights definition object that specifies the rights that you want to grant and to whom, by using the [New-AadrmRightsDefinition](./New-AadrmRightsDefinition.md) cmdlet.
 
 You can store a maximum of 500 custom templates (published or archived) in Azure. If you can't add new templates because you have reached this limit as a result of keeping many archived templates, consider exporting them to save the information locally and then removing these templates in Azure.
 
-For more information about custom templates, see [Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
+For more information about custom templates, including how to configure them in the Azure classic portal, see [Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
 
 ## EXAMPLES
 

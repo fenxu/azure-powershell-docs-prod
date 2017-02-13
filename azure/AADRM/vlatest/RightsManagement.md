@@ -1,15 +1,15 @@
 ---
-Module Name: RightsManagement
+Module Name: AADRM
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 0B91D740-D2BD-4D57-9E21-C582C9BE2CCA
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/13/2017 4:04 AM
+ms.date: 2/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ca3a334d2d345bf1565d13869b0587b50bde3b6/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 uid: AADRM/vlatest/RightsManagement.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -22,13 +22,13 @@ open_to_public_contributors: False
 ms.service: rights-management
 ---
 
-# RightsManagement Module
+# AADRM Module
 ## Description
-This topic displays help topics for the Azure Rights Management (RMS) Cmdlets.
+This topic displays help topics for the cmdlets that administer the Azure Rights Management (Azure RMS) service.
 
-The Azure PowerShell cmdlets for Azure RMS let you administer the Azure Rights Management service from the command line. Although this enables automation, it also supports reliable and repeated processes to help reduce administrative overheads. In addition, some Azure Rights Management service advanced configurations and operations require Azure PowerShell.
+These PowerShell cmdlets for Azure RMS let you administer the Azure Rights Management service from the command line. Although this enables automation, it also supports reliable and repeated processes to help reduce administrative overheads. In addition,  advanced configurations and some operations require PowerShell.
 
-For more information, see [Administering Azure Rights Management by Using Windows PowerShell](https://technet.microsoft.com/library/jj585027.aspx).
+For more information about when you must use these PowerShell cmdlets and to see groupings of cmdlets by administration tasks, see [Administering Azure Rights Management by Using Windows PowerShell](https://technet.microsoft.com/library/jj585027.aspx).
 
 >**Tip**
 >
@@ -38,7 +38,7 @@ For more information, see [Administering Azure Rights Management by Using Window
 
 The .dll file for this module is *Microsoft.RightsManagementServices.Online.Admin.PowerShell.dll*.
 
-## RightsManagement Cmdlets
+## Azure Rights Management Cmdlets
 ### [Add-AadrmKey](./Add-AadrmKey.md)
 Adds a legacy customer-managed tenant key for Rights Management, and makes it the active key.
 
