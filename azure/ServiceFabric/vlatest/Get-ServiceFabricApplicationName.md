@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
-updated_at: 2/11/2017 1:06 AM
-ms.date: 2/11/2017
+updated_at: 2/13/2017 6:23 PM
+ms.date: 2/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/adc9d0493dd8c46d12f3d4f6d90a3d7c09b76965/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a23f08cca5ae133070c477f143d5d9a3fd1350e0/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -20,7 +20,7 @@ ms.service: service-fabric
 # Get-ServiceFabricApplicationName
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the name of the application for a Service Fabric service.
 
 ## SYNTAX
 
@@ -29,7 +29,11 @@ Get-ServiceFabricApplicationName [-ServiceName] <Uri> [-TimeoutSec <Int32>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ServiceFabricApplicationName** cmdlet gets the name of the application for a Service Fabric service.
+
+The output of **Get-ServiceFabricApplicationName** contains the following information:
+
+--Application Name: The name of the application corresponding to the given service.
 
 ## EXAMPLES
 
@@ -38,17 +42,17 @@ Get-ServiceFabricApplicationName [-ServiceName] <Uri> [-TimeoutSec <Int32>]
 PS C:\> {{ Add example code here }}
 ```
 
-{{ Add example description here }}
+Specifies a Service Fabric application.
 
 ## PARAMETERS
 
 ### -ServiceName
-{{Fill ServiceName Description}}
+Specifies a Service Fabric service.
 
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -58,12 +62,12 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-{{Fill TimeoutSec Description}}
+Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -72,16 +76,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.Uri
-
+This cmdlet accepts a string that represents the service name.
 
 ## OUTPUTS
 
 ### System.Object
+This cmdlet returns a `System.Fabric.Query.ApplicationNameResult` which represents the application name.
 
 ## NOTES
 
 ## RELATED LINKS
 
+[Get-ServiceFabricServiceName](xref:ServiceFabric/vlatest/Get-ServiceFabricServiceName.md)
