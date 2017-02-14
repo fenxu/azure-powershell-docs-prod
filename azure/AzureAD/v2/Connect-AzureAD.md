@@ -3,11 +3,11 @@ external help file: Microsoft.Open.Azure.AD.CommonLibrary.dll-Help.xml
 ms.assetid: A5EF9C25-E0D9-432F-A528-81534A01F444
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 2/14/2017 7:58 PM
+ms.date: 2/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f2d3712a795af23ec4930f55dc9528361977fa40/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -263,7 +263,7 @@ Accept wildcard characters: False
 ### -TenantId
 Specifies the ID of a tenant.
 
-If you do not specify this parameter, the account is authenticated for all available tenants.
+If you do not specify this parameter, the account is authenticated with the home tenant.
 
 You must specify the *TenantId* parameter to authenticate as a service principal or when using Microsoft account.
 
