@@ -1,12 +1,12 @@
 ---
-external help file: azuread.help.xml
+external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 12/2/2016 6:50 PM
-ms.date: 12/2/2016
+updated_at: 2/4/2017 12:05 AM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADMSGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADMSGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/9d73de920ad3690865797cee4594d4633c9b692d/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADMSGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADMSGroup.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -24,20 +24,19 @@ Gets information about groups in Azure AD.
 
 ## SYNTAX
 
-
-### UNNAMED_PARAMETER_SET_1
+### GetQuery (Default)
 ```
-Get-AzureADMSGroup [-Filter <String>] [-Top <Int32>]
-```
-
-### UNNAMED_PARAMETER_SET_2
-```
-Get-AzureADMSGroup -Id <String>
+Get-AzureADMSGroup [-All <Boolean>] [-Top <Int32>] [-Filter <String>] [<CommonParameters>]
 ```
 
-### UNNAMED_PARAMETER_SET_3
+### GetVague
 ```
-Get-AzureADMSGroup [-SearchString <String>]
+Get-AzureADMSGroup [-SearchString <String>] [-All <Boolean>] [<CommonParameters>]
+```
+
+### GetById
+```
+Get-AzureADMSGroup -Id <String> [-All <Boolean>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -48,7 +47,7 @@ If you specify no parameters, this cmdlet gets all groups.
 
 ## EXAMPLES
 
-### Example 1: Get all groups 
+### Example 1: Get all groups
 ```
 PS C:\> Get-AzureADMSGroup
 
@@ -111,12 +110,27 @@ This command gets information for the group that has the specified ID.
 
 ## PARAMETERS
 
+### -All
+If true, return all groups. If false, return the number of objects specified by the Top parameter
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### -Filter
 Specifies an oData v3.0 filter string to match a set of groups.
 
 ```yaml
 Type: String
-Parameter Sets: UNNAMED_PARAMETER_SET_1
+Parameter Sets: GetQuery
 Aliases: 
 
 Required: False
@@ -131,7 +145,7 @@ Specifies the ID of the group that this cmdlet gets.
 
 ```yaml
 Type: String
-Parameter Sets: UNNAMED_PARAMETER_SET_2
+Parameter Sets: GetById
 Aliases: 
 
 Required: True
@@ -147,7 +161,7 @@ This cmdlet gets groups that have **DisplayName** or **Description** attributes 
 
 ```yaml
 Type: String
-Parameter Sets: UNNAMED_PARAMETER_SET_3
+Parameter Sets: GetVague
 Aliases: 
 
 Required: False
@@ -163,7 +177,7 @@ The default value is 100.
 
 ```yaml
 Type: Int32
-Parameter Sets: UNNAMED_PARAMETER_SET_1
+Parameter Sets: GetQuery
 Aliases: 
 
 Required: False
@@ -172,6 +186,9 @@ Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -187,8 +204,8 @@ This cmdlet is currently in Public Preview.
 While a cmdlet is in Public Preview, we may make changes to the cmdlet which could have unexpected effects.
 We recommend that you do not use this cmdlet in a production environment.
 
-
 ## RELATED LINKS
+
 [New-AzureADMSGroup](xref:AzureAD/v2/New-AzureADMSGroup.md)
 
 [Remove-AzureADMSGroup](xref:AzureAD/v2/Remove-AzureADMSGroup.md)

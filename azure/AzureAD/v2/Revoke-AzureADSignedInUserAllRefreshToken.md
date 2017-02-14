@@ -1,12 +1,12 @@
 ---
-external help file: azuread.help.xml
+external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 12/2/2016 6:50 PM
-ms.date: 12/2/2016
+updated_at: 2/8/2017 11:53 PM
+ms.date: 2/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Revoke-AzureADSignedInUserAllRefreshToken.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Revoke-AzureADSignedInUserAllRefreshToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/9d73de920ad3690865797cee4594d4633c9b692d/Azure%20AD%20Cmdlets/AzureAD/v2/Revoke-AzureADSignedInUserAllRefreshToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1832f8b83a65336d1b6d21bb9072f421b6a5438c/Azure%20AD%20Cmdlets/AzureAD/v2/Revoke-AzureADSignedInUserAllRefreshToken.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug

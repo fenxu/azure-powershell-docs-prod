@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 1/26/2017 4:41 PM
-ms.date: 1/26/2017
+updated_at: 2/4/2017 12:05 AM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeletedApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeletedApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/644983facd286426ad83f709789786ce621938b5/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeletedApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDeletedApplication.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -20,18 +20,18 @@ ms.service: active-directory
 # Get-AzureADDeletedApplication
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Retrieves the list of previously deleted applications
 
 ## SYNTAX
 
 ### GetQuery (Default)
 ```
-Get-AzureADDeletedApplication [-All <Boolean>] [-Top <Int32>] [-Filter <String>]
+Get-AzureADDeletedApplication [-All <Boolean>] [-Top <Int32>] [-Filter <String>] [<CommonParameters>]
 ```
 
 ### GetVague
 ```
-Get-AzureADDeletedApplication [-SearchString <String>] [-All <Boolean>]
+Get-AzureADDeletedApplication [-SearchString <String>] [-All <Boolean>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -69,7 +69,7 @@ This example shows how an existing application was deleted and how the G-AzureAD
 ## PARAMETERS
 
 ### -All
-Retrieves all deleted applications
+If true, return all deleted applications. If false, return the number of objects specified by the Top parameter
 
 ```yaml
 Type: Boolean
@@ -128,12 +128,14 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.String
 System.Nullable`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
 System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
-
 
 ## OUTPUTS
 

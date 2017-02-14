@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 1/26/2017 4:41 PM
-ms.date: 1/26/2017
+updated_at: 2/4/2017 12:05 AM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserThumbnailPhoto.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserThumbnailPhoto.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/644983facd286426ad83f709789786ce621938b5/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserThumbnailPhoto.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserThumbnailPhoto.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -26,6 +26,7 @@ Retrieve the thumbnail photo of a user
 
 ```
 Get-AzureADUserThumbnailPhoto -ObjectId <String> [-FilePath <String>] [-FileName <String>] [-View <Boolean>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -104,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -View
-{{Fill View Description}}
+If true, view the photo on the screen in a new window
 
 ```yaml
 Type: Boolean
@@ -118,11 +119,13 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.String
 System.Boolean
-
 
 ## OUTPUTS
 

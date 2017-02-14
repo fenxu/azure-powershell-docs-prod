@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 540A8E20-80C9-48D8-BE49-E1DA84FD3BF7
 online version: 
 schema: 2.0.0
-updated_at: 12/5/2016 8:34 PM
-ms.date: 12/5/2016
+updated_at: 2/4/2017 12:05 AM
+ms.date: 2/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -26,15 +26,16 @@ Updates a service principal.
 ## SYNTAX
 
 ```
-Set-AzureADServicePrincipal -ObjectId <String> [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [-AccountEnabled <String>] [-AppId <String>]
+Set-AzureADServicePrincipal -ObjectId <String> [-AccountEnabled <String>]
+ [-AlternativeNames <System.Collections.Generic.List`1[System.String]>] [-AppId <String>]
  [-AppRoleAssignmentRequired <Boolean>] [-DisplayName <String>] [-ErrorUrl <String>] [-Homepage <String>]
  [-KeyCredentials <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.KeyCredential]>]
  [-LogoutUrl <String>]
  [-PasswordCredentials <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.PasswordCredential]>]
- [-PublisherName <String>] [-ReplyUrl <System.Collections.Generic.List`1[System.String]>]
+ [-PublisherName <String>] [-ReplyUrls <System.Collections.Generic.List`1[System.String]>]
  [-SamlMetadataUrl <String>] [-ServicePrincipalNames <System.Collections.Generic.List`1[System.String]>]
- [-Tags <System.Collections.Generic.List`1[System.String]>] [<CommonParameters>]
+ [-ServicePrincipalType <String>] [-Tags <System.Collections.Generic.List`1[System.String]>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -56,6 +57,21 @@ Indicates whether the account is enabled.
 
 ```yaml
 Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -AlternativeNames
+The alternative names for this service principal
+
+```yaml
+Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
 Aliases: 
 
@@ -141,43 +157,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -KeyCredentials
 Specifies key credentials.
 
@@ -253,8 +232,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ReplyUrl
-Specifies a reply URL.
+### -ReplyUrls
+The URLs that user tokens are sent to for sign in with the associated application, or the redirect URIs that OAuth 2.0 authorization codes and access tokens are sent to for the associated application.
+
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -286,6 +266,21 @@ Specifies service principal names.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ServicePrincipalType
+The service principal type
+
+```yaml
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
