@@ -3,11 +3,11 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623207
 schema: 2.0.0
 ms.assetid: D0B8B71F-85E0-481B-B615-CE8D34EF564A
-updated_at: 1/16/2017 8:28 PM
-ms.date: 1/16/2017
+updated_at: 2/14/2017 5:01 PM
+ms.date: 2/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f1352338bfee6b58a131e5d9723b53e5719e2276/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/d1c5d3878715c0a5dd9195e1d580532ba3f2c68a/Azure%20Information%20Protection/RMSProtection/vlatest/Protect-RMSFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -35,16 +35,15 @@ Protect-RMSFile [-File <String>] [-Folder <String>] [-Recurse] [-TemplateID <Str
 ## DESCRIPTION
 The **Protect-RMSFile** cmdlet protects a file or all files in a specified folder by using Azure RMS or AD RMS. If the file was previously protected, it will be protected again, to apply any changes such as those that might be made to the template that is being used to protect the file.
 
-All file types can be protected in the same way that the RMS sharing application can protect all files. However, different levels of protection will be  automatically applied (native or generic), depending on the file type. You can change the level of protection by editing the registry. In addition, some files change their file name extension after they are protected by Rights Management. For more information, see [File API configuration](https://docs.microsoft.com/information-protection/develop/file-api-configuration) (https://docs.microsoft.com/information-protection/develop/file-api-configuration) on the Microsoft documentation site.
+All file types can be protected in the same way that the RMS sharing application can protect all files. However, different levels of protection will be  automatically applied (native or generic), depending on the file type. You can change the level of protection by editing the registry. In addition, some files change their file name extension after they are protected by Rights Management. For more information, see [File API configuration](https://docs.microsoft.com/information-protection/develop/file-api-configuration) on the Microsoft documentation site.
 
 When you run this cmdlet, you have the following options:
-
 - The file is protected in the current location, replacing the original file that was unprotected.
 - The original file remains unprotected and a protected version of the file is created in another location.
-- - All files in the specified folder are protected in the current location, replacing the original files that were unprotected.
+- All files in the specified folder are protected in the current location, replacing the original files that were unprotected.
 - All files in the specified folder remains unprotected and a protected version of each file is created in another location.
 
-Tip: For step-by-step instructions to use this cmdlet to protect files on a Windows Server file share, using File Resource Manager and File Classification Infrastructure, see [RMS Protection with Windows Server File Classification Infrastructure (FCI)](https://docs.microsoft.com/information-protection/rms-client/configure-fci)  (https://docs.microsoft.com/information-protection/rms-client/configure-fci) on the Microsoft documentation site.
+Tip: For step-by-step instructions to use this cmdlet to protect files on a Windows Server file share, using File Resource Manager and File Classification Infrastructure, see [RMS Protection with Windows Server File Classification Infrastructure (FCI)](https://docs.microsoft.com/information-protection/rms-client/configure-fci) on the Microsoft documentation site.
 
 ## EXAMPLES
 

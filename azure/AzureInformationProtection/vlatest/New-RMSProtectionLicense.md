@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841547
 schema: 2.0.0
 ms.assetid: 031B84B2-E380-4989-8FD9-45CC777FE017
-updated_at: 2/8/2017 10:11 PM
-ms.date: 2/8/2017
+updated_at: 2/14/2017 5:01 PM
+ms.date: 2/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/20428bdb1457b334fae7fa22045d0657e2927336/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/d1c5d3878715c0a5dd9195e1d580532ba3f2c68a/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -140,7 +140,7 @@ The acceptable values for this parameter:
 
 Warning: If you later want to remove this rights policy from a file, you must have the EXTRACT or OWNER right to use the [Unprotect-RMSFile](./Unprotect-RMSFile) cmdlet to unprotect a file, or be a Rights Management super user for your organization.
 
-For more information about these rights, see "Configuring usage rights for Azure Rights Management" (https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights) on the Microsoft documentation site.
+For more information about these rights, see [Configuring usage rights for Azure Rights Management](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights) on the Microsoft documentation site.
 
 ```yaml
 Type: String[]

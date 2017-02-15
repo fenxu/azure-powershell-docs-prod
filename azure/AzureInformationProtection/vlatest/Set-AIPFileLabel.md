@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=838766
 schema: 2.0.0
 ms.assetid: 566E595C-D574-4DED-AE38-CBCD75694B45
-updated_at: 2/8/2017 10:01 PM
-ms.date: 2/8/2017
+updated_at: 2/14/2017 5:01 PM
+ms.date: 2/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/9bf7ca6a52ad2962d10d27637cf9c9f07e19a7d8/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/d1c5d3878715c0a5dd9195e1d580532ba3f2c68a/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -39,7 +39,9 @@ Set-AIPFileLabel [-JustificationMessage <String>] [-RemoveLabel] [-Path] <String
 ## DESCRIPTION
 The **Set-AIPFileLabel** cmdlet sets or removes an Azure Information Protection label for one or more files. This action can automatically apply or remove protection when labels are configured for Rights Management protection in the Azure Information Protection policy. When the command runs successfully, any existing label or protection is replaced.
 
-This cmdlet does not support a service principal account in Azure Active Directory; you must run it interactively with a user account. 
+Currently, you cannot create or edit labels by using PowerShell but must do this by using the Azure portal. For instructions, see [Configuring Azure Information Protection policy](https://docs.microsoft.com/information-protection/deploy-use/configure-policy).
+
+In addition, this cmdlet does not support a service principal account in Azure Active Directory; you must run it interactively with a user account.
 
 ## EXAMPLES
 

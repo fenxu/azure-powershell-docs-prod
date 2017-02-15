@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400604
 schema: 2.0.0
 ms.assetid: 34D77711-B96A-43E8-B5FD-8CF5013EB7E3
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/13/2017 4:04 AM
+ms.date: 2/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ca3a334d2d345bf1565d13869b0587b50bde3b6/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -31,7 +31,10 @@ Enable-AadrmSuperUserFeature [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Enable-AadrmSuperUserFeature** cmdlet enables the super user feature. With this feature enabled, you can add or remove super users for Azure Rights Management.
+The **Enable-AadrmSuperUserFeature** cmdlet enables the super user feature. With this feature enabled, you can add or remove super users for Azure Rights Management. 
+
+You must use PowerShell to configure super users; you cannot do this configuration by using a management portal.
+
 By default, the super users feature is not enabled, and no users are assigned to this feature.
 
 Super users have full control over all rights-protected content managed by Azure Rights Management. These users are granted full owner rights for all use licenses that are issued by the subscriber organization. 

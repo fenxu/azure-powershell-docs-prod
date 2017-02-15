@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400592
 schema: 2.0.0
 ms.assetid: A1C99424-D986-4A5A-B2E1-6D18EEF11B21
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/12/2017 9:57 PM
+ms.date: 2/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,6 +32,8 @@ Add-AadrmKey [-Force] -KeyFile <String> [-WhatIf] [-Confirm] [<CommonParameters>
 
 ## DESCRIPTION
 The **Add-AadrmKey** cmdlet adds a legacy customer-managed tenant key over the Internet to the Azure Rights Management service, and makes that key the active tenant key for your tenant. The previously active tenant key is archived.
+
+You must use PowerShell to configure your tenant key; you cannot do this configuration by using a management portal.
 
 **Note**: This cmdlet is now deprecated because Azure RMS uses Azure Key Vault for customer-managed keys.
 Instead of this cmdlet, use [Use-AadrmKeyVaultKey](./Use-AadrmKeyVaultKey.md).

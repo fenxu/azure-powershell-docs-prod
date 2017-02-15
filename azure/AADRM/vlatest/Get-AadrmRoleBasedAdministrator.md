@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400613
 schema: 2.0.0
 ms.assetid: 528FCC5D-F653-4B40-8D82-F036BAB66E5C
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/12/2017 9:57 PM
+ms.date: 2/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmRoleBasedAdministrator.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,6 +32,8 @@ Get-AadrmRoleBasedAdministrator [-Role <Role>] [<CommonParameters>]
 
 ## DESCRIPTION
 The **Get-AadrmRoleBasedAdministrator** cmdlet gets the role-based administrators for Azure Rights Management. You can get the administrators for a specified role.
+
+You must use PowerShell to configure delegated administrative control for the Azure Rights Management service; you cannot do this configuration by using a management portal.
 
 ## EXAMPLES
 

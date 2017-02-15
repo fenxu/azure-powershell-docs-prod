@@ -3,11 +3,11 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623206
 schema: 2.0.0
 ms.assetid: 7ABE0E1B-354F-4017-B4B0-C13AD1FF7A6D
-updated_at: 1/16/2017 8:28 PM
-ms.date: 1/16/2017
+updated_at: 2/14/2017 5:01 PM
+ms.date: 2/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/New-RMSProtectionLicense.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/New-RMSProtectionLicense.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f1352338bfee6b58a131e5d9723b53e5719e2276/Azure%20Information%20Protection/RMSProtection/vlatest/New-RMSProtectionLicense.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/d1c5d3878715c0a5dd9195e1d580532ba3f2c68a/Azure%20Information%20Protection/RMSProtection/vlatest/New-RMSProtectionLicense.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -126,7 +126,6 @@ Specifies the usage rights for the ad-hoc policy.
 Use this parameter and the *UserEmail* parameter to grant rights to specified users.
 
 The acceptable values for this parameter:
-
 - VIEW
 - EDIT
 - PRINT
@@ -141,7 +140,7 @@ The acceptable values for this parameter:
 
 Warning: If you later want to remove this rights policy from a file, you must have the EXTRACT or OWNER right to use the [Unprotect-RMSFile](./Unprotect-RMSFile) cmdlet to unprotect a file, or be a Rights Management super user for your organization.
 
-For more information about these rights, see [Configuring Usage Rights for Azure Rights Management](https://technet.microsoft.com/library/mt169423.aspx) (https://technet.microsoft.com/library/mt169423.aspx) on TechNet.
+For more information about these rights, see [Configuring Usage Rights for Azure Rights Management](https://technet.microsoft.com/library/mt169423.aspx) on the Microsoft documentation site.
 
 ```yaml
 Type: String[]

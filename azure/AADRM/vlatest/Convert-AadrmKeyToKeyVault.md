@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=799850
 schema: 2.0.0
 ms.assetid: 58EEEE8D-9C0E-4879-8F04-3F56589B1238
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/12/2017 9:57 PM
+ms.date: 2/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Convert-AadrmKeyToKeyVault.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Convert-AadrmKeyToKeyVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Convert-AadrmKeyToKeyVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Convert-AadrmKeyToKeyVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,9 +32,11 @@ Convert-AadrmKeyToKeyVault -KeyVaultKeyUrl <String> -KeyIdentifier <String> [-Fo
 ```
 
 ## DESCRIPTION
-The **Convert-AadrmKeyToKeyVault** cmdlet is only for customers who have previously created a customer-managed key in Azure RMS and have received an invitation from AskIPteam at Microsoft to migrate their Azure RMS tenant key to Azure Key Vault.
+The **Convert-AadrmKeyToKeyVault** cmdlet is only for customers who have previously created a customer-managed key for the Azure Rights Management service and have received an invitation from AskIPteam at Microsoft to migrate their Azure Rights Management tenant key to Azure Key Vault.
 
 Do not run this cmdlet without assistance from Microsoft.
+
+You must use PowerShell to configure your tenant key; you cannot do this configuration by using a management portal.
 
 Azure RMS now uses Azure Key Vault to manage and monitor a customer-managed Azure RMS tenant key. To create a customer-managed Azure RMS tenant key for the first time, run [Use-AadrmKeyVaultKey](./Use-AadrmKeyVaultKey.md) instead of this cmdlet.
 

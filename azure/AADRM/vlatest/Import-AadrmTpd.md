@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=521420
 schema: 2.0.0
 ms.assetid: CA482DE6-8575-4161-AD19-97F8A6C87605
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/12/2017 9:57 PM
+ms.date: 2/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Import-AadrmTpd.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Import-AadrmTpd.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Import-AadrmTpd.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Import-AadrmTpd.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -33,6 +33,8 @@ Import-AadrmTpd [-Force] -TpdFile <String> -ProtectionPassword <SecureString> [-
 
 ## DESCRIPTION
 The **Import-AadrmTpd** cmdlet imports an Active Directory Rights Management Services (AD RMS) trusted publishing domain (TPD) over the Internet into your tenant for Azure Rights Management so that you can migrate Rights Management from on-premises to the cloud.
+
+You must use PowerShell to configure your tenant key; you cannot do this configuration by using a management portal.
 
 This cmdlet sets the TPD to an active or archived state. The TPD contains your private key and RMS templates.
 

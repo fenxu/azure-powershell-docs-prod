@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841545
 schema: 2.0.0
 ms.assetid: FAA0CC7D-4004-41A2-9147-3A0C33F6ACF7
-updated_at: 2/8/2017 10:07 PM
-ms.date: 2/8/2017
+updated_at: 2/14/2017 5:01 PM
+ms.date: 2/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSServerAuthentication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSServerAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/87961c0d87ff723ef20d834b6ab21865437c6fcd/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSServerAuthentication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/d1c5d3878715c0a5dd9195e1d580532ba3f2c68a/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSServerAuthentication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -33,7 +33,7 @@ Get-RMSServerAuthentication [<CommonParameters>]
 ## DESCRIPTION
 The **Get-RMSServerAuthentication** cmdlet gets the status and details of your service principal authentication to Azure Rights Management (Azure  RMS) that was previous set by using [Set-RMSServerAuthentication](./Set-RMSServerAuthentication.md). The status must be ON for you to protect or unprotect files for Azure RMS by using a service principal rather than your user account. This status remains on for the duration of your Windows PowerShell session.
 
-This cmdlet applies to Azure  RMS only and does not apply to AD RMS. This cmdlet also does not apply if you are authenticating to Azure RMS by using your user account. For more information about using a service principal account to connect to the Azure Rights Management service, see "Using PowerShell with the Azure Information Protection client" (https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-powershell) from the Azure Information Protection client admin guide.
+This cmdlet applies to Azure  RMS only and does not apply to AD RMS. This cmdlet also does not apply if you are authenticating to Azure RMS by using your user account. For more information about using a service principal account to connect to the Azure Rights Management service, see [Using PowerShell with the Azure Information Protection client](https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-powershell) from the Azure Information Protection client admin guide.
 
 ## EXAMPLES
 

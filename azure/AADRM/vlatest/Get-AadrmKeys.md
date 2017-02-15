@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400611
 schema: 2.0.0
 ms.assetid: 9B4056B1-7BEB-4DD2-A0C7-2F9400EDB3E5
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/13/2017 9:47 PM
+ms.date: 2/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmKeys.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmKeys.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmKeys.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/22a102658f1b1c573e607b7c05590c1e292e41e2/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmKeys.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -31,7 +31,9 @@ Get-AadrmKeys [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AadrmKeys** cmdlet lists all tenant keys associated with your tenant for the Azure Rights Management service. The tenant keys include the initial tenant key that Microsoft generates for you, and any tenant keys that are stored in Azure Key Vault. For more information, see [Planning and implementing your Azure Rights Management tenant key](https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) (https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) on the Microsoft documentation site.
+The **Get-AadrmKeys** cmdlet lists all tenant keys associated with your tenant for the Azure Rights Management service. The tenant keys include the initial tenant key that Microsoft generates for you, and any tenant keys that are stored in Azure Key Vault. For more information, see [Planning and implementing your Azure Rights Management tenant key](https://docs.microsoft.com/rights-management/plan-design/plan-implement-tenant-key) on the Microsoft documentation site.
+
+You must use PowerShell to configure your tenant key; you cannot do this configuration by using a management portal.
 
 For security reasons, the cmdlet does not display the value of the tenant keys.
 

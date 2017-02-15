@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400609
 schema: 2.0.0
 ms.assetid: 6E60214B-4051-48B3-A59C-5E4587A0025B
-updated_at: 2/8/2017 6:01 PM
-ms.date: 2/8/2017
+updated_at: 2/12/2017 9:57 PM
+ms.date: 2/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmDevicePlatform.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmDevicePlatform.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmDevicePlatform.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmDevicePlatform.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -39,6 +39,8 @@ Get-AadrmDevicePlatform [-Windows] [-WindowsStore] [-WindowsPhone] [-Mac] [-iOS]
 
 ## DESCRIPTION
 The **Get-AadrmDevicePlatform** cmdlet gets the device platforms that Azure Rights Management supports for your organization. For information about supported device platforms, see the [Enable-AadrmDevicePlatform](./Enable-AadrmDevicePlatform.md) cmdlet.
+
+You must use PowerShell to view this configuration; you cannot view this configuration by using a management portal.
 
 ## EXAMPLES
 

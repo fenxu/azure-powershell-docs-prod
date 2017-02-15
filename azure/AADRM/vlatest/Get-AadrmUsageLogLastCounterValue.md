@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400618
 schema: 2.0.0
 ms.assetid: BE5835E8-F97C-4F0E-8B2A-6698819D61CD
-updated_at: 11/4/2016 7:56 PM
-ms.date: 11/4/2016
+updated_at: 2/12/2017 9:57 PM
+ms.date: 2/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLogLastCounterValue.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLogLastCounterValue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/255ddad98222233495954a5753e4e2da2f26bc6d/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLogLastCounterValue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLogLastCounterValue.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -32,6 +32,8 @@ Get-AadrmUsageLogLastCounterValue [<CommonParameters>]
 
 ## DESCRIPTION
 The **Get-AadrmUsageLogLastCounterValue** cmdlet gets the last counter value for the usage log.
+
+You must use PowerShell to get this information; you cannot do this action by using a management portal.
 
 This cmdlet should be used only if you have usage logs prior to the usage logging change in February 2016.
 After this date, the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is [Get-AadrmUserLog](./Get-AadrmUserLog.md).
