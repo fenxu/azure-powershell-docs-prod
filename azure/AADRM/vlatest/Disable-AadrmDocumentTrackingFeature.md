@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=623032
 schema: 2.0.0
 ms.assetid: 5C8ED12E-4A84-446E-962F-5E886CB40DF9
-updated_at: 2/12/2017 9:57 PM
-ms.date: 2/12/2017
+updated_at: 2/16/2017 4:08 PM
+ms.date: 2/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/572fba461b5027bfccd8712f78d52c7a02e88f01/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -44,7 +44,7 @@ When document tracking is disabled, users still see options that refer to tracki
 
 You can disable document tracking either before you activate the Azure Rights Management service, or after. After you have disabled document tracking, you can re-enable it at any time.
 
-For more information about document tracking and revocation, see [Track and revoke your documents](/information-protection/rms-client/client-track-revoke) (https://docs.microsoft.com/information-protection/rms-client/client-track-revoke) from the Azure Information Protection user guide.
+For additional information about the document tracking site, see [Configuring and using document tracking for Azure Information Protection](https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-document-tracking) from the Azure Information Protection client administrator guide.
 
 ## EXAMPLES
 

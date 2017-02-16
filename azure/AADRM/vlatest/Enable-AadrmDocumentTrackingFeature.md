@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=623036
 schema: 2.0.0
 ms.assetid: 0D84EE44-D412-40CA-A106-576E23CB81E8
-updated_at: 2/12/2017 9:57 PM
-ms.date: 2/12/2017
+updated_at: 2/16/2017 4:08 PM
+ms.date: 2/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/572fba461b5027bfccd8712f78d52c7a02e88f01/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmDocumentTrackingFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -37,7 +37,7 @@ You must use PowerShell to enable document tracking; you cannot do this configur
 
 By default, document tracking is enabled, so you would run this cmdlet only if somebody had previously disabled document tracking for your organization. When document tracking is enabled, users can access the document tracking site to see the protected documents that they have shared to date. Activity related to shared documents (who opened them, when, from which location) is shown for only when the document tracking site is enabled. For example, a user could revoke a document that they shared when document tracking was disabled but they cannot not see who opened this document when document tracking was disabled.
 
-For more information about document tracking and revocation, see [Track and revoke your documents](https://docs.microsoft.com/information-protection/rms-client/track-and-revoke) (https://docs.microsoft.com/information-protection/rms-client/track-and-revoke) from the Azure Information Protection user guide.
+For additional information about the document tracking site, see [Configuring and using document tracking for Azure Information Protection](https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-document-tracking) from the Azure Information Protection client administrator guide.
 
 ## EXAMPLES
 
