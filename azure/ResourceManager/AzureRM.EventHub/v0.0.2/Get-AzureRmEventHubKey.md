@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/22/2017 7:06 PM
+updated_at: 2/22/2017 7:15 PM
 ms.date: 2/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d71cbf81472712eaf2413c0723786485d4ad8dbe/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f82591a45d87319edcec5b3300adffa5a4f64654/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,17 +35,17 @@ The **Get-AzureRmEventHubKey** cmdlet returns the primary key details of the spe
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the primary key detail from a specific authorization rule
 ```
-PS C:\> Get-AzureRmEventHubKey -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -EventHubName MyEventHubName -AuthorizationRuleName MyAuthRuleName
+PS C:\> Get-AzureRmEventHubKey -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -EventHubName "MyEventHubName" -AuthorizationRuleName "MyAuthRuleName"
 ```
 
-Gets details of the primary key for the authorization rule `MyAuthRuleName`.
+This command gets details of the primary key for the authorization rule named MyAuthRuleName.
 
 ## PARAMETERS
 
 ### -EventHubName
-The Event Hub name.
+Specifies the name of the Event Hub.
 
 ```yaml
 Type: String
@@ -125,3 +125,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[New-AzureRmEventHubKey](xref:ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubKey.md)
