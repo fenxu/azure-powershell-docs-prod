@@ -1,9 +1,9 @@
 ---
-updated_at: 1/16/2017 4:36 PM
-ms.date: 1/16/2017
+updated_at: 2/23/2017 12:08 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/index.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/28060b577bdc8909618a7ad26bb193b9bfcf5ece/Azure%20AD%20Cmdlets/MSOnline/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/df171fcde37f630a1e0918245f49b558bd29588f/Azure%20AD%20Cmdlets/MSOnline/index.md
 ms.topic: conceptual
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -29,7 +29,7 @@ Requires powershell 3.0 or above
 There are two versions of the Azure Active Directory Module for Windows PowerShell available: a General Availability version and a Public Preview Version.
 The Public Preview version contains cmdlets that have not yet been released for General Availability.
 
-Select the version you want from the [Azure Active Directory Connection download page](https://www.microsoft.com/en-us/download/details.aspx?id=47594), download its .msi file, and click **Run** to run the installer package.
+Select the version you want from the [Azure Active Directory Connection download page](http://connect.microsoft.com/site1164/Downloads/DownloadDetails.aspx?DownloadID=59185), download its .msi file, and click **Run** to run the installer package.
 
 **Important**
 
