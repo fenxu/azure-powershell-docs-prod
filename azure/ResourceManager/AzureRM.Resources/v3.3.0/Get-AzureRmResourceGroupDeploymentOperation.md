@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 9F29DFCB-A02B-45A5-99B9-C054BF4FCA6C
 online version: 
 schema: 2.0.0
-updated_at: 1/9/2017 5:08 PM
-ms.date: 1/9/2017
+updated_at: 2/23/2017 6:15 PM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeploymentOperation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeploymentOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0ad0bf34919ba087d528c6264dbeb3b2ec5cfcdb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeploymentOperation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7fb21f9398dccee6a3e0c7be5a92d2a9102cb378/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeploymentOperation.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,21 +39,21 @@ This is the same information provided in the deployment details on the portal.
 
 To get the request and the response content, enable the setting when submitting a deployment through **New-AzureRmResourceGroupDeployment**.
 It can potentially log and expose secrets like passwords used in the resource property or **listKeys** operations that are then returned when you retrieve the deployment operations.
-For more on this setting and how to enable it, see New-AzureRmResourceGroupDeployment and Debugging ARM template deployments
+For more on this setting and how to enable it, see [New-AzureRmResourceGroupDeployment](./New-AzureRmResourceGroupDeployment.md) and Debugging ARM template deployments
 
 ## EXAMPLES
 
-### --------------------------  Get1  --------------------------
+### Example 1: Get a deployment operation 
 ```
-PS C:\> Get-AzureRmResourceGroupDeploymentOperation -DeploymentName test -ResourceGroupName test
+PS C:\> Get-AzureRmResourceGroupDeploymentOperation -DeploymentName "Test" -ResourceGroupName "RG001"
 ```
 
-Gets deployment operation with name "test" under resource group "test"
+This command gets a deployment operation named Test that is contained in the resource group named RG001.
 
 ## PARAMETERS
 
 ### -DeploymentName
-The deployment name.
+Specifies the deployment name that this cmdlet gets.
 
 ```yaml
 Type: String
@@ -68,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-The subscription to use.
+Specifies the subscription ID that this cmdlet uses to get the resource group deployment operation.
 
 ```yaml
 Type: Guid
@@ -83,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The resource group name.
+Specifies the resource group name.
 
 ```yaml
 Type: String
@@ -98,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApiVersion
-When set, indicates the version of the resource provider API to use.
+Indicates that the cmdlet uses the version of the resource provider API.
 If not specified, the API version is automatically determined as the latest available.
 
 ```yaml
@@ -114,7 +114,7 @@ Accept wildcard characters: False
 ```
 
 ### -Pre
-When set, indicates that the cmdlet should use pre-release API versions when automatically determining which version to use.
+Indicates that the cmdlet uses pre-release API versions when automatically determining which version to use.
 
 ```yaml
 Type: SwitchParameter
@@ -177,4 +177,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
