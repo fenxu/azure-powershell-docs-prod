@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/10/2017 5:59 PM
-ms.date: 2/10/2017
+updated_at: 2/22/2017 7:45 PM
+ms.date: 2/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubNamespace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubNamespace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e4208b3eac5c318ae34f7818cd0d62bcc2bd8aa2/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubNamespace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/701a73c74251331b2c62a044b3a8127922088dac/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubNamespace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # Get-AzureRmEventHubNamespace
 
 ## SYNOPSIS
-Gets the details of an Event Hubs namespace, or gets a list of all Event Hubs namespaces in the current Azure subscription.
+Gets the details of an Event Hubs namespace or gets a list of all Event Hubs namespaces in the current Azure subscription.
 
 ## SYNTAX
 
@@ -30,21 +30,22 @@ Get-AzureRmEventHubNamespace [[-ResourceGroupName] <String>] [[-NamespaceName] <
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmEventHubNamespace** cmdlet gets either the details of a specified Event Hubs namespace, or a list of all Event Hubs namespaces in the current Azure subscription. If the namespace name is provided, the details of a single Event Hubs namespace is returned. If the namespace name is not provided, a list of namespaces is returned.
+The **Get-AzureRmEventHubNamespace** cmdlet gets either the details of a specified Event Hubs namespace or a list of all Event Hubs namespaces in the current Azure subscription. If the namespace name is provided, the details of a single Event Hubs namespace is returned. If the namespace name is not provided, a list of namespaces is returned.
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> Get-AzureRmEventHubNamespace -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName
+PS C:\> Get-AzureRmEventHubNamespace -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName"
 ```
 
-Gets the details of the Event Hubs namespace `MyNamespaceName` in the resource group `MyResourceGroupName`.
+This command gets the details of the Event Hubs namespace named MyNamespaceName that is contained in the resource group named MyResourceGroupName.
 
 ## PARAMETERS
 
 ### -NamespaceName
-The Event Hubs namespace name.
+Specifies the name of the namespace.
+
 
 ```yaml
 Type: String
@@ -59,7 +60,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource group name.
+Specifies the name of the resource group that contains the Event Hub.
+
 
 ```yaml
 Type: String
@@ -88,3 +90,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[New-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubNamespace.md)
+
+[Remove-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubNamespace.md)
+
+[Set-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHubNamespace.md)

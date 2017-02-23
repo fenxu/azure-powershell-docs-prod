@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/10/2017 5:59 PM
-ms.date: 2/10/2017
+updated_at: 2/22/2017 11:44 PM
+ms.date: 2/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHub.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHub.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e4208b3eac5c318ae34f7818cd0d62bcc2bd8aa2/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHub.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/436d324d72aca493554c6fd1aa91a3ea27361288/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHub.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,12 +35,12 @@ The **Remove-AzureRmEventHub** cmdlet removes and deletes the specified Event Hu
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Remove the specified Event Hub
 ```
-PS C:\> Remove-AzureRmEventHub -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -EventHubName MyEventHubName
+PS C:\> Remove-AzureRmEventHub -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -EventHubName "MyEventHubName"
 ```
 
-Removes the Event Hub `MyEventHubName`.
+This command removes the Event Hub named MyEventHubName from the namespace named MyNamespaceName.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -EventHubName
-Name of the Event Hub to remove.
+Specifies the name of the Event Hub.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-The Event Hubs namespace name.
+Specifies the name of the namespace.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource group name.
+Specifies the name of the resource group that contains the Event Hub.
 
 ```yaml
 Type: String
@@ -135,3 +135,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmEventHub](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHub.md)
+
+[New-AzureRmEventHub](xref:ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHub.md)
+
+[Set-AzureRmEventHub](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHub.md)

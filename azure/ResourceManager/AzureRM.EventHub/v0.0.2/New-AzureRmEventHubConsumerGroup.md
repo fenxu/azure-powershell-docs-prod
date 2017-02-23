@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/10/2017 5:59 PM
-ms.date: 2/10/2017
+updated_at: 2/22/2017 10:56 PM
+ms.date: 2/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubConsumerGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubConsumerGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e4208b3eac5c318ae34f7818cd0d62bcc2bd8aa2/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubConsumerGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f145772d4b234b0e2fcb99e2e4167ceac4d8a112/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubConsumerGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # New-AzureRmEventHubConsumerGroup
 
 ## SYNOPSIS
-Creates a new consumer group for the specified Event Hub.
+Creates a consumer group for the specified Event Hub.
 
 ## SYNTAX
 
@@ -32,16 +32,16 @@ New-AzureRmEventHubConsumerGroup [-ResourceGroupName] <String> [-NamespaceName] 
 ```
 
 ## DESCRIPTION
-The **New-AzureRmEventHubConsumerGroup** cmdlet creates a new consumer group for the specified Event Hub.
+The **New-AzureRmEventHubConsumerGroup** cmdlet creates a consumer group for the specified Event Hub.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Create a consumer group for the specified Event Hub
 ```
-PS C:\> New-AzureRmEventHubConsumerGroup -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -EventHubName MyEventHubName -ConsumerGroupName MyConsumerGroupName
+PS C:\> New-AzureRmEventHubConsumerGroup -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -EventHubName "MyEventHubName" -ConsumerGroupName "ConsumerGroup001"
 ```
 
-Creates the consumer group `MyConsumerGroupName` in the Event Hub `MyEventHubName`, scoped to the namespace `MyNamespaceName`, with resource group `MyResourceGroupName`.
+Creates the consumer group named ConsumerGroup001 in the Event Hub named MyEventHubName that is scoped to the namespace named MyNamespaceName.
 
 ## PARAMETERS
 
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConsumerGroupName
-Consumer group name.
+Specifies the name Consumer group name.
 
 ```yaml
 Type: String
@@ -76,7 +76,8 @@ Accept wildcard characters: False
 ```
 
 ### -EventHubName
-The Event Hub name.
+Specifies the name of the Event Hub.
+
 
 ```yaml
 Type: String
@@ -91,7 +92,8 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-The Event Hubs namespace name.
+Specifies the name of the namespace.
+
 
 ```yaml
 Type: String
@@ -106,7 +108,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource group name.
+Specifies the name of the resource group that contains the Event Hub.
+
 
 ```yaml
 Type: String
@@ -166,3 +169,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubConsumerGroup.md)
+
+[Remove-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubConsumerGroup.md)
+
+[Set-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHubConsumerGroup.md)

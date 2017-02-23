@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/10/2017 5:59 PM
-ms.date: 2/10/2017
+updated_at: 2/22/2017 7:15 PM
+ms.date: 2/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubConsumerGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubConsumerGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e4208b3eac5c318ae34f7818cd0d62bcc2bd8aa2/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubConsumerGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f82591a45d87319edcec5b3300adffa5a4f64654/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubConsumerGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,24 +35,27 @@ The **Get-AzureRmEventHubConsumerGroup** cmdlet gets either the details of a spe
 
 ## EXAMPLES
 
-### Example 1
-```
-PS C:\> Get-AzureRmEventHubConsumerGroup -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -EventHubName MyEventHubName -ConsumerGroupName MyConsumerGroupName
+### Example 1: Get a specific Event Hub consumer group
 ```
 
-Gets the consumer group `MyConsumerGroupName` in the Event Hub `MyEventHubName`, which exists in the namespace `MyNamespaceName` with resource group `MyResourceGroupName`.
-
-### Example 2
-```
-PS C:\> Get-AzureRmEventHubConsumerGroup -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -EventHubName MyEventHubName
+PS C:\> Get-AzureRmEventHubConsumerGroup -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -EventHubName "MyEventHubName" -ConsumerGroupName "MyConsumerGroupName"
 ```
 
-Gets a list of consumer groups in the Event Hub `MyEventHubName`, which exists in the namespace `MyNamespaceName` with resource group `MyResourceGroupName`.
+This command gets the consumer group named MyConsumerGroupName in the Event Hub named MyEventHubName that exists in the namespace named MyNamespaceName.
+
+### Example 2: Get all Event Hub consumer groups
+```
+PS C:\> Get-AzureRmEventHubConsumerGroup -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -EventHubName "MyEventHubName"
+```
+
+This command gets all consumer groups in the Event Hub named MyEventHubName that exists in the namespace named MyNamespaceName.
+
 
 ## PARAMETERS
 
 ### -ConsumerGroupName
-The specified consumer group name.
+Specifies the name of the consumer group that this cmdlet gets.
+
 
 ```yaml
 Type: String
@@ -67,7 +70,8 @@ Accept wildcard characters: False
 ```
 
 ### -EventHubName
-The Event Hub name.
+Specifies the name of the Event Hub.
+
 
 ```yaml
 Type: String
@@ -82,7 +86,8 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-The Event Hubs namespace name.
+Specifies the name of the namespace.
+
 
 ```yaml
 Type: String
@@ -97,7 +102,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource group name.
+Specifies the name of the resource group that contains the Event Hub.
+
 
 ```yaml
 Type: String
@@ -126,3 +132,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[New-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubConsumerGroup.md)
+
+[Remove-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubConsumerGroup.md)
+
+[Set-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHubConsumerGroup.md)

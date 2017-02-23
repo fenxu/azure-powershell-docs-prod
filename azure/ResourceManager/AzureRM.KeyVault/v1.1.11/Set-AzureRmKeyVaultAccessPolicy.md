@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 4C609936-843D-4BBD-8943-AD35784134E4
-updated_at: 11/1/2016 10:24 PM
-ms.date: 11/1/2016
+updated_at: 2/22/2017 7:33 PM
+ms.date: 2/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureRmKeyVaultAccessPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureRmKeyVaultAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureRmKeyVaultAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a4add699cf26f1161b7e291981bdf7f5404dedac/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureRmKeyVaultAccessPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -148,11 +148,11 @@ This example picks the first one, indicated by index \[0\] in the returned list.
 
 ### Example 7: Grant Azure Information Protection access to the customer-managed tenant key (BYOK)
 ```
-PS C:\>Set-AzureRmKeyVaultAccessPolicy -VaultName 'Contoso04Vault' -ServicePrincipalName Microsoft.Azure.RMS -PermissionsToKeys decrypt,encrypt,unwrapkey,wrapkey,verify,sign,get
+PS C:\>Set-AzureRmKeyVaultAccessPolicy -VaultName 'Contoso04Vault' -ServicePrincipalName 00000012-0000-0000-c000-000000000000 -PermissionsToKeys decrypt,encrypt,unwrapkey,wrapkey,verify,sign,get
 ```
 
 This command authorizes Azure Information Protection to use a customer-managed key (the bring your own key, or "BYOK" scenario) as the Azure Information Protection tenant key.
-When you run this command, specify your own vault name but you must specify the *ServicePrincipalName* parameter with the value **Microsoft.Azure.RMS** and specify all the permissions in the example.
+When you run this command, specify your own vault name but you must specify the *ServicePrincipalName* parameter with the GUID **00000012-0000-0000-c000-000000000000** and specify all the permissions in the example.
 
 ## PARAMETERS
 

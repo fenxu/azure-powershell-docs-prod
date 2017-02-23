@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/10/2017 5:59 PM
-ms.date: 2/10/2017
+updated_at: 2/22/2017 7:15 PM
+ms.date: 2/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e4208b3eac5c318ae34f7818cd0d62bcc2bd8aa2/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f82591a45d87319edcec5b3300adffa5a4f64654/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,17 +35,17 @@ The **Get-AzureRmEventHubKey** cmdlet returns the primary key details of the spe
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the primary key detail from a specific authorization rule
 ```
-PS C:\> Get-AzureRmEventHubKey -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -EventHubName MyEventHubName -AuthorizationRuleName MyAuthRuleName
+PS C:\> Get-AzureRmEventHubKey -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -EventHubName "MyEventHubName" -AuthorizationRuleName "MyAuthRuleName"
 ```
 
-Gets details of the primary key for the authorization rule `MyAuthRuleName`.
+This command gets details of the primary key for the authorization rule named MyAuthRuleName.
 
 ## PARAMETERS
 
 ### -EventHubName
-The Event Hub name.
+Specifies the name of the Event Hub.
 
 ```yaml
 Type: String
@@ -59,8 +59,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -NamespaceName
-The Event Hubs namespace name.
+
+### -EventHubName
+Specifies the name of the Event Hub.
+
 
 ```yaml
 Type: String
@@ -74,8 +76,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Resource group name.
+
+### -NamespaceName
+Specifies the name of the namespace.
+
 
 ```yaml
 Type: String
@@ -89,8 +93,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -AuthorizationRuleName
-Event Hubs authorization rule name.
+
+### -ResourceGroupName
+Specifies the name of the resource group that contains the Event Hub.
+
 
 ```yaml
 Type: String
@@ -119,3 +125,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[New-AzureRmEventHubKey](xref:ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubKey.md)

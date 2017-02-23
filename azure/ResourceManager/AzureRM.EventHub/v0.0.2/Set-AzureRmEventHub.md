@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/10/2017 5:59 PM
-ms.date: 2/10/2017
+updated_at: 2/22/2017 11:02 PM
+ms.date: 2/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHub.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHub.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e4208b3eac5c318ae34f7818cd0d62bcc2bd8aa2/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHub.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4a7f3e9ebef5fb5f18b7fb966e74a8d47d7302e/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHub.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -61,7 +61,9 @@ Accept wildcard characters: False
 ```
 
 ### -EventHubName
-The Event Hub name.
+
+Specifies the name of the namespace.
+
 
 ```yaml
 Type: String
@@ -91,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-The Event Hubs namespace name.
+Specifies the name of the Event Hubs namespace.
 
 ```yaml
 Type: String
@@ -105,8 +107,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+
 ### -ResourceGroupName
 Resource group name.
+
 
 ```yaml
 Type: String
@@ -136,8 +140,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+
 ### -messageRetentionInDays
 Event Hub message retention period, in days.
+
 
 ```yaml
 Type: Int64

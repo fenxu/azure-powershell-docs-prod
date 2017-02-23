@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/10/2017 5:59 PM
-ms.date: 2/10/2017
+updated_at: 2/22/2017 7:15 PM
+ms.date: 2/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e4208b3eac5c318ae34f7818cd0d62bcc2bd8aa2/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f82591a45d87319edcec5b3300adffa5a4f64654/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -31,28 +31,32 @@ Get-AzureRmEventHubAuthorizationRule [-ResourceGroupName] <String> [-NamespaceNa
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmEventHubAuthorizationRule** cmdlet gets either the details of an authorization rule, or a list of all authorization rules for a specified Event Hub. If the name of an authorization rule is provided, the details of that single authorization rule are returned. If the name of an authorization rule is not provided, a list of all authorization rules for the specified Event Hub is returned.
+
+The **Get-AzureRmEventHubAuthorizationRule** cmdlet gets the details of an authorization rule or a list of all authorization rules for a specified Event Hub. If the name of an authorization rule is provided, the details of that single authorization rule are returned. If the name of an authorization rule is not provided, a list of all authorization rules for the specified Event Hub is returned.
+
+
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get an Event Hub authorization rule
 ```
-PS C:\> Get-AzureRmEventHubAuthorizationRule -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -EventHubName MyEventHubName -AuthorizationRule MyAuthRuleName
-```
-
-Gets the authorization rule `MyAuthRuleName` in the Event Hub `MyEventHubName`, which is scoped by the namespace `MyNamespaceName`.
-
-### Example 2
-```
-PS C:\> Get-AzureRmEventHubAuthorizationRule -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -EventHubName MyEventHubName
+PS C:\> Get-AzureRmEventHubAuthorizationRule -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -EventHubName "MyEventHubName" -AuthorizationRule "MyAuthRuleName"
 ```
 
-Gets a list of all authorization rules in the Event Hub `MyEventHubName`, which is scoped by the namespace `MyNamespaceName`.
+This command gets the authorization rule named MyAuthRuleName in the Event Hub named MyEventHubName that is contained in the namespace named Namespace001.
+
+### Example 2: Get an Event Hub authorization rule
+```
+PS C:\> Get-AzureRmEventHubAuthorizationRule -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -EventHubName "MyEventHubName"
+```
+
+This command gets the all authorization rules in the Event Hub named MyEventHubName that is contained in the namespace named Namespace001.
 
 ## PARAMETERS
 
-### -EventHubName
-The Event Hub name.
+### -AuthorizationRuleName
+Specifies the name of the Event Hub Authorization Rule that this cmdlet gets.
+
 
 ```yaml
 Type: String
@@ -66,8 +70,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -NamespaceName
-The Event Hubs namespace name.
+
+### -EventHubName
+Specifies name of the Event Hub.
+
 
 ```yaml
 Type: String
@@ -81,8 +87,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Resource group name.
+
+### -NamespaceName
+Specifies the name of the namespace.
+
 
 ```yaml
 Type: String
@@ -96,8 +104,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -AuthorizationRuleName
-Event Hub authorization rule name.
+
+### -ResourceGroupName
+Specifies the name of the resource group.
+
 
 ```yaml
 Type: String
@@ -126,3 +136,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[New-AzureRmEventHubAuthorizationRule](xref:ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubAuthorizationRule.md)
+
+[Remove-AzureRmEventHubAuthorizationRule](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubAuthorizationRule.md)
+
+[Set-AzureRmEventHubAuthorizationRule](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHubAuthorizationRule.md)
