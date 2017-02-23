@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 8300B143-E322-419E-BC98-DBA56DD90A59
 online version: 
 schema: 2.0.0
-updated_at: 11/18/2016 11:58 PM
-ms.date: 11/18/2016
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/72a3aea1f1ed5e83ed5c6c8596a219daeabbbe22/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -97,7 +97,7 @@ Following is a sample json role definition that can be provided as input
 ## EXAMPLES
 
 ### --------------------------  Create using PSRoleDefinitionObject  --------------------------
-@{paragraph=PS C:\\\>}
+
 
 ```
 PS C:\> $role = Get-AzureRmRoleDefinition -Name "Virtual Machine Contributor"
@@ -123,7 +123,7 @@ PS C:\> $role = Get-AzureRmRoleDefinition -Name "Virtual Machine Contributor"
 ```
 
 ### --------------------------  Create using JSON file  --------------------------
-@{paragraph=PS C:\\\>}
+
 
 ```
 PS C:\> New-AzureRmRoleDefinition -InputFile C:\Temp\roleDefinition.json

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 66AC5120-80B1-46F2-AA51-132BF361602E
 online version: 
 schema: 2.0.0
-updated_at: 2/8/2017 5:37 PM
-ms.date: 2/8/2017
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a574fd51c9bb6e03657bea852620f4b4f492ac8c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -62,23 +62,21 @@ If no parameter is provided, the cmdlet gets all applications under the tenant.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: List all applications under a tenant
 
 ```
-PS E:\> Get-AzureRmADApplication
+PS C:\> Get-AzureRmADApplication
 ```
 
-Lists all the applications under a tenant.
+This command lists all the applications under a tenant.
 
-### --------------------------  Example 2  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 2: Get a specific application using an identifier URI
 
 ```
 PS E:\> Get-AzureRmADApplication -IdentifierUri http://mySecretApp1
 ```
 
-Gets the application with identifier uri as "http://mySecretApp1".
+This command gets the application with identifier URI as "http://mySecretApp1".
 
 ## PARAMETERS
 
@@ -189,14 +187,14 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Remove-AzureRmADAppCredential]()
+[Get-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md)
 
-[New-AzureRmADAppCredential]()
+[New-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADAppCredential.md)
 
-[Get-AzureRmADAppCredential]()
+[Remove-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADAppCredential.md)
 
-[Remove-AzureRmADApplication]()
+[New-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADApplication.md)
 
-[Set-AzureRmADApplication]()
+[Remove-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADApplication.md)
 
-[New-AzureRmADApplication]()
+[Set-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md)

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: BF254F2F-F658-45CC-8AC8-53FF96CFCAAD
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmADUser
 
 ## SYNOPSIS
-Filters active directory users.
+Gets active directory users.
 
 ## SYNTAX
 
@@ -55,41 +55,35 @@ Get-AzureRmADUser -Mail <String> [-InformationAction <ActionPreference>] [-Infor
 ```
 
 ## DESCRIPTION
-Filters active directory users.
+The **Get-AzureRmADUser** cmdlet gets active directory users.
 
 ## EXAMPLES
 
-### --------------------------  Filters users using UPN  --------------------------
-@{paragraph=PS C:\\\>}
-
+### Example 1: Get a user using UPN
 ```
-PS C:\> Get-AzureRmADUser -UPN foo@domain.com
+PS C:\> Get-AzureRmADUser -UPN "pattifuller@contoso.com"
 ```
 
-Gets user with foo@domain.com
+This command gets the user named pattifuller@contoso.com
 
-### --------------------------  Filters users using Search String  --------------------------
-@{paragraph=PS C:\\\>}
-
+### Example 2: Get users using a search string
 ```
-PS C:\> Get-AzureRmADUser -SearchString Joe
+PS C:\> Get-AzureRmADUser -SearchString "contoso"
 ```
 
-Filters all ad users that has Joe in the display name.
+This command gets all Active Directory users that has contoso in the display name.
 
-### --------------------------  List AD users  --------------------------
-@{paragraph=PS C:\\\>}
-
+### Example 3: Get all Active Directory users
 ```
 PS C:\> Get-AzureRmADUser
 ```
 
-Gets all AD users
+This command gets all Active Directory users.
 
 ## PARAMETERS
 
 ### -UserPrincipalName
-UPN of the user.
+Specifies the user principal name (UPN) of the user that this cmdlet gets.
 
 ```yaml
 Type: String
@@ -185,7 +179,7 @@ Accept wildcard characters: False
 ```
 
 ### -Mail
-
+Specifies the email of the user.
 
 ```yaml
 Type: String
@@ -207,9 +201,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[New-AzureRmADUser]()
+[New-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADUser.md)
 
-[Set-AzureRmADUser]()
+[Set-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADUser.md)
 
-[Remove-AzureRmADUser]()
-
+[Remove-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADUser.md)

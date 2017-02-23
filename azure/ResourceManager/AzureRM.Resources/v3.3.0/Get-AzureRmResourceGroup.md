@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 5B17A241-BF36-48A6-BC29-4C32C08F5F94
 online version: 
 schema: 2.0.0
-updated_at: 2/2/2017 5:07 PM
-ms.date: 2/2/2017
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a97db0e30c3796fb34f72a2f76f8dcee2d69cb9a/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -42,7 +42,7 @@ The **Get-AzureRmResourceGroup** cmdlet gets Azure resource groups in the curren
 You can get all resource groups, or specify a resource group by name or by other properties.
 By default, this cmdlet gets all resource groups in the current subscription.
 
-For more information about Azure resources and Azure resource groups, see the New-AzureRmResourceGroup cmdlet.
+For more information about Azure resources and Azure resource groups, see the [New-AzureRmResourceGroup](./New-AzureRmResourceGroup.md) cmdlet.
 
 ## EXAMPLES
 
@@ -162,5 +162,3 @@ This cmdlet returns resource groups.
 [Remove-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmResourceGroup.md)
 
 [Set-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResourceGroup.md)
-
-

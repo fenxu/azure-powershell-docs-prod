@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: F58FD77E-2946-44B1-B410-6E983FC20E21
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -69,7 +69,7 @@ Creates a new azure active directory application.
 ## EXAMPLES
 
 ### --------------------------  Create new AAD application.  --------------------------
-@{paragraph=PS C:\\\>}
+
 
 ```
 PS C:\> New-AzureRmADApplication -DisplayName "NewApplication" -HomePage "http://www.microsoft.com" -IdentifierUris "http://NewApplication"
@@ -78,7 +78,7 @@ PS C:\> New-AzureRmADApplication -DisplayName "NewApplication" -HomePage "http:/
 Creates a new azure active directory application without any credentials.
 
 ### --------------------------  Create new AAD application with password.  --------------------------
-@{paragraph=PS C:\\\>}
+
 
 ```
 PS C:\> New-AzureRmADApplication -DisplayName "NewApplication" -HomePage "http://www.microsoft.com" -IdentifierUris "http:

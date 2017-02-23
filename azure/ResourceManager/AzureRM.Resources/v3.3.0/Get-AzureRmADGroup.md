@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 85DDA491-7A7D-4217-B0E3-72CDC3787889
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,37 +47,34 @@ Filters active directory groups.
 
 ## EXAMPLES
 
-### --------------------------  Filters groups using object id  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Filter groups using an object ID
 
 ```
 PS C:\> Get-AzureRmADGroup -ObjectId 85F89C90-780E-4AA6-9F4F-6F268D322EEE
 ```
 
-Gets group with 85F89C90-780E-4AA6-9F4F-6F268D322EEE id
+This command gets group with with ID 85F89C90-780E-4AA6-9F4F-6F268D322EEE.
 
-### --------------------------  Filters groups using Search String  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 2: Filter groups using a search string
 
 ```
-PS C:\> Get-AzureRmADGroup -SearchString Joe
+PS C:\> Get-AzureRmADGroup -SearchString "PattiFuller"
 ```
 
-Filters all ad groups that has Joe in the display name.
+This command filters all Active Directory groups that has PattiFuller in the display name.
 
-### --------------------------  List AD groups  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 3: List all Active Directory groups
 
 ```
 PS C:\> Get-AzureRmADGroup
 ```
 
-Gets all AD groups
+This command gets all Active Directory groups
 
 ## PARAMETERS
 
 ### -ObjectId
-Object id of the group.
+Specifies the object ID of the group.
 
 ```yaml
 Type: Guid
@@ -143,7 +140,7 @@ Accept wildcard characters: False
 ```
 
 ### -SearchString
-The group display name
+Specifies the group display name that this cmdlet uses as a filter.
 
 ```yaml
 Type: String
@@ -165,9 +162,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AzureRmADUser]()
+[Get-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADUser.md)
 
-[Get-AzureRmADServicePrincipal]()
+[Get-AzureRmADServicePrincipal](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADServicePrincipal.md)
 
-[Get-AzureRmADGroupMember]()
-
+[Get-AzureRmADGroupMember](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroupMember.md)

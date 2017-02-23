@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 6424B740-DBFB-490C-AEAA-EDD60952B435
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmProviderOperation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmProviderOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmProviderOperation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmProviderOperation.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,37 +36,39 @@ The Get-AzureRmProviderOperation gets the operations exposed by Azure resource p
 Operations can be composed to create custom roles in Azure RBAC.
 The command takes as input an operation search string (with possible wildcard(*) character(s)) which determines the operations details to display.
 
-Use Get-AzureRmProviderOperation * to get all operations for all Azure resource providers.
+Use **Get-AzureRmProviderOperation** to get all operations for all Azure resource providers.
 
-Use Get-AzureRmProviderOperation Microsoft.Compute/* to get all operations of Microsoft.Compute resource provider.
+Use **Get-AzureRmProviderOperation** Microsoft.Compute to get all operations of Microsoft.Compute resource provider.
 
 ## EXAMPLES
 
-### --------------------------  Get all actions for all providers  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Get all actions for all providers
 
 ```
 PS C:\> Get-AzureRmProviderOperation *
 ```
 
-### --------------------------  Get actions for a particular resource provider  --------------------------
-@{paragraph=PS C:\\\>}
+This command get all action for all providers.
 
+### Example 2: Get actions for a particular resource provider
 ```
 PS C:\> Get-AzureRmProviderOperation Microsoft.Insights/*
 ```
 
-### --------------------------  Get all actions that can be performed on virtual machines  --------------------------
-@{paragraph=PS C:\\\>}
+This command get actions for the specified resource provider.
+
+### Example 3: Get all actions that can be performed on virtual machines
 
 ```
 PS C:\> Get-AzureRmProviderOperation */virtualMachines/*
 ```
 
+This command gets all actions that can be performed on virtual machines.
+
 ## PARAMETERS
 
 ### -OperationSearchString
-The operation search string (with possible wildcard (*) characters)
+Specifies the operation search string (with possible wildcard (*) characters).
 
 ```yaml
 Type: String
@@ -127,4 +129,3 @@ Accept wildcard characters: False
 Keywords: azure, azurerm, arm, resource, management, manager, resource, group, template, deployment
 
 ## RELATED LINKS
-

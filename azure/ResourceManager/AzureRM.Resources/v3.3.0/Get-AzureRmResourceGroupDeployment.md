@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 20CB842B-F7A9-4052-85D9-0DF9586D5FEA
 online version: 
 schema: 2.0.0
-updated_at: 1/9/2017 7:56 PM
-ms.date: 1/9/2017
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5988bf32e3ff01c5800597ecc3a6ae8a6be33061/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResourceGroupDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,7 +46,7 @@ An Azure resource is a user-managed Azure entity, such as a database server, dat
 An Azure resource group is a collection of Azure resources that are deployed as a unit.
 
 A deployment is the operation that makes the resources in the resource group available for use.
-For more information about Azure resources and Azure resource groups, see the **New-AzureRmResourceGroup** cmdlet.
+For more information about Azure resources and Azure resource groups, see the [New-AzureRmResourceGroup](./New-AzureRmResourceGroup.md) cmdlet.
 
 You can use this cmdlet for tracking.
 For debugging, use this cmdlet with the **Get-AzureRmLog** cmdlet.
@@ -188,5 +188,3 @@ The cmdlet returns resource group deployments.
 [Stop-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.3.0/Stop-AzureRmResourceGroupDeployment.md)
 
 [Test-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.3.0/Test-AzureRmResourceGroupDeployment.md)
-
-

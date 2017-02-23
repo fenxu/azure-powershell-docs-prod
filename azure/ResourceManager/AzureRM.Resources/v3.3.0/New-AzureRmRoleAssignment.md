@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: E460D108-2BF9-4F57-AF3D-13868DC73EA0
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -120,8 +120,8 @@ ResourceName, ResourceType, ResourceGroupName and (optionally) ParentResource - 
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
+Example 1:
+
 
 ```
 PS C:\> New-AzureRmRoleAssignment -ResourceGroupName rg1 -SignInName allen.young@live.com -RoleDefinitionName Reader
@@ -129,8 +129,8 @@ PS C:\> New-AzureRmRoleAssignment -ResourceGroupName rg1 -SignInName allen.young
 
 Grant Reader role access to a user at a resource group scope
 
-### --------------------------  Example 2  --------------------------
-@{paragraph=PS C:\\\>}
+Example 2:
+
 
 ```
 PS C:\> Get-AzureRMADGroup -SearchString "Christine Koch Team"
@@ -144,8 +144,8 @@ PS C:\> Get-AzureRMADGroup -SearchString "Christine Koch Team"
 
 Grant access to a security group
 
-### --------------------------  Example 3  --------------------------
-@{paragraph=PS C:\\\>}
+Example 3:
+
 
 ```
 PS C:\> New-AzureRmRoleAssignment -SignInName john.doe@contoso.com -RoleDefinitionName Owner -Scope "/subscription/86f81fc3-b00f-48cd-8218-3879f51ff362/resourcegroups/rg1/providers/Microsoft.Web/sites/site1"
@@ -153,8 +153,8 @@ PS C:\> New-AzureRmRoleAssignment -SignInName john.doe@contoso.com -RoleDefiniti
 
 Grant access to a user at a resource (website)
 
-### --------------------------  Example 4  --------------------------
-@{paragraph=PS C:\\\>}
+Example 4:
+
 
 ```
 PS C:\> New-AzureRMRoleAssignment -ObjectId 5ac84765-1c8c-4994-94b2-629461bd191b -RoleDefinitionName "Virtual Machine Contributor" -ResourceName Devices-Engineering-ProjectRND -ResourceType Microsoft.Network/virtualNetworks/subnets -ParentResource virtualNetworks/VNET-EASTUS-01 -ResourceGroupName Network

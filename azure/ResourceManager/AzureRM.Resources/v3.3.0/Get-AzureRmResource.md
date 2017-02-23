@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: C2C608E5-3351-4D01-8533-9668B2E9F1D1
 online version: 
 schema: 2.0.0
-updated_at: 1/9/2017 5:08 PM
-ms.date: 1/9/2017
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0ad0bf34919ba087d528c6264dbeb3b2ec5cfcdb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmResource
 
 ## SYNOPSIS
-Gets resources.
+Gets Azure resources.
 
 ## SYNTAX
 
@@ -132,6 +132,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceType
+Specifies the resource type.
+
 ```yaml
 Type: String
 Parameter Sets: Get resource by name, group and type, Get a single resource at the tenant level.
@@ -169,6 +171,8 @@ Accept wildcard characters: False
 ```
 
 ### -ApiVersion
+Specifies API version.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -182,6 +186,8 @@ Accept wildcard characters: False
 ```
 
 ### -ExpandProperties
+Indicates that this cmdlet expands properties.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -195,6 +201,8 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionResourceName
+Specifies the extension resource name.
+
 ```yaml
 Type: String
 Parameter Sets: Get resource by name, group and type, Get resource by name and group, Get a resource by name and type., Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level.
@@ -208,6 +216,8 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionResourceType
+Specifies the extension resource type.
+
 ```yaml
 Type: String
 Parameter Sets: Get resource by name, group and type, Get resource by name and group, Get a resource by name and type., Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level.
@@ -233,6 +243,8 @@ Accept wildcard characters: False
 ```
 
 ### -IsCollection
+Indicates that this cmdlet gets the resources as a collection.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Get resource by name and group, Get a resource by name and type., Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level., Get resource collection
@@ -291,6 +303,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceName
+Specifies the name of the resource that this cmdlet gets.
+
 ```yaml
 Type: String
 Parameter Sets: Get resource by name, group and type, Get a single resource at the tenant level.
@@ -363,5 +377,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmResource.md)
 
 [Set-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResource.md)
-
-

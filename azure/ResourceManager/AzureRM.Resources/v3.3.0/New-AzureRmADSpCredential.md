@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 063BAA79-484D-48CF-9170-3808813752BD
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADSpCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADSpCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADSpCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADSpCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -58,8 +58,8 @@ The service principal is identified by supplying either the object id or service
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
+Example 1:
+
 
 ```
 PS E:\> New-AzureRmADSpCredential -ObjectId 1f99cf81-0146-4f4e-beae-2007d0668476 -Password "P@ssw0rd!"
@@ -68,8 +68,8 @@ PS E:\> New-AzureRmADSpCredential -ObjectId 1f99cf81-0146-4f4e-beae-2007d0668476
 A new password credential is added to an existing service principal.
 In this example, the supplied password value is added to the service principal using the objectId.
 
-### --------------------------  Example 2  --------------------------
-@{paragraph=PS C:\\\>}
+Example 2:
+
 
 ```
 $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate 
@@ -86,8 +86,8 @@ PS E:\> New-AzureRmADSpCredential -ServicePrincipalName "http://test123" -CertVa
 A new key credential is added to an existing service principal.
 In this example, the supplied base64 encoded public X509 certificate ("myapp.cer") is added to the service principal using its SPN.
 
-### --------------------------  Example 3  --------------------------
-@{paragraph=PS C:\\\>}
+Example 3:
+
 
 ```
 PS E:\> New-AzureRmADSpCredential -ServicePrincipalName "http://test123" -CertValue $credValue
