@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/22/2017 7:06 PM
-ms.date: 2/22/2017
+updated_at: 2/23/2017 12:11 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubConsumerGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubConsumerGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d71cbf81472712eaf2413c0723786485d4ad8dbe/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubConsumerGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5310bf90f9163c3ebc72e4eaa057b21f26fbb6d6/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubConsumerGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # Remove-AzureRmEventHubConsumerGroup
 
 ## SYNOPSIS
-Deletes the specified Event Hubs consumer group.
+Removes the specified Event Hubs consumer group.
 
 ## SYNTAX
 
@@ -35,12 +35,12 @@ The **Remove-AzureRmEventHubConsumerGroup** cmdlet removes and deletes the speci
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Remove a consumer group from a specified Event Hub
 ```
-PS C:\> Remove-AzureRmEventHubConsumerGroup -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -EventHubName MyEventHubName -ConsumerGroupName MyConsumerGroupName
+PS C:\> Remove-AzureRmEventHubConsumerGroup -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -EventHubName "MyEventHubName" -ConsumerGroupName "ConsumerGroup001"
 ```
 
-Deletes the consumer group `MyConsumerGroupName` from the Event Hub `MyEventHubName`, scoped to the `MyNamespaceName` namespace.
+This command removes the consumer group named ConsumerGroup001 from the Event Hub named MyEventHubName that is scoped to the namespace named MyNamespaceName.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConsumerGroupName
-Consumer group Name.
+Specifies the name of consumer group.
 
 ```yaml
 Type: String
@@ -75,7 +75,6 @@ Accept wildcard characters: False
 ```
 
 ### -EventHubName
-
 Specifies the name of the Event Hub.
 
 
@@ -92,7 +91,6 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-
 Specifies the name of the namespace.
 
 
@@ -109,7 +107,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
 Specifies the name of the resource group that contains the Event Hub.
 
 
@@ -156,3 +153,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubConsumerGroup.md)
+
+[New-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubConsumerGroup.md)
+
+[Set-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHubConsumerGroup.md)

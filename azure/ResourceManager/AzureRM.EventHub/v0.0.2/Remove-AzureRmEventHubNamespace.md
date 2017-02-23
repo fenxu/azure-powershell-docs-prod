@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/22/2017 11:02 PM
-ms.date: 2/22/2017
+updated_at: 2/23/2017 12:11 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubNamespace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubNamespace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4a7f3e9ebef5fb5f18b7fb966e74a8d47d7302e/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubNamespace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5310bf90f9163c3ebc72e4eaa057b21f26fbb6d6/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubNamespace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,12 +35,12 @@ The **Remove-AzureRmEventHubNamespace** cmdlet removes and deletes the specified
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Remove the specified Event Hub namespace
 ```
-PS C:\> Remove-AzureRmEventHubNamespace -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName
+PS C:\> Remove-AzureRmEventHubNamespace -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName"
 ```
 
-Removes the Event Hubs namespace `MyNamespaceName` in resource group `MyResourceGroupName`.
+This command removes the Event Hubs namespace named MyNamespaceName that is contained in the resource group named MyResourceGroupName.
 
 ## PARAMETERS
 
@@ -60,7 +60,6 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-
 Specifies the name of the Event Hubs namespace.
 
 
@@ -77,7 +76,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
 Specifies the name of the resource group that contains the Event Hub.
 
 
@@ -124,3 +122,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubNamespace.md)
+
+[New-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubNamespace.md)
+
+[Set-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHubNamespace.md)

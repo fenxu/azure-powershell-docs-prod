@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/22/2017 7:06 PM
-ms.date: 2/22/2017
+updated_at: 2/23/2017 12:51 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHubConsumerGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHubConsumerGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d71cbf81472712eaf2413c0723786485d4ad8dbe/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHubConsumerGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7b9870d5bfb0bfd27d74f3d427a4016ef26a0298/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHubConsumerGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,12 +36,12 @@ The **Set-AzureRmEventHubConsumerGroup** cmdlet updates the specified Event Hubs
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Update a specific consumer group for an Event Hub
 ```
-PS C:\> Set-AzureRmEventHubConsumerGroup -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -EventHubName MyEventHubName -ConsumerGroupName MyConsumerGroupName -UserMetadata "Testing"
+PS C:\> Set-AzureRmEventHubConsumerGroup -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -EventHubName "MyEventHubName" -ConsumerGroupName "MyConsumerGroupName" -UserMetadata "Testing"
 ```
 
-Sets the user metadata of the consumer group `MyConsumerGroupName` to "Testing."
+This command sets the user metadata of the consumer group MyConsumerGroupName to Testing.
 
 ## PARAMETERS
 
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConsumerGroupName
-The consumer group name.
+Specifies the name of the consumer group this cmdlet modifies.
 
 ```yaml
 Type: String
@@ -76,7 +76,6 @@ Accept wildcard characters: False
 ```
 
 ### -EventHubName
-
 Specifies the name of the Event Hub.
 
 
@@ -93,7 +92,6 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-
 Specifies the name of the namespace.
 
 
@@ -110,7 +108,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
 Specifies the name of the resource group that contains the Event Hub.
 
 
@@ -143,7 +140,8 @@ Accept wildcard characters: False
 ```
 
 ### -UserMetadata
-User metadata for the consumer group (optional).
+Specifies the user metadata for the consumer group.
+This parameter is optional.
 
 ```yaml
 Type: String
@@ -172,3 +170,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubConsumerGroup.md)
+
+[New-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubConsumerGroup.md)
+
+[Remove-AzureRmEventHubConsumerGroup](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubConsumerGroup.md)
