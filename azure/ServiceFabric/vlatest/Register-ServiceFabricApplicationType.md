@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 9145CA7E-1FF1-44C0-BB40-452161DCB15A
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+updated_at: 2/21/2017 9:54 PM
+ms.date: 2/21/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/d0829461d8cbb98206f8a4a6aa61aa770784ad21/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -64,6 +64,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -Async
+The command returns as soon as the registration request has been accepted by the cluster. The [Get-ServiceFabricApplicationType](./Get-ServiceFabricApplicationType.md) command can be used to query the status of the registration request. Using this switch avoids having to provide large -TimeoutSec values when registering large application packages.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -TimeoutSec
 Specifies the time-out period, in seconds, for the operation.
 
@@ -97,6 +112,8 @@ This cmdlet returns the status of the operation as a string.
 ## RELATED LINKS
 
 [Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
+
+[Copy-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md)
 
 [Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
