@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/22/2017 10:56 PM
-ms.date: 2/22/2017
+updated_at: 2/23/2017 1:04 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f145772d4b234b0e2fcb99e2e4167ceac4d8a112/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b33089bf8f7517461be208a3fe53fc5fc99d2b74/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.0.2/New-AzureRmEventHubAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -140,8 +140,8 @@ Accept wildcard characters: False
 ```
 
 ### -Rights
-Specifies rights that this cmdlet sets when creating the authorization rule.
-For instance: @("Listen","Send","Manage").
+Specifies rights that this cmdlet sets when this cmdlet creates the authorization rule.
+For instance, @("Listen","Send","Manage").
 
 ```yaml
 Type: String[]
