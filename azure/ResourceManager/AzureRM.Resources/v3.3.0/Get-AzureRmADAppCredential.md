@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 6AC9DA05-756D-4D59-BD97-DBAAFBB3C7AC
 online version: 
 schema: 2.0.0
-updated_at: 2/8/2017 5:37 PM
-ms.date: 2/8/2017
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a574fd51c9bb6e03657bea852620f4b4f492ac8c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -132,8 +132,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[New-AzureRmADAppCredential]()
+[New-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADAppCredential.md)
 
-[Remove-AzureRmADAppCredential]()
+[Remove-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADAppCredential.md)
 
-[Get-AzureRmADApplication]()
+[Get-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md)

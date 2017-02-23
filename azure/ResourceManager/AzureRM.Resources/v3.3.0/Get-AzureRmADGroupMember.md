@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 52C5CD8B-2489-4FE6-9F33-B3350531CD8E
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 2/23/2017 2:56 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroupMember.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroupMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroupMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,19 +36,18 @@ Get a group members.
 
 ## EXAMPLES
 
-### --------------------------  Filters group members using group object id  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Filter group members using group object ID
 
 ```
 PS C:\> Get-AzureRmADGroupMember -GroupObjectId 85F89C90-780E-4AA6-9F4F-6F268D322EEE
 ```
 
-Gets group members with 85F89C90-780E-4AA6-9F4F-6F268D322EEE id
+This command gets group members with ID 85F89C90-780E-4AA6-9F4F-6F268D322EEE.
 
 ## PARAMETERS
 
 ### -GroupObjectId
-Object id of the group.
+Specifies the object ID of the group that this cmdlet gets.
 
 ```yaml
 Type: Guid
@@ -109,9 +108,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AzureRmADUser]()
+[Get-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADUser.md)
 
-[Get-AzureRmADServicePrincipal]()
+[Get-AzureRmADServicePrincipal](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADServicePrincipal.md)
 
-[Get-AzureRmADGroupMemberMember]()
-
+[Get-AzureRmADGroupMemberMember](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroupMemberMember.md)

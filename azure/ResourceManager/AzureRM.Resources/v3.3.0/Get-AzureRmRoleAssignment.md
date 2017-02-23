@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 488229AF-FD6D-4E1B-B3DA-E57CA781D91E
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 1:40 AM
+updated_at: 2/23/2017 2:56 AM
 ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3c4bcc63748e97d7e4c8eb5b4a45bf57a7017e6c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -169,7 +169,7 @@ Use the IncludeClassicAdministrators switch to also display the subscription adm
 ## EXAMPLES
 
 Example 1:
-@{paragraph=PS C:\\\>}
+
 
 ```
 PS C:\> Get-AzureRmRoleAssignment
@@ -178,7 +178,7 @@ PS C:\> Get-AzureRmRoleAssignment
 List all role assignments in the subscription
 
 Example 2:
-@{paragraph=PS C:\\\>}
+
 
 ```
 PS C:\> Get-AzureRmRoleAssignment -ResourceGroupName testRG -SignInName john.doe@contoso.com -ExpandPrincipalGroups
@@ -187,7 +187,7 @@ PS C:\> Get-AzureRmRoleAssignment -ResourceGroupName testRG -SignInName john.doe
 Gets all role assignments made to user john.doe@contoso.com, and the groups of which he is member, at the testRG scope or above.
 
 Example 3:
-@{paragraph=PS C:\\\>}
+
 
 ```
 PS C:\> Get-AzureRmRoleAssignment -ServicePrincipalName "http://testapp1.com"
@@ -196,7 +196,7 @@ PS C:\> Get-AzureRmRoleAssignment -ServicePrincipalName "http://testapp1.com"
 Gets all role assignments of the specified service principal
 
 Example 4:
-@{paragraph=PS C:\\\>}
+
 
 ```
 PS C:\> Get-AzureRmRoleAssignment -Scope "/subscriptions/96231a05-34ce-4eb4-aa6a-70759cbb5e83/resourcegroups/rg1/providers/Microsoft.Web/sites/site1"
