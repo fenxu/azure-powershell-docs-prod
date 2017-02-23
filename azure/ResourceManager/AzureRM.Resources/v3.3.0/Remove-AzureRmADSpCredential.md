@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 04B1E3A6-6D52-46A3-8241-2CCDB5E71642
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 2:56 AM
+updated_at: 2/23/2017 6:24 PM
 ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/14252e653b1fabd2393b93346f6d2a811c425c54/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -58,7 +58,7 @@ The credential to be removed is identified by its key ID if an individual creden
 
 ## EXAMPLES
 
-Example 1:
+### Example 1:
 
 
 ```
@@ -68,7 +68,7 @@ PS E:\> Remove-AzureRmADSpCredential -ObjectId 7663d3fb-6f86-4352-9e6d-cf9d50d5e
 This command removes a credential key from a service principal.
 In this example, the key with Id "9044423a-60a3-45ac-9ab1-09534157ebb" will be removed from the service principal.
 
-Example 2:
+### Example 2:
 
 
 ```
@@ -238,4 +238,3 @@ Accept wildcard characters: False
 [New-AzureRmADSpCredential]()
 
 [Get-AzureRmADServicePrincipal]()
-

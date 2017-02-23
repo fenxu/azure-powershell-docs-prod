@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 98836BC0-AB4F-4F24-88BE-E7DD350B71E8
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 2:56 AM
+updated_at: 2/23/2017 6:24 PM
 ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADAppCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADAppCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADAppCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/14252e653b1fabd2393b93346f6d2a811c425c54/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADAppCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -58,7 +58,7 @@ The application is identified by supplying either the application object id or a
 
 ## EXAMPLES
 
-Example 1:
+### Example 1:
 
 
 ```
@@ -68,7 +68,7 @@ PS E:\> New-AzureRmADAppCredential -ObjectId 1f89cf81-0146-4f4e-beae-2007d066841
 A new password credential is added to an existing application.
 In this example, the supplied password value is added to the application using the application object id.
 
-Example 2:
+### Example 2:
 
 
 ```
@@ -272,4 +272,3 @@ Accept wildcard characters: False
 [Remove-AzureRmADAppCredential]()
 
 [Get-AzureRmADApplication]()
-

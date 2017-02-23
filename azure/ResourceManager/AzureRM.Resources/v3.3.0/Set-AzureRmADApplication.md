@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: BA97DB6F-F64D-417E-BD72-C2EBB2EC1AA4
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 2:56 AM
+updated_at: 2/23/2017 6:24 PM
 ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/14252e653b1fabd2393b93346f6d2a811c425c54/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,7 +46,7 @@ To update the credentials associated with this application, please use New-Azure
 
 ## EXAMPLES
 
-Example 1:
+### Example 1:
 
 
 ```
@@ -55,7 +55,7 @@ PS E:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 
 
 Updates the properties of an existing azure active directory application with objectId "fb7b3405-ca44-4b5b-8584-12392f5d96d7".
 
-Example 2:
+### Example 2:
 
 
 ```
@@ -259,4 +259,3 @@ Accept wildcard characters: False
 [Get-AzureRmADAppCredential]()
 
 [Remove-AzureRmADAppCredential]()
-

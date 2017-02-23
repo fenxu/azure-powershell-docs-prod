@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 7740AC3B-F643-4F8D-8DC5-ACBF59323BD8
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 2:56 AM
+updated_at: 2/23/2017 6:24 PM
 ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/14252e653b1fabd2393b93346f6d2a811c425c54/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,13 +45,12 @@ Get-AzureRmRoleDefinition [-Scope <String>] [-Custom] [-AtScopeAndBelow]
 ```
 
 ## DESCRIPTION
-Use the Get-AzureRmRoleDefinition command with a particular role name to view its details.
+Use the **Get-AzureRmRoleDefinition** command with a particular role name to view its details.
 To inspect individual operations that a role grants access to, review the Actions and NotActions properties of the role.
 
 ## EXAMPLES
 
-Example 1:
-
+### Example 1:
 
 ```
 PS C:\> Get-AzureRmRoleDefinition -Name Reader
@@ -59,8 +58,7 @@ PS C:\> Get-AzureRmRoleDefinition -Name Reader
 
 Get the Reader role definition
 
-Example 2:
-
+### Example 2:
 
 ```
 PS C:\> Get-AzureRmRoleDefinition
@@ -202,4 +200,3 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 [New-AzureRmRoleDefinition]()
 
 [Remove-AzureRmRoleDefinition]()
-
