@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: D602F910-B26F-473D-B5B6-C7BDFB0A14CB
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 2/23/2017 1:40 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3c4bcc63748e97d7e4c8eb5b4a45bf57a7017e6c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -98,7 +98,7 @@ In order to update the application specific parameters please use Set-AzureRmADA
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+Example 1:
 @{paragraph=PS C:\\\>}
 
 ```
@@ -111,7 +111,7 @@ DisplayName                    Type                           ObjectId
 -----------                    ----                           --------
 DemoApp                        ServicePrincipal               f95b6f5c-fc98-4af0-bb8a-34a14ca1dca1
 
-### --------------------------  Example 2  --------------------------
+Example 2:
 @{paragraph=PS C:\\\>}
 
 ```

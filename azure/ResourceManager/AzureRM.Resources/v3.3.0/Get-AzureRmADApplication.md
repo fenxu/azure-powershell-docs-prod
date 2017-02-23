@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 66AC5120-80B1-46F2-AA51-132BF361602E
 online version: 
 schema: 2.0.0
-updated_at: 2/8/2017 5:37 PM
-ms.date: 2/8/2017
+updated_at: 2/23/2017 1:40 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a574fd51c9bb6e03657bea852620f4b4f492ac8c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3c4bcc63748e97d7e4c8eb5b4a45bf57a7017e6c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -62,7 +62,7 @@ If no parameter is provided, the cmdlet gets all applications under the tenant.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+Example 1:
 @{paragraph=PS C:\\\>}
 
 ```
@@ -71,7 +71,7 @@ PS E:\> Get-AzureRmADApplication
 
 Lists all the applications under a tenant.
 
-### --------------------------  Example 2  --------------------------
+Example 2:
 @{paragraph=PS C:\\\>}
 
 ```

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 2D882B33-2B62-4785-AF8F-5F4644E9504D
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 2/23/2017 1:40 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmRoleDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmRoleDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmRoleDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3c4bcc63748e97d7e4c8eb5b4a45bf57a7017e6c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmRoleDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -49,14 +49,14 @@ If there are existing role assignments made to the custom role to be deleted, th
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+Example 1:
 @{paragraph=PS C:\\\>}
 
 ```
 Get-AzureRmRoleDefinition -Name "Virtual Machine Operator" | Remove-AzureRmRoleDefinition
 ```
 
-### --------------------------  Example 2  --------------------------
+Example 2:
 @{paragraph=PS C:\\\>}
 
 ```

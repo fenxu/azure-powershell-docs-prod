@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: BA97DB6F-F64D-417E-BD72-C2EBB2EC1AA4
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 2/23/2017 1:40 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3c4bcc63748e97d7e4c8eb5b4a45bf57a7017e6c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,7 +46,7 @@ To update the credentials associated with this application, please use New-Azure
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+Example 1:
 @{paragraph=PS C:\\\>}
 
 ```
@@ -55,7 +55,7 @@ PS E:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 
 
 Updates the properties of an existing azure active directory application with objectId "fb7b3405-ca44-4b5b-8584-12392f5d96d7".
 
-### --------------------------  Example 2  --------------------------
+Example 2:
 @{paragraph=PS C:\\\>}
 
 ```

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: E460D108-2BF9-4F57-AF3D-13868DC73EA0
 online version: 
 schema: 2.0.0
-updated_at: 11/8/2016 12:38 AM
-ms.date: 11/8/2016
+updated_at: 2/23/2017 1:40 AM
+ms.date: 2/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04b9ae2d1c44a3ada330f570237886794cede893/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3c4bcc63748e97d7e4c8eb5b4a45bf57a7017e6c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -120,7 +120,7 @@ ResourceName, ResourceType, ResourceGroupName and (optionally) ParentResource - 
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+Example 1:
 @{paragraph=PS C:\\\>}
 
 ```
@@ -129,7 +129,7 @@ PS C:\> New-AzureRmRoleAssignment -ResourceGroupName rg1 -SignInName allen.young
 
 Grant Reader role access to a user at a resource group scope
 
-### --------------------------  Example 2  --------------------------
+Example 2:
 @{paragraph=PS C:\\\>}
 
 ```
@@ -144,7 +144,7 @@ PS C:\> Get-AzureRMADGroup -SearchString "Christine Koch Team"
 
 Grant access to a security group
 
-### --------------------------  Example 3  --------------------------
+Example 3:
 @{paragraph=PS C:\\\>}
 
 ```
@@ -153,7 +153,7 @@ PS C:\> New-AzureRmRoleAssignment -SignInName john.doe@contoso.com -RoleDefiniti
 
 Grant access to a user at a resource (website)
 
-### --------------------------  Example 4  --------------------------
+Example 4:
 @{paragraph=PS C:\\\>}
 
 ```
