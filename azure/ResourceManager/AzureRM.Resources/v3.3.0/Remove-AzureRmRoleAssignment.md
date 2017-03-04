@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 8C1D738C-825D-4718-AD2A-9CFEAA7DBD3B
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 2:56 AM
-ms.date: 2/23/2017
+updated_at: 3/4/2017 8:24 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmRoleAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmRoleAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -97,49 +97,45 @@ Remove-AzureRmRoleAssignment -ServicePrincipalName <String> [-Scope <String>] -R
 ```
 
 ## DESCRIPTION
-Use the Remove-AzureRmRoleAssignment commandlet to revoke access to any principal at given scope and given role.
+The **Remove-AzureRmRoleAssignment** cmdlet to revoke access to any principal at given scope and given role.
 
 The object of the assignment i.e.
-the principal MUST be specified.
-The principal can be a user (use SignInName or ObjectId parameters to identify a user), security group (use ObjectId parameter to identify a group) or service principal (use ServicePrincipalName or ObjectId parameters to identify a ServicePrincipal.
+the principal must be specified.
+The principal can be a user (use the *SignInName* or *ObjectId* parameters to identify a user), security group (use the *ObjectId* parameter to identify a group), or service principal (use the *ServicePrincipalName* or *ObjectId* parameters to identify a ServicePrincipal).
 
-The role that the principal is assigned to MUST be specified using the RoleDefinitionName parameter.
+The role that the principal is assigned to must be specified using the *RoleDefinitionName* parameter.
 
 The scope of the assignment MAY be specified and if not specified, defaults to the subscription scope i.e.
 it will try to delete an assignment to the specified principal and role at the subscription scope.
 The scope of the assignment can be specified using one of the following parameters.
-        a.
-Scope - This is the fully qualified scope starting with /subscriptions/\<subscriptionId\>
-        b.
-ResourceGroupName - Name of any resource group under the subscription.
-        c.
-ResourceName, ResourceType, ResourceGroupName and (optionally) ParentResource - Identifies a particular resource under the subscription.
+  
+- Scope - This is the fully qualified scope starting with /subscriptions/\<subscriptionId\>  
+- ResourceGroupName - Name of any resource group under the subscription.
+- ResourceName, ResourceType, ResourceGroupName and (optionally) ParentResource - Identifies a particular resource under the subscription.
 
 ## EXAMPLES
 
-Example 1:
-
+### Example 1: Remove a role assignment
 
 ```
-PS C:\> Remove-AzureRmRoleAssignment -ResourceGroupName rg1 -SignInName john.doe@contoso.com -RoleDefinitionName Reader
+PS C:\> Remove-AzureRmRoleAssignment -ResourceGroupName "Rg1" -SignInName "patti.fuller@contoso.com" -RoleDefinitionName Reader
 ```
 
-Removes a role assignment for john.doe@contoso.com who is assigned to the Reader role at the rg1 resourcegroup scope.
+This command removes a role assignment for the user named patti.fuller@contoso.com who is assigned to the Reader role at the resource group named Rg1.
 
-Example 2:
-
+### Example 2: Remove a role assignment specified by ObjectId
 
 ```
 PS C:\> Remove-AzureRmRoleAssignment -ObjectId 36f81fc3-b00f-48cd-8218-3879f51ff39f -RoleDefinitionName Reader
 ```
 
-Removes the role assignment to the group principal identified by the ObjectId and assigned to the Reader role.
+This command removes the role assignment to the group principal identified by the ObjectId and assigned to the Reader role.
 Defaults to using the current subscription as the scope to find the assignment to be deleted.
 
 ## PARAMETERS
 
 ### -ObjectId
-Azure AD ObjectId of the user, group or service principal.
+Specifies the Azure Active Directory Object ID of the user, group, or service principal.
 
 ```yaml
 Type: Guid
@@ -154,9 +150,9 @@ Accept wildcard characters: False
 ```
 
 ### -Scope
-The Scope of the role assignment to be deleted.
+Specifies the Scope of the role assignment that this cmdlet removes.
 In the format of relative URI.
-For e.g.
+For instance:
 "/subscriptions/9004a9fd-d58e-48dc-aeb2-4a4aec58606f/resourceGroups/TestRG".
 If not specified, will attempt to delete the role at subscription level.
 If specified, it should start with "/subscriptions/{id}".
@@ -174,8 +170,7 @@ Accept wildcard characters: False
 ```
 
 ### -RoleDefinitionName
-Name of the RBAC role for which the assignment needs to be deleted i.e.
-Reader, Contributor, Virtual Network Administrator, etc.
+Specifies the name of the RBAC role for which this cmdlet removes.
 
 ```yaml
 Type: String
@@ -190,7 +185,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-If specified, displays the deleted role assignment
+Returns an object representing the item with which you are working. By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -244,7 +239,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -274,9 +270,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The resource group name that the role is assigned to.
+Specifies the resource group name that the role is assigned to.
 Attempts to delete an assignment at the specified resource group scope.
-When used in conjunction with ResourceName, ResourceType and (optionally)ParentResource parameters, the command constructs a hierarchical scope in the form of a relative URI that identifies a resource.
+When used in conjunction with the *ResourceName*, *ResourceType*, and *ParentResource* parameters, the command constructs a hierarchical scope in the form of a relative URI that identifies a resource.
 
 ```yaml
 Type: String
@@ -291,10 +287,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceName
-The resource name.
-For e.g.
-storageaccountprod.
-Must be used in conjunction with ResourceGroupName, ResourceType and (optionally)ParentResource parameters, to construct a hierarchical scope in the form of a relative URI that identifies the resource and delete an assignment at that scope.
+Specifies the name of the resource.
+
+Must be used in conjunction with *ResourceGroupName*, *ResourceType*, and *ParentResource* parameters, to construct a hierarchical scope in the form of a relative URI that identifies the resource and delete an assignment at that scope.
 
 ```yaml
 Type: String
@@ -309,10 +304,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceType
-The resource type.
-For e.g.
-Microsoft.Network/virtualNetworks.
-Must be used in conjunction with ResourceGroupName, ResourceName and (optionally)ParentResource parameters to construct a hierarchical scope in the form of a relative URI that identifies the resource and delete an assignment at that resource scope.
+Specifies the type of the resource.
+
+Must be used in conjunction with *ResourceGroupName*, *ResourceName*, and *ParentResource* parameters to construct a hierarchical scope in the form of a relative URI that identifies the resource and delete an assignment at that resource scope.
 
 ```yaml
 Type: String
@@ -327,8 +321,8 @@ Accept wildcard characters: False
 ```
 
 ### -ParentResource
-The parent resource in the hierarchy(of the resource specified using ResourceName parameter), if any.
-Must be used in conjunction with ResourceGroupName, ResourceType and ResourceName parameters to construct a hierarchical scope in the form of a relative URI that identifies the resource.
+Specifies the parent resource in the hierarchy.
+Must be used in conjunction with the *ResourceGroupName*, *ResourceType*, and *ResourceName* parameters to construct a hierarchical scope in the form of a relative URI that identifies the resource.
 
 ```yaml
 Type: String
@@ -343,7 +337,7 @@ Accept wildcard characters: False
 ```
 
 ### -RoleDefinitionId
-Id of the RBAC role for which the assignment needs to be deleted.
+Specifies the ID of the RBAC role for which the cmdlet removes the assignment.
 
 ```yaml
 Type: Guid
@@ -358,7 +352,7 @@ Accept wildcard characters: False
 ```
 
 ### -SignInName
-The email address or the user principal name of the user.
+Specifies the email address or the user principal name of the user.
 
 ```yaml
 Type: String
@@ -373,7 +367,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalName
-The ServicePrincipalName of the Azure AD application
+Specifies the Service Principal Name (SPN) of the Azure Active Directory application.
 
 ```yaml
 Type: String
@@ -396,9 +390,8 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 
 ## RELATED LINKS
 
-[New-AzureRmRoleAssignment]()
+[Get-AzureRmRoleAssignment](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleAssignment.md)
 
-[Get-AzureRmRoleAssignment]()
+[New-AzureRmRoleAssignment](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md)
 
-[Get-AzureRmRoleDefinition]()
-
+[Get-AzureRmRoleDefinition](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleDefinition.md)

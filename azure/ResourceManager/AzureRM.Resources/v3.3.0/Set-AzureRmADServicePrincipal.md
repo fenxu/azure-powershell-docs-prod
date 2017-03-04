@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 7B8C8239-16A3-4C47-9D6F-DE31885532F4
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 6:24 PM
-ms.date: 2/23/2017
+updated_at: 3/4/2017 8:24 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/14252e653b1fabd2393b93346f6d2a811c425c54/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Set-AzureRmADServicePrincipal
 
 ## SYNOPSIS
-Updates an existing azure active directory service principal.
+Updates an existing Azure Active Directory service principal.
 
 ## SYNTAX
 
@@ -39,34 +39,32 @@ Set-AzureRmADServicePrincipal -ServicePrincipalName <String> -DisplayName <Strin
 ```
 
 ## DESCRIPTION
-Updates an existing azure active directory service principal. 
-To update the credentials associated with this service principal, please use New-AzureRmADSpCredential cmdlet. 
-To update the properties associated with the underlying application, please use Set-AzureRmADApplication cmdlet.
+The **Set-AzureRmADServicePrincipal** cmdlet updates an existing Azure Active Directory service principal. 
+To update the credentials associated with this service principal, use the [New-AzureRmADSpCredential](./New-AzureRmADSpCredential.md) cmdlet. 
+To update the properties associated with the underlying application, use the [Set-AzureRmADApplication](./Set-AzureRmADApplication.md) cmdlet.
 
 ## EXAMPLES
 
-### Example 1:
-
-
-```
-Set-AzureRmADServicePrincipal -ObjectId 784136ca-3ae2-4fdd-a388-89d793e7c780 -DisplayName "UpdatedNameForSp"
-```
-
-Updates the display name for the service principal with specified object id.
-
-### Example 2:
-
+### Example 1: Update the display name for the specified service principal by object ID
 
 ```
-Set-AzureRmADServicePrincipal -ServicePrincipalName "http://MyApp1" -DisplayName "UpdatedNameforSp"
+PS C:\> Set-AzureRmADServicePrincipal -ObjectId 784136ca-3ae2-4fdd-a388-89d793e7c780 -DisplayName "UpdatedNameForSp"
 ```
 
-Updates the display name for the service principal with specified service principal name.
+This command updates the display name for the service principal with specified object ID.
+
+### Example 2: Update the display name for the specified service principal by name
+
+```
+PS C:\> Set-AzureRmADServicePrincipal -ServicePrincipalName "http://MyApp1" -DisplayName "UpdatedNameforSp"
+```
+
+This command updates the display name for the service principal with specified service principal name.
 
 ## PARAMETERS
 
 ### -ObjectId
-The object id of the service principal to update.
+Specifies the object id of the service principal that this cmdlet updates.
 
 ```yaml
 Type: String
@@ -81,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-New display name for the service principal.
+Specifies the new display name for the service principal.
 
 ```yaml
 Type: String
@@ -135,7 +133,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -165,7 +164,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalName
-The SPN of service principal to update.
+Specifies the Service Principal Name (SPN) of service principal that this cmdlet updates.
 
 ```yaml
 Type: String
@@ -187,14 +186,14 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[New-AzureRmADServicePrincipal]()
+[Get-AzureRmADServicePrincipal](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADServicePrincipal.md)
 
-[Get-AzureRmADServicePrincipal]()
+[New-AzureRmADServicePrincipal](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADServicePrincipal.md)
 
-[Remove-AzureRmADServicePrincipal]()
+[Remove-AzureRmADServicePrincipal](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md)
 
-[Set-AzureRmADApplication]()
+[Set-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md)
 
-[New-AzureRmADSpCredential]()
+[New-AzureRmADSpCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADSpCredential.md)
 
-[Remove-AzureRmADSpCredential]()
+[Remove-AzureRmADSpCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md)

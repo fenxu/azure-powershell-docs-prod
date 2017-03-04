@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 9F9B2691-BB3F-4644-BD95-6D74777D1E99
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 3/4/2017 8:24 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmADUser
 
 ## SYNOPSIS
-Deletes an active directory user.
+Removes an Azure Active Directory user.
 
 ## SYNTAX
 
@@ -32,21 +32,14 @@ Remove-AzureRmADUser -UPNOrObjectId <String> [-Force] [-InformationAction <Actio
 ```
 
 ## DESCRIPTION
-Deletes an active directory user (work/school account also popularly known as org-id).
+The **Remove-AzureRmADUser** cmdlet removes an Active Directory User.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -UPNOrObjectId
-The user principal name or the objectId of the user to be deleted.
+Specifies the user principal name or the object ID of the user that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -61,7 +54,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-If specified, doesn't ask for confirmation for deleting user.
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -115,7 +108,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -152,9 +146,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[New-AzureRmADUser]()
+[New-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADUser.md)
 
-[Get-AzureRmADUser]()
+[Get-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADUser.md)
 
-[Set-AzureRmADUser]()
-
+[Set-AzureRmADUser](Set-AzureRmADUser.md)

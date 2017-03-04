@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 07AB209D-A780-4EFC-A9E7-8D035F27C7EE
-updated_at: 2/8/2017 5:37 PM
-ms.date: 2/8/2017
+updated_at: 3/4/2017 8:24 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a574fd51c9bb6e03657bea852620f4b4f492ac8c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
 uid: ResourceManager/AzureRM.Resources/v3.3.0/AzureRM.Resources.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -106,10 +106,10 @@ Moves a resource to a different resource group or subscription.
 Adds a credential to an existing application.
 
 ### [New-AzureRmADApplication](New-AzureRmADApplication.md)
-Creates a new azure active directory application.
+Creates a new Azure Active Directory application.
 
 ### [New-AzureRmADServicePrincipal](New-AzureRmADServicePrincipal.md)
-Creates a new azure active directory service principal.
+Creates a new Azure Active Directory service principal.
 
 ### [New-AzureRmADSpCredential](New-AzureRmADSpCredential.md)
 Adds a credential to an existing service principal.
@@ -151,10 +151,10 @@ Registers a resource provider.
 Removes a credential from an application.
 
 ### [Remove-AzureRmADApplication](Remove-AzureRmADApplication.md)
-Deletes the azure active directory application.
+Deletes the Azure Active Directory application.
 
 ### [Remove-AzureRmADServicePrincipal](Remove-AzureRmADServicePrincipal.md)
-Deletes the azure active directory service principal.
+Deletes the Azure Active Directory service principal.
 
 ### [Remove-AzureRmADSpCredential](Remove-AzureRmADSpCredential.md)
 Removes a credential from a service principal.
@@ -190,10 +190,10 @@ Deletes a custom role in Azure RBAC.
 Saves a resource group deployment template to a file.
 
 ### [Set-AzureRmADApplication](Set-AzureRmADApplication.md)
-Updates an existing azure active directory application.
+Updates an existing Azure Active Directory application.
 
 ### [Set-AzureRmADServicePrincipal](Set-AzureRmADServicePrincipal.md)
-Updates an existing azure active directory service principal.
+Updates an existing Azure Active Directory service principal.
 
 ### [Set-AzureRmADUser](Set-AzureRmADUser.md)
 Updates an existing active directory user.
