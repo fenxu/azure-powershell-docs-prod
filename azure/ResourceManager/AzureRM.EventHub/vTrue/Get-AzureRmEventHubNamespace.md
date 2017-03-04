@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
+updated_at: 3/4/2017 10:59 PM
 ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0c1c57557829477d874abc8de5f8d3e3afd181dc/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,17 +34,17 @@ The **Get-AzureRmEventHubNamespace** cmdlet gets either the details of a specifi
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the details of an Event Hub
 ```
 PS C:\> Get-AzureRmEventHubNamespace -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName
 ```
 
-Gets the details of the Event Hubs namespace `MyNamespaceName` in the resource group `MyResourceGroupName`.
+This command gets the details of the Event Hubs namespace named MyNamespaceName in the resource group named MyResourceGroupName.
 
 ## PARAMETERS
 
 ### -NamespaceName
-The Event Hubs namespace name.
+Specifies the name of the Event Hubs namespace.
 
 ```yaml
 Type: String
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource group name.
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -88,3 +88,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[New-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespace.md)
+
+[Remove-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/vTrue/Remove-AzureRmEventHubNamespace.md)
+
+[Set-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/vTrue/Set-AzureRmEventHubNamespace.md)
