@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 585D6C4D-EA80-4E6B-8C36-E7632430431F
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 9:04 PM
+updated_at: 3/4/2017 9:58 PM
 ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bec63546b7019ebbd5496855d44bd7f748203fb2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7761f732d57261bdc233763ac2d243d320e93043/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmDataLakeStoreAccount
 
 ## SYNOPSIS
-Deletes a Data Lake Store account permanently.
+Removes a Data Lake Store account permanently.
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ Remove-AzureRmDataLakeStoreAccount [-Name] <String> [[-ResourceGroupName] <Strin
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmDataLakeStoreAccount** cmdlet deletes a Data Lake Store account permanently.
+The **Remove-AzureRmDataLakeStoreAccount** cmdlet removes a Data Lake Store account permanently.
 
 ## EXAMPLES
 
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the account to remove.
+Specifies the name of the account that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -155,5 +155,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreAccount.md)
 
 [Test-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Test-AzureRmDataLakeStoreAccount.md)
-
-

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 90630395-8747-4446-A879-323274811956
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 9:04 PM
+updated_at: 3/4/2017 9:58 PM
 ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Import-AzureRmDataLakeStoreItem.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Import-AzureRmDataLakeStoreItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bec63546b7019ebbd5496855d44bd7f748203fb2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Import-AzureRmDataLakeStoreItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7761f732d57261bdc233763ac2d243d320e93043/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Import-AzureRmDataLakeStoreItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -101,7 +101,9 @@ Accept wildcard characters: False
 ```
 
 ### -DiagnosticLogLevel
-Optionally indicates the diagnostic log level to use to record events during the file or folder import. Default is Error.```yaml
+Specifies the diagnostic log level to use to record events during the file or folder import. The default value is Error.
+
+```yaml
 Type: LogLevel
 Parameter Sets: Include diagnostic logging
 Aliases: 
@@ -114,7 +116,9 @@ Accept wildcard characters: False
 ```
 
 ### -DiagnosticLogPath
-Specifies the path for the diagnostic log to record events to during the file or folder import.```yaml
+Specifies the path for the diagnostic log to record events to during the file or folder import.
+
+```yaml
 Type: String
 Parameter Sets: Include diagnostic logging
 Aliases: 
@@ -272,5 +276,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItem.md)
 
 [Test-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Test-AzureRmDataLakeStoreItem.md)
-
-

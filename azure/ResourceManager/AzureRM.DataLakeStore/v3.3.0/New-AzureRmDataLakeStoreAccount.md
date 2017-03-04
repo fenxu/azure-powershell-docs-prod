@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 58AAA284-45A3-4360-B321-FBE0A3F5D7A9
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 9:04 PM
+updated_at: 3/4/2017 9:58 PM
 ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/New-AzureRmDataLakeStoreAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/New-AzureRmDataLakeStoreAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bec63546b7019ebbd5496855d44bd7f748203fb2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/New-AzureRmDataLakeStoreAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7761f732d57261bdc233763ac2d243d320e93043/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/New-AzureRmDataLakeStoreAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # New-AzureRmDataLakeStoreAccount
 
 ## SYNOPSIS
-Creates a new Data Lake Store account.
+Creates a Data Lake Store account.
 
 ## SYNTAX
 
@@ -41,7 +41,7 @@ New-AzureRmDataLakeStoreAccount [-ResourceGroupName] <String> [-Name] <String> [
 ```
 
 ## DESCRIPTION
-The **New-AzureRmDataLakeStoreAccount** cmdlet creates a new Data Lake Store account.
+The **New-AzureRmDataLakeStoreAccount** cmdlet creates a Data Lake Store account.
 
 ## EXAMPLES
 
@@ -55,7 +55,7 @@ This command creates a Data Lake Store account named ContosoADL for the East US 
 ## PARAMETERS
 
 ### -DefaultGroup
-Specifies the object ID of the AzureActive Directory group to use as the default group owner for new files and folders.
+Specifies the object ID of the Azure Active Directory group to use as the default group owner for new files and folders.
 
 ```yaml
 Type: String
@@ -70,7 +70,9 @@ Accept wildcard characters: False
 ```
 
 ### -DisableEncryption
-Indicates that the account will not have any form of encryption applied to it.```yaml
+Indicates that the account will not have any form of encryption applied to it.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: Disable Encryption
 Aliases: 
@@ -83,6 +85,8 @@ Accept wildcard characters: False
 ```
 
 ### -Encryption
+Specifies the type of encryption that this cmdlet applies to the new account.
+
 ```yaml
 Type: EncryptionConfigType
 Parameter Sets: User or System assigned encryption
@@ -153,7 +157,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the account to create.
+Specifies the name of the account that this cmdlet creates.
 
 ```yaml
 Type: String
@@ -199,7 +203,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tier
-The desired commitment tier for this account to use.```yaml
+Specifies the desired commitment tier for this account to use.
+
+```yaml
 Type: TierType
 Parameter Sets: (All)
 Aliases: 
@@ -229,5 +235,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreAccount.md)
 
 [Test-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Test-AzureRmDataLakeStoreAccount.md)
-
-

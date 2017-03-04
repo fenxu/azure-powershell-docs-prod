@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 0671D833-8B3A-4480-A576-92F1A9E8CE92
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 9:04 PM
+updated_at: 3/4/2017 9:58 PM
 ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreItemAclEntry.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreItemAclEntry.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bec63546b7019ebbd5496855d44bd7f748203fb2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreItemAclEntry.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7761f732d57261bdc233763ac2d243d320e93043/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreItemAclEntry.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-Specifies the object ID of the AzureActive Directory user, group, or service principal for which to modify an ACE.
+Specifies the object ID of the Azure Active Directory user, group, or service principal for which to modify an ACE.
 
 ```yaml
 Type: Guid
@@ -135,7 +135,9 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Indicates the resulting ACL should be returned.```yaml
+Indicates the resulting ACL should be returned.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -230,5 +232,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Remove-AzureRmDataLakeStoreItemAclEntry](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItemAclEntry.md)
-
-

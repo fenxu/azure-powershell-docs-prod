@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 0EB5C25C-D0A1-4444-AEA2-C963D5069CFC
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 9:04 PM
+updated_at: 3/4/2017 9:58 PM
 ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bec63546b7019ebbd5496855d44bd7f748203fb2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7761f732d57261bdc233763ac2d243d320e93043/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,7 @@ This command adds the specified tag to the Data Lake Store account named Contoso
 ## PARAMETERS
 
 ### -DefaultGroup
-Specifies the ID of an AzureActive Directory group.
+Specifies the ID of an Azure Active Directory group.
 This group is the default group for files and folders that you create.
 
 ```yaml
@@ -63,7 +63,9 @@ Accept wildcard characters: False
 ```
 
 ### -FirewallState
-Optionally enable or disable existing firewall rules.```yaml
+Specifies the existing firewall rules.
+
+```yaml
 Type: FirewallState
 Parameter Sets: (All)
 Aliases: 
@@ -91,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group that contains the Data Lake Store account to modify.
+Specifies the name of the resource group that contains the Data Lake Store account that this cmdlet modifies.
 
 ```yaml
 Type: String
@@ -122,7 +124,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tier
-The desired commitment tier for this account to use.```yaml
+Specifies the desired commitment tier for this account to use.
+
+```yaml
 Type: TierType
 Parameter Sets: (All)
 Aliases: 
@@ -135,7 +139,9 @@ Accept wildcard characters: False
 ```
 
 ### -TrustedIdProviderState
-Optionally enable or disable the existing trusted ID providers.```yaml
+Specifies the existing trusted ID providers.
+
+```yaml
 Type: TrustedIdProviderState
 Parameter Sets: (All)
 Aliases: 
@@ -165,5 +171,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreAccount.md)
 
 [Test-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Test-AzureRmDataLakeStoreAccount.md)
-
-

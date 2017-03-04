@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 33E7607E-C2BC-4F46-9038-91AC92041F00
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 9:04 PM
+updated_at: 3/4/2017 9:58 PM
 ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItemAclEntry.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItemAclEntry.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bec63546b7019ebbd5496855d44bd7f748203fb2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItemAclEntry.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7761f732d57261bdc233763ac2d243d320e93043/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItemAclEntry.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -89,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -Acl
-Specifies the ACL object that contains the entries to be removed.
+Specifies the ACL object that contains the entries that this cmdlet removes.
 
 ```yaml
 Type: DataLakeStoreItemAce[]
@@ -134,7 +134,9 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Indicates a boolean response should be returned indicating the result of the delete operation.```yaml
+Returns an object representing the item with which you are working. By default, this cmdlet does not generate any output.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -204,5 +206,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Set-AzureRmDataLakeStoreItemAclEntry](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreItemAclEntry.md)
-
-

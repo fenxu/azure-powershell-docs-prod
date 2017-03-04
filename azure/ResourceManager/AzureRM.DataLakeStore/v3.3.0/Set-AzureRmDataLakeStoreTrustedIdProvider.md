@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: BDEF8BAA-0C64-465D-9ED4-6FEFC1E850CC
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/4/2017 9:58 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreTrustedIdProvider.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreTrustedIdProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreTrustedIdProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7761f732d57261bdc233763ac2d243d320e93043/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreTrustedIdProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -32,27 +32,21 @@ Set-AzureRmDataLakeStoreTrustedIdProvider [-Account] <String> [-Name] <String> [
 ```
 
 ## DESCRIPTION
-The Set-AzureRmDataLakeStoreTrustedIdProvider cmdlet modifies the specified trusted identity provider in the specified Data Lake Store.
+The **Set-AzureRmDataLakeStoreTrustedIdProvider** cmdlet modifies the specified trusted identity provider in the specified Data Lake Store.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Update a Trusted Identity Provider Endpoint  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
-
-
+### Example 1: Update a Trusted Identity Provider Endpoint
 ```
 PS C:\> Set-AzureRmDataLakeStoreTrustedIdProvider -AccountName "ContosoADL" -Name MyProvider -ProviderEndpoint "https://sts.windows.net/6b04908c-b91f-40ce-8024-7ee8a4fd6150"
 ```
 
-This updates the provider endpoing for firewall rule "MyProvider" in account "ContosoADL" to "https://sts.windows.net/6b04908c-b91f-40ce-8024-7ee8a4fd6150"
+This command updates the provider endpoint for the firewall rule named MyProvider in the account named ContosoADL to "https://sts.windows.net/6b04908c-b91f-40ce-8024-7ee8a4fd6150".
 
 ## PARAMETERS
 
 ### -Account
-The Data Lake Store account to add the trusted identity provider to
+Specifies the Data Lake Store account that this cmdlet adds the trusted identity provider.
 
 ```yaml
 Type: String
@@ -67,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the trusted identity provider.
+Specifies the name of the trusted identity provider.
 
 ```yaml
 Type: String
@@ -82,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -ProviderEndpoint
-The valid trusted provider endpoint in the format: https://sts.windows.net/\<provider identity\>
+Specifies the valid trusted provider endpoint in the format: https://sts.windows.net/\<provider identity\>.
 
 ```yaml
 Type: String
@@ -127,6 +121,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -152,3 +149,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Add-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreTrustedIdProvider.md)
+
+[Get-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreTrustedIdProvider.md)
+
+[Remove-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreTrustedIdProvider.md)
