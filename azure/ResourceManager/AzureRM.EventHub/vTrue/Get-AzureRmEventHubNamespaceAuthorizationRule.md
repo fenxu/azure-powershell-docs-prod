@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
+updated_at: 3/4/2017 11:15 PM
 ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespaceAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespaceAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespaceAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8aece1276288c5578887f86c0a405ee571350a5c/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespaceAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,31 +35,31 @@ The **Get-AzureRmEventHubNamespaceAuthorizationRule** cmdlet gets either the det
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get an authorization rule
 ```
-PS C:\> Get-AzureRmEventHubNamespaceAuthorizationRule -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -AuthorizationRuleName MyAuthRuleName
-```
-
-Returns the authorization rule `MyAuthRuleName` in the Event Hubs namespace `MyNamespaceName`, with the resource group `MyResourceGroupName`.
-
-### Example 2
-```
-PS C:\> Get-AzureRmEventHubNamespaceAuthorizationRule -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -AuthorizationRuleName RootManageSharedAccessKey
+PS C:\> Get-AzureRmEventHubNamespaceAuthorizationRule -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -AuthorizationRuleName "MyAuthRuleName"
 ```
 
-Returns the default authorization rule `RootManageSharedAccessKey` in the Event Hubs namespace `MyNamespaceName`, with the resource group `MyResourceGroupName`.
+This command gets the authorization rule named MyAuthRuleName in the Event Hubs namespace named MyNamespaceName, that is contained in the resource group named MyResourceGroupName.
 
-### Example 3
+### Example 2: Get an authorization rule 
 ```
-PS C:\> Get-AzureRmEventHubNamespaceAuthorizationRule -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName
+PS C:\> Get-AzureRmEventHubNamespaceAuthorizationRule -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -AuthorizationRuleName "RootManageSharedAccessKey"
 ```
 
-Returns all authorization rules in the Event Hubs namespace `MyNamespaceName`, with the resource group `MyResourceGroupName`.
+This command gets the default authorization rule named RootManageSharedAccessKey in the Event Hubs namespace named MyNamespaceName, that is contained in the resource group named MyResourceGroupName.
+
+### Example 3: Get all authorization rules
+```
+PS C:\> Get-AzureRmEventHubNamespaceAuthorizationRule -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName"
+```
+
+This command gets all authorization rules in the Event Hubs namespace nmaed MyNamespaceName, that is contained in the resource group named MyResourceGroupName.
 
 ## PARAMETERS
 
 ### -AuthorizationRuleName
-The Event Hubs namespace authorization rule name.
+Specifies the name of the Event Hubs namespace authorization rule.
 
 ```yaml
 Type: String
@@ -74,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-The Event Hubs namespace name.
+Specifies the name of the Event Hubs namespace.
 
 ```yaml
 Type: String
@@ -89,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource group name.
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -118,3 +118,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[New-AzureRmEventHubNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespaceAuthorizationRule.md)
+
+[Remove-AzureRmEventHubNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.EventHub/vTrue/Remove-AzureRmEventHubNamespaceAuthorizationRule.md)
+
+[Set-AzureRmEventHubNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.EventHub/vTrue/Set-AzureRmEventHubNamespaceAuthorizationRule.md)
