@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: C6FD4734-720C-4C8C-9B58-EDB331DD6415
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/4/2017 9:04 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreFirewallRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bec63546b7019ebbd5496855d44bd7f748203fb2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -32,27 +32,21 @@ Add-AzureRmDataLakeStoreFirewallRule [-Account] <String> [-Name] <String> [-Star
 ```
 
 ## DESCRIPTION
-The Add-AzureRmDataLakeStoreFirewallRule cmdlet adds a firewall rule to the specified Data Lake Store account.
+The **Add-AzureRmDataLakeStoreFirewallRule** cmdlet adds a firewall rule to the specified Data Lake Store account.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Add a new firewall rule to a Data Lake Store account  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
-
-
+### Example 1: Add a new firewall rule to a Data Lake Store account
 ```
 PS C:\> Add-AzureRmDataLakeStoreFirewallRule -AccountName "ContosoADL" -Name MyRule -StartIpAddress "127.0.0.1" -EndIpAddress "127.0.0.2"
 ```
 
-This creates a new firewall rule called "MyRule" in account "ContosoADL" with an IP range of 127.0.0.1 - 127.0.0.2
+This command creates a firewall rule called MyRule in account ContosoADL with an IP range of 127.0.0.1 - 127.0.0.2.
 
 ## PARAMETERS
 
 ### -Account
-The Data Lake Store account to add the firewall rule to
+Specifies the Data Lake Store account that this cmdlet adds the firewall rule to.
 
 ```yaml
 Type: String
@@ -67,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndIpAddress
-The end of the valid ip range for the firewall rule
+Specifies the end of the valid IP range for the firewall rule.
 
 ```yaml
 Type: String
@@ -82,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the firewall rule to add.
+Specifies the name of the firewall rule that this cmdlet adds.
 
 ```yaml
 Type: String
@@ -97,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Name of resource group under which the account to add the firewall rule is.
+Specifies the name of resource group under which the account to add the firewall rule.
 
 ```yaml
 Type: String
@@ -112,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartIpAddress
-The start of the valid ip range for the firewall rule
+Specifies the start of the valid IP range for the firewall rule.
 
 ```yaml
 Type: String
@@ -142,6 +136,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -167,3 +164,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreFirewallRule.md)
+
+[Remove-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreFirewallRule.md)
+
+[Set-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreFirewallRule.md)

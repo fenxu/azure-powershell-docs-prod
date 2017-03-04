@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 5C788778-58A4-4798-AB66-1D3562BB9338
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/4/2017 9:04 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreTrustedIdProvider.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreTrustedIdProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreTrustedIdProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bec63546b7019ebbd5496855d44bd7f748203fb2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreTrustedIdProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -32,27 +32,21 @@ Add-AzureRmDataLakeStoreTrustedIdProvider [-Account] <String> [-Name] <String> [
 ```
 
 ## DESCRIPTION
-The Add-AzureRmDataLakeStoreTrustedIdProvider cmdlet adds a trusted identity provider to the specified Data Lake Store account.
+The **Add-AzureRmDataLakeStoreTrustedIdProvider** cmdlet adds a trusted identity provider to the specified Data Lake Store account.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Add a trusted identity provider  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
-
-
+### Example 1: Add a trusted identity provider
 ```
 PS C:\> Add-AzureRmDataLakeStoreTrustedIdProvider -AccountName "ContosoADL" -Name MyProvider -ProviderEndpoint "https://sts.windows.net/6b04908c-b91f-40ce-8024-7ee8a4fd6150"
 ```
 
-Adds the provider "MyProvider" to account "ContosoADL" with the provider endpoint "https://sts.windows.net/6b04908c-b91f-40ce-8024-7ee8a4fd6150"
+This command adds the provider named MyProvider to the account named ContosoADL with the provider endpoint "https://sts.windows.net/6b04908c-b91f-40ce-8024-7ee8a4fd6150".
 
 ## PARAMETERS
 
 ### -Account
-The name of the Data Lake Store account to add the specified trusted identity provider to.
+Specifies the name of the Data Lake Store account to add the specified trusted identity provider to.
 
 ```yaml
 Type: String
@@ -67,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the trusted identity provider to add
+Specifies the name of the trusted identity provider that this cmdlet adds.
 
 ```yaml
 Type: String
@@ -82,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -ProviderEndpoint
-The valid trusted provider endpoint in the format: https://sts.windows.net/\<provider identity\>"
+Specifies the valid trusted provider endpoint in the format: https://sts.windows.net/\<provider identity\>".
 
 ```yaml
 Type: String
@@ -97,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Name of resource group under which the account to add the trusted identity provider is.
+Specifies the name of resource group under which the account to add the trusted identity provider.
 
 ```yaml
 Type: String
@@ -127,6 +121,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -152,3 +149,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreTrustedIdProvider.md)
+
+[Remove-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreTrustedIdProvider.md)
+
+[Set-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreTrustedIdProvider.md)

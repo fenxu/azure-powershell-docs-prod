@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: B10B1F5D-5566-4129-9D42-05A6D3B72C9E
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/4/2017 9:04 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Export-AzureRmDataLakeStoreItem.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Export-AzureRmDataLakeStoreItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Export-AzureRmDataLakeStoreItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bec63546b7019ebbd5496855d44bd7f748203fb2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Export-AzureRmDataLakeStoreItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,7 @@ The **Export-AzureRmDataLakeStoreItem** cmdlet downloads a file from Data Lake S
 
 ### Example 1: Download an item from the Data Lake Store
 ```
-PS C:\>Export-AzureRmDataLakeStoreItem -AccountName "ContosoADL" -Path /myFiles/TestSource.csv -Destination "C:\Test.csv"
+PS C:\> Export-AzureRmDataLakeStoreItem -AccountName "ContosoADL" -Path /myFiles/TestSource.csv -Destination "C:\Test.csv"
 ```
 
 This command downloads the file TestSource.csv from the Data Lake Store to C:\Test.csv.
@@ -101,7 +101,9 @@ Accept wildcard characters: False
 ```
 
 ### -DiagnosticLogLevel
-Optionally indicates the diagnostic log level to use to record events during the file or folder import. Default is Error.```yaml
+Specifies the diagnostic log level to use to record events during the file or folder import. The default value is Error.
+
+```yaml
 Type: LogLevel
 Parameter Sets: Include diagnostic logging
 Aliases: 
@@ -114,7 +116,9 @@ Accept wildcard characters: False
 ```
 
 ### -DiagnosticLogPath
-Specifies the path for the diagnostic log to record events to during the file or folder import.```yaml
+Specifies the path for the diagnostic log to record events to during the file or folder import.
+
+```yaml
 Type: String
 Parameter Sets: Include diagnostic logging
 Aliases: 
@@ -258,5 +262,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItem.md)
 
 [Test-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Test-AzureRmDataLakeStoreItem.md)
-
-
