@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 8300B143-E322-419E-BC98-DBA56DD90A59
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 2:56 AM
-ms.date: 2/23/2017
+updated_at: 3/4/2017 6:58 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa2ae758d5790a27662a17dfad5119b5b8987494/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -23,10 +23,6 @@ ms.service: azure-powershell
 
 ## SYNOPSIS
 Creates a custom role in Azure RBAC.
-Provide either a JSON role definition file or a PSRoleDefinition object as input.
-First, use the Get-AzureRmRoleDefinition command to generate a baseline role definition object.
-Then, modify its properties as required.
-Finally, use this command to create a custom role using role definition.
 
 ## SYNTAX
 
@@ -43,23 +39,23 @@ New-AzureRmRoleDefinition [-Role] <PSRoleDefinition> [-InformationAction <Action
 ```
 
 ## DESCRIPTION
-The New-AzureRmRoleDefinition cmdlet creates a custom role in Azure Role-Based Access Control.
-Provide a role definition as an input to the command as a JSON file or a PSRoleDefinition object.
+The *New-AzureRmRoleDefinition* cmdlet creates a custom role in Azure Role-Based Access Control (RBAC).
+Provide a role definition as an input to the command as a JSON file or a **PSRoleDefinition** object.
 
 The input role definition MUST contain the following properties:
 
-1) DisplayName: the name of the custom role
+- DisplayName: the name of the custom role
 
-2) Description: a short description of the role that summarizes the access that the role grants.
+- Description: a short description of the role that summarizes the access that the role grants.
 
-3) Actions: the set of operations to which the custom role grants access.
+- Actions: the set of operations to which the custom role grants access.
 Use Get-AzureRmProviderOperations to get the operation for Azure resource providers that can be secured using Azure RBAC.
 Following are some valid operation strings:
  - "*/read" grants access to read operations of all Azure resource providers.
  - "Microsoft.Network/*/read" grants access to read operations for all resource types in the Microsoft.Network resource provider of Azure.
  - "Microsoft.Compute/virtualMachines/*" grants access to all operations of virtual machines and its child resource types.
 
-4) AssignableScopes: the set of scopes (Azure subscriptions or resource groups) in which the custom role will be available for assignment.
+- AssignableScopes: the set of scopes (Azure subscriptions or resource groups) in which the custom role will be available for assignment.
 Using AssignableScopes you can make the custom role available for assignment in only the subscriptions or resource groups that need it, and not clutter the user experience for the rest of the subscriptions or resource groups.
 Following are some valid assignable scopes:
  - "/subscriptions/c276fc76-9cd4-44c9-99a7-4fd71546436e", "/subscriptions/e91d47c4-76f3-4271-a796-21b4ecfe3624": makes the role available for assignment in two subscriptions.
@@ -68,10 +64,10 @@ Following are some valid assignable scopes:
 
 The input role definition MAY contain the following properties:
 
-1) NotActions: the set of operations that must be excluded from the Actions to determine the effective actions for the custom role.
+- NotActions: the set of operations that must be excluded from the Actions to determine the effective actions for the custom role.
 If there is a specific operation that you do not wish to grant access to in a custom role, it is convenient to use NotActions to exclude it, rather than specifying all operations other than that specific operation in Actions.
 
-NOTE: If a user is assigned a role that specifies an operation in NotActions and also assigned another role grants access to the same operation - the user will be able to perform that operation.
+If a user is assigned a role that specifies an operation in NotActions and also assigned another role grants access to the same operation - the user will be able to perform that operation.
 NotActions is not a deny rule - it is simply a convenient way to create a set of allowed operations when specific operations need to be excluded.
 
 Following is a sample json role definition that can be provided as input
@@ -96,7 +92,7 @@ Following is a sample json role definition that can be provided as input
 
 ## EXAMPLES
 
-### --------------------------  Create using PSRoleDefinitionObject  --------------------------
+### Example 1: Create a custom role in Azure RBAC
 
 
 ```
@@ -121,18 +117,19 @@ PS C:\> $role = Get-AzureRmRoleDefinition -Name "Virtual Machine Contributor"
 
           PS C:\> New-AzureRmRoleDefinition -Role $role
 ```
+This example creates a custom role in Azure RBAC.
 
-### --------------------------  Create using JSON file  --------------------------
-
+### Example 2: Create a custom role in Azure RBAC using a JSON file
 
 ```
 PS C:\> New-AzureRmRoleDefinition -InputFile C:\Temp\roleDefinition.json
 ```
+This command creates a custom role in Azure RBAC using the specified JSON file.
 
 ## PARAMETERS
 
 ### -InputFile
-File name containing a single json role definition.
+Specifies the file name containing a single json role definition.
 
 ```yaml
 Type: String
@@ -186,7 +183,7 @@ Accept wildcard characters: False
 ```
 
 ### -Role
-Role definition object.
+Specifies a role definition object.
 
 ```yaml
 Type: PSRoleDefinition
@@ -209,11 +206,10 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 
 ## RELATED LINKS
 
-[Get-AzureRmProviderOperation]()
+[Get-AzureRmProviderOperation](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmProviderOperation.md)
 
-[Get-AzureRmRoleDefinition]()
+[Get-AzureRmRoleDefinition](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleDefinition.md)
 
-[Set-AzureRmRoleDefinition]()
+[Remove-AzureRmRoleDefinition](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmRoleDefinition.md)
 
-[Remove-AzureRmRoleDefinition]()
-
+[Set-AzureRmRoleDefinition](xref:ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmRoleDefinition.md)

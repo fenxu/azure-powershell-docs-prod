@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: D6FF6BDD-4515-438D-B39D-C0BFC3342F4E
 online version: 
 schema: 2.0.0
-updated_at: 1/9/2017 7:56 PM
-ms.date: 1/9/2017
+updated_at: 3/4/2017 6:58 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5988bf32e3ff01c5800597ecc3a6ae8a6be33061/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa2ae758d5790a27662a17dfad5119b5b8987494/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -260,7 +260,7 @@ Accept wildcard characters: False
 ```
 
 ### -Plan
-A hash table that represents resource plan properties.
+Specifies a hash table that represents resource plan properties.
 
 ```yaml
 Type: Hashtable
@@ -341,7 +341,7 @@ Accept wildcard characters: False
 ```
 
 ### -Sku
-A hash table that represents sku properties.
+Specifies a hash table that represents SKU properties.
 
 ```yaml
 Type: Hashtable
@@ -406,5 +406,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmResource.md)
 
 [Set-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResource.md)
-
-

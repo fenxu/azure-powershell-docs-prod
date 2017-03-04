@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 86D8965D-D999-48A4-A4EE-9E054E5486EE
 online version:
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 3/4/2017 6:58 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa2ae758d5790a27662a17dfad5119b5b8987494/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # New-AzureRmADUser
 
 ## SYNOPSIS
-Creates a new active directory user.
+Creates an Azure Active Directory user.
 
 ## SYNTAX
 
@@ -33,23 +33,15 @@ New-AzureRmADUser -DisplayName <String> -UserPrincipalName <String> -Password <S
 ```
 
 ## DESCRIPTION
-Creates a new active directory user (work/school account also popularly known as org-id).
+The **New-AzureRmADUser** cmdlet creates an Active Directory user (work/school account also popularly known as org-id).
 For more information: https://msdn.microsoft.com/en-us/library/azure/ad/graph/api/users-operations#CreateUser
 
 ## EXAMPLES
 
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
-
 ## PARAMETERS
 
 ### -DisplayName
-The name to display in the address book for the user.
-example 'Alex Wu'.
+Specifies the name to display in the address book for the user.
 
 ```yaml
 Type: String
@@ -64,8 +56,8 @@ Accept wildcard characters: False
 ```
 
 ### -UserPrincipalName
-The user principal name.
-Example-'someuser@contoso.com'.
+Specifies the name of the user principal.
+
 
 ```yaml
 Type: String
@@ -80,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -Password
-Password for the user.
+Specifies the password for the user.
 It must meet the tenant's password complexity requirements.
 It is recommended to set a strong password.
 
@@ -97,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -ImmutableId
-It needs to be specified only if you are using a federated domain for the user's user principal name (upn) property.
+Specifies the user's user principal name (UPN) property. It needs to be specified only if you are using a federated domain.
 
 ```yaml
 Type: String
@@ -112,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -ForceChangePasswordNextLogin
-It must be specified if the user must change the password on the next successful login (true).
+Indicates that the user must change the password on the next successful login.
 Default behavior is (false) to not change the password on the next successful login.
 
 ```yaml
@@ -167,7 +159,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -204,8 +197,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AzureRmADUser]()
+[Get-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADUser.md)
 
-[Set-AzureRmADUser]()
+[Remove-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADUser.md)
 
-[Remove-AzureRmADUser]()
+[Set-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADUser.md)
