@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/5/2017 7:52 PM
+ms.date: 3/5/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespaceKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespaceKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespaceKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/27493dc061e617444314c5f4b42c8c8fa24e1eb1/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespaceKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # New-AzureRmEventHubNamespaceKey
 
 ## SYNOPSIS
-Creates a new primary or secondary key for the authorization rule on the specified Event Hubs namespace.
+Creates a primary or secondary key for the authorization rule on the specified Event Hubs namespace.
 
 ## SYNTAX
 
@@ -35,12 +35,12 @@ The **New-AzureRmEventHubNamespaceKey** cmdlet regenerates the primary or second
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Regenerate the primary key for an authorization rule
 ```
-PS C:\> New-AzureRmEventHubNameSpaceKey -ResourceGroup MyResourceGroupName -NamespaceName MyNamespaceName  -AuthorizationRuleName MyAuthRuleName -RegenerateKeys PrimaryKey
+PS C:\> New-AzureRmEventHubNameSpaceKey -ResourceGroup "MyResourceGroupName" -NamespaceName "MyNamespaceName"  -AuthorizationRuleName "MyAuthRuleName" -RegenerateKeys "PrimaryKey"
 ```
 
-Regenerates the primary key for the authorization rule `MyAuthRuleName` in the Event Hubs namespace `MyNamespaceName`, with resource group `MyResourceGroupName`.
+This command regenerates the primary key for the authorization rule named MyAuthRuleName in the Event Hubs namespace named MyNamespaceName.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-The Event Hubs namespace name.
+Specifies the name of Event Hubs namespace.
 
 ```yaml
 Type: String
@@ -75,7 +75,9 @@ Accept wildcard characters: False
 ```
 
 ### -RegenerateKeys
-Key to regenerate: `PrimaryKey` or `SecondaryKey`.
+Specifies the key to regenerate.
+
+Valid values are: PrimaryKey or SecondaryKey.
 
 ```yaml
 Type: String
@@ -91,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-The name of the resource group.
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -122,7 +124,7 @@ Accept wildcard characters: False
 ```
 
 ### -AuthorizationRuleName
-Authorization rule name.
+Specifies the name of the authorization rule.
 
 ```yaml
 Type: String
@@ -151,3 +153,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmEventHubNamespaceKey](xref:ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespaceKey.md)
