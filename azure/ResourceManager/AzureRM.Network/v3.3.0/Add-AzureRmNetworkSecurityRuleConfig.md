@@ -1,9 +1,9 @@
 ---
-updated_at: 1/27/2017 11:33 PM
-ms.date: 1/27/2017
+updated_at: 3/6/2017 10:23 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75c2612a304afa30be3335526e5ebebc3156ed01/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7c90b1acb16fa52a2d072d19c4526d176998277a/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md
 uid: ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -311,8 +311,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Remove-AzureRmNetworkSecurityRuleConfig](./Remove-AzureRmNetworkSecurityRuleConfig.md)
 
-
 [Set-AzureRmNetworkSecurityGroup](./Set-AzureRmNetworkSecurityGroup.md)
 
 [Set-AzureRmNetworkSecurityRuleConfig](./Set-AzureRmNetworkSecurityRuleConfig.md)
-
