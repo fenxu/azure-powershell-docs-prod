@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/5/2017 8:07 PM
-ms.date: 3/5/2017
+updated_at: 3/6/2017 6:25 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Set-AzureRmEventHub.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Set-AzureRmEventHub.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e64e07ea7a70edefc2175b3f345a8c24ea51d096/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Set-AzureRmEventHub.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a6743a0b105e2f8be657414aef65a43168c7de2d/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Set-AzureRmEventHub.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,12 +36,12 @@ The **Set-AzureRmEventHub** cmdlet updates the properties of the specified Event
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Update the specified Event Hub
 ```
-PS C:\> Set-AzureRmEventHub -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -EventHubName MyEventHubName -EventHubObj MyCreatedEventHub -messageRetentionInDays 4 -partitionCount 2
+PS C:\> Set-AzureRmEventHub -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -EventHubName "MyEventHubName" -EventHubObj "MyCreatedEventHub" -MessageRetentionInDays 4 -PartitionCount 2
 ```
 
-Updates the Event Hub `MyEventHubName` represented by the `MyCreatedEventHub` object, setting the message retention period to 4 days, and the number of partitions to 2.
+This command updates the Event Hub named MyEventHubName represented by the MyCreatedEventHub object, setting the message retention period to 4 days, and the number of partitions to 2.
 
 ## PARAMETERS
 
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -EventHubObj
-The Event Hubs object.
+Specifies the Event Hubs object.
 
 ```yaml
 Type: EventHubAttributes
@@ -137,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -messageRetentionInDays
-Event Hub message retention period, in days.
+Specifies the Event Hub message retention period, in days.
 
 ```yaml
 Type: Int64
@@ -152,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -partitionCount
-Number of partitions on this Event Hub.
+Specifies the number of partitions on this Event Hub.
 
 ```yaml
 Type: Int64
@@ -181,3 +181,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmEventHub](xref:ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHub.md)
+
+[New-AzureRmEventHub](xref:ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHub.md)
+
+[Remove-AzureRmEventHub](xref:ResourceManager/AzureRM.EventHub/vTrue/Remove-AzureRmEventHub.md)
