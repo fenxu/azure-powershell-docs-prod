@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 2/13/2017 6:23 PM
-ms.date: 2/13/2017
+updated_at: 3/6/2017 6:32 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a23f08cca5ae133070c477f143d5d9a3fd1350e0/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/5e12cfb181720315fc2d09214f1e846e0db57c6e/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -20,7 +20,7 @@ ms.service: service-fabric
 # Get-ServiceFabricApplicationName
 
 ## SYNOPSIS
-Gets the name of the application for a Service Fabric service.
+Gets the Service Fabric Application name from the Service Fabric Service name.
 
 ## SYNTAX
 
@@ -39,10 +39,10 @@ The output of **Get-ServiceFabricApplicationName** contains the following inform
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Get-ServiceFabricApplicationName -ServiceName  fabric:/myapp/persistenttodolist
 ```
 
-Specifies a Service Fabric application.
+The command above gets the application name for the service fabric:/myapp/persistenttodolist
 
 ## PARAMETERS
 
@@ -86,8 +86,8 @@ This cmdlet accepts a string that represents the service name.
 
 ## OUTPUTS
 
-### System.Object
-This cmdlet returns a `System.Fabric.Query.ApplicationNameResult` which represents the application name.
+### System.Uri
+This cmdlet returns a string which represents the application name.
 
 ## NOTES
 
