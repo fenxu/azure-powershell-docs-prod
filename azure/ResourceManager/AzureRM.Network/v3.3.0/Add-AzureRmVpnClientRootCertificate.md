@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: B9153CA9-06D1-4EF3-9863-D649C2EBAEAA
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 3/7/2017 9:34 PM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVpnClientRootCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVpnClientRootCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVpnClientRootCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f12bf9f88e6dbbd2488ef437c553f3225b016b75/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVpnClientRootCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ By design, all certificates used on the gateway trust the root certificate.
 This cmdlet assigns an existing certificate as a gateway root certificate.
 If you do not have an X.509 certificate available you can generate one through your public key infrastructure or use a certificate generator such as makecert.exe.
 
-To add a root certificate, you must specify the certificate name and provide a text-only representation of the certificate (see *the PublicCertData* parameter for more information).
+To add a root certificate, you must specify the certificate name and provide a text-only representation of the certificate (see the *PublicCertData* parameter for more information).
 Azure allows you to assign more than one root certificate to a gateway.
 Multiple root certificates are often deployed by organizations that include users from more than one company.
 
@@ -191,5 +191,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v3.3.0/New-AzureRmVpnClientRootCertificate.md)
 
 [Remove-AzureRmVpnClientRootCertificate](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmVpnClientRootCertificate.md)
-
-
