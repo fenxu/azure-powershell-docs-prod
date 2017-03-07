@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: D772E7FA-EA9A-494A-913F-584F9891F880
-updated_at: 3/7/2017 12:56 AM
+updated_at: 3/7/2017 2:37 AM
 ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4c78f2d6c699ed170e021cf2a47ff49b108c4485/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9ff37ed5844bf5299a742439dcc108689e8dbf4e/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -225,8 +225,6 @@ Represents the name of a Service Fabric service.
 
 ### System.Object
 This cmdlet returns a **System.Fabric.Testability.InvokeDataLossResult** object that represents the operation result.
-
-## NOTES
 
 ## RELATED LINKS
 

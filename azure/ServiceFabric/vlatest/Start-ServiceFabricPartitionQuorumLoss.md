@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 199F858A-4F1C-44C4-9723-D651FE5FAF44
-updated_at: 3/7/2017 12:56 AM
+updated_at: 3/7/2017 2:37 AM
 ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4c78f2d6c699ed170e021cf2a47ff49b108c4485/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9ff37ed5844bf5299a742439dcc108689e8dbf4e/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,9 +21,10 @@ ms.service: service-fabric
 # Start-ServiceFabricPartitionQuorumLoss
 
 ## SYNOPSIS
-Initiates an operation to put a partition into quorum loss.
+Initiates a fault to put a partition into quorum loss.
 
 ## SYNTAX
+The various ways to specify or to choose the partition to invoke quorum loss on are as follows:
 
 ### PartitionId
 ```
@@ -60,13 +61,13 @@ Start-ServiceFabricPartitionQuorumLoss -OperationId <Guid> -QuorumLossMode <Quor
 ```
 
 ## DESCRIPTION
-The **Start-ServiceFabricPartitionQuorumLoss** cmdlet initiates an operation to put a stateful service partition into quorum loss in Azure Service Fabric.
+The **Start-ServiceFabricPartitionQuorumLoss** cmdlet initiates a fault to put a stateful service partition into quorum loss in Azure Service Fabric.
 To run this cmdlet, **FaultAnalysisService** must be enabled.
 
 Run this cmdlet to put a partition into quorum loss only for partitions for stateful services.
 Do not use this cmdlet to put a partition into quorum loss for system services.
 
-You can check the progress of the operation by using the [Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress) cmdlet.
+You can check the progress of the fault by using the [Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress) cmdlet.
 
 ## EXAMPLES
 
@@ -243,12 +244,6 @@ Accept wildcard characters: False
 
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
-
-## INPUTS
-
-## OUTPUTS
-
-## NOTES
 
 ## RELATED LINKS
 
