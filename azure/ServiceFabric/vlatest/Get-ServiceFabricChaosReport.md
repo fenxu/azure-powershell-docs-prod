@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: D4F9D188-FFB3-4D93-870C-6C6076CBA6AE
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+updated_at: 3/6/2017 10:19 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9ff2d77816fc1898fbfc99f1a2a09e3db63cdfa2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -31,38 +31,29 @@ Get-ServiceFabricChaosReport [-StartTimeUtc <DateTime>] [-EndTimeUtc <DateTime>]
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricChaosReport** cmdlet gets a report of Chaos results.
-You can specify a time range of Chaos events.
-The report includes Chaos status, which is either running or stopped, and input parameters.
+The **Get-ServiceFabricChaosReport** cmdlet gets a report of a Chaos run. You can specify a time range and only Chaos events within this range will be reported. If Chaos was never started, the result will report that.
 
-If you request a very large number of events, this cmdlet can return them in multiple batches.
-A continuation token is returned as a part of the **ChaosReport** object.
-This token must be passed for subsequent batches.
+If there are large number of Chaos events, the data is reported in batches. Each batch contains a maximum of 100 events. In such a case, a continuation token is returned as part of **ChaosReport** object. To get data from subsequent batches, this continuation token will need to be supplied.
 
 For more information about Chaos in the Fault Analysis Service (FAS), see the [Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md) cmdlet.
+
 
 ## EXAMPLES
 
 ### Example 1: View Chaos report
 ```
 PS C:\>$Now = Get-Date
-$UtcNow = $Now.ToUniversalTime()
-$StartTime = $UtcNow.AddMinutes(-2)
-$EndTime = $UtcNow.AddMinutes(1)
+$EndTime = $Now.ToUniversalTime()
+$StartTime = $EndTime.AddMinutes(-2)
 Get-ServiceFabricChaosReport -StartTimeUtc $StartTime -EndTimeUtc $EndTime -Verbose
 ```
-
-The first four commands create start and end times, starting two minutes in the past, by using the **Get-Date** cmdlet and standard Windows PowerShell syntax.
-
-The final command gets information about Chaos results in the specified time.
-The console displays the results.
+This command returns the Chaos events from last 2 minutes.
 
 ## PARAMETERS
 
 ### -ContinuationToken
-Specifies a continuation token that this cmdlet passes for the next **GetChaosReport** API call.
-If the number of events in that are requested is large, the report is sent in several parts.
-Continuation tokens connect these parts.
+Specifies a continuation token that this cmdlet passes for the next **GetChaosReport** API call. If there are large number of Chaos events, the data is reported in batches. Each batch contains a maximum of 100 events. In such a case, a continuation token is returned as part of **ChaosReport** object. To get data from subsequent batches, this continuation token will need to be supplied.
+
 
 ```yaml
 Type: String
@@ -77,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndTimeUtc
-Specifies the end of the time range, in UTC, for which this cmdlet generates a report.
+Specifies the end of the time range in UTC.
 
 ```yaml
 Type: DateTime
@@ -92,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartTimeUtc
-Specifies the start of the time range, in UTC, for which this cmdlet generates a report.
+Specifies the start of the time range in UTC.
 
 ```yaml
 Type: DateTime
@@ -107,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-Specifies the time-out period, in seconds, for the operation.
+Specifies the time-out period, in seconds for the operation.
 
 ```yaml
 Type: Int32
