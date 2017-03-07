@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 2E71980D-7493-4C14-BA4A-1AB48398594A
-updated_at: 3/6/2017 11:26 PM
-ms.date: 3/6/2017
+updated_at: 3/7/2017 12:58 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/b352173d795c92a961e6256f7c36010aa5224846/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/d66df4faefd1944c1099d7424481053e0f5f3a72/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -83,7 +83,6 @@ PS C:\>Start-ServiceFabricPartitionRestart -OperationId ebd322c2-b1d3-46a7-b254-
 
 This command restarts all replicas of the service named fabric:/ContosoApp/ContosoService in the partition that has the partition key 2000.
 Specify a unique GUID for the *OperationId* parameter.
-You can use this ID to check the progress of the restart operation.
 
 ## PARAMETERS
 
@@ -185,7 +184,6 @@ The acceptable values for this parameter are:
 
 - AllReplicasOrInstances.
 Restart all replicas in the target partition.
-
 - OnlyActiveSecondaries.
 Restart only the secondaries in the target partition.
 

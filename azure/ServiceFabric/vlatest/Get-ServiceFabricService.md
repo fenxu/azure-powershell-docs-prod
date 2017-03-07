@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 4275CC75-BDDD-4782-99C8-D3E775F07E61
-updated_at: 3/7/2017 12:55 AM
+updated_at: 3/7/2017 12:56 AM
 ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/f180061d3863fbbfdc08e32077b8043a3d417407/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/82e054d9eb8245c34714466bf9638dbff608d9f0/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricService.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -133,7 +133,7 @@ This cmdlet accept a URI that represents the name of a Service Fabric applicatio
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a list of **System.Fabric.Query.Service** objects that represent Service Fabric services.
+This cmdlet returns a list of **[System.Fabric.Query.Service](https://docs.microsoft.com/en-us/dotnet/api/system.fabric.query.service)** objects that represent Service Fabric services.
 
 ## NOTES
 
