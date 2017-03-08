@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 6:26 PM
+updated_at: 3/8/2017 11:04 PM
 ms.date: 3/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7476628ef2747b1b2e855d4dba9a381d15ff82a6/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7e0d206950ae8df1ee85f0cbf6b13028f6c947cf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # New-AzureRmServiceBusNamespace
 
 ## SYNOPSIS
-Creates a new Service Bus namespace.
+Creates a Service Bus namespace.
 
 ## SYNTAX
 
@@ -31,16 +31,16 @@ New-AzureRmServiceBusNamespace [-ResourceGroupName] <String> [-Location] <String
 ```
 
 ## DESCRIPTION
-The **New-AzureRmServiceBusNamespace** cmdlet creates a new Service Bus namespace. Once created, the namespace resource manifest is immutable. This operation is idempotent.
+The **New-AzureRmServiceBusNamespace** cmdlet creates a Service Bus namespace. Once created, the namespace resource manifest is immutable. This operation is idempotent.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Create a Service Bus namespace
 ```
-PS C:\> New-AzureRmServiceBusNamespace -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -Location WestUS -SkuName "Standard" -Tag @{Tag1="Tag1Value"}
+PS C:\> New-AzureRmServiceBusNamespace -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -Location "WestUS" -SkuName "Standard" -Tag @{Tag1="Tag1Value"}
 ```
 
-Creates a new Service Bus namespace within the specified resource group.
+This command creates a Service Bus namespace within the specified resource group.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-The Service Bus namespace location.
+Specifies the location of the Service Bus namespace.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The resource group name.
+Specifies the resource group name.
 
 ```yaml
 Type: String
@@ -121,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-Hashtable that represents resource tags.
+Specifies the hashtable that represents resource tags.
 
 ```yaml
 Type: Hashtable
@@ -188,3 +188,8 @@ Enabled            : True
 
 ## RELATED LINKS
 
+[Get-AzureRmServiceBusNamespace](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespace.md)
+
+[Remove-AzureRmServiceBusNamespace](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusNamespace.md)
+
+[Set-AzureRmServiceBusNamespace](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespace.md)
