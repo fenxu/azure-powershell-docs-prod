@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 60BED40A-EEA4-4667-93E9-8A9B35037726
 online version: 
 schema: 2.0.0
-updated_at: 1/9/2017 7:56 PM
-ms.date: 1/9/2017
+updated_at: 2/24/2017 6:39 PM
+ms.date: 2/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Move-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Move-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5988bf32e3ff01c5800597ecc3a6ae8a6be33061/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Move-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/59dc8cd53cf4cb3018fdbd69ababdd910d9a17d4/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Move-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -44,7 +44,7 @@ PS C:\> $Resource = Get-AzureRmResource -ResourceType "Microsoft.ClassicCompute/
 PS C:\> Move-AzureRmResource -ResourceId $Resource.ResourceId -DestinationResourceGroupName "ResourceGroup14"
 ```
 
-The first command gets a resource named ContosoStorageAccount by using the Get-AzureRmResource cmdlet, and then stores that resource in the $Resource variable.
+The first command gets a resource named ContosoStorageAccount by using the [Get-AzureRmResource](./Get-AzureRmResource.md) cmdlet, and then stores that resource in the $Resource variable.
 
 The second command moves that resource into the resource group named ResourceGroup14.
 The command identifies the resource to move by using the **ResourceId** property of $Resource.
@@ -232,5 +232,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmResource.md)
 
 [Set-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResource.md)
-
-

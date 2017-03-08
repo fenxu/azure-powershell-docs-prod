@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 164DC871-0F0C-4E71-A37A-2B85CE65C2C4
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/4/2017 9:58 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItem.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7761f732d57261bdc233763ac2d243d320e93043/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmDataLakeStoreItem
 
 ## SYNOPSIS
-Deletes a file or folder in Data Lake Store.
+Removes a file or folder in Data Lake Store.
 
 ## SYNTAX
 
@@ -32,13 +32,13 @@ Remove-AzureRmDataLakeStoreItem [-Account] <String> [-Paths] <DataLakeStorePathI
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmDataLakeStoreItem** cmdlet deletes a file or folder in Data Lake Store.
+The **Remove-AzureRmDataLakeStoreItem** cmdlet removes a file or folder in Data Lake Store.
 
 ## EXAMPLES
 
 ### Example 1: Remove multiple items
 ```
-PS C:\>Remove-AzureRmDataLakeStoreItem -AccountName "ContosoADL" -Paths "/File01.txt","/MyFiles/File.csv"
+PS C:\> Remove-AzureRmDataLakeStoreItem -AccountName "ContosoADL" -Paths "/File01.txt","/MyFiles/File.csv"
 ```
 
 This command removes the files File01.txt and File.csv from the Data Lake Store.
@@ -191,5 +191,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/New-AzureRmDataLakeStoreItem.md)
 
 [Test-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Test-AzureRmDataLakeStoreItem.md)
-
-

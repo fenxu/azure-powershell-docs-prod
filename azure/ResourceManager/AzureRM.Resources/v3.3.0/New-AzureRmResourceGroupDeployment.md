@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 6E2F0D5E-E683-46F3-B48B-55C4864F3308
 online version: 
 schema: 2.0.0
-updated_at: 1/9/2017 7:56 PM
-ms.date: 1/9/2017
+updated_at: 3/4/2017 6:58 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResourceGroupDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5988bf32e3ff01c5800597ecc3a6ae8a6be33061/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResourceGroupDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa2ae758d5790a27662a17dfad5119b5b8987494/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResourceGroupDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -89,13 +89,13 @@ This includes the resources that the deployment requires.
 An Azure resource is a user-managed Azure entity, such as a database server, database, website, virtual machine, or Storage account.
 An Azure resource group is a collection of Azure resources that are deployed as a unit, such as the website, database server, and databases that are required for a financial website.
 A resource group deployment uses a template to add resources to a resource group and publishes them so that they are available in Azure.
-To add resources to a resource group without using a template, use the **New-AzureRmResource** cmdlet.
+To add resources to a resource group without using a template, use the [New-AzureRmResource](./New-AzureRmResource.md) cmdlet.
 
 To add a resource group deployment, specify the name of an existing resource group and a resource group template.
 A resource group template is a JSON string that represents a resource group for a complex cloud-based service, such as a web portal.
 The template includes parameter placeholders for required resources and configurable property values, such as names and sizes.
 You can find many templates in the Azure template gallery or you can create your own templates.
-You can use the **Get-AzureRmResourceGroupGalleryTemplate** cmdlet to find a template in the gallery.
+You can use the [Get-AzureRmResourceGroupGalleryTemplate](./Get-AzureRmResourceGroupGalleryTemplate.md) cmdlet to find a template in the gallery.
 
 To use a custom template to create a resource group, specify the *TemplateFile* parameter or *TemplateUri* parameter.
 Each template has parameters for configurable properties.
@@ -183,7 +183,7 @@ Accept wildcard characters: False
 
 ### -TemplateFile
 Specifies the full path of a JSON template file.
-This can be a custom template or a gallery template that is saved as a JSON file, such as one created by using the **Save-AzureRmResourceGroupGalleryTemplate** cmdlet.
+This can be a custom template or a gallery template that is saved as a JSON file, such as one created by using the [Save-AzureRmResourceGroupGalleryTemplate](./Save-AzureRmResourceGroupGalleryTemplate.md) cmdlet.
 
 ```yaml
 Type: String
@@ -374,5 +374,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Stop-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.3.0/Stop-AzureRmResourceGroupDeployment.md)
 
 [Test-AzureRmResourceGroupDeployment](xref:ResourceManager/AzureRM.Resources/v3.3.0/Test-AzureRmResourceGroupDeployment.md)
-
-

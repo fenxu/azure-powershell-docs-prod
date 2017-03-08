@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: A8222AB8-0003-4AC6-8114-294ABE8054CE
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/4/2017 9:58 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/New-AzureRmDataLakeStoreItem.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/New-AzureRmDataLakeStoreItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/New-AzureRmDataLakeStoreItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7761f732d57261bdc233763ac2d243d320e93043/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/New-AzureRmDataLakeStoreItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # New-AzureRmDataLakeStoreItem
 
 ## SYNOPSIS
-Creates a new file or folder in Data Lake Store.
+Creates a file or folder in Data Lake Store.
 
 ## SYNTAX
 
@@ -32,19 +32,19 @@ New-AzureRmDataLakeStoreItem [-Account] <String> [-Path] <DataLakeStorePathInsta
 ```
 
 ## DESCRIPTION
-The **New-AzureRmDataLakeStoreItem** cmdlet creates a new file or folder in Data Lake Store.
+The **New-AzureRmDataLakeStoreItem** cmdlet creates a file or folder in Data Lake Store.
 
 ## EXAMPLES
 
-### Example 1: Create a new file and a new folder
+### Example 1: Create a file and a folder
 ```
-PS C:\>New-AzureRmDataLakeStoreItem -AccountName "ContosoADL" -Path "/NewFile.txt"
+PS C:\> New-AzureRmDataLakeStoreItem -AccountName "ContosoADL" -Path "/NewFile.txt"
 PS C:\> New-AzureRmDataLakeStoreItem -AccountName "ContosoADL" -Path "/NewFolder" -Folder
 ```
 
 The first command creates the file NewFile.txt for the specified account.
 
-The second command creates the folder NewFolder at the root folder.
+The second command creates the folder named NewFolder at the root folder.
 
 ## PARAMETERS
 
@@ -204,5 +204,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreItem.md)
 
 [Test-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Test-AzureRmDataLakeStoreItem.md)
-
-

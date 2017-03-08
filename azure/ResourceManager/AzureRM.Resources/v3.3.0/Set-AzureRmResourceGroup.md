@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 4E5C059B-36F3-41C8-9FDB-69F5318CF39B
 online version: 
 schema: 2.0.0
-updated_at: 1/9/2017 5:08 PM
-ms.date: 1/9/2017
+updated_at: 3/4/2017 8:24 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0ad0bf34919ba087d528c6264dbeb3b2ec5cfcdb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -120,7 +120,7 @@ Specifies a hash table of tags.
 To add or change a tag, you must replace the collection of tags for the resource group.
 
 A tag is a name-value pair that you can create and apply to resources and resource groups.
-After you assign tags to resources and groups, you can use the *Tag* parameter of **Get-AzureRmResource** and **Get-AzureRmResourceGroup** to search for resources and groups by tag name or name and value.
+After you assign tags to resources and groups, you can use the *Tag* parameter of [Get-AzureRmResource](./Get-AzureRmResource.md) and [Get-AzureRmResourceGroup](./Get-AzureRmResourceGroup.md) to search for resources and groups by tag name or name and value.
 You can use tags to categorize your resources, such as by department or cost center, or to track notes or comments about the resources.
 
 Each tag must have a Name key.
@@ -196,5 +196,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResourceGroup.md)
 
 [Remove-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmResourceGroup.md)
-
-

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 388D4173-A937-42FA-81CB-C4A27F9D0B04
 online version: 
 schema: 2.0.0
-updated_at: 11/22/2016 8:52 PM
-ms.date: 11/22/2016
+updated_at: 3/4/2017 8:24 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,23 +33,15 @@ Set-AzureRmADUser -UPNOrObjectId <String> [-DisplayName <String>] [-EnableAccoun
 ```
 
 ## DESCRIPTION
-Updates an existing active directory user (work/school account also popularly known as org-id).
-For more information: https://msdn.microsoft.com/en-us/library/azure/ad/graph/api/users-operations#UpdateUser
+The **Set-AzureRmADUser** cmdlet updates an existing active directory user.
+For more information, see [Update a user](https://msdn.microsoft.com/en-us/library/azure/ad/graph/api/users-operations#UpdateUser) https://msdn.microsoft.com/en-us/library/azure/ad/graph/api/users-operations#UpdateUser.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -UPNOrObjectId
-The user principal name (e.g.
-'someuser@contoso.com') or the objectId of the user for which the properties need to be updated.
+Specifies the user principal name or the object ID of the user for which this cmdlet updates the properties for.
 
 ```yaml
 Type: String
@@ -64,8 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-New name to display in the address book for the user.
-Example-'Alex Wu'.
+Specifies the new name to display in the address book for the user.
 
 ```yaml
 Type: String
@@ -80,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnableAccount
-True for enabling the account; otherwise, false.
+Indicates whether the cmdlet enables the account.
 
 ```yaml
 Type: Boolean
@@ -95,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -Password
-New password for the user.
+Specifies the new password for the user.
 It must meet the tenant's password complexity requirements.
 It is recommended to set a strong password.
 
@@ -112,10 +103,10 @@ Accept wildcard characters: False
 ```
 
 ### -ForceChangePasswordNextLogin
-It must be specified only when you are updating the password.
+Indicates that the cmdlet forces the user to change the password on next login.
 Otherwise it will be ignored.
-It must be specified if the user must change the password on the next successful login (true).
-Default behavior is (false) to not change the password on the next successful login.
+It must be specified if the user must change the password on the next successful login.
+Default behavior is to not change the password on the next successful login.
 
 ```yaml
 Type: SwitchParameter
@@ -169,7 +160,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -206,9 +198,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AzureRmADUser]()
+[Get-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADUser.md)
 
-[New-AzureRmADUser]()
+[New-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADUser.md)
 
-[Remove-AzureRmADUser]()
-
+[Remove-AzureRmADUser](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADUser.md)

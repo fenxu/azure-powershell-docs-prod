@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: C3B2C33F-8BD4-4E31-9450-EF6A3A6A5325
 online version: 
 schema: 2.0.0
-updated_at: 1/9/2017 5:08 PM
-ms.date: 1/9/2017
+updated_at: 3/4/2017 8:24 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0ad0bf34919ba087d528c6264dbeb3b2ec5cfcdb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmPolicyAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmPolicyAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -51,10 +51,10 @@ PS C:\> $PolicyAssignment = Get-AzureRmPolicyAssignment -Name "PolicyAssignment"
 PS C:\> Set-AzureRmPolicyAssignment -Id $PolicyAssignment.ResourceId -DisplayName "Do not allow VM creation"
 ```
 
-The first command gets a resource group named ResourceGroup11 by using the Get-AzureRMResourceGroup cmdlet.
+The first command gets a resource group named ResourceGroup11 by using the [Get-AzureRMResourceGroup](./Get-AzureRMResourceGroup.md) cmdlet.
 The command stores that object in the $ResourceGroup variable.
 
-The second command gets the policy assignment named PolicyAssignment by using the Get-AzureRmPolicyAssignment cmdlet.
+The second command gets the policy assignment named PolicyAssignment by using the [Get-AzureRmPolicyAssignment](./Get-AzureRmPolicyAssignment.md) cmdlet.
 The command stores that object in the $PolicyAssignment variable.
 
 The final command updates the display name on the policy assignment identified by the **ResourceId** property of $PolicyAssignment.
@@ -207,5 +207,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmPolicyAssignment](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmPolicyAssignment.md)
 
 [Remove-AzureRmPolicyAssignment](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmPolicyAssignment.md)
-
-

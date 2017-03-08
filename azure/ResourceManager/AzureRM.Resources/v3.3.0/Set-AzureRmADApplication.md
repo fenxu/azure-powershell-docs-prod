@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: BA97DB6F-F64D-417E-BD72-C2EBB2EC1AA4
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 6:24 PM
-ms.date: 2/23/2017
+updated_at: 3/4/2017 8:24 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/14252e653b1fabd2393b93346f6d2a811c425c54/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Set-AzureRmADApplication
 
 ## SYNOPSIS
-Updates an existing azure active directory application.
+Updates an existing Azure Active Directory application.
 
 ## SYNTAX
 
@@ -41,33 +41,33 @@ Set-AzureRmADApplication -ApplicationId <String> [-DisplayName <String>] [-HomeP
 ```
 
 ## DESCRIPTION
-Updates an existing azure active directory application.
-To update the credentials associated with this application, please use New-AzureRmADAppCredential cmdlet.
+The **Set-AzureRmADApplication** cmdlet updates an existing Azure Active Directory application.
+To update the credentials associated with this application, use the [New-AzureRmADAppCredential](./New-AzureRmADAppCredential.md) cmdlet.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Update properties of an existing Azure Active Directory Application
 
 
 ```
 PS E:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 -DisplayName "UpdatedAppName" -HomePage "http://www.microsoft.com" -IdentifierUris "http://UpdatedApp" -AvailableToOtherTenants $false
 ```
 
-Updates the properties of an existing azure active directory application with objectId "fb7b3405-ca44-4b5b-8584-12392f5d96d7".
+This command updates the properties of an existing Azure Active Directory application with object ID fb7b3405-ca44-4b5b-8584-12392f5d96d7.
 
-### Example 2:
+### Example 2: Update the display name of an existing Azure Active Directory Application
 
 
 ```
 PS E:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 -DisplayName "UpdatedAppName"
 ```
 
-Updates the display name of an existing azure active directory application with objectId "fb7b3405-ca44-4b5b-8584-12392f5d96d7".
+This command updates the display name of an existing Azure Active Directory application with object ID fb7b3405-ca44-4b5b-8584-12392f5d96d7.
 
 ## PARAMETERS
 
 ### -ObjectId
-The object id of the application to update.
+Specifies the object ID of the application that this cmdlet updates.
 
 ```yaml
 Type: String
@@ -82,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-New Display name for the application.
+Specifies the new display name for the application.
 
 ```yaml
 Type: String
@@ -97,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -HomePage
-New URL of the application homepage.
+Specifies the new URL of the application homepage.
 
 ```yaml
 Type: String
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -IdentifierUris
-New URIs that identify the application.
+Specifies the new URIs that identify the application.
 
 ```yaml
 Type: String[]
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -ReplyUrls
-New reply urls for the application.
+Specifies the new reply URLs for the application.
 
 ```yaml
 Type: String[]
@@ -142,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -AvailableToOtherTenants
-The value specifying whether the application is updated to be a single tenant or a multi-tenant.
+Indicates whether the cmdlet updates the application to be a single tenant or a multi-tenant.
 
 ```yaml
 Type: Boolean
@@ -196,7 +196,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -226,7 +227,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationId
-The id of the application to update.
+Specifies the ID of the application that this cmdlet updates.
 
 ```yaml
 Type: String
@@ -248,14 +249,14 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AzureRmADApplication]()
+[Get-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADApplication.md)
 
-[New-AzureRmADApplication]()
+[New-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADApplication.md)
 
-[Remove-AzureRmADApplication]()
+[Remove-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADApplication.md)
 
-[New-AzureRmADAppCredential]()
+[New-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADAppCredential.md)
 
-[Get-AzureRmADAppCredential]()
+[Get-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADAppCredential.md)
 
-[Remove-AzureRmADAppCredential]()
+[Remove-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADAppCredential.md)

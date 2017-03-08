@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 04B1E3A6-6D52-46A3-8241-2CCDB5E71642
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 6:24 PM
-ms.date: 2/23/2017
+updated_at: 3/4/2017 8:24 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/14252e653b1fabd2393b93346f6d2a811c425c54/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -51,15 +51,14 @@ Remove-AzureRmADSpCredential -ServicePrincipalName <String> -KeyId <Guid> [-Forc
 ```
 
 ## DESCRIPTION
-The Remove-AzureRmADSpCredential cmdlet can be used to remove a credential key from a service principal in the case of a compromise or as part of credential key rollover expiration.
+The **Remove-AzureRmADSpCredential** cmdlet removes a credential key from a service principal in the case of a compromise or as part of credential key rollover expiration.
 The service principal is identified by supplying either the object ID or service principal name (SPN).
 
 The credential to be removed is identified by its key ID if an individual credential is to be removed or with an 'All' switch to delete all credentials associated with the service principal.
 
 ## EXAMPLES
 
-### Example 1:
-
+### Example 1: Remove a credential key from a service principal
 
 ```
 PS E:\> Remove-AzureRmADSpCredential -ObjectId 7663d3fb-6f86-4352-9e6d-cf9d50d5ee82 -KeyId 9044423a-60a3-45ac-9ab1-09534157ebb
@@ -68,7 +67,7 @@ PS E:\> Remove-AzureRmADSpCredential -ObjectId 7663d3fb-6f86-4352-9e6d-cf9d50d5e
 This command removes a credential key from a service principal.
 In this example, the key with Id "9044423a-60a3-45ac-9ab1-09534157ebb" will be removed from the service principal.
 
-### Example 2:
+### Example 2: Remove all credential keys from a service principal
 
 
 ```
@@ -112,7 +111,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Switch to delete credential without a confirmation.
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -166,7 +165,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -196,7 +196,7 @@ Accept wildcard characters: False
 ```
 
 ### -All
-Switch to remove all the credentials associated with the service principal.
+Indicates that this cmdlet removes all the credentials associated with the service principal.
 
 ```yaml
 Type: SwitchParameter
@@ -211,7 +211,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalName
-The name (SPN) of the service principal to remove the credentials from.
+Specifies the name of the service principal that this cmdlet removes the credentials from.
 
 ```yaml
 Type: String
@@ -233,8 +233,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AzureRmADSpCredential]()
+[Get-AzureRmADSpCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADSpCredential.md)
 
-[New-AzureRmADSpCredential]()
+[New-AzureRmADSpCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADSpCredential.md)
 
-[Get-AzureRmADServicePrincipal]()
+[Get-AzureRmADServicePrincipal](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADServicePrincipal.md)

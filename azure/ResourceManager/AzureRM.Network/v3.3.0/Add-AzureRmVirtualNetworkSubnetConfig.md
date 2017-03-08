@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: B8B632B5-9D3B-4352-B4C8-49C00472B3A7
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 11:33 PM
-ms.date: 1/27/2017
+updated_at: 3/6/2017 10:23 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVirtualNetworkSubnetConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVirtualNetworkSubnetConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75c2612a304afa30be3335526e5ebebc3156ed01/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVirtualNetworkSubnetConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7c90b1acb16fa52a2d072d19c4526d176998277a/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVirtualNetworkSubnetConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -60,7 +60,7 @@ The second command creates a subnet configuration named FrontendSubnet.
 
 The third command creates a virtual network named MyVirtualNetwork.
 
-The final command adds a subnet to the in-memory representation of the virtual network by using the **Add-AzureRmVirtualNetworkSubnetConfig** cmdlet.  
+The fourth command adds a subnet to the in-memory representation of the virtual network by using the **Add-AzureRmVirtualNetworkSubnetConfig** cmdlet.  
 The command updates the existing virtual network with the new subnet by using the **Set-AzureRmVirtualNetwork** cmdlet.
 
 

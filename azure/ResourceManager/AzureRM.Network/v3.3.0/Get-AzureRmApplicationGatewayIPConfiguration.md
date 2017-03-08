@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 35562212-283C-4BB2-8B12-C3617A6760D0
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 3/7/2017 9:34 PM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayIPConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayIPConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayIPConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f12bf9f88e6dbbd2488ef437c553f3225b016b75/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayIPConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,7 +43,8 @@ PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -Res
 PS C:\> $GatewaySubnet = Get-AzureRmApplicationGatewayIPConfiguration -Name "GatewaySubnet01" -ApplicationGateway $AppGw
 ```
 
-The first command gets an application gateway and stores it in the $AppGw variable.The second command gets an IP configuration named GateSubnet01 from the gateway stored in $AppGw.
+The first command gets an application gateway and stores it in the $AppGw variable.
+The second command gets an IP configuration named GateSubnet01 from the gateway stored in $AppGw.
 
 ### Example 2: Get a list of IP configurations
 ```
@@ -51,7 +52,8 @@ PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -Res
 PS C:\> $GatewaySubnets = Get-AzureRmApplicationGatewayIPConfiguration -ApplicationGateway $AppGw
 ```
 
-The first command gets an application gateway and stores it in the $AppGw variable.The second command gets a list of all IP configurations.
+The first command gets an application gateway and stores it in the $AppGw variable.
+The second command gets a list of all IP configurations.
 
 ## PARAMETERS
 
@@ -146,5 +148,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApplicationGatewayIPConfiguration](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmApplicationGatewayIPConfiguration.md)
 
 [Set-AzureRmApplicationGatewayIPConfiguration](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmApplicationGatewayIPConfiguration.md)
-
-

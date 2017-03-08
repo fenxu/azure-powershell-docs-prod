@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 7D27F7B1-BAF8-4A01-8BA7-A75A4CFAE370
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/4/2017 9:04 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreFirewallRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bec63546b7019ebbd5496855d44bd7f748203fb2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -23,7 +23,6 @@ ms.service: azure-powershell
 
 ## SYNOPSIS
 Gets the specified firewall rules in the specified Data Lake Store.
-If no firewall rule is specified, then lists all firewall rules for the account.
 
 ## SYNTAX
 
@@ -33,41 +32,29 @@ Get-AzureRmDataLakeStoreFirewallRule [-Account] <String> [[-Name] <String>] [[-R
 ```
 
 ## DESCRIPTION
-The Get-AzureRmDataLakeStoreFirewallRule cmdlet gets the specified firewall rules in the specified Data Lake Store.
+The **Get-AzureRmDataLakeStoreFirewallRule** cmdlet gets the specified firewall rules in the specified Data Lake Store.
 If no firewall rule is specified, then lists all firewall rules for the account.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Retrieve a specific firewall rule  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
-
-
+### Example 1: Retrieve a specific firewall rule
 ```
 PS C:\> Get-AzureRmDataLakeStoreFirewallRule -AccountName "ContosoADL" -Name MyFirewallRule
 ```
 
-Returns the firewall rule named "MyFirewallRule" from account "ContosoADL"
+This command gets the firewall rule named MyFirewallRule from account named ContosoADL.
 
-### --------------------------  Example 2: List all firewall rules in an account  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
-
-
+###  Example 2: List all firewall rules in an account
 ```
 PS C:\> Get-AzureRmDataLakeStoreFirewallRule -AccountName "ContosoADL"
 ```
 
-Returns all firewall rules in account "ContosoADL"
+This command gets all firewall rules in account named ContosoADL.
 
 ## PARAMETERS
 
 ### -Account
-The Data Lake Store account to retrieve the firewall rule from.
+Specifies the Data Lake Store account that this cmdlet gets the firewall rule from.
 
 ```yaml
 Type: String
@@ -82,7 +69,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the firewall rule to retrieve
+Specifies the name of the firewall rule that this cmdlet gets.
 
 ```yaml
 Type: String
@@ -97,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Name of resource group under which want to retrieve the specified account's specified firewall rule.
+Specifies the name of resource group under which this cmdlet gets the specified account firewall rule.
 
 ```yaml
 Type: String
@@ -126,3 +113,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Add-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreFirewallRule.md)
+
+[Remove-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreFirewallRule.md)
+
+[Set-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreFirewallRule.md)

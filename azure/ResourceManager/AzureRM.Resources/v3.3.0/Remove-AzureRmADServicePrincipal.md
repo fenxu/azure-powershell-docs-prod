@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 0C8C07CA-6720-452F-A952-48C76EBF3BBD
 online version:
 schema: 2.0.0
-updated_at: 2/23/2017 2:56 AM
-ms.date: 2/23/2017
+updated_at: 3/4/2017 8:24 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmADServicePrincipal
 
 ## SYNOPSIS
-Deletes the azure active directory service principal.
+Removes the Azure Active Directory service principal.
 
 ## SYNTAX
 
@@ -32,23 +32,23 @@ Remove-AzureRmADServicePrincipal -ObjectId <Guid> [-PassThru] [-Force] [-Informa
 ```
 
 ## DESCRIPTION
-Deletes the azure active directory service principal.
+The **Remove-AzureRmADServicePrincipal** cmdlet remvoves the Azure Active Directory service principal.
 
 ## EXAMPLES
 
-### --------------------------  Delete AAD service principal.  --------------------------
+### Example 1: Remove an Azure Active Directory service principal
 
 
 ```
 PS C:\> Remove-AzureRmADServicePrincipal -ObjectId 61b5d8ea-fdc6-40a2-8d5b-ad447c678d45
 ```
 
-Deletes the given azure active directory service principal.
+This command removes the specified Azure Active Directory service principal.
 
 ## PARAMETERS
 
 ### -ObjectId
-The object id of the service principal to delete.
+Specifies the object ID of the service principal that this cmdlet removes.
 
 ```yaml
 Type: Guid
@@ -63,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-If specified, returns the deleted service principal.
+Returns an object representing the item with which you are working. By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -117,7 +117,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -147,7 +148,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -170,12 +171,12 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 
 ## RELATED LINKS
 
-[New-AzureRmADServicePrincipal]()
+[New-AzureRmADServicePrincipal](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADServicePrincipal.md)
 
-[Get-AzureRmADServicePrincipal]()
+[Get-AzureRmADServicePrincipal](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADServicePrincipal.md)
 
-[Set-AzureRmADServicePrincipal]()
+[Set-AzureRmADServicePrincipal](xref:ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADServicePrincipal.md)
 
-[Remove-AzureRmADApplication]()
+[Remove-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADApplication.md)
 
-[Remove-AzureRmADAppCredential]()
+[Remove-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADAppCredential.md)

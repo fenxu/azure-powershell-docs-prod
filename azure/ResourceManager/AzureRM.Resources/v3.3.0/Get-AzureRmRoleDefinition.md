@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 7740AC3B-F643-4F8D-8DC5-ACBF59323BD8
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 6:24 PM
-ms.date: 2/23/2017
+updated_at: 2/24/2017 6:39 PM
+ms.date: 2/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/14252e653b1fabd2393b93346f6d2a811c425c54/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/59dc8cd53cf4cb3018fdbd69ababdd910d9a17d4/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -50,28 +50,32 @@ To inspect individual operations that a role grants access to, review the Action
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Get a specific role definition
 
 ```
-PS C:\> Get-AzureRmRoleDefinition -Name Reader
+PS C:\> Get-AzureRmRoleDefinition -Name "Reader"
 ```
 
-Get the Reader role definition
+This command gets the role definition named Reader.
 
-### Example 2:
+### Example 2: Get all RBAC role definitions
 
 ```
 PS C:\> Get-AzureRmRoleDefinition
 ```
 
-Lists all RBAC role definitions
+This command lists all RBAC role definitions.
 
 ## PARAMETERS
 
 ### -Name
-Role definition name.
-For e.g.
-Reader, Contributor, Virtual Machine Contributor.
+Specifies the name of the role definition.
+
+Valid values are:
+
+- Reader
+- Contributor
+- Virtual Machine Contributor
 
 ```yaml
 Type: String
@@ -86,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -Scope
-Role definition scope.
+Specifies the role definition scope.
 
 ```yaml
 Type: String
@@ -101,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -AtScopeAndBelow
-If specified, displays all role definitions.
+Indicates that the cmdlet displays all role definitions.
 
 ```yaml
 Type: SwitchParameter
@@ -155,7 +159,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-Role definition Id.
+Specifies the ID of the role definition.
 
 ```yaml
 Type: Guid
@@ -170,7 +174,7 @@ Accept wildcard characters: False
 ```
 
 ### -Custom
-If specified, only displays the custom created roles in the directory.
+Indicates that the cmdlet displays the custom created roles in the directory.
 
 ```yaml
 Type: SwitchParameter
@@ -193,10 +197,10 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 
 ## RELATED LINKS
 
-[New-AzureRmRoleAssignment]()
+[Get-AzureRmRoleAssignment](xref:ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleAssignment.md)
 
-[Get-AzureRmRoleAssignment]()
+[New-AzureRmRoleAssignment](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md)
 
-[New-AzureRmRoleDefinition]()
+[New-AzureRmRoleDefinition](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleDefinition.md)
 
-[Remove-AzureRmRoleDefinition]()
+[Remove-AzureRmRoleDefinition](xref:ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmRoleDefinition.md)

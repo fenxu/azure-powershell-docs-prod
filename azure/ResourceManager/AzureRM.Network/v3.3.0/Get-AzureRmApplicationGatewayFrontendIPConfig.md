@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 364C41D0-A5DB-4AEF-853A-FE5A11AD9155
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 3/7/2017 9:34 PM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayFrontendIPConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayFrontendIPConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayFrontendIPConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f12bf9f88e6dbbd2488ef437c553f3225b016b75/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayFrontendIPConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -42,7 +42,9 @@ PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -Res
 PS C:\> $FrontEndIP= Get-AzureRmApplicationGatewayFrontendIPConfig -Name "FrontEndIP01" -ApplicationGateway $AppGw
 ```
 
-The first command gets an application gateway named ApplicationGateway01 from the resource group named ResourceGroup01, and stores it in the $AppGw variable.The second command gets the front-end IP configuration named FrontEndIP01 from $AppGw and stores it in the $FrontEndIP variable.
+The first command gets an application gateway named ApplicationGateway01 from the resource group named ResourceGroup01, and stores it in the $AppGw variable.
+
+The second command gets the front-end IP configuration named FrontEndIP01 from $AppGw and stores it in the $FrontEndIP variable.
 
 ### Example 2: Get a list of front-end IP configurations
 ```
@@ -50,7 +52,9 @@ PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -Res
 PS C:\> $FrontEndIPs= Get-AzureRmApplicationGatewayFrontendIPConfig  -ApplicationGateway $AppGw
 ```
 
-The first command gets an application gateway named ApplicationGateway01 from the resource group named ResourceGroup01, and stores it in the $AppGw variable.The second command gets a list of the front-end IP configurations from $AppGw and stores it in the $FrontEndIPs variable.
+The first command gets an application gateway named ApplicationGateway01 from the resource group named ResourceGroup01, and stores it in the $AppGw variable.
+
+The second command gets a list of the front-end IP configurations from $AppGw and stores it in the $FrontEndIPs variable.
 
 ## PARAMETERS
 
@@ -145,5 +149,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApplicationGatewayFrontendIPConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmApplicationGatewayFrontendIPConfig.md)
 
 [Set-AzureRmApplicationGatewayFrontendIPConfig](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmApplicationGatewayFrontendIPConfig.md)
-
-

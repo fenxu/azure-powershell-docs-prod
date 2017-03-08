@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 6C7A7E1A-87A2-4F0D-9091-413C111F47F0
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/4/2017 9:58 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreFirewallRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7761f732d57261bdc233763ac2d243d320e93043/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -32,27 +32,21 @@ Remove-AzureRmDataLakeStoreFirewallRule [-Account] <String> [[-Name] <String>] [
 ```
 
 ## DESCRIPTION
-The Remove-AzureRmDataLakeStoreFirewallRule cmdlet removes the specified firewall rule in the specified Data Lake Store.
+The **Remove-AzureRmDataLakeStoreFirewallRule** cmdlet removes the specified firewall rule in the specified Data Lake Store.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Remove a firewall rule from an account  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
-
-
+###  Example 1: Remove a firewall rule from an account
 ```
 PS C:\> Remove-AzureRmDataLakeStoreFirewallRule -AccountName "ContosoADL" -Name MyFirewallRule
 ```
 
-Removes firewall rule "MyFirewallRule" from account "ContosoADL"
+This command removes the firewall rule named MyFirewallRule from the account named ContosoADL.
 
 ## PARAMETERS
 
 ### -Account
-The Data Lake Store account to update the firewall rule in
+Specifies the Data Lake Store account that this cmdlet updates the firewall rule.
 
 ```yaml
 Type: String
@@ -67,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the firewall rule to delete.
+Specifies the name of the firewall rule that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -82,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-Indicates a boolean response should be returned indicating the result of the delete operation.
+Returns an object representing the item with which you are working. By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -97,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group that contains the account to remove the firewall rule from.
+Specifies the name of the resource group that contains the account that this cmdlet removes the firewall rule.
 
 ```yaml
 Type: String
@@ -127,6 +121,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -152,3 +149,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Add-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreFirewallRule.md)
+
+[Get-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreFirewallRule.md)
+
+[Set-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreFirewallRule.md)

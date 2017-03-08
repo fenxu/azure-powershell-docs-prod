@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: A0DDD773-7AF3-45F4-A863-936749C4CEAF
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 3/7/2017 9:34 PM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayBackendHttpSettings.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayBackendHttpSettings.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayBackendHttpSettings.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f12bf9f88e6dbbd2488ef437c553f3225b016b75/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Get-AzureRmApplicationGatewayBackendHttpSettings.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -42,7 +42,9 @@ PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -Res
 PS C:\> $Settings  = Get-AzureRmApplicationGatewayBackendHttpSettings -Name "Settings01" -ApplicationGateway $AppGw
 ```
 
-The first command gets the application gateway named ApplicationGateway01 in the resource group named ResourceGroup01, and stores it in the $AppGw variable.The second command gets the HTTP settings named Settings01 for $AppGw and stores the settings in the $Settings variable.
+The first command gets the application gateway named ApplicationGateway01 in the resource group named ResourceGroup01, and stores it in the $AppGw variable. 
+
+The second command gets the HTTP settings named Settings01 for $AppGw and stores the settings in the $Settings variable.
 
 ### Example 2: Get a collection of back-end HTTP settings
 ```
@@ -50,7 +52,9 @@ PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -Res
 PS C:\> $SettingsList  = Get-AzureRmApplicationGatewayBackendHttpSettings -ApplicationGateway $AppGw
 ```
 
-The first command gets the application gateway named ApplicationGateway01 in the resource group named ResourceGroup01, and stores it in the $AppGw variable.The second command gets the collection of HTTP settings for $AppGw and stores the settings in the $SettingsList variable.
+The first command gets the application gateway named ApplicationGateway01 in the resource group named ResourceGroup01, and stores it in the $AppGw variable.
+
+The second command gets the collection of HTTP settings for $AppGw and stores the settings in the $SettingsList variable.
 
 ## PARAMETERS
 
@@ -145,5 +149,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApplicationGatewayBackendHttpSettings](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmApplicationGatewayBackendHttpSettings.md)
 
 [Set-AzureRmApplicationGatewayBackendHttpSettings](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmApplicationGatewayBackendHttpSettings.md)
-
-

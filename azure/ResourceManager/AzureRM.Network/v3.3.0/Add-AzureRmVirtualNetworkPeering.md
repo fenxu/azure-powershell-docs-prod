@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 13901193-8C68-4969-ADCD-2E82EA714354
 online version: 
 schema: 2.0.0
-updated_at: 1/27/2017 6:06 PM
-ms.date: 1/27/2017
+updated_at: 3/6/2017 10:23 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVirtualNetworkPeering.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVirtualNetworkPeering.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23ce9feab30627349c6bab53ab057520085412e0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVirtualNetworkPeering.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7c90b1acb16fa52a2d072d19c4526d176998277a/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmVirtualNetworkPeering.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -AllowGatewayTransit
-Flag to allow gatewayLinks be used in remote virtual network's link to this virtual network
+Specifies a flag to allow gateway links to be used in remote virtual network's link to this virtual network.
 
 ```yaml
 Type: SwitchParameter
@@ -222,5 +222,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmVirtualNetworkPeering](xref:ResourceManager/AzureRM.Network/v3.3.0/Remove-AzureRmVirtualNetworkPeering.md)
 
 [Set-AzureRmVirtualNetworkPeering](xref:ResourceManager/AzureRM.Network/v3.3.0/Set-AzureRmVirtualNetworkPeering.md)
-
-

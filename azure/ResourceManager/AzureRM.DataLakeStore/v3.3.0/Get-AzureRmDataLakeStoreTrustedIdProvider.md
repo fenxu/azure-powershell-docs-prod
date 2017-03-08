@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: D79080D5-2785-4C46-86FD-FDAA11117D17
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/4/2017 9:58 PM
+ms.date: 3/4/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreTrustedIdProvider.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreTrustedIdProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreTrustedIdProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7761f732d57261bdc233763ac2d243d320e93043/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.3.0/Get-AzureRmDataLakeStoreTrustedIdProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,41 +33,29 @@ Get-AzureRmDataLakeStoreTrustedIdProvider [-Account] <String> [[-Name] <String>]
 ```
 
 ## DESCRIPTION
-The Get-AzureRmDataLakeStoreTrustedIdProvider cmdlet gets the specified trusted identity provider in the specified Data Lake Store.
+The **Get-AzureRmDataLakeStoreTrustedIdProvider** cmdlet gets the specified trusted identity provider in the specified Data Lake Store.
 If no provider is specified, then lists all providers for the account.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Get a specific trusted identity provider  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
-
-
+### Example 1: Get a specific trusted identity provider
 ```
-PS C:\> Get-AzureRmDataLakeStoreTrustedIdProvider -AccountName "ContosoADL" -Name MyProvider
+PS C:\> Get-AzureRmDataLakeStoreTrustedIdProvider -AccountName "ContosoADL" -Name "MyProvider"
 ```
 
-Returns the provider named "MyProvider" from account "ContosoADL"
+This command gets the provider named MyProvider from the account named ContosoADL.
 
-### --------------------------  Example 2: List all providers in an account  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
-
-
+### Example 2: List all providers in an account
 ```
 PS C:\> Get-AzureRmDataLakeStoreTrustedIdProvider -AccountName "ContosoADL"
 ```
 
-Lists all providers under the account "ContosoADL"
+This command lists all providers under the account named ContosoADL.
 
 ## PARAMETERS
 
 ### -Account
-The Data Lake Store account to retrieve the trusted identity provider from
+Specifies the Data Lake Store account that this cmdlet gets the trusted identity provider from.
 
 ```yaml
 Type: String
@@ -82,7 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the trusted identity provider to retrieve
+Specifies the name of the trusted identity provider that this cmdlet gets.
 
 ```yaml
 Type: String
@@ -97,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Name of resource group under which want to retrieve the specified account's specified trusted identity provider.
+Specifies the name of resource group under which this cmdlet gets the specified accounts trusted identity provider.
 
 ```yaml
 Type: String
@@ -126,3 +114,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Add-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Add-AzureRmDataLakeStoreTrustedIdProvider.md)
+
+[Remove-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Remove-AzureRmDataLakeStoreTrustedIdProvider.md)
+
+[Set-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.3.0/Set-AzureRmDataLakeStoreTrustedIdProvider.md)
