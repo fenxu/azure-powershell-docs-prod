@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 73384750-6F54-4B7D-AD7D-BE53426132A4
-updated_at: 11/3/2016 12:09 AM
-ms.date: 11/3/2016
+updated_at: 3/6/2017 8:57 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/acb318fd1728530f7ac927f78a79dc825e80d533/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Invoke-ServiceFabricDecryptText
 
 ## SYNOPSIS
-Decrypts text for verification.
+Decrypts the text encrypted by the [Invoke-ServiceFabricEncryptText](/.Invoke-ServiceFabricEncryptText.md) cmdlet.
 
 ## SYNTAX
 
@@ -35,10 +35,18 @@ The **Invoke-ServiceFabricDecryptText** cmdlet decrypts text that was encrypted 
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
+> [!NOTE]
+> In order to decrypt the text, the caller of this cmdlet should have access to the private key of the certificate used to encrypt the text.
+
 ## EXAMPLES
 
 ### 1:
 ```
+PS C:\windows\system32> $encryptedText = Invoke-ServiceFabricEncryptText -Text "hello world" -CertThumbprint $thumbprint
+-CertStore -StoreLocation LocalMachine -StoreName My
+
+PS C:\windows\system32> Invoke-ServiceFabricDecryptText -CipherText $encryptedText -StoreLocation LocalMachine
+hello world
 
 ```
 

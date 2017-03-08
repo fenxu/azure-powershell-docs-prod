@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 2/13/2017 6:23 PM
-ms.date: 2/13/2017
+updated_at: 3/6/2017 7:15 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a23f08cca5ae133070c477f143d5d9a3fd1350e0/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/66ca44a2ee27e49104d75c0ff7c4cfa5eab7c079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceName.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -86,7 +86,7 @@ This cmdlet accepts the ID of a Service Fabric partition.
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a `System.Fabric.Query.ServiceNameResult` which represents the service name.
+This cmdlet returns a [System.Fabric.Query.ServiceNameResult](https://docs.microsoft.com/dotnet/api/system.fabric.query.servicenameresult) which represents the service name.
 
 ## NOTES
 

@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 3/6/2017 6:32 PM
+updated_at: 3/6/2017 6:53 PM
 ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/5e12cfb181720315fc2d09214f1e846e0db57c6e/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4cb24501dd16bc0b7a49d0f7aef9167facbddba0/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -77,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -86,8 +86,8 @@ This cmdlet accepts a string that represents the service name.
 
 ## OUTPUTS
 
-### System.Uri
-This cmdlet returns a string which represents the application name.
+### System.Object
+This cmdlet returns an [ApplicationNameResult](https://docs.microsoft.com/dotnet/api/system.fabric.query.applicationnameresult) that contains the Application name.
 
 ## NOTES
 
