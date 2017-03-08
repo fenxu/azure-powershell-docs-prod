@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 6:26 PM
+updated_at: 3/8/2017 9:41 PM
 ms.date: 3/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueue.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7476628ef2747b1b2e855d4dba9a381d15ff82a6/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a575a36d87ca7c0b665d6ccd1a3a8057e16ce697/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueue.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,12 +35,12 @@ The **Get-AzureRmServiceBusQueue** cmdlet returns a description of the specified
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the description of the specified Service Bus queue
 ```
-PS C:\> Get-AzureRmServiceBusQueue -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -QueueName SB-Queue_example1
+PS C:\> Get-AzureRmServiceBusQueue -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -QueueName "SB-Queue_example1"
 ```
 
-Returns the description of the queue. 
+This command gets the description of the queue named SB-Queue_example1. 
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -QueueName
-The queue name.
+Specifies the name of the queue.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-The name of the resource group.
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -140,3 +140,8 @@ Location                            : West US
 
 ## RELATED LINKS
 
+[New-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueue.md)
+
+[Remove-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusQueue.md)
+
+[Set-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusQueue.md)
