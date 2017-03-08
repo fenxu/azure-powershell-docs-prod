@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 5:54 PM
+updated_at: 3/8/2017 6:26 PM
 ms.date: 3/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3d74a68f349aeb8d5971a2381a8f54090485544e/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7476628ef2747b1b2e855d4dba9a381d15ff82a6/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -44,7 +44,7 @@ This command gets a description of the Service Bus namespace named SB-Example1.
 ## PARAMETERS
 
 ### -NamespaceName
- The Service Bus namespace name.
+Specifies the name of the Service Bus namespace.
 
 ```yaml
 Type: String
@@ -101,3 +101,9 @@ Enabled            : True
 ## NOTES
 
 ## RELATED LINKS
+
+[New-AzureRmServiceBusNamespace](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespace.md)
+
+[Remove-AzureRmServiceBusNamespace](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusNamespace.md)
+
+[Set-AzureRmServiceBusNamespace](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespace.md)

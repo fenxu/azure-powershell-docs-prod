@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/8/2017 6:26 PM
+ms.date: 3/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopic.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopic.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopic.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7476628ef2747b1b2e855d4dba9a381d15ff82a6/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopic.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,7 +45,7 @@ Returns the description of the specified topic for the given Service Bus namespa
 ## PARAMETERS
 
 ### -NamespaceName
-The Service Bus namespace name.
+Specifies the name of the Service Bus namespace.
 
 ```yaml
 Type: String
