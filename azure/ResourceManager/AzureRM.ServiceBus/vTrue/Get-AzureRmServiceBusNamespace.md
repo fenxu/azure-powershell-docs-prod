@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/8/2017 5:54 PM
+ms.date: 3/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3d74a68f349aeb8d5971a2381a8f54090485544e/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -34,17 +34,17 @@ The **Get-AzureRmServiceBusNamespace** cmdlet gets a description for the specifi
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get a description of the specified Service bus namespace
 ```
-PS C:\> Get-AzureRmServiceBusNamespace -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1
+PS C:\> Get-AzureRmServiceBusNamespace -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1"
 ```
 
-Returns a description of the specified Service Bus namespace.
+This command gets a description of the Service Bus namespace named SB-Example1.
 
 ## PARAMETERS
 
 ### -NamespaceName
-The Service Bus namespace name.
+ The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-The name of the resource group.
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -101,4 +101,3 @@ Enabled            : True
 ## NOTES
 
 ## RELATED LINKS
-
