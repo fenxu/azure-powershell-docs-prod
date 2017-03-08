@@ -3,11 +3,11 @@ external help file: RMSProtection.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=623209
 schema: 2.0.0
 ms.assetid: C07C0831-92B3-43CE-B18F-F2A12F3283DC
-updated_at: 2/14/2017 5:01 PM
-ms.date: 2/14/2017
+updated_at: 3/7/2017 1:05 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/live/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/d1c5d3878715c0a5dd9195e1d580532ba3f2c68a/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/2dcadd30a529550a6c38ca36b089083710e8f317/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -41,6 +41,9 @@ When you run this cmdlet, you have the following options:
 - The original file remains protected and an unprotected version of the file is created in another location.
 - All files in the specified folder are unprotected in the current location, replacing the original files that were protected.
 - All files in the specified folder remains protected and an unprotected version of each file is created in another location.
+
+You can run this command concurrently when you specify a different path for the *LogFile* parameter for each command that runs in parallel. If you do not specify a different log file path and the previous command has not finished, the new command will fail.
+
 
 ## EXAMPLES
 
