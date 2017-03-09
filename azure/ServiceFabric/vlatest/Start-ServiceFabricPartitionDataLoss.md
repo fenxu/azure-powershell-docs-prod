@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: F83D7B99-CFDC-4A95-A2C7-3CD33925FBAA
-updated_at: 3/7/2017 2:37 AM
-ms.date: 3/7/2017
+updated_at: 3/8/2017 9:31 PM
+ms.date: 3/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9ff37ed5844bf5299a742439dcc108689e8dbf4e/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fb293d9c63bf597a45bd2bf3164f53d54cc0e4ae/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,10 +21,10 @@ ms.service: service-fabric
 # Start-ServiceFabricPartitionDataLoss
 
 ## SYNOPSIS
-Starts to perform a data loss fault on a partition of a stateful Service Fabric service. For details about how to invoke a dataloss, see the [Invoke Data Loss](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-use-data-loss-api) article.
+Initiates a data loss fault operation on a partition of a stateful Service Fabric service. For details about how to invoke a data loss operation, see the [Invoke Data Loss](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-use-data-loss-api) article.
 
 ## SYNTAX
-The various ways to specify or to choose the partition to invoke data loss on are as follows:
+The various ways to specify or to choose the partition to invoke data loss are as follows:
 
 ### Using PartitionId
 ```
@@ -57,15 +57,17 @@ Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLoss
 ```
 
 ## DESCRIPTION
-The **Start-ServiceFabricPartitionDataLoss** cmdlet initiates a data loss on a stateful service partition in Azure Service Fabric.
-To run this cmdlet, **FaultAnalysisService** must be enabled.
 
-Run this cmdlet to perform a data loss fault only for partitions for stateful services.
-Do not use this cmdlet to perform a data loss for system services.
+The **Start-ServiceFabricPartitionDataLoss** cmdlet initiates a data loss fault operation on a stateful service partition in Azure Service Fabric.
 
-You can check the progress of the fault by using the [Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress) cmdlet.
+> [!WARNING]
+> Do not use this cmdlet to perform a data loss fault operation on system services.
+> Run this cmdlet to perform a data loss fault operation only for partitions for stateful services.
+>
 
-After you start **Start-ServiceFabricPartitionDataLoss**, you cannot reverse it.  Calling [Stop-ServiceFabricTestCommand](./Stop-ServiceFabricTestCommand.md) only stops execution and cleans up the internal system state; it does not restore data if the command has progressed far enough to cause data loss.
+You can check the progress of the data loss fault operation using the [Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress) cmdlet.
+
+After you invoke **Start-ServiceFabricPartitionDataLoss**, you cannot reverse it.
 
 ## EXAMPLES
 
@@ -74,22 +76,24 @@ After you start **Start-ServiceFabricPartitionDataLoss**, you cannot reverse it.
 PS C:\>Start-ServiceFabricPartitionDataLoss -OperationId d3f12b09-6a90-4745-a4fc-3f92149a7419 -DataLossMode FullDataLoss -PartitionId 67e2c139-ccf0-4562-9f2b-bf35e4c2abd4 -ServiceName "fabric:/ContosoApp/ContosoService"
 ```
 
-This command starts a data loss fault for all replicas of the service named fabric:/ContosoApp/ContosoService in the partition that has the ID 67e2c139-ccf0-4562-9f2b-bf35e4c2abd4.
+This command starts a data loss fault operation for all replicas of the service named fabric:/ContosoApp/ContosoService in the partition that has the ID 67e2c139-ccf0-4562-9f2b-bf35e4c2abd4.
 Specify a unique GUID for the *OperationId* parameter.
-You can use this ID to check the progress of the data loss fault.
+You can use this ID to check the progress of the data loss fault operation.
 
 ## PARAMETERS
 
 ### -DataLossMode
-Specifies the data loss mode for the test command.
+Specifies the data loss mode for the data loss fault operation.
 The acceptable values for this parameter are:
 
 - PartialDataLoss.
 Only a quorum of replicas are removed.
-**OnDataLoss** is triggered for the partition, but actual data loss depends on presence of inflight replication.
+**OnDataLossAsync** is triggered for the partition, but actual data loss depends on the presence of inflight replication.
 - FullDataLoss.
 All replicas are removed.
-All data is lost and **OnDataLoss** is triggered.
+All data is lost and **OnDataLossAsync** is triggered.
+
+To find more about **OnDataLossAsync** please refer to the [Back up and restore](https://github.com/Microsoft/azure-docs/blob/master/articles/service-fabric/service-fabric-reliable-services-backup-restore.md) article.
 
 ```yaml
 Type: DataLossMode
@@ -233,4 +237,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-ServiceFabricPartitionDataLossProgress](xref:ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md)
 
-[Invoke-ServiceFabricPartitionDataLoss](xref:ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md)
+[Back up and restore Reliable Services and Reliable Actors](xref:ServiceFabric/vlatest/service-fabric-reliable-services-backup-restore.md)

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 80D9F43B-395B-4295-8D5B-CE56BB0B6FA2
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+updated_at: 3/8/2017 9:48 PM
+ms.date: 3/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/59bac2d879a84bc82847d8ab21abe35fdc370de4/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -24,6 +24,8 @@ ms.service: service-fabric
 Removes a replica from a cluster to simulate a replica failure.
 
 ## SYNTAX
+
+The following are the various ways of calling Remove-ServiceFabricReplica cmdlet.
 
 ### ByNodeName
 ```
@@ -166,12 +168,20 @@ The **Remove-ServiceFabricReplica** cmdlet simulates a Service Fabric replica fa
 The removal closes the replica, transitions the replica to the role None, and then removes all of the state information of the replica from the cluster.
 This cmdlet tests the replica state removal path, and simulates the report fault permanent path through client APIs.
 
+In order to specify the replica to be removed we can start either with the node name or the service name.
+
+Then we need to specify the partition to which the replica belongs. We can specify the partition either by specifying the pair (naming scheme, partition key) or by specifying the partition ID. For more details on Microsoft Azure Service Fabric service partitioning, please refer to the [Partition Service Fabric reliable services](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-concepts-partitioning) article.  
+
+Lastly, we may need to specify which replica of the partition we are referring to and that can be done either by specifying the replica role (primary or secondary replica) or by specifying the replica ID.
+
+Note, sometimes the user may - instead of exactly specifying the replica - want to remove say one of the secondaries of a particular partition of a particular service; that is why, some of the forms of the Remove-ServiceFabricReplica cmdlet intentionally leaves ambiguity about which replica the user is referring to -- in these cases, the cmdlet makes random choices for the user. For example, if the user only provides the service name to the cmdlet, the Remove-ServiceFabricReplica cmdlet will assume that the user wants to remove any one of the replicas from any one of the partitions belonging to the service; so it will choose one of the partitions of the service at random and will choose one of the replicas (could be primary or secondary) of the chosen partition at random and will remove that chosen replica.
+
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 
 ## EXAMPLES
 
-### Example 1: Remove a replica
+### Example 1: Remove a specific replica
 ```
 PS C:\>Remove-ServiceFabricReplica -NodeName "Node07" -PartitionId 869dd2e9-fdda-42a5-ad96-4b71c795dfd3 -ReplicaOrInstanceId 12345098480948
 ```
@@ -182,8 +192,20 @@ This command removes a replica that belongs to the specified partition that is d
 ```
 PS C:\>Remove-ServiceFabricReplica -ReplicaKindPrimary -PartitionKindNamed -PartitionKey "Partition1" -ServiceName fabric:/App/Service
 ```
-
 This command removes the primary replica that belongs to a specified named partition.
+
+### Example 3: Remove some replica of a specific partition
+```
+PS C:> Remove-ServiceFabricReplica -ServiceName fabric:/Application37/Stateful1 -PartitionId  2fb4f54b-
+bd1e-4b48-972c-ef25b071d607
+
+
+SelectedReplica : ReplicaOrInstanceId = 131334070761552043, SelectedPartition = Service Name:
+                  fabric:/Application37/Stateful1, Partition Id: 2fb4f54b-bd1e-4b48-972c-ef25b071d607
+```
+
+This command removes a randomly chosen replica from the partition with ID 2fb4f54b-bd1e-4b48-972c-ef25b071d607 of the service fabric:/Application37/Stateful1. The output also shows that the ID of the randomly chosen replica is 131334070761552043.
+
 
 ## PARAMETERS
 
@@ -401,9 +423,7 @@ This cmdlet accepts the name of a Service Fabric service.
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a **System.Fabric.Testability.RemoveReplicaResult** object that represents the operation result.
-
-## NOTES
+This cmdlet returns a **System.Fabric.Result.RemoveReplicaResult** object that represents the operation result.
 
 ## RELATED LINKS
 

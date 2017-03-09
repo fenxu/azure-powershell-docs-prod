@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: C312AB4D-6C4F-404B-8335-A911EFFBD6E0
-updated_at: 3/7/2017 2:37 AM
-ms.date: 3/7/2017
+updated_at: 3/8/2017 5:19 AM
+ms.date: 3/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9ff37ed5844bf5299a742439dcc108689e8dbf4e/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/7b311e9dd04ae0a306bd8aacf179d0953aab7b57/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Invoke-ServiceFabricPartitionQuorumLoss
 
 ## SYNOPSIS
-Invokes an action to induce quorum loss in a Service Fabric partition.
+**DEPRECATED**. Please use the [Start-ServiceFabricPartitionQuorumLoss](./Start-ServiceFabricPartitionQuorumLoss.md).
 
 ## SYNTAX
 
@@ -58,32 +58,6 @@ Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -Quorum
 
 ## DESCRIPTION
 The **Invoke-ServiceFabricPartitionQuorumLoss** cmdlet induces quorum loss in a Service Fabric partition for a specified amount of time.
-
-You can run this cmdlet only with stateful services.
-
-Before using this cmdlet, connect to the Service Fabric cluster.
-
-This cmdlet should not be aborted while running.
-Aborting this cmdlet while it is running may leave state behind.
-If this cmdlet is aborted while running, [Remove-ServiceFabricTestState](.\Remove-ServiceFabricTestState.md) should be invoked to remove state that may have been left behind.
-
-## EXAMPLES
-
-### Example 1: Invoke full quorum loss on a named partition
-```
-PS C:\>Invoke-ServiceFabricPartitionQuorumLoss -ServiceName fabric:/TestSvc -PartitionKindNamed -QuorumLossDurationInSeconds 10 -PartitionKey "Partition3" -QuorumLossMode FullQuorumLoss
-```
-
-This command invokes full quorum loss for the specified service.
-
-### Example 2: Invoke partial quorum loss on a UniformInt64 partition
-```
-PS C:\>Invoke-ServiceFabricPartitionQuorumLoss -ServiceName fabric:/TestSvc -PartitionKindUniformInt64 -QuorumLossDurationInSeconds 10 -PartitionKey "23" -QuorumLossMode PartialQuorumLoss
-```
-
-This command invokes partial quorum loss on a UniformInt64 partition.
-
-This command invokes partial quorum loss on a UniformInt64 partition.
 
 ## PARAMETERS
 
