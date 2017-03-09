@@ -3,11 +3,11 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 20C36069-42AE-4B9C-A64B-ECAF5C3B6252
-updated_at: 11/10/2016 12:31 AM
-ms.date: 11/10/2016
+updated_at: 3/7/2017 4:00 PM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDomain.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/989782cc075560a448ef3d2fc1bc403970d401c7/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDomain.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -43,21 +43,21 @@ The **Get-MsolDomain** cmdlet gets a company domains.
 
 ### Example 1: Get all domains for the company
 ```
-PS C:\> Get-Domain
+PS C:\> Get-MsolDomain
 ```
 
 This command retrieves all domains for the company, verified or unverified.
 
 ###  Example 2: Get a domain by name
 ```
-PS C:\> Get-Domain -Name "contoso.com"
+PS C:\> Get-MsolDomain -Name "contoso.com"
 ```
 
 This command retrieves the contoso.com domain.
 
 ###  Example 3: Get verified domains
 ```
-PS C:\> Get-Domain -Status Verified
+PS C:\> Get-MsolDomain -Status Verified
 ```
 
 This command returns a list of verified company domains.
