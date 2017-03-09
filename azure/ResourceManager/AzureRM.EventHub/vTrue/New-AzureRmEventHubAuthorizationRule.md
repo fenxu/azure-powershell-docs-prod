@@ -167,8 +167,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmEventHubAuthoritationRule](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Get-AzureRmEventHubAuthoritationRule.md)
+[Get-AzureRmEventHubAuthoritationRule](xref:ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubAuthoritationRule.md)
 
-[Remove-AzureRmEventHubAuthoritationRule](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Remove-AzureRmEventHubAuthoritationRule.md)
+[Remove-AzureRmEventHubAuthoritationRule](xref:ResourceManager/AzureRM.EventHub/vTrue/Remove-AzureRmEventHubAuthoritationRule.md)
 
-[Set-AzureRmEventHubAuthoritationRule](xref:ResourceManager/AzureRM.EventHub/v0.0.2/Set-AzureRmEventHubAuthoritationRule.md)
+[Set-AzureRmEventHubAuthoritationRule](xref:ResourceManager/AzureRM.EventHub/vTrue/Set-AzureRmEventHubAuthoritationRule.md)
