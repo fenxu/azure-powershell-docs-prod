@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 11:04 PM
-ms.date: 3/8/2017
+updated_at: 3/9/2017 1:21 AM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespaceAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespaceAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7e0d206950ae8df1ee85f0cbf6b13028f6c947cf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespaceAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/32d5c1868fc315e9032a08723a497d19e49ac3ee/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespaceAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # New-AzureRmServiceBusNamespaceAuthorizationRule
 
 ## SYNOPSIS
-Creates a new authorization rule for the specified Service Bus namespace
+Creates an authorization rule for the specified Service Bus namespace
 
 ## SYNTAX
 
@@ -31,16 +31,16 @@ New-AzureRmServiceBusNamespaceAuthorizationRule [-ResourceGroup] <String> [-Name
 ```
 
 ## DESCRIPTION
-The **New-AzureRmServiceBusNamespaceAuthorizationRule** cmdlet creates a new authorization rule for the specified Service Bus namespace.
+The **New-AzureRmServiceBusNamespaceAuthorizationRule** cmdlet creates an authorization rule for the specified Service Bus namespace.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Create an authorization rule for the specified namespace
 ```
 PS C:\> New-AzureRmServiceBusNamespaceAuthorizationRule -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -AuthorizationRuleName AuthoRule1 -Rights @("Listen","Send")
 ```
 
-Creates `AuthoRule1` with **Listen** and **Send** rights for the namespace `SB-Example1`.
+This command creates the authorization rule named AuthoRule1 with **Listen** and **Send** rights for the namespace named SB-Example1.
 
 ## PARAMETERS
 
@@ -170,3 +170,8 @@ Rights   : {Listen, Send}
 
 ## RELATED LINKS
 
+[Get-AzureRmServiceBusNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespaceAuthorizationRule.md)
+
+[Remove-AzureRmServiceBusNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusNamespaceAuthorizationRule.md)
+
+[Set-AzureRmServiceBusNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespaceAuthorizationRule.md)

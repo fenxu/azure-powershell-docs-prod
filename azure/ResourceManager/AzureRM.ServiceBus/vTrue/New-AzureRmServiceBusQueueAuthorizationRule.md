@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 11:04 PM
-ms.date: 3/8/2017
+updated_at: 3/9/2017 1:21 AM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueueAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueueAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7e0d206950ae8df1ee85f0cbf6b13028f6c947cf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueueAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/32d5c1868fc315e9032a08723a497d19e49ac3ee/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueueAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # New-AzureRmServiceBusQueueAuthorizationRule
 
 ## SYNOPSIS
-Creates a new authorization rule for the specified Service Bus queue.
+Creates an authorization rule for the specified Service Bus queue.
 
 ## SYNTAX
 
@@ -32,16 +32,16 @@ New-AzureRmServiceBusQueueAuthorizationRule [-ResourceGroup] <String> [-Namespac
 ```
 
 ## DESCRIPTION
-The **New-AzureRmServiceBusQueueAuthorizationRule** cmdlet creates a new authorization rule for the specified Service Bus queue.
+The **New-AzureRmServiceBusQueueAuthorizationRule** cmdlet creates an authorization rule for the specified Service Bus queue.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Create an authorization rule for a specific Service Bus queue
 ```
-PS C:\> New-AzureRmServiceBusQueueAuthorizationRule -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -QueueName SB-Queue_exampl1 -AuthorizationRuleName SBAuthoRule1 -Rights @("Listen","Send")
+PS C:\> New-AzureRmServiceBusQueueAuthorizationRule -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -QueueName "SB-Queue_example1" -AuthorizationRuleName "SBAuthoRule1" -Rights @("Listen","Send")
 ```
 
-Creates authorization rule `SBAuthoRule1` with **Listen and Send** rights for the queue `SB-Queue_exampl1`.
+This command creates an authorization rule named SBAuthoRule1 with **Listen and Send** rights for the queue named SB-Queue_example1.
 
 ## PARAMETERS
 
@@ -187,3 +187,8 @@ Rights   : {Listen, Send}
 
 ## RELATED LINKS
 
+[Get-AzureRmServiceBusNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespaceAuthorizationRule.md)
+
+[Remove-AzureRmServiceBusNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusNamespaceAuthorizationRule.md)
+
+[Set-AzureRmServiceBusNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespaceAuthorizationRule.md)
