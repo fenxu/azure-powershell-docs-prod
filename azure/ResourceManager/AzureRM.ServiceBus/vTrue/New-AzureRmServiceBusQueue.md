@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 11:04 PM
-ms.date: 3/8/2017
+updated_at: 3/9/2017 1:21 AM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueue.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7e0d206950ae8df1ee85f0cbf6b13028f6c947cf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/32d5c1868fc315e9032a08723a497d19e49ac3ee/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueue.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,12 +40,12 @@ The **New-AzureRmServiceBusQueue** cmdlet creates a Service Bus queue in the spe
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Create a Service Bus queue
 ```
-PS C:\> New-AzureRmServiceBusQueue -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -QueueName SB-Queue_exampl1 -EnablePartitioning $True
+PS C:\> New-AzureRmServiceBusQueue -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -QueueName "SB-Queue_example1" -EnablePartitioning $True
 ```
 
-Creates a new Service Bus queue `SB-Queue_exampl1` in the specified Service Bus namespace `SB-Example1`.
+This command creates a Service Bus queue named SB-Queue_example1 in the Service Bus namespace named SB-Example1.
 
 ## PARAMETERS
 
@@ -327,7 +327,7 @@ Accept wildcard characters: False
 ```
 
 ### -SizeInBytes
-The size of the queue in bytes.
+Specifies the size of the queue in bytes.
 
 ```yaml
 Type: Int64
@@ -406,3 +406,8 @@ UpdatedAt                           : 1/20/2017 2:51:37 AM
 
 ## RELATED LINKS
 
+[Get-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueue.md)
+
+[Remove-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusQueue.md)
+
+[Set-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusQueue.md)
