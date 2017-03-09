@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 11:04 PM
-ms.date: 3/8/2017
+updated_at: 3/9/2017 6:46 PM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusTopic.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusTopic.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7e0d206950ae8df1ee85f0cbf6b13028f6c947cf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusTopic.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/71cac14758de8eeb36a92b82dae146511ac2a136/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusTopic.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,7 +35,7 @@ The **Set-AzureRmServiceBusTopic** cmdlet updates a description object for a Ser
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Update a description object for a Service Bus topic
 ```
 PS C:\> $topicObj = Get-AzureRmServiceBusTopic -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1
 
@@ -44,7 +44,7 @@ PS C:\> $topicObj.EnableExpress = $True
 PS C:\> Set-AzureRmServiceBusTopic -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -TopicObj $topicObj
 ```
 
-Updates the specified topic with a new description in the specified namespace. This example updates the **EnableExpress** property to **true**. 
+This example updates the specified topic with a new description in the specified namespace. This example updates the **EnableExpress** property to **true**. 
 
 ## PARAMETERS
 
@@ -109,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -TopicObj
-The Service Bus topic definition.
+Specifies the Service Bus topic definition.
 
 ```yaml
 Type: TopicAttributes
@@ -190,3 +190,8 @@ UpdatedAt                           : 1/20/2017 7:12:16 PM
 
 ## RELATED LINKS
 
+[Get-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopic.md)
+
+[New-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusTopic.md)
+
+[Remove-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusTopic.md)

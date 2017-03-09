@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 11:04 PM
-ms.date: 3/8/2017
+updated_at: 3/9/2017 6:46 PM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusTopicAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusTopicAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7e0d206950ae8df1ee85f0cbf6b13028f6c947cf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusTopicAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/71cac14758de8eeb36a92b82dae146511ac2a136/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusTopicAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,7 +36,7 @@ The **Set-AzureRmServiceBusTopicAuthorizationRule** cmdlet updates the descripti
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Update the description for an authorization rule
 ```
 PS C:\> $authRuleObj = Get-AzureRmServiceBusTopicAuthorizationRule -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -AuthorizationRuleName SBTopicAuthoRule1
 
@@ -45,12 +45,12 @@ PS C:\> $authRuleObj.Rights.Add("Manage")
 PS C:\> Set-AzureRmServiceBusTopicAuthorizationRule -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -AuthRuleObj $authRuleObj
 ```
 
-Adds **Manage** to the access rights of the authorization rule `SBTopicAuthoRule1` on topic `SB-Topic_exampl1`.
+This example adds **Manage** to the access rights of the authorization rule named SBTopicAuthoRule1 on the topic named SB-Topic_exampl1.
 
 ## PARAMETERS
 
 ### -AuthRuleObj
-The Service Bus topic authorization rule object.
+Specifies the Service Bus topic authorization rule object.
 
 ```yaml
 Type: SharedAccessAuthorizationRuleAttributes
@@ -65,7 +65,9 @@ Accept wildcard characters: False
 ```
 
 ### -AuthorizationRuleName
-Specifies the name of the authorization rule. Required if **-AuthruleObj** is not specified.
+Specifies the name of the authorization rule. 
+
+This parameter is required if the *AuthruleObj* parameter is not specified.
 
 ```yaml
 Type: String
@@ -125,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -Rights
-Rights; for example, 
+Specifies the rights; for instance, 
 @("Listen","Send","Manage"). Required if **-AuthruleObj** is not specified.
 
 ```yaml
@@ -203,3 +205,8 @@ Rights   : {Listen, Send, Manage}
 
 ## RELATED LINKS
 
+[Get-AzureRmServiceBusTopicAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopicAuthorizationRule.md)
+
+[New-AzureRmServiceBusTopicAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusTopicAuthorizationRule.md)
+
+[Remove-AzureRmServiceBusTopicAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusTopicAuthorizationRule.md)
