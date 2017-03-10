@@ -4042,6 +4042,13 @@
               href: ../ResourceManager/AzureRM.Batch/vTrue/Stop-AzureBatchTask.md
             - name: Test-AzureBatchAutoScale
               href: ../ResourceManager/AzureRM.Batch/vTrue/Test-AzureBatchAutoScale.md
+    - name: AzureRM.Billing
+      items:
+        - name: v0.9.0
+          href: ../ResourceManager/AzureRM.Billing/v0.9.0/AzureRM.Billing.md
+          items:
+            - name: Get-AzureRmBillingInvoice
+              href: ../ResourceManager/AzureRM.Billing/v0.9.0/Get-AzureRmBillingInvoice.md
     - name: AzureRM.Cdn
       items:
         - name: v2.5.0

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 52C5CD8B-2489-4FE6-9F33-B3350531CD8E
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 2:56 AM
-ms.date: 2/23/2017
+updated_at: 3/9/2017 9:05 PM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroupMember.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroupMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f4ad4d86dc3225c328b9b32f3b50aaeafdfe7a80/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmADGroupMember.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmADGroupMember
 
 ## SYNOPSIS
-Get a group members.
+Get group members.
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ Get-AzureRmADGroupMember [-GroupObjectId <Guid>] [-InformationAction <ActionPref
 ```
 
 ## DESCRIPTION
-Get a group members.
+The **Get-AzureRmADGroupMember** cmdlet gets group members.
 
 ## EXAMPLES
 

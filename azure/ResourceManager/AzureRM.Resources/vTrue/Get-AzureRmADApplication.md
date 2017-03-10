@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 66AC5120-80B1-46F2-AA51-132BF361602E
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/9/2017 9:05 PM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/vTrue/Get-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/vTrue/Get-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/vTrue/Get-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f4ad4d86dc3225c328b9b32f3b50aaeafdfe7a80/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/vTrue/Get-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -122,7 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-The object id of the application to fetch.
+Specifies the object ID of the application that this cmdlet gets.
 
 ```yaml
 Type: Guid
@@ -137,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationId
-The application id of the application to fetch.
+Specifies the application ID of the application to that this cmdlet gets.
 
 ```yaml
 Type: Guid
@@ -152,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayNameStartWith
-Fetch all applications starting with the display name.
+Specifies the display name of all applications that this cmdlet gets.
 
 ```yaml
 Type: String
@@ -167,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -IdentifierUri
-Unique identifier Uri of the application to fetch.
+Specifies the unique identifier URI of the application that this cmdlet gets.
 
 ```yaml
 Type: String
