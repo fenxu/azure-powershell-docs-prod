@@ -1081,10 +1081,14 @@
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Get-AzureRmApiManagementApi.md
             - name: Get-AzureRmApiManagementAuthorizationServer
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Get-AzureRmApiManagementAuthorizationServer.md
+            - name: Get-AzureRmApiManagementBackend
+              href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Get-AzureRmApiManagementBackend.md
             - name: Get-AzureRmApiManagementCertificate
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Get-AzureRmApiManagementCertificate.md
             - name: Get-AzureRmApiManagementGroup
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Get-AzureRmApiManagementGroup.md
+            - name: Get-AzureRmApiManagementIdentityProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Get-AzureRmApiManagementIdentityProvider.md
             - name: Get-AzureRmApiManagementLogger
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Get-AzureRmApiManagementLogger.md
             - name: Get-AzureRmApiManagementOpenIdConnectProvider
@@ -1121,6 +1125,12 @@
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/New-AzureRmApiManagementApi.md
             - name: New-AzureRmApiManagementAuthorizationServer
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/New-AzureRmApiManagementAuthorizationServer.md
+            - name: New-AzureRmApiManagementBackend
+              href: ../ResourceManager/AzureRM.ApiManagement/vTrue/New-AzureRmApiManagementBackend.md
+            - name: New-AzureRmApiManagementBackendCredential
+              href: ../ResourceManager/AzureRM.ApiManagement/vTrue/New-AzureRmApiManagementBackendCredential.md
+            - name: New-AzureRmApiManagementBackendProxy
+              href: ../ResourceManager/AzureRM.ApiManagement/vTrue/New-AzureRmApiManagementBackendProxy.md
             - name: New-AzureRmApiManagementCertificate
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/New-AzureRmApiManagementCertificate.md
             - name: New-AzureRmApiManagementContext
@@ -1129,6 +1139,8 @@
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/New-AzureRmApiManagementGroup.md
             - name: New-AzureRmApiManagementHostnameConfiguration
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/New-AzureRmApiManagementHostnameConfiguration.md
+            - name: New-AzureRmApiManagementIdentityProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/vTrue/New-AzureRmApiManagementIdentityProvider.md
             - name: New-AzureRmApiManagementLogger
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/New-AzureRmApiManagementLogger.md
             - name: New-AzureRmApiManagementOpenIdConnectProvider
@@ -1157,10 +1169,14 @@
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Remove-AzureRmApiManagementApiFromProduct.md
             - name: Remove-AzureRmApiManagementAuthorizationServer
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Remove-AzureRmApiManagementAuthorizationServer.md
+            - name: Remove-AzureRmApiManagementBackend
+              href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Remove-AzureRmApiManagementBackend.md
             - name: Remove-AzureRmApiManagementCertificate
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Remove-AzureRmApiManagementCertificate.md
             - name: Remove-AzureRmApiManagementGroup
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Remove-AzureRmApiManagementGroup.md
+            - name: Remove-AzureRmApiManagementIdentityProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Remove-AzureRmApiManagementIdentityProvider.md
             - name: Remove-AzureRmApiManagementLogger
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Remove-AzureRmApiManagementLogger.md
             - name: Remove-AzureRmApiManagementOpenIdConnectProvider
@@ -1191,12 +1207,16 @@
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Set-AzureRmApiManagementApi.md
             - name: Set-AzureRmApiManagementAuthorizationServer
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Set-AzureRmApiManagementAuthorizationServer.md
+            - name: Set-AzureRmApiManagementBackend
+              href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Set-AzureRmApiManagementBackend.md
             - name: Set-AzureRmApiManagementCertificate
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Set-AzureRmApiManagementCertificate.md
             - name: Set-AzureRmApiManagementGroup
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Set-AzureRmApiManagementGroup.md
             - name: Set-AzureRmApiManagementHostnames
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Set-AzureRmApiManagementHostnames.md
+            - name: Set-AzureRmApiManagementIdentityProvider
+              href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Set-AzureRmApiManagementIdentityProvider.md
             - name: Set-AzureRmApiManagementLogger
               href: ../ResourceManager/AzureRM.ApiManagement/vTrue/Set-AzureRmApiManagementLogger.md
             - name: Set-AzureRmApiManagementOpenIdConnectProvider
@@ -4049,6 +4069,11 @@
           items:
             - name: Get-AzureRmBillingInvoice
               href: ../ResourceManager/AzureRM.Billing/v0.9.0/Get-AzureRmBillingInvoice.md
+        - name: vTrue
+          href: ../ResourceManager/AzureRM.Billing/vTrue/AzureRM.Billing.md
+          items:
+            - name: Get-AzureRmBillingInvoice
+              href: ../ResourceManager/AzureRM.Billing/vTrue/Get-AzureRmBillingInvoice.md
     - name: AzureRM.Cdn
       items:
         - name: v2.5.0
@@ -9960,10 +9985,14 @@
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Get-AzureRmIntegrationAccountCallbackUrl.md
             - name: Get-AzureRmIntegrationAccountCertificate
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Get-AzureRmIntegrationAccountCertificate.md
+            - name: Get-AzureRmIntegrationAccountGeneratedIcn
+              href: ../ResourceManager/AzureRM.LogicApp/vTrue/Get-AzureRmIntegrationAccountGeneratedIcn.md
             - name: Get-AzureRmIntegrationAccountMap
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Get-AzureRmIntegrationAccountMap.md
             - name: Get-AzureRmIntegrationAccountPartner
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Get-AzureRmIntegrationAccountPartner.md
+            - name: Get-AzureRmIntegrationAccountReceivedIcn
+              href: ../ResourceManager/AzureRM.LogicApp/vTrue/Get-AzureRmIntegrationAccountReceivedIcn.md
             - name: Get-AzureRmIntegrationAccountSchema
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Get-AzureRmIntegrationAccountSchema.md
             - name: Get-AzureRmLogicApp
@@ -10004,6 +10033,8 @@
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Remove-AzureRmIntegrationAccountMap.md
             - name: Remove-AzureRmIntegrationAccountPartner
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Remove-AzureRmIntegrationAccountPartner.md
+            - name: Remove-AzureRmIntegrationAccountReceivedIcn
+              href: ../ResourceManager/AzureRM.LogicApp/vTrue/Remove-AzureRmIntegrationAccountReceivedIcn.md
             - name: Remove-AzureRmIntegrationAccountSchema
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Remove-AzureRmIntegrationAccountSchema.md
             - name: Remove-AzureRmLogicApp
@@ -10014,10 +10045,14 @@
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Set-AzureRmIntegrationAccountAgreement.md
             - name: Set-AzureRmIntegrationAccountCertificate
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Set-AzureRmIntegrationAccountCertificate.md
+            - name: Set-AzureRmIntegrationAccountGeneratedIcn
+              href: ../ResourceManager/AzureRM.LogicApp/vTrue/Set-AzureRmIntegrationAccountGeneratedIcn.md
             - name: Set-AzureRmIntegrationAccountMap
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Set-AzureRmIntegrationAccountMap.md
             - name: Set-AzureRmIntegrationAccountPartner
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Set-AzureRmIntegrationAccountPartner.md
+            - name: Set-AzureRmIntegrationAccountReceivedIcn
+              href: ../ResourceManager/AzureRM.LogicApp/vTrue/Set-AzureRmIntegrationAccountReceivedIcn.md
             - name: Set-AzureRmIntegrationAccountSchema
               href: ../ResourceManager/AzureRM.LogicApp/vTrue/Set-AzureRmIntegrationAccountSchema.md
             - name: Set-AzureRmLogicApp
@@ -13093,6 +13128,8 @@
               href: ../ResourceManager/AzureRM.Network/vTrue/Get-AzureRmApplicationGatewayBackendHealth.md
             - name: Get-AzureRmApplicationGatewayBackendHttpSettings
               href: ../ResourceManager/AzureRM.Network/vTrue/Get-AzureRmApplicationGatewayBackendHttpSettings.md
+            - name: Get-AzureRmApplicationGatewayConnectionDraining
+              href: ../ResourceManager/AzureRM.Network/vTrue/Get-AzureRmApplicationGatewayConnectionDraining.md
             - name: Get-AzureRmApplicationGatewayFrontendIPConfig
               href: ../ResourceManager/AzureRM.Network/vTrue/Get-AzureRmApplicationGatewayFrontendIPConfig.md
             - name: Get-AzureRmApplicationGatewayFrontendPort
@@ -13213,6 +13250,8 @@
               href: ../ResourceManager/AzureRM.Network/vTrue/New-AzureRmApplicationGatewayBackendAddressPool.md
             - name: New-AzureRmApplicationGatewayBackendHttpSettings
               href: ../ResourceManager/AzureRM.Network/vTrue/New-AzureRmApplicationGatewayBackendHttpSettings.md
+            - name: New-AzureRmApplicationGatewayConnectionDraining
+              href: ../ResourceManager/AzureRM.Network/vTrue/New-AzureRmApplicationGatewayConnectionDraining.md
             - name: New-AzureRmApplicationGatewayFrontendIPConfig
               href: ../ResourceManager/AzureRM.Network/vTrue/New-AzureRmApplicationGatewayFrontendIPConfig.md
             - name: New-AzureRmApplicationGatewayFrontendPort
@@ -13305,6 +13344,8 @@
               href: ../ResourceManager/AzureRM.Network/vTrue/Remove-AzureRmApplicationGatewayBackendAddressPool.md
             - name: Remove-AzureRmApplicationGatewayBackendHttpSettings
               href: ../ResourceManager/AzureRM.Network/vTrue/Remove-AzureRmApplicationGatewayBackendHttpSettings.md
+            - name: Remove-AzureRmApplicationGatewayConnectionDraining
+              href: ../ResourceManager/AzureRM.Network/vTrue/Remove-AzureRmApplicationGatewayConnectionDraining.md
             - name: Remove-AzureRmApplicationGatewayFrontendIPConfig
               href: ../ResourceManager/AzureRM.Network/vTrue/Remove-AzureRmApplicationGatewayFrontendIPConfig.md
             - name: Remove-AzureRmApplicationGatewayFrontendPort
@@ -13399,6 +13440,8 @@
               href: ../ResourceManager/AzureRM.Network/vTrue/Set-AzureRmApplicationGatewayBackendAddressPool.md
             - name: Set-AzureRmApplicationGatewayBackendHttpSettings
               href: ../ResourceManager/AzureRM.Network/vTrue/Set-AzureRmApplicationGatewayBackendHttpSettings.md
+            - name: Set-AzureRmApplicationGatewayConnectionDraining
+              href: ../ResourceManager/AzureRM.Network/vTrue/Set-AzureRmApplicationGatewayConnectionDraining.md
             - name: Set-AzureRmApplicationGatewayFrontendIPConfig
               href: ../ResourceManager/AzureRM.Network/vTrue/Set-AzureRmApplicationGatewayFrontendIPConfig.md
             - name: Set-AzureRmApplicationGatewayFrontendPort
@@ -18754,6 +18797,8 @@
         - name: vTrue
           href: ../ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md
           items:
+            - name: Add-AzureRmSqlDatabaseToFailoverGroup
+              href: ../ResourceManager/AzureRM.Sql/vTrue/Add-AzureRmSqlDatabaseToFailoverGroup.md
             - name: Add-AzureRmSqlServerKeyVaultKey
               href: ../ResourceManager/AzureRM.Sql/vTrue/Add-AzureRmSqlServerKeyVaultKey.md
             - name: Get-AzureRmSqlCapability
@@ -18774,6 +18819,8 @@
               href: ../ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseDataMaskingRule.md
             - name: Get-AzureRmSqlDatabaseExpanded
               href: ../ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseExpanded.md
+            - name: Get-AzureRmSqlDatabaseFailoverGroup
+              href: ../ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseFailoverGroup.md
             - name: Get-AzureRMSqlDatabaseGeoBackup
               href: ../ResourceManager/AzureRM.Sql/vTrue/Get-AzureRMSqlDatabaseGeoBackup.md
             - name: Get-AzureRmSqlDatabaseGeoBackupPolicy
@@ -18852,6 +18899,8 @@
               href: ../ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlDatabaseDataMaskingRule.md
             - name: New-AzureRmSqlDatabaseExport
               href: ../ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlDatabaseExport.md
+            - name: New-AzureRmSqlDatabaseFailoverGroup
+              href: ../ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlDatabaseFailoverGroup.md
             - name: New-AzureRmSqlDatabaseImport
               href: ../ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlDatabaseImport.md
             - name: New-AzureRmSqlDatabaseSecondary
@@ -18872,6 +18921,10 @@
               href: ../ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlDatabaseAuditing.md
             - name: Remove-AzureRmSqlDatabaseDataMaskingRule
               href: ../ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlDatabaseDataMaskingRule.md
+            - name: Remove-AzureRmSqlDatabaseFailoverGroup
+              href: ../ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlDatabaseFailoverGroup.md
+            - name: Remove-AzureRmSqlDatabaseFromFailoverGroup
+              href: ../ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlDatabaseFromFailoverGroup.md
             - name: Remove-AzureRmSqlDatabaseSecondary
               href: ../ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlDatabaseSecondary.md
             - name: Remove-AzureRmSqlDatabaseThreatDetectionPolicy
@@ -18910,6 +18963,8 @@
               href: ../ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlDatabaseDataMaskingPolicy.md
             - name: Set-AzureRmSqlDatabaseDataMaskingRule
               href: ../ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlDatabaseDataMaskingRule.md
+            - name: Set-AzureRmSqlDatabaseFailoverGroup
+              href: ../ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlDatabaseFailoverGroup.md
             - name: Set-AzureRmSqlDatabaseGeoBackupPolicy
               href: ../ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlDatabaseGeoBackupPolicy.md
             - name: Set-AzureRmSqlDatabaseRecommendedActionState
@@ -18956,6 +19011,8 @@
               href: ../ResourceManager/AzureRM.Sql/vTrue/Stop-AzureRmSqlServerUpgrade.md
             - name: Suspend-AzureRmSqlDatabase
               href: ../ResourceManager/AzureRM.Sql/vTrue/Suspend-AzureRmSqlDatabase.md
+            - name: Switch-AzureRmSqlDatabaseFailoverGroup
+              href: ../ResourceManager/AzureRM.Sql/vTrue/Switch-AzureRmSqlDatabaseFailoverGroup.md
             - name: Use-AzureRmSqlServerAuditingPolicy
               href: ../ResourceManager/AzureRM.Sql/vTrue/Use-AzureRmSqlServerAuditingPolicy.md
     - name: AzureRM.Storage

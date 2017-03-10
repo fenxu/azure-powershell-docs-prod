@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: D5E928C3-26B6-4B7C-8A9C-F1F602BABF75
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/vTrue/Get-AzureRmApplicationGatewayBackendHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/vTrue/Get-AzureRmApplicationGatewayBackendHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/vTrue/Get-AzureRmApplicationGatewayBackendHealth.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/vTrue/Get-AzureRmApplicationGatewayBackendHealth.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -28,7 +28,7 @@ Gets application gateway backend health.
 
 ```
 Get-AzureRmApplicationGatewayBackendHealth -Name <String> -ResourceGroupName <String>
- [-ExpandResource <String>]
+ [-ExpandResource <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -39,6 +39,8 @@ The Get-AzureRmApplicationGatewayBackendHealth cmdlet gets application gateway b
 ### --------------------------  Example 1: Gets backend health without expanded resources.  --------------------------
 @{paragraph=PS C:\\\>}
 
+
+
 ```
 PS C:\>$BackendHealth = Get-AzureRmApplicationGatewayBackendHealth -Name ApplicationGateway01 -ResourceGroupName ResourceGroup01
 ```
@@ -47,6 +49,8 @@ This command gets the backend health of application gateway named ApplicationGat
 
 ### --------------------------  Example 1: Gets backend health with expanded resources.  --------------------------
 @{paragraph=PS C:\\\>}
+
+
 
 ```
 PS C:\>$BackendHealth = Get-AzureRmApplicationGatewayBackendHealth -Name ApplicationGateway01 -ResourceGroupName ResourceGroup01 -ExpandResource "backendhealth/applicationgatewayresource"
@@ -87,8 +91,6 @@ Accept wildcard characters: False
 ```
 
 ### -ExpandResource
-
-
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -100,6 +102,9 @@ Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

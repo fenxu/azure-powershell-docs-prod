@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: A00160B9-831F-4A20-8D9D-9E89BC4F5C91
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 8:24 PM
-ms.date: 3/4/2017
+updated_at: 3/10/2017 5:53 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/35dc1c22a7ee5271a29b7063438c5ea0e9cb3239/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -62,7 +62,7 @@ PS C:\> $Resource.Properties.Enabled = "False"
 PS C:\> $Resource | Set-AzureRmResource -Force
 ```
 
-The first command gets the resource named ContosoSite by using the **Get-AzureRmResource** cmdlet, and then stores it in the $Resource variable.
+The first command gets the resource named ContosoSite by using the [Get-AzureRmResource](./Get-AzureRmResource.md) cmdlet, and then stores it in the $Resource variable.
 
 The second command modifies a property of $Resource.
 

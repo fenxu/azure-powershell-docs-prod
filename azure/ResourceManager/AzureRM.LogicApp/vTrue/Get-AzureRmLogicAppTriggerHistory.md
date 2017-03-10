@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 ms.assetid: C1F6BBF9-0DB5-46FD-B8A8-9029B0AB6166
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/Get-AzureRmLogicAppTriggerHistory.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/Get-AzureRmLogicAppTriggerHistory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/Get-AzureRmLogicAppTriggerHistory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/Get-AzureRmLogicAppTriggerHistory.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -52,7 +52,7 @@ EndTime     : 1/13/2016 2:42:26 PM
 Error       : {code, message}
 Fired       : False
 InputsLink  : https://flowprodcu02by01.blob.core.windows.net/flow3ea9ffd11c684c9f9f258b1a6ea5cb6020160113t000000zcontent/A7392_d1e831de68ac4ef89d19a40f05e663
-              cb_httpTrigger:5Finputs:2Ejson?sv=2014-02-14&sr=b&sig=rASa1yg14P71ioIStAji5HJfTFCbSjD3LNt2Ypn%2Byg4%3D&se=2016-01-14T16%3A15%3A16Z&sp=r
+              cb_httpTrigger:5Finputs:2Ejson?sv=2014-02-14&sr=b&sig=&se=2016-01-14T16%3A15%3A16Z&sp=r
 Name        : 08587489107387695768
 OutputsLink : 
 Run         : 
@@ -72,7 +72,7 @@ EndTime     : 1/13/2016 2:43:33 PM
 Error       : {code, message}
 Fired       : False
 InputsLink  : https://flowprodcu02by01.blob.core.windows.net/flow3ea9ffd11c684c9f9f258b1a6ea5cb6020160113t000000zcontent/CAB46_60e2ad0f0e1947e8b5798716914c5d
-              b6_httpTrigger:5Finputs:2Ejson?sv=2014-02-14&sr=b&sig=aoyjajRfk5tQucYE%2BW6h9Is%2BAHSE7AcojY%2FOag6DWRA%3D&se=2016-01-14T16%3A18%3A27Z&sp=r
+              b6_httpTrigger:5Finputs:2Ejson?sv=2014-02-14&sr=b&sig=&se=2016-01-14T16%3A18%3A27Z&sp=r
 Name        : 08587489106716457817
 OutputsLink : 
 Run         : 
@@ -86,7 +86,7 @@ EndTime     : 1/13/2016 2:42:26 PM
 Error       : {code, message}
 Fired       : False
 InputsLink  : https://flowprodcu02by01.blob.core.windows.net/flow3ea9ffd11c684c9f9f258b1a6ea5cb6020160113t000000zcontent/A7392_d1e831de68ac4ef89d19a40f05e663
-              cb_httpTrigger:5Finputs:2Ejson?sv=2014-02-14&sr=b&sig=XNBbA0FkBQmGPDd%2Be03J0Vsdj4aFRG9YK5YBJwzBbO0%3D&se=2016-01-14T16%3A18%3A27Z&sp=r
+              cb_httpTrigger:5Finputs:2Ejson?sv=2014-02-14&sr=b&sig=&se=2016-01-14T16%3A18%3A27Z&sp=r
 Name        : 08587489107387695768
 OutputsLink : 
 Run         : 

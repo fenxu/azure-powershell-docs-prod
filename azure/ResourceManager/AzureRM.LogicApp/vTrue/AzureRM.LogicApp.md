@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 41DB973E-CAE3-409D-8B02-367AEF6180FA
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/AzureRM.LogicApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/AzureRM.LogicApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/AzureRM.LogicApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/AzureRM.LogicApp.md
 uid: ResourceManager/AzureRM.LogicApp/vTrue/AzureRM.LogicApp.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -39,11 +39,17 @@ Gets an integration account callback URL.
 ### [Get-AzureRmIntegrationAccountCertificate](Get-AzureRmIntegrationAccountCertificate.md)
 Gets integration account certificates from a resource group.
 
+### [Get-AzureRmIntegrationAccountGeneratedIcn](Get-AzureRmIntegrationAccountGeneratedIcn.md)
+Gets integration account generated interchange control number per agreement.
+
 ### [Get-AzureRmIntegrationAccountMap](Get-AzureRmIntegrationAccountMap.md)
 Gets an integration account map.
 
 ### [Get-AzureRmIntegrationAccountPartner](Get-AzureRmIntegrationAccountPartner.md)
 Gets integration account partners.
+
+### [Get-AzureRmIntegrationAccountReceivedIcn](Get-AzureRmIntegrationAccountReceivedIcn.md)
+Gets integration account received interchange control number per agreement.
 
 ### [Get-AzureRmIntegrationAccountSchema](Get-AzureRmIntegrationAccountSchema.md)
 Gets integration account schemas.
@@ -105,6 +111,9 @@ Removes an integration account map.
 ### [Remove-AzureRmIntegrationAccountPartner](Remove-AzureRmIntegrationAccountPartner.md)
 Removes an integration account partner.
 
+### [Remove-AzureRmIntegrationAccountReceivedIcn](Remove-AzureRmIntegrationAccountReceivedIcn.md)
+Removes an integration account received interchange control number.
+
 ### [Remove-AzureRmIntegrationAccountSchema](Remove-AzureRmIntegrationAccountSchema.md)
 Removes an integration account schema.
 
@@ -120,11 +129,17 @@ Modifies an integration account agreement.
 ### [Set-AzureRmIntegrationAccountCertificate](Set-AzureRmIntegrationAccountCertificate.md)
 Modifies an integration account certificate.
 
+### [Set-AzureRmIntegrationAccountGeneratedIcn](Set-AzureRmIntegrationAccountGeneratedIcn.md)
+Modifies an integration account generated interchange control number.
+
 ### [Set-AzureRmIntegrationAccountMap](Set-AzureRmIntegrationAccountMap.md)
 Modifies an integration account map.
 
 ### [Set-AzureRmIntegrationAccountPartner](Set-AzureRmIntegrationAccountPartner.md)
 Modifies an integration account partner.
+
+### [Set-AzureRmIntegrationAccountReceivedIcn](Set-AzureRmIntegrationAccountReceivedIcn.md)
+Modifies an integration account received interchange control number.
 
 ### [Set-AzureRmIntegrationAccountSchema](Set-AzureRmIntegrationAccountSchema.md)
 Modifies an integration account schema.

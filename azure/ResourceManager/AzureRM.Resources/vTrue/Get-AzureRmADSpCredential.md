@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 7690143F-5F09-4739-9F66-B2ACDF8305F4
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 9:25 PM
-ms.date: 3/9/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/vTrue/Get-AzureRmADSpCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/vTrue/Get-AzureRmADSpCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a6b17417413ebdf52ba4de88489549fb1c5bb4a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/vTrue/Get-AzureRmADSpCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/vTrue/Get-AzureRmADSpCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,7 +48,7 @@ This command will retrieve all of the credential properties (but not the credent
 @{paragraph=PS C:\\\>}
 
 ```
-PS C:\> Get-AzureRmADSpCredential -ServicePrincipalName http://test12345
+PS E:\> Get-AzureRmADSpCredential -ServicePrincipalName http://test12345
 ```
 
 Returns a list of credentials associated with the service principal having SPN 'http://test12345'.
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalName
-Specifies the name of the service principal name (SPN) that this cmdlet gets credentials from.
+The name (SPN) of the service principal to retrieve credentials from.
 
 ```yaml
 Type: String
