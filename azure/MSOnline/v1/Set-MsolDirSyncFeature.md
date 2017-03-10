@@ -3,11 +3,11 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: E4C5910F-B006-43F5-8765-E1185A9D0BBE
-updated_at: 11/7/2016 11:36 PM
-ms.date: 11/7/2016
+updated_at: 3/10/2017 12:47 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6b2ae75363a4a068e37ba677387ea47a1caaeea3/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6ff0592cd35f292072ec632a016095dee163c644/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncFeature.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -34,8 +34,6 @@ The **Set-MsolDirSyncFeature** cmdlet sets identity synchronization features for
 
 Synchronization features that can be used with this cmdlet include the following:
 
-- DuplicateProxyAddressResiliency. Normally if an object was attempted to be provisioned with a non-unique ProxyAddress, the object would fail to be created/updated due to the uniqueness violation. When this feature is enabled the conflicting ProxyAddress value will be "quarantined" and the object will be provisioned without that specific ProxyAddress value.
-- DuplicateUPNResiliency. Normally if a user attempted to be provisioned with a non-unique UserPrincipalName, the user would fail to be created/updated due to the uniqueness violation. When this feature is enabled the conflicting UPN value will be "quarantined" a temporary UPN will be generated, and the user will be provisioned with that temporary UPN. This UPN will have the format of "\<UserName\>+\<Random Integer\>@\<Tenant Initial Domain\>.onmicrosoft.com".
 - EnableSoftMatchOnUpn. Soft Match is the process used to link an object being synced from on-premises for the first time with one that already exists in the cloud. When this feature is enabled Soft Match will first be attempted using the standard logic, based on primary SMTP address. If a match is not found based on primary SMTP, then a match will be attempted based on UserPrincipalName. Once this feature is enabled it cannot be disabled.
 - PasswordSync
 - SynchronizeUpnForManagedUsers. allows for the synchronization of UserPrincipalName updates from on-premises for managed (non-federated) users that have been assigned a license. These updates will be blocked if this feature is not enabled. Once this feature is enabled it cannot be disabled.
