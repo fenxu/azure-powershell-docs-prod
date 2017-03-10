@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 0C8C07CA-6720-452F-A952-48C76EBF3BBD
 online version:
 schema: 2.0.0
-updated_at: 3/4/2017 8:24 PM
-ms.date: 3/4/2017
+updated_at: 3/10/2017 4:07 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84c40bcef73e86a93e10bd21e5067a945e7fb7ac/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,6 @@ The **Remove-AzureRmADServicePrincipal** cmdlet remvoves the Azure Active Direct
 ## EXAMPLES
 
 ### Example 1: Remove an Azure Active Directory service principal
-
 
 ```
 PS C:\> Remove-AzureRmADServicePrincipal -ObjectId 61b5d8ea-fdc6-40a2-8d5b-ad447c678d45

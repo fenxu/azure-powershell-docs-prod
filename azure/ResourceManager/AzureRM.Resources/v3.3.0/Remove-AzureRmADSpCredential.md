@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 04B1E3A6-6D52-46A3-8241-2CCDB5E71642
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 9:25 PM
-ms.date: 3/9/2017
+updated_at: 3/10/2017 4:07 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a6b17417413ebdf52ba4de88489549fb1c5bb4a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84c40bcef73e86a93e10bd21e5067a945e7fb7ac/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADSpCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -69,7 +69,6 @@ In this example, the key with Id "9044423a-60a3-45ac-9ab1-09534157ebb" will be r
 
 ### Example 2: Remove all credential keys from a service principal
 
-
 ```
 PS C:\> Remove-AzureRmADSpCredential -ServicePrincipalName http://test123 -All
 ```
@@ -80,7 +79,7 @@ In this example, all credentials will be removed from the service principal asso
 ## PARAMETERS
 
 ### -ObjectId
-The object id of the service principal to remove the credentials from.
+Specifies the object ID of the service principal that this cmdlet removes the credentials from.
 
 ```yaml
 Type: String
@@ -96,7 +95,7 @@ Accept wildcard characters: False
 
 ### -KeyId
 Specifies the credential key to be removed.
-The key Ids for a service principal can be obtained using the Get-AzureRmADSpCredential cmdlet.
+The key Ids for a service principal can be obtained using the [Get-AzureRmADSpCredential](./Get-AzureRmADSpCredential.md) cmdlet.
 
 ```yaml
 Type: Guid
