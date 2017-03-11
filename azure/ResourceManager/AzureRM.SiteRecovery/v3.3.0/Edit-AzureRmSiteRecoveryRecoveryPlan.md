@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 ms.assetid: 59C3E7D7-530F-4D07-904E-41610ECE9253
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 3/11/2017 7:19 PM
+ms.date: 3/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Edit-AzureRmSiteRecoveryRecoveryPlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Edit-AzureRmSiteRecoveryRecoveryPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Edit-AzureRmSiteRecoveryRecoveryPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9fad04f6f06ab54520c2233437e2735f27cf4060/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Edit-AzureRmSiteRecoveryRecoveryPlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -69,7 +69,7 @@ The **Edit-AzureRmSiteRecoveryRecoveryPlan** cmdlet edits an Azure Site Recovery
 ## PARAMETERS
 
 ### -AddProtectedEntities
-Specifies an array of protected entities to add.
+Specifies an array of protected entities that this cmdlet adds.
 
 ```yaml
 Type: ASRProtectionEntity[]
@@ -84,6 +84,8 @@ Accept wildcard characters: False
 ```
 
 ### -AddProtectedItems
+Specifies an array of protected items that this cmdlet adds.
+
 ```yaml
 Type: ASRReplicationProtectedItem[]
 Parameter Sets: AddReplicationProtectedItems
@@ -142,7 +144,7 @@ Accept wildcard characters: False
 ```
 
 ### -RemoveGroup
-Removes the specified Site Recovery recovery plan group.
+Specifies that this cmdlet removes the specified Site Recovery recovery plan group.
 
 ```yaml
 Type: ASRRecoveryPlanGroup
@@ -172,6 +174,8 @@ Accept wildcard characters: False
 ```
 
 ### -RemoveProtectedItems
+Specifies an array of protected items.
+
 ```yaml
 Type: ASRReplicationProtectedItem[]
 Parameter Sets: RemoveReplicationProtectedItems

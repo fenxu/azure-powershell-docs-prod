@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 ms.assetid: BE2D05F5-70CE-4EAA-9363-6CA89A312DDB
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 3/11/2017 7:19 PM
+ms.date: 3/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Get-AzureRmSiteRecoveryProtectableItem.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Get-AzureRmSiteRecoveryProtectableItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Get-AzureRmSiteRecoveryProtectableItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9fad04f6f06ab54520c2233437e2735f27cf4060/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Get-AzureRmSiteRecoveryProtectableItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmSiteRecoveryProtectableItem
 
 ## SYNOPSIS
-Get the protectable items in a Protection Container.
+Get the protectable items in an Azure Site Protection Container.
 
 ## SYNTAX
 
