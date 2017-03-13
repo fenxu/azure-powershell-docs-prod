@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 4D2E0956-FBFA-43CC-ABE3-A6CBB9409263
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 5:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,7 +39,7 @@ The **Stop-AzureRmSqlDatabaseExecuteIndexRecommendation** cmdlet stops the workf
 
 ### Example 1: Stop running an index recommendation
 ```
-PS C:\>Stop-AzureRmSqlDatabaseExecuteIndexRecommendation -ResourceGroup "ResourceGroup01" -ServerName "Server01" -DatabaseName "Database01" -IndexRecommendationName "INDEX_NAME"
+PS C:\> Stop-AzureRmSqlDatabaseExecuteIndexRecommendation -ResourceGroup "ResourceGroup01" -ServerName "Server01" -DatabaseName "Database01" -IndexRecommendationName "INDEX_NAME"
 ```
 
 This command stops running an index recommendation.

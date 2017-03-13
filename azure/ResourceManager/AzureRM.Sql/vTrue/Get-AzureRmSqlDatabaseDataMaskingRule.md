@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 848A6972-AB29-46FB-8E03-FF2ADB113A0E
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 5:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseDataMaskingRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseDataMaskingRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseDataMaskingRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseDataMaskingRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -44,7 +44,7 @@ This cmdlet is also supported by the SQL Server Stretch Database service on Azur
 
 ### Example 1: Get all data masking rules from a database
 ```
-PS C:\>Get-AzureRmSqlDatabaseDataMaskingRule -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -DatabaseName "Database01"
+PS C:\> Get-AzureRmSqlDatabaseDataMaskingRule -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -DatabaseName "Database01"
 DatabaseName      : database01
 ResourceGroupName : resourcegroup01
 ServerName        : server01
@@ -76,7 +76,7 @@ NumberTo          :
 
 ### Example 2: Get the data masking rule defined on schema "dbo", table "table1" and column "column1".
 ```
-PS C:\>Get-AzureRmSqlDatabaseDataMaskingRule -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -DatabaseName "Database01" -SchemaName "dbo" -TableName  "table1" -ColumnName "column1"
+PS C:\> Get-AzureRmSqlDatabaseDataMaskingRule -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -DatabaseName "Database01" -SchemaName "dbo" -TableName  "table1" -ColumnName "column1"
 DatabaseName      : database01
 ResourceGroupName : resourcegroup01
 ServerName        : server01

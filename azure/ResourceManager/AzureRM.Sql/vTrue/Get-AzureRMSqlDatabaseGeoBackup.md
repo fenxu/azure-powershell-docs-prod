@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 256AA6F4-D856-4713-A0AC-0DA1A145AA5C
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 5:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRMSqlDatabaseGeoBackup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRMSqlDatabaseGeoBackup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRMSqlDatabaseGeoBackup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRMSqlDatabaseGeoBackup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -44,14 +44,14 @@ This cmdlet is also supported by the SQL Server Stretch Database service on Azur
 
 ### Example 1: Get all geo-redundant backups on a server
 ```
-PS C:\>Get-AzureRMSqlDatabaseGeoBackup -ResourceGroupName "ContosoResourceGroup" -ServerName "ContosoServer"
+PS C:\> Get-AzureRMSqlDatabaseGeoBackup -ResourceGroupName "ContosoResourceGroup" -ServerName "ContosoServer"
 ```
 
 This command gets all available geo-redundant backups on a specified server.
 
 ### Example 2: Get a specified geo-redundant backup
 ```
-PS C:\>Get-AzureRMSqlDatabaseGeoBackup -ResourceGroupName "ContosoResourceGroup" -ServerName "ContosoServer" -DatabaseName "ContosoDatabase"
+PS C:\> Get-AzureRMSqlDatabaseGeoBackup -ResourceGroupName "ContosoResourceGroup" -ServerName "ContosoServer" -DatabaseName "ContosoDatabase"
 ```
 
 This command gets the database geo-redundant backup named ContosoDatabase.

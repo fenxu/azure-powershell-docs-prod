@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 5:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerTransparentDataEncryptionProtector.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerTransparentDataEncryptionProtector.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerTransparentDataEncryptionProtector.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerTransparentDataEncryptionProtector.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,7 +36,7 @@ Changing the TDE protector type will rotate the protector.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Set the Transparent Data Encryption (TDE) protector type to ServiceManaged  --------------------------
+### Example 1: Set the Transparent Data Encryption (TDE) protector type to ServiceManaged  --------------------------
 ```
 PS C:\> Set-AzureRmSqlServerTransparentDataEncryptionProtector -Type ServiceManaged -ServerName 'ContosoServer' -ResourceGroup 'ContosoResourceGroup'
 ```
@@ -47,7 +47,7 @@ ResourceGroupName ServerName                   Type ServerKeyVaultKeyName
 ----------------- ----------                   ---- ---------------------
 ContosoResourceGroup ContosoServer ServiceManaged ServiceManaged
 
-### --------------------------  Example 2: Set the Transparent Data Encryption protector type to Azure Key Vault  --------------------------
+### Example 2: Set the Transparent Data Encryption protector type to Azure Key Vault  --------------------------
 ```
 PS C:\> Set-AzureRmSqlServerTransparentDataEncryptionProtector -Type AzureKeyVault -KeyId 'https://contoso.vault.azure.net/keys/contosokey/01234567890123456789012345678901' -ServerName 'ContosoServer' -ResourceGroup 'ContosoResourceGroup'
 ```
@@ -61,7 +61,7 @@ ContosoResourceGroup ContosoServer AzureKeyVault contoso_contosokey_012345678901
 ## PARAMETERS
 
 ### -KeyId
-The Azure Key Vault KeyId.
+Specifies the Azure Key Vault KeyId.
 
 ```yaml
 Type: String
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The name of the resource group
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -91,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-The Azure Sql Server name.
+Specifies the name of the Azure SQL Server.
 
 ```yaml
 Type: String

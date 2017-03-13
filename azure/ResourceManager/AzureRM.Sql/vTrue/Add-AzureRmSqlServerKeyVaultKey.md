@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 5:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Add-AzureRmSqlServerKeyVaultKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Add-AzureRmSqlServerKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Add-AzureRmSqlServerKeyVaultKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Add-AzureRmSqlServerKeyVaultKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -31,13 +31,12 @@ Add-AzureRmSqlServerKeyVaultKey [-KeyId] <String> [-ServerName] <String> [-Resou
 ```
 
 ## DESCRIPTION
-The Add-AzureRmSqlServerKeyVaultKey cmdlet adds a Key Vault key to the provided SQL server.
+The **Add-AzureRmSqlServerKeyVaultKey** cmdlet adds a Key Vault key to the provided SQL server.
 The server must have 'get, wrapKey, unwrapKey' permissions to the vault.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Add Key Vault key  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Add a Key Vault key 
 
 ```
 PS C:\> Add-AzureRmSqlServerKeyVaultKey -KeyId 'https://contoso.vault.azure.net/keys/contosokey/01234567890123456789012345678901' -ServerName 'ContosoServer' -ResourceGroupName 'ContosoResourceGroup'
@@ -56,7 +55,7 @@ CreationDate      : 1/1/2017 12:00:00 AM
 ## PARAMETERS
 
 ### -KeyId
-The Azure Key Vault KeyId.
+Specifies the Azure Key Vault KeyId.
 
 ```yaml
 Type: String
@@ -71,7 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The name of the resource group
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -86,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-The Azure Sql Server name.
+Specifies the name of the Azure SQL Server.
 
 ```yaml
 Type: String
@@ -143,3 +142,6 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
+[Get-AzureRmSqlServerKeyVaultKey](xref:ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerKeyVaultKey.md)
+
+[Remove-AzureRmSqlServerKeyVaultKey](xref:ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlServerKeyVaultKey.md)

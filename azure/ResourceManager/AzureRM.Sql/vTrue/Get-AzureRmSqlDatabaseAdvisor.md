@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 5AAB22C6-8E3C-4BDC-8A54-DA5A9906B762
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 5:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseAdvisor.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseAdvisor.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseAdvisor.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseAdvisor.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Get-AzureRmSqlDatabaseAdvisor** cmdlet gets one or more Azure SQL Database
 
 ### Example 1: List all the advisors for the specified database
 ```
-PS C:\>Get-AzureRmSqlDatabaseAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -DatabaseName "WIRunner"
+PS C:\> Get-AzureRmSqlDatabaseAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -DatabaseName "WIRunner"
 DatabaseName                   : WIRunner
 ResourceGroupName              : WIRunnersProd
 ServerName                     : wi-runner-australia-east
@@ -88,7 +88,7 @@ This command gets lists all the advisors for the database named WIRunner that be
 
 ### Example 2: Get a single advisor for the specified database
 ```
-PS C:\>Get-AzureRmSqlDatabaseAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -DatabaseName "WIRunner" -AdvisorName "CreateIndex"
+PS C:\> Get-AzureRmSqlDatabaseAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -DatabaseName "WIRunner" -AdvisorName "CreateIndex"
 DatabaseName                   : WIRunner
 ResourceGroupName              : WIRunnersProd
 ServerName                     : wi-runner-australia-east
@@ -105,7 +105,7 @@ This command gets the Advisor named CreateIndex for the database named WIRunner.
 
 ### Example 3: List all the advisors with their recommended actions included in the response
 ```
-PS C:\>Get-AzureRmSqlDatabaseAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -DatabaseName "WIRunner" -ExpandRecommendedActions
+PS C:\> Get-AzureRmSqlDatabaseAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -DatabaseName "WIRunner" -ExpandRecommendedActions
 DatabaseName                   : WIRunner
 ResourceGroupName              : WIRunnersProd
 ServerName                     : wi-runner-australia-east
@@ -162,7 +162,7 @@ Since the command uses the *ExpandRecommendedActions* parameter, the cmdlet gets
 
 ### Example 4: Get a single advisor with its recommended actions included in the response
 ```
-PS C:\>Get-AzureRmSqlDatabaseAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -DatabaseName "WIRunner" -AdvisorName "CreateIndex" -ExpandRecommendedActions
+PS C:\> Get-AzureRmSqlDatabaseAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -DatabaseName "WIRunner" -AdvisorName "CreateIndex" -ExpandRecommendedActions
 DatabaseName                   : WIRunner
 ResourceGroupName              : WIRunnersProd
 ServerName                     : wi-runner-australia-east

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: BC8C0D59-662F-47D2-8619-9F69D78B171D
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 5:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlElasticPoolAdvisor.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlElasticPoolAdvisor.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlElasticPoolAdvisor.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlElasticPoolAdvisor.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **Get-AzureRmSqlElasticPoolAdvisor** cmdlet gets one or more Azure SQL Elast
 
 ### Example 1: List all the advisors for the specified elastic pool
 ```
-PS C:\>Get-AzureRmSqlElasticPoolAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -PoolName "WIRunnerPool"
+PS C:\> Get-AzureRmSqlElasticPoolAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -PoolName "WIRunnerPool"
 ElasticPoolName                : WIRunnerPool
 ResourceGroupName              : WIRunnersProd
 ServerName                     : wi-runner-australia-east
@@ -88,7 +88,7 @@ The command gets lists all the advisors for the elastic pool named WIRunnerPool.
 
 ### Example 2: Get a single advisor for the specified elastic pool
 ```
-PS C:\>Get-AzureRmSqlElasticPoolAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -ElasticPoolName "WIRunnerPool" -AdvisorName "CreateIndex"
+PS C:\> Get-AzureRmSqlElasticPoolAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -ElasticPoolName "WIRunnerPool" -AdvisorName "CreateIndex"
 ElasticPoolName                : WIRunnerPool
 ResourceGroupName              : WIRunnersProd
 ServerName                     : wi-runner-australia-east
@@ -105,7 +105,7 @@ This command gets the Advisor named CreateIndex for the elastic pool named WIRun
 
 ### Example 3: List all the advisors with their recommended actions included in the response
 ```
-PS C:\>Get-AzureRmSqlElasticPoolAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -ElasticPoolName "WIRunnerPool" -ExpandRecommendedActions
+PS C:\> Get-AzureRmSqlElasticPoolAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -ElasticPoolName "WIRunnerPool" -ExpandRecommendedActions
 ElasticPoolName                : WIRunnerPool
 ResourceGroupName              : WIRunnersProd
 ServerName                     : wi-runner-australia-east
@@ -161,7 +161,7 @@ This command gets all the advisors for the elastic pool with their recommended a
 
 ### Example 4: Get a single advisor with its recommended actions included in the response
 ```
-PS C:\>Get-AzureRmSqlElasticPoolAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -ElasticPoolName "WIRunnerPool" -AdvisorName "CreateIndex" -ExpandRecommendedActions
+PS C:\> Get-AzureRmSqlElasticPoolAdvisor -ResourceGroupName "WIRunnersProd" -ServerName "wi-runner-australia-east" -ElasticPoolName "WIRunnerPool" -AdvisorName "CreateIndex" -ExpandRecommendedActions
 ElasticPoolName                : WIRunnerPool
 ResourceGroupName              : WIRunnersProd
 ServerName                     : wi-runner-australia-east
