@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 5:33 PM
+updated_at: 3/13/2017 6:07 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlServerKeyVaultKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlServerKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlServerKeyVaultKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/633b65880b39bb57c9d475f0ae0218f107659f8b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlServerKeyVaultKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -31,17 +31,17 @@ Remove-AzureRmSqlServerKeyVaultKey [-KeyId] <String> [-ServerName] <String> [-Re
 ```
 
 ## DESCRIPTION
-The Remove-AzureRmSqlServerKeyVaultKey cmdlet removes the Key Vault key from the specified SQL server.
+The **Remove-AzureRmSqlServerKeyVaultKey** cmdlet removes the Key Vault key from the specified SQL server.
 
 Note that the SQL server's permissions to the key's vault are not changed.
-To change permissions, use Set-AzureRmKeyVaultAccessPolicy.
+To change permissions, use [Set-AzureRmKeyVaultAccessPolicy](./Set-AzureRmKeyVaultAccessPolicy.md).
 
 Note that this cmdlet makes no changes to Key Vault.
-To remove a key from Key Vault, use Remove-AzureKeyVaultKey.
+To remove a key from Key Vault, use **Remove-AzureKeyVaultKey**.
 
 ## EXAMPLES
 
-### Example 1: Remove a Key Vault key  --------------------------
+### Example 1: Remove a Key Vault key
 ```
 PS C:\> Remove-AzureRmSqlServerKeyVaultKey -KeyId 'https://contoso.vault.azure.net/keys/contosokey/01234567890123456789012345678901' -ServerName 'ContosoServer' -ResourceGroupName 'ContosoResourceGroup'
 ```
@@ -146,3 +146,6 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
+[Add-AzureRmSqlServerKeyVaultKey](xref:ResourceManager/AzureRM.Sql/vTrue/Add-AzureRmSqlServerKeyVaultKey.md)
+
+[Get-AzureRmSqlServerKeyVaultKey](xref:ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerKeyVaultKey.md)

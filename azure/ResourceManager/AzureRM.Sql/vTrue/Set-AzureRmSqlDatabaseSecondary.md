@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: F9703508-DD4D-4D25-A7CA-7E3432B5DCA9
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 6:07 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlDatabaseSecondary.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlDatabaseSecondary.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlDatabaseSecondary.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/633b65880b39bb57c9d475f0ae0218f107659f8b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlDatabaseSecondary.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,11 +48,6 @@ You do not have to specify this parameter when you perform a planned operation, 
 In the latter case, the secondary database is synchronized with the primary before it is switched.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -238,5 +233,3 @@ This cmdlet returns a **ReplicationLink**.
 [New-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlDatabaseSecondary.md)
 
 [Remove-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlDatabaseSecondary.md)
-
-

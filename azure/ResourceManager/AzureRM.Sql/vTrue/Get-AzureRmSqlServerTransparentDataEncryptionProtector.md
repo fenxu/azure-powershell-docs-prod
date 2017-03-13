@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 5:33 PM
+updated_at: 3/13/2017 6:07 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerTransparentDataEncryptionProtector.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerTransparentDataEncryptionProtector.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerTransparentDataEncryptionProtector.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/633b65880b39bb57c9d475f0ae0218f107659f8b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerTransparentDataEncryptionProtector.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,16 +35,16 @@ The Get-AzureRmSqlServerTransparentDataEncryptionProtector cmdlet gets informati
 
 ## EXAMPLES
 
-### Example 1: Get the Transparent Data Encryption (TDE) protector  --------------------------
+### Example 1: Get the Transparent Data Encryption (TDE) protector  
 ```
 PS C:\> Get-AzureRmSqlServerTransparentDataEncryptionProtector -ServerName 'ContosoServer' -ResourceGroup 'ContosoResourceGroup'
 ```
 
 This command gets the TDE protector for the server named ContosoServer in resource group named ContosoResourceGroup.
 
-ResourceGroupName ServerName                   Type ServerKeyVaultKeyName
------------------ ----------                   ---- ---------------------
-ContosoResourceGroup ContosoServer ServiceManaged ServiceManaged
+ResourceGroupName    ServerName       Type           ServerKeyVaultKeyName
+-----------------    ----------       ----           ---------------------
+ContosoResourceGroup ContosoServer    ServiceManaged ServiceManaged
 
 ## PARAMETERS
 
@@ -120,4 +120,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 009899E5-83BF-4A3F-877E-70C16D5CD1AC
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 5:33 PM
+updated_at: 3/13/2017 6:07 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlElasticPool.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlElasticPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlElasticPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/633b65880b39bb57c9d475f0ae0218f107659f8b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlElasticPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -131,7 +131,7 @@ We recommend that you do not specify the *StorageMB* parameter.
 
 If you specify *StorageMB*, but do not specify *Dtu*, the cmdlet calculates a value for *Dtu*.
 If you specify values for both, the values must be consistent.
-For more information about the relationship between storage and DTUs, see https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-pool-reference/https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-pool-reference/.
+For more information about the relationship between storage and DTUs, see [https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-pool-reference/](https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-pool-reference/) (https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-pool-reference/).
 
 ```yaml
 Type: Int32
@@ -323,5 +323,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-AzureRmSqlElasticPool](xref:ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlElasticPool.md)
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md)
-
-

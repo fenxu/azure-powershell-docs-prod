@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 2B82F5BA-ABC6-4B37-B641-353CFE814290
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 5:33 PM
+updated_at: 3/13/2017 6:07 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerThreatDetectionPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerThreatDetectionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerThreatDetectionPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/633b65880b39bb57c9d475f0ae0218f107659f8b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerThreatDetectionPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -201,7 +201,9 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountName
-Specifies the name of the storage account to be used. Wildcards are not permitted. This parameter is not required. When this parameter is not provided, the cmdlet will use the storage account that was defined previously as part of the threat detection policy of the database. If this is the first time a database theat detection policy is defined and this parameter is not provided, the cmdlet will fail.```yaml
+Specifies the name of the storage account to be used. Wildcards are not permitted. This parameter is not required. When this parameter is not provided, the cmdlet will use the storage account that was defined previously as part of the threat detection policy of the database. If this is the first time a database theat detection policy is defined and this parameter is not provided, the cmdlet will fail.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -264,5 +266,3 @@ This cmdlet returns a **ServerThreatDetectionPolicyModel** object.
 [Get-AzureRmSqlServerThreatDetectionPolicy](xref:ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerThreatDetectionPolicy.md)
 
 [Remove-AzureRmSqlServerThreatDetectionPolicy](03e90cd1-6ae2-4134-bc5e-28cc080614c9)
-
-
