@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 0AC0C4F9-4138-49EA-88CB-DC220DE7E9F4
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:25 PM
+updated_at: 3/13/2017 7:40 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmAppServicePlanMetrics.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmAppServicePlanMetrics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/df88459a73f0b87ce14dcd4b9d92a5380f2f8068/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmAppServicePlanMetrics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmAppServicePlanMetrics.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -67,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartTime
-Start Time in UTC
+Specifies the start time in UTC.
 
 ```yaml
 Type: DateTime
@@ -82,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndTime
-End Time in UTC
+Specifies the end time in UTC.
 
 ```yaml
 Type: DateTime
@@ -97,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -Granularity
-Granularity
+Specifies the granularity of the App Service Plan.
 
 ```yaml
 Type: String
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -InstanceDetails
-Instance Details
+Indicates that the cmdlet gets instance details.
 
 ```yaml
 Type: SwitchParameter
@@ -157,7 +157,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppServicePlan
-App Service Plan Object
+Specifies the Specifies the App Service Plan object.
 
 ```yaml
 Type: ServerFarmWithRichSku

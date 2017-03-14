@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 8F36244D-A4D7-40BB-AC4C-E9AD445549F8
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:32 PM
+updated_at: 3/13/2017 7:40 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmAppServicePlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmAppServicePlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5f61e9aba40bfa9a692e05fd7de85916e3b15112/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmAppServicePlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmAppServicePlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -56,7 +56,7 @@ The command specifies a Basic Tier and allocates two small workers.
 ## PARAMETERS
 
 ### -Location
-Location 
+Specifies the geographical location of the Azure App Service Plan.
 
 ```yaml
 Type: String
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tier
-Tier
+Specifies the Azure App Service plan tier.
 
 ```yaml
 Type: String
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -NumberofWorkers
-Number Of Workers
+Specifies the number of workers.
 
 ```yaml
 Type: Int32
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -WorkerSize
-Size of web worker
+Specifies the size of the web worker.
 
 ```yaml
 Type: String
@@ -116,7 +116,7 @@ Accept wildcard characters: False
 ```
 
 ### -AseName
-App Service Environment Name
+Specifies the name of the App Service environment.
 
 ```yaml
 Type: String
@@ -131,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -AseResourceGroupName
-App Service Environment Specifies the name of the resource group.
+Specifies the name of the App Service Environment resource group.
 
 ```yaml
 Type: String
@@ -176,7 +176,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppServicePlan
-App Service Plan Object
+Specifies the Specifies the App Service Plan object.
 
 ```yaml
 Type: ServerFarmWithRichSku
@@ -206,5 +206,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmAppServicePlan.md)
 
 [Set-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md)
-
-

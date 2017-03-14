@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: A87ED954-9C09-4329-A005-ABFF36C45E6E
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:25 PM
+updated_at: 3/13/2017 7:40 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/df88459a73f0b87ce14dcd4b9d92a5380f2f8068/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebApp.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the WebApp.
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppServicePlan
-App Service Plan object
+Specifies the App Service Plan object.
 
 ```yaml
 Type: ServerFarmWithRichSku
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Location
+Specifies the geographical location of the WebApp.
 
 ```yaml
 Type: String
@@ -135,5 +135,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Start-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Start-AzureRmWebApp.md)
 
 [Stop-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Stop-AzureRmWebApp.md)
-
-

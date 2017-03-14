@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: BBC85035-DCF7-44FA-A747-A1563A55B820
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:25 PM
+updated_at: 3/13/2017 7:40 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackupList.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackupList.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/df88459a73f0b87ce14dcd4b9d92a5380f2f8068/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackupList.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackupList.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmWebAppBackupList
 
 ## SYNOPSIS
+Gets a list of backups for an Azure Web App.
 
 ## SYNTAX
 
@@ -41,7 +42,7 @@ The **Get-AzureRmWebAppBackupList** cmdlet gets a list of backups for an Azure W
 
 ## EXAMPLES
 
-### 1:
+### Example 1:
 ```
 PS C:\> Get-AzureRmWebAppBackupList -ResourceGroupName "Default-Web-WestUS" -Name "WebAppStandard"
 ```
@@ -66,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the WebApp.
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -81,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Slot name
+Specifies the name of the WebApp slot.
 
 ```yaml
 Type: String
@@ -96,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-Piped WebApp
+Specifies the piped WebApp.
 
 ```yaml
 Type: Site
@@ -120,4 +121,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: DC400E32-CAB9-4354-99B2-ABA4AA776030
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:25 PM
+updated_at: 3/13/2017 7:40 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Restore-AzureRmWebAppBackup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Restore-AzureRmWebAppBackup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/df88459a73f0b87ce14dcd4b9d92a5380f2f8068/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Restore-AzureRmWebAppBackup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Restore-AzureRmWebAppBackup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,7 +43,7 @@ The **Restore-AzureRmWebAppBackup** cmdlet restores an Azure Web App Backup.
 
 ## EXAMPLES
 
-### 1:
+### Example 1:
 ```
 PS C:\> Restore-AzureRmWebAppBackup -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp" -StorageAccountUrl "https://storageaccount.file.core.windows.net" -BlobName "myBlob"
 ```
@@ -98,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the WebApp.
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -173,7 +173,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-Specifies an WebApp object.
+Specifies a Web App object.
 
 ```yaml
 

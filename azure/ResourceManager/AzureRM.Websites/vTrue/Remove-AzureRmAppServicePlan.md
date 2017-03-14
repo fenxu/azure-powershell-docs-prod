@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 78AAF476-2E9E-4E60-9940-9A9AC6F9506A
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:25 PM
+updated_at: 3/13/2017 7:40 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmAppServicePlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmAppServicePlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/df88459a73f0b87ce14dcd4b9d92a5380f2f8068/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmAppServicePlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmAppServicePlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -53,7 +53,8 @@ This command removes the Azure App Service plan named ContosoAppPlan that belong
 ## PARAMETERS
 
 ### -Force
-Forcefully Remove Option
+Forces the command to run without asking for user confirmation.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -98,7 +99,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppServicePlan
-App Service Plan Object
+Specifies the Specifies the App Service Plan object.
 
 ```yaml
 Type: ServerFarmWithRichSku
@@ -159,5 +160,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/vTrue/New-AzureRmAppServicePlan.md)
 
 [Set-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md)
-
-

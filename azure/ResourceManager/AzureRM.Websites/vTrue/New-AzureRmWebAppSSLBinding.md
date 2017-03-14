@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 910239BE-9E48-4DC5-85EA-CC6D466FE62F
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:25 PM
+updated_at: 3/13/2017 7:40 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSSLBinding.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSSLBinding.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/df88459a73f0b87ce14dcd4b9d92a5380f2f8068/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSSLBinding.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSSLBinding.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -125,7 +125,7 @@ Accept wildcard characters: False
 
 ### -Slot
 Specifies the name of the Web App deployment slot.
-You can use the Get-AzureRMWebAppSlot cmdlet to get a slot.
+You can use the [Get-AzureRMWebAppSlot](./Get-AzureRMWebAppSlot.md) cmdlet to get a slot.
 
 Deployment slots provide a way for you to stage and validate web apps without those apps being accessible over the Internet.
 Typically you will deploy your changes to a staging site, validate those changes, and then deploy to the production (Internet-accessible) site.
@@ -222,7 +222,7 @@ Accept wildcard characters: False
 
 ### -WebApp
 Specifies a Web App.
-To get a Web App, use the Get-AzureRmWebApp cmdlet.
+To get a Web App, use the [Get-AzureRmWebApp](./Get-AzureRmWebApp.md) cmdlet.
 
 You cannot use the *WebApp* parameter in the same command as the *ResourceGroupName* parameter and/or the *WebAppName*.
 
@@ -256,5 +256,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/vTrue/Get-AzureRMWebAppSlot.md)
 
 [Get-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebApp.md)
-
-

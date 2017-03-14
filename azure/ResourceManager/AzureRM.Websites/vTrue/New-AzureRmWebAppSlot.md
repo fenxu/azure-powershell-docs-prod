@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: D23BBF34-80C0-48B1-8E1C-6F345DEC61AD
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:25 PM
+updated_at: 3/13/2017 7:40 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSlot.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/df88459a73f0b87ce14dcd4b9d92a5380f2f8068/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSlot.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSlot.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,7 @@ The **New-AzureRmWebApp** cmdlet creates an Azure Web App Slot in a given a reso
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Create an Azure Web App slot
 ```
 PS C:\> New-AzureRmWebApp -ResourceGroupName Default-Web-WestUS -Name "ContosoSite" -Location "West US" -AppServicePlan "ContosoServicePlan" -Slot "Slot001"
 ```
@@ -63,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppSettingsOverrides
-App Settings Overrides Hashtable
+Specifies a hashtable of App Settings overrides.
 
 ```yaml
 Type: Hashtable
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -AseName
-App Service Environment Name
+Specifies the name of the App Service environment.
 
 ```yaml
 Type: String
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -AseResourceGroupName
-App Service Environment Specifies the name of the resource group.
+Specifies the name of the App Service environment resource group.
 
 ```yaml
 Type: String
@@ -108,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -IgnoreCustomHostNames
-Ignore Custom HostNames Option
+Indicates that the cmdlet ignores the custom HostNames option.
 
 ```yaml
 Type: SwitchParameter
@@ -123,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -IgnoreSourceControl
-Ignore Source Control Option
+Indicates that the cmdlet ignores the source control option.
 
 ```yaml
 Type: SwitchParameter
@@ -138,7 +138,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Webapp Name
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -168,7 +168,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Webapp Slot Name
+Specifies the name of the Web App slot.
 
 ```yaml
 Type: String
@@ -183,7 +183,7 @@ Accept wildcard characters: False
 ```
 
 ### -SourceWebApp
-Source Specifies an WebApp object.
+Specifies the source of a WebApp object.
 
 ```yaml
 Type: Site

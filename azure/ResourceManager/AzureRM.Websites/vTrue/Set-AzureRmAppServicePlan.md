@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 32D45795-FBCD-4157-BF45-41BD1F61782E
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:25 PM
+updated_at: 3/13/2017 7:40 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/df88459a73f0b87ce14dcd4b9d92a5380f2f8068/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -42,7 +42,7 @@ The **Set-AzureRmAppServicePlan** cmdlet sets an Azure App Service plan.
 
 ## EXAMPLES
 
-### 1:
+### Example 1:
 ```
 PS C:\> Set-AzureRmAppServicePlan -ResourceGroupName "Default-Web-WestUS" -Name "ContosoAppServPlan" -PerSiteScaling  $true
 ```
@@ -83,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -NumberofWorkers
-Number Of Workers
+Specifies the number of workers.
 
 ```yaml
 Type: Int32
@@ -158,7 +158,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppServicePlan
-App Service Plan Object
+Specifies the Specifies the App Service Plan object..
 
 ```yaml
 Type: ServerFarmWithRichSku
@@ -194,5 +194,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Start-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Start-AzureRmWebApp.md)
 
 [Stop-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Stop-AzureRmWebApp.md)
-
-

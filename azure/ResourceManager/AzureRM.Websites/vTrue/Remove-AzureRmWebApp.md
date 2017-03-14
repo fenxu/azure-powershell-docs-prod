@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 9057185C-6F22-4C4A-8480-BE542B5D6BAF
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:25 PM
+updated_at: 3/13/2017 7:40 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmWebApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/df88459a73f0b87ce14dcd4b9d92a5380f2f8068/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmWebApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmWebApp.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -53,7 +53,7 @@ This command removes the Azure Web App named ContosoSite that belongs to the res
 ## PARAMETERS
 
 ### -Force
-Forcefully Remove Option
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -83,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the WebApp.
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -98,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-Specifies an WebApp object.
+Specifies a Web App object.
 
 ```yaml
 Type: Site
@@ -113,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -129,7 +129,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -164,5 +163,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Start-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Start-AzureRmWebApp.md)
 
 [Stop-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Stop-AzureRmWebApp.md)
-
-

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: D6D4E733-31AE-4ABE-8C78-583EC48C56B8
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:25 PM
+updated_at: 3/13/2017 7:40 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/df88459a73f0b87ce14dcd4b9d92a5380f2f8068/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebApp.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the WebApp.
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -88,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Location
+Specifies the geographical location of the Web App.
 
 ```yaml
 Type: String
@@ -103,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppServicePlan
-Specifies the name of an App service plan.
+Specifies the name of an Web App service plan.
 
 ```yaml
 Type: String
@@ -118,7 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -SourceWebApp
-Source Specifies an WebApp object.
+Specifies the source of a WebApp object.
 
 ```yaml
 Type: Site
@@ -133,7 +133,7 @@ Accept wildcard characters: False
 ```
 
 ### -TrafficManagerProfileId
-Traffic Manager Profile Id
+Specifies the ID of the traffic manager profile.
 
 ```yaml
 Type: String
@@ -148,7 +148,7 @@ Accept wildcard characters: False
 ```
 
 ### -IgnoreSourceControl
-Ignore Source Control Option
+Indicates that the cmdlet ignores the source control option.
 
 ```yaml
 Type: SwitchParameter
@@ -163,7 +163,7 @@ Accept wildcard characters: False
 ```
 
 ### -IgnoreCustomHostNames
-Ignore Custom Host Names Option
+Indicates that the cmdlet ignores the custom host names option.
 
 ```yaml
 Type: SwitchParameter
@@ -178,7 +178,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppSettingsOverrides
-App Settings Overrides HashTable
+Specifies a hashtable of App Settings overrides.
 
 ```yaml
 Type: Hashtable
@@ -193,7 +193,7 @@ Accept wildcard characters: False
 ```
 
 ### -AseName
-App Service Environment Name
+Specifies the name of the App Service environment.
 
 ```yaml
 Type: String
@@ -208,7 +208,7 @@ Accept wildcard characters: False
 ```
 
 ### -AseResourceGroupName
-App Service Environment Specifies the name of the resource group.
+Specifies the name of the App Service environment resource group.
 
 ```yaml
 Type: String
@@ -223,7 +223,7 @@ Accept wildcard characters: False
 ```
 
 ### -IncludeSourceWebAppSlots
-Include Source WebApp Slots Option
+Indicates that this cmdlet includes the source WebApp slots option.
 
 ```yaml
 Type: SwitchParameter
@@ -238,7 +238,7 @@ Accept wildcard characters: False
 ```
 
 ### -TrafficManagerProfileName
-Traffic Manager Profile Name
+Specifies the name of the traffic manager profile.
 
 ```yaml
 Type: String
@@ -272,5 +272,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Start-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Start-AzureRmWebApp.md)
 
 [Stop-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Stop-AzureRmWebApp.md)
-
-
