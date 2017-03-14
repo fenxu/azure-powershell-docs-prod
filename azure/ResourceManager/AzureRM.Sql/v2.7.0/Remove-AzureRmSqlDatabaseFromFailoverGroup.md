@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/14/2017 10:59 PM
+ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Remove-AzureRmSqlDatabaseFromFailoverGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Remove-AzureRmSqlDatabaseFromFailoverGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Remove-AzureRmSqlDatabaseFromFailoverGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7b8544897e9b6d31b31df0cd980d5b5316590bc7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Remove-AzureRmSqlDatabaseFromFailoverGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -54,7 +54,9 @@ PS C:\> Get-AzureRmSqlDatabase -ServerName testsvr -ResourceGroupName myrg2 | Re
 ## PARAMETERS
 
 ### -Databases
-The Azure SQL Databases to be added to the secondary server.```yaml
+The Azure SQL Databases to be added to the secondary server.
+
+```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Sql.Database.Model.AzureSqlDatabaseModel]
 Parameter Sets: (All)
 Aliases: 
@@ -67,7 +69,9 @@ Accept wildcard characters: False
 ```
 
 ### -FailoverGroupName
-The name of the Azure SQL Failover Group.```yaml
+The name of the Azure SQL Failover Group.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -80,7 +84,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The name of the resource group.```yaml
+The name of the resource group.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -93,7 +99,9 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-The name of the Azure SQL Server the Failover Group is in.```yaml
+The name of the Azure SQL Server the Failover Group is in.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -106,7 +114,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-The tag to associate with the Azure Sql Elastic Pool```yaml
+The tag to associate with the Azure Sql Elastic Pool.
+
+```yaml
 Type: Hashtable
 Parameter Sets: (All)
 Aliases: Tag
