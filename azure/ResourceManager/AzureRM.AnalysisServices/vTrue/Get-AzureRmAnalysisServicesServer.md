@@ -90,6 +90,6 @@ Alias: Get-AzureAs
 
 ## RELATED LINKS
 
-[New-AzureRmAnalysisServicesServer ](xref:ResourceManager/AzureRM.AnalysisServices/v0.1.0/New-AzureRmAnalysisServicesServer .md)
+[New-AzureRmAnalysisServicesServer ](xref:ResourceManager/AzureRM.AnalysisServices/v3.0.0/New-AzureRmAnalysisServicesServer .md)
 
-[Remove-AzureRmAnalysisServicesServer ](xref:ResourceManager/AzureRM.AnalysisServices/v0.1.0/Remove-AzureRmAnalysisServicesServer .md)
+[Remove-AzureRmAnalysisServicesServer ](xref:ResourceManager/AzureRM.AnalysisServices/v3.0.0/Remove-AzureRmAnalysisServicesServer .md)
