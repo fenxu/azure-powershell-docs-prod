@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 74C83C0C-6DC6-4D1F-8203-409A4A9DE357
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 9:05 PM
-ms.date: 3/13/2017
+updated_at: 3/14/2017 5:54 PM
+ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b07552ac127a3b6c964491002e9e33a37894fbde/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3ef4ccd99b4b00c173314325d274032246189c89/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementOpenIdConnectProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -140,7 +140,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-Specifies a description.
+Specifies a description for the provider.
 
 ```yaml
 Type: String
@@ -226,5 +226,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementOpenIdConnectProvider](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementOpenIdConnectProvider.md)
 
 [Remove-AzureRmApiManagementOpenIdConnectProvider](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementOpenIdConnectProvider.md)
-
-
