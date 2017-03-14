@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: F58FD77E-2946-44B1-B410-6E983FC20E21
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 6:58 PM
-ms.date: 3/4/2017
+updated_at: 3/9/2017 9:25 PM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa2ae758d5790a27662a17dfad5119b5b8987494/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a6b17417413ebdf52ba4de88489549fb1c5bb4a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -248,7 +248,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartDate
-Specifeis the effective start date of the credential usage.
+Specifies the effective start date of the credential usage.
 The default start date value is today. 
 For an "asymmetric" type credential, this must be set to on or after the date that the X509 certificate is valid from.
 

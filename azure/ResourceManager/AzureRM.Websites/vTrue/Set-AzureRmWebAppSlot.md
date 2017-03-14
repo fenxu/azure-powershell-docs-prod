@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: FA868206-D8B0-4868-A1D1-D3F96BF3ADCC
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 8:15 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebAppSlot.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebAppSlot.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebAppSlot.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -54,17 +54,17 @@ The **Set-AzureRmWebApp** cmdlet sets an Azure Web App Slot.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Modify an Azure Web App slot
 ```
 PS C:\> Set-AzureRmWebAppSlot -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp" -Slot "Slot001" -HttpLoggingEnabled $true
 ```
 
-This command sets HttpLoggingEnabled to true for Slot Slot001 pertaining to Web App ContosoWebApp associated with the resource group Default-Web-WestUS
+This command sets HttpLoggingEnabled to true for Slot Slot001 pertaining to Web App ContosoWebApp associated with the resource group Default-Web-WestUS.
 
 ## PARAMETERS
 
 ### -AppServicePlan
-App Service Plan Name
+Specifies the name of an App service plan.
 
 ```yaml
 Type: String
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppSettings
-App Settings HashTable
+Specifies a hashtable of App settings.
 
 ```yaml
 Type: Hashtable
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -AutoSwapSlotName
-Destination slot name for auto swap
+Specifies the destination slot name for auto swap.
 
 ```yaml
 Type: String
@@ -109,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionStrings
-Connection Strings HashTable
+Specifies a hashtable that contains the connection strings.
 
 ```yaml
 Type: Hashtable
@@ -124,7 +124,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultDocuments
-Default Documents String Array
+Specifies an array of default documents.
 
 ```yaml
 Type: String[]
@@ -139,7 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -DetailedErrorLoggingEnabled
-Detailed Error Logging Enabled Boolean
+Indicates whether the cmdlet uses detailed error logging.
 
 ```yaml
 Type: Boolean
@@ -154,7 +154,7 @@ Accept wildcard characters: False
 ```
 
 ### -HandlerMappings
-Handler Mappings IList
+Specifies a IList of handler mappings.
 
 ```yaml
 Type: System.Collections.Generic.IList`1[Microsoft.Azure.Management.WebSites.Models.HandlerMapping]
@@ -169,7 +169,7 @@ Accept wildcard characters: False
 ```
 
 ### -HttpLoggingEnabled
-HttpLoggingEnabled Boolean
+Indicates that the cmdlet enables Http logging.
 
 ```yaml
 Type: Boolean
@@ -184,7 +184,7 @@ Accept wildcard characters: False
 ```
 
 ### -ManagedPipelineMode
-Managed Pipeline Mode Name
+Specifies the name of the managed pipeline mode.
 
 ```yaml
 Type: String
@@ -199,7 +199,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-WebApp Name
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -214,7 +214,7 @@ Accept wildcard characters: False
 ```
 
 ### -NetFrameworkVersion
-Net Framework Version
+Specifies the version of .Net Framework.
 
 ```yaml
 Type: String
@@ -229,7 +229,7 @@ Accept wildcard characters: False
 ```
 
 ### -NumberOfWorkers
-The number of workers to be allocated
+Specifies the number of workers that this cmdlet allocates.
 
 ```yaml
 Type: Int32
@@ -244,7 +244,7 @@ Accept wildcard characters: False
 ```
 
 ### -PhpVersion
-Php Version
+Specifies the Php version.
 
 ```yaml
 Type: String
@@ -259,7 +259,7 @@ Accept wildcard characters: False
 ```
 
 ### -RequestTracingEnabled
-Request Tracing Enabled Boolean
+Indicates whether the cmdlet enables request tracing.
 
 ```yaml
 Type: Boolean
@@ -274,7 +274,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource Group Name
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -289,7 +289,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-WebApp Slot Name
+Specifies the name of the Web App slot.
 
 ```yaml
 Type: String
@@ -304,7 +304,7 @@ Accept wildcard characters: False
 ```
 
 ### -Use32BitWorkerProcess
-Use 32-bit Worker Process Boolean
+Indicates whether the cmdlet uses a 32-bit worker process.
 
 ```yaml
 Type: Boolean
@@ -319,7 +319,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-WebApp Object
+Specifies a Web App object.
 
 ```yaml
 Type: Site
@@ -334,7 +334,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebSocketsEnabled
-Web Sockets Enabled Boolean
+Indicates whether the cmdlet enables web sockets.
 
 ```yaml
 Type: Boolean

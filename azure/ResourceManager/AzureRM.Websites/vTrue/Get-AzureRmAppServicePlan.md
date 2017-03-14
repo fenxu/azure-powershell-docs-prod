@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 89ED4231-7616-47D0-BDAA-D849C245DC79
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 6:32 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmAppServicePlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmAppServicePlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmAppServicePlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5f61e9aba40bfa9a692e05fd7de85916e3b15112/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmAppServicePlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,14 +43,14 @@ The **Get-AzureRmAppServicePlan** cmdlet gets an Azure App Service plan in the s
 
 ### Example 1: Get an App Service plan from a resource group
 ```
-PS C:\>Get-AzureRmAppServicePlan -ResourceGroupName "Default-Web-WestUS" -Name "ContosoAppServPlan"
+PS C:\> Get-AzureRmAppServicePlan -ResourceGroupName "Default-Web-WestUS" -Name "ContosoAppServPlan"
 ```
 
-This command gets the App Service plan named ContosoAppServPlan that belongs to the resource group named Default-Web-WestUS.
+This command gets the App Service plan named ContosoASP that belongs to the resource group named Default-Web-WestUS.
 
 ### Example 2: Get all App Service plans in a location
 ```
-PS C:\>Get-AzureRmAppServicePlan -Location "West US"
+PS C:\> Get-AzureRmAppServicePlan -Location "West US"
 ```
 
 This command gets all App Service plans located in the "West US" region.
@@ -58,7 +58,7 @@ This command gets all App Service plans located in the "West US" region.
 ## PARAMETERS
 
 ### -ResourceGroupName
-Resource Group Name
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-App Service Plan Name
+Specifies the name of an App service plan.
 
 ```yaml
 Type: String
@@ -88,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Location 
+Specifies the geographical location.
 
 ```yaml
 Type: String
@@ -118,5 +118,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmAppServicePlan.md)
 
 [Set-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md)
-
-

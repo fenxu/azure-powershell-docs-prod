@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 2:12 AM
-ms.date: 3/9/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusTopicKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusTopicKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fd4b3c7c85da22d54497dd2e4e5acda28e29fba3/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusTopicKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusTopicKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -31,28 +31,28 @@ New-AzureRmServiceBusTopicKey [-ResourceGroup] <String> [-NamespaceName] <String
 ```
 
 ## DESCRIPTION
-The **New-AzureRmServiceBusTopicKey** cmdlet generates a primary or secondary connection string for the specified Service Bus topic and authorization rule.
+The **New-AzureRmServiceBusTopicKey** cmdlet generates a new primary or secondary connection string for the specified Service Bus topic and authorization rule.
 
 ## EXAMPLES
 
-### Example 1: Regenerate the primary connection string for a namespace
+### Example 1
 ```
-PS C:\> New-AzureRmServiceBusTopicKey -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -TopicName "SB-Topic_example1" -AuthorizationRuleName "SBTopicAuthoRule1" -RegenerateKeys "PrimaryKey"
-```
-
-This command regenerates the primary connection string for the namespace named SB-Example1.
-
-### Example 2: Regenerate the secondary connection string for a namespace
-```
-PS C:\> New-AzureRmServiceBusTopicKey -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -TopicName "SB-Topic_example1" -AuthorizationRuleName S"BTopicAuthoRule1" -RegenerateKeys "SecondaryKey"
+PS C:\> New-AzureRmServiceBusTopicKey -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -AuthorizationRuleName SBTopicAuthoRule1 -RegenerateKeys PrimaryKey
 ```
 
-This command regenerates the secondary connection string for the namespace named SB-Example1.
+Regenerates the primary connection string for the namespace.
+
+### Example 2
+```
+PS C:\> New-AzureRmServiceBusTopicKey -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -AuthorizationRuleName SBTopicAuthoRule1 -RegenerateKeys SecondaryKey
+```
+
+Regenerates the secondary connection string for the namespace.
 
 ## PARAMETERS
 
 ### -AuthorizationRuleName
-Specifies the name of the authorization rule.
+The authorization rule name.
 
 ```yaml
 Type: String
@@ -67,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -98,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -113,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -TopicName
-Specifies the name of the Service Bus topic.
+The Service Bus topic name.
 
 ```yaml
 Type: String
@@ -197,4 +197,3 @@ KeyName                   : SBTopicAuthoRule1
 
 ## RELATED LINKS
 
-[Get-AzureRmServiceBusTopicKey](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopicKey.md)

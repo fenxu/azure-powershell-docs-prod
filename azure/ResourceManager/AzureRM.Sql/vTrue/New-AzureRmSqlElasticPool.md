@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 009899E5-83BF-4A3F-877E-70C16D5CD1AC
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 6:07 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlElasticPool.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlElasticPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlElasticPool.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/633b65880b39bb57c9d475f0ae0218f107659f8b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlElasticPool.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ The **New-AzureRmSqlElasticPool** cmdlet creates an elastic database pool for an
 
 ### Example 1: Create an elastic pool
 ```
-PS C:\>New-AzureRmSqlElasticPool -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -ElasticPoolName "ElasticPool01" -Edition "Standard" -Dtu 400 -DatabaseDtuMin 10 -DatabaseDtuMax 100
+PS C:\> New-AzureRmSqlElasticPool -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -ElasticPoolName "ElasticPool01" -Edition "Standard" -Dtu 400 -DatabaseDtuMin 10 -DatabaseDtuMax 100
 ResourceId        : /subscriptions/00000000-0000-0000-0000-000000000001/resourceGroups/resourcegroup01/providers/Microsoft.Sql/servers/server01/elasticPools/elasticpool01
 ResourceGroupName : resourcegroup01
 ServerName        : server01
@@ -131,7 +131,7 @@ We recommend that you do not specify the *StorageMB* parameter.
 
 If you specify *StorageMB*, but do not specify *Dtu*, the cmdlet calculates a value for *Dtu*.
 If you specify values for both, the values must be consistent.
-For more information about the relationship between storage and DTUs, see https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-pool-reference/https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-pool-reference/.
+For more information about the relationship between storage and DTUs, see [https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-pool-reference/](https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-pool-reference/) (https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-pool-reference/).
 
 ```yaml
 Type: Int32
@@ -323,5 +323,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-AzureRmSqlElasticPool](xref:ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlElasticPool.md)
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md)
-
-

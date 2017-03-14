@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 54E01B3B-FFA5-4E3C-BA5A-A281FF5C9F8B
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 6:07 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlDatabaseSecondary.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlDatabaseSecondary.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlDatabaseSecondary.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/633b65880b39bb57c9d475f0ae0218f107659f8b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlDatabaseSecondary.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,15 +35,10 @@ Remove-AzureRmSqlDatabaseSecondary [-DatabaseName] <String> -PartnerResourceGrou
 
 ## DESCRIPTION
 The **Remove-AzureRmSqlDatabaseSecondary** cmdlet forces termination of a geo-replication link.
-This cmdlet replaces the Stop-AzureSqlDatabaseCopy cmdlet.
+This cmdlet replaces the **Stop-AzureSqlDatabaseCopy** cmdlet.
 There is no replication synchronization before termination.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -214,5 +209,3 @@ This cmdlet does not generate any output.
 [New-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlDatabaseSecondary.md)
 
 [Set-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlDatabaseSecondary.md)
-
-

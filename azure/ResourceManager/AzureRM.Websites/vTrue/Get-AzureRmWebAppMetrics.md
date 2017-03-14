@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 513BE097-EB4A-4C49-9F7F-42A2BED09022
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 7:40 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppMetrics.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppMetrics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppMetrics.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppMetrics.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,13 +48,12 @@ The **Get-AzureRmWebAppMetrics** gets Web App metrics.
 PS C:\> Get-AzureRmAppServicePlanMetrics -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp" -StartTime 2016-11-30T22:00:00Z -EndTime 2016-11-30T22:30:00Z -Granularity PT1M -Metrics ["Requests"]
 ```
 
-This command gets Requests of the Web App ContosoWebApp 
-    per minute(PT1M - Poll Time 1 minute) between StartTime and EndTime
+This command gets Requests of the Web App ContosoWebApp per minute(PT1M - Poll Time 1 minute) between StartTime and EndTime
 
 ## PARAMETERS
 
 ### -EndTime
-End Time in UTC
+Specifies the end time in UTC.
 
 ```yaml
 Type: DateTime
@@ -69,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -Granularity
-Granularity
+Specifies the granularity of the App Service metrics.
 
 ```yaml
 Type: String
@@ -84,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -InstanceDetails
-Instance Details
+Indicates that the cmdlet gets instance details.
 
 ```yaml
 Type: SwitchParameter
@@ -99,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -Metrics
-Metrics as a string array
+Specifies a string array of metrics.
 
 ```yaml
 Type: String[]
@@ -114,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-WebApp Name
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -129,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource Group Name
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -144,7 +143,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartTime
-Start Time in UTC
+Specifies the start time in UTC.
 
 ```yaml
 Type: DateTime
@@ -159,7 +158,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-WebApp object
+Specifies the WebApp object.
 
 ```yaml
 Type: Site
@@ -182,4 +181,3 @@ Accept wildcard characters: False
 ## RELATED LINKS
 
 [Get-AzureRmWebAppCertificate](xref:ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppCertificate.md)
-

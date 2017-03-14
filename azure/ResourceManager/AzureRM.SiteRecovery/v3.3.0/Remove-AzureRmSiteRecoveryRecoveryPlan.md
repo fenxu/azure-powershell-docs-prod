@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 ms.assetid: 7C695E83-78AA-4008-91D6-D6B23BC96B92
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 3/13/2017 3:15 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Remove-AzureRmSiteRecoveryRecoveryPlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Remove-AzureRmSiteRecoveryRecoveryPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Remove-AzureRmSiteRecoveryRecoveryPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2f99482ffa15f43bf9de2f53bbd7ba2af72e0f11/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Remove-AzureRmSiteRecoveryRecoveryPlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,11 +43,11 @@ The **Remove-AzureRmSiteRecoveryRecoveryPlan** cmdlet removes a site recovery pl
 
 ### Example 1: Remove a recovery plan
 ```
-PS C:\>$RecoveryPlan = Get-AzureRmSiteRecoveryRecoveryPlan 
+PS C:\> $RecoveryPlan = Get-AzureRmSiteRecoveryRecoveryPlan 
 PS C:\> Remove-AzureRmSiteRecoveryRecoveryPlan -RecoveryPlan $RecoveryPlan
 ```
 
-The first command uses the Get-AzureRmSiteRecoveryRecoveryPlan cmdlet to get the Site Recovery plan, and then stores it in the $RecoveryPlan variable.
+The first command uses the [Get-AzureRmSiteRecoveryRecoveryPlan](./Get-AzureRmSiteRecoveryRecoveryPlan.md) cmdlet to get the Site Recovery plan, and then stores it in the $RecoveryPlan variable.
 
 The second command removes the recovery plan in $RecoveryPlan.
 
@@ -99,5 +99,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmSiteRecoveryRecoveryPlan](xref:ResourceManager/AzureRM.SiteRecovery/v3.3.0/New-AzureRmSiteRecoveryRecoveryPlan.md)
 
 [Update-AzureRmSiteRecoveryRecoveryPlan](xref:ResourceManager/AzureRM.SiteRecovery/v3.3.0/Update-AzureRmSiteRecoveryRecoveryPlan.md)
-
-

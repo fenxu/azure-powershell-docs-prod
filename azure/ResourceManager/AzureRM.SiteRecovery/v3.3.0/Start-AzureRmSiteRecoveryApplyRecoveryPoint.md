@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 ms.assetid: 86A60FD6-551A-4A6B-A4D1-466F33CE714A
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 3/13/2017 3:15 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Start-AzureRmSiteRecoveryApplyRecoveryPoint.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Start-AzureRmSiteRecoveryApplyRecoveryPoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Start-AzureRmSiteRecoveryApplyRecoveryPoint.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2f99482ffa15f43bf9de2f53bbd7ba2af72e0f11/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Start-AzureRmSiteRecoveryApplyRecoveryPoint.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Start-AzureRmSiteRecoveryApplyRecoveryPoint
 
 ## SYNOPSIS
-Changes a recovery point for a failed over protected item before commiting the failover operation.
+Changes a recovery point for a failed over protected item before committing the failover operation.
 
 ## SYNTAX
 

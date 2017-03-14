@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 9:41 PM
-ms.date: 3/8/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueue.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a575a36d87ca7c0b665d6ccd1a3a8057e16ce697/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueue.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,17 +35,17 @@ The **Get-AzureRmServiceBusQueue** cmdlet returns a description of the specified
 
 ## EXAMPLES
 
-### Example 1: Get the description of the specified Service Bus queue
+### Example 1
 ```
-PS C:\> Get-AzureRmServiceBusQueue -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -QueueName "SB-Queue_example1"
+PS C:\> Get-AzureRmServiceBusQueue -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -QueueName SB-Queue_example1
 ```
 
-This command gets the description of the queue named SB-Queue_example1. 
+Returns the description of the queue. 
 
 ## PARAMETERS
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -QueueName
-Specifies the name of the queue.
+The queue name.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -140,8 +140,3 @@ Location                            : West US
 
 ## RELATED LINKS
 
-[New-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueue.md)
-
-[Remove-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusQueue.md)
-
-[Set-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusQueue.md)

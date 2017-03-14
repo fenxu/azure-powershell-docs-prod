@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 5:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerKeyVaultKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerKeyVaultKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerKeyVaultKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -31,13 +31,12 @@ Get-AzureRmSqlServerKeyVaultKey [[-KeyId] <String>] [-ServerName] <String> [-Res
 ```
 
 ## DESCRIPTION
-The Get-AzureRmSqlServerKeyVaultKey cmdlet gets information about the Key Vault keys on a SQL server.
+The **Get-AzureRmSqlServerKeyVaultKey** cmdlet gets information about the Key Vault keys on a SQL server.
 You can view all keys on a server or view a specific key by providing the KeyId.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Get all Key Vault keys  --------------------------
-@{paragraph=PS C:\\\>}
+### Example 1: Get all Key Vault keys  
 
 ```
 PS C:\> Get-AzureRmSqlServerKeyVaultKey -ServerName 'ContosoServer' -ResourceGroupName 'ContosoResourceGroup'
@@ -61,7 +60,7 @@ Uri               : https://contoso.vault.azure.net/keys/contosokey2/09876543210
 Thumbprint        : 0099887766554433221100998877665544332211
 CreationDate      : 1/1/2017 12:00:00 AM
 
-### --------------------------  Example 2: Get a specific Key Vault key  --------------------------
+### Example 2: Get a specific Key Vault key 
 ```
 PS C:\> $MyServerKeyVaultKey = Get-AzureRmSqlServerKeyVaultKey -KeyId 'https://contoso.vault.azure.net/keys/contosokey/01234567890123456789012345678901' -ServerName 'ContosoServer' -ResourceGroupName 'ContosoResourceGroup'
 ```
@@ -72,7 +71,7 @@ You can inspect the properties of $MyServerKeyVaultKey to get details about the 
 ## PARAMETERS
 
 ### -KeyId
-The Azure Key Vault KeyId.
+Specifies the Azure Key Vault KeyId.
 
 ```yaml
 Type: String
@@ -87,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The name of the resource group
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -102,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-The Azure Sql Server name.
+Specifies the name of the Azure SQL Server.
 
 ```yaml
 Type: String
@@ -159,3 +158,6 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
+[Add-AzureRmSqlServerKeyVaultKey](xref:ResourceManager/AzureRM.Sql/vTrue/Add-AzureRmSqlServerKeyVaultKey.md)
+
+[Remove-AzureRmSqlServerKeyVaultKey](xref:ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlServerKeyVaultKey.md)

@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 3:14 AM
-ms.date: 3/9/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ab21878e88f2b8084525b2c41c1bf28c3e7c885/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,12 +35,12 @@ The **Remove-AzureRmServiceBusSubscription** cmdlet removes the subscription to 
 
 ## EXAMPLES
 
-### Example 1: Remove a subscription from a topic
+### Example 1
 ```
-PS C:\> Remove-AzureRmServiceBusSubscription -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -TopicName "SB-Topic_example1" -SubscriptionName "SB-TopicSubscription-Example1"
+PS C:\> Remove-AzureRmServiceBusSubscription -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -SubscriptionName SB-TopicSubscription-Example1
 ```
 
-This command removes the subscription named SB-TopicSubscription-Example1 to the topic named SB-Topic_example1 in the specified Service Bus namespace named SB-Example1.
+Removes the subscription `SB-TopicSubscription-Example1` to the topic `SB-Topic_exampl1` in the specified Service Bus namespace `SB-Example1`.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionName
-Specifies the name of the subscription.
+The subscription name.
 
 ```yaml
 Type: String
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -TopicName
-Specifies the name of the Service Bus topic.
+The Service Bus topic name.
 
 ```yaml
 Type: String
@@ -160,8 +160,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmServiceBusSubscription](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusSubscription.md)
-
-[New-AzureRmServiceBusSubscription](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusSubscription.md)
-
-[Set-AzureRmServiceBusSubscription](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusSubscription.md)

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 7039528F-42AE-45DB-BF81-FE5003F8AEE2
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 6:07 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/633b65880b39bb57c9d475f0ae0218f107659f8b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ The **New-AzureRmSqlServer** cmdlet creates an Azure SQL Database server.
 
 ### Example 1: Create a new Azure SQL Database server
 ```
-PS C:\>New-AzureRmSqlServer -ResourceGroupName "ResourceGroup01" -Location "Central US" -ServerName "server01" -ServerVersion "12.0" -SqlAdministratorCredentials (Get-Credential)
+PS C:\> New-AzureRmSqlServer -ResourceGroupName "ResourceGroup01" -Location "Central US" -ServerName "server01" -ServerVersion "12.0" -SqlAdministratorCredentials (Get-Credential)
 ResourceGroupName        : resourcegroup01
 ServerName               : server01
 Location                 : Central US
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 
 ### -SqlAdministratorCredentials
 Specifies the SQL Database server administrator credentials for the new server.
-To obtain a **PSCredential** object, use the Get-Credential cmdlet.
+To obtain a **PSCredential** object, use the **Get-Credential** cmdlet.
 For more information, type `Get-Help Get-Credential`.
 
 ```yaml
@@ -241,5 +241,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmSqlServerFirewallRule](xref:ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlServerFirewallRule.md)
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md)
-
-

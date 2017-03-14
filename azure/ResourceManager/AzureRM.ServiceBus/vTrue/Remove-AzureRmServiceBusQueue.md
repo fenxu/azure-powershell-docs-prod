@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 2:12 AM
-ms.date: 3/9/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusQueue.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusQueue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fd4b3c7c85da22d54497dd2e4e5acda28e29fba3/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusQueue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusQueue.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,12 +35,12 @@ The **Remove-AzureRmServiceBusQueue** cmdlet removes the queue from the specifie
 
 ## EXAMPLES
 
-### Example 1: Remove the specified queue from a namespace
+### Example 1
 ```
-PS C:\> Remove-AzureRmServiceBusQueue -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -QueueName "SB-Queue_example1"
+PS C:\> Remove-AzureRmServiceBusQueue -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -QueueName SB-Queue_exampl1
 ```
 
-This command removes the queue named SB-Queue_example1 from the namespace named SB-Example1.
+Removes the queue `SB-Queue_exampl1` from the namespace `SB-Example1`.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -QueueName
-Specifies the name of the Service Bus queue.
+The Service Bus queue name.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -142,8 +142,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopic.md)
-
-[New-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusTopic.md)
-
-[Set-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusTopic.md)

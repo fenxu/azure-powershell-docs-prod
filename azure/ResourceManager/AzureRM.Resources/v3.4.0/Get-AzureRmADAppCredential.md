@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 6AC9DA05-756D-4D59-BD97-DBAAFBB3C7AC
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 3/9/2017 9:25 PM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmADAppCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmADAppCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmADAppCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a6b17417413ebdf52ba4de88489549fb1c5bb4a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmADAppCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -51,7 +51,7 @@ This command will retrieve all of the credential properties (but not the credent
 
 
 ```
-PS E:\> Get-AzureRmADAppCredential -ObjectId 1f99cf81-0146-4f4e-beae-2007d0668476
+PS C:\> Get-AzureRmADAppCredential -ObjectId 1f99cf81-0146-4f4e-beae-2007d0668476
 ```
 
 Returns a list of credentials associated with the application having object id '1f99cf81-0146-4f4e-beae-2007d0668476'.

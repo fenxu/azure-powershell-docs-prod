@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/5/2017 7:52 PM
-ms.date: 3/5/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespaceAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespaceAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/27493dc061e617444314c5f4b42c8c8fa24e1eb1/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespaceAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespaceAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # New-AzureRmEventHubNamespaceAuthorizationRule
 
 ## SYNOPSIS
-Creates an authorization rule on the specified namespace.
+Creates a new authorization rule on the specified namespace.
 
 ## SYNTAX
 
@@ -31,16 +31,16 @@ New-AzureRmEventHubNamespaceAuthorizationRule [-ResourceGroupName] <String> [-Na
 ```
 
 ## DESCRIPTION
-The **New-AzureRmEventHubNamespaceAuthorizationRule** cmdlet creates an authorization rule on the specified Event Hubs namespace.
+The **New-AzureRmEventHubNamespaceAuthorizationRule** cmdlet creates a new authorization rule on the specified Event Hubs namespace.
 
 ## EXAMPLES
 
-### Example 1: Create an authorization rule
+### Example 1
 ```
-PS C:\> New-AzureRmEventHubNamespaceAuthorizationRule -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -AuthorizationRuleName "MyAuthRuleName" -Rights @("Listen","Send")
+PS C:\> New-AzureRmEventHubNamespaceAuthorizationRule -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -AuthorizationRuleName MyAuthRuleName -Rights @("Listen","Send")
 ```
 
-This command creates the authorization rule named MyAuthRuleName with **Listen** and **Send** rights, for Event Hubs namespace named MyNamespaceName.
+Creates the authorization rule `MyAuthRuleName` with **Listen** and **Send** rights, for Event Hubs namespace `MyNamespaceName`, in resource group `MyResourceGroupName`.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Event Hubs namespace.
+The Event Hubs namespace name.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group.
+Resource group name.
 
 ```yaml
 Type: String
@@ -106,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -AuthorizationRuleName
-Specifies the name of the authorization rule.
+Authorization rule name.
 
 ```yaml
 Type: String
@@ -151,8 +151,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmEventHubNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespaceAuthorizationRule.md)
-
-[Remove-AzureRmEventHubNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.EventHub/vTrue/Remove-AzureRmEventHubNamespaceAuthorizationRule.md)
-
-[Set-AzureRmEventHubNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.EventHub/vTrue/Set-AzureRmEventHubNamespaceAuthorizationRule.md)

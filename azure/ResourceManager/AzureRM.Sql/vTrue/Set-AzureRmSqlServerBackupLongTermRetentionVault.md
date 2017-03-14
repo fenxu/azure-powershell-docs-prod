@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 7642F18A-B193-4849-BE3C-1B85FBD213F3
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 6:07 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerBackupLongTermRetentionVault.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerBackupLongTermRetentionVault.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerBackupLongTermRetentionVault.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/633b65880b39bb57c9d475f0ae0218f107659f8b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Set-AzureRmSqlServerBackupLongTermRetentionVault.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,11 +37,6 @@ The **Set-AzureRmSqlServerBackupLongTermRetentionVault** cmdlet sets the long te
 The vault is an Azure Backup resource used to store backup data.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -172,5 +167,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmSqlServerBackupLongTermRetentionVault](xref:ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlServerBackupLongTermRetentionVault.md)
-
-

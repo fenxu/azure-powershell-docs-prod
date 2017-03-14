@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 6424B740-DBFB-490C-AEAA-EDD60952B435
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 3/9/2017 9:25 PM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmProviderOperation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmProviderOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmProviderOperation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a6b17417413ebdf52ba4de88489549fb1c5bb4a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmProviderOperation.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -32,7 +32,7 @@ Get-AzureRmProviderOperation [-OperationSearchString] <String> [-InformationActi
 ```
 
 ## DESCRIPTION
-The Get-AzureRmProviderOperation gets the operations exposed by Azure resource providers.
+The **Get-AzureRmProviderOperation** cmdlet gets the operations exposed by Azure resource providers.
 Operations can be composed to create custom roles in Azure RBAC.
 The command takes as input an operation search string (with possible wildcard(*) character(s)) which determines the operations details to display.
 

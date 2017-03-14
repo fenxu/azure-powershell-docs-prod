@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 3CD449A1-084E-4950-80EF-06B5ECDFB70F
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 8:15 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Reset-AzureRmWebAppSlotPublishingProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Reset-AzureRmWebAppSlotPublishingProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Reset-AzureRmWebAppSlotPublishingProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Reset-AzureRmWebAppSlotPublishingProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # Reset-AzureRmWebAppSlotPublishingProfile
 
 ## SYNOPSIS
+Resets the publishing profile for the specified Web App Slot.
 
 ## SYNTAX
 
@@ -41,7 +42,7 @@ The **Reset-AzureRmWebAppSlotPublishingProfile** cmdlet resets the publishing pr
 
 ## EXAMPLES
 
-### 1:
+### Example 1: Reset the publishing profile for a specific Web App slot
 ```
 PS C:\> Reset-AzureRmWebAppSlotPublishingProfile -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp" -Slot "slot001"
 ```
@@ -51,7 +52,7 @@ This command resets the publishing profile for the Slot named slot001 for the We
 ## PARAMETERS
 
 ### -ResourceGroupName
-Resource Group Name
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -66,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-WebApp Name
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -81,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-WebApp Slot Name
+Specifies the name of the Web App slot.
 
 ```yaml
 Type: String
@@ -96,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-WebApp Object
+Specifies a Web App object.
 
 ```yaml
 Type: Site
@@ -120,4 +121,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

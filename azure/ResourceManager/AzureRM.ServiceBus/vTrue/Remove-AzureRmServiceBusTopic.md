@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 3:14 AM
-ms.date: 3/9/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusTopic.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusTopic.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ab21878e88f2b8084525b2c41c1bf28c3e7c885/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusTopic.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusTopic.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,12 +35,12 @@ The **Remove-AzureRmServiceBusTopic** cmdlet removes the topic from the specifie
 
 ## EXAMPLES
 
-### Example 1: Remove a topic from the a Service Bus namespace
+### Example 1
 ```
-PS C:\> Remove-AzureRmServiceBusTopic -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -TopicName "SB-Topic_example1"
+PS C:\> Remove-AzureRmServiceBusTopic -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1
 ```
 
-This command removes the topic named SB-Topic_example1 from the namespace named SB-Example1.
+Removes the topic `SB-Topic_exampl1` from the namespace `SB-Example1`.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -TopicName
-Specifies the name of the Service Bus topic.
+The Service Bus topic name.
 
 ```yaml
 Type: String
@@ -142,8 +142,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopic.md)
-
-[New-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusTopic.md)
-
-[Set-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusTopic.md)

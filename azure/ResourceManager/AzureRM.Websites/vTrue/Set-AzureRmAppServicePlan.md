@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 32D45795-FBCD-4157-BF45-41BD1F61782E
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 8:15 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -42,18 +42,17 @@ The **Set-AzureRmAppServicePlan** cmdlet sets an Azure App Service plan.
 
 ## EXAMPLES
 
-### 1:
+### Example 1:
 ```
-PS C:\>Set-AzureRmAppServicePlan -ResourceGroupName "Default-Web-WestUS" -Name "ContosoAppServPlan" -PerSiteScaling  $true
+PS C:\> Set-AzureRmAppServicePlan -ResourceGroupName "Default-Web-WestUS" -Name "ContosoAppServPlan" -PerSiteScaling  $true
 ```
 
-This command sets the PerSiteScaling option to true on the App Service plan named ContosoAppServPlan 
-    that belongs to the resource group named Default-Web-WestUS.
+This command sets the PerSiteScaling option to true on the App Service plan named ContosoAppServPlan that belongs to the resource group named Default-Web-WestUS.
 
 ## PARAMETERS
 
 ### -AdminSiteName
-Admin Site Name
+Specifies the name Admin Site. 
 
 ```yaml
 Type: String
@@ -68,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tier
-Tier
+Specifies the tier of the service plan.
 
 ```yaml
 Type: String
@@ -83,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -NumberofWorkers
-Number Of Workers
+Specifies the number of workers.
 
 ```yaml
 Type: Int32
@@ -98,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -WorkerSize
-Worker Size
+Specifies the worker size.
 
 ```yaml
 Type: String
@@ -113,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -PerSiteScaling
-Per Site Scaling Boolean
+Indicates whether the cmdlet scales per site.
 
 ```yaml
 Type: Boolean
@@ -128,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource Group Name
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -143,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-App Service Plan Name
+Specifies the name of an App service plan.
 
 ```yaml
 Type: String
@@ -158,7 +157,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppServicePlan
-App Service Plan Object
+Specifies the Specifies the App Service Plan object.
 
 ```yaml
 Type: ServerFarmWithRichSku
@@ -194,5 +193,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Start-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Start-AzureRmWebApp.md)
 
 [Stop-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Stop-AzureRmWebApp.md)
-
-

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 ms.assetid: 7AAF2ACC-84ED-449C-B1E8-F074463F44EB
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/Remove-AzureRmIntegrationAccountMap.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/Remove-AzureRmIntegrationAccountMap.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/Remove-AzureRmIntegrationAccountMap.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/vTrue/Remove-AzureRmIntegrationAccountMap.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -73,7 +73,7 @@ Specifies the name of the integration account.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: ResourceName
+Aliases: IntegrationAccountName, ResourceName
 
 Required: True
 Position: Named

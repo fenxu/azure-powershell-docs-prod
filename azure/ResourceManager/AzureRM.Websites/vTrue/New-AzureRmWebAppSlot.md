@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: D23BBF34-80C0-48B1-8E1C-6F345DEC61AD
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 7:40 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSlot.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSlot.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSlot.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,7 @@ The **New-AzureRmWebApp** cmdlet creates an Azure Web App Slot in a given a reso
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Create an Azure Web App slot
 ```
 PS C:\> New-AzureRmWebApp -ResourceGroupName Default-Web-WestUS -Name "ContosoSite" -Location "West US" -AppServicePlan "ContosoServicePlan" -Slot "Slot001"
 ```
@@ -48,7 +48,7 @@ The command uses an existing App Service plan named ContosoServicePlan.
 ## PARAMETERS
 
 ### -AppServicePlan
-App Service Plan Name
+Specifies the name of an App service plan.
 
 ```yaml
 Type: String
@@ -63,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppSettingsOverrides
-App Settings Overrides Hashtable
+Specifies a hashtable of App Settings overrides.
 
 ```yaml
 Type: Hashtable
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -AseName
-App Service Environment Name
+Specifies the name of the App Service environment.
 
 ```yaml
 Type: String
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -AseResourceGroupName
-App Service Environment Resource Group Name
+Specifies the name of the App Service environment resource group.
 
 ```yaml
 Type: String
@@ -108,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -IgnoreCustomHostNames
-Ignore Custom HostNames Option
+Indicates that the cmdlet ignores the custom HostNames option.
 
 ```yaml
 Type: SwitchParameter
@@ -123,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -IgnoreSourceControl
-Ignore Source Control Option
+Indicates that the cmdlet ignores the source control option.
 
 ```yaml
 Type: SwitchParameter
@@ -138,7 +138,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Webapp Name
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -153,7 +153,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource Group Name
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -168,7 +168,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Webapp Slot Name
+Specifies the name of the Web App slot.
 
 ```yaml
 Type: String
@@ -183,7 +183,7 @@ Accept wildcard characters: False
 ```
 
 ### -SourceWebApp
-Source WebApp Object
+Specifies the source of a WebApp object.
 
 ```yaml
 Type: Site

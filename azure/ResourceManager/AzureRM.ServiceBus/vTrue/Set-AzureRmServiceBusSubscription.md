@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 6:46 PM
-ms.date: 3/9/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/71cac14758de8eeb36a92b82dae146511ac2a136/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,7 +35,7 @@ The **Set-AzureRmServiceBusSubscription** cmdlet updates the description of the 
 
 ## EXAMPLES
 
-### Example 1: Update the subscription for a Service Bus topic
+### Example 1
 ```
 PS C:\> $subscriptionObj = Get-AzureRmServiceBusSubscription -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -SubscriptionName SB-TopicSubscription-Example1
 
@@ -45,7 +45,7 @@ PS C:\> $subscriptionObj.MaxDeliveryCount = 9
 PS C:\> Set-AzureRmServiceBusSubscription -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -SubscriptionObj $subscriptionObj
 ```
 
-This example updates the description for the specified subscription to the given topic. This example updates the **DeadLetteringOnMessageExpiration** property to **true** and **MaxDeliveryCount** to 9.
+Updates the description for the specified subscription to the given topic. This example updates the **DeadLetteringOnMessageExpiration** property to **true** and **MaxDeliveryCount** to 9.
 
 ## PARAMETERS
 
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -80,7 +80,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -95,7 +95,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionObj
-Specifies the Service Bus subscription definition.
+The Service Bus subscription definition.
 
 ```yaml
 Type: SubscriptionAttributes
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -TopicName
-Specifies the name of the Service Bus topic.
+The Service Bus topic name.
 
 ```yaml
 Type: String
@@ -183,8 +183,3 @@ UpdatedAt                                 : 1/20/2017 9:59:15 PM
 
 ## RELATED LINKS
 
-[Get-AzureRmServiceBusSubscription](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusSubscription.md)
-
-[New-AzureRmServiceBusSubscription](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusSubscription.md)
-
-[Remove-AzureRmServiceBusSubscription](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusSubscription.md)

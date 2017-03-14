@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 910239BE-9E48-4DC5-85EA-CC6D466FE62F
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 7:40 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSSLBinding.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSSLBinding.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSSLBinding.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppSSLBinding.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -72,14 +72,14 @@ If you upload a new certificate, keep in mind the following requirements for an 
 
 ### Example 1: Bind a certificate to a Web App
 ```
-PS C:\>New-AzureRmWebAppSSLBinding -ResourceGroupName "ContosoResourceGroup" -WebAppName "ContosoWebApp" -Thumbprint "E3A38EBA60CAA1C162785A2E1C44A15AD450199C3" -Name "www.contoso.com" -CertificatePassword "p@ssw0rd"
+PS C:\> New-AzureRmWebAppSSLBinding -ResourceGroupName "ContosoResourceGroup" -WebAppName "ContosoWebApp" -Thumbprint "E3A38EBA60CAA1C162785A2E1C44A15AD450199C3" -Name "www.contoso.com" -CertificatePassword "p@ssw0rd"
 ```
 
 This command binds an existing Azure certificate (a certificate with the Thumbprint E3A38EBA60CAA1C162785A2E1C44A15AD450199C3) to the web app named ContosoWebApp.
 
 ### Example 2: Upload a certificate and bind it to a Web App
 ```
-PS C:\>New-AzureRmWebAppSSLBinding -ResourceGroupName "ContosoResourceGroup" -WebAppName "ContosoWebApp" -Thumbprint "E3A38EBA60CAA1C162785A2E1C44A15AD450199C3" -Name "www.contoso.com" -CertificatePassword "p@ssw0rd" -CertificateFilePath "C:\Certificates\ContosoWebSite.pfx"
+PS C:\> New-AzureRmWebAppSSLBinding -ResourceGroupName "ContosoResourceGroup" -WebAppName "ContosoWebApp" -Thumbprint "E3A38EBA60CAA1C162785A2E1C44A15AD450199C3" -Name "www.contoso.com" -CertificatePassword "p@ssw0rd" -CertificateFilePath "C:\Certificates\ContosoWebSite.pfx"
 ```
 
 Example 2 also binds the certificate E3A38EBA60CAA1C162785A2E1C44A15AD450199C3 to the Web App named ContosoWebApp.
@@ -125,7 +125,7 @@ Accept wildcard characters: False
 
 ### -Slot
 Specifies the name of the Web App deployment slot.
-You can use the Get-AzureRMWebAppSlot cmdlet to get a slot.
+You can use the [Get-AzureRMWebAppSlot](./Get-AzureRMWebAppSlot.md) cmdlet to get a slot.
 
 Deployment slots provide a way for you to stage and validate web apps without those apps being accessible over the Internet.
 Typically you will deploy your changes to a staging site, validate those changes, and then deploy to the production (Internet-accessible) site.
@@ -222,7 +222,7 @@ Accept wildcard characters: False
 
 ### -WebApp
 Specifies a Web App.
-To get a Web App, use the Get-AzureRmWebApp cmdlet.
+To get a Web App, use the [Get-AzureRmWebApp](./Get-AzureRmWebApp.md) cmdlet.
 
 You cannot use the *WebApp* parameter in the same command as the *ResourceGroupName* parameter and/or the *WebAppName*.
 
@@ -256,5 +256,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/vTrue/Get-AzureRMWebAppSlot.md)
 
 [Get-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebApp.md)
-
-

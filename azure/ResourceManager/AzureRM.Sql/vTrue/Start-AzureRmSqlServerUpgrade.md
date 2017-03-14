@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 69A26BF3-7FE7-41ED-8C21-C8DC72D09615
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 5:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Start-AzureRmSqlServerUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Start-AzureRmSqlServerUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Start-AzureRmSqlServerUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Start-AzureRmSqlServerUpgrade.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -42,7 +42,7 @@ You can monitor the progress of an upgrade by using the Get-AzureRmSqlServerUpgr
 
 ### Example 1: Upgrade a server
 ```
-PS C:\>Start-AzureRmSqlServerUpgrade -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -ServerVersion 12.0
+PS C:\> Start-AzureRmSqlServerUpgrade -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -ServerVersion 12.0
 ResourceGroupName               : ResourceGroup01
 ServerName                      : Server01
 ServerVersion                   : 12.0
@@ -54,7 +54,7 @@ This command upgrades the server named server01 assigned to resource group Tesou
 
 ### Example 2: Upgrade a server by using schedule time and database recommendation
 ```
-PS C:\>$ScheduleTime = (Get-Date).AddMinutes(5).ToUniversalTime()
+PS C:\> $ScheduleTime = (Get-Date).AddMinutes(5).ToUniversalTime()
 PS C:\> $DatabaseMap = New-Object -TypeName Microsoft.Azure.Management.Sql.Models.RecommendedDatabaseProperties
 PS C:\> $DatabaseMap.Name = "contosodb"
 PS C:\> $DatabaseMap.TargetEdition = "Standard"

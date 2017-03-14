@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 ms.assetid: A5697F1E-623A-4E26-96C8-6197852BFFAA
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 3/11/2017 9:04 PM
+ms.date: 3/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Get-AzureRmSiteRecoveryVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Get-AzureRmSiteRecoveryVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Get-AzureRmSiteRecoveryVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/458372bba73f40b2283c6fa3e0f451cdb8fda072/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/Get-AzureRmSiteRecoveryVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the virtual machine.
+Specifies the name of the virtual machine that this cmdlet gets information from.
 
 ```yaml
 Type: String

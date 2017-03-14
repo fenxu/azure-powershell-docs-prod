@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: D602F910-B26F-473D-B5B6-C7BDFB0A14CB
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 6:58 PM
-ms.date: 3/4/2017
+updated_at: 3/9/2017 9:25 PM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa2ae758d5790a27662a17dfad5119b5b8987494/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a6b17417413ebdf52ba4de88489549fb1c5bb4a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmADServicePrincipal.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -91,7 +91,7 @@ New-AzureRmADServicePrincipal -DisplayName <String> -CertValue <String> [-StartD
 ```
 
 ## DESCRIPTION
-Creates an Azure Active Directory service principal.
+The **New-AzureRmADServicePrincipal** cmdlet creates an Azure Active Directory service principal.
 
 The cmdlet also implicitly creates an application and sets its properties (if the *ApplicationId* parameter is not provided).
 In order to update the application specific parameters, use the [Set-AzureRmADApplication](./Set-AzureRmADApplication.md) cmdlet.

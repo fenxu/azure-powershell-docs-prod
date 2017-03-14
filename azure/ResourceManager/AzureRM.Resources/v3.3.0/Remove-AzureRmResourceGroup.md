@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 880D321E-30F2-4CAE-B14A-5F6DD8E1DB99
 online version: 
 schema: 2.0.0
-updated_at: 1/9/2017 5:08 PM
-ms.date: 1/9/2017
+updated_at: 3/10/2017 5:53 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0ad0bf34919ba087d528c6264dbeb3b2ec5cfcdb/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/35dc1c22a7ee5271a29b7063438c5ea0e9cb3239/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ Remove-AzureRmResourceGroup [-Id] <String> [-Force] [-ApiVersion <String>] [-Pre
 
 ## DESCRIPTION
 The **Remove-AzureRmResourceGroup** cmdlet removes an Azure resource group and its resources from the current subscription.
-To delete a resource, but leave the resource group, use the Remove-AzureRmResource cmdlet.
+To delete a resource, but leave the resource group, use the [Remove-AzureRmResource](./Remove-AzureRmResource.md) cmdlet.
 
 ## EXAMPLES
 
@@ -57,7 +57,7 @@ The cmdlet prompts you for confirmation and returns no output.
 PS C:\> Get-AzureRmResourceGroup -Name "ContosoRG01" | Remove-AzureRmResourceGroup -Verbose -Force
 ```
 
-This command uses the Get-AzureRmResourceGroup cmdlet to get the resource group ContosoRG01, and then passes it to **Remove-AzureRmResourceGroup** by using the pipeline operator.
+This command uses the [Get-AzureRmResourceGroup](./Get-AzureRmResourceGroup.md) cmdlet to get the resource group ContosoRG01, and then passes it to **Remove-AzureRmResourceGroup** by using the pipeline operator.
 The *Verbose* common parameter gets status information about the operation, and the *Force* parameter suppresses the confirmation prompt.
 
 ### Example 3: Remove all resource groups
@@ -198,5 +198,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmResourceGroup.md)
 
 [Set-AzureRmResourceGroup](xref:ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmResourceGroup.md)
-
-

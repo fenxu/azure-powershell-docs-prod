@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: BA97DB6F-F64D-417E-BD72-C2EBB2EC1AA4
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 8:24 PM
-ms.date: 3/4/2017
+updated_at: 3/10/2017 5:53 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8d5bd179154dcb8950eb74b5a9a717acab065233/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/35dc1c22a7ee5271a29b7063438c5ea0e9cb3239/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Set-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -50,7 +50,7 @@ To update the credentials associated with this application, use the [New-AzureRm
 
 
 ```
-PS E:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 -DisplayName "UpdatedAppName" -HomePage "http://www.microsoft.com" -IdentifierUris "http://UpdatedApp" -AvailableToOtherTenants $false
+PS C:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 -DisplayName "UpdatedAppName" -HomePage "http://www.microsoft.com" -IdentifierUris "http://UpdatedApp" -AvailableToOtherTenants $False
 ```
 
 This command updates the properties of an existing Azure Active Directory application with object ID fb7b3405-ca44-4b5b-8584-12392f5d96d7.
@@ -59,7 +59,7 @@ This command updates the properties of an existing Azure Active Directory applic
 
 
 ```
-PS E:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 -DisplayName "UpdatedAppName"
+PS C:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 -DisplayName "UpdatedAppName"
 ```
 
 This command updates the display name of an existing Azure Active Directory application with object ID fb7b3405-ca44-4b5b-8584-12392f5d96d7.

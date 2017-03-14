@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 3AB3D398-E5DB-4214-BA27-6E3B7D225550
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 7:40 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmWebAppSSLBinding.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmWebAppSSLBinding.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmWebAppSSLBinding.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmWebAppSSLBinding.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,7 @@ SSL bindings are used to associate a Web App with a certificate.
 
 ### Example 1: Remove an SSL binding for a web app
 ```
-PS C:\>Remove-AzureRmWebAppSSLBinding -ResourceGroupName "ContosoResourceGroup" -WebAppName "ContosoWebApp" -Name "www.contoso.com"
+PS C:\> Remove-AzureRmWebAppSSLBinding -ResourceGroupName "ContosoResourceGroup" -WebAppName "ContosoWebApp" -Name "www.contoso.com"
 ```
 
 This command removes the SSL binding for the web app ContosoWebApp.
@@ -55,7 +55,7 @@ Since the *DeleteCertificate* parameter is not included, the certificate will be
 
 ### Example 2: Remove an SSL binding without removing the certificate
 ```
-PS C:\>Remove-AzureRmWebAppSSLBinding -ResourceGroupName "ContosoResourceGroup" -WebAppName "ContosoWebApp" -Name "www.contoso.com" -DeleteCertificate $False
+PS C:\> Remove-AzureRmWebAppSSLBinding -ResourceGroupName "ContosoResourceGroup" -WebAppName "ContosoWebApp" -Name "www.contoso.com" -DeleteCertificate $False
 ```
 
 Similar to Example 1, this command also removes the SSL binding for the Web App ContosoWebApp.
@@ -64,13 +64,13 @@ That means that the certificate will not be deleted regardless of whether it has
 
 ### Example 3: Use an object reference to remove an SSL binding
 ```
-PS C:\>$WebApp = Get-AzureRmWebApp -Name "ContosoWebApp"
+PS C:\> $WebApp = Get-AzureRmWebApp -Name "ContosoWebApp"
 PS C:\> Remove-AzureRmWebAppSSLBinding -WebApp $WebApp -Name "www.contoso.com"
 ```
 
 This example uses an object reference to the Web App website to remove the SSL binding for a Web App.
 
-The first command uses the Get-AzureRmWebApp cmdlet to create an object reference to the Web App named ContosoWebApp.
+The first command uses the [Get-AzureRmWebApp](./Get-AzureRmWebApp.md) cmdlet to create an object reference to the Web App named ContosoWebApp.
 That object reference is stored in a variable named $WebApp.
 
 The second command uses the object reference and the **Remove-AzureRmWebAppSSLBinding** cmdlet to remove the SSL binding.
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 
 ### -DeleteCertificate
 Specifies the action to take place if the SSL binding being removed is the only binding used by the certificate.
-If *DeleteCertificate* is set to $False, the certificate will not be deleted when the binding is deleted.
+If the *DeleteCertificate* parameter is set to $False, the certificate will not be deleted when the binding is deleted.
 If *DeleteCertificate* is set to $True or is not included in the command, the certificate will be deleted along with the SSL binding.
 
 The certificate will only be deleted if the SSL binding being removed is the only binding used by the certificate.
@@ -163,7 +163,7 @@ Accept wildcard characters: False
 
 ### -Slot
 Specifies the Web App deployment slot.
-To get a deployment slot, use the Get-AzureRMWebAppSlot cmdlet.
+To get a deployment slot, use the [Get-AzureRMWebAppSlot](./Get-AzureRMWebAppSlot.md) cmdlet.
 
 ```yaml
 Type: String
@@ -179,7 +179,7 @@ Accept wildcard characters: False
 
 ### -WebApp
 Specifies a Web App.
-To get a Web App, use the Get-AzureRmWebApp cmdlet.
+To get a Web App, use the [Get-AzureRmWebApp](./Get-AzureRmWebApp.md) cmdlet.
 
 You cannot use the *WebApp* parameter in the same command as the *ResourceGroupName* parameter and/or the *WebAppName*.
 
@@ -212,7 +212,6 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
 
 ```yaml
@@ -245,5 +244,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/vTrue/Get-AzureRMWebAppSlot.md)
 
 [Get-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebApp.md)
-
-

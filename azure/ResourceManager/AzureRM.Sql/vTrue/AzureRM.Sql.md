@@ -4,12 +4,11 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-ms.assetid: E0EDA7EF-CFCF-4458-A5D6-98A65F31DF09
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md
 uid: ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -27,6 +26,12 @@ ms.service: azure-powershell
 This topic displays help topics for the Azure SQL Database Cmdlets.
 
 ## AzureRM.Sql Cmdlets
+### [Add-AzureRmSqlDatabaseToFailoverGroup](Add-AzureRmSqlDatabaseToFailoverGroup.md)
+{{Fill in the Synopsis}}
+
+### [Add-AzureRmSqlServerKeyVaultKey](Add-AzureRmSqlServerKeyVaultKey.md)
+Adds a Key Vault key to a SQL server.
+
 ### [Get-AzureRmSqlCapability](Get-AzureRmSqlCapability.md)
 Gets SQL Database capabilities for the current subscription.
 
@@ -53,6 +58,9 @@ Gets the data masking rules from a database.
 
 ### [Get-AzureRmSqlDatabaseExpanded](Get-AzureRmSqlDatabaseExpanded.md)
 Gets a database and its expanded property values.
+
+### [Get-AzureRmSqlDatabaseFailoverGroup](Get-AzureRmSqlDatabaseFailoverGroup.md)
+{{Fill in the Synopsis}}
 
 ### [Get-AzureRmSqlDatabaseGeoBackup](Get-AzureRmSqlDatabaseGeoBackup.md)
 Gets a geo-redundant backup of a database.
@@ -138,6 +146,9 @@ Gets activity for a database server system recovery configuration.
 ### [Get-AzureRmSqlServerFirewallRule](Get-AzureRmSqlServerFirewallRule.md)
 Gets firewall rules for a SQL Database server.
 
+### [Get-AzureRmSqlServerKeyVaultKey](Get-AzureRmSqlServerKeyVaultKey.md)
+Gets a SQL server's Key Vault keys.
+
 ### [Get-AzureRmSqlServerRecommendedAction](Get-AzureRmSqlServerRecommendedAction.md)
 Gets one or more recommended actions for an Azure SQL Server Advisor.
 
@@ -146,6 +157,9 @@ Gets service objectives for an Azure SQL Database server.
 
 ### [Get-AzureRmSqlServerThreatDetectionPolicy](Get-AzureRmSqlServerThreatDetectionPolicy.md)
 Gets the threat detection policy for a server.
+
+### [Get-AzureRmSqlServerTransparentDataEncryptionProtector](Get-AzureRmSqlServerTransparentDataEncryptionProtector.md)
+Gets the Transparent Data Encryption (TDE) protector
 
 ### [Get-AzureRmSqlServerUpgrade](Get-AzureRmSqlServerUpgrade.md)
 Gets the status of an Azure SQL Database server upgrade.
@@ -164,6 +178,9 @@ Creates a data masking rule for a database.
 
 ### [New-AzureRmSqlDatabaseExport](New-AzureRmSqlDatabaseExport.md)
 Exports an Azure SQL Database as a .bacpac file to a storage account.
+
+### [New-AzureRmSqlDatabaseFailoverGroup](New-AzureRmSqlDatabaseFailoverGroup.md)
+{{Fill in the Synopsis}}
 
 ### [New-AzureRmSqlDatabaseImport](New-AzureRmSqlDatabaseImport.md)
 Imports a .bacpac file and create a new database on the server.
@@ -195,6 +212,12 @@ Removes the auditing of a database.
 ### [Remove-AzureRmSqlDatabaseDataMaskingRule](Remove-AzureRmSqlDatabaseDataMaskingRule.md)
 Removes a data masking rule from a database.
 
+### [Remove-AzureRmSqlDatabaseFailoverGroup](Remove-AzureRmSqlDatabaseFailoverGroup.md)
+{{Fill in the Synopsis}}
+
+### [Remove-AzureRmSqlDatabaseFromFailoverGroup](Remove-AzureRmSqlDatabaseFromFailoverGroup.md)
+{{Fill in the Synopsis}}
+
 ### [Remove-AzureRmSqlDatabaseSecondary](Remove-AzureRmSqlDatabaseSecondary.md)
 Terminates data replication between a SQL Database and the specified secondary database.
 
@@ -222,6 +245,9 @@ Removes a SQL database server system recovery configuration.
 ### [Remove-AzureRmSqlServerFirewallRule](Remove-AzureRmSqlServerFirewallRule.md)
 Deletes a firewall rule from a SQL Database server.
 
+### [Remove-AzureRmSqlServerKeyVaultKey](Remove-AzureRmSqlServerKeyVaultKey.md)
+Removes a Key Vault key from a SQL server.
+
 ### [Remove-AzureRmSqlServerThreatDetectionPolicy](Remove-AzureRmSqlServerThreatDetectionPolicy.md)
 Removes the threat detection policy from a server.
 
@@ -248,6 +274,9 @@ Sets data masking for a database.
 
 ### [Set-AzureRmSqlDatabaseDataMaskingRule](Set-AzureRmSqlDatabaseDataMaskingRule.md)
 Sets the properties of a data masking rule for a database.
+
+### [Set-AzureRmSqlDatabaseFailoverGroup](Set-AzureRmSqlDatabaseFailoverGroup.md)
+{{Fill in the Synopsis}}
 
 ### [Set-AzureRmSqlDatabaseGeoBackupPolicy](Set-AzureRmSqlDatabaseGeoBackupPolicy.md)
 Sets a database geo backup policy.
@@ -300,6 +329,9 @@ Updates the state of an Azure SQL Server recommended action.
 ### [Set-AzureRmSqlServerThreatDetectionPolicy](Set-AzureRmSqlServerThreatDetectionPolicy.md)
 Sets a threat detection policy on a server.
 
+### [Set-AzureRmSqlServerTransparentDataEncryptionProtector](Set-AzureRmSqlServerTransparentDataEncryptionProtector.md)
+Sets the Transparent Data Encryption (TDE) protector for a SQL server.
+
 ### [Start-AzureRmSqlDatabaseExecuteIndexRecommendation](Start-AzureRmSqlDatabaseExecuteIndexRecommendation.md)
 Starts the workflow that runs a recommended index operation.
 
@@ -314,6 +346,9 @@ Stops the upgrade of a SQL Database server.
 
 ### [Suspend-AzureRmSqlDatabase](Suspend-AzureRmSqlDatabase.md)
 Suspends a SQL Data Warehouse database.
+
+### [Switch-AzureRmSqlDatabaseFailoverGroup](Switch-AzureRmSqlDatabaseFailoverGroup.md)
+{{Fill in the Synopsis}}
 
 ### [Use-AzureRmSqlServerAuditingPolicy](Use-AzureRmSqlServerAuditingPolicy.md)
 Specifies that a database uses the auditing policy of its host server.

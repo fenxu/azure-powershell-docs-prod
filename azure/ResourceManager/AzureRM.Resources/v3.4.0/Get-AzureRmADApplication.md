@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 66AC5120-80B1-46F2-AA51-132BF361602E
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 9:05 PM
+updated_at: 3/9/2017 9:25 PM
 ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f4ad4d86dc3225c328b9b32f3b50aaeafdfe7a80/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a6b17417413ebdf52ba4de88489549fb1c5bb4a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.4.0/Get-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -69,7 +69,7 @@ If no parameter is provided, it fetches all applications under the tenant.
 
 
 ```
-PS E:\> Get-AzureRmADApplication
+PS C:\> Get-AzureRmADApplication
 ```
 
 Lists all the applications under a tenant.
@@ -80,7 +80,7 @@ Lists all the applications under a tenant.
 
 
 ```
-PS E:\> Get-AzureRmADApplication -IdentifierUri http://mySecretApp1
+PS C:\> Get-AzureRmADApplication -IdentifierUri http://mySecretApp1
 ```
 
 Gets the application with identifier uri as "http://mySecretApp1".

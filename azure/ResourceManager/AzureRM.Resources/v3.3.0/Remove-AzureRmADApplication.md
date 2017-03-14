@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: C791C593-F7D5-4961-97F9-E4909813FFE7
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 6:58 PM
-ms.date: 3/4/2017
+updated_at: 3/10/2017 4:07 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa2ae758d5790a27662a17dfad5119b5b8987494/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84c40bcef73e86a93e10bd21e5067a945e7fb7ac/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Remove-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,6 @@ The **Remove-AzureRmADApplication** cmdlet removes the Azure Active Directory ap
 ## EXAMPLES
 
 ### Example 1: Delete and Azure Active Directory application
-
 
 ```
 PS C:\> Remove-AzureRmADApplication -ObjectId b4cd1619-80b3-4cfb-9f8f-9f2333425738 -Force

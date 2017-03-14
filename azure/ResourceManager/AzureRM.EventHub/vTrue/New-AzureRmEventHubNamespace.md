@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/5/2017 7:52 PM
-ms.date: 3/5/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/27493dc061e617444314c5f4b42c8c8fa24e1eb1/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,12 +35,12 @@ The **New-AzureRmEventHubNamespace** cmdlet creates a new namespace of type Even
 
 ## EXAMPLES
 
-### Example 1: Create an Event Hubs namespace
+### Example 1
 ```
-PS C:\> New-AzureRmEventHubNamespace -ResourceGroupName "MyResourceGroupName" -NamespaceName "MyNamespaceName" -Location "MyLocation"
+PS C:\> New-AzureRmEventHubNamespace -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName -Location MyLocation
 ```
 
-Creates an Event Hubs namespace named MyNamespaceName in the specified geographic location named MyLocation.
+Creates an Event Hubs namespace `MyNamespaceName` in the specified geographic location `MyLocation`, in resource group `MyResourceGroupName`.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the geographic location of the Event Hubs namespace.
+Event Hubs namespace geo-location.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Event Hubs namespace.
+The Event Hubs namespace name.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group.
+Resource group name.
 
 ```yaml
 Type: String
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkuCapacity
-Specifies the Event Hub throughput units.
+The Event Hub throughput units.
 
 ```yaml
 Type: Int32
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkuName
-Specifies the name of the namespace SKU.
+Namespace Sku name.
 
 ```yaml
 Type: String
@@ -136,7 +136,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-Specifies the hashtables that represent resource tags.
+Hashtables that represent resource tags.
 
 ```yaml
 Type: Hashtable
@@ -182,8 +182,3 @@ System.Nullable\`1\[\[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, 
 
 ## RELATED LINKS
 
-[Get-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespace.md)
-
-[Remove-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/vTrue/Remove-AzureRmEventHubNamespace.md)
-
-[Set-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/vTrue/Set-AzureRmEventHubNamespace.md)

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: D3FE0440-C663-4379-8F5F-2E66EF024E5D
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 8:15 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppBackup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppBackup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppBackup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppBackup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # New-AzureRmWebAppBackup
 
 ## SYNOPSIS
+Creates an Azure Web App Backup.
 
 ## SYNTAX
 
@@ -42,7 +43,7 @@ The **New-AzureRmWebAppBackup** cmdlet creates an Azure Web App Backup.
 
 ## EXAMPLES
 
-### 1:
+### Example 1:
 ```
 PS C:\> New-AzureRmWebAppBackup -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp" -StorageAccountUrl "https://storageaccount.file.core.windows.net"
 ```
@@ -52,7 +53,7 @@ Creates a backup of the specified app ContosoWebApp that is within resource grou
 ## PARAMETERS
 
 ### -BackupName
-Backup Name
+Specifies the name of the backup.
 
 ```yaml
 Type: String
@@ -67,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource Group Name
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -82,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-WebApp Name
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -97,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-WebApp Slot Name
+Specifies the name of the Web App slot.
 
 ```yaml
 Type: String
@@ -112,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountUrl
-Storage Account Url
+Specifies the link, as a URL, to the storage account.
 
 ```yaml
 Type: String
@@ -127,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -Databases
-Databases of type DatabaseBackupSetting[]
+Specifies an array of databases.
 
 ```yaml
 Type: DatabaseBackupSetting[]
@@ -142,7 +143,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-WebApp Object
+Specifies a Web App object.
 
 ```yaml
 Type: Site
@@ -167,3 +168,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmWebAppBackup](xref:ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackup.md)
+
+[Remove-AzureRmWebAppBackup](xref:ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmWebAppBackup.md)

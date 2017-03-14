@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: DCAB75A1-B4EF-4C41-9D6B-A954B6DB0028
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 6:07 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlServerThreatDetectionPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlServerThreatDetectionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlServerThreatDetectionPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/633b65880b39bb57c9d475f0ae0218f107659f8b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Remove-AzureRmSqlServerThreatDetectionPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,16 +33,13 @@ Remove-AzureRmSqlServerThreatDetectionPolicy [-PassThru] [-ServerName] <String> 
 ```
 
 ## DESCRIPTION
-The Remove-AzureRmSqlServerThreatDetectionPolicy cmdlet removes the threat detection policy from an Azure SQL server.
+The **Remove-AzureRmSqlServerThreatDetectionPolicy** cmdlet removes the threat detection policy from an Azure SQL server.
 
-To use this cmdlet, specify the ResourceGroupName and ServerName parameters to identify the server from which this cmdlet removes the policy.
+To use this cmdlet, specify the *ResourceGroupName* and *ServerName* parameters to identify the server from which this cmdlet removes the policy.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Remove a threat detection policy for a database  --------------------------
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Remove a threat detection policy for a database 
 
 ```
 PS C:\> Remove-AzureRmSqlServerThreatDetectionPolicy -ResourceGroupName "ResourceGroup11" -ServerName "Server01"
@@ -188,4 +185,3 @@ This cmdlet returns a ServerThreatDetectionPolicyModel object.
 [Get-AzureRmSqlServerThreatDetectionPolicy]()
 
 [Set-AzureRmSqlServerThreatDetectionPolicy]()
-

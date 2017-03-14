@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 4166119F-D26A-45A1-B040-D7B2459833D6
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 8:15 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebApp.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -60,7 +60,7 @@ This command sets HttpLoggingEnabled to true for Web App ContosoWebApp associate
 ## PARAMETERS
 
 ### -AppServicePlan
-App Service Plan Name
+Specifies the name of an App service plan.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppSettings
-App Settings HashTable
+Specifies a hashtable of App settings.
 
 ```yaml
 Type: Hashtable
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -AutoSwapSlotName
-Destination slot name for auto swap
+Specifies the destination slot name for auto swap.
 
 ```yaml
 Type: String
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionStrings
-Connection Strings HashTable
+Specifies a hashtable of connection strings.
 
 ```yaml
 Type: Hashtable
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultDocuments
-Default Documents String Array
+Specifies an array of default documents.
 
 ```yaml
 Type: String[]
@@ -135,7 +135,7 @@ Accept wildcard characters: False
 ```
 
 ### -DetailedErrorLoggingEnabled
-Detailed Error Logging Enabled Boolean
+Indicates whether the cmdlet includes detailed error logging.
 
 ```yaml
 Type: Boolean
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 ```
 
 ### -HandlerMappings
-Handler Mappings IList
+Specifies an IList of handler mappings.
 
 ```yaml
 Type: System.Collections.Generic.IList`1[Microsoft.Azure.Management.WebSites.Models.HandlerMapping]
@@ -165,7 +165,7 @@ Accept wildcard characters: False
 ```
 
 ### -HostNames
-WebApp HostNames String Array
+Specifies an array of Web App HostNames.
 
 ```yaml
 Type: String[]
@@ -180,7 +180,7 @@ Accept wildcard characters: False
 ```
 
 ### -HttpLoggingEnabled
-HttpLoggingEnabled Boolean
+Indicates whether the cmdlet enables Http logging.
 
 ```yaml
 Type: Boolean
@@ -195,7 +195,7 @@ Accept wildcard characters: False
 ```
 
 ### -ManagedPipelineMode
-Managed Pipeline Mode Name
+Specifies the name of the managed pipeline mode.
 
 ```yaml
 Type: String
@@ -210,7 +210,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-WebApp Name
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -225,7 +225,7 @@ Accept wildcard characters: False
 ```
 
 ### -NetFrameworkVersion
-Net Framework Version
+Specifies the version of the .Net Framework.
 
 ```yaml
 Type: String
@@ -240,7 +240,7 @@ Accept wildcard characters: False
 ```
 
 ### -NumberOfWorkers
-The number of workers to be allocated
+Specifies the number of workers to be allocated.
 
 ```yaml
 Type: Int32
@@ -255,7 +255,7 @@ Accept wildcard characters: False
 ```
 
 ### -PhpVersion
-Php Version
+Specifies the Php version.
 
 ```yaml
 Type: String
@@ -270,7 +270,7 @@ Accept wildcard characters: False
 ```
 
 ### -RequestTracingEnabled
-Request Tracing Enabled
+Indicates whether request tracing is enabled.
 
 ```yaml
 Type: Boolean
@@ -285,7 +285,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource Group Name
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -300,7 +300,7 @@ Accept wildcard characters: False
 ```
 
 ### -Use32BitWorkerProcess
-Use 32-bit Worker Process Boolean
+Indicates whether the cmdlet uses 32-bit worker process.
 
 ```yaml
 Type: Boolean
@@ -315,7 +315,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-WebApp Object
+Specifies a Web App object.
 
 ```yaml
 Type: Site
@@ -330,7 +330,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebSocketsEnabled
-WebSocketsEnabled Boolean
+Indicates whether the cmdlet enables Web Sockets.
 
 ```yaml
 Type: Boolean

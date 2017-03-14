@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 1:21 AM
-ms.date: 3/9/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespaceKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespaceKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/32d5c1868fc315e9032a08723a497d19e49ac3ee/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespaceKey.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespaceKey.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,17 +35,17 @@ The **New-AzureRmServiceBusNamespace** cmdlet generates new primary or secondary
 
 ## EXAMPLES
 
-### Example 1: Regenerate the primary key connection string for a namespace
+### Example 1
 ```
-PS C:\> New-AzureRmServiceBusNamespaceKey -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -AuthorizationRuleName "AuthoRule1" -RegenerateKeys "PrimaryKey"
+PS C:\> New-AzureRmServiceBusNamespaceKey -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -AuthorizationRuleName AuthoRule1 -RegenerateKeys PrimaryKey
 ```
 
-This command regenerates the primary connection strings for the namespace named SB-Example1.
+Regenerates the primary or secondary connection strings for the namespace.
 
 ## PARAMETERS
 
 ### -AuthorizationRuleName
-Specifies the name of the authorization rule.
+The authorization rule name.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -90,9 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -RegenerateKeys
-Specifies the key that this cmdlet regenerates
-
-Valid values are: PrimaryKey or SecondaryKey.
+Regenerate Keys: PrimaryKey/SecondaryKey.
 
 ```yaml
 Type: String
@@ -108,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -171,4 +169,3 @@ KeyName                   : AuthoRule1
 
 ## RELATED LINKS
 
-[Get-AzureRmServiceBusNamespaceKey](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespaceKey.md)

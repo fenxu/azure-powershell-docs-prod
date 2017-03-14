@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 488229AF-FD6D-4E1B-B3DA-E57CA781D91E
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 6:15 PM
-ms.date: 2/23/2017
+updated_at: 3/9/2017 9:25 PM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7fb21f9398dccee6a3e0c7be5a92d2a9102cb378/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a6b17417413ebdf52ba4de88489549fb1c5bb4a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmRoleAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -171,7 +171,7 @@ Use the *IncludeClassicAdministrators* parameter switch to also display the subs
 PS C:\> Get-AzureRmRoleAssignment
 ```
 
-This command list all role assignments in the subscription
+This command list all role assignments in the subscription.
 
 ### Example 2: Get all role assignments
 ```
@@ -186,7 +186,7 @@ This command gets all role assignments made to user pattifuller@contoso.com, and
 PS C:\> Get-AzureRmRoleAssignment -ServicePrincipalName "http://testapp1.com"
 ```
 
-This command gets all role assignments of the specified service principal
+This command gets all role assignments of the specified service principal.
 
 ### Example 4: Get role assignments from a website
 
@@ -214,7 +214,7 @@ Accept wildcard characters: False
 ```
 
 ### -IncludeClassicAdministrators
-Indicatest that the cmdlet lists subscription classic administrators role assignments.
+Indicates that the cmdlet lists subscription classic administrators role assignments.
 
 ```yaml
 Type: SwitchParameter
@@ -268,7 +268,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-Specifies the Azure Active Directory ObjectId of the User, Group or Service Principal.
+Specifies the Azure Active Directory ObjectId of the User, Group, or Service Principal.
 Filters all assignments that are made to the specified principal.
 
 ```yaml
@@ -312,7 +312,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The resource group name.
+Specifies the name of the resource group.
 Lists role assignments that are effective at the specified resource group.
 When used in conjunction with *ResourceName*, *ResourceType*, and *ParentResource* parameters, the command lists assignments effective at resources within the resource group.
 
@@ -329,7 +329,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceName
-Specifies the name of the resource
+Specifies the name of the resource.
 Must be used in conjunction with *esourceGroupName*, *ResourceType*, and *ParentResource* parameters.
 
 ```yaml

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: EAAF615B-6139-438B-A2FD-6966E72B3AA9
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 7:40 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmWebAppBackup
 
 ## SYNOPSIS
+Gets the specified backup of an Azure Web App.
 
 ## SYNTAX
 
@@ -41,9 +42,9 @@ The **Get-AzureRmWebAppBackup** cmdlet gets the specified backup of an Azure Web
 
 ## EXAMPLES
 
-### 1:
+### Example 1: Get the specified backup of an Azure Web App
 ```
-PS C:\>Get-AzureRmWebAppBackup -ResourceGroupName "Default-Web-WestUS" -Name "WebAppStandard" -BackupId "12345"
+PS C:\> Get-AzureRmWebAppBackup -ResourceGroupName "Default-Web-WestUS" -Name "WebAppStandard" -BackupId "12345"
 ```
 
 This command gets the backup with ID "12345" from the Web App named WebAppStandard that belongs to the resource group Default-Web-WestUS.
@@ -51,7 +52,7 @@ This command gets the backup with ID "12345" from the Web App named WebAppStanda
 ## PARAMETERS
 
 ### -BackupId
-Backup Id
+Specifies the backup ID.
 
 ```yaml
 Type: String
@@ -66,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource Group Name
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -81,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Webapp Name
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -96,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Slot Name
+Specifies the name of the Web App slot.
 
 ```yaml
 Type: String
@@ -111,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-Piped WebApp
+Specifies the piped WebApp.
 
 ```yaml
 Type: Site
@@ -136,3 +137,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[New-AzureRmWebAppBackup](xref:ResourceManager/AzureRM.Websites/vTrue/New-AzureRmWebAppBackup.md)
+
+[Remove-AzureRmWebAppBackup](xref:ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmWebAppBackup.md)

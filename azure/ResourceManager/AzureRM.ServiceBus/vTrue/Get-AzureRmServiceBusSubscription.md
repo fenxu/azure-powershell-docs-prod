@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 11:04 PM
-ms.date: 3/8/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7e0d206950ae8df1ee85f0cbf6b13028f6c947cf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusSubscription.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # Get-AzureRmServiceBusSubscription
 
 ## SYNOPSIS
-Gets a subscription description for the specified topic.
+Returns a subscription description for the specified topic.
 
 ## SYNTAX
 
@@ -31,21 +31,21 @@ Get-AzureRmServiceBusSubscription [-ResourceGroup] <String> [-NamespaceName] <St
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmServiceBusSubscription** cmdlet gets a subscription description for the specified Service Bus topic.
+The **Get-AzureRmServiceBusSubscription** cmdlet returns a subscription description for the specified Service Bus topic.
 
 ## EXAMPLES
 
-### Example 1: Get a Service Bus subscription description
+### Example 1
 ```
-PS C:\> Get-AzureRmServiceBusSubscription -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -TopicName "SB-Topic_example1" -SubscriptionName "SB-TopicSubscription-Example1"
+PS C:\> Get-AzureRmServiceBusSubscription -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1 -SubscriptionName SB-TopicSubscription-Example1
 ```
 
-This command gets a subscription description for the Service Bus topic named SB-TopicSubscription-Example1.
+Returns a subscription description for the specified Service Bus topic.
 
 ## PARAMETERS
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionName
-Specifies the subscription name.
+The subscription name.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -TopicName
-Specifies the topic name.
+The topic name.
 
 ```yaml
 Type: String
@@ -151,8 +151,3 @@ UpdatedAt                                 : 1/20/2017 3:18:54 AM
 
 ## RELATED LINKS
 
-[New-AzureRmServiceBusSubscription](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusSubscription.md)
-
-[Remove-AzureRmServiceBusSubscription](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusSubscription.md)
-
-[Set-AzureRmServiceBusSubscription](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusSubscription.md)

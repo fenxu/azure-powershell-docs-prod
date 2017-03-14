@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: BBC85035-DCF7-44FA-A747-A1563A55B820
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 8:15 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackupList.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackupList.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackupList.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebAppBackupList.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmWebAppBackupList
 
 ## SYNOPSIS
+Gets a list of backups for an Azure Web App.
 
 ## SYNTAX
 
@@ -41,9 +42,9 @@ The **Get-AzureRmWebAppBackupList** cmdlet gets a list of backups for an Azure W
 
 ## EXAMPLES
 
-### 1:
+### Example 1:
 ```
-PS C:\>Get-AzureRmWebAppBackupList -ResourceGroupName "Default-Web-WestUS" -Name "WebAppStandard"
+PS C:\> Get-AzureRmWebAppBackupList -ResourceGroupName "Default-Web-WestUS" -Name "WebAppStandard"
 ```
 
 This command returns a backup list pertaining to WebApp WebAppStandard associated with the resource group ContosoResourceGroup.
@@ -51,7 +52,7 @@ This command returns a backup list pertaining to WebApp WebAppStandard associate
 ## PARAMETERS
 
 ### -ResourceGroupName
-Resource Group Name
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -66,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-WebApp Name
+Specifies the name of the Web App.
 
 ```yaml
 Type: String
@@ -81,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Slot name
+Specifies the name of the Web App slot.
 
 ```yaml
 Type: String
@@ -96,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-Piped WebApp
+Specifies the piped WebApp.
 
 ```yaml
 Type: Site
@@ -120,4 +121,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

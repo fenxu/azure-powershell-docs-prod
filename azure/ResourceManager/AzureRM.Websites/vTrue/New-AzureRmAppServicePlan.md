@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 8F36244D-A4D7-40BB-AC4C-E9AD445549F8
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 7:40 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmAppServicePlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmAppServicePlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmAppServicePlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/New-AzureRmAppServicePlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,16 +47,16 @@ The **New-AzureRmAppServicePlan** cmdlet creates an Azure App Service plan in a 
 
 ### Example 1: Create an App Service plan
 ```
-PS C:\>New-AzureRmAppServicePlan -ResourceGroupName "Default-Web-WestUS" -Name "ContosoASP" -location "West US" -Tier Basic -NumberofWorkers 2 -WorkerSize Small
+PS C:\> New-AzureRmAppServicePlan -ResourceGroupName "Default-Web-WestUS" -Name "ContosoASP" -location "West US" -Tier Basic -NumberofWorkers 2 -WorkerSize Small
 ```
 
 This command creates an App Service plan named ContosoASP in the resource group named Default-Web-WestUS in Geo location West US.
-The command uses a Basic SKU and allocates two small workers.
+The command specifies a Basic Tier and allocates two small workers.
 
 ## PARAMETERS
 
 ### -Location
-Location 
+Specifies the geographical location of the Azure App Service Plan.
 
 ```yaml
 Type: String
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tier
-Tier
+Specifies the Azure App Service plan tier.
 
 ```yaml
 Type: String
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -NumberofWorkers
-Number Of Workers
+Specifies the number of workers.
 
 ```yaml
 Type: Int32
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -WorkerSize
-Size of web worker
+Specifies the size of the web worker.
 
 ```yaml
 Type: String
@@ -116,7 +116,7 @@ Accept wildcard characters: False
 ```
 
 ### -AseName
-App Service Environment Name
+Specifies the name of the App Service environment.
 
 ```yaml
 Type: String
@@ -131,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -AseResourceGroupName
-App Service Environment Resource Group Name
+Specifies the name of the App Service Environment resource group.
 
 ```yaml
 Type: String
@@ -146,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource Group Name
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -161,7 +161,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-App Service Plan Name
+Specifies the name of an App service plan.
 
 ```yaml
 Type: String
@@ -176,7 +176,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppServicePlan
-App Service Plan Object
+Specifies the Specifies the App Service Plan object.
 
 ```yaml
 Type: ServerFarmWithRichSku
@@ -206,5 +206,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRmAppServicePlan.md)
 
 [Set-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md)
-
-

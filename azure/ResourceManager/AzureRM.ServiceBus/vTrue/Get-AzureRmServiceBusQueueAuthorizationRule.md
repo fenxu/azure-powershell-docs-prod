@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 9:41 PM
-ms.date: 3/8/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueueAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueueAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a575a36d87ca7c0b665d6ccd1a3a8057e16ce697/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueueAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueueAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,17 +35,17 @@ The **Get-AzureRmServiceBusQueueAuthorizationRule** cmdlet gets the description 
 
 ## EXAMPLES
 
-### Example 1: Get an authorization rule description from a Service Bus queue
+### Example 1
 ```
-PS C:\> Get-AzureRmServiceBusQueueAuthorizationRule -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -QueueName "SB-Queue_example1" -AuthorizationRuleName "SBAuthoRule1"
+PS C:\> Get-AzureRmServiceBusQueueAuthorizationRule -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -QueueName SB-Queue_exampl1 -AuthorizationRuleName SBAuthoRule1
 ```
 
-This command gets the authorization rule description from the authorization rule named SBAuthoRule1 for the Service Bus queue named SB-Queue_example1.
+Returns the specified authorization rule description for a given Service Bus queue.
 
 ## PARAMETERS
 
 ### -AuthorizationRuleName
-Specifies the name of the authorization rule.
+The authorization rule name.
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -QueueName
-Specifies the name of the queue.
+The queue name.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -139,8 +139,3 @@ Rights   : {Listen, Send}
 
 ## RELATED LINKS
 
-[New-AzureRmServiceBusQueueAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueueAuthorizationRule.md)
-
-[Remove-AzureRmServiceBusQueueAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusQueueAuthorizationRule.md)
-
-[Set-AzureRmServiceBusQueueAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusQueueAuthorizationRule.md)

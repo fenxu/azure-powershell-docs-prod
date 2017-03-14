@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 6:46 PM
-ms.date: 3/9/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespaceAuthorizationRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespaceAuthorizationRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/71cac14758de8eeb36a92b82dae146511ac2a136/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespaceAuthorizationRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespaceAuthorizationRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,16 +36,16 @@ The **Set-AzureRmServiceBusNamespaceAuthorizationRule** cmdlet updates the descr
 
 ## EXAMPLES
 
-### Example 1: Update the description for the specified authorization rule
+### Example 1
 ```
 PS C:\> $authRuleObj = Get-AzureRmServiceBusNamespaceAuthorizationRule -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -AuthorizationRuleName AuthoRule1
 
 PS C:\> $authRuleObj.Rights.Remove("Manage")
 
-PS C:\> Set-AzureRmServiceBusNamespaceAuthorizationRule -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -AuthRuleObj $authRuleObj
+PS C:\> Set-AzureRmServiceBusNamespaceAuthorizationRule -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -AuthRuleObj $authRuleObj
 ```
 
-This command removes **Manage** from the access rights of the authorization rule named AuthoRule1 in the namespace SB-Example1.
+Removes **Manage** from the access rights of the authorization rule `AuthoRule1` in namespace `SB-Example1`.
 
 ## PARAMETERS
 
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -AuthorizationRuleName
-Specifies the name of the authorization rule. Required if **-AuthruleObj** is not specified.
+The authorization rule name. Required if **-AuthruleObj** is not specified.
 
 ```yaml
 Type: String
@@ -95,7 +95,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -125,10 +125,8 @@ Accept wildcard characters: False
 ```
 
 ### -Rights
-Specifies rights; for example
-@("Listen","Send","Manage"). 
-
-This parameter is required if **AuthruleObj** is not specified.
+Rights; for example
+@("Listen","Send","Manage"). Required if **AuthruleObj** is not specified.
 
 ```yaml
 Type: String[]
@@ -186,8 +184,3 @@ Rights   : {Listen, Send}
 
 ## RELATED LINKS
 
-[Get-AzureRmServiceBusNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespaceAuthorizationRule.md)
-
-[New-AzureRmServiceBusNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespaceAuthorizationRule.md)
-
-[Remove-AzureRmServiceBusNamespaceAuthorizationRule](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusNamespaceAuthorizationRule.md)

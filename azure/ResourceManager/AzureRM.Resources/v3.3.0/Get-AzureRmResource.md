@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: C2C608E5-3351-4D01-8533-9668B2E9F1D1
 online version: 
 schema: 2.0.0
-updated_at: 2/23/2017 2:56 AM
-ms.date: 2/23/2017
+updated_at: 3/9/2017 9:25 PM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d070c11b7655b031efb443fc675d2cfb22229331/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a6b17417413ebdf52ba4de88489549fb1c5bb4a0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/Get-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -95,6 +95,8 @@ This command gets a resource of the type microsoft.web/sites, named ContosoWebsi
 ## PARAMETERS
 
 ### -ResourceGroupName
+Specifies the name of the resource group.
+
 ```yaml
 Type: String
 Parameter Sets: Get resource by name, group and type
@@ -171,7 +173,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApiVersion
-Specifies API version.
+Specifies the API version of the resource.
 
 ```yaml
 Type: String

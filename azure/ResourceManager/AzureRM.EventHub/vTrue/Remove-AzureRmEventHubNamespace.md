@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.EventHub.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/5/2017 8:07 PM
-ms.date: 3/5/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Remove-AzureRmEventHubNamespace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Remove-AzureRmEventHubNamespace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e64e07ea7a70edefc2175b3f345a8c24ea51d096/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Remove-AzureRmEventHubNamespace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/vTrue/Remove-AzureRmEventHubNamespace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,12 +35,12 @@ The **Remove-AzureRmEventHubNamespace** cmdlet removes and deletes the specified
 
 ## EXAMPLES
 
-### Example 1: Remove the specified Event Hubs namespace
+### Example 1
 ```
 PS C:\> Remove-AzureRmEventHubNamespace -ResourceGroupName MyResourceGroupName -NamespaceName MyNamespaceName
 ```
 
-This command removes and deletes the Event Hubs namespace named MyNamespaceName contained in the resource group named MyResourceGroupName.
+Removes the Event Hubs namespace `MyNamespaceName` in resource group `MyResourceGroupName`.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of Event Hubs namespace.
+The Event Hubs namespace name.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group.
+Resource group name.
 
 ```yaml
 Type: String
@@ -120,8 +120,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/vTrue/Get-AzureRmEventHubNamespace.md)
-
-[New-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/vTrue/New-AzureRmEventHubNamespace.md)
-
-[Set-AzureRmEventHubNamespace](xref:ResourceManager/AzureRM.EventHub/vTrue/Set-AzureRmEventHubNamespace.md)

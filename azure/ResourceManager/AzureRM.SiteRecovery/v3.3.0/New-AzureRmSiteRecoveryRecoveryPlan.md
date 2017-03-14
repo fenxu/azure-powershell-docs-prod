@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.SiteRecovery.dll-Help.xml
 ms.assetid: 1166EC21-5626-41F6-9CCE-2169CF202575
 online version: 
 schema: 2.0.0
-updated_at: 1/11/2017 9:26 PM
-ms.date: 1/11/2017
+updated_at: 3/13/2017 3:15 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/New-AzureRmSiteRecoveryRecoveryPlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/New-AzureRmSiteRecoveryRecoveryPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cf5fb15dcd1fe2c86458f47e1a11dc88817021fc/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/New-AzureRmSiteRecoveryRecoveryPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2f99482ffa15f43bf9de2f53bbd7ba2af72e0f11/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v3.3.0/New-AzureRmSiteRecoveryRecoveryPlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -71,7 +71,7 @@ A recovery plan gathers virtual machines in a group for the purposes of failover
 
 ### Example 1: Add a recovery plan to a Site Recovery vault
 ```
-PS C:\>New-AzureRmSiteRecoveryRecoveryPlan -Path "C:\Users\Contoso\Desktop\RecoveryPlan.xml"
+PS C:\> New-AzureRmSiteRecoveryRecoveryPlan -Path "C:\Users\Contoso\Desktop\RecoveryPlan.xml"
 ```
 
 This command adds the recovery plan named RecoveryPlan.xml to the Azure Site Recovery vault.
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies a name. 
+Specifies a name of the recovery plan this cmdlet adds. 
 
 ```yaml
 Type: String
@@ -241,5 +241,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmSiteRecoveryRecoveryPlan](xref:ResourceManager/AzureRM.SiteRecovery/v3.3.0/Remove-AzureRmSiteRecoveryRecoveryPlan.md)
 
 [Update-AzureRmSiteRecoveryRecoveryPlan](xref:ResourceManager/AzureRM.SiteRecovery/v3.3.0/Update-AzureRmSiteRecoveryRecoveryPlan.md)
-
-

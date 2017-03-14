@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 6:46 PM
-ms.date: 3/9/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespace.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespace.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/71cac14758de8eeb36a92b82dae146511ac2a136/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespace.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusNamespace.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,12 +35,12 @@ The **Set-AzureRmServiceBusNamespace** cmdlet updates the description of the spe
 
 ## EXAMPLES
 
-### Example 1: Update a Service Bus namespace with a new description
+### Example 1
 ```
-PS C:\> Set-AzureRmServiceBusNamespace -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -Location "WestUs" -SkuName "Premium" -SkuCapacity 10 -Tag @{Tag2="Tag2Value"}
+PS C:\> Set-AzureRmServiceBusNamespace -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -Location WestUs -SkuName Premium -SkuCapacity 10 -Tag @{Tag2="Tag2Value"}
 ```
 
-This command updates the Service Bus namespace named SB-Example1 with a new description.
+Updates the Service Bus namespace with a new description.
 
 ## PARAMETERS
 
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the location of the Service Bus namespace.
+The Service Bus namespace location.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the resource group name.
+The resource group name.
 
 ```yaml
 Type: String
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkuName
-Specifies the name of the namespace SKU.
+The namespace SKU name.
 
 ```yaml
 Type: String
@@ -121,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-Specifies a hashtable that represents resource tags.
+Hashtables that represent resource tags.
 
 ```yaml
 Type: Hashtable
@@ -189,8 +189,3 @@ Enabled            : False
 
 ## RELATED LINKS
 
-[Get-AzureRmServiceBusNamespace](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusNamespace.md)
-
-[New-AzureRmServiceBusNamespace](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusNamespace.md)
-
-[Remove-AzureRmServiceBusNamespace](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusNamespace.md)

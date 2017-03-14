@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/8/2017 11:04 PM
-ms.date: 3/8/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopic.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopic.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7e0d206950ae8df1ee85f0cbf6b13028f6c947cf/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopic.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusTopic.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -21,7 +21,7 @@ ms.service: azure-powershell
 # Get-AzureRmServiceBusTopic
 
 ## SYNOPSIS
-Gets a description for the specified Service Bus topic.
+Returns a description for the specified Service Bus topic.
 
 ## SYNTAX
 
@@ -31,21 +31,21 @@ Get-AzureRmServiceBusTopic [-ResourceGroup] <String> [-NamespaceName] <String> [
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmServiceBusTopic** cmdlet gets a topic description for the specified Service Bus namespace.
+The **Get-AzureRmServiceBusTopic** cmdlet returns a topic description for the specified Service Bus namespace.
 
 ## EXAMPLES
 
-### Example 1: Get the description of the specified topic for a Service Bus namespace
+### Example 1
 ```
-PS C:\> Get-AzureRmServiceBusTopic -ResourceGroup "Default-ServiceBus-WestUS" -NamespaceName "SB-Example1" -TopicName "SB-Topic_example1"
+PS C:\> Get-AzureRmServiceBusTopic -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -TopicName SB-Topic_exampl1
 ```
 
-This command gets the description of the specified topic for the given Service Bus namespace.
+Returns the description of the specified topic for the given Service Bus namespace.
 
 ## PARAMETERS
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -TopicName
-Specifies the name of the Service Bus topic.
+The Service Bus topic name.
 
 ```yaml
 Type: String
@@ -139,8 +139,3 @@ UpdatedAt                           : 1/20/2017 3:16:43 AM
 
 ## RELATED LINKS
 
-[New-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusTopic.md)
-
-[Remove-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusTopic.md)
-
-[Set-AzureRmServiceBusTopic](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusTopic.md)

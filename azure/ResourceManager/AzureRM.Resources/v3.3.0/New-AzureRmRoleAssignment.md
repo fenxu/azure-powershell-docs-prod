@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: E460D108-2BF9-4F57-AF3D-13868DC73EA0
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 6:58 PM
-ms.date: 3/4/2017
+updated_at: 3/10/2017 4:07 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/aa2ae758d5790a27662a17dfad5119b5b8987494/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/84c40bcef73e86a93e10bd21e5067a945e7fb7ac/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.3.0/New-AzureRmRoleAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -120,7 +120,6 @@ The scope of the assignment can be specified using one of the following paramete
 
 ### Example 1: Grant Reader role access 
 
-
 ```
 PS C:\> New-AzureRmRoleAssignment -ResourceGroupName rg1 -SignInName allen.young@live.com -RoleDefinitionName Reader
 ```
@@ -128,7 +127,6 @@ PS C:\> New-AzureRmRoleAssignment -ResourceGroupName rg1 -SignInName allen.young
 This command grants Reader role access to a user at a resource group scope.
 
 ### Example 2: Grant access to a security group
-
 
 ```
 PS C:\> Get-AzureRMADGroup -SearchString "Christine Koch Team"

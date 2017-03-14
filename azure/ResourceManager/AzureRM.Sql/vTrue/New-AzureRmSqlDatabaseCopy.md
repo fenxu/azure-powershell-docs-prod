@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: CED38886-2DC9-450E-91FF-8209602C76CD
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 6:07 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlDatabaseCopy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlDatabaseCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlDatabaseCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/633b65880b39bb57c9d475f0ae0218f107659f8b/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlDatabaseCopy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,19 +36,14 @@ New-AzureRmSqlDatabaseCopy [-DatabaseName] <String> [-ServiceObjectiveName <Stri
 
 ## DESCRIPTION
 The **New-AzureRmSqlDatabaseCopy** cmdlet creates a copy of an Azure SQL Database that uses the snapshot of the data at the current time.
-Use this cmdlet instead of the Start-AzureSqlDatabaseCopy cmdlet to create a one-time database copy.
+Use this cmdlet instead of the [Start-AzureSqlDatabaseCopy](./Start-AzureSqlDatabaseCopy.md) cmdlet to create a one-time database copy.
 This cmdlet returns the **Database** object of the copy.
 
-Note: Use the New-AzureRmSqlDatabaseSecondary cmdlet to configure geo-replication for a database.
+Use the [New-AzureRmSqlDatabaseSecondary](./New-AzureRmSqlDatabaseSecondary.md) cmdlet to configure geo-replication for a database.
 
 This cmdlet is also supported by the SQL Server Stretch Database service on Azure.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -277,5 +272,3 @@ This cmdlet returns a **Database** object that represents the copied database.
 [New-AzureRmSqlDatabaseSecondary](xref:ResourceManager/AzureRM.Sql/vTrue/New-AzureRmSqlDatabaseSecondary.md)
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md)
-
-

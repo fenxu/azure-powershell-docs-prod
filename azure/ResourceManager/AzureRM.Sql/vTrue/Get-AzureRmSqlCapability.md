@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 8C5D29AD-0B15-4CD4-8637-86ABD19F41C8
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 5:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlCapability.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlCapability.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlCapability.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlCapability.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,7 @@ If you specify the *ServerVersionName*, *EditionName*, or *ServiceObjectiveName*
 
 ### Example 1: Get capabilities for the current subscription for a region
 ```
-PS C:\>Get-AzureRmSqlCapability -LocationName "Central US"
+PS C:\> Get-AzureRmSqlCapability -LocationName "Central US"
 Location                : Central US
 Status                  : Available
 SupportedServerVersions : {12.0, 2.0}
@@ -57,7 +57,7 @@ This command returns the capabilities for SQL Database instances on the current 
 
 ### Example 2: Get default capabilities for the current subscription for a region
 ```
-PS C:\>Get-AzureRmSqlCapability -LocationName "Central US" -Defaults
+PS C:\> Get-AzureRmSqlCapability -LocationName "Central US" -Defaults
 Location        : Central US
 Status          : Available
 ExpandedDetails : Version: 2.0 (Default) -> Edition: Standard (Default) -> Service Objective: S0 (Default)
@@ -67,7 +67,7 @@ This command returns the default capabilities for SQL Databases on the current s
 
 ### Example 3: Get details for a service objective
 ```
-PS C:\>Get-AzureRmSqlCapability -LocationName "Central US" -ServiceObjectiveName "S1"
+PS C:\> Get-AzureRmSqlCapability -LocationName "Central US" -ServiceObjectiveName "S1"
 Location        : Central US
 Status          : Available
 ExpandedDetails : Version: 12.0 (Available) -> Edition: Standard (Default) -> Service Objective: S1 (Available) 
@@ -80,7 +80,7 @@ This command gets default capabilities for SQL Databases for the specified servi
 
 ### -LocationName
 Specifies the name of the Location for which this cmdlet gets capabilities.
-For more information, see Azure Regionshttp://azure.microsoft.com/en-us/regions/ (http://azure.microsoft.com/en-us/regions/).
+For more information, see [Azure Regions](http://azure.microsoft.com/en-us/regions/) (http://azure.microsoft.com/en-us/regions/).
 
 ```yaml
 Type: String
@@ -238,5 +238,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md)
-
-

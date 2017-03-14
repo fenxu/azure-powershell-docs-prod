@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 67A9BB67-CF17-4CAA-99D9-002D0D23178B
 online version: 
 schema: 2.0.0
-updated_at: 3/4/2017 12:37 AM
-ms.date: 3/4/2017
+updated_at: 3/13/2017 5:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseRestorePoints.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseRestorePoints.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/91cff23a000b99dc60ec82204d789c7ace1d7134/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseRestorePoints.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2b45e1a02676802c277bfe41f2682dbf5b8a3e7/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/vTrue/Get-AzureRmSqlDatabaseRestorePoints.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmSqlDatabaseRestorePoints
 
 ## SYNOPSIS
-Retrieves the distinct restore points from which a SQL Data Warehouse can be restored.
+Gets the distinct restore points from which a SQL Data Warehouse can be restored.
 
 ## SYNTAX
 
@@ -33,7 +33,7 @@ Get-AzureRmSqlDatabaseRestorePoints [-ServerName] <String> [-DatabaseName] <Stri
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmSqlDatabaseRestorePoints** cmdlet retrieves the distinct restore points that an Azure SQL Data Warehouse can be restored from.
+The **Get-AzureRmSqlDatabaseRestorePoints** cmdlet gets the distinct restore points that an Azure SQL Data Warehouse can be restored from.
 For an Azure SQL Database, the restore window is continuous.
 This means that any point in time in the backup retention period of the database can be used as a restore point.
 
@@ -43,7 +43,7 @@ This cmdlet is also supported by the SQL Server Stretch Database service on Azur
 
 ### Example 1: Get all restore points
 ```
-PS C:\>Get-AzureRmSqlDatabaseRestorePoints -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -DatabaseName "Database01"
+PS C:\> Get-AzureRmSqlDatabaseRestorePoints -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -DatabaseName "Database01"
 ResourceGroupName        : resourcegroup01
 ServerName               : server01
 DatabaseName             : database01
@@ -184,5 +184,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Azure SQL Database Cmdlets](xref:ResourceManager/AzureRM.Sql/vTrue/AzureRM.Sql.md)
-
-

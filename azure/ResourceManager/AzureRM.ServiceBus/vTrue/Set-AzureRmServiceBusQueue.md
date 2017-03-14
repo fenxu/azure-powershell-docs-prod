@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ServiceBus.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/9/2017 6:46 PM
-ms.date: 3/9/2017
+updated_at: 3/10/2017 7:40 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusQueue.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusQueue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/71cac14758de8eeb36a92b82dae146511ac2a136/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusQueue.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/16665bd43882b185a8143de54e498a0463907aa7/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/vTrue/Set-AzureRmServiceBusQueue.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,7 +35,7 @@ The **Set-AzureRmServiceBusQueue** cmdlet updates the description for the Servic
 
 ## EXAMPLES
 
-### Example 1: Update a queue with a new description
+### Example 1
 ```
 PS C:\> $QueueObj = Get-AzureRmServiceBusQueue -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -QueueName SB-Queue_exampl1
 
@@ -45,7 +45,7 @@ PS C:\> $QueueObj.SupportOrdering = $True
 PS C:\> Set-AzureRmServiceBusQueue -ResourceGroup Default-ServiceBus-WestUS -NamespaceName SB-Example1 -QueueName SB-Queue_exampl1 -QueueObj $QueueObj
 ```
 
-This example updates the specified queue with a new description in the specified namespace. This example updates the **DeadLetteringOnMessageExpiration** property to **true** and **SupportOrdering** to **true**.
+Updates the specified queue with a new description in the specified namespace. This example updates the **DeadLetteringOnMessageExpiration** property to **true** and **SupportOrdering** to **true**.
 
 ## PARAMETERS
 
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -NamespaceName
-Specifies the name of the Service Bus namespace.
+The Service Bus namespace name.
 
 ```yaml
 Type: String
@@ -80,7 +80,7 @@ Accept wildcard characters: False
 ```
 
 ### -QueueName
-Specifies the name of the Service Bus queue.
+The Service Bus queue name.
 
 ```yaml
 Type: String
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the name of the resource group.
+The name of the resource group.
 
 ```yaml
 Type: String
@@ -189,8 +189,3 @@ UpdatedAt                           : 1/20/2017 6:16:18 PM
 
 ## RELATED LINKS
 
-[Get-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Get-AzureRmServiceBusQueue.md)
-
-[New-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/New-AzureRmServiceBusQueue.md)
-
-[Remove-AzureRmServiceBusQueue](xref:ResourceManager/AzureRM.ServiceBus/vTrue/Remove-AzureRmServiceBusQueue.md)
