@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: A9D4D235-4558-4190-BE36-FB85A955B893
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 9:05 PM
+updated_at: 3/13/2017 10:20 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b07552ac127a3b6c964491002e9e33a37894fbde/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/dc0a96def1743a72961070c711b09f45a5dd7ae0/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -86,7 +86,7 @@ This command gets all user groups with the user ID named 0123456789.
 ## PARAMETERS
 
 ### -Context
-Specifies an instance of PsApiManagementContext.
+Specifies an instance of **PsApiManagementContext**.
 
 ```yaml
 Type: PsApiManagementContext
@@ -221,5 +221,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApiManagementGroup](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementGroup.md)
 
 [Set-AzureRmApiManagementGroup](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementGroup.md)
-
-

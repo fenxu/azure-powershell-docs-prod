@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 048C3D55-FAD9-4755-AE85-3A8DA76018B0
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 9:05 PM
+updated_at: 3/13/2017 10:20 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementAuthorizationServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementAuthorizationServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b07552ac127a3b6c964491002e9e33a37894fbde/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementAuthorizationServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/dc0a96def1743a72961070c711b09f45a5dd7ae0/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementAuthorizationServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -73,6 +73,8 @@ Accept wildcard characters: False
 ```
 
 ### -ServerId
+Specifies the server ID.
+
 ```yaml
 Type: String
 Parameter Sets: Get by Id
@@ -142,5 +144,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApiManagementAuthorizationServer](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementAuthorizationServer.md)
 
 [Set-AzureRmApiManagementAuthorizationServer](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementAuthorizationServer.md)
-
-

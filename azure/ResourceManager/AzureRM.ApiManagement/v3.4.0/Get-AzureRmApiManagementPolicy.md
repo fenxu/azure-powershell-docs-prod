@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: F0E45B19-9F2F-4794-91EB-2B18FE46834F
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 9:05 PM
+updated_at: 3/13/2017 10:20 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b07552ac127a3b6c964491002e9e33a37894fbde/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/dc0a96def1743a72961070c711b09f45a5dd7ae0/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Get-AzureRmApiManagementPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -71,7 +71,7 @@ This command gets tenant level policy and saves it to a file named tenantpolicy.
 PS C:\> Get-AzureRmApiManagementPolicy -Context $APImContext -ProductId "0123456789"
 ```
 
-This command gets product-scope policy
+This command gets product-scope policy.
 
 ### Example 3: Get the API-scope policy
 ```
@@ -285,5 +285,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApiManagementPolicy](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementPolicy.md)
 
 [Set-AzureRmApiManagementPolicy](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementPolicy.md)
-
-
