@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: D4C465CE-1B8A-4CFC-BAA8-21CC66B7D6D6
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 9:05 PM
-ms.date: 3/13/2017
+updated_at: 3/14/2017 12:04 AM
+ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementHostnameConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementHostnameConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b07552ac127a3b6c964491002e9e33a37894fbde/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementHostnameConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e504ae03e3e2dd3ac42031d5ca637c489fa8b76b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementHostnameConfiguration.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -33,7 +33,7 @@ New-AzureRmApiManagementHostnameConfiguration -CertificateThumbprint <String> -H
 
 ## DESCRIPTION
 The **New-AzureRmApiManagementHostnameConfiguration** cmdlet is a helper command that creates an instance of **PsApiManagementHostnameConfiguration**.
-This command is used with the Set-AzureRmApiManagementHostnames cmdlet.
+This command is used with the [Set-AzureRmApiManagementHostnames](./Set-AzureRmApiManagementHostnames.md) cmdlet.
 
 ## EXAMPLES
 
@@ -48,7 +48,7 @@ This command creates and initializes an instance of **PsApiManagementHostnameCon
 
 ### -CertificateThumbprint
 Specifies the certificate thumbprint.
-The certificate must be first imported with the Import-AzureRmApiManagementHostnameCertificate cmdlet.
+The certificate must be first imported with the [Import-AzureRmApiManagementHostnameCertificate](./Import-AzureRmApiManagementHostnameCertificate.md) cmdlet.
 
 ```yaml
 Type: String
@@ -130,5 +130,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Import-AzureRmApiManagementHostnameCertificate](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Import-AzureRmApiManagementHostnameCertificate.md)
 
 [Set-AzureRmApiManagementHostnames](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md)
-
-

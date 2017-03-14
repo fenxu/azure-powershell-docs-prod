@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: F9CE8705-F7B1-45AB-98BC-FC6DC023D38D
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 9:05 PM
-ms.date: 3/13/2017
+updated_at: 3/14/2017 12:04 AM
+ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b07552ac127a3b6c964491002e9e33a37894fbde/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e504ae03e3e2dd3ac42031d5ca637c489fa8b76b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,7 @@ The **Set-AzureRmApiManagementHostnames** cmdlet applies a custom hostname confi
 
 ### Example 1: Set the custom hostname configuration for a proxy and portal
 ```
-PS C:\> Set-AzureRmApiManagementHostnames -Name ContosoApi -ResourceGroupName Contoso -PortalHostnameConfiguration $portalHostnameConf -ProxyHostnameConfiguration $proxyHostnameConf
+PS C:\> Set-AzureRmApiManagementHostnames -Name ContosoApi -ResourceGroupName "Contoso" -PortalHostnameConfiguration $portalHostnameConf -ProxyHostnameConfiguration $proxyHostnameConf
 ```
 
 This command sets the custom hostname configuration for proxy and portal.

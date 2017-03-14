@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: 98367100-4FFD-46F6-8974-603B32533626
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 9:05 PM
-ms.date: 3/13/2017
+updated_at: 3/14/2017 12:04 AM
+ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Import-AzureRmApiManagementHostnameCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Import-AzureRmApiManagementHostnameCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b07552ac127a3b6c964491002e9e33a37894fbde/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Import-AzureRmApiManagementHostnameCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e504ae03e3e2dd3ac42031d5ca637c489fa8b76b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Import-AzureRmApiManagementHostnameCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ The certificate is to be used for custom hostnames configuration.
 
 ### Example 1: Import a API Management hostname certificate
 ```
-PS C:\> Import-AzureRmApiManagementHostnameCertificate -Name "ContosoApi" -ResourceGroupName Contoso -HostnameType "Proxy" -PfxPath "C:\proxycert.pfx" -PfxPassword "CertSecret"
+PS C:\> Import-AzureRmApiManagementHostnameCertificate -Name "ContosoApi" -ResourceGroupName "Contoso" -HostnameType "Proxy" -PfxPath "C:\proxycert.pfx" -PfxPassword "CertSecret"
 ```
 
 This command imports a certificate for a proxy custom hostname.
@@ -196,5 +196,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementHostnameConfiguration](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementHostnameConfiguration.md)
 
 [Set-AzureRmApiManagementHostnames](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md)
-
-

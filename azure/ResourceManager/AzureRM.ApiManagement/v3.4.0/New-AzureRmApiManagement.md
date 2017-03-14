@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: 164C5205-01BA-47BB-B780-D0B9AE614A4B
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 9:05 PM
-ms.date: 3/13/2017
+updated_at: 3/14/2017 12:04 AM
+ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b07552ac127a3b6c964491002e9e33a37894fbde/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e504ae03e3e2dd3ac42031d5ca637c489fa8b76b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagement.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,7 @@ PS C:\> New-AzureRmApiManagement -ResourceGroupName "ContosoGroup02" -Name "Cont
 
 This command creates a Developer tier API Management service.
 The command specifies the organization and the administrator address.
-The command does not specify the *SKU* parameter.
+The command does not specify the *Sku* parameter.
 Therefore, the cmdlet uses the default value of Developer.
 
 ### Example 2: Create a Standard tier service that has three units
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 
 ### -Location
 Specifies the location in which this cmdlet creates an API Management deployment.
-To obtain valid locations, use the Get-AzureLocation cmdlets.
+To obtain valid locations, use the [Get-AzureLocation](./Get-AzureLocation.md) cmdlets.
 
 Valid values are: 
 
@@ -239,7 +239,7 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualNetwork
-Virtual Network Configuration of master Azure API Management deployment region.
+Specifies the virtual network configuration of the master Azure API Management deployment region.
 
 ```yaml
 Type: PsApiManagementVirtualNetwork
@@ -254,7 +254,7 @@ Accept wildcard characters: False
 ```
 
 ### -AdditionalRegions
-Additional deployment regions of Azure API Management.
+Specifies an array of additional deployment regions of Azure API Management.
 
 ```yaml
 Type: PsApiManagementRegion[]
@@ -325,5 +325,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagement.md)
 
 [Restore-AzureRmApiManagement](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Restore-AzureRmApiManagement.md)
-
-
