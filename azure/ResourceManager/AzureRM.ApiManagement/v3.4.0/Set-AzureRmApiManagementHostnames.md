@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: F9CE8705-F7B1-45AB-98BC-FC6DC023D38D
 online version: 
 schema: 2.0.0
-updated_at: 3/14/2017 12:04 AM
+updated_at: 3/14/2017 12:49 AM
 ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e504ae03e3e2dd3ac42031d5ca637c489fa8b76b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/20fd58e8ade3d40a2898251079b378043af3c342/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -98,7 +98,7 @@ Accept wildcard characters: False
 
 ### -PortalHostnameConfiguration
 Specifies the custom portal hostname configuration.
-Passing $null to the cmdlet sets the default hostname.
+Passing $Null to the cmdlet sets the default hostname.
 
 ```yaml
 Type: PsApiManagementHostnameConfiguration
@@ -114,7 +114,7 @@ Accept wildcard characters: False
 
 ### -ProxyHostnameConfiguration
 Specifies the custom proxy hostname configuration.
-Passing $null sets the default hostname.
+Passing $Null sets the default hostname.
 
 ```yaml
 Type: PsApiManagementHostnameConfiguration

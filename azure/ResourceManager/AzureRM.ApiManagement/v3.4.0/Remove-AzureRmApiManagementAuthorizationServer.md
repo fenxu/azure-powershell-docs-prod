@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: 76369C18-5BED-4310-A30C-B7DA5244B945
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 3:58 PM
-ms.date: 3/11/2017
+updated_at: 3/14/2017 1:10 AM
+ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementAuthorizationServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementAuthorizationServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bc71000aa3c7f754b95442dcc415a7324626a15c/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementAuthorizationServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/39453fb305a130c6b8b47e03e5b824c2df34e868/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementAuthorizationServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmApiManagementAuthorizationServer
 
 ## SYNOPSIS
-Removes an authorization server.
+Removes an Azure API Management authorization server.
 
 ## SYNTAX
 
@@ -56,7 +56,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerId
-Specifies the ID of the authorization server to remove.
+Specifies the ID of the authorization server that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -174,5 +174,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementAuthorizationServer](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementAuthorizationServer.md)
 
 [Set-AzureRmApiManagementAuthorizationServer](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementAuthorizationServer.md)
-
-
