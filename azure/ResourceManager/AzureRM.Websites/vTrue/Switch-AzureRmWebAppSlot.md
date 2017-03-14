@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 258A4EA9-B82C-4664-8DCE-30D47A623868
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 7:40 PM
+updated_at: 3/13/2017 8:15 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Switch-AzureRmWebAppSlot.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Switch-AzureRmWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Switch-AzureRmWebAppSlot.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Switch-AzureRmWebAppSlot.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,18 +45,18 @@ The **Switch-AzureRmWebAppSlot** switches two slots associated with an Azure Web
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Swap two slots with a Web App
 ```
 PS C:\> Switch-AzureRmWebAppSlot -SourceSlotName "sourceslot" -DestinationSlotName "destinationslot" -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp"
  
 ```
 
-This command will switch slot "sourceslot" slot with "destinationslot" for for Web App ContosoWebApp associated with the resource group Default-Web-WestUS
+This command will switch slot sourceslot slot with destinationslot for for Web App ContosoWebApp associated with the resource group Default-Web-WestUS.
 
 ## PARAMETERS
 
 ### -SourceSlotName
-Source Slot Name
+Specifies the name of the source slot.
 
 ```yaml
 Type: String
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 ```
 
 ### -DestinationSlotName
-Destination Slot Name
+Specifies the name of the destination slot.
 
 ```yaml
 Type: String
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -SwapWithPreviewAction
-Swap With Preview Action
+Indicates that the cmdlet swaps with preview action.
 
 ```yaml
 Type: SwapWithPreviewAction
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -PreserveVnet
-Preserve Vnet Boolean
+Indicates whether the cmdlet rreserves Vnet.
 
 ```yaml
 Type: Boolean
@@ -198,4 +198,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

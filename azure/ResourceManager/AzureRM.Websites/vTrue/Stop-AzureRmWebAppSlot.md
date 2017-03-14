@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 86E0D477-DD32-49BD-82E7-1CF191E4F612
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 7:40 PM
+updated_at: 3/13/2017 8:15 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Stop-AzureRmWebAppSlot.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Stop-AzureRmWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Stop-AzureRmWebAppSlot.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Stop-AzureRmWebAppSlot.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -41,7 +41,7 @@ The **Stop-AzureRmWebAppSlot** cmdlet stops an Azure Web App Slot.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Stop an Azure Web App slot
 ```
 PS C:\> Stop-AzureRmWebAppSlot -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp" -Slot "Slot001"
 ```
@@ -81,7 +81,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies the name of the WebApp slot.
+Specifies the name of the Web App slot.
 
 ```yaml
 Type: String
@@ -118,3 +118,18 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
+[Get-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/vTrue/Get-AzureRMWebAppSlot.md)
+
+[New-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/vTrue/New-AzureRMWebAppSlot.md)
+
+[Remove-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/vTrue/Remove-AzureRMWebAppSlot.md)
+
+[Restart-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/vTrue/Restart-AzureRMWebAppSlot.md)
+
+[Set-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/vTrue/Set-AzureRMWebAppSlot.md)
+
+[Start-AzureRMWebAppSlot](xref:ResourceManager/AzureRM.Websites/vTrue/Start-AzureRMWebAppSlot.md)
+
+[Get-AzureRmAppServicePlan](xref:ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmAppServicePlan.md)
+
+[Get-AzureRmWebApp](xref:ResourceManager/AzureRM.Websites/vTrue/Get-AzureRmWebApp.md)

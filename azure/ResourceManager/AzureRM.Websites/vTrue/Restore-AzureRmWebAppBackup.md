@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: DC400E32-CAB9-4354-99B2-ABA4AA776030
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 7:40 PM
+updated_at: 3/13/2017 8:15 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Restore-AzureRmWebAppBackup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Restore-AzureRmWebAppBackup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Restore-AzureRmWebAppBackup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Restore-AzureRmWebAppBackup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # Restore-AzureRmWebAppBackup
 
 ## SYNOPSIS
+Restores an Azure Web App Backup.
 
 ## SYNTAX
 
@@ -43,12 +44,12 @@ The **Restore-AzureRmWebAppBackup** cmdlet restores an Azure Web App Backup.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Restore an Azure Web App backup
 ```
 PS C:\> Restore-AzureRmWebAppBackup -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp" -StorageAccountUrl "https://storageaccount.file.core.windows.net" -BlobName "myBlob"
 ```
 
-Restores a backup of the specified app ContosoWebApp that is within resource group Default-Web-WestUS in blob "myBlob" located at https://storageaccount.file.core.windows.net
+This command restores a backup of the specified app ContosoWebApp that is within resource group Default-Web-WestUS in blob myBlob located at https://storageaccount.file.core.windows.net.
 
 ## PARAMETERS
 
@@ -68,7 +69,7 @@ Accept wildcard characters: False
 ```
 
 ### -IgnoreConflictingHostNames
-Ignore Conflicting HostNames Option
+Indicates that this cmdlet ignores the conflicting HostNames option.
 
 ```yaml
 Type: SwitchParameter
@@ -113,7 +114,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies the name of the WebApp slot.
+Specifies the name of the Web App slot.
 
 ```yaml
 Type: String
@@ -143,7 +144,7 @@ Accept wildcard characters: False
 ```
 
 ### -BlobName
-Blob Name
+Specifies the blob name.
 
 ```yaml
 Type: String
@@ -158,7 +159,7 @@ Accept wildcard characters: False
 ```
 
 ### -Overwrite
-Overwrite Option
+Indicates that this cmdlet uses the overwrite option.
 
 ```yaml
 Type: SwitchParameter
@@ -198,4 +199,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

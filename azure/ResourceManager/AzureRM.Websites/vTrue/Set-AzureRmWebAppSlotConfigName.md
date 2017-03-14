@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 7DBF937E-2D01-4356-9A5F-C5A4CB6D1A10
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 7:40 PM
+updated_at: 3/13/2017 8:15 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebAppSlotConfigName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebAppSlotConfigName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebAppSlotConfigName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmWebAppSlotConfigName.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -44,17 +44,17 @@ The **Set-AzureRmWebAppSlotConfigName** cmdlet marks App Settings and Connection
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Set a Web App slot config name
 ```
 PS C:\> Set-AzureRmWebAppSlotConfigName -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp" -Slot "Slot001" -RemoveAllAppSettingNames -RemoveAllConnectionStringNames
 ```
 
-This command removes all app settings and connection strings for Web App ContosoWebApp associated with the resource group Default-Web-WestUS
+This command removes all app settings and connection strings for Web App ContosoWebApp associated with the resource group Default-Web-WestUS.
 
 ## PARAMETERS
 
 ### -AppSettingNames
-App Settings Names String Array
+Specifies an array of App Settings names.
 
 ```yaml
 Type: String[]
@@ -69,7 +69,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionStringNames
-Connection String Names String Array
+Specifies an array of connection string names.
 
 ```yaml
 Type: String[]
@@ -84,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -RemoveAllAppSettingNames
-Remove All App Setting Names Option
+Indicates that this cmdlet removes all App Setting names.
 
 ```yaml
 Type: SwitchParameter
@@ -99,7 +99,7 @@ Accept wildcard characters: False
 ```
 
 ### -RemoveAllConnectionStringNames
-Remove All Connection String Names Option
+Indicates that this cmdlet removes all connection string names.
 
 ```yaml
 Type: SwitchParameter
@@ -168,4 +168,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

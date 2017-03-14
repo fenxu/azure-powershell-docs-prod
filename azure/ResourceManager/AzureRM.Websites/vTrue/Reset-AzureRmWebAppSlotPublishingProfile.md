@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 3CD449A1-084E-4950-80EF-06B5ECDFB70F
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 7:40 PM
+updated_at: 3/13/2017 8:15 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Reset-AzureRmWebAppSlotPublishingProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Reset-AzureRmWebAppSlotPublishingProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Reset-AzureRmWebAppSlotPublishingProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Reset-AzureRmWebAppSlotPublishingProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,6 +22,7 @@ ms.service: azure-powershell
 # Reset-AzureRmWebAppSlotPublishingProfile
 
 ## SYNOPSIS
+Resets the publishing profile for the specified Web App Slot.
 
 ## SYNTAX
 
@@ -41,7 +42,7 @@ The **Reset-AzureRmWebAppSlotPublishingProfile** cmdlet resets the publishing pr
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Reset the publishing profile for a specific Web App slot
 ```
 PS C:\> Reset-AzureRmWebAppSlotPublishingProfile -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp" -Slot "slot001"
 ```
@@ -81,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-Specifies the name of the WebApp slot.
+Specifies the name of the Web App slot.
 
 ```yaml
 Type: String
@@ -120,4 +121,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 ms.assetid: 32D45795-FBCD-4157-BF45-41BD1F61782E
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 7:40 PM
+updated_at: 3/13/2017 8:15 PM
 ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7201955e7e0fd9d41b0a087f20717a385bb2fb89/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9df91e2b73565e7f753d0137ec70e0a9eb4930cd/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/vTrue/Set-AzureRmAppServicePlan.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,13 +47,12 @@ The **Set-AzureRmAppServicePlan** cmdlet sets an Azure App Service plan.
 PS C:\> Set-AzureRmAppServicePlan -ResourceGroupName "Default-Web-WestUS" -Name "ContosoAppServPlan" -PerSiteScaling  $true
 ```
 
-This command sets the PerSiteScaling option to true on the App Service plan named ContosoAppServPlan 
-    that belongs to the resource group named Default-Web-WestUS.
+This command sets the PerSiteScaling option to true on the App Service plan named ContosoAppServPlan that belongs to the resource group named Default-Web-WestUS.
 
 ## PARAMETERS
 
 ### -AdminSiteName
-Admin Site Name
+Specifies the name Admin Site. 
 
 ```yaml
 Type: String
@@ -68,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tier
-Tier
+Specifies the tier of the service plan.
 
 ```yaml
 Type: String
@@ -98,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -WorkerSize
-Worker Size
+Specifies the worker size.
 
 ```yaml
 Type: String
@@ -113,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -PerSiteScaling
-Per Site Scaling Boolean
+Indicates whether the cmdlet scales per site.
 
 ```yaml
 Type: Boolean
@@ -158,7 +157,7 @@ Accept wildcard characters: False
 ```
 
 ### -AppServicePlan
-Specifies the Specifies the App Service Plan object..
+Specifies the Specifies the App Service Plan object.
 
 ```yaml
 Type: ServerFarmWithRichSku
