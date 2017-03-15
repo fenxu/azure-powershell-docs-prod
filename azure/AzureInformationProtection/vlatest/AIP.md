@@ -5,11 +5,11 @@ Download Help Link: NA
 Help Version: NA
 Locale: en-US
 ms.assetid: 35D99F89-BD73-457E-95C7-73857656FB59
-updated_at: 2/8/2017 9:16 PM
-ms.date: 2/8/2017
+updated_at: 3/15/2017 4:40 PM
+ms.date: 3/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6304f1d8f65314886b6934bd144a9dffdd6a3375/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/62402f84aad1fec5db98297b866b737224d97a84/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
 uid: AzureInformationProtection/vlatest/AIP.md
 ms.topic: conceptual
 ms.prod: powershell
@@ -28,7 +28,7 @@ The following list contains links to the help topics for the Microsoft Azure Inf
 
 These cmdlets can be used with the Azure Information Protection service, the Azure Rights Management service (Azure RMS), and Active Directory Rights Management Services (AD RMS). 
 
-The current version of the AzureInformationProtection module is **1.3.155.2**. If you have previously installed this module, run the following command to check the version: `(Get-Module AzureInformationProtection -ListAvailable).Version`.
+The current version of the AzureInformationProtection module is **1.4.21.0**. If you have previously installed this module, run the following command to check the version: `(Get-Module AzureInformationProtection -ListAvailable).Version`.
 
 For instructions to use these cmdlets, any current limitations, prerequisites, and scenario examples, see the following documentation from the Azure Information Protection client administrator guide: 
 
