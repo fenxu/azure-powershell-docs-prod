@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 9994E2B2-20A1-4E95-9A9F-379B8B63F7F5
 online version:
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/15/2017 5:36 AM
+ms.date: 3/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Add-AzureRmExpressRouteCircuitAuthorization.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Add-AzureRmExpressRouteCircuitAuthorization.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Add-AzureRmExpressRouteCircuitAuthorization.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e1db9a79a5d13ce69568b036f0bbeff8df5ac535/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Add-AzureRmExpressRouteCircuitAuthorization.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -153,13 +153,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-**Add-AzureRmExpressRouteCircuitAuthorization** accepts pipelined instances of the
-**Microsoft.Azure.Commands.Network.Models.PSExpressRouteCircuit** object.
+###
+**Add-AzureRmExpressRouteCircuitAuthorization** accepts pipelined instances of the **Microsoft.Azure.Commands.Network.Models.PSExpressRouteCircuit** object.
 
 ## OUTPUTS
 
-**Add-AzureRmExpressRouteCircuitAuthorization** modifies instances of the
-**Microsoft.Azure.Commands.Network.Models.PSExpressRouteCircuit** object.
+### 
+**Add-AzureRmExpressRouteCircuitAuthorization** modifies instances of the **Microsoft.Azure.Commands.Network.Models.PSExpressRouteCircuit** object.
 
 ## NOTES
 
