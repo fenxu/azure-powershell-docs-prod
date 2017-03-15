@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 169F0E6F-8E42-41DD-B406-0A232E380A8D
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+updated_at: 3/6/2017 10:58 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/64dec90ea0c5ace25e14d41ecb01cc944cf110f0/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -104,3 +104,5 @@ This cmdlet does not generate any output.
 [Start-ServiceFabricApplicationUpgrade](xref:ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md)
 
 [Start-ServiceFabricClusterRollback](xref:ServiceFabric/vlatest/Start-ServiceFabricClusterRollback.md)
+
+[Update-ServiceFabricClusterUpgrade](./Update-ServiceFabricClusterUpgrade)

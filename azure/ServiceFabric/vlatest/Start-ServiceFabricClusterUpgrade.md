@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 32BC7760-F639-4236-8F42-6C68ADE81F25
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+updated_at: 3/6/2017 11:16 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/48ff137a774297a69e5e539e90fb11ff17a97ee6/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -119,7 +119,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ## EXAMPLES
 
-### Example 1: Start upgrade
+### Example 1: Start unmonitored manual upgrade
 ```
 PS C:\>Start-ServiceFabricClusterUpgrade -CodePackageVersion "2.0.59.0" -ClusterManifestVersion "v2" -UnmonitoredManual
 ```
@@ -134,7 +134,14 @@ PS C:\>Start-ServiceFabricClusterUpgrade -Code -CodePackageVersion "2.0.59.0" -U
 This command starts the unmonitored automatic upgrade for the specified code package.
 There is no configuration upgrade.
 
-### Example 3: Start upgrade with a custom health policy
+### Example 3: Start config only upgrade
+```
+Start-ServiceFabricClusterUpgrade -ClusterManifestVersion "v2" -Config -FailureAction Rollback -Monitored
+```
+
+This command starts the monitored config only upgrade for the specified cluster manifest version. The upgrade uses default health policies and the failure action is specified as *Rollback*.
+
+### Example 4: Start upgrade with a custom health policy
 ```
 PS C:\>$AppTypeHealthPolicyMap = New-Object -TypeName "System.Fabric.Health.ApplicationTypeHealthPolicyMap"
 PS C:\> $AppTypeHealthPolicyMap.Add("CriticalAppType", 0)
@@ -159,7 +166,7 @@ It specifies a custom cluster health policy, defines a different MaxPercentUnhea
 
 ### -ApplicationHealthPolicyMap
 Specifies a **System.Fabric.Health.ApplicationHealthPolicyMap** object that includes custom health policies for some or all of the applications.
-If you do not specify this parameter, or if you don't include an entry in the map for an application, that application is evaluated with the application health policy defined in the application manifest if it exists, or the default policy otherwise.
+If you do not specify this parameter, or if you don't include an entry in the map for an application, that application is evaluated with the application health policy defined in the application manifest if it exists, or the default health policy otherwise.
 
 ```yaml
 Type: ApplicationHealthPolicyMap
@@ -255,7 +262,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -462,8 +469,8 @@ Accept wildcard characters: False
 
 ### -Monitored
 Indicates that the upgrade mode is monitored.
-After the cmdlet finishes an upgrade for an upgrade domain, if the health of the upgrade domain and the cluster meet the health policies that you define, Service Fabric upgrades the next upgrade domain.
-If the upgrade domain or cluster fails to meet health policies, the upgrade fails and Service Fabric rolls back the upgrade or switches to unmonitored manual mode, depending on the specified policy.
+This means that health checks are performed after upgrade finishes for an upgrade domain. If the health of the upgrade domain and the cluster meet the specified health policies, Service Fabric starts upgrade of the next upgrade domain.
+If the upgrade domain or cluster fails to meet health policies, the upgrade fails and Service Fabric rolls back the upgrade or switches to unmonitored manual mode, depending on the specified *FailureAction*.
 
 ```yaml
 Type: SwitchParameter
@@ -531,7 +538,7 @@ Accept wildcard characters: False
 
 ### -UnmonitoredAuto
 Indicates that the upgrade mode is unmonitored automatic.
-After Service Fabric upgrades an upgrade domain, Service Fabric upgrades the next upgrade domain irrespective of the cluster health state.
+No health checks are performed and after Service Fabric upgrades an upgrade domain, Service Fabric starts the upgrade of the next upgrade domain irrespective of the cluster health state.
 This mode is not recommended for production use.
 
 ```yaml
@@ -548,7 +555,7 @@ Accept wildcard characters: False
 
 ### -UnmonitoredManual
 Indicates that the upgrade mode is unmonitored manual.
-After Service Fabric upgrades an upgrade domain, it waits for you to upgrade the next upgrade domain by using the [Resume-ServiceFabricClusterUpgrade](./Resume-ServiceFabricClusterUpgrade.md) cmdlet.
+After Service Fabric upgrades an upgrade domain, it waits for the [Resume-ServiceFabricClusterUpgrade](./Resume-ServiceFabricClusterUpgrade.md) cmdlet to explicitly start the upgrade of the next upgrade domain.
 
 ```yaml
 Type: SwitchParameter
@@ -563,7 +570,7 @@ Accept wildcard characters: False
 ```
 
 ### -UpgradeDomainTimeoutSec
-Specifies the maximum time, in seconds, that Service Fabric takes to upgrade a single upgrade domain.
+Specifies the maximum time, in seconds, that Service Fabric can take to upgrade a single upgrade domain.
 After this period, the upgrade fails.
 
 ```yaml
@@ -579,7 +586,7 @@ Accept wildcard characters: False
 ```
 
 ### -UpgradeReplicaSetCheckTimeoutSec
-Specifies the maximum time that Service Fabric waits for a service to reconfigure into a safe state, if not already in a safe state, before Service Fabric proceeds with the upgrade.
+Specifies the maximum time that Service Fabric waits for a partition to be in a safe state, if not already in a safe state. Once safety checks pass for all partitions on a node, Service Fabric proceeds with the upgrade on that node.
 
 ```yaml
 Type: UInt32
@@ -647,6 +654,8 @@ This cmdlet returns a **System.Fabric.Description.FabricUpgradeDescription** for
 [Get-ServiceFabricClusterConnection](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterConnection.md)
 
 [Get-ServiceFabricClusterUpgrade](xref:ServiceFabric/vlatest/Get-ServiceFabricClusterUpgrade.md)
+
+[Update-ServiceFabricClusterUpgrade](./Update-ServiceFabricClusterUpgrade)
 
 [Resume-ServiceFabricClusterUpgrade](xref:ServiceFabric/vlatest/Resume-ServiceFabricClusterUpgrade.md)
 
