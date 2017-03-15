@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: F83D7B99-CFDC-4A95-A2C7-3CD33925FBAA
-updated_at: 3/8/2017 9:31 PM
-ms.date: 3/8/2017
+updated_at: 3/15/2017 7:11 PM
+ms.date: 3/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fb293d9c63bf597a45bd2bf3164f53d54cc0e4ae/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/7d17bb7468bc98d90933e57d0cb030408d1be3f5/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -24,7 +24,6 @@ ms.service: service-fabric
 Initiates a data loss fault operation on a partition of a stateful Service Fabric service. For details about how to invoke a data loss operation, see the [Invoke Data Loss](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-use-data-loss-api) article.
 
 ## SYNTAX
-The various ways to specify or to choose the partition to invoke data loss are as follows:
 
 ### Using PartitionId
 ```

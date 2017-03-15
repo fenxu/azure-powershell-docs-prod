@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 199F858A-4F1C-44C4-9723-D651FE5FAF44
-updated_at: 3/8/2017 9:48 PM
-ms.date: 3/8/2017
+updated_at: 3/15/2017 7:11 PM
+ms.date: 3/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/59bac2d879a84bc82847d8ab21abe35fdc370de4/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/7d17bb7468bc98d90933e57d0cb030408d1be3f5/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -24,7 +24,6 @@ ms.service: service-fabric
 Initiates a fault to put a partition into quorum loss.
 
 ## SYNTAX
-The various ways to specify or to choose the partition to invoke quorum loss on are as follows:
 
 ### PartitionId
 ```
