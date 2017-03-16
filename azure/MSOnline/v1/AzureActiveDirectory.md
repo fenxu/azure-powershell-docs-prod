@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: BB86A603-6CD9-4299-89B8-30A2B4A011A0
-updated_at: 1/24/2017 4:23 PM
-ms.date: 1/24/2017
+updated_at: 3/16/2017 11:24 PM
+ms.date: 3/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/20f039183121ffaa9cc79c2add5a801f5f9631af/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b5ba77d4dd66b2c0e3adab6cb96d81401e4f6390/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
 uid: MSOnline/v1/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.technology: Azure PowerShell
@@ -26,8 +26,7 @@ ms.service: active-directory
 
 Note: this is the older MSOnline V1 PowerShell module for Azure Active Directory. Customers are encouraged to use the newer Azure Active Directory V2 PowerShell module instead of this module. For more information about the V2 module please see [Azure Active Directory V2 PowerShell](https://docs.microsoft.com/en-us/powershell/azuread/v2/azureactivedirectory).
 
-Note: There are two versions of the MSOnline Module for Windows PowerShell available: a General Availability version and a Public Preview Version. The Public Preview version contains cmdlets that have not yet been released for General Availability.
-Select the version you want from the [Azure Active Directory Connection download page](http://connect.microsoft.com/site1164/Downloads/DownloadDetails.aspx?DownloadID=59185), download its .msi file, and click **Run** to run the installer package. For more detail info on installation of the AzureAD cmdlets please see: [Azure ActiveDirectory (MSOnline)](https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/index.md).
+You can install the MSOnline V2 PowerShell module for Azure Active Directory from [this link](https://www.powershellgallery.com/packages/MSOnline).
 
 This topic displays help topics for the Azure Active Directory MSOnline module.
 

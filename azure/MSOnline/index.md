@@ -1,9 +1,9 @@
 ---
-updated_at: 2/23/2017 12:08 AM
-ms.date: 2/23/2017
+updated_at: 3/16/2017 11:20 PM
+ms.date: 3/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/index.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/MSOnline/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/df171fcde37f630a1e0918245f49b558bd29588f/Azure%20AD%20Cmdlets/MSOnline/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/9fb8736a194da543ecf14f8ea1537318afeefe72/Azure%20AD%20Cmdlets/MSOnline/index.md
 ms.topic: conceptual
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -26,22 +26,9 @@ Please note that we will begin to deprecate this module when the functionality o
 The Azure AD Module is supported on the following Windows operating systems with the default version of Microsoft .NET Framework and Windows PowerShell: Windows 8.1, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2.
 Requires powershell 3.0 or above
 
-There are two versions of the Azure Active Directory Module for Windows PowerShell available: a General Availability version and a Public Preview Version.
-The Public Preview version contains cmdlets that have not yet been released for General Availability.
+You can install the Azure AD PowerShell V1 Module from here: https://www.powershellgallery.com/packages/MSOnline
 
-Select the version you want from the [Azure Active Directory Connection download page](http://connect.microsoft.com/site1164/Downloads/DownloadDetails.aspx?DownloadID=59185), download its .msi file, and click **Run** to run the installer package.
-
-**Important**
-
-Effective October 20, 2014, the [Azure Active Directory Module for Windows PowerShell (32-bit version)](http://go.microsoft.com/fwlink/p/?linkid=236298) is discontinued.
-Support for the 32-bit version will no longer occur, and future updates to the Azure Active Directory Module will be released only for the 64-bit version.
-
-We strongly recommend you install the 64-bit version to ensure future support and compatibility.
-
-You can also access previous versions of the Azure AD module from the [Microsoft Azure Active Directory PowerShell Module Version Release History](http://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx) on the TechNet Wiki.
-
-
-## Updating the Azure AD Module
+## Updating from an older version of the Azure AD Module
 
 You can run the **Get-Item** cmdlet to check the version of the DLL files of the module that you have currently installed:
 
