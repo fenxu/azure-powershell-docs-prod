@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll
 ms.assetid: EEAFC34D-C0B4-47BF-8167-21CD6E9CB826
 online version: 
 schema: 2.0.0
-updated_at: 3/14/2017 12:04 AM
+updated_at: 3/14/2017 5:54 PM
 ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e504ae03e3e2dd3ac42031d5ca637c489fa8b76b/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3ef4ccd99b4b00c173314325d274032246189c89/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Remove-AzureRmApiManagementUser.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmApiManagementUser
 
 ## SYNOPSIS
-Deletes an existing user.
+Removes an existing user.
 
 ## SYNTAX
 
@@ -33,7 +33,7 @@ Remove-AzureRmApiManagementUser -Context <PsApiManagementContext> -UserId <Strin
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmApiManagementUser** cmdlet deletes an existing user.
+The **Remove-AzureRmApiManagementUser** cmdlet removes an existing user.
 
 ## EXAMPLES
 
@@ -197,5 +197,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmApiManagementUser](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementUser.md)
 
 [Set-AzureRmApiManagementUser](xref:ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementUser.md)
-
-

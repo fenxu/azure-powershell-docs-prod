@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: A4226BFB-AB3B-4883-9D52-5EB7F29D8A71
 online version: 
 schema: 2.0.0
-updated_at: 3/14/2017 12:49 AM
+updated_at: 3/14/2017 5:54 PM
 ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementRegion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementRegion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/20fd58e8ade3d40a2898251079b378043af3c342/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementRegion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3ef4ccd99b4b00c173314325d274032246189c89/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/New-AzureRmApiManagementRegion.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,7 +45,7 @@ $ApiMRegion = New-AzureRmApiManagementRegion -Location "Central US"
 
 $AdditionalRegions = @($ApiMRegion)
 
-New-AzureRmApiManagement -ResourceGroupName "Contoso"Group -Location "West US" -Name ContosoApi -Organization "Contoso" -AdminEmail "admin@contoso.com" -AdditionalRegions $AdditionalRegions -Sku "Premium"
+New-AzureRmApiManagement -ResourceGroupName "Contoso"Group -Location "West US" -Name "ContosoApi" -Organization "Contoso" -AdminEmail "admin@contoso.com" -AdditionalRegions $AdditionalRegions -Sku "Premium"
 ```
 
 ### Example 2: an instance of PsApiManagementRegion with an additional region
@@ -59,7 +59,7 @@ $AdditionalRegions = @($ApiMRegion)
 
 $virtualNetwork = New-AzureRmApiManagementVirtualNetwork -Location "West US" -SubnetResourceId "/subscriptions/a8ff56dc-3bc2-4174-a1e8-3726ab15d0e2/resourceGroups/ContosoGroup/providers/Microsoft.Network/virtualNetworks/westUsVirtualNetwork/subnets/backendSubnet"
 
-New-AzureRmApiManagement -ResourceGroupName "Contoso"Group -Location "West US" -Name ContosoApi -Organization "Contoso" -AdminEmail "admin@contoso.com" -AdditionalRegions $AdditionalRegions -VirtualNetwork $virtualNetwork -VpnType "External" -Sku "Premium"
+New-AzureRmApiManagement -ResourceGroupName "Contoso"Group -Location "West US" -Name "ContosoApi" -Organization "Contoso" -AdminEmail "admin@contoso.com" -AdditionalRegions $AdditionalRegions -VirtualNetwork $virtualNetwork -VpnType "External" -Sku "Premium"
 ```
 
 This example creates an ApiManagement service of External VpnType in West US Region, with an Additional Region in Central US.

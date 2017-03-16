@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: 5B7B285A-6418-44D7-BD78-E14AFFAA7765
 online version: 
 schema: 2.0.0
-updated_at: 3/14/2017 12:49 AM
+updated_at: 3/14/2017 5:54 PM
 ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Update-AzureRmApiManagementRegion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Update-AzureRmApiManagementRegion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/20fd58e8ade3d40a2898251079b378043af3c342/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Update-AzureRmApiManagementRegion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3ef4ccd99b4b00c173314325d274032246189c89/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Update-AzureRmApiManagementRegion.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -35,7 +35,7 @@ Update-AzureRmApiManagementRegion -ApiManagement <PsApiManagement> -Location <St
 ## DESCRIPTION
 The **Update-AzureRmApiManagementRegion** cmdlet updates an existing instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagementRegion** in a collection of **AdditionalRegions** objects of a provided instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagement**.
 This cmdlet does not deploy anything but updates an instance of **PsApiManagement** in-memory.
-To update a deployment of an API Management use the modified **PsApiManagementInstance** to the Update-AzureRmApiManagementDeployment cmdlet.
+To update a deployment of an API Management use the modified **PsApiManagementInstance** to the [Update-AzureRmApiManagementDeployment](./Update-AzureRmApiManagementDeployment.md) cmdlet.
 
 ## EXAMPLES
 

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 ms.assetid: F9CE8705-F7B1-45AB-98BC-FC6DC023D38D
 online version: 
 schema: 2.0.0
-updated_at: 3/14/2017 12:49 AM
+updated_at: 3/14/2017 5:54 PM
 ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/20fd58e8ade3d40a2898251079b378043af3c342/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3ef4ccd99b4b00c173314325d274032246189c89/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.4.0/Set-AzureRmApiManagementHostnames.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,14 +47,14 @@ The **Set-AzureRmApiManagementHostnames** cmdlet applies a custom hostname confi
 
 ### Example 1: Set the custom hostname configuration for a proxy and portal
 ```
-PS C:\> Set-AzureRmApiManagementHostnames -Name ContosoApi -ResourceGroupName "Contoso" -PortalHostnameConfiguration $portalHostnameConf -ProxyHostnameConfiguration $proxyHostnameConf
+PS C:\> Set-AzureRmApiManagementHostnames -Name "ContosoApi" -ResourceGroupName "Contoso" -PortalHostnameConfiguration $portalHostnameConf -ProxyHostnameConfiguration $proxyHostnameConf
 ```
 
 This command sets the custom hostname configuration for proxy and portal.
 
 ### Example 2: Configure a custom hostname for a proxy and portal
 ```
-PS C:\> Import-AzureRmApiManagementHostnameCertificate -Name ContosoApi -ResourceGroupName "Contoso" -HostnameType "Proxy" -PfxPath "C:\proxycert.pfx" -PfxPassword "CertSecret"
+PS C:\> Import-AzureRmApiManagementHostnameCertificate -Name "ContosoApi" -ResourceGroupName "Contoso" -HostnameType "Proxy" -PfxPath "C:\proxycert.pfx" -PfxPassword "CertSecret"
 PS C:\> Import-AzureRmApiManagementHostnameCertificate -Name "ContosoApi" -ResourceGroupName "Contoso" -HostnameType "Portal" -PfxPath "C:\portalcert.pfx" -PfxPassword "CertSecret"
 PS C:\> $PortalHostnameConf = New-AzureRmApiManagementHostnameConfiguration -Hostname "portal.contoso.com" -CertificateThumbprint "33CC47C6FCA848DC9B14A6F071C1EF7C"
 PS C:\> $ProxyHostnameConf = New-AzureRmApiManagementHostnameConfiguration -Hostname "proxy.contoso.com" -CertificateThumbprint "5DD7CCF6A1E74E0987DD2873406B7264"
