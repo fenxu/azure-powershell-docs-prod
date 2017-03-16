@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/15/2017 12:26 AM
-ms.date: 3/15/2017
+updated_at: 3/16/2017 8:31 PM
+ms.date: 3/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/59d4789d2cae4c7d8c6803f3866aa29f1e63977c/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/350e6779cb6ee2afdf94bfaa4495e7be51a3cf5b/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -203,13 +203,19 @@ Accept wildcard characters: False
 
 ### -Visibility
 
-This parameter determines the visibility of the group. The parameter can take one of the following values:
+This parameter determines the visibility of the group's content and members list. This parameter can take one of the following values:
 
-"Public"
-"Private"
-"HiddenMembership" 
+"Public" - Anyone can view the contents of the group
+"Private" - Only members can view the content of the group
+"HiddenMembership" - Only members can view the content of the group and only members can view the members list of the group.
 
-If not value is provided, the default value will be "Public"
+If no value is provided, the default value will be "Public".
+
+Notes:
+
+1. This parameter is only valid for groups that have the groupType set to "Unified".
+2. If a group has this attribute set to "HiddenMembership" it cannot be changed later.
+3. Anyone can join a group that has this attribute set to "Public". If the attribute is set to Private or HiddenMembership, only owner(s) can add new members to the group and requests to join the group need approval of the owner(s).
 
 ```yaml
 Type: String
