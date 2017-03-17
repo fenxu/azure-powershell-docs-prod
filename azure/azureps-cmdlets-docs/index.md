@@ -6,11 +6,11 @@ ms.service: powershell
 author: sdwheeler
 ms.author: sewhee
 ms.manager: carmonm
-updated_at: 2/8/2017 11:15 PM
-ms.date: 2/8/2017
+updated_at: 3/17/2017 2:03 PM
+ms.date: 3/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/index.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/index.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c13fa1f410c2d07d13c52e67347215cad5865866/azureps-cmdlets-docs/index.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c59ea8ba8d19bee25033b3667ef2b1d9fc9db853/azureps-cmdlets-docs/index.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 keywords: powershell, cmdlet
@@ -21,9 +21,10 @@ open_to_public_contributors: False
 # Get started with Azure PowerShell cmdlets
 
 Azure PowerShell is a set of modules that provide cmdlets to manage Azure with Windows PowerShell.
-You can use the cmdlets to create, test, deploy, and manage solutions and services delivered through
-the Azure platform. In most cases, the cmdlets can be used for the same tasks as the Azure Portal,
-such as creating and configuring cloud services, virtual machines, virtual networks, and web apps.
+You can use the cmdlets to create, test, deploy, and manage solutions and services delivered
+through the Azure platform. In most cases, the cmdlets can be used for the same tasks as the Azure
+Portal, such as creating and configuring cloud services, virtual machines, virtual networks, and
+web apps.
 
 ## Step 1: Install Azure PowerShell
 
@@ -41,14 +42,15 @@ Install-Module AzureRM
 ```
 
 `Install-Module AzureRM` installs a rollup module for the Azure Resource Manager cmdlets. The
-AzureRM module depends on a particular version range for each Azure Resource Manager module.
-The included version range assures that no breaking module changes can be included when
-installing AzureRM modules with the same major version. When you install the AzureRM module,
-any Azure Resource Manager module that has not previously been installed will be downloaded
-and installed from the PowerShell Gallery. For more information on the semantic versioning
-used by Azure PowerShell modules, see [semver.org](http://semver.org).
+AzureRM module depends on a particular version range for each Azure Resource Manager module. The
+included version range assures that no breaking module changes can be included when installing
+AzureRM modules with the same major version. When you install the AzureRM module, any Azure
+Resource Manager module that has not previously been installed will be downloaded and installed
+from the PowerShell Gallery. For more information on the semantic versioning used by Azure
+PowerShell modules, see [semver.org](http://semver.org).
 
-For cmdlet information, check out the [Azure PowerShell Resource Manager](/powershell/resourcemanager/) reference.
+For cmdlet information, check out the [Azure PowerShell Resource Manager](/powershell/resourcemanager/)
+reference.
 
 ## Step 2: Connect to an Azure account
 
@@ -90,11 +92,11 @@ Login-AzureRmAccount -Credential $cred
 >    account. If this is the first time logging in with this account, you will be prompted to change
 >    the password.
 >
-> For more information on signing up for Microsoft Azure with a work or school account, see [Sign up
-> for Microsoft Azure as an Organization](/azure/active-directory/sign-up-organization.md).
+> For more information on signing up for Microsoft Azure with a work or school account, see
+> [How to get an Azure Active Directory tenant](/azure/active-directory/develop/active-directory-howto-tenant).
 >
 > For more information about authentication and subscription management in Azure, see
-> [Manage Accounts, Subscriptions, and Administrative Roles](/azure/active-directory/role-based-access-control-configure.md).
+> [Get started with access management in the Azure portal](/azure/active-directory/role-based-access-control-what-is).
 
 ## Step 3: Run Azure PowerShell cmdlets
 
@@ -175,18 +177,20 @@ Azure PowerShell cmdlets provide support for the following Azure services:
 
 * [Azure Resource Manager](/powershell/resourcemanager/)
 
-    Azure Resource Manager enables you to work with the resources in your solution as a group. You can
-    deploy, update, or delete all the resources for your solution in a single, coordinated operation.
+    Azure Resource Manager enables you to work with the resources in your solution as a group. You
+    can deploy, update, or delete all the resources for your solution in a single, coordinated
+    operation.
 
 * [Azure Service Management](/powershell/servicemanagement/)
 
-    Azure Service Management helps you manage your deployments, hosted services, and storage accounts.
+    Azure Service Management helps you manage your deployments, hosted services, and storage
+    accounts.
 
 * [Azure Storage](/powershell/storage/)
 
     Azure Storage is the cloud storage solution for modern applications that rely on durability,
-    availability, and scalability to meet your needs. Storage supports Blob storage, File storage, Queue
-    storage, and Table storage.
+    availability, and scalability to meet your needs. Storage supports Blob storage, File storage,
+    Queue storage, and Table storage.
 
 ### Installing module versions side-by-side
 
