@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 585D6C4D-EA80-4E6B-8C36-E7632430431F
 online version: 
 schema: 2.0.0
-updated_at: 3/14/2017 9:28 PM
-ms.date: 3/14/2017
+updated_at: 3/17/2017 6:09 PM
+ms.date: 3/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d8384dc6d4871e100f6fbe8e7ea2f22a27c908c2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0c6d34291d6e279f6425bb71047d00f2db263ece/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmDataLakeStoreAccount
 
 ## SYNOPSIS
-Deletes a Data Lake Store account permanently.
+Removes a Data Lake Store account permanently.
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ Remove-AzureRmDataLakeStoreAccount [-Name] <String> [[-ResourceGroupName] <Strin
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmDataLakeStoreAccount** cmdlet deletes a Data Lake Store account permanently.
+The **Remove-AzureRmDataLakeStoreAccount** cmdlet removes a Data Lake Store account permanently.
 
 ## EXAMPLES
 
@@ -158,5 +158,3 @@ If PassThru is specified, returns true upon successful completion.
 [Set-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreAccount.md)
 
 [Test-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Test-AzureRmDataLakeStoreAccount.md)
-
-
