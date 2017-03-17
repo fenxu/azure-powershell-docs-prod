@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 0EB5C25C-D0A1-4444-AEA2-C963D5069CFC
 online version: 
 schema: 2.0.0
-updated_at: 3/14/2017 9:28 PM
-ms.date: 3/14/2017
+updated_at: 3/17/2017 6:46 PM
+ms.date: 3/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d8384dc6d4871e100f6fbe8e7ea2f22a27c908c2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ba33153f3adbcb73bd2ac86027c935edb9f27cd/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,7 +48,9 @@ This command adds the specified tag to the Data Lake Store account named Contoso
 ## PARAMETERS
 
 ### -AllowAzureIpState
-Optionally allow/block Azure originating IPs through the firewall.```yaml
+Optionally allow/block Azure originating IPs through the firewall.
+
+```yaml
 Type: FirewallAllowAzureIpsState
 Parameter Sets: (All)
 Aliases: 
@@ -61,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultGroup
-Specifies the ID of an AzureActive Directory group.
+Specifies the ID of an Azure Active Directory group.
 This group is the default group for files and folders that you create.
 
 ```yaml
@@ -77,7 +79,9 @@ Accept wildcard characters: False
 ```
 
 ### -FirewallState
-Optionally enable or disable existing firewall rules.```yaml
+Optionally enable or disable existing firewall rules.
+
+```yaml
 Type: FirewallState
 Parameter Sets: (All)
 Aliases: 
@@ -136,7 +140,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tier
-The desired commitment tier for this account to use.```yaml
+The desired commitment tier for this account to use.
+
+```yaml
 Type: TierType
 Parameter Sets: (All)
 Aliases: 
@@ -149,7 +155,9 @@ Accept wildcard characters: False
 ```
 
 ### -TrustedIdProviderState
-Optionally enable or disable the existing trusted ID providers.```yaml
+Optionally enable or disable the existing trusted ID providers.
+
+```yaml
 Type: TrustedIdProviderState
 Parameter Sets: (All)
 Aliases: 
@@ -182,5 +190,3 @@ The updated account details.
 [Remove-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreAccount.md)
 
 [Test-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Test-AzureRmDataLakeStoreAccount.md)
-
-
