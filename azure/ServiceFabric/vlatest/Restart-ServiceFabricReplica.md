@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 0210C19B-CE2B-4713-9548-515D7DD44BB1
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+updated_at: 3/8/2017 9:48 PM
+ms.date: 3/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/59bac2d879a84bc82847d8ab21abe35fdc370de4/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricReplica.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Restart-ServiceFabricReplica
 
 ## SYNOPSIS
-Restarts a Service Fabric replica.
+Restarts a Service Fabric replica to simulate the reopening of a stateful service replica.
 
 ## SYNTAX
 
@@ -163,6 +163,14 @@ The **Restart-ServiceFabricReplica** cmdlet simulates a service replica failure 
 Use this cmdlet to test your service for problems along the replica reopen path.
 This cmdlet helps simulate the report fault temporary path through client APIs.
 This cmdlet is only valid for replicas that belong to stateful persisted services.
+
+In order to specify the replica to be restarted we can start either with the node name or the service name.
+
+Then we need to specify the partition to which the replica belongs. We can specify the partition either by specifying the pair (naming scheme, partition key) or by specifying the partition ID. For more details on Microsoft Azure Service Fabric service partitioning, please refer to the [Partition Service Fabric reliable services](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-concepts-partitioning) article.  
+
+Lastly, we may need to specify which replica of the partition we are referring to and that can be done either by specifying the replica role (primary or secondary replica) or by specifying the replica ID.
+
+Note, sometimes the user may - instead of exactly specifying the replica - want to restart say one of the secondaries of a particular partition of a particular service; that is why, some of the forms of the Restart-ServiceFabricReplica cmdlet intentionally leaves ambiguity about which replica the user is referring to -- in these cases, the cmdlet makes random choices for the user. For example, if the user only provides the service name to the cmdlet, the Restart-ServiceFabricReplica cmdlet will assume that the user wants to restart any one of the replicas from any one of the partitions belonging to the service; so it will choose one of the partitions of the service at random and will choose one of the replicas (could be primary or secondary) of the chosen partition at random and will restart that chosen replica.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 

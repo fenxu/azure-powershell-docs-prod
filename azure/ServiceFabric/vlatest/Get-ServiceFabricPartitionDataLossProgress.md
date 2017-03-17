@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 004C9EF9-80DE-4B23-AD63-652B7F4FF1A4
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+updated_at: 3/8/2017 6:37 AM
+ms.date: 3/8/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9f64faa62bfa9d7f879864db4a9a59233d0c37db/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,8 @@ ms.service: service-fabric
 # Get-ServiceFabricPartitionDataLossProgress
 
 ## SYNOPSIS
-Gets the progress of a data loss operation.
+
+Gets the progress of a data loss fault operation.
 
 ## SYNTAX
 
@@ -30,12 +31,13 @@ Get-ServiceFabricPartitionDataLossProgress -OperationId <Guid> [-TimeoutSec <Int
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricPartitionDataLossProgress** cmdlet gets the progress of a data loss operation in Azure Service Fabric.
-Initiate a data loss operation by using the [Start-ServiceFabricPartitionDataLoss](./Start-ServiceFabricPartitionDataLoss.md) cmdlet.
+The **Get-ServiceFabricPartitionDataLossProgress** cmdlet gets the progress of a data loss fault operation in Azure Service Fabric.
+Initiate a data loss fault operation using the [Start-ServiceFabricPartitionDataLoss](./Start-ServiceFabricPartitionDataLoss.md) cmdlet.
 
 ## EXAMPLES
 
-### Example 1: Check progress of data loss operation
+### Example 1: Check progress of data loss fault operation
+
 ```
 PS C:\>Get-ServiceFabricPartitionDataLossProgress -OperationId d3f12b09-6a90-4745-a4fc-3f92149a7419
     State ProgressResult
@@ -43,14 +45,14 @@ PS C:\>Get-ServiceFabricPartitionDataLossProgress -OperationId d3f12b09-6a90-474
 Completed SelectedPartition: Service Name: fabric:/ContosoApp/PersistServ, Partition Id: 67e2c139-ccf0-4562-9f2b-bf35e4c2...
 ```
 
-This command checks the progress of a data loss operation that has the ID d3f12b09-6a90-4745-a4fc-3f92149a7419.
-The operation is completed.
+This command checks the progress of a data loss fault operation that has the ID d3f12b09-6a90-4745-a4fc-3f92149a7419. The **State** of the fault operation is **Completed**.
 
 ## PARAMETERS
 
 ### -OperationId
-Specifies a unique identifier for the operation that this cmdlet checks.
-You assign this value when you run **Start-ServiceFabricPartitionDataLoss**.
+
+Specifies a unique identifier for the fault operation that this cmdlet checks.
+You assign this value when you run [Start-ServiceFabricPartitionDataLoss](./Start-ServiceFabricPartitionDataLoss.md).
 
 ```yaml
 Type: Guid
@@ -81,12 +83,6 @@ Accept wildcard characters: False
 
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
-
-## INPUTS
-
-## OUTPUTS
-
-## NOTES
 
 ## RELATED LINKS
 

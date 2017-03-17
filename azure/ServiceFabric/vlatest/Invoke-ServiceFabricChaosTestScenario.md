@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 9F010748-70B9-4E00-94C7-EBD0B2983C35
-updated_at: 11/3/2016 12:09 AM
-ms.date: 11/3/2016
+updated_at: 3/13/2017 6:45 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricChaosTestScenario.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricChaosTestScenario.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricChaosTestScenario.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8b3c8009aaa43d0330e0bc71d1d81ee162418101/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricChaosTestScenario.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,6 +21,9 @@ ms.service: service-fabric
 # Invoke-ServiceFabricChaosTestScenario
 
 ## SYNOPSIS
+
+This cmdlet is **Obsolete**. Please use [Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md).
+
 Invokes a test scenario to induce iterative failover and faults in a cluster.
 
 ## SYNTAX
@@ -32,31 +35,8 @@ Invoke-ServiceFabricChaosTestScenario [-TimeToRunMinute] <UInt32> [-MaxClusterSt
 ```
 
 ## DESCRIPTION
-The **Invoke-ServiceFabricChaosTestScenario** cmdlet starts a test scenario to induce iterative failover and faults in a Service Fabric cluster.
-The cmdlet validates the health and availability of all of the services in the cluster before starting the next iteration of failover and faults.
-Use the *MaxConcurrentFaults* parameter to specify the maximum number of concurrent faults for each iteration.
 
-If at any time a service is not healthy or is unavailable by the amount of time specified by the *MaxClusterStabilizationTimeout* parameter, the test fails with a FabricValidationException exception.
-
-The faults are induced in a manner such that the faults do not cause any service or data to become unavailable; however, the chaos test scenario assumes no outside faults are induced or any unexpected failures occur, in which case services or data may become unavailable.
-
-The **Invoke-ServiceFabricChaosTestScenario** cmdlet helps you to analyze your test or staging clusters to ensure that system faults do not result in loss of data availability or other unexpected service issues.
-
-Before using this cmdlet, connect to the Service Fabric cluster.
-
-## EXAMPLES
-
-### Example 1: Run a chaos test
-```
-PS C:\>$TimeToRun = 60
-PS C:\> $MaxStabilizationTimeSecs = 180
-PS C:\> $ConcurrentFaults = 3
-PS C:\> $WaitTimeBetweenIterationsSec = 60
-PS C:\> Invoke-ServiceFabricChaosTestScenario -TimeToRunMinute $TimeToRun -MaxClusterStabilizationTimeoutSec $MaxStabilizationTimeSecs -MaxConcurrentFaults $ConcurrentFaults -EnableMoveReplicaFaults -WaitTimeBetweenIterationsSec $WaitTimeBetweenIterationsSec
-```
-
-The first four commands store values in variables to use as parameters.
-The final command runs the chaos test for 60 minutes with a maximum stabilization time of 180 seconds and three maximum concurrent faults.
+This cmdlet is **Obsolete**. Please use [Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md).
 
 ## PARAMETERS
 
@@ -186,4 +166,4 @@ This cmdlet returns a **String** object that represents the final status of the 
 
 ## RELATED LINKS
 
-[Invoke-ServiceFabricFailoverTestScenario](xref:ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md)
+[Start-ServiceFabricChaos](xref:ServiceFabric/vlatest/Start-ServiceFabricChaos.md)
