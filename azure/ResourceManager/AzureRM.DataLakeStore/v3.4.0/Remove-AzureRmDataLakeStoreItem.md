@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 164DC871-0F0C-4E71-A37A-2B85CE65C2C4
 online version: 
 schema: 2.0.0
-updated_at: 3/14/2017 9:28 PM
-ms.date: 3/14/2017
+updated_at: 3/17/2017 6:46 PM
+ms.date: 3/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreItem.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d8384dc6d4871e100f6fbe8e7ea2f22a27c908c2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ba33153f3adbcb73bd2ac86027c935edb9f27cd/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Remove-AzureRmDataLakeStoreItem
 
 ## SYNOPSIS
-Deletes a file or folder in Data Lake Store.
+Removes a file or folder in Data Lake Store.
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ Remove-AzureRmDataLakeStoreItem [-Account] <String> [-Paths] <DataLakeStorePathI
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmDataLakeStoreItem** cmdlet deletes a file or folder in Data Lake Store.
+The **Remove-AzureRmDataLakeStoreItem** cmdlet removes a file or folder in Data Lake Store.
 
 ## EXAMPLES
 
@@ -194,5 +194,3 @@ If PassThru is specified, returns the result of the operation.
 [New-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/New-AzureRmDataLakeStoreItem.md)
 
 [Test-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Test-AzureRmDataLakeStoreItem.md)
-
-

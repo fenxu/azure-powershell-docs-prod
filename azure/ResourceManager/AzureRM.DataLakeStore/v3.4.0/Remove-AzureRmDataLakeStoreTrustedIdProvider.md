@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 30C10687-F172-4663-8D4A-F0DDEA5C3741
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 3:58 PM
-ms.date: 3/11/2017
+updated_at: 3/17/2017 6:46 PM
+ms.date: 3/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreTrustedIdProvider.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreTrustedIdProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bc71000aa3c7f754b95442dcc415a7324626a15c/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreTrustedIdProvider.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ba33153f3adbcb73bd2ac86027c935edb9f27cd/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreTrustedIdProvider.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,15 +38,15 @@ The **Remove-AzureRmDataLakeStoreTrustedIdProvider** cmdlet removes the specifie
 
 ### Example 1: Remove a trusted identity provider.
 ```
-PS C:\> Remove-AzureRmDataLakeStoreTrustedIdProvider -AccountName "ContosoADL" -Name MyProvider
+PS C:\> Remove-AzureRmDataLakeStoreTrustedIdProvider -AccountName "ContosoADL" -Name "MyProvider"
 ```
 
-Removes the provider "MyProvider" from account "ContosoADL"
+This command removes the provider named MyProvider from the account named ContosoADL.
 
 ## PARAMETERS
 
 ### -Account
-The Data Lake Store account to remove the trusted identity provider from
+Specifies the Data Lake Store account that this cmdlet removes the trusted identity provider from.
 
 ```yaml
 Type: String
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the trusted identity provider.
+Specifies the name of the trusted identity provider.
 
 ```yaml
 Type: String
@@ -121,6 +121,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -147,3 +150,8 @@ If PassThru is specified, returns true upon successful completion.
 
 ## RELATED LINKS
 
+[Add-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Add-AzureRmDataLakeStoreTrustedIdProvider.md)
+
+[Get-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Get-AzureRmDataLakeStoreTrustedIdProvider.md)
+
+[Set-AzureRmDataLakeStoreTrustedIdProvider](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreTrustedIdProvider.md)

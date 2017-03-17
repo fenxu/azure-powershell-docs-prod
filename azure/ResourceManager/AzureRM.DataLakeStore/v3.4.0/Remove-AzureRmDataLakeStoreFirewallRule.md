@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 6C7A7E1A-87A2-4F0D-9091-413C111F47F0
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 3:58 PM
-ms.date: 3/11/2017
+updated_at: 3/17/2017 6:09 PM
+ms.date: 3/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreFirewallRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bc71000aa3c7f754b95442dcc415a7324626a15c/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0c6d34291d6e279f6425bb71047d00f2db263ece/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,15 +38,15 @@ The **Remove-AzureRmDataLakeStoreFirewallRule** cmdlet removes the specified fir
 
 ### Example 1: Remove a firewall rule from an account
 ```
-PS C:\> Remove-AzureRmDataLakeStoreFirewallRule -AccountName "ContosoADL" -Name MyFirewallRule
+PS C:\> Remove-AzureRmDataLakeStoreFirewallRule -AccountName "ContosoADL" -Name "MyFirewallRule"
 ```
 
-Removes firewall rule "MyFirewallRule" from account "ContosoADL"
+This command removes the firewall rule named MyFirewallRule from the account named ContosoADL.
 
 ## PARAMETERS
 
 ### -Account
-The Data Lake Store account to update the firewall rule in
+Specifies the Data Lake Store account that this cmdlet updates the firewall rule in.
 
 ```yaml
 Type: String
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the firewall rule to delete.
+Specifies the name of the firewall rule that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -121,6 +121,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -147,3 +150,8 @@ If PassThru is specified, returns true upon successful completion.
 
 ## RELATED LINKS
 
+[Add-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Add-AzureRmDataLakeStoreFirewallRule.md)
+
+[Get-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Get-AzureRmDataLakeStoreFirewallRule.md)
+
+[Set-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreFirewallRule.md)

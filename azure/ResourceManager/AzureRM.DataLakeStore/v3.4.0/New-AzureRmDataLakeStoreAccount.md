@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 58AAA284-45A3-4360-B321-FBE0A3F5D7A9
 online version: 
 schema: 2.0.0
-updated_at: 3/14/2017 9:28 PM
-ms.date: 3/14/2017
+updated_at: 3/17/2017 6:09 PM
+ms.date: 3/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/New-AzureRmDataLakeStoreAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/New-AzureRmDataLakeStoreAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d8384dc6d4871e100f6fbe8e7ea2f22a27c908c2/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/New-AzureRmDataLakeStoreAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0c6d34291d6e279f6425bb71047d00f2db263ece/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/New-AzureRmDataLakeStoreAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -55,7 +55,7 @@ This command creates a Data Lake Store account named ContosoADL for the East US 
 ## PARAMETERS
 
 ### -DefaultGroup
-Specifies the object ID of the AzureActive Directory group to use as the default group owner for new files and folders.
+Specifies the object ID of the Azure Active Directory group to use as the default group owner for new files and folders.
 
 ```yaml
 Type: String
@@ -70,7 +70,9 @@ Accept wildcard characters: False
 ```
 
 ### -DisableEncryption
-Indicates that the account will not have any form of encryption applied to it.```yaml
+Indicates that the account will not have any form of encryption applied to it.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: Disable Encryption
 Aliases: 
@@ -232,5 +234,3 @@ The created account details.
 [Set-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreAccount.md)
 
 [Test-AzureRmDataLakeStoreAccount](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Test-AzureRmDataLakeStoreAccount.md)
-
-
