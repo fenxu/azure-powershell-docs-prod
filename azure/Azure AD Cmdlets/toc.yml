@@ -104,6 +104,10 @@
           href: ../AzureAD/v2/Get-AzureADGroupMember.md
         - name: Get-AzureADGroupOwner
           href: ../AzureAD/v2/Get-AzureADGroupOwner.md
+        - name: Get-AzureADMSDeletedDirectoryObject
+          href: ../AzureAD/v2/Get-AzureADMSDeletedDirectoryObject.md
+        - name: Get-AzureADMSDeletedGroup
+          href: ../AzureAD/v2/Get-AzureADMSDeletedGroup.md
         - name: Get-AzureADMSGroup
           href: ../AzureAD/v2/Get-AzureADMSGroup.md
         - name: Get-AzureADOAuth2PermissionGrant
@@ -256,6 +260,8 @@
           href: ../AzureAD/v2/Remove-AzureADGroupMember.md
         - name: Remove-AzureADGroupOwner
           href: ../AzureAD/v2/Remove-AzureADGroupOwner.md
+        - name: Remove-AzureADMSDeletedDirectoryObject
+          href: ../AzureAD/v2/Remove-AzureADMSDeletedDirectoryObject.md
         - name: Remove-AzureADMSGroup
           href: ../AzureAD/v2/Remove-AzureADMSGroup.md
         - name: Remove-AzureADOAuth2PermissionGrant
@@ -290,6 +296,8 @@
           href: ../AzureAD/v2/Remove-AzureADUserManager.md
         - name: Restore-AzureADDeletedApplication
           href: ../AzureAD/v2/Restore-AzureADDeletedApplication.md
+        - name: Restore-AzureADMSDeletedDirectoryObject
+          href: ../AzureAD/v2/Restore-AzureADMSDeletedDirectoryObject.md
         - name: Revoke-AzureADSignedInUserAllRefreshToken
           href: ../AzureAD/v2/Revoke-AzureADSignedInUserAllRefreshToken.md
         - name: Revoke-AzureADUserAllRefreshToken
