@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 3B666786-2620-4E80-9A36-552B942A9F7C
 online version: 
 schema: 2.0.0
-updated_at: 3/20/2017 6:45 PM
+updated_at: 3/20/2017 7:10 PM
 ms.date: 3/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cad7b4de05e310b3cf002fd8f363fdca7f98e615/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c97fa3830babb4ea39f9fe9396213e6afd1eda0a/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -52,18 +52,20 @@ $servicePrincipal = Get-AzureADServicePrincipal -Filter “appId eq ‘$appId'�
 
 # Create the user app role assignment
 
-New-AzureADUserAppRoleAssignment -ObjectId $user.ObjectId -PrincipalId $user.ObjectId -ResourceId $servicePrincipal.ObjectId -Id ([Guid]::Empty```
+New-AzureADUserAppRoleAssignment -ObjectId $user.ObjectId -PrincipalId $user.ObjectId -ResourceId $servicePrincipal.ObjectId -Id ([Guid]::Empty)
+```
 
 This command assigns a user to and application that doesn;t have any roles.
 
 ### Example 2: Assign a user to a specific role within an application
 
-`
+```
 $username = "<You user's UPN>"
 $appname = "<Your App's display name>"
 $spo = Get-AzureADServicePrincipal -Filter "Displayname eq '$appname'"
 $user = Get-AzureADUser -ObjectId $username
-New-AzureADUserAppRoleAssignment -ObjectId $user.ObjectId -PrincipalId $user.ObjectId -ResourceId $spo.ObjectId -Id $spo.Approles[1].id`
+New-AzureADUserAppRoleAssignment -ObjectId $user.ObjectId -PrincipalId $user.ObjectId -ResourceId $spo.ObjectId -Id $spo.Approles[1].id
+```
 
 This cmdlet assigns to the specified user the application role of which the Id is specified with $spo.Approles[1].id. please refer to the description of the -Id parameter for more information on how to retrieve application roles for an application.
 
@@ -74,11 +76,11 @@ The ID of the app role to assign. Provide an empty guid when creating a new app 
 
 You can retrieve the application's roles by examining the application object's AppRoles property:
 
-`Get-AzureadApplication -SearchString "<Your App's display name>" | select Approles | Fl`
+```Get-AzureadApplication -SearchString "<Your App's display name>" | select Approles | Fl```
 
 This cmdlet returns the list of roles that are defined in an application:
 
-`AppRoles : {class AppRole {
+```AppRoles : {class AppRole {
              AllowedMemberTypes: System.Collections.Generic.List1[System.String]
              Description: <description for this role>
              DisplayName: <display name for this role>
@@ -86,7 +88,8 @@ This cmdlet returns the list of roles that are defined in an application:
              IsEnabled: True
              Value: <Value that will be transmitted as a claim in a token for this role>
            }
-           }`
+           }
+```
 
 
 ```yaml
