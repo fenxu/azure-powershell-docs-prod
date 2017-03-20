@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 7DC1958A-D7DE-44AF-A5B1-9C90ABF0B89A
 online version: 
 schema: 2.0.0
-updated_at: 2/4/2017 12:05 AM
-ms.date: 2/4/2017
+updated_at: 3/17/2017 3:37 PM
+ms.date: 3/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8fd00d1ecfa6331cf12575deac6511b2c92cfa1f/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -44,10 +44,10 @@ New-AzureADServicePrincipal [-AccountEnabled <String>]
 
 ### Example 1: Create a service principal
 ```
-PS C:\>New-AzureADServicePrincipal -AccountEnabled $true -AppId $MyApp.AppId -AppRoleAssignmentRequired $true -DisplayName $App
+PS C:\>New-AzureADServicePrincipal -AccountEnabled $true -AppId $MyApp.AppId -AppRoleAssignmentRequired $true -DisplayName $App -Tags {WindowsAzureActiveDirectoryIntegratedApp}
 ```
 
-This command creates a service principal.
+This command creates a service principal. The tag "-Tags {WindowsAzureActiveDirectoryIntegratedApp}" is used to have this service principal show up in the list of Integrated Applicatins in the Admin Portal.
 
 ## PARAMETERS
 
@@ -279,7 +279,10 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-Tags linked to this service principal
+Tags linked to this service principal.
+
+Note that if you intend for this service principal to show up in the All Applications list in the admin portal, you need to set this value to {WindowsAzureActiveDirectoryIntegratedApp} 
+
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)

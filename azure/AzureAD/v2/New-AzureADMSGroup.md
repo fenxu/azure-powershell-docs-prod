@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 2/8/2017 11:53 PM
-ms.date: 2/8/2017
+updated_at: 3/16/2017 8:31 PM
+ms.date: 3/16/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1832f8b83a65336d1b6d21bb9072f421b6a5438c/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/350e6779cb6ee2afdf94bfaa4495e7be51a3cf5b/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -27,13 +27,13 @@ Creates an Azure AD group.
 ```
 New-AzureADMSGroup [-Description <String>] -DisplayName <String> -MailEnabled <Boolean> -MailNickname <String>
  -SecurityEnabled <Boolean> [-GroupTypes <System.Collections.Generic.List`1[System.String]>]
- [-MembershipRule <String>] [-MembershipRuleProcessingState <String>]
+ [-MembershipRule <String>] [-MembershipRuleProcessingState <String>] [-Visibility <String>]
 ```
 
 ## DESCRIPTION
-The **New-AzureADMSGroup** cmdlet creates an Azure Active Directory (Azure AD) group.
+The New-AzureADMSGroup cmdlet creates an Azure Active Directory (Azure AD) group.
 
-For information about creating dynamic groups, see [Using attributes to create advanced rules](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/).
+For information about creating dynamic groups, see Using attributes to create advanced rules (https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/).
 
 ## EXAMPLES
 
@@ -58,15 +58,13 @@ MembershipRule                : (user.department -eq "Marketing") MembershipRule
 
 This command creates a new dynamic group with the following rule:
 
-`user.department -contains "Marketing"`
+\`user.department -contains "Marketing"\`
 
-
-The double quotation marks are replaced with single quotation marks. 
+The double quotation marks are replaced with single quotation marks.
 
 The processing state is On. 
 This means that all users in the directory that qualify the rule are added as members to the group.
 Any users that do not qualify are removed from the group.
-
 
 ## PARAMETERS
 
@@ -119,7 +117,7 @@ Accept wildcard characters: False
 
 ### -MailNickname
 Specifies a mail nickname for the group.
-If _MailEnabled_ is $False, you must specify a mail nickname.
+If MailEnabled is $False, you must specify a mail nickname.
 
 ```yaml
 Type: String
@@ -168,7 +166,7 @@ Accept wildcard characters: False
 ### -MembershipRule
 Specifies the membership rule for a dynamic group.
 
-For more information about the rules that you can use for dynamic groups, see [Using attributes to create advanced rules](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/).
+For more information about the rules that you can use for dynamic groups, see Using attributes to create advanced rules (https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/).
 
 ```yaml
 Type: String
@@ -186,9 +184,38 @@ Accept wildcard characters: False
 Specifies the rule processing state.
 The acceptable values for this parameter are:
 
-* On. Process the group rule.
-* Paused. Stop processing the group rule. 
-The members list remains unchanged.
+* "On". Process the group rule.
+* "Paused". Stop processing the group rule.
+
+Changing the value of the processing state does not change the members list of the group.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Visibility
+
+This parameter determines the visibility of the group's content and members list. This parameter can take one of the following values:
+
+"Public" - Anyone can view the contents of the group
+"Private" - Only members can view the content of the group
+"HiddenMembership" - Only members can view the content of the group and only members can view the members list of the group.
+
+If no value is provided, the default value will be "Public".
+
+Notes:
+
+1. This parameter is only valid for groups that have the groupType set to "Unified".
+2. If a group has this attribute set to "HiddenMembership" it cannot be changed later.
+3. Anyone can join a group that has this attribute set to "Public". If the attribute is set to Private or HiddenMembership, only owner(s) can add new members to the group and requests to join the group need approval of the owner(s).
 
 ```yaml
 Type: String
@@ -216,10 +243,12 @@ While a cmdlet is in Public Preview, we may make changes to the cmdlet which cou
 We recommend that you do not use this cmdlet in a production environment.
 
 ## RELATED LINKS
-[Get-AzureADMSGroup](xref:AzureAD/v2/Get-AzureADMSGroup.md)
 
-[Remove-AzureADMSGroup](xref:AzureAD/v2/Remove-AzureADMSGroup.md)
+[Get-AzureADMSGroup]()
 
-[Set-AzureADMSGroup](xref:AzureAD/v2/Set-AzureADMSGroup.md)
+[Remove-AzureADMSGroup]()
+
+[Set-AzureADMSGroup]()
 
 [Using attributes to create advanced rules](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/)
+
