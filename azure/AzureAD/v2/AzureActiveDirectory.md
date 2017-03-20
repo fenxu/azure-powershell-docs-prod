@@ -5,11 +5,11 @@ Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
 ms.assetid: 7D9D9507-ADE5-45BD-97F8-0CCCDA3D3B58
-updated_at: 2/4/2017 12:05 AM
-ms.date: 2/4/2017
+updated_at: 3/20/2017 3:59 PM
+ms.date: 3/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4ac235ec652c712877e6b99b942fff016cd3ffaa/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
 uid: AzureAD/v2/AzureActiveDirectory.md
 ms.topic: conceptual
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: active-directory
 ---
 # Azure Active Directory V2 PowerShell module
 ## Description
-The Azure Active Directory version 2 PowerShell module can be downloaded from the PowerShell Gallery at the AzureAD page. For more detailed info on installation of the AzureAD cmdlets please see: [Azure Active Directory PowerShell version 2](https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/index.md).
+The Azure Active Directory version 2 PowerShell module can be downloaded from the PowerShell Gallery at the AzureAD page. For more detailed info on installation of the AzureAD cmdlets please see: [Azure Active Directory PowerShell version 2](https://docs.microsoft.com/en-us/powershell/azuread/).
 
 These are the cmdlets in the Azure Active Directory v2 PowerShell module.
 
