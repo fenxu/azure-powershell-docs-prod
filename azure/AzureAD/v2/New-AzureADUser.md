@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: A5DDAF58-A04C-4B8F-8AFE-A491387ABCB0
 online version: 
 schema: 2.0.0
-updated_at: 2/4/2017 12:05 AM
-ms.date: 2/4/2017
+updated_at: 3/20/2017 8:51 PM
+ms.date: 3/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b2318b65589982db41614aecf38a31e46079a2d4/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -45,7 +45,9 @@ The **New-AzureADUser** cmdlet creates a user in Azure Active Directory (AD).
 
 ### Example 1: Create a user
 ```
-PS C:\>New-AzureADUser -DisplayName "New user" -PasswordProfile $password -AccountEnabled $true -MailNickName "bpos" -UserPrincipalName "NewUser@contoso.com"
+$PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+$PasswordProfile.Password = "<Password>"
+New-AzureADUser -DisplayName "New User" -PasswordProfile $PasswordProfile -UserPrincipalName "NewUser@contoso.com" -AccountEnabled $true -MailNickName "Newuser"
 
 ObjectId                             DisplayName UserPrincipalName               UserType
 --------                             ----------- -----------------               --------
@@ -285,7 +287,7 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordPolicies
-Specifies the user's password policies.
+Specifies password policies for the user. This value is an enumeration with one possible value being "DisableStrongPassword", which allows weaker passwords than the default policy to be specified. "DisablePasswordExpiration" can also be specified. The two may be specified together; for example: "DisablePasswordExpiration, DisableStrongPassword".
 
 ```yaml
 Type: String
@@ -300,7 +302,23 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordProfile
-Specifies the user's password profile.
+Specifies the user's password profile. Note that the parameter type for this parameter is "PasswordProfile". in order to pass a parameter of this type, you first need to create a vairable in PowerShell with that type:
+
+```$PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile```
+
+Then you can proceed to set the value of the password in this variable:
+
+```$PasswordProfile.Password = "<Password>```
+
+And finally you can pass this variable to the cmdlet:
+
+```New-AzureADUser -PasswordProfile $PasswordProfile ...```
+
+Other attributes that can be set in the PasswordProfile are
+
+$PasswordProfile.EnforceChangePasswordPolicy - a boolean indicating that the change password policy is enababled or disabled for this user
+$PasswordProfile.ForceChangePasswordNextLogin - a boolean indicating that the user must change the password at the next sign in
+
 
 ```yaml
 Type: PasswordProfile
