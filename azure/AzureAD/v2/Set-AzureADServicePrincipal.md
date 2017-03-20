@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 540A8E20-80C9-48D8-BE49-E1DA84FD3BF7
 online version: 
 schema: 2.0.0
-updated_at: 2/4/2017 12:05 AM
-ms.date: 2/4/2017
+updated_at: 3/20/2017 11:20 PM
+ms.date: 3/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d0887c87da28d9758d8d55b202d3b8fac71a7ec5/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -293,6 +293,7 @@ Accept wildcard characters: False
 
 ### -Tags
 Specifies an array of tags.
+Note that if you intend for this service principal to show up in the All Applications list in the admin portal, you need to set this value to {WindowsAzureActiveDirectoryIntegratedApp} 
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
