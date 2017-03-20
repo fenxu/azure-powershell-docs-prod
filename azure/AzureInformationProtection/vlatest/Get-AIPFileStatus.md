@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=838765
 schema: 2.0.0
 ms.assetid: ED3F3730-434E-4EDF-969B-0ABE30D68030
-updated_at: 3/14/2017 10:40 AM
-ms.date: 3/14/2017
+updated_at: 3/20/2017 4:34 PM
+ms.date: 3/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/acd24eb0dc68fa40d9e89638fcda6777c0c9b3f1/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e56d400b7731e681299acc4ab6717eba1e8ef451/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure Powershell
@@ -82,7 +82,9 @@ This command provides the number of files with the "Confidential" label that are
 ## PARAMETERS
 
 ### -Path
-Specifies a local or network path to the files for which you want to get the label and protection information. Examples include C:\Folder\, C:\Folder\Filename, \\Server\Folder). Wildcards are not supported. 
+Specifies a local or network path to the files for which you want to get the label and protection information. Wildcards are not supported.
+
+Examples include C:\Folder\, C:\Folder\Filename, \\Server\Folder.
 
 ```yaml
 Type: String[]
