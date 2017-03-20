@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: DDB38A77-E5C0-47DD-BADD-94488F661CD5
 online version: 
 schema: 2.0.0
-updated_at: 3/14/2017 10:59 PM
-ms.date: 3/14/2017
+updated_at: 3/17/2017 9:06 PM
+ms.date: 3/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmNetworkInterface.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmNetworkInterface.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7b8544897e9b6d31b31df0cd980d5b5316590bc7/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmNetworkInterface.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b739d1f70fe914c4a7e0bac010e8dc44a028c563/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Set-AzureRmNetworkInterface.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -79,11 +79,10 @@ $nic | Set-AzureRmNetworkInterface
 ```
 The first command gets the network interface NetworkInterface1 and stores it in the $nic variable. The second command gets the virtual network associated with the subnet that the network interface is going to be associated with. The second command gets the subnet and stores it in the $subnet2 variable. The third command associated the primary private IP address of the network interface with the new subnet. Finally the last command applied these changes on the network interface.
 
->[!NOTE] 
->The IP configurations must be dynamic before you can change the subnet. If you have static IP configurations, change then to dynamic before proceeding. 
+Note that the IP configurations must be dynamic before you can change the subnet. If you have static IP configurations, change them to dynamic before proceeding. 
 
->[!NOTE]
->If the network interface has multiple IP configurations, the forth command must be done for all these IP configurations before the final Set-AzureRmNetworkInterface command is executed. This can be done as in the forth command but by replacing 0 with the appropriate number. If a network interface has N IP configurations, then N-1 of these commands must exist.
+
+Note that if the network interface has multiple IP configurations, the forth command must be done for all these IP configurations before the final Set-AzureRmNetworkInterface command is executed. This can be done as in the forth command but by replacing 0 with the appropriate number. If a network interface has N IP configurations, then N-1 of these commands must exist.
 
 ### Example 5: Associate/Dissociate a Network Security Group to a network interface
 ```
