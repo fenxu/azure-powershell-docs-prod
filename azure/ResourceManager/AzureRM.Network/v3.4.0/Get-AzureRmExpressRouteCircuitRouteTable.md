@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: BA7F6BAC-6047-42B0-B8CA-0B36302951B0
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/21/2017 2:02 PM
+ms.date: 3/21/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmExpressRouteCircuitRouteTable.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmExpressRouteCircuitRouteTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmExpressRouteCircuitRouteTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/15d529ff9b2927759260f1c64a8346738b1aefa1/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmExpressRouteCircuitRouteTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,7 +37,7 @@ Get-AzureRmExpressRouteCircuitRouteTable [-Name <String>] -ResourceGroupName <St
 
 ### 1:
 ```
-PS C:\>
+PS C:\> 
 ```
 
 ## PARAMETERS

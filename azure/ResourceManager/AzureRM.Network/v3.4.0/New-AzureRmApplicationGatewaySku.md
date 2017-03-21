@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 48C33FAF-83C1-4725-AD2A-CF48D0718182
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/21/2017 2:02 PM
+ms.date: 3/21/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmApplicationGatewaySku.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmApplicationGatewaySku.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmApplicationGatewaySku.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/15d529ff9b2927759260f1c64a8346738b1aefa1/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/New-AzureRmApplicationGatewaySku.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,7 +38,7 @@ The **New-AzureRmApplicationGatewaySku** cmdlet creates a stock keeping unit (SK
 
 ### Example 1: Create a SKU for an Azure application gateway
 ```
-PS C:\>$SKU = New-AzureRmApplicationGatewaySku -Name "Standard_Small" -Tier "Standard" -Capacity 2
+PS C:\> $SKU = New-AzureRmApplicationGatewaySku -Name "Standard_Small" -Tier "Standard" -Capacity 2
 ```
 
 This command creates a SKU named Standard_Small for an Azure application gateway and stores the result in the variable named $SKU.

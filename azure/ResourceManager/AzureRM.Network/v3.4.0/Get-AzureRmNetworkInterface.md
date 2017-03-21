@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: E066BBFA-2E03-431D-85D1-99F230B6AC59
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/21/2017 2:02 PM
+ms.date: 3/21/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmNetworkInterface.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmNetworkInterface.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmNetworkInterface.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/15d529ff9b2927759260f1c64a8346738b1aefa1/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmNetworkInterface.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -59,14 +59,14 @@ The **Get-AzureRmNetworkInterface** cmdlet gets an Azure network interface or a 
 
 ### Example 1: Get all network interfaces
 ```
-PS C:\>Get-AzureRmNetworkInterface
+PS C:\> Get-AzureRmNetworkInterface
 ```
 
 This command gets all network interfaces for the current subscription.
 
 ### Example 2: Get all network interfaces with a specific provisioning state
 ```
-PS C:\>Get-AzureRmNetworkInterface -ResourceGroupName "ResourceGroup1" | Where-Object {$_.ProvisioningState -eq 'Succeeded'}
+PS C:\> Get-AzureRmNetworkInterface -ResourceGroupName "ResourceGroup1" | Where-Object {$_.ProvisioningState -eq 'Succeeded'}
 ```
 
 This command gets all network interfaces in the resource group named ResourceGroup1 that has a provisioning state of succeeded.

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 77CDEE77-FD5D-4C2D-B027-FF1F6FF6618E
 online version: 
 schema: 2.0.0
-updated_at: 1/20/2017 9:17 PM
-ms.date: 1/20/2017
+updated_at: 3/21/2017 2:02 PM
+ms.date: 3/21/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmApplicationGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cb06bb906911a2a2e1f57adbafe0c0c97a0b205b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/15d529ff9b2927759260f1c64a8346738b1aefa1/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Get-AzureRmApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -38,21 +38,21 @@ The **Get-AzureRmApplicationGateway** cmdlet gets an application gateway.
 
 ### Example 1: Get a specified application gateway
 ```
-PS C:\>$AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
+PS C:\> $AppGw = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 ```
 
 This command gets the application gateway named ApplicationGateway01 that belongs to the resource group named ResourceGroup01 and stores it in the $AppGw variable.
 
 ### Example 2: Get a list of application gateways in a resource group
 ```
-PS C:\>$AppGwList = Get-AzureRmApplicationGateway -ResourceGroupName "ResourceGroup01"
+PS C:\> $AppGwList = Get-AzureRmApplicationGateway -ResourceGroupName "ResourceGroup01"
 ```
 
 This command gets a list of all the application gateways in the resource group named ResourceGroup01 and stores it in the $AppGwList variable.
 
 ### Example 3: Get a list of application gateways in a subscription
 ```
-PS C:\>$AppGwList = Get-AzureRmApplicationGateway
+PS C:\> $AppGwList = Get-AzureRmApplicationGateway
 ```
 
 This command gets a list of all the application gateways in the subscription and stores it in the $AppGwList variable.
