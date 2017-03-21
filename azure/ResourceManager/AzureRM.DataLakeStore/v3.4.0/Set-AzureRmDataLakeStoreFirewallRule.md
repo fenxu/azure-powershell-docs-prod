@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 ms.assetid: 9983EA1E-2515-4F5D-8476-8D0EE9837E88
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 3:58 PM
-ms.date: 3/11/2017
+updated_at: 3/21/2017 12:23 PM
+ms.date: 3/21/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreFirewallRule.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreFirewallRule.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bc71000aa3c7f754b95442dcc415a7324626a15c/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreFirewallRule.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4499869bc0faff3fb485da30d0f1204a99885312/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreFirewallRule.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -41,12 +41,12 @@ The **Set-AzureRmDataLakeStoreFirewallRule** cmdlet modifies the specified firew
 PS C:\> Set-AzureRmDataLakeStoreFirewallRule -AccountName "ContosoADL" -Name MyFirewallRule -StartIpAddress "127.0.0.1" -EndIpAddress "127.0.0.2"
 ```
 
-Updates the firewall rule "MyFirewallRule" in account "ContosoADL" to have a range of 127.0.0.1 - 127.0.0.2
+This command updates the firewall rule named MyFirewallRule in the account named ContosoADL to have a range of 127.0.0.1 - 127.0.0.2.
 
 ## PARAMETERS
 
 ### -Account
-The Data Lake Store account to update the firewall rule in
+Specifies the Data Lake Store account that this cmdlet updates the firewall rule.
 
 ```yaml
 Type: String
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndIpAddress
-The end of the valid ip range for the firewall rule
+Specifies the end of the valid IP range for the firewall rule.
 
 ```yaml
 Type: String
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the firewall rule.
+Specifies the name of the firewall rule.
 
 ```yaml
 Type: String
@@ -106,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartIpAddress
-The start of the valid ip range for the firewall rule
+Specifies the start of the valid IP range for the firewall rule.
 
 ```yaml
 Type: String
@@ -136,6 +136,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -162,3 +165,8 @@ The details of the updated firewall rule.
 
 ## RELATED LINKS
 
+[Add-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Add-AzureRmDataLakeStoreFirewallRule.md)
+
+[Get-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Get-AzureRmDataLakeStoreFirewallRule.md)
+
+[Remove-AzureRmDataLakeStoreFirewallRule](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Remove-AzureRmDataLakeStoreFirewallRule.md)

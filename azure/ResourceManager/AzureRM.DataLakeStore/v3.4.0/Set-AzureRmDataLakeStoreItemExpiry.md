@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 3:58 PM
-ms.date: 3/11/2017
+updated_at: 3/21/2017 12:23 PM
+ms.date: 3/21/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreItemExpiry.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreItemExpiry.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bc71000aa3c7f754b95442dcc415a7324626a15c/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreItemExpiry.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4499869bc0faff3fb485da30d0f1204a99885312/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.4.0/Set-AzureRmDataLakeStoreItemExpiry.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -40,7 +40,7 @@ The **Set-AzureRmDataLakeStoreItemExpiry** cmdlet sets or removes the expire tim
 PS C:\> Set-AzureRmDataLakeStoreItemExpiry -AccountName "ContosoADL" -Path /myfile.txt -Expiration [DateTimeOffset]::Now.AddHours(2)
 ```
 
-Sets expiration on the file myfile.txt in account ContosoADL to be two hours from now.
+This command sets the expiration on the file myfile.txt in the account named ContosoADL to be two hours from now.
 This will cause the file to expire (be marked for delete) in two hours.
 
 ### Example 2: Remove the expiration on a file
@@ -48,7 +48,7 @@ This will cause the file to expire (be marked for delete) in two hours.
 PS C:\> Set-AzureRmDataLakeStoreItemExpiry -AccountName "ContosoADL" -Path /myfile.txt
 ```
 
-Removes any expiration that was previously set on file 'myfile.txt' in account 'ContosoADL'.
+This command removes any expiration that was previously set on file myfile.txt in the account named ContosoADL.
 This means the file will not automatically expire (be marked for delete) and will need to be manually deleted or set to expire again.
 
 ## PARAMETERS
@@ -69,7 +69,7 @@ Accept wildcard characters: False
 ```
 
 ### -Expiration
-The absolute expiration time for the specified file.
+Specifies the absolute expiration time for the specified file.
 If no value or set to MaxValue, the file will never expire.
 
 ```yaml
@@ -145,5 +145,4 @@ Alias: Set-AdlStoreItemExpiry
 
 ## RELATED LINKS
 
-[Get-AzureRmDataLakeStoreItem]()
-
+[Get-AzureRmDataLakeStoreItem](xref:ResourceManager/AzureRM.DataLakeStore/v3.4.0/Get-AzureRmDataLakeStoreItem.md)
