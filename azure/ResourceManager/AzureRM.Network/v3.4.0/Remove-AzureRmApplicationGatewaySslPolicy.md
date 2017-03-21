@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: A308E4DD-49FA-4905-94A7-CEA3AAEC3959
 online version: 
 schema: 2.0.0
-updated_at: 3/21/2017 2:02 PM
+updated_at: 3/21/2017 6:13 PM
 ms.date: 3/21/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Remove-AzureRmApplicationGatewaySslPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Remove-AzureRmApplicationGatewaySslPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/15d529ff9b2927759260f1c64a8346738b1aefa1/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Remove-AzureRmApplicationGatewaySslPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d9ae53af4f30e3fdba8e37167763368d1789687b/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.4.0/Remove-AzureRmApplicationGatewaySslPolicy.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -36,7 +36,7 @@ The Remove-AzureRmApplicationGatewaySslPolicy cmdlet removes SSL policy from an 
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Remove an SSL policy from an application gateway  --------------------------
+### Example 1: Remove an SSL policy from an application gateway  --------------------------
 @{paragraph=PS C:\\\>}
 
 
