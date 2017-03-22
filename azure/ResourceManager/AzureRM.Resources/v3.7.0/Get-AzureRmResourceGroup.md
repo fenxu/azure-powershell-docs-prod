@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 5B17A241-BF36-48A6-BC29-4C32C08F5F94
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/22/2017 6:02 PM
+ms.date: 3/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -48,14 +48,14 @@ For more information about Azure resources and Azure resource groups, see the Ne
 
 ### Example 1: Get a resource group by name
 ```
-PS C:\>Get-AzureRmResourceGroup -Name "EngineerBlog"
+PS C:\> Get-AzureRmResourceGroup -Name "EngineerBlog"
 ```
 
 This command gets the Azure resource group in your subscription named EngineerBlog.
 
 ### Example 2: Get all tags of a resource group
 ```
-PS C:\>(Get-AzureRmResourceGroup -Name "ContosoRG").Tags
+PS C:\> (Get-AzureRmResourceGroup -Name "ContosoRG").Tags
 ```
 
 This command gets the resource group named ContosoRG, and displays the tags associated with that group.

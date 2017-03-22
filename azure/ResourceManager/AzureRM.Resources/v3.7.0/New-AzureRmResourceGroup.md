@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 0632DAD6-F331-454F-9E7E-2164AB413E77
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/22/2017 6:02 PM
+ms.date: 3/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -45,7 +45,7 @@ An Azure resource group is a collection of Azure resources that are deployed as 
 
 ### Example 1: Create an empty resource group
 ```
-PS C:\>New-AzureRmResourceGroup -Name "RG01" -Location "South Central US"
+PS C:\> New-AzureRmResourceGroup -Name "RG01" -Location "South Central US"
 ```
 
 This command creates a resource group that has no resources.
@@ -53,7 +53,7 @@ You can use the **New-AzureRmResource** or **New-AzureRmResourceGroupDeployment*
 
 ### Example 2: Create a resource group with tags
 ```
-PS C:\>New-AzureRmResourceGroup -Name "RG01" -Location "South Central US" -Tag @{Name="Empty"}, @{Name="Department";Value="Marketing"}
+PS C:\> New-AzureRmResourceGroup -Name "RG01" -Location "South Central US" -Tag @{Name="Empty"}, @{Name="Department";Value="Marketing"}
 ```
 
 This command creates an empty resource group.
