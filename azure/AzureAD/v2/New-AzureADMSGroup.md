@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 3/16/2017 8:31 PM
-ms.date: 3/16/2017
+updated_at: 3/22/2017 12:01 AM
+ms.date: 3/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/live/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/350e6779cb6ee2afdf94bfaa4495e7be51a3cf5b/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/510276534a1b22a6eb658f77f0b005d9bd86438f/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -207,7 +207,7 @@ This parameter determines the visibility of the group's content and members list
 
 "Public" - Anyone can view the contents of the group
 "Private" - Only members can view the content of the group
-"HiddenMembership" - Only members can view the content of the group and only members can view the members list of the group.
+"HiddenMembership" - Only members can view the content of the group and only members, owners, Global/Company Administrator, User Administrator and Helpdesk Administrators can view the members list of the group.
 
 If no value is provided, the default value will be "Public".
 
