@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: BA97DB6F-F64D-417E-BD72-C2EBB2EC1AA4
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/23/2017 7:02 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Set-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Set-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Set-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/41ada73c47a1e6470a5d53dd3067fc8dd972eb71/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Set-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -46,20 +46,20 @@ To update the credentials associated with this application, please use New-Azure
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+### Example 1:
 @{paragraph=PS C:\\\>}
 
 ```
-PS E:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 -DisplayName "UpdatedAppName" -HomePage "http://www.microsoft.com" -IdentifierUris "http://UpdatedApp" -AvailableToOtherTenants $false
+PS C:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 -DisplayName "UpdatedAppName" -HomePage "http://www.microsoft.com" -IdentifierUris "http://UpdatedApp" -AvailableToOtherTenants $false
 ```
 
 Updates the properties of an existing azure active directory application with objectId "fb7b3405-ca44-4b5b-8584-12392f5d96d7".
 
-### --------------------------  Example 2  --------------------------
+### Example 2:
 @{paragraph=PS C:\\\>}
 
 ```
-PS E:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 -DisplayName "UpdatedAppName"
+PS C:\> Set-AzureRmADApplication -ObjectId fb7b3405-ca44-4b5b-8584-12392f5d96d7 -DisplayName "UpdatedAppName"
 ```
 
 Updates the display name of an existing azure active directory application with objectId "fb7b3405-ca44-4b5b-8584-12392f5d96d7".

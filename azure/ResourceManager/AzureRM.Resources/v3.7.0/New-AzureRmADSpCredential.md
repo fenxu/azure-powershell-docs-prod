@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 063BAA79-484D-48CF-9170-3808813752BD
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/23/2017 7:02 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADSpCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADSpCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADSpCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/41ada73c47a1e6470a5d53dd3067fc8dd972eb71/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADSpCredential.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -58,17 +58,17 @@ The service principal is identified by supplying either the object id or service
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+### Example 1:
 @{paragraph=PS C:\\\>}
 
 ```
-PS E:\> New-AzureRmADSpCredential -ObjectId 1f99cf81-0146-4f4e-beae-2007d0668476 -Password "P@ssw0rd!"
+PS C:\> New-AzureRmADSpCredential -ObjectId 1f99cf81-0146-4f4e-beae-2007d0668476 -Password "P@ssw0rd!"
 ```
 
 A new password credential is added to an existing service principal.
 In this example, the supplied password value is added to the service principal using the objectId.
 
-### --------------------------  Example 2  --------------------------
+### Example 2:
 @{paragraph=PS C:\\\>}
 
 ```
@@ -80,7 +80,7 @@ $binCert = $cer.GetRawCertData()
 
 $credValue = [System.Convert]::ToBase64String($binCert)
 
-PS E:\> New-AzureRmADSpCredential -ServicePrincipalName "http://test123" -CertValue $credValue -StartDate $cer.GetEffectiveDateString() -EndDate $cer.GetExpirationDateString()
+PS C:\> New-AzureRmADSpCredential -ServicePrincipalName "http://test123" -CertValue $credValue -StartDate $cer.GetEffectiveDateString() -EndDate $cer.GetExpirationDateString()
 ```
 
 A new key credential is added to an existing service principal.
@@ -90,7 +90,7 @@ In this example, the supplied base64 encoded public X509 certificate ("myapp.cer
 @{paragraph=PS C:\\\>}
 
 ```
-PS E:\> New-AzureRmADSpCredential -ServicePrincipalName "http://test123" -CertValue $credValue
+PS C:\> New-AzureRmADSpCredential -ServicePrincipalName "http://test123" -CertValue $credValue
 ```
 
 ## PARAMETERS

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: E460D108-2BF9-4F57-AF3D-13868DC73EA0
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/23/2017 7:02 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmRoleAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/41ada73c47a1e6470a5d53dd3067fc8dd972eb71/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmRoleAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -120,7 +120,7 @@ ResourceName, ResourceType, ResourceGroupName and (optionally) ParentResource - 
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+### Example 1:
 @{paragraph=PS C:\\\>}
 
 ```
@@ -129,7 +129,7 @@ PS C:\> New-AzureRmRoleAssignment -ResourceGroupName rg1 -SignInName allen.young
 
 Grant Reader role access to a user at a resource group scope
 
-### --------------------------  Example 2  --------------------------
+### Example 2:
 @{paragraph=PS C:\\\>}
 
 ```
