@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 36399302-3EA5-45A3-A042-536CC7EC2E6D
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/22/2017 6:02 PM
+ms.date: 3/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyAssignment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,7 +47,7 @@ The **Remove-AzureRmPolicyAssignment** cmdlet removes the specified policy assig
 
 ### Example 1: Remove policy assignment by name and scope
 ```
-PS C:\>$ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11"
+PS C:\> $ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11"
 PS C:\> Remove-AzureRmPolicyAssignment -Name "PolicyAssignment07" -Scope $ResourceGroup.ResourceId -Force
 ```
 
@@ -59,7 +59,7 @@ The **ResourceId** property of $ResourceGroup identifies the resource group.
 
 ### Example 2: Remove policy assignment by ID
 ```
-PS C:\>$ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11" 
+PS C:\> $ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11" 
 PS C:\> $PolicyAssignment = Get-AzureRmPolicyAssignment -Name "PolicyAssignment07" -Scope $ResourceGroup.ResourceId
 PS C:\> Remove-AzureRmPolicyAssignment -Id $PolicyAssignment.ResourceId -Force
 ```

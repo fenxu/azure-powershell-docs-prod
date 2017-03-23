@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: DEC01722-EB1A-45CE-BD30-9DB861718573
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/22/2017 6:02 PM
+ms.date: 3/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -47,14 +47,14 @@ The **Remove-AzureRmPolicyDefinition** cmdlet removes a policy definition.
 
 ### Example 1: Remove the policy definition by name
 ```
-PS C:\>Remove-AzureRmPolicyDefinition -Name "VMPolicyDefinition"
+PS C:\> Remove-AzureRmPolicyDefinition -Name "VMPolicyDefinition"
 ```
 
 This command removes the specified policy definition.
 
 ### Example 2: Remove policy definition by resource ID
 ```
-PS C:\>$PolicyDefinition = Get-AzureRmPolicyDefinition -Name "VMPolicyDefinition" 
+PS C:\> $PolicyDefinition = Get-AzureRmPolicyDefinition -Name "VMPolicyDefinition" 
 PS C:\> Remove-AzureRmPolicyDefinition -Id $PolicyDefinition.ResourceId -Force
 ```
 

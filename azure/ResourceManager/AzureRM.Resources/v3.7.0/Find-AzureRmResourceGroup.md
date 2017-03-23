@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: EFBBFB60-D972-47B8-997E-B737F0CA007E
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/22/2017 6:02 PM
+ms.date: 3/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Find-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Find-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Find-AzureRmResourceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Find-AzureRmResourceGroup.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -37,21 +37,21 @@ The **Find-AzureRmResourceGroup** cmdlet searches for resource groups using the 
 
 ### Example 1: Find all resource groups
 ```
-PS C:\>Find-AzureRmResourceGroup
+PS C:\> Find-AzureRmResourceGroup
 ```
 
 This command finds all resource groups.
 
 ### Example 2: Find resource groups by tag name
 ```
-PS C:\>Find-AzureRmResourceGroup -Tag @{ Name = "testtag" }
+PS C:\> Find-AzureRmResourceGroup -Tag @{ Name = "testtag" }
 ```
 
 This command finds all resource groups that have a tag named testtag.
 
 ### Example 3: Find resource groups by tag name and value
 ```
-PS C:\>Find-AzureRmResourceGroup -Tag @{ Name = "testtag"; Value = "testval" }
+PS C:\> Find-AzureRmResourceGroup -Tag @{ Name = "testtag"; Value = "testval" }
 ```
 
 This command finds all resource groups that have a tag named testtag and the value testval.

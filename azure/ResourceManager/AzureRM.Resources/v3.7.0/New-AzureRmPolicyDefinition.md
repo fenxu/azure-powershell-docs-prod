@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 31F2AF24-488D-4CAF-A9C8-C8DAE76E031F
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/22/2017 6:02 PM
+ms.date: 3/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyDefinition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyDefinition.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -39,14 +39,14 @@ The **New-AzureRmPolicyDefinition** cmdlet creates a policy definition that incl
 
 ### Example 1: Create a policy definition by using a policy file
 ```
-PS C:\>New-AzureRmPolicyDefinition -Name "VMPolicyDefinition" -Policy C:\VMPolicy.json
+PS C:\> New-AzureRmPolicyDefinition -Name "VMPolicyDefinition" -Policy C:\VMPolicy.json
 ```
 
 This command creates a policy definition named VMPolicyDefinition that contains the policy rule specified in C:\VMPolicy.json.
 
 ### Example 2: Create a policy definition inline
 ```
-PS C:\>New-AzureRmPolicyDefinition -Name "VMPolicyDefinition" -DisplayName "Virtual Machine policy definition" -Policy "{""if"":{""source"":""action"",""equals"":""Microsoft.Compute/virtualMachines/write""},""then"":{""effect"":""deny""}}"
+PS C:\> New-AzureRmPolicyDefinition -Name "VMPolicyDefinition" -DisplayName "Virtual Machine policy definition" -Policy "{""if"":{""source"":""action"",""equals"":""Microsoft.Compute/virtualMachines/write""},""then"":{""effect"":""deny""}}"
 ```
 
 This command creates a policy definition named VMPolicyDefinition.

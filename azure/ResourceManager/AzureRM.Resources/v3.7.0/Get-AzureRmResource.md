@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: C2C608E5-3351-4D01-8533-9668B2E9F1D1
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/22/2017 6:02 PM
+ms.date: 3/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -87,7 +87,7 @@ The **Get-AzureRmResource** cmdlet gets Azure resources.
 
 ### Example 1: Get a resource
 ```
-PS C:\>Get-AzureRmResource -ResourceType "microsoft.web/sites" -ResourceGroupName "ResourceGroup11" -ResourceName "ContosoWebsite"
+PS C:\> Get-AzureRmResource -ResourceType "microsoft.web/sites" -ResourceGroupName "ResourceGroup11" -ResourceName "ContosoWebsite"
 ```
 
 This command gets a resource of the type microsoft.web/sites, named ContosoWebsite under ResourceGroup11.

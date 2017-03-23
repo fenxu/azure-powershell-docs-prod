@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 20CB842B-F7A9-4052-85D9-0DF9586D5FEA
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/22/2017 6:02 PM
+ms.date: 3/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResourceGroupDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResourceGroupDeployment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResourceGroupDeployment.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -55,7 +55,7 @@ For debugging, use this cmdlet with the Get-AzureRmLog cmdlet.
 
 ### Example 1: Get all deployments for a resource group
 ```
-PS C:\>Get-AzureRmResourceGroupDeployment -ResourceGroupName "ContosoLabsRG"
+PS C:\> Get-AzureRmResourceGroupDeployment -ResourceGroupName "ContosoLabsRG"
 ```
 
 This command gets all deployments for the ContosoLabsRG resource group.
@@ -63,7 +63,7 @@ The output shows a deployment for a WordPress blog that used a gallery template.
 
 ### Example 2: Get a deployment by name
 ```
-PS C:\>Get-AzureRmResourceGroupDeployment -ResourceGroupName "ContosoLabsRG" -Name "DeployWebsite01"
+PS C:\> Get-AzureRmResourceGroupDeployment -ResourceGroupName "ContosoLabsRG" -Name "DeployWebsite01"
 ```
 
 This command gets the DeployWebsite01 deployment of the ContosoLabsRG resource group.
@@ -72,7 +72,7 @@ If you do not assign a name, the cmdlets provide a default name based on the tem
 
 ### Example 3: Get the deployments of all resource groups
 ```
-PS C:\>Get-AzureRmResourceGroup | Get-AzureRmResourceGroupDeployment | Format-Table ResourceGroupName, DeploymentName, ProvisioningState
+PS C:\> Get-AzureRmResourceGroup | Get-AzureRmResourceGroupDeployment | Format-Table ResourceGroupName, DeploymentName, ProvisioningState
 ```
 
 This command gets all resource groups in your subscription by using the Get-AzureRmResourceGroup cmdlet.

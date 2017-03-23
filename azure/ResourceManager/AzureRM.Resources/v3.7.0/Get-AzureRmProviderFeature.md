@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 2970E81E-A788-4829-B1FF-B522A91DE4B1
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/22/2017 6:02 PM
+ms.date: 3/22/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmProviderFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmProviderFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmProviderFeature.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmProviderFeature.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -43,14 +43,14 @@ The **Get-AzureRmProviderFeature** cmdlet gets the feature name, provider name, 
 
 ### Example 1: Get all available features
 ```
-PS C:\>Get-AzureRmProviderFeature -ListAvailable
+PS C:\> Get-AzureRmProviderFeature -ListAvailable
 ```
 
 This command gets all available features.
 
 ### Example 2: Get information about a specific feature
 ```
-PS C:\>Get-AzureRmProviderFeature -FeatureName "AllowPreReleaseRegions" -ProviderNamespace "Microsoft.Compute"
+PS C:\> Get-AzureRmProviderFeature -FeatureName "AllowPreReleaseRegions" -ProviderNamespace "Microsoft.Compute"
 ```
 
 This command gets information for the feature named AllowPreReleaseRegions for the specified provider.
