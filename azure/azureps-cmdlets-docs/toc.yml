@@ -22127,6 +22127,27 @@
               href: ../ResourceManager/AzureRM.Storage/v1.2.0/Set-AzureRmCurrentStorageAccount.md
             - name: Set-AzureRmStorageAccount
               href: ../ResourceManager/AzureRM.Storage/v1.2.0/Set-AzureRmStorageAccount.md
+        - name: v1.1.3
+          href: ../ResourceManager/AzureRM.Storage/v1.1.3/AzureRM.Storage.md
+          items:
+            - name: Get-AzureRmStorageAccount
+              href: ../ResourceManager/AzureRM.Storage/v1.1.3/Get-AzureRmStorageAccount.md
+            - name: Get-AzureRmStorageAccountKey
+              href: ../ResourceManager/AzureRM.Storage/v1.1.3/Get-AzureRmStorageAccountKey.md
+            - name: Get-AzureRmStorageAccountNameAvailability
+              href: ../ResourceManager/AzureRM.Storage/v1.1.3/Get-AzureRmStorageAccountNameAvailability.md
+            - name: Get-AzureRmStorageUsage
+              href: ../ResourceManager/AzureRM.Storage/v1.1.3/Get-AzureRmStorageUsage.md
+            - name: New-AzureRmStorageAccount
+              href: ../ResourceManager/AzureRM.Storage/v1.1.3/New-AzureRmStorageAccount.md
+            - name: New-AzureRmStorageAccountKey
+              href: ../ResourceManager/AzureRM.Storage/v1.1.3/New-AzureRmStorageAccountKey.md
+            - name: Remove-AzureRmStorageAccount
+              href: ../ResourceManager/AzureRM.Storage/v1.1.3/Remove-AzureRmStorageAccount.md
+            - name: Set-AzureRmCurrentStorageAccount
+              href: ../ResourceManager/AzureRM.Storage/v1.1.3/Set-AzureRmCurrentStorageAccount.md
+            - name: Set-AzureRmStorageAccount
+              href: ../ResourceManager/AzureRM.Storage/v1.1.3/Set-AzureRmStorageAccount.md
     - name: AzureRM.StreamAnalytics
       items:
         - name: v2.7.0
@@ -22589,6 +22610,15 @@
               href: ../ResourceManager/AzureRM.Tags/v2.1.0/New-AzureRmTag.md
             - name: Remove-AzureRmTag
               href: ../ResourceManager/AzureRM.Tags/v2.1.0/Remove-AzureRmTag.md
+        - name: v1.0.11
+          href: ../ResourceManager/AzureRM.Tags/v1.0.11/AzureRM.Tags.md
+          items:
+            - name: Get-AzureRmTag
+              href: ../ResourceManager/AzureRM.Tags/v1.0.11/Get-AzureRmTag.md
+            - name: New-AzureRmTag
+              href: ../ResourceManager/AzureRM.Tags/v1.0.11/New-AzureRmTag.md
+            - name: Remove-AzureRmTag
+              href: ../ResourceManager/AzureRM.Tags/v1.0.11/Remove-AzureRmTag.md
     - name: AzureRM.TrafficManager
       items:
         - name: v2.7.0
@@ -22808,6 +22838,37 @@
               href: ../ResourceManager/AzureRM.TrafficManager/v2.1.0/Set-AzureRmTrafficManagerEndpoint.md
             - name: Set-AzureRmTrafficManagerProfile
               href: ../ResourceManager/AzureRM.TrafficManager/v2.1.0/Set-AzureRmTrafficManagerProfile.md
+        - name: v1.0.11
+          href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/AzureRM.TrafficManager.md
+          items:
+            - name: Add-AzureRmTrafficManagerEndpointConfig
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Add-AzureRmTrafficManagerEndpointConfig.md
+            - name: Disable-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Disable-AzureRmTrafficManagerEndpoint.md
+            - name: Disable-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Disable-AzureRmTrafficManagerProfile.md
+            - name: Enable-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Enable-AzureRmTrafficManagerEndpoint.md
+            - name: Enable-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Enable-AzureRmTrafficManagerProfile.md
+            - name: Get-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Get-AzureRmTrafficManagerEndpoint.md
+            - name: Get-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Get-AzureRmTrafficManagerProfile.md
+            - name: New-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/New-AzureRmTrafficManagerEndpoint.md
+            - name: New-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/New-AzureRmTrafficManagerProfile.md
+            - name: Remove-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Remove-AzureRmTrafficManagerEndpoint.md
+            - name: Remove-AzureRmTrafficManagerEndpointConfig
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Remove-AzureRmTrafficManagerEndpointConfig.md
+            - name: Remove-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Remove-AzureRmTrafficManagerProfile.md
+            - name: Set-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Set-AzureRmTrafficManagerEndpoint.md
+            - name: Set-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Set-AzureRmTrafficManagerProfile.md
     - name: AzureRM.UsageAggregates
       items:
         - name: v2.7.0
@@ -23443,6 +23504,89 @@
               href: ../ResourceManager/AzureRM.Websites/v2.1.0/Stop-AzureRMWebAppSlot.md
             - name: Swap-AzureRmWebAppSlot
               href: ../ResourceManager/AzureRM.Websites/v2.1.0/Swap-AzureRmWebAppSlot.md
+        - name: v1.1.3
+          href: ../ResourceManager/AzureRM.Websites/v1.1.3/AzureRM.Websites.md
+          items:
+            - name: Edit-AzureRmWebAppBackupConfiguration
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Edit-AzureRmWebAppBackupConfiguration.md
+            - name: Get-AzureRmAppServicePlan
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmAppServicePlan.md
+            - name: Get-AzureRmAppServicePlanMetrics
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmAppServicePlanMetrics.md
+            - name: Get-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebApp.md
+            - name: Get-AzureRmWebAppBackup
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppBackup.md
+            - name: Get-AzureRmWebAppBackupConfiguration
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppBackupConfiguration.md
+            - name: Get-AzureRmWebAppBackupList
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppBackupList.md
+            - name: Get-AzureRmWebAppCertificate
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppCertificate.md
+            - name: Get-AzureRmWebAppMetrics
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppMetrics.md
+            - name: Get-AzureRmWebAppPublishingProfile
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppPublishingProfile.md
+            - name: Get-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppSlot.md
+            - name: Get-AzureRmWebAppSlotConfigName
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppSlotConfigName.md
+            - name: Get-AzureRmWebAppSlotMetrics
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppSlotMetrics.md
+            - name: Get-AzureRmWebAppSlotPublishingProfile
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppSlotPublishingProfile.md
+            - name: Get-AzureRmWebAppSSLBinding
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppSSLBinding.md
+            - name: New-AzureRmAppServicePlan
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/New-AzureRmAppServicePlan.md
+            - name: New-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/New-AzureRmWebApp.md
+            - name: New-AzureRmWebAppBackup
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/New-AzureRmWebAppBackup.md
+            - name: New-AzureRmWebAppDatabaseBackupSetting
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/New-AzureRmWebAppDatabaseBackupSetting.md
+            - name: New-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/New-AzureRmWebAppSlot.md
+            - name: New-AzureRmWebAppSSLBinding
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/New-AzureRmWebAppSSLBinding.md
+            - name: Remove-AzureRmAppServicePlan
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmAppServicePlan.md
+            - name: Remove-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmWebApp.md
+            - name: Remove-AzureRmWebAppBackup
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmWebAppBackup.md
+            - name: Remove-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmWebAppSlot.md
+            - name: Remove-AzureRmWebAppSSLBinding
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmWebAppSSLBinding.md
+            - name: Reset-AzureRmWebAppPublishingProfile
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Reset-AzureRmWebAppPublishingProfile.md
+            - name: Reset-AzureRmWebAppSlotPublishingProfile
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Reset-AzureRmWebAppSlotPublishingProfile.md
+            - name: Restart-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Restart-AzureRmWebApp.md
+            - name: Restart-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Restart-AzureRmWebAppSlot.md
+            - name: Restore-AzureRmWebAppBackup
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Restore-AzureRmWebAppBackup.md
+            - name: Set-AzureRmAppServicePlan
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Set-AzureRmAppServicePlan.md
+            - name: Set-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Set-AzureRmWebApp.md
+            - name: Set-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Set-AzureRmWebAppSlot.md
+            - name: Set-AzureRmWebAppSlotConfigName
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Set-AzureRmWebAppSlotConfigName.md
+            - name: Start-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Start-AzureRmWebApp.md
+            - name: Start-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Start-AzureRmWebAppSlot.md
+            - name: Stop-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Stop-AzureRmWebApp.md
+            - name: Stop-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Stop-AzureRmWebAppSlot.md
+            - name: Swap-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.1.3/Swap-AzureRmWebAppSlot.md
 - name: ServiceManagement
   href: ../ServiceManagement/index.md
   items:
