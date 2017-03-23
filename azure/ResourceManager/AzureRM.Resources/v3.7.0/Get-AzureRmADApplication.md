@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 66AC5120-80B1-46F2-AA51-132BF361602E
 online version: 
 schema: 2.0.0
-updated_at: 3/11/2017 2:20 AM
-ms.date: 3/11/2017
+updated_at: 3/23/2017 7:02 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmADApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/41ada73c47a1e6470a5d53dd3067fc8dd972eb71/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmADApplication.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -22,7 +22,7 @@ ms.service: azure-powershell
 # Get-AzureRmADApplication
 
 ## SYNOPSIS
-Lists existing azure active directory applications.
+Lists existing Azure Active Directory applications.
 
 ## SYNTAX
 
@@ -56,29 +56,25 @@ Get-AzureRmADApplication -IdentifierUri <String> [-InformationAction <ActionPref
 ```
 
 ## DESCRIPTION
-Lists existing azure active directory applications.
-Application lookup can be done by ObjectId, ApplicationId, IdentifierUri or DisplayName.
+The **Get-AzureRmADApplication** cmdlet lists existing Azure Active Directory applications.
+Application lookup can be performed by using the *ObjectId*, *ApplicationId*, *IdentifierUri*, or *DisplayName* parameters.
 If no parameter is provided, it fetches all applications under the tenant.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
-
+### Example 1: List all applications 
 ```
-PS E:\> Get-AzureRmADApplication
+PS C:\> Get-AzureRmADApplication
 ```
 
-Lists all the applications under a tenant.
+This command lists all the applications under a tenant.
 
-### --------------------------  Example 2  --------------------------
-@{paragraph=PS C:\\\>}
-
+### Example 2: Get an application by identifier URI
 ```
-PS E:\> Get-AzureRmADApplication -IdentifierUri http://mySecretApp1
+PS C:\> Get-AzureRmADApplication -IdentifierUri "http://mySecretApp1"
 ```
 
-Gets the application with identifier uri as "http://mySecretApp1".
+Gets the application with identifier URI as http://mySecretApp1.
 
 ## PARAMETERS
 
@@ -122,7 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-The object id of the application to fetch.
+Specifies the object ID of the application that this cmdlet gets.
 
 ```yaml
 Type: Guid
@@ -137,7 +133,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationId
-The application id of the application to fetch.
+Specifies the application ID of the application that this cmdlet gets.
 
 ```yaml
 Type: Guid
@@ -152,7 +148,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayNameStartWith
-Fetch all applications starting with the display name.
+Specifies a search string that this cmdlet gets all applications starting with the display name.
 
 ```yaml
 Type: String
@@ -167,7 +163,7 @@ Accept wildcard characters: False
 ```
 
 ### -IdentifierUri
-Unique identifier Uri of the application to fetch.
+Specifies the unique identifier URI of the application that this cmdlet gets.
 
 ```yaml
 Type: String
@@ -189,15 +185,14 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Remove-AzureRmADAppCredential]()
+[Get-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmADAppCredential.md)
 
-[New-AzureRmADAppCredential]()
+[New-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADAppCredential.md)
 
-[Get-AzureRmADAppCredential]()
+[Remove-AzureRmADAppCredential](xref:ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADAppCredential.md)
 
-[Remove-AzureRmADApplication]()
+[New-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADApplication.md)
 
-[Set-AzureRmADApplication]()
+[Remove-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADApplication.md)
 
-[New-AzureRmADApplication]()
-
+[Set-AzureRmADApplication](xref:ResourceManager/AzureRM.Resources/v3.7.0/Set-AzureRmADApplication.md)

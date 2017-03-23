@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: BB90E6BB-7F53-4441-A7B2-EDA940621D49
 online version: 
 schema: 2.0.0
-updated_at: 3/22/2017 6:02 PM
-ms.date: 3/22/2017
+updated_at: 3/23/2017 7:02 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Find-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/live/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Find-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Find-AzureRmResource.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/41ada73c47a1e6470a5d53dd3067fc8dd972eb71/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Find-AzureRmResource.md
 ms.topic: reference
 ms.prod: powershell
 ms.technology: Azure PowerShell
@@ -137,6 +137,8 @@ Accept wildcard characters: False
 ```
 
 ### -TagName
+Specifies the name of the tag.
+
 ```yaml
 Type: String
 Parameter Sets: Lists the resources based on the specified scope., Get a resources using a multi-subscription query.
@@ -150,6 +152,8 @@ Accept wildcard characters: False
 ```
 
 ### -TagValue
+Specifies the value of the tag.
+
 ```yaml
 Type: String
 Parameter Sets: Lists the resources based on the specified scope., Get a resources using a multi-subscription query.
@@ -330,5 +334,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmResource.md)
 
 [Set-AzureRmResource](xref:ResourceManager/AzureRM.Resources/v3.7.0/Set-AzureRmResource.md)
-
-
