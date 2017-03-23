@@ -132,6 +132,129 @@
               href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementTenantAccess.md
             - name: Set-AzureRmApiManagementUser
               href: ../ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Set-AzureRmApiManagementUser.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/AzureRM.ApiManagement.md
+          items:
+            - name: Add-AzureRmApiManagementApiToProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Add-AzureRmApiManagementApiToProduct.md
+            - name: Add-AzureRmApiManagementProductToGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Add-AzureRmApiManagementProductToGroup.md
+            - name: Add-AzureRmApiManagementRegion
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Add-AzureRmApiManagementRegion.md
+            - name: Add-AzureRmApiManagementUserToGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Add-AzureRmApiManagementUserToGroup.md
+            - name: Backup-AzureRmApiManagement
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Backup-AzureRmApiManagement.md
+            - name: Export-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Export-AzureRmApiManagementApi.md
+            - name: Get-AzureRmApiManagement
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagement.md
+            - name: Get-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagementApi.md
+            - name: Get-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagementAuthorizationServer.md
+            - name: Get-AzureRmApiManagementCertificate
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagementCertificate.md
+            - name: Get-AzureRmApiManagementGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagementGroup.md
+            - name: Get-AzureRmApiManagementOperation
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagementOperation.md
+            - name: Get-AzureRmApiManagementPolicy
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagementPolicy.md
+            - name: Get-AzureRmApiManagementProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagementProduct.md
+            - name: Get-AzureRmApiManagementSsoToken
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagementSsoToken.md
+            - name: Get-AzureRmApiManagementSubscription
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagementSubscription.md
+            - name: Get-AzureRmApiManagementUser
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagementUser.md
+            - name: Get-AzureRmApiManagementUserSsoUrl
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Get-AzureRmApiManagementUserSsoUrl.md
+            - name: Import-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Import-AzureRmApiManagementApi.md
+            - name: Import-AzureRmApiManagementHostnameCertificate
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Import-AzureRmApiManagementHostnameCertificate.md
+            - name: New-AzureRmApiManagement
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagement.md
+            - name: New-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagementApi.md
+            - name: New-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagementAuthorizationServer.md
+            - name: New-AzureRmApiManagementCertificate
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagementCertificate.md
+            - name: New-AzureRmApiManagementContext
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagementContext.md
+            - name: New-AzureRmApiManagementGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagementGroup.md
+            - name: New-AzureRmApiManagementHostnameConfiguration
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagementHostnameConfiguration.md
+            - name: New-AzureRmApiManagementOperation
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagementOperation.md
+            - name: New-AzureRmApiManagementProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagementProduct.md
+            - name: New-AzureRmApiManagementSubscription
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagementSubscription.md
+            - name: New-AzureRmApiManagementUser
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagementUser.md
+            - name: New-AzureRmApiManagementVirtualNetwork
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/New-AzureRmApiManagementVirtualNetwork.md
+            - name: Remove-AzureRmApiManagement
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagement.md
+            - name: Remove-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementApi.md
+            - name: Remove-AzureRmApiManagementApiFromProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementApiFromProduct.md
+            - name: Remove-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementAuthorizationServer.md
+            - name: Remove-AzureRmApiManagementCertificate
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementCertificate.md
+            - name: Remove-AzureRmApiManagementGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementGroup.md
+            - name: Remove-AzureRmApiManagementOperation
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementOperation.md
+            - name: Remove-AzureRmApiManagementPolicy
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementPolicy.md
+            - name: Remove-AzureRmApiManagementProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementProduct.md
+            - name: Remove-AzureRmApiManagementProductFromGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementProductFromGroup.md
+            - name: Remove-AzureRmApiManagementRegion
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementRegion.md
+            - name: Remove-AzureRmApiManagementSubscription
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementSubscription.md
+            - name: Remove-AzureRmApiManagementUser
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementUser.md
+            - name: Remove-AzureRmApiManagementUserFromGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Remove-AzureRmApiManagementUserFromGroup.md
+            - name: Restore-AzureRmApiManagement
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Restore-AzureRmApiManagement.md
+            - name: Set-AzureRmApiManagementApi
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Set-AzureRmApiManagementApi.md
+            - name: Set-AzureRmApiManagementAuthorizationServer
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Set-AzureRmApiManagementAuthorizationServer.md
+            - name: Set-AzureRmApiManagementCertificate
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Set-AzureRmApiManagementCertificate.md
+            - name: Set-AzureRmApiManagementGroup
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Set-AzureRmApiManagementGroup.md
+            - name: Set-AzureRmApiManagementHostnames
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Set-AzureRmApiManagementHostnames.md
+            - name: Set-AzureRmApiManagementOperation
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Set-AzureRmApiManagementOperation.md
+            - name: Set-AzureRmApiManagementPolicy
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Set-AzureRmApiManagementPolicy.md
+            - name: Set-AzureRmApiManagementProduct
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Set-AzureRmApiManagementProduct.md
+            - name: Set-AzureRmApiManagementSubscription
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Set-AzureRmApiManagementSubscription.md
+            - name: Set-AzureRmApiManagementUser
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Set-AzureRmApiManagementUser.md
+            - name: Set-AzureRmApiManagementVirtualNetworks
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Set-AzureRmApiManagementVirtualNetworks.md
+            - name: Update-AzureRmApiManagementDeployment
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Update-AzureRmApiManagementDeployment.md
+            - name: Update-AzureRmApiManagementRegion
+              href: ../ResourceManager/ApiManagement.ServiceManagement/v1.0.4.3/Update-AzureRmApiManagementRegion.md
     - name: AzureRM.AnalysisServices
       items:
         - name: v3.0.0
@@ -2561,6 +2684,147 @@
               href: ../ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRmAutomationDscNode.md
             - name: Unregister-AzureRMAutomationScheduledRunbook
               href: ../ResourceManager/AzureRM.Automation/v1.0.12/Unregister-AzureRMAutomationScheduledRunbook.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/AzureRM.Automation.md
+          items:
+            - name: Export-AzureRmAutomationDscConfiguration
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Export-AzureRmAutomationDscConfiguration.md
+            - name: Export-AzureRmAutomationDscNodeReportContent
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Export-AzureRmAutomationDscNodeReportContent.md
+            - name: Export-AzureRmAutomationRunbook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Export-AzureRmAutomationRunbook.md
+            - name: Get-AzureRmAutomationAccount
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationAccount.md
+            - name: Get-AzureRmAutomationCertificate
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationCertificate.md
+            - name: Get-AzureRmAutomationConnection
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationConnection.md
+            - name: Get-AzureRmAutomationCredential
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationCredential.md
+            - name: Get-AzureRmAutomationDscCompilationJob
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationDscCompilationJob.md
+            - name: Get-AzureRmAutomationDscCompilationJobOutput
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationDscCompilationJobOutput.md
+            - name: Get-AzureRmAutomationDscConfiguration
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationDscConfiguration.md
+            - name: Get-AzureRmAutomationDscNode
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationDscNode.md
+            - name: Get-AzureRmAutomationDscNodeConfiguration
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationDscNodeConfiguration.md
+            - name: Get-AzureRmAutomationDscNodeReport
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationDscNodeReport.md
+            - name: Get-AzureRmAutomationDscOnboardingMetaconfig
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationDscOnboardingMetaconfig.md
+            - name: Get-AzureRmAutomationJob
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationJob.md
+            - name: Get-AzureRmAutomationJobOutput
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationJobOutput.md
+            - name: Get-AzureRmAutomationJobOutputRecord
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationJobOutputRecord.md
+            - name: Get-AzureRmAutomationModule
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationModule.md
+            - name: Get-AzureRmAutomationRegistrationInfo
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationRegistrationInfo.md
+            - name: Get-AzureRmAutomationRunbook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationRunbook.md
+            - name: Get-AzureRmAutomationSchedule
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationSchedule.md
+            - name: Get-AzureRmAutomationScheduledRunbook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationScheduledRunbook.md
+            - name: Get-AzureRmAutomationVariable
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationVariable.md
+            - name: Get-AzureRmAutomationWebhook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Get-AzureRmAutomationWebhook.md
+            - name: Import-AzureRmAutomationDscConfiguration
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Import-AzureRmAutomationDscConfiguration.md
+            - name: Import-AzureRmAutomationDscNodeConfiguration
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Import-AzureRmAutomationDscNodeConfiguration.md
+            - name: Import-AzureRmAutomationRunbook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Import-AzureRmAutomationRunbook.md
+            - name: New-AzureRmAutomationAccount
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/New-AzureRmAutomationAccount.md
+            - name: New-AzureRmAutomationCertificate
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/New-AzureRmAutomationCertificate.md
+            - name: New-AzureRmAutomationConnection
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/New-AzureRmAutomationConnection.md
+            - name: New-AzureRmAutomationCredential
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/New-AzureRmAutomationCredential.md
+            - name: New-AzureRmAutomationKey
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/New-AzureRmAutomationKey.md
+            - name: New-AzureRmAutomationModule
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/New-AzureRmAutomationModule.md
+            - name: New-AzureRmAutomationRunbook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/New-AzureRmAutomationRunbook.md
+            - name: New-AzureRmAutomationSchedule
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/New-AzureRmAutomationSchedule.md
+            - name: New-AzureRmAutomationVariable
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/New-AzureRmAutomationVariable.md
+            - name: New-AzureRmAutomationWebhook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/New-AzureRmAutomationWebhook.md
+            - name: Publish-AzureRmAutomationRunbook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Publish-AzureRmAutomationRunbook.md
+            - name: Register-AzureRmAutomationDscNode
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Register-AzureRmAutomationDscNode.md
+            - name: Register-AzureRmAutomationScheduledRunbook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Register-AzureRmAutomationScheduledRunbook.md
+            - name: Remove-AzureRmAutomationAccount
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationAccount.md
+            - name: Remove-AzureRmAutomationCertificate
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationCertificate.md
+            - name: Remove-AzureRmAutomationConnection
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationConnection.md
+            - name: Remove-AzureRmAutomationConnectionType
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationConnectionType.md
+            - name: Remove-AzureRmAutomationCredential
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationCredential.md
+            - name: Remove-AzureRmAutomationDscConfiguration
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationDscConfiguration.md
+            - name: Remove-AzureRmAutomationDscNodeConfiguration
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationDscNodeConfiguration.md
+            - name: Remove-AzureRmAutomationModule
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationModule.md
+            - name: Remove-AzureRmAutomationRunbook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationRunbook.md
+            - name: Remove-AzureRmAutomationSchedule
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationSchedule.md
+            - name: Remove-AzureRmAutomationVariable
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationVariable.md
+            - name: Remove-AzureRmAutomationWebhook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Remove-AzureRmAutomationWebhook.md
+            - name: Resume-AzureRmAutomationJob
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Resume-AzureRmAutomationJob.md
+            - name: Set-AzureRmAutomationAccount
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Set-AzureRmAutomationAccount.md
+            - name: Set-AzureRmAutomationCertificate
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Set-AzureRmAutomationCertificate.md
+            - name: Set-AzureRmAutomationConnectionFieldValue
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Set-AzureRmAutomationConnectionFieldValue.md
+            - name: Set-AzureRmAutomationCredential
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Set-AzureRmAutomationCredential.md
+            - name: Set-AzureRmAutomationDscNode
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Set-AzureRmAutomationDscNode.md
+            - name: Set-AzureRmAutomationModule
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Set-AzureRmAutomationModule.md
+            - name: Set-AzureRmAutomationRunbook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Set-AzureRmAutomationRunbook.md
+            - name: Set-AzureRmAutomationSchedule
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Set-AzureRmAutomationSchedule.md
+            - name: Set-AzureRmAutomationVariable
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Set-AzureRmAutomationVariable.md
+            - name: Set-AzureRmAutomationWebhook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Set-AzureRmAutomationWebhook.md
+            - name: Start-AzureRmAutomationDscCompilationJob
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Start-AzureRmAutomationDscCompilationJob.md
+            - name: Start-AzureRmAutomationRunbook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Start-AzureRmAutomationRunbook.md
+            - name: Stop-AzureRmAutomationJob
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Stop-AzureRmAutomationJob.md
+            - name: Suspend-AzureRmAutomationJob
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Suspend-AzureRmAutomationJob.md
+            - name: Unregister-AzureRmAutomationDscNode
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Unregister-AzureRmAutomationDscNode.md
+            - name: Unregister-AzureRmAutomationScheduledRunbook
+              href: ../ResourceManager/AzureRM.Automation/v1.0.4.3/Unregister-AzureRmAutomationScheduledRunbook.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.Automation/v0.9.8/AzureRM.Automation.md
           items:
@@ -2759,6 +3023,71 @@
               href: ../ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMResourceProviderRegistration.md
             - name: Set-AzureRMTenantSubscription
               href: ../ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMTenantSubscription.md
+        - name: v0.10.6
+          href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/AzureRM.AzureStackAdmin.md
+          items:
+            - name: Add-AzureRMGalleryItem
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMGalleryItem.md
+            - name: Add-AzureRMResourceProviderRegistration
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMResourceProviderRegistration.md
+            - name: Add-AzureRMUsageConnection
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMUsageConnection.md
+            - name: Get-AzureRMGalleryItem
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMGalleryItem.md
+            - name: Get-AzureRMManagedLocation
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMManagedLocation.md
+            - name: Get-AzureRMManagedSubscription
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMManagedSubscription.md
+            - name: Get-AzureRMOffer
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMOffer.md
+            - name: Get-AzureRMPlan
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMPlan.md
+            - name: Get-AzureRMResourceProviderRegistration
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMResourceProviderRegistration.md
+            - name: Get-AzureRMTenantSubscription
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMTenantSubscription.md
+            - name: Get-AzureRMUsageConnection
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMUsageConnection.md
+            - name: Get-AzureStackToken
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureStackToken.md
+            - name: New-AzureRMManagedLocation
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMManagedLocation.md
+            - name: New-AzureRMManagedSubscription
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMManagedSubscription.md
+            - name: New-AzureRMOffer
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMOffer.md
+            - name: New-AzureRMPlan
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMPlan.md
+            - name: New-AzureRMTenantSubscription
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMTenantSubscription.md
+            - name: Remove-AzureRMGalleryItem
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMGalleryItem.md
+            - name: Remove-AzureRMManagedLocation
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMManagedLocation.md
+            - name: Remove-AzureRMManagedSubscription
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMManagedSubscription.md
+            - name: Remove-AzureRMOffer
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMOffer.md
+            - name: Remove-AzureRMPlan
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMPlan.md
+            - name: Remove-AzureRMResourceProviderRegistration
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMResourceProviderRegistration.md
+            - name: Remove-AzureRMTenantSubscription
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMTenantSubscription.md
+            - name: Remove-AzureRMUsageConnection
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMUsageConnection.md
+            - name: Set-AzureRMManagedLocation
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMManagedLocation.md
+            - name: Set-AzureRMManagedSubscription
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMManagedSubscription.md
+            - name: Set-AzureRMOffer
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMOffer.md
+            - name: Set-AzureRMPlan
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMPlan.md
+            - name: Set-AzureRMResourceProviderRegistration
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMResourceProviderRegistration.md
+            - name: Set-AzureRMTenantSubscription
+              href: ../ResourceManager/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMTenantSubscription.md
     - name: AzureRM.AzureStackStorage
       items:
         - name: v2.7.0
@@ -2927,6 +3256,73 @@
               href: ../ResourceManager/AzureRM.AzureStackStorage/v2.6.0/Undo-ACSStorageAccountDeletion.md
             - name: Update-ACSRoleInstance
               href: ../ResourceManager/AzureRM.AzureStackStorage/v2.6.0/Update-ACSRoleInstance.md
+        - name: v0.10.6
+          href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/AzureRM.AzureStackStorage.md
+          items:
+            - name: Add-ACSFarm
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Add-ACSFarm.md
+            - name: Clear-ACSStorageAccount
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Clear-ACSStorageAccount.md
+            - name: Get-ACSAcquisition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSAcquisition.md
+            - name: Get-ACSBlobService
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobService.md
+            - name: Get-ACSBlobServiceMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobServiceMetric.md
+            - name: Get-ACSBlobServiceMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobServiceMetricDefinition.md
+            - name: Get-ACSContainer
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSContainer.md
+            - name: Get-ACSContainerMigrationStatus
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSContainerMigrationStatus.md
+            - name: Get-ACSFarm
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSFarm.md
+            - name: Get-ACSFarmMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSFarmMetric.md
+            - name: Get-ACSFarmMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSFarmMetricDefinition.md
+            - name: Get-ACSQueueService
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueService.md
+            - name: Get-ACSQueueServiceMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueServiceMetric.md
+            - name: Get-ACSQueueServiceMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueServiceMetricDefinition.md
+            - name: Get-ACSQuota
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQuota.md
+            - name: Get-ACSShare
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShare.md
+            - name: Get-ACSShareMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShareMetric.md
+            - name: Get-ACSShareMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShareMetricDefinition.md
+            - name: Get-ACSSharesForMigration
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSSharesForMigration.md
+            - name: Get-ACSStorageAccount
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSStorageAccount.md
+            - name: Get-ACSTableService
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSTableService.md
+            - name: Get-ACSTableServiceMetric
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSTableServiceMetric.md
+            - name: Get-ACSTableServiceMetricDefinition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Get-ACSTableServiceMetricDefinition.md
+            - name: New-ACSQuota
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/New-ACSQuota.md
+            - name: Remove-ACSAcquisition
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Remove-ACSAcquisition.md
+            - name: Remove-ACSQuota
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Remove-ACSQuota.md
+            - name: Set-ACSFarm
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Set-ACSFarm.md
+            - name: Set-ACSQuota
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Set-ACSQuota.md
+            - name: Start-ACSContainerMigration
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Start-ACSContainerMigration.md
+            - name: Stop-ACSContainerMigration
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Stop-ACSContainerMigration.md
+            - name: Sync-ACSStorageAccount
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Sync-ACSStorageAccount.md
+            - name: Undo-ACSStorageAccountDeletion
+              href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.6/Undo-ACSStorageAccountDeletion.md
         - name: v0.10.0
           href: ../ResourceManager/AzureRM.AzureStackStorage/v0.10.0/AzureRM.AzureStackStorage.md
           items:
@@ -3503,6 +3899,57 @@
               href: ../ResourceManager/AzureRM.Backup/v1.0.12/Unregister-AzureRmBackupContainer.md
             - name: Wait-AzureRmBackupJob
               href: ../ResourceManager/AzureRM.Backup/v1.0.12/Wait-AzureRmBackupJob.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/AzureRM.Backup.md
+          items:
+            - name: Backup-AzureRmBackupItem
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Backup-AzureRmBackupItem.md
+            - name: Disable-AzureRmBackupProtection
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Disable-AzureRmBackupProtection.md
+            - name: Enable-AzureRmBackupContainerReregistration
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Enable-AzureRmBackupContainerReregistration.md
+            - name: Enable-AzureRmBackupProtection
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Enable-AzureRmBackupProtection.md
+            - name: Get-AzureRmBackupContainer
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Get-AzureRmBackupContainer.md
+            - name: Get-AzureRmBackupItem
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Get-AzureRmBackupItem.md
+            - name: Get-AzureRmBackupJob
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Get-AzureRmBackupJob.md
+            - name: Get-AzureRmBackupJobDetails
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Get-AzureRmBackupJobDetails.md
+            - name: Get-AzureRmBackupProtectionPolicy
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Get-AzureRmBackupProtectionPolicy.md
+            - name: Get-AzureRmBackupRecoveryPoint
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Get-AzureRmBackupRecoveryPoint.md
+            - name: Get-AzureRmBackupVault
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Get-AzureRmBackupVault.md
+            - name: Get-AzureRmBackupVaultCredentials
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Get-AzureRmBackupVaultCredentials.md
+            - name: New-AzureRmBackupProtectionPolicy
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/New-AzureRmBackupProtectionPolicy.md
+            - name: New-AzureRmBackupRetentionPolicyObject
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/New-AzureRmBackupRetentionPolicyObject.md
+            - name: New-AzureRmBackupVault
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/New-AzureRmBackupVault.md
+            - name: Register-AzureRmBackupContainer
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Register-AzureRmBackupContainer.md
+            - name: Remove-AzureRmBackupProtectionPolicy
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Remove-AzureRmBackupProtectionPolicy.md
+            - name: Remove-AzureRmBackupVault
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Remove-AzureRmBackupVault.md
+            - name: Restore-AzureRmBackupItem
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Restore-AzureRmBackupItem.md
+            - name: Set-AzureRmBackupProtectionPolicy
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Set-AzureRmBackupProtectionPolicy.md
+            - name: Set-AzureRmBackupVault
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Set-AzureRmBackupVault.md
+            - name: Stop-AzureRmBackupJob
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Stop-AzureRmBackupJob.md
+            - name: Unregister-AzureRmBackupContainer
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Unregister-AzureRmBackupContainer.md
+            - name: Wait-AzureRmBackupJob
+              href: ../ResourceManager/AzureRM.Backup/v1.0.4.3/Wait-AzureRmBackupJob.md
     - name: AzureRM.Batch
       items:
         - name: v2.7.0
@@ -4597,6 +5044,117 @@
               href: ../ResourceManager/AzureRM.Batch/v1.1.4/Stop-AzureBatchTask.md
             - name: Test-AzureBatchAutoScale
               href: ../ResourceManager/AzureRM.Batch/v1.1.4/Test-AzureBatchAutoScale.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/AzureRM.Batch.md
+          items:
+            - name: Disable-AzureBatchAutoScale
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Disable-AzureBatchAutoScale.md
+            - name: Disable-AzureBatchComputeNodeScheduling
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Disable-AzureBatchComputeNodeScheduling.md
+            - name: Disable-AzureBatchJob
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Disable-AzureBatchJob.md
+            - name: Disable-AzureBatchJobSchedule
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Disable-AzureBatchJobSchedule.md
+            - name: Enable-AzureBatchAutoScale
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Enable-AzureBatchAutoScale.md
+            - name: Enable-AzureBatchComputeNodeScheduling
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Enable-AzureBatchComputeNodeScheduling.md
+            - name: Enable-AzureBatchJob
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Enable-AzureBatchJob.md
+            - name: Enable-AzureBatchJobSchedule
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Enable-AzureBatchJobSchedule.md
+            - name: Get-AzureBatchCertificate
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureBatchCertificate.md
+            - name: Get-AzureBatchComputeNode
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureBatchComputeNode.md
+            - name: Get-AzureBatchJob
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureBatchJob.md
+            - name: Get-AzureBatchJobSchedule
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureBatchJobSchedule.md
+            - name: Get-AzureBatchNodeFile
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureBatchNodeFile.md
+            - name: Get-AzureBatchNodeFileContent
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureBatchNodeFileContent.md
+            - name: Get-AzureBatchPool
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureBatchPool.md
+            - name: Get-AzureBatchRemoteDesktopProtocolFile
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureBatchRemoteDesktopProtocolFile.md
+            - name: Get-AzureBatchSubtask
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureBatchSubtask.md
+            - name: Get-AzureBatchTask
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureBatchTask.md
+            - name: Get-AzureRmBatchAccount
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureRmBatchAccount.md
+            - name: Get-AzureRmBatchAccountKeys
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureRmBatchAccountKeys.md
+            - name: Get-AzureRmBatchSubscriptionQuotas
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Get-AzureRmBatchSubscriptionQuotas.md
+            - name: New-AzureBatchCertificate
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/New-AzureBatchCertificate.md
+            - name: New-AzureBatchComputeNodeUser
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/New-AzureBatchComputeNodeUser.md
+            - name: New-AzureBatchJob
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/New-AzureBatchJob.md
+            - name: New-AzureBatchJobSchedule
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/New-AzureBatchJobSchedule.md
+            - name: New-AzureBatchPool
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/New-AzureBatchPool.md
+            - name: New-AzureBatchTask
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/New-AzureBatchTask.md
+            - name: New-AzureRmBatchAccount
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/New-AzureRmBatchAccount.md
+            - name: New-AzureRmBatchAccountKey
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/New-AzureRmBatchAccountKey.md
+            - name: Remove-AzureBatchCertificate
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Remove-AzureBatchCertificate.md
+            - name: Remove-AzureBatchComputeNode
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Remove-AzureBatchComputeNode.md
+            - name: Remove-AzureBatchComputeNodeUser
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Remove-AzureBatchComputeNodeUser.md
+            - name: Remove-AzureBatchJob
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Remove-AzureBatchJob.md
+            - name: Remove-AzureBatchJobSchedule
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Remove-AzureBatchJobSchedule.md
+            - name: Remove-AzureBatchNodeFile
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Remove-AzureBatchNodeFile.md
+            - name: Remove-AzureBatchPool
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Remove-AzureBatchPool.md
+            - name: Remove-AzureBatchTask
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Remove-AzureBatchTask.md
+            - name: Remove-AzureRmBatchAccount
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Remove-AzureRmBatchAccount.md
+            - name: Reset-AzureBatchComputeNode
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Reset-AzureBatchComputeNode.md
+            - name: Restart-AzureBatchComputeNode
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Restart-AzureBatchComputeNode.md
+            - name: Set-AzureBatchComputeNodeUser
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Set-AzureBatchComputeNodeUser.md
+            - name: Set-AzureBatchJob
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Set-AzureBatchJob.md
+            - name: Set-AzureBatchJobSchedule
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Set-AzureBatchJobSchedule.md
+            - name: Set-AzureBatchPool
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Set-AzureBatchPool.md
+            - name: Set-AzureBatchPoolOSVersion
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Set-AzureBatchPoolOSVersion.md
+            - name: Set-AzureBatchTask
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Set-AzureBatchTask.md
+            - name: Set-AzureRmBatchAccount
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Set-AzureRmBatchAccount.md
+            - name: Start-AzureBatchPoolResize
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Start-AzureBatchPoolResize.md
+            - name: Stop-AzureBatchCertificateDeletion
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Stop-AzureBatchCertificateDeletion.md
+            - name: Stop-AzureBatchJob
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Stop-AzureBatchJob.md
+            - name: Stop-AzureBatchJobSchedule
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Stop-AzureBatchJobSchedule.md
+            - name: Stop-AzureBatchPoolResize
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Stop-AzureBatchPoolResize.md
+            - name: Stop-AzureBatchTask
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Stop-AzureBatchTask.md
+            - name: Test-AzureBatchAutoScale
+              href: ../ResourceManager/AzureRM.Batch/v1.0.4.3/Test-AzureBatchAutoScale.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.Batch/v0.9.8/AzureRM.Batch.md
           items:
@@ -7112,6 +7670,191 @@
               href: ../ResourceManager/AzureRM.Compute/v1.3.4/Update-AzureRmVmss.md
             - name: Update-AzureRmVmssInstance
               href: ../ResourceManager/AzureRM.Compute/v1.3.4/Update-AzureRmVmssInstance.md
+        - name: v1.2.2.3
+          href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/AzureRM.Compute.md
+          items:
+            - name: Add-AzureRmVhd
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVhd.md
+            - name: Add-AzureRmVMAdditionalUnattendContent
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVMAdditionalUnattendContent.md
+            - name: Add-AzureRmVMDataDisk
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVMDataDisk.md
+            - name: Add-AzureRmVMNetworkInterface
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVMNetworkInterface.md
+            - name: Add-AzureRmVMSecret
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVMSecret.md
+            - name: Add-AzureRmVmssAdditionalUnattendContent
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVmssAdditionalUnattendContent.md
+            - name: Add-AzureRmVmssExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVmssExtension.md
+            - name: Add-AzureRmVMSshPublicKey
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVMSshPublicKey.md
+            - name: Add-AzureRmVmssNetworkInterfaceConfiguration
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVmssNetworkInterfaceConfiguration.md
+            - name: Add-AzureRmVmssSecret
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVmssSecret.md
+            - name: Add-AzureRmVmssSshPublicKey
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVmssSshPublicKey.md
+            - name: Add-AzureRmVmssWinRMListener
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Add-AzureRmVmssWinRMListener.md
+            - name: Get-AzureRmAvailabilitySet
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmAvailabilitySet.md
+            - name: Get-AzureRmRemoteDesktopFile
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmRemoteDesktopFile.md
+            - name: Get-AzureRmVM
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVM.md
+            - name: Get-AzureRmVMAccessExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMAccessExtension.md
+            - name: Get-AzureRmVMBootDiagnosticsData
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMBootDiagnosticsData.md
+            - name: Get-AzureRmVMCustomScriptExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMCustomScriptExtension.md
+            - name: Get-AzureRmVMDiagnosticsExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMDiagnosticsExtension.md
+            - name: Get-AzureRmVMDiskEncryptionStatus
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMDiskEncryptionStatus.md
+            - name: Get-AzureRmVMDscExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMDscExtension.md
+            - name: Get-AzureRmVMDscExtensionStatus
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMDscExtensionStatus.md
+            - name: Get-AzureRmVMExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMExtension.md
+            - name: Get-AzureRmVMExtensionImage
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMExtensionImage.md
+            - name: Get-AzureRmVMExtensionImageType
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMExtensionImageType.md
+            - name: Get-AzureRmVMImage
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMImage.md
+            - name: Get-AzureRmVMImageOffer
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMImageOffer.md
+            - name: Get-AzureRmVMImagePublisher
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMImagePublisher.md
+            - name: Get-AzureRmVMImageSku
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMImageSku.md
+            - name: Get-AzureRmVMSize
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMSize.md
+            - name: Get-AzureRmVMSqlServerExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMSqlServerExtension.md
+            - name: Get-AzureRmVmss
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVmss.md
+            - name: Get-AzureRmVmssSku
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVmssSku.md
+            - name: Get-AzureRmVmssVM
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVmssVM.md
+            - name: Get-AzureRmVMUsage
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Get-AzureRmVMUsage.md
+            - name: New-AzureRmAvailabilitySet
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/New-AzureRmAvailabilitySet.md
+            - name: New-AzureRmVM
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/New-AzureRmVM.md
+            - name: New-AzureRmVMConfig
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/New-AzureRmVMConfig.md
+            - name: New-AzureRmVmss
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/New-AzureRmVmss.md
+            - name: New-AzureRmVmssConfig
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/New-AzureRmVmssConfig.md
+            - name: New-AzureRmVmssIpConfig
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/New-AzureRmVmssIpConfig.md
+            - name: New-AzureRmVmssVaultCertificateConfig
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/New-AzureRmVmssVaultCertificateConfig.md
+            - name: New-AzureVMSqlServerAutoBackupConfig
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/New-AzureVMSqlServerAutoBackupConfig.md
+            - name: New-AzureVMSqlServerAutoPatchingConfig
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/New-AzureVMSqlServerAutoPatchingConfig.md
+            - name: Publish-AzureRmVMDscConfiguration
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Publish-AzureRmVMDscConfiguration.md
+            - name: Remove-AzureRmAvailabilitySet
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmAvailabilitySet.md
+            - name: Remove-AzureRmVM
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVM.md
+            - name: Remove-AzureRmVMAccessExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVMAccessExtension.md
+            - name: Remove-AzureRmVMBackup
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVMBackup.md
+            - name: Remove-AzureRmVMCustomScriptExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVMCustomScriptExtension.md
+            - name: Remove-AzureRmVMDataDisk
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVMDataDisk.md
+            - name: Remove-AzureRmVMDiagnosticsExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVMDiagnosticsExtension.md
+            - name: Remove-AzureRmVMDiskEncryptionExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVMDiskEncryptionExtension.md
+            - name: Remove-AzureRmVMDscExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVMDscExtension.md
+            - name: Remove-AzureRmVMExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVMExtension.md
+            - name: Remove-AzureRmVMNetworkInterface
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVMNetworkInterface.md
+            - name: Remove-AzureRmVMSqlServerExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVMSqlServerExtension.md
+            - name: Remove-AzureRmVmss
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVmss.md
+            - name: Remove-AzureRmVmssExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVmssExtension.md
+            - name: Remove-AzureRmVmssNetworkInterfaceConfiguration
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Remove-AzureRmVmssNetworkInterfaceConfiguration.md
+            - name: Restart-AzureRmVM
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Restart-AzureRmVM.md
+            - name: Restart-AzureRmVmss
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Restart-AzureRmVmss.md
+            - name: Save-AzureRmVhd
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Save-AzureRmVhd.md
+            - name: Save-AzureRmVMImage
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Save-AzureRmVMImage.md
+            - name: Set-AzureRmVM
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVM.md
+            - name: Set-AzureRmVMAccessExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMAccessExtension.md
+            - name: Set-AzureRmVMBackupExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMBackupExtension.md
+            - name: Set-AzureRmVMBginfoExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMBginfoExtension.md
+            - name: Set-AzureRmVMBootDiagnostics
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMBootDiagnostics.md
+            - name: Set-AzureRmVMCustomScriptExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMCustomScriptExtension.md
+            - name: Set-AzureRmVMDataDisk
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMDataDisk.md
+            - name: Set-AzureRmVMDiagnosticsExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMDiagnosticsExtension.md
+            - name: Set-AzureRmVMDiskEncryptionExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMDiskEncryptionExtension.md
+            - name: Set-AzureRmVMDscExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMDscExtension.md
+            - name: Set-AzureRmVMExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMExtension.md
+            - name: Set-AzureRmVMOperatingSystem
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMOperatingSystem.md
+            - name: Set-AzureRmVMOSDisk
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMOSDisk.md
+            - name: Set-AzureRmVMPlan
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMPlan.md
+            - name: Set-AzureRmVMSourceImage
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMSourceImage.md
+            - name: Set-AzureRmVMSqlServerExtension
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVMSqlServerExtension.md
+            - name: Set-AzureRmVmss
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVmss.md
+            - name: Set-AzureRmVmssOsProfile
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVmssOsProfile.md
+            - name: Set-AzureRmVmssStorageProfile
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVmssStorageProfile.md
+            - name: Set-AzureRmVmssVM
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Set-AzureRmVmssVM.md
+            - name: Start-AzureRmVM
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Start-AzureRmVM.md
+            - name: Start-AzureRmVmss
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Start-AzureRmVmss.md
+            - name: Stop-AzureRmVM
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Stop-AzureRmVM.md
+            - name: Stop-AzureRmVmss
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Stop-AzureRmVmss.md
+            - name: Update-AzureRmVM
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Update-AzureRmVM.md
+            - name: Update-AzureRmVmss
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Update-AzureRmVmss.md
+            - name: Update-AzureRmVmssInstance
+              href: ../ResourceManager/AzureRM.Compute/v1.2.2.3/Update-AzureRmVmssInstance.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.Compute/v0.9.8/AzureRM.Compute.md
           items:
@@ -7685,6 +8428,65 @@
               href: ../ResourceManager/AzureRM.DataFactories/v1.0.12/Set-AzureRmDataFactorySliceStatus.md
             - name: Suspend-AzureRmDataFactoryPipeline
               href: ../ResourceManager/AzureRM.DataFactories/v1.0.12/Suspend-AzureRmDataFactoryPipeline.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/AzureRM.DataFactories.md
+          items:
+            - name: Get-AzureRmDataFactory
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Get-AzureRmDataFactory.md
+            - name: Get-AzureRmDataFactoryDataset
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Get-AzureRmDataFactoryDataset.md
+            - name: Get-AzureRmDataFactoryGateway
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Get-AzureRmDataFactoryGateway.md
+            - name: Get-AzureRmDataFactoryHub
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Get-AzureRmDataFactoryHub.md
+            - name: Get-AzureRmDataFactoryLinkedService
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Get-AzureRmDataFactoryLinkedService.md
+            - name: Get-AzureRmDataFactoryPipeline
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Get-AzureRmDataFactoryPipeline.md
+            - name: Get-AzureRmDataFactoryRun
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Get-AzureRmDataFactoryRun.md
+            - name: Get-AzureRmDataFactorySlice
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Get-AzureRmDataFactorySlice.md
+            - name: New-AzureRmDataFactory
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/New-AzureRmDataFactory.md
+            - name: New-AzureRmDataFactoryDataset
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/New-AzureRmDataFactoryDataset.md
+            - name: New-AzureRmDataFactoryEncryptValue
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/New-AzureRmDataFactoryEncryptValue.md
+            - name: New-AzureRmDataFactoryGateway
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/New-AzureRmDataFactoryGateway.md
+            - name: New-AzureRmDataFactoryGatewayKey
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/New-AzureRmDataFactoryGatewayKey.md
+            - name: New-AzureRmDataFactoryHub
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/New-AzureRmDataFactoryHub.md
+            - name: New-AzureRmDataFactoryLinkedService
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/New-AzureRmDataFactoryLinkedService.md
+            - name: New-AzureRmDataFactoryPipeline
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/New-AzureRmDataFactoryPipeline.md
+            - name: Remove-AzureRmDataFactory
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Remove-AzureRmDataFactory.md
+            - name: Remove-AzureRmDataFactoryDataset
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Remove-AzureRmDataFactoryDataset.md
+            - name: Remove-AzureRmDataFactoryGateway
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Remove-AzureRmDataFactoryGateway.md
+            - name: Remove-AzureRmDataFactoryHub
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Remove-AzureRmDataFactoryHub.md
+            - name: Remove-AzureRmDataFactoryLinkedService
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Remove-AzureRmDataFactoryLinkedService.md
+            - name: Remove-AzureRmDataFactoryPipeline
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Remove-AzureRmDataFactoryPipeline.md
+            - name: Resume-AzureRmDataFactoryPipeline
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Resume-AzureRmDataFactoryPipeline.md
+            - name: Save-AzureRmDataFactoryLog
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Save-AzureRmDataFactoryLog.md
+            - name: Set-AzureRmDataFactoryGateway
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Set-AzureRmDataFactoryGateway.md
+            - name: Set-AzureRmDataFactoryPipelineActivePeriod
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Set-AzureRmDataFactoryPipelineActivePeriod.md
+            - name: Set-AzureRmDataFactorySliceStatus
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Set-AzureRmDataFactorySliceStatus.md
+            - name: Suspend-AzureRmDataFactoryPipeline
+              href: ../ResourceManager/AzureRM.DataFactories/v1.0.4.3/Suspend-AzureRmDataFactoryPipeline.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.DataFactories/v0.9.8/AzureRM.DataFactories.md
           items:
@@ -8104,6 +8906,43 @@
               href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Test-AzureRmDataLakeAnalyticsCatalogItem.md
             - name: Wait-AzureRmDataLakeAnalyticsJob
               href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Wait-AzureRmDataLakeAnalyticsJob.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/AzureRM.DataLakeAnalytics.md
+          items:
+            - name: Add-AzureRmDataLakeAnalyticsDataSource
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Add-AzureRmDataLakeAnalyticsDataSource.md
+            - name: Get-AzureRmDataLakeAnalyticsAccount
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Get-AzureRmDataLakeAnalyticsAccount.md
+            - name: Get-AzureRmDataLakeAnalyticsCatalogItem
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Get-AzureRmDataLakeAnalyticsCatalogItem.md
+            - name: Get-AzureRmDataLakeAnalyticsJob
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Get-AzureRmDataLakeAnalyticsJob.md
+            - name: New-AzureRmDataLakeAnalyticsAccount
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/New-AzureRmDataLakeAnalyticsAccount.md
+            - name: New-AzureRmDataLakeAnalyticsCatalogSecret
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/New-AzureRmDataLakeAnalyticsCatalogSecret.md
+            - name: Remove-AzureRmDataLakeAnalyticsAccount
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Remove-AzureRmDataLakeAnalyticsAccount.md
+            - name: Remove-AzureRmDataLakeAnalyticsCatalogSecret
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Remove-AzureRmDataLakeAnalyticsCatalogSecret.md
+            - name: Remove-AzureRmDataLakeAnalyticsDataSource
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Remove-AzureRmDataLakeAnalyticsDataSource.md
+            - name: Set-AzureRmDataLakeAnalyticsAccount
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Set-AzureRmDataLakeAnalyticsAccount.md
+            - name: Set-AzureRmDataLakeAnalyticsCatalogSecret
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Set-AzureRmDataLakeAnalyticsCatalogSecret.md
+            - name: Set-AzureRmDataLakeAnalyticsDataSource
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Set-AzureRmDataLakeAnalyticsDataSource.md
+            - name: Stop-AzureRmDataLakeAnalyticsJob
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Stop-AzureRmDataLakeAnalyticsJob.md
+            - name: Submit-AzureRmDataLakeAnalyticsJob
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Submit-AzureRmDataLakeAnalyticsJob.md
+            - name: Test-AzureRmDataLakeAnalyticsAccount
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Test-AzureRmDataLakeAnalyticsAccount.md
+            - name: Test-AzureRmDataLakeAnalyticsCatalogItem
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Test-AzureRmDataLakeAnalyticsCatalogItem.md
+            - name: Wait-AzureRmDataLakeAnalyticsJob
+              href: ../ResourceManager/AzureRM.DataLakeAnalytics/v1.0.4.3/Wait-AzureRmDataLakeAnalyticsJob.md
     - name: AzureRM.DataLakeStore
       items:
         - name: v3.5.0
@@ -8606,6 +9445,55 @@
               href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.12/Test-AzureRmDataLakeStoreAccount.md
             - name: Test-AzureRmDataLakeStoreItem
               href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.12/Test-AzureRmDataLakeStoreItem.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/AzureRM.DataLakeStore.md
+          items:
+            - name: Add-AzureRmDataLakeStoreItemContent
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Add-AzureRmDataLakeStoreItemContent.md
+            - name: Export-AzureRmDataLakeStoreItem
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Export-AzureRmDataLakeStoreItem.md
+            - name: Get-AzureRmDataLakeStoreAccount
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Get-AzureRmDataLakeStoreAccount.md
+            - name: Get-AzureRmDataLakeStoreChildItem
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Get-AzureRmDataLakeStoreChildItem.md
+            - name: Get-AzureRmDataLakeStoreItem
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Get-AzureRmDataLakeStoreItem.md
+            - name: Get-AzureRmDataLakeStoreItemAcl
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Get-AzureRmDataLakeStoreItemAcl.md
+            - name: Get-AzureRmDataLakeStoreItemContent
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Get-AzureRmDataLakeStoreItemContent.md
+            - name: Get-AzureRmDataLakeStoreItemOwner
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Get-AzureRmDataLakeStoreItemOwner.md
+            - name: Import-AzureRmDataLakeStoreItem
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Import-AzureRmDataLakeStoreItem.md
+            - name: Join-AzureRmDataLakeStoreItem
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Join-AzureRmDataLakeStoreItem.md
+            - name: Move-AzureRmDataLakeStoreItem
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Move-AzureRmDataLakeStoreItem.md
+            - name: New-AzureRmDataLakeStoreAccount
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/New-AzureRmDataLakeStoreAccount.md
+            - name: New-AzureRmDataLakeStoreItem
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/New-AzureRmDataLakeStoreItem.md
+            - name: Remove-AzureRmDataLakeStoreAccount
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Remove-AzureRmDataLakeStoreAccount.md
+            - name: Remove-AzureRmDataLakeStoreItem
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Remove-AzureRmDataLakeStoreItem.md
+            - name: Remove-AzureRmDataLakeStoreItemAcl
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Remove-AzureRmDataLakeStoreItemAcl.md
+            - name: Remove-AzureRmDataLakeStoreItemAclEntry
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Remove-AzureRmDataLakeStoreItemAclEntry.md
+            - name: Set-AzureRmDataLakeStoreAccount
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Set-AzureRmDataLakeStoreAccount.md
+            - name: Set-AzureRmDataLakeStoreItemAcl
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Set-AzureRmDataLakeStoreItemAcl.md
+            - name: Set-AzureRmDataLakeStoreItemAclEntry
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Set-AzureRmDataLakeStoreItemAclEntry.md
+            - name: Set-AzureRmDataLakeStoreItemOwner
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Set-AzureRmDataLakeStoreItemOwner.md
+            - name: Test-AzureRmDataLakeStoreAccount
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Test-AzureRmDataLakeStoreAccount.md
+            - name: Test-AzureRmDataLakeStoreItem
+              href: ../ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/Test-AzureRmDataLakeStoreItem.md
     - name: AzureRM.DevTestLabs
       items:
         - name: v2.7.0
@@ -8994,6 +9882,29 @@
               href: ../ResourceManager/AzureRM.DNS/v1.0.12/Set-AzureRmDnsRecordSet.md
             - name: Set-AzureRmDnsZone
               href: ../ResourceManager/AzureRM.DNS/v1.0.12/Set-AzureRmDnsZone.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.DNS/v1.0.4.3/AzureRM.Dns.md
+          items:
+            - name: Add-AzureRmDnsRecordConfig
+              href: ../ResourceManager/AzureRM.DNS/v1.0.4.3/Add-AzureRmDnsRecordConfig.md
+            - name: Get-AzureRmDnsRecordSet
+              href: ../ResourceManager/AzureRM.DNS/v1.0.4.3/Get-AzureRmDnsRecordSet.md
+            - name: Get-AzureRmDnsZone
+              href: ../ResourceManager/AzureRM.DNS/v1.0.4.3/Get-AzureRmDnsZone.md
+            - name: New-AzureRmDnsRecordSet
+              href: ../ResourceManager/AzureRM.DNS/v1.0.4.3/New-AzureRmDnsRecordSet.md
+            - name: New-AzureRmDnsZone
+              href: ../ResourceManager/AzureRM.DNS/v1.0.4.3/New-AzureRmDnsZone.md
+            - name: Remove-AzureRmDnsRecordConfig
+              href: ../ResourceManager/AzureRM.DNS/v1.0.4.3/Remove-AzureRmDnsRecordConfig.md
+            - name: Remove-AzureRmDnsRecordSet
+              href: ../ResourceManager/AzureRM.DNS/v1.0.4.3/Remove-AzureRmDnsRecordSet.md
+            - name: Remove-AzureRmDnsZone
+              href: ../ResourceManager/AzureRM.DNS/v1.0.4.3/Remove-AzureRmDnsZone.md
+            - name: Set-AzureRmDnsRecordSet
+              href: ../ResourceManager/AzureRM.DNS/v1.0.4.3/Set-AzureRmDnsRecordSet.md
+            - name: Set-AzureRmDnsZone
+              href: ../ResourceManager/AzureRM.DNS/v1.0.4.3/Set-AzureRmDnsZone.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.DNS/v0.9.8/AzureRM.DNS.md
           items:
@@ -9742,6 +10653,65 @@
               href: ../ResourceManager/AzureRM.HDInsight/v1.1.4/Use-AzureRmHDInsightCluster.md
             - name: Wait-AzureRmHDInsightJob
               href: ../ResourceManager/AzureRM.HDInsight/v1.1.4/Wait-AzureRmHDInsightJob.md
+        - name: v1.0.5.3
+          href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/AzureRM.HDInsight.md
+          items:
+            - name: Add-AzureRmHDInsightConfigValues
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Add-AzureRmHDInsightConfigValues.md
+            - name: Add-AzureRmHDInsightMetastore
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Add-AzureRmHDInsightMetastore.md
+            - name: Add-AzureRmHDInsightScriptAction
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Add-AzureRmHDInsightScriptAction.md
+            - name: Add-AzureRmHDInsightStorage
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Add-AzureRmHDInsightStorage.md
+            - name: Get-AzureRmHDInsightCluster
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Get-AzureRmHDInsightCluster.md
+            - name: Get-AzureRmHDInsightJob
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Get-AzureRmHDInsightJob.md
+            - name: Get-AzureRmHDInsightJobOutput
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Get-AzureRmHDInsightJobOutput.md
+            - name: Get-AzureRmHDInsightProperties
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Get-AzureRmHDInsightProperties.md
+            - name: Grant-AzureRmHDInsightHttpServicesAccess
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Grant-AzureRmHDInsightHttpServicesAccess.md
+            - name: Grant-AzureRmHDInsightRdpServicesAccess
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Grant-AzureRmHDInsightRdpServicesAccess.md
+            - name: Invoke-AzureRmHDInsightHiveJob
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Invoke-AzureRmHDInsightHiveJob.md
+            - name: New-AzureHDInsightClusterIdentity
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/New-AzureHDInsightClusterIdentity.md
+            - name: New-AzureRmHDInsightCluster
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/New-AzureRmHDInsightCluster.md
+            - name: New-AzureRmHDInsightClusterConfig
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/New-AzureRmHDInsightClusterConfig.md
+            - name: New-AzureRmHDInsightHiveJobDefinition
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/New-AzureRmHDInsightHiveJobDefinition.md
+            - name: New-AzureRmHDInsightMapReduceJobDefinition
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/New-AzureRmHDInsightMapReduceJobDefinition.md
+            - name: New-AzureRmHDInsightPigJobDefinition
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/New-AzureRmHDInsightPigJobDefinition.md
+            - name: New-AzureRmHDInsightSqoopJobDefinition
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/New-AzureRmHDInsightSqoopJobDefinition.md
+            - name: New-AzureRmHDInsightStreamingMapReduceJobDefinition
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/New-AzureRmHDInsightStreamingMapReduceJobDefinition.md
+            - name: Remove-AzureRmHDInsightCluster
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Remove-AzureRmHDInsightCluster.md
+            - name: Revoke-AzureRmHDInsightHttpServicesAccess
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Revoke-AzureRmHDInsightHttpServicesAccess.md
+            - name: Revoke-AzureRmHDInsightRdpServicesAccess
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Revoke-AzureRmHDInsightRdpServicesAccess.md
+            - name: Set-AzureRmHDInsightClusterSize
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Set-AzureRmHDInsightClusterSize.md
+            - name: Set-AzureRmHDInsightDefaultStorage
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Set-AzureRmHDInsightDefaultStorage.md
+            - name: Start-AzureRmHDInsightJob
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Start-AzureRmHDInsightJob.md
+            - name: Stop-AzureRmHDInsightJob
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Stop-AzureRmHDInsightJob.md
+            - name: Use-AzureRmHDInsightCluster
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Use-AzureRmHDInsightCluster.md
+            - name: Wait-AzureRmHDInsightJob
+              href: ../ResourceManager/AzureRM.HDInsight/v1.0.5.3/Wait-AzureRmHDInsightJob.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.HDInsight/v0.9.8/AzureRM.HDInsight.md
           items:
@@ -10223,6 +11193,43 @@
               href: ../ResourceManager/AzureRM.Insights/v1.0.12/Remove-AzureRmLogProfile.md
             - name: Set-AzureRmDiagnosticSetting
               href: ../ResourceManager/AzureRM.Insights/v1.0.12/Set-AzureRmDiagnosticSetting.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/AzureRM.Insights.md
+          items:
+            - name: Add-AlertRule
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Add-AlertRule.md
+            - name: Add-AutoscaleSetting
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Add-AutoscaleSetting.md
+            - name: Format-MetricsAsTable
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Format-MetricsAsTable.md
+            - name: Get-AlertHistory
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Get-AlertHistory.md
+            - name: Get-AlertRule
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Get-AlertRule.md
+            - name: Get-AutoscaleHistory
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Get-AutoscaleHistory.md
+            - name: Get-AutoscaleSetting
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Get-AutoscaleSetting.md
+            - name: Get-AzureRmDiagnosticSetting
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Get-AzureRmDiagnosticSetting.md
+            - name: Get-AzureRmLog
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Get-AzureRmLog.md
+            - name: Get-MetricDefinitions
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Get-MetricDefinitions.md
+            - name: Get-Metrics
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Get-Metrics.md
+            - name: Get-UsageMetrics
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Get-UsageMetrics.md
+            - name: New-AutoscaleProfile
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/New-AutoscaleProfile.md
+            - name: New-AutoscaleRule
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/New-AutoscaleRule.md
+            - name: Remove-AlertRule
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Remove-AlertRule.md
+            - name: Remove-AutoscaleSetting
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Remove-AutoscaleSetting.md
+            - name: Set-AzureRmDiagnosticSetting
+              href: ../ResourceManager/AzureRM.Insights/v1.0.4.3/Set-AzureRmDiagnosticSetting.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.Insights/v0.9.8/AzureRM.Insights.md
           items:
@@ -10946,6 +11953,39 @@
               href: ../ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureKeyVaultSecretAttribute.md
             - name: Set-AzureRmKeyVaultAccessPolicy
               href: ../ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureRmKeyVaultAccessPolicy.md
+        - name: v1.1.3.4
+          href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/AzureRM.KeyVault.md
+          items:
+            - name: Add-AzureKeyVaultKey
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Add-AzureKeyVaultKey.md
+            - name: Backup-AzureKeyVaultKey
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Backup-AzureKeyVaultKey.md
+            - name: Get-AzureKeyVaultKey
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Get-AzureKeyVaultKey.md
+            - name: Get-AzureKeyVaultSecret
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Get-AzureKeyVaultSecret.md
+            - name: Get-AzureRmKeyVault
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Get-AzureRmKeyVault.md
+            - name: New-AzureRmKeyVault
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/New-AzureRmKeyVault.md
+            - name: Remove-AzureKeyVaultKey
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Remove-AzureKeyVaultKey.md
+            - name: Remove-AzureKeyVaultSecret
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Remove-AzureKeyVaultSecret.md
+            - name: Remove-AzureRmKeyVault
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Remove-AzureRmKeyVault.md
+            - name: Remove-AzureRmKeyVaultAccessPolicy
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Remove-AzureRmKeyVaultAccessPolicy.md
+            - name: Restore-AzureKeyVaultKey
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Restore-AzureKeyVaultKey.md
+            - name: Set-AzureKeyVaultKeyAttribute
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Set-AzureKeyVaultKeyAttribute.md
+            - name: Set-AzureKeyVaultSecret
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Set-AzureKeyVaultSecret.md
+            - name: Set-AzureKeyVaultSecretAttribute
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Set-AzureKeyVaultSecretAttribute.md
+            - name: Set-AzureRmKeyVaultAccessPolicy
+              href: ../ResourceManager/AzureRM.KeyVault/v1.1.3.4/Set-AzureRmKeyVaultAccessPolicy.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.KeyVault/v0.9.8/AzureRM.KeyVault.md
           items:
@@ -15346,6 +16386,353 @@
               href: ../ResourceManager/AzureRM.Network/v1.0.13/Stop-AzureRmApplicationGateway.md
             - name: Test-AzureRmDnsAvailability
               href: ../ResourceManager/AzureRM.Network/v1.0.13/Test-AzureRmDnsAvailability.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.Network/v1.0.4.3/AzureRM.Network.md
+          items:
+            - name: Add-AzureRmApplicationGatewayBackendAddressPool
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmApplicationGatewayBackendAddressPool.md
+            - name: Add-AzureRmApplicationGatewayBackendHttpSettings
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmApplicationGatewayBackendHttpSettings.md
+            - name: Add-AzureRmApplicationGatewayFrontendIPConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmApplicationGatewayFrontendIPConfig.md
+            - name: Add-AzureRmApplicationGatewayFrontendPort
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmApplicationGatewayFrontendPort.md
+            - name: Add-AzureRmApplicationGatewayHttpListener
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmApplicationGatewayHttpListener.md
+            - name: Add-AzureRmApplicationGatewayIPConfiguration
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmApplicationGatewayIPConfiguration.md
+            - name: Add-AzureRmApplicationGatewayProbeConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmApplicationGatewayProbeConfig.md
+            - name: Add-AzureRmApplicationGatewayRequestRoutingRule
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmApplicationGatewayRequestRoutingRule.md
+            - name: Add-AzureRmApplicationGatewaySslCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmApplicationGatewaySslCertificate.md
+            - name: Add-AzureRmApplicationGatewayUrlPathMapConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmApplicationGatewayUrlPathMapConfig.md
+            - name: Add-AzureRmExpressRouteCircuitAuthorization
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmExpressRouteCircuitAuthorization.md
+            - name: Add-AzureRmExpressRouteCircuitPeeringConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmExpressRouteCircuitPeeringConfig.md
+            - name: Add-AzureRmLoadBalancerBackendAddressPoolConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmLoadBalancerBackendAddressPoolConfig.md
+            - name: Add-AzureRmLoadBalancerFrontendIpConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmLoadBalancerFrontendIpConfig.md
+            - name: Add-AzureRmLoadBalancerInboundNatPoolConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmLoadBalancerInboundNatPoolConfig.md
+            - name: Add-AzureRmLoadBalancerInboundNatRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmLoadBalancerInboundNatRuleConfig.md
+            - name: Add-AzureRmLoadBalancerProbeConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmLoadBalancerProbeConfig.md
+            - name: Add-AzureRmLoadBalancerRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmLoadBalancerRuleConfig.md
+            - name: Add-AzureRmNetworkSecurityRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmNetworkSecurityRuleConfig.md
+            - name: Add-AzureRmRouteConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmRouteConfig.md
+            - name: Add-AzureRmVirtualNetworkSubnetConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmVirtualNetworkSubnetConfig.md
+            - name: Add-AzureRmVpnClientRevokedCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmVpnClientRevokedCertificate.md
+            - name: Add-AzureRmVpnClientRootCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Add-AzureRmVpnClientRootCertificate.md
+            - name: Get-AzureRmApplicationGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGateway.md
+            - name: Get-AzureRmApplicationGatewayBackendAddressPool
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGatewayBackendAddressPool.md
+            - name: Get-AzureRmApplicationGatewayBackendHttpSettings
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGatewayBackendHttpSettings.md
+            - name: Get-AzureRmApplicationGatewayFrontendIPConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGatewayFrontendIPConfig.md
+            - name: Get-AzureRmApplicationGatewayFrontendPort
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGatewayFrontendPort.md
+            - name: Get-AzureRmApplicationGatewayHttpListener
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGatewayHttpListener.md
+            - name: Get-AzureRmApplicationGatewayIPConfiguration
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGatewayIPConfiguration.md
+            - name: Get-AzureRmApplicationGatewayProbeConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGatewayProbeConfig.md
+            - name: Get-AzureRmApplicationGatewayRequestRoutingRule
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGatewayRequestRoutingRule.md
+            - name: Get-AzureRmApplicationGatewaySku
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGatewaySku.md
+            - name: Get-AzureRmApplicationGatewaySslCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGatewaySslCertificate.md
+            - name: Get-AzureRmApplicationGatewayUrlPathMapConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmApplicationGatewayUrlPathMapConfig.md
+            - name: Get-AzureRmExpressRouteCircuit
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmExpressRouteCircuit.md
+            - name: Get-AzureRmExpressRouteCircuitAuthorization
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmExpressRouteCircuitAuthorization.md
+            - name: Get-AzureRmExpressRouteCircuitPeeringConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmExpressRouteCircuitPeeringConfig.md
+            - name: Get-AzureRmExpressRouteServiceProvider
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmExpressRouteServiceProvider.md
+            - name: Get-AzureRmLoadBalancer
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmLoadBalancer.md
+            - name: Get-AzureRmLoadBalancerBackendAddressPoolConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmLoadBalancerBackendAddressPoolConfig.md
+            - name: Get-AzureRmLoadBalancerFrontendIpConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmLoadBalancerFrontendIpConfig.md
+            - name: Get-AzureRmLoadBalancerInboundNatPoolConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmLoadBalancerInboundNatPoolConfig.md
+            - name: Get-AzureRmLoadBalancerInboundNatRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmLoadBalancerInboundNatRuleConfig.md
+            - name: Get-AzureRmLoadBalancerProbeConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmLoadBalancerProbeConfig.md
+            - name: Get-AzureRmLoadBalancerRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmLoadBalancerRuleConfig.md
+            - name: Get-AzureRmLocalNetworkGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmLocalNetworkGateway.md
+            - name: Get-AzureRmNetworkInterface
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmNetworkInterface.md
+            - name: Get-AzureRmNetworkSecurityGroup
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmNetworkSecurityGroup.md
+            - name: Get-AzureRmNetworkSecurityRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmNetworkSecurityRuleConfig.md
+            - name: Get-AzureRmPublicIpAddress
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmPublicIpAddress.md
+            - name: Get-AzureRmRouteConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmRouteConfig.md
+            - name: Get-AzureRmRouteTable
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmRouteTable.md
+            - name: Get-AzureRmVirtualNetwork
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmVirtualNetwork.md
+            - name: Get-AzureRmVirtualNetworkGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmVirtualNetworkGateway.md
+            - name: Get-AzureRmVirtualNetworkGatewayConnection
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmVirtualNetworkGatewayConnection.md
+            - name: Get-AzureRmVirtualNetworkGatewayConnectionSharedKey
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
+            - name: Get-AzureRmVirtualNetworkSubnetConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmVirtualNetworkSubnetConfig.md
+            - name: Get-AzureRmVpnClientPackage
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmVpnClientPackage.md
+            - name: Get-AzureRmVpnClientRevokedCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmVpnClientRevokedCertificate.md
+            - name: Get-AzureRmVpnClientRootCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Get-AzureRmVpnClientRootCertificate.md
+            - name: New-AzureRmApplicationGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGateway.md
+            - name: New-AzureRmApplicationGatewayBackendAddressPool
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewayBackendAddressPool.md
+            - name: New-AzureRmApplicationGatewayBackendHttpSettings
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewayBackendHttpSettings.md
+            - name: New-AzureRmApplicationGatewayFrontendIPConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewayFrontendIPConfig.md
+            - name: New-AzureRmApplicationGatewayFrontendPort
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewayFrontendPort.md
+            - name: New-AzureRmApplicationGatewayHttpListener
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewayHttpListener.md
+            - name: New-AzureRmApplicationGatewayIPConfiguration
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewayIPConfiguration.md
+            - name: New-AzureRmApplicationGatewayPathRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewayPathRuleConfig.md
+            - name: New-AzureRmApplicationGatewayProbeConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewayProbeConfig.md
+            - name: New-AzureRmApplicationGatewayRequestRoutingRule
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewayRequestRoutingRule.md
+            - name: New-AzureRmApplicationGatewaySku
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewaySku.md
+            - name: New-AzureRmApplicationGatewaySslCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewaySslCertificate.md
+            - name: New-AzureRmApplicationGatewayUrlPathMapConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmApplicationGatewayUrlPathMapConfig.md
+            - name: New-AzureRmExpressRouteCircuit
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmExpressRouteCircuit.md
+            - name: New-AzureRmExpressRouteCircuitAuthorization
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmExpressRouteCircuitAuthorization.md
+            - name: New-AzureRmExpressRouteCircuitPeeringConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmExpressRouteCircuitPeeringConfig.md
+            - name: New-AzureRmLoadBalancer
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmLoadBalancer.md
+            - name: New-AzureRmLoadBalancerBackendAddressPoolConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmLoadBalancerBackendAddressPoolConfig.md
+            - name: New-AzureRmLoadBalancerFrontendIpConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmLoadBalancerFrontendIpConfig.md
+            - name: New-AzureRmLoadBalancerInboundNatPoolConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmLoadBalancerInboundNatPoolConfig.md
+            - name: New-AzureRmLoadBalancerInboundNatRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmLoadBalancerInboundNatRuleConfig.md
+            - name: New-AzureRmLoadBalancerProbeConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmLoadBalancerProbeConfig.md
+            - name: New-AzureRmLoadBalancerRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmLoadBalancerRuleConfig.md
+            - name: New-AzureRmLocalNetworkGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmLocalNetworkGateway.md
+            - name: New-AzureRmNetworkInterface
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmNetworkInterface.md
+            - name: New-AzureRmNetworkSecurityGroup
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmNetworkSecurityGroup.md
+            - name: New-AzureRmNetworkSecurityRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmNetworkSecurityRuleConfig.md
+            - name: New-AzureRmPublicIpAddress
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmPublicIpAddress.md
+            - name: New-AzureRmRouteConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmRouteConfig.md
+            - name: New-AzureRmRouteTable
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmRouteTable.md
+            - name: New-AzureRmVirtualNetwork
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmVirtualNetwork.md
+            - name: New-AzureRmVirtualNetworkGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmVirtualNetworkGateway.md
+            - name: New-AzureRmVirtualNetworkGatewayConnection
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmVirtualNetworkGatewayConnection.md
+            - name: New-AzureRmVirtualNetworkGatewayIpConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmVirtualNetworkGatewayIpConfig.md
+            - name: New-AzureRmVirtualNetworkSubnetConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmVirtualNetworkSubnetConfig.md
+            - name: New-AzureRmVpnClientRevokedCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmVpnClientRevokedCertificate.md
+            - name: New-AzureRmVpnClientRootCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/New-AzureRmVpnClientRootCertificate.md
+            - name: Remove-AzureRmApplicationGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmApplicationGateway.md
+            - name: Remove-AzureRmApplicationGatewayBackendAddressPool
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmApplicationGatewayBackendAddressPool.md
+            - name: Remove-AzureRmApplicationGatewayBackendHttpSettings
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmApplicationGatewayBackendHttpSettings.md
+            - name: Remove-AzureRmApplicationGatewayFrontendIPConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmApplicationGatewayFrontendIPConfig.md
+            - name: Remove-AzureRmApplicationGatewayFrontendPort
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmApplicationGatewayFrontendPort.md
+            - name: Remove-AzureRmApplicationGatewayHttpListener
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmApplicationGatewayHttpListener.md
+            - name: Remove-AzureRmApplicationGatewayIPConfiguration
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmApplicationGatewayIPConfiguration.md
+            - name: Remove-AzureRmApplicationGatewayProbeConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmApplicationGatewayProbeConfig.md
+            - name: Remove-AzureRmApplicationGatewayRequestRoutingRule
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmApplicationGatewayRequestRoutingRule.md
+            - name: Remove-AzureRmApplicationGatewaySslCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmApplicationGatewaySslCertificate.md
+            - name: Remove-AzureRmApplicationGatewayUrlPathMapConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmApplicationGatewayUrlPathMapConfig.md
+            - name: Remove-AzureRmExpressRouteCircuit
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmExpressRouteCircuit.md
+            - name: Remove-AzureRmExpressRouteCircuitAuthorization
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmExpressRouteCircuitAuthorization.md
+            - name: Remove-AzureRmExpressRouteCircuitPeeringConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmExpressRouteCircuitPeeringConfig.md
+            - name: Remove-AzureRmLoadBalancer
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmLoadBalancer.md
+            - name: Remove-AzureRmLoadBalancerBackendAddressPoolConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmLoadBalancerBackendAddressPoolConfig.md
+            - name: Remove-AzureRmLoadBalancerFrontendIpConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmLoadBalancerFrontendIpConfig.md
+            - name: Remove-AzureRmLoadBalancerInboundNatPoolConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmLoadBalancerInboundNatPoolConfig.md
+            - name: Remove-AzureRmLoadBalancerInboundNatRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmLoadBalancerInboundNatRuleConfig.md
+            - name: Remove-AzureRmLoadBalancerProbeConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmLoadBalancerProbeConfig.md
+            - name: Remove-AzureRmLoadBalancerRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmLoadBalancerRuleConfig.md
+            - name: Remove-AzureRmLocalNetworkGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmLocalNetworkGateway.md
+            - name: Remove-AzureRmNetworkInterface
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmNetworkInterface.md
+            - name: Remove-AzureRmNetworkSecurityGroup
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmNetworkSecurityGroup.md
+            - name: Remove-AzureRmNetworkSecurityRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmNetworkSecurityRuleConfig.md
+            - name: Remove-AzureRmPublicIpAddress
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmPublicIpAddress.md
+            - name: Remove-AzureRmRouteConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmRouteConfig.md
+            - name: Remove-AzureRmRouteTable
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmRouteTable.md
+            - name: Remove-AzureRmVirtualNetwork
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmVirtualNetwork.md
+            - name: Remove-AzureRmVirtualNetworkGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmVirtualNetworkGateway.md
+            - name: Remove-AzureRmVirtualNetworkGatewayConnection
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmVirtualNetworkGatewayConnection.md
+            - name: Remove-AzureRmVirtualNetworkGatewayDefaultSite
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmVirtualNetworkGatewayDefaultSite.md
+            - name: Remove-AzureRmVirtualNetworkSubnetConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmVirtualNetworkSubnetConfig.md
+            - name: Remove-AzureRmVpnClientRevokedCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmVpnClientRevokedCertificate.md
+            - name: Remove-AzureRmVpnClientRootCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Remove-AzureRmVpnClientRootCertificate.md
+            - name: Reset-AzureRmVirtualNetworkGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Reset-AzureRmVirtualNetworkGateway.md
+            - name: Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
+            - name: Resize-AzureRmVirtualNetworkGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Resize-AzureRmVirtualNetworkGateway.md
+            - name: Set-AzureRmApplicationGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGateway.md
+            - name: Set-AzureRmApplicationGatewayBackendAddressPool
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGatewayBackendAddressPool.md
+            - name: Set-AzureRmApplicationGatewayBackendHttpSettings
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGatewayBackendHttpSettings.md
+            - name: Set-AzureRmApplicationGatewayFrontendIPConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGatewayFrontendIPConfig.md
+            - name: Set-AzureRmApplicationGatewayFrontendPort
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGatewayFrontendPort.md
+            - name: Set-AzureRmApplicationGatewayHttpListener
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGatewayHttpListener.md
+            - name: Set-AzureRmApplicationGatewayIPConfiguration
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGatewayIPConfiguration.md
+            - name: Set-AzureRmApplicationGatewayProbeConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGatewayProbeConfig.md
+            - name: Set-AzureRmApplicationGatewayRequestRoutingRule
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGatewayRequestRoutingRule.md
+            - name: Set-AzureRmApplicationGatewaySku
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGatewaySku.md
+            - name: Set-AzureRmApplicationGatewaySslCertificate
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGatewaySslCertificate.md
+            - name: Set-AzureRmApplicationGatewayUrlPathMapConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmApplicationGatewayUrlPathMapConfig.md
+            - name: Set-AzureRmExpressRouteCircuit
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmExpressRouteCircuit.md
+            - name: Set-AzureRmExpressRouteCircuitPeeringConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmExpressRouteCircuitPeeringConfig.md
+            - name: Set-AzureRmLoadBalancer
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmLoadBalancer.md
+            - name: Set-AzureRmLoadBalancerFrontendIpConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmLoadBalancerFrontendIpConfig.md
+            - name: Set-AzureRmLoadBalancerInboundNatPoolConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmLoadBalancerInboundNatPoolConfig.md
+            - name: Set-AzureRmLoadBalancerInboundNatRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmLoadBalancerInboundNatRuleConfig.md
+            - name: Set-AzureRmLoadBalancerProbeConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmLoadBalancerProbeConfig.md
+            - name: Set-AzureRmLoadBalancerRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmLoadBalancerRuleConfig.md
+            - name: Set-AzureRmLocalNetworkGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmLocalNetworkGateway.md
+            - name: Set-AzureRmNetworkInterface
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmNetworkInterface.md
+            - name: Set-AzureRmNetworkSecurityGroup
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmNetworkSecurityGroup.md
+            - name: Set-AzureRmNetworkSecurityRuleConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmNetworkSecurityRuleConfig.md
+            - name: Set-AzureRmPublicIpAddress
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmPublicIpAddress.md
+            - name: Set-AzureRmRouteConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmRouteConfig.md
+            - name: Set-AzureRmRouteTable
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmRouteTable.md
+            - name: Set-AzureRmVirtualNetwork
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmVirtualNetwork.md
+            - name: Set-AzureRmVirtualNetworkGatewayConnection
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmVirtualNetworkGatewayConnection.md
+            - name: Set-AzureRmVirtualNetworkGatewayConnectionSharedKey
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
+            - name: Set-AzureRmVirtualNetworkGatewayDefaultSite
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
+            - name: Set-AzureRmVirtualNetworkGatewayVpnClientConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmVirtualNetworkGatewayVpnClientConfig.md
+            - name: Set-AzureRmVirtualNetworkSubnetConfig
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Set-AzureRmVirtualNetworkSubnetConfig.md
+            - name: Start-AzureRmApplicationGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Start-AzureRmApplicationGateway.md
+            - name: Stop-AzureRmApplicationGateway
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Stop-AzureRmApplicationGateway.md
+            - name: Test-AzureRmDnsAvailability
+              href: ../ResourceManager/AzureRM.Network/v1.0.4.3/Test-AzureRmDnsAvailability.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.Network/v0.9.8/AzureRM.Network.md
           items:
@@ -15957,6 +17344,47 @@
               href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.12/Set-AzureRmNotificationHubsNamespace.md
             - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
               href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.12/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/AzureRM.NotificationHubs.md
+          items:
+            - name: Get-AzureRmNotificationHub
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Get-AzureRmNotificationHub.md
+            - name: Get-AzureRmNotificationHubAuthorizationRules
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Get-AzureRmNotificationHubAuthorizationRules.md
+            - name: Get-AzureRmNotificationHubListKeys
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Get-AzureRmNotificationHubListKeys.md
+            - name: Get-AzureRmNotificationHubPNSCredentials
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Get-AzureRmNotificationHubPNSCredentials.md
+            - name: Get-AzureRmNotificationHubsNamespace
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Get-AzureRmNotificationHubsNamespace.md
+            - name: Get-AzureRmNotificationHubsNamespaceAuthorizationRules
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Get-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+            - name: Get-AzureRmNotificationHubsNamespaceListKeys
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Get-AzureRmNotificationHubsNamespaceListKeys.md
+            - name: New-AzureRmNotificationHub
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/New-AzureRmNotificationHub.md
+            - name: New-AzureRmNotificationHubAuthorizationRules
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/New-AzureRmNotificationHubAuthorizationRules.md
+            - name: New-AzureRmNotificationHubsNamespace
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/New-AzureRmNotificationHubsNamespace.md
+            - name: New-AzureRmNotificationHubsNamespaceAuthorizationRules
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/New-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+            - name: Remove-AzureRmNotificationHub
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Remove-AzureRmNotificationHub.md
+            - name: Remove-AzureRmNotificationHubAuthorizationRules
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Remove-AzureRmNotificationHubAuthorizationRules.md
+            - name: Remove-AzureRmNotificationHubsNamespace
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Remove-AzureRmNotificationHubsNamespace.md
+            - name: Remove-AzureRmNotificationHubsNamespaceAuthorizationRules
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Remove-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+            - name: Set-AzureRmNotificationHub
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Set-AzureRmNotificationHub.md
+            - name: Set-AzureRmNotificationHubAuthorizationRules
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Set-AzureRmNotificationHubAuthorizationRules.md
+            - name: Set-AzureRmNotificationHubsNamespace
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Set-AzureRmNotificationHubsNamespace.md
+            - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
+              href: ../ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
     - name: AzureRM.OperationalInsights
       items:
         - name: v2.7.0
@@ -16573,6 +18001,51 @@
               href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.12/Set-AzureRmOperationalInsightsStorageInsight.md
             - name: Set-AzureRmOperationalInsightsWorkspace
               href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.12/Set-AzureRmOperationalInsightsWorkspace.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/AzureRM.OperationalInsights.md
+          items:
+            - name: Get-AzureRmOperationalInsightsIntelligencePacks
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Get-AzureRmOperationalInsightsIntelligencePacks.md
+            - name: Get-AzureRmOperationalInsightsLinkTargets
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Get-AzureRmOperationalInsightsLinkTargets.md
+            - name: Get-AzureRmOperationalInsightsSavedSearch
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Get-AzureRmOperationalInsightsSavedSearch.md
+            - name: Get-AzureRmOperationalInsightsSavedSearchResults
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Get-AzureRmOperationalInsightsSavedSearchResults.md
+            - name: Get-AzureRmOperationalInsightsSchema
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Get-AzureRmOperationalInsightsSchema.md
+            - name: Get-AzureRmOperationalInsightsSearchResults
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Get-AzureRmOperationalInsightsSearchResults.md
+            - name: Get-AzureRmOperationalInsightsStorageInsight
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Get-AzureRmOperationalInsightsStorageInsight.md
+            - name: Get-AzureRmOperationalInsightsWorkspace
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Get-AzureRmOperationalInsightsWorkspace.md
+            - name: Get-AzureRmOperationalInsightsWorkspaceManagementGroups
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Get-AzureRmOperationalInsightsWorkspaceManagementGroups.md
+            - name: Get-AzureRmOperationalInsightsWorkspaceSharedKeys
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Get-AzureRmOperationalInsightsWorkspaceSharedKeys.md
+            - name: Get-AzureRmOperationalInsightsWorkspaceUsage
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Get-AzureRmOperationalInsightsWorkspaceUsage.md
+            - name: New-AzureRmOperationalInsightsSavedSearch
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/New-AzureRmOperationalInsightsSavedSearch.md
+            - name: New-AzureRmOperationalInsightsStorageInsight
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/New-AzureRmOperationalInsightsStorageInsight.md
+            - name: New-AzureRmOperationalInsightsWorkspace
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/New-AzureRmOperationalInsightsWorkspace.md
+            - name: Remove-AzureRmOperationalInsightsSavedSearch
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Remove-AzureRmOperationalInsightsSavedSearch.md
+            - name: Remove-AzureRmOperationalInsightsStorageInsight
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Remove-AzureRmOperationalInsightsStorageInsight.md
+            - name: Remove-AzureRmOperationalInsightsWorkspace
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Remove-AzureRmOperationalInsightsWorkspace.md
+            - name: Set-AzureRmOperationalInsightsIntelligencePack
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Set-AzureRmOperationalInsightsIntelligencePack.md
+            - name: Set-AzureRmOperationalInsightsSavedSearch
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Set-AzureRmOperationalInsightsSavedSearch.md
+            - name: Set-AzureRmOperationalInsightsStorageInsight
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Set-AzureRmOperationalInsightsStorageInsight.md
+            - name: Set-AzureRmOperationalInsightsWorkspace
+              href: ../ResourceManager/AzureRM.OperationalInsights/v1.0.4.3/Set-AzureRmOperationalInsightsWorkspace.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.OperationalInsights/v0.9.8/AzureRM.OperationalInsights.md
           items:
@@ -16956,6 +18429,35 @@
               href: ../ResourceManager/AzureRM.Profile/v1.0.12/Set-AzureRmContext.md
             - name: Set-AzureRmEnvironment
               href: ../ResourceManager/AzureRM.Profile/v1.0.12/Set-AzureRmEnvironment.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/AzureRM.Profile.md
+          items:
+            - name: Add-AzureRmAccount
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Add-AzureRmAccount.md
+            - name: Add-AzureRmEnvironment
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Add-AzureRmEnvironment.md
+            - name: Disable-AzureRmDataCollection
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Disable-AzureRmDataCollection.md
+            - name: Enable-AzureRmDataCollection
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Enable-AzureRmDataCollection.md
+            - name: Get-AzureRmContext
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Get-AzureRmContext.md
+            - name: Get-AzureRmEnvironment
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Get-AzureRmEnvironment.md
+            - name: Get-AzureRmSubscription
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Get-AzureRmSubscription.md
+            - name: Get-AzureRmTenant
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Get-AzureRmTenant.md
+            - name: Remove-AzureRmEnvironment
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Remove-AzureRmEnvironment.md
+            - name: Save-AzureRmProfile
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Save-AzureRmProfile.md
+            - name: Select-AzureRmProfile
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Select-AzureRmProfile.md
+            - name: Set-AzureRmContext
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Set-AzureRmContext.md
+            - name: Set-AzureRmEnvironment
+              href: ../ResourceManager/AzureRM.Profile/v1.0.4.3/Set-AzureRmEnvironment.md
     - name: AzureRM.RecoveryServices
       items:
         - name: v2.7.0
@@ -17094,6 +18596,17 @@
               href: ../ResourceManager/AzureRM.RecoveryServices/v1.1.4/Set-AzureRmRecoveryServicesBackupProperties.md
             - name: Set-AzureRmRecoveryServicesVaultContext
               href: ../ResourceManager/AzureRM.RecoveryServices/v1.1.4/Set-AzureRmRecoveryServicesVaultContext.md
+        - name: v1.0.5.3
+          href: ../ResourceManager/AzureRM.RecoveryServices/v1.0.5.3/AzureRM.RecoveryServices.md
+          items:
+            - name: Get-AzureRmRecoveryServicesVault
+              href: ../ResourceManager/AzureRM.RecoveryServices/v1.0.5.3/Get-AzureRmRecoveryServicesVault.md
+            - name: Get-AzureRmRecoveryServicesVaultSettingsFile
+              href: ../ResourceManager/AzureRM.RecoveryServices/v1.0.5.3/Get-AzureRmRecoveryServicesVaultSettingsFile.md
+            - name: New-AzureRmRecoveryServicesVault
+              href: ../ResourceManager/AzureRM.RecoveryServices/v1.0.5.3/New-AzureRmRecoveryServicesVault.md
+            - name: Remove-AzureRmRecoveryServicesVault
+              href: ../ResourceManager/AzureRM.RecoveryServices/v1.0.5.3/Remove-AzureRmRecoveryServicesVault.md
     - name: AzureRM.RecoveryServices.Backup
       items:
         - name: v2.7.0
@@ -17698,6 +19211,25 @@
               href: ../ResourceManager/AzureRM.RedisCache/v1.1.10/Set-AzureRmRedisCache.md
             - name: Set-AzureRmRedisCacheDiagnostics
               href: ../ResourceManager/AzureRM.RedisCache/v1.1.10/Set-AzureRmRedisCacheDiagnostics.md
+        - name: v1.1.2.3
+          href: ../ResourceManager/AzureRM.RedisCache/v1.1.2.3/AzureRM.RedisCache.md
+          items:
+            - name: Get-AzureRmRedisCache
+              href: ../ResourceManager/AzureRM.RedisCache/v1.1.2.3/Get-AzureRmRedisCache.md
+            - name: Get-AzureRmRedisCacheKey
+              href: ../ResourceManager/AzureRM.RedisCache/v1.1.2.3/Get-AzureRmRedisCacheKey.md
+            - name: New-AzureRmRedisCache
+              href: ../ResourceManager/AzureRM.RedisCache/v1.1.2.3/New-AzureRmRedisCache.md
+            - name: New-AzureRmRedisCacheKey
+              href: ../ResourceManager/AzureRM.RedisCache/v1.1.2.3/New-AzureRmRedisCacheKey.md
+            - name: Remove-AzureRmRedisCache
+              href: ../ResourceManager/AzureRM.RedisCache/v1.1.2.3/Remove-AzureRmRedisCache.md
+            - name: Remove-AzureRmRedisCacheDiagnostics
+              href: ../ResourceManager/AzureRM.RedisCache/v1.1.2.3/Remove-AzureRmRedisCacheDiagnostics.md
+            - name: Set-AzureRmRedisCache
+              href: ../ResourceManager/AzureRM.RedisCache/v1.1.2.3/Set-AzureRmRedisCache.md
+            - name: Set-AzureRmRedisCacheDiagnostics
+              href: ../ResourceManager/AzureRM.RedisCache/v1.1.2.3/Set-AzureRmRedisCacheDiagnostics.md
     - name: AzureRM.Resources
       items:
         - name: v3.7.0
@@ -18612,6 +20144,113 @@
               href: ../ResourceManager/AzureRM.Resources/v2.0.3/Test-AzureRmResourceGroupDeployment.md
             - name: Unregister-AzureRmResourceProvider
               href: ../ResourceManager/AzureRM.Resources/v2.0.3/Unregister-AzureRmResourceProvider.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/AzureRM.Resources.md
+          items:
+            - name: Find-AzureRmResource
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Find-AzureRmResource.md
+            - name: Find-AzureRmResourceGroup
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Find-AzureRmResourceGroup.md
+            - name: Get-AzureRmADApplication
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmADApplication.md
+            - name: Get-AzureRmADGroup
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmADGroup.md
+            - name: Get-AzureRmADGroupMember
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmADGroupMember.md
+            - name: Get-AzureRmADServicePrincipal
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmADServicePrincipal.md
+            - name: Get-AzureRmADUser
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmADUser.md
+            - name: Get-AzureRmPolicyAssignment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmPolicyAssignment.md
+            - name: Get-AzureRmPolicyDefinition
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmPolicyDefinition.md
+            - name: Get-AzureRmProviderFeature
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmProviderFeature.md
+            - name: Get-AzureRmProviderOperation
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmProviderOperation.md
+            - name: Get-AzureRmResource
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmResource.md
+            - name: Get-AzureRmResourceGroup
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmResourceGroup.md
+            - name: Get-AzureRmResourceGroupDeployment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmResourceGroupDeployment.md
+            - name: Get-AzureRmResourceGroupDeploymentOperation
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmResourceGroupDeploymentOperation.md
+            - name: Get-AzureRmResourceLock
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmResourceLock.md
+            - name: Get-AzureRmResourceProvider
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmResourceProvider.md
+            - name: Get-AzureRmRoleAssignment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmRoleAssignment.md
+            - name: Get-AzureRmRoleDefinition
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmRoleDefinition.md
+            - name: Invoke-AzureRmResourceAction
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Invoke-AzureRmResourceAction.md
+            - name: Move-AzureRmResource
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Move-AzureRmResource.md
+            - name: New-AzureRmADApplication
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmADApplication.md
+            - name: New-AzureRmADServicePrincipal
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmADServicePrincipal.md
+            - name: New-AzureRmPolicyAssignment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmPolicyAssignment.md
+            - name: New-AzureRmPolicyDefinition
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmPolicyDefinition.md
+            - name: New-AzureRmResource
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmResource.md
+            - name: New-AzureRmResourceGroup
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmResourceGroup.md
+            - name: New-AzureRmResourceGroupDeployment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmResourceGroupDeployment.md
+            - name: New-AzureRmResourceLock
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmResourceLock.md
+            - name: New-AzureRmRoleAssignment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmRoleAssignment.md
+            - name: New-AzureRmRoleDefinition
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmRoleDefinition.md
+            - name: Register-AzureRmProviderFeature
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Register-AzureRmProviderFeature.md
+            - name: Register-AzureRmResourceProvider
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Register-AzureRmResourceProvider.md
+            - name: Remove-AzureRmADApplication
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmADApplication.md
+            - name: Remove-AzureRmADServicePrincipal
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmADServicePrincipal.md
+            - name: Remove-AzureRmPolicyAssignment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmPolicyAssignment.md
+            - name: Remove-AzureRmPolicyDefinition
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmPolicyDefinition.md
+            - name: Remove-AzureRmResource
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmResource.md
+            - name: Remove-AzureRmResourceGroup
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmResourceGroup.md
+            - name: Remove-AzureRmResourceGroupDeployment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmResourceGroupDeployment.md
+            - name: Remove-AzureRmResourceLock
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmResourceLock.md
+            - name: Remove-AzureRmRoleAssignment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmRoleAssignment.md
+            - name: Remove-AzureRmRoleDefinition
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmRoleDefinition.md
+            - name: Set-AzureRmPolicyAssignment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Set-AzureRmPolicyAssignment.md
+            - name: Set-AzureRmPolicyDefinition
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Set-AzureRmPolicyDefinition.md
+            - name: Set-AzureRmResource
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Set-AzureRmResource.md
+            - name: Set-AzureRmResourceGroup
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Set-AzureRmResourceGroup.md
+            - name: Set-AzureRmResourceLock
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Set-AzureRmResourceLock.md
+            - name: Set-AzureRmRoleDefinition
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Set-AzureRmRoleDefinition.md
+            - name: Stop-AzureRmResourceGroupDeployment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Stop-AzureRmResourceGroupDeployment.md
+            - name: Test-AzureRmResourceGroupDeployment
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Test-AzureRmResourceGroupDeployment.md
+            - name: Unregister-AzureRmResourceProvider
+              href: ../ResourceManager/AzureRM.Resources/v1.0.4.3/Unregister-AzureRmResourceProvider.md
     - name: AzureRM.Scheduler
       items:
         - name: v2.7.0
@@ -20272,6 +21911,79 @@
               href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.11/Update-AzureRmSiteRecoveryRecoveryPlan.md
             - name: Update-AzureRmSiteRecoveryServer
               href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.11/Update-AzureRmSiteRecoveryServer.md
+        - name: v1.1.3.3
+          href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/AzureRM.SiteRecovery.md
+          items:
+            - name: Get-AzureRmSiteRecoveryJob
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoveryJob.md
+            - name: Get-AzureRmSiteRecoveryNetwork
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoveryNetwork.md
+            - name: Get-AzureRmSiteRecoveryNetworkMapping
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoveryNetworkMapping.md
+            - name: Get-AzureRmSiteRecoveryPolicy
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoveryPolicy.md
+            - name: Get-AzureRmSiteRecoveryProtectionContainer
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoveryProtectionContainer.md
+            - name: Get-AzureRmSiteRecoveryProtectionEntity
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoveryProtectionEntity.md
+            - name: Get-AzureRmSiteRecoveryServer
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoveryServer.md
+            - name: Get-AzureRmSiteRecoverySite
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoverySite.md
+            - name: Get-AzureRmSiteRecoveryVault
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoveryVault.md
+            - name: Get-AzureRmSiteRecoveryVaultSettings
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoveryVaultSettings.md
+            - name: Get-AzureRmSiteRecoveryVaultSettingsFile
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoveryVaultSettingsFile.md
+            - name: Get-AzureRmSiteRecoveryVM
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Get-AzureRmSiteRecoveryVM.md
+            - name: Import-AzureRmSiteRecoveryVaultSettingsFile
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Import-AzureRmSiteRecoveryVaultSettingsFile.md
+            - name: New-AzureRmSiteRecoveryNetworkMapping
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/New-AzureRmSiteRecoveryNetworkMapping.md
+            - name: New-AzureRmSiteRecoveryPolicy
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/New-AzureRmSiteRecoveryPolicy.md
+            - name: New-AzureRmSiteRecoverySite
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/New-AzureRmSiteRecoverySite.md
+            - name: New-AzureRmSiteRecoveryVault
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/New-AzureRmSiteRecoveryVault.md
+            - name: Remove-AzureRmSiteRecoveryNetworkMapping
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Remove-AzureRmSiteRecoveryNetworkMapping.md
+            - name: Remove-AzureRmSiteRecoveryPolicy
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Remove-AzureRmSiteRecoveryPolicy.md
+            - name: Remove-AzureRmSiteRecoveryServer
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Remove-AzureRmSiteRecoveryServer.md
+            - name: Remove-AzureRmSiteRecoverySite
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Remove-AzureRmSiteRecoverySite.md
+            - name: Remove-AzureRmSiteRecoveryVault
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Remove-AzureRmSiteRecoveryVault.md
+            - name: Restart-AzureRmSiteRecoveryJob
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Restart-AzureRmSiteRecoveryJob.md
+            - name: Resume-AzureRmSiteRecoveryJob
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Resume-AzureRmSiteRecoveryJob.md
+            - name: Set-AzureRmSiteRecoveryProtectionEntity
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Set-AzureRmSiteRecoveryProtectionEntity.md
+            - name: Set-AzureRmSiteRecoveryVaultSettings
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Set-AzureRmSiteRecoveryVaultSettings.md
+            - name: Set-AzureRmSiteRecoveryVM
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Set-AzureRmSiteRecoveryVM.md
+            - name: Start-AzureRmSiteRecoveryCommitFailoverJob
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Start-AzureRmSiteRecoveryCommitFailoverJob.md
+            - name: Start-AzureRmSiteRecoveryPlannedFailoverJob
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Start-AzureRmSiteRecoveryPlannedFailoverJob.md
+            - name: Start-AzureRmSiteRecoveryPolicyAssociationJob
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
+            - name: Start-AzureRmSiteRecoveryPolicyDissociationJob
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Start-AzureRmSiteRecoveryPolicyDissociationJob.md
+            - name: Start-AzureRmSiteRecoveryTestFailoverJob
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Start-AzureRmSiteRecoveryTestFailoverJob.md
+            - name: Start-AzureRmSiteRecoveryUnplannedFailoverJob
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
+            - name: Stop-AzureRmSiteRecoveryJob
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Stop-AzureRmSiteRecoveryJob.md
+            - name: Update-AzureRmSiteRecoveryProtectionDirection
+              href: ../ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/Update-AzureRmSiteRecoveryProtectionDirection.md
     - name: AzureRM.Sql
       items:
         - name: v2.7.0
@@ -21846,6 +23558,141 @@
               href: ../ResourceManager/AzureRM.Sql/v1.0.12/Suspend-AzureRmSqlDatabase.md
             - name: Use-AzureRmSqlServerAuditingPolicy
               href: ../ResourceManager/AzureRM.Sql/v1.0.12/Use-AzureRmSqlServerAuditingPolicy.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/AzureRM.Sql.md
+          items:
+            - name: Get-AzureRmSqlCapability
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlCapability.md
+            - name: Get-AzureRmSqlDatabase
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabase.md
+            - name: Get-AzureRmSqlDatabaseActivity
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseActivity.md
+            - name: Get-AzureRmSqlDatabaseAuditingPolicy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseAuditingPolicy.md
+            - name: Get-AzureRmSqlDatabaseDataMaskingPolicy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseDataMaskingPolicy.md
+            - name: Get-AzureRmSqlDatabaseDataMaskingRule
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseDataMaskingRule.md
+            - name: Get-AzureRmSqlDatabaseExpanded
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseExpanded.md
+            - name: Get-AzureRmSqlDatabaseIndexRecommendations
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseIndexRecommendations.md
+            - name: Get-AzureRmSqlDatabaseReplicationLink
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseReplicationLink.md
+            - name: Get-AzureRmSqlDatabaseRestorePoints
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseRestorePoints.md
+            - name: Get-AzureRmSqlDatabaseSecureConnectionPolicy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseSecureConnectionPolicy.md
+            - name: Get-AzureRmSqlDatabaseThreatDetectionPolicy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseThreatDetectionPolicy.md
+            - name: Get-AzureRmSqlDatabaseTransparentDataEncryption
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseTransparentDataEncryption.md
+            - name: Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity.md
+            - name: Get-AzureRmSqlDatabaseUpgradeHint
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlDatabaseUpgradeHint.md
+            - name: Get-AzureRmSqlElasticPool
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlElasticPool.md
+            - name: Get-AzureRmSqlElasticPoolActivity
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlElasticPoolActivity.md
+            - name: Get-AzureRmSqlElasticPoolDatabase
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlElasticPoolDatabase.md
+            - name: Get-AzureRmSqlElasticPoolRecommendation
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlElasticPoolRecommendation.md
+            - name: Get-AzureRmSqlServer
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlServer.md
+            - name: Get-AzureRmSqlServerActiveDirectoryAdministrator
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlServerActiveDirectoryAdministrator.md
+            - name: Get-AzureRmSqlServerAuditingPolicy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlServerAuditingPolicy.md
+            - name: Get-AzureRmSqlServerCommunicationLink
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlServerCommunicationLink.md
+            - name: Get-AzureRmSqlServerFirewallRule
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlServerFirewallRule.md
+            - name: Get-AzureRmSqlServerServiceObjective
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlServerServiceObjective.md
+            - name: Get-AzureRmSqlServerUpgrade
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlServerUpgrade.md
+            - name: Get-AzureRmSqlServerUpgradeHint
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Get-AzureRmSqlServerUpgradeHint.md
+            - name: New-AzureRmSqlDatabase
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/New-AzureRmSqlDatabase.md
+            - name: New-AzureRmSqlDatabaseCopy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/New-AzureRmSqlDatabaseCopy.md
+            - name: New-AzureRmSqlDatabaseDataMaskingRule
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/New-AzureRmSqlDatabaseDataMaskingRule.md
+            - name: New-AzureRmSqlDatabaseSecondary
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/New-AzureRmSqlDatabaseSecondary.md
+            - name: New-AzureRmSqlElasticPool
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/New-AzureRmSqlElasticPool.md
+            - name: New-AzureRmSqlServer
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/New-AzureRmSqlServer.md
+            - name: New-AzureRmSqlServerCommunicationLink
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/New-AzureRmSqlServerCommunicationLink.md
+            - name: New-AzureRmSqlServerFirewallRule
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/New-AzureRmSqlServerFirewallRule.md
+            - name: Remove-AzureRmSqlDatabase
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Remove-AzureRmSqlDatabase.md
+            - name: Remove-AzureRmSqlDatabaseAuditing
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Remove-AzureRmSqlDatabaseAuditing.md
+            - name: Remove-AzureRmSqlDatabaseDataMaskingRule
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Remove-AzureRmSqlDatabaseDataMaskingRule.md
+            - name: Remove-AzureRmSqlDatabaseSecondary
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Remove-AzureRmSqlDatabaseSecondary.md
+            - name: Remove-AzureRmSqlDatabaseThreatDetectionPolicy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Remove-AzureRmSqlDatabaseThreatDetectionPolicy.md
+            - name: Remove-AzureRmSqlElasticPool
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Remove-AzureRmSqlElasticPool.md
+            - name: Remove-AzureRmSqlServer
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Remove-AzureRmSqlServer.md
+            - name: Remove-AzureRmSqlServerActiveDirectoryAdministrator
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Remove-AzureRmSqlServerActiveDirectoryAdministrator.md
+            - name: Remove-AzureRmSqlServerAuditing
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Remove-AzureRmSqlServerAuditing.md
+            - name: Remove-AzureRmSqlServerCommunicationLink
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Remove-AzureRmSqlServerCommunicationLink.md
+            - name: Remove-AzureRmSqlServerFirewallRule
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Remove-AzureRmSqlServerFirewallRule.md
+            - name: Resume-AzureRmSqlDatabase
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Resume-AzureRmSqlDatabase.md
+            - name: Set-AzureRmSqlDatabase
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlDatabase.md
+            - name: Set-AzureRmSqlDatabaseAuditingPolicy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlDatabaseAuditingPolicy.md
+            - name: Set-AzureRmSqlDatabaseDataMaskingPolicy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlDatabaseDataMaskingPolicy.md
+            - name: Set-AzureRmSqlDatabaseDataMaskingRule
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlDatabaseDataMaskingRule.md
+            - name: Set-AzureRmSqlDatabaseSecondary
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlDatabaseSecondary.md
+            - name: Set-AzureRmSqlDatabaseThreatDetectionPolicy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
+            - name: Set-AzureRmSqlDatabaseTransparentDataEncryption
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlDatabaseTransparentDataEncryption.md
+            - name: Set-AzureRmSqlElasticPool
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlElasticPool.md
+            - name: Set-AzureRmSqlServer
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlServer.md
+            - name: Set-AzureRmSqlServerActiveDirectoryAdministrator
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlServerActiveDirectoryAdministrator.md
+            - name: Set-AzureRmSqlServerAuditingPolicy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlServerAuditingPolicy.md
+            - name: Set-AzureRmSqlServerCommunicationLink
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlServerCommunicationLink.md
+            - name: Set-AzureRmSqlServerFirewallRule
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Set-AzureRmSqlServerFirewallRule.md
+            - name: Start-AzureRmSqlDatabaseExecuteIndexRecommendation
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Start-AzureRmSqlDatabaseExecuteIndexRecommendation.md
+            - name: Start-AzureRmSqlServerUpgrade
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Start-AzureRmSqlServerUpgrade.md
+            - name: Stop-AzureRmSqlDatabaseExecuteIndexRecommendation
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
+            - name: Stop-AzureRmSqlServerUpgrade
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Stop-AzureRmSqlServerUpgrade.md
+            - name: Suspend-AzureRmSqlDatabase
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Suspend-AzureRmSqlDatabase.md
+            - name: Use-AzureRmSqlServerAuditingPolicy
+              href: ../ResourceManager/AzureRM.Sql/v1.0.4.3/Use-AzureRmSqlServerAuditingPolicy.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.Sql/v0.9.8/AzureRM.Sql.md
           items:
@@ -22148,6 +23995,27 @@
               href: ../ResourceManager/AzureRM.Storage/v1.1.3/Set-AzureRmCurrentStorageAccount.md
             - name: Set-AzureRmStorageAccount
               href: ../ResourceManager/AzureRM.Storage/v1.1.3/Set-AzureRmStorageAccount.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.Storage/v1.0.4.3/AzureRM.Storage.md
+          items:
+            - name: Get-AzureRmStorageAccount
+              href: ../ResourceManager/AzureRM.Storage/v1.0.4.3/Get-AzureRmStorageAccount.md
+            - name: Get-AzureRmStorageAccountKey
+              href: ../ResourceManager/AzureRM.Storage/v1.0.4.3/Get-AzureRmStorageAccountKey.md
+            - name: Get-AzureRmStorageAccountNameAvailability
+              href: ../ResourceManager/AzureRM.Storage/v1.0.4.3/Get-AzureRmStorageAccountNameAvailability.md
+            - name: Get-AzureRmStorageUsage
+              href: ../ResourceManager/AzureRM.Storage/v1.0.4.3/Get-AzureRmStorageUsage.md
+            - name: New-AzureRmStorageAccount
+              href: ../ResourceManager/AzureRM.Storage/v1.0.4.3/New-AzureRmStorageAccount.md
+            - name: New-AzureRmStorageAccountKey
+              href: ../ResourceManager/AzureRM.Storage/v1.0.4.3/New-AzureRmStorageAccountKey.md
+            - name: Remove-AzureRmStorageAccount
+              href: ../ResourceManager/AzureRM.Storage/v1.0.4.3/Remove-AzureRmStorageAccount.md
+            - name: Set-AzureRmCurrentStorageAccount
+              href: ../ResourceManager/AzureRM.Storage/v1.0.4.3/Set-AzureRmCurrentStorageAccount.md
+            - name: Set-AzureRmStorageAccount
+              href: ../ResourceManager/AzureRM.Storage/v1.0.4.3/Set-AzureRmStorageAccount.md
     - name: AzureRM.StreamAnalytics
       items:
         - name: v2.7.0
@@ -22510,6 +24378,51 @@
               href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Test-AzureRmStreamAnalyticsInput.md
             - name: Test-AzureRmStreamAnalyticsOutput
               href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.12/Test-AzureRmStreamAnalyticsOutput.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/AzureRM.StreamAnalytics.md
+          items:
+            - name: Get-AzureRmStreamAnalyticsDefaultFunctionDefinition
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Get-AzureRmStreamAnalyticsDefaultFunctionDefinition.md
+            - name: Get-AzureRmStreamAnalyticsFunction
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Get-AzureRmStreamAnalyticsFunction.md
+            - name: Get-AzureRmStreamAnalyticsInput
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Get-AzureRmStreamAnalyticsInput.md
+            - name: Get-AzureRmStreamAnalyticsJob
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Get-AzureRmStreamAnalyticsJob.md
+            - name: Get-AzureRmStreamAnalyticsOutput
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Get-AzureRmStreamAnalyticsOutput.md
+            - name: Get-AzureRmStreamAnalyticsQuota
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Get-AzureRmStreamAnalyticsQuota.md
+            - name: Get-AzureRmStreamAnalyticsTransformation
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Get-AzureRmStreamAnalyticsTransformation.md
+            - name: New-AzureRmStreamAnalyticsFunction
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/New-AzureRmStreamAnalyticsFunction.md
+            - name: New-AzureRmStreamAnalyticsInput
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/New-AzureRmStreamAnalyticsInput.md
+            - name: New-AzureRmStreamAnalyticsJob
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/New-AzureRmStreamAnalyticsJob.md
+            - name: New-AzureRmStreamAnalyticsOutput
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/New-AzureRmStreamAnalyticsOutput.md
+            - name: New-AzureRmStreamAnalyticsTransformation
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/New-AzureRmStreamAnalyticsTransformation.md
+            - name: Remove-AzureRmStreamAnalyticsFunction
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Remove-AzureRmStreamAnalyticsFunction.md
+            - name: Remove-AzureRmStreamAnalyticsInput
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Remove-AzureRmStreamAnalyticsInput.md
+            - name: Remove-AzureRmStreamAnalyticsJob
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Remove-AzureRmStreamAnalyticsJob.md
+            - name: Remove-AzureRmStreamAnalyticsOutput
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Remove-AzureRmStreamAnalyticsOutput.md
+            - name: Start-AzureRmStreamAnalyticsJob
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Start-AzureRmStreamAnalyticsJob.md
+            - name: Stop-AzureRmStreamAnalyticsJob
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Stop-AzureRmStreamAnalyticsJob.md
+            - name: Test-AzureRmStreamAnalyticsFunction
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Test-AzureRmStreamAnalyticsFunction.md
+            - name: Test-AzureRmStreamAnalyticsInput
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Test-AzureRmStreamAnalyticsInput.md
+            - name: Test-AzureRmStreamAnalyticsOutput
+              href: ../ResourceManager/AzureRM.StreamAnalytics/v1.0.4.3/Test-AzureRmStreamAnalyticsOutput.md
         - name: v0.9.8
           href: ../ResourceManager/AzureRM.StreamAnalytics/v0.9.8/AzureRM.StreamAnalytics.md
           items:
@@ -22619,6 +24532,15 @@
               href: ../ResourceManager/AzureRM.Tags/v1.0.11/New-AzureRmTag.md
             - name: Remove-AzureRmTag
               href: ../ResourceManager/AzureRM.Tags/v1.0.11/Remove-AzureRmTag.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.Tags/v1.0.4.3/AzureRM.Tags.md
+          items:
+            - name: Get-AzureRmTag
+              href: ../ResourceManager/AzureRM.Tags/v1.0.4.3/Get-AzureRmTag.md
+            - name: New-AzureRmTag
+              href: ../ResourceManager/AzureRM.Tags/v1.0.4.3/New-AzureRmTag.md
+            - name: Remove-AzureRmTag
+              href: ../ResourceManager/AzureRM.Tags/v1.0.4.3/Remove-AzureRmTag.md
     - name: AzureRM.TrafficManager
       items:
         - name: v2.7.0
@@ -22869,6 +24791,37 @@
               href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Set-AzureRmTrafficManagerEndpoint.md
             - name: Set-AzureRmTrafficManagerProfile
               href: ../ResourceManager/AzureRM.TrafficManager/v1.0.11/Set-AzureRmTrafficManagerProfile.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/AzureRM.TrafficManager.md
+          items:
+            - name: Add-AzureRmTrafficManagerEndpointConfig
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Add-AzureRmTrafficManagerEndpointConfig.md
+            - name: Disable-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Disable-AzureRmTrafficManagerEndpoint.md
+            - name: Disable-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Disable-AzureRmTrafficManagerProfile.md
+            - name: Enable-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Enable-AzureRmTrafficManagerEndpoint.md
+            - name: Enable-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Enable-AzureRmTrafficManagerProfile.md
+            - name: Get-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Get-AzureRmTrafficManagerEndpoint.md
+            - name: Get-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Get-AzureRmTrafficManagerProfile.md
+            - name: New-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/New-AzureRmTrafficManagerEndpoint.md
+            - name: New-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/New-AzureRmTrafficManagerProfile.md
+            - name: Remove-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Remove-AzureRmTrafficManagerEndpoint.md
+            - name: Remove-AzureRmTrafficManagerEndpointConfig
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Remove-AzureRmTrafficManagerEndpointConfig.md
+            - name: Remove-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Remove-AzureRmTrafficManagerProfile.md
+            - name: Set-AzureRmTrafficManagerEndpoint
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Set-AzureRmTrafficManagerEndpoint.md
+            - name: Set-AzureRmTrafficManagerProfile
+              href: ../ResourceManager/AzureRM.TrafficManager/v1.0.4.3/Set-AzureRmTrafficManagerProfile.md
     - name: AzureRM.UsageAggregates
       items:
         - name: v2.7.0
@@ -22906,6 +24859,11 @@
           items:
             - name: Get-UsageAggregates
               href: ../ResourceManager/AzureRM.UsageAggregates/v2.1.0/Get-UsageAggregates.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.UsageAggregates/v1.0.4.3/AzureRM.UsageAggregates.md
+          items:
+            - name: Get-UsageAggregates
+              href: ../ResourceManager/AzureRM.UsageAggregates/v1.0.4.3/Get-UsageAggregates.md
         - name: v1.0
           href: ../ResourceManager/AzureRM.UsageAggregates/v1.0/AzureRM.UsageAggregates.md
           items:
@@ -23587,6 +25545,67 @@
               href: ../ResourceManager/AzureRM.Websites/v1.1.3/Stop-AzureRmWebAppSlot.md
             - name: Swap-AzureRmWebAppSlot
               href: ../ResourceManager/AzureRM.Websites/v1.1.3/Swap-AzureRmWebAppSlot.md
+        - name: v1.0.4.3
+          href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/AzureRM.Websites.md
+          items:
+            - name: Get-AzureRmAppServicePlan
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Get-AzureRmAppServicePlan.md
+            - name: Get-AzureRmAppServicePlanMetrics
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Get-AzureRmAppServicePlanMetrics.md
+            - name: Get-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Get-AzureRmWebApp.md
+            - name: Get-AzureRmWebAppCertificate
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Get-AzureRmWebAppCertificate.md
+            - name: Get-AzureRmWebAppMetrics
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Get-AzureRmWebAppMetrics.md
+            - name: Get-AzureRmWebAppPublishingProfile
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Get-AzureRmWebAppPublishingProfile.md
+            - name: Get-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Get-AzureRmWebAppSlot.md
+            - name: Get-AzureRmWebAppSlotMetrics
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Get-AzureRmWebAppSlotMetrics.md
+            - name: Get-AzureRmWebAppSlotPublishingProfile
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Get-AzureRmWebAppSlotPublishingProfile.md
+            - name: Get-AzureRmWebAppSSLBinding
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Get-AzureRmWebAppSSLBinding.md
+            - name: New-AzureRmAppServicePlan
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/New-AzureRmAppServicePlan.md
+            - name: New-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/New-AzureRmWebApp.md
+            - name: New-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/New-AzureRmWebAppSlot.md
+            - name: New-AzureRmWebAppSSLBinding
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/New-AzureRmWebAppSSLBinding.md
+            - name: Remove-AzureRmAppServicePlan
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Remove-AzureRmAppServicePlan.md
+            - name: Remove-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Remove-AzureRmWebApp.md
+            - name: Remove-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Remove-AzureRmWebAppSlot.md
+            - name: Remove-AzureRmWebAppSSLBinding
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Remove-AzureRmWebAppSSLBinding.md
+            - name: Reset-AzureRmWebAppPublishingProfile
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Reset-AzureRmWebAppPublishingProfile.md
+            - name: Reset-AzureRmWebAppSlotPublishingProfile
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Reset-AzureRmWebAppSlotPublishingProfile.md
+            - name: Restart-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Restart-AzureRmWebApp.md
+            - name: Restart-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Restart-AzureRmWebAppSlot.md
+            - name: Set-AzureRmAppServicePlan
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Set-AzureRmAppServicePlan.md
+            - name: Set-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Set-AzureRmWebApp.md
+            - name: Set-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Set-AzureRmWebAppSlot.md
+            - name: Start-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Start-AzureRmWebApp.md
+            - name: Start-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Start-AzureRmWebAppSlot.md
+            - name: Stop-AzureRmWebApp
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Stop-AzureRmWebApp.md
+            - name: Stop-AzureRmWebAppSlot
+              href: ../ResourceManager/AzureRM.Websites/v1.0.4.3/Stop-AzureRmWebAppSlot.md
 - name: ServiceManagement
   href: ../ServiceManagement/index.md
   items:
