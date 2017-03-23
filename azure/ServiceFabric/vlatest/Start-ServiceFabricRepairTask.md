@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 239A882B-8E31-4404-AB35-2A39D8ABC600
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -31,15 +31,15 @@ Start-ServiceFabricRepairTask [-NodeName] <String> [-NodeAction] <SystemNodeRepa
  [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### NodeCustomAuto
-```
-Start-ServiceFabricRepairTask [-NodeNames] <String[]> [-CustomAction] <String> [-TaskId <String>]
- [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### NodeManual
 ```
 Start-ServiceFabricRepairTask [-NodeNames] <String[]> [-NodeImpact] <NodeImpactLevel> [-TaskId <String>]
+ [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### NodeCustomAuto
+```
+Start-ServiceFabricRepairTask [-NodeNames] <String[]> [-CustomAction] <String> [-TaskId <String>]
  [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
@@ -82,10 +82,10 @@ You can specify any action that one of the repair executors supports.
 ```yaml
 Type: String
 Parameter Sets: NodeCustomAuto
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -97,7 +97,7 @@ Specifies a description of the purpose of the repair task, or other information.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -120,11 +120,11 @@ Requests that all disk volumes be reimaged on the computer on which the given no
 ```yaml
 Type: SystemNodeRepairAction
 Parameter Sets: NodeBuiltInAuto
-Aliases:
+Aliases: 
 Accepted values: Reboot, ReimageOS, FullReimage
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -147,11 +147,11 @@ It may lose all of its persisted state prior to restarting.
 ```yaml
 Type: NodeImpactLevel
 Parameter Sets: NodeManual
-Aliases:
+Aliases: 
 Accepted values: Invalid, None, Restart, RemoveData
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -164,10 +164,10 @@ This cmdlet repairs the node that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: NodeBuiltInAuto
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -179,11 +179,11 @@ This cmdlet repairs the nodes that this parameter specifies.
 
 ```yaml
 Type: String[]
-Parameter Sets: NodeCustomAuto, NodeManual
-Aliases:
+Parameter Sets: NodeManual, NodeCustomAuto
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -196,7 +196,7 @@ If you do not specify an ID, this cmdlet generates a unique ID.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -211,7 +211,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

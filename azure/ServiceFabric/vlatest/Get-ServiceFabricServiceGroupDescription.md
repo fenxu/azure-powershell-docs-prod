@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 9226A922-F033-4916-9588-D6BE73ED6F67
-updated_at: 11/3/2016 12:09 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 10:10 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceGroupDescription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceGroupDescription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceGroupDescription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bfbb28bf28a21e5cb46d82a27a9ea48e6a552a25/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceGroupDescription.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -30,7 +30,11 @@ Get-ServiceFabricServiceGroupDescription [-ServiceName] <Uri> [-TimeoutSec <Int3
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricServiceGroupDescription** cmdlet gets the Service Fabric service group description of a service that is running.
+The **Get-ServiceFabricServiceGroupDescription** cmdlet gets the Service Fabric service group description of a service that is running. A service group is a group defined by the user. Services that are part of a group would be placed on the same node.
+
+To create a new group use [New-ServiceFabricServiceGroup](./New-ServiceFabricServiceGroup.md) cmdlet.
+To update a service group use [Update-ServiceFabricServiceGroup](./Update-ServiceFabricServiceGroup.md) cmdlet.
+To remove a service group use [Remove-ServiceFabricServiceGroup](./Remove-ServiceFabricServiceGroup.md) cmdlet.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
@@ -43,6 +47,16 @@ PS C:\>Get-ServiceFabricServiceGroupDescription -ServiceName fabric:/CalcApp/Cal
 
 This command gets the Service Fabric service group description for the service named fabric:/CalcApp/CalcService.
 
+
+### Example 2: Create, Update and Remove service fabric service groups.
+```
+PS C:\>New-ServiceFabricServiceGroup -ApplicationName fabric:/myapp/calculator -ServiceName fabric:/myapp/calculator/svc1 -ServiceTypeName StatelessCalculatorService -Stateless -PartitionSchemeSingleton -InstanceCount 3 -ServiceGroupMemberDescription @(@{"ServiceName"="fabric:/myapp/calculator/svc1#a";"ServiceTypeName"="StatelessCalculatorService1"},@{"ServiceName"="fabric:/myapp/calculator/svc1#b";"ServiceTypeName"="StatelessCalculatorService2"})
+PS C:\>New-ServiceFabricServiceGroup -ApplicationName fabric:/myapp/calculator -ServiceName fabric:/myapp/calculator/svc1 -ServiceTypeName StatefulCalculatorService -Stateful -TargetReplicaSetSize 5 -MinReplicaSetSize 3 -ReplicaRestartWaitDuration 10 -PlacementConstraint TestPlacementConstraints -ServiceGroupMemberDescription @(@{"ServiceName"="fabric:/myapp/calculator/svc1#a";"ServiceTypeName"="StatelessCalculatorService"})
+PS C:\>Get-ServiceFabricServiceGroupDescription -ServiceName fabric:/CalcApp/CalcService
+PS C:\>Update-ServiceFabricServiceGroup -ServiceName fabric:/myapp/calculator/svc1 -Stateless -PartitionSchemeSingleton -InstanceCount 3 -ServiceGroupMemberDescription @("fabric:/myapp/calculator/svc1#a,StatelessCalculatorService,")
+PS C:\>Remove-ServiceFabricServiceGroup -ServiceName fabric:/myapp/calculator/svc1
+```
+
 ## PARAMETERS
 
 ### -ServiceName
@@ -51,10 +65,10 @@ Specifies the Uniform Resource Identifier (URI) of a Service Fabric service grou
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -66,7 +80,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -86,7 +100,7 @@ This cmdlet accepts a URI that represents the name of a Service Fabric service g
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a **System.Fabric.Description.ServiceGroupDescription** object for a Service Fabric service group.
+This cmdlet returns a [System.Fabric.Description.ServiceGroupDescription](https://docs.microsoft.com/dotnet/api/system.fabric.description.servicegroupdescription) object for a Service Fabric service group.
 
 ## NOTES
 

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 17029E25-66BE-422A-8965-04990FAB833C
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 8:04 PM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricCluster.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1192febb630916b6e3840bff328f0cb2d618a074/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricCluster.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # New-ServiceFabricCluster
 
 ## SYNOPSIS
-Creates a Service Fabric cluster.
+Creates a standalone Service Fabric cluster.
 
 ## SYNTAX
 
@@ -31,9 +31,10 @@ New-ServiceFabricCluster [-ClusterConfigurationFilePath] <String> -FabricRuntime
 ```
 
 ## DESCRIPTION
-The **New-ServiceFabricCluster** cmdlet creates a Service Fabric cluster based on a configuration file in JavaScript Object Notation (JSON) format and a Service Fabric runtime package CAB file.
-The cmdlet orchestrates installations from the controller computer.
+The **New-ServiceFabricCluster** cmdlet creates a standalone Service Fabric cluster based on a configuration file in JavaScript Object Notation (JSON) format and a Service Fabric runtime package CAB file. The CAB file is available for download [here](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation.md). A link to examples of the JSON configuration file can be seen on the same page.
+This cmdlet orchestrates installations from the computer on which this command is run.
 
+Having the Service Fabric SDK installed may cause conflicts with this command. Please uninstall first.
 ## EXAMPLES
 
 ### Example 1: Create a cluster
@@ -58,10 +59,10 @@ Specifies the path of the cluster configuration JSON file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -73,7 +74,7 @@ Specifies the path of the Service Fabric package CAB file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -83,12 +84,12 @@ Accept wildcard characters: False
 ```
 
 ### -NoCleanupOnFailure
-Indicates that the system should retain Fabric data if the cluster cannot fully come up.
+Indicates that the system should retain Fabric data if the cluster cannot fully come up. If this option is selected, it is the responsibility of the user to clean up the data. Otherwise, future runs of this command may run into conflicts. Fabric data is stored in the locations "FabricDataRoot" and "FabricLogRoot" specified in the configuration file.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -103,7 +104,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

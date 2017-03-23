@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 169F0E6F-8E42-41DD-B406-0A232E380A8D
-updated_at: 3/6/2017 10:58 PM
-ms.date: 3/6/2017
+online version: 
+schema: 2.0.0
+updated_at: 3/23/2017 8:11 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/64dec90ea0c5ace25e14d41ecb01cc944cf110f0/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -54,10 +54,10 @@ The cmdlet rolls back the upgrade for the Service Fabric that this parameter spe
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -69,7 +69,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

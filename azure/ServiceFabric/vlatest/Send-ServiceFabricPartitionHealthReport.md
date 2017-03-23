@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 56FED04E-8162-4BD9-83BA-C4A79DC46B57
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 2:54 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricPartitionHealthReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricPartitionHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricPartitionHealthReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c9918e862685779553206b72ba4d711a6f2e8375/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricPartitionHealthReport.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -50,15 +50,15 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Report Error health report with infinite TTL
 ```
-PS C:\>Send-ServiceFabricPartitionHealthReport -PartitionId 869dd2e9-fdda-42a5-ad96-4b71c795dfd3 -SourceId "MyWatchdog" -HealthProperty "Availability" -HealthState Error
+PS C:\> Send-ServiceFabricPartitionHealthReport -PartitionId 869dd2e9-fdda-42a5-ad96-4b71c795dfd3 -SourceId "MyWatchdog" -HealthProperty "Availability" -HealthState Error
 ```
 
 This command sends a health report on the specified partition from the source MyWatchdog.
 The health report contains information about the health property **Availability** in an Error health state, with infinite TTL.
 
-### Example 2: Report Warning valid for specified health report with set TTL and remove it when it expiresvalid for specified
+### Example 2: Report Warning valid for specified TTL and remove it when it expires
 ```
-PS C:\>Send-ServiceFabricPartitionHealthReport -PartitionId 869dd2e9-fdda-42a5-ad96-4b71c795dfd3 -SourceId "MyWatchdog" -HealthProperty "ReplicaSet" -HealthState Warning -TimeToLiveSec 10 -RemoveWhenExpired -Description "The communication between replicas have high latency."
+PS C:\> Send-ServiceFabricPartitionHealthReport -PartitionId 869dd2e9-fdda-42a5-ad96-4b71c795dfd3 -SourceId "MyWatchdog" -HealthProperty "ReplicaSet" -HealthState Warning -TimeToLiveSec 10 -RemoveWhenExpired -Description "The communication between replicas have high latency."
 ```
 
 This command sends a health report on the specified partition from the source MyWatchdog.
@@ -76,7 +76,7 @@ The maximum string length for the description is 4096 characters.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -93,7 +93,7 @@ The report overrides any previous reports with the same values for the *SourceId
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -108,7 +108,7 @@ Specifies a **HealthState** object that represents the reported health state.
 ```yaml
 Type: HealthState
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: Invalid, Ok, Warning, Error, Unknown
 
 Required: True
@@ -124,10 +124,10 @@ Specifies the ID of a Service Fabric partition.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -141,7 +141,7 @@ The reports that are removed when expired can be used for conditions that are on
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -158,7 +158,7 @@ If you specify a sequence number, that value must be higher than any previous se
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -173,27 +173,9 @@ Specifies the identifier of the source that triggered the report.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -TimeToLiveSec
-Specifies the Time to Live (TTL) of the report in seconds.
-When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
-Otherwise, the entity is evaluated at Error because of the expired report.
-The default value is Infinite.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -206,12 +188,30 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TimeToLiveSec
+Specifies the Time to Live (TTL) of the report in seconds.
+When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
+Otherwise, the entity is evaluated at Error because of the expired report.
+The default value is Infinite.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

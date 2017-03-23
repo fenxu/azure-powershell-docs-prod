@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 298F2C12-F1BE-4341-B5A0-4C45CF45EB52
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/20/2017 5:33 PM
+ms.date: 3/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4b282fbbada4e5b501710c20544af645ad024b6b/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Unregister-ServiceFabricClusterPackage
 
 ## SYNOPSIS
-Unregisters a Service Fabric cluster package.
+Unregisters Service Fabric runtime installation version and/or cluster manifest version from the cluster.
 
 ## SYNTAX
 
@@ -31,44 +31,60 @@ Unregister-ServiceFabricClusterPackage -CodePackageVersion <String> -ClusterMani
  [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-### Code
+### Code only
 ```
-Unregister-ServiceFabricClusterPackage [-Code] -CodePackageVersion <String> [-ClusterManifestVersion <String>]
+Unregister-ServiceFabricClusterPackage [-Code] -CodePackageVersion <String>
  [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Config
 ```
-Unregister-ServiceFabricClusterPackage [-Config] [-CodePackageVersion <String>]
- -ClusterManifestVersion <String> [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
+Unregister-ServiceFabricClusterPackage [-Config] -ClusterManifestVersion <String> 
+[-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Unregister-ServiceFabricClusterPackage** cmdlet unregisters a Service Fabric cluster package.
-If you unregister a cluster package, the cmdlet removes the cluster package from the image store.
+The **Unregister-ServiceFabricClusterPackage** cmdlet unregisters Service Fabric runtime installation version and/or cluster manifest version from the cluster. The versions should be unregistered from the cluster if the versions are no longer used. This cmdlet will fail if the version is currently being used by the cluster.
+
+The list of all registered Service Fabric runtime installation versions registered with the cluster can be obtained by using the [Get-ServiceFabricRegisteredClusterCodeVersion](./Get-ServiceFabricRegisteredClusterCodeVersion.md) cmdlet.
+
+The list of all registered cluster manifest versions registered with the cluster can be obtained by using the [Get-ServiceFabricRegisteredClusterConfigVersion](./Get-ServiceFabricRegisteredClusterConfigVersion.md) cmdlet.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
-### Example 1: Unregister a cluster package
+### Example 1: Unregister both cluster manifest and runtime installation version from cluster
 ```
-PS C:\>Unregister-ServiceFabricClusterPackage -ClusterManifestVersion "V2" -CodePackageVersion "2.0.59.0" -Force
+PS C:\>Unregister-ServiceFabricClusterPackage -ClusterManifestVersion "V2" -CodePackageVersion "2.0.59.0"
 ```
 
-This command unregisters the cluster package.
-Because the command includes the *Force* parameter, the cmdlet does not prompt you for confirmation.
+This command unregisters cluster manifest version "V2" and runtime installation version "2.0.59.0" from the cluster.
+
+### Example 1: Unregister just the cluster manifest version from cluster
+```
+PS C:\>Unregister-ServiceFabricClusterPackage -Config -ClusterManifestVersion "V2"
+```
+
+This command unregisters cluster manifest version "V2" from the cluster.
+
+### Example 1: Unregister just the runtime installation version from cluster
+```
+PS C:\>Unregister-ServiceFabricClusterPackage -Code -CodePackageVersion "2.0.59.0"
+```
+
+This command unregisters runtime installation version "2.0.59.0" from the cluster.
 
 ## PARAMETERS
 
 ### -ClusterManifestVersion
-Specifies the version stored in a Service Fabric cluster manifest.
+Specifies the cluster manifest version to unregister from the cluster.
 
 ```yaml
 Type: String
 Parameter Sets: Both, Config
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -80,7 +96,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Code
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -90,12 +106,12 @@ Accept wildcard characters: False
 ```
 
 ### -Code
-Indicates that the package includes only a Service Fabric .msi file.
+Indicates that only the Service Fabric runtime installation version needs to be unregistered from the cluster.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -105,12 +121,12 @@ Accept wildcard characters: False
 ```
 
 ### -CodePackageVersion
-Specifies the version of the Service Fabric .msi file.
+Specifies the runtime installation version to unregister from the cluster.
 
 ```yaml
 Type: String
 Parameter Sets: Both, Code
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -122,7 +138,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Config
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -132,14 +148,44 @@ Accept wildcard characters: False
 ```
 
 ### -Config
-Indicates that the package is a Service Fabric cluster manifest.
+Indicates that only the Service Fabric cluster manifest version needs to be unregistered from the cluster.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Config
-Aliases:
+Aliases: 
 
 Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TimeoutSec
+Specifies the time-out period, in seconds, for the operation.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -157,36 +203,6 @@ Aliases: cf
 Required: False
 Position: Named
 Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -TimeoutSec
-Specifies the time-out period, in seconds, for the operation.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -231,3 +247,7 @@ This cmdlet returns the status of the operation as a string.
 [Copy-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md)
 
 [Register-ServiceFabricClusterPackage](xref:ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md)
+
+[Get-ServiceFabricRegisteredClusterCodeVersion](xref:ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterCodeVersion.md)
+
+[Get-ServiceFabricRegisteredClusterConfigVersion](xref:ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterConfigVersion.md)

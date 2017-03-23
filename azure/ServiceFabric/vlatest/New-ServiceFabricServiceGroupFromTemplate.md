@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 2758DDB2-A3A0-48FF-B704-4BE8FD088B5D
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroupFromTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroupFromTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroupFromTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroupFromTemplate.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -54,10 +54,10 @@ The cmdlet creates a service group based on the application that has the URI tha
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -69,7 +69,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -84,10 +84,10 @@ Specifies the URI of a Service Fabric service group.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -99,10 +99,10 @@ Specifies the name of a Service Fabric service group type.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -114,7 +114,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

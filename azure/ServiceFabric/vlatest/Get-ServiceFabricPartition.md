@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 88E000A6-8A42-4E87-B9E4-7179AC38FB5D
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 11:22 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/5935d047dbc6cd41c353caf46ff85f77d23c43fc/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartition.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Get-ServiceFabricPartition
 
 ## SYNOPSIS
-Gets Service Fabric partitions.
+Gets information about the partitions of a specified Service Fabric partition or service.
 
 ## SYNTAX
 
@@ -37,31 +37,39 @@ Get-ServiceFabricPartition [[-PartitionId] <Guid>] [-ServiceName] <Uri> [-Timeou
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricPartition** cmdlet gets the Service Fabric partitions of a specified service.
+The **Get-ServiceFabricPartition** cmdlet gets information on the partitions of the specified service or on a specific partition. The returned partition information includes the partition health state, partition status, and service kind (see the [Outputs](#outputs) section for more details).
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the **[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)** cmdlet.
 
 ## EXAMPLES
 
-### Example 1: Get a service partition
+### Example 1: Get partitions for a service
 ```
 PS C:\>Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1
 ```
 
-This command gets the service partition for the specified Service Fabric service name.
+This command gets the information for all the partitions of the `fabric:/myapp/persistenttodolist/svc1` service.
+
+### Example 2: Get a specific partition
+```
+PS C:\>Get-ServiceFabricPartition -PartitionId $ToDoPartition01.PartitionId
+```
+
+This command gets the information for the partition stored in the stored in `$ToDoPartition01` object.
 
 ## PARAMETERS
 
 ### -PartitionId
 Specifies the ID of a Service Fabric partition.
+If you do not specify this parameter, this cmdlet gets all partitions of the specified service.
 
 ```yaml
 Type: Guid
 Parameter Sets: QueryByPartitionId
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -70,10 +78,10 @@ Accept wildcard characters: False
 ```yaml
 Type: Guid
 Parameter Sets: QueryByServiceName
-Aliases:
+Aliases: 
 
 Required: False
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -81,15 +89,14 @@ Accept wildcard characters: False
 
 ### -ServiceName
 Specifies the URI of a Service Fabric service.
-If you do not specify this parameter, this cmdlet gets all services of the specified application.
 
 ```yaml
 Type: Uri
 Parameter Sets: QueryByServiceName
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -101,7 +108,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -116,12 +123,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Uri, System.Guid
-This cmdlet accepts a URI that represents the name of a Service Fabric service, or the ID of a Service Fabric partition.
+This cmdlet accepts a URI that represents the name of a Service Fabric service or a Guid that represents ID of a Service Fabric partition.
 
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a list of **System.Fabric.Query.Partition** objects that represent Service Fabric partitions.
+This cmdlet returns a list of **[System.Fabric.Query.Partition](https://docs.microsoft.com/dotnet/api/system.fabric.query.partition)** objects that represent Service Fabric partitions.
 
 ## NOTES
 

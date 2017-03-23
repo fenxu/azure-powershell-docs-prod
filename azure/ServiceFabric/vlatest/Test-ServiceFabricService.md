@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 0F403FD1-EA91-4040-BD9E-D289B59F0E01
-updated_at: 11/11/2016 10:52 PM
-ms.date: 11/11/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/13/2017 6:33 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a3759ddf1f1f1ba503e1480f257a7293a1f4c23a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/153e6542b0214a79c84e355c2e8dec6fd11c5847/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Test-ServiceFabricService
 
 ## SYNOPSIS
-Validates a Service Fabric service.
+Validates the health and availability of a Service Fabric service.
 
 ## SYNTAX
 
@@ -31,9 +31,9 @@ Test-ServiceFabricService [-ServiceName] <Uri> [-MaxStabilizationTimeoutSec] <In
 ```
 
 ## DESCRIPTION
-The **Test-ServiceFabricService** cmdlet validates the availability and health of all Service Fabric services within an application.
-This cmdlet verifies that the services are at the target replica set size and that the services are healthy.
-This cmdlet also validates that there are no InBuild replicas.
+The **Test-ServiceFabricService** cmdlet validates the availability and health of the specified Service Fabric service.
+This cmdlet verifies that the service is at the target replica set size and that the service is healthy.
+This cmdlet also validates that all replicas belonging to the service are ready and not in an transitional state like InBuild ([ServiceReplicaStatus](https://docs.microsoft.com/en-us/dotnet/api/system.fabric.query.servicereplicastatus)).
 Use this cmdlet to verify that your service is stable after inducing any fault into the system.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
@@ -50,30 +50,30 @@ This command tests the specified service to make sure that it is stable within 2
 ## PARAMETERS
 
 ### -MaxStabilizationTimeoutSec
-Specifies the maximum time-out period, in seconds, for the cluster to stabilize before failing the test.
+Specifies the maximum time-out period, in seconds, for the cluster to stabilize before failing the validate command.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -ServiceName
-Specifies the name of the service to test.
+Specifies the name of the service to validate.
 
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -85,7 +85,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

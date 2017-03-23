@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
+ms.assetid: 156B7382-5026-423F-8570-969F11C4BD5F
 online version: 
 schema: 2.0.0
-ms.assetid: 156B7382-5026-423F-8570-969F11C4BD5F
-updated_at: 11/2/2016 4:42 PM
-ms.date: 11/2/2016
+updated_at: 3/6/2017 11:19 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0fd9fb4ce9179d4ff591e7539b0bcbbb544795ab/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/56f05e0ace416e4e6646bddfc02540651f0bc3fc/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -42,9 +42,15 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 ## EXAMPLES
 
 ### 1:
-```
+PS C:\>$sharingPolicy = new-ServiceFabricPackageSharingPolicy -PackageName CalcService5 -SharingScopeAll
+...
 
-```
+This command generates a package share policy by using [New-ServiceFabricPackageSharingPolicy](.\New-ServiceFabricPackageSharingPolicy.md) cmdlet and assign it to the variable $sharingPolicy
+
+PS C:\>Copy-ServiceFabricServicePackageToNode -ServiceManifestName CalcService5 -ApplicationTypeName CalcServiceApp -ApplicationTypeVersion 5.0 -NodeName Node4 -PackageSharingPolicies $sharingPolicy -TimeoutSec 600 -Verbose
+...
+
+The command copies the service package belong to application type "CalcServiceApp", application version "5.0" and service manifest "CalcService5" to Node4 with previously generated share policy object $sharePolicy.
 
 ## PARAMETERS
 
@@ -55,10 +61,10 @@ The cmdlet copies packages for the application type that this parameter specifie
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -71,10 +77,10 @@ The cmdlet copies packages for the application type version that this parameter 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -87,10 +93,10 @@ The cmdlet copies the service package to the node that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 4
+Position: 5
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -103,7 +109,7 @@ To obtain a **PackageSharingPolicy** object, use the **New-ServiceFabricPackageS
 ```yaml
 Type: PackageSharingPolicy[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -118,10 +124,10 @@ Specifies the name of a Service Fabric service package.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -133,7 +139,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

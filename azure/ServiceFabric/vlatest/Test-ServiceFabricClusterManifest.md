@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: FD4821A9-3C2A-4AFB-9611-D46FF1D4772C
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/20/2017 5:33 PM
+ms.date: 3/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterManifest.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterManifest.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterManifest.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4b282fbbada4e5b501710c20544af645ad024b6b/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterManifest.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -32,7 +32,7 @@ Test-ServiceFabricClusterManifest [-ClusterManifestPath] <String> [-OldClusterMa
 
 ## DESCRIPTION
 The **Test-ServiceFabricClusterManifest** cmdlet validates a Service Fabric cluster manifest.
-In order to help avoid issues with a Service Fabric upgrade, we recommended that you test a new cluster manifest for obvious errors.
+In order to help avoid issues with new Service Fabric cluster deployments or cluster upgrades, we recommended that you test the cluster manifest for obvious errors.
 This cmdlet does not discover issues with configuration values.
 
 ## EXAMPLES
@@ -42,43 +42,40 @@ This cmdlet does not discover issues with configuration values.
 PS C:\>Test-ServiceFabricClusterManifest -ClusterManifestPath \\configStore\ClusterManifests\CH1\ClusterManifest_123.xml
 ```
 
-This command validates a Service Fabric cluster manifest.
-The command specifies a manifest location on a network share.
+This command validates the specified Service Fabric cluster manifest.
 
 ### Example 2: Validate an updated cluster manifest
 ```
 PS C:\>Test-ServiceFabricClusterManifest -ClusterManifestPath \\configStore\ClusterManifests\CH1\ClusterManifest_123.v2.xml -OldClusterManifestPath \\configStore\ClusterManifests\CH1\ClusterManifest_123.v1.xml
 ```
 
-This command validates a Service Fabric cluster manifest upgrade.
-The command specifies a new cluster manifest location and an old cluster manifest location on a network share.
+This command validates the specified cluster manifest against an existing cluster manifest file. This is helpful for validating the changes between the two cluster manifests and catching potential errors before starting a cluster upgrade.
 
 ## PARAMETERS
 
 ### -ClusterManifestPath
-Specifies the path of a Service Fabric cluster manifest.
-The cmdlet validates the manifest in the path that you specify.
+Specifies the path to a Service Fabric cluster manifest.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -OldClusterManifestPath
-Specifies the path of a Service Fabric cluster manifest that is already deployed.
-The cmdlet validates the manifest that is specified by the *ClusterManifestPath* parameter against the manifest that this parameter specifies for configuration upgrade purposes.
+Specifies the path of an existing Service Fabric cluster manifest that is already deployed.
+The cmdlet validates the manifest specified in **ClusterManifestPath** against the manifest that this parameter specifies for configuration upgrade purposes.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

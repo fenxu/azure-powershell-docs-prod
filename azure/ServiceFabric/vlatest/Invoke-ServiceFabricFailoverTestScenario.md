@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: BEA22E4F-87EE-48AC-9406-E8A05BB8A740
-updated_at: 11/3/2016 12:09 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -32,19 +32,6 @@ Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UIn
  [<CommonParameters>]
 ```
 
-### ServiceNamePartitionUniformedInt
-```
-Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
- [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-PartitionKindUniformInt64] -PartitionKey <String>
- [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNameRandomPartition
-```
-Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
- [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### ServiceNamePartitionSingleton
 ```
 Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
@@ -56,6 +43,19 @@ Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UIn
 ```
 Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
  [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String>
+ [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNameRandomPartition
+```
+Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
+ [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNamePartitionUniformedInt
+```
+Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
+ [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-PartitionKindUniformInt64] -PartitionKey <String>
  [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
@@ -94,7 +94,7 @@ Specifies the maximum time-out period, in seconds, for the service to stabilize 
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -109,7 +109,7 @@ Specifies the ID of the partition to test.
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -123,8 +123,8 @@ Specifies the key of the partition on which to invoke the test.
 
 ```yaml
 Type: String
-Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases:
+Parameter Sets: ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt
+Aliases: 
 
 Required: True
 Position: Named
@@ -139,7 +139,7 @@ Indicates that this cmdlet tests a named partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -154,7 +154,7 @@ Indicates that this cmdlet tests a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -169,7 +169,7 @@ Indicates that this cmdlet tests a UniformInt64 partitioned service.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -184,27 +184,12 @@ Specifies the name of the service to test.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -TimeToRunMinute
-Specifies the total time, in minutes, for the scenario to run.
-
-```yaml
-Type: UInt32
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -214,9 +199,24 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TimeToRunMinute
+Specifies the total time, in minutes, for the scenario to run.
+
+```yaml
+Type: UInt32
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -230,7 +230,7 @@ The larger the value the lower the concurrency.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -258,3 +258,4 @@ This cmdlet returns a **String** object that represents the final status of the 
 ## NOTES
 
 ## RELATED LINKS
+

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 8A21CCA5-D38A-4DF7-98F0-21F18BCC4842
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroup.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -33,25 +33,6 @@ New-ServiceFabricServiceGroup [-Stateless] [-PartitionSchemeSingleton] [-Applica
  -ServiceGroupMemberDescription <Hashtable[]> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Stateful UniformInt64 Adhoc
-```
-New-ServiceFabricServiceGroup [-Stateful] [-PartitionSchemeUniformInt64] [-Adhoc] [-ServiceName] <Uri>
- [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64> [-HasPersistedState]
- -TargetReplicaSetSize <Int32> -MinReplicaSetSize <Int32> [-ReplicaRestartWaitDuration <TimeSpan>]
- [-QuorumLossWaitDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
- [-Correlation <String[]>] [-PlacementPolicy <String[]>] -ServiceGroupMemberDescription <Hashtable[]>
- [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### Stateful Singleton Non-Adhoc
-```
-New-ServiceFabricServiceGroup [-Stateful] [-PartitionSchemeSingleton] [-ApplicationName] <Uri>
- [-ServiceName] <Uri> [-ServiceTypeName] <String> [-HasPersistedState] -TargetReplicaSetSize <Int32>
- -MinReplicaSetSize <Int32> [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
- [-PlacementConstraint <String>] [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>]
- -ServiceGroupMemberDescription <Hashtable[]> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### Stateful UniformInt64 Non-Adhoc
 ```
 New-ServiceFabricServiceGroup [-Stateful] [-PartitionSchemeUniformInt64] [-ApplicationName] <Uri>
@@ -60,6 +41,16 @@ New-ServiceFabricServiceGroup [-Stateful] [-PartitionSchemeUniformInt64] [-Appli
  [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>] [-PlacementConstraint <String>]
  [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>]
  -ServiceGroupMemberDescription <Hashtable[]> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### Stateful UniformInt64 Adhoc
+```
+New-ServiceFabricServiceGroup [-Stateful] [-PartitionSchemeUniformInt64] [-Adhoc] [-ServiceName] <Uri>
+ [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64> [-HasPersistedState]
+ -TargetReplicaSetSize <Int32> -MinReplicaSetSize <Int32> [-ReplicaRestartWaitDuration <TimeSpan>]
+ [-QuorumLossWaitDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
+ [-Correlation <String[]>] [-PlacementPolicy <String[]>] -ServiceGroupMemberDescription <Hashtable[]>
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateful Named Non-Adhoc
@@ -89,21 +80,21 @@ New-ServiceFabricServiceGroup [-Stateful] [-PartitionSchemeNamed] [-Adhoc] [-Ser
  -ServiceGroupMemberDescription <Hashtable[]> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Stateless Named Adhoc
+### Stateful Singleton Non-Adhoc
 ```
-New-ServiceFabricServiceGroup [-Stateless] [-PartitionSchemeNamed] [-Adhoc] [-ServiceName] <Uri>
- [-ServiceTypeName] <String> -PartitionNames <String[]> -InstanceCount <Int32> [-PlacementConstraint <String>]
- [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>]
+New-ServiceFabricServiceGroup [-Stateful] [-PartitionSchemeSingleton] [-ApplicationName] <Uri>
+ [-ServiceName] <Uri> [-ServiceTypeName] <String> [-HasPersistedState] -TargetReplicaSetSize <Int32>
+ -MinReplicaSetSize <Int32> [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
+ [-PlacementConstraint <String>] [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>]
  -ServiceGroupMemberDescription <Hashtable[]> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Stateless UniformInt64 Non-Adhoc
+### Stateless UniformInt64 Adhoc
 ```
-New-ServiceFabricServiceGroup [-Stateless] [-PartitionSchemeUniformInt64] [-ApplicationName] <Uri>
- [-ServiceName] <Uri> [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64>
- -InstanceCount <Int32> [-PlacementConstraint <String>] [-Metric <String[]>] [-Correlation <String[]>]
- [-PlacementPolicy <String[]>] -ServiceGroupMemberDescription <Hashtable[]> [-TimeoutSec <Int32>]
- [<CommonParameters>]
+New-ServiceFabricServiceGroup [-Stateless] [-PartitionSchemeUniformInt64] [-Adhoc] [-ServiceName] <Uri>
+ [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64> -InstanceCount <Int32>
+ [-PlacementConstraint <String>] [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>]
+ -ServiceGroupMemberDescription <Hashtable[]> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateless Named Non-Adhoc
@@ -122,12 +113,21 @@ New-ServiceFabricServiceGroup [-Stateless] [-PartitionSchemeSingleton] [-Adhoc] 
  [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Stateless UniformInt64 Adhoc
+### Stateless Named Adhoc
 ```
-New-ServiceFabricServiceGroup [-Stateless] [-PartitionSchemeUniformInt64] [-Adhoc] [-ServiceName] <Uri>
- [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64> -InstanceCount <Int32>
- [-PlacementConstraint <String>] [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>]
+New-ServiceFabricServiceGroup [-Stateless] [-PartitionSchemeNamed] [-Adhoc] [-ServiceName] <Uri>
+ [-ServiceTypeName] <String> -PartitionNames <String[]> -InstanceCount <Int32> [-PlacementConstraint <String>]
+ [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>]
  -ServiceGroupMemberDescription <Hashtable[]> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### Stateless UniformInt64 Non-Adhoc
+```
+New-ServiceFabricServiceGroup [-Stateless] [-PartitionSchemeUniformInt64] [-ApplicationName] <Uri>
+ [-ServiceName] <Uri> [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64>
+ -InstanceCount <Int32> [-PlacementConstraint <String>] [-Metric <String[]>] [-Correlation <String[]>]
+ [-PlacementPolicy <String[]>] -ServiceGroupMemberDescription <Hashtable[]> [-TimeoutSec <Int32>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -153,11 +153,11 @@ In ad hoc mode, you manually activate the service host.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc, Stateless Named Adhoc, Stateless Singleton Adhoc, Stateless UniformInt64 Adhoc
-Aliases:
+Parameter Sets: Stateful UniformInt64 Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc, Stateless UniformInt64 Adhoc, Stateless Singleton Adhoc, Stateless Named Adhoc
+Aliases: 
 
 Required: True
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -169,11 +169,11 @@ The cmdlet creates a service group based on the application that has the URI tha
 
 ```yaml
 Type: Uri
-Parameter Sets: Stateless Singleton Non-Adhoc, Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless Named Non-Adhoc
-Aliases:
+Parameter Sets: Stateless Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Non-Adhoc, Stateless Named Non-Adhoc, Stateless UniformInt64 Non-Adhoc
+Aliases: 
 
 Required: True
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -185,7 +185,7 @@ Specifies an array of correlation constraints for this service.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -199,8 +199,8 @@ Indicates that the stateful service has persistent state.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc
-Aliases:
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc, Stateful Singleton Non-Adhoc
+Aliases: 
 
 Required: False
 Position: Named
@@ -214,8 +214,8 @@ Specifies the high-key range of the partition set.
 
 ```yaml
 Type: Int64
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
-Aliases:
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc
+Aliases: 
 
 Required: True
 Position: Named
@@ -229,8 +229,8 @@ Specifies the number of instances for the stateless service.
 
 ```yaml
 Type: Int32
-Parameter Sets: Stateless Singleton Non-Adhoc, Stateless Named Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless Named Non-Adhoc, Stateless Singleton Adhoc, Stateless UniformInt64 Adhoc
-Aliases:
+Parameter Sets: Stateless Singleton Non-Adhoc, Stateless UniformInt64 Adhoc, Stateless Named Non-Adhoc, Stateless Singleton Adhoc, Stateless Named Adhoc, Stateless UniformInt64 Non-Adhoc
+Aliases: 
 
 Required: True
 Position: Named
@@ -244,8 +244,8 @@ Specifies the low-key range of the partition set.
 
 ```yaml
 Type: Int64
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
-Aliases:
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc
+Aliases: 
 
 Required: True
 Position: Named
@@ -260,7 +260,7 @@ Specifies an array of metrics that the service reports.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -274,8 +274,8 @@ Specifies the minimum replica set size for the Service Fabric stateful service.
 
 ```yaml
 Type: Int32
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc
-Aliases:
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc, Stateful Singleton Non-Adhoc
+Aliases: 
 
 Required: True
 Position: Named
@@ -289,8 +289,8 @@ Specifies the number of partition counts for the service.
 
 ```yaml
 Type: Int32
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
-Aliases:
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc
+Aliases: 
 
 Required: True
 Position: Named
@@ -304,8 +304,8 @@ Specifies an array of names of partitions.
 
 ```yaml
 Type: String[]
-Parameter Sets: Stateful Named Non-Adhoc, Stateful Named Adhoc, Stateless Named Adhoc, Stateless Named Non-Adhoc
-Aliases:
+Parameter Sets: Stateful Named Non-Adhoc, Stateful Named Adhoc, Stateless Named Non-Adhoc, Stateless Named Adhoc
+Aliases: 
 
 Required: True
 Position: Named
@@ -319,11 +319,11 @@ Indicates that the service uses the named partition scheme.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateful Named Non-Adhoc, Stateful Named Adhoc, Stateless Named Adhoc, Stateless Named Non-Adhoc
-Aliases:
+Parameter Sets: Stateful Named Non-Adhoc, Stateful Named Adhoc, Stateless Named Non-Adhoc, Stateless Named Adhoc
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -334,11 +334,11 @@ Indicates that the service uses the singleton partition scheme.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateless Singleton Non-Adhoc, Stateful Singleton Non-Adhoc, Stateful Singleton Adhoc, Stateless Singleton Adhoc
-Aliases:
+Parameter Sets: Stateless Singleton Non-Adhoc, Stateful Singleton Adhoc, Stateful Singleton Non-Adhoc, Stateless Singleton Adhoc
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -349,11 +349,11 @@ Indicates that the service uses the UniformInt64 partition scheme.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
-Aliases:
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -365,7 +365,7 @@ Specifies the placement constraint for the service.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -380,7 +380,7 @@ Specifies an array of placement policies for a service.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -396,8 +396,8 @@ For more information, type `Get-Help New-TimeSpan`.
 
 ```yaml
 Type: TimeSpan
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc
-Aliases:
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc, Stateful Singleton Non-Adhoc
+Aliases: 
 
 Required: False
 Position: Named
@@ -412,8 +412,8 @@ To obtain a **TimeSpan** object, use the **New-TimeSpan** cmdlet.
 
 ```yaml
 Type: TimeSpan
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc
-Aliases:
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc, Stateful Singleton Non-Adhoc
+Aliases: 
 
 Required: False
 Position: Named
@@ -433,7 +433,7 @@ For example: @(@{"ServiceName"="fabric:/myapp/calculator/svc1;"ServiceTypeName"=
 ```yaml
 Type: Hashtable[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -448,10 +448,10 @@ Specifies the URI of a Service Fabric service group.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 3
+Position: 4
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -463,10 +463,10 @@ Specifies the name of a Service Fabric service type.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 4
+Position: 5
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -477,11 +477,11 @@ Indicates that the service is a Service Fabric stateful service.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc
-Aliases:
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc, Stateful Singleton Non-Adhoc
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -492,11 +492,11 @@ Indicates that the service is a Service Fabric stateless service.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateless Singleton Non-Adhoc, Stateless Named Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless Named Non-Adhoc, Stateless Singleton Adhoc, Stateless UniformInt64 Adhoc
-Aliases:
+Parameter Sets: Stateless Singleton Non-Adhoc, Stateless UniformInt64 Adhoc, Stateless Named Non-Adhoc, Stateless Singleton Adhoc, Stateless Named Adhoc, Stateless UniformInt64 Non-Adhoc
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -507,8 +507,8 @@ Specifies the target replica set size for a Service Fabric stateful service.
 
 ```yaml
 Type: Int32
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc
-Aliases:
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc, Stateful Singleton Non-Adhoc
+Aliases: 
 
 Required: True
 Position: Named
@@ -523,7 +523,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

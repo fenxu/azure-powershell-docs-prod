@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 2E71980D-7493-4C14-BA4A-1AB48398594A
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -31,19 +31,6 @@ Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <R
  -PartitionId <Guid> -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNamePartitionUniformedInt
-```
-Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <RestartPartitionMode>
- -ServiceName <Uri> [-PartitionKindUniformInt64] -PartitionKey <String> [-TimeoutSec <Int32>]
- [<CommonParameters>]
-```
-
-### ServiceNameRandomPartition
-```
-Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <RestartPartitionMode>
- -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### ServiceNamePartitionSingleton
 ```
 Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <RestartPartitionMode>
@@ -54,6 +41,19 @@ Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <R
 ```
 Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <RestartPartitionMode>
  -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNameRandomPartition
+```
+Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <RestartPartitionMode>
+ -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNamePartitionUniformedInt
+```
+Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <RestartPartitionMode>
+ -ServiceName <Uri> [-PartitionKindUniformInt64] -PartitionKey <String> [-TimeoutSec <Int32>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -94,7 +94,7 @@ You can check the progress of the operation by using this ID and the **Get-Servi
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -109,7 +109,7 @@ Specifies the ID of the Service Fabric partition that this cmdlet restarts.
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -123,8 +123,8 @@ Specifies the key of the Service Fabric partition that this cmdlet restarts.
 
 ```yaml
 Type: String
-Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases:
+Parameter Sets: ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt
+Aliases: 
 
 Required: True
 Position: Named
@@ -139,7 +139,7 @@ Indicates that the Service Fabric partition that this cmdlet restarts is a Named
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -154,7 +154,7 @@ Indicates that the Service Fabric partition that this cmdlet restarts is a singl
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -169,7 +169,7 @@ Indicates that the Service Fabric partition that this cmdlet restarts is a Unifo
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -190,7 +190,7 @@ Restart only the secondaries in the target partition.
 ```yaml
 Type: RestartPartitionMode
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: Invalid, AllReplicasOrInstances, OnlyActiveSecondaries
 
 Required: True
@@ -206,7 +206,7 @@ Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -221,7 +221,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

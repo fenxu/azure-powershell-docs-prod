@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 27D58E8F-73CC-4FCE-90BD-449F86127385
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 11:22 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/5935d047dbc6cd41c353caf46ff85f77d23c43fc/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,54 +21,62 @@ ms.service: service-fabric
 # Get-ServiceFabricNode
 
 ## SYNOPSIS
-Gets information about the Service Fabric nodes in a cluster.
+Gets information for the all nodes in a Service Fabric cluster or for a specific node.
 
 ## SYNTAX
 
 ```
-Get-ServiceFabricNode [[-NodeName] <String>] [-StatusFilter <NodeStatusFilter>] [-TimeoutSec <Int32>]
- [<CommonParameters>]
+Get-ServiceFabricNode [[-NodeName] <String>] [-StatusFilter <NodeStatusFilter>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricNode** cmdlet gets information about the Service Fabric nodes in a Service Fabric cluster.
+The **Get-ServiceFabricNode** cmdlet gets information for all the nodes in a Service Fabric cluster or for a specific node. The returned node information includes the node name, status, type, and health state (see the [Outputs](#outputs) section for more details).
 
 Keep in mind that, before you perform any operation on a Service Fabric cluster you must establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
-### Example 1: Get cluster nodes
+### Example 1: Get information for all nodes in the cluster
 ```
 PS C:\>Get-ServiceFabricNode
 ```
 
-This command returns information for all your Service Fabric cluster nodes.
+This command returns information for all the nodes in the Service Fabric cluster.
+
+### Example 2: Get information for a specific node
+```
+PS C:\>Get-ServiceFabricNode -NodeName Node1
+```
+
+This command returns information for the node with the name `Node1`.
 
 ## PARAMETERS
 
 ### -NodeName
 Specifies the name of the Service Fabric node whose information is being returned.
+If not specified, the cmdlet will return information for all the nodes in the cluster.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -StatusFilter
-Specifies the node status filter as a **NodeStatusFilter** object.
+Specifies the node status filter as a **[System.Fabric.Query.NodeStatusFilter](https://docs.microsoft.com/en-us/dotnet/api/system.fabric.query.nodestatusfilter)** object.
+
+Only nodes with status matching this filter will be returned in the results.
 
 ```yaml
 Type: NodeStatusFilter
 Parameter Sets: (All)
-Aliases:
-Accepted values: Default, Up, Down, Enabling, Disabling, Disabled, Unknown, Removed, All
+Aliases: 
 
 Required: False
 Position: Named
@@ -83,7 +91,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -96,14 +104,10 @@ Accept wildcard characters: False
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
-
-###  
-**Get-ServiceFabricNode** accepts string instances of a node name.
+**Get-ServiceFabricNode** accepts the name of a node as a string.
 
 ## OUTPUTS
-
-###  
-**Get-ServiceFabricNode** returns instances of the  **System.Fabric.Query.Node**.
+**Get-ServiceFabricNode** returns instances of the **[System.Fabric.Query.Node](https://docs.microsoft.com/dotnet/api/system.fabric.query.node)**.
 
 ## NOTES
 

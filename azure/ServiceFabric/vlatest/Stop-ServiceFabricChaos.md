@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: EEE80FB0-7BFA-4C4C-AB20-8DB9F4F97E9B
-updated_at: 3/13/2017 6:43 PM
-ms.date: 3/13/2017
+online version: 
+schema: 2.0.0
+updated_at: 3/23/2017 8:11 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricChaos.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricChaos.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c53287a37666deb095e0b004567a1bbe7771b79b/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricChaos.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricChaos.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -50,7 +50,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

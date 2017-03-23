@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 4E889F33-E989-492D-884A-A59A3A89FE08
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/20/2017 5:33 PM
+ms.date: 3/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4b282fbbada4e5b501710c20544af645ad024b6b/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Register-ServiceFabricClusterPackage
 
 ## SYNOPSIS
-Registers a Service Fabric cluster package.
+Registers Service Fabric runtime installation file and/or cluster manifest with the cluster.
 
 ## SYNTAX
 
@@ -33,18 +33,16 @@ Register-ServiceFabricClusterPackage -CodePackagePath <String> -ClusterManifestP
 
 ### Code
 ```
-Register-ServiceFabricClusterPackage [-Code] -CodePackagePath <String> [-ClusterManifestPath <String>]
- [-TimeoutSec <Int32>] [<CommonParameters>]
+Register-ServiceFabricClusterPackage [-Code] -CodePackagePath <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Config
 ```
-Register-ServiceFabricClusterPackage [-Config] [-CodePackagePath <String>] -ClusterManifestPath <String>
- [-TimeoutSec <Int32>] [<CommonParameters>]
+Register-ServiceFabricClusterPackage [-Config] -ClusterManifestPath <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Register-ServiceFabricClusterPackage** cmdlet registers a Service Fabric clustermanifest and/or a Service Fabric .msi.
+The **Register-ServiceFabricClusterPackage** cmdlet registers a Service Fabric cluster manifest and/or a Service Fabric runtime installation file.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
@@ -53,29 +51,34 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Register a package that contains both code and configuration
 ```
-PS C:\>Register-ServiceFabricClusterPackage -ClusterManifestPath "ClusterManifest_123.xml" -CodePackagePath "ServiceFabric.2.0.59.0.msi"
+PS C:\>Register-ServiceFabricClusterPackage -ClusterManifestPath "ClusterManifest.xml" -CodePackagePath "ServiceFabric.msi"
 ```
 
-This command registers a package that contains both .msi and configuration information.
+This command registers both the cluster manifest and MSI file with the cluster.
 
-### Example 2: Register a package that contains only configuration
+### Example 2: Register only the cluster manifest
 ```
-PS C:\>Register-ServiceFabricClusterPackage -Config -ClusterManifestPath "ClusterManifest_123.xml"
+PS C:\>Register-ServiceFabricClusterPackage -Config -ClusterManifestPath "ClusterManifest.xml"
 ```
 
-This command registers a package that contains only configuration information.
-The command includes the **Config** parameter, so the command applies to a manifest only.
+This command registers just the cluster manifest with the cluster.
+
+### Example 3: Register only the runtime installation file
+```
+PS C:\>Register-ServiceFabricClusterPackage -Code -CodePackagePath "ServiceFabric.msi"
+```
+
+This command registers just the runtime installation file with the cluster.
 
 ## PARAMETERS
 
 ### -ClusterManifestPath
-Specifies the path of a Service Fabric cluster manifest in the ImageStore.
-The cmdlet registers file at the path that you specify.
+Specifies the path to a Service Fabric cluster manifest file in the ImageStore. This path specified in **ClusterManifestPathInImageStore** in [Copy-ServiceFabricClusterPackage](.\Copy-ServiceFabricClusterPackage.md) cmdlet should be provided here.
 
 ```yaml
 Type: String
 Parameter Sets: Both, Config
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -87,7 +90,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Code
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -97,12 +100,12 @@ Accept wildcard characters: False
 ```
 
 ### -Code
-Indicates that the package includes only a Service Fabric .msi file in the ImageStore.
+Specifies that only Service Fabric runtime installation file has to be registered with the cluster.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -112,13 +115,12 @@ Accept wildcard characters: False
 ```
 
 ### -CodePackagePath
-Specifies the file path of the Service Fabric .msi file.
-The cmdlet registers the file in the path that you specify.
+Specifies the path to a Service Fabric runtime installation file in the ImageStore. This path specified in **CodePackagePathInImageStore** in [Copy-ServiceFabricClusterPackage](.\Copy-ServiceFabricClusterPackage.md) cmdlet should be provided here.
 
 ```yaml
 Type: String
 Parameter Sets: Both, Code
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -130,7 +132,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Config
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -140,12 +142,12 @@ Accept wildcard characters: False
 ```
 
 ### -Config
-Indicates that the package is a Service Fabric cluster manifest.
+Specifies that only Service Fabric cluster manifest file has to be registered with the cluster.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Config
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -160,7 +162,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

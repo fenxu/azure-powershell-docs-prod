@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 73384750-6F54-4B7D-AD7D-BE53426132A4
-updated_at: 3/6/2017 8:57 PM
-ms.date: 3/6/2017
+online version: 
+schema: 2.0.0
+updated_at: 3/23/2017 8:11 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/acb318fd1728530f7ac927f78a79dc825e80d533/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -58,10 +58,10 @@ Specifies the cipher text for the cmdlet.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
@@ -77,7 +77,7 @@ Valid values are:
 ```yaml
 Type: StoreLocation
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: CurrentUser, LocalMachine
 
 Required: False
@@ -93,7 +93,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

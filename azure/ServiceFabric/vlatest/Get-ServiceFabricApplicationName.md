@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
+online version: 
 schema: 2.0.0
-updated_at: 3/6/2017 6:53 PM
-ms.date: 3/6/2017
+updated_at: 3/23/2017 8:11 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4cb24501dd16bc0b7a49d0f7aef9167facbddba0/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -25,7 +25,7 @@ Gets the Service Fabric Application name from the Service Fabric Service name.
 ## SYNTAX
 
 ```
-Get-ServiceFabricApplicationName [-ServiceName] <Uri> [-TimeoutSec <Int32>]
+Get-ServiceFabricApplicationName [-ServiceName] <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -37,12 +37,12 @@ The output of **Get-ServiceFabricApplicationName** contains the following inform
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the application name for a service
 ```
 PS C:\> Get-ServiceFabricApplicationName -ServiceName  fabric:/myapp/persistenttodolist
 ```
 
-The command above gets the application name for the service fabric:/myapp/persistenttodolist
+This command gets the name of the application for the service `fabric:/myapp/persistenttodolist`.
 
 ## PARAMETERS
 
@@ -52,7 +52,7 @@ Specifies a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: 0
@@ -67,7 +67,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

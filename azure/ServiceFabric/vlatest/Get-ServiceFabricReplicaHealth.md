@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 03B1C1AE-DF27-4EA0-8423-7224A9174AA3
-updated_at: 11/3/2016 12:09 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 2:54 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c9918e862685779553206b72ba4d711a6f2e8375/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -41,9 +41,9 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Query the health of a service replica
 ```
-PS C:\>$ToDoPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS
-C:\> $ToDoPartition01ReplicaList = Get-ServiceFabricReplica -PartitionId $ToDoPartition01.PartitionId
-C:\> Get-ServiceFabricReplicaHealth -PartitionId $ToDoPartition01.PartitionId -ReplicaOrInstanceId $ToDoPartition01ReplicaList[0].Id
+PS C:\> $ToDoPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS
+PS C:\> $ToDoPartition01ReplicaList = Get-ServiceFabricReplica -PartitionId $ToDoPartition01.PartitionId
+PS C:\> Get-ServiceFabricReplicaHealth -PartitionId $ToDoPartition01.PartitionId -ReplicaOrInstanceId $ToDoPartition01ReplicaList[0].Id
 ```
 
 The first command uses the [Get-ServiceFabricPartition](./Get-ServiceFabricPartition.md) cmdlet to get a Service Fabric service partition object, and then stores it in the $ToDoPartition01 variable.
@@ -54,8 +54,8 @@ The third command gets the health of a service partition replica by using the **
 
 ### Example 2: Query the health of a service replica using custom health policy and return filters
 ```
-PS C:\>$replicaList = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS | Get-ServiceFabricReplica
-C:\> Get-ServiceFabricReplicaHealth -PartitionId $replicaList[0].PartitionId -ReplicaOrInstanceId $replicaList[0].ReplicaId -ConsiderWarningAsError $True -EventsFilter Error
+PS C:\> $replicaList = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS | Get-ServiceFabricReplica
+PS C:\> Get-ServiceFabricReplicaHealth -PartitionId $replicaList[0].PartitionId -ReplicaOrInstanceId $replicaList[0].ReplicaId -ConsiderWarningAsError $True -EventsFilter Error
 ```
 
 This example queries the health of the service replica.
@@ -64,7 +64,7 @@ It uses filters to return only Error events.
 
 ### Example 3: Get the health of all replicas of all partitions of all services in an application
 ```
-PS C:\>Get-ServiceFabricApplication -ApplicationName fabric:/MyApplication | Get-ServiceFabricService | Get-ServiceFabricPartition | Get-ServiceFabricReplica | Get-ServiceFabricReplicaHealth
+PS C:\> Get-ServiceFabricApplication -ApplicationName fabric:/MyApplication | Get-ServiceFabricService | Get-ServiceFabricPartition | Get-ServiceFabricReplica | Get-ServiceFabricReplicaHealth
 ```
 
 This example gets the health of all service replicas in the specified application.
@@ -77,7 +77,7 @@ Indicates whether to treat a warning health report as error during health evalua
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -96,8 +96,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases:
-Accepted values: Default, None, Ok, Warning, Error, All
+Aliases: 
 
 Required: False
 Position: Named
@@ -113,7 +112,7 @@ Specify the *EventsFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -128,10 +127,10 @@ Specifies the ID of a Service Fabric partition.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -143,10 +142,10 @@ Specifies a Service Fabric stateful service replica or stateless service instanc
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -158,7 +157,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: A315ECB3-FC8C-451B-85B0-C3C4887B78C9
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 10:14 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/38e5a09d10e1a6bec117167d3674a5f57717120f/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Resolve-ServiceFabricService
 
 ## SYNOPSIS
-Retrieves the replica or instance address of a Service Fabric service.
+Retrieves the replica address of a stateful Service Fabric partitioned service or the address of an instance of a stateless Service Fabric service.
 
 ## SYNTAX
 
@@ -49,20 +49,22 @@ Resolve-ServiceFabricService [-PartitionKindUniformInt64] [-ServiceName] <Uri> [
  [-PreviousResult <ResolvedServicePartition>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Named ForceRefresh
-```
-Resolve-ServiceFabricService [-PartitionKindNamed] [-ServiceName] <Uri> [-PartitionKey] <String>
- [-ForceRefresh] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### Named NonRefresh
 ```
 Resolve-ServiceFabricService [-PartitionKindNamed] [-ServiceName] <Uri> [-PartitionKey] <String>
  [-PreviousResult <ResolvedServicePartition>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### Named ForceRefresh
+```
+Resolve-ServiceFabricService [-PartitionKindNamed] [-ServiceName] <Uri> [-PartitionKey] <String>
+ [-ForceRefresh] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ## DESCRIPTION
-The **Resolve-ServiceFabricService** cmdlet retrieves the replica or instance address of a Service Fabric service.
+The **Resolve-ServiceFabricService** cmdlet retrieves the replica address of a stateful Service Fabric partitioned service or the address of an instance of a stateless Service Fabric service.
+
+The address is cached on the local node and can be refreshed if the connection attempt to the address fails. The failure to connect typically indicates that the replica or the instance has moved to a different node.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
@@ -75,6 +77,21 @@ PS C:\>Resolve-ServiceFabricService -PartitionKindUniformInt64 -ServiceName fabr
 
 This command retrieves the addresses of a uniform Int64 partition mapped to by partition key 0 in a service named fabric:/myApp/myService.
 
+### Example 2: Using previous result to refresh local cache
+```
+PS C:\> $result = Resolve-ServiceFabricService -ServiceName fabric:/TestApplication/TestService/1 -PartitionKindSingleton
+PS C:\> Resolve-ServiceFabricService -ServiceName fabric:/TestApplication/TestService/1 -PartitionKindSingleton -PreviousResult $result
+```
+
+This command provides the result of the first resolve call to the subsequent one. This is required if the user knows that the result that was obtained in the first call is stale. The endpoints are considered stale if the connection request times out or returns an error.
+
+### Example 3: Force refresh local cache
+```
+PS C:\> Resolve-ServiceFabricService -ServiceName fabric:/TestApplication/TestService/1 -PartitionKindSingleton -ForceRefresh
+```
+
+This command retrieves the address of a stateful replica in a singleton partition after forcefully refreshing the local endpoint cache.
+
 ## PARAMETERS
 
 ### -ForceRefresh
@@ -83,7 +100,7 @@ Indicates that the cmdlet forces the local cache of resolved addresses to refres
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Singleton ForceRefresh, UniformInt64 ForceRefresh, Named ForceRefresh
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -97,11 +114,11 @@ Specifies the partition key for the Service Fabric service.
 
 ```yaml
 Type: String
-Parameter Sets: UniformInt64 ForceRefresh, UniformInt64 NonRefresh, Named ForceRefresh, Named NonRefresh
-Aliases:
+Parameter Sets: UniformInt64 ForceRefresh, UniformInt64 NonRefresh, Named NonRefresh, Named ForceRefresh
+Aliases: 
 
 Required: True
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -112,11 +129,11 @@ Indicates that the Service Fabric service is a named partition.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Named ForceRefresh, Named NonRefresh
-Aliases:
+Parameter Sets: Named NonRefresh, Named ForceRefresh
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -128,10 +145,10 @@ Indicates that the Service Fabric service is a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Singleton NonRefresh, Singleton ForceRefresh
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -143,22 +160,22 @@ Indicates that the Service Fabric service is a UniformInt64 partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: UniformInt64 ForceRefresh, UniformInt64 NonRefresh
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -PreviousResult
-Specifies the previous resolve service partition results.
+Specifies the previous resolve service partition results. This is required if the user knows that the result that was obtained previously is stale.
 
 ```yaml
 Type: ResolvedServicePartition
 Parameter Sets: Singleton NonRefresh, UniformInt64 NonRefresh, Named NonRefresh
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -173,10 +190,10 @@ Specifies the URI of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -188,7 +205,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

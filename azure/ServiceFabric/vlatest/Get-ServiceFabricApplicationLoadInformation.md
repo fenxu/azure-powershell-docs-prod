@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
+ms.assetid: 5960F91D-BFD2-4297-B7BE-5A325BCDEA0A
 online version: 
 schema: 2.0.0
-ms.assetid: 5960F91D-BFD2-4297-B7BE-5A325BCDEA0A
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationLoadInformation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationLoadInformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationLoadInformation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationLoadInformation.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -65,7 +65,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False

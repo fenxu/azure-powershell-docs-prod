@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: DFC277E2-C2C5-451D-9029-0D9054A53E82
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/9/2017 5:10 PM
+ms.date: 3/9/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/693945a72fd0a71cabe7aa5cb9e51c0b8d12af11/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Get-ServiceFabricDeployedReplica
 
 ## SYNOPSIS
-Gets a Service Fabric replica on a node.
+Gets information about a Service Fabric replica on a node. 
 
 ## SYNTAX
 
@@ -38,8 +38,9 @@ Get-ServiceFabricDeployedReplica [-NodeName] <String> [-Adhoc] [[-ServiceManifes
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricDeployedReplica** cmdlet gets a Service Fabric replica deployed on a specified node.
-This view may be different from the view returned by the [Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md) cmdlet because the node has the most current view of the replica.
+The **Get-ServiceFabricDeployedReplica** cmdlet gets information about a Service Fabric replica running on a node. This provides additional information such as the name of the code package hosting the replica that is not available from [Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md)
+
+This information may be different from the information returned by the [Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md) cmdlet because the node has the most current view of the replica.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
@@ -61,10 +62,10 @@ In ad hoc mode, you manually activate the service host.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Adhoc
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -72,12 +73,28 @@ Accept wildcard characters: False
 
 ### -ApplicationName
 Specifies the Uniform Resource Identifier (URI) of a Service Fabric application.
-The cmdlet gets the replica for the application that has the URI that you specify.
+The cmdlet gets the information about replicas of the application that has the URI that you specify.
 
 ```yaml
 Type: Uri
 Parameter Sets: Non-Adhoc
-Aliases:
+Aliases: 
+
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -NodeName
+Specifies the name of a Service Fabric node.
+The cmdlet gets the information of the replicas running on the node that you specify.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
 
 Required: True
 Position: 1
@@ -86,33 +103,17 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -NodeName
-Specifies the name of a Service Fabric node.
-The cmdlet gets replicas deployed on the node that you specify.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -PartitionId
 Specifies the ID of a Service Fabric partition.
-This is an additional filter to return the replica that belongs to that partition.
+This is an additional filter to return the replica that belongs to a specific partition.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 3
+Position: 4
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -125,10 +126,10 @@ This parameter can be used to filter to only replicas in a specific service mani
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -140,7 +141,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -160,7 +161,7 @@ This cmdlet accepts a URI that represents the name of a Service Fabric applicati
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns **DeployedServiceReplica** objects that represent replicas.
+This cmdlet returns [DeployedServiceReplica](https://docs.microsoft.com/dotnet/api/system.fabric.query.deployedservicereplica) objects that represent the replicas running on the node.
 
 ## NOTES
 

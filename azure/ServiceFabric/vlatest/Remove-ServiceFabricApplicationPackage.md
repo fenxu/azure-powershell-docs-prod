@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: EFDF88E2-DBFD-4868-AB66-E4F5379C55A9
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 12:36 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplicationPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplicationPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bcbc202904350fd056f72db4725d09ae3fc3352c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplicationPackage.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -32,9 +32,10 @@ Remove-ServiceFabricApplicationPackage [-ApplicationPackagePathInImageStore] <St
 
 ## DESCRIPTION
 The **Remove-ServiceFabricApplicationPackage** cmdlet removes a Service Fabric application package from the image store.
-Run this cmdlet after you register the application package by using the [Register-ServiceFabricApplicationPackage](./Register-ServiceFabricApplicationPackage.md) cmdlet.
+Run this cmdlet after you register the application package by using the [Register-ServiceFabricApplicationPackage](./Register-ServiceFabricApplicationType.md) cmdlet.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
+
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
@@ -45,7 +46,7 @@ PS C:\>Remove-ServiceFabricApplicationPackage -ImageStoreConnectionString "xstor
 ```
 
 This command removes the application package that has the specified image store path.
-The cmdlet does prompt you for confirmation before it removes the application package.
+The cmdlet does prompt you for confirmation before it removes the application package unless you use the parameter "-Confirm".
 
 ## PARAMETERS
 
@@ -56,10 +57,40 @@ The cmdlet removes the package from the path that this parameter specifies.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ImageStoreConnectionString
+Specifies the connection string for the Service Fabric image store.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TimeoutSec
+Specifies the time-out period, in seconds, for the operation.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -80,39 +111,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ImageStoreConnectionString
-Specifies the connection string for the Service Fabric image store.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -TimeoutSec
-Specifies the time-out period, in seconds, for the operation.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+The cmdlet is not executed.
 
 ```yaml
 Type: SwitchParameter
@@ -142,10 +143,13 @@ This cmdlet returns the status of the operation as a string.
 ## NOTES
 
 ## RELATED LINKS
+
 [Connect-ServiceFabricCluster](xref:ServiceFabric/vlatest/Connect-ServiceFabricCluster.md)
 
 [Copy-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md)
 
-[Register-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationPackage.md)
+[Register-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md)
 
 [Test-ServiceFabricApplicationPackage](xref:ServiceFabric/vlatest/Test-ServiceFabricApplicationPackage.md)
+
+[Deploy and remove applications using PowerShell](https://azure.microsoft.com/documentation/articles/service-fabric-deploy-remove-applications/)

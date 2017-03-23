@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 42986C68-14EA-4ADA-9381-3B7A9DF11971
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 10:03 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricApplicationType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricApplicationType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricApplicationType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fbbf5329c05c6bf5882249fcb36572d86a84ae29/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricApplicationType.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -31,9 +31,10 @@ Unregister-ServiceFabricApplicationType [-ApplicationTypeName] <String> [-Applic
 ```
 
 ## DESCRIPTION
-The **Unregister-ServiceFabricApplicationType** cmdlet unregisters a Service Fabric application type.
-Before you unregister an application type, you must use the [Remove-ServiceFabricService](./Remove-ServiceFabricService.md) cmdlet to remove services that you base on the application, and use the [Remove-ServiceFabricApplication](./Remove-ServiceFabricApplication.md) to remove instances of the application.
-If you unregister an application type, the cmdlet removes the application package from the image store.
+The **Unregister-ServiceFabricApplicationType** cmdlet unregisters a Service Fabric application type. The application type must have been previously registered with [Register-ServiceFabricApplicationType](.\Register-ServiceFabricApplicationType.md).
+
+Before you unregister an application type, you must use the [Remove-ServiceFabricService](./Remove-ServiceFabricService.md) cmdlet to remove services that you base on the application. Use the [Remove-ServiceFabricApplication](./Remove-ServiceFabricApplication.md) cmdlet to remove instances of the application.
+If you unregister an application type, the application package is removed from the image store.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
@@ -45,7 +46,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 PS C:\>Unregister-ServiceFabricApplicationType -ApplicationTypeName "CalcServiceApp" -ApplicationTypeVersion "1.0" -Force
 ```
 
-This command unregisters the application CalcServiceApp, version 1.0.
+This command unregisters the application type CalcServiceApp with version 1.0.
 Because the command includes the *Force* parameter, the cmdlet does not prompt you for confirmation.
 
 ## PARAMETERS
@@ -57,10 +58,10 @@ The cmdlet unregisters the type that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -73,27 +74,12 @@ The cmdlet unregisters the type that has the version that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -103,7 +89,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -118,11 +104,26 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: DBE2A1B4-438C-4E66-9D50-2DBC6333338C
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -32,19 +32,6 @@ Move-ServiceFabricSecondaryReplica [-CurrentSecondaryNodeName <String>] [-NewSec
  [<CommonParameters>]
 ```
 
-### ServiceNamePartitionUniformedInt
-```
-Move-ServiceFabricSecondaryReplica [-CurrentSecondaryNodeName <String>] [-NewSecondaryNodeName <String>]
- [-IgnoreConstraints <Boolean>] -ServiceName <Uri> [-PartitionKindUniformInt64] -PartitionKey <String>
- [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNameRandomPartition
-```
-Move-ServiceFabricSecondaryReplica [-CurrentSecondaryNodeName <String>] [-NewSecondaryNodeName <String>]
- [-IgnoreConstraints <Boolean>] -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### ServiceNamePartitionSingleton
 ```
 Move-ServiceFabricSecondaryReplica [-CurrentSecondaryNodeName <String>] [-NewSecondaryNodeName <String>]
@@ -56,6 +43,19 @@ Move-ServiceFabricSecondaryReplica [-CurrentSecondaryNodeName <String>] [-NewSec
 ```
 Move-ServiceFabricSecondaryReplica [-CurrentSecondaryNodeName <String>] [-NewSecondaryNodeName <String>]
  [-IgnoreConstraints <Boolean>] -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String>
+ [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNameRandomPartition
+```
+Move-ServiceFabricSecondaryReplica [-CurrentSecondaryNodeName <String>] [-NewSecondaryNodeName <String>]
+ [-IgnoreConstraints <Boolean>] -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNamePartitionUniformedInt
+```
+Move-ServiceFabricSecondaryReplica [-CurrentSecondaryNodeName <String>] [-NewSecondaryNodeName <String>]
+ [-IgnoreConstraints <Boolean>] -ServiceName <Uri> [-PartitionKindUniformInt64] -PartitionKey <String>
  [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
@@ -96,7 +96,7 @@ Specifies the current node name for the secondary node.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -111,7 +111,7 @@ Indicates whether the cmdlet ignores constraints.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -126,7 +126,7 @@ Specifies the new node name for the secondary node.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -141,7 +141,7 @@ Specifies the ID of the partition for which the replica is moved.
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -155,8 +155,8 @@ Specifies the key of the partition for which the replica is moved.
 
 ```yaml
 Type: String
-Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases:
+Parameter Sets: ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt
+Aliases: 
 
 Required: True
 Position: Named
@@ -171,7 +171,7 @@ Indicates that this cmdlet moves a named partition service.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -186,7 +186,7 @@ Indicates that this cmdlet moves a singleton partitioned service.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -201,7 +201,7 @@ Indicates that this cmdlet moves a UniformInt64 partitioned service.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -216,7 +216,7 @@ Specifies the service name of the replica to move.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -231,7 +231,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

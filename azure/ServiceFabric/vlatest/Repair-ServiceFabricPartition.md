@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: E64F672A-23EB-408C-82E8-8BD8B2C5A7A2
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -96,9 +96,100 @@ Indicates that this cmdlet repairs all the partitions that are in quorum loss.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: All
-Aliases:
+Aliases: 
 
 Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -PartitionId
+Specifies the ID of a Service Fabric partition.
+This cmdlet repairs only the partition that this parameter specifies.
+
+```yaml
+Type: Guid
+Parameter Sets: Partition
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Service
+Indicates that this cmdlet repairs only the partitions of the service that the *ServiceName* parameter specifies.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: Service
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ServiceName
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
+
+```yaml
+Type: Uri
+Parameter Sets: Service
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -System
+Indicates that this cmdlet repairs all the partitions of the system services.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: System
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TimeoutSec
+Specifies the time-out period, in seconds, for the operation.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -116,97 +207,6 @@ Aliases: cf
 Required: False
 Position: Named
 Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -PartitionId
-Specifies the ID of a Service Fabric partition.
-This cmdlet repairs only the partition that this parameter specifies.
-
-```yaml
-Type: Guid
-Parameter Sets: Partition
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Service
-Indicates that this cmdlet repairs only the partitions of the service that the *ServiceName* parameter specifies.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: Service
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ServiceName
-Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
-
-```yaml
-Type: Uri
-Parameter Sets: Service
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -System
-Indicates that this cmdlet repairs all the partitions of the system services.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: System
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -TimeoutSec
-Specifies the time-out period, in seconds, for the operation.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

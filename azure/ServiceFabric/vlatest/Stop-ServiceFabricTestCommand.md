@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 97D767C4-EAD7-4D19-A085-2BD1F992C099
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 1:18 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/2457e34e99da0b4a34cf8e93116b75ea559b1dea/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Stop-ServiceFabricTestCommand
 
 ## SYNOPSIS
-Cancels a Service Fabric test command.
+Cancels a running Service Fabric fault operation.
 
 ## SYNTAX
 
@@ -31,21 +31,15 @@ Stop-ServiceFabricTestCommand -OperationId <Guid> [-ForceCancel] [-Force] [-Time
 ```
 
 ## DESCRIPTION
-The **Stop-ServiceFabricTestCommand** cmdlet cancels an Azure Service Fabric test command.
-Specify the ID of the operation that you provided when you initiated the test command.
-To run this cmdlet, **FaultAnalysisService** must be enabled.
+The **Stop-ServiceFabricTestCommand** cmdlet cancels the specified fault operation.
+Specify the ID of the operation that you provided when you started the fault. The type of faults that can cancelled include Partition Data Loss ([Start-ServiceFabricPartitionDataLoss](./Start-ServiceFabricPartitionDataLoss.md)), Partition Quorum Loss ([Start-ServiceFabricPartitionQuorumLoss](./Start-ServiceFabricPartitionQuorumLoss.md)), Partition Restart ([Start-ServiceFabricPartitionRestart](./Start-ServiceFabricPartitionRestart.md)) and Node State Transition ([Start-ServiceFabricNodeTransition](./Start-ServiceFabricNodeTransition.md)) 
 
-If you do not specify the *Force* parameter, this cmdlet cancels the command and cleans up state information.
-The command closes with a state of RollingBack during cleanup.
-The final state of the command is Cancelled.
+Under normal conditions i.e. without the *Force* parameter, this cmdlet first cancels the fault and attempts to clean up state information. As part of this the fault operation moves into a RollingBack state during the cleanup.
+Once the cleanup of the fault completes the final state of the command is Cancelled.
 
-Important Note: If *Force* is true, state may be left behind.
-[Remove-ServiceFabricTestState](./Remove-ServiceFabricTestState.md) should be invoked to remove state that may have been left behind.
-
-TestCommandProgressState.RollingBack indicates the system is cleaning up the internal system state caused by executing the command.
-It does not restore data if the test command was to cause data loss.
-For example, if you call [Start-ServiceFabricPartitionDataLoss](./Start-ServiceFabricPartitionDataLoss.md) and then call this cmdlet, the system will only clean up its internal state from running the command.
-It will not restore the target partition's data if the command progressed far enough to cause data loss.
+>
+>Important Note: If *Force* is true, inconsistent state may be left behind so please use this option with caution. Using the *Force* flag will move the operation to the Cancelled state skipping cleanup. Only to be used if recommended in case of fault operation getting stuck. 
+>[Remove-ServiceFabricTestState](./Remove-ServiceFabricTestState.md) should be invoked to remove state that may have been left behind.
 
 ## EXAMPLES
 
@@ -58,35 +52,13 @@ This command cancels an operation that has the *OperationId* a268cc73-2e30-462b-
 
 ## PARAMETERS
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -Force
-Forces the command to be cancelled.
-The use of this parameter may leave state information behind.
-The final state of the command is ForceCancelled.
-
-You can specify *Force* only if the test command has a state of RollingBack.
-The command has that state only if you previously ran this cmdlet without *Force* specified, or if the test command rolls back due to a fatal error.
-
-We do not recommend specifying *Force* unless the command is not proceeding.
+Indicates that this cmdlet skips the warning message popup and forces the operation to run. 
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -96,15 +68,24 @@ Accept wildcard characters: False
 ```
 
 ### -ForceCancel
-You can specify *Force* only if the test command has a state of RollingBack.
-The command has that state only if you previously ran this cmdlet without *Force* specified, or if the test command rolls back due to a fatal error.
+This flag forces the command to be cancelled.
+The use of this parameter may leave state information behind. You can specify *Force* only if the fault operation is already in a state of RollingBack else it will be rejected.
+The fault operation can be in a RollingBack state only if you previously ran the Stop-ServiceFabricTestCommand without *Force* specified, or if the fault operation rolls back due to a fatal error.
+
+The final state of the command is ForceCancelled.
 
 We do not recommend specifying *Force* unless the command is not proceeding.
+
+>
+>Important Note: TestCommandProgressState.RollingBack indicates the system is cleaning up the internal system state caused by executing the command.
+>The roll back process does not restore data if the fault operation was a call to [Start-ServiceFabricPartitionDataLoss](./Start-ServiceFabricPartitionDataLoss.md). The system will only clean up its internal state from running the command and
+>it will not restore the target partition's data if the command progressed far enough to cause data loss.
+>
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -120,7 +101,7 @@ You assign this value when you initiated the command.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -135,11 +116,26 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 3DED0AB0-1412-4104-A9A6-94D496E4C054
 online version: 
 schema: 2.0.0
-updated_at: 3/7/2017 3:31 AM
-ms.date: 3/7/2017
+updated_at: 3/23/2017 8:11 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptText.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptText.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fd918aab1b9da13e877544686ab59029cc04653b/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptText.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptText.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -178,7 +178,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False

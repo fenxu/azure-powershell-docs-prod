@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: A7669F75-A5B3-4574-8444-CD15A04DF0EE
-updated_at: 11/3/2016 12:09 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 11:41 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceDescription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceDescription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceDescription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50a9c0fba147d91dd2b89665e86e957df994ea7b/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceDescription.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -41,7 +41,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 PS C:\>Get-ServiceFabricServiceDescription -ServiceName fabric:/CalcApp/CalcService
 ```
 
-The command gets Service Fabric service description for service named fabric:/CalcApp/CalcService.
+This command gets the service description for service with the name `fabric:/CalcApp/CalcService`.
 
 ## PARAMETERS
 
@@ -52,10 +52,10 @@ This cmdlet gets the service description for the service that you specify.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -67,7 +67,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -87,7 +87,7 @@ This cmdlet accepts a URI that represents the name of a Service Fabric service.
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns **System.Fabric.Description.ServiceDescription** object for a Service Fabric service.
+This cmdlet returns a **[System.Fabric.Description.ServiceDescription](https://docs.microsoft.com/dotnet/api/System.Fabric.Description.ServiceDescription)** object representing the service description for the given service.
 
 ## NOTES
 

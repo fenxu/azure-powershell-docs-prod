@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
+online version: 
 schema: 2.0.0
-updated_at: 3/6/2017 7:15 PM
-ms.date: 3/6/2017
+updated_at: 3/23/2017 8:11 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/66ca44a2ee27e49104d75c0ff7c4cfa5eab7c079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceName.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceName.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -25,7 +25,7 @@ Gets the name of the service for a Service Fabric partition.
 ## SYNTAX
 
 ```
-Get-ServiceFabricServiceName [-PartitionId] <Guid> [-TimeoutSec <Int32>]
+Get-ServiceFabricServiceName [-PartitionId] <Guid> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -37,11 +37,19 @@ The output of **Get-ServiceFabricServiceName** contains the following informatio
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the service name for a partition
 ```
 PS C:\> Get-ServiceFabricServiceName -PartitionId $ToDoPartition01.PartitionId
 ```
+
 This command gets the name of the service by using the PartitionId property of the object stored in $ToDoPartition01.
+
+### Example 2: Restart the replica for a partition
+```
+PS C:\> Get-ServiceFabricServiceName -PartitionId $ToDoPartition01.PartitionId | Restart-ServiceFabricReplica
+```
+
+The **[Restart-ServiceFabricReplica](./Restart-ServiceFabricReplica.md)** cmdlet restarts the replica specified by the given `ServiceName` and `PartitionId`. This example restarts the replica for the `$ToDoPartition01` partition by getting its `ServiceName` using the **Get-ServiceFabricServiceName** cmdlet and piping it, along with its `PartitionId`, to the **Restart-ServiceFabricReplica** cmdlet.
 
 ## PARAMETERS
 
@@ -51,7 +59,7 @@ Specifies the ID of a Service Fabric partition.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: 0
@@ -66,7 +74,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

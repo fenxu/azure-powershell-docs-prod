@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
+ms.assetid: 33F6BE97-3BE8-4DE7-BACD-F2B0FA09E313
 online version: 
 schema: 2.0.0
-ms.assetid: 33F6BE97-3BE8-4DE7-BACD-F2B0FA09E313
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServiceType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServiceType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServiceType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServiceType.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -62,7 +62,7 @@ Parameter Sets: Adhoc
 Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -78,7 +78,7 @@ Parameter Sets: Non-Adhoc
 Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -94,7 +94,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -110,7 +110,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -126,7 +126,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 3
+Position: 4
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False

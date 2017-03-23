@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: A330EEB5-CE18-4A96-AA33-E24411542D45
-updated_at: 11/3/2016 12:09 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceHealth.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceHealth.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -64,7 +64,7 @@ Indicates whether to treat a warning health report as an error during health eva
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -83,8 +83,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases:
-Accepted values: Default, None, Ok, Warning, Error, All
+Aliases: 
 
 Required: False
 Position: Named
@@ -100,7 +99,7 @@ Specify the *EventsFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -116,7 +115,7 @@ If there are more partitions with a health state error than tolerated, the healt
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -132,7 +131,7 @@ If there are more replicas with a health state error than tolerated, the health 
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -151,8 +150,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases:
-Accepted values: Default, None, Ok, Warning, Error, All
+Aliases: 
 
 Required: False
 Position: Named
@@ -168,7 +166,7 @@ Specify the *PartitionsFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -183,10 +181,10 @@ Specifies the URI of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -198,7 +196,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

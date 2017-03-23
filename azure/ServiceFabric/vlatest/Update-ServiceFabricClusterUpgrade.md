@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 19517C43-639C-4FB0-8BEE-5B751DC5CBE5
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricClusterUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricClusterUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricClusterUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricClusterUpgrade.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -93,7 +93,7 @@ If you do not specify this parameter, or if you don't include an entry in the ma
 ```yaml
 Type: ApplicationHealthPolicyMap
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -114,7 +114,276 @@ The application type health policy map is used only if the cluster manifest enab
 ```yaml
 Type: ApplicationTypeHealthPolicyMap
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ConsiderWarningAsError
+Indicates whether to treat a warning health report as error during health evaluation.
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -EnableDeltaHealthEvaluation
+Indicates whether to enable delta health checks during health evaluation in monitored upgrades.
+If you specify a value of $True, Service Fabric takes a snapshot of the health at the beginning of the upgrade.
+After each upgrade domain finishes the upgrade, the health checks compare current state of the cluster with the snapshot.
+If there is health degradation that does not respect maximum allow percentages from current cluster upgrade health policy, the health checks fail.
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -FailureAction
+Specifies the action to take if the monitored upgrade fails.
+The acceptable values for this parameter are:
+
+- Rollback
+- Manual.
+
+```yaml
+Type: UpgradeFailureAction
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Force
+Indicates that this cmdlet skips the warning message and forces the update.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ForceRestart
+Indicates whether to restart the Service Fabric node even if only dynamic configurations have changed.
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -HealthCheckRetryTimeoutSec
+Specifies the duration, in seconds, after which Service Fabric retries the health check if the previous health check fails.
+
+```yaml
+Type: UInt32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -HealthCheckStableDurationSec
+Specifies the duration, in seconds, that Service Fabric waits in order to verify that the cluster is stable before it continues to the next upgrade domain or completes the upgrade.
+This wait duration prevents undetected changes of health right after the health check is performed.
+
+```yaml
+Type: UInt32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -HealthCheckWaitDurationSec
+Specifies the duration, in seconds, that Service Fabric waits before it performs the initial health check after it finishes the upgrade on the upgrade domain.
+
+```yaml
+Type: UInt32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -MaxPercentDeltaUnhealthyNodes
+Specifies the maximum tolerated percentage of delta unhealthy nodes that can have aggregated health states of error.
+If the current unhealthy nodes do not respect the percentage relative to the state at the beginning of the upgrade, the cluster is unhealthy.
+
+```yaml
+Type: Byte
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -MaxPercentUnhealthyApplications
+Specifies the maximum tolerated percentage of applications that can have aggregated health state of error.
+If the upgrade exceeds this percentage, the cluster is unhealthy.
+
+```yaml
+Type: Byte
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -MaxPercentUnhealthyNodes
+Specifies the maximum tolerated percentage of nodes that can have aggregated health states of error.
+If an upgrade exceeds this percentage, the cluster is unhealthy.
+
+```yaml
+Type: Byte
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -MaxPercentUpgradeDomainDeltaUnhealthyNodes
+Specifies the maximum tolerated percentage of upgrade domain delta unhealthy nodes that can have aggregated health state of error.
+If there is any upgrade domain where the current unhealthy nodes do not respect the percentage relative to the state at the beginning of the upgrade, the cluster is unhealthy.
+
+```yaml
+Type: Byte
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TimeoutSec
+Specifies the time-out period, in seconds, for the operation.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -UpgradeDomainTimeoutSec
+Specifies the maximum time, in seconds, that Service Fabric takes to upgrade a single upgrade domain.
+After this period, the upgrade fails.
+
+```yaml
+Type: UInt32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -UpgradeMode
+Specifies the new **UpgradeMode** for the upgrade.
+
+```yaml
+Type: RollingUpgradeMode
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -UpgradeReplicaSetCheckTimeoutSec
+Specifies the maximum time, in seconds, that Service Fabric waits for a replica set to reconfigure into a safe state, if it is not already in a safe state, before Service Fabric proceeds with the upgrade.
+
+```yaml
+Type: UInt32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -UpgradeTimeoutSec
+Specifies the maximum time, in seconds, that Service Fabric takes for the entire upgrade.
+After this period, the upgrade fails.
+
+```yaml
+Type: UInt32
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named
@@ -134,277 +403,6 @@ Aliases: cf
 Required: False
 Position: Named
 Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ConsiderWarningAsError
-Indicates whether to treat a warning health report as error during health evaluation.
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -EnableDeltaHealthEvaluation
-Indicates whether to enable delta health checks during health evaluation in monitored upgrades.
-If you specify a value of $True, Service Fabric takes a snapshot of the health at the beginning of the upgrade.
-After each upgrade domain finishes the upgrade, the health checks compare current state of the cluster with the snapshot.
-If there is health degradation that does not respect maximum allow percentages from current cluster upgrade health policy, the health checks fail.
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -FailureAction
-Specifies the action to take if the monitored upgrade fails.
-The acceptable values for this parameter are:
-
-- Rollback
-- Manual.
-
-```yaml
-Type: UpgradeFailureAction
-Parameter Sets: (All)
-Aliases:
-Accepted values: Invalid, Rollback, Manual
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Force
-Indicates that this cmdlet skips the warning message and forces the update.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ForceRestart
-Indicates whether to restart the Service Fabric node even if only dynamic configurations have changed.
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -HealthCheckRetryTimeoutSec
-Specifies the duration, in seconds, after which Service Fabric retries the health check if the previous health check fails.
-
-```yaml
-Type: UInt32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -HealthCheckStableDurationSec
-Specifies the duration, in seconds, that Service Fabric waits in order to verify that the cluster is stable before it continues to the next upgrade domain or completes the upgrade.
-This wait duration prevents undetected changes of health right after the health check is performed.
-
-```yaml
-Type: UInt32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -HealthCheckWaitDurationSec
-Specifies the duration, in seconds, that Service Fabric waits before it performs the initial health check after it finishes the upgrade on the upgrade domain.
-
-```yaml
-Type: UInt32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -MaxPercentDeltaUnhealthyNodes
-Specifies the maximum tolerated percentage of delta unhealthy nodes that can have aggregated health states of error.
-If the current unhealthy nodes do not respect the percentage relative to the state at the beginning of the upgrade, the cluster is unhealthy.
-
-```yaml
-Type: Byte
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -MaxPercentUnhealthyApplications
-Specifies the maximum tolerated percentage of applications that can have aggregated health state of error.
-If the upgrade exceeds this percentage, the cluster is unhealthy.
-
-```yaml
-Type: Byte
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -MaxPercentUnhealthyNodes
-Specifies the maximum tolerated percentage of nodes that can have aggregated health states of error.
-If an upgrade exceeds this percentage, the cluster is unhealthy.
-
-```yaml
-Type: Byte
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -MaxPercentUpgradeDomainDeltaUnhealthyNodes
-Specifies the maximum tolerated percentage of upgrade domain delta unhealthy nodes that can have aggregated health state of error.
-If there is any upgrade domain where the current unhealthy nodes do not respect the percentage relative to the state at the beginning of the upgrade, the cluster is unhealthy.
-
-```yaml
-Type: Byte
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -TimeoutSec
-Specifies the time-out period, in seconds, for the operation.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -UpgradeDomainTimeoutSec
-Specifies the maximum time, in seconds, that Service Fabric takes to upgrade a single upgrade domain.
-After this period, the upgrade fails.
-
-```yaml
-Type: UInt32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -UpgradeMode
-Specifies the new **UpgradeMode** for the upgrade.
-
-```yaml
-Type: RollingUpgradeMode
-Parameter Sets: (All)
-Aliases:
-Accepted values: Invalid, UnmonitoredAuto, UnmonitoredManual, Monitored
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -UpgradeReplicaSetCheckTimeoutSec
-Specifies the maximum time, in seconds, that Service Fabric waits for a replica set to reconfigure into a safe state, if it is not already in a safe state, before Service Fabric proceeds with the upgrade.
-
-```yaml
-Type: UInt32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -UpgradeTimeoutSec
-Specifies the maximum time, in seconds, that Service Fabric takes for the entire upgrade.
-After this period, the upgrade fails.
-
-```yaml
-Type: UInt32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

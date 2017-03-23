@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: F83D7B99-CFDC-4A95-A2C7-3CD33925FBAA
-updated_at: 3/15/2017 7:11 PM
-ms.date: 3/15/2017
+online version: 
+schema: 2.0.0
+updated_at: 3/23/2017 8:11 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/7d17bb7468bc98d90933e57d0cb030408d1be3f5/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -24,6 +24,7 @@ ms.service: service-fabric
 Initiates a data loss fault operation on a partition of a stateful Service Fabric service. For details about how to invoke a data loss operation, see the [Invoke Data Loss](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-use-data-loss-api) article.
 
 ## SYNTAX
+The various ways to specify or to choose the partition to invoke data loss on are as follows:
 
 ### Using PartitionId
 ```
@@ -31,38 +32,36 @@ Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLoss
  -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Using ServiceNamePartitionUniformedInt
-```
-Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLossMode> -ServiceName <Uri>
- [-PartitionKindUniformInt64] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### Using ServiceNameRandomPartition
-```
-Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLossMode> -ServiceName <Uri>
- [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### Using ServiceNamePartitionSingleton
+### ServiceNamePartitionSingleton
 ```
 Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLossMode> -ServiceName <Uri>
  [-PartitionKindSingleton] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Using ServiceNamePartitionNamed
+### ServiceNamePartitionNamed
 ```
 Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLossMode> -ServiceName <Uri>
  [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNameRandomPartition
+```
+Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLossMode> -ServiceName <Uri>
+ [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNamePartitionUniformedInt
+```
+Start-ServiceFabricPartitionDataLoss -OperationId <Guid> -DataLossMode <DataLossMode> -ServiceName <Uri>
+ [-PartitionKindUniformInt64] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ## DESCRIPTION
+The **Start-ServiceFabricPartitionDataLoss** cmdlet initiates a data loss on a stateful service partition in Azure Service Fabric.
+To run this cmdlet, **FaultAnalysisService** must be enabled.
 
-The **Start-ServiceFabricPartitionDataLoss** cmdlet initiates a data loss fault operation on a stateful service partition in Azure Service Fabric.
-
-> [!WARNING]
-> Do not use this cmdlet to perform a data loss fault operation on system services.
-> Run this cmdlet to perform a data loss fault operation only for partitions for stateful services.
->
+Run this cmdlet to perform a data loss fault only for partitions for stateful services.
+Do not use this cmdlet to perform a data loss for system services.
 
 You can check the progress of the data loss fault operation using the [Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress) cmdlet.
 
@@ -97,7 +96,7 @@ To find more about **OnDataLossAsync** please refer to the [Back up and restore]
 ```yaml
 Type: DataLossMode
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: Invalid, PartialDataLoss, FullDataLoss
 
 Required: True
@@ -115,7 +114,7 @@ If you want to check the progress of the fault, you must pass the OperationId th
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -130,7 +129,7 @@ Specifies the ID of the Service Fabric partition for which this cmdlet starts a 
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -144,8 +143,8 @@ Specifies the key of the Service Fabric partition for which this cmdlet starts a
 
 ```yaml
 Type: String
-Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases:
+Parameter Sets: ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt
+Aliases: 
 
 Required: True
 Position: Named
@@ -160,7 +159,7 @@ Indicates that the Service Fabric partition for which this cmdlet starts a data 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -175,7 +174,7 @@ Indicates that the Service Fabric partition for which this cmdlet starts a data 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -190,7 +189,7 @@ Indicates that the Service Fabric partition for which this cmdlet starts a data 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -205,7 +204,7 @@ Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -220,7 +219,7 @@ Specifies the time-out period, in seconds, for the fault.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

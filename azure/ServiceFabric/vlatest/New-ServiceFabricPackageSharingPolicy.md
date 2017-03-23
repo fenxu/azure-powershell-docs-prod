@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 44A9AA7C-9D72-4B62-B53E-9A773EA1EED5
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricPackageSharingPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricPackageSharingPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricPackageSharingPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricPackageSharingPolicy.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -66,10 +66,10 @@ Specifies the name of the package that to share.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -82,7 +82,7 @@ The **All** scope shares all code, config, and data packages from the service ma
 ```yaml
 Type: SwitchParameter
 Parameter Sets: All
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -98,7 +98,7 @@ The **Code** scope shares all code packages from the service manifest.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -114,7 +114,7 @@ The **Config** scope shares all config packages from the service manifest.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Config
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -130,7 +130,7 @@ The **Data** scope shares all data packages from the service manifest.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Data
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -145,7 +145,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 7370AD41-FB09-4948-9BB7-8FD67B5E99E4
-updated_at: 11/11/2016 12:41 AM
-ms.date: 11/11/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1e386f2c4d3f0d7aa5edba5cc7deaac957310f26/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -25,9 +25,21 @@ Creates a connection to a Service Fabric cluster.
 
 ## SYNTAX
 
+### Dsts
+```
+Connect-ServiceFabricCluster [-ConnectionEndpoint] <String[]> [-AllowNetworkConnectionOnly]
+ [-ServerCommonName <String[]>] [-ServerCertThumbprint <String[]>] [-DSTS] -MetaDataEndpoint <String>
+ [-CloudServiceName <String>] [-CloudServiceDNSNames <String[]>]
+ [-ConnectionInitializationTimeoutInSec <Double>] [-HealthOperationTimeoutInSec <Double>]
+ [-HealthReportSendIntervalInSec <Double>] [-HealthReportRetrySendIntervalInSec <Double>]
+ [-KeepAliveIntervalInSec <Double>] [-ServiceChangePollIntervalInSec <Double>]
+ [-PartitionLocationCacheLimit <Int64>] [-AuthTokenBufferSize <Int64>] [-Interactive <Boolean>]
+ [-SkipChecks <Boolean>] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ### Aad
 ```
-Connect-ServiceFabricCluster -ConnectionEndpoint <String[]> [-AllowNetworkConnectionOnly]
+Connect-ServiceFabricCluster [-ConnectionEndpoint] <String[]> [-AllowNetworkConnectionOnly]
  [-ServerCommonName <String[]>] [-ServerCertThumbprint <String[]>] [-AzureActiveDirectory]
  [-SecurityToken <String>] [-GetMetadata] [-ConnectionInitializationTimeoutInSec <Double>]
  [-HealthOperationTimeoutInSec <Double>] [-HealthReportSendIntervalInSec <Double>]
@@ -38,7 +50,7 @@ Connect-ServiceFabricCluster -ConnectionEndpoint <String[]> [-AllowNetworkConnec
 
 ### Default
 ```
-Connect-ServiceFabricCluster [-ConnectionEndpoint <String[]>] [-AllowNetworkConnectionOnly]
+Connect-ServiceFabricCluster [[-ConnectionEndpoint] <String[]>] [-AllowNetworkConnectionOnly]
  [-ConnectionInitializationTimeoutInSec <Double>] [-HealthOperationTimeoutInSec <Double>]
  [-HealthReportSendIntervalInSec <Double>] [-HealthReportRetrySendIntervalInSec <Double>]
  [-KeepAliveIntervalInSec <Double>] [-ServiceChangePollIntervalInSec <Double>]
@@ -46,19 +58,9 @@ Connect-ServiceFabricCluster [-ConnectionEndpoint <String[]>] [-AllowNetworkConn
  [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Windows
-```
-Connect-ServiceFabricCluster -ConnectionEndpoint <String[]> [-AllowNetworkConnectionOnly] [-WindowsCredential]
- [-ClusterSpn <String>] [-ConnectionInitializationTimeoutInSec <Double>]
- [-HealthOperationTimeoutInSec <Double>] [-HealthReportSendIntervalInSec <Double>]
- [-HealthReportRetrySendIntervalInSec <Double>] [-KeepAliveIntervalInSec <Double>]
- [-ServiceChangePollIntervalInSec <Double>] [-PartitionLocationCacheLimit <Int64>]
- [-AuthTokenBufferSize <Int64>] [-SkipChecks <Boolean>] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### X509
 ```
-Connect-ServiceFabricCluster -ConnectionEndpoint <String[]> [-AllowNetworkConnectionOnly] [-X509Credential]
+Connect-ServiceFabricCluster [-ConnectionEndpoint] <String[]> [-AllowNetworkConnectionOnly] [-X509Credential]
  [-ServerCommonName <String[]>] [-ServerCertThumbprint <String[]>] -FindType <X509FindType> -FindValue <String>
  [-StoreLocation <StoreLocation>] [-StoreName <String>] [-ConnectionInitializationTimeoutInSec <Double>]
  [-HealthOperationTimeoutInSec <Double>] [-HealthReportSendIntervalInSec <Double>]
@@ -67,16 +69,14 @@ Connect-ServiceFabricCluster -ConnectionEndpoint <String[]> [-AllowNetworkConnec
  [-AuthTokenBufferSize <Int64>] [-SkipChecks <Boolean>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Dsts
+### Windows
 ```
-Connect-ServiceFabricCluster -ConnectionEndpoint <String[]> [-AllowNetworkConnectionOnly]
- [-ServerCommonName <String[]>] [-ServerCertThumbprint <String[]>] [-DSTS] -MetaDataEndpoint <String>
- [-CloudServiceName <String>] [-CloudServiceDNSNames <String[]>]
- [-ConnectionInitializationTimeoutInSec <Double>] [-HealthOperationTimeoutInSec <Double>]
- [-HealthReportSendIntervalInSec <Double>] [-HealthReportRetrySendIntervalInSec <Double>]
- [-KeepAliveIntervalInSec <Double>] [-ServiceChangePollIntervalInSec <Double>]
- [-PartitionLocationCacheLimit <Int64>] [-AuthTokenBufferSize <Int64>] [-Interactive <Boolean>]
- [-SkipChecks <Boolean>] [-TimeoutSec <Int32>] [<CommonParameters>]
+Connect-ServiceFabricCluster [-ConnectionEndpoint] <String[]> [-AllowNetworkConnectionOnly]
+ [-WindowsCredential] [-ClusterSpn <String>] [-ConnectionInitializationTimeoutInSec <Double>]
+ [-HealthOperationTimeoutInSec <Double>] [-HealthReportSendIntervalInSec <Double>]
+ [-HealthReportRetrySendIntervalInSec <Double>] [-KeepAliveIntervalInSec <Double>]
+ [-ServiceChangePollIntervalInSec <Double>] [-PartitionLocationCacheLimit <Int64>]
+ [-AuthTokenBufferSize <Int64>] [-SkipChecks <Boolean>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -143,7 +143,7 @@ Indicates that the cmdlet allows connecting to the cluster even when system serv
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -158,7 +158,7 @@ When connecting with *AzureActiveDirectory*, specifies the buffer size to alloca
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -173,7 +173,7 @@ Specifies that Azure Active Directory should be used for authentication and auth
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Aad
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -188,7 +188,7 @@ This parameter is for internal use only.
 ```yaml
 Type: String[]
 Parameter Sets: Dsts
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -203,7 +203,7 @@ This parameter is for internal use only.
 ```yaml
 Type: String
 Parameter Sets: Dsts
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -218,7 +218,7 @@ Specifies the cluster security principal name to use for Windows credential.
 ```yaml
 Type: String
 Parameter Sets: Windows
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -238,11 +238,11 @@ FQDN:ClientConnectionEndpoint
 
 ```yaml
 Type: String[]
-Parameter Sets: Aad, Windows, X509, Dsts
-Aliases:
+Parameter Sets: Dsts, Aad, X509, Windows
+Aliases: 
 
 Required: True
-Position: Named
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -251,10 +251,10 @@ Accept wildcard characters: False
 ```yaml
 Type: String[]
 Parameter Sets: Default
-Aliases:
+Aliases: 
 
 Required: False
-Position: Named
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -266,7 +266,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -281,7 +281,7 @@ This parameter is for internal use only.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Dsts
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -316,7 +316,7 @@ There is no such restriction when common name is provided in **FindValue**.
 ```yaml
 Type: X509FindType
 Parameter Sets: X509
-Aliases:
+Aliases: 
 Accepted values: FindByThumbprint, FindBySubjectName, FindBySubjectDistinguishedName, FindByIssuerName, FindByIssuerDistinguishedName, FindBySerialNumber, FindByTimeValid, FindByTimeNotYetValid, FindByTimeExpired, FindByTemplateName, FindByApplicationPolicy, FindByCertificatePolicy, FindByExtension, FindByKeyUsage, FindBySubjectKeyIdentifier
 
 Required: True
@@ -332,7 +332,7 @@ Specifies filter value to search a certificate in certificate store.
 ```yaml
 Type: String
 Parameter Sets: X509
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -347,7 +347,7 @@ When connecting with *AzureActiveDirectory*, anonymously retrieves the metadata 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Aad
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -363,7 +363,7 @@ When a health operation times out or fails with a communication error, the healt
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -378,7 +378,7 @@ Specifies the interval, in seconds, at which the health client retries sending t
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -394,7 +394,7 @@ If set to 0, the health client will send the reports immediately.
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -409,7 +409,7 @@ Indicates whether the cmdlet operates interactively.
 ```yaml
 Type: Boolean
 Parameter Sets: Dsts
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -425,7 +425,7 @@ This interval prevents a connection from being terminated because of inactivity 
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -440,7 +440,7 @@ This parameter is for internal use only.
 ```yaml
 Type: String
 Parameter Sets: Dsts
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -456,7 +456,7 @@ The default value is 0, which signifies no limit.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -471,7 +471,7 @@ When connecting with *AzureActiveDirectory*, the specified security token is use
 ```yaml
 Type: String
 Parameter Sets: Aad
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -486,8 +486,8 @@ These thumbprints are used to authenticate that the cmdlet connects to the endpo
 
 ```yaml
 Type: String[]
-Parameter Sets: Aad, X509, Dsts
-Aliases:
+Parameter Sets: Dsts, Aad, X509
+Aliases: 
 
 Required: False
 Position: Named
@@ -502,8 +502,8 @@ These names are used to authenticate that the cmdlet connects to the endpoint of
 
 ```yaml
 Type: String[]
-Parameter Sets: Aad, X509, Dsts
-Aliases:
+Parameter Sets: Dsts, Aad, X509
+Aliases: 
 
 Required: False
 Position: Named
@@ -519,7 +519,7 @@ This interval is used by old model of poll-based service address change notifica
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -534,7 +534,7 @@ Indicates to bypass system service responsiveness validation checks when connect
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -553,7 +553,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: StoreLocation
 Parameter Sets: X509
-Aliases:
+Aliases: 
 Accepted values: CurrentUser, LocalMachine
 
 Required: False
@@ -569,7 +569,7 @@ Specifies the name of the certificate store to load the client certificate.
 ```yaml
 Type: String
 Parameter Sets: X509
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -584,7 +584,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -599,7 +599,7 @@ Indicates that the cmdlet uses Windows credentials to connect to a Service Fabri
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Windows
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -614,7 +614,7 @@ Indicates that the cmdlet uses an x509 certificate to perform mutual authenticat
 ```yaml
 Type: SwitchParameter
 Parameter Sets: X509
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named

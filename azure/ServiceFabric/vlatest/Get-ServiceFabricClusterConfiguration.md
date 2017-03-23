@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 13C206CD-D1A4-4BAE-8014-4D7AB68D147D
-updated_at: 12/9/2016 12:50 AM
-ms.date: 12/9/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 11:03 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a2cafec0ea322c59ce3aa32653eb317583abf8c5/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/d9e0726652998704c02e95997bca1262e19ec946/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Get-ServiceFabricClusterConfiguration
 
 ## SYNOPSIS
-Gets the latest JSON cluster configuration.
+Gets the latest JSON format cluster configuration.
 
 ## SYNTAX
 
@@ -31,6 +31,7 @@ Get-ServiceFabricClusterConfiguration [-TimeoutSec <Int32>] [<CommonParameters>]
 
 ## DESCRIPTION
 The **Get-ServiceFabricClusterConfiguration** cmdlet gets the latest cluster configuration in JavaScript Object Notation (JSON) format.
+
 To run this cmdlet, you must first establish a connection by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 Note: At this time this cmdlet only applicable to on-premise Standalone deployments. If executed against a cluster which does not have the UpgradeOrchestrationService Fabric system service, the request will time out. 
@@ -40,7 +41,7 @@ Note: At this time this cmdlet only applicable to on-premise Standalone deployme
 ### Example 1: Get cluster configuration
 ```
 PS C:\>Connect-ServiceFabricCluster -ConnectionEndpoint "ServiceFabric01.ContosoCloudApp.net:19000"
-PS C:\> Get-ServiceFabricClusterConfiguration
+PS C:\>Get-ServiceFabricClusterConfiguration
 ```
 
 The first command creates a connection to the specified cluster.
@@ -53,7 +54,7 @@ The second command gets the latest cluster configuration in JSON format.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -67,7 +68,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+You cannot pipe input to this cmdlet.
+
 ## OUTPUTS
+
+This cmdlet returns the latest cluster configuration in JavaScript Object Notation (JSON) format.
 
 ## NOTES
 

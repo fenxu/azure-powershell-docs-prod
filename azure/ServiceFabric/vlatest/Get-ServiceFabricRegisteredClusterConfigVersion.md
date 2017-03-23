@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: FE81372C-DE58-4921-95AC-35D523C5300D
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 12:36 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterConfigVersion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterConfigVersion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterConfigVersion.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bcbc202904350fd056f72db4725d09ae3fc3352c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterConfigVersion.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -37,8 +37,10 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ## EXAMPLES
 
-
-
+### Example 1:
+```
+PS C:\>Get-ServiceFabricRegisteredClusterConfigVersion
+```
 
 ## PARAMETERS
 
@@ -49,10 +51,10 @@ This cmdlet gets only the provisioned fabric config versions that match the conf
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -64,7 +66,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -84,7 +86,7 @@ This cmdlet accepts the config version of a Service Fabric cluster as a string.
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a list of **System.Fabric.Query.ProvisionedFabricConfigVersion** objects that represents registered Service Fabric cluster config versions.
+This cmdlet returns a list of [System.Fabric.Query.ProvisionedFabricConfigVersion] (https://docs.microsoft.com/dotnet/api/system.fabric.query.provisionedfabricconfigversion) objects that represents registered Service Fabric cluster config versions.
 
 ## NOTES
 

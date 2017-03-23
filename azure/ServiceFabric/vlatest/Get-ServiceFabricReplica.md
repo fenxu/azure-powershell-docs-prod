@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 0A01F959-D065-4EEC-BA1C-28B623F49416
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 6:24 PM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/31ce2cbc2767e8e9f0a1f1271dda52160ffdb112/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplica.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,10 @@ ms.service: service-fabric
 # Get-ServiceFabricReplica
 
 ## SYNOPSIS
-Gets Service Fabric replicas.
+Gets the list of [System.Fabric.Query.Replica](https://docs.microsoft.com/dotnet/api/system.fabric.query.replica) objects.
+[System.Fabric.Query.Replica](https://docs.microsoft.com/dotnet/api/system.fabric.query.replica) contains information on the Service Fabric replica including health state and the address replica is listening on.
+
+This cmdlet is commonly used for diagnostic purposes.
 
 ## SYNTAX
 
@@ -52,7 +55,7 @@ The second command gets the Service Fabric replica by using the **PartitionId** 
 PS C:\>Get-ServiceFabricPartition -ServiceName fabric:/System/FailoverManagerService | Get-ServiceFabricReplica
 ```
 
-This command gets the list of partitions for the Failover Manager system service.
+This command gets the list of replicas for the Failover Manager system service.
 
 ## PARAMETERS
 
@@ -62,10 +65,10 @@ Specifies the ID of a Service Fabric partition.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -77,10 +80,10 @@ Specifies a Service Fabric service replica or instance ID.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -92,8 +95,7 @@ Specifies the replica status filter as a **ServiceReplicaStatusFilter** object.
 ```yaml
 Type: ServiceReplicaStatusFilter
 Parameter Sets: (All)
-Aliases:
-Accepted values: Default, InBuild, Standby, Ready, Down, Dropped, All
+Aliases: 
 
 Required: False
 Position: Named
@@ -108,7 +110,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -123,12 +125,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Guid, Int64
-This cmdlet accepts the ID of a Service Fabric partition, or a replica or instance ID.
+This cmdlet accepts the ID of a Service Fabric partition, or a replica/instance.
 
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a list of **System.Fabric.Query.Replica** objects.
+This cmdlet returns a list of [System.Fabric.Query.Replica](https://docs.microsoft.com/dotnet/api/system.fabric.query.replica) objects.
 
 ## NOTES
 
