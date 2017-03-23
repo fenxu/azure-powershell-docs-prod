@@ -392,10 +392,6 @@
           href: ../MSOnline/v1/Get-MsolAdministrativeUnit.md
         - name: Get-MsolAdministrativeUnitMember
           href: ../MSOnline/v1/Get-MsolAdministrativeUnitMember.md
-        - name: Get-MsolAllSettings
-          href: ../MSOnline/v1/Get-MsolAllSettings.md
-        - name: Get-MsolAllSettingTemplate
-          href: ../MSOnline/v1/Get-MsolAllSettingTemplate.md
         - name: Get-MsolCompanyAllowedDataLocation
           href: ../MSOnline/v1/Get-MsolCompanyAllowedDataLocation.md
         - name: Get-MsolCompanyInformation
@@ -442,10 +438,6 @@
           href: ../MSOnline/v1/Get-MsolServicePrincipal.md
         - name: Get-MsolServicePrincipalCredential
           href: ../MSOnline/v1/Get-MsolServicePrincipalCredential.md
-        - name: Get-MsolSettings
-          href: ../MSOnline/v1/Get-MsolSettings.md
-        - name: Get-MsolSettingTemplate
-          href: ../MSOnline/v1/Get-MsolSettingTemplate.md
         - name: Get-MsolSubscription
           href: ../MSOnline/v1/Get-MsolSubscription.md
         - name: Get-MsolUser
@@ -470,8 +462,6 @@
           href: ../MSOnline/v1/New-MsolServicePrincipalAddresses.md
         - name: New-MsolServicePrincipalCredential
           href: ../MSOnline/v1/New-MsolServicePrincipalCredential.md
-        - name: New-MsolSettings
-          href: ../MSOnline/v1/New-MsolSettings.md
         - name: New-MsolUser
           href: ../MSOnline/v1/New-MsolUser.md
         - name: New-MsolWellKnownGroup
@@ -510,8 +500,6 @@
           href: ../MSOnline/v1/Remove-MsolServicePrincipal.md
         - name: Remove-MsolServicePrincipalCredential
           href: ../MSOnline/v1/Remove-MsolServicePrincipalCredential.md
-        - name: Remove-MsolSettings
-          href: ../MSOnline/v1/Remove-MsolSettings.md
         - name: Remove-MsolUser
           href: ../MSOnline/v1/Remove-MsolUser.md
         - name: Reset-MsolStrongAuthenticationMethodByUpn
@@ -554,8 +542,6 @@
           href: ../MSOnline/v1/Set-MsolPasswordPolicy.md
         - name: Set-MsolServicePrincipal
           href: ../MSOnline/v1/Set-MsolServicePrincipal.md
-        - name: Set-MsolSettings
-          href: ../MSOnline/v1/Set-MsolSettings.md
         - name: Set-MsolUser
           href: ../MSOnline/v1/Set-MsolUser.md
         - name: Set-MsolUserLicense
