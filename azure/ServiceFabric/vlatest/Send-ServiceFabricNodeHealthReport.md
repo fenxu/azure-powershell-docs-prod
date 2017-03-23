@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: F28E40A2-17B6-4ADC-AE34-90A436F56B75
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 2:54 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricNodeHealthReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricNodeHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricNodeHealthReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c9918e862685779553206b72ba4d711a6f2e8375/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricNodeHealthReport.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -37,7 +37,7 @@ The **Send-ServiceFabricNodeHealthReport** cmdlet sends a health report on a Ser
 The node must already exist in the health store.
 To check whether it exists, use the [Get-ServiceFabricNodeHealth](./Get-ServiceFabricNodeHealth.md) cmdlet.
 Alternatively, you can use the [Get-ServiceFabricNode](./Get-ServiceFabricNode.md) cmdlet.
-If the cmdlet gets the and the node has valid health state, then the node exists in the health store.
+If the cmdlet gets the node and the node has valid health state, then the node exists in the health store.
 
 The cmdlet sends the report after an interval specified by the *HealthReportSendIntervalInSec* parameter of the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 The cluster connection must be kept alive during this time.
@@ -54,7 +54,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Report Error health report with infinite TTL
 ```
-PS C:\>Send-ServiceFabricNodeHealthReport -NodeName "Node01" -SourceId "MyWatchdog" -HealthProperty "Firewall" -HealthState Error -Description "Firewall rules were not correctly applied"
+PS C:\> Send-ServiceFabricNodeHealthReport -NodeName "Node01" -SourceId "MyWatchdog" -HealthProperty "Firewall" -HealthState Error -Description "Firewall rules were not correctly applied"
 ```
 
 This command sends a health report on the node named Node01 from the source named MyWatchdog.
@@ -62,7 +62,7 @@ The health report contains information about the health property **Firewall** in
 
 ### Example 2: Report Warning valid for specified TTL
 ```
-PS C:\>Send-ServiceFabricNodeHealthReport -NodeName "Node01" -SourceId "MyWatchdog" -HealthProperty "CPU" -HealthState Warning -Description "CPU has been more than 90% for the last hour." -TimeToLiveSec 10 -RemoveWhenExpired
+PS C:\> Send-ServiceFabricNodeHealthReport -NodeName "Node01" -SourceId "MyWatchdog" -HealthProperty "CPU" -HealthState Warning -Description "CPU has been more than 90% for the last hour." -TimeToLiveSec 10 -RemoveWhenExpired
 ```
 
 This command sends a health report on the node named Node01 from the source named MyWatchdog.
@@ -80,7 +80,7 @@ The maximum string length for the description is 4096 characters.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -97,7 +97,7 @@ The report overrides any previous reports with the same values for the *SourceId
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -112,7 +112,7 @@ Specifies a **HealthState** object that represents the reported health state.
 ```yaml
 Type: HealthState
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: Invalid, Ok, Warning, Error, Unknown
 
 Required: True
@@ -129,10 +129,10 @@ The cmdlet sends a health report on the node that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -146,7 +146,7 @@ The reports that are removed when expired can be used for conditions that are on
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -163,7 +163,7 @@ If you specify a sequence number, that value must be higher than any previous se
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -178,27 +178,9 @@ Specifies the identifier of the source that triggered the report.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -TimeToLiveSec
-Specifies the Time to Live (TTL) of the report in seconds.
-When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
-Otherwise, the entity is evaluated at Error because of the expired report.
-The default value is Infinite.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -211,12 +193,30 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TimeToLiveSec
+Specifies the Time to Live (TTL) of the report in seconds.
+When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
+Otherwise, the entity is evaluated at Error because of the expired report.
+The default value is Infinite.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

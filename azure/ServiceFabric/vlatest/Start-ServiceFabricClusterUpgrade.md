@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 32BC7760-F639-4236-8F42-6C68ADE81F25
-updated_at: 3/6/2017 11:16 PM
-ms.date: 3/6/2017
+online version: 
+schema: 2.0.0
+updated_at: 3/23/2017 8:11 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/48ff137a774297a69e5e539e90fb11ff17a97ee6/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -39,13 +39,6 @@ Start-ServiceFabricClusterUpgrade [-Code] [-CodePackageVersion] <String> [-Force
  [-UnmonitoredAuto] [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-### Code UnmonitoredManual
-```
-Start-ServiceFabricClusterUpgrade [-Code] [-CodePackageVersion] <String> [-ForceRestart]
- [[-UpgradeReplicaSetCheckTimeoutSec] <UInt32>] [-ReplicaQuorumTimeoutSec <UInt32>] [-RestartProcess]
- [-UnmonitoredManual] [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
-```
-
 ### Code Monitored
 ```
 Start-ServiceFabricClusterUpgrade [-Code] [-CodePackageVersion] <String> [-ForceRestart]
@@ -58,6 +51,13 @@ Start-ServiceFabricClusterUpgrade [-Code] [-CodePackageVersion] <String> [-Force
  [-MaxPercentDeltaUnhealthyNodes <Byte>] [-MaxPercentUpgradeDomainDeltaUnhealthyNodes <Byte>] [-Force]
  [-ApplicationHealthPolicyMap <ApplicationHealthPolicyMap>] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm]
  [<CommonParameters>]
+```
+
+### Code UnmonitoredManual
+```
+Start-ServiceFabricClusterUpgrade [-Code] [-CodePackageVersion] <String> [-ForceRestart]
+ [[-UpgradeReplicaSetCheckTimeoutSec] <UInt32>] [-ReplicaQuorumTimeoutSec <UInt32>] [-RestartProcess]
+ [-UnmonitoredManual] [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Config Monitored
@@ -171,7 +171,7 @@ If you do not specify this parameter, or if you don't include an entry in the ma
 ```yaml
 Type: ApplicationHealthPolicyMap
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -192,7 +192,7 @@ The application type health policy map is used only if the cluster manifest enab
 ```yaml
 Type: ApplicationTypeHealthPolicyMap
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -207,10 +207,10 @@ Specifies the version stored in a Service Fabric cluster manifest.
 ```yaml
 Type: String
 Parameter Sets: Both UnmonitoredAuto, Config Monitored, Config UnmonitoredAuto, Config UnmonitoredManual, Both Monitored, Both UnmonitoredManual
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -221,11 +221,11 @@ Indicates that the package includes only a Service Fabric .msi file.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Code UnmonitoredAuto, Code UnmonitoredManual, Code Monitored
-Aliases:
+Parameter Sets: Code UnmonitoredAuto, Code Monitored, Code UnmonitoredManual
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -236,8 +236,8 @@ Specifies the version of the Service Fabric .msi file.
 
 ```yaml
 Type: String
-Parameter Sets: Both UnmonitoredAuto, Code UnmonitoredAuto, Code UnmonitoredManual, Code Monitored, Both Monitored, Both UnmonitoredManual
-Aliases:
+Parameter Sets: Both UnmonitoredAuto, Code UnmonitoredAuto, Code Monitored, Code UnmonitoredManual, Both Monitored, Both UnmonitoredManual
+Aliases: 
 
 Required: True
 Position: 1
@@ -252,10 +252,10 @@ Indicates that the package is a Service Fabric cluster manifest.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Config Monitored, Config UnmonitoredAuto, Config UnmonitoredManual
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -283,7 +283,7 @@ Applications are evaluated using per application health policy settings.
 ```yaml
 Type: Boolean
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -298,7 +298,7 @@ Indicates that delta health evaluation is used to determine if the Service Fabri
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -317,7 +317,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: UpgradeFailureAction
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 Accepted values: Invalid, Rollback, Manual
 
 Required: True
@@ -333,7 +333,7 @@ Indicates that this cmdlet skips the warning message and forces the upgrade.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -348,10 +348,10 @@ Indicates that the service host restarts even if the upgrade is a configuration-
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -363,7 +363,7 @@ Specifies the duration, in seconds, after which Service Fabric retries the healt
 ```yaml
 Type: UInt32
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -379,7 +379,7 @@ This wait duration prevents undetected changes of health right after the health 
 ```yaml
 Type: UInt32
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -394,7 +394,7 @@ Specifies the duration, in seconds, that Service Fabric waits before it performs
 ```yaml
 Type: UInt32
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -410,7 +410,7 @@ If the current unhealthy nodes do not respect the percentage relative to the sta
 ```yaml
 Type: Byte
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -426,7 +426,7 @@ If the currently unhealthy applications do not respect this amount, the cluster 
 ```yaml
 Type: Byte
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -442,7 +442,7 @@ If the current unhealthy applications do not respect this percentage, the cluste
 ```yaml
 Type: Byte
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -458,7 +458,7 @@ If there is any upgrade domain where the current unhealthy nodes do not respect 
 ```yaml
 Type: Byte
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -475,7 +475,7 @@ If the upgrade domain or cluster fails to meet health policies, the upgrade fail
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -494,7 +494,7 @@ Specify the *UpgradeReplicaSetCheckTimeoutSec* parameter instead.
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -512,7 +512,7 @@ Specify the *ForceRestart* parameter instead.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -527,7 +527,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -544,7 +544,7 @@ This mode is not recommended for production use.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Both UnmonitoredAuto, Code UnmonitoredAuto, Config UnmonitoredAuto
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -560,7 +560,7 @@ After Service Fabric upgrades an upgrade domain, it waits for the [Resume-Servic
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code UnmonitoredManual, Config UnmonitoredManual, Both UnmonitoredManual
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -576,7 +576,7 @@ After this period, the upgrade fails.
 ```yaml
 Type: UInt32
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -591,10 +591,10 @@ Specifies the maximum time that Service Fabric waits for a partition to be in a 
 ```yaml
 Type: UInt32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 3
+Position: 4
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -607,11 +607,26 @@ After this period, the upgrade fails.
 ```yaml
 Type: UInt32
 Parameter Sets: Code Monitored, Config Monitored, Both Monitored
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

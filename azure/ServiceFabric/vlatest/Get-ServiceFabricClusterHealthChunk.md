@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 7EE2AE48-02B7-4A75-B20F-75AA942A4C96
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 1:31 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/be6c4ceaccf4d5ec6ef47f54a9177be459e6e44d/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -65,8 +65,8 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get the health of the cluster with node filters
 ```
-PS C:\>$ErrorFilter = [System.Fabric.Health.HealthStateFilter]::Error;
-PS C:\> $AllFilter = [System.Fabric.Health.HealthStateFilter]::All;
+PS C:\> $ErrorFilter = [System.Fabric.Health.HealthStateFilter]::Error
+PS C:\> $AllFilter = [System.Fabric.Health.HealthStateFilter]::All
 PS C:\> $NodeFilter1 = New-Object System.Fabric.Health.NodeHealthStateFilter -Property @{HealthStateFilter=$AllFilter}
 PS C:\> $NodeFilter2 = New-Object System.Fabric.Health.NodeHealthStateFilter -Property @{NodeNameFilter="N0010";HealthStateFilter=$ErrorFilter}
 PS C:\> $NodeFilters = New-Object System.Collections.Generic.List[System.Fabric.Health.NodeHealthStateFilter]
@@ -80,8 +80,8 @@ It specifies filters to return all nodes, except for node N0010, which should be
 
 ### Example 2: Get the health of the cluster with deployed entity filters
 ```
-PS C:\>$ErrorFilter = [System.Fabric.Health.HealthStateFilter]::Error;
-PS C:\> $AllFilter = [System.Fabric.Health.HealthStateFilter]::All;
+PS C:\> $ErrorFilter = [System.Fabric.Health.HealthStateFilter]::Error
+PS C:\> $AllFilter = [System.Fabric.Health.HealthStateFilter]::All
 PS C:\> $DspFilter1 = New-Object System.Fabric.Health.DeployedServicePackageHealthStateFilter -Property @{HealthStateFilter=$AllFilter}
 PS C:\> $DaFilter1 =  New-Object System.Fabric.Health.DeployedApplicationHealthStateFilter -Property @{HealthStateFilter=$AllFilter;NodeNameFilter="N0020"}
 PS C:\> $DaFilter1.DeployedServicePackageFilters.Add($DspFilter1)
@@ -97,8 +97,8 @@ It specifies filters to return all applications and deployed applications and de
 
 ### Example 3: Get the health of the cluster with an application filter that includes recursive inner filters
 ```
-PS C:\>$ErrorFilter = [System.Fabric.Health.HealthStateFilter]::Error;
-PS C:\> $AllFilter = [System.Fabric.Health.HealthStateFilter]::All;
+PS C:\> $ErrorFilter = [System.Fabric.Health.HealthStateFilter]::Error
+PS C:\> $AllFilter = [System.Fabric.Health.HealthStateFilter]::All
 PS C:\> $ReplicaFilter1 = New-Object System.Fabric.Health.ReplicaHealthStateFilter -Property @{ReplicaOrInstanceIdFilter= 130984777977143495;HealthStateFilter=$ErrorFilter}
 PS C:\> $ReplicaFilter2 = New-Object System.Fabric.Health.ReplicaHealthStateFilter -Property @{HealthStateFilter=$AllFilter}
 
@@ -135,7 +135,7 @@ If you do not specify this parameter, no applications are returned.
 ```yaml
 Type: System.Collections.Generic.List`1[System.Fabric.Health.ApplicationHealthStateFilter]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -151,7 +151,7 @@ If you do not specify this parameter, or if you don't include an entry in the ma
 ```yaml
 Type: ApplicationHealthPolicyMap
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -172,7 +172,7 @@ The application type health policy map is used only if the cluster manifest enab
 ```yaml
 Type: ApplicationTypeHealthPolicyMap
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -190,7 +190,7 @@ If none of the cluster health policy parameters are specified, health evaluation
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -208,7 +208,7 @@ If none of the cluster health policy parameters are specified, health evaluation
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -227,7 +227,7 @@ If none of the cluster health policy parameters are specified, health evaluation
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -246,7 +246,7 @@ If you do not specify this parameter, no nodes are returned.
 ```yaml
 Type: System.Collections.Generic.List`1[System.Fabric.Health.NodeHealthStateFilter]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -261,7 +261,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -287,3 +287,4 @@ This cmdlet returns a **System.Fabric.Health.ClusterHealthChunk** object that re
 ## NOTES
 
 ## RELATED LINKS
+

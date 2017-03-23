@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 701917EF-185C-433D-A0B2-A63DEE0E96C3
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 10:32 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterConnection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1a42cfcc20abe4818433cc7f4edd12da3c4dd4b1/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterConnection.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Test-ServiceFabricClusterConnection
 
 ## SYNOPSIS
-Validates the current connection to a Service Fabric cluster.
+Checks and confirms (by returning "True") that you are connected to a Service Fabric cluster.
 
 ## SYNTAX
 
@@ -30,29 +30,34 @@ Test-ServiceFabricClusterConnection [-AllowNetworkConnectionOnly] [-TimeoutSec <
 ```
 
 ## DESCRIPTION
-The **Test-ServiceFabricClusterConnection** cmdlet validates the current connection to a Service Fabric cluster.
-
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
+The **Test-ServiceFabricClusterConnection** cmdlet tests whether a connection to a Service Fabric cluster exists. Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
-### Example 1: Validate the current connection
+### Example 1: Test that a current connection to a cluster exists
 ```
 PS C:\>Test-ServiceFabricClusterConnection
 True
 ```
 
-This command validates the current connection to a Service Fabric cluster.
+This command verifies that a current connection to a Service Fabric cluster exists.
+
+### Example 2: Test that a current connection to a cluster exists
+
+PS C:\>Test-ServiceFabricClusterConnection
+Test-ServiceFabricClusterConnection : Cluster connection instance is null
+
+In this case, a current connection to a Service Fabric cluster does not exist and has to be set up using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## PARAMETERS
 
 ### -AllowNetworkConnectionOnly
-Indicates that the cmdlet allows connecting to the cluster even when system services are unresponsive as long as an underlying network connection can be established.
+When set, the cmdlet will return "True" if it can connect to the cluster even when system services are unresponsive. That is, as long as an underlying network connection can be established to the cluster, it will return "True".
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -67,7 +72,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -77,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the following common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

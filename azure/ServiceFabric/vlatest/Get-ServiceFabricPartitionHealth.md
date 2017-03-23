@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 329D70B6-FABD-4BB4-AE54-2E177E8246B9
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 1:31 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/be6c4ceaccf4d5ec6ef47f54a9177be459e6e44d/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -42,8 +42,8 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get the health events for of a service partition
 ```
-PS C:\>$ToDoPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS
-C:\> Get-ServiceFabricPartitionHealth -PartitionId $ToDoPartition01.PartitionId
+PS C:\> $ToDoPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS
+PS C:\> Get-ServiceFabricPartitionHealth -PartitionId $ToDoPartition01.PartitionId
 ```
 
 The first command uses the [Get-ServiceFabricPartition](./Get-ServiceFabricPartition.md) cmdlet to get the singleton service partition object for the specified service, and then stores the object in the $ToDoPartition01 variable.
@@ -52,7 +52,7 @@ The second command gets the health of the partition by using the **PartitionId**
 
 ### Example 2: Query the health of a service partition using custom health policy and return filters
 ```
-PS C:\>Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS | Get-ServiceFabricPartitionHealth -ConsiderWarningAsError $True -EventsFilter Error
+PS C:\> Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS | Get-ServiceFabricPartitionHealth -ConsiderWarningAsError $True -EventsFilter Error
 ```
 
 This command queries the health of the partitions of the specified service.
@@ -66,7 +66,7 @@ Indicates whether to treat a warning health report as error during health evalua
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -85,8 +85,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases:
-Accepted values: Default, None, Ok, Warning, Error, All
+Aliases: 
 
 Required: False
 Position: Named
@@ -102,7 +101,7 @@ Specify the *EventsFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -118,7 +117,7 @@ If there are more replicas with a health state error than tolerated, the health 
 ```yaml
 Type: Byte
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -133,10 +132,10 @@ Specifies the ID of a Service Fabric partition.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -152,8 +151,7 @@ If not specified, all entries are returned.
 ```yaml
 Type: HealthStateFilter
 Parameter Sets: (All)
-Aliases:
-Accepted values: Default, None, Ok, Warning, Error, All
+Aliases: 
 
 Required: False
 Position: Named
@@ -169,7 +167,7 @@ Specify the *ReplicasFilter* parameter instead.
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -184,7 +182,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

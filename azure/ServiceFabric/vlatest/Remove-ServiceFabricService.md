@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: D081C4DD-6311-46E4-9162-C32BDD48FF32
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 11:12 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4af4d81745b666dfb100804129d1c34d9cb5e298/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricService.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -46,7 +46,84 @@ PS C:\>Remove-ServiceFabricService -ServiceName fabric:/myapp/persistenttodolist
 This command removes the specified Service Fabric service.
 Because the command includes the *Force* parameter, the cmdlet does not prompt you for confirmation.
 
+### Example 2: ForceRemove a service fabric service with Confirmation
+```
+PS C:\>Remove-ServiceFabricService -ServiceName fabric:/myapp/persistenttodolist/svc1 -Confirm -ForceRemove
+```
+
+This command force removes the specified Service Fabric service.
+Because the command includes the *Confirm* parameter, the cmdlet will prompt you to confirm if it is the intended service name you want to execute the operation on. After the confirmation, the service will be removed ungracefully because of the *ForceRemove* parameter.
+
+### Example 3: ForceRemove a service fabric service with Timeout
+```
+PS C:\>Remove-ServiceFabricService -ServiceName fabric:/myapp/persistenttodolist/svc1 -TimeoutSec 10 -ForceRemove
+```
+
+This command force remove the specified Service Fabric service.
+Because the command includes the *Timeout* parameter, the operation will timeout if the operation cannot complete in specified time.
+
 ## PARAMETERS
+
+### -Force
+Forces the command to run without asking for user confirmation. Powershell won't ask for the user confirmation to execute the command.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ForceRemove
+Indicates that this command forces removal of the Service Fabric service. This should be used only if the removal of the service is timing out.
+For example: IF Remove-ServiceFabricService is timing out and the replicas of the service are still present then, this means that the service is stuck in ChangeRole/Close and the shutdown sequence cannot complete. By using -ForceRemove, we skip the service shutdown sequence and the service is removed ungracefully. To check if replicas are present, use [Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md).
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ServiceName
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
+
+```yaml
+Type: Uri
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -TimeoutSec
+Specifies the time-out period, in seconds, for the operation.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ### -Confirm
 Prompts you for confirmation before running the cmdlet.
@@ -63,69 +140,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ForceRemove
-Indicates that this cmdlet forces removal of the Service Fabric service.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ServiceName
-Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
-
-```yaml
-Type: Uri
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -TimeoutSec
-Specifies the time-out period, in seconds, for the operation.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+The cmdlet is not run and no permanent changes will be made.
 
 ```yaml
 Type: SwitchParameter

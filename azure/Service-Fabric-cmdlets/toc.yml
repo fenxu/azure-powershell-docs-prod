@@ -1,7 +1,6 @@
 - name: ServiceFabric
   items:
     - name: vlatest
-      href: ../ServiceFabric/vlatest/ServiceFabric.md
       items:
         - name: Add-ServiceFabricNode
           href: ../ServiceFabric/vlatest/Add-ServiceFabricNode.md
@@ -81,6 +80,8 @@
           href: ../ServiceFabric/vlatest/Get-ServiceFabricNodeLoadInformation.md
         - name: Get-ServiceFabricNodeTransitionProgress
           href: ../ServiceFabric/vlatest/Get-ServiceFabricNodeTransitionProgress.md
+        - name: Get-ServiceFabricPackageDebugParameters
+          href: ../ServiceFabric/vlatest/Get-ServiceFabricPackageDebugParameters.md
         - name: Get-ServiceFabricPartition
           href: ../ServiceFabric/vlatest/Get-ServiceFabricPartition.md
         - name: Get-ServiceFabricPartitionDataLossProgress
@@ -105,6 +106,10 @@
           href: ../ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
         - name: Get-ServiceFabricReplicaLoadInformation
           href: ../ServiceFabric/vlatest/Get-ServiceFabricReplicaLoadInformation.md
+        - name: Get-ServiceFabricRuntimeSupportedVersion
+          href: ../ServiceFabric/vlatest/Get-ServiceFabricRuntimeSupportedVersion.md
+        - name: Get-ServiceFabricRuntimeUpgradeVersion
+          href: ../ServiceFabric/vlatest/Get-ServiceFabricRuntimeUpgradeVersion.md
         - name: Get-ServiceFabricService
           href: ../ServiceFabric/vlatest/Get-ServiceFabricService.md
         - name: Get-ServiceFabricServiceDescription
@@ -227,6 +232,8 @@
           href: ../ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
         - name: Send-ServiceFabricServiceHealthReport
           href: ../ServiceFabric/vlatest/Send-ServiceFabricServiceHealthReport.md
+        - name: ServiceFabric
+          href: ../ServiceFabric/vlatest/ServiceFabric.md
         - name: Start-ServiceFabricApplicationRollback
           href: ../ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
         - name: Start-ServiceFabricApplicationUpgrade
@@ -289,3 +296,5 @@
           href: ../ServiceFabric/vlatest/Update-ServiceFabricService.md
         - name: Update-ServiceFabricServiceGroup
           href: ../ServiceFabric/vlatest/Update-ServiceFabricServiceGroup.md
+        - name: Log
+          items:

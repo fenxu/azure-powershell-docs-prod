@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: CF581EAB-D109-4C2A-AD37-A142B63D79FD
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 10:30 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationManifest.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationManifest.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationManifest.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/590b7cbe1169bc37115a8b4a74004402b4cb56ac/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationManifest.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -26,14 +26,15 @@ Gets the manifest for a Service Fabric application type.
 ## SYNTAX
 
 ```
-Get-ServiceFabricApplicationManifest [-ApplicationTypeName] <String> [-ApplicationTypeVersion] <String>
- [-TimeoutSec <Int32>] [<CommonParameters>]
+Get-ServiceFabricApplicationManifest [-ApplicationTypeName] <String> [-ApplicationTypeVersion] <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
 The **Get-ServiceFabricApplicationManifest** cmdlet gets the manifest for a Service Fabric application type.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
+
+To understand the Service Fabric application model, see [Model an application in Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-model)
 
 ## EXAMPLES
 
@@ -42,21 +43,21 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 PS C:\>Get-ServiceFabricApplicationManifest -ApplicationTypeName "PersistentToDoListApp" -ApplicationTypeVersion "1.0"
 ```
 
-This command gets the application manifest for version 1.0 of the PersistentToDoListApp application type.
+This command gets the application manifest for application type version "1.0" of the application type name "PersistentToDoListApp".
 
 ## PARAMETERS
 
 ### -ApplicationTypeName
 Specifies the name for a Service Fabric application type.
-The cmdlet gets the manifest for the application type that you specify.
+The cmdlet gets the application manifest for the application type name that you specify.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -64,15 +65,15 @@ Accept wildcard characters: False
 
 ### -ApplicationTypeVersion
 Specifies the version of a Service Fabric application type.
-The cmdlet gets the application manifest that has the version that you specify.
+The cmdlet gets the application manifest for the applicaiton type version that you specify.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -84,7 +85,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

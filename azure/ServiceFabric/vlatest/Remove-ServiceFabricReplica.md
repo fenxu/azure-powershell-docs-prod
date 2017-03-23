@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version: .\Get-ServiceFabricReplica.md
-schema: 2.0.0
 ms.assetid: 80D9F43B-395B-4295-8D5B-CE56BB0B6FA2
-updated_at: 3/13/2017 4:00 PM
-ms.date: 3/13/2017
+online version: 
+schema: 2.0.0
+updated_at: 3/23/2017 8:11 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/6697d0db15b05d906e6f5b313753c7d8c9906bee/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -28,7 +28,14 @@ Removes a replica from a cluster to simulate a replica failure.
 ### ByNodeName
 ```
 Remove-ServiceFabricReplica [-ForceRemove] [-NodeName] <String> [-PartitionId] <Guid>
- [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] -ReplicaOrInstanceId <Int64>
+ [-ReplicaOrInstanceId] <Int64> [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>]
+ [<CommonParameters>]
+```
+
+### PartitionIdReplicaId
+```
+Remove-ServiceFabricReplica [-ForceRemove] [-PartitionId] <Guid> -ServiceName <Uri>
+ [-ReplicaOrInstanceId] <Int64> [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>]
  [<CommonParameters>]
 ```
 
@@ -40,42 +47,33 @@ Remove-ServiceFabricReplica [-ForceRemove] [-PartitionId] <Guid> -ServiceName <U
 
 ### PartitionIdReplicaPrimary
 ```
-Remove-ServiceFabricReplica [-ForceRemove] [-PartitionId] <Guid> -ServiceName <Uri>
- [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [-ReplicaKindPrimary] [<CommonParameters>]
+Remove-ServiceFabricReplica [-ForceRemove] [-PartitionId] <Guid> -ServiceName <Uri> [-ReplicaKindPrimary]
+ [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### PartitionIdReplicaRandomSecondary
 ```
 Remove-ServiceFabricReplica [-ForceRemove] [-PartitionId] <Guid> -ServiceName <Uri>
- [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [-ReplicaKindRandomSecondary]
+ [-ReplicaKindRandomSecondary] [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>]
  [<CommonParameters>]
 ```
 
-### PartitionIdReplicaId
+### ServiceNamePartitionUniformedInt
 ```
-Remove-ServiceFabricReplica [-ForceRemove] [-PartitionId] <Guid> -ServiceName <Uri>
- [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] -ReplicaOrInstanceId <Int64>
- [<CommonParameters>]
-```
-
-### ServiceNamePartitionSingletonReplicaId
-```
-Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindSingleton]
- [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] -ReplicaOrInstanceId <Int64>
- [<CommonParameters>]
+Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindUniformInt64]
+ -PartitionKey <String> [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNamePartitionNamedReplicaId
+### ServiceNameReplicaPrimary
 ```
-Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String>
- [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] -ReplicaOrInstanceId <Int64>
- [<CommonParameters>]
+Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-ReplicaKindPrimary]
+ [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNamePartitionNamedReplicaPrimary
+### ServiceNameReplicaId
 ```
-Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String>
- [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [-ReplicaKindPrimary] [<CommonParameters>]
+Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-ReplicaOrInstanceId] <Int64>
+ [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceName
@@ -96,69 +94,71 @@ Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindNam
  [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNamePartitionUniformedInt
-```
-Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindUniformInt64]
- -PartitionKey <String> [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### ServiceNamePartitionSingletonReplicaRandomSecondary
 ```
 Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindSingleton]
- [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [-ReplicaKindRandomSecondary]
+ [-ReplicaKindRandomSecondary] [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>]
  [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionNamedReplicaRandomSecondary
 ```
 Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String>
- [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [-ReplicaKindRandomSecondary]
+ [-ReplicaKindRandomSecondary] [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>]
  [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionUniformedIntReplicaRandomSecondary
 ```
 Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindUniformInt64]
- -PartitionKey <String> [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>]
- [-ReplicaKindRandomSecondary] [<CommonParameters>]
+ -PartitionKey <String> [-ReplicaKindRandomSecondary] [-CommandCompletionMode <CompletionMode>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionSingletonReplicaPrimary
 ```
-Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindSingleton]
- [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [-ReplicaKindPrimary] [<CommonParameters>]
+Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindSingleton] [-ReplicaKindPrimary]
+ [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNameReplicaId
+### ServiceNamePartitionNamedReplicaPrimary
 ```
-Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-CommandCompletionMode <CompletionMode>]
- [-TimeoutSec <Int32>] -ReplicaOrInstanceId <Int64> [<CommonParameters>]
+Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String>
+ [-ReplicaKindPrimary] [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionUniformedIntReplicaPrimary
 ```
 Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindUniformInt64]
- -PartitionKey <String> [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [-ReplicaKindPrimary]
+ -PartitionKey <String> [-ReplicaKindPrimary] [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>]
+ [<CommonParameters>]
+```
+
+### ServiceNamePartitionSingletonReplicaId
+```
+Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindSingleton]
+ [-ReplicaOrInstanceId] <Int64> [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>]
+ [<CommonParameters>]
+```
+
+### ServiceNamePartitionNamedReplicaId
+```
+Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String>
+ [-ReplicaOrInstanceId] <Int64> [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>]
  [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionUniformedIntReplicaId
 ```
 Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-PartitionKindUniformInt64]
- -PartitionKey <String> [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>]
- -ReplicaOrInstanceId <Int64> [<CommonParameters>]
-```
-
-### ServiceNameReplicaPrimary
-```
-Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-CommandCompletionMode <CompletionMode>]
- [-TimeoutSec <Int32>] [-ReplicaKindPrimary] [<CommonParameters>]
+ -PartitionKey <String> [-ReplicaOrInstanceId] <Int64> [-CommandCompletionMode <CompletionMode>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNameReplicaRandomSecondary
 ```
-Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-CommandCompletionMode <CompletionMode>]
- [-TimeoutSec <Int32>] [-ReplicaKindRandomSecondary] [<CommonParameters>]
+Remove-ServiceFabricReplica [-ForceRemove] -ServiceName <Uri> [-ReplicaKindRandomSecondary]
+ [-CommandCompletionMode <CompletionMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -166,9 +166,17 @@ The **Remove-ServiceFabricReplica** cmdlet simulates a Service Fabric replica fa
 The removal closes the replica, transitions the replica to the role None, and then removes all of the state information of the replica from the cluster.
 This cmdlet tests the replica state removal path, and simulates the report fault permanent path through client APIs.
 
-Before using this cmdlet, connect to the Service Fabric cluster.
+In order to specify the replica to be removed we can start either with the node name or the service name. 
+
+Then we need to specify the partition to which the replica belongs. We can specify the partition either by specifying the pair (naming scheme, partition key) or by specifying the partition ID. For more details on Microsoft Azure Service Fabric partitioning, please refer to the [Partition Service Fabric reliable services](/azure/service-fabric/service-fabric-concepts-partitioning) article.  
+
+Lastly, we may need to specify which replica of the partition we are referring to and that can be done either by specifying the replica role (primary or secondary replica) or by specifying the replica ID.
+
+Note, sometimes the user may - instead of exactly specifying the replica - want to remove say one of the secondaries of a particular partition of a particular service; that is why, some of the forms of the Remove-ServiceFabricReplica cmdlet intentionally leaves some ambiguity about which replica the user is referring -- in these cases, the cmdlet makes some random choices for the user. For example, if the user only provides the service name to the cmdlet, the Remove-ServiceFabricReplica cmdlet will assume that the user means to remove any one of the replicas from any one of the partitions belonging to the service; so it will choose one of the partitions of the service at random and will choose one of the replicas (could be primary or secondary) of the chosen partition at random and will remove that replica.
+
 
 ## EXAMPLES
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ### Example 1: Remove a replica
 ```
@@ -193,7 +201,6 @@ Specifies whether the action waits for the remove operation to complete.
 Type: CompletionMode
 Parameter Sets: (All)
 Aliases: 
-Accepted values: Invalid, DoNotVerify, Verify
 
 Required: False
 Position: Named
@@ -227,7 +234,7 @@ Parameter Sets: ByNodeName
 Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -238,11 +245,11 @@ Specifies the ID of the partition from which to remove the replica.
 
 ```yaml
 Type: Guid
-Parameter Sets: ByNodeName, PartitionId, PartitionIdReplicaPrimary, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId
+Parameter Sets: ByNodeName, PartitionIdReplicaId, PartitionId, PartitionIdReplicaPrimary, PartitionIdReplicaRandomSecondary
 Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -253,7 +260,7 @@ Specifies the partition key.
 
 ```yaml
 Type: String
-Parameter Sets: ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId
+Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionUniformedIntReplicaId
 Aliases: 
 
 Required: True
@@ -268,7 +275,7 @@ Indicates that this cmdlet removes a replica on a named partition.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionNamed, ServiceNamePartitionNamedReplicaRandomSecondary
+Parameter Sets: ServiceNamePartitionNamed, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionNamedReplicaId
 Aliases: 
 
 Required: True
@@ -283,7 +290,7 @@ Indicates that this cmdlet removes a replica on a singleton partition.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionSingleton, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary
+Parameter Sets: ServiceNamePartitionSingleton, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionSingletonReplicaId
 Aliases: 
 
 Required: True
@@ -313,7 +320,7 @@ Indicates that this cmdlet removes the replica for the primary replica.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: PartitionIdReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNameReplicaPrimary
+Parameter Sets: PartitionIdReplicaPrimary, ServiceNameReplicaPrimary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary
 Aliases: 
 
 Required: True
@@ -343,11 +350,11 @@ Specifies a Service Fabric service replica or instance ID.
 
 ```yaml
 Type: Int64
-Parameter Sets: ByNodeName, PartitionIdReplicaId, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNameReplicaId, ServiceNamePartitionUniformedIntReplicaId
+Parameter Sets: ByNodeName, PartitionIdReplicaId, ServiceNameReplicaId, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionUniformedIntReplicaId
 Aliases: 
 
 Required: True
-Position: Named
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -358,7 +365,7 @@ Specifies the name of the service to remove.
 
 ```yaml
 Type: Uri
-Parameter Sets: PartitionId, PartitionIdReplicaPrimary, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamedReplicaPrimary, ServiceName, ServiceNamePartitionSingleton, ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNameReplicaId, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId, ServiceNameReplicaPrimary, ServiceNameReplicaRandomSecondary
+Parameter Sets: PartitionIdReplicaId, PartitionId, PartitionIdReplicaPrimary, PartitionIdReplicaRandomSecondary, ServiceNamePartitionUniformedInt, ServiceNameReplicaPrimary, ServiceNameReplicaId, ServiceName, ServiceNamePartitionSingleton, ServiceNamePartitionNamed, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionUniformedIntReplicaId, ServiceNameReplicaRandomSecondary
 Aliases: 
 
 Required: True
@@ -400,9 +407,7 @@ This cmdlet accepts the name of a Service Fabric service.
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a **System.Fabric.Testability.RemoveReplicaResult** object that represents the operation result.
-
-## NOTES
+This cmdlet returns a **System.Fabric.Result.RemoveReplicaResult** object that represents the operation result.
 
 ## RELATED LINKS
 

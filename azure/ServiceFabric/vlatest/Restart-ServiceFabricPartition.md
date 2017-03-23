@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: C6C8C091-9A47-4AB1-B10B-27D0D6D2F7AE
-updated_at: 3/7/2017 2:35 AM
-ms.date: 3/7/2017
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricPartition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricPartition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1cf5df131104a338768eb44e567288421ed4d98e/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricPartition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricPartition.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -31,18 +31,6 @@ Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -Par
  -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNamePartitionUniformedInt
-```
-Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
- [-PartitionKindUniformInt64] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNameRandomPartition
-```
-Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
- [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### ServiceNamePartitionSingleton
 ```
 Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
@@ -53,6 +41,18 @@ Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -Ser
 ```
 Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
  [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNameRandomPartition
+```
+Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
+ [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNamePartitionUniformedInt
+```
+Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
+ [-PartitionKindUniformInt64] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -90,7 +90,7 @@ Specifies the ID of the partition to restart.
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -104,8 +104,8 @@ Specifies the key of the partition to restart.
 
 ```yaml
 Type: String
-Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases:
+Parameter Sets: ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt
+Aliases: 
 
 Required: True
 Position: Named
@@ -120,7 +120,7 @@ Indicates that this cmdlet restarts a named partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -135,7 +135,7 @@ Indicates that this cmdlet restarts a singleton partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -150,7 +150,7 @@ Indicates that this cmdlet restarts a UniformInt64 partition.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -165,7 +165,7 @@ Specifies whether to restart all replicas in the partition or only secondary par
 ```yaml
 Type: RestartPartitionMode
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: Invalid, AllReplicasOrInstances, OnlyActiveSecondaries
 
 Required: True
@@ -181,7 +181,7 @@ Specifies the name of the service to restart.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -196,7 +196,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

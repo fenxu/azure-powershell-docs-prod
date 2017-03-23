@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 4290C7C9-446B-4A8F-BD52-5E2508700FFC
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/14/2017 6:52 PM
+ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricNodeConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricNodeConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricNodeConfiguration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/67ce1470f306240ae725e98236ca119d37dda2dc/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricNodeConfiguration.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # New-ServiceFabricNodeConfiguration
 
 ## SYNOPSIS
-Configures a node to join a Service Fabric cluster.
+Configures a node to join a Service Fabric cluster. Works for development clusters and Azure clusters.
 
 ## SYNTAX
 
@@ -33,11 +33,13 @@ New-ServiceFabricNodeConfiguration [-ClusterManifestPath] <String> [-Infrastruct
 ```
 
 ## DESCRIPTION
-The **New-ServiceFabricNodeConfiguration** cmdlet configures a node to join a Service Fabric cluster.
-This cmdlet typically uses configuration information taken from a cluster manifest and then creates the settings required for the node to join the cluster.
-The node will join the cluster as soon as the Service Fabric Host Service is started.
+The **New-ServiceFabricNodeConfiguration** cmdlet configures a node to be able to be added to a Service Fabric cluster. This involves installing Service Fabric if required, and then using configuration information taken from the cluster manifest and then creates the settings required for the node to join the cluster.
+
+The node will join the cluster as soon as the Service Fabric Host Service is started on the host machine.
 
 To manage Service Fabric clusters make sure you start your Windows PowerShell session by using the Run as administrator option.
+
+This command will have different usages of parameters depending on the type of cluster this operation is applied to. In all cases, this command is used to add a node to a cluster. If using a standalone cluster, please refer to the [AddNode](/azure/service-fabric/service-fabric-cluster-windows-server-add-remove-nodes.md) command.
 
 ## EXAMPLES
 
@@ -52,13 +54,14 @@ That manifest configures a Service Fabric cluster of five nodes on your developm
 ## PARAMETERS
 
 ### -BootstrapMSIPath
-Specifies the path of the bootstrap .msi file.
-If you use this parameter, a self-baseline upgrade automatically occurs when you perform either a configure upgrade or fabric upgrade.
+Specifies the path of the bootstrap .msi file. This is the Service Fabric SDK downloaded from the Service Fabric website.
+If you use this parameter, a self-baseline upgrade automatically occurs, either when an upgrade is configured or fabric is upgraded.
+If -UsingFabricPackage is set, this should point to the Service Fabric CAB file rather than the .msi file. The Service Fabric CAB file is available for download [here](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation.md).
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -68,16 +71,16 @@ Accept wildcard characters: False
 ```
 
 ### -ClusterManifestPath
-Specifies the path of a Service Fabric cluster manifest.
+Specifies the path of a Service Fabric cluster manifest, which is an XML file. Samples of this file can be seen in [Service Fabric samples](https://github.com/Azure-Samples/service-fabric-dotnet-getting-started) under "PublishProfiles".
 The cmdlet creates a cluster configuration based on the specified manifest.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -89,7 +92,7 @@ Specifies the path where the Service Fabric runtime stores the internal data nee
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -106,7 +109,7 @@ For more information, type `Get-Help Get-Credential`.
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -121,7 +124,7 @@ Specifies the path for the Service Fabric trace logs.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -136,7 +139,7 @@ This parameter is reserved for future use.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -146,13 +149,13 @@ Accept wildcard characters: False
 ```
 
 ### -InfrastructureManifestPath
-Specifies the path of the infrastructure manifest.
+Specifies the path of the infrastructure manifest. This manifest is used to give each node an overview of the cluster. For example, the total amount of nodes on the cluster.
 In Azure, this is the path to the .csdef and .cscfg files.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -171,7 +174,7 @@ For example:
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -181,12 +184,12 @@ Accept wildcard characters: False
 ```
 
 ### -RemoveExistingConfiguration
-Indicates that this cmdlet removes any existing configurations.
+Indicates that this cmdlet removes any existing configurations. These configurations consist of data found in the folders pointed by FabricDataRoot and FabricLogRoot.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -201,7 +204,7 @@ Indicates that the Fabric Host service must be started manually.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -211,13 +214,13 @@ Accept wildcard characters: False
 ```
 
 ### -UsingFabricPackage
-Indicates that node configurations should use the xcopy/CAB runtime package.
-This is used when MSI is not installed and we are using a client package to execute the cmdlet.
+Indicates that node configurations should use the xcopy/CAB runtime package. This can be downloaded from the Service Fabric website.
+This is used when MSI is not installed and we are using a client package to execute the cmdlet. The path to the xcopy/CAB package should be set in the parameter -BootstrapMSIPath.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -237,7 +240,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ###  
-**New-ServiceFabricNodeConfiguration** returns status information as a string value.
+**New-ServiceFabricNodeConfiguration** returns the status of this operation as a string value. This can be an error message.
 
 ## NOTES
 

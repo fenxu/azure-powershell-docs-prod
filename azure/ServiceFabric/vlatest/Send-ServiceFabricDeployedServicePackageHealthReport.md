@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 9B02EBD3-595C-46EF-B5DE-4E65BA60129C
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 2:54 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedServicePackageHealthReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedServicePackageHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedServicePackageHealthReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c9918e862685779553206b72ba4d711a6f2e8375/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedServicePackageHealthReport.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -56,16 +56,16 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Report Error health report with infinite TTL
 ```
-PS C:\>Send-ServiceFabricDeployedServicePackageHealthReport -ApplicationName fabric:/MyApplication -NodeName "Node01" -ServiceManifestName "MyServiceManifest"-HealthProperty "Memory" -HealthState Error -SourceId "MyWatchdog"
+PS C:\> Send-ServiceFabricDeployedServicePackageHealthReport -ApplicationName fabric:/MyApplication -NodeName "Node01" -ServiceManifestName "MyServiceManifest" -HealthProperty "Memory" -HealthState Error -SourceId "MyWatchdog"
 ```
 
 This command sends a health report on a deployed service package for the application named fabric:/MyApplication on the node named Node01 for the service manifest named MyServiceManifest.
 The health report contains information about the health property **Memory** in an Error health state from the source MyWatchdog, with infinite TTL.
 The description is not given and the sequence number is set automatically.
 
-### Example 2: Report Warning valid for specifiedhealth report with set TTL and remove it when it expiresvalid for specified
+### Example 2: Report Warning valid for specified TTL and remove it when it expires
 ```
-PS C:\>Send-ServiceFabricDeployedServicePackageHealthReport -ApplicationName fabric:/MyApplication -ServiceManifestName MyServiceManifest -NodeName "Node01"-HealthProperty "CustomSetup" -HealthState Warning -SourceId MyWatchdog -RemoveWhenExpired -Description "The setup has completed with some warnings." -TimeToLiveSec 10
+PS C:\> Send-ServiceFabricDeployedServicePackageHealthReport -ApplicationName fabric:/MyApplication -ServiceManifestName MyServiceManifest -NodeName "Node01" -HealthProperty "CustomSetup" -HealthState Warning -SourceId MyWatchdog -RemoveWhenExpired -Description "The setup has completed with some warnings." -TimeToLiveSec 10
 ```
 
 This command sends a health report on a deployed service package for the application named fabric:/MyApplication for the service manifest named MyServiceManifest on the node named Node01.
@@ -82,10 +82,10 @@ The cmdlet sends a health report for the application that has the URI that you s
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -100,7 +100,7 @@ The maximum string length for the description is 4096 characters.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -117,7 +117,7 @@ The report overrides any previous reports with the same values for the *SourceId
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -132,7 +132,7 @@ Specifies a **HealthState** object that represents the reported health state.
 ```yaml
 Type: HealthState
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: Invalid, Ok, Warning, Error, Unknown
 
 Required: True
@@ -149,10 +149,10 @@ The cmdlet sends a health report for a service package deployed on the node that
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -166,7 +166,7 @@ The reports that are removed when expired can be used for conditions that are on
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -183,7 +183,7 @@ If you specify a sequence number, that value must be higher than any previous se
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -199,10 +199,10 @@ Together with *ApplicationName* and *NodeName*, this value uniquely identifies t
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -214,27 +214,9 @@ Specifies the identifier of the source that triggered the report.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -TimeToLiveSec
-Specifies the Time to Live (TTL) of the report in seconds.
-When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
-Otherwise, the entity is evaluated at Error because of the expired report.
-The default value is Infinite.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -247,12 +229,30 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TimeToLiveSec
+Specifies the Time to Live (TTL) of the report in seconds.
+When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
+Otherwise, the entity is evaluated at Error because of the expired report.
+The default value is Infinite.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

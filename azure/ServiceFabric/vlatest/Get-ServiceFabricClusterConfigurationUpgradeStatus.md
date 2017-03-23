@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
+ms.assetid: F39A8721-65AC-449E-A0F6-4C9AA22E9029
 online version: 
 schema: 2.0.0
-ms.assetid: F39A8721-65AC-449E-A0F6-4C9AA22E9029
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 3/7/2017 12:46 AM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfigurationUpgradeStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfigurationUpgradeStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfigurationUpgradeStatus.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fbd7fea4df46a905ce4ea5634be8643d92640daa/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfigurationUpgradeStatus.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Get-ServiceFabricClusterConfigurationUpgradeStatus
 
 ## SYNOPSIS
-Gets configuration upgrade status.
+Gets the status for Service Fabric cluster configuration upgrade.
 
 ## SYNTAX
 

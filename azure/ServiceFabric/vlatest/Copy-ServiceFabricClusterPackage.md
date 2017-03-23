@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
+ms.assetid: 6DB6444E-9271-42D4-8EC9-73CA6A799369
 online version: 
 schema: 2.0.0
-ms.assetid: 6DB6444E-9271-42D4-8EC9-73CA6A799369
-updated_at: 11/2/2016 4:42 PM
-ms.date: 11/2/2016
+updated_at: 3/20/2017 5:33 PM
+ms.date: 3/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0fd9fb4ce9179d4ff591e7539b0bcbbb544795ab/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4b282fbbada4e5b501710c20544af645ad024b6b/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Copy-ServiceFabricClusterPackage
 
 ## SYNOPSIS
-Copies a Service Fabric cluster package to the image store.
+Copies a Service Fabric runtime installation file and/or cluster manifest to the image store.
 
 ## SYNTAX
 
@@ -34,52 +34,56 @@ Copy-ServiceFabricClusterPackage -CodePackagePath <String> -ClusterManifestPath 
 
 ### Code
 ```
-Copy-ServiceFabricClusterPackage [-Code] -CodePackagePath <String> [-ClusterManifestPath <String>]
- -ImageStoreConnectionString <String> [-CodePackagePathInImageStore <String>] [-TimeoutSec <Int32>]
- [<CommonParameters>]
+Copy-ServiceFabricClusterPackage [-Code] -CodePackagePath <String> -ImageStoreConnectionString <String> [-CodePackagePathInImageStore <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Config
 ```
-Copy-ServiceFabricClusterPackage [-Config] [-CodePackagePath <String>] -ClusterManifestPath <String>
- -ImageStoreConnectionString <String> [-ClusterManifestPathInImageStore <String>] [-TimeoutSec <Int32>]
- [<CommonParameters>]
+Copy-ServiceFabricClusterPackage [-Config] -ClusterManifestPath <String> -ImageStoreConnectionString <String> [-ClusterManifestPathInImageStore <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Copy-ServiceFabricClusterPackage** cmdlet copies a Service Fabric cluster package to the image store.
-After you copy the package to the image store, use the [Register-ServiceFabricClusterPackage](.\Register-ServiceFabricClusterPackage.md) cmdlet to register the package.
+The **Copy-ServiceFabricClusterPackage** cmdlet copies a Service Fabric runtime installation file and/or cluster manifest to the image store.
+
+After copying the package to the image store, use the [Register-ServiceFabricClusterPackage](.\Register-ServiceFabricClusterPackage.md) cmdlet to register the package.
+
+After registering the package to the image store, use the [Remove-ServiceFabricClusterPackage](.\Remove-ServiceFabricClusterPackage.md) cmdlet to remove the package from the image store.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
-### Example 1: Copy code and manifest
+### Example 1: Copy code and manifest to the image store
 ```
-PS C:\>Copy-ServiceFabricClusterPackage -ClusterManifestPath "\\configStore\ClusterManifests\CH1\ClusterManifest_123.xml" -CodePackagePath "\\codeStore\MsiFiles\ServiceFabric.2.0.59.0.msi" -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]"
-```
-
-This command copies the specified .msi file and configuration information to the image store.
-
-### Example 2: Copy a manifest-only package
-```
-PS C:\>Copy-ServiceFabricClusterPackage -Config -ClusterManifestPath "\\configStore\ClusterManifests\CH1\ClusterManifest_123.xml" -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]"
+PS C:\>Copy-ServiceFabricClusterPackage -ClusterManifestPath "\\configStore\ClusterManifests\CH1\ClusterManifest_123.xml" -CodePackagePath "\\codeStore\MsiFiles\ServiceFabric.2.0.59.0.msi" -ImageStoreConnectionString "fabric:ImageStore"
 ```
 
-This command copies only configuration information to the image store.
-The command includes the **Config** parameter, so the command applies only to a manifest.
+This command copies the specified MSI and cluster manifest file to the image store. When **CodePackagePathInImageStore** or **ClusterManifestPathInImageStore** are not provided, the file name will be used by default.
+
+### Example 2: Copy only cluster manifest to the image store
+```
+PS C:\>Copy-ServiceFabricClusterPackage -Config -ClusterManifestPath "\\configStore\ClusterManifests\CH1\ClusterManifest_123.xml" -ClusterManifestPathInImageStore ClusterManifest.xml -ImageStoreConnectionString "fabric:ImageStore"
+```
+
+This command copies the specified cluster manifest to ClusterManifest.xml in the image store.
+
+### Example 3: Copy only runtime installation file to the image store
+```
+PS C:\>Copy-ServiceFabricClusterPackage -Code -CodePackagePath "\\codeStore\MsiFiles\ServiceFabric.2.0.59.0.msi" -CodePackagePathInImageStore ServiceFabric.msi -ImageStoreConnectionString "fabric:ImageStore"
+```
+
+This command copies just the specified MSI file to ServiceFabric.msi in the image store.
 
 ## PARAMETERS
 
 ### -ClusterManifestPath
-Specifies the path of a Service Fabric cluster manifest.
-The cmdlet copies the manifest in the path that you specify.
+Specifies the path to a Service Fabric cluster manifest.
 
 ```yaml
 Type: String
 Parameter Sets: Both, Config
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -91,7 +95,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Code
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -101,12 +105,12 @@ Accept wildcard characters: False
 ```
 
 ### -ClusterManifestPathInImageStore
-Specifies the relative path in the image store where the cluster manifest will be copied to.
+Specifies the relative path in the image store where the cluster manifest should be copied to.
 
 ```yaml
 Type: String
 Parameter Sets: Both, Config
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -116,12 +120,12 @@ Accept wildcard characters: False
 ```
 
 ### -Code
-Indicates that the package includes only a Service Fabric .msi file.
+Specifies that only Service Fabric runtime installation file has to be copied to the image store.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Code
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -131,13 +135,12 @@ Accept wildcard characters: False
 ```
 
 ### -CodePackagePath
-Specifies the relative file path of a Service Fabric .msi file.
-The cmdlet copies the file in the path that you specify.
+Specifies the file path to a Service Fabric runtime installation file. This file can be a MSI or CAB or DEB file.
 
 ```yaml
 Type: String
 Parameter Sets: Both, Code
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -149,7 +152,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Config
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -159,12 +162,12 @@ Accept wildcard characters: False
 ```
 
 ### -CodePackagePathInImageStore
-Specifies the relative path in the image store where the code package should be copied to.
+Specifies the relative path in the image store where the Service Fabric runtime installation file should be copied to.
 
 ```yaml
 Type: String
 Parameter Sets: Both, Code
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -174,12 +177,12 @@ Accept wildcard characters: False
 ```
 
 ### -Config
-Indicates that the package is a Service Fabric cluster manifest.
+Specifies that only Service Fabric cluster manifest file has to be copied to the image store.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Config
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -189,12 +192,12 @@ Accept wildcard characters: False
 ```
 
 ### -ImageStoreConnectionString
-Specifies the connection string for the Service Fabric image store.
+Specifies the connection string for the Service Fabric image store. Read more about [the image store connection string](https://docs.microsoft.com/azure/service-fabric/service-fabric-image-store-connection-string).
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -204,13 +207,13 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-Specifies the time-out period, in seconds, for the operation.
-The maximum value of timeout in image store service is set to be 1800 sec.
+Specifies the timeout in seconds, for the operation.
+By default, the maximum timeout value is limited to 1800 seconds.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

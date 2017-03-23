@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
+ms.assetid: DD60B18E-5ED7-41B6-B9D4-38BD726DCFF2
 online version: 
 schema: 2.0.0
-ms.assetid: DD60B18E-5ED7-41B6-B9D4-38BD726DCFF2
-updated_at: 11/1/2016 10:25 PM
-ms.date: 11/1/2016
+updated_at: 3/6/2017 11:19 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/945bc222fc1036fec4385fa64462f3b4fa439079/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/56f05e0ace416e4e6646bddfc02540651f0bc3fc/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Get-ServiceFabricImageStoreContent
 
 ## SYNOPSIS
-Gets content from the image store.
+Gets image store content information
 
 ## SYNTAX
 
@@ -39,23 +39,23 @@ Get-ServiceFabricImageStoreContent [-Path] [-RemoteRelativePath <String>] -Image
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricImageStoreContent** cmdlet gets content from the Service Fabric image store.
+The Get-ServiceFabricImageStoreContent cmdlet gets information about image store content being orgornized either within the given image store relative path or belong to the specified application type/version.
 
 ## EXAMPLES
 
-### Example 1: Get image store content by application name/type
-```
+### Example 1: Get image store content by application type/version
+
 PS C:\>Get-ServiceFabricImageStoreContent -Application -ApplicationTypeName "CalcServiceApp" -ApplicationTypeVersion "2.0" -ImageStoreConnectionString "fabric:ImageStore"
 ```
 
-This command gets image store content that belongs to the application CalcServiceApp, type version 2.0.
+This command gets information about image store content belongs to the application CalcServiceApp, type version 2.0.
 
 ### Example 2: Get image store content by relative path
 ```
 PS C:\>Get-ServiceFabricImageStoreContent -Path -RemoteRelativePath "Store\CalcServiceApp\apps" -ImageStoreConnectionString "fabric:ImageStore"
 ```
 
-This command gets image store content for all application instances.
+This command gets information about image store content within the specified image store relative path "Store\CalcServiceApp\apps".
 
 ## PARAMETERS
 
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationTypeVersion
-Specifies the version of a Service Fabric application type version.
+Specifies the version of a Service Fabric application type.
 
 ```yaml
 Type: String
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -Path
-Indicates that image store content is searched by using the image store relative path.
+Indicates that image store content are found within the image store relative path.
 
 ```yaml
 Type: SwitchParameter
@@ -180,5 +180,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
 

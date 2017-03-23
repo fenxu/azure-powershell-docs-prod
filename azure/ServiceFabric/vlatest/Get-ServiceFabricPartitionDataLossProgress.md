@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 004C9EF9-80DE-4B23-AD63-652B7F4FF1A4
-updated_at: 3/8/2017 6:37 AM
-ms.date: 3/8/2017
+online version: 
+schema: 2.0.0
+updated_at: 3/23/2017 8:11 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9f64faa62bfa9d7f879864db4a9a59233d0c37db/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,6 @@ ms.service: service-fabric
 # Get-ServiceFabricPartitionDataLossProgress
 
 ## SYNOPSIS
-
 Gets the progress of a data loss fault operation.
 
 ## SYNTAX
@@ -37,7 +36,6 @@ Initiate a data loss fault operation using the [Start-ServiceFabricPartitionData
 ## EXAMPLES
 
 ### Example 1: Check progress of data loss fault operation
-
 ```
 PS C:\>Get-ServiceFabricPartitionDataLossProgress -OperationId d3f12b09-6a90-4745-a4fc-3f92149a7419
     State ProgressResult
@@ -50,14 +48,13 @@ This command checks the progress of a data loss fault operation that has the ID 
 ## PARAMETERS
 
 ### -OperationId
-
 Specifies a unique identifier for the fault operation that this cmdlet checks.
 You assign this value when you run [Start-ServiceFabricPartitionDataLoss](./Start-ServiceFabricPartitionDataLoss.md).
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -72,7 +69,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

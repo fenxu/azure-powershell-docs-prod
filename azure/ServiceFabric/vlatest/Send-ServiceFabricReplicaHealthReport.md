@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 8C3C3790-94B3-4655-85F9-864C25AE5151
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/14/2017 11:46 PM
+ms.date: 3/14/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/815de1336e123545148361804c8426d11a4b3932/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -58,7 +58,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Report Error health report on a stateful service replica with infinite TTL
 ```
-PS C:\>Send-ServiceFabricReplicaHealthReport -PartitionId 869dd2e9-fdda-42a5-ad96-4b71c795dfd3 -ReplicaId 130464806670632402 -SourceId "MyWatchdog" -HealthProperty "DiskUsage" -HealthState Error -Description "Disk is full"
+PS C:\> Send-ServiceFabricReplicaHealthReport -PartitionId 869dd2e9-fdda-42a5-ad96-4b71c795dfd3 -ReplicaId 130464806670632402 -SourceId "MyWatchdog" -HealthProperty "DiskUsage" -HealthState Error -Description "Disk is full"
 ```
 
 This command sends a health report for the specified partition for the specified stateful service replica from the source MyWatchDog.
@@ -67,7 +67,7 @@ This command also gives a description of the error.
 
 ### Example 2: Report Warning health report on a stateless service instance valid for the specified TTL and remove it when it expires
 ```
-PS C:\>Send-ServiceFabricReplicaHealthReport -PartitionId 1a151ac7-9c25-4528-81fc-4c6bb9909394 -InstanceId 130464806670632403 -SourceId "MyWatchdog" -HealthProperty "Resources" -HealthState Warning -Description "Access to resources is temporarily disabled" -TimeToLiveSec 10 -RemoveWhenExpired
+PS C:\> Send-ServiceFabricReplicaHealthReport -PartitionId 1a151ac7-9c25-4528-81fc-4c6bb9909394 -InstanceId 130464806670632403 -SourceId "MyWatchdog" -HealthProperty "Resources" -HealthState Warning -Description "Access to resources is temporarily disabled" -TimeToLiveSec 10 -RemoveWhenExpired
 ```
 
 This command sends a health report for the specified stateless service instance from the source MyWatchDog.
@@ -85,7 +85,7 @@ The maximum string length for the description is 4096 characters.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -101,7 +101,7 @@ Together with the *SourceId* parameter, this property uniquely identifies the re
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -116,7 +116,7 @@ Specifies a **HealthState** object that represents the reported health state.
 ```yaml
 Type: HealthState
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: Invalid, Ok, Warning, Error, Unknown
 
 Required: True
@@ -128,11 +128,12 @@ Accept wildcard characters: False
 
 ### -InstanceId
 Specifies the stateless service instance ID.
+The instance ID is only valid for stateless services. A report for a stateful replica that uses **InstanceId** instead of **ReplicaId** is accepted by the health client, but is rejected by the health store.
 
 ```yaml
 Type: Int64
 Parameter Sets: StatelessService
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -147,10 +148,10 @@ Specifies the ID of a Service Fabric partition.
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -164,7 +165,7 @@ The reports that are removed when expired can be used for conditions that are on
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -175,11 +176,12 @@ Accept wildcard characters: False
 
 ### -ReplicaId
 Specifies the stateful service replica ID.
+The replica ID is only valid for stateful services. A report for a stateless instance that uses **ReplicaId** instead of **InstaceId** is accepted by the health client, but is rejected by the health store.
 
 ```yaml
 Type: Int64
 Parameter Sets: StatefulService
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -191,12 +193,12 @@ Accept wildcard characters: False
 ### -SequenceNumber
 Specifies the sequence number associated with the health report.
 If you do not specify a value for this parameter, the sequence number is set automatically.
-If you specify a sequence number, that value must be higher than any previous sequence number set on the same *SourceId* and *HealthProperty*, or the report will be rejected due to staleness.
+If you specify a sequence number, that value must be higher than any previous sequence number set on the same entity for the same *SourceId* and *HealthProperty*, or the report will be rejected due to staleness.
 
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -211,27 +213,9 @@ Specifies the identifier of the source that triggered the report.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -TimeToLiveSec
-Specifies the Time to Live (TTL) of the report in seconds.
-When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
-Otherwise, the entity is evaluated at Error because of the expired report.
-The default value is Infinite.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -244,12 +228,30 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TimeToLiveSec
+Specifies the Time to Live (TTL) of the report in seconds.
+When the TTL expires, the report is removed from the health store if the *RemoveWhenExpired* parameter is specified.
+Otherwise, the entity is evaluated at Error because of the expired report.
+The default value is Infinite.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

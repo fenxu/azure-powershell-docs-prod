@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: E02AB311-326C-42AF-9896-D53CEACB6A1A
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 11:00 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/58fd5727e46703c4a9aa872bc9c1839692532fc0/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplication.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Get-ServiceFabricApplication
 
 ## SYNOPSIS
-Gets the Service Fabric applications in the Service Fabric cluster.
+Gets all the applications in the Service Fabric cluster or a specific application.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-ServiceFabricApplication [[-ApplicationName] <Uri>] [-TimeoutSec <Int32>] [<
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricApplication** cmdlet gets Service Fabric applications.
+The **Get-ServiceFabricApplication** cmdlet gets all the applications in the Service Fabric cluster or a specific application.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
@@ -41,29 +41,29 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 PS C:\>Get-ServiceFabricApplication
 ```
 
-This command gets Service Fabric applications.
+This command gets all the applications in the cluster.
 
 ### Example 2: Get application by name
 ```
 PS C:\>Get-ServiceFabricApplication -ApplicationName fabric:/MyApplication
 ```
 
-This command gets the Service Fabric application named fabric:/MyApplication.
+This command gets the specific application with the name `fabric:/MyApplication`.
 
 ## PARAMETERS
 
 ### -ApplicationName
 Specifies the Uniform Resource Identifier (URI) of a Service Fabric application.
-The cmdlet gets the application that has the URI that you specify.
-If you do not specify this parameter, this cmdlet gets all applications in the cluster.
+The cmdlet gets the application that has the specified URI.
+If you do not specify this parameter, this cmdlet gets all the applications in the cluster.
 
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -75,7 +75,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -95,7 +95,7 @@ A URI that represents the name of the Service Fabric application used as filter 
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns the **System.Fabric.Query.Application** objects that represent requested applications.
+This cmdlet returns **[System.Fabric.Query.Application](https://docs.microsoft.com/en-us/dotnet/api/System.Fabric.Query.Application)** objects that represent requested applications.
 
 ## NOTES
 

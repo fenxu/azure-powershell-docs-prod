@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: AC37BE9E-4243-4A85-BC4F-19A56B4FE00B
-updated_at: 11/3/2016 12:09 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/15/2017 9:43 PM
+ms.date: 3/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceManifest.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceManifest.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceManifest.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/27190831243acb47c212e34d29c2632057743ea2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceManifest.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -31,45 +31,33 @@ Get-ServiceFabricServiceManifest [-ApplicationTypeName] <String> [-ApplicationTy
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricServiceManifest** cmdlet gets the Service Fabric service type manifest.
+The **Get-ServiceFabricServiceManifest** cmdlet gets the Service Fabric service type manifest. The application containing the service must be registered with [Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType.md) before using Get-ServiceFabricServiceManifest.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
+
+To understand the Service Fabric application model, see [Model an application in Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-model)
 
 ## EXAMPLES
 
 ### Example 1: Get the service manifest
 ```
-PS C:\>Get-ServiceFabricServiceManifest -ApplicationTypeName "PersistentToDoListApp" -ApplicationTypeVersion "1.0" -ServiceManifestName "ServiceManifest.xml"
+PS C:\>Get-ServiceFabricServiceManifest -ApplicationTypeName "WordCount" -ApplicationTypeVersion "1.0.0" -ServiceManifestName "WordCountServicePkg"
 ```
 
-The command gets version 1.0 of the PersistentToDoListApp application from the specified service manifest.
+The command gets the service manifest for the service "WordCountServicePkg" of application type "1.0.0" and application version "WordCount".
+
+See [Word Count Sample's Application Manifest](https://github.com/Azure-Samples/service-fabric-dotnet-getting-started/blob/master/Services/WordCount/WordCount/ApplicationPackageRoot/ApplicationManifest.xml)
 
 ## PARAMETERS
 
 ### -ApplicationTypeName
-Specifies the name of a Service Fabric application type.
+Specifies the name of a Service Fabric application type. The application type name can be found in the ApplicationManifest.xml.
 The cmdlet gets the service manifest for the application type that you specify.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ApplicationTypeVersion
-Specifies the version of a Service Fabric application type.
-The cmdlet gets the manifest the application type version that you specify.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: 1
@@ -78,16 +66,32 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ServiceManifestName
-Specifies the name of a Service Fabric service manifest.
+### -ApplicationTypeVersion
+Specifies the version of a Service Fabric application type. The application type version can be found in the ApplicationManifest.xml.
+The cmdlet gets the service manifest for the application type version that you specify.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ServiceManifestName
+Specifies the name of a Service Fabric service package containing the service manifest. The Service manifest name can be found in the ApplicationManifest.xml.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -99,7 +103,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -114,7 +118,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### String
-This cmdlet accepts the name of a Service Fabric application type, the version of an application type, or the name of a service manifest.
+This cmdlet accepts the name of a Service Fabric application type, the version of this application type and the name of a service package.
 
 ## OUTPUTS
 

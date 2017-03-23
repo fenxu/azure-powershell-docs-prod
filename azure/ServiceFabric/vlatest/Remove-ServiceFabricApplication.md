@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 578CAE79-F1FF-470E-91B7-814D9DF0917B
-updated_at: 11/3/2016 1:31 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/7/2017 7:20 PM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01e9ebd12a5214c9c4f85a2b71b372181a0bf8a9/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/51a9a9cd71a567b6fbd78304cd355499fde42f98/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplication.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -48,18 +48,66 @@ Because this command includes the *Force* parameter, the cmdlet does not prompt 
 ## PARAMETERS
 
 ### -ApplicationName
-Specifies the Uniform Resource Identifier (URI) of a Service Fabric application.
+Specifies the Uniform Resource Identifier (URI) of a Service Fabric application. To get the names (URI) of the currently deployed applications, use [Get-ServiceFabricApplication](./Get-ServiceFabricApplication.md).
 The cmdlet removes the application that has the URI that you specify.
 
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ForceRemove
+Indicates that this cmdlet forces removal of the application. This should be used only if removal of the application is timing out.
+It is effectively the same as passing -ForceRemove to each internal remove service call. 
+Refer to -ForceRemove [Remove-ServiceFabricService](./Remove-ServiceFabricService.md) cmdlet for more details about force removing the services.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -TimeoutSec
+Specifies the time-out period, in seconds, for the operation. If the operation times out, the state of the application is undetermined.
+Use [Get-ServiceFabricApplicationHealth](./Get-ServiceFabricApplicationHealth.md) to determine the application state or use the -ForceRemove option to forcefully remove the application.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -78,54 +126,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ForceRemove
-Indicates that this cmdlet forces removal of the application.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -TimeoutSec
-Specifies the time-out period, in seconds, for the operation.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+The cmdlet is not run and no permanent changes will be made.
 
 ```yaml
 Type: SwitchParameter

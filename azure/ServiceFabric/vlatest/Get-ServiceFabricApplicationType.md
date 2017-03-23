@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 377D093A-8D81-4CDA-842B-EF8A9FF2585C
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 11:28 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8edb37da7f57a0f756588b48267ba97e13b21d02/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -36,19 +36,19 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ## EXAMPLES
 
-### Example 1: Get application types
+### Example 1: Get all registered application types
 ```
 PS C:\>Get-ServiceFabricApplicationType
 ```
 
 This command gets all registered application types.
 
-### Example 2: Get application type with specified type names
+### Example 2: Get registered application type with specified type names
 ```
 PS C:\>Get-ServiceFabricApplicationType -ApplicationTypeName "TestApp"
 ```
 
-This command gets the  registered application type named TestApp.
+This command gets the application types registered with the application type name "TestApp".
 
 ## PARAMETERS
 
@@ -60,10 +60,10 @@ If you do not specify this parameter, this cmdlet gets all application types.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -75,7 +75,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -94,8 +94,11 @@ This cmdlet accepts a string that represents the application type name filter.
 
 ## OUTPUTS
 
+### System.Array
+An Object[] with each object being a [System.Fabric.Query.ApplicationType](https://msdn.microsoft.com/library/system.fabric.query.applicationtype.aspx) object that represents the Service Fabric application types in case of multiple registered application types.
+
 ### System.Object
-This cmdlet returns **System.Fabric.Query.ApplicationType** objects that represent the Service Fabric application types.
+A [System.Fabric.Query.ApplicationType](https://msdn.microsoft.com/library/system.fabric.query.applicationtype.aspx) object in case of a single registered application type.
 
 ## NOTES
 

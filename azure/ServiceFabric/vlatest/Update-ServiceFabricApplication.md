@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 38C23E3E-4A54-4C9A-B349-A338006A12DE
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/10/2017 7:36 PM
+ms.date: 3/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/deeef17c4bb2eafe924fdbe3ccf8feb1219d5797/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -27,11 +27,11 @@ Updates or removes application capacity.
 
 ```
 Update-ServiceFabricApplication [-ApplicationName] <Uri> [-RemoveApplicationCapacity] [-MaximumNodes <Int64>]
- [-MinimumNodes <Int64>] [-TimeoutSec <Int32>] [-Metrics <String[]>] [<CommonParameters>]
+ [-MinimumNodes <Int64>] [-Metrics <String[]>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Update-ServiceFabricApplication** cmdlet updates or removes application capacity for an application.
+The **Update-ServiceFabricApplication** cmdlet updates or removes application capacity for an application that has already been created.
 
 Application capacity defines the maximum/minimum nodes for an application, as well as capacity per node for its metrics.
 
@@ -82,10 +82,10 @@ Specifies the name of the application to update.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -101,7 +101,7 @@ If you don't specify this parameter, the application uses the existing maximum n
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -111,7 +111,7 @@ Accept wildcard characters: False
 ```
 
 ### -Metrics
-Specifies an array of metrics.
+Specifies an array of metrics. These metrics are used by Service Fabric Cluster Resource Manager to manage resources in the cluster. For more information about metrics and resource managent in Service Fabric, see [Service Fabric Cluster Resource Manager Introduction](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-introduction).
 Each metric can follow the pattern MetricName,NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity, or can specify MetricName and use parameter names NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity followed by a parameter value separated with a colon.
 Each parameter **name:value** pair can appear at most once.
 
@@ -135,7 +135,7 @@ While updating capacity, Service Fabric performs the following validations and w
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -145,16 +145,15 @@ Accept wildcard characters: False
 ```
 
 ### -MinimumNodes
-Specifies the number of nodes in a cluster on which capacity is reserved for this application.
-The application is not guaranteed to have replicas on each of these nodes.
-The value of this parameter must be a non-negative integer.
+Specifies the number of nodes in a cluster on which capacity is reserved for this application, this does not mean that the application is guaranteed to have replicas on all those nodes.
+The value of this parameter must be a non-negative integer. Default value for this is zero which means no capacity is reserved for the application.
 
 If MinimumNodes is set to 0, no capacity is reserved.
 
 ```yaml
 Type: Int64
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -170,7 +169,7 @@ If you specify this parameter, you cannot specify the *Metrics* parameter to upd
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -185,7 +184,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

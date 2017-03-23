@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: ED7EBEFF-3AB3-4385-AA3A-AB03870E28EE
-updated_at: 11/3/2016 12:09 AM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 11:57 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1ee1eb862e0b78a20a656aad5e958efd0f11f85c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceType.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40a6d833fd1d0271eee2f9091ff587d62694e2ce/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceType.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Get-ServiceFabricServiceType
 
 ## SYNOPSIS
-Gets Service Fabric service types.
+Gets all the Service Fabric service types for the given application type or a specific service type.
 
 ## SYNTAX
 
@@ -31,7 +31,7 @@ Get-ServiceFabricServiceType [-ApplicationTypeName] <String> [-ApplicationTypeVe
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricServiceType** cmdlet gets Service Fabric service types.
+The **Get-ServiceFabricServiceType** cmdlet gets all the Service Fabric service types for the given application type, specified by its application type name and application type version, or a specific service type, specified by its application type and service type name.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
@@ -42,7 +42,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 PS C:\>Get-ServiceFabricServiceType -ApplicationTypeName "CalcServiceApp" -ApplicationTypeVersion "1.0"
 ```
 
-The command gets Service Fabric service type information for version 1.0 of the CalcServiceApp application.
+This command gets the information for the service types of version 1.0 of the CalcServiceApp application.
 
 ## PARAMETERS
 
@@ -53,10 +53,10 @@ The cmdlet gets the services types for the application type that you specify.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -69,10 +69,10 @@ The cmdlet gets the service types for the application type version that you spec
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -80,14 +80,16 @@ Accept wildcard characters: False
 
 ### -ServiceTypeName
 Specifies the name of a Service Fabric service type.
+The cmdlet gets only the service type with the specified service type name.
+If not specified, the cmdlet will return all the service types for the given application type.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -99,7 +101,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -114,12 +116,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### String
-This cmdlet accepts the name of a Service application type, the version of an application type, or the name of a service type.
+This cmdlet accepts the name of a Service Fabric application type and the version of an application type. A service type name can also be specified to get information for a specific service type.
 
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a list of **System.Fabric.Query.ServiceType** objects that represent Service Fabric service types.
+This cmdlet returns a list of **[System.Fabric.Query.ServiceType](https://docs.microsoft.com/dotnet/api/System.Fabric.Query.ServiceType)** objects that represent Service Fabric service types.
 
 ## NOTES
 

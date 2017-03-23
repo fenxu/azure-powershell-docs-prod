@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 239A882B-8E31-4404-AB35-2A39D8ABC600
-updated_at: 1/3/2017 6:53 PM
-ms.date: 1/3/2017
+online version: 
+schema: 2.0.0
+updated_at: 3/6/2017 6:43 PM
+ms.date: 3/6/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricRepairTaskHealthPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricRepairTaskHealthPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bd7e7939d172a05060cf108dbdf6b48bdb486cf0/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricRepairTaskHealthPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricRepairTaskHealthPolicy.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -26,8 +26,9 @@ Updates the health policy of a repair task.
 ## SYNTAX
 
 ```
-Update-ServiceFabricRepairTaskHealthPolicy [-TaskId] <string> [-PerformPreparingHealthCheck
-<bool>] [-PerformRestoringHealthCheck <bool>] [-Version <Int64>] [-TimeoutSec <Int32>] [-Force] [<CommonParameters>]
+Update-ServiceFabricRepairTaskHealthPolicy [-TaskId] <String> [-Version <Int64>]
+ [-PerformPreparingHealthCheck <Boolean>] [-PerformRestoringHealthCheck <Boolean>] [-Force]
+ [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -61,35 +62,18 @@ This example leaves the Preparing state as it is.
 
 ## PARAMETERS
 
-### -TaskId
-Specifies the ID of the repair task to update.
+### -Force
+{{Fill Force Description}}
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Version
-Specifies the current version of the repair task.
-The request can succeed only if the value that this parameter specifies matches the current value of the repair task.
-Specify a value of zero (0) to skip version check.
-
-```yaml
-Type: Int64
-Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 1
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -97,9 +81,9 @@ Accept wildcard characters: False
 Specifies whether a cluster health check is to be performed in the Preparing state of the repair task.
 
 ```yaml
-Type: bool
+Type: Boolean
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -112,13 +96,28 @@ Accept wildcard characters: False
 Specifies whether a cluster health check is to be performed in the Restoring state of the repair task.
 
 ```yaml
-Type: bool
+Type: Boolean
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: False
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -TaskId
+Specifies the ID of the repair task to update.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
@@ -129,7 +128,54 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Version
+Specifies the current version of the repair task.
+The request can succeed only if the value that this parameter specifies matches the current value of the repair task.
+Specify a value of zero (0) to skip version check.
+
+```yaml
+Type: Int64
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -WhatIf
+Shows what would happen if the cmdlet runs. The cmdlet is not run.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: wi
 
 Required: False
 Position: Named
@@ -140,7 +186,6 @@ Accept wildcard characters: False
 
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
-
 
 ## INPUTS
 

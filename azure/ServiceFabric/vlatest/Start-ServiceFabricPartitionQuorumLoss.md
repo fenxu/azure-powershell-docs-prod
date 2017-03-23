@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 199F858A-4F1C-44C4-9723-D651FE5FAF44
-updated_at: 3/15/2017 7:11 PM
-ms.date: 3/15/2017
+online version: 
+schema: 2.0.0
+updated_at: 3/23/2017 8:11 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/7d17bb7468bc98d90933e57d0cb030408d1be3f5/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -24,25 +24,13 @@ ms.service: service-fabric
 Initiates a fault to put a partition into quorum loss.
 
 ## SYNTAX
+The various ways to specify or to choose the partition to invoke quorum loss on are as follows:
 
 ### PartitionId
 ```
 Start-ServiceFabricPartitionQuorumLoss -OperationId <Guid> -QuorumLossMode <QuorumLossMode>
  -QuorumLossDurationInSeconds <Int32> -PartitionId <Guid> -ServiceName <Uri> [-TimeoutSec <Int32>]
  [<CommonParameters>]
-```
-
-### ServiceNamePartitionUniformedInt
-```
-Start-ServiceFabricPartitionQuorumLoss -OperationId <Guid> -QuorumLossMode <QuorumLossMode>
- -QuorumLossDurationInSeconds <Int32> -ServiceName <Uri> [-PartitionKindUniformInt64] -PartitionKey <String>
- [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNameRandomPartition
-```
-Start-ServiceFabricPartitionQuorumLoss -OperationId <Guid> -QuorumLossMode <QuorumLossMode>
- -QuorumLossDurationInSeconds <Int32> -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionSingleton
@@ -59,8 +47,23 @@ Start-ServiceFabricPartitionQuorumLoss -OperationId <Guid> -QuorumLossMode <Quor
  [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNameRandomPartition
+```
+Start-ServiceFabricPartitionQuorumLoss -OperationId <Guid> -QuorumLossMode <QuorumLossMode>
+ -QuorumLossDurationInSeconds <Int32> -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNamePartitionUniformedInt
+```
+Start-ServiceFabricPartitionQuorumLoss -OperationId <Guid> -QuorumLossMode <QuorumLossMode>
+ -QuorumLossDurationInSeconds <Int32> -ServiceName <Uri> [-PartitionKindUniformInt64] -PartitionKey <String>
+ [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ## DESCRIPTION
 The **Start-ServiceFabricPartitionQuorumLoss** cmdlet initiates a fault to put a stateful service partition into quorum loss in Azure Service Fabric.
+
+To run this cmdlet, **FaultAnalysisService** must be enabled.
 
 > [!WARNING]
 > Do not use this cmdlet to perform a quorum loss fault operation on system services.
@@ -91,7 +94,7 @@ You can check the progress of the operation by passing this ID into **Get-Servic
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -106,7 +109,7 @@ Specifies the ID of the Service Fabric partition that this cmdlet puts into quor
 ```yaml
 Type: Guid
 Parameter Sets: PartitionId
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -120,8 +123,8 @@ Specifies the key of the Service Fabric partition that this cmdlet puts into quo
 
 ```yaml
 Type: String
-Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionNamed
-Aliases:
+Parameter Sets: ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt
+Aliases: 
 
 Required: True
 Position: Named
@@ -136,7 +139,7 @@ Indicates that the Service Fabric partition that this cmdlet puts into quorum lo
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionNamed
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -151,7 +154,7 @@ Indicates that the Service Fabric partition that this cmdlet puts into quorum lo
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionSingleton
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -166,7 +169,7 @@ Indicates that the Service Fabric partition that this cmdlet puts into quorum lo
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ServiceNamePartitionUniformedInt
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -181,7 +184,7 @@ Specifies the duration, in seconds, of the quorum loss.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -202,7 +205,7 @@ Down a quorum of replicas for the target partition.
 ```yaml
 Type: QuorumLossMode
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: Invalid, QuorumReplicas, AllReplicas
 
 Required: True
@@ -218,7 +221,7 @@ Specifies the Uniform Resource Identifier (URI) of a Service Fabric service.
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -233,7 +236,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
+ms.assetid: D3EBED16-23D5-4F21-8917-21E36A6ADD78
 online version:
 schema: 2.0.0
-ms.assetid: D3EBED16-23D5-4F21-8917-21E36A6ADD78
-updated_at: 11/2/2016 6:01 PM
-ms.date: 11/2/2016
+updated_at: 3/7/2017 6:24 PM
+ms.date: 3/7/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterManifest.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterManifest.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a04d7fb81ddb4ca19a8c0101c71d7745ad5e082a/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterManifest.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/31ce2cbc2767e8e9f0a1f1271dda52160ffdb112/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterManifest.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,8 @@ ms.service: service-fabric
 # Get-ServiceFabricClusterManifest
 
 ## SYNOPSIS
-Gets the Service Fabric cluster manifest.
+Gets the Service Fabric cluster manifest. 
+Cluster manifest includes default configurations for the cluster such as [Reliable Service Configurations](https://docs.microsoft.com/azure/service-fabric/service-fabric-reliable-services-configuration).
 
 ## SYNTAX
 

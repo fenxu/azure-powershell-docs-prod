@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
-online version:
-schema: 2.0.0
 ms.assetid: 1E932261-A36C-46A2-A1C7-D656A10E8F66
-updated_at: 11/3/2016 5:06 PM
-ms.date: 11/3/2016
+online version: 
+schema: 2.0.0
+updated_at: 3/13/2017 6:34 PM
+ms.date: 3/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/79292df3c325e2a04987a559a1141637740ddd4c/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricApplication.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0ecc51b2b631d3697a80bb81fcb6ca2e4ceb95d5/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricApplication.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,7 +21,7 @@ ms.service: service-fabric
 # Test-ServiceFabricApplication
 
 ## SYNOPSIS
-Validates a Service Fabric application.
+Validates the health and availability of a Service Fabric application.
 
 ## SYNTAX
 
@@ -32,9 +32,9 @@ Test-ServiceFabricApplication [-ApplicationName] <Uri> [-MaxStabilizationTimeout
 
 ## DESCRIPTION
 The **Test-ServiceFabricApplication** cmdlet tests the availability and health of a Service Fabric application.
-This cmdlet verifies that the service is at the target replica set size and that the service health is good.
-This cmdlet also validates that there are no InBuild replicas.
-Use this cmdlet to verify that your service is stable after inducing any fault into the system.
+This cmdlet verifies that all the services contained in the application are at the target replica set size and that the service health is good.
+This cmdlet also validates that all replicas belonging to each service are ready and not in an transitional state like InBuild ([ServiceReplicaStatus](https://docs.microsoft.com/en-us/dotnet/api/system.fabric.query.servicereplicastatus)).
+Use this cmdlet to verify that your application and its services are stable after inducing any fault into the system.
 
 Before using this cmdlet, connect to the Service Fabric cluster.
 
@@ -50,30 +50,30 @@ This command tests all of the services in the specified application to make sure
 ## PARAMETERS
 
 ### -ApplicationName
-Specifies the name of the application to test.
+Specifies the name of the application to validate.
 
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -MaxStabilizationTimeoutSec
-Specifies the maximum time-out period, in seconds, for the cluster to stabilize before failing the test.
+Specifies the maximum time-out period, in seconds, for the application to stabilize before failing the validate command.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -85,7 +85,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
