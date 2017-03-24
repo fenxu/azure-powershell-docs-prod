@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 0A8D8356-C8A1-4EA7-9E0C-3C7A483EB72E
 online version: 
 schema: 2.0.0
-updated_at: 3/7/2017 12:32 AM
-ms.date: 3/7/2017
+updated_at: 3/24/2017 3:09 PM
+ms.date: 3/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/58cc3b08f24e76e5425050604e50a24765246be7/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bc0ec5bc26f85fe1bd8f50fdd7441df1ae0fcddb/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -173,11 +173,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+
 You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+
 This cmdlet returns the status of the operation as a string.
 
 ## NOTES

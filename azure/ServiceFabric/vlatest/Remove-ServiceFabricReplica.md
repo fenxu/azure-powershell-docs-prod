@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 80D9F43B-395B-4295-8D5B-CE56BB0B6FA2
 online version: 
 schema: 2.0.0
-updated_at: 3/23/2017 8:11 PM
-ms.date: 3/23/2017
+updated_at: 3/24/2017 3:09 PM
+ms.date: 3/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bc0ec5bc26f85fe1bd8f50fdd7441df1ae0fcddb/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -176,14 +176,13 @@ Note, sometimes the user may - instead of exactly specifying the replica - want 
 
 
 ## EXAMPLES
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ### Example 1: Remove a replica
 ```
 PS C:\>Remove-ServiceFabricReplica -NodeName "Node07" -PartitionId 869dd2e9-fdda-42a5-ad96-4b71c795dfd3 -ReplicaOrInstanceId 12345098480948
 ```
 
-This command removes a replica that belongs to the specified partition that is deployed on the specified node.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet. This command removes a replica that belongs to the specified partition that is deployed on the specified node.
 
 ### Example 2: Remove a primary replica
 ```
@@ -412,5 +411,3 @@ This cmdlet returns a **System.Fabric.Result.RemoveReplicaResult** object that r
 ## RELATED LINKS
 
 [Get-ServiceFabricReplica](xref:ServiceFabric/vlatest/Get-ServiceFabricReplica.md)
-
-

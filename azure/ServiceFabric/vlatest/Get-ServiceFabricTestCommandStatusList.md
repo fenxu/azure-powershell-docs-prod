@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 26459CBC-9296-4B65-A298-E6B31EF65865
 online version: 
 schema: 2.0.0
-updated_at: 3/13/2017 6:24 PM
-ms.date: 3/13/2017
+updated_at: 3/24/2017 3:09 PM
+ms.date: 3/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/3db470da5b78619e5518aa7cfd16efb454ef7acf/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bc0ec5bc26f85fe1bd8f50fdd7441df1ae0fcddb/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -130,8 +130,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Stop-ServiceFabricTestCommand](xref:ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md),
-[Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress),
-[Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress),
-[Get-ServiceFabricPartitionRestartProgress](./Get-ServiceFabricPartitionRestartProgress),
+[Stop-ServiceFabricTestCommand](xref:ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md)
+
+[Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress)
+
+[Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress)
+
+[Get-ServiceFabricPartitionRestartProgress](./Get-ServiceFabricPartitionRestartProgress)
+
 [Get-ServiceFabricNodeTransitionProgress](./Get-ServiceFabricNodeTransitionProgress)

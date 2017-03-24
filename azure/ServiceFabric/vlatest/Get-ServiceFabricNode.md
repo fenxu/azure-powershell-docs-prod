@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 27D58E8F-73CC-4FCE-90BD-449F86127385
 online version: 
 schema: 2.0.0
-updated_at: 3/6/2017 11:22 PM
-ms.date: 3/6/2017
+updated_at: 3/24/2017 3:09 PM
+ms.date: 3/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/5935d047dbc6cd41c353caf46ff85f77d23c43fc/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bc0ec5bc26f85fe1bd8f50fdd7441df1ae0fcddb/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -104,9 +104,11 @@ Accept wildcard characters: False
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
+
 **Get-ServiceFabricNode** accepts the name of a node as a string.
 
 ## OUTPUTS
+
 **Get-ServiceFabricNode** returns instances of the **[System.Fabric.Query.Node](https://docs.microsoft.com/dotnet/api/system.fabric.query.node)**.
 
 ## NOTES

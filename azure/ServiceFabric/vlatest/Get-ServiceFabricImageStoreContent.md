@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: DD60B18E-5ED7-41B6-B9D4-38BD726DCFF2
 online version: 
 schema: 2.0.0
-updated_at: 3/6/2017 11:19 PM
-ms.date: 3/6/2017
+updated_at: 3/24/2017 3:09 PM
+ms.date: 3/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/56f05e0ace416e4e6646bddfc02540651f0bc3fc/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bc0ec5bc26f85fe1bd8f50fdd7441df1ae0fcddb/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -169,15 +169,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-###  
-**Get-ServiceFabricStoreContent** accepts string instances of a Service Fabric application type; the version of an application type; or the image store relative path.
+### The cmdlet **Get-ServiceFabricStoreContent** accepts string instances of a Service Fabric application type; the version of an application type; or the image store relative path.
 
 ## OUTPUTS
 
-###  
-**Get-ServiceFabricStoreContent** returns instances of the  **System.Fabric.Management.ImageStore.ImageStoreFile** object and/or the **System.Fabric.Management.ImageStore.ImageStoreFolder** object.
+### The cmdlet **Get-ServiceFabricStoreContent** returns instances of the  **System.Fabric.Management.ImageStore.ImageStoreFile** object and/or the **System.Fabric.Management.ImageStore.ImageStoreFolder** object.
 
 ## NOTES
 
 ## RELATED LINKS
-

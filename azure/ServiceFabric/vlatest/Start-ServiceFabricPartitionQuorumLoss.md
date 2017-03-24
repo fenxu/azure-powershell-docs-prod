@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 199F858A-4F1C-44C4-9723-D651FE5FAF44
 online version: 
 schema: 2.0.0
-updated_at: 3/23/2017 8:11 PM
-ms.date: 3/23/2017
+updated_at: 3/24/2017 3:09 PM
+ms.date: 3/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bc0ec5bc26f85fe1bd8f50fdd7441df1ae0fcddb/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -21,10 +21,9 @@ ms.service: service-fabric
 # Start-ServiceFabricPartitionQuorumLoss
 
 ## SYNOPSIS
-Initiates a fault to put a partition into quorum loss.
+Initiates a fault to put a partition into quorum loss. The various ways to specify or to choose the partition to invoke quorum loss on are below.
 
 ## SYNTAX
-The various ways to specify or to choose the partition to invoke quorum loss on are as follows:
 
 ### PartitionId
 ```
@@ -247,6 +246,14 @@ Accept wildcard characters: False
 
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
+##INPUTS
+
+##OUTPUTS
+
+##This cmdlet does not generate any output.
+
+##NOTES
 
 ## RELATED LINKS
 
