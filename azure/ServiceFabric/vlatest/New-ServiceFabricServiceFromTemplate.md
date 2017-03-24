@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 0A8D8356-C8A1-4EA7-9E0C-3C7A483EB72E
 online version: 
 schema: 2.0.0
-updated_at: 3/24/2017 3:09 PM
+updated_at: 3/24/2017 6:38 PM
 ms.date: 3/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bc0ec5bc26f85fe1bd8f50fdd7441df1ae0fcddb/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/88c0d2240a33e93992c7f3beac793933017bb52a/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -80,15 +80,15 @@ Given the following application and service manifests:
 The following command creates a Service Fabric service using the service template for service type **MyServiceType** defined in the application manifest:
 
 
-```
+
 PS C:\>New-ServiceFabricServiceFromTemplate -ApplicationName fabric:/myapp -ServiceName fabric:/myapp/myservice1 -ServiceTypeName MyServiceType 
-```
+
 
 Multiple service instances can be created using the same service template. After additionally running the following command, there will be two singleton stateless services of type **MyServiceType**:
 
-```
+
 PS C:\>New-ServiceFabricServiceFromTemplate -ApplicationName fabric:/myapp -ServiceName fabric:/myapp/myservice2 -ServiceTypeName MyServiceType 
-```
+
 
 ## PARAMETERS
 
