@@ -3,11 +3,11 @@ external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 ms.assetid: F1CEBDF4-5AF8-4AFC-AA1F-D36CEC381D04
 online version: 
 schema: 2.0.0
-updated_at: 2/4/2017 12:05 AM
-ms.date: 2/4/2017
+updated_at: 3/24/2017 10:41 PM
+ms.date: 3/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADObjectSetting.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADObjectSetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADObjectSetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a571839d205cf22525070ed6892dcf180fab808c/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADObjectSetting.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -33,12 +33,12 @@ Get-AzureADObjectSetting -TargetType <String> -TargetObjectId <String> [-All <Bo
 
 ### GetById
 ```
-Get-AzureADObjectSetting -TargetType <String> -TargetObjectId <String> -ObjectId <String> [-All <Boolean>]
+Get-AzureADObjectSetting -TargetType <String> -TargetObjectId <String> -Id <String> [-All <Boolean>]
  [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AzureADObjectSetting** cmdlet gets an object from Azure Active Directory (AD).
+The Get-AzureADObjectSetting cmdlet gets an object setting from Azure Active Directory (AD).
 
 ## EXAMPLES
 
@@ -59,7 +59,7 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -ObjectId
+### -Id
 Specifies the ID of a settings object. 
 
 ```yaml

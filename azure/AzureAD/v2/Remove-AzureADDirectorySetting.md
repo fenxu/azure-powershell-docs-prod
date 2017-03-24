@@ -3,11 +3,11 @@ external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 ms.assetid: 329E3820-C069-4F0F-8793-28AF37DCF7F1
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 3/24/2017 10:41 PM
+ms.date: 3/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDirectorySetting.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDirectorySetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDirectorySetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a571839d205cf22525070ed6892dcf180fab808c/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADDirectorySetting.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -26,7 +26,7 @@ Deletes a directory setting in Azure Active Directory.
 ## SYNTAX
 
 ```
-Remove-AzureADDirectorySetting [-Confirm] [-ObjectId <String>] [-InformationAction <ActionPreference>]
+Remove-AzureADDirectorySetting [-Confirm] [-Id <String>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [<CommonParameters>]
 ```
 
@@ -74,7 +74,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ObjectId
+### -Id
 Specifies the object ID of a settings object in Azure AD.
 
 ```yaml

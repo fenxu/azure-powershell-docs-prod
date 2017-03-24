@@ -3,11 +3,11 @@ external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 ms.assetid: 505A49A7-2C60-4D87-BE2C-AE5BF7B5FD86
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 3/24/2017 10:41 PM
+ms.date: 3/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADObjectSetting.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADObjectSetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADObjectSetting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a571839d205cf22525070ed6892dcf180fab808c/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADObjectSetting.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -26,7 +26,7 @@ Updates object settings.
 ## SYNTAX
 
 ```
-Set-AzureADObjectSetting -TargetType <String> -TargetObjectId <String> [-ObjectId <String>]
+Set-AzureADObjectSetting -TargetType <String> -TargetObjectId <String> [-Id <String>]
  -DirectorySetting <DirectorySetting> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [<CommonParameters>]
 ```
@@ -39,7 +39,7 @@ The **Set-AzureADObjectSetting** cmdlet updates the settings for an object in Az
 ## PARAMETERS
 
 ### -DirectorySetting
-Specifies a **DirectorySetting** objet. 
+Specifies a **DirectorySetting** object. 
 
 ```yaml
 Type: DirectorySetting
@@ -90,7 +90,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ObjectId
+### -Id
 Specifies the ID of a settings object.
 
 ```yaml
