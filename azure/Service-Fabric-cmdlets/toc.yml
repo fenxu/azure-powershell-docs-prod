@@ -1,6 +1,7 @@
 - name: ServiceFabric
   items:
     - name: vlatest
+      href: ../ServiceFabric/vlatest/ServiceFabric.md
       items:
         - name: Add-ServiceFabricNode
           href: ../ServiceFabric/vlatest/Add-ServiceFabricNode.md
@@ -232,8 +233,6 @@
           href: ../ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
         - name: Send-ServiceFabricServiceHealthReport
           href: ../ServiceFabric/vlatest/Send-ServiceFabricServiceHealthReport.md
-        - name: ServiceFabric
-          href: ../ServiceFabric/vlatest/ServiceFabric.md
         - name: Start-ServiceFabricApplicationRollback
           href: ../ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
         - name: Start-ServiceFabricApplicationUpgrade
@@ -296,5 +295,3 @@
           href: ../ServiceFabric/vlatest/Update-ServiceFabricService.md
         - name: Update-ServiceFabricServiceGroup
           href: ../ServiceFabric/vlatest/Update-ServiceFabricServiceGroup.md
-        - name: Log
-          items:

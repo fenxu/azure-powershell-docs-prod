@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 156B7382-5026-423F-8570-969F11C4BD5F
 online version: 
 schema: 2.0.0
-updated_at: 3/6/2017 11:19 PM
-ms.date: 3/6/2017
+updated_at: 3/23/2017 11:59 PM
+ms.date: 3/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/live/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/56f05e0ace416e4e6646bddfc02540651f0bc3fc/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/62c1301e8aa11be021610cd9dcec749124129963/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
 ms.topic: reference
 ms.technology: Azure Powershell
 author: oanapl
@@ -154,11 +154,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
+
 You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
+
 This cmdlet returns a message that includes the status of the operation.
 
 ## NOTES
