@@ -6,15 +6,16 @@ ms.assetid: F0568B6B-E86F-445E-AAD6-6E9E984ED981
 updated_at: 11/16/2016 9:11 AM
 ms.date: 11/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobScriptBatchExecution.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobScriptBatchExecution.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/b6a4e720f68675b3b0e9f6aa6be6e55d3ebdc390/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJobScriptBatchExecution.md
 ms.topic: reference
-ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
 open_to_public_contributors: False
+ms.service: sql-data-warehouse
 ---
 
 # Get-AzureSqlJobScriptBatchExecution

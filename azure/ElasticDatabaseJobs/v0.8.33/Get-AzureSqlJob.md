@@ -6,15 +6,16 @@ ms.assetid: BE8DBC20-68D1-4F97-8B24-3C21AB2E2B32
 updated_at: 11/16/2016 9:11 AM
 ms.date: 11/16/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/b6a4e720f68675b3b0e9f6aa6be6e55d3ebdc390/ElasticDB/ElasticDatabaseJobs/v0.8.33/Get-AzureSqlJob.md
 ms.topic: reference
-ms.service: sql-data-warehouse
 ms.technology: Azure Powershell
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
 open_to_public_contributors: False
+ms.service: sql-data-warehouse
 ---
 
 # Get-AzureSqlJob

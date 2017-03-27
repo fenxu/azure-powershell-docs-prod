@@ -1,3 +1,9 @@
+- name: conceptual-docs
+  items:
+    - name: overview
+      href: ../conceptual-docs/overview.md
+    - name: TOC
+      href: ../conceptual-docs/TOC.md
 - name: ElasticDatabaseJobs
   items:
     - name: v0.8.33
@@ -71,3 +77,5 @@
           href: ../ElasticDatabaseJobs/v0.8.33/Use-AzureSqlJobConnection.md
         - name: Wait-AzureSqlJobExecution
           href: ../ElasticDatabaseJobs/v0.8.33/Wait-AzureSqlJobExecution.md
+- name: mapping
+  items:
