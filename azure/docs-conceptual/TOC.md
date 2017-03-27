@@ -1,18 +1,19 @@
 ---
-updated_at: 3/27/2017 8:14 PM
+updated_at: 3/27/2017 8:37 PM
 ms.date: 3/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/TOC.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/TOC.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1f1c3d2987c4e45aded8df709d5c31a96db72bd2/Azure%20AD%20Cmdlets/docs-conceptual/TOC.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/docs-conceptual/TOC.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/docs-conceptual/TOC.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ba4c6dcd31c8cbc755c4a1fa59d875efe8476913/Azure%20Information%20Protection/docs-conceptual/TOC.md
 uid: docs-conceptual/TOC.md
 ms.topic: conceptual
-ms.technology: Azure PowerShell
-author: erickson-doug
+ms.prod: powershell
+ms.technology: Azure Powershell
+author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
-manager: carolz
-open_to_public_contributors: True
-ms.service: active-directory
+manager: cabailey
+open_to_public_contributors: False
+ms.service: rights-management
 ---
 # [Overview](overview)
-
+## [Install](install-azure-ps)

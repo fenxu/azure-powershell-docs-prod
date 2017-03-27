@@ -1,18 +1,19 @@
 {
-    "azureadps-2.0": {
-        "azure-docs-powershel-azuread/Azure AD Cmdlets": {
-            "AzureAD": {
-                "_displayName": "AzureAD",
-                "_version": "v2"
-            }
-        }
-    },
-    "azureadps-1.0": {
-        "azure-docs-powershel-azuread/Azure AD Cmdlets": {
-            "MSOnline": {
-                "_displayName": "MSOnline",
-                "_version": "v1"
+    "azureipps": {
+        "azure-docs-powershell-aip/Azure Information Protection": {
+            "AADRM": {
+                "_displayName": "AADRM",
+                "_version": "vlatest"
+            },
+            "AzureInformationProtection": {
+                "_displayName": "Azure Information Protection",
+                "_version": "vlatest"
+            },
+            "RMSProtection": {
+                "_displayName": "RMS Protection",
+                "_version": "vlatest"
             }
         }
     }
+      
 }
