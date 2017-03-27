@@ -354,6 +354,14 @@
           href: ../AzureAD/v2/Set-AzureADUserThumbnailPhoto.md
         - name: Update-AzureADSignedInUserPassword
           href: ../AzureAD/v2/Update-AzureADSignedInUserPassword.md
+- name: docs-conceptual
+  items:
+    - name: overview
+      href: ../docs-conceptual/overview.md
+    - name: TOC
+      href: ../docs-conceptual/TOC.md
+- name: mapping
+  items:
 - name: MSOnline
   href: ../MSOnline/index.md
   items:
