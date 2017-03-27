@@ -1,3 +1,11 @@
+- name: docs-conceptual
+  items:
+    - name: overview
+      href: ../docs-conceptual/overview.md
+    - name: TOC
+      href: ../docs-conceptual/TOC.md
+- name: mapping
+  items:
 - name: ServiceFabric
   items:
     - name: vlatest
@@ -155,8 +163,6 @@
           href: ../ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
         - name: New-ServiceFabricApplication
           href: ../ServiceFabric/vlatest/New-ServiceFabricApplication.md
-        - name: New-ServiceFabricCluster
-          href: ../ServiceFabric/vlatest/New-ServiceFabricCluster.md
         - name: New-ServiceFabricNodeConfiguration
           href: ../ServiceFabric/vlatest/New-ServiceFabricNodeConfiguration.md
         - name: New-ServiceFabricPackageDebugParameter
