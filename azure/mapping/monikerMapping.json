@@ -1,11 +1,18 @@
 {
-    "azureelasticdbjobsps-0.8.33": {
-        "azure-docs-powershell-elasticdb/ElasticDB": {
-            "ElasticDatabaseJobs": {
-                "_displayName": "ElasticDatabaseJobs",
-                "_version": "v0.8.33"
+    "azureadps-2.0": {
+        "azure-docs-powershel-azuread/Azure AD Cmdlets": {
+            "AzureAD": {
+                "_displayName": "AzureAD",
+                "_version": "v2"
+            }
+        }
+    },
+    "azureadps-1.0": {
+        "azure-docs-powershel-azuread/Azure AD Cmdlets": {
+            "MSOnline": {
+                "_displayName": "MSOnline",
+                "_version": "v1"
             }
         }
     }
-      
 }
