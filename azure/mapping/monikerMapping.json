@@ -1,16 +1,8 @@
 {
-    "azureipps": {
-        "azure-docs-powershell-aip/Azure Information Protection": {
-            "AADRM": {
-                "_displayName": "AADRM",
-                "_version": "latest"
-            },
-            "AzureInformationProtection": {
-                "_displayName": "Azure Information Protection",
-                "_version": "latest"
-            },
-            "RMSProtection": {
-                "_displayName": "RMS Protection",
+    "azureservicefabricps": {
+        "azure-docs-powershell-servicefabric/service-fabric-cmdlets": {
+            "ServiceFabric": {
+                "_displayName": "ServiceFabric",
                 "_version": "latest"
             }
         }
