@@ -1,13 +1,13 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 ms.assetid: 1E76B8D2-A7DF-49EE-8E22-6BFEE24A8B7F
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 3/28/2017 12:26 AM
+ms.date: 3/28/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/9cd8b80caaebed24cf5986c4cc47381bc2c8e3b7/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADApplicationPolicy.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -26,7 +26,7 @@ Adds an application policy.
 ## SYNTAX
 
 ```
-Add-AzureADApplicationPolicy -ObjectId <String> -RefObjectId <String> [-InformationAction <ActionPreference>]
+Add-AzureADApplicationPolicy -Id <String> -RefObjectId <String> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [<CommonParameters>]
 ```
 
@@ -35,7 +35,7 @@ The **Add-AzureADApplicationPolicy** cmdlet adds an Azure Active Directory appli
 
 ## EXAMPLES
 
-### Example 1: Add an applicaton policy
+### Example 1: Add an application policy
 ```
 PS C:\>Add-AzureADApplicationPolicy -ObjectId <object id of application> -RefObjectId <object id of policy>
 ```
@@ -80,8 +80,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ObjectId
-Specifies the ID of the application.
+### -RefObjectId
+Specifies the ID of the policy.
 
 ```yaml
 Type: String
@@ -95,8 +95,8 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -RefObjectId
-Specifies the ID of the policy.
+### -Id
+The ID of the application for which you need to set the policy
 
 ```yaml
 Type: String

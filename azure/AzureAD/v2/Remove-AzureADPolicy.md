@@ -1,13 +1,13 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 ms.assetid: D74563F0-14B9-43BD-8C3C-BC46CD505407
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 3/28/2017 12:26 AM
+ms.date: 3/28/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/9cd8b80caaebed24cf5986c4cc47381bc2c8e3b7/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADPolicy.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -26,7 +26,7 @@ Removes a policy.
 ## SYNTAX
 
 ```
-Remove-AzureADPolicy -ObjectId <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+Remove-AzureADPolicy -Id <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
  [<CommonParameters>]
 ```
 
@@ -37,7 +37,7 @@ The **Remove-AzureADPolicy** cmdlet removes a policy from Azure Active Directory
 
 ### Example 1: Remove a policy
 ```
-PS C:\>Remove-AzureADPolicy -ObjectId *<objectID>*.
+PS C:\>Remove-AzureADPolicy -Id *<ID>*.
 ```
 
 This command removes the specified policy.
@@ -81,8 +81,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ObjectId
-Specifies the object ID of the policy to remove.
+### -Id
+The Id of the policy you want to remove
 
 ```yaml
 Type: String

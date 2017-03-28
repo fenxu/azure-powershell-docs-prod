@@ -1,13 +1,13 @@
 ---
-external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
+external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 ms.assetid: C62F46A7-EEE7-41C9-9F71-98C05C11E20D
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 3/28/2017 12:26 AM
+ms.date: 3/28/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicyAppliedObject.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicyAppliedObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicyAppliedObject.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/9cd8b80caaebed24cf5986c4cc47381bc2c8e3b7/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADPolicyAppliedObject.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -25,7 +25,7 @@ ms.service: active-directory
 ## SYNTAX
 
 ```
-Get-AzureADPolicyAppliedObject -ObjectId <String> [-InformationAction <ActionPreference>]
+Get-AzureADPolicyAppliedObject -Id <String> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [<CommonParameters>]
 ```
 
@@ -73,8 +73,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ObjectId
-Specifies the ID of the policy object to get.
+### -Id
+The Id of the policy for which you want to find the objects
 
 ```yaml
 Type: String

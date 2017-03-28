@@ -3,11 +3,11 @@ external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 ms.assetid: BBFC4A72-1D35-4E9F-9B8A-F558E4D0E150
 online version: 
 schema: 2.0.0
-updated_at: 12/1/2016 5:36 PM
-ms.date: 12/1/2016
+updated_at: 3/28/2017 12:26 AM
+ms.date: 3/28/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectorySettingTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectorySettingTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectorySettingTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/9cd8b80caaebed24cf5986c4cc47381bc2c8e3b7/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectorySettingTemplate.md
 ms.topic: reference
 ms.technology: Azure PowerShell
 author: erickson-doug
@@ -25,8 +25,15 @@ Gets a directory setting template.
 
 ## SYNTAX
 
+### GetQuery (Default)
 ```
-Get-AzureADDirectorySettingTemplate [-ObjectId <String>] [-InformationAction <ActionPreference>]
+Get-AzureADDirectorySettingTemplate [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [<CommonParameters>]
+```
+
+### GetById
+```
+Get-AzureADDirectorySettingTemplate -Id <String> [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [<CommonParameters>]
 ```
 
@@ -74,15 +81,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ObjectId
-Specifies the ID of a setting template in Azure AD.
+### -Id
+The ID of the settings template you want to retrieve
 
 ```yaml
 Type: String
-Parameter Sets: (All)
+Parameter Sets: GetById
 Aliases: 
 
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
