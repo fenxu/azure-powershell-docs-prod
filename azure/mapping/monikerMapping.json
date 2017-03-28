@@ -1,9 +1,9 @@
 {
-    "azureservicefabricps": {
-        "azure-docs-powershell-servicefabric/service-fabric-cmdlets": {
-            "ServiceFabric": {
-                "_displayName": "ServiceFabric",
-                "_version": "latest"
+    "azureelasticdbjobsps-0.8.33": {
+        "azure-docs-powershell-elasticdb/ElasticDB": {
+            "ElasticDatabaseJobs": {
+                "_displayName": "ElasticDatabaseJobs",
+                "_version": "0.8.33"
             }
         }
     }
